@@ -81,7 +81,7 @@ A CI pass confirms only the checks that CI actually runs. It does not mean the i
 
 ## Automated pre-deploy smoke test — 20 October 2026
 
-- Latest successful Chromium + axe-core run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39504241555.
+- Latest successful Chromium + axe-core run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39504606241.
 - All 20 indexable routes passed automated axe-core scans for WCAG 2.1 A/AA rule tags. The first scan found real colour-contrast failures in the homepage hero, guide metadata and footer; supporting-text colours were darkened and the suite passed after the fixes.
-- The current suite also checks all 20 indexable routes at 320, 375, 390, 768, 1024 and 1440px, language/main/skip-link structure, accessible names for controls, mobile navigation, calculator edge cases, checklist progress/reset, metadata parity, browser-console errors and uncaught page errors.
+- The current suite also checks all 20 indexable routes at 320, 375, 390, 768, 1024 and 1440px, language/main/skip-link structure, accessible names for controls, mobile navigation, calculator valid/zero/negative/empty/over-limit/decimal and multiplier edge cases, currency changes, checklist progress/reset, metadata parity, browser-console errors and uncaught page errors.
 - Automated axe scans are not proof of WCAG conformance and do not replace keyboard-only, screen-reader, contrast spot-check, zoom/reflow, real-device/manual, external-link, production-host, legal/privacy review or launch approval. Those remain open.
