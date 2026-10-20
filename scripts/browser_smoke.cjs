@@ -115,6 +115,33 @@ const routes = [
     if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
       throw new Error("wagering calculator did not reject an empty amount");
     }
+    await page.locator("#eligible").fill("abc");
+    if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject malformed amount input");
+    }
+    await page.locator("#eligible").fill("12.5");
+    await page.locator("#multiplier").fill("2.5");
+    if (!(await page.locator("#turnover").textContent()).includes("31.25")) {
+      throw new Error("wagering calculator did not handle decimal inputs");
+    }
+    await page.locator("#multiplier").fill("-1");
+    if (await page.locator("#multiplier").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject a negative multiplier");
+    }
+    await page.locator("#multiplier").fill("100001");
+    if (await page.locator("#multiplier").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject a multiplier above its limit");
+    }
+    await page.locator("#multiplier").fill("");
+    if (await page.locator("#multiplier").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject an empty multiplier");
+    }
+    await page.locator("#eligible").fill("100");
+    await page.locator("#multiplier").fill("35");
+    await page.locator("#currency").selectOption("GBP");
+    if (!(await page.locator("#turnover").textContent()).includes("3,500.00")) {
+      throw new Error("wagering calculator did not update after currency change");
+    }
 
     await page.goto(baseURL + "/tools/terms-checklist/", { waitUntil: "domcontentloaded" });
     const boxes = page.locator('.checklist-main input[type="checkbox"]');
