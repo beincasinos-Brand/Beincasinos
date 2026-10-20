@@ -77,3 +77,17 @@ See [the domain and hosting setup runbook](docs/domain-and-hosting-setup.md) for
 ## Commercial outreach
 
 See [the internal operator outreach playbook](docs/operator-outreach-playbook.md). It is a gated template only; it must not be sent before the stated legal, privacy, audience and owner-approval checks pass.
+
+
+## Recent prospect-research updates (internal only)
+
+These are research notes and candidate queues, not public listings, legal advice, or evidence that any brand will pay a listing fee.
+
+- [UK prospect research batch (2025–2026)](docs/uk-prospect-research-batch-2025-2026.md) — secondary-source discovery leads requiring exact-domain and UKGC verification.
+- [Netherlands prospect research batch (2025–2026)](docs/netherlands-prospect-research-batch-2025-2026.md) — Ksa domain/brand checks and launch-versus-rebrand distinctions.
+- [Tier 1 market research update (20 October 2026)](docs/tier-1-market-research-update-2026-10.md) — primary-source leads and market-specific guardrails for Switzerland, Germany, the US, and Australia.
+- [Commercial prospect qualification rubric](docs/commercial-prospect-qualification.md) — evidence grades and qualification rules.
+- [Commercial outreach pipeline](docs/commercial-outreach-pipeline.md) — internal workflow and email templates; no outreach is sent automatically.
+- [Brand prospect leads (2025–2026)](docs/brand-prospect-leads-2025-2026.md) — research queue, not approved public copy.
+
+**Publication gate:** verify the exact domain, legal operator, licence/product scope, target-market permission, regulatory history, and relevant advertising/affiliate rules against current primary sources. Keep commercial willingness-to-pay marked **Unknown** until directly evidenced. Do not copy these internal research notes into the public site or sitemap.
