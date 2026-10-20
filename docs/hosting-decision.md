@@ -25,7 +25,7 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 - CI successfully built the public-only artifact and checked it for leaks on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39488962203.
 - Neither configuration changes DNS, creates a hosting account, deploys the website, enables indexing, or verifies that the production domain resolves.
 
-## Go/no-go checklist before a provider decision
+## Recommended production path and pre-deploy gates
 
 - [ ] Resolve the BeInCasinos / “BEIN” trademark-name question before public launch.
 - [ ] Verify domain registration, renewal, and DNS access in Spaceship.
@@ -33,8 +33,8 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 - [ ] Review the first actual launch market and every commercial content/placement against current primary sources and qualified legal advice where needed.
 - [ ] Finalize privacy, disclosures, corrections, and responsible-gambling resources.
 - [ ] Test the site locally and in a real browser at desktop/mobile sizes.
-- [ ] Owner chooses the provider and approves any cost or account connection.
+- [ ] Default technical recommendation: use Netlify as the production target on a commercial-capable plan, subject to the owner approving current price/usage budget and connecting the account. Netlify Free remains preview/staging only; Vercel Hobby is not suitable for this commercial project.
 - [ ] Deploy a private/preview build first if the provider supports it; verify HTTPS, redirects, headers, tools, assets, and 404 before public release.
 - [ ] Keep indexing blocked until explicit launch approval.
 
-**Current status: prepared only. No hosting provider has been selected or connected to this repository. Netlify Free is now a preview/staging candidate only, not a production-tier decision.**
+**Current status: prepared only. Recommended technical target is Netlify on a production-suitable commercial plan, pending owner approval of the plan cost and account connection. No hosting provider has been connected, no subscription has been purchased, and no DNS or deployment action has occurred. Netlify Free is preview/staging only.**
