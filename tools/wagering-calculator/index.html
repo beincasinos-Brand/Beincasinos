@@ -55,11 +55,15 @@
   const showError = () => {
     error.hidden = false;
     output.textContent = '—';
-    summary.textContent = 'Correct the highlighted values to calculate required turnover.';
+    summary.textContent = 'Correct the values marked as invalid to calculate required turnover.';
   };
   const calculate = () => {
     const a = Number(amount.value), m = Number(multiplier.value);
-    if (!Number.isFinite(a) || !Number.isFinite(m) || a < 0 || a > 100000000 || m < 0 || m > 100000 || amount.value === '' || multiplier.value === '') {
+    const amountInvalid = amount.value === '' || !Number.isFinite(a) || a < 0 || a > 100000000;
+    const multiplierInvalid = multiplier.value === '' || !Number.isFinite(m) || m < 0 || m > 100000;
+    amount.setAttribute('aria-invalid', String(amountInvalid));
+    multiplier.setAttribute('aria-invalid', String(multiplierInvalid));
+    if (amountInvalid || multiplierInvalid) {
       showError();
       return;
     }
