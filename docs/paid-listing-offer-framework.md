@@ -28,6 +28,8 @@ These ranges are starting hypotheses for willingness-to-pay interviews. Do not p
 - Use rel="sponsored" for paid links where appropriate; do not sell followed links as an SEO benefit.
 - Reject requests to remove material risk disclosures, disguise sponsorship, claim “safe” status, or target prohibited markets.
 
+Use the internal [media-kit evidence template](./media-kit-evidence-template.md) to collect measured audience facts and limitations. Leave values as “Not measured” until actual dated reports exist; never create a media kit with invented traffic or projected results.
+
 ## Readiness gates before testing price
 
 1. Legal publisher identity and monitored commercial contact confirmed.
