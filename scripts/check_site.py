@@ -28,6 +28,7 @@ class PageParser(HTMLParser):
         self.h1_text = []
         self.h1_count = 0
         self.links = []
+        self.resources = []
         self.ids = set()
         self.id_counts = {}
         self.images_missing_alt = 0
@@ -48,6 +49,10 @@ class PageParser(HTMLParser):
             self.h1_depth += 1
         if tag in ("a", "area") and a.get("href"):
             self.links.append(a["href"].strip())
+        if tag in ("script", "img", "source", "iframe", "audio", "video") and a.get("src"):
+            self.resources.append(a["src"].strip())
+        if tag == "link" and a.get("href"):
+            self.resources.append(a["href"].strip())
     def handle_endtag(self, tag):
         if tag == "title" and self.title_depth:
             self.title_depth -= 1
@@ -96,7 +101,7 @@ for page in pages:
         errors.append(f"{rel}: duplicate id attribute(s): " + ", ".join(duplicate_ids))
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
-    for raw in parser.links:
+    for raw in parser.links + parser.resources:
         target, fragment = resolve_local_url(page, raw)
         if target is None:
             continue
