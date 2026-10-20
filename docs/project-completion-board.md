@@ -17,7 +17,7 @@
 
 | Gate | Status | Evidence needed to close |
 |---|---|---|
-| Brand/name risk | BLOCKED | Qualified trademark review of “BeInCasinos” / “BEIN” in relevant markets; decision recorded before public branding. |
+| Brand/name risk | BLOCKED | Complete the [name-clearance workpaper](name-clearance-research.md) and obtain a qualified trademark review of “BeInCasinos” / “BEIN” in relevant markets; decision recorded before public branding. |
 | Domain control | OWNER ACTION | Owner verifies active registration, renewal, auto-renew and DNS access in Spaceship. No credentials or account screenshots should be shared here. |
 | Publisher identity | OWNER ACTION | Legal publisher/business identity and a monitored contact route. |
 | Hosting | OWNER DECISION | Confirm provider and its current terms for this commercial directory. Netlify Free is a candidate to evaluate; no account or deployment is connected. Do not use Vercel Hobby for the planned commercial business. |
