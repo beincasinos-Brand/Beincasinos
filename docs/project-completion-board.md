@@ -91,3 +91,5 @@
 - Added Bet Ahoy Ltd as a held UK prospect because the UKGC register shows active remote Casino permission from 17 December 2025. Exact consumer brand/domain and launch remain unverified, so the licence activity date is not counted as a brand launch and the prospect is not publishable yet.
 
 - Tier 1 prospect research improved with official regulator evidence: BetTOM's active domain and remote-casino permission are matched; Betsuna's 22 May 2026 launch and white-label status are recorded alongside the UKGC's £1m ProgressPlay enforcement action; Swiss prospects admiral.ch and casineo.ch now have official ESBK online-start evidence. All remain on hold pending full editorial/legal review; no prospect has confirmed willingness to pay. See `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
+
+- Created `docs/brand-profile-casineo-ch-draft.md` from the Swiss regulator's official March 2026 approval/listing. The profile remains unscored and on hold because exact legal entity, terms, withdrawals, complaints, RG controls and enforcement review are incomplete; no commercial willingness is inferred.
