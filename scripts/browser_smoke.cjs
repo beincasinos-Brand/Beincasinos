@@ -15,6 +15,7 @@ const routes = [
 (async () => {
   const browser = await chromium.launch({ headless: true });
   const errors = [];
+  const axeIssues = [];
   try {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
     page.on("pageerror", error => errors.push(error.message));
@@ -54,8 +55,8 @@ const routes = [
         runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
       }));
       if (axeResults.violations.length) {
-        const summary = axeResults.violations.map(v => v.id + " (" + v.impact + "): " + v.nodes.slice(0, 40).map(n => n.target.join(" ") + " — " + n.failureSummary).join(" || ")).join("; ");
-        throw new Error(route + " axe accessibility violations: " + summary);
+        const summary = axeResults.violations.map(v => v.id + " (" + v.impact + ", " + v.nodes.length + " element(s)): " + v.nodes.slice(0, 6).map(n => n.target.join(" ") + " — " + n.failureSummary).join(" || ")).join("; ");
+        axeIssues.push(route + ": " + summary);
       }
       const title = (await page.title()).trim();
       const h1 = (await page.locator("h1").first().textContent().catch(() => "") || "").trim();
@@ -75,6 +76,8 @@ const routes = [
         throw new Error(route + " search/social descriptions differ");
       }
     }
+
+    if (axeIssues.length) throw new Error("axe WCAG 2.1 A/AA violations:\n" + axeIssues.join("\n"));
 
     await page.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
     const menu = page.locator(".menu-toggle");
