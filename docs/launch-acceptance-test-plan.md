@@ -20,10 +20,11 @@ For each row, record: status (NOT STARTED, PASS, FAIL, BLOCKED), UTC timestamp, 
 
 Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Apple device if available, and Chrome on Android. If a device/browser cannot be tested, record it as not tested rather than passed.
 
-- [ ] Home, Reviews hub, guides, market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
+- [ ] Home, Reviews hub, For Operators, guides, market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
 - [ ] Navigation, footer, external links, breadcrumbs and in-page anchors work with mouse, touch and keyboard.
 - [ ] BIC monogram/logo is crisp and legible at favicon, header and compact mobile sizes; full BeInCasinos wordmark remains readable beside it.
 - [ ] Reviews hub explains eligibility gates, evidence standards, scoring weights and commercial independence; it does not imply that unverified operators have been scored or ranked.
+- [ ] For Operators page clearly states whether partnerships are open, does not imply measured audience performance without evidence, and says paid placement cannot buy a positive score, licence conclusion, or top-10 inclusion.
 - [ ] No clipped text, overlapping controls, broken images, console errors, failed local resources or layout shifts that obstruct use.
 - [ ] Zoom to 200% and reflow at narrow width; content and controls remain available.
 - [ ] Browser back/forward, direct deep links, trailing-slash routes and refresh work on the selected host.
