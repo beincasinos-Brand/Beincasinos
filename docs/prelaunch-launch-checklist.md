@@ -14,11 +14,12 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 1 — Name, ownership, and business decisions
 
-- [ ] Check the proposed name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
+- [ ] Owner decision recorded: retain the BeInCasinos name for now because the domain has been purchased. This is not legal clearance. Check the name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
 - [ ] Assess confusion risk with existing media, sports, gambling, and casino brands. Search results alone are not legal clearance.
 - [ ] If uncertainty remains, obtain qualified trademark/legal advice before public launch or further branding investment. The owner reports that `beincasinos.online` has now been purchased; acquisition is not trademark clearance.
 - [ ] Verify `beincasinos.online` registration, renewal details, and DNS access in Spaceship. The owner reports the purchase is complete; account status has not been independently inspected. Domain purchase is not trademark clearance.
-- [ ] Confirm the publisher/legal business identity and verify a monitored contact email. A purchase notification mentions `beincasinos@gmail.com`, but this alone does not establish a public contact process.
+- [x] Owner specified the publisher display identity as **Anass Amir** and temporary contact email as `beincasinos@gmail.com`.
+- [ ] Verify that `beincasinos@gmail.com` is accessible and regularly monitored; confirm whether a separate legal publisher/business identity must be disclosed before launch. Publishing the email does not prove the mailbox is working.
 - [x] Record intended target markets: AU, US, FR, DE, CH, GB, NL. This is a research scope, not blanket permission to publish or promote casino offers in each market; follow `docs/target-market-regulatory-matrix.md`.
 - [ ] Confirm that the owner accepts the business model: listing fees first after audience evidence; affiliate links later and secondary.
 
