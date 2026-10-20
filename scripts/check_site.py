@@ -182,8 +182,8 @@ if not robots.exists():
 elif "Disallow: /" not in robots.read_text(encoding="utf-8"):
     errors.append("robots.txt no longer blocks crawling; update this guard only as part of an explicitly approved launch")
 sitemap = ROOT / "sitemap.xml"
-if sitemap.exists() and re.search(r"YOUR-DOMAIN|example\.com|\.example", sitemap.read_text(encoding="utf-8"), re.I):
-    warnings.append("sitemap.xml contains a domain placeholder; replace after the production domain is chosen")
+if sitemap.exists() and re.search(r"YOUR-DOMAIN|example\\.com|\\.example|localhost|127\\.0\\.0\\.1", sitemap.read_text(encoding="utf-8"), re.I):
+    errors.append("sitemap.xml contains a domain placeholder or local URL; production sitemap must use https://beincasinos.online")
 # Surface content whose market-specific primary-source review is still pending.
 for page in pages:
     rel = page.relative_to(ROOT).as_posix()
@@ -213,6 +213,8 @@ if sitemap.exists():
             seen_sitemap_urls.add(url)
         for url in sitemap_urls:
             parsed = urlparse(url)
+            if parsed.scheme != "https" or parsed.netloc.casefold() != "beincasinos.online":
+                errors.append(f"sitemap.xml: URL must use canonical origin https://beincasinos.online: {url}")
             if parsed.query or parsed.fragment:
                 warnings.append(f"sitemap.xml: URL should not contain query or fragment: {url}")
             if parsed.scheme not in ("http", "https") or not parsed.netloc:
