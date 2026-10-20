@@ -70,3 +70,5 @@
 - Added `/reviews/` as a review-standard hub, connected it in the primary navigation and sitemap, included it in the public-only build allowlist, and updated the artifact checker to expect 19 sitemap URLs. The hub intentionally does not list unverified casinos as recommendations.
 - Homepage positioning now leads with evidence-led casino reviews while keeping educational guides available. No individual casino profile is yet approved for publication; the 100-brand list remains an internal prospect/research queue, not a live verified review database.
 - The 100-million daily search-impressions ambition is not a forecast or guarantee. Report only real, dated Search Console metrics after launch.
+
+- Latest combined source/artifact verification passed on GitHub Actions: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497037760. The check covered 20 HTML pages, built the public-only artifact, and verified the internal-file exclusion and sitemap. This remains source/packaging CI—not real-browser, legal, live-host, accessibility, or launch approval.
