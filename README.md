@@ -8,6 +8,9 @@ An English-language educational resource for understanding online casino terms, 
 - Prepared for static hosting once launch blockers and commercial-use terms are cleared
 - Includes a client-side wagering calculator and a terms-review checklist; no user entries are sent to a server
 
+## Internal commercial planning
+- Paid-listing offer framework and pricing hypotheses: `docs/paid-listing-offer-framework.md`. This is an internal research draft, not a public rate card; pricing and demand remain unvalidated.
+
 ## Local preview
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
 
