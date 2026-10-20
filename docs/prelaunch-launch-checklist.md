@@ -62,7 +62,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
 - [ ] Test the wagering calculator with empty, zero, negative, non-numeric, extremely large, and valid inputs.
 - [ ] Test the checklist tool on desktop/mobile, keyboard-only, print/PDF, reset, and progress updates.
-- [ ] Perform real browser tests at mobile and desktop sizes, including keyboard navigation and focus visibility.
+- [x] Automated Chromium smoke test against the public-only build passed on 20 October 2026: all 20 indexable routes return HTTP 200 with titles/H1s and matching search/social descriptions; mobile menu opens and closes with Escape; the wagering calculator handles the valid 100 × 35 example and flags a negative amount; checklist progress/reset works; no uncaught page errors were detected. Evidence: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39501018535.
+- [ ] Perform manual browser tests at mobile and desktop sizes, including keyboard navigation, focus visibility, print/PDF, and screen-reader review.
 - [ ] Review accessibility manually; automated/source checks are not a full accessibility audit.
 - [ ] Check page performance, image sizing, caching, HTTPS, and browser console/network errors.
 - [x] Add canonical/social metadata to all 18 public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; live domain/DNS/HTTPS and final host redirects remain unverified.
@@ -118,6 +119,6 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - Intended target markets are recorded as AU, US, FR, DE, CH, GB, and NL; market-specific legal and product checks remain outstanding.
 - Publisher display identity is specified as Anass Amir and temporary contact as `beincasinos@gmail.com`; mailbox access/monitoring and any additional legal publisher disclosure remain unverified.
 - Production privacy/cookie implementation and applicable Moroccan CNDP formalities remain open; see `docs/privacy-and-data-handling-review.md`.
-- No production browser QA has been recorded.
+- No production-host browser QA has been recorded. Automated local Chromium smoke tests are passing, but they do not verify the chosen host, live DNS/HTTPS, external links, full accessibility, or real-device rendering.
 - Production hosting/deployment is not approved.
 - Robots blocking must remain in place until the final indexing approval.
