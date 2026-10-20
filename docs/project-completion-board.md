@@ -94,3 +94,4 @@
 
 - Created `docs/brand-profile-casineo-ch-draft.md` from the Swiss regulator's official March 2026 approval/listing. The profile remains unscored and on hold because exact legal entity, terms, withdrawals, complaints, RG controls and enforcement review are incomplete; no commercial willingness is inferred.
 - Created `docs/brand-profile-admiral-ch-draft.md` from the ESBK's official July 2025 online-start listing for Casino Mendrisio/admiral.ch. It remains unscored until the exact operating entity, terms, withdrawals, complaints, safer-gambling controls and regulatory history are checked.
+- Added `docs/brand-profile-tipico-casino-de-sh-draft.md` and upgraded the internal Tipico prospect with the official 1 April 2026 launch announcement and GGL whitelist evidence. Its online-casino scope is limited to Schleswig-Holstein; full terms/withdrawal/RG/enforcement review remains outstanding and the profile is unscored.
