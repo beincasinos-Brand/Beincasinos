@@ -172,6 +172,26 @@ for page in pages:
             except (OSError, UnicodeError):
                 pass
 
+# Verify canonical and social URL metadata for every indexable HTML page.
+PRODUCTION_ORIGIN = "https://beincasinos.online"
+for page in pages:
+    rel = page.relative_to(ROOT).as_posix()
+    if rel == "404.html":
+        continue
+    source = page.read_text(encoding="utf-8")
+    expected_path = "/" if rel == "index.html" else "/" + rel[:-len("index.html")] if rel.endswith("/index.html") else "/" + rel
+    expected_url = PRODUCTION_ORIGIN + expected_path
+    canonical = re.search(r'<link rel="canonical" href="([^"]+)"', source, re.I)
+    og_url = re.search(r'<meta property="og:url" content="([^"]+)"', source, re.I)
+    if not canonical:
+        errors.append(f"{rel}: missing canonical URL metadata")
+    elif canonical.group(1) != expected_url:
+        errors.append(f"{rel}: canonical URL should be {expected_url}, got {canonical.group(1)}")
+    if not og_url:
+        errors.append(f"{rel}: missing Open Graph URL metadata")
+    elif og_url.group(1) != expected_url:
+        errors.append(f"{rel}: og:url should be {expected_url}, got {og_url.group(1)}")
+
 for title, paths in titles.items():
     if len(paths) > 1:
         errors.append(f"duplicate title {title!r}: " + ", ".join(paths))
