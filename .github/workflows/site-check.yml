@@ -26,3 +26,10 @@ jobs:
         run: python3 scripts/build_site.py
       - name: Verify deployment artifact excludes internal files
         run: python3 scripts/check_deploy_artifact.py
+      - name: Store sanitized site artifact for later release
+        uses: actions/upload-artifact@v4
+        with:
+          name: beincasinos-public-site-dist
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7
