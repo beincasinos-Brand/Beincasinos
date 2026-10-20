@@ -29,11 +29,16 @@ class PageParser(HTMLParser):
         self.h1_count = 0
         self.links = []
         self.ids = set()
+        self.id_counts = {}
+        self.images_missing_alt = 0
         self.hrefs = []
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if "id" in a:
             self.ids.add(a["id"])
+            self.id_counts[a["id"]] = self.id_counts.get(a["id"], 0) + 1
+        if tag == "img" and "alt" not in a:
+            self.images_missing_alt += 1
         if tag == "title":
             self.title_depth += 1
         if tag == "meta" and a.get("name", "").lower() == "description":
@@ -86,6 +91,11 @@ for page in pages:
         errors.append(f"{rel}: missing meta description")
     if parser.h1_count != 1:
         errors.append(f"{rel}: expected exactly one h1, found {parser.h1_count}")
+    duplicate_ids = sorted(identifier for identifier, count in parser.id_counts.items() if count > 1)
+    if duplicate_ids:
+        errors.append(f"{rel}: duplicate id attribute(s): " + ", ".join(duplicate_ids))
+    if parser.images_missing_alt:
+        errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
     for raw in parser.links:
         target, fragment = resolve_local_url(page, raw)
         if target is None:
