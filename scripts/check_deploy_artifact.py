@@ -28,8 +28,8 @@ else:
             root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
             ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
-            if len(urls) != 18:
-                errors.append(f"dist/sitemap.xml: expected 18 URLs, found {len(urls)}")
+            if len(urls) != 19:
+                errors.append(f"dist/sitemap.xml: expected 19 URLs, found {len(urls)}")
             for url in urls:
                 parsed = urlparse(url)
                 if parsed.scheme != "https" or parsed.netloc.casefold() != "beincasinos.online":
