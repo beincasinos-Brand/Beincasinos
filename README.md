@@ -18,7 +18,11 @@ Open `index.html` directly, or run `python -m http.server 8080` from the project
 4. Update privacy/cookie wording to match the actual analytics, tracking, affiliate links, and vendors in use.
 5. Review affiliate program rules, allowed geographies, marketing restrictions, and required disclosures.
 6. Keep the temporary `robots.txt` disallow rule until the launch review is complete.
-7. Confirm the chosen hosting plan permits commercial affiliate use. Do not assume a free personal plan permits commercial activity.
+7. Confirm the chosen hosting plan permits commercial affiliate use. Vercel Hobby is restricted to personal/non-commercial use, and Vercel explicitly includes affiliate-link sites whose primary purpose is affiliate linking in its commercial-use examples. If Vercel remains the host, plan for Pro before commercial deployment; alternatively, choose a host whose current terms allow the intended business model.
+
+## Hosting decision
+- Do not deploy the monetized affiliate publication to Vercel Hobby. The official policy says Hobby is personal/non-commercial; see https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage.
+- No host has been selected or connected yet. Keep deployment paused until the commercial-use plan and recurring cost are approved.
 
 ## Quality checks
 - Check every new page for a unique title/description, one clear H1, mobile layout, keyboard operation, and working internal links.
