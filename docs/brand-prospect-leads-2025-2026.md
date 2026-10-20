@@ -38,3 +38,15 @@ Checked: 2026-10-20. The dates below are sourced from the cited public announcem
 Keep these fields separate in the eventual master sheet: (1) public brand/domain, (2) verified legal operator, (3) verified market eligibility, (4) evidence for launch date, (5) official commercial contact, (6) outreach status, and (7) explicit paid-listing status. Until written confirmation exists, set paid-listing status to **unconfirmed**.
 
 Do not publish a candidate, direct traffic to it, or sell it as “verified” while its relevant market status is unresolved. Do not describe any prospect as likely to pay based only on a new launch, supplier partnership, affiliate programme, or PR contact.
+
+
+## Official-source verification update — 2026-10-20
+
+The following regulator checks materially change the prospect risk assessment:
+
+- **Betsuna / ProgressPlay Limited (UK):** the UK Gambling Commission's public register lists ProgressPlay Limited (account 39335) with active remote casino, bingo and general betting licences: https://www.gamblingcommission.gov.uk/public-register/business/detail/39335. However, the Commission published a regulatory outcome on 21 August 2025 imposing a £1,000,000 financial penalty, a warning and an independent third-party audit requirement for anti-money-laundering and social-responsibility failings: https://www.gamblingcommission.gov.uk/news/article/gbp1m-fine-for-online-operator-progressplay-limited and https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/276. Therefore, **do not treat Betsuna as a clean or priority prospect solely because the operator is licensed**. Before any editorial consideration, check the current register and the status/outcome of required remediation; disclose material regulatory context if relevant. The operator's general licence does not by itself prove that every Betsuna domain is listed or authorised.
+- **Winz.nl / Orange Gaming B.V. (Netherlands):** the Dutch regulator's decision confirms a remote-gambling licence from 1 November 2025 through 31 October 2030, and says the operator must report brand names and domains before offering games: https://kansspelautoriteit.nl/orange-gaming-b-v. The official Winz site identifies Winz.nl as a trade name of Orange Gaming B.V. and cites licence reference 2439/01.356.636: https://www.winz.nl/login. This supports a stronger legal-entity/licence match, but still verify the current Ksa register and the exact domain record before public listing.
+- **BetTOM (UK):** its launch press release is not a substitute for a domain-level UKGC check. Keep it at B/C until the exact operator and domain are matched in the official register.
+- **Market restriction reminder:** the UKGC public register and Ksa register are jurisdiction-specific. Neither establishes permission to offer online casino services in the US, France, Germany, Switzerland or Australia.
+
+Evidence grades should reflect the current evidence and risk, not commercial excitement. Licensing is a minimum gate, not a safety endorsement or proof of willingness to pay.
