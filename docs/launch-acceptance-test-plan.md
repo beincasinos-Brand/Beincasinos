@@ -77,3 +77,9 @@ Release evidence:
 - Indexing approval reference:
 
 A CI pass confirms only the checks that CI actually runs. It does not mean the items above have passed, and this document is not legal advice.
+
+## Automated pre-deploy smoke test — 20 October 2026
+
+- Chromium smoke suite passed in GitHub Actions: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39501018535.
+- Automated coverage: all 20 indexable routes return HTTP 200 with a title and H1; search/social descriptions match; mobile navigation opens and closes with Escape; wagering calculator produces the expected example and flags invalid input; terms checklist progress and reset work; no uncaught page errors were detected.
+- This does **not** replace the manual desktop/mobile/browser matrix, accessibility audit, real external-link review, production-host test, legal/privacy review, or launch approval. Those remain open.
