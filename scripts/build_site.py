@@ -23,6 +23,7 @@ PUBLIC_DIRS = (
     "guides",
     "how-we-review",
     "market-research",
+    "partners",
     "privacy",
     "responsible-gambling",
     "reviews",
