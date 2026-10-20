@@ -7,14 +7,14 @@
 | Candidate | Secondary lead / claimed timing | Lead type to verify | Next research action | Commercial interest status |
 |---|---|---|---|---|
 | BetSuna | May 2026 | New launch | Verify exact domain, legal entity and current UKGC remote casino permission; find official launch announcement | Unknown — no direct confirmation |
-| Megaways Casino | March 2026 | Relaunch | Confirm whether this is a brand relaunch or domain/platform change; verify operator and licence | Unknown — no direct confirmation |
+| Megaways Casino | 24 March 2026 | Official relaunch confirmed | Skill On Net announced the relaunch and UKGC account 39326 lists megawayscasino.com as Active under active Casino permission; review terms and operator contact | Unknown — no direct confirmation |
 | BetMaze | January 2026 | Rebrand | Identify former brand, operator, exact domain and current licence record | Unknown — no direct confirmation |
-| Justin Casino | October 2025 | New launch | Find official operator announcement and current UKGC register match | Unknown — no direct confirmation |
-| BestOdds | Autumn 2025 | New launch | Confirm exact casino product, legal entity, launch date and register entry | Unknown — no direct confirmation |
+| Justin Casino | October 2025 (secondary) | New white-label brand | UKGC account 39175 lists justincasino.com as a White Label domain under active Casino permission; exact launch date remains secondary-source reported | Unknown — no direct confirmation |
+| BestOdds | Autumn 2025 (secondary) | New brand | UKGC account 66479 lists bestodds.com as Active, active Casino permission from 22 August 2025 and active trading name bestodds; verify launch date via primary source | Unknown — no direct confirmation |
 | 247bet | August 2025 | New launch / operator relationship | Distinguish brand from operator; verify exact domain and licence scope | Unknown — no direct confirmation |
 | Casiku | November 2024 | New launch | Verify operator, exact domain, launch evidence and active permission | Unknown — no direct confirmation |
 | Mega Riches | August 2024 | New launch | Confirm brand identity, legal entity, domain and current permission | Unknown — no direct confirmation |
-| 7Bet Casino | 2024 | New launch | Verify exact entity/domain and whether casino permission covers this product | Unknown — no direct confirmation |
+| 7Bet Casino | 2024 (secondary casino-launch claim) | White-label casino brand | UKGC account 48789 lists 7bet.co.uk as a White Label domain under active Casino permission; confirm the product launch date and terms | Unknown — no direct confirmation |
 | Fun Casino | 2024 | New launch | Confirm official launch source and licence scope | Unknown — no direct confirmation |
 | Peachy Games | 2024 | New launch | Confirm product category, domain, operator and register status | Unknown — no direct confirmation |
 | Stakemate | May 2025 | New brand | Verify official launch and whether it is a new brand on an existing platform | Unknown — no direct confirmation |
@@ -26,7 +26,7 @@
 | Rose Casino | 2025 | New launch | Confirm whether date refers to UK launch, rebrand or listing in a directory | Unknown — no direct confirmation |
 | O'Reels Casino | 2025 | New launch | Verify official launch date, domain and underlying operator | Unknown — no direct confirmation |
 | Puntit Casino | 2025 | New launch | Verify legal entity, licence scope and official launch evidence | Unknown — no direct confirmation |
-| LuckyMate Casino | 2025 | New launch | Verify operator/domain and current UKGC register record | Unknown — no direct confirmation |
+| LuckyMate Casino | June 2025 (secondary) | New brand | UKGC account 48789 lists luckymate.co.uk and luckymatecasino.co.uk as Active under active Casino permission; verify launch timing with primary evidence | Unknown — no direct confirmation |
 | BetTOM | July 2025 UK launch | New launch | Primary-source announcement and UKGC record found; confirm official partnership route and exact current product/market scope | Unknown — no direct confirmation |
 | Bet Ahoy | May 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 17 Dec 2025; still find an attributable official launch announcement and confirm domain | Unknown — no direct confirmation |
 | Proper Bet | 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 22 May 2026; Companies House confirms entity; still source launch date and official contact | Unknown — no direct confirmation |
