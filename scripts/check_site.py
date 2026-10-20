@@ -254,6 +254,23 @@ if checklist_path.exists():
         if required_behavior not in checklist_source:
             errors.append(f"tools/terms-checklist/index.html: expected interaction/accessibility behavior missing: {required_behavior}")
 
+# Guard the shared navigation script against common keyboard/state regressions.
+script_path = ROOT / "script.js"
+if script_path.exists():
+    script_source = script_path.read_text(encoding="utf-8")
+    for required_behavior in (
+        "document.querySelector('.menu-toggle')",
+        "document.querySelector('#primary-nav')",
+        "getAttribute('aria-expanded')",
+        "setAttribute('aria-expanded', String(!expanded))",
+        "nav.classList.toggle('open', !expanded)",
+        "nav.classList.remove('open')",
+    ):
+        if required_behavior not in script_source:
+            errors.append(f"script.js: expected responsive navigation behavior missing: {required_behavior}")
+else:
+    errors.append("script.js: shared navigation script is missing")
+
 print(f"Checked {len(pages)} HTML pages.")
 if errors:
     print(f"\nFAIL: {len(errors)} error(s)")
