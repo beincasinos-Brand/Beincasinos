@@ -108,6 +108,7 @@ These are research notes and candidate queues, not public listings, legal advice
 - [Brand prospect leads (2025–2026)](docs/brand-prospect-leads-2025-2026.md) — research queue, not approved public copy.
 
 - [Tier 1 master prospect tracker (CSV)](docs/tier-1-master-prospect-tracker.csv) — consolidated first batch with market/product scope, evidence grade, exact next actions, and explicit publication holds. It is not yet a 100-qualified-brand list; unresolved fields are intentionally marked VERIFY/Unknown.
+- [Megaways Casino — internal GB profile dossier](docs/brand-profile-megaways-casino-gb-draft.md) — official 2026 relaunch announcement and UKGC domain match recorded; terms, withdrawals, complaints and safer-gambling review remain incomplete, so no score or public profile is approved.
 
 **Publication gate:** verify the exact domain, legal operator, licence/product scope, target-market permission, regulatory history, and relevant advertising/affiliate rules against current primary sources. Keep commercial willingness-to-pay marked **Unknown** until directly evidenced. Do not copy these internal research notes into the public site or sitemap.
 
