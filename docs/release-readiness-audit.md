@@ -23,7 +23,8 @@ This is a source/repository review, not a live production audit. Repository file
 - Source-level checker for HTML structure, local links, sitemap consistency, canonical/Open Graph/Twitter metadata, 404 noindex, static-host security headers, pre-launch guards, tracker schemas, and calculator-related safeguards.
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
-- GitHub Actions passed on the latest checked commit `69fb45d399edb8b3c8c2c7b357a574096be58ca7` (run 39487750220). This is a source-level check, not live-browser or production verification.
+- A public-only build now copies only approved site assets/pages into `dist/`; CI verifies internal research docs, CSV trackers, scripts, and host configuration are not included in that artifact.
+- GitHub Actions passed on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452` (run 39488962203), including source checks, a public-only build, and deployment-artifact leak checks. This is not live-browser or production verification.
 
 ## Release blockers — all must be evidenced, not assumed
 
