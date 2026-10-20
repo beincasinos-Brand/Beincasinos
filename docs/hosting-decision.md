@@ -1,0 +1,38 @@
+# Hosting decision note — 20 October 2026
+
+**Recommendation for a future low-cost static launch: evaluate Netlify Free first; do not deploy until launch blockers are closed and the owner explicitly approves publishing.** This is a documented recommendation, not a completed account setup or provider acceptance.
+
+## Current account checks
+
+A read-only inspection of the connected Vercel context on 20 October 2026 returned a team on the Hobby plan with no linked projects. No project was created and no deployment was made.
+
+Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial use and explicitly include affiliate-link sites whose primary purpose is affiliate linking among commercial examples: https://vercel.com/docs/limits/fair-use-guidelines . Therefore, do not deploy the intended paid-listing/affiliate business on that Hobby team. Vercel Pro is a paid alternative, but no subscription or upgrade is approved.
+
+## Candidate comparison
+
+| Option | Current published plan facts checked | Fit for this project | Limit / caution |
+|---|---|---|---|
+| Netlify Free | Official pricing lists $0/month, custom domains with SSL, global CDN, and a 300-credit monthly hard limit: https://www.netlify.com/pricing/ . Netlify's official announcement says the Free plan supports commercial projects: https://www.netlify.com/blog/introducing-netlify-free-plan/ | Best first candidate to evaluate for a small static HTML/CSS/JS site while keeping recurring spend at $0 | If the credit limit is reached, projects can pause until the next cycle. Confirm current plan terms and acceptable-use policy for this specific gambling-information business before publishing. No provider acceptance has been obtained. |
+| Vercel Hobby | Official policy restricts Hobby to personal/non-commercial use: https://vercel.com/docs/limits/fair-use-guidelines | Not suitable for the planned commercial site on the currently connected Hobby team | Do not use Hobby for the paid-listing/affiliate business. |
+| Vercel Pro | Official pricing and current plan terms: https://vercel.com/pricing | Technically viable if owner prefers to stay on Vercel and approves the recurring cost | Paid plan; price and usage terms must be reviewed at decision time. No upgrade made. |
+
+## Prepared repository state
+
+- `netlify.toml` now defines the root static publish directory and a set of baseline security headers.
+- `vercel.json` remains in place as an alternative-host configuration.
+- The source checker validates the expected security headers in both configurations.
+- Neither configuration changes DNS, creates a hosting account, deploys the website, enables indexing, or verifies that the production domain resolves.
+
+## Go/no-go checklist before a provider decision
+
+- [ ] Resolve the BeInCasinos / “BEIN” trademark-name question before public launch.
+- [ ] Verify domain registration, renewal, and DNS access in Spaceship.
+- [ ] Confirm the publisher identity and monitored contact route.
+- [ ] Review the first actual launch market and every commercial content/placement against current primary sources and qualified legal advice where needed.
+- [ ] Finalize privacy, disclosures, corrections, and responsible-gambling resources.
+- [ ] Test the site locally and in a real browser at desktop/mobile sizes.
+- [ ] Owner chooses the provider and approves any cost or account connection.
+- [ ] Deploy a private/preview build first if the provider supports it; verify HTTPS, redirects, headers, tools, assets, and 404 before public release.
+- [ ] Keep indexing blocked until explicit launch approval.
+
+**Current status: prepared only. No hosting provider has been selected or connected to this repository.**
