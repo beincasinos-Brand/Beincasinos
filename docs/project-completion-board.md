@@ -109,3 +109,6 @@
 
 
 - Automated QA was strengthened on 20 October 2026 with Chromium checks for declared page language, exactly one main landmark, skip-to-content links, accessible names for visible form controls and buttons. The enhanced suite passed on run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502557582. This is a lightweight smoke test only; WCAG conformance, keyboard/screen-reader review, contrast and real-device/manual testing remain open. See [launch acceptance test plan](launch-acceptance-test-plan.md).
+
+
+- The expanded six-width responsive smoke suite passed on 20 October 2026: all 20 indexable routes were checked at 320, 375, 390, 768, 1024 and 1440px, alongside the accessibility smoke checks and interactive-tool checks. Run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502713824. Manual/device and live-host QA remain outstanding.
