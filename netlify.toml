@@ -3,7 +3,8 @@
 # Review the current plan limits and acceptable-use terms before deployment.
 
 [build]
-  publish = "."
+  command = "python3 scripts/build_site.py"
+  publish = "dist"
 
 [[headers]]
   for = "/*"
