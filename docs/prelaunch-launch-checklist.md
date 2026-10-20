@@ -64,7 +64,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Perform real browser tests at mobile and desktop sizes, including keyboard navigation and focus visibility.
 - [ ] Review accessibility manually; automated/source checks are not a full accessibility audit.
 - [ ] Check page performance, image sizing, caching, HTTPS, and browser console/network errors.
-- [ ] Add and verify canonical/social metadata on each production page, then test the final URLs on the selected host. The sitemap has been changed to `https://beincasinos.online`; live domain/DNS/HTTPS have not been verified.
+- [x] Add canonical/social metadata to all 18 public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; live domain/DNS/HTTPS and final host redirects remain unverified.
 - [x] Keep `robots.txt` blocking until explicit launch approval. Sitemap URLs currently use the intended domain; do not submit the sitemap to Search Console until the live site and canonical host are verified.
 
 ## Gate 6 — Hosting and security
