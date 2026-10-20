@@ -22,6 +22,8 @@ jobs:
           python-version: "3.x"
       - name: Check HTML structure and local links
         run: python3 scripts/check_site.py
+      - name: Check shared JavaScript syntax
+        run: node --check script.js
       - name: Build public-only deployment artifact
         run: python3 scripts/build_site.py
       - name: Verify deployment artifact excludes internal files
