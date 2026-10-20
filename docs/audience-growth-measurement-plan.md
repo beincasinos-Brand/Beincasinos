@@ -110,3 +110,7 @@ Copy this section for each review:
 - Changes made and commit:
 - Decisions deferred:
 - Reviewer:
+
+## Owner's international scale ambition (20 October 2026)
+
+The owner wants BeInCasinos to become a top-10 international casino-review brand and has named 100 million daily search impressions as a long-term ambition. Treat both as aspirational goals, never as current facts or guaranteed outcomes. 100 million impressions/day is approximately 3 billion per 30-day month and 36.5 billion per year. Do not place this number in public copy, a sales deck, or a media kit as achieved/forecast performance. Report only dated Search Console and analytics evidence that actually exists. See `brand-identity-and-growth-north-star.md` for positioning, evidence standards, and sequencing.
