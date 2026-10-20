@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 import xml.etree.ElementTree as ET
 import sys
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -17,7 +18,7 @@ else:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
 
-    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "styles.css", "script.js", "favicon.svg", "site.webmanifest")
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
@@ -60,9 +61,22 @@ else:
     if robots.is_file() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
         errors.append("dist/robots.txt: pre-launch crawl block was removed without the release gate")
 
+    # Enforce compatibility with the prepared same-origin-only script/style CSP.
+    inline_script = re.compile(r"<script(?![^>]*\\bsrc=)[^>]*>", re.IGNORECASE)
+    inline_style = re.compile(r"<style\\b|\\sstyle\\s*=", re.IGNORECASE)
+    for html_file in DIST.rglob("*.html"):
+        try:
+            markup = html_file.read_text(encoding="utf-8")
+        except (OSError, UnicodeError) as exc:
+            errors.append(f"dist/{html_file.relative_to(DIST)}: cannot inspect HTML ({exc})")
+            continue
+        if inline_script.search(markup):
+            errors.append(f"dist/{html_file.relative_to(DIST)}: inline script violates the same-origin-only CSP")
+        if inline_style.search(markup):
+            errors.append(f"dist/{html_file.relative_to(DIST)}: inline style violates the same-origin-only CSP")
+
     # Scan deployable text assets for common accidental secrets and obvious placeholders.
     # This is a lightweight guardrail, not a replacement for a dedicated secret scanner.
-    import re
     suspicious_patterns = {
         "private-key header": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----", re.IGNORECASE),
         "GitHub token": re.compile(r"\bgh[pousr]_[A-Za-z0-9]{30,}\b"),
