@@ -310,12 +310,12 @@ if vercel_config.exists():
         for name, expected in required_headers.items():
             if configured_headers.get(name) != expected:
                 errors.append(f"vercel.json: missing or unexpected security header {name}: expected {expected!r}")
-    except (OSError, UnicodeError, ValueError) as exc:
-        errors.append(f"vercel.json: cannot validate security headers ({exc})")
         if config.get("buildCommand") != "python3 scripts/build_site.py":
             errors.append("vercel.json: buildCommand must create the sanitized public-only artifact")
         if config.get("outputDirectory") != "dist":
             errors.append('vercel.json: outputDirectory must be the sanitized "dist" artifact')
+    except (OSError, UnicodeError, ValueError) as exc:
+        errors.append(f"vercel.json: cannot validate security headers ({exc})")
 else:
     errors.append("vercel.json is missing; review static-host security header configuration")
 
