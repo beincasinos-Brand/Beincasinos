@@ -29,7 +29,7 @@ See [hosting decision note](hosting-decision.md) for the current provider compar
 ## 4. Production domain configuration after approval
 
 - [ ] Add the domain in the chosen host dashboard and follow its exact DNS instructions.
-- [ ] Decide the canonical host (`https://beincasinos.online` or `https://www.beincasinos.online`) and configure one permanent redirect to it.
+- [ ] Keep `https://beincasinos.online` as the default canonical host; all current canonical, Open Graph and sitemap URLs already use the apex domain. When hosting is connected, configure a permanent redirect from `https://www.beincasinos.online` to the apex and verify both hosts. Revisit only if the chosen provider requires a different canonical setup.
 - [ ] Confirm HTTPS certificate issuance and test both apex and www hostnames.
 - [ ] Ensure every canonical URL, Open Graph URL, sitemap URL, and internal absolute URL uses the chosen canonical host.
 - [ ] Check the 404 page, redirects, mobile navigation, keyboard operation, and all internal links on the real deployed site.
