@@ -182,7 +182,7 @@ if not robots.exists():
 elif "Disallow: /" not in robots.read_text(encoding="utf-8"):
     errors.append("robots.txt no longer blocks crawling; update this guard only as part of an explicitly approved launch")
 sitemap = ROOT / "sitemap.xml"
-if sitemap.exists() and re.search(r"YOUR-DOMAIN|example\\.com|\\.example|localhost|127\\.0\\.0\\.1", sitemap.read_text(encoding="utf-8"), re.I):
+if sitemap.exists() and re.search(r"YOUR-DOMAIN|example[.]com|[.]example|localhost|127[.]0[.]0[.]1", sitemap.read_text(encoding="utf-8"), re.I):
     errors.append("sitemap.xml contains a domain placeholder or local URL; production sitemap must use https://beincasinos.online")
 # Surface content whose market-specific primary-source review is still pending.
 for page in pages:
