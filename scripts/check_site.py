@@ -191,6 +191,20 @@ for page in pages:
         errors.append(f"{rel}: missing Open Graph URL metadata")
     elif og_url.group(1) != expected_url:
         errors.append(f"{rel}: og:url should be {expected_url}, got {og_url.group(1)}")
+    for pattern, label in (
+        (r'<meta property="og:title" content="([^"]+)"', "Open Graph title"),
+        (r'<meta property="og:description" content="([^"]+)"', "Open Graph description"),
+        (r'<meta name="twitter:card" content="summary"', "Twitter summary card"),
+    ):
+        if not re.search(pattern, source, re.I):
+            errors.append(f"{rel}: missing {label} metadata")
+
+# A custom 404 page should not be indexed as a content page.
+not_found_page = ROOT / "404.html"
+if not_found_page.exists():
+    not_found_source = not_found_page.read_text(encoding="utf-8")
+    if not re.search(r'<meta name="robots" content="noindex"', not_found_source, re.I):
+        errors.append("404.html must include a robots noindex directive")
 
 for title, paths in titles.items():
     if len(paths) > 1:
