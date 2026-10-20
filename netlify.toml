@@ -1,0 +1,16 @@
+# Prepared static-host configuration for a future Netlify deployment.
+# This file does not create an account, deploy the site, or change DNS.
+# Review the current plan limits and acceptable-use terms before deployment.
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000"
+    X-Permitted-Cross-Domain-Policies = "none"
