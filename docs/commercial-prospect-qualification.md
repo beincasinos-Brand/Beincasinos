@@ -12,6 +12,10 @@
 6. **Editorial independence:** a fee may buy clearly labelled placement only. It cannot buy licence verification, a favourable safety verdict, an undisclosed ranking, or removal of material risk information.
 7. **Market restrictions:** exclude or hold any brand whose target-market eligibility, advertising permission, or applicable affiliate rules are unclear. Do not direct users to unlicensed operators in restricted jurisdictions.
 
+## Commercial offer discipline
+
+Use the internal [paid-listing offer framework](./paid-listing-offer-framework.md) only as a hypothesis for research interviews. The example prices are not validated rates and must not be presented as proven market pricing. Do not sell placements until real audience data, publisher identity, privacy/contact terms, legal market scope, and owner approval are ready. UK candidate checks should follow the [dated UKGC register spot-check audit](./ukgc-register-audit-2026-10.md) and the current official register, not third-party launch trackers alone.
+
 ## Evidence grades
 
 - **A — Verified:** current official regulator entry and official brand/operator source both checked; exact domain/entity matched; launch or market-entry date supported by a dated primary source.
