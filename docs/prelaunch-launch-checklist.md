@@ -56,7 +56,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 5 — Technical QA and SEO
 
-- [x] GitHub Actions source checks, public-only build, and deployment-artifact leak checks passed on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452` (run 39488962203). Repeat on the final release commit; this is not browser or production QA.
+- [x] GitHub Actions source checks, public-only build, and deployment-artifact leak checks passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648). Repeat on the final release commit; this is not browser or production QA.
 - [x] Add canonical URL and Open Graph/Twitter summary metadata to all 18 public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
 - [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
 - [ ] Test the wagering calculator with empty, zero, negative, non-numeric, extremely large, and valid inputs.
