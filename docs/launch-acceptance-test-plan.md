@@ -20,8 +20,10 @@ For each row, record: status (NOT STARTED, PASS, FAIL, BLOCKED), UTC timestamp, 
 
 Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Apple device if available, and Chrome on Android. If a device/browser cannot be tested, record it as not tested rather than passed.
 
-- [ ] Home, guides, market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
+- [ ] Home, Reviews hub, guides, market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
 - [ ] Navigation, footer, external links, breadcrumbs and in-page anchors work with mouse, touch and keyboard.
+- [ ] BIC monogram/logo is crisp and legible at favicon, header and compact mobile sizes; full BeInCasinos wordmark remains readable beside it.
+- [ ] Reviews hub explains eligibility gates, evidence standards, scoring weights and commercial independence; it does not imply that unverified operators have been scored or ranked.
 - [ ] No clipped text, overlapping controls, broken images, console errors, failed local resources or layout shifts that obstruct use.
 - [ ] Zoom to 200% and reflow at narrow width; content and controls remain available.
 - [ ] Browser back/forward, direct deep links, trailing-slash routes and refresh work on the selected host.
@@ -46,6 +48,7 @@ Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Ap
 - [ ] Confirm robots response and meta robots behaviour match the approved release decision. Do not remove the site-wide crawl block without explicit approval.
 - [ ] Sitemap contains only final canonical URLs returning HTTP 200; no draft, redirecting, blocked, duplicate or missing pages.
 - [ ] Verify structured metadata, favicon, manifest and social previews using suitable validators.
+- [ ] Check the Reviews hub is included in the public build and sitemap and that every sitemap URL resolves to the intended canonical page after deployment.
 - [ ] Only after launch approval, connect Search Console, verify domain ownership, inspect a representative URL and submit the sitemap.
 
 ## E. Privacy, security and commercial links
