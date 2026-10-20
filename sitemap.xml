@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://YOUR-DOMAIN.example with the purchased production domain and verify URLs before launch. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN.example/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/how-to-check-a-casino-licence/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/bonus-terms-explained/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/withdrawal-terms/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/what-wagering-requirements-mean/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/how-to-read-casino-terms/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/guides/online-gambling-self-exclusion/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/about/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/editorial-policy/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/affiliate-disclosure/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/privacy/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/responsible-gambling/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.example/contact/</loc></url>
+</urlset>
