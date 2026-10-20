@@ -14,7 +14,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 1 — Name, ownership, and business decisions
 
-- [ ] Owner decision recorded: retain the BeInCasinos name for now because the domain has been purchased. This is not legal clearance. Check the name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
+- [x] Owner decision recorded: retain the BeInCasinos name for now because the domain has been purchased. This is not legal clearance. Check the name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
 - [ ] Assess confusion risk with existing media, sports, gambling, and casino brands. Search results alone are not legal clearance.
 - [ ] If uncertainty remains, obtain qualified trademark/legal advice before public launch or further branding investment. The owner reports that `beincasinos.online` has now been purchased; acquisition is not trademark clearance.
 - [ ] Verify `beincasinos.online` registration, renewal details, and DNS access in Spaceship. The owner reports the purchase is complete; account status has not been independently inspected. Domain purchase is not trademark clearance.
