@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+"""Check that the deployment artifact contains public assets only."""
+from pathlib import Path
+from urllib.parse import urlparse, unquote
+import xml.etree.ElementTree as ET
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+DIST = ROOT / "dist"
+errors = []
+
+if not DIST.is_dir():
+    errors.append("dist/ is missing; run scripts/build_site.py first")
+else:
+    forbidden = ("docs", "scripts", ".github", "README.md", "netlify.toml", "vercel.json")
+    for rel in forbidden:
+        if (DIST / rel).exists():
+            errors.append(f"dist/: internal/configuration path must not be published: {rel}")
+
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "styles.css", "script.js", "favicon.svg", "site.webmanifest")
+    for rel in required:
+        if not (DIST / rel).is_file():
+            errors.append(f"dist/: required public asset missing: {rel}")
+
+    sitemap = DIST / "sitemap.xml"
+    if sitemap.is_file():
+        try:
+            root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
+            ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+            urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
+            if len(urls) != 18:
+                errors.append(f"dist/sitemap.xml: expected 18 URLs, found {len(urls)}")
+            for url in urls:
+                parsed = urlparse(url)
+                if parsed.scheme != "https" or parsed.netloc.casefold() != "beincasinos.online":
+                    errors.append(f"dist/sitemap.xml: unexpected canonical URL: {url}")
+                    continue
+                path = unquote(parsed.path or "/").lstrip("/")
+                target = DIST / path
+                if not path:
+                    target = DIST / "index.html"
+                elif target.is_dir():
+                    target = target / "index.html"
+                elif not target.suffix:
+                    target = target / "index.html"
+                if not target.is_file() or target.suffix.lower() not in (".html", ".htm"):
+                    errors.append(f"dist/sitemap.xml: URL does not map to a public HTML file: {url}")
+        except (ET.ParseError, OSError, UnicodeError) as exc:
+            errors.append(f"dist/sitemap.xml: cannot validate XML ({exc})")
+
+    robots = DIST / "robots.txt"
+    if robots.is_file() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
+        errors.append("dist/robots.txt: pre-launch crawl block was removed without the release gate")
+
+if errors:
+    print(f"FAIL: {len(errors)} deployment artifact issue(s)")
+    for item in errors:
+        print(f"  ERROR: {item}")
+    sys.exit(1)
+
+print("PASS: deployment artifact contains public files only; internal docs and trackers are excluded.")
