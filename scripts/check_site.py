@@ -803,6 +803,7 @@ for required_doc in (
     "docs/brand-profile-betinia-us-nj-draft.md",
     "docs/brand-profile-vegas-club-us-nj-draft.md",
     "docs/brand-profile-winz-nl-draft.md",
+    "scripts/browser_smoke.cjs",
 ):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
