@@ -551,8 +551,9 @@ if master_tracker.exists():
                 market = row.get("market", "").strip()
                 if market not in allowed_markets:
                     errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: unsupported market {market!r}")
-                if row.get("publication_status", "").strip() not in allowed_publication_status:
-                    errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: publication_status must be Hold, Exclude, or Approved")
+                publication_status = row.get("publication_status", "").strip()
+                if publication_status not in {"Hold", "Approved"} and not publication_status.startswith("Exclude"):
+                    errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: publication_status must be Hold, Approved, or an Exclude-prefixed holdout status")
                 if row.get("willingness_to_pay", "").strip().casefold() in {"yes", "confirmed", "confirmed buyer", "willing"}:
                     if not row.get("commercial_signal", "").strip() or not row.get("primary_evidence_url", "").strip():
                         errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: confirmed willingness-to-pay requires documented commercial signal and evidence URL")
