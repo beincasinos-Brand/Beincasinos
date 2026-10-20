@@ -780,9 +780,28 @@ else:
     errors.append("docs/paid-listing-sales-pipeline.csv is missing")
 
 # Keep launch-planning documents present so critical approval gates cannot silently disappear.
-for required_doc in ("docs/prelaunch-launch-checklist.md", "docs/audience-growth-measurement-plan.md", "docs/paid-listing-sales-pipeline.md"):
+for required_doc in (
+    "docs/prelaunch-launch-checklist.md",
+    "docs/audience-growth-measurement-plan.md",
+    "docs/paid-listing-sales-pipeline.md",
+    "docs/brand-identity-and-growth-north-star.md",
+    "docs/international-seo-content-architecture.md",
+    "docs/editorial-review-scoring-rubric.md",
+    "docs/editorial-source-review-log-2026-10-20.md",
+):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
+
+# Keep the BIC monogram consistent across all public pages that use the shared header.
+for page in pages:
+    if page.name == "404.html":
+        continue
+    try:
+        source = page.read_text(encoding="utf-8")
+    except (OSError, UnicodeError):
+        continue
+    if not all(token in source for token in ('class="brand-mark"', 'class="brand-b"', 'class="brand-i"', 'class="brand-c"')):
+        errors.append(f"{page.relative_to(ROOT).as_posix()}: missing or inconsistent BIC monogram markup")
 
 print(f"Checked {len(pages)} HTML pages.")
 if errors:
