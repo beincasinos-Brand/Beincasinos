@@ -12,7 +12,7 @@ An English-language educational resource for understanding online casino terms, 
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
 
 ## Source-level quality check
-Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles or IDs, missing image alt attributes, broken local navigation/resource references, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. It is a guardrail—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
+Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles or IDs, missing image alt attributes, broken local navigation/resource references, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. The deployment-artifact check also scans the public-only `dist/` text assets for common accidental-secret patterns and obvious placeholders; this lightweight pattern check is not a dedicated secret scanner. These checks are guardrails—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
 
 ## Launch blockers — domain acquired, do not deploy yet
 The owner has reported completing the `beincasinos.online` purchase through Spaceship. The sitemap now uses that domain, but this does **not** mean the brand name is legally cleared or the site is ready to launch.
