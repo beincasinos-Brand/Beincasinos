@@ -145,9 +145,15 @@ const routes = [
     if ((await page.locator("#checked-count").textContent()).trim() !== "1") {
       throw new Error("terms checklist progress did not update after checking an item");
     }
+    if (!(await page.locator("#progress-fill").getAttribute("class")).includes("progress-1")) {
+      throw new Error("terms checklist progress bar did not update its CSP-safe state class");
+    }
     await page.locator("#reset-checklist").click();
     if ((await page.locator("#checked-count").textContent()).trim() !== "0") {
       throw new Error("terms checklist reset did not clear progress");
+    }
+    if (!(await page.locator("#progress-fill").getAttribute("class")).includes("progress-0")) {
+      throw new Error("terms checklist reset did not reset the progress bar");
     }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
