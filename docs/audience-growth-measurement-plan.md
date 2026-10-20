@@ -15,8 +15,8 @@ This is a planning framework, not a traffic or revenue forecast. Search visibili
 ## Month-by-month work plan
 
 ### Month 1 — Clear the foundation
-- Resolve the name/trademark question before domain purchase.
-- Choose initial audience market(s), publisher identity, monitored contact route, and a host whose terms permit the intended commercial model.
+- Resolve the name/trademark question before public launch or further branding investment. The domain purchase is owner-reported complete; this is not trademark clearance.
+- Confirm the first market for actual publication, publisher identity, monitored contact route, and a host whose terms permit the intended commercial model. The broader research scope is AU, US, FR, DE, CH, GB, and NL; it is not permission to promote offers in all of them.
 - Review current pages for usefulness, factual sourcing, internal links, and responsible-gambling language.
 - Define a baseline spreadsheet for content inventory and monthly metrics; record zero/unknown honestly rather than estimating.
 - Do not launch publicly while the release checklist has unresolved launch blockers.
@@ -33,7 +33,7 @@ This is a planning framework, not a traffic or revenue forecast. Search visibili
 **Evidence to retain:** reviewed page list, source links, browser test notes, resolved defect list, approved release commit.
 
 ### Month 3 — Launch only after approval
-- Complete every applicable release gate and get explicit owner approval for domain purchase, hosting/deployment, and enabling indexing.
+- Complete every applicable release gate. Verify the existing domain registration; get explicit owner approval before paid hosting, deployment, DNS changes, or enabling indexing.
 - Configure the real domain, HTTPS, canonical/social URLs, robots rules, and sitemap.
 - Verify the domain in Google Search Console and submit the real sitemap only after indexing is approved.
 - Inspect indexing coverage, crawl errors, mobile usability signals where available, and search queries; do not interpret early volatility as a trend.
