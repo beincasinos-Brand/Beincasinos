@@ -23,6 +23,30 @@ const routes = [
       if (!response || response.status() !== 200) {
         throw new Error(route + " returned " + (response ? response.status() : "no response"));
       }
+      const accessibilityIssues = await page.evaluate(() => {
+        const issues = [];
+        if (!document.documentElement.lang) issues.push("missing document language");
+        if (document.querySelectorAll("main").length !== 1) issues.push("expected exactly one main landmark");
+        if (!document.querySelector('a.skip-link[href="#main"]')) issues.push("missing skip-to-content link");
+        for (const control of document.querySelectorAll("input:not([type=hidden]), select, textarea")) {
+          const id = control.id;
+          const labelledBy = control.getAttribute("aria-labelledby");
+          const hasLabel = id && document.querySelector('label[for="' + CSS.escape(id) + '"]');
+          const hasAriaLabel = (control.getAttribute("aria-label") || "").trim();
+          const hasLabelledBy = labelledBy && labelledBy.split(/\\s+/).some(token => document.getElementById(token));
+          const wrappedLabel = control.closest("label");
+          if (!hasLabel && !hasAriaLabel && !hasLabelledBy && !wrappedLabel) {
+            issues.push("unlabelled form control: " + (id || control.tagName.toLowerCase()));
+          }
+        }
+        for (const button of document.querySelectorAll("button")) {
+          if (!(button.innerText || "").trim() && !(button.getAttribute("aria-label") || "").trim() && !(button.getAttribute("aria-labelledby") || "").trim()) {
+            issues.push("button has no accessible name");
+          }
+        }
+        return issues;
+      });
+      if (accessibilityIssues.length) throw new Error(route + " accessibility smoke checks: " + accessibilityIssues.join("; "));
       const title = (await page.title()).trim();
       const h1 = (await page.locator("h1").first().textContent().catch(() => "") || "").trim();
       if (!title) throw new Error(route + " has no document title");
