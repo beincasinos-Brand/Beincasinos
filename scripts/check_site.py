@@ -5,6 +5,7 @@ Run from the repository root: python3 scripts/check_site.py
 This is a source-level check, not a substitute for browser, accessibility,
 legal, privacy, or production-host testing.
 """
+import csv
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse, unquote
@@ -232,6 +233,54 @@ if sitemap.exists():
                 errors.append(f"sitemap.xml: URL does not map to an HTML page: {url}")
     except (ET.ParseError, OSError, UnicodeError) as exc:
         errors.append(f"sitemap.xml: cannot parse sitemap XML ({exc})")
+
+# Keep the commercial research queue auditable; prospect count is not a publication target.
+prospect_csv = ROOT / "docs/brand-research-template.csv"
+if prospect_csv.exists():
+    try:
+        with prospect_csv.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+            required_columns = {
+                "brand_name", "official_url", "legal_entity", "regulator",
+                "official_register_url", "license_scope", "markets_allowed",
+                "markets_excluded", "last_checked_utc", "reviewer", "status",
+                "publication_decision", "commercial_status", "unresolved_issues",
+            }
+            columns = reader.fieldnames or []
+            missing_columns = sorted(required_columns - set(columns))
+            if missing_columns:
+                errors.append("docs/brand-research-template.csv: missing required column(s): " + ", ".join(missing_columns))
+            if len(columns) != len(set(columns)):
+                errors.append("docs/brand-research-template.csv: duplicate column names")
+            if len(rows) != 100:
+                errors.append(f"docs/brand-research-template.csv: expected 100 prospect rows, found {len(rows)}")
+            names = [row.get("brand_name", "").strip().casefold() for row in rows]
+            if any(not name for name in names):
+                errors.append("docs/brand-research-template.csv: every prospect must have a brand name")
+            duplicates = sorted(name for name in set(names) if name and names.count(name) > 1)
+            if duplicates:
+                errors.append("docs/brand-research-template.csv: duplicate brand name(s): " + ", ".join(duplicates))
+            allowed_statuses = {"prospect", "researching", "verified_for_review", "approved_to_publish", "rejected", "published"}
+            allowed_commercial = {"none", "paid listing", "affiliate", "both"}
+            for index, row in enumerate(rows, start=2):
+                status = row.get("status", "").strip()
+                commercial = row.get("commercial_status", "").strip().casefold()
+                if status not in allowed_statuses:
+                    errors.append(f"docs/brand-research-template.csv:{index}: unsupported status {status!r}")
+                if commercial not in allowed_commercial:
+                    errors.append(f"docs/brand-research-template.csv:{index}: unsupported commercial_status {commercial!r}")
+                if status in {"verified_for_review", "approved_to_publish", "published"}:
+                    evidence_fields = ("official_url", "legal_entity", "official_register_url", "license_scope", "markets_allowed", "last_checked_utc", "reviewer")
+                    missing_evidence = [field for field in evidence_fields if not row.get(field, "").strip()]
+                    if missing_evidence:
+                        errors.append(f"docs/brand-research-template.csv:{index}: status {status!r} requires evidence fields: " + ", ".join(missing_evidence))
+                if status == "published" and row.get("publication_decision", "").strip().casefold() not in {"approved", "approved_to_publish", "publish"}:
+                    errors.append(f"docs/brand-research-template.csv:{index}: published status requires an explicit approved publication_decision")
+    except (OSError, UnicodeError, csv.Error) as exc:
+        errors.append(f"docs/brand-research-template.csv: cannot validate prospect tracker ({exc})")
+else:
+    errors.append("docs/brand-research-template.csv is missing")
 
 # Guard the two interactive learning tools against accidental markup regressions.
 calculator_path = ROOT / "tools/wagering-calculator/index.html"
