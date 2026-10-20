@@ -11,6 +11,9 @@ An English-language educational resource for understanding online casino terms, 
 ## Local preview
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
 
+## Source-level quality check
+Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles, broken local links, and known launch placeholders. It is a guardrail—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
+
 ## Launch blockers — do not deploy yet
 1. Buy and select the production domain, then replace the domain placeholder in `sitemap.xml` and add canonical/OG URLs.
 2. Verify every legal/regulatory statement against current primary sources for each target market.
