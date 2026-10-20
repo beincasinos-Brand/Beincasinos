@@ -78,3 +78,5 @@
 - Homepage metadata and positioning now reflect the casino-review and research direction. The public `/reviews/` hub is in navigation and sitemap; individual operator reviews remain unpublished until each passes evidence gates.
 
 - Latest source-check result after the seven editorial notice updates: **20 HTML pages checked, 0 structural errors, 1 warning** (the privacy page is intentionally marked pre-launch draft). See passing run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497391660. Artifact build and internal-file exclusion also passed. This is not legal review or live-browser QA.
+
+- Added `docs/editorial-review-scoring-rubric.md` with pass/fail eligibility gates, a weighted 100-point evidence-based rubric, and rules that prohibit paid placement from influencing scores. The public How We Review page now explains the same methodology. This defines a process; it does not mean any casino has been scored or that a top-10 ranking exists yet.
