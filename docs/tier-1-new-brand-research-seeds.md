@@ -33,6 +33,14 @@
 | Stakewise | April 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 13 Apr 2026 and active trading name; find official launch source/domain/contact | Unknown — no direct confirmation |
 | TigerBet | 2025 UK launch (brand source/secondary date) | New operator | Official brand terms/about and UKGC entity/domain/licence pages align; capture attributable launch announcement and sales contact | Unknown — no direct confirmation |
 
+| Brillbet | September 2026 (secondary) | New UK brand/operator lead | UKGC account 101570 lists active Casino permission from 15 June 2026 and active brillbet.co.uk/brillbet.com domains; verify the public launch date and current terms | Unknown — no direct confirmation |
+| Betty Casino | April 2026 (secondary; licence activity date is not a launch date) | New UK brand | UKGC account 100695 lists active Casino permission from 1 April 2026 and active betty.com/playbetty.co.uk domains; verify launch and exact consumer site | Unknown — no direct confirmation |
+| Casushi | 2026 coverage; exact date unverified | New brand / operator-resolution lead | UKGC search shows a Casushi trading-name match under Dazzletag Entertainment Limited and Solaya Group Limited lists casushi.com as active; resolve the current operator/domain relationship before qualification | Unknown — no direct confirmation |
+| FruitKings | 2026 coverage; exact date unverified | New brand / operator-resolution lead | UKGC lists fruitkings.com as active under Solaya Group Limited; verify the exact consumer brand, launch date and licence-to-domain relationship | Unknown — no direct confirmation |
+| Betcrown | 2026 (secondary) | New white-label brand | UKGC account 48789 lists betcrown.co.uk as a White Label domain under active Casino permission; this is not a standalone operator licence | Unknown — no direct confirmation |
+| BetLegend | August 2026 (secondary) | New white-label brand | UKGC account 48789 lists betlegend.co.uk as a White Label domain under active Casino permission; verify current launch date and operator arrangement | Unknown — no direct confirmation |
+| BetNero | May 2025 (secondary) | New white-label brand | UKGC account 48789 lists betnero.co.uk as a White Label domain under active Casino permission; verify current launch date and operator arrangement | Unknown — no direct confirmation |
+
 ## Secondary discovery sources (leads only)
 
 - British Gambler new-casino tracker: https://britishgambler.co.uk/casino/new/
