@@ -1,6 +1,12 @@
 # BeInCasinos
 
-An English-language educational resource for understanding online casino terms, licensing, withdrawals, bonuses, and safer gambling.
+An English-language, evidence-led casino reviews and research brand focused on operator identity, market-specific licensing, terms, withdrawals, and safer gambling. Individual reviews must pass the internal evidence and publication gate before they can go live.
+
+## Brand and editorial direction
+- Public brand: BeInCasinos; compact monogram: BIC.
+- Positioning, visual identity, review evidence standard, and growth ambitions: `docs/brand-identity-and-growth-north-star.md`.
+- Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
+- The owner's top-10 ambition and 100 million daily search-impressions ambition are goals only, not current metrics or guaranteed results.
 
 ## Stack
 - Static HTML, CSS, and vanilla JavaScript
