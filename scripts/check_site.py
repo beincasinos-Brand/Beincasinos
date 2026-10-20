@@ -199,6 +199,16 @@ for page in pages:
         if not re.search(pattern, source, re.I):
             errors.append(f"{rel}: missing {label} metadata")
 
+    # Keep search snippets and social previews aligned to avoid stale publisher details.
+    page_title = re.search(r'<title>(.*?)</title>', source, re.I | re.S)
+    og_title = re.search(r'<meta property="og:title" content="([^"]+)"', source, re.I)
+    description = re.search(r'<meta name="description" content="([^"]*)"', source, re.I)
+    og_description = re.search(r'<meta property="og:description" content="([^"]*)"', source, re.I)
+    if page_title and og_title and " ".join(page_title.group(1).split()) != og_title.group(1):
+        errors.append(f"{rel}: Open Graph title does not match the page title")
+    if description and og_description and description.group(1) != og_description.group(1):
+        errors.append(f"{rel}: Open Graph description does not match the meta description")
+
 # A custom 404 page should not be indexed as a content page.
 not_found_page = ROOT / "404.html"
 if not_found_page.exists():
