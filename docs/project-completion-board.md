@@ -66,7 +66,7 @@
 ## Latest brand and product work — 20 October 2026
 
 - Owner's positioning is now documented in `docs/brand-identity-and-growth-north-star.md`: premium international casino reviews, BIC monogram, evidence-led editorial voice, and top-10 / 100-million-daily-impressions ambitions treated strictly as aspirations rather than current claims.
-- The BIC monogram has been added to the site's primary navigation across public HTML pages and the favicon has been replaced with a matching evergreen/mint mark. Source changes are committed; automated CI still needs to confirm the latest combined state.
+- The BIC monogram has been added to the site's primary navigation across public HTML pages and the favicon has been replaced with a matching evergreen/mint mark. Site source changes are committed and the combined source/build/artifact CI passed on run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497549965.
 - Added `/reviews/` as a review-standard hub, connected it in the primary navigation and sitemap, included it in the public-only build allowlist, and updated the artifact checker to expect 19 sitemap URLs. The hub intentionally does not list unverified casinos as recommendations.
 - Homepage positioning now leads with evidence-led casino reviews while keeping educational guides available. No individual casino profile is yet approved for publication; the 100-brand list remains an internal prospect/research queue, not a live verified review database.
 - The 100-million daily search-impressions ambition is not a forecast or guarantee. Report only real, dated Search Console metrics after launch.
@@ -80,3 +80,5 @@
 - Latest source-check result after the seven editorial notice updates: **20 HTML pages checked, 0 structural errors, 1 warning** (the privacy page is intentionally marked pre-launch draft). See passing run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497391660. Artifact build and internal-file exclusion also passed. This is not legal review or live-browser QA.
 
 - Added `docs/editorial-review-scoring-rubric.md` with pass/fail eligibility gates, a weighted 100-point evidence-based rubric, and rules that prohibit paid placement from influencing scores. The public How We Review page now explains the same methodology. This defines a process; it does not mean any casino has been scored or that a top-10 ranking exists yet.
+
+- Public review-scoring methodology passed the source/build/artifact workflow on run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497604480. The latest internal profile-template documentation update is still being checked by CI; no deployment or indexing action was performed.
