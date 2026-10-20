@@ -90,3 +90,15 @@ This addendum supersedes the older CI commit/run references in the repository-wo
 - No browser/device QA, live-host test, domain/DNS check, trademark clearance, privacy/legal approval, outreach, deployment, or indexing change has occurred.
 
 **Decision remains BLOCKED.** The successful CI run verifies repository/build checks only. It does not clear any release blocker listed above.
+
+
+## Owner decisions and privacy follow-up — 20 October 2026
+
+- **Brand decision:** the owner has chosen to retain the name BeInCasinos for now because the domain was purchased. This is a recorded business preference, not trademark clearance; the name-review release gate remains open.
+- **Publisher display identity:** Anass Amir, as specified by the owner. This does not by itself establish a legal business entity or satisfy every jurisdiction's publisher disclosure requirements.
+- **Temporary public contact:** beincasinos@gmail.com, as explicitly selected by the owner. The mailbox has not been tested by this workflow; accessibility, account security and regular monitoring remain to be confirmed.
+- The About, Contact and pre-launch Privacy pages now reflect the supplied publisher identity/contact. The Privacy page remains a draft and is not a claim of legal compliance.
+- Added `docs/privacy-and-data-handling-review.md` based on official Moroccan CNDP guidance for websites and Law 09-08. It flags controller identity, data mapping, hosting locations, CNDP formalities and possible cross-border transfer requirements for review before relevant processing begins. Applicability must be confirmed against the actual setup; no filing or legal conclusion is claimed.
+- The latest site-check run on the current contact-page commit is [39495222821](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39495222821). HTML/local-link checks, public-only build and artifact-exclusion checks have passed; artifact upload is still running at the time of this update.
+
+**Decision remains BLOCKED.** No deployment, DNS change, public indexing, paid hosting purchase, or brand outreach has been performed.
