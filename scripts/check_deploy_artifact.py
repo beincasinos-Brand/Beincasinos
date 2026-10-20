@@ -57,10 +57,10 @@ else:
     import re
     suspicious_patterns = {
         "private-key header": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----", re.IGNORECASE),
-        "GitHub token": re.compile(r"\\bgh[pousr]_[A-Za-z0-9]{30,}\\b"),
-        "AWS access key ID": re.compile(r"\\bAKIA[0-9A-Z]{16}\\b"),
-        "Stripe live/test secret": re.compile(r"\\b(?:sk|rk)_(?:live|test)_[A-Za-z0-9]{16,}\\b"),
-        "explicit replacement placeholder": re.compile(r"\\b(?:REPLACE_WITH_[A-Z0-9_]+|YOUR_API_KEY|YOUR_SECRET|TODO:|FIXME:|LOREM IPSUM)\\b", re.IGNORECASE),
+        "GitHub token": re.compile(r"\bgh[pousr]_[A-Za-z0-9]{30,}\b"),
+        "AWS access key ID": re.compile(r"\bAKIA[0-9A-Z]{16}\b"),
+        "Stripe live/test secret": re.compile(r"\b(?:sk|rk)_(?:live|test)_[A-Za-z0-9]{16,}\b"),
+        "explicit replacement placeholder": re.compile(r"\b(?:REPLACE_WITH_[A-Z0-9_]+|YOUR_API_KEY|YOUR_SECRET|TODO:|FIXME:|LOREM IPSUM)\b", re.IGNORECASE),
     }
     text_suffixes = {".html", ".css", ".js", ".json", ".txt", ".xml", ".svg", ".webmanifest", ".md"}
     for asset in DIST.rglob("*"):
