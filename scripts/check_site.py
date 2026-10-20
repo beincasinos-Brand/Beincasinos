@@ -233,6 +233,24 @@ if sitemap.exists():
                 continue
             if not target.is_file() or target.suffix.lower() not in (".html", ".htm"):
                 errors.append(f"sitemap.xml: URL does not map to an HTML page: {url}")
+        expected_paths = set()
+        for page in pages:
+            rel = page.relative_to(ROOT).as_posix()
+            if rel == "404.html":
+                continue
+            if rel == "index.html":
+                expected_paths.add("/")
+            elif rel.endswith("/index.html"):
+                expected_paths.add("/" + rel[:-len("index.html")])
+            else:
+                expected_paths.add("/" + rel)
+        actual_paths = {urlparse(url).path or "/" for url in sitemap_urls}
+        missing_paths = sorted(expected_paths - actual_paths)
+        extra_paths = sorted(actual_paths - expected_paths)
+        if missing_paths:
+            errors.append("sitemap.xml: public HTML page(s) missing from sitemap: " + ", ".join(missing_paths))
+        if extra_paths:
+            errors.append("sitemap.xml: sitemap path(s) have no matching public HTML page: " + ", ".join(extra_paths))
     except (ET.ParseError, OSError, UnicodeError) as exc:
         errors.append(f"sitemap.xml: cannot parse sitemap XML ({exc})")
 
