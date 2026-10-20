@@ -220,6 +220,29 @@ if sitemap.exists():
     except (ET.ParseError, OSError, UnicodeError) as exc:
         errors.append(f"sitemap.xml: cannot parse sitemap XML ({exc})")
 
+# Guard the two interactive learning tools against accidental markup regressions.
+calculator_path = ROOT / "tools/wagering-calculator/index.html"
+if calculator_path.exists():
+    calculator_source = calculator_path.read_text(encoding="utf-8")
+    for required_id in ("wager-form", "eligible", "currency", "multiplier", "turnover", "result-summary", "calc-error"):
+        if not re.search(r'\\bid=["\\']' + re.escape(required_id) + r'["\\']', calculator_source):
+            errors.append(f"tools/wagering-calculator/index.html: required calculator control missing: {required_id}")
+    if "Number.isFinite(result)" not in calculator_source or "event.preventDefault()" not in calculator_source:
+        errors.append("tools/wagering-calculator/index.html: calculation validation or form-submit handling is missing")
+
+checklist_path = ROOT / "tools/terms-checklist/index.html"
+if checklist_path.exists():
+    checklist_source = checklist_path.read_text(encoding="utf-8")
+    checkbox_count = len(re.findall(r'<input\\b[^>]*type=["\\']checkbox["\\']', checklist_source, re.I))
+    if checkbox_count != 13:
+        errors.append(f"tools/terms-checklist/index.html: expected 13 checklist items, found {checkbox_count}")
+    for required_id in ("checked-count", "total-count", "progress-fill", "progress-track", "progress-message", "print-checklist", "reset-checklist"):
+        if not re.search(r'\\bid=["\\']' + re.escape(required_id) + r'["\\']', checklist_source):
+            errors.append(f"tools/terms-checklist/index.html: required checklist control missing: {required_id}")
+    for required_behavior in ("aria-valuenow", "aria-valuemax", "window.print()", "box.checked = false"):
+        if required_behavior not in checklist_source:
+            errors.append(f"tools/terms-checklist/index.html: expected interaction/accessibility behavior missing: {required_behavior}")
+
 print(f"Checked {len(pages)} HTML pages.")
 if errors:
     print(f"\nFAIL: {len(errors)} error(s)")
