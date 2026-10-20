@@ -13,7 +13,7 @@ Build a useful, trusted casino-brand directory and educational resource. The ini
 
 ## Phase 0 — pre-launch name and business clearance
 1. Resolve brand-name clearance, especially the “BEIN” element; consider an alternative name if qualified advice suggests material risk. The reported domain purchase does not remove this blocker.
-2. Choose a first target market and language. “International” is not a legal market approval.
+2. The intended research markets are AU, US, FR, DE, CH, GB, and NL; select the first market for actual launch. “International” is not a legal market approval.
 3. Decide the publisher identity and monitored business contact.
 4. Choose a host whose terms permit the intended commercial directory and affiliate business.
 
@@ -50,10 +50,10 @@ Do not use scraped listicles as proof of licensing. A licence must be checked ag
 - Keep commercial status recorded per brand: none / paid listing / affiliate / both.
 
 ## Google Search Console launch checklist
-1. Purchase the domain only after name clearance.
+1. Verify the owner-reported `beincasinos.online` registration and DNS access in Spaceship. The purchase is reported complete; do not purchase it again. Name clearance remains a separate blocker.
 2. Deploy the reviewed site on a commercially permitted host and enable HTTPS.
 3. Verify the domain property in Search Console using the DNS TXT record from Google.
-4. Replace every sitemap placeholder with the final canonical domain; confirm canonical URLs use one preferred host/protocol.
+4. Confirm the intended domain is live and canonical/social metadata use one preferred host/protocol. Source sitemap and canonical URLs currently use `https://beincasinos.online`; live DNS/HTTPS remains unverified.
 5. Remove the pre-launch Disallow: / only after launch approval; make sure important pages are crawlable.
 6. Submit the sitemap in Search Console, inspect the homepage and key pages, and monitor indexing and Core Web Vitals.
 7. Do not expect immediate indexing or rankings; fix reported technical issues and build useful content.
