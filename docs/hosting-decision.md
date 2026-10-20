@@ -1,6 +1,6 @@
 # Hosting decision note — 20 October 2026
 
-**Recommendation for a future low-cost static launch: evaluate Netlify Free first; do not deploy until launch blockers are closed and the owner explicitly approves publishing.** This is a documented recommendation, not a completed account setup or provider acceptance.
+**Recommendation: evaluate Netlify Free only for a private preview/staging build; do not treat it as the production plan for a commercial site with ambitious growth goals. Choose the production tier after a realistic traffic/cost estimate and current acceptable-use review. Do not deploy publicly until launch blockers are closed and the owner explicitly approves publishing.** This is a documented recommendation, not a completed account setup or provider acceptance.
 
 ## Current account checks
 
@@ -12,7 +12,7 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 
 | Option | Current published plan facts checked | Fit for this project | Limit / caution |
 |---|---|---|---|
-| Netlify Free | Official pricing lists $0/month, custom domains with SSL, global CDN, and a 300-credit monthly hard limit: https://www.netlify.com/pricing/ . Netlify's official announcement says the Free plan supports commercial projects: https://www.netlify.com/blog/introducing-netlify-free-plan/ | Best first candidate to evaluate for a small static HTML/CSS/JS site while keeping recurring spend at $0 | If the credit limit is reached, projects can pause until the next cycle. Confirm current plan terms and acceptable-use policy for this specific gambling-information business before publishing. No provider acceptance has been obtained. |
+| Netlify Free | Official pricing lists $0/month, custom domains with SSL, global CDN, and a 300-credit monthly hard limit: https://www.netlify.com/pricing/ . Netlify's official announcement says the Free plan supports commercial projects: https://www.netlify.com/blog/introducing-netlify-free-plan/ | Suitable for private preview/staging and smoke-testing while keeping recurring spend at $0 | If the credit limit is reached, projects can pause until the next cycle. Not recommended as a production commitment until realistic traffic is forecast; confirm current terms and acceptable-use policy for this gambling-information business. No provider acceptance has been obtained. |
 | Vercel Hobby | Official policy restricts Hobby to personal/non-commercial use: https://vercel.com/docs/limits/fair-use-guidelines | Not suitable for the planned commercial site on the currently connected Hobby team | Do not use Hobby for the paid-listing/affiliate business. |
 | Vercel Pro | Official pricing and current plan terms: https://vercel.com/pricing | Technically viable if owner prefers to stay on Vercel and approves the recurring cost | Paid plan; price and usage terms must be reviewed at decision time. No upgrade made. |
 
@@ -36,4 +36,4 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 - [ ] Deploy a private/preview build first if the provider supports it; verify HTTPS, redirects, headers, tools, assets, and 404 before public release.
 - [ ] Keep indexing blocked until explicit launch approval.
 
-**Current status: prepared only. No hosting provider has been selected or connected to this repository.**
+**Current status: prepared only. No hosting provider has been selected or connected to this repository. Netlify Free is now a preview/staging candidate only, not a production-tier decision.**
