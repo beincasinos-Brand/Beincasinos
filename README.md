@@ -44,7 +44,7 @@ BeInCasinos targets **Tier 1 audiences only** in AU, US, FR, DE, CH, GB, and NL.
 The intended commercial sequence is **audience first, paid listings second, affiliate revenue later**. Do not present listing fees as available or charge brands until the site has measurable traffic and a documented media kit. The initial research target is 100 casino brands, but a brand is not publishable merely because its name is on a prospect list.
 
 ### Staged plan
-1. **Before domain purchase:** resolve the BEIN trademark/name risk and choose the initial target market(s). Do not buy a domain until the name is cleared.
+1. **Before public launch:** resolve the BEIN trademark/name risk and choose the initial target market(s). The owner reports the domain purchase is complete, but a purchase does not clear the name legally.
 2. **Build the 100-brand prospect list:** record the brand, exact operating/legal entity, official website, regulator/register evidence, permitted territories, source URLs, date checked, contact route, and research status. Unknown fields stay marked unknown; never infer licence status.
 3. **Publish verified profiles only:** each profile needs unique useful content, market-specific caveats, clear update dates, official source links, and an editorial review. Avoid 100 thin or near-duplicate pages. Keep unverified prospects out of the public sitemap.
 4. **First six months:** focus on genuinely useful guides, tools, technical SEO, indexation, and audience measurement. No promise of traffic or revenue; use the first six months as a review period, not a guarantee.
