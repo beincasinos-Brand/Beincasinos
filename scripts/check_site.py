@@ -177,6 +177,16 @@ if robots.exists() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
 sitemap = ROOT / "sitemap.xml"
 if sitemap.exists() and re.search(r"YOUR-DOMAIN|example\.com|\.example", sitemap.read_text(encoding="utf-8"), re.I):
     warnings.append("sitemap.xml contains a domain placeholder; replace after the production domain is chosen")
+# Surface content whose market-specific primary-source review is still pending.
+for page in pages:
+    rel = page.relative_to(ROOT).as_posix()
+    try:
+        source = page.read_text(encoding="utf-8")
+    except (OSError, UnicodeError):
+        continue
+    if re.search(r"Reviewed for launch: pending|review status: pending", source, re.I):
+        warnings.append(f"{rel}: content review is explicitly pending; verify claims against current primary sources before launch")
+
 for rel in ("privacy/index.html", "contact/index.html"):
     page = ROOT / rel
     if page.exists() and re.search(r"pre-launch|not yet been finalised|not yet been finalized|draft", page.read_text(encoding="utf-8"), re.I):
