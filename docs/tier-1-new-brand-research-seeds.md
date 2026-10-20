@@ -27,6 +27,7 @@
 | O'Reels Casino | 2025 | New launch | Verify official launch date, domain and underlying operator | Unknown — no direct confirmation |
 | Puntit Casino | 2025 | New launch | Verify legal entity, licence scope and official launch evidence | Unknown — no direct confirmation |
 | LuckyMate Casino | 2025 | New launch | Verify operator/domain and current UKGC register record | Unknown — no direct confirmation |
+| BetTOM | July 2025 UK launch | New launch | Primary-source announcement and UKGC record found; confirm official partnership route and exact current product/market scope | Unknown — no direct confirmation |
 
 ## Secondary discovery sources (leads only)
 
@@ -47,3 +48,22 @@
 ## Commercial qualification hypothesis
 
 New brands and new market entrants may have a reason to seek awareness, but launch recency alone is not evidence of budget, decision-maker access, or willingness to pay. Test this hypothesis with documented public partnership signals and, only after the site is ready, carefully targeted, compliant outreach. Do not describe these candidates as “wanting a paid listing” unless they directly confirm it.
+
+
+## Primary-source verification notes — checked 20 October 2026
+
+These are stronger evidence leads than the secondary-only queue, but they are **not approved paid-listing prospects**. The checks below are limited to the sources linked here and should be refreshed before any publication or outreach.
+
+| Brand | Primary launch / brand source | Regulator evidence | What this establishes | Remaining caveats |
+|---|---|---|---|---|
+| BetSuna | Brand-attributed launch release, 22 May 2026: https://www.globenewswire.com/news-release/2026/05/22/3300092/0/en/betsuna-launches-as-new-online-sportsbook-casino-and-bingo-brand-powered-by-progressplay.html | ProgressPlay Limited licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/39335 ; domain list: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39335 | The release says BetSuna launched in the UK and Ireland and names ProgressPlay Limited. The UKGC page shows active remote casino permission for ProgressPlay, and its domain page lists betsuna.com as a white-label domain. | **Enhanced compliance due diligence required:** the UKGC recorded a 9 May 2025 action against ProgressPlay, including a £1,000,000 financial penalty, warning and licence condition: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/276 . An active licence is not a clean bill of health. Confirm the precise brand/domain status and current terms before any decision. |
+| Smooth Spins | Official BVGroup announcement, 9 April 2025: https://www.bv-group.com/bvgroup-and-global-unveil-smooth-spins/ | BV Gaming Limited licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/39576 ; trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39576 | The operator-group announcement identifies Smooth Spins as a new brand; the UKGC trading-name page lists “smooth spins” as active under BV Gaming Limited, which has active remote casino permission. | Confirm the exact consumer-facing domain and current commercial contact. This verifies launch and operator/licence links only, not market permissions outside GB or willingness to pay. |
+| BetTOM | Brand-attributed UK launch release, 8 July 2025: https://www.prnewswire.com/news-releases/bettom-launches-in-uk-with-everymatrix-partnership-bringing-next-gen-betting-and-casino-experience-to-players-302499957.html | Bet Tom Limited licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/64959 ; trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64959 ; domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/64959 | The dated release reports a UK launch and names an EveryMatrix platform partnership. The UKGC register shows active remote casino permission, the trading name “bettom” active, and bettom.com active under Bet Tom Limited. | A technology/platform partnership is not evidence the brand buys directory listings. Confirm official sales/partnership contact, current brand proposition, and the exact markets/advertising rules before outreach. |
+
+### Evidence and sales status
+
+- The UKGC register is the primary source for GB operator permission; check the actual legal entity and product licence, not just a brand name or affiliate review.
+- A regulator record is a legal-scope check, not an endorsement or a guarantee of operator quality.
+- For BetSuna/ProgressPlay, the regulatory action is a material adverse signal that must remain visible in internal diligence. Do not hide it because the brand is recent or commercially interesting.
+- None of the three brands has provided a direct reply to BeInCasinos, agreed to a proposal, or demonstrated willingness to pay a listing fee. Their commercial status remains **unknown**.
+- Do not copy these GB findings into AU, US, FR, DE, CH, or NL eligibility fields. Each market requires its own primary-source assessment.
