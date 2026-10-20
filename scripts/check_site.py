@@ -234,6 +234,32 @@ if sitemap.exists():
     except (ET.ParseError, OSError, UnicodeError) as exc:
         errors.append(f"sitemap.xml: cannot parse sitemap XML ({exc})")
 
+# Verify security headers in the static-host configuration rather than assuming they are active.
+vercel_config = ROOT / "vercel.json"
+if vercel_config.exists():
+    try:
+        import json
+        config = json.loads(vercel_config.read_text(encoding="utf-8"))
+        configured_headers = {
+            item.get("key", "").casefold(): item.get("value", "")
+            for rule in config.get("headers", [])
+            for item in rule.get("headers", [])
+        }
+        required_headers = {
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "x-frame-options": "DENY",
+            "strict-transport-security": "max-age=31536000",
+            "x-permitted-cross-domain-policies": "none",
+        }
+        for name, expected in required_headers.items():
+            if configured_headers.get(name) != expected:
+                errors.append(f"vercel.json: missing or unexpected security header {name}: expected {expected!r}")
+    except (OSError, UnicodeError, ValueError) as exc:
+        errors.append(f"vercel.json: cannot validate security headers ({exc})")
+else:
+    errors.append("vercel.json is missing; review static-host security header configuration")
+
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
 if prospect_csv.exists():
