@@ -131,3 +131,5 @@
 - A second UKGC-backed research batch added eight more held leads (Stakewise, 44Aces, Casino and Friends, Peachy Games, Play Sunny, Neptune Play, PlayWins and BetFusion). Some are white-label domains or have unresolved current-operator/product scope; launch dates remain secondary-source claims or unverified. All are Hold and none has confirmed willingness to pay.
 
 - A third UK research batch added five leads with active UKGC domain/licence evidence: Megaways Casino (official 24 March 2026 relaunch), BestOdds, LuckyMate Casino, 7Bet Casino and Justin Casino. Launch timing for four of these is secondary-source reported or needs confirmation; all remain Hold and willingness to pay is Unconfirmed.
+
+- Added three internal GB dossiers (BestOdds, Stakewise and 44Aces) with current UKGC licence/domain evidence. Together with the Megaways Casino dossier, this brings the internal dossier set to 14; terms, withdrawals, complaints, safer-gambling controls, enforcement and commercial qualification remain incomplete, so none is approved for public publication.
