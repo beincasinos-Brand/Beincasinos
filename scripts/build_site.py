@@ -48,8 +48,8 @@ for rel in PUBLIC_FILES:
 
 for rel in PUBLIC_DIRS:
     src = ROOT / rel
-    if not src.is_dir() or not (src / "index.html").is_file():
-        raise SystemExit(f"Required public page directory is missing index.html: {rel}")
+    if not src.is_dir() or not any(src.rglob("*.html")):
+        raise SystemExit(f"Required public page directory is missing HTML pages: {rel}")
     shutil.copytree(src, DIST / rel)
 
 for rel in FORBIDDEN_PUBLIC_PATHS:
