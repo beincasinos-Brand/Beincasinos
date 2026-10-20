@@ -24,7 +24,8 @@ This is a source/repository review, not a live production audit. Repository file
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
 - A public-only build now copies only approved site assets/pages into `dist/`; CI verifies internal research docs, CSV trackers, scripts, and host configuration are not included in that artifact.
-- GitHub Actions passed on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452` (run 39488962203), including source checks, a public-only build, and deployment-artifact leak checks. This is not live-browser or production verification.
+- GitHub Actions passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648), including source checks, a public-only build, and deployment-artifact leak checks. This is not live-browser or production verification.
+- The safer-gambling page now links official support resources for all seven intended markets and clarifies the limits of Australia's BetStop scheme. The market-research page now links primary regulators for each target market.
 
 ## Release blockers — all must be evidenced, not assumed
 
@@ -53,6 +54,7 @@ This is a source/repository review, not a live production audit. Repository file
 
 ### 5. Technical readiness
 - Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 18 public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
+- A public-only deployment artifact is built into `dist/`, and CI checks that internal research docs, CSV trackers, scripts, and provider configuration are not published.
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
 - CI source checks are useful but are not browser QA or a full accessibility audit.
