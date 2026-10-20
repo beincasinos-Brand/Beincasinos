@@ -58,15 +58,15 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 ## Gate 5 — Technical QA and SEO
 
 - [x] GitHub Actions source checks, public-only build, and deployment-artifact leak checks passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648). Repeat on the final release commit; this is not browser or production QA.
-- [x] Add canonical URL and Open Graph/Twitter summary metadata to all 18 public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
+- [x] Add canonical URL and Open Graph/Twitter summary metadata to all 20 indexable public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
 - [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
 - [ ] Test the wagering calculator with empty, zero, negative, non-numeric, extremely large, and valid inputs.
 - [ ] Test the checklist tool on desktop/mobile, keyboard-only, print/PDF, reset, and progress updates.
-- [x] Automated Chromium smoke test against the public-only build passed on 20 October 2026: all 20 indexable routes return HTTP 200 with titles/H1s and matching search/social descriptions; mobile menu opens and closes with Escape; the wagering calculator handles the valid 100 × 35 example, zero, negative, empty and over-limit amounts; checklist progress/reset works; no horizontal overflow was found at 390px across all routes or at 1440px on the homepage; no uncaught page errors were detected. Evidence: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39501018535.
+- [x] Automated Chromium smoke test against the public-only build passed on 20 October 2026: all 20 indexable routes return HTTP 200 with titles/H1s and matching search/social descriptions; mobile menu opens and closes with Escape; the wagering calculator handles the valid 100 × 35 example, zero, negative, empty and over-limit amounts; checklist progress/reset works; no horizontal overflow was found at 390px across all routes or at 1440px on the homepage; no uncaught page errors were detected. Evidence: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39501405509.
 - [ ] Perform manual browser tests at mobile and desktop sizes, including keyboard navigation, focus visibility, print/PDF, and screen-reader review.
 - [ ] Review accessibility manually; automated/source checks are not a full accessibility audit.
 - [ ] Check page performance, image sizing, caching, HTTPS, and browser console/network errors.
-- [x] Add canonical/social metadata to all 18 public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; live domain/DNS/HTTPS and final host redirects remain unverified.
+- [x] Add canonical/social metadata to all 20 indexable public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; live domain/DNS/HTTPS and final host redirects remain unverified.
 - [x] Keep `robots.txt` blocking until explicit launch approval. Sitemap URLs currently use the intended domain; do not submit the sitemap to Search Console until the live site and canonical host are verified.
 
 ## Gate 6 — Hosting and security
