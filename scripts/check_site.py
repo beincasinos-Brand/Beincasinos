@@ -331,7 +331,8 @@ if netlify_config.exists():
         expected_line = f'{name} = "{value}"'
         if expected_line not in netlify_source:
             errors.append(f"netlify.toml: missing or unexpected security header {name}: expected {value!r}")
-    if not re.search(r'^\s*publish\s*=\s*"\."\s*
+    if 'publish = "."' not in netlify_source:
+        errors.append('netlify.toml: static publish directory must remain "." for this root-based site')
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
 if prospect_csv.exists():
