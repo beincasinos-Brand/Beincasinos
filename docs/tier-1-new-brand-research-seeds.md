@@ -28,6 +28,10 @@
 | Puntit Casino | 2025 | New launch | Verify legal entity, licence scope and official launch evidence | Unknown — no direct confirmation |
 | LuckyMate Casino | 2025 | New launch | Verify operator/domain and current UKGC register record | Unknown — no direct confirmation |
 | BetTOM | July 2025 UK launch | New launch | Primary-source announcement and UKGC record found; confirm official partnership route and exact current product/market scope | Unknown — no direct confirmation |
+| Bet Ahoy | May 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 17 Dec 2025; still find an attributable official launch announcement and confirm domain | Unknown — no direct confirmation |
+| Proper Bet | 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 22 May 2026; Companies House confirms entity; still source launch date and official contact | Unknown — no direct confirmation |
+| Stakewise | April 2026 UK launch (secondary lead) | New operator | UKGC remote casino permission active from 13 Apr 2026 and active trading name; find official launch source/domain/contact | Unknown — no direct confirmation |
+| TigerBet | 2025 UK launch (brand source/secondary date) | New operator | Official brand terms/about and UKGC entity/domain/licence pages align; capture attributable launch announcement and sales contact | Unknown — no direct confirmation |
 
 ## Secondary discovery sources (leads only)
 
@@ -67,3 +71,19 @@ These are stronger evidence leads than the secondary-only queue, but they are **
 - For BetSuna/ProgressPlay, the regulatory action is a material adverse signal that must remain visible in internal diligence. Do not hide it because the brand is recent or commercially interesting.
 - None of the three brands has provided a direct reply to BeInCasinos, agreed to a proposal, or demonstrated willingness to pay a listing fee. Their commercial status remains **unknown**.
 - Do not copy these GB findings into AU, US, FR, DE, CH, or NL eligibility fields. Each market requires its own primary-source assessment.
+
+
+## Additional regulator-backed leads — checked 20 October 2026
+
+The register evidence below verifies GB licence details for the named legal entities, **not willingness to buy a listing** and not permission for other countries. For each brand, keep the official launch date blank in the main tracker until a suitable dated launch source is recorded.
+
+| Brand | UKGC primary-source evidence | Official/primary identity evidence | Research status |
+|---|---|---|---|
+| Bet Ahoy | Active remote casino permission under Bet Ahoy Ltd (account 100094), from 17 Dec 2025: https://www.gamblingcommission.gov.uk/public-register/business/detail/100094 | Current official brand domain and launch announcement still need capture. | Licence lead verified; launch date and contact not yet fully qualified. |
+| Proper Bet | Active remote casino permission under Proper Bet Limited (account 100990), from 22 May 2026: https://www.gamblingcommission.gov.uk/public-register/business/detail/100990 | Companies House lists the legal entity as active, incorporated 11 Aug 2025: https://find-and-update.company-information.service.gov.uk/company/16642166 . The launch timing found so far is from secondary reporting, not a first-party dated launch announcement. | Legal entity and permission lead verified; do not treat licence start as the brand launch date. |
+| Stakewise | Active remote casino permission under Rocbrook Limited (account 100802), from 13 Apr 2026: https://www.gamblingcommission.gov.uk/public-register/business/detail/100802 ; active trading name “stakewise”: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/100802 | Official domain and attributable launch announcement still need capture. | Licence/trading-name lead verified; launch evidence/contact incomplete. |
+| TigerBet | Active remote casino permission under TigerPlay LTD (account 65319), from 19 Jun 2025: https://www.gamblingcommission.gov.uk/public-register/business/detail/65319 ; active trading name: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/65319 ; active domain www.tigerbet.co.uk: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65319 | Brand terms identify Tigerplay LTD and UKGC account 65319: https://tiigerbet.com/terms-conditions/ . A brand “About” page is also available: https://www.tiigerbet.com/about-us/ . The dated launch claim found so far comes from secondary/distributed reporting; preserve that distinction. | Entity/domain/licence match is strong for GB research; launch date and relevant commercial contact still require careful source capture. |
+
+### Current research conclusion
+
+At this point, the queue contains a mix of (a) secondary-only launch leads, (b) primary-source launch plus regulator corroboration, and (c) regulator-backed entities whose launch date remains unverified. These categories must not be merged into a single “verified 2022–2026 launch” claim. No candidate is a confirmed buyer, and no market outside GB is cleared by these checks.
