@@ -798,6 +798,8 @@ for required_doc in (
     "docs/brand-profile-tipico-casino-de-sh-draft.md",
     "docs/brand-profile-ember-casino-us-nj-draft.md",
     "docs/brand-profile-bettom-gb-draft.md",
+    "docs/brand-profile-threesix-vegas-gb-draft.md",
+    "docs/brand-profile-betsuna-gb-draft.md",
 ):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
