@@ -251,6 +251,7 @@ if vercel_config.exists():
             "x-frame-options": "DENY",
             "strict-transport-security": "max-age=31536000",
             "x-permitted-cross-domain-policies": "none",
+            "permissions-policy": "camera=(), microphone=(), geolocation=()",
         }
         for name, expected in required_headers.items():
             if configured_headers.get(name) != expected:
