@@ -4,6 +4,14 @@
 
 ## Official-register findings
 
+### ThreeSix Vegas — 36Gaming Limited, account 66806
+
+The UKGC [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/66806) lists **Casino Remote — Active** from 30 May 2025, alongside other remote permissions. The separate [domain-name record](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66806) lists `36vegas.co.uk` as Active, and the [trading-name record](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66806) lists `threesix vegas` as Active. The operator's [official site](https://play.36vegas.co.uk/) states that 36Gaming Limited operates the service in Great Britain under UKGC account 66806 and publishes terms/bonus information and contact details.
+
+**Evidence update:** This is stronger than a name-only lead and supports a verified current UKGC domain/licence match at the time checked. The UKGC licence activity start date is **not** treated as a consumer-facing launch date. The profile remains on hold until the full terms, withdrawal process, complaints routes, current regulatory-action history, and safer-gambling controls are reviewed against the editorial rubric.
+
+**Commercial status:** Unknown / willingness to pay **Unconfirmed**. An operator website and contact details are not proof of paid-listing demand.
+
 ### Bet Ahoy Ltd — account 100094
 
 The UK Gambling Commission's [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/100094) lists active remote Casino, Bingo, and General Betting Standard permissions from 17 December 2025. The register supports the operator's permission scope; it does **not** establish when a particular consumer-facing brand launched, which exact brand domain is live, whether a particular domain is declared, or whether the company would pay for a directory listing.
