@@ -24,7 +24,8 @@ This is a source/repository review, not a live production audit. Repository file
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
 - A public-only build now copies only approved site assets/pages into `dist/`; CI verifies internal research docs, CSV trackers, scripts, and host configuration are not included in that artifact.
-- GitHub Actions passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648), including source checks, a public-only build, and deployment-artifact leak checks. This is not live-browser or production verification.
+- GitHub Actions passed on commit `f6468ffffd7b9bbe6988f12ab81add40efdc0d50` (run 39489204289), including source checks, a public-only build, deployment-artifact leak checks, and upload of the sanitized site artifact. The artifact was confirmed present with a 7-day retention window (expires 27 October 2026 UTC). The latest documentation-only commit `d1325e3f1be0c8f5432736225000fe96aeee55b0` also passed CI (run 39490025309). This is not live-browser or production verification.
+- Added `docs/launch-acceptance-test-plan.md` and linked it from README. It explicitly remains NOT RUN until real browser/device and live-host testing is completed.
 - The safer-gambling page now links official support resources for all seven intended markets and clarifies the limits of Australia's BetStop scheme. The market-research page now links primary regulators for each target market.
 
 ## Release blockers — all must be evidenced, not assumed
