@@ -36,7 +36,7 @@ const routes = [
           const labelledBy = control.getAttribute("aria-labelledby");
           const hasLabel = id && document.querySelector('label[for="' + CSS.escape(id) + '"]');
           const hasAriaLabel = (control.getAttribute("aria-label") || "").trim();
-          const hasLabelledBy = labelledBy && labelledBy.split(/\\s+/).some(token => document.getElementById(token));
+          const hasLabelledBy = labelledBy && labelledBy.split(/\s+/).some(token => document.getElementById(token));
           const wrappedLabel = control.closest("label");
           if (!hasLabel && !hasAriaLabel && !hasLabelledBy && !wrappedLabel) {
             issues.push("unlabelled form control: " + (id || control.tagName.toLowerCase()));
