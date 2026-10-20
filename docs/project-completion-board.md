@@ -13,6 +13,7 @@
 - The legacy 100-name queue is a research backlog, not 100 verified brands. The Tier 1 tracker currently has 32 rows including 30 brand prospects and two category-level market restrictions; one UK lead (Ivy Casino) is excluded after the UKGC register spot-check showed it inactive. The tracker is not the final 100-brand qualification list. Seven Dutch regulated-operator prospects were added from the Ksa's 17 September 2026 continuation-licence announcement; those renewals are not evidence of new launches or willingness to buy.
 - No brand has confirmed willingness to pay a BeInCasinos listing fee. No outreach was sent in this work.
 - An internal [paid-listing offer framework](paid-listing-offer-framework.md) now defines tentative test-price hypotheses, disclosure rules, reporting boundaries, and the readiness gates for any future sales test. Prices are unvalidated hypotheses; no rate card was published and no outreach was sent.
+- A dated [UKGC register spot-check audit](ukgc-register-audit-2026-10.md) documents operator permission vs. brand launch/domain proof, including Bet Ahoy, BetLegend, BetTOM, and the inactive Ivy Casino trading-name entry. These remain research leads/holds, not qualified paid buyers.
 
 ## Gate board
 
