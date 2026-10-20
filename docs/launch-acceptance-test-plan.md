@@ -57,6 +57,7 @@ Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Ap
 - [ ] Inspect deployed requests, cookies, local storage and network traffic. Update the privacy notice to reflect actual host logs, forms, analytics, embedded resources and third parties.
 - [ ] Do not enable non-essential analytics/advertising tracking until required consent controls and notices are reviewed for each intended jurisdiction.
 - [ ] Verify HTTPS, security headers, content-type behaviour, cache behaviour and host error pages using the selected provider's tools.
+- [ ] Confirm deployed Content-Security-Policy and other response headers match the reviewed host configuration; the current CI check only validates configuration files, not live HTTP responses.
 - [ ] Check forms (if any) for validation, success/error states, spam protections, secure processing and an owner-monitored destination. If no form exists, confirm no non-functional contact form is shown.
 - [ ] Check all external commercial links and affiliate terms against permitted markets. Confirm no unapproved affiliate links, unsupported traffic claims, misleading rankings, or hidden paid placement.
 - [ ] Test disclosure visibility on desktop and mobile. Paid placements must be labelled clearly near the placement.
