@@ -13,6 +13,21 @@
 - **Voice:** confident, precise, calm, premium, internationally understandable English. No fake authority, hype, guaranteed-win language, or unsubstantiated superlatives.
 - **Visual direction:** deep evergreen, restrained mint, warm neutral backgrounds, strong editorial typography, generous whitespace, fine borders, and a distinctive BIC monogram. Avoid casino clichés such as neon overload, slot-machine imagery, gold-gradient excess, and misleading badges.
 
+### Implemented design tokens
+
+| Token | Value | Use |
+|---|---|---|
+| Ink | `#152320` | Primary text |
+| Evergreen | `#174d3e` | Primary actions and brand colour |
+| Evergreen hover | `#21634e` | Hover states and text links |
+| Mint | `#d9f3e5` | Soft accent surfaces |
+| Paper | `#fbfcfa` | Main background |
+| Muted | `#64736f` | Secondary text |
+| Fine border | `#e4eae5` | Dividers and card borders |
+| Focus accent | `#d6a73f` | Keyboard focus outline only |
+
+Typography uses a Georgia editorial serif for display headings and the wordmark, with a system sans-serif for body copy and controls. The implemented BIC mark appears in the shared public navigation and SVG favicon; the compact web-app label is `BIC`. The operator-information page is published in source and the navigation, but explicitly states that paid placements are not yet open.
+
 ## Review standard required before any brand is listed
 
 Every casino profile must identify the exact operating legal entity, domain, target market, licence/register evidence and date checked, product/market eligibility, ownership where reliably sourced, terms/bonus/withdrawal conditions, payment and complaint evidence where verified, safer-gambling controls, material limitations, review date, and any commercial relationship. Clearly separate verified facts, operator claims, editorial assessment, and unknowns. Paid placement must never buy a rating or override a negative finding. Remove or label any unverified information instead of filling gaps with guesses.
@@ -34,4 +49,4 @@ Track real Search Console impressions, clicks, CTR, average position, indexed va
 
 ## Current implementation note
 
-The BIC monogram is being rolled into the site's navigation and favicon. The current repository is still a pre-launch educational site, not yet a complete 100-brand review database. Public claims must reflect the actual reviewed pages and measured performance at launch.
+The BIC monogram is implemented in the site's public navigation and SVG favicon, and the compact web-app label is BIC. The `/partners/` page is available in source and states that paid placements are not yet open. The current repository is still a pre-launch review/research publication, not a complete 100-brand review database. Public claims must reflect the actual reviewed pages and measured performance at launch.
