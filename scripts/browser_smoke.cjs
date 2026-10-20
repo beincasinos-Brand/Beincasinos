@@ -53,6 +53,12 @@ const routes = [
       if (!h1) throw new Error(route + " has no visible H1");
       const mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
       if (mobileOverflow > 1) throw new Error(route + " has horizontal overflow at mobile width (" + mobileOverflow + "px)");
+      for (const width of [320, 375, 768, 1024, 1440]) {
+        await page.setViewportSize({ width, height: width <= 375 ? 812 : 900 });
+        const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+        if (overflow > 1) throw new Error(route + " has horizontal overflow at " + width + "px (" + overflow + "px)");
+      }
+      await page.setViewportSize({ width: 390, height: 844 });
       const description = await page.locator('meta[name="description"]').getAttribute("content");
       const ogDescription = await page.locator('meta[property="og:description"]').getAttribute("content");
       if (description && description !== ogDescription) {
@@ -109,7 +115,7 @@ const routes = [
     }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes, mobile/desktop overflow checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
   } finally {
     await browser.close();
   }
