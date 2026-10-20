@@ -18,6 +18,8 @@ Once hosting is chosen, record the provider's exact DNS instructions and add onl
 
 ## 3. Choose hosting for the intended business model
 
+See [hosting decision note](hosting-decision.md) for the current provider comparison. A read-only check found the connected Vercel team is on Hobby with no linked projects; the proposed commercial site must not be deployed there. Netlify Free is the current low-cost candidate to evaluate, but it has not been connected or approved for publication.
+
 - [ ] Compare static hosting providers whose current terms permit a commercial publisher with paid listings and possible affiliate links.
 - [ ] Compare total recurring cost, bandwidth/build limits, custom-domain TLS, redirects, security headers, support, and ease of rollback.
 - [ ] Do not use Vercel Hobby for the commercial affiliate/listing business; its Hobby plan is for personal, non-commercial use. If using Vercel, review current Pro pricing/terms before approving spend.
