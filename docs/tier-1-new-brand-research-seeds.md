@@ -42,6 +42,12 @@
 | BetNero | May 2025 (secondary) | New white-label brand | UKGC account 48789 lists betnero.co.uk as a White Label domain under active Casino permission; verify current launch date and operator arrangement | Unknown — no direct confirmation |
 | Midnite | Casino permission active from August 2026; public launch date not established | Operator/brand transition lead | UKGC search results show both Dribble Media Limited and Midnite Limited linked to the midnite brand/domain; reconcile current legal responsibility and do not infer launch from licence activity | Unknown — no direct confirmation |
 
+| Casino and Friends | 2026 (secondary review coverage; exact date unverified) | New white-label brand | UKGC account 39326 lists www.casinoandfriends.co.uk as a White Label domain under active Casino permission; verify exact public launch date | Unknown — no direct confirmation |
+| 44Aces | Early 2026 (secondary) | New brand | UKGC account 39326 lists www.44aces.com as Active under an active Casino licence; verify an attributable launch announcement | Unknown — no direct confirmation |
+| Play Sunny | Launch date unknown | Domain/operator-resolution lead | UKGC lists playsunny.co.uk as Active under Solaya Group Limited; Dazzletag's legacy trading-name entry is inactive, so resolve the current entity and consumer product | Unknown — no direct confirmation |
+| Neptune Play | Launch date unknown | White-label domain lead | UKGC account 48789 lists neptuneplay.com as a White Label domain under active Casino permission; verify current site, launch and product scope | Unknown — no direct confirmation |
+| PlayWins | Launch date unknown | White-label domain lead | UKGC account 48789 lists playwins.com as a White Label domain under active Casino permission; verify current site, launch and product scope | Unknown — no direct confirmation |
+| BetFusion | Launch date unknown | White-label domain lead | UKGC account 48789 lists betfusion.com as a White Label domain under active Casino permission; verify current site, launch and product scope | Unknown — no direct confirmation |
 ## Secondary discovery sources (leads only)
 
 - British Gambler new-casino tracker: https://britishgambler.co.uk/casino/new/
