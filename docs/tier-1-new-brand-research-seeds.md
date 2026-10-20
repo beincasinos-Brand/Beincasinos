@@ -105,3 +105,17 @@ No candidate in this section has agreed to pay BeInCasinos. Do not assign a paid
 | Brillbet | UKGC licence summary for UK Digital Bookmakers Ltd, account 101570, shows active remote casino permission from 15 Jun 2026: https://www.gamblingcommission.gov.uk/public-register/business/detail/101570 ; the register lists “brillbet” as an active trading name: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/101570 . The brand has a public affiliate-program page: https://brillbet.org/en-gb1/affiliates/ . | Confirm the official consumer domain against the UKGC domain-name register and capture a dated first-party launch announcement. The affiliate programme is evidence of affiliate partnership infrastructure only; it is not evidence that the brand purchases paid directory placements. | Unknown — no direct confirmation. |
 
 These additions are regulator-backed research leads, not confirmed new-brand launch records. Licence effective dates must never be substituted for website/brand launch dates.
+
+
+## Additional 2026 candidates — secondary tracker only
+
+The following names appeared in a third-party GB launch tracker updated in October 2026: https://britishgambler.co.uk/casino/new/ . Treat this as a discovery source, not proof of legal permission, launch date, official identity, or paid-listing interest. Do not move these records into the verified launch queue until each exact domain and legal entity is matched to the current UKGC register and an attributable launch source.
+
+| Candidate | Secondary claim | Verification needed before qualification | Paid-listing status |
+|---|---|---|---|
+| BetLegend | Listed as a new brand with an August 2026 GB launch; operator named as Anakatech Interactive Ltd. | Confirm exact official domain, legal entity, current remote casino permission, domain/trading-name register entry, dated first-party launch source, and official partnership contact. | Unknown; no direct response. |
+| RamboBet | Listed as licensed but not yet live; operator shown as Ballyhack Sports and Gaming Ltd, UKGC account 101732. | Check the current UKGC account record, exact permitted activities and domain status, then wait for a first-party live-launch source before assigning a launch year. | Unknown; no direct response. |
+| DC Bet | Listed as licensed but not yet live; operator shown as Playterry Ltd, UKGC account 100630. | Check the current UKGC account record, exact permitted activities and domain status, then verify launch only after a first-party source establishes the website is live. | Unknown; no direct response. |
+| BigBangBet | Listed as licensed but not yet live; operator shown as InnoBoom Ltd, UKGC account 101150. | Check the current UKGC account record, exact permitted activities and domain status, then verify launch only after a first-party source establishes the website is live. | Unknown; no direct response. |
+
+A recent licence date is not a launch date. A brand that is not live is not yet a live listing prospect. No candidate in this section has evidenced willingness to pay BeInCasinos.
