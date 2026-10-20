@@ -791,6 +791,8 @@ for required_doc in (
     "docs/international-seo-content-architecture.md",
     "docs/editorial-review-scoring-rubric.md",
     "docs/editorial-source-review-log-2026-10-20.md",
+    "docs/ukgc-register-audit-2026-10.md",
+    "docs/swiss-prospect-research-batch-2026.md",
 ):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
