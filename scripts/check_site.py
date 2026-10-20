@@ -182,6 +182,34 @@ for rel in ("privacy/index.html", "contact/index.html"):
     if page.exists() and re.search(r"pre-launch|not yet been finalised|not yet been finalized|draft", page.read_text(encoding="utf-8"), re.I):
         warnings.append(f"{rel}: contains an explicit pre-launch notice and must be finalised before public launch")
 
+# Validate that every sitemap URL points to an existing local HTML page.
+if sitemap.exists():
+    try:
+        import xml.etree.ElementTree as ET
+        sitemap_root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
+        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        for loc in sitemap_root.findall(".//sm:loc", ns):
+            url = (loc.text or "").strip()
+            parsed = urlparse(url)
+            if parsed.scheme not in ("http", "https") or not parsed.netloc:
+                errors.append(f"sitemap.xml: invalid absolute URL: {url}")
+                continue
+            sitemap_path = unquote(parsed.path or "/")
+            target = ROOT / sitemap_path.lstrip("/")
+            if target.is_dir():
+                target = target / "index.html"
+            elif not target.suffix:
+                target = target / "index.html"
+            try:
+                target.resolve().relative_to(ROOT.resolve())
+            except ValueError:
+                errors.append(f"sitemap.xml: URL path escapes site root: {url}")
+                continue
+            if not target.is_file() or target.suffix.lower() not in (".html", ".htm"):
+                errors.append(f"sitemap.xml: URL does not map to an HTML page: {url}")
+    except (ET.ParseError, OSError, UnicodeError) as exc:
+        errors.append(f"sitemap.xml: cannot parse sitemap XML ({exc})")
+
 print(f"Checked {len(pages)} HTML pages.")
 if errors:
     print(f"\nFAIL: {len(errors)} error(s)")
