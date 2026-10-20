@@ -13,7 +13,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORE_DIRS = {".git", ".vercel", "node_modules"}
+IGNORE_DIRS = {".git", ".vercel", ".netlify", "dist", "node_modules"}
 errors = []
 warnings = []
 pages = sorted(p for p in ROOT.rglob("*.html") if not any(part in IGNORE_DIRS for part in p.parts))
@@ -518,7 +518,14 @@ else:
     errors.append("docs/paid-listing-sales-pipeline.csv is missing")
 
 # Keep launch-planning documents present so critical approval gates cannot silently disappear.
-for required_doc in ("docs/prelaunch-launch-checklist.md", "docs/audience-growth-measurement-plan.md", "docs/paid-listing-sales-pipeline.md"):
+for required_doc in (
+    "docs/prelaunch-launch-checklist.md",
+    "docs/audience-growth-measurement-plan.md",
+    "docs/paid-listing-sales-pipeline.md",
+    "docs/hosting-decision.md",
+    "scripts/build_site.py",
+    "scripts/check_deploy_artifact.py",
+):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
 
