@@ -242,7 +242,7 @@ if calculator_path.exists():
             errors.append(f"tools/wagering-calculator/index.html: required calculator control missing: {required_id}")
     if "Number.isFinite(result)" not in calculator_source or "event.preventDefault()" not in calculator_source:
         errors.append("tools/wagering-calculator/index.html: calculation validation or form-submit handling is missing")
-    for required_behavior in ("const showError = () =>", "output.textContent = '—'", "Correct the values marked as invalid to calculate required turnover.", "setAttribute('aria-invalid', String(amountInvalid))", "setAttribute('aria-invalid', String(multiplierInvalid))", "amount.addEventListener('input', calculate)", "multiplier.addEventListener('input', calculate")):
+    for required_behavior in ("const showError = () =>", "output.textContent = '—'", "Correct the values marked as invalid to calculate required turnover.", "setAttribute('aria-invalid', String(amountInvalid))", "setAttribute('aria-invalid', String(multiplierInvalid))", "amount.addEventListener('input', calculate)", "multiplier.addEventListener('input', calculate"):
         if required_behavior not in calculator_source:
             errors.append(f"tools/wagering-calculator/index.html: invalid-input result reset behavior missing: {required_behavior}")
 
