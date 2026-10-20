@@ -25,6 +25,7 @@ PUBLIC_DIRS = (
     "market-research",
     "privacy",
     "responsible-gambling",
+    "reviews",
     "tools",
 )
 FORBIDDEN_PUBLIC_PATHS = (
