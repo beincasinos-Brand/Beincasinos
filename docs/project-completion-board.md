@@ -121,3 +121,5 @@
 - Added axe-core automated accessibility scans to the Chromium suite. The 20-route WCAG 2.1 A/AA-tag scan initially exposed low-contrast supporting text; the affected homepage/guide/footer colours were corrected. Passing run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39504107580. Manual accessibility review remains required.
 
 - Expanded the wagering-calculator browser tests to cover decimal values, empty/negative/over-limit multipliers, amount input limits, currency changes, and invalid-input state. The full source/build/security-config/artifact/Chromium/axe suite passed: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39504606241. Manual production-host and real-device checks remain open.
+
+- Hardened the prepared CSP further: the production script policy is now same-origin only (`script-src 'self'`), the two learning-tool scripts are external files included by the public-only build, and source CI rejects inline scripts. Full CI passed on https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39505103686. Inline styles remain permitted, and live deployed response headers still need verification.
