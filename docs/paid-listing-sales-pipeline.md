@@ -15,9 +15,11 @@ Use this tracker only after the site has real, reportable audience evidence and 
 - `draft_ready`: tailored draft reviewed; no message sent yet.
 - `contacted`: a legitimate, relevant first message was sent and date recorded.
 - `follow_up_due`: follow-up is permitted and due; respect opt-outs and reasonable frequency.
+- `replied_interested`: a real reply explicitly indicates interest; preserve the date and source.
+- `qualified_buyer`: the relevant decision-maker confirms the paid-listing use case is relevant.
 - `in_discussion`: operator responded and discussion is active.
 - `proposal_sent`: written offer and terms sent.
-- `won`: agreement signed, payment and placement details documented.
+- `won`: agreement signed, invoice/payment recorded as paid or complete, and placement details documented.
 - `lost`: declined, unsuitable, or no further contact.
 - `do_not_contact`: opt-out, complaint, or compliance reason; never re-contact for sales.
 

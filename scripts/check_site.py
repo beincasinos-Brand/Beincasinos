@@ -273,6 +273,9 @@ if prospect_csv.exists():
                 "official_register_url", "license_scope", "markets_allowed",
                 "markets_excluded", "last_checked_utc", "reviewer", "status",
                 "publication_decision", "commercial_status", "unresolved_issues",
+                "launch_year", "launch_year_source_url", "launch_type",
+                "partnership_evidence_url", "listing_fee_fit_score", "fit_rationale",
+                "sales_priority", "decision_maker_contact_source",
             }
             columns = reader.fieldnames or []
             missing_columns = sorted(required_columns - set(columns))
@@ -304,6 +307,32 @@ if prospect_csv.exists():
                         errors.append(f"docs/brand-research-template.csv:{index}: status {status!r} requires evidence fields: " + ", ".join(missing_evidence))
                 if status == "published" and row.get("publication_decision", "").strip().casefold() not in {"approved", "approved_to_publish", "publish"}:
                     errors.append(f"docs/brand-research-template.csv:{index}: published status requires an explicit approved publication_decision")
+                launch_year = row.get("launch_year", "").strip()
+                launch_type = row.get("launch_type", "").strip().casefold()
+                launch_source = row.get("launch_year_source_url", "").strip()
+                if launch_year:
+                    if not launch_year.isdigit() or not 2022 <= int(launch_year) <= 2026:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year must be a verified year from 2022 through 2026")
+                    if not launch_source:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year requires launch_year_source_url")
+                    if launch_type not in {"new launch", "rebrand", "new market", "acquisition"}:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year requires launch_type (new launch, rebrand, new market, or acquisition)")
+                elif launch_source or launch_type:
+                    errors.append(f"docs/brand-research-template.csv:{index}: launch source/type must not be set without a verified launch_year")
+                score = row.get("listing_fee_fit_score", "").strip()
+                if score:
+                    try:
+                        score_value = int(score)
+                        if not 0 <= score_value <= 100:
+                            raise ValueError
+                    except ValueError:
+                        errors.append(f"docs/brand-research-template.csv:{index}: listing_fee_fit_score must be an integer from 0 to 100")
+                    if not row.get("fit_rationale", "").strip():
+                        errors.append(f"docs/brand-research-template.csv:{index}: a fit score requires documented fit_rationale")
+                    if row.get("sales_priority", "").strip().casefold() not in {"priority research/outreach", "further research", "hold", "reject"}:
+                        errors.append(f"docs/brand-research-template.csv:{index}: a fit score requires sales_priority (priority research/outreach, further research, hold, reject)")
+                elif row.get("fit_rationale", "").strip() or row.get("sales_priority", "").strip():
+                    errors.append(f"docs/brand-research-template.csv:{index}: fit_rationale/sales_priority must be backed by a numeric listing_fee_fit_score")
     except (OSError, UnicodeError, csv.Error) as exc:
         errors.append(f"docs/brand-research-template.csv: cannot validate prospect tracker ({exc})")
 else:
@@ -377,7 +406,7 @@ if sales_csv.exists():
                 errors.append("docs/paid-listing-sales-pipeline.csv: duplicate column names")
             stages = {
                 "not_contacted", "qualified", "draft_ready", "contacted",
-                "follow_up_due", "in_discussion", "proposal_sent", "won",
+                "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won",
                 "lost", "do_not_contact",
             }
             for index, row in enumerate(rows, start=2):
@@ -391,11 +420,11 @@ if sales_csv.exists():
                     errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: unsupported pipeline_stage {stage!r}")
                 if stage == "do_not_contact" and not row.get("do_not_contact_reason", "").strip():
                     errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: do_not_contact requires a reason")
-                if stage in {"qualified", "draft_ready", "contacted", "follow_up_due", "in_discussion", "proposal_sent", "won"}:
+                if stage in {"qualified", "draft_ready", "contacted", "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won"}:
                     for field in ("legal_entity", "target_market", "official_contact_source", "source_evidence_url", "owner"):
                         if not row.get(field, "").strip():
                             errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: stage {stage!r} requires {field}")
-                if stage in {"contacted", "follow_up_due", "in_discussion", "proposal_sent", "won"} and not row.get("first_contact_date_utc", "").strip():
+                if stage in {"contacted", "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won"} and not row.get("first_contact_date_utc", "").strip():
                     errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: stage {stage!r} requires first_contact_date_utc")
                 if stage == "won":
                     if row.get("agreement_status", "").strip().casefold() not in {"signed", "complete", "executed"}:
@@ -403,6 +432,8 @@ if sales_csv.exists():
                     for field in ("paid_label_confirmed", "market_review_confirmed", "privacy_tracking_review"):
                         if row.get(field, "").strip().casefold() not in {"yes", "complete", "approved", "reviewed"}:
                             errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: won requires {field} to be confirmed")
+                    if row.get("invoice_status", "").strip().casefold() not in {"paid", "complete"}:
+                        errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: won requires invoice_status to be paid/complete")
     except (OSError, UnicodeError, csv.Error) as exc:
         errors.append(f"docs/paid-listing-sales-pipeline.csv: cannot validate sales tracker ({exc})")
 else:
