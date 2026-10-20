@@ -27,6 +27,8 @@ The owner has reported completing the `beincasinos.online` purchase through Spac
 8. Confirm the chosen hosting plan permits commercial affiliate use. Vercel Hobby is restricted to personal/non-commercial use, and Vercel explicitly includes affiliate-link sites whose primary purpose is affiliate linking in its commercial-use examples. If Vercel remains the host, plan for Pro before commercial deployment; alternatively, choose a host whose current terms allow the intended business model.
 
 ## Hosting decision
+
+A read-only check found the connected Vercel team is on Hobby with no linked projects; do not use that plan for the commercial site. `docs/hosting-decision.md` compares current options, and `netlify.toml` is prepared as a candidate configuration only. Before any deploy, `scripts/build_site.py` builds a public-only `dist/` artifact and CI checks that internal research docs, CSV trackers, scripts, and provider configs are excluded from that artifact. No host is connected and no deployment has been made.
 - Do not deploy the monetized affiliate publication to Vercel Hobby. The official policy says Hobby is personal/non-commercial; see https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage.
 - No host has been selected or connected yet. Keep deployment paused until the commercial-use plan and recurring cost are approved. Do not add optional Spaceship trial products or enable auto-renewing add-ons unless intentionally needed; review recurring charges and renewal settings in the registrar account.
 
