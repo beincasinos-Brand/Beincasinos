@@ -558,8 +558,8 @@ if master_tracker.exists():
                     if not row.get("commercial_signal", "").strip() or not row.get("primary_evidence_url", "").strip():
                         errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: confirmed willingness-to-pay requires documented commercial signal and evidence URL")
                 if market in {"AU", "FR"} and row.get("product_scope", "").strip().casefold() == "online casino":
-                    if row.get("publication_status", "").strip() != "Exclude":
-                        errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: AU/FR online casino category must remain Exclude pending specific legal review")
+                    if not row.get("publication_status", "").strip().startswith("Exclude"):
+                        errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: AU/FR online casino category must remain excluded pending specific legal review")
     except (OSError, UnicodeError, csv.Error) as exc:
         errors.append(f"docs/tier-1-master-prospect-tracker.csv: cannot validate master tracker ({exc})")
 else:
