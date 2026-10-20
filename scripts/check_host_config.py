@@ -29,7 +29,35 @@ except (OSError, UnicodeError, json.JSONDecodeError) as exc:
 try:
     netlify_text = (ROOT / "netlify.toml").read_text(encoding="utf-8")
     netlify_headers = {
-        key: value for key, value in re.findall(r'^\\s*([A-Za-z0-9-]+)\\s*=\\s*"([^"]*)"\\s*$', netlify_text, re.MULTILINE)
+        key: value for key, value in re.findall(r'^\s*([A-Za-z0-9-]+)\s*=\s*"([^"]*)"\s*, netlify_text, re.MULTILINE)
+    }
+except (OSError, UnicodeError) as exc:
+    errors.append(f"netlify.toml: cannot read host config ({exc})")
+    netlify_headers = {}
+
+for name, expected in required.items():
+    if vercel_headers.get(name) != expected:
+        errors.append(f"vercel.json: missing or incorrect {name}")
+    if netlify_headers.get(name) != expected:
+        errors.append(f"netlify.toml: missing or incorrect {name}")
+
+for name, headers in (("vercel.json", vercel_headers), ("netlify.toml", netlify_headers)):
+    hsts = headers.get("Strict-Transport-Security", "")
+    if "max-age=31536000" not in hsts:
+        errors.append(f"{name}: HSTS must retain max-age=31536000")
+    csp = headers.get("Content-Security-Policy", "")
+    if "object-src 'none'" not in csp or "frame-ancestors 'none'" not in csp:
+        errors.append(f"{name}: CSP must block plugins and framing")
+
+if errors:
+    print(f"FAIL: {len(errors)} host security configuration issue(s)")
+    for error in errors:
+        print("  ERROR: " + error)
+    sys.exit(1)
+
+print("PASS: Netlify and Vercel security headers are present and aligned.")
+print("Note: configuration checks do not verify headers on a deployed host.")
+, netlify_text, re.MULTILINE)
     }
 except (OSError, UnicodeError) as exc:
     errors.append(f"netlify.toml: cannot read host config ({exc})")
