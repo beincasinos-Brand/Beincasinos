@@ -267,6 +267,9 @@ if script_path.exists():
         "setAttribute('aria-expanded', String(!expanded))",
         "nav.classList.toggle('open', !expanded)",
         "nav.classList.remove('open')",
+        "document.addEventListener('keydown'",
+        "event.key === 'Escape'",
+        "closeMenu(true)",
     ):
         if required_behavior not in script_source:
             errors.append(f"script.js: expected responsive navigation behavior missing: {required_behavior}")
