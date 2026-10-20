@@ -115,3 +115,5 @@
 
 
 - The Chromium suite now fails on uncaught page errors and browser-console errors as well as structural, responsive, accessibility-smoke and interactive-tool checks. The full run passed on https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502853616. This does not replace manual cross-browser/device, screen-reader, WCAG, legal/privacy or production-host QA.
+
+- Added a baseline Content Security Policy to both prepared host configs and a CI validator (`scripts/check_host_config.py`) to prevent security-header drift. The validator, public-only build and expanded Chromium smoke tests passed on https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39503326238. Live deployed headers still require verification; current CSP permits inline scripts/styles and is not a strict nonce/hash-based policy.
