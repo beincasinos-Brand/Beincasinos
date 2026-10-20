@@ -23,6 +23,8 @@ else:
             errors.append(f"dist/: required public asset missing: {rel}")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
+    if not (DIST / "partners" / "index.html").is_file():
+        errors.append("dist/: public operator partnerships page is missing")
 
     sitemap = DIST / "sitemap.xml"
     if sitemap.is_file():
@@ -30,10 +32,12 @@ else:
             root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
             ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
-            if len(urls) != 19:
-                errors.append(f"dist/sitemap.xml: expected 19 URLs, found {len(urls)}")
+            if len(urls) != 20:
+                errors.append(f"dist/sitemap.xml: expected 20 URLs, found {len(urls)}")
             if "https://beincasinos.online/reviews/" not in urls:
                 errors.append("dist/sitemap.xml: Reviews hub is missing from the canonical URL list")
+            if "https://beincasinos.online/partners/" not in urls:
+                errors.append("dist/sitemap.xml: operator partnerships page is missing from the canonical URL list")
             for url in urls:
                 parsed = urlparse(url)
                 if parsed.scheme != "https" or parsed.netloc.casefold() != "beincasinos.online":
