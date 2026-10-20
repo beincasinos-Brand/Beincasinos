@@ -79,6 +79,8 @@ See [the domain and hosting setup runbook](docs/domain-and-hosting-setup.md) for
 See [the internal operator outreach playbook](docs/operator-outreach-playbook.md). It is a gated template only; it must not be sent before the stated legal, privacy, audience and owner-approval checks pass.
 
 
+- [Project completion board](docs/project-completion-board.md) — single status page for release blockers, owner actions, evidence gates, and the next work sequence.
+
 ## Recent prospect-research updates (internal only)
 
 These are research notes and candidate queues, not public listings, legal advice, or evidence that any brand will pay a listing fee.
