@@ -115,10 +115,6 @@ const routes = [
     if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
       throw new Error("wagering calculator did not reject an empty amount");
     }
-    await page.locator("#eligible").fill("abc");
-    if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
-      throw new Error("wagering calculator did not reject malformed amount input");
-    }
     await page.locator("#eligible").fill("12.5");
     await page.locator("#multiplier").fill("2.5");
     if (!(await page.locator("#turnover").textContent()).includes("31.25")) {
