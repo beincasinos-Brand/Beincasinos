@@ -1,5 +1,7 @@
 # 100-brand prospect queue (research only)
 
+> **Tier-1 strategy update:** This legacy 100-name queue is a research backlog, **not yet the approved Tier-1 target list**. It contains brands from markets outside the current focus and must be requalified before outreach. Keep prospects that fit GB, DE, NL, CH, or a specifically authorised US state/product; AU and FR are research-only for online-casino promotions pending category-specific legal review. Add dated evidence for any 2022–2026 launch/rebrand/new-market claim and record commercial partnership signals. None of these brands is confirmed to want a paid BeInCasinos listing unless a direct, documented response says so. See [partner qualification rules](brand-partner-qualification.md).
+
 **Status: prospect list, not a recommended casino list.** None of these entries has been cleared for publication or declared licensed, legal, safe, or available in any market. Brand names may change, merge, retire, or operate through different legal entities. Verify every field from official sources before publication.
 
 ## Review workflow
