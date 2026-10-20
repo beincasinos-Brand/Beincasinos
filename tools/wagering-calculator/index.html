@@ -27,7 +27,7 @@
 <label for="multiplier">Wagering multiplier (×)</label>
 <input id="multiplier" name="multiplier" type="number" min="0" max="100000" step="0.1" value="35" inputmode="decimal" required>
 <button class="button button-primary calc-submit" type="submit">Calculate required turnover <span aria-hidden="true">→</span></button>
-<p class="fineprint" id="calc-error" role="alert" hidden>Please enter valid non-negative numbers.</p>
+<p class="fineprint" id="calc-error" role="alert" hidden>Please enter valid values within the limits shown above.</p>
 </form>
 <aside class="result-panel" aria-live="polite" aria-atomic="true">
 <span class="result-label">Illustrative required turnover</span>
@@ -54,12 +54,17 @@
   const format = (value) => new Intl.NumberFormat('en', {style:'currency',currency:currency.value,minimumFractionDigits:2,maximumFractionDigits:2}).format(value);
   const calculate = () => {
     const a = Number(amount.value), m = Number(multiplier.value);
-    if (!Number.isFinite(a) || !Number.isFinite(m) || a < 0 || m < 0 || amount.value === '' || multiplier.value === '') {
+    if (!Number.isFinite(a) || !Number.isFinite(m) || a < 0 || a > 100000000 || m < 0 || m > 100000 || amount.value === '' || multiplier.value === '') {
       error.hidden = false;
       return;
     }
     error.hidden = true;
     const result = a * m;
+    if (!Number.isFinite(result)) {
+      error.hidden = false;
+      return;
+    }
+    error.hidden = true;
     output.textContent = format(result);
     summary.textContent = m.toLocaleString('en', {maximumFractionDigits:2}) + '× applied to ' + format(a) + ' means ' + format(result) + ' in qualifying turnover.';
   };
