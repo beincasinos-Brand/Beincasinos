@@ -102,3 +102,16 @@ This addendum supersedes the older CI commit/run references in the repository-wo
 - The latest site-check run on the current contact-page commit is [39495222821](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39495222821). HTML/local-link checks, public-only build and artifact-exclusion checks have passed; artifact upload is still running at the time of this update.
 
 **Decision remains BLOCKED.** No deployment, DNS change, public indexing, paid hosting purchase, or brand outreach has been performed.
+
+## Follow-up update — 20 October 2026, brand/reviews/source review
+
+This addendum supersedes older descriptions of the site as only an educational resource and older statements that the seven general guides still have on-page “review pending” notices.
+
+- Brand direction and BIC monogram are documented in `docs/brand-identity-and-growth-north-star.md`; the navigation and favicon now use the BIC mark, and the compact app label is BIC.
+- Homepage positioning and metadata now describe BeInCasinos as a casino-review and research brand. A public `/reviews/` hub explains the evidence standard and is linked from primary navigation and the sitemap. It does not list unverified casinos as recommendations.
+- The build allowlist includes the reviews hub; the sitemap has 19 canonical public URLs, while the source contains 20 HTML pages including the 404 page.
+- Seven general guide/safer-gambling pages now carry a dated editorial source-check notice. Official sources reviewed and limitations are recorded in `docs/editorial-source-review-log-2026-10-20.md`. This source check is not legal sign-off for the site's promotion, business model, or any operator profile.
+- International SEO/content guardrails are recorded in `docs/international-seo-content-architecture.md`. The top-10 goal and 100-million daily search-impressions goal remain aspirations, not measured performance, forecast, or promise.
+- Combined source/build/artifact CI passed after the review-hub metadata correction: [run 39497109055](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497109055). Later source-notice changes also passed CI, including [run 39497391660](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497391660).
+
+The release decision remains **BLOCKED**. Name/trademark clearance, verified publisher/legal disclosure, privacy and data-protection review, host selection and account verification, market-specific commercial/legal review, manual browser/mobile/accessibility tests, live-host checks, and explicit owner approval for deployment/indexing remain outstanding. 
