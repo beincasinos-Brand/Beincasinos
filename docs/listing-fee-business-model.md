@@ -4,15 +4,15 @@
 Build a useful, trusted casino-brand directory and educational resource. The initial research target is 100 brands. Monetization order: **paid listings first after audience evidence; affiliate links later and secondary**.
 
 ## Non-negotiable principles
-- Do not buy a production domain until the name/trademark risk has been reviewed in intended markets.
+- Resolve the name/trademark risk before public launch or further branding investment. The owner reports the domain purchase is complete; that purchase is not trademark clearance.
 - Do not publish a brand as licensed, legal, safe, or available in a country without current, primary-source evidence.
 - Keep research prospects separate from public profiles. No blank/near-duplicate profiles created just to reach 100 URLs.
 - Mark paid placement beside the listing. Payment does not influence verification, safety language, or editorial conclusions.
 - Do not promise advertisers traffic, leads, or conversions. The media kit must use measured data and disclose the reporting period.
 - Affiliate links come later, after programme, market, disclosure, and privacy checks.
 
-## Phase 0 — before domain purchase
-1. Resolve brand-name clearance, especially the “BEIN” element; consider an alternative name if qualified advice suggests material risk.
+## Phase 0 — pre-launch name and business clearance
+1. Resolve brand-name clearance, especially the “BEIN” element; consider an alternative name if qualified advice suggests material risk. The reported domain purchase does not remove this blocker.
 2. Choose a first target market and language. “International” is not a legal market approval.
 3. Decide the publisher identity and monitored business contact.
 4. Choose a host whose terms permit the intended commercial directory and affiliate business.
