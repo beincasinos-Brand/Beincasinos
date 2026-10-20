@@ -52,16 +52,20 @@
   const summary = document.querySelector('#result-summary');
   const error = document.querySelector('#calc-error');
   const format = (value) => new Intl.NumberFormat('en', {style:'currency',currency:currency.value,minimumFractionDigits:2,maximumFractionDigits:2}).format(value);
+  const showError = () => {
+    error.hidden = false;
+    output.textContent = '—';
+    summary.textContent = 'Correct the highlighted values to calculate required turnover.';
+  };
   const calculate = () => {
     const a = Number(amount.value), m = Number(multiplier.value);
     if (!Number.isFinite(a) || !Number.isFinite(m) || a < 0 || a > 100000000 || m < 0 || m > 100000 || amount.value === '' || multiplier.value === '') {
-      error.hidden = false;
+      showError();
       return;
     }
-    error.hidden = true;
     const result = a * m;
     if (!Number.isFinite(result)) {
-      error.hidden = false;
+      showError();
       return;
     }
     error.hidden = true;
