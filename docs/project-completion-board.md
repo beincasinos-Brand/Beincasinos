@@ -8,9 +8,9 @@
 
 - Static English-language site source exists, including homepage, guides, market research, safer-gambling information, editorial and commercial disclosure pages, privacy/contact drafts, 404, two learning tools, robots, sitemap, CSS and JavaScript.
 - A public-only build script copies an allowlist into `dist/`; internal docs and trackers are intended to remain out of the public artifact.
-- A source-level checker and GitHub Actions workflow exist. The latest observed workflow run for commit `b000bb85ebb0de62be45a7730f46ecc0ca5e5503` completed successfully: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39492866852. This validates only the checks in that workflow, not production hosting, browser rendering, legal compliance or accessibility.
+- A source-level checker and GitHub Actions workflow exist. Recent changes to the tracker, UKGC spot-check notes and research docs have triggered CI runs; the UKGC register update passed its workflow: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39493588679. This validates only the checks in that workflow, not production hosting, browser rendering, legal compliance or accessibility.
 - `robots.txt` currently blocks all crawlers as a temporary pre-launch measure.
-- The legacy 100-name queue is a research backlog, not 100 verified brands. The new Tier 1 tracker is a first batch of 32 rows including 30 brand prospects and two category-level market restrictions; it is not the final 100-brand qualification list. Seven Dutch regulated-operator prospects were added from the Ksa's 17 September 2026 continuation-licence announcement; those renewals are not evidence of new launches or willingness to buy.
+- The legacy 100-name queue is a research backlog, not 100 verified brands. The Tier 1 tracker currently has 32 rows including 30 brand prospects and two category-level market restrictions; one UK lead (Ivy Casino) is excluded after the UKGC register spot-check showed it inactive. The tracker is not the final 100-brand qualification list. Seven Dutch regulated-operator prospects were added from the Ksa's 17 September 2026 continuation-licence announcement; those renewals are not evidence of new launches or willingness to buy.
 - No brand has confirmed willingness to pay a BeInCasinos listing fee. No outreach was sent in this work.
 
 ## Gate board
