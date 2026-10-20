@@ -34,6 +34,7 @@ class PageParser(HTMLParser):
         self.ids = set()
         self.id_counts = {}
         self.images_missing_alt = 0
+        self.inline_scripts = 0
         self.html_lang = None
         self.has_viewport = False
         self.unsafe_new_tab_links = []
@@ -78,6 +79,8 @@ class PageParser(HTMLParser):
                 self._link_text.append("image alt")
             elif a.get("aria-label", "").strip() or a.get("title", "").strip():
                 self._link_text.append("accessible label")
+        if tag == "script" and not a.get("src"):
+            self.inline_scripts += 1
         if tag in ("script", "img", "source", "iframe", "audio", "video") and a.get("src"):
             self.resources.append(a["src"].strip())
         if tag == "link" and a.get("href"):
@@ -149,6 +152,8 @@ for page in pages:
     duplicate_ids = sorted(identifier for identifier, count in parser.id_counts.items() if count > 1)
     if duplicate_ids:
         errors.append(f"{rel}: duplicate id attribute(s): " + ", ".join(duplicate_ids))
+    if parser.inline_scripts:
+        errors.append(f"{rel}: inline script blocked by the prepared Content Security Policy; move logic to a same-origin .js file")
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
     for href in parser.unsafe_new_tab_links:
