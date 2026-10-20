@@ -81,6 +81,7 @@ A CI pass confirms only the checks that CI actually runs. It does not mean the i
 
 ## Automated pre-deploy smoke test — 20 October 2026
 
-- Latest Chromium smoke suite passed in GitHub Actions: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502853616.
-- Automated coverage: all 20 indexable routes return HTTP 200 with a title and H1; search/social descriptions match; no horizontal overflow across all 20 routes at 320, 375, 390, 768, 1024 and 1440px; each route has a declared page language, exactly one main landmark, and a skip-to-content link; visible form controls and buttons have accessible names; mobile navigation opens and closes with Escape; wagering calculator covers valid, zero, negative, empty and over-limit amounts; terms checklist progress/reset work; no uncaught page errors or browser-console errors were detected.
-- This is a lightweight accessibility smoke check, not a WCAG conformance audit or substitute for keyboard-only, screen-reader, contrast, zoom/reflow, manual browser/device, external-link, production-host, legal/privacy review, or launch approval. Those remain open.
+- Latest successful Chromium + axe-core run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39504107580.
+- All 20 indexable routes passed automated axe-core scans for WCAG 2.1 A/AA rule tags. The first scan found real colour-contrast failures in the homepage hero, guide metadata and footer; supporting-text colours were darkened and the suite passed after the fixes.
+- The current suite also checks all 20 indexable routes at 320, 375, 390, 768, 1024 and 1440px, language/main/skip-link structure, accessible names for controls, mobile navigation, calculator edge cases, checklist progress/reset, metadata parity, browser-console errors and uncaught page errors.
+- Automated axe scans are not proof of WCAG conformance and do not replace keyboard-only, screen-reader, contrast spot-check, zoom/reflow, real-device/manual, external-link, production-host, legal/privacy review or launch approval. Those remain open.
