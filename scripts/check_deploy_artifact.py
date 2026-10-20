@@ -52,6 +52,29 @@ else:
     if robots.is_file() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
         errors.append("dist/robots.txt: pre-launch crawl block was removed without the release gate")
 
+    # Scan deployable text assets for common accidental secrets and obvious placeholders.
+    # This is a lightweight guardrail, not a replacement for a dedicated secret scanner.
+    import re
+    suspicious_patterns = {
+        "private-key header": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----", re.IGNORECASE),
+        "GitHub token": re.compile(r"\\bgh[pousr]_[A-Za-z0-9]{30,}\\b"),
+        "AWS access key ID": re.compile(r"\\bAKIA[0-9A-Z]{16}\\b"),
+        "Stripe live/test secret": re.compile(r"\\b(?:sk|rk)_(?:live|test)_[A-Za-z0-9]{16,}\\b"),
+        "explicit replacement placeholder": re.compile(r"\\b(?:REPLACE_WITH_[A-Z0-9_]+|YOUR_API_KEY|YOUR_SECRET|TODO:|FIXME:|LOREM IPSUM)\\b", re.IGNORECASE),
+    }
+    text_suffixes = {".html", ".css", ".js", ".json", ".txt", ".xml", ".svg", ".webmanifest", ".md"}
+    for asset in DIST.rglob("*"):
+        if not asset.is_file() or asset.suffix.lower() not in text_suffixes:
+            continue
+        try:
+            source = asset.read_text(encoding="utf-8")
+        except (OSError, UnicodeError) as exc:
+            errors.append(f"dist/{asset.relative_to(DIST)}: cannot inspect text asset ({exc})")
+            continue
+        for label, pattern in suspicious_patterns.items():
+            if pattern.search(source):
+                errors.append(f"dist/{asset.relative_to(DIST)}: suspicious {label} pattern found")
+
 if errors:
     print(f"FAIL: {len(errors)} deployment artifact issue(s)")
     for item in errors:
