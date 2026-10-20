@@ -10,7 +10,7 @@
  function update() {
    const checked = boxes.filter(box => box.checked).length;
    count.textContent = String(checked);
-   fill.style.width = (boxes.length ? checked / boxes.length * 100 : 0) + '%';
+   fill.className = 'progress-fill progress-' + checked;
    track.setAttribute('aria-valuenow', String(checked));
    message.textContent = checked === boxes.length ? 'Checklist complete. Keep the source links and terms for your records.' : checked === 0 ? 'Start by checking the original source for each claim.' : checked >= Math.ceil(boxes.length * .7) ? 'Good progress. Revisit any item you could not verify.' : 'Keep going, and leave any unverified item unchecked.';
  }
