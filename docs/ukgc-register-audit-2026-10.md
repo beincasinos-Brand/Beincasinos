@@ -59,3 +59,25 @@ The UKGC says its register includes activity, domain names, trading names, licen
 ## Decision
 
 None of these spot-checks qualifies a prospect for a public listing or proves paid-listing demand. All remain internal research leads pending complete review.
+
+
+## Additional UK brand/domain research batch — 20 October 2026
+
+- **Brillbet:** UKGC account 101570 lists active remote Casino permission from 15 June 2026; its domain record lists brillbet.co.uk and brillbet.com as Active. The claimed September 2026 public launch is secondary-source reported and remains unverified by a primary launch announcement.
+  - Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/101570
+  - Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/101570
+- **Betty Casino:** UKGC account 100695 lists active remote Casino permission from 1 April 2026 and the domain list includes betty.com and playbetty.co.uk as Active. Licence activity date is not treated as proof of public launch.
+  - Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/100695
+  - Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100695
+- **Casushi / FruitKings:** UKGC domain list under Solaya Group Limited (account 100050) lists casushi.com and fruitkings.com as Active; the remote Casino permission is active from 11 November 2025. UKGC search results also return Dazzletag Entertainment Limited trading as Casushi, so the current Casushi brand/operator relationship needs resolution before any public profile.
+  - Solaya licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/100050
+  - Solaya domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100050
+  - Casushi search results: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Casushi
+- **Betcrown / BetLegend / BetNero:** UKGC account 48789 (Anakatech Interactive Limited) has active remote Casino permission; the domain list marks betcrown.co.uk, betlegend.co.uk and betnero.co.uk as White Label domains. These are not standalone operator licences. Launch dates are secondary-source leads only.
+  - Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/48789
+  - Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/48789
+- **247Bet:** UKGC account 52894 (White Hat Gaming Limited) has active remote Casino permission and lists www.247bet.com as a White Label domain. The domain record alone does not prove a 2025 launch or standalone licence.
+  - Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/52894
+  - Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/52894
+
+All eight leads remain **Hold**. No public profile has been approved, no brand has confirmed willingness to pay, and no outreach has been sent. Before qualification, review current terms, withdrawals, complaints, safer-gambling controls, enforcement, exact consumer-domain/operator relationships, and official commercial contact. Launch timing should remain unconfirmed where only secondary sources exist.
