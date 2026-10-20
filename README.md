@@ -67,3 +67,7 @@ Use docs/audience-growth-measurement-plan.md for the six-month audience/measurem
 
 ## Content policy
 No invented ratings, bonus offers, licensing claims, or claims of independent testing. Any future commercial recommendation must be verified, dated, market-specific, and clearly disclosed.
+
+## Domain and hosting setup
+
+See [the domain and hosting setup runbook](docs/domain-and-hosting-setup.md) for the ordered steps after the owner-reported Spaceship purchase. Do not add trial products, change nameservers, publish DNS records, deploy, or enable indexing until the relevant decision and launch gates are complete.
