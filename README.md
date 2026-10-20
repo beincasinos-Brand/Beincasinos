@@ -10,6 +10,7 @@ An English-language educational resource for understanding online casino terms, 
 
 ## Internal commercial planning
 - Paid-listing offer framework and pricing hypotheses: `docs/paid-listing-offer-framework.md`. This is an internal research draft, not a public rate card; pricing and demand remain unvalidated.
+- Media-kit evidence template: `docs/media-kit-evidence-template.md`. Fill only from real, dated reports; no audience metrics are asserted until measured.
 
 ## Local preview
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
