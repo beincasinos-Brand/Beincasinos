@@ -517,6 +517,53 @@ if sales_csv.exists():
 else:
     errors.append("docs/paid-listing-sales-pipeline.csv is missing")
 
+# Validate the consolidated Tier 1 prospect tracker; this is an internal source file, never a public page.
+master_tracker = ROOT / "docs/tier-1-master-prospect-tracker.csv"
+if master_tracker.exists():
+    try:
+        with master_tracker.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+            columns = reader.fieldnames or []
+            required_columns = {
+                "brand_name", "market", "product_scope", "official_domain", "legal_operator",
+                "regulator_or_authority", "regulator_register_url", "launch_or_event_source_url",
+                "primary_evidence_url", "launch_or_event_date", "evidence_grade",
+                "commercial_signal", "willingness_to_pay", "publication_status", "next_action",
+                "last_checked_utc", "notes",
+            }
+            missing_columns = sorted(required_columns - set(columns))
+            if missing_columns:
+                errors.append("docs/tier-1-master-prospect-tracker.csv: missing required column(s): " + ", ".join(missing_columns))
+            if len(columns) != len(set(columns)):
+                errors.append("docs/tier-1-master-prospect-tracker.csv: duplicate column names")
+            if not rows:
+                errors.append("docs/tier-1-master-prospect-tracker.csv: tracker has no research rows")
+            names = [row.get("brand_name", "").strip().casefold() for row in rows]
+            if any(not name for name in names):
+                errors.append("docs/tier-1-master-prospect-tracker.csv: every row requires brand_name")
+            duplicates = sorted(name for name in set(names) if name and names.count(name) > 1)
+            if duplicates:
+                errors.append("docs/tier-1-master-prospect-tracker.csv: duplicate brand name(s): " + ", ".join(duplicates))
+            allowed_markets = {"AU", "US", "US-NJ", "US-ME", "US-PA", "FR", "DE", "CH", "GB", "NL"}
+            allowed_publication_status = {"Hold", "Exclude", "Approved"}
+            for index, row in enumerate(rows, start=2):
+                market = row.get("market", "").strip()
+                if market not in allowed_markets:
+                    errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: unsupported market {market!r}")
+                if row.get("publication_status", "").strip() not in allowed_publication_status:
+                    errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: publication_status must be Hold, Exclude, or Approved")
+                if row.get("willingness_to_pay", "").strip().casefold() in {"yes", "confirmed", "confirmed buyer", "willing"}:
+                    if not row.get("commercial_signal", "").strip() or not row.get("primary_evidence_url", "").strip():
+                        errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: confirmed willingness-to-pay requires documented commercial signal and evidence URL")
+                if market in {"AU", "FR"} and row.get("product_scope", "").strip().casefold() == "online casino":
+                    if row.get("publication_status", "").strip() != "Exclude":
+                        errors.append(f"docs/tier-1-master-prospect-tracker.csv:{index}: AU/FR online casino category must remain Exclude pending specific legal review")
+    except (OSError, UnicodeError, csv.Error) as exc:
+        errors.append(f"docs/tier-1-master-prospect-tracker.csv: cannot validate master tracker ({exc})")
+else:
+    errors.append("docs/tier-1-master-prospect-tracker.csv is missing")
+
 # Keep launch-planning documents present so critical approval gates cannot silently disappear.
 for required_doc in (
     "docs/prelaunch-launch-checklist.md",
