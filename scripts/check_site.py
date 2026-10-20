@@ -315,6 +315,222 @@ if vercel_config.exists():
 else:
     errors.append("vercel.json is missing; review static-host security header configuration")
 
+# Validate the optional Netlify static-host configuration if present.
+netlify_config = ROOT / "netlify.toml"
+if netlify_config.exists():
+    netlify_source = netlify_config.read_text(encoding="utf-8")
+    required_netlify_headers = {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "X-Frame-Options": "DENY",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Permitted-Cross-Domain-Policies": "none",
+    }
+    for name, value in required_netlify_headers.items():
+        expected_line = f'{name} = "{value}"'
+        if expected_line not in netlify_source:
+            errors.append(f"netlify.toml: missing or unexpected security header {name}: expected {value!r}")
+    if not re.search(r'^\s*publish\s*=\s*"\."\s*
+# Keep the commercial research queue auditable; prospect count is not a publication target.
+prospect_csv = ROOT / "docs/brand-research-template.csv"
+if prospect_csv.exists():
+    try:
+        with prospect_csv.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+            required_columns = {
+                "brand_name", "official_url", "legal_entity", "regulator",
+                "official_register_url", "license_scope", "markets_allowed",
+                "markets_excluded", "last_checked_utc", "reviewer", "status",
+                "publication_decision", "commercial_status", "unresolved_issues",
+                "launch_year", "launch_year_source_url", "launch_type",
+                "partnership_evidence_url", "listing_fee_fit_score", "fit_rationale",
+                "sales_priority", "decision_maker_contact_source",
+            }
+            columns = reader.fieldnames or []
+            missing_columns = sorted(required_columns - set(columns))
+            if missing_columns:
+                errors.append("docs/brand-research-template.csv: missing required column(s): " + ", ".join(missing_columns))
+            if len(columns) != len(set(columns)):
+                errors.append("docs/brand-research-template.csv: duplicate column names")
+            if len(rows) != 100:
+                errors.append(f"docs/brand-research-template.csv: expected 100 prospect rows, found {len(rows)}")
+            names = [row.get("brand_name", "").strip().casefold() for row in rows]
+            if any(not name for name in names):
+                errors.append("docs/brand-research-template.csv: every prospect must have a brand name")
+            duplicates = sorted(name for name in set(names) if name and names.count(name) > 1)
+            if duplicates:
+                errors.append("docs/brand-research-template.csv: duplicate brand name(s): " + ", ".join(duplicates))
+            allowed_statuses = {"prospect", "researching", "verified_for_review", "approved_to_publish", "rejected", "published"}
+            allowed_commercial = {"none", "paid listing", "affiliate", "both"}
+            for index, row in enumerate(rows, start=2):
+                status = row.get("status", "").strip()
+                commercial = row.get("commercial_status", "").strip().casefold()
+                if status not in allowed_statuses:
+                    errors.append(f"docs/brand-research-template.csv:{index}: unsupported status {status!r}")
+                if commercial not in allowed_commercial:
+                    errors.append(f"docs/brand-research-template.csv:{index}: unsupported commercial_status {commercial!r}")
+                if status in {"verified_for_review", "approved_to_publish", "published"}:
+                    evidence_fields = ("official_url", "legal_entity", "official_register_url", "license_scope", "markets_allowed", "last_checked_utc", "reviewer")
+                    missing_evidence = [field for field in evidence_fields if not row.get(field, "").strip()]
+                    if missing_evidence:
+                        errors.append(f"docs/brand-research-template.csv:{index}: status {status!r} requires evidence fields: " + ", ".join(missing_evidence))
+                if status == "published" and row.get("publication_decision", "").strip().casefold() not in {"approved", "approved_to_publish", "publish"}:
+                    errors.append(f"docs/brand-research-template.csv:{index}: published status requires an explicit approved publication_decision")
+                launch_year = row.get("launch_year", "").strip()
+                launch_type = row.get("launch_type", "").strip().casefold()
+                launch_source = row.get("launch_year_source_url", "").strip()
+                if launch_year:
+                    if not launch_year.isdigit() or not 2022 <= int(launch_year) <= 2026:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year must be a verified year from 2022 through 2026")
+                    if not launch_source:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year requires launch_year_source_url")
+                    if launch_type not in {"new launch", "rebrand", "new market", "acquisition"}:
+                        errors.append(f"docs/brand-research-template.csv:{index}: launch_year requires launch_type (new launch, rebrand, new market, or acquisition)")
+                elif launch_source or launch_type:
+                    errors.append(f"docs/brand-research-template.csv:{index}: launch source/type must not be set without a verified launch_year")
+                score = row.get("listing_fee_fit_score", "").strip()
+                if score:
+                    try:
+                        score_value = int(score)
+                        if not 0 <= score_value <= 100:
+                            raise ValueError
+                    except ValueError:
+                        errors.append(f"docs/brand-research-template.csv:{index}: listing_fee_fit_score must be an integer from 0 to 100")
+                    if not row.get("fit_rationale", "").strip():
+                        errors.append(f"docs/brand-research-template.csv:{index}: a fit score requires documented fit_rationale")
+                    if row.get("sales_priority", "").strip().casefold() not in {"priority research/outreach", "further research", "hold", "reject"}:
+                        errors.append(f"docs/brand-research-template.csv:{index}: a fit score requires sales_priority (priority research/outreach, further research, hold, reject)")
+                elif row.get("fit_rationale", "").strip() or row.get("sales_priority", "").strip():
+                    errors.append(f"docs/brand-research-template.csv:{index}: fit_rationale/sales_priority must be backed by a numeric listing_fee_fit_score")
+    except (OSError, UnicodeError, csv.Error) as exc:
+        errors.append(f"docs/brand-research-template.csv: cannot validate prospect tracker ({exc})")
+else:
+    errors.append("docs/brand-research-template.csv is missing")
+
+# Guard the two interactive learning tools against accidental markup regressions.
+calculator_path = ROOT / "tools/wagering-calculator/index.html"
+if calculator_path.exists():
+    calculator_source = calculator_path.read_text(encoding="utf-8")
+    for required_id in ("wager-form", "eligible", "currency", "multiplier", "turnover", "result-summary", "calc-error"):
+        if f'id="{required_id}"' not in calculator_source and f"id='{required_id}'" not in calculator_source:
+            errors.append(f"tools/wagering-calculator/index.html: required calculator control missing: {required_id}")
+    if "Number.isFinite(result)" not in calculator_source or "event.preventDefault()" not in calculator_source:
+        errors.append("tools/wagering-calculator/index.html: calculation validation or form-submit handling is missing")
+    for required_behavior in ("const showError = () =>", "output.textContent = '—'", "Correct the values marked as invalid to calculate required turnover.", "setAttribute('aria-invalid', String(amountInvalid))", "setAttribute('aria-invalid', String(multiplierInvalid))", "amount.addEventListener('input', calculate)", "multiplier.addEventListener('input', calculate"):
+        if required_behavior not in calculator_source:
+            errors.append(f"tools/wagering-calculator/index.html: invalid-input result reset behavior missing: {required_behavior}")
+
+checklist_path = ROOT / "tools/terms-checklist/index.html"
+if checklist_path.exists():
+    checklist_source = checklist_path.read_text(encoding="utf-8")
+    checkbox_count = len(re.findall(r'<input\b[^>]*type="checkbox"', checklist_source, re.I))
+    if checkbox_count != 13:
+        errors.append(f"tools/terms-checklist/index.html: expected 13 checklist items, found {checkbox_count}")
+    for required_id in ("checked-count", "total-count", "progress-fill", "progress-track", "progress-message", "print-checklist", "reset-checklist"):
+        if f'id="{required_id}"' not in checklist_source and f"id='{required_id}'" not in checklist_source:
+            errors.append(f"tools/terms-checklist/index.html: required checklist control missing: {required_id}")
+    for required_behavior in ("aria-valuenow", "aria-valuemax", "window.print()", "box.checked = false"):
+        if required_behavior not in checklist_source:
+            errors.append(f"tools/terms-checklist/index.html: expected interaction/accessibility behavior missing: {required_behavior}")
+
+# Guard the shared navigation script against common keyboard/state regressions.
+script_path = ROOT / "script.js"
+if script_path.exists():
+    script_source = script_path.read_text(encoding="utf-8")
+    for required_behavior in (
+        "document.querySelector('.menu-toggle')",
+        "document.querySelector('#primary-nav')",
+        "getAttribute('aria-expanded')",
+        "setAttribute('aria-expanded', String(!expanded))",
+        "nav.classList.toggle('open', !expanded)",
+        "nav.classList.remove('open')",
+        "document.addEventListener('keydown'",
+        "event.key === 'Escape'",
+        "closeMenu(true)",
+    ):
+        if required_behavior not in script_source:
+            errors.append(f"script.js: expected responsive navigation behavior missing: {required_behavior}")
+else:
+    errors.append("script.js: shared navigation script is missing")
+
+# Validate the paid-listing sales tracker before any commercial outreach.
+sales_csv = ROOT / "docs/paid-listing-sales-pipeline.csv"
+if sales_csv.exists():
+    try:
+        with sales_csv.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            rows = list(reader)
+            required_columns = {
+                "brand_name", "legal_entity", "target_market", "official_contact_source",
+                "qualification_status", "pipeline_stage", "owner", "placement_type",
+                "quoted_price", "currency", "agreement_status", "invoice_status",
+                "paid_label_confirmed", "market_review_confirmed",
+                "privacy_tracking_review", "source_evidence_url", "do_not_contact_reason",
+            }
+            columns = reader.fieldnames or []
+            missing_columns = sorted(required_columns - set(columns))
+            if missing_columns:
+                errors.append("docs/paid-listing-sales-pipeline.csv: missing required column(s): " + ", ".join(missing_columns))
+            if len(columns) != len(set(columns)):
+                errors.append("docs/paid-listing-sales-pipeline.csv: duplicate column names")
+            stages = {
+                "not_contacted", "qualified", "draft_ready", "contacted",
+                "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won",
+                "lost", "do_not_contact",
+            }
+            for index, row in enumerate(rows, start=2):
+                brand = row.get("brand_name", "").strip()
+                stage = row.get("pipeline_stage", "").strip()
+                if not brand and not any(value.strip() for value in row.values() if value):
+                    continue
+                if not brand:
+                    errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: populated row requires brand_name")
+                if stage not in stages:
+                    errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: unsupported pipeline_stage {stage!r}")
+                if stage == "do_not_contact" and not row.get("do_not_contact_reason", "").strip():
+                    errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: do_not_contact requires a reason")
+                if stage in {"qualified", "draft_ready", "contacted", "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won"}:
+                    for field in ("legal_entity", "target_market", "official_contact_source", "source_evidence_url", "owner"):
+                        if not row.get(field, "").strip():
+                            errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: stage {stage!r} requires {field}")
+                if stage in {"contacted", "follow_up_due", "replied_interested", "qualified_buyer", "in_discussion", "proposal_sent", "won"} and not row.get("first_contact_date_utc", "").strip():
+                    errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: stage {stage!r} requires first_contact_date_utc")
+                if stage == "won":
+                    if row.get("agreement_status", "").strip().casefold() not in {"signed", "complete", "executed"}:
+                        errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: won requires a signed/complete agreement status")
+                    for field in ("paid_label_confirmed", "market_review_confirmed", "privacy_tracking_review"):
+                        if row.get(field, "").strip().casefold() not in {"yes", "complete", "approved", "reviewed"}:
+                            errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: won requires {field} to be confirmed")
+                    if row.get("invoice_status", "").strip().casefold() not in {"paid", "complete"}:
+                        errors.append(f"docs/paid-listing-sales-pipeline.csv:{index}: won requires invoice_status to be paid/complete")
+    except (OSError, UnicodeError, csv.Error) as exc:
+        errors.append(f"docs/paid-listing-sales-pipeline.csv: cannot validate sales tracker ({exc})")
+else:
+    errors.append("docs/paid-listing-sales-pipeline.csv is missing")
+
+# Keep launch-planning documents present so critical approval gates cannot silently disappear.
+for required_doc in ("docs/prelaunch-launch-checklist.md", "docs/audience-growth-measurement-plan.md", "docs/paid-listing-sales-pipeline.md"):
+    if not (ROOT / required_doc).is_file():
+        errors.append(f"{required_doc} is missing")
+
+print(f"Checked {len(pages)} HTML pages.")
+if errors:
+    print(f"\nFAIL: {len(errors)} error(s)")
+    for item in errors:
+        print(f"  ERROR: {item}")
+if warnings:
+    print(f"\nWARN: {len(warnings)} launch/verification warning(s)")
+    for item in warnings:
+        print(f"  WARN: {item}")
+if not errors:
+    print("\nPASS: no structural errors detected by this source-level checker.")
+    print("Reminder: this does not test rendering, accessibility, external links, legal compliance, or production behaviour.")
+sys.exit(1 if errors else 0)
+, netlify_source, re.M):
+        errors.append('netlify.toml: static publish directory must remain "." for this root-based site')
+
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
 if prospect_csv.exists():
