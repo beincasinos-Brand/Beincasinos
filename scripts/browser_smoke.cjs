@@ -79,6 +79,29 @@ const routes = [
 
     if (axeIssues.length) throw new Error("axe WCAG 2.1 A/AA violations:\n" + axeIssues.join("\n"));
 
+    const cspErrors = [];
+    const cspPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    cspPage.on("pageerror", error => cspErrors.push(error.message));
+    cspPage.on("console", message => { if (message.type() === "error") cspErrors.push(message.text()); });
+    const testPolicy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-src 'none'";
+    await cspPage.route("**/*", async route => {
+      const response = await route.fetch();
+      await route.fulfill({ response, headers: { ...response.headers(), "content-security-policy": testPolicy } });
+    });
+    await cspPage.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
+    const cspMenu = cspPage.locator(".menu-toggle");
+    await cspMenu.click();
+    if (await cspMenu.getAttribute("aria-expanded") !== "true") throw new Error("mobile navigation failed under same-origin CSP");
+    await cspPage.goto(baseURL + "/tools/wagering-calculator/", { waitUntil: "domcontentloaded" });
+    await cspPage.locator("#eligible").fill("100");
+    await cspPage.locator("#multiplier").fill("35");
+    if (!(await cspPage.locator("#turnover").textContent()).includes("3,500.00")) throw new Error("calculator failed under same-origin CSP");
+    await cspPage.goto(baseURL + "/tools/terms-checklist/", { waitUntil: "domcontentloaded" });
+    await cspPage.locator('.checklist-main input[type="checkbox"]').first().check();
+    if ((await cspPage.locator("#checked-count").textContent()).trim() !== "1") throw new Error("checklist failed under same-origin CSP");
+    if (cspErrors.length) throw new Error("same-origin CSP runtime/console errors: " + cspErrors.join(" | "));
+    await cspPage.close();
+
     await page.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
     const menu = page.locator(".menu-toggle");
     const nav = page.locator("#primary-nav");
