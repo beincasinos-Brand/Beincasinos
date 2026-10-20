@@ -18,9 +18,10 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 
 ## Prepared repository state
 
-- `netlify.toml` now runs `python3 scripts/build_site.py`, publishes only `dist/`, and defines baseline security headers.
-- `vercel.json` remains in place as an alternative-host configuration.
-- The source checker validates the expected security headers and requires both provider configurations to publish only `dist/`.
+- `netlify.toml` now runs `python3 scripts/build_site.py`, publishes only `dist/`, and defines baseline security headers including a Content Security Policy (CSP).
+- `vercel.json` remains in place as an alternative-host configuration with matching security headers.
+- CI runs `scripts/check_host_config.py` to parse the Vercel JSON, validate the expected headers in both host configurations, and detect drift before a deployment. The CSP currently allows inline scripts/styles to support existing static pages; this is a baseline policy, not a strict nonce/hash-based CSP.
+- Passing this check verifies configuration text only; deployed response headers still require testing on the chosen host.
 - CI successfully built the public-only artifact and checked it for leaks on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39488962203.
 - Neither configuration changes DNS, creates a hosting account, deploys the website, enables indexing, or verifies that the production domain resolves.
 
