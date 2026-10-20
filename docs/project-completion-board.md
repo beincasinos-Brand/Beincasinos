@@ -106,3 +106,6 @@
 - Added `docs/brand-profile-winz-nl-draft.md` after locating the official Ksa permit for Orange Gaming B.V. The dossier explicitly keeps Winz.nl on hold until the exact brand/domain notification is verified; a company permit alone is not treated as domain approval.
 
 - Added a Chromium browser smoke suite to CI. It passed on https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39501405509, covering all 20 indexable routes, mobile overflow checks at 390px, desktop homepage overflow at 1440px, mobile menu/Escape behaviour, calculator valid/zero/negative/empty/over-limit inputs, checklist progress/reset, metadata parity, and uncaught page errors. Manual device/accessibility/production-host QA remains open.
+
+
+- Automated QA was strengthened on 20 October 2026 with Chromium checks for declared page language, exactly one main landmark, skip-to-content links, accessible names for visible form controls and buttons. The enhanced suite passed on run https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502557582. This is a lightweight smoke test only; WCAG conformance, keyboard/screen-reader review, contrast and real-device/manual testing remain open. See [launch acceptance test plan](launch-acceptance-test-plan.md).
