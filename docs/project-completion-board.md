@@ -112,3 +112,6 @@
 
 
 - The expanded six-width responsive smoke suite passed on 20 October 2026: all 20 indexable routes were checked at 320, 375, 390, 768, 1024 and 1440px, alongside the accessibility smoke checks and interactive-tool checks. Run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502713824. Manual/device and live-host QA remain outstanding.
+
+
+- The Chromium suite now fails on uncaught page errors and browser-console errors as well as structural, responsive, accessibility-smoke and interactive-tool checks. The full run passed on https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39502853616. This does not replace manual cross-browser/device, screen-reader, WCAG, legal/privacy or production-host QA.
