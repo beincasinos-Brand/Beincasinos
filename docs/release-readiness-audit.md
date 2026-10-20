@@ -54,7 +54,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Do not add tracking/analytics or third-party forms without reviewing consent and privacy requirements.
 
 ### 5. Technical readiness
-- Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 18 public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
+- Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 20 indexable public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
 - A public-only deployment artifact is built into `dist/`, and CI checks that internal research docs, CSV trackers, scripts, and provider configuration are not published.
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
@@ -109,7 +109,7 @@ This addendum supersedes older descriptions of the site as only an educational r
 
 - Brand direction and BIC monogram are documented in `docs/brand-identity-and-growth-north-star.md`; the navigation and favicon now use the BIC mark, and the compact app label is BIC.
 - Homepage positioning and metadata now describe BeInCasinos as a casino-review and research brand. A public `/reviews/` hub explains the evidence standard and is linked from primary navigation and the sitemap. It does not list unverified casinos as recommendations.
-- The build allowlist includes the reviews hub; the sitemap has 19 canonical public URLs, while the source contains 20 HTML pages including the 404 page.
+- The build allowlist includes the Reviews hub and For Operators page; the sitemap now has 20 canonical public URLs, while the source contains 21 HTML files including the 404 page.
 - Seven general guide/safer-gambling pages now carry a dated editorial source-check notice. Official sources reviewed and limitations are recorded in `docs/editorial-source-review-log-2026-10-20.md`. This source check is not legal sign-off for the site's promotion, business model, or any operator profile.
 - International SEO/content guardrails are recorded in `docs/international-seo-content-architecture.md`. The top-10 goal and 100-million daily search-impressions goal remain aspirations, not measured performance, forecast, or promise.
 - Combined source/build/artifact CI passed after the review-hub metadata correction: [run 39497109055](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497109055). Later source-notice changes also passed CI, including [run 39497391660](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497391660).
