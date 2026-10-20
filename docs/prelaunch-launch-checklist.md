@@ -57,8 +57,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 ## Gate 5 — Technical QA and SEO
 
 - [ ] Static source checks pass on the exact release commit.
-- [ ] Review every page's title, description, canonical URL, social metadata, headings, links, and mobile navigation.
-- [ ] Confirm all internal links and assets work on the actual production domain; verify 404 handling.
+- [x] Add canonical URL and Open Graph/Twitter summary metadata to all 18 public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
+- [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
 - [ ] Test the wagering calculator with empty, zero, negative, non-numeric, extremely large, and valid inputs.
 - [ ] Test the checklist tool on desktop/mobile, keyboard-only, print/PDF, reset, and progress updates.
 - [ ] Perform real browser tests at mobile and desktop sizes, including keyboard navigation and focus visibility.
