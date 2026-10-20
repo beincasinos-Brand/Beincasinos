@@ -198,9 +198,16 @@ if sitemap.exists():
         import xml.etree.ElementTree as ET
         sitemap_root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
         ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-        for loc in sitemap_root.findall(".//sm:loc", ns):
-            url = (loc.text or "").strip()
+        sitemap_urls = [((loc.text or "").strip()) for loc in sitemap_root.findall(".//sm:loc", ns)]
+        seen_sitemap_urls = set()
+        for url in sitemap_urls:
+            if url in seen_sitemap_urls:
+                errors.append(f"sitemap.xml: duplicate URL entry: {url}")
+            seen_sitemap_urls.add(url)
+        for url in sitemap_urls:
             parsed = urlparse(url)
+            if parsed.query or parsed.fragment:
+                warnings.append(f"sitemap.xml: URL should not contain query or fragment: {url}")
             if parsed.scheme not in ("http", "https") or not parsed.netloc:
                 errors.append(f"sitemap.xml: invalid absolute URL: {url}")
                 continue
