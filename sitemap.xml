@@ -2,21 +2,21 @@
 <!-- Domain reported purchased via Spaceship. Keep robots.txt blocked and verify domain, DNS, canonical URLs and legal gates before launch. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://beincasinos.online/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/tools/wagering-calculator/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/tools/terms-checklist/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/how-to-check-a-casino-licence/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/bonus-terms-explained/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/withdrawal-terms/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/what-wagering-requirements-mean/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/how-to-read-casino-terms/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/guides/online-gambling-self-exclusion/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/about/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/how-we-review/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/market-research/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/editorial-policy/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/affiliate-disclosure/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/privacy/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/responsible-gambling/</loc></url>
-  <url><loc>https://YOUR-DOMAIN.example/contact/</loc></url>
+  <url><loc>https://beincasinos.online/guides/</loc></url>
+  <url><loc>https://beincasinos.online/tools/wagering-calculator/</loc></url>
+  <url><loc>https://beincasinos.online/tools/terms-checklist/</loc></url>
+  <url><loc>https://beincasinos.online/guides/how-to-check-a-casino-licence/</loc></url>
+  <url><loc>https://beincasinos.online/guides/bonus-terms-explained/</loc></url>
+  <url><loc>https://beincasinos.online/guides/withdrawal-terms/</loc></url>
+  <url><loc>https://beincasinos.online/guides/what-wagering-requirements-mean/</loc></url>
+  <url><loc>https://beincasinos.online/guides/how-to-read-casino-terms/</loc></url>
+  <url><loc>https://beincasinos.online/guides/online-gambling-self-exclusion/</loc></url>
+  <url><loc>https://beincasinos.online/about/</loc></url>
+  <url><loc>https://beincasinos.online/how-we-review/</loc></url>
+  <url><loc>https://beincasinos.online/market-research/</loc></url>
+  <url><loc>https://beincasinos.online/editorial-policy/</loc></url>
+  <url><loc>https://beincasinos.online/affiliate-disclosure/</loc></url>
+  <url><loc>https://beincasinos.online/privacy/</loc></url>
+  <url><loc>https://beincasinos.online/responsible-gambling/</loc></url>
+  <url><loc>https://beincasinos.online/contact/</loc></url>
 </urlset>
