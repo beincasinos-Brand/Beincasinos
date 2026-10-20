@@ -529,8 +529,6 @@ if not errors:
     print("\nPASS: no structural errors detected by this source-level checker.")
     print("Reminder: this does not test rendering, accessibility, external links, legal compliance, or production behaviour.")
 sys.exit(1 if errors else 0)
-, netlify_source, re.M):
-        errors.append('netlify.toml: static publish directory must remain "." for this root-based site')
 
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
