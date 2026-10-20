@@ -13,7 +13,7 @@ Build a useful, trusted casino-brand directory and educational resource. The ini
 
 ## Phase 0 — pre-launch name and business clearance
 1. Resolve brand-name clearance, especially the “BEIN” element; consider an alternative name if qualified advice suggests material risk. The reported domain purchase does not remove this blocker.
-2. The intended research markets are AU, US, FR, DE, CH, GB, and NL; select the first market for actual launch. “International” is not a legal market approval.
+2. The intended research markets are AU, US, FR, DE, CH, GB, and NL; select the first market for actual launch. “International” is not a legal market approval. AU and FR require particular care: do not market offshore online-casino offers as locally legal or available.
 3. Decide the publisher identity and monitored business contact.
 4. Choose a host whose terms permit the intended commercial directory and affiliate business.
 
