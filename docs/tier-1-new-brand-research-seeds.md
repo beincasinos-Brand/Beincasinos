@@ -119,3 +119,22 @@ The following names appeared in a third-party GB launch tracker updated in Octob
 | BigBangBet | Listed as licensed but not yet live; operator shown as InnoBoom Ltd, UKGC account 101150. | Check the current UKGC account record, exact permitted activities and domain status, then verify launch only after a first-party source establishes the website is live. | Unknown; no direct response. |
 
 A recent licence date is not a launch date. A brand that is not live is not yet a live listing prospect. No candidate in this section has evidenced willingness to pay BeInCasinos.
+
+
+## Domain-register cross-check — 20 October 2026
+
+A follow-up pass checked the UKGC domain-name records as well as licence/trading-name pages. The UKGC says its public register data was last updated 25 September 2026 and notes that domain/trading-name entries are supplied by licensees and are not guaranteed by the Commission: https://www.gamblingcommission.gov.uk/public-register/businesses
+
+| Brand | Current primary-source check | What changed / next gate |
+|---|---|---|
+| Bet Ahoy | Licence record shows active remote casino permission from 17 Dec 2025: https://www.gamblingcommission.gov.uk/public-register/business/detail/100094 . Its UKGC domain record lists **www.betahoy.co.uk** as active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100094 . | Legal entity, casino permission and one declared domain align in the register. Still find an attributable launch announcement, inspect the official site's terms/operator identity, and find an official commercial contact before outreach. |
+| Stakewise | UKGC licence record shows active remote casino permission from 13 Apr 2026: https://www.gamblingcommission.gov.uk/public-register/business/detail/100802 . Trading-name record lists “stakewise” as active: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/100802 . The register search currently returns no matching domain name for Rocbrook Limited. | Do **not** guess a domain from the brand name or use a search-ad/affiliate page as proof. Official domain, dated launch source and commercial contact remain unresolved. |
+| Proper Bet | UKGC licence record shows active remote casino permission from 22 May 2026: https://www.gamblingcommission.gov.uk/public-register/business/detail/100990 . The register search currently returns no matching domain name for Proper Bet Limited. | The permission start date is not proof of a brand launch. Official domain, attributable launch source and commercial contact remain unresolved. |
+| BetTOM | UKGC licence record shows active remote casino permission: https://www.gamblingcommission.gov.uk/public-register/business/detail/64959 . The domain record lists **bettom.com** as active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/64959 . The dated UK launch release is linked above. The UKGC regulatory-actions page reports no recorded actions for Bet Tom Limited at the time checked: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/64959 . | Stronger GB identity/domain/permission evidence than a secondary launch listing alone. Still verify current official contact and do not infer any other market's permission or paid-listing interest. |
+
+### Qualification outcome
+
+- **No paid-listing buyer is confirmed.** The register is evidence for GB operator permission and declared identity only; it is not evidence of a brand's marketing budget or willingness to buy a directory listing.
+- Keep Stakewise and Proper Bet on hold until the official domain and consumer-facing operator terms can be reconciled. Do not publish a profile based solely on a trading name and licence record.
+- Keep Bet Ahoy in research until a primary launch source and a relevant official business contact are recorded.
+- For any GB placement, re-check the register immediately before publication/outreach and record the exact date, entity, permission, domain, trading name, and any regulatory action. Do not extrapolate GB permission to AU, US, FR, DE, CH or NL.
