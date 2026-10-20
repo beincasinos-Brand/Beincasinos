@@ -54,7 +54,7 @@ const routes = [
         runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
       }));
       if (axeResults.violations.length) {
-        const summary = axeResults.violations.map(v => v.id + " (" + v.impact + "): " + v.nodes.slice(0, 8).map(n => n.target.join(" ") + " — " + n.failureSummary).join(" || ")).join("; ");
+        const summary = axeResults.violations.map(v => v.id + " (" + v.impact + "): " + v.nodes.slice(0, 40).map(n => n.target.join(" ") + " — " + n.failureSummary).join(" || ")).join("; ");
         throw new Error(route + " axe accessibility violations: " + summary);
       }
       const title = (await page.title()).trim();
