@@ -8,14 +8,14 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - International review-page architecture, SEO guardrails, and market gates: `docs/international-seo-content-architecture.md`.
 - Evidence-gated scoring, eligibility rules, and ranking independence: `docs/editorial-review-scoring-rubric.md`.
 - Current UK and Swiss primary-source prospect audits: `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
-- Held profile dossiers (not public reviews): `docs/brand-profile-casineo-ch-draft.md`, `docs/brand-profile-admiral-ch-draft.md`, `docs/brand-profile-tipico-casino-de-sh-draft.md`, `docs/brand-profile-ember-casino-us-nj-draft.md`, `docs/brand-profile-bettom-gb-draft.md`, `docs/brand-profile-threesix-vegas-gb-draft.md`, and `docs/brand-profile-betsuna-gb-draft.md`, and `docs/brand-profile-betinia-us-nj-draft.md`, and `docs/brand-profile-vegas-club-us-nj-draft.md`, and `docs/brand-profile-winz-nl-draft.md`.
+- Held profile dossiers (not public reviews): `docs/brand-profile-casineo-ch-draft.md`, `docs/brand-profile-admiral-ch-draft.md`, `docs/brand-profile-tipico-casino-de-sh-draft.md`, `docs/brand-profile-ember-casino-us-nj-draft.md`, `docs/brand-profile-bettom-gb-draft.md`, `docs/brand-profile-threesix-vegas-gb-draft.md`, `docs/brand-profile-betsuna-gb-draft.md`, `docs/brand-profile-betinia-us-nj-draft.md`, `docs/brand-profile-vegas-club-us-nj-draft.md`, and `docs/brand-profile-winz-nl-draft.md`.
 - Public operator listing information and commercial-independence policy: `/partners/` (not accepting paid placements yet).
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
 - The owner's top-10 ambition and 100 million daily search-impressions ambition are goals only, not current metrics or guaranteed results.
 
 ## Stack
 - Static HTML, CSS, and vanilla JavaScript
-- No build step or runtime dependencies
+- No runtime dependencies; CI assembles a public-only deployment artifact through an allowlist build
 - Prepared for static hosting once launch blockers and commercial-use terms are cleared
 - Includes a client-side wagering calculator and a terms-review checklist; no user entries are sent to a server
 
@@ -27,7 +27,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
 
 ## Source-level quality check
-Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles or IDs, missing image alt attributes, broken local navigation/resource references, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. The deployment-artifact check also scans the public-only `dist/` text assets for common accidental-secret patterns and obvious placeholders; this lightweight pattern check is not a dedicated secret scanner. These checks are guardrails—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
+Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles or IDs, missing image alt attributes, broken local navigation/resource references, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. The deployment-artifact check also scans the public-only `dist/` text assets for common accidental-secret patterns and obvious placeholders; this lightweight pattern check is not a dedicated secret scanner. GitHub Actions also checks shared JavaScript syntax, builds the public-only artifact, verifies internal-file exclusion, and runs Chromium smoke tests against all 20 indexable routes plus the mobile menu, wagering calculator, and terms checklist. These automated tests are guardrails—not a replacement for manual browser/device testing, accessibility review, checking external links, or legal/privacy review.
 
 ## Launch blockers — domain acquired, do not deploy yet
 The owner has reported completing the `beincasinos.online` purchase through Spaceship. The sitemap now uses that domain, but this does **not** mean the brand name is legally cleared or the site is ready to launch.
