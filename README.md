@@ -35,7 +35,7 @@ Run `python3 scripts/check_site.py` from the repository root. The dependency-fre
 
 ## Target markets and regulatory research
 
-The initial intended audience markets are AU, US, FR, DE, CH, GB, and NL. Each operator must be checked separately against current official sources; a licence in one jurisdiction does not prove permission in another. France and Australia require particular care for online-casino content, while US checks must be state- and product-specific. Use [docs/target-market-regulatory-matrix.md](docs/target-market-regulatory-matrix.md) as an internal research starting point, not as legal advice or publication approval. Keep profiles unpublished when market permission or affiliate/advertising rules are unresolved.
+BeInCasinos targets **Tier 1 audiences only** in AU, US, FR, DE, CH, GB, and NL. Tier 1 is an informal marketing classification, not a legal category. Every operator and product must be reviewed against each market's current official sources; US checks must be state- and product-specific. France and Australia require particular care for online-casino promotions. Use [docs/target-market-regulatory-matrix.md](docs/target-market-regulatory-matrix.md) as an internal source guide and [docs/tier-1-market-strategy.md](docs/tier-1-market-strategy.md) for the Tier-1-only strategy and editorial gates. Neither document is legal advice or publication approval. Keep profiles unpublished when market permission or affiliate/advertising rules are unresolved.
 
 ## Business model and directory strategy
 
