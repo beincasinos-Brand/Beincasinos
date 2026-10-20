@@ -441,11 +441,18 @@ if calculator_path.exists():
     for required_id in ("wager-form", "eligible", "currency", "multiplier", "turnover", "result-summary", "calc-error"):
         if f'id="{required_id}"' not in calculator_source and f"id='{required_id}'" not in calculator_source:
             errors.append(f"tools/wagering-calculator/index.html: required calculator control missing: {required_id}")
-    if "Number.isFinite(result)" not in calculator_source or "event.preventDefault()" not in calculator_source:
-        errors.append("tools/wagering-calculator/index.html: calculation validation or form-submit handling is missing")
-    for required_behavior in ("const showError = () =>", "output.textContent = '—'", "Correct the values marked as invalid to calculate required turnover.", "setAttribute('aria-invalid', String(amountInvalid))", "setAttribute('aria-invalid', String(multiplierInvalid))", "amount.addEventListener('input', calculate)", "multiplier.addEventListener('input', calculate"):
-        if required_behavior not in calculator_source:
-            errors.append(f"tools/wagering-calculator/index.html: invalid-input result reset behavior missing: {required_behavior}")
+    calculator_script_path = ROOT / "tools/wagering-calculator/calculator.js"
+    if not calculator_script_path.exists():
+        errors.append("tools/wagering-calculator/calculator.js: external calculator script is missing")
+    else:
+        calculator_script = calculator_script_path.read_text(encoding="utf-8")
+        if "Number.isFinite(result)" not in calculator_script or "event.preventDefault()" not in calculator_script:
+            errors.append("tools/wagering-calculator/calculator.js: calculation validation or form-submit handling is missing")
+        for required_behavior in ("const showError = () =>", "output.textContent = '—'", "Correct the values marked as invalid to calculate required turnover.", "setAttribute('aria-invalid', String(amountInvalid))", "setAttribute('aria-invalid', String(multiplierInvalid))", "amount.addEventListener('input', calculate)", "multiplier.addEventListener('input', calculate"):
+            if required_behavior not in calculator_script:
+                errors.append(f"tools/wagering-calculator/calculator.js: invalid-input result reset behavior missing: {required_behavior}")
+    if '/tools/wagering-calculator/calculator.js' not in calculator_source:
+        errors.append("tools/wagering-calculator/index.html: external calculator script reference is missing")
 
 checklist_path = ROOT / "tools/terms-checklist/index.html"
 if checklist_path.exists():
@@ -456,9 +463,16 @@ if checklist_path.exists():
     for required_id in ("checked-count", "total-count", "progress-fill", "progress-track", "progress-message", "print-checklist", "reset-checklist"):
         if f'id="{required_id}"' not in checklist_source and f"id='{required_id}'" not in checklist_source:
             errors.append(f"tools/terms-checklist/index.html: required checklist control missing: {required_id}")
-    for required_behavior in ("aria-valuenow", "aria-valuemax", "window.print()", "box.checked = false"):
-        if required_behavior not in checklist_source:
-            errors.append(f"tools/terms-checklist/index.html: expected interaction/accessibility behavior missing: {required_behavior}")
+    checklist_script_path = ROOT / "tools/terms-checklist/checklist.js"
+    if not checklist_script_path.exists():
+        errors.append("tools/terms-checklist/checklist.js: external checklist script is missing")
+    else:
+        checklist_script = checklist_script_path.read_text(encoding="utf-8")
+        for required_behavior in ("aria-valuenow", "aria-valuemax", "window.print()", "box.checked = false"):
+            if required_behavior not in checklist_script:
+                errors.append(f"tools/terms-checklist/checklist.js: expected interaction/accessibility behavior missing: {required_behavior}")
+    if '/tools/terms-checklist/checklist.js' not in checklist_source:
+        errors.append("tools/terms-checklist/index.html: external checklist script reference is missing")
 
 # Guard the shared navigation script against common keyboard/state regressions.
 script_path = ROOT / "script.js"
