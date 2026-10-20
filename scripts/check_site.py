@@ -26,6 +26,7 @@ class PageParser(HTMLParser):
         self.title_depth = 0
         self.title = ""
         self.description = ""
+        self.og_description = ""
         self.h1_depth = 0
         self.h1_count = 0
         self.links = []
@@ -57,6 +58,8 @@ class PageParser(HTMLParser):
                 self.description = a.get("content", "").strip()
             if a.get("name", "").lower() == "viewport":
                 self.has_viewport = bool(a.get("content", "").strip())
+            if a.get("property", "").lower() == "og:description":
+                self.og_description = a.get("content", "").strip()
         if tag == "h1":
             self.h1_count += 1
             self.h1_depth += 1
