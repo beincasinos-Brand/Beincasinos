@@ -24,6 +24,15 @@ The Netherlands has a strict national licensing regime. Every brand/domain must 
 - [ComeOn Group — 888 Netherlands launch announcement (31 July 2025)](https://comeon-group.mynewsdesk.com/pressreleases/888-to-launch-in-netherlands-with-strategic-partnership-between-evoke-and-comeon-group-3397968)
 - [Secondary launch tracker — Netherlands new casino launches](https://www.onlinecasino24.nl/nieuwe-casinos/)
 
+
+## Additional official Ksa evidence — continuation licences (17 September 2026)
+
+The Ksa announced that eight operators received continuation licences for October 2026 through September 2031: TOTO Online B.V. (TOTO and Winnitt), Holland Casino N.V. (Holland Casino Online), Play North Limited (Kansino), FPO Nederland B.V. (FairPlay Casino), Bingoal Nederland B.V. (Bingoal), Hillside (New Media Malta) Plc (bet365), NSUS Malta Limited (GG Poker), and Betent B.V. (Betcity).
+
+Primary source: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+
+This is useful evidence of current regulated-market presence and named legal operators, but it is **not** evidence that these brands launched in 2025–2026 or will buy paid listings. The master tracker includes seven casino-relevant prospects from this announcement; GG Poker is held out of that casino list because its product category differs. For every brand, still match the exact current domain, permit holder, product scope, regulatory history, and commercial contact in the current Ksa records before publication or outreach.
+
 ## Qualification rules
 
 1. Search the Ksa register by **operator, brand, domain, and product**. Save the date checked and a direct record link.
