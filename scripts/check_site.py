@@ -18,6 +18,7 @@ warnings = []
 pages = sorted(p for p in ROOT.rglob("*.html") if not any(part in IGNORE_DIRS for part in p.parts))
 titles = {}
 
+
 class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -25,16 +26,24 @@ class PageParser(HTMLParser):
         self.title = ""
         self.description = ""
         self.h1_depth = 0
-        self.h1_text = []
         self.h1_count = 0
         self.links = []
         self.resources = []
         self.ids = set()
         self.id_counts = {}
         self.images_missing_alt = 0
-        self.hrefs = []
+        self.html_lang = None
+        self.has_viewport = False
+        self.unsafe_new_tab_links = []
+        self.empty_links = []
+        self._link_depth = 0
+        self._link_text = []
+        self._current_link = None
+
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "html":
+            self.html_lang = a.get("lang", "").strip()
         if "id" in a:
             self.ids.add(a["id"])
             self.id_counts[a["id"]] = self.id_counts.get(a["id"], 0) + 1
@@ -42,25 +51,53 @@ class PageParser(HTMLParser):
             self.images_missing_alt += 1
         if tag == "title":
             self.title_depth += 1
-        if tag == "meta" and a.get("name", "").lower() == "description":
-            self.description = a.get("content", "").strip()
+        if tag == "meta":
+            if a.get("name", "").lower() == "description":
+                self.description = a.get("content", "").strip()
+            if a.get("name", "").lower() == "viewport":
+                self.has_viewport = bool(a.get("content", "").strip())
         if tag == "h1":
             self.h1_count += 1
             self.h1_depth += 1
         if tag in ("a", "area") and a.get("href"):
             self.links.append(a["href"].strip())
+            if tag == "a":
+                if a.get("target", "").lower() == "_blank":
+                    rel = {part.lower() for part in a.get("rel", "").split()}
+                    if "noopener" not in rel:
+                        self.unsafe_new_tab_links.append(a.get("href", ""))
+                self._current_link = {"href": a["href"], "has_label": bool(a.get("aria-label", "").strip() or a.get("aria-labelledby", "").strip())}
+                self._link_text = []
+                self._link_depth = 1
+        elif self._link_depth and tag in ("img", "svg", "input"):
+            if tag == "img" and a.get("alt", "").strip():
+                self._link_text.append("image alt")
+            elif a.get("aria-label", "").strip() or a.get("title", "").strip():
+                self._link_text.append("accessible label")
         if tag in ("script", "img", "source", "iframe", "audio", "video") and a.get("src"):
             self.resources.append(a["src"].strip())
         if tag == "link" and a.get("href"):
             self.resources.append(a["href"].strip())
+
     def handle_endtag(self, tag):
         if tag == "title" and self.title_depth:
             self.title_depth -= 1
         if tag == "h1" and self.h1_depth:
             self.h1_depth -= 1
+        if tag == "a" and self._link_depth:
+            text_content = " ".join(" ".join(self._link_text).split())
+            if not text_content and not self._current_link.get("has_label"):
+                self.empty_links.append(self._current_link.get("href", ""))
+            self._link_depth = 0
+            self._current_link = None
+            self._link_text = []
+
     def handle_data(self, data):
         if self.title_depth:
             self.title += data
+        if self._link_depth:
+            self._link_text.append(data)
+
 
 def resolve_local_url(page, raw):
     parsed = urlparse(raw)
@@ -79,6 +116,7 @@ def resolve_local_url(page, raw):
         target = target / "index.html"
     return target.resolve(), parsed.fragment
 
+
 for page in pages:
     rel = page.relative_to(ROOT).as_posix()
     parser = PageParser()
@@ -96,11 +134,19 @@ for page in pages:
         errors.append(f"{rel}: missing meta description")
     if parser.h1_count != 1:
         errors.append(f"{rel}: expected exactly one h1, found {parser.h1_count}")
+    if not parser.html_lang:
+        errors.append(f"{rel}: missing html lang attribute")
+    if not parser.has_viewport:
+        errors.append(f"{rel}: missing responsive viewport meta tag")
     duplicate_ids = sorted(identifier for identifier, count in parser.id_counts.items() if count > 1)
     if duplicate_ids:
         errors.append(f"{rel}: duplicate id attribute(s): " + ", ".join(duplicate_ids))
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
+    for href in parser.unsafe_new_tab_links:
+        errors.append(f"{rel}: target=_blank link missing rel=noopener: {href}")
+    for href in parser.empty_links:
+        errors.append(f"{rel}: link has no text or accessible label: {href}")
     for raw in parser.links + parser.resources:
         target, fragment = resolve_local_url(page, raw)
         if target is None:
