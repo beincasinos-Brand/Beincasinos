@@ -17,9 +17,9 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Check the proposed name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
 - [ ] Assess confusion risk with existing media, sports, gambling, and casino brands. Search results alone are not legal clearance.
 - [ ] If uncertainty remains, obtain qualified trademark/legal advice before public launch or further branding investment. The owner reports that `beincasinos.online` has now been purchased; acquisition is not trademark clearance.
-- [ ] Confirm `beincasinos.online` registration and DNS access in Spaceship; decide whether to proceed with the name only after clearance. Domain purchase is reported by the owner but the registration account has not been independently inspected.
+- [ ] Verify `beincasinos.online` registration, renewal details, and DNS access in Spaceship. The owner reports the purchase is complete; account status has not been independently inspected. Domain purchase is not trademark clearance.
 - [ ] Confirm the publisher/legal business identity and verify a monitored contact email. A purchase notification mentions `beincasinos@gmail.com`, but this alone does not establish a public contact process.
-- [ ] Select the initial target market(s). Do not publish jurisdiction-specific availability or licence claims until the target market is selected and checked.
+- [x] Record intended target markets: AU, US, FR, DE, CH, GB, NL. This is a research scope, not blanket permission to publish or promote casino offers in each market; follow `docs/target-market-regulatory-matrix.md`.
 - [ ] Confirm that the owner accepts the business model: listing fees first after audience evidence; affiliate links later and secondary.
 
 ## Gate 2 — Editorial evidence and brand profiles
@@ -64,8 +64,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Perform real browser tests at mobile and desktop sizes, including keyboard navigation and focus visibility.
 - [ ] Review accessibility manually; automated/source checks are not a full accessibility audit.
 - [ ] Check page performance, image sizing, caching, HTTPS, and browser console/network errors.
-- [ ] Replace all placeholder URLs in sitemap, canonical, social metadata, and site configuration.
-- [ ] Keep `robots.txt` blocking and sitemap placeholders intact until launch gate approval. Do not submit placeholder sitemap URLs.
+- [ ] Add and verify canonical/social metadata on each production page, then test the final URLs on the selected host. The sitemap has been changed to `https://beincasinos.online`; live domain/DNS/HTTPS have not been verified.
+- [x] Keep `robots.txt` blocking until explicit launch approval. Sitemap URLs currently use the intended domain; do not submit the sitemap to Search Console until the live site and canonical host are verified.
 
 ## Gate 6 — Hosting and security
 
@@ -82,7 +82,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 2. Confirm publisher identity, contact, privacy/cookie implementation, editorial policy, and commercial disclosures.
 3. Complete the evidence review for every page/operator claim intended for launch.
 4. Complete browser/mobile/accessibility and technical QA; record release commit and results.
-5. Obtain explicit owner approval to buy the selected domain, if not already purchased.
+5. Verify the owner-reported domain registration and access in Spaceship; do not buy the same domain again.
 6. Obtain explicit owner approval for hosting/plan costs and deployment.
 7. Configure the real domain, HTTPS, canonical/social URLs, and production sitemap.
 8. Recheck the production site while indexing remains blocked.
@@ -112,8 +112,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 ## Current known blockers
 
 - Brand/name clearance has not been established.
-- The domain has not been purchased.
-- The initial target market is not selected.
+- The owner reports the domain was purchased, but registrar account, renewal settings, and DNS are not independently verified.
+- Intended target markets are recorded as AU, US, FR, DE, CH, GB, and NL; market-specific legal and product checks remain outstanding.
 - Publisher identity/contact and production privacy/cookie implementation need confirmation.
 - No production browser QA has been recorded.
 - Production hosting/deployment is not approved.
