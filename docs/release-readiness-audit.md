@@ -77,3 +77,16 @@ This is a source/repository review, not a live production audit. Repository file
 ## Current decision
 
 **BLOCKED.** No external account changes or public launch actions have been made. The next release decision depends on evidence for the name, publisher/contact, host, privacy implementation, market scope, and live QA—not on the number of pages or research leads alone.
+
+
+## Follow-up update — 20 October 2026, 20:44 UTC
+
+This addendum supersedes the older CI commit/run references in the repository-work section above.
+
+- Latest reviewed commit: `ab77110c70c653bb3df02ca0c8cca0fb5819de51` — `docs: add UKGC domain cross-check for new brand leads`.
+- Latest GitHub Actions run: [39494517144](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39494517144) — **completed successfully** on the latest commit.
+- The public deployment-artifact checker includes a lightweight scan of text files in `dist/` for selected secret/token patterns and unresolved placeholder markers. It is a guardrail, not a dedicated secret scanner and not a substitute for manual review.
+- The brand research notes now distinguish a verified GB licence/domain match from a verified launch date and from evidence of willingness to pay. In the current UKGC cross-check, Bet Ahoy has a declared active domain; Stakewise and Proper Bet still lack a matching declared domain in the register search and remain on hold pending official identity/domain evidence.
+- No browser/device QA, live-host test, domain/DNS check, trademark clearance, privacy/legal approval, outreach, deployment, or indexing change has occurred.
+
+**Decision remains BLOCKED.** The successful CI run verifies repository/build checks only. It does not clear any release blocker listed above.
