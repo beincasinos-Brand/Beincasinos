@@ -312,6 +312,10 @@ if vercel_config.exists():
                 errors.append(f"vercel.json: missing or unexpected security header {name}: expected {expected!r}")
     except (OSError, UnicodeError, ValueError) as exc:
         errors.append(f"vercel.json: cannot validate security headers ({exc})")
+        if config.get("buildCommand") != "python3 scripts/build_site.py":
+            errors.append("vercel.json: buildCommand must create the sanitized public-only artifact")
+        if config.get("outputDirectory") != "dist":
+            errors.append('vercel.json: outputDirectory must be the sanitized "dist" artifact')
 else:
     errors.append("vercel.json is missing; review static-host security header configuration")
 
@@ -331,8 +335,10 @@ if netlify_config.exists():
         expected_line = f'{name} = "{value}"'
         if expected_line not in netlify_source:
             errors.append(f"netlify.toml: missing or unexpected security header {name}: expected {value!r}")
-    if 'publish = "."' not in netlify_source:
-        errors.append('netlify.toml: static publish directory must remain "." for this root-based site')
+    if 'publish = "dist"' not in netlify_source:
+        errors.append('netlify.toml: publish directory must be the sanitized "dist" artifact')
+    if 'command = "python3 scripts/build_site.py"' not in netlify_source:
+        errors.append("netlify.toml: build command must create the sanitized public-only artifact")
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
 if prospect_csv.exists():
