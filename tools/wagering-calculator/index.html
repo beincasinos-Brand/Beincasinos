@@ -77,6 +77,9 @@
     summary.textContent = m.toLocaleString('en', {maximumFractionDigits:2}) + '× applied to ' + format(a) + ' means ' + format(result) + ' in qualifying turnover.';
   };
   form.addEventListener('submit', (event) => { event.preventDefault(); calculate(); });
+  // Keep the result in sync with edits so a previously valid figure never remains visible for changed inputs.
+  amount.addEventListener('input', calculate);
+  multiplier.addEventListener('input', calculate);
   currency.addEventListener('change', calculate);
   calculate();
 })();
