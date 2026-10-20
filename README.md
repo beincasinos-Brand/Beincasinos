@@ -71,3 +71,7 @@ No invented ratings, bonus offers, licensing claims, or claims of independent te
 ## Domain and hosting setup
 
 See [the domain and hosting setup runbook](docs/domain-and-hosting-setup.md) for the ordered steps after the owner-reported Spaceship purchase. Do not add trial products, change nameservers, publish DNS records, deploy, or enable indexing until the relevant decision and launch gates are complete.
+
+## Commercial outreach
+
+See [the internal operator outreach playbook](docs/operator-outreach-playbook.md). It is a gated template only; it must not be sent before the stated legal, privacy, audience and owner-approval checks pass.
