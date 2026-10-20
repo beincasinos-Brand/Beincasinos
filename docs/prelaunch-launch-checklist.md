@@ -69,7 +69,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 6 — Hosting and security
 
-- [ ] Select a host and plan that explicitly permits the intended commercial website and affiliate activity.
+- [x] Compare hosting options and document the current recommendation in `docs/hosting-decision.md`. The connected Vercel Hobby team is not suitable for this commercial site; Netlify Free is a candidate pending current terms/acceptable-use review and owner approval.
+- [ ] Owner explicitly selects a host after reviewing current commercial-use terms, acceptable-use policy, plan limits, and any recurring costs. No hosting account has been connected.
 - [ ] If using Vercel, confirm the plan is permitted for commercial use; do not use Hobby for this commercial project.
 - [ ] Review repository visibility, branch protections, GitHub Actions permissions, dependency/update practices, and secret handling.
 - [ ] Never commit API keys, account credentials, private contact data, or production secrets.
