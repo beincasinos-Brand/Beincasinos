@@ -40,6 +40,7 @@
 | Betcrown | 2026 (secondary) | New white-label brand | UKGC account 48789 lists betcrown.co.uk as a White Label domain under active Casino permission; this is not a standalone operator licence | Unknown — no direct confirmation |
 | BetLegend | August 2026 (secondary) | New white-label brand | UKGC account 48789 lists betlegend.co.uk as a White Label domain under active Casino permission; verify current launch date and operator arrangement | Unknown — no direct confirmation |
 | BetNero | May 2025 (secondary) | New white-label brand | UKGC account 48789 lists betnero.co.uk as a White Label domain under active Casino permission; verify current launch date and operator arrangement | Unknown — no direct confirmation |
+| Midnite | Casino permission active from August 2026; public launch date not established | Operator/brand transition lead | UKGC search results show both Dribble Media Limited and Midnite Limited linked to the midnite brand/domain; reconcile current legal responsibility and do not infer launch from licence activity | Unknown — no direct confirmation |
 
 ## Secondary discovery sources (leads only)
 
