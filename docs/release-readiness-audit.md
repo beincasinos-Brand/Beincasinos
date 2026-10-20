@@ -12,6 +12,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Language: English.
 - Monetisation priority: paid listings first after audience evidence; affiliate links later and secondary.
 - No paid hosting purchase, deployment, DNS change, outbound brand outreach, or indexing change has been performed.
+- A read-only Vercel account check showed the connected team is on Hobby with no linked projects. A Netlify static-host configuration is prepared in the repository, but no Netlify account has been connected and no deployment has been made.
 - `robots.txt` continues to block crawling.
 - The sitemap now contains the intended domain rather than the former placeholder. This does not establish that the domain resolves or the sitemap is production-ready.
 
@@ -19,7 +20,7 @@ This is a source/repository review, not a live production audit. Repository file
 
 - Static educational website with homepage, guides, tools, policy pages, contact/about pages, 404 page, robots and sitemap.
 - Wagering calculator and terms checklist tools.
-- Source-level checker for HTML structure, local links, sitemap consistency, pre-launch guards, tracker schemas, and calculator-related safeguards.
+- Source-level checker for HTML structure, local links, sitemap consistency, canonical/Open Graph/Twitter metadata, 404 noindex, static-host security headers, pre-launch guards, tracker schemas, and calculator-related safeguards.
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
 - GitHub Actions passed on the latest checked commit `69fb45d399edb8b3c8c2c7b357a574096be58ca7` (run 39487750220). This is a source-level check, not live-browser or production verification.
