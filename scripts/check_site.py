@@ -176,8 +176,10 @@ for title, paths in titles.items():
         errors.append(f"duplicate title {title!r}: " + ", ".join(paths))
 
 robots = ROOT / "robots.txt"
-if robots.exists() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
-    warnings.append("robots.txt no longer blocks crawling; confirm launch approval before removing the pre-launch block")
+if not robots.exists():
+    errors.append("robots.txt is missing; keep the pre-launch crawl block until launch approval")
+elif "Disallow: /" not in robots.read_text(encoding="utf-8"):
+    errors.append("robots.txt no longer blocks crawling; update this guard only as part of an explicitly approved launch")
 sitemap = ROOT / "sitemap.xml"
 if sitemap.exists() and re.search(r"YOUR-DOMAIN|example\.com|\.example", sitemap.read_text(encoding="utf-8"), re.I):
     warnings.append("sitemap.xml contains a domain placeholder; replace after the production domain is chosen")
