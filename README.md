@@ -33,5 +33,27 @@ Run `python3 scripts/check_site.py` from the repository root. The dependency-fre
 - Tools run in the browser only. The shared stylesheet uses system fonts and makes no third-party font request. Do not add analytics, cookies, affiliate tracking, remote fonts, or third-party scripts without updating the privacy notice and checking applicable consent requirements.
 - The terms checklist is a personal review aid, not legal advice or a substitute for regulator records or the operator’s full terms.
 
+## Business model and directory strategy
+
+The intended commercial sequence is **audience first, paid listings second, affiliate revenue later**. Do not present listing fees as available or charge brands until the site has measurable traffic and a documented media kit. The initial research target is 100 casino brands, but a brand is not publishable merely because its name is on a prospect list.
+
+### Staged plan
+1. **Before domain purchase:** resolve the BEIN trademark/name risk and choose the initial target market(s). Do not buy a domain until the name is cleared.
+2. **Build the 100-brand prospect list:** record the brand, exact operating/legal entity, official website, regulator/register evidence, permitted territories, source URLs, date checked, contact route, and research status. Unknown fields stay marked unknown; never infer licence status.
+3. **Publish verified profiles only:** each profile needs unique useful content, market-specific caveats, clear update dates, official source links, and an editorial review. Avoid 100 thin or near-duplicate pages. Keep unverified prospects out of the public sitemap.
+4. **First six months:** focus on genuinely useful guides, tools, technical SEO, indexation, and audience measurement. No promise of traffic or revenue; use the first six months as a review period, not a guarantee.
+5. **Paid listings after evidence of audience:** prepare a transparent media kit from real Search Console/analytics data. Clearly label paid placements as sponsored/paid listings; payment must not buy a licence claim, safety verdict, editorial rating, or undisclosed ranking advantage.
+6. **Affiliate links later and secondary:** only add after the listing model and disclosure workflow are ready. Verify each affiliate program's rules, allowed markets, tracking, and legal requirements. Clearly disclose affiliate links near them and update the privacy notice for any tracking.
+
+### Minimum profile review fields
+- Brand name and official domain checked against the brand's own site.
+- Legal operating entity and regulator record independently checked where applicable.
+- Exact jurisdiction/product scope and whether the audience market is permitted.
+- Terms/withdrawal/complaints information and official source links.
+- Last checked date, reviewer, evidence notes, unresolved questions.
+- Commercial relationship: none / paid listing / affiliate / both, disclosed on the profile.
+
+See docs/listing-fee-business-model.md and docs/brand-research-template.csv for the working plan and tracker schema.
+
 ## Content policy
 No invented ratings, bonus offers, licensing claims, or claims of independent testing. Any future commercial recommendation must be verified, dated, market-specific, and clearly disclosed.
