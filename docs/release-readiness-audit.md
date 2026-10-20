@@ -22,12 +22,12 @@ This is a source/repository review, not a live production audit. Repository file
 - Source-level checker for HTML structure, local links, sitemap consistency, pre-launch guards, tracker schemas, and calculator-related safeguards.
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
-- GitHub Actions passed on earlier commits including the sitemap and research updates. The latest README correction needs its own completed CI result before release.
+- GitHub Actions passed on earlier commits including the sitemap and research updates. The latest metadata/checker changes need a completed successful CI result before release.
 
 ## Release blockers — all must be evidenced, not assumed
 
 ### 1. Name and identity
-- Obtain a proper trademark/name review for the “BEIN” element in intended markets, including WIPO and Morocco's OMPIC; get qualified advice if risk remains.
+- Obtain a proper trademark/name review for the “BEIN” element in intended markets, including the [WIPO Global Brand Database](https://www.wipo.int/en/web/global-brand-database/index) and Morocco's [OMPIC](https://www.ompic.ma/fr); get qualified advice if risk remains. WIPO notes that its database coverage depends on participating offices and recommends checking national/regional registers too.
 - Decide whether to keep the brand/domain or change course after that review.
 - Confirm publisher/legal identity and a monitored business contact. Do not assume an address mentioned on a purchase receipt is monitored or approved for public display.
 
@@ -50,7 +50,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Do not add tracking/analytics or third-party forms without reviewing consent and privacy requirements.
 
 ### 5. Technical readiness
-- Add and verify canonical and social metadata per page using the chosen production origin.
+- Canonical, Open Graph URL/title/description, and Twitter summary metadata have now been added to all 18 public HTML pages using the intended origin. CI is being extended to enforce canonical/og:url consistency; the live host, redirects, and actual social-card rendering still need production checks.
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
 - CI source checks are useful but are not browser QA or a full accessibility audit.
