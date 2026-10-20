@@ -32,7 +32,7 @@ This is a source/repository review, not a live production audit. Repository file
 
 ### 1. Name and identity
 - Obtain a proper trademark/name review for the “BEIN” element in intended markets, including the [WIPO Global Brand Database](https://www.wipo.int/en/web/global-brand-database/index) and Morocco's [OMPIC](https://www.ompic.ma/fr); get qualified advice if risk remains. WIPO notes that its database coverage depends on participating offices and recommends checking national/regional registers too.
-- Decide whether to keep the brand/domain or change course after that review.
+- Owner decision: retain BeInCasinos for now. The trademark/name review remains a release blocker; revisit the decision if qualified review identifies unacceptable risk.
 - Confirm publisher/legal identity and a monitored business contact. Do not assume an address mentioned on a purchase receipt is monitored or approved for public display.
 
 ### 2. Market/legal/product scope
