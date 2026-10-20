@@ -94,3 +94,8 @@ Some iGaming media directories publicly offer paid company listings and describe
 ## Review gate
 
 Before any paid offer is sent: clear the BeInCasinos name/trademark risk; identify the publisher; choose permitted hosting; complete privacy and outreach review; build a genuine media kit from measured data; publish enough independently reviewed content to demonstrate value; and get market-specific legal/compliance review for the placement. This document is an operating framework, not legal advice.
+
+
+## Current new-brand discovery queue
+
+A separate, explicitly unverified candidate queue is maintained in [tier-1-new-brand-research-seeds.md](tier-1-new-brand-research-seeds.md). It is based on secondary discovery sources only. Treat launch dates and operator associations as leads to independently confirm, not as primary-source evidence. No candidate is described as willing to pay without direct confirmation.
