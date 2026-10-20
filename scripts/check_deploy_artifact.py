@@ -21,6 +21,8 @@ else:
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
+    if not (DIST / "reviews" / "index.html").is_file():
+        errors.append("dist/: public Reviews hub is missing")
 
     sitemap = DIST / "sitemap.xml"
     if sitemap.is_file():
@@ -30,6 +32,8 @@ else:
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
             if len(urls) != 19:
                 errors.append(f"dist/sitemap.xml: expected 19 URLs, found {len(urls)}")
+            if "https://beincasinos.online/reviews/" not in urls:
+                errors.append("dist/sitemap.xml: Reviews hub is missing from the canonical URL list")
             for url in urls:
                 parsed = urlparse(url)
                 if parsed.scheme != "https" or parsed.netloc.casefold() != "beincasinos.online":
