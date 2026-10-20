@@ -17,6 +17,7 @@ const routes = [
   try {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
     page.on("pageerror", error => errors.push(error.message));
+    page.on("console", message => { if (message.type() === "error") errors.push("console: " + message.text()); });
 
     for (const route of routes) {
       const response = await page.goto(baseURL + route, { waitUntil: "domcontentloaded" });
