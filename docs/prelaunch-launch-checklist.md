@@ -47,7 +47,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 4 — Privacy, cookies, and user safety
 
-- [ ] Review the privacy notice against the actual deployment, forms, analytics, logs, hosting, and third-party services.
+- [ ] Review the privacy notice against the actual deployment, forms, analytics, logs, hosting, and third-party services. Follow `docs/privacy-and-data-handling-review.md`, including assessment of Moroccan CNDP Law 09-08 notification/authorisation and cross-border-transfer requirements before relevant processing begins.
 - [ ] Do not claim “no tracking” or “no data collected” without verifying the deployed implementation and providers.
 - [ ] If non-essential analytics/advertising cookies or similar technologies are used, implement the consent/notice controls required for the target jurisdictions before enabling them.
 - [ ] Provide a monitored contact/correction route and a process to handle privacy requests.
@@ -116,7 +116,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - Brand/name clearance has not been established.
 - The owner reports the domain was purchased, but registrar account, renewal settings, and DNS are not independently verified.
 - Intended target markets are recorded as AU, US, FR, DE, CH, GB, and NL; market-specific legal and product checks remain outstanding.
-- Publisher identity/contact and production privacy/cookie implementation need confirmation.
+- Publisher display identity is specified as Anass Amir and temporary contact as `beincasinos@gmail.com`; mailbox access/monitoring and any additional legal publisher disclosure remain unverified.
+- Production privacy/cookie implementation and applicable Moroccan CNDP formalities remain open; see `docs/privacy-and-data-handling-review.md`.
 - No production browser QA has been recorded.
 - Production hosting/deployment is not approved.
 - Robots blocking must remain in place until the final indexing approval.
