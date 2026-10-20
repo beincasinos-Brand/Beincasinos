@@ -53,7 +53,7 @@ The intended commercial sequence is **audience first, paid listings second, affi
 - Last checked date, reviewer, evidence notes, unresolved questions.
 - Commercial relationship: none / paid listing / affiliate / both, disclosed on the profile.
 
-See docs/listing-fee-business-model.md for the commercial plan, docs/brand-prospect-list.md for the initial 100-name research queue, and docs/brand-research-template.csv for the row-by-row tracker. The prospect list is not a recommendation or licensing verification.
+See docs/listing-fee-business-model.md for the commercial plan, docs/brand-prospect-list.md for the initial 100-name research queue, and docs/brand-research-template.csv for the row-by-row tracker. The prospect list is not a recommendation or licensing verification. Use docs/brand-profile-template.md before publishing any profile and docs/paid-listing-media-kit-template.md only after real audience data exists.
 
 ## Content policy
 No invented ratings, bonus offers, licensing claims, or claims of independent testing. Any future commercial recommendation must be verified, dated, market-specific, and clearly disclosed.
