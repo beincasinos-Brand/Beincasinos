@@ -1,4 +1,5 @@
 const { chromium } = require("playwright");
+const axeSource = require.resolve("axe-core");
 
 const baseURL = process.env.BASE_URL || "http://127.0.0.1:4173";
 const routes = [
@@ -48,6 +49,14 @@ const routes = [
         return issues;
       });
       if (accessibilityIssues.length) throw new Error(route + " accessibility smoke checks: " + accessibilityIssues.join("; "));
+      await page.addScriptTag({ path: axeSource });
+      const axeResults = await page.evaluate(async () => window.axe.run(document, {
+        runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
+      }));
+      if (axeResults.violations.length) {
+        const summary = axeResults.violations.map(v => v.id + " (" + v.impact + "): " + v.nodes.length + " element(s)").join("; ");
+        throw new Error(route + " axe accessibility violations: " + summary);
+      }
       const title = (await page.title()).trim();
       const h1 = (await page.locator("h1").first().textContent().catch(() => "") || "").trim();
       if (!title) throw new Error(route + " has no document title");
@@ -116,7 +125,7 @@ const routes = [
     }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
   } finally {
     await browser.close();
   }
