@@ -16,9 +16,9 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 - [ ] Check the proposed name against relevant trademark databases, including WIPO Global Brand Database and Morocco's OMPIC; check relevant markets too.
 - [ ] Assess confusion risk with existing media, sports, gambling, and casino brands. Search results alone are not legal clearance.
-- [ ] If uncertainty remains, obtain qualified trademark/legal advice before buying the domain or investing in branding.
-- [ ] Decide the final brand and domain only after name clearance. `beincasinos.online` is a candidate, not a purchased or approved domain.
-- [ ] Confirm the publisher/legal business identity and a monitored contact email.
+- [ ] If uncertainty remains, obtain qualified trademark/legal advice before public launch or further branding investment. The owner reports that `beincasinos.online` has now been purchased; acquisition is not trademark clearance.
+- [ ] Confirm `beincasinos.online` registration and DNS access in Spaceship; decide whether to proceed with the name only after clearance. Domain purchase is reported by the owner but the registration account has not been independently inspected.
+- [ ] Confirm the publisher/legal business identity and verify a monitored contact email. A purchase notification mentions `beincasinos@gmail.com`, but this alone does not establish a public contact process.
 - [ ] Select the initial target market(s). Do not publish jurisdiction-specific availability or licence claims until the target market is selected and checked.
 - [ ] Confirm that the owner accepts the business model: listing fees first after audience evidence; affiliate links later and secondary.
 
