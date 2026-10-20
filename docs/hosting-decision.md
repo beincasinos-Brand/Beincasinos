@@ -18,9 +18,10 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 
 ## Prepared repository state
 
-- `netlify.toml` now defines the root static publish directory and a set of baseline security headers.
+- `netlify.toml` now runs `python3 scripts/build_site.py`, publishes only `dist/`, and defines baseline security headers.
 - `vercel.json` remains in place as an alternative-host configuration.
-- The source checker validates the expected security headers in both configurations.
+- The source checker validates the expected security headers and requires both provider configurations to publish only `dist/`.
+- CI successfully built the public-only artifact and checked it for leaks on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39488962203.
 - Neither configuration changes DNS, creates a hosting account, deploys the website, enables indexing, or verifies that the production domain resolves.
 
 ## Go/no-go checklist before a provider decision
