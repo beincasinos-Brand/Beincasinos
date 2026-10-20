@@ -87,3 +87,15 @@ The register evidence below verifies GB licence details for the named legal enti
 ### Current research conclusion
 
 At this point, the queue contains a mix of (a) secondary-only launch leads, (b) primary-source launch plus regulator corroboration, and (c) regulator-backed entities whose launch date remains unverified. These categories must not be merged into a single “verified 2022–2026 launch” claim. No candidate is a confirmed buyer, and no market outside GB is cleared by these checks.
+
+
+## Further leads to investigate — checked 20 October 2026
+
+These are additional research leads only. The evidence is not sufficient to promote them into the verified 2022–2026 list or the 100-brand sales-qualified pipeline.
+
+| Brand | Evidence found | Follow-up required | Commercial status |
+|---|---|---|---|
+| BetNero | The brand's own About page claims a UK launch in 2024 and names Anakatech Interactive Limited; its terms page identifies UKGC account 48789 and lists an affiliate contact. Sources: https://betnero-casino.uk/about-us/ ; https://betnero-casino.uk/terms-conditions/ . | **Domain/identity conflict:** search results also surface beetnero.com and betnero.co.uk variants. Verify the exact official domain and its current listing on the UKGC domain register for account 48789 before treating the launch claim as established. The affiliate contact is a partnership signal only, not proof of paid-listing budget. | Unknown — no direct confirmation. |
+| ThreeSix Vegas | UKGC trading-name register lists “threesix vegas” as active under 36Gaming Limited (account 66806): https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66806 . A secondary launch tracker reports a May 2025 launch. | Find the official domain and terms, verify domain against the UKGC domain register, and capture a dated first-party launch source. Do not use the trading-name entry as proof of a specific launch date. | Unknown — no direct confirmation. |
+
+No candidate in this section has agreed to pay BeInCasinos. Do not assign a paid-listing fit score until the underlying identity, current market scope, and a documented commercial rationale have been reviewed. A score describes our research prioritisation, not the brand's willingness to buy.
