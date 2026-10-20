@@ -12,7 +12,7 @@ An English-language educational resource for understanding online casino terms, 
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
 
 ## Source-level quality check
-Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles, broken local links, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. It is a guardrail—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
+Run `python3 scripts/check_site.py` from the repository root. The dependency-free checker scans HTML pages for missing titles/descriptions, unexpected H1 counts, duplicate page titles or IDs, missing image alt attributes, broken local navigation/resource references, and known launch placeholders. GitHub Actions runs this check on pushes and pull requests to `main`. It is a guardrail—not a replacement for browser testing, accessibility review, checking external links, or legal/privacy review.
 
 ## Launch blockers — do not deploy yet
 1. Complete a trademark/brand-clearance review in intended target markets, including similar names and possible confusion with established brands, before committing to the name or buying the domain.
@@ -30,7 +30,7 @@ Run `python3 scripts/check_site.py` from the repository root. The dependency-fre
 
 ## Quality checks
 - Check every new page for a unique title/description, one clear H1, mobile layout, keyboard operation, and working internal links.
-- Tools run in the browser only. Do not add analytics, cookies, affiliate tracking, or third-party scripts without updating the privacy notice and checking applicable consent requirements.
+- Tools run in the browser only. The shared stylesheet uses system fonts and makes no third-party font request. Do not add analytics, cookies, affiliate tracking, remote fonts, or third-party scripts without updating the privacy notice and checking applicable consent requirements.
 - The terms checklist is a personal review aid, not legal advice or a substitute for regulator records or the operator’s full terms.
 
 ## Content policy
