@@ -27,6 +27,8 @@ const routes = [
       const h1 = (await page.locator("h1").first().textContent().catch(() => "") || "").trim();
       if (!title) throw new Error(route + " has no document title");
       if (!h1) throw new Error(route + " has no visible H1");
+      const mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+      if (mobileOverflow > 1) throw new Error(route + " has horizontal overflow at mobile width (" + mobileOverflow + "px)");
       const description = await page.locator('meta[name="description"]').getAttribute("content");
       const ogDescription = await page.locator('meta[property="og:description"]').getAttribute("content");
       if (description && description !== ogDescription) {
@@ -43,6 +45,12 @@ const routes = [
     await page.keyboard.press("Escape");
     if (await menu.getAttribute("aria-expanded") !== "false") throw new Error("Escape did not close mobile menu");
 
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
+    const desktopOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    if (desktopOverflow > 1) throw new Error("homepage has horizontal overflow at desktop width (" + desktopOverflow + "px)");
+
+    await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(baseURL + "/tools/wagering-calculator/", { waitUntil: "domcontentloaded" });
     await page.locator("#eligible").fill("100");
     await page.locator("#multiplier").fill("35");
@@ -50,9 +58,19 @@ const routes = [
     if (!(await page.locator("#turnover").textContent()).includes("3,500.00")) {
       throw new Error("wagering calculator did not calculate 100 × 35");
     }
+    await page.locator("#eligible").fill("0");
+    if (!(await page.locator("#turnover").textContent()).includes("0.00")) throw new Error("wagering calculator did not accept zero amount");
     await page.locator("#eligible").fill("-1");
     if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
       throw new Error("wagering calculator did not mark invalid amount");
+    }
+    await page.locator("#eligible").fill("100000001");
+    if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject an amount above its limit");
+    }
+    await page.locator("#eligible").fill("");
+    if (await page.locator("#eligible").getAttribute("aria-invalid") !== "true") {
+      throw new Error("wagering calculator did not reject an empty amount");
     }
 
     await page.goto(baseURL + "/tools/terms-checklist/", { waitUntil: "domcontentloaded" });
@@ -67,7 +85,7 @@ const routes = [
     }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes, mobile navigation, wagering calculator, terms checklist, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes, mobile/desktop overflow checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
   } finally {
     await browser.close();
   }
