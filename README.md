@@ -33,6 +33,10 @@ Run `python3 scripts/check_site.py` from the repository root. The dependency-fre
 - Tools run in the browser only. The shared stylesheet uses system fonts and makes no third-party font request. Do not add analytics, cookies, affiliate tracking, remote fonts, or third-party scripts without updating the privacy notice and checking applicable consent requirements.
 - The terms checklist is a personal review aid, not legal advice or a substitute for regulator records or the operator’s full terms.
 
+## Target markets and regulatory research
+
+The initial intended audience markets are AU, US, FR, DE, CH, GB, and NL. Each operator must be checked separately against current official sources; a licence in one jurisdiction does not prove permission in another. France and Australia require particular care for online-casino content, while US checks must be state- and product-specific. Use [docs/target-market-regulatory-matrix.md](docs/target-market-regulatory-matrix.md) as an internal research starting point, not as legal advice or publication approval. Keep profiles unpublished when market permission or affiliate/advertising rules are unresolved.
+
 ## Business model and directory strategy
 
 The intended commercial sequence is **audience first, paid listings second, affiliate revenue later**. Do not present listing fees as available or charge brands until the site has measurable traffic and a documented media kit. The initial research target is 100 casino brands, but a brand is not publishable merely because its name is on a prospect list.
