@@ -801,6 +801,7 @@ for required_doc in (
     "docs/brand-profile-threesix-vegas-gb-draft.md",
     "docs/brand-profile-betsuna-gb-draft.md",
     "docs/brand-profile-betinia-us-nj-draft.md",
+    "docs/brand-profile-vegas-club-us-nj-draft.md",
 ):
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
