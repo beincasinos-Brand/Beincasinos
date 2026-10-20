@@ -22,7 +22,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Source-level checker for HTML structure, local links, sitemap consistency, pre-launch guards, tracker schemas, and calculator-related safeguards.
 - Internal docs for target markets, brand qualification, sales pipeline, listing-fee model, operator outreach, hosting, and launch checklist.
 - A research queue with leads; this is not a verified list of 100 eligible brands and not a list of confirmed buyers.
-- GitHub Actions passed on earlier commits including the sitemap and research updates. The latest metadata/checker changes need a completed successful CI result before release.
+- GitHub Actions passed on the latest checked commit `69fb45d399edb8b3c8c2c7b357a574096be58ca7` (run 39487750220). This is a source-level check, not live-browser or production verification.
 
 ## Release blockers — all must be evidenced, not assumed
 
@@ -50,7 +50,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Do not add tracking/analytics or third-party forms without reviewing consent and privacy requirements.
 
 ### 5. Technical readiness
-- Canonical, Open Graph URL/title/description, and Twitter summary metadata have now been added to all 18 public HTML pages using the intended origin. CI is being extended to enforce canonical/og:url consistency; the live host, redirects, and actual social-card rendering still need production checks.
+- Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 18 public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
 - CI source checks are useful but are not browser QA or a full accessibility audit.
