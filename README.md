@@ -109,6 +109,7 @@ These are research notes and candidate queues, not public listings, legal advice
 
 - [Tier 1 master prospect tracker (CSV)](docs/tier-1-master-prospect-tracker.csv) — consolidated first batch with market/product scope, evidence grade, exact next actions, and explicit publication holds. It is not yet a 100-qualified-brand list; unresolved fields are intentionally marked VERIFY/Unknown.
 - [Megaways Casino — internal GB profile dossier](docs/brand-profile-megaways-casino-gb-draft.md) — official 2026 relaunch announcement and UKGC domain match recorded; terms, withdrawals, complaints and safer-gambling review remain incomplete, so no score or public profile is approved.
+- [BestOdds — internal GB profile dossier](docs/brand-profile-bestodds-gb-draft.md), [Stakewise — internal GB profile dossier](docs/brand-profile-stakewise-gb-draft.md), and [44Aces — internal GB profile dossier](docs/brand-profile-44aces-gb-draft.md) — UKGC licence/domain matches documented; terms, withdrawals, complaints, safer-gambling and enforcement reviews remain incomplete, so all stay on Hold.
 
 **Publication gate:** verify the exact domain, legal operator, licence/product scope, target-market permission, regulatory history, and relevant advertising/affiliate rules against current primary sources. Keep commercial willingness-to-pay marked **Unknown** until directly evidenced. Do not copy these internal research notes into the public site or sitemap.
 
