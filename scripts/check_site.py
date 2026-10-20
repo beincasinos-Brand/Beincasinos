@@ -132,6 +132,10 @@ for page in pages:
         titles.setdefault(title.casefold(), []).append(rel)
     if not parser.description:
         errors.append(f"{rel}: missing meta description")
+    elif len(parser.description) < 70 or len(parser.description) > 170:
+        warnings.append(f"{rel}: meta description is {len(parser.description)} characters; review for a concise, useful search snippet (rough guide: 70–170)")
+    if title and (len(title) < 15 or len(title) > 70):
+        warnings.append(f"{rel}: title is {len(title)} characters; review search-result clarity (rough guide: 15–70)")
     if parser.h1_count != 1:
         errors.append(f"{rel}: expected exactly one h1, found {parser.h1_count}")
     if not parser.html_lang:
