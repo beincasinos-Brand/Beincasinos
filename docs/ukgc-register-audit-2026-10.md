@@ -24,9 +24,13 @@ The UKGC's [licence summary](https://www.gamblingcommission.gov.uk/public-regist
 
 **Status:** hold until the contractual brand owner/partner, exact live site, permitted product scope, current domain status, launch date, enforcement history, and official contact route are checked.
 
-### BetTOM — trading name
+### BetTOM — Bet Tom Limited, account 64959
 
-The UKGC's [trading-name record for Bet Tom Limited](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64959) lists `bettom` as Active. This does not alone verify a specific domain or the scope of a consumer-facing offer. Keep the prospect on hold until domain and product permissions match.
+The UKGC [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/64959) lists **Casino Remote — Active** from 20 September 2024. The [domain-name record](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/64959) lists `bettom.com` as Active, and the [trading-name record](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64959) lists `bettom` as Active. A [PRNewswire launch announcement dated 8 July 2025](https://www.prnewswire.com/news-releases/bettom-launches-in-uk-with-everymatrix-partnership-bringing-next-gen-betting-and-casino-experience-to-players-302499957.html) describes a UK launch and platform partnership.
+
+**Evidence update:** exact domain, trading name, and active remote casino permission are matched in the current register. This still does not establish a positive editorial verdict. Full terms, withdrawals, complaints, safer-gambling controls, and current regulatory-action history must be reviewed before scoring or publication.
+
+**Commercial status:** willingness to pay remains **Unconfirmed**; a platform partnership is not a paid-listing signal.
 
 ### Ivy Casino — trading name
 
