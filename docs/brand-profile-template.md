@@ -50,6 +50,22 @@ Link to official complaint routes and relevant support resources for the market.
 ### Important limitations
 State market restrictions and what was not independently verified. Never describe a brand as “safe” or “best” based on a fee or commercial relationship.
 
+## Editorial scoring (only after every eligibility gate passes)
+
+Do not score a profile while identity, market permission, official register evidence, or current terms remain unresolved. Use `docs/editorial-review-scoring-rubric.md` and record an evidence note/source/date for each criterion.
+
+| Criterion | Weight | Score | Evidence note / source |
+|---|---:|---:|---|
+| Terms clarity and fairness | 25 | Not scored | |
+| Payments and withdrawals transparency | 20 | Not scored | |
+| Safer-gambling controls and information | 20 | Not scored | |
+| Complaints and customer-support transparency | 15 | Not scored | |
+| Operator and licence transparency | 10 | Not scored | |
+| Usability and information accessibility | 10 | Not scored | |
+| **Total** | **100** | **Withheld until fully assessed** | |
+
+If any criterion is not assessed, withhold the total. Commercial status must not influence the score or ranking.
+
 ## Required on-page labels
 - Last checked: [date]
 - Market covered: [named jurisdiction]
