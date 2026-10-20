@@ -5,6 +5,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 ## Brand and editorial direction
 - Public brand: BeInCasinos; compact monogram: BIC.
 - Positioning, visual identity, review evidence standard, and growth ambitions: `docs/brand-identity-and-growth-north-star.md`.
+- International review-page architecture, SEO guardrails, and market gates: `docs/international-seo-content-architecture.md`.
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
 - The owner's top-10 ambition and 100 million daily search-impressions ambition are goals only, not current metrics or guaranteed results.
 
