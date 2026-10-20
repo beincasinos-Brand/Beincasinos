@@ -49,28 +49,5 @@
 </main>
 <footer class="site-footer"><div class="wrap footer-top"><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true"><span class="brand-b">B</span><span class="brand-i">I</span><span class="brand-c">C</span></span><span>BeIn<span class="brand-light">Casinos</span><small>Read the details. Decide clearly.</small></span></a><p>Educational information only. Gambling laws vary by location.</p></div><div class="wrap footer-links"><div><b>Explore</b><a href="/guides/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></div><div><b>Standards</b><a href="/editorial-policy/">Editorial policy</a><a href="/affiliate-disclosure/">Affiliate disclosure</a><a href="/responsible-gambling/">Safer gambling</a></div><div><b>Information</b><a href="/privacy/">Privacy</a><a href="/market-research/">Market research</a><a href="/how-we-review/">How we work</a></div></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> BeInCasinos</span><span>18+ where applicable.</span></div></footer>
 <script src="/script.js" defer></script>
-<script>
-(() => {
- const boxes = Array.from(document.querySelectorAll('.check-item input[type="checkbox"]'));
- const count = document.getElementById('checked-count');
- const total = document.getElementById('total-count');
- const fill = document.getElementById('progress-fill');
- const track = document.getElementById('progress-track');
- const message = document.getElementById('progress-message');
- total.textContent = String(boxes.length);
- track.setAttribute('aria-valuemax', String(boxes.length));
- function update() {
-   const checked = boxes.filter(box => box.checked).length;
-   count.textContent = String(checked);
-   fill.style.width = (boxes.length ? checked / boxes.length * 100 : 0) + '%';
-   track.setAttribute('aria-valuenow', String(checked));
-   message.textContent = checked === boxes.length ? 'Checklist complete. Keep the source links and terms for your records.' : checked === 0 ? 'Start by checking the original source for each claim.' : checked >= Math.ceil(boxes.length * .7) ? 'Good progress. Revisit any item you could not verify.' : 'Keep going, and leave any unverified item unchecked.';
- }
- boxes.forEach(box => box.addEventListener('change', update));
- document.getElementById('print-checklist').addEventListener('click', () => window.print());
- document.getElementById('reset-checklist').addEventListener('click', () => { boxes.forEach(box => { box.checked = false; }); update(); });
- update();
-})();
-</script>
-</body>
-</html>
+<script src="/tools/terms-checklist/checklist.js" defer></script>
+</body></html>
