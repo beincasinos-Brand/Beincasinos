@@ -62,8 +62,8 @@ else:
         errors.append("dist/robots.txt: pre-launch crawl block was removed without the release gate")
 
     # Enforce compatibility with the prepared same-origin-only script/style CSP.
-    inline_script = re.compile(r"<script(?![^>]*\\bsrc=)[^>]*>", re.IGNORECASE)
-    inline_style = re.compile(r"<style\\b|\\sstyle\\s*=", re.IGNORECASE)
+    inline_script = re.compile(r"<script(?![^>]*\bsrc=)[^>]*>", re.IGNORECASE)
+    inline_style = re.compile(r"<style\b|\sstyle\s*=", re.IGNORECASE)
     for html_file in DIST.rglob("*.html"):
         try:
             markup = html_file.read_text(encoding="utf-8")
