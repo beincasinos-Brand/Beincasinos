@@ -12,6 +12,14 @@ The UKGC [licence summary](https://www.gamblingcommission.gov.uk/public-register
 
 **Commercial status:** Unknown / willingness to pay **Unconfirmed**. An operator website and contact details are not proof of paid-listing demand.
 
+### Betsuna — ProgressPlay Limited, account 39335
+
+The brand's [22 May 2026 launch announcement](https://www.globenewswire.com/news-release/2026/05/22/3300092/0/en/betsuna-launches-as-new-online-sportsbook-casino-and-bingo-brand-powered-by-progressplay.html) says Betsuna launched in the UK and Ireland and identifies ProgressPlay Limited as operator. The UKGC [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/39335) lists active remote Casino permission. The UKGC [domain record](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39335) lists `betsuna.com` as **White Label**, so the register does not establish independent ownership of that brand/domain.
+
+**Material regulatory risk:** on 21 August 2025, the UKGC announced a **£1 million fine** for ProgressPlay Limited following AML and social-responsibility failings, a warning, and a required third-party audit; the Commission also recorded prior enforcement in 2022. See the [official UKGC enforcement notice](https://www.gamblingcommission.gov.uk/news/article/gbp1m-fine-for-online-operator-progressplay-limited). This must be surfaced in any future evidence record and reviewed for current remediation/status; it cannot be ignored because the brand is new.
+
+**Decision:** enhanced-review hold. No public review or paid listing until the full operator enforcement history, remediation evidence, exact market/product permissions, terms, withdrawals, complaints, and safer-gambling controls are independently checked. Paid-listing willingness remains unconfirmed; the public press contact is a route for future research, not evidence of buyer intent.
+
 ### Bet Ahoy Ltd — account 100094
 
 The UK Gambling Commission's [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/100094) lists active remote Casino, Bingo, and General Betting Standard permissions from 17 December 2025. The register supports the operator's permission scope; it does **not** establish when a particular consumer-facing brand launched, which exact brand domain is live, whether a particular domain is declared, or whether the company would pay for a directory listing.
