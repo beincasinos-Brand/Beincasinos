@@ -49,6 +49,16 @@ This is a discovery queue for the commercial prospecting project, not a recommen
 9. Direct outreach date, reply, and explicit willingness-to-pay status.
 10. BeInCasinos editorial review, risk notes, last checked date, reviewer, and decision.
 
+
+## Official UKGC register spot-check — 20 October 2026
+
+The UKGC register is the primary source for active licensees and trading names. Two entries from the secondary launch tracker were checked against the official register:
+
+- **BetTOM:** the UKGC trading-name page for Bet Tom Limited (account 64959) lists `bettom` as **Active**: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64959. This does not by itself prove a particular casino domain is in scope, confirm a 2025–2026 launch date, or establish commercial interest.
+- **Ivy Casino:** the UKGC trading-name page for Jupiter Gaming Limited (account 67098) lists `ivy casino` as **Inactive**: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/67098. The previous UK lead is therefore excluded from the active prospect queue unless a different exact operator/domain is independently verified.
+
+Use the [UKGC public register](https://www.gamblingcommission.gov.uk/licensees-and-businesses/page/public-register) to check each exact operator, trading name, domain and relevant remote activity. These spot-checks are not a full audit of all 17 leads; the rest remain Grade C / hold until verified. Commercial willingness to pay remains unconfirmed for all leads.
+
 ## Suggested outreach email (send only after verification)
 
 **Subject:** Commercial listing opportunity — BeInCasinos
