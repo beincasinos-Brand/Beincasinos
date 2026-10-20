@@ -42,47 +42,5 @@
 </main>
 <footer class="site-footer"><div class="wrap footer-top"><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true"><span class="brand-b">B</span><span class="brand-i">I</span><span class="brand-c">C</span></span><span>BeIn<span class="brand-light">Casinos</span><small>Read the details. Decide clearly.</small></span></a><p>Educational information only. Gambling laws vary by location.</p></div><div class="wrap footer-links"><div><b>Explore</b><a href="/guides/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></div><div><b>Standards</b><a href="/editorial-policy/">Editorial policy</a><a href="/affiliate-disclosure/">Affiliate disclosure</a><a href="/responsible-gambling/">Safer gambling</a></div><div><b>Information</b><a href="/privacy/">Privacy</a><a href="/market-research/">Market research</a><a href="/how-we-review/">How we work</a></div></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> BeInCasinos</span><span>18+ where applicable.</span></div></footer>
 <script src="/script.js" defer></script>
-<script>
-(() => {
-  const form = document.querySelector('#wager-form');
-  const amount = document.querySelector('#eligible');
-  const multiplier = document.querySelector('#multiplier');
-  const currency = document.querySelector('#currency');
-  const output = document.querySelector('#turnover');
-  const summary = document.querySelector('#result-summary');
-  const error = document.querySelector('#calc-error');
-  const format = (value) => new Intl.NumberFormat('en', {style:'currency',currency:currency.value,minimumFractionDigits:2,maximumFractionDigits:2}).format(value);
-  const showError = () => {
-    error.hidden = false;
-    output.textContent = '—';
-    summary.textContent = 'Correct the values marked as invalid to calculate required turnover.';
-  };
-  const calculate = () => {
-    const a = Number(amount.value), m = Number(multiplier.value);
-    const amountInvalid = amount.value === '' || !Number.isFinite(a) || a < 0 || a > 100000000;
-    const multiplierInvalid = multiplier.value === '' || !Number.isFinite(m) || m < 0 || m > 100000;
-    amount.setAttribute('aria-invalid', String(amountInvalid));
-    multiplier.setAttribute('aria-invalid', String(multiplierInvalid));
-    if (amountInvalid || multiplierInvalid) {
-      showError();
-      return;
-    }
-    const result = a * m;
-    if (!Number.isFinite(result)) {
-      showError();
-      return;
-    }
-    error.hidden = true;
-    output.textContent = format(result);
-    summary.textContent = m.toLocaleString('en', {maximumFractionDigits:2}) + '× applied to ' + format(a) + ' means ' + format(result) + ' in qualifying turnover.';
-  };
-  form.addEventListener('submit', (event) => { event.preventDefault(); calculate(); });
-  // Keep the result in sync with edits so a previously valid figure never remains visible for changed inputs.
-  amount.addEventListener('input', calculate);
-  multiplier.addEventListener('input', calculate);
-  currency.addEventListener('change', calculate);
-  calculate();
-})();
-</script>
-</body>
-</html>
+<script src="/tools/wagering-calculator/calculator.js" defer></script>
+</body></html>
