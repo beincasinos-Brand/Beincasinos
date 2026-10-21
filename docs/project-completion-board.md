@@ -292,3 +292,10 @@
 - Added 13 more 2024–2025 discovery leads to the internal research note and sales tracker: Neptune Play, PricedUp Casino, DragonBet Casino, Bally Casino UK, Rose Casino, O'Reels Casino, BetMaze Casino, Puntit Casino, LuckyMate Casino, Lottoland Casino, Casino Kings, Casiku and Mega Riches Casino.
 - The combined research queue is now approximately **38 candidate entries**, not 100. New entries are `hold` / `not_contacted`, and their legal entity, exact domain, product permission and launch evidence remain unverified unless explicitly stated. Some discovery sources are low-confidence and must be replaced with primary evidence before qualification.
 - No sales outreach or paid partnership was initiated. No willingness-to-pay is known. Continue to keep France and Australia online-casino promotion blocked and evaluate all other markets separately.
+
+
+## Netherlands discovery follow-up — 21 October 2026
+
+- Added VBet, Lucky7 Casino, Betnation and Circus as four additional Netherlands market-entry discovery leads, each recorded `hold` / `not_contacted`.
+- The internal research queue now contains approximately **42 candidate entries**, still short of the target 100. All newly added Dutch candidates require a current Ksa/Kansspelwijzer check for exact permit holder, domain, product scope and status before qualification; historic launch dates do not establish current authorisation.
+- No outreach or public promotion has been initiated. NL remains a separate market-specific review gate.
