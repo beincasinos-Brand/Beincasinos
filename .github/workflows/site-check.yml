@@ -22,6 +22,8 @@ jobs:
           python-version: "3.x"
       - name: Check HTML structure and local links
         run: python3 scripts/check_site.py
+      - name: Validate paid-listing pipeline schema and hard gates
+        run: python3 scripts/check_sales_pipeline.py
       - name: Check shared JavaScript syntax
         run: node --check script.js && node --check scripts/browser_smoke.cjs
       - name: Validate Vercel build and security configuration
