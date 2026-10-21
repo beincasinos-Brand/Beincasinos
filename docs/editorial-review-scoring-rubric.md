@@ -32,7 +32,7 @@ If a gate fails or evidence is missing, label the profile “Not scored — veri
 - Do not claim first-hand play, deposit, withdrawal, customer-service tests, or mystery shopping unless the test was actually performed and documented.
 - If a criterion cannot be assessed, mark it “not assessed” and withhold the total score; do not silently redistribute weights or invent a neutral score.
 - Scores describe the reviewed product and jurisdiction at a stated date, not a universal guarantee of safety, legality, fairness, or future performance.
-- Set a re-review trigger for licence changes, terms changes, domain/operator changes, regulatory action, or credible complaints. Keep a visible “last checked” date.
+- Set a re-review trigger for licence changes, terms changes, domain/operator changes, regulatory action, or credible complaints. Once the publication is operating, schedule a routine evidence refresh at least every 90 days, keep a visible “last checked” date and next-check target, and mark/suspend a profile if a material check is overdue or cannot be re-verified. This cadence is a planned operating commitment, not proof that any current profile is monitored.
 - Do not combine products/markets into one score if legal scope or terms differ materially.
 
 ## Ranking and “top 10” rules
