@@ -32,3 +32,17 @@
 - The site still needs qualified review of the BeInCasinos name/trademark risk, publisher disclosures, Moroccan data-protection requirements and any cross-border transfer formalities, the actual privacy/cookie setup, and each market's advertising/affiliate restrictions.
 - The privacy page remains a pre-launch draft. Manual browser/device/accessibility testing and live-host checks remain NOT RUN.
 - The temporary crawl block stays in place until explicit launch approval.
+
+## Follow-up source check — 21 October 2026
+
+The new public guide `guides/how-to-complain-about-a-casino/index.html` was checked against the following official complaint/reporting pages before adding market-specific links. These routes have different scopes; regulatory reporting must not be described as guaranteed individual dispute resolution.
+
+- Great Britain Gambling Commission, “How to complain”: https://www.gamblingcommission.gov.uk/public-and-players/guide/page/how-to-complain — directs consumers to start with the gambling business and describes possible ADR escalation.
+- Australia ACMA, Interactive gambling complaint form: https://www.acma.gov.au/interactive-gambling-complaint-form — reports potentially prohibited interactive gambling services; not a personal refund guarantee.
+- France ANJ, “Litige avec un opérateur”: https://anj.fr/joueurs/resoudre-un-litige — describes dispute/mediation routes for operators and categories within ANJ's remit; distinguish authorised categories from online casino games, which are not generally authorised in France.
+- Germany GGL, “Verstoß melden / Beschwerden”: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/beschwerden-verstoss-melden/ — reporting portal for suspected violations; explicitly does not handle transaction disputes with gambling providers.
+- Netherlands Ksa contact/reporting: https://kansspelautoriteit.nl/contact/ — official contact and reporting entry point; not a blanket individual-compensation service.
+- Switzerland ESBK/FGB, unauthorised online games: https://www.esbk.admin.ch/en/unauthorised-online-games — official route for checking/reporting unauthorised online offers; not a personal refund promise.
+- United States: the guide avoids suggesting a nationwide online-casino complaint authority and instead directs readers to the relevant state regulator and operator process.
+
+Re-check these official pages immediately before publication and on the maintenance schedule. This is an editorial source check, not legal advice, a guarantee of current jurisdictional access, or launch approval.
