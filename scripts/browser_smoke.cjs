@@ -8,6 +8,10 @@ const routes = [
   "/guides/how-to-compare-casino-review-sites/", "/guides/how-to-complain-about-a-casino/",
   "/guides/how-to-read-casino-terms/", "/guides/online-gambling-self-exclusion/",
   "/guides/what-wagering-requirements-mean/", "/guides/withdrawal-terms/",
+  "/guides/casino-withdrawal-verification-explained/", "/guides/how-to-evaluate-casino-complaint-data/",
+  "/guides/house-edge-explained/", "/guides/probability-vs-rtp/", "/guides/maximum-bet-rules-explained/",
+  "/guides/casino-affiliate-deal-models/", "/guides/random-outcomes-and-gambling/",
+  "/guides/return-to-player-rtp-explained/", "/guides/rtp-vs-volatility/",
   "/how-we-review/", "/market-research/", "/partners/", "/privacy/",
   "/responsible-gambling/", "/reviews/", "/terms/", "/tools/terms-checklist/",
   "/tools/wagering-calculator/"
