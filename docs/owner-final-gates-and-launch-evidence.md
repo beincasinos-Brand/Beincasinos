@@ -16,10 +16,10 @@ For each item, record status (NOT STARTED, IN PROGRESS, PASS, BLOCKED, or NOT AP
 
 ## Gate B — hosting, billing, and deployment authority
 
-- [ ] Review current Vercel commercial plan terms, pricing, usage limits, and expected budget for a commercial directory and affiliate model.
-- [ ] Owner explicitly approves any paid subscription or billing change before it is made.
-- [ ] Link the correct GitHub repository and Vercel team only after confirming whether linking will create preview or production deployments.
-- [ ] Verify build command python3 scripts/build_site.py, output directory dist, and the explicit public-file allowlist.
+- [ ] Use Cloudflare Pages Free as the preferred initial host, subject to review of current plan terms, usage limits, and suitability for the commercial directory and affiliate model.
+- [ ] Owner explicitly approves any paid subscription, billing change, or plan upgrade before it is made; do not change billing as part of deployment preparation.
+- [ ] Connect the GitHub repository to Cloudflare Pages only after confirming whether the action creates a deployment; keep production deployment blocked until the owner has approved that specific action. Vercel remains a fallback, not the current preferred host.
+- [ ] Verify build command `python3 scripts/build_site.py`, output directory `dist`, and the explicit public-file allowlist.
 - [ ] Keep production deployment and indexing blocked until all other gates pass.
 - [ ] Never share API tokens, passwords, recovery codes, private keys, or billing information in chat or repository files.
 
