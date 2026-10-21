@@ -849,6 +849,25 @@ for page in pages:
     if 'href="/terms/"' not in source:
         errors.append(f"{page.relative_to(ROOT).as_posix()}: missing a link to /terms/ on this public page")
 
+# The public Reviews hub must disclose its planned scoring weights and pre-launch state.
+reviews_hub = ROOT / "reviews" / "index.html"
+if reviews_hub.is_file():
+    reviews_source = reviews_hub.read_text(encoding="utf-8")
+    for required_phrase in (
+        "Terms clarity and fairness — 25 points",
+        "Payments and withdrawals transparency — 20 points",
+        "Safer-gambling controls and information — 20 points",
+        "Complaints and customer-support transparency — 15 points",
+        "Operator and licence transparency — 10 points",
+        "Usability and information accessibility — 10 points",
+        "No casino profiles are currently scored or ranked",
+        'href="/how-we-review/"',
+    ):
+        if required_phrase not in reviews_source:
+            errors.append(f"reviews/index.html: missing public methodology disclosure: {required_phrase}")
+else:
+    errors.append("reviews/index.html is missing")
+
 # Keep the BIC monogram consistent across all public pages that use the shared header.
 for page in pages:
     if page.name == "404.html":
