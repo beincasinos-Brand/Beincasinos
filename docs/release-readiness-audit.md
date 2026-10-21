@@ -1,5 +1,10 @@
 # Release readiness audit — 21 October 2026
 
+## Additional UKGC operator research — 21 October 2026
+
+The internal UKGC audit now includes a fourth small research batch for Silkbet, BigBangBet, and the RoyalOl/Speadboom relationship, using official licence, domain and trading-name records where available. The batch identifies material gaps between operator permission and a reviewed live consumer product; all three remain on hold. It does not establish quality, legal suitability outside Great Britain, or commercial demand. No public profiles or outreach are approved. Details: [UKGC register audit](ukgc-register-audit-2026-10.md), commit https://github.com/beincasinos-Brand/BeInCasinos/commit/df92068f0c4e944085fb1c65595a276e4e16f8b9.
+
+
 **Decision: BLOCKED — do not deploy, publish, or enable indexing yet.**
 
 This is a source/repository review, not a live production audit. Repository files and CI runs were inspected and the audit refreshed on 21 October 2026. The domain registration, DNS, hosting account, live browser rendering, and legal position have not been independently verified.
