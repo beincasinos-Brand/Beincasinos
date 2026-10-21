@@ -20,6 +20,27 @@ The current Terms of Service also limit Hobby to personal/non-commercial use, an
 
 **Budget note:** US$20/month is the current listed base subscription reference, not a complete cost forecast or billing approval. Do not upgrade or enable production deployment until the owner reviews usage limits, any additional usage charges, taxes, and account-specific checkout terms.
 
+## Budget-first hosting decision update — 21 October 2026
+
+**Recommendation: do not buy Vercel Pro now. Evaluate Cloudflare Pages Free first for the initial static editorial directory, after preview/manual acceptance.** This changes the preferred launch-host evaluation, not the fact that the owner originally selected Vercel; no provider account or deployment has been changed.
+
+Why this fits the current project:
+- The public site is built as static files by `python3 scripts/build_site.py` into `dist/`; the public artifact is allowlisted. The initial site does not require server-side rendering or a paid backend for its core pages.
+- Cloudflare Pages supports GitHub integration, build commands and custom output directories; its current published Free limits include 500 builds/month, 100 custom domains per project, and 20,000 files. Static asset requests are free and unlimited. Official docs: https://developers.cloudflare.com/pages/configuration/git-integration/ https://developers.cloudflare.com/pages/configuration/build-configuration/ https://developers.cloudflare.com/pages/platform/limits/ https://developers.cloudflare.com/pages/functions/pricing/
+- Proposed configuration to validate in a non-production preview: production branch `main`, build command `python3 scripts/build_site.py`, output directory `dist`. Confirm the build environment includes a compatible Python runtime; if not, build `dist` in GitHub Actions and publish the artifact through a supported Pages deployment workflow.
+- Keep Vercel configuration in the repository for now; it does not itself force deployment. Do not purchase Vercel Pro merely because it is the existing config.
+
+Comparison:
+- **Cloudflare Pages Free — first option to test:** $0 hosting for this static site within published limits; custom domain and TLS supported. Verify the exact domain setup and all security headers/redirects before launch.
+- **Netlify Free — fallback:** currently $0 with 300 credits/month and custom domains/SSL, but production deploys cost 15 credits each and sites can pause at the hard monthly limit. That is less predictable if content is updated often. Official pricing: https://www.netlify.com/pricing/
+- **Vercel Pro — fallback if the project later needs Vercel-specific features:** currently listed at $20/month with included usage credit; overages/taxes and current checkout terms need review. Hobby is not an acceptable workaround for a commercial directory/affiliate business. Official policy: https://vercel.com/docs/limits/fair-use-guidelines and https://vercel.com/pricing
+
+Important caveats:
+- “Free hosting” is not “free business”: domain renewal, email, legal review, content/research, privacy, and payment/partner tools can still cost money.
+- Do not move authoritative DNS nameservers blindly. First add the domain to the chosen provider, inspect the generated DNS records, preserve existing MX/SPF/DKIM/DMARC email records, then change only what is needed. Never delete mail records to make the website work.
+- A preview deployment is not the public launch. Keep indexing blocked until legal/editorial review, manual live acceptance, domain verification, and the separate owner launch approval are complete.
+- No Cloudflare/Netlify account was connected, no project was created, no DNS was changed, and no deployment was performed by this documentation update.
+
 ## Repository configuration
 
 - Repository: beincasinos-Brand/Beincasinos, branch main.
