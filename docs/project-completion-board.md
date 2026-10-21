@@ -212,3 +212,5 @@
 
 
 - Added `docs/paid-placement-order-form-internal-draft.md`, a non-binding internal order-form and contract checklist covering exact deliverables, market eligibility, fee/commission calculations, disclosure, privacy/tracking, editorial independence, pause/removal rights, invoicing and recordkeeping. It is not a live offer or a substitute for counsel-drafted terms. It cannot be used until publisher identity, legal review, audience evidence, market approval, privacy controls and launch approval are complete.
+
+- Opened [Release blocker checklist issue #2](https://github.com/beincasinos-Brand/Beincasinos/issues/2) to track external/owner-only evidence gates separately from code tasks. The issue explicitly keeps production deployment and indexing blocked until the legal, domain, privacy, hosting, and live-QA evidence is recorded.
