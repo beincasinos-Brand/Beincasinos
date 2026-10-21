@@ -152,5 +152,24 @@ class SalesPipelineValidatorTests(unittest.TestCase):
         self.assertIn("1 populated prospect row(s)", result.stdout)
 
 
+    def test_untouched_prospect_requires_entity_market_and_source(self):
+        result = self.run_fixture({
+            "brand_name": "Example", "qualification_status": "hold", "pipeline_stage": "not_contacted",
+        })
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("requires legal_entity", result.stdout)
+        self.assertIn("requires target_market", result.stdout)
+        self.assertIn("requires source_evidence_url", result.stdout)
+
+    def test_untouched_prospect_rejects_non_https_source(self):
+        result = self.run_fixture({
+            "brand_name": "Example", "legal_entity": "Example Ltd", "target_market": "GB",
+            "qualification_status": "hold", "pipeline_stage": "not_contacted",
+            "source_evidence_url": "http://example.com/evidence",
+        })
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("source_evidence_url must be a valid HTTPS URL", result.stdout)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
