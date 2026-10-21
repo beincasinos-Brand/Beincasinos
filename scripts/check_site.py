@@ -16,7 +16,11 @@ ROOT = Path(__file__).resolve().parents[1]
 IGNORE_DIRS = {".git", ".vercel", ".netlify", "dist", "node_modules"}
 errors = []
 warnings = []
-pages = sorted(p for p in ROOT.rglob("*.html") if not any(part in IGNORE_DIRS for part in p.parts))
+pages = sorted(
+    p for p in ROOT.rglob("*.html")
+    if not any(part in IGNORE_DIRS for part in p.parts)
+    and p.name != "google05b7a00eb84d7acb.html"
+)
 titles = {}
 
 
