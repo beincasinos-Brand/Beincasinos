@@ -135,3 +135,8 @@ These are research notes and candidate queues, not public listings, legal advice
 - Publisher display identity supplied by the owner: **Anass Amir**.
 - Temporary contact email selected by the owner: **beincasinos@gmail.com**; mailbox access and monitoring must be tested before public launch.
 - Privacy/data-handling review: [docs/privacy-and-data-handling-review.md](docs/privacy-and-data-handling-review.md). This remains an open release gate, including review of Moroccan CNDP Law 09-08 requirements and any cross-border data-transfer formalities applicable to the actual setup.
+
+
+## Operator qualification scorecard
+
+- [Internal operator qualification scorecard](docs/operator-qualification-scorecard.md) — hard legal/identity/privacy gates, weighted evidence checklist, evidence-record template, decision outcomes, and recheck cadence. Internal only; it does not certify any operator or establish willingness to pay.
