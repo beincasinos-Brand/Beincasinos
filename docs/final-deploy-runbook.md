@@ -29,8 +29,9 @@
 
 - [x] Confirm the intended Cloudflare account and GitHub repository; Pages project `beincasinos` exists and is connected to `beincasinos-Brand/BeIncasinos`, branch `main`.
 - [x] Configure the build command as `python3 scripts/build_site.py` and build output directory as `dist`.
-- [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the current GitHub Actions site-check run passed all checks (run 39635931108).
+- [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the latest repository site-check workflow passed (run 39636460758, commit `2cac7e8c7d41fb5c2a4aa473fe62fb2879595620`). This is a CI result, not proof that the Cloudflare Pages deployment is current.
 - [ ] Keep the preview non-public where possible and keep `robots.txt` blocked. Do not configure a production custom domain or enable public indexing during this gate.
+- [ ] **Deployment freshness discrepancy observed 2026-10-21:** the GitHub `sitemap.xml` contains 32 URLs including `/guides/casino-affiliate-deal-models/`, but the live `https://beincasinos.pages.dev/sitemap.xml` returned 31 URLs and omitted that guide, even with a cache-busting query. The guide itself is live. Check Cloudflare Pages deployment history/branch connection and redeploy the latest `main` commit; re-fetch sitemap and confirm the guide appears before calling preview current. Do not treat GitHub Actions success as a Pages deployment confirmation.
 - [ ] Verify HTTPS, all CSS/JS assets, calculator and checklist under the real response headers, CSP, HSTS and other security headers, canonical URLs, 404 status and mobile layout.
 - [ ] Confirm the deployed output does not expose `docs/`, research CSVs, source scripts, provider configuration or other internal files.
 - [ ] Record preview URL and test evidence internally; do not submit it to Search Console.
