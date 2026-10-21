@@ -214,3 +214,6 @@
 - Added `docs/paid-placement-order-form-internal-draft.md`, a non-binding internal order-form and contract checklist covering exact deliverables, market eligibility, fee/commission calculations, disclosure, privacy/tracking, editorial independence, pause/removal rights, invoicing and recordkeeping. It is not a live offer or a substitute for counsel-drafted terms. It cannot be used until publisher identity, legal review, audience evidence, market approval, privacy controls and launch approval are complete.
 
 - Opened [Release blocker checklist issue #2](https://github.com/beincasinos-Brand/Beincasinos/issues/2) to track external/owner-only evidence gates separately from code tasks. The issue explicitly keeps production deployment and indexing blocked until the legal, domain, privacy, hosting, and live-QA evidence is recorded.
+
+
+- Added `docs/measurement-and-media-kit-plan.md` and linked it from README. It defines a privacy-first measurement sequence, source/date/metric definitions, a truthful media-kit evidence table, and a hard stop against selling inventory before legal, privacy, audience and owner gates are met. This is planning only: it does not enable analytics or assert any traffic figures.
