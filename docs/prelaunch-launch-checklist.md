@@ -71,9 +71,9 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 6 — Hosting and security
 
-- [x] Compare hosting options and document the current recommendation in `docs/hosting-decision.md`. The connected Vercel Hobby team is not suitable for this commercial site; Netlify Free is a candidate pending current terms/acceptable-use review and owner approval.
-- [ ] Owner explicitly selects a host after reviewing current commercial-use terms, acceptable-use policy, plan limits, and any recurring costs. No hosting account has been connected.
-- [ ] If using Vercel, confirm the plan is permitted for commercial use; do not use Hobby for this commercial project.
+- [x] Owner selected Vercel; decision recorded in `docs/hosting-decision.md`.
+- [ ] Review current Vercel Pro pricing, usage limits, and commercial-use terms before any paid upgrade. The connected Hobby team has no linked project and must not host the commercial paid-listing/affiliate business.
+- [ ] Create/link the Vercel project only when ready for a controlled preview; keep production deployment held until the final release gate. No project is connected yet.
 - [ ] Review repository visibility, branch protections, GitHub Actions permissions, dependency/update practices, and secret handling.
 - [ ] Never commit API keys, account credentials, private contact data, or production secrets.
 - [ ] Configure HTTPS, DNS, error handling, backups/version recovery, and security/contact ownership as applicable.
@@ -86,7 +86,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 3. Complete the evidence review for every page/operator claim intended for launch.
 4. Complete browser/mobile/accessibility and technical QA; record release commit and results.
 5. Verify the owner-reported domain registration and access in Spaceship; do not buy the same domain again.
-6. Obtain explicit owner approval for hosting/plan costs and deployment.
+6. Review Vercel plan terms/costs; obtain explicit approval before any paid upgrade or production deployment.
 7. Configure the real domain, HTTPS, canonical/social URLs, and production sitemap.
 8. Recheck the production site while indexing remains blocked.
 9. Obtain explicit owner approval to remove the robots block and enable indexing.
