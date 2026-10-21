@@ -1,6 +1,14 @@
 # BeInCasinos — project completion board
 **Snapshot:** 21 October 2026 (updated after complaint-guide build changes)  
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
+
+
+## Latest public-review methodology update — 21 October 2026
+
+- Published the planned six-category, 100-point scoring weights directly on `/reviews/`, linked the full methodology, and clarified that no casino profiles are currently scored or ranked. Mandatory market/operator/product eligibility remains pass/fail before scoring; missing evidence cannot be converted into invented points.
+- Added a source-level CI guard requiring all six weights, the methodology link, and the explicit pre-launch status to remain visible. The page, guard, public artifact checks, and Chromium browser smoke workflow passed: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588733763, https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588775707, and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588787474.
+- These checks validate source and preview-artifact behaviour only; manual live-host, legal, privacy, and owner launch gates remain open.
+
 **Purpose:** One owner-facing list of work completed, outstanding evidence, and actions that require owner or third-party participation.
 
 
