@@ -37,5 +37,18 @@
     }
   ],
   "buildCommand": "python3 scripts/build_site.py",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.beincasinos.online"
+        }
+      ],
+      "destination": "https://beincasinos.online/:path*",
+      "permanent": true
+    }
+  ]
 }
