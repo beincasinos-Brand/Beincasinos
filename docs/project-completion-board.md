@@ -354,3 +354,11 @@
 - This CI result confirms repository/source and generated-artifact checks only. It does not prove the domain is live, Cloudflare is connected, DNS is correct, legal review is complete, or the site is production-ready.
 - Secrets posted in chat must be revoked and replaced; no token was used by automation. No Cloudflare project, DNS change, public deployment, crawl unblock, Search Console verification, or external operator outreach was performed.
 - Release remains blocked until the owner-only/legal gates in `docs/final-deploy-runbook.md` and GitHub issue #2 are evidenced and a controlled preview passes manual checks.
+
+
+## Follow-up documentation CI — 21 October 2026, 14:15 UTC
+
+- The completion-board evidence update passed the full GitHub Actions `Static site checks` workflow on commit `7f32f57ce34bd08f008d4b04cb4ca2cecd4b4c8a`: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39615185334.
+- The check job completed successfully: HTML/local links, paid-listing pipeline hard gates and regression tests, JS syntax, host configuration, public-only artifact exclusions, Chromium smoke tests, and sanitized artifact creation.
+- The public route sitemap currently contains the site’s educational, methodology, policy, contact and tool pages. It is prepared but must not be submitted to Search Console until launch gates are cleared and the owner authorizes indexing.
+- No live-host/manual acceptance result is implied by CI. Cloudflare project setup, domain/DNS verification, legal/privacy clearance, Search Console verification, production deployment and public indexing remain unconfirmed or blocked.
