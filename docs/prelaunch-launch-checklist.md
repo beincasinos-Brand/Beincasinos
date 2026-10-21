@@ -58,7 +58,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 ## Gate 5 — Technical QA and SEO
 
 - [x] GitHub Actions source checks, public-only build, and deployment-artifact leak checks passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648). Repeat on the final release commit; this is not browser or production QA.
-- [x] Add canonical URL and Open Graph/Twitter summary metadata to all 22 indexable public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
+- [x] Add canonical URL and Open Graph/Twitter summary metadata to all 23 indexable public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
 - [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
 - [ ] Test the wagering calculator with empty, zero, negative, non-numeric, extremely large, and valid inputs.
 - [ ] Test the checklist tool on desktop/mobile, keyboard-only, print/PDF, reset, and progress updates.
@@ -66,7 +66,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Perform manual browser tests at mobile and desktop sizes, including keyboard navigation, focus visibility, print/PDF, and screen-reader review.
 - [ ] Review accessibility manually; automated/source checks are not a full accessibility audit.
 - [ ] Check page performance, image sizing, caching, HTTPS, and browser console/network errors.
-- [x] Add canonical/social metadata to all 22 indexable public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; the latest verified 22-route browser-smoke run is https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39581082370. Live domain/DNS/HTTPS and final host redirects remain unverified.
+- [x] Add canonical/social metadata to all 23 indexable public HTML pages and enforce canonical/`og:url` consistency in CI. The source sitemap uses `https://beincasinos.online`; the latest verified 22-route browser-smoke run is https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39581082370. Live domain/DNS/HTTPS and final host redirects remain unverified.
 - [x] Keep `robots.txt` blocking until explicit launch approval. Sitemap URLs currently use the intended domain; do not submit the sitemap to Search Console until the live site and canonical host are verified.
 
 ## Gate 6 — Hosting and security
