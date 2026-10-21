@@ -18,11 +18,11 @@ Once hosting is chosen, record the provider's exact DNS instructions and add onl
 
 ## 3. Choose hosting for the intended business model
 
-See [hosting decision note](hosting-decision.md) for the current provider comparison. A read-only check found the connected Vercel team is on Hobby with no linked projects; the proposed commercial site must not be deployed there. Netlify Free is a candidate for private preview/staging only; its 300-credit monthly hard limit can pause sites when exhausted. Select the production plan only after a realistic traffic/cost forecast and current commercial acceptable-use review. No provider has been connected or approved for publication.
+See [hosting decision note](hosting-decision.md) for the selected Vercel path. A read-only check found the connected Vercel team is on Hobby with no linked projects. Do not deploy the planned commercial site on Hobby; review current Vercel Pro pricing and commercial acceptable-use terms before any plan change. No Vercel project has been created or connected.
 
-- [ ] Compare static hosting providers whose current terms permit a commercial publisher with paid listings and possible affiliate links.
-- [ ] Compare total recurring cost, bandwidth/build limits, custom-domain TLS, redirects, security headers, support, and ease of rollback.
-- [ ] Do not use Vercel Hobby for the commercial affiliate/listing business; its Hobby plan is for personal, non-commercial use. If using Vercel, review current Pro pricing/terms before approving spend.
+- [x] Provider decision: Vercel is selected.
+- [ ] Review Vercel Pro pricing, usage limits, and commercial acceptable-use terms before approving any subscription or plan upgrade.
+- [ ] Keep Hobby for no commercial deployment; it is restricted to personal/non-commercial use under Vercel's current Fair Use Guidelines.
 - [ ] Do not start a paid subscription or free trial without the owner's explicit choice and awareness of renewal terms.
 - [ ] Keep deployment paused until brand-name risk has been reviewed and the selected plan is approved. The owner has chosen to retain the BeInCasinos name for now; this is not trademark clearance.
 
