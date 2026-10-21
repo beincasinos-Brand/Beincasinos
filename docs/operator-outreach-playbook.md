@@ -10,6 +10,8 @@ Do not imply BeInCasinos already has meaningful reach unless dated analytics/Sea
 
 ## Research before any first message
 
+The public operator-facing evidence checklist is maintained at `/partners/`. Use it to request the exact domain/legal entity, market-specific permission, current player terms, safer-gambling controls, and affiliate/measurement rules. Treat operator-supplied material as a lead for verification, not proof by itself; independently match critical claims to current primary sources. Do not describe the public checklist as an active invitation to buy a listing while commercial intake remains closed.
+
 - [ ] Identify exact brand, official domain, operating legal entity and parent company.
 - [ ] Verify current primary-source regulator status for the exact market and product; for US online casino, check each state separately.
 - [ ] Record an official business contact source and why the recipient's role is relevant.
