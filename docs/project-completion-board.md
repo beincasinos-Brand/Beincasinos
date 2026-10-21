@@ -260,3 +260,11 @@
 - Added regression coverage for case-insensitive duplicate brand names and a valid fully-qualified paid-listing path, alongside the prior negative cases for invalid stage, missing first-contact date, non-HTTPS evidence URL, incomplete contract/payment/review gates, malformed or reversed dates, and a paid listing incorrectly marked with an inapplicable invoice.
 - This is a passing automated source/build/browser-smoke and pipeline-validator run. It does not prove a real partner is licensed, willing to pay, or legally promotable, and does not replace a current final-artifact inspection or manual live-host/device tests.
 - Release remains **BLOCKED**. No Vercel project/paid plan, DNS change, public deployment, Search Console submission, indexing unblock, or partner outreach was performed. Domain/mailbox evidence, name clearance, qualified market/privacy review, commercial hosting approval and explicit owner release approvals remain outstanding.
+
+
+## Public content expansion — review-site business model transparency — 21 October 2026
+
+- Added the public guide `/guides/how-casino-review-sites-make-money/` to explain affiliate CPA, revenue share and hybrid arrangements, fixed-fee listings, sponsorship disclosures, evidence standards, and the distinction between commercial revenue and editorial eligibility. The guide explicitly says BeInCasinos has no scored/ranked casino profiles or active paid placements at this stage and makes no audience-performance claims.
+- Added the guide to the Guides hub and sitemap, and included it in the Chromium/axe browser smoke route inventory so CI tests its HTTP response, metadata, responsive widths, accessible structure and WCAG 2.1 A/AA scan.
+- The page is educational media literacy, not an endorsement or instruction to gamble. It does not add casino offers, operator links, affiliate tracking, forms, or claims of live partnerships.
+- CI for the latest content commit must pass before describing the new route as verified. Live-host testing, legal/privacy review, domain/mailbox verification, commercial hosting approval and owner launch authorization remain separate gates.
