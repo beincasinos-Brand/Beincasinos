@@ -42,8 +42,6 @@ else:
             root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
             ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
-            if len(urls) != 24:
-                errors.append(f"dist/sitemap.xml: expected 24 URLs, found {len(urls)}")
             if len(set(urls)) != len(urls):
                 errors.append("dist/sitemap.xml: duplicate canonical URL entries found")
 
@@ -61,6 +59,8 @@ else:
                 else:
                     route = "/" + rel
                 expected_urls.add("https://beincasinos.online" + route)
+            if len(urls) != len(expected_urls):
+                errors.append(f"dist/sitemap.xml: expected one URL per indexable HTML page ({len(expected_urls)}), found {len(urls)}")
             actual_urls = set(urls)
             for missing in sorted(expected_urls - actual_urls):
                 errors.append(f"dist/sitemap.xml: public HTML route missing from sitemap: {missing}")
