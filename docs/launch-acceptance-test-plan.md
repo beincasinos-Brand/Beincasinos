@@ -24,6 +24,7 @@ Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Ap
 - [ ] Navigation, footer, external links, breadcrumbs and in-page anchors work with mouse, touch and keyboard.
 - [ ] BIC monogram/logo is crisp and legible at favicon, header and compact mobile sizes; full BeInCasinos wordmark remains readable beside it.
 - [ ] Reviews hub explains eligibility gates, evidence standards, scoring weights and commercial independence; it does not imply that unverified operators have been scored or ranked.
+- [ ] The casino-complaint guide's official regulator links are current, open the intended authority, and clearly distinguish reporting suspected unlawful offers from individual dispute resolution or compensation; do not imply any regulator guarantees a refund.
 - [ ] For Operators page clearly states whether partnerships are open, does not imply measured audience performance without evidence, and says paid placement cannot buy a positive score, licence conclusion, or top-10 inclusion.
 - [ ] No clipped text, overlapping controls, broken images, console errors, failed local resources or layout shifts that obstruct use.
 - [ ] Zoom to 200% and reflow at narrow width; content and controls remain available.
