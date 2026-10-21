@@ -232,3 +232,10 @@
 - The latest recorded CI run for main commit `b294cbc210b16600366dd5e513ee774074daebd3` passed: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39593632251. This is source/build/browser-smoke evidence, not production-host or legal clearance.
 - Statuses deliberately remain open or blocked where no verifiable evidence exists. In particular, domain/mailbox access, publisher and trademark review, market-specific legal review, commercial hosting approval, manual acceptance tests, production DNS/deployment, and Search Console indexing are not marked complete.
 - Linked the register from README. Keep private account evidence, tokens, inbox contents, and credentials out of the repository.
+
+
+## Operator qualification controls — 21 October 2026
+
+- Added [`docs/operator-qualification-scorecard.md`](operator-qualification-scorecard.md), an internal qualification standard with hard market/legal gates, evidence-weighted review criteria, an evidence record, explicit hold/reject/pass outcomes, and recheck triggers.
+- The scorecard explicitly prevents numerical scores from overriding licence/legal gates, treats missing evidence as not evidenced, separates commercial fit from editorial judgement, and confirms that prospect leads are neither approved listings nor confirmed buyers.
+- This is a documentation/process improvement. It does not clear any candidate, contact operators, establish commercial demand, or remove launch blockers.
