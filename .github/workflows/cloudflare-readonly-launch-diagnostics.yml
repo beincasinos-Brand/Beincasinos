@@ -106,3 +106,48 @@ jobs:
           if not verify.get("success") or not zones.get("success") or not (zones.get("result") or []):
               raise SystemExit(1)
           PY
+
+      - name: Inspect Pages deployment state without changing it
+        shell: bash
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          EDIT_ZONE_DNS: ${{ secrets.EDIT_ZONE_DNS }}
+        run: |
+          set -euo pipefail
+          TOKEN="${CLOUDFLARE_API_TOKEN:-${EDIT_ZONE_DNS:-}}"
+          export TOKEN
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, os, urllib.request, urllib.error
+          account = "9440004e4a97e4634ba5146c55ceafb2"
+          project = "beincasinos"
+          headers = {"Authorization": "Bearer " + os.environ["TOKEN"], "Accept": "application/json"}
+          base = "https://api.cloudflare.com/client/v4"
+          def get(path):
+              req = urllib.request.Request(base + path, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as response:
+                      body = json.load(response)
+              except urllib.error.HTTPError as exc:
+                  print(f"Cloudflare Pages read returned HTTP {exc.code}; deployment state unavailable.")
+                  return None
+              if not body.get("success"):
+                  print("Cloudflare Pages API returned an unsuccessful response; deployment state unavailable.")
+                  return None
+              return body.get("result")
+          print("## Cloudflare Pages deployment (read-only)")
+          p = get(f"/accounts/{account}/pages/projects/{project}")
+          if p:
+              print(f"- Project: {p.get('name', project)}")
+              print(f"- Production branch: {p.get('production_branch', 'unknown')}")
+              print(f"- Project subdomain: {p.get('subdomain', 'unknown')}")
+              print(f"- Git integration: {'configured' if p.get('source') else 'not reported by API'}")
+          ds = get(f"/accounts/{account}/pages/projects/{project}/deployments?per_page=3")
+          if ds is not None:
+              deployments = ds if isinstance(ds, list) else ds.get('result', []) if isinstance(ds, dict) else []
+              for i, d in enumerate(deployments[:3], 1):
+                  deployment = d.get("deployment_trigger", {}) or {}
+                  metadata = d.get("latest_stage", {}) or {}
+                  print(f"- Deployment {i}: environment={d.get('environment', 'unknown')}; status={metadata.get('status', d.get('status', 'unknown'))}; commit={deployment.get('metadata', {}).get('commit_hash', 'unknown')}; branch={deployment.get('metadata', {}).get('branch', 'unknown')}")
+              if not deployments:
+                  print("- No deployments were returned.")
+          PY
