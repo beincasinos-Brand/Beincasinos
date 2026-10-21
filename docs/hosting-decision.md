@@ -12,6 +12,14 @@ Therefore, **do not deploy the planned commercial BeInCasinos directory to the c
 
 The owner has selected Vercel, so provider choice is no longer open. Plan/billing approval remains a separate consequential step and does not block code, content, SEO, or test preparation.
 
+### Current plan-price reference — checked 21 October 2026
+
+Vercel's official pricing page currently lists Pro at **US$20/month**, with **US$20 of included usage credit**; taxes are excluded and usage beyond included amounts can add charges. Confirm the live checkout and usage controls before purchase because prices, included credits, and terms can change: https://vercel.com/pricing
+
+The current Terms of Service also limit Hobby to personal/non-commercial use, and the Fair Use Guidelines explicitly include affiliate linking as commercial use. References: https://vercel.com/legal/terms and https://vercel.com/docs/limits/fair-use-guidelines
+
+**Budget note:** US$20/month is the current listed base subscription reference, not a complete cost forecast or billing approval. Do not upgrade or enable production deployment until the owner reviews usage limits, any additional usage charges, taxes, and account-specific checkout terms.
+
 ## Repository configuration
 
 - Repository: beincasinos-Brand/Beincasinos, branch main.
