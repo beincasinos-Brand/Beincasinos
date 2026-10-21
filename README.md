@@ -13,6 +13,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Public operator listing information and commercial-independence policy: `/partners/` (not accepting paid placements yet).
 - Owner-facing release gates and evidence record: `docs/owner-final-gates-and-launch-evidence.md`.
 - Fillable launch evidence register (CSV): `docs/launch-evidence-register-template.csv`; keep private account evidence outside the repository.
+- Current launch evidence status (CSV): `docs/launch-evidence-register-current-status-2026-10-21.csv`; records source/CI passes separately from unverified owner, legal, hosting, live-QA, and indexing gates. Do not store credentials or private account evidence here.
 - Primary-source Tier 1 market compliance gate for AU, US, FR, DE, CH, GB and NL: `docs/tier-1-market-compliance-gate-2026-10-21.md` (internal screening only; does not clear any market).
 - Internal fixed-fee, CPA, revenue-share, hybrid, qualification, and outreach playbook: `docs/commercial-partnership-operating-playbook.md`.
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
