@@ -306,3 +306,10 @@
 - Reconciled the initial 13 research leads into `docs/paid-listing-sales-pipeline.csv`; the tracker now contains **42 unique candidate rows**, all `hold` / `not_contacted`. This is a discovery queue, not 42 approved operators or prospective paying customers.
 - Each record has a source URL and an explicit verification task. Unknown legal entities and secondary-source-only launch claims remain marked unverified; Betsuna also carries a caution to review the operator's material regulatory history before editorial consideration.
 - Updated the launch evidence register to the latest previously passing CI checkpoint. The newest source changes still need their own completed CI run before being treated as verified.
+
+## Latest research and content checkpoint — 21 October 2026
+
+- The paid-listing pipeline contains **47 candidate rows** after the latest research commits. All remain `hold` / `not_contacted`; this is a discovery backlog, not 47 approved operators, qualified buyers, or brands willing to pay. No outreach has been sent.
+- The latest two research commits passed the full integrated workflow, including the pipeline validator, public-only artifact exclusion, and Chromium/axe smoke tests: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39599636140 and https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39599621913.
+- Added market-specific official starting points to the public licence-check guide. Its own CI run is pending; do not call that particular content change verified until the new run completes.
+- Release remains **BLOCKED**: no production deployment, DNS change, Search Console submission, or crawl unblock has been performed. Name clearance, legal/privacy review, mailbox/domain evidence, commercial hosting approval, and live-host/manual acceptance remain open.
