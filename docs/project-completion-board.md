@@ -1,3 +1,11 @@
+## Latest verified integrated site QA — 21 October 2026, 13:02 UTC
+
+- The latest source commit `d2132ae6cbeb7a8864edea07e3c18e9b1f65c516` passed the complete GitHub Actions Static site checks workflow: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39604429326.
+- The verified change expands the public guide `/guides/how-casino-review-sites-make-money/` with a side-by-side explanation of fixed listing fees, CPA, revenue share and hybrid agreements, plus clearly labelled hypothetical arithmetic examples. The copy explicitly avoids presenting examples as market rates, earnings forecasts, or endorsements.
+- This is source/build/artifact/browser-smoke verification only. No operator willingness-to-pay, real audience metrics, live-domain state, legal compliance, or production behaviour is established by CI.
+- The 47-row commercial pipeline remains `hold` / `not_contacted`; no outreach has been sent. The Vercel team remains on Hobby with no linked project. No deployment, DNS change, indexing, paid-plan purchase, or public-launch approval has occurred.
+- Release remains **BLOCKED** pending qualified name/trademark review, legal publisher identity and privacy/market review, owner verification of domain/mailbox access, approval of suitable commercial hosting and billing, and live-host/manual acceptance after an authorised preview.
+
 # BeInCasinos — project completion board
 
 ## Latest verified pipeline QA — 21 October 2026, 12:43 UTC
