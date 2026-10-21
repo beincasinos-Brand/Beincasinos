@@ -1,8 +1,16 @@
 # BeInCasinos — project completion board
 
-**Snapshot:** 21 October 2026  
+**Snapshot:** 21 October 2026 (updated after comparison-guide and partnership-research CI)  
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
 **Purpose:** One owner-facing list of work completed, outstanding evidence, and actions that require owner or third-party participation.
+
+## Latest verified update — 21 October 2026
+
+- Added the public guide `/guides/how-to-compare-casino-review-sites/`, linked it from the homepage, guides hub, and review hub, and added it to the sitemap and browser smoke-test route list. The current expected inventory is **22 indexable routes / 23 HTML files including 404**. The guide explains how readers can compare review publishers without implying BeInCasinos has independently tested or audited its competitors.
+- Added the guide's source-backed internal competitor benchmark and updated it with public publisher disclosures/methodology statements. These are publishers' own published claims, not independent audits: Casino.org describes its own review methodology and says it does not accept third-party advertising on its main site; AskGamblers says it charges a listing fee while separating payment from acceptance, review outcome, rating, and placement; Casino.com, Casino Guru, and Gambling.com have their own published methodology/editorial disclosures.
+- Updated the internal paid-listing and outreach frameworks to cover fixed-fee, CPA, revenue-share, hybrid, and sponsored-content models as hypotheses. No rates are validated, no partner has agreed to pay, no outreach has been sent, and the public partnerships page does not accept paid placements.
+- CI for the latest guide, sitemap, review-hub connection, competitor-disclosure research, and outreach-framework changes passed: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39578043732 (latest outreach commit), https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39578006556 (competitor-disclosure research), and https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39577972909 (guide links). Earlier attempts failed before fixes to the social-description metadata and expected sitemap URL count; those failures were superseded by successful runs.
+- These CI results confirm repository/source/build/browser-smoke checks only. They do **not** clear trademark, market-law, privacy, hosting-plan, domain-control, manual accessibility, live-host or launch-approval gates. Public launch and indexing remain blocked.
 
 ## Current verified repository state
 
