@@ -6,6 +6,8 @@ This is a source/repository review, not a live production audit. Repository file
 
 ## Latest integrated source verification — 21 October 2026
 
+- The complaint guide's official regulator links and dated source-review notice passed CI, including Chromium browser smoke tests. The sources distinguish operator complaint procedures, regulatory reports, and dispute-resolution routes rather than implying guaranteed recovery: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585552501, https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585584042, and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585620272. Launch acceptance coverage was expanded in a follow-up commit; that newest run is still pending, so it is not yet recorded as passed.
+
 - The operator evidence checklist on `/partners/` and the aligned outreach-playbook safeguards subsequently passed full CI, including Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583892480 and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583930526. These runs validate source, build/artifact guards, and automated browser checks only; they do not validate the live domain, actual mailbox, legal compliance, audience, or operator demand. Commercial intake remains closed and no outreach has been sent.
 
 - Added `/guides/how-to-complain-about-a-casino/`, linked it from the Guides hub, added it to the sitemap and Chromium route list, and updated the artifact checker and documentation inventory. The integrated full CI run, including Chromium browser smoke tests, passed on commit `c1407a2a68a93d3a3f9ab0e22397f43b20bd4ba3`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583259274.
