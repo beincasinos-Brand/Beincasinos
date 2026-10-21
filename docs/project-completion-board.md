@@ -345,3 +345,12 @@
 - The latest two research commits passed the full integrated workflow, including the pipeline validator, public-only artifact exclusion, and Chromium/axe smoke tests: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39599636140 and https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39599621913.
 - Added market-specific official starting points to the public licence-check guide. Its own CI run is pending; do not call that particular content change verified until the new run completes.
 - Release remains **BLOCKED**: no production deployment, DNS change, Search Console submission, or crawl unblock has been performed. Name clearance, legal/privacy review, mailbox/domain evidence, commercial hosting approval, and live-host/manual acceptance remain open.
+
+
+## Cloudflare runbook alignment — 21 October 2026, 14:13 UTC
+
+- Merged PR #3 (`Docs: align deployment runbook with Cloudflare Pages`) into `main` at `dbc2a759844301075b4fe42595bfa8a2431b0a05`. The runbook now consistently documents Cloudflare Pages Free as the preferred host, the public-only build (`python3 scripts/build_site.py`, output `dist`), and the required legal, privacy, DNS-preservation, preview, public-launch and indexing gates.
+- The post-merge GitHub Actions run passed: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39614845935. The `check` job completed successfully, including local HTML/link checks, paid-listing pipeline validation and regression tests, JavaScript syntax, host configuration validation, public artifact leak checks, and Chromium smoke tests.
+- This CI result confirms repository/source and generated-artifact checks only. It does not prove the domain is live, Cloudflare is connected, DNS is correct, legal review is complete, or the site is production-ready.
+- Secrets posted in chat must be revoked and replaced; no token was used by automation. No Cloudflare project, DNS change, public deployment, crawl unblock, Search Console verification, or external operator outreach was performed.
+- Release remains blocked until the owner-only/legal gates in `docs/final-deploy-runbook.md` and GitHub issue #2 are evidenced and a controlled preview passes manual checks.
