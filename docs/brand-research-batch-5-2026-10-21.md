@@ -1,0 +1,16 @@
+# 100-brand research batch 5 — 21 October 2026
+
+**Status: internal research only. All five candidates remain HOLD.**
+This batch used public homepage URLs only. No account access, gambling activity, geographic bypass or attempts to evade site controls.
+
+| Brand | Direct observation | Decision / required follow-up |
+|---|---|---|
+| Admiral.ch | The homepage resolved to `/en`, presented itself as a Swiss casino, and displayed CHF-denominated promotions including a welcome bonus and an “Instant Payout” claim. No payout was tested and the homepage does not establish the exact operating legal entity. | HOLD. Verify the exact operator against the current ESBK authorised list, current game authorisations, terms/bonus terms, withdrawal rules, complaint route, safer-gambling controls and regulatory history. Attribute payout claims unless independently tested. |
+| Casineo.ch | The homepage resolved to `/en` and displayed a CHF 500/250 free-spins welcome offer, game catalogue and links to responsible-gaming and payment-method pages. The homepage alone does not identify the exact operating legal entity or establish all terms. | HOLD. Match the current consumer domain and legal operator to the ESBK authorised list; review current terms, bonus restrictions, payments/withdrawals, complaints and safer-gambling tools. Swiss evidence must not be reused as permission for other markets. |
+| Winz.nl | The homepage resolved to `www.winz.nl`, presented itself as a Dutch online casino and advertised up to €200 cash bonus or 200 spins. It claimed Ksa licensing and “instant” payouts; those statements were not independently verified by the homepage check. | HOLD — priority regulator-domain check. The existing dossier says Orange Gaming B.V. has a Ksa permit but the exact Winz brand/domain notification remains unresolved. Verify the current Ksa register/permit scope and exact domain association before any Dutch availability or licence claim. Review the full current terms, payment/withdrawal rules, complaints and safer-gambling information. |
+| Betinia NJ | The public-site extraction did not return a usable result in this batch. The existing dossier records a New Jersey DGE authorized-sites entry and a skin agreement; those do not replace a full consumer-terms review. | HOLD. Use current official New Jersey DGE and operator documentation; verify current terms, account/territory restrictions, complaints and safer-gambling controls. Do not infer current site availability from an incomplete extraction. |
+| Ember Casino NJ | The public-site extraction did not return a usable result in this batch. The existing dossier records the NJ DGE authorized-sites listing and an operator launch announcement, but this is not a full editorial review. | HOLD. Recheck the current NJ DGE authorized-site listing and operator/skin relationship; inspect current terms, payments/withdrawals, complaints, safer-gambling controls and applicable state-specific rules. No nationwide US claim is approved. |
+
+## Release status
+
+No public profiles or scores were created. No production deployment was triggered. All observations remain internal and are excluded from the public artifact. Missing extraction results are recorded as unresolved rather than interpreted as site failures.
