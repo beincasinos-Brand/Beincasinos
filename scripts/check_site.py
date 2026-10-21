@@ -830,6 +830,9 @@ for required_doc in (
     "docs/brand-profile-betsuna-gb-draft.md",
     "docs/brand-profile-betinia-us-nj-draft.md",
     "docs/brand-profile-vegas-club-us-nj-draft.md",
+    "docs/operator-qualification-scorecard.md",
+    "docs/commercial-outreach-pipeline.md",
+    "docs/launch-acceptance-test-plan.md",
     "docs/brand-profile-winz-nl-draft.md",
     "scripts/browser_smoke.cjs",
 ):
@@ -869,6 +872,24 @@ if reviews_hub.is_file():
             errors.append(f"reviews/index.html: missing public methodology disclosure: {required_phrase}")
 else:
     errors.append("reviews/index.html is missing")
+
+# Keep operator-facing commercial claims aligned with the actual pre-launch state.
+# These are deliberate release guardrails, not legal approval.
+partners_page = ROOT / "partners" / "index.html"
+if partners_page.is_file():
+    partners_source = partners_page.read_text(encoding="utf-8")
+    for required_phrase in (
+        "Commercial partnerships are in development.",
+        "No paid placement or affiliate deal is currently being sold or accepted",
+        "no audience or search-performance figure is being represented as established",
+        "No traffic, clicks, leads, conversions, ranking, or return-on-spend are guaranteed.",
+        "A fee is not proof that an operator is licensed",
+        "Payment cannot buy a positive review",
+    ):
+        if required_phrase not in partners_source:
+            errors.append(f"partners/index.html: missing pre-launch commercial safeguard: {required_phrase}")
+else:
+    errors.append("partners/index.html is missing")
 
 # Keep the BIC monogram consistent across all public pages that use the shared header.
 for page in pages:
