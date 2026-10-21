@@ -299,3 +299,10 @@
 - Added VBet, Lucky7 Casino, Betnation and Circus as four additional Netherlands market-entry discovery leads, each recorded `hold` / `not_contacted`.
 - The internal research queue now contains approximately **42 candidate entries**, still short of the target 100. All newly added Dutch candidates require a current Ksa/Kansspelwijzer check for exact permit holder, domain, product scope and status before qualification; historic launch dates do not establish current authorisation.
 - No outreach or public promotion has been initiated. NL remains a separate market-specific review gate.
+
+
+## Pipeline reconciliation — 21 October 2026
+
+- Reconciled the initial 13 research leads into `docs/paid-listing-sales-pipeline.csv`; the tracker now contains **42 unique candidate rows**, all `hold` / `not_contacted`. This is a discovery queue, not 42 approved operators or prospective paying customers.
+- Each record has a source URL and an explicit verification task. Unknown legal entities and secondary-source-only launch claims remain marked unverified; Betsuna also carries a caution to review the operator's material regulatory history before editorial consideration.
+- Updated the launch evidence register to the latest previously passing CI checkpoint. The newest source changes still need their own completed CI run before being treated as verified.
