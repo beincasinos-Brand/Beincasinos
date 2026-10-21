@@ -2,6 +2,8 @@
 
 ## Commercial workflow and automated guardrails — 21 October 2026
 
+- Strengthened `scripts/check_sales_pipeline.py` to require traceable HTTPS source URLs once a prospect reaches an active pipeline stage, validate ISO date fields, and reject reversed contact/placement date ranges. New CI is pending; the prior validator and CI integration both passed: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595922848.
+
 - Added `scripts/check_sales_pipeline.py` and wired it into CI. It checks tracker columns, duplicate names, controlled stage/qualification values, required dates/reasons, and blocks `won` unless signed agreement, invoice status, market review, privacy/tracking review and paid-label confirmation are recorded. This is data-integrity automation, not legal or commercial verification.
 - Validator CI run: pending at time of this commit; track at https://github.com/beincasinos-Brand/BeInCasinos/actions.
 
