@@ -35,6 +35,28 @@ else:
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
             if len(urls) != 21:
                 errors.append(f"dist/sitemap.xml: expected 21 URLs, found {len(urls)}")
+            if len(set(urls)) != len(urls):
+                errors.append("dist/sitemap.xml: duplicate canonical URL entries found")
+
+            # Keep the sitemap synchronized with the actual public HTML pages.
+            # The 404 page is intentionally excluded from indexable routes.
+            expected_urls = set()
+            for html_file in DIST.rglob("*.html"):
+                rel = html_file.relative_to(DIST).as_posix()
+                if rel == "404.html":
+                    continue
+                if rel == "index.html":
+                    route = "/"
+                elif rel.endswith("/index.html"):
+                    route = "/" + rel[:-len("index.html")]
+                else:
+                    route = "/" + rel
+                expected_urls.add("https://beincasinos.online" + route)
+            actual_urls = set(urls)
+            for missing in sorted(expected_urls - actual_urls):
+                errors.append(f"dist/sitemap.xml: public HTML route missing from sitemap: {missing}")
+            for unexpected in sorted(actual_urls - expected_urls):
+                errors.append(f"dist/sitemap.xml: sitemap URL has no matching indexable HTML route: {unexpected}")
             if "https://beincasinos.online/reviews/" not in urls:
                 errors.append("dist/sitemap.xml: Reviews hub is missing from the canonical URL list")
             if "https://beincasinos.online/partners/" not in urls:
