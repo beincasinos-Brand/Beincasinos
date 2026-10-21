@@ -10,7 +10,7 @@ This is a planning framework, not a traffic or revenue forecast. Search visibili
 - Do not add analytics, advertising pixels, affiliate tracking, or non-essential cookies until the privacy notice and any required consent controls match the actual setup.
 - Do not promise brands impressions, clicks, conversions, rankings, or audience size without measured evidence.
 - Paid listings must be clearly labelled and must not influence editorial conclusions.
-- Keep the prelaunch crawl block in place until the owner explicitly approves launch and indexing.
+- Crawl/indexing status (21 October 2026): the owner has approved public crawling for the educational site, and robots.txt allows crawling. Do not reintroduce a crawl block based on the commercial-launch checklist. This approval does not authorize paid placements, unverified casino reviews, or commercial launch.
 
 ## Month-by-month work plan
 
@@ -19,7 +19,7 @@ This is a planning framework, not a traffic or revenue forecast. Search visibili
 - Confirm the first market for actual publication, publisher identity, monitored contact route, and a host whose terms permit the intended commercial model. The broader research scope is AU, US, FR, DE, CH, GB, and NL; it is not permission to promote offers in all of them.
 - Review current pages for usefulness, factual sourcing, internal links, and responsible-gambling language.
 - Define a baseline spreadsheet for content inventory and monthly metrics; record zero/unknown honestly rather than estimating.
-- Do not launch publicly while the release checklist has unresolved launch blockers.
+- Keep commercial reviews, paid placements, and monetization gated while release blockers remain open. The educational site is already publicly reachable; crawling approval is a separate decision from commercial launch approval.
 
 **Evidence to retain:** name-review decision, market decision, content inventory, hosting terms and cost approval, dated release checklist.
 
@@ -33,9 +33,9 @@ This is a planning framework, not a traffic or revenue forecast. Search visibili
 **Evidence to retain:** reviewed page list, source links, browser test notes, resolved defect list, approved release commit.
 
 ### Month 3 — Launch only after approval
-- Complete every applicable release gate. Verify the existing domain registration; get explicit owner approval before paid hosting, deployment, DNS changes, or enabling indexing.
+- Complete applicable commercial-release gates before monetization or publishing scored operator reviews. Public educational-page crawling has already been approved; obtain separate explicit approval for paid hosting, material DNS changes, or commercial launch.
 - Configure the real domain, HTTPS, canonical/social URLs, robots rules, and sitemap.
-- Verify the domain in Google Search Console and submit the real sitemap only after indexing is approved.
+- In Google Search Console, submit the current sitemap and inspect representative URLs and the Pages/indexing report. Current connector access is read-only, so record the UI submission and inspection as pending until independently verified.
 - Inspect indexing coverage, crawl errors, mobile usability signals where available, and search queries; do not interpret early volatility as a trend.
 - Publish at a sustainable pace, prioritizing quality over page count.
 
