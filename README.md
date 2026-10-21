@@ -5,6 +5,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 ## Brand and editorial direction
 - Public brand: BeInCasinos; compact monogram: BIC.
 - Positioning, visual identity, review evidence standard, and growth ambitions: `docs/brand-identity-and-growth-north-star.md`.
+- Competitive benchmark and differentiation roadmap for Casino.org and leading review publishers: `docs/competitive-review-publishers-benchmark-2026-10-21.md`.
 - International review-page architecture, SEO guardrails, and market gates: `docs/international-seo-content-architecture.md`.
 - Evidence-gated scoring, eligibility rules, and ranking independence: `docs/editorial-review-scoring-rubric.md`.
 - Current UK and Swiss primary-source prospect audits: `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
