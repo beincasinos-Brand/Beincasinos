@@ -3,6 +3,11 @@
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
 
 
+## Tier 1 prospect tracker — 21 October 2026
+
+- Added three UKGC-backed GB research leads to the internal master tracker: Silkbet, BigBangBet, and RoyalOl / Speadboom. The rows preserve uncertainty about live consumer-product status and keep commercial signal Unknown, willingness to pay Unconfirmed, and publication status Hold. The full source/build/artifact/Chromium workflow passed for the tracker update: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39589118702.
+- The master tracker now has 103 brand-name research rows plus two market-category restriction rows. This is a research backlog, not 103 qualified buyers; the legacy 100-name list remains a separate document. No outreach was sent.
+
 ## Latest public-review methodology update — 21 October 2026
 
 - Published the planned six-category, 100-point scoring weights directly on `/reviews/`, linked the full methodology, and clarified that no casino profiles are currently scored or ranked. Mandatory market/operator/product eligibility remains pass/fail before scoring; missing evidence cannot be converted into invented points.
