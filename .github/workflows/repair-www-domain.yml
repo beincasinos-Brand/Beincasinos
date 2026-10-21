@@ -1,0 +1,100 @@
+name: Repair www Pages domain
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/repair-www-domain.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Safely bind www to the existing Pages project
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          EDIT_ZONE_DNS: ${{ secrets.EDIT_ZONE_DNS }}
+          CLOUDFLARE_ACCOUNT_ID: '9440004e4a97e4634ba5146c55ceafb2'
+          PAGES_PROJECT: 'beincasinos'
+        run: |
+          set -euo pipefail
+          TOKEN="${CLOUDFLARE_API_TOKEN:-${EDIT_ZONE_DNS:-}}"
+          if [ -z "$TOKEN" ]; then
+            echo "::error::No Cloudflare API token is available in repository secrets."
+            exit 1
+          fi
+          export TOKEN
+          python - <<'PY'
+          import json, os, time, urllib.error, urllib.request
+
+          token = os.environ["TOKEN"]
+          account = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+          project = os.environ["PAGES_PROJECT"]
+          base = "https://api.cloudflare.com/client/v4"
+          headers = {
+              "Authorization": "Bearer " + token,
+              "Accept": "application/json",
+              "Content-Type": "application/json",
+              "User-Agent": "BeInCasinos-www-domain-repair",
+          }
+
+          def api(method, path, payload=None):
+              data = None if payload is None else json.dumps(payload).encode()
+              req = urllib.request.Request(base + path, data=data, headers=headers, method=method)
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as response:
+                      body = json.load(response)
+              except urllib.error.HTTPError as exc:
+                  detail = exc.read().decode("utf-8", "replace")[:500]
+                  raise RuntimeError(f"Cloudflare API {method} {path} returned HTTP {exc.code}: {detail}") from exc
+              if not body.get("success"):
+                  raise RuntimeError(f"Cloudflare API {method} {path} failed: {json.dumps(body.get('errors', []))[:500]}")
+              return body.get("result")
+
+          p = api("GET", f"/accounts/{account}/pages/projects/{project}")
+          subdomain = p.get("subdomain")
+          if not subdomain:
+              raise RuntimeError("Pages project has no subdomain; refusing to guess a DNS target.")
+          domains = api("GET", f"/accounts/{account}/pages/projects/{project}/domains")
+          names = {d.get("name") for d in (domains or [])}
+          if "beincasinos.online" not in names:
+              raise RuntimeError("The apex domain is not bound to the expected Pages project; refusing to change www.")
+          if "www.beincasinos.online" not in names:
+              api("POST", f"/accounts/{account}/pages/projects/{project}/domains",
+                  {"name": "www.beincasinos.online"})
+              print("Added www.beincasinos.online to the existing Pages project.")
+          else:
+              print("www.beincasinos.online is already bound to the Pages project.")
+
+          zone_data = api("GET", "/zones?name=beincasinos.online&per_page=1")
+          zones = zone_data if isinstance(zone_data, list) else []
+          if not zones:
+              raise RuntimeError("Cloudflare zone beincasinos.online was not found; refusing to change DNS.")
+          zone_id = zones[0]["id"]
+          records = api("GET", f"/zones/{zone_id}/dns_records?name=www.beincasinos.online&per_page=100")
+          records = records if isinstance(records, list) else []
+          if records:
+              matching = [r for r in records if r.get("type") == "CNAME" and r.get("content", "").rstrip(".") == subdomain.rstrip(".")]
+              if matching:
+                  rec = matching[0]
+                  if rec.get("proxied") is not True:
+                      api("PUT", f"/zones/{zone_id}/dns_records/{rec['id']}",
+                          {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
+                      print("Updated the existing www CNAME to the project target and enabled Cloudflare proxy.")
+                  else:
+                      print("Existing www CNAME already targets the Pages project and is proxied.")
+              else:
+                  details = [{"type": r.get("type"), "content": r.get("content")} for r in records]
+                  raise RuntimeError("Conflicting www DNS records exist; none were deleted or overwritten: " + json.dumps(details))
+          else:
+              api("POST", f"/zones/{zone_id}/dns_records",
+                  {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
+              print("Created a proxied www CNAME to the existing Pages project.")
+          print("Pages project:", project)
+          print("Target:", subdomain)
+          print("Domain binding and DNS repair request completed. Public DNS propagation and HTTP redirect must still be verified separately.")
+          PY
