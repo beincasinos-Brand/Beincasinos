@@ -1,12 +1,12 @@
 cluster,topic_or_question,search_intent,proposed_path,status,market_scope,source_requirement,notes
 Game maths,What does RTP mean?,Informational,/guides/return-to-player-rtp-explained/,published,General education,Official regulator or technical primary source,Do not imply individual return
 Game maths,RTP vs volatility,Informational,/guides/rtp-vs-volatility/,published,General education,Official regulator or technical primary source,Explain concepts not gambling strategy
-Game maths,What is house edge?,Informational,/guides/house-edge-explained/,idea_unvalidated,General education,Official regulator or authoritative maths source,Separate theoretical edge from short-term results
-Game maths,Probability vs RTP,Informational,/guides/probability-vs-rtp/,idea_unvalidated,General education,Primary technical sources,No prediction claims
+Game maths,What is house edge?,Informational,/guides/house-edge-explained/,published,General education,Official regulator or authoritative maths source,Separate theoretical edge from short-term results
+Game maths,Probability vs RTP,Informational,/guides/probability-vs-rtp/,published,General education,Primary technical sources,No prediction claims
 Game maths,Why past results do not predict random outcomes,Informational,/guides/random-outcomes-and-gambling/,idea_unvalidated,General education,Regulator or technical primary source,Avoid system strategy framing
 Bonus terms,How wagering requirements work,Informational,/guides/what-wagering-requirements-mean/,existing,General education,Current terms examples only if clearly labelled,Keep arithmetic illustrative
 Bonus terms,Bonus expiry dates and conditions,Informational,/guides/bonus-expiry-terms/,idea_unvalidated,General education,Primary operator terms for examples,No current offer endorsements
-Bonus terms,Maximum bet rules explained,Informational,/guides/maximum-bet-rules/,idea_unvalidated,General education,Primary terms and regulator sources,Explain restrictions neutrally
+Bonus terms,Maximum bet rules explained,Informational,/guides/maximum-bet-rules-explained/,published,General education,Primary terms and regulator sources,Explain restrictions neutrally
 Bonus terms,Maximum cashout clauses explained,Informational,/guides/maximum-cashout-clauses/,idea_unvalidated,General education,Primary terms and regulator sources,Do not generalise across markets
 Bonus terms,What happens when a withdrawal cancels a bonus,Informational,/guides/withdrawal-and-bonus-terms/,idea_unvalidated,General education,Primary terms,No operator-specific claims without verification
 Licensing,How to verify an operator licence,Informational,/guides/how-to-check-a-casino-licence/,existing,Market-specific caveats,Official regulator register,Exact domain/entity/product match
@@ -20,7 +20,6 @@ Payments,How to document a delayed withdrawal,Informational,/guides/documenting-
 Complaints,How to evaluate complaint statistics,Informational,/guides/how-to-evaluate-casino-complaint-data/,published,General education,Published regulator methodology,Distinguish allegations from findings
 Complaints,How to complain about an online casino,Informational,/guides/how-to-complain-about-a-casino/,existing,Market-specific caveats,Official regulator/ADR sources,Escalation routes vary
 Complaints,What is alternative dispute resolution?,Informational,/guides/alternative-dispute-resolution-gambling/,idea_unvalidated,Jurisdiction-specific,Official regulator and ADR authority sources,Review legal changes before publication
-Complaints,How to compare review methodologies,Informational,/guides/how-to-compare-casino-review-sites/,existing,General education,Review policies and disclosure examples,Do not attack competitors without evidence
 Commercial transparency,How casino review sites make money,Informational,/guides/how-casino-review-sites-make-money/,existing,General education,Clear disclosure of business models,Distinguish general models from our actual arrangements
 Commercial transparency,What a paid listing means,Informational,/guides/paid-listings-and-editorial-independence/,idea_unvalidated,General education,FTC/ASA/CAP or relevant ad disclosure guidance,Legal review for target markets
 Consumer protection,Self-exclusion options by location,Informational,/guides/online-gambling-self-exclusion/,existing,Market-specific,Official support and regulator sources,Keep links current
