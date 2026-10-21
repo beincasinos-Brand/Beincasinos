@@ -200,3 +200,12 @@
 
 
 - Added `docs/tier-1-market-compliance-gate-2026-10-21.md`, an internal primary-source screening matrix for AU, US, FR, DE, CH, GB and NL. It flags France's online-casino prohibition, Switzerland's Swiss-authorisation requirement, state-by-state US review, UK/Netherlands affiliate responsibilities and Australia's August 2026 reforms affecting activity-based affiliate commissions. It is a risk-screening aid, not legal clearance; all markets remain gated pending legal review and dated evidence.
+
+
+## Tier-1 compliance gate hardening — 21 October 2026
+
+- Added and linked `docs/tier-1-market-compliance-gate-2026-10-21.md` to README, the owner release gates, and the final deploy runbook.
+- Tightened the market dispositions: block online-casino promotion into France and Australia; keep the US held by state/product; require exact official authorisation for Switzerland and Germany; require current regulator/domain and affiliate-advertising review for Great Britain and the Netherlands.
+- Aligned the Australia note with the existing target-market matrix: ACMA reports a range of advertising/affiliate reforms due to commence 1 January 2027. The enacted text, commencement/transition instruments, exact scope and qualified advice still need re-checking before any 2027 campaign or commission agreement.
+- This work is an internal screening control only. It does not constitute legal clearance or approve any operator. No partner outreach, paid placement, affiliate activation, production deploy, DNS change, Vercel upgrade, or indexing change was made.
+- The latest docs-only commits have not yet been independently verified by a completed CI run. Repeat the repository workflow against the final main commit before relying on CI status.
