@@ -1,6 +1,6 @@
-# SEO growth plan — 1,000,000 daily Google Search impressions
+# SEO growth plan — 100,000,000 daily Google Search impressions
 
-**North-star ambition:** 1,000,000 Google Search impressions per day. This is an ambition, not a forecast or guarantee. No baseline Search Console data is available yet, the domain is not confirmed live, and no pages should be described as indexed until verified.
+**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. This is an ambition, not a forecast or guarantee. No baseline Search Console data is available yet, the domain is not confirmed live, and no pages should be described as indexed until verified.
 
 ## What the metric means
 
@@ -35,7 +35,7 @@ These are checkpoints, not promised deadlines or traffic forecasts.
 | 3 — Early learning | Repeatedly appearing queries and pages identified | Improve pages with relevant impressions and weak CTR; fill demonstrated content gaps |
 | 4 — Topic authority | Multiple useful pages in clusters earn impressions and natural citations | Expand only where data and original expertise justify it |
 | 5 — Scale | Sustained 90-day trend, no major policy/security issues, content quality maintained | Increase editorial capacity and carefully review additional languages/markets |
-| 6 — North-star review | Rolling daily impressions measured in Search Console; compare 28/90-day trends | Report distance to 1M/day honestly; do not substitute indexed-page counts for visibility |
+| 6 — North-star review | Rolling daily impressions measured in Search Console; compare 28/90-day trends | Report distance to 100M/day honestly; do not substitute indexed-page counts for visibility |
 
 ## Content architecture
 
@@ -65,6 +65,30 @@ They are educational pages, not casino recommendations. They do not establish th
 - Quarterly: review the topic map, legal/market scope, disclosures, internal links, and which content genuinely helps readers.
 - Every material operator claim: keep primary source URL, exact entity/domain, market/product scope, evidence date and next review date.
 - Every content experiment: define a question and success measure before changing the page; compare periods fairly and avoid claiming causation from small samples.
+
+
+
+## 100M/day reality check and operating gates
+
+100 million daily impressions is not a near-term execution target for a new site and must not be represented as a forecast. It would require sustained visibility across a very large number of valuable, relevant queries and pages, and Search Console evidence over time. Do not infer the target from the number of URLs, indexed pages, domain age, or competitor estimates.
+
+### Sequence of work
+
+1. **Technical discovery:** maintain crawl access, canonical consistency, valid status codes, sitemap accuracy, fast mobile rendering, and clean internal links. Confirm Googlebot can fetch the intended public pages.
+2. **Trust before commercial reviews:** complete publisher identity, contact/mailbox, editorial accountability, privacy and affiliate disclosures, legal review, and hosting/security approval. Do not bypass release gates to chase impressions.
+3. **Evidence-first content:** prioritise original consumer guides and tools with clear methodology, primary citations, limitations, update dates and useful calculations. Add pages only when they answer a distinct user need.
+4. **Brand dossier pipeline:** research candidates in batches, but keep each brand unpublished/unscored until legal entity, exact domain, jurisdiction, licence scope, terms, withdrawal policy, complaint path, safer-gambling tools and evidence dates are checked. A regulator record alone is not a full review.
+5. **Search feedback loop:** after Search Console data becomes available, cluster real queries by intent; improve pages earning impressions, identify unanswered questions, consolidate overlap, and track clicks/CTR/position by page, query, country and device.
+6. **Scale by evidence:** add language or market sections only after qualified review and demonstrable reader demand. Do not mass-generate 100 thin brand pages, doorway pages, fake first-hand testing or unsupported rankings.
+7. **Quarterly target review:** compare 28-day and 90-day Search Console trends; document what grew, what declined and which changes plausibly helped. Report actual impressions and the gap to 100M/day without projecting a deadline from sparse data.
+
+### Current measurable starting point
+
+As of 21 October 2026, the public sitemap contains 34 URLs and `robots.txt` allows crawling. Search Console connector data returned no rows for the previous 28-day Search Analytics query and its sitemap report reflected an earlier 32-URL submission; the latest 34-URL sitemap still needs submission/verification. This means there is not yet a reliable performance baseline in the available report. It does not prove that zero URLs are indexed.
+
+### Release stop conditions
+
+Keep commercial casino rankings, affiliate recommendations and market-specific operator claims on hold until publisher identity, legal/privacy, hosting/billing and market eligibility checks are documented. An owner request to allow crawling is not the same as legal clearance for all content or markets.
 
 ## Source principles
 
