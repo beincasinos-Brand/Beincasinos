@@ -9,7 +9,7 @@ The source repository already has a passing automated build/browser-smoke record
 
 The full GitHub Actions workflow passed on commit `41c01a57ba2d7923b5fe67389e35be322fe0c79a`: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39606573744. The run covers source/local-link checks, sales-pipeline hard gates and regression tests, JavaScript syntax, Vercel configuration, public-only artifact leakage, and Chromium browser smoke tests. It is not a live deployment or legal/privacy review.
 
-The README and project completion board now point to this latest passing run. The Vercel team still has no linked project. No deployment, DNS edit, paid-plan purchase, indexing, or prospect outreach has been performed. Keep release blocked until the evidence and owner-controlled decisions below are resolved.
+The README and project completion board point to the latest successful source-check run noted above. The Vercel team still has no linked project. On 21 October 2026, the owner explicitly requested full-site discoverability and the public robots.txt was changed to Allow: /; the 34-URL sitemap is live. This permits crawling but does not prove Google has indexed any URL. Search Console currently reports a prior sitemap submission of 32 URLs; the updated 34-URL sitemap still needs resubmission/verification. The Search Console connector is read-only and browser resubmission is blocked until the TinyFish wallet is topped up. DNS was not edited, no paid hosting plan was purchased, and no prospect outreach was sent. Scored casino reviews and commercial promotion remain blocked until the evidence and owner-controlled decisions below are resolved.
 
 ## What is already prepared
 
