@@ -1,6 +1,6 @@
 # SEO growth plan — 100,000,000 daily Google Search impressions
 
-**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 36-URL sitemap are verified and public crawling is allowed. The available Search Console performance connector returned no rows for the previous 28 days, and actual index coverage has not been verified.
+**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 36-URL sitemap are verified and public crawling is allowed. Connected Search Console reports 32 URLs submitted for the sitemap (the live sitemap now contains 36), 0 in its deprecated indexed-URL field, and no Search Analytics rows for the previous 28 days. The live crawl policy allows Googlebot. These figures mean discovery/indexing and traffic are not yet demonstrated; verify URL Inspection and submit the updated sitemap before drawing conclusions.
 
 ## What the metric means
 
@@ -11,7 +11,7 @@ Search Console impressions count eligible appearances of a site's links in Googl
 1. Owner verifies domain and mailbox access, Cloudflare account security, and current DNS records.
 2. Complete publisher identity, privacy, advertising/affiliate disclosure, trademark, and applicable market legal reviews.
 3. Keep Australia and France online-casino promotion blocked pending qualified review; verify US state/product eligibility and exact operator/domain before market-specific claims or outbound commercial links in GB, DE, CH and NL.
-4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Resubmit/verify the updated 36-URL sitemap in Search Console, inspect index coverage, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
+4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Submit the updated 36-URL sitemap in Search Console (the connected integration is read-only), inspect URL indexing and the Pages report, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
 5. Publish operator profiles only after exact domain, legal operator, licence/product scope, territory, terms, withdrawal policy, complaint route, safer-gambling tools and evidence date are verified from primary sources.
 
 ## Growth principles
