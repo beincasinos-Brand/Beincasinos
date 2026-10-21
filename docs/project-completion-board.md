@@ -217,3 +217,6 @@
 
 
 - Added `docs/measurement-and-media-kit-plan.md` and linked it from README. It defines a privacy-first measurement sequence, source/date/metric definitions, a truthful media-kit evidence table, and a hard stop against selling inventory before legal, privacy, audience and owner gates are met. This is planning only: it does not enable analytics or assert any traffic figures.
+
+
+- Added `docs/launch-evidence-register-template.csv`, a structured gate-by-gate register for identity, hosting, market/privacy, editorial/commercial, build/QA, deployment and indexing. It distinguishes owner actions and unverified checks from passes; keep credentials and private account evidence out of the repository.
