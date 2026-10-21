@@ -2,7 +2,7 @@
 
 **Decision: BLOCKED — do not deploy, publish, or enable indexing yet.**
 
-This is a source/repository review, not a live production audit. Repository files and CI runs were inspected on 20 October 2026. The domain registration, DNS, hosting account, live browser rendering, and legal position have not been independently verified.
+This is a source/repository review, not a live production audit. Repository files and CI runs were inspected and the audit refreshed on 21 October 2026. The domain registration, DNS, hosting account, live browser rendering, and legal position have not been independently verified.
 
 ## Confirmed project decisions
 
