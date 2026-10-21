@@ -37,7 +37,7 @@
 - [ ] Record preview URL and test evidence internally; do not submit it to Search Console.
 - [ ] If GitHub integration cannot be used, do not substitute Vercel instructions silently; document the blocker and agree on an approved alternative deployment path.
 
-## Gate C — custom domain and final public deployment (not complete; dashboard attachment observed)
+## Gate C — custom domain and final public deployment (not complete; no Pages custom domain configured)
 
 - [ ] Confirm Gate A is cleared and the owner explicitly authorizes public deployment.
 - [ ] Verify nameserver propagation and DNSSEC/DS records first. Nameservers were already submitted in Spaceship; if DNSSEC is enabled at the registrar, reconcile its DS record with Cloudflare before troubleshooting TLS.
