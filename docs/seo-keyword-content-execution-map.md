@@ -54,3 +54,24 @@ Build pages that answer a distinct user question with source-backed evidence and
 - [Google Search Console performance report](https://support.google.com/webmasters/answer/7576553)
 - [Google Search Console indexing and crawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
 - [Swiss Federal Gaming Board — online gambling](https://www.esbk.admin.ch/en/online-gambling)
+
+## Live-site smoke audit — 21 October 2026
+
+External fetch verification of the public site found:
+
+- Homepage resolves at `https://beincasinos.online/`; the canonical and Open Graph URL both point to the apex hostname.
+- `https://www.beincasinos.online/` resolves to the apex homepage.
+- `/robots.txt` is retrievable, allows crawling, and declares `https://beincasinos.online/sitemap.xml`.
+- `/sitemap.xml` is retrievable and lists 37 canonical apex URLs, including the guide index, review-methodology page, two educational tools, legal/transparency pages and guide pages.
+- The live guide index presents a broad educational library; the review directory clearly says no profiles are currently scored or ranked and that the directory is in development. Preserve this honest disclosure until reviews actually pass publication checks.
+
+This is an HTTP/content retrieval check only; it does not confirm Google indexing, rankings, Search Console ownership, impressions or clicks.
+
+## Next content sprint — evidence before volume
+
+1. **Improve licence-check guidance:** add a compact, dated regulator-source table only where official pages have been checked recently; explain operator, domain, product scope and jurisdiction matching.
+2. **Strengthen withdrawal cluster:** cross-link withdrawal terms, identity verification and maximum-cashout clauses; add a clearly labelled document/terms checklist and distinguish operator-stated processing time from bank/payment-provider time.
+3. **Connect the calculator to its explainer:** link the wagering calculator to the wagering guide and bonus-expiry/maximum-bet explanations; label inputs and assumptions, and state that turnover calculations do not predict winnings.
+4. **Add visible evidence freshness:** on regulator-dependent pages, display “last checked” only when the date is actually recorded and a change-review process exists. Never imply continuous monitoring otherwise.
+5. **Measure before choosing more topics:** use the Search Console query/page report as the source of demand signals; do not represent keyword examples as verified search volumes.
+6. **Keep review launch gated:** do not populate casino rankings or templated profiles merely to reach a brand count. Each published profile needs current, jurisdiction-specific evidence and original analysis.
