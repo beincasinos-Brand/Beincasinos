@@ -4,6 +4,11 @@
 
 This is a source/repository review, not a live production audit. Repository files and CI runs were inspected and the audit refreshed on 21 October 2026. The domain registration, DNS, hosting account, live browser rendering, and legal position have not been independently verified.
 
+## Latest integrated source verification — 21 October 2026
+
+- Added `/guides/how-to-complain-about-a-casino/`, linked it from the Guides hub, added it to the sitemap and Chromium route list, and updated the artifact checker and documentation inventory. The integrated full CI run, including Chromium browser smoke tests, passed on commit `c1407a2a68a93d3a3f9ab0e22397f43b20bd4ba3`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583259274.
+- The source inventory is now **23 indexable routes / 24 HTML files including the custom 404**. This does not establish domain resolution, production behavior, legal compliance, audience evidence, or commercial readiness. The release remains blocked by the gates below.
+
 ## Confirmed project decisions
 
 - Brand/project label: BeInCasinos.
