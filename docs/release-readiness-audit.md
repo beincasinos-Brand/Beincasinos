@@ -1,4 +1,4 @@
-# Release readiness audit — 20 October 2026
+# Release readiness audit — 21 October 2026
 
 **Decision: BLOCKED — do not deploy, publish, or enable indexing yet.**
 
@@ -139,3 +139,5 @@ The release decision remains **BLOCKED**. Name/trademark clearance, verified pub
 The latest CI run at https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39573291872 passed all substantive steps, including source/local-link validation, shared JavaScript syntax, Vercel configuration, public-only artifact assembly, internal-file exclusion, Chromium smoke tests, and sanitized artifact storage. The tracker checker also enforces at least 100 brand-name research leads (excluding the two category-level restriction rows). These checks are not live production tests and do not verify that prospects are real/current, licensed for a specific market, or willing to pay. Grade-C leads remain `Hold` until primary sources establish exact domain, operator, current market permission, and launch/event facts. No fee-paying buyer is confirmed.
 
 The release decision remains **BLOCKED**. Name/trademark review, actual domain/registrar verification, publisher identity/contact readiness, privacy and market-specific legal review, Vercel commercial-plan decision, and manual/live-host acceptance tests remain outstanding. No deployment, DNS change, public indexing, or brand outreach was performed.
+
+The latest documentation refreshes were subsequently verified by successful CI runs: [pre-launch checklist update](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39581888259) and [completion-board update](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39581896197). Both completed successfully, including the repository's Chromium browser-smoke step. The completion board now records those outcomes. This audit's underlying launch blockers are unchanged; a green repository workflow is not a substitute for the outstanding owner, legal, hosting, domain, and live-environment checks.
