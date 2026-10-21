@@ -1,6 +1,6 @@
 # Operator outreach playbook (internal)
 
-**Not ready to send by default.** Use only after the owner approves outreach, the publisher identity and monitored business email are set, the website has real audience data, and the recipient/market/contact route have been checked. This is a process template, not legal advice. Apply the recipient's country-specific marketing/privacy rules and honour objections and opt-outs.
+**Not ready to send by default.** No commercial offer or paid-placement pitch should be sent until the owner approves it, the publisher identity and monitored business email are set, the website is stable, audience evidence is available for any performance claims, and the recipient/market/contact route have been checked. A narrowly scoped pre-launch discovery interview may be considered without audience metrics only if it is clearly research (not a sale), lawful for the recipient/channel, and separately approved by the owner. This is a process template, not legal advice. Apply the recipient's country-specific marketing/privacy rules and honour objections and opt-outs.
 
 ## Positioning
 
@@ -60,7 +60,7 @@ A positive reply is only an initial signal. Mark the pipeline stage replied_inte
 
 - [ ] Brand/name risk reviewed and publisher identity approved.
 - [ ] Website launched and stable, with privacy/disclosure/contact pages matching actual implementation.
-- [ ] Real audience evidence and limitations available, or the message is explicitly a no-metrics discovery note approved by the owner.
+- [ ] For any commercial pitch, real audience evidence and its limitations are available. If the site has no measured audience, only a clearly labelled research/discovery note may be considered, with separate owner approval and no offer, traffic claim, or performance promise.
 - [ ] Proposed market and exact product reviewed; no prohibited or unlicensed offer is promoted.
 - [ ] Pricing, taxes, term, labels, link attributes, cancellation/refund terms and invoicing approved.
 - [ ] Outreach is lawful for the recipient and channel; opt-out handling is operational.
