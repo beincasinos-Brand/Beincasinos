@@ -134,6 +134,6 @@
 
 - Added three internal GB dossiers (BestOdds, Stakewise and 44Aces) with current UKGC licence/domain evidence. Together with the Megaways Casino dossier, this brings the internal dossier set to 14; terms, withdrawals, complaints, safer-gambling controls, enforcement and commercial qualification remain incomplete, so none is approved for public publication.
 
-- Hosting decision clarified: Netlify is the default technical production recommendation on a commercial-capable plan, conditional on owner budget approval and account connection; Netlify Free is preview/staging only, and Vercel Hobby is a no-go for the commercial model. No account, subscription, DNS or deployment action has been taken.
+- Hosting decision updated: Vercel is the selected platform. The connected BeinCasinos team is on Hobby with no linked projects; do not use Hobby for the commercial paid-listing/affiliate business. Review current Pro price/usage and commercial terms before any paid upgrade. No project, subscription, DNS change or deployment has been made.
 
 - Canonical host default is now set to `https://beincasinos.online` (apex), matching existing canonical, Open Graph and sitemap URLs; final host setup should redirect `www` permanently to apex and verify both hostnames. This is a source-level decision only—DNS remains unchanged.
