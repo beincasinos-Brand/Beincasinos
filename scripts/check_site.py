@@ -836,6 +836,19 @@ for required_doc in (
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
 
+# Ensure every indexable public page links to the Terms of Use, so users can reach
+# the site's basic conditions from content pages and interactive tools.
+for page in pages:
+    if page.name == "404.html":
+        continue
+    try:
+        source = page.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        errors.append(f"{page.relative_to(ROOT).as_posix()}: cannot verify Terms of Use link ({exc})")
+        continue
+    if 'href="/terms/"' not in source:
+        errors.append(f"{page.relative_to(ROOT).as_posix()}: missing a link to /terms/ on this public page")
+
 # Keep the BIC monogram consistent across all public pages that use the shared header.
 for page in pages:
     if page.name == "404.html":
