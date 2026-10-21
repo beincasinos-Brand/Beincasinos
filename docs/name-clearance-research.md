@@ -52,3 +52,14 @@ Do not mark this issue closed until the owner has:
 4. Rechecked the domain/brand strategy if the name changes, including canonical URLs, metadata, logo, sitemap, social handles, and legal notices.
 
 This workpaper deliberately records **no search result and no clearance conclusion**. It must be completed by the owner or a qualified professional.
+
+
+## Supplemental source review — 21 October 2026
+
+This is a source lead for a qualified trademark reviewer, **not** a completed trademark search or legal conclusion:
+
+- WIPO domain-name decision **DMA2018-0003** (BeIN Media Group LLC v. BeforeAds, Mouad Jaafari) records the complainant's Moroccan BEIN and BEIN SPORT registrations and a dispute concerning `bein.ma`: https://www.wipo.int/amc/en/domains/decisions/text/2018/dma2018-0003.html. The decision is evidence that the mark has been asserted in a Moroccan domain dispute; it does not decide whether the distinct name “BeInCasinos” is lawful.
+- WIPO decision **D2022-2337** records BEIN registrations including Moroccan registrations and EU registrations, and describes beIN Media Group's broadcasting footprint: https://www.wipo.int/amc/en/domains/decisions/pdf/2022/d2022-2337.pdf. Verify the relevant current registrations directly with the national/regional offices; a domain-dispute decision is not a substitute for current register searches.
+- A further WIPO decision published in 2025 records Moroccan BEIN registration No. 97-142622 and EU registrations: https://www.wipo.int/amc/en/domains/search/text.jsp?case=D2025-4650. This is another reason to have counsel search the exact classes, goods/services, territories, and likelihood-of-confusion context before launch.
+
+**Result of this supplemental review:** risk remains **OPEN / NOT CLEARED**. No exact “BeInCasinos” clearance search was completed, no national register was exhaustively searched, and no lawyer's opinion was obtained. Do not infer that a different second word or a purchased `.online` domain resolves the risk.
