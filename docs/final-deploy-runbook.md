@@ -1,6 +1,6 @@
 # Final deployment runbook — BeInCasinos on Cloudflare Pages Free
 
-**Status: controlled preview configured; custom-domain launch still pending.** This runbook records observed project setup, not legal clearance or authorization to publish/index the production domain. No paid service or brand outreach is authorized.
+**Status: Google verification file committed; production deployment and domain verification still require live confirmation.** This runbook records observed project setup, not legal clearance or authorization to publish/index the production domain. On 2026-10-21, the file `google05b7a00eb84d7acb.html` was added at repository root and added to the public build allowlist so Cloudflare Pages can publish it. A subsequent Pages deployment and successful fetch of `https://beincasinos.online/google05b7a00eb84d7acb.html` have not been independently confirmed here. The owner reports completing the Google Search Console step, but this runbook does not claim direct access to or verified status inside that property. No paid service or brand outreach is authorized.
 
 ## Current technical defaults
 
