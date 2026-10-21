@@ -268,3 +268,12 @@
 - Added the guide to the Guides hub and sitemap, and included it in the Chromium/axe browser smoke route inventory so CI tests its HTTP response, metadata, responsive widths, accessible structure and WCAG 2.1 A/AA scan.
 - The page is educational media literacy, not an endorsement or instruction to gamble. It does not add casino offers, operator links, affiliate tracking, forms, or claims of live partnerships.
 - CI for the latest content commit must pass before describing the new route as verified. Live-host testing, legal/privacy review, domain/mailbox verification, commercial hosting approval and owner launch authorization remain separate gates.
+
+
+## Verification checkpoint — 21 October 2026, 12:17 UTC
+
+- Integrated workflow run **39598335966** passed on commit `9042b53b2f9b94f8eabe7c6556e384ac713ab602`. It checked HTML/local links, the paid-listing pipeline validator and regression tests, shared JavaScript syntax, Vercel/security configuration, public-only artifact construction and exclusion of internal files, and Chromium/axe smoke tests across 24 indexable routes and six viewport widths. See https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39598335966.
+- The public-only artifact was uploaded as `beincasinos-public-site-dist` (artifact ID `12345955066`, approximately 72,972 bytes). It is a temporary CI artifact, not a deployed site; inspect/rebuild the exact release artifact before any deployment.
+- Added the new casino-review-business-model guide to the manual launch acceptance checklist so human browser checks include it too.
+- Updated the launch evidence register to reference the latest passing workflow and artifact.
+- Release remains **BLOCKED** pending real-world owner evidence and approval: domain/DNS control, monitored mailbox, name/trademark decision, accurate publisher/legal identity, qualified privacy/market review, approved commercial hosting, manual device/live-host QA, and explicit launch authorization. No DNS changes, public deployment, Search Console submission, indexing unblock, or commercial outreach were performed.
