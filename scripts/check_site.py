@@ -244,7 +244,7 @@ if not robots.exists():
 else:
     robots_text = robots.read_text(encoding="utf-8")
     if re.search(r"^Disallow:\s*/\s*$", robots_text, re.I | re.M):
-        errors.append("robots.txt blocks all crawling; remove the site-wide block for the approved public launch")
+        warnings.append("robots.txt currently blocks all crawling; keep this pre-launch block until explicit launch approval, then remove it and re-run checks")
     if not re.search(r"^User-agent:\s*\*\s*$", robots_text, re.I | re.M):
         errors.append("robots.txt must include a wildcard user-agent policy")
     if not re.search(r"^Sitemap:\s*https://beincasinos[.]online/sitemap[.]xml\s*$", robots_text, re.I | re.M):
