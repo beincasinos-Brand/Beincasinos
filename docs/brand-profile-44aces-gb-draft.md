@@ -1,7 +1,7 @@
 # Internal profile dossier — 44Aces (Great Britain)
 
 **Status: HOLD — internal research only; not a public review, score, or endorsement.**  
-**Research date:** 20 October 2026  
+**Research date:** 21 October 2026  
 **Target scope:** Great Britain (GB) only.
 
 ## 1. Identity and primary evidence
@@ -12,7 +12,8 @@
 - UKGC domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326
 - UKGC trading-name record: not located in current evidence
 - Secondary launch discovery: https://newestcasino.com/
-- The UKGC lists active remote Casino permission for Skill On Net Limited and www.44aces.com as Active. Early-2026 launch timing is secondary-source reported; the licence itself dates to 2014 and must not be described as a new 2026 licence.
+- Checked 21 October 2026: the UKGC register lists Skill On Net Limited (account 39326) with active Remote Casino permission; www.44aces.com and the trading name “44aces” are listed as Active. The current regulatory-actions page does not show a recorded action, but the Commission published a 23 May 2023 notice stating that Skill On Net Limited would pay £305,150 following an investigation into social-responsibility and anti-money-laundering failures. That historical notice must be disclosed in any review with its date, scope and outcome; do not describe the current register display as proof that no historic action ever occurred. The licence itself dates to 2014 and must not be described as a new 2026 licence. Early-2026 launch timing remains secondary-source reported and unconfirmed.
+- Current official sources checked: https://www.gamblingcommission.gov.uk/public-register/business/detail/39326/ ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39326 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/39326 ; historic notice: https://www.gamblingcommission.gov.uk/news/article/skill-on-net-limited-faces-gbp305-150-regulatory-action
 - A regulator/domain match confirms a recorded permission and domain status; it does not establish current product quality, a completed editorial review, or willingness to pay a listing fee.
 
 ## 2. Publication eligibility gates
