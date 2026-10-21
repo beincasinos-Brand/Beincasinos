@@ -137,3 +137,10 @@
 - Hosting decision updated: Vercel is the selected platform. The connected BeinCasinos team is on Hobby with no linked projects; do not use Hobby for the commercial paid-listing/affiliate business. Review current Pro price/usage and commercial terms before any paid upgrade. No project, subscription, DNS change or deployment has been made.
 
 - Canonical host default is now set to `https://beincasinos.online` (apex), matching existing canonical, Open Graph and sitemap URLs; final host setup should redirect `www` permanently to apex and verify both hostnames. This is a source-level decision only—DNS remains unchanged.
+
+
+## Follow-up — 21 October 2026
+
+- Latest CI run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39573291872 passed all 10 substantive steps, including source/link checks, shared-JavaScript syntax, Vercel configuration, public-only build, internal-file exclusion, Chromium browser smoke tests, and sanitized artifact storage. This is repository/CI evidence only; it is not live-host validation, legal clearance, or release approval.
+- The tracker validation now enforces a minimum of 100 brand-name research leads while excluding two category-level restriction rows. The 100-name count remains a research-queue milestone only; the added grade-C leads remain held until primary-source operator/domain and market permission checks are completed.
+- Release remains BLOCKED. Do not deploy, enable indexing, or represent the prospect queue as 100 qualified or fee-paying buyers.
