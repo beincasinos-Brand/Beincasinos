@@ -1,6 +1,6 @@
 # BeInCasinos
 
-**Latest confirmed source-level verification (21 October 2026, 11:54 UTC):** Static site checks passed on commit `f2d30d2349e96aa197680f319077fb28555ebed7`, including commercial-disclosure guardrails, the public-only build, and automated browser checks: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595461346. Later documentation changes must pass their own CI run before being treated as verified. This is not production-host, legal, privacy, or launch approval; release gates remain blocked pending evidence.
+**Latest confirmed integrated verification (21 October 2026, 12:02 UTC):** The static-site workflow passed on commit `1461fa45177c8101bd497e57d6dd68542f04f991`, including the public-only build, commercial-disclosure guardrails, and automated Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595647992. This is repository/preview-artifact validation only, not production-host, legal, privacy, or launch approval. This is not production-host, legal, privacy, or launch approval; release gates remain blocked pending evidence.
 
 An English-language, evidence-led casino reviews and research brand focused on operator identity, market-specific licensing, terms, withdrawals, and safer gambling. Individual reviews must pass the internal evidence and publication gate before they can go live.
 
