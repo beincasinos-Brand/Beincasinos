@@ -50,7 +50,9 @@ else:
             expected_urls = set()
             for html_file in DIST.rglob("*.html"):
                 rel = html_file.relative_to(DIST).as_posix()
-                if rel == "404.html":
+                if rel in {"404.html", "google05b7a00eb84d7acb.html"}:
+                    # Google Search Console verification is a required public asset,
+                    # but it is not an indexable content page and must stay out of the sitemap.
                     continue
                 if rel == "index.html":
                     route = "/"
