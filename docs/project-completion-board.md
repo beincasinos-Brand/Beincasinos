@@ -1,3 +1,12 @@
+## Latest content and live-route verification — 21 October 2026, 23:58 UTC
+
+- Added `/guides/withdrawal-processing-times/`, an educational guide separating operator review, identity checks, payment dispatch, and bank/wallet settlement. It includes a document checklist, safer handling of sensitive information, and escalation guidance without unsupported operator-specific timing claims.
+- Added the guide to `/guides/`, `sitemap.xml`, and `docs/seo-topic-map.csv`. The live sitemap currently reports 39 URLs.
+- External live retrieval verified the new guide's HTTP content, canonical URL, title, meta description, Open Graph fields, and sitemap availability: https://beincasinos.online/guides/withdrawal-processing-times/
+- Fixed metadata mismatches surfaced by CI. Latest commit `e4fe4dedb1a568388ec646a9ee4016fa864aec74` passed Static site checks, including HTML/local links, paid-listing pipeline schema and regression tests, shared JavaScript syntax, deployment configuration, public artifact leak checks, and Chromium smoke tests: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39696706174. Read-only Cloudflare diagnostics also passed: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39696706181.
+- These checks verify repository/build behavior and that the route is publicly retrievable. They do not prove Google indexing, search impressions, rankings, or Search Console submission. Keep brand reviews on hold until current entity/domain/licence/product/jurisdiction evidence is complete.
+- No DNS or nameserver changes were made.
+
 ## SEO expansion — 21 October 2026
 
 - Added four original educational guides: RTP explained, RTP vs volatility, withdrawal verification, and how to evaluate complaint data. Each includes primary-source reading, caveats, canonical metadata, and related internal links.
