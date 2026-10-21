@@ -285,3 +285,4 @@ jobs:
                   + last_http_error
               )
           PY
+# Reviewed 2026-10-21: workflow intentionally adds only a missing www CNAME and fails closed on conflicting records.
