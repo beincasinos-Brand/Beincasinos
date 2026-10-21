@@ -1,5 +1,13 @@
 # BeInCasinos — project completion board
 
+## Latest verified pipeline QA — 21 October 2026, 12:43 UTC
+
+- Tightened the paid-listing prospect validator so every populated row must include a legal-entity field, target market, and traceable HTTPS evidence URL even while it remains at `hold` / `not_contacted`. Added regression coverage for missing identity/evidence and non-HTTPS source URLs.
+- The complete GitHub Actions workflow passed on commit `f82eae68ab99fbfd4dbf2f81bc55a02e0517820b`, including pipeline schema/hard-gate validation, regression tests, static-site checks, public-only artifact leak checks, and Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39601637466.
+- The 47-row sales pipeline still contains 47 unique candidate names, all `hold` / `not_contacted`. These are research leads, not 47 verified operators or confirmed paid-listing buyers. No outreach was sent.
+- This automated pass does not clear trademark, legal/privacy, domain/mailbox, commercial hosting, live-host acceptance, or owner launch approval. Public deployment and indexing remain blocked.
+
+
 ## Commercial workflow and automated guardrails — 21 October 2026
 
 - Strengthened `scripts/check_sales_pipeline.py` to require traceable HTTPS source URLs once a prospect reaches an active pipeline stage, validate ISO date fields, and reject reversed contact/placement date ranges. New CI is pending; the prior validator and CI integration both passed: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595922848.
