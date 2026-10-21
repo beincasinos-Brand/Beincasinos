@@ -12,7 +12,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Language: English.
 - Monetisation priority: paid listings first after audience evidence; affiliate links later and secondary.
 - No paid hosting purchase, deployment, DNS change, outbound brand outreach, or indexing change has been performed.
-- A read-only Vercel account check showed the connected team is on Hobby with no linked projects. A Netlify static-host configuration is prepared in the repository, but no Netlify account has been connected and no deployment has been made.
+- A read-only Vercel account check on 21 October 2026 showed the connected BeinCasinos team is on Hobby with no linked projects. Vercel is the selected provider; the repository now contains a Vercel build/output configuration and a permanent www-to-apex redirect. No Vercel project has been created, no plan upgraded and no deployment made.
 - `robots.txt` continues to block crawling.
 - The sitemap now contains the intended domain rather than the former placeholder. This does not establish that the domain resolves or the sitemap is production-ready.
 
@@ -59,7 +59,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
 - CI source checks are useful but are not browser QA or a full accessibility audit.
-- Choose hosting whose terms permit the planned commercial listing/affiliate activity; do not assume Vercel Hobby permits this business model.
+- Review Vercel Pro pricing, usage limits and current commercial-use terms before any upgrade; do not deploy the planned commercial listing/affiliate activity to Hobby.
 
 ## Safe launch sequence
 
