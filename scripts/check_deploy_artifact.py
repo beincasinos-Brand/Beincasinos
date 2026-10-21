@@ -95,9 +95,9 @@ else:
         errors.append("dist/robots.txt: required robots policy is missing")
     else:
         robots_text = robots.read_text(encoding="utf-8")
-        if re.search(r"^Disallow:\\s*/\\s*$", robots_text, re.I | re.M):
+        if re.search(r"^Disallow:\s*/\s*$", robots_text, re.I | re.M):
             errors.append("dist/robots.txt: all crawling is blocked despite approved launch")
-        if not re.search(r"^Sitemap:\\s*https://beincasinos[.]online/sitemap[.]xml\\s*$", robots_text, re.I | re.M):
+        if not re.search(r"^Sitemap:\s*https://beincasinos[.]online/sitemap[.]xml\s*$", robots_text, re.I | re.M):
             errors.append("dist/robots.txt: canonical sitemap location is missing")
 
     # Defense in depth: the public artifact must never contain internal source,
