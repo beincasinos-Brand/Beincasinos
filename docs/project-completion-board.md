@@ -182,6 +182,9 @@
 
 ## Follow-up — 21 October 2026
 
+- Public review methodology is now versioned as v1.0 with a visible 21 October 2026 update date on both `/reviews/` and `/how-we-review/`. The source checker enforces the public version/date disclosure. All three related CI runs passed: [Reviews page](https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39590735156), [detailed methodology](https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39590739170), and [disclosure guard](https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39590743225). This does not imply any live casino profiles are scored, nor does it clear external launch gates.
+
+
 - Latest CI run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39573291872 passed all 10 substantive steps, including source/link checks, shared-JavaScript syntax, Vercel configuration, public-only build, internal-file exclusion, Chromium browser smoke tests, and sanitized artifact storage. This is repository/CI evidence only; it is not live-host validation, legal clearance, or release approval.
 - The tracker validation now enforces a minimum of 100 brand-name research leads while excluding two category-level restriction rows. The 100-name count remains a research-queue milestone only; the added grade-C leads remain held until primary-source operator/domain and market permission checks are completed.
 - Release remains BLOCKED. Do not deploy, enable indexing, or represent the prospect queue as 100 qualified or fee-paying buyers.
