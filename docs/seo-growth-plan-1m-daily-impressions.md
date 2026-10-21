@@ -1,6 +1,6 @@
 # SEO growth plan — 100,000,000 daily Google Search impressions
 
-**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 34-URL sitemap are verified and public crawling is allowed. The available Search Console performance connector returned no rows for the previous 28 days, and actual index coverage has not been verified.
+**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 35-URL sitemap are verified and public crawling is allowed. The available Search Console performance connector returned no rows for the previous 28 days, and actual index coverage has not been verified.
 
 ## What the metric means
 
@@ -11,7 +11,7 @@ Search Console impressions count eligible appearances of a site's links in Googl
 1. Owner verifies domain and mailbox access, Cloudflare account security, and current DNS records.
 2. Complete publisher identity, privacy, advertising/affiliate disclosure, trademark, and applicable market legal reviews.
 3. Keep Australia and France online-casino promotion blocked pending qualified review; verify US state/product eligibility and exact operator/domain before market-specific claims or outbound commercial links in GB, DE, CH and NL.
-4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Resubmit/verify the updated 34-URL sitemap in Search Console, inspect index coverage, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
+4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Resubmit/verify the updated 35-URL sitemap in Search Console, inspect index coverage, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
 5. Publish operator profiles only after exact domain, legal operator, licence/product scope, territory, terms, withdrawal policy, complaint route, safer-gambling tools and evidence date are verified from primary sources.
 
 ## Growth principles
@@ -50,7 +50,7 @@ These are checkpoints, not promised deadlines or traffic forecasts.
 
 ## Existing work added in this iteration
 
-The public source tree contains an educational library of guides and tools. The current public sitemap contains 34 URLs; see the live sitemap for the exact set:
+The public source tree contains an educational library of guides and tools. The current public sitemap contains 35 URLs; see the live sitemap for the exact set:
 - Return to player (RTP), explained.
 - RTP vs volatility.
 - Casino withdrawal verification: what to check.
@@ -86,7 +86,7 @@ These are educational pages, not casino recommendations. Publisher identity, pri
 
 ### Current measurable starting point
 
-As of 21 October 2026, the public sitemap contains 34 URLs and `robots.txt` allows crawling. Search Console connector data returned no rows for the previous 28-day Search Analytics query and its sitemap report reflected an earlier 32-URL submission; the latest 34-URL sitemap still needs submission/verification. This means there is not yet a reliable performance baseline in the available report. It does not prove that zero URLs are indexed.
+As of 21 October 2026, the public sitemap contains 35 URLs and `robots.txt` allows crawling. Search Console connector data returned no rows for the previous 28-day Search Analytics query and its sitemap report reflected an earlier 32-URL submission; the latest 35-URL sitemap still needs submission/verification. This means there is not yet a reliable performance baseline in the available report. It does not prove that zero URLs are indexed.
 
 ### Release stop conditions
 
