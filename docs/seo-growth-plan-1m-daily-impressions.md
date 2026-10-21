@@ -1,6 +1,6 @@
 # SEO growth plan — 100,000,000 daily Google Search impressions
 
-**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. This is an ambition, not a forecast or guarantee. No baseline Search Console data is available yet, the domain is not confirmed live, and no pages should be described as indexed until verified.
+**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 34-URL sitemap are verified and public crawling is allowed. The available Search Console performance connector returned no rows for the previous 28 days, and actual index coverage has not been verified.
 
 ## What the metric means
 
@@ -50,13 +50,15 @@ These are checkpoints, not promised deadlines or traffic forecasts.
 
 ## Existing work added in this iteration
 
-Four original guides have been added to the public source tree and linked from the Guides library and sitemap:
+The public source tree contains an educational library of guides and tools. The current public sitemap contains 34 URLs; see the live sitemap for the exact set:
 - Return to player (RTP), explained.
 - RTP vs volatility.
 - Casino withdrawal verification: what to check.
 - How to evaluate casino complaint data.
+- How to read casino regulatory actions.
+- Casino withdrawal terms: fees, limits and delays.
 
-They are educational pages, not casino recommendations. They do not establish that the site is ready to launch; privacy, legal, domain, live-host, accessibility and editorial gates remain open.
+These are educational pages, not casino recommendations. Publisher identity, privacy/legal, hosting/billing and market-specific eligibility gates remain open for scored casino reviews or commercial promotion.
 
 ## Operating cadence after launch
 
