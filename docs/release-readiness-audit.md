@@ -115,3 +115,12 @@ This addendum supersedes older descriptions of the site as only an educational r
 - Combined source/build/artifact CI passed after the review-hub metadata correction: [run 39497109055](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497109055). Later source-notice changes also passed CI, including [run 39497391660](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39497391660).
 
 The release decision remains **BLOCKED**. Name/trademark clearance, verified publisher/legal disclosure, privacy and data-protection review, host selection and account verification, market-specific commercial/legal review, manual browser/mobile/accessibility tests, live-host checks, and explicit owner approval for deployment/indexing remain outstanding. 
+
+
+## Follow-up verification — 21 October 2026
+
+- Latest GitHub Actions run checked during this review: [run 39571873550](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39571873550), commit `0e5f31e317ce49d31e96760040085a0a8eadc9b1` — **completed successfully**.
+- Its job steps passed source HTML/local-link checks, shared JavaScript syntax checks, Vercel configuration validation, public-only artifact build, internal-file exclusion, and Chromium smoke tests. The browser run reports 20 public routes at six viewport widths, automated axe WCAG 2.1 A/AA scans, accessibility smoke checks, mobile navigation, calculator edge cases, checklist progress/reset, and no page errors. This remains automated pre-launch evidence, not live-host QA or a manual accessibility/legal sign-off.
+- Read-only Vercel context still shows no project linked to the selected team. A lookup for `beincasinos.online` in that Vercel account returned not found, which means it has not been added there; it does **not** establish registrar status or DNS state at Spaceship.
+- Official Vercel fair-use guidance states Hobby is for personal/non-commercial use and commercial usage requires Pro or Enterprise. The planned paid-listing/affiliate business must not be launched on Hobby. Source: https://vercel.com/docs/limits/fair-use-guidelines.
+- Release decision remains **BLOCKED**. No Vercel project was created, no plan changed, no DNS was changed, and no public deployment or indexing action was performed.
