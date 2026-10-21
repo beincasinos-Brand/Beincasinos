@@ -582,6 +582,10 @@ if master_tracker.exists():
             duplicates = sorted(name for name in set(names) if name and names.count(name) > 1)
             if duplicates:
                 errors.append("docs/tier-1-master-prospect-tracker.csv: duplicate brand name(s): " + ", ".join(duplicates))
+            category_rows = {"france online casino category", "australia online casino category"}
+            brand_count = sum(1 for name in names if name and name not in category_rows)
+            if brand_count < 100:
+                errors.append(f"docs/tier-1-master-prospect-tracker.csv: expected at least 100 brand-name research leads, found {brand_count}")
             allowed_markets = {"AU", "US", "US-NJ", "US-ME", "US-PA", "US-MI", "FR", "DE", "CH", "GB", "NL"}
             allowed_publication_status = {"Hold", "Exclude", "Approved"}
             for index, row in enumerate(rows, start=2):
