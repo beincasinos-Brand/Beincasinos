@@ -80,3 +80,26 @@ Source for discovery leads: https://britishgambler.co.uk/casino/new/ (reported t
 3. Check the relevant operator's official corporate/affiliate contact route only after the basic legal-entity and market evidence has been reviewed. Do not infer buyer intent from a launch, platform supplier, or affiliate programme.
 4. Any outreach must be individually approved, truthful about BeInCasinos' pre-launch status, and must not promise traffic, rankings, favourable scores, or guaranteed inclusion.
 5. UK verification does not grant permission for US states, France, Germany, Switzerland, Netherlands or Australia. Apply each market's separate gate; France and Australia remain blocked for online-casino promotion under the current internal launch policy.
+
+
+## 2024–2025 additional discovery batch — secondary-source leads only
+
+The following names appeared in specialist new-launch trackers. They expand the research queue but have not passed exact-domain, legal-entity, licence-scope or regulatory-history review. Use these sources only to discover candidates; do not cite them as the final basis for a public legal-status claim.
+
+| Candidate | Reported launch window | Discovery source | Status / next action |
+|---|---|---|---|
+| Neptune Play | 2024 | https://georgianeuroscience.com/ (third-party tracker; low confidence source) | HOLD. Locate primary launch evidence and match exact domain/legal entity to current UKGC records before further consideration. |
+| PricedUp Casino | 2024 | https://georgianeuroscience.com/ (third-party tracker; low confidence source) | HOLD. Require primary launch evidence and current UKGC exact-domain and remote-casino permission check. |
+| DragonBet Casino | 2023 | https://newcasinosites.co.uk/ | HOLD. Verify launch date, legal operator, exact domain and current UKGC casino permissions. |
+| Bally Casino UK | 2024 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify current legal entity, domain, product scope and UKGC register evidence; launch date is secondary-source only. |
+| Rose Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify the exact trading name/domain and licence holder in UKGC records; do not assume a shared account number alone proves every domain's status. |
+| O'Reels Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify the exact trading name/domain and licence holder in UKGC records; do not assume a shared account number alone proves every domain's status. |
+| BetMaze Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify legal operator, exact domain and current UKGC casino permission. |
+| Puntit Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify legal operator, exact domain and current UKGC casino permission. |
+| LuckyMate Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify legal operator, exact domain and current UKGC casino permission. |
+| Lottoland Casino | 2025 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Confirm whether this is a materially new casino product/brand versus an extension of an existing operator, and verify exact-domain permission. |
+| Casino Kings | 2024 | https://www.bonusfinder.co.uk/online-casinos/new | HOLD. Verify exact domain, legal operator, launch evidence and current UKGC casino permission. |
+| Casiku | 2024 | https://www.bonusfinder.co.uk/online-casinos/new | HOLD. Verify exact domain, legal operator, launch evidence and current UKGC casino permission. |
+| Mega Riches Casino | 2024 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify whether the 2024 entry reflects a genuine launch, a relaunch or a new white-label domain; confirm exact-domain permission. |
+
+**Research discipline:** the candidate list is not a sales forecast. No willingness-to-pay, commercial contact permission, or live partner relationship is established by a secondary launch tracker. A candidate stays `hold` until primary evidence and the relevant market gate are recorded.
