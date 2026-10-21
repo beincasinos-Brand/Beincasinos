@@ -1,40 +1,38 @@
-# Hosting decision note — 20 October 2026
+# Hosting decision — Vercel selected
 
-**Recommendation: evaluate Netlify Free only for a private preview/staging build; do not treat it as the production plan for a commercial site with ambitious growth goals. Choose the production tier after a realistic traffic/cost estimate and current acceptable-use review. Do not deploy publicly until launch blockers are closed and the owner explicitly approves publishing.** This is a documented recommendation, not a completed account setup or provider acceptance.
+**Provider decision:** Vercel is the selected hosting platform for BeInCasinos.
+**Deployment status:** not connected, not deployed, and not public.
+**Current account finding:** the connected team is **BeinCasinos** (slug: bein-casinos), on the **Hobby** plan, with no linked projects. Verified by read-only account inspection on 21 October 2026.
 
-## Current account checks
+## Plan and commercial-use gate
 
-A read-only inspection of the connected Vercel context on 20 October 2026 returned a team on the Hobby plan with no linked projects. No project was created and no deployment was made.
+Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial use and explicitly describe affiliate-link sites whose primary purpose is affiliate linking as commercial use: https://vercel.com/docs/limits/fair-use-guidelines
 
-Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial use and explicitly include affiliate-link sites whose primary purpose is affiliate linking among commercial examples: https://vercel.com/docs/limits/fair-use-guidelines . Therefore, do not deploy the intended paid-listing/affiliate business on that Hobby team. Vercel Pro is a paid alternative, but no subscription or upgrade is approved.
+Therefore, **do not deploy the planned commercial BeInCasinos directory to the current Hobby team**. The expected path is Vercel Pro or another Vercel plan whose current terms explicitly permit the planned paid-listing and affiliate business. Before upgrading, review current price, usage/billing terms, limits, and relevant acceptable-use terms at https://vercel.com/pricing. No upgrade, purchase, or billing change has been made.
 
-## Candidate comparison
+The owner has selected Vercel, so provider choice is no longer open. Plan/billing approval remains a separate consequential step and does not block code, content, SEO, or test preparation.
 
-| Option | Current published plan facts checked | Fit for this project | Limit / caution |
-|---|---|---|---|
-| Netlify Free | Official pricing lists $0/month, custom domains with SSL, global CDN, and a 300-credit monthly hard limit: https://www.netlify.com/pricing/ . Netlify's official announcement says the Free plan supports commercial projects: https://www.netlify.com/blog/introducing-netlify-free-plan/ | Suitable for private preview/staging and smoke-testing while keeping recurring spend at $0 | If the credit limit is reached, projects can pause until the next cycle. Not recommended as a production commitment until realistic traffic is forecast; confirm current terms and acceptable-use policy for this gambling-information business. No provider acceptance has been obtained. |
-| Vercel Hobby | Official policy restricts Hobby to personal/non-commercial use: https://vercel.com/docs/limits/fair-use-guidelines | Not suitable for the planned commercial site on the currently connected Hobby team | Do not use Hobby for the paid-listing/affiliate business. |
-| Vercel Pro | Official pricing and current plan terms: https://vercel.com/pricing | Technically viable if owner prefers to stay on Vercel and approves the recurring cost | Paid plan; price and usage terms must be reviewed at decision time. No upgrade made. |
+## Repository configuration
 
-## Prepared repository state
+- Repository: beincasinos-Brand/Beincasinos, branch main.
+- vercel.json runs python3 scripts/build_site.py and publishes dist.
+- The build script uses an explicit allowlist and copies only the public static site into dist; internal prospect research, dossiers, source scripts and documentation are not published as output.
+- Clean URLs and trailing slashes are enabled.
+- Security headers and a same-origin Content Security Policy are configured in vercel.json.
+- A permanent www.beincasinos.online to https://beincasinos.online redirect is configured and validated in CI.
+- robots.txt remains set to Disallow: / for pre-launch; do not remove until the launch gate is intentionally cleared.
+- GitHub Actions checks source HTML, JavaScript syntax, Vercel configuration, the public-only artifact and Chromium/accessibility smoke tests. These checks do not create a Vercel project, verify live response headers, or authorize deployment.
 
-- `netlify.toml` now runs `python3 scripts/build_site.py`, publishes only `dist/`, and defines baseline security headers including a Content Security Policy (CSP).
-- `vercel.json` remains in place as an alternative-host configuration with matching security headers.
-- The CSP now uses `script-src 'self'` and `style-src 'self'`, with no inline-script or inline-style allowances. Calculator/checklist logic and tool-page styles were moved to same-origin JavaScript/CSS files; inline style attributes were replaced with CSS classes. Both the source checker and public-artifact checker fail if an HTML page reintroduces inline scripts, style blocks, or style attributes; the artifact checker also requires the external tool JS/CSS files. A Chromium context simulates the strict CSP and exercises the navigation and both tools. This is a strict same-origin baseline for the current static pages; deployed response headers still need live verification.
-- CI runs `scripts/check_host_config.py` to parse the Vercel JSON, validate the expected headers in both host configurations, and detect drift before a deployment. Passing this check verifies configuration text only; deployed response headers still require testing on the chosen host.
-- CI successfully built the public-only artifact and checked it for leaks on commit `76f7a5f3f24d2f29f2197f757f4f663650ca452`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39488962203.
-- Neither configuration changes DNS, creates a hosting account, deploys the website, enables indexing, or verifies that the production domain resolves.
+## Deployment sequence — when the final stage is authorized
 
-## Recommended production path and pre-deploy gates
+1. Clear non-deployment launch gates: name/trademark review, publisher/contact verification, market/legal review, privacy/disclosure readiness, and publication eligibility for any operator profiles.
+2. Confirm an appropriate Vercel commercial plan and billing/usage budget.
+3. Create/link the Vercel project to the GitHub repository in the intended team, using the existing vercel.json. Avoid enabling production deployment until the owner is ready for that final stage.
+4. Set build command to python3 scripts/build_site.py and output directory to dist; confirm no framework preset overrides the static build.
+5. Use a preview/staging deployment first when authorized, keeping crawling blocked. Test all routes/tools, 404 status, CSP and security headers, HTTPS, redirects, canonical URLs, mobile layout and absence of internal files.
+6. Configure the custom domain in Vercel and then apply only the exact DNS records Vercel supplies in Spaceship; preserve existing mail-related records.
+7. After explicit public-launch approval, perform production deployment, re-run live acceptance tests, remove the crawl block only when approved, and only then verify Search Console and submit the sitemap.
 
-- [ ] Resolve the BeInCasinos / “BEIN” trademark-name question before public launch.
-- [ ] Verify domain registration, renewal, and DNS access in Spaceship.
-- [ ] Confirm the publisher identity and monitored contact route.
-- [ ] Review the first actual launch market and every commercial content/placement against current primary sources and qualified legal advice where needed.
-- [ ] Finalize privacy, disclosures, corrections, and responsible-gambling resources.
-- [ ] Test the site locally and in a real browser at desktop/mobile sizes.
-- [ ] Default technical recommendation: use Netlify as the production target on a commercial-capable plan, subject to the owner approving current price/usage budget and connecting the account. Netlify Free remains preview/staging only; Vercel Hobby is not suitable for this commercial project.
-- [ ] Deploy a private/preview build first if the provider supports it; verify HTTPS, redirects, headers, tools, assets, and 404 before public release.
-- [ ] Keep indexing blocked until explicit launch approval.
+## Not done
 
-**Current status: prepared only. Recommended technical target is Netlify on a production-suitable commercial plan, pending owner approval of the plan cost and account connection. No hosting provider has been connected, no subscription has been purchased, and no DNS or deployment action has occurred. Netlify Free is preview/staging only.**
+No Vercel project was created, no Git integration was enabled, no deployment was made, no paid plan was purchased, no DNS was changed, no Search Console submission was made, and no brand outreach was sent.
