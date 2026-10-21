@@ -132,3 +132,10 @@ The release decision remains **BLOCKED**. Name/trademark clearance, verified pub
 - No new candidate is marked as willing to pay. The commercial-signal and willingness-to-pay fields remain unknown/unconfirmed unless direct evidence is obtained. No outreach was sent.
 - The source/build/browser workflow completed successfully on commit `efe961b0b0c2d77ad5ecefc81c4402e310f85d17` (run [39572711263](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39572711263)). The subsequent tracker/documentation commits trigger new CI runs; their final conclusions must be checked before treating the newest repository state as verified.
 - Release remains **BLOCKED**. No project was created in Vercel, no plan was purchased, no DNS changed, no public deployment/indexing performed, and no external outreach sent.
+
+
+## Follow-up — 21 October 2026
+
+The latest CI run at https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39573291872 passed all substantive steps, including source/local-link validation, shared JavaScript syntax, Vercel configuration, public-only artifact assembly, internal-file exclusion, Chromium smoke tests, and sanitized artifact storage. The tracker checker also enforces at least 100 brand-name research leads (excluding the two category-level restriction rows). These checks are not live production tests and do not verify that prospects are real/current, licensed for a specific market, or willing to pay. Grade-C leads remain `Hold` until primary sources establish exact domain, operator, current market permission, and launch/event facts. No fee-paying buyer is confirmed.
+
+The release decision remains **BLOCKED**. Name/trademark review, actual domain/registrar verification, publisher identity/contact readiness, privacy and market-specific legal review, Vercel commercial-plan decision, and manual/live-host acceptance tests remain outstanding. No deployment, DNS change, public indexing, or brand outreach was performed.
