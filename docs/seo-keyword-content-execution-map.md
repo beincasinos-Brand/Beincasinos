@@ -62,10 +62,13 @@ External fetch verification of the public site found:
 - Homepage resolves at `https://beincasinos.online/`; the canonical and Open Graph URL both point to the apex hostname.
 - `https://www.beincasinos.online/` resolves to the apex homepage.
 - `/robots.txt` is retrievable, allows crawling, and declares `https://beincasinos.online/sitemap.xml`.
-- `/sitemap.xml` is retrievable and lists 37 canonical apex URLs, including the guide index, review-methodology page, two educational tools, legal/transparency pages and guide pages.
-- The live guide index presents a broad educational library; the review directory clearly says no profiles are currently scored or ranked and that the directory is in development. Preserve this honest disclosure until reviews actually pass publication checks.
+- `/sitemap.xml` is retrievable and lists 38 canonical apex URLs, including the new `/guides/brand-name-vs-legal-operator/` guide.
+- The new guide is live and its canonical, Open Graph title/description and page content were externally retrieved. It explains matching a brand/domain to the legal operator, regulator record, permitted product and jurisdiction without endorsing any unverified operator.
+- The guide index now links to the new page, and the review directory links to it as supporting identity-verification guidance.
+- The latest repository CI for commit `3ec73bd26c32095fb3abfc95efd3066ce108bda4` passed static site checks and read-only Cloudflare diagnostics. This verifies automated checks and diagnostics, not a new production deployment.
+- The review directory continues to state that no profiles are currently scored or ranked and that the directory is in development. Preserve this disclosure until reviews actually pass publication checks.
 
-This is an HTTP/content retrieval check only; it does not confirm Google indexing, rankings, Search Console ownership, impressions or clicks.
+This is an HTTP/content retrieval and CI check only; it does not confirm Google indexing, rankings, Search Console ownership, impressions or clicks.
 
 ## Next content sprint — evidence before volume
 
