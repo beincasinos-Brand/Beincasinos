@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Temporary pre-launch block. Remove only after domain, legal, affiliate and privacy checks are complete.
+Sitemap: https://beincasinos.online/sitemap.xml
