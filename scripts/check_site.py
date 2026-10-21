@@ -582,7 +582,7 @@ if master_tracker.exists():
             duplicates = sorted(name for name in set(names) if name and names.count(name) > 1)
             if duplicates:
                 errors.append("docs/tier-1-master-prospect-tracker.csv: duplicate brand name(s): " + ", ".join(duplicates))
-            allowed_markets = {"AU", "US", "US-NJ", "US-ME", "US-PA", "FR", "DE", "CH", "GB", "NL"}
+            allowed_markets = {"AU", "US", "US-NJ", "US-ME", "US-PA", "US-MI", "FR", "DE", "CH", "GB", "NL"}
             allowed_publication_status = {"Hold", "Exclude", "Approved"}
             for index, row in enumerate(rows, start=2):
                 market = row.get("market", "").strip()
