@@ -25,6 +25,8 @@ For each item, record status (NOT STARTED, IN PROGRESS, PASS, BLOCKED, or NOT AP
 
 ## Gate C — legal, market, and privacy readiness
 
+- [ ] Complete the market-by-market screening in `docs/tier-1-market-compliance-gate-2026-10-21.md`, then obtain qualified review and attach dated evidence for each intended market/product. The screening matrix is not legal clearance; do not treat a country as approved merely because a regulator page has been collected.
+
 - [ ] Obtain jurisdiction-specific review of publisher obligations, gambling-related advertising, affiliate disclosures, consumer-protection rules, and age/market restrictions.
 - [ ] Approve a concrete launch-market list rather than treating “international” as blanket permission. Current intended research markets are AU, US, FR, DE, CH, GB, and NL; each needs separate analysis.
 - [ ] Do not present offshore gambling products as locally lawful or available unless primary-source evidence and qualified review support that exact claim.
