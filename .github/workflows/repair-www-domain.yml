@@ -75,25 +75,12 @@ jobs:
           if not zones:
               raise RuntimeError("Cloudflare zone beincasinos.online was not found; refusing to change DNS.")
           zone_id = zones[0]["id"]
-          records = api("GET", f"/zones/{zone_id}/dns_records?name=www.beincasinos.online&per_page=100")
-          records = records if isinstance(records, list) else []
-          if records:
-              matching = [r for r in records if r.get("type") == "CNAME" and r.get("content", "").rstrip(".") == subdomain.rstrip(".")]
-              if matching:
-                  rec = matching[0]
-                  if rec.get("proxied") is not True:
-                      api("PUT", f"/zones/{zone_id}/dns_records/{rec['id']}",
-                          {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
-                      print("Updated the existing www CNAME to the project target and enabled Cloudflare proxy.")
-                  else:
-                      print("Existing www CNAME already targets the Pages project and is proxied.")
-              else:
-                  details = [{"type": r.get("type"), "content": r.get("content")} for r in records]
-                  raise RuntimeError("Conflicting www DNS records exist; none were deleted or overwritten: " + json.dumps(details))
-          else:
-              api("POST", f"/zones/{zone_id}/dns_records",
-                  {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
-              print("Created a proxied www CNAME to the existing Pages project.")
+          # Public DNS diagnostics returned NXDOMAIN for www. Attempt create-only:
+          # this cannot overwrite or delete an existing record. If a record already
+          # exists, Cloudflare rejects the duplicate and this job stops safely.
+          api("POST", f"/zones/{zone_id}/dns_records",
+              {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
+          print("Created a proxied www CNAME to the existing Pages project.")
           print("Pages project:", project)
           print("Target:", subdomain)
           print("Domain binding and DNS repair request completed. Public DNS propagation and HTTP redirect must still be verified separately.")
