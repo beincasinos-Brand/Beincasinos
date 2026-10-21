@@ -5,9 +5,11 @@
 
 The source repository already has a passing automated build/browser-smoke record. Do not repeat source changes merely to make the project look more complete while the actual launch gates remain unresolved.
 
-## Latest automated evidence — 21 October 2026, 13:16 UTC
+## Automated evidence — updated 21 October 2026, 23:00 UTC
 
-The full GitHub Actions workflow passed on commit `41c01a57ba2d7923b5fe67389e35be322fe0c79a`: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39606573744. The run covers source/local-link checks, sales-pipeline hard gates and regression tests, JavaScript syntax, Vercel configuration, public-only artifact leakage, and Chromium browser smoke tests. It is not a live deployment or legal/privacy review.
+- Last fully completed successful static-check run before the latest content updates: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39689501457 on commit `c2c937816daccef6e4dcbb0ef9d5a2660640d5d2`. That run passed the HTML/local-link checks, sales-pipeline checks, JavaScript syntax, build/security configuration, public-only artifact check, Chromium smoke tests, and artifact storage.
+- A later withdrawal-guide update introduced a mobile horizontal-overflow failure at 320px; the failure was traced to the new comparison table. Responsive table CSS was added in commit `e003f755069410e446ffdd3428f578327af3f220`, and later runs are checking the fix alongside subsequent documentation changes. The latest static-check run for the current source commit is not yet complete, so do not mark that expanded release as fully passed.
+- The latest completed read-only Cloudflare diagnostic, https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39689728447, passed DNS, token validation and Pages deployment inspection. These checks do not establish Google indexing or clear legal/privacy gates.
 
 The README and project completion board point to the latest successful source-check run noted above. The Vercel team still has no linked project. On 21 October 2026, the owner explicitly requested full-site discoverability and the public robots.txt was changed to Allow: /; the 34-URL sitemap is live. This permits crawling but does not prove Google has indexed any URL. Search Console currently reports a prior sitemap submission of 32 URLs; the updated 34-URL sitemap still needs resubmission/verification. The Search Console connector is read-only and browser resubmission is blocked until the TinyFish wallet is topped up. DNS was not edited, no paid hosting plan was purchased, and no prospect outreach was sent. Scored casino reviews and commercial promotion remain blocked until the evidence and owner-controlled decisions below are resolved.
 
