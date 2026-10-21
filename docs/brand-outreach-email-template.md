@@ -12,7 +12,7 @@ I'm contacting you on behalf of [publisher/legal entity], which is developing Be
 
 We are currently researching operators and documenting official terms, permitted markets, payment/withdrawal information, complaints routes, and safer-gambling resources. We are not presenting this enquiry as an endorsement or a statement about your regulatory status.
 
-Once the site has a meaningful, measured audience, we may offer clearly labelled paid listings. Any paid placement would be identified as advertising and would not buy a positive editorial verdict or change factual review criteria. We are not promising traffic, rankings, conversions, or launch dates.
+Once the site has a meaningful, measured audience, we may explore clearly labelled fixed-fee listings. Depending on the operator's programme rules, market eligibility, legal review, and our ability to measure results responsibly, future discussions may also consider CPA, revenue-share, or hybrid arrangements. These are possibilities to research, not current offers or agreed terms. Any paid placement would be identified as advertising and would not buy a positive editorial verdict or change factual review criteria. We are not promising traffic, rankings, conversions, or launch dates.
 
 If your team handles directory listings or media partnerships, could you point me to the appropriate contact and share any official media-kit, brand-use, market eligibility, and compliance requirements?
 
