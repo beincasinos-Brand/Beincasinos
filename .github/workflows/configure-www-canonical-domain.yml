@@ -1,0 +1,175 @@
+name: Configure www canonical domain
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/configure-www-canonical-domain.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: configure-www-canonical-domain
+  cancel-in-progress: false
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Add www to Cloudflare Pages and create only the missing DNS record
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          EDIT_ZONE_DNS: ${{ secrets.EDIT_ZONE_DNS }}
+          CF_ACCOUNT_ID: "9440004e4a97e4634ba5146c55ceafb2"
+          CF_PROJECT: "beincasinos"
+          CF_ZONE_NAME: "beincasinos.online"
+          WWW_NAME: "www.beincasinos.online"
+          WWW_TARGET: "beincasinos.pages.dev"
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          token = os.environ.get("CLOUDFLARE_API_TOKEN") or os.environ.get("EDIT_ZONE_DNS")
+          if not token:
+              print("ERROR: no Cloudflare token is available to this workflow.")
+              sys.exit(1)
+
+          base = "https://api.cloudflare.com/client/v4"
+          account = os.environ["CF_ACCOUNT_ID"]
+          project = os.environ["CF_PROJECT"]
+          zone_name = os.environ["CF_ZONE_NAME"]
+          www_name = os.environ["WWW_NAME"]
+          target = os.environ["WWW_TARGET"]
+
+          def api(method, path, payload=None):
+              data = None if payload is None else json.dumps(payload).encode()
+              req = urllib.request.Request(
+                  base + path,
+                  data=data,
+                  method=method,
+                  headers={
+                      "Authorization": "Bearer " + token,
+                      "Accept": "application/json",
+                      "Content-Type": "application/json",
+                  },
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      return resp.status, json.load(resp)
+              except urllib.error.HTTPError as exc:
+                  try:
+                      body = json.loads(exc.read().decode("utf-8", "replace"))
+                  except Exception:
+                      body = {}
+                  messages = [
+                      item.get("message", "API error")
+                      for item in (body.get("errors") or [])
+                      if isinstance(item, dict)
+                  ]
+                  print(f"Cloudflare API {method} {path}: HTTP {exc.code}; " +
+                        ("; ".join(messages) if messages else "request failed"))
+                  return exc.code, body
+
+          def require_success(status, body, label):
+              if status < 200 or status >= 300 or not body.get("success"):
+                  raise RuntimeError(label + " failed; no further changes will be attempted.")
+
+          # Verify token and locate the authoritative zone.
+          status, body = api("GET", "/user/tokens/verify")
+          require_success(status, body, "Token verification")
+          print("Cloudflare token verified.")
+          status, body = api("GET", "/zones?" + urllib.parse.urlencode({
+              "name": zone_name, "per_page": 1
+          }))
+          require_success(status, body, "Zone lookup")
+          zones = body.get("result") or []
+          if not zones:
+              raise RuntimeError("The target zone is not visible to this token.")
+          zone_id = zones[0]["id"]
+          print("Target zone located.")
+
+          # Inspect the Pages project before changing DNS.
+          project_path = f"/accounts/{account}/pages/projects/{project}"
+          status, body = api("GET", project_path)
+          require_success(status, body, "Pages project lookup")
+          print("Cloudflare Pages project located.")
+
+          domains_path = project_path + "/domains"
+          status, body = api("GET", domains_path)
+          require_success(status, body, "Pages custom-domain lookup")
+          domains = body.get("result") or []
+          attached = any(
+              isinstance(item, dict) and item.get("name", "").lower() == www_name
+              for item in domains
+          )
+
+          if not attached:
+              status, body = api("POST", domains_path, {"name": www_name})
+              if status < 200 or status >= 300 or not body.get("success"):
+                  raise RuntimeError(
+                      "Could not attach www to Pages. DNS was not changed; review the API error above."
+                  )
+              print("Requested www custom domain attachment in Pages.")
+          else:
+              print("www is already listed as a Pages custom domain.")
+
+          # Only create a record if no DNS records exist for this exact hostname.
+          records_path = "/zones/" + zone_id + "/dns_records?" + urllib.parse.urlencode({
+              "name": www_name, "per_page": 100
+          })
+          status, body = api("GET", records_path)
+          require_success(status, body, "www DNS lookup")
+          records = body.get("result") or []
+          if records:
+              matches = [
+                  r for r in records
+                  if r.get("type") == "CNAME"
+                  and r.get("content", "").rstrip(".").lower() == target
+              ]
+              conflicts = [r for r in records if r not in matches]
+              if conflicts:
+                  kinds = ", ".join(
+                      f"{r.get('type', '?')} {r.get('name', '?')}"
+                      for r in conflicts
+                  )
+                  raise RuntimeError(
+                      "Existing www DNS records conflict (" + kinds +
+                      "); no existing record was overwritten or deleted."
+                  )
+              if not matches:
+                  raise RuntimeError("Unexpected www DNS state; no records were changed.")
+              print("Correct www CNAME already exists; no DNS write needed.")
+          else:
+              status, body = api("POST", f"/zones/{zone_id}/dns_records", {
+                  "type": "CNAME",
+                  "name": www_name,
+                  "content": target,
+                  "ttl": 1,
+                  "proxied": True,
+                  "comment": "BeInCasinos canonical www hostname to Cloudflare Pages",
+              })
+              require_success(status, body, "Creating missing www CNAME")
+              print("Created the missing www CNAME to the Pages project.")
+
+          # Final read-back: report record presence, not secrets or raw API bodies.
+          status, body = api("GET", records_path)
+          require_success(status, body, "Final DNS verification")
+          final_records = body.get("result") or []
+          if not any(
+              r.get("type") == "CNAME"
+              and r.get("content", "").rstrip(".").lower() == target
+              for r in final_records
+          ):
+              raise RuntimeError("Final DNS verification did not find the expected CNAME.")
+          print(f"SUCCESS: {www_name} is attached/listed in Pages and the expected CNAME exists.")
+          print("DNS propagation and the live HTTP 301 redirect still require a later public check.")
+          PY
