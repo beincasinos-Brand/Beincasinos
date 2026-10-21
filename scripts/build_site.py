@@ -9,6 +9,7 @@ CLOUDFLARE_HEADERS = "cloudflare/_headers"
 
 PUBLIC_FILES = (
     "index.html",
+    "google05b7a00eb84d7acb.html",
     "404.html",
     "favicon.svg",
     "robots.txt",
