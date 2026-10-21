@@ -29,7 +29,7 @@
 
 - [x] Confirm the intended Cloudflare account and GitHub repository; Pages project `beincasinos` exists and is connected to `beincasinos-Brand/BeIncasinos`, branch `main`.
 - [x] Configure the build command as `python3 scripts/build_site.py` and build output directory as `dist`.
-- [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the latest repository site-check workflow passed (run 39636460758, commit `2cac7e8c7d41fb5c2a4aa473fe62fb2879595620`). This is a CI result, not proof that the Cloudflare Pages deployment is current.
+- [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the latest repository site-check workflow passed (run `39642398172`, commit `acee13c10671aa45fa556e950db01adc4042fbfe`; [workflow run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39642398172)). This is a CI result, not proof that the Cloudflare Pages deployment is current.
 - [x] Keep `robots.txt` blocked while production checks remain incomplete. The Pages project's Custom Domains screen has no custom domains listed; the apex custom domain still needs to be added through Pages after DNS is reconciled. Do not enable public indexing during this gate.
 - [x] **Deployment freshness discrepancy rechecked 2026-10-21:** after the follow-up repository commits, the live `https://beincasinos.pages.dev/sitemap.xml` returned 32 URLs and included `/guides/casino-affiliate-deal-models/` on a cache-busting fetch. The specific sitemap mismatch is resolved in the preview. Production domain, HTTPS and the remaining launch gates are still unverified; do not treat preview success as production-domain confirmation.
 - [ ] Verify HTTPS, all CSS/JS assets, calculator and checklist under the real response headers, CSP, HSTS and other security headers, canonical URLs, 404 status and mobile layout.
@@ -41,7 +41,9 @@
 
 - [ ] Confirm Gate A is cleared and the owner explicitly authorizes public deployment.
 - [ ] Verify nameserver propagation and DNSSEC/DS records first. Nameservers were already submitted in Spaceship; if DNSSEC is enabled at the registrar, reconcile its DS record with Cloudflare before troubleshooting TLS.
-- [ ] Resolve the conflicting apex A records (`54.149.79.189`, `34.216.117.25`) using the exact Cloudflare Pages custom-domain instructions. Add `beincasinos.online` in Pages Custom Domains and confirm the generated DNS guidance. Preserve any mail-related records; none were visible during the dashboard inspection, so do not invent mail records or delete records blindly.
+- [ ] In Cloudflare Dashboard → Workers & Pages → `beincasinos` → Custom domains, add `beincasinos.online`. Follow the exact DNS instructions shown by Pages; do not substitute guessed A/CNAME values.
+- [ ] Resolve the conflicting apex A records (`54.149.79.189`, `34.216.117.25`) only after Pages displays the required target and the owner confirms whether domain email is expected. Preserve any mail-related records; none were visible during the dashboard inspection, so do not invent mail records or delete records blindly.
+- [ ] After apex validation succeeds, add `www.beincasinos.online` as a custom domain or configure a host-aware redirect using Cloudflare's supported redirect mechanism. Verify the redirect preserves the full path and query string and ends at `https://beincasinos.online`.
 - [ ] Configure a host-aware permanent redirect from `www.beincasinos.online` to `https://beincasinos.online`, and verify it live.
 - [ ] Re-run launch acceptance checks on the live host, including real HTTP response headers and every public route/tool.
 - [ ] Only after explicit launch approval, remove the `Disallow: /` pre-launch block from `robots.txt` and verify intended indexability.
