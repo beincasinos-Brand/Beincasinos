@@ -5,6 +5,12 @@
 
 The source repository already has a passing automated build/browser-smoke record. Do not repeat source changes merely to make the project look more complete while the actual launch gates remain unresolved.
 
+## Latest automated evidence — 21 October 2026, 13:16 UTC
+
+The full GitHub Actions workflow passed on commit `41c01a57ba2d7923b5fe67389e35be322fe0c79a`: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39606573744. The run covers source/local-link checks, sales-pipeline hard gates and regression tests, JavaScript syntax, Vercel configuration, public-only artifact leakage, and Chromium browser smoke tests. It is not a live deployment or legal/privacy review.
+
+The README and project completion board now point to this latest passing run. The Vercel team still has no linked project. No deployment, DNS edit, paid-plan purchase, indexing, or prospect outreach has been performed. Keep release blocked until the evidence and owner-controlled decisions below are resolved.
+
 ## What is already prepared
 
 - Static HTML/CSS/JavaScript site with 23 planned indexable content routes, a public-only build allowlist, canonical metadata, sitemap, crawl block, security-header configuration, and a configured Vercel build.
