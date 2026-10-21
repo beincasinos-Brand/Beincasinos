@@ -2,7 +2,9 @@
 """Validate the internal paid-listing pipeline without treating prospects as approved."""
 import csv
 import sys
+from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACKER = ROOT / "docs" / "paid-listing-sales-pipeline.csv"
@@ -72,6 +74,41 @@ for line, row in enumerate(rows, start=2):
                 errors.append(f"{label} {brand}: won requires {field}=yes")
     if stage in {"qualified", "draft_ready", "proposal_sent", "won"} and qual != "pass":
         errors.append(f"{label} {brand}: stage {stage} requires qualification_status=pass")
+
+    # Once research or outreach begins, require traceable primary-source URLs.
+    if stage not in {"not_contacted", "do_not_contact"}:
+        for field in ("official_contact_source", "source_evidence_url"):
+            value = (row.get(field) or "").strip()
+            parsed = urlparse(value)
+            if not value or parsed.scheme != "https" or not parsed.netloc:
+                errors.append(f"{label} {brand}: {stage} requires a valid HTTPS {field}")
+
+    # Dates are recorded as ISO calendar dates in UTC (YYYY-MM-DD).
+    for field in ("first_contact_date_utc", "last_contact_date_utc", "next_action_date_utc", "term_start", "term_end"):
+        value = (row.get(field) or "").strip()
+        if value:
+            try:
+                parsed_date = date.fromisoformat(value)
+                if parsed_date.isoformat() != value:
+                    raise ValueError("not canonical ISO format")
+            except ValueError:
+                errors.append(f"{label} {brand}: {field} must use YYYY-MM-DD format")
+    first = (row.get("first_contact_date_utc") or "").strip()
+    last = (row.get("last_contact_date_utc") or "").strip()
+    if first and last:
+        try:
+            if date.fromisoformat(last) < date.fromisoformat(first):
+                errors.append(f"{label} {brand}: last_contact_date_utc cannot precede first contact")
+        except ValueError:
+            pass
+    start = (row.get("term_start") or "").strip()
+    end = (row.get("term_end") or "").strip()
+    if start and end:
+        try:
+            if date.fromisoformat(end) < date.fromisoformat(start):
+                errors.append(f"{label} {brand}: term_end cannot precede term_start")
+        except ValueError:
+            pass
 
 if errors:
     print(f"FAIL: {len(errors)} paid-listing pipeline issue(s)")
