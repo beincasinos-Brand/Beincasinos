@@ -35,3 +35,10 @@
 **No score assigned.** Do not publish a consumer profile until the exact operating entity, current terms, withdrawals, complaints, safer-gambling controls and regulatory history are reviewed. For white-label brands, distinguish the consumer-facing brand from the licensed operator.
 
 Do not use “best”, “safe”, “fast payouts”, or other comparative claims without dated evidence. Paid-listing willingness is unconfirmed; no outreach has been sent.
+
+
+## Supplemental primary-source review — 21 October 2026
+
+The current UK Gambling Commission licence summary lists Anakatech Interactive Limited (account 48789) with active remote Casino permission: https://www.gamblingcommission.gov.uk/public-register/business/detail/48789. Its domain record lists `7bet.co.uk` as **White Label**, not as an independently licensed operator domain: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/48789. The register currently records no trading names for this account: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/48789. The sanctions page says no regulatory actions are recorded for this business: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/48789.
+
+Interpretation: the licence/domain relationship is a useful current identity signal, but the white-label status means public wording must distinguish 7Bet from the licensed operator and must not imply 7Bet holds a standalone UKGC operator licence. No official primary-source launch date or paid-directory buying programme was verified in this pass. Current terms, payments/withdrawals, complaints, safer-gambling controls and brand-specific publication permission remain to be reviewed. Status remains **HOLD** and willingness to pay remains **Unconfirmed**.
