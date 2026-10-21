@@ -8,7 +8,7 @@ const routes = [
   "/guides/how-to-read-casino-terms/", "/guides/online-gambling-self-exclusion/",
   "/guides/what-wagering-requirements-mean/", "/guides/withdrawal-terms/",
   "/how-we-review/", "/market-research/", "/partners/", "/privacy/",
-  "/responsible-gambling/", "/reviews/", "/tools/terms-checklist/",
+  "/responsible-gambling/", "/reviews/", "/terms/", "/tools/terms-checklist/",
   "/tools/wagering-calculator/"
 ];
 
