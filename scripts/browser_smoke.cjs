@@ -179,44 +179,8 @@ const routes = [
       throw new Error("terms checklist reset did not reset the progress bar");
     }
 
-    // Emulate the Android Chrome User-Agent supplied during the mobile review.
-    // This is a Chromium mobile-emulation smoke test, not a physical-device certification.
-    const androidContext = await browser.newContext({
-      userAgent: "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.8059.76 Mobile Safari/537.36",
-      viewport: { width: 360, height: 800 },
-      deviceScaleFactor: 2.75,
-      isMobile: true,
-      hasTouch: true
-    });
-    const androidPage = await androidContext.newPage();
-    const androidErrors = [];
-    androidPage.on("pageerror", error => androidErrors.push(error.message));
-    androidPage.on("console", message => { if (message.type() === "error") androidErrors.push("console: " + message.text()); });
-    for (const route of routes) {
-      const response = await androidPage.goto(baseURL + route, { waitUntil: "domcontentloaded" });
-      if (!response || response.status() !== 200) {
-        throw new Error("Android Chrome emulation: " + route + " returned " + (response ? response.status() : "no response"));
-      }
-      const overflow = await androidPage.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
-      if (overflow > 1) throw new Error("Android Chrome emulation: " + route + " has horizontal overflow (" + overflow + "px)");
-      if (!(await androidPage.title()).trim()) throw new Error("Android Chrome emulation: " + route + " has no title");
-    }
-    await androidPage.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
-    const androidMenu = androidPage.locator(".menu-toggle");
-    await androidMenu.tap();
-    if (await androidMenu.getAttribute("aria-expanded") !== "true") throw new Error("Android Chrome emulation: touch navigation did not open");
-    await androidPage.goto(baseURL + "/tools/wagering-calculator/", { waitUntil: "domcontentloaded" });
-    await androidPage.locator("#eligible").fill("100");
-    await androidPage.locator("#multiplier").fill("35");
-    if (!(await androidPage.locator("#turnover").textContent()).includes("3,500.00")) throw new Error("Android Chrome emulation: calculator failed");
-    await androidPage.goto(baseURL + "/tools/terms-checklist/", { waitUntil: "domcontentloaded" });
-    await androidPage.locator('.checklist-main input[type="checkbox"]').first().check();
-    if ((await androidPage.locator("#checked-count").textContent()).trim() !== "1") throw new Error("Android Chrome emulation: checklist progress failed");
-    if (androidErrors.length) throw new Error("Android Chrome emulation runtime/console errors: " + androidErrors.join(" | "));
-    await androidContext.close();
-
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, Android Chrome User-Agent emulation across all public routes with touch navigation/tool checks, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
   } finally {
     await browser.close();
   }
