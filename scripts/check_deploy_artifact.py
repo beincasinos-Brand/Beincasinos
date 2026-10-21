@@ -18,7 +18,7 @@ else:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
 
-    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
@@ -26,6 +26,15 @@ else:
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
         errors.append("dist/: public operator partnerships page is missing")
+
+    # Verify the Cloudflare Pages header file survives the allowlist build.
+    source_headers = ROOT / "cloudflare" / "_headers"
+    output_headers = DIST / "_headers"
+    if source_headers.is_file() and output_headers.is_file():
+        if source_headers.read_text(encoding="utf-8") != output_headers.read_text(encoding="utf-8"):
+            errors.append("dist/_headers: Cloudflare security headers differ from source configuration")
+    else:
+        errors.append("dist/_headers: required Cloudflare Pages security headers missing")
 
     sitemap = DIST / "sitemap.xml"
     if sitemap.is_file():
