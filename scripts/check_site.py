@@ -251,7 +251,7 @@ for page in pages:
     if re.search(r"Reviewed for launch: pending|review status: pending", source, re.I):
         warnings.append(f"{rel}: content review is explicitly pending; verify claims against current primary sources before launch")
 
-for rel in ("privacy/index.html", "contact/index.html"):
+for rel in ("privacy/index.html", "contact/index.html", "terms/index.html"):
     page = ROOT / rel
     if page.exists() and re.search(r"pre-launch|not yet been finalised|not yet been finalized|draft", page.read_text(encoding="utf-8"), re.I):
         warnings.append(f"{rel}: contains an explicit pre-launch notice and must be finalised before public launch")
