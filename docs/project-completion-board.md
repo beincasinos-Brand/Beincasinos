@@ -1,5 +1,10 @@
 # BeInCasinos — project completion board
 
+## Latest operator research batch — 21 October 2026
+
+- Added a fourth UKGC-backed research batch to [the internal UKGC register audit](ukgc-register-audit-2026-10.md), checking current licence/domain/trading-name records for Silkbet, BigBangBet, and the RoyalOl/Speadboom relationship. Findings deliberately distinguish an active operator permission from a fully reviewed consumer-facing product: Silkbet is still presented as launching; BigBangBet's recorded UK domain is specifically `bigbangbet.co.uk`; and RoyalOl's relationship to a B2B corporate site needs clarification. All three remain Hold, no public profiles are approved, and paid-listing willingness remains unconfirmed. No outreach was sent. Latest research commit: https://github.com/beincasinos-Brand/BeInCasinos/commit/df92068f0c4e944085fb1c65595a276e4e16f8b9.
+
+
 **Snapshot:** 21 October 2026 (updated after complaint-guide build changes)  
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
 **Purpose:** One owner-facing list of work completed, outstanding evidence, and actions that require owner or third-party participation.
