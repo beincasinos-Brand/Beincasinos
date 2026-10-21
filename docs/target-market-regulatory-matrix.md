@@ -2,6 +2,8 @@
 
 **Internal research aid — not legal advice and not publication approval.** Prepared 20 October 2026 from official regulator pages linked below. Laws, registers, licence scopes, advertising restrictions, and market access can change. Re-check the primary source on the date each operator profile is reviewed. This matrix is a starting point, not a substitute for market-specific legal advice.
 
+**Release-gate companion:** use `docs/tier-1-market-compliance-gate-2026-10-21.md` for the current paid-listing/affiliate launch posture and model-specific review gates. If the documents differ, keep the stricter HOLD/BLOCK decision and resolve the conflict with a dated primary-source check before publication or outreach.
+
 ## Target markets
 
 The project owner has selected these intended audience markets: Australia (AU), United States (US), France (FR), Germany (DE), Switzerland (CH), Great Britain (GB), and the Netherlands (NL).
