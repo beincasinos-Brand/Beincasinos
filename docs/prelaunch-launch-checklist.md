@@ -57,6 +57,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 
 ## Gate 5 — Technical QA and SEO
 
+- [x] Added official market-specific complaint/escalation starting points to the complaint guide and a dated source-review notice. CI passed for the content, source log, build/artifact guards and Chromium browser smoke tests (runs 39585552501, 39585584042, 39585620272). This validates automated repository checks only; live external links and market-specific instructions must be rechecked during manual launch QA.
 - [x] GitHub Actions source checks, public-only build, and deployment-artifact leak checks passed on commit `c4ef518e5c7ff0ba5f662e646e8d64df7872e4f0` (run 39489107648). Repeat on the final release commit; this is not browser or production QA.
 - [x] Add canonical URL and Open Graph/Twitter summary metadata to all 23 indexable public HTML pages; CI now checks canonical and `og:url` values against the intended production origin. Review titles, descriptions, headings, links, and mobile navigation as part of release QA.
 - [ ] Confirm canonical/social metadata, internal links, assets, redirects, HTTPS, and 404 handling on the actual production domain after a host is selected.
