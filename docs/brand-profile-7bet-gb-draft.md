@@ -1,7 +1,7 @@
 # Internal profile dossier — 7Bet Casino (Great Britain)
 
 **Status: HOLD — internal research only; not a public review, score, or endorsement.**  
-**Research date:** 20 October 2026  
+**Research date:** 21 October 2026  
 **Target scope:** Great Britain (GB) only.
 
 ## 1. Identity and primary evidence
@@ -11,7 +11,8 @@
 - UKGC licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/48789
 - UKGC domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/48789
 - Secondary launch discovery: https://www.allsistersites.com/7bet/
-- The UKGC lists 7bet.co.uk as a White Label domain under active remote Casino permission. Secondary coverage reports casino availability in 2024; confirm the exact product launch date. This is not a standalone operator licence.
+- Checked 21 October 2026: the UKGC register lists Anakatech Interactive Limited (account 48789) with active Remote Casino permission; its domain-name record lists 7bet.co.uk as a White Label domain. The trading-name record says no trading names are recorded, and the regulatory-actions page currently says no actions have been recorded for this business. The Commission notes that domain/trading-name details are supplied by businesses and are not guaranteed by the register. Reconfirm the live records before publication. Secondary coverage reports casino availability in 2024; confirm the exact product launch date. This is not a standalone operator licence.
+- Current official sources checked: https://www.gamblingcommission.gov.uk/public-register/business/detail/48789 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/48789 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/48789 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/48789 ; register data notes: https://www.gamblingcommission.gov.uk/public-register/businesses
 - An active licence/domain record is not proof of product quality, a completed editorial review, or willingness to buy a listing.
 
 ## 2. Publication eligibility gates
