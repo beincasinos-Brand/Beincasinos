@@ -16,6 +16,7 @@
 - An internal [paid-listing offer framework](paid-listing-offer-framework.md) now defines tentative test-price hypotheses, disclosure rules, reporting boundaries, and the readiness gates for any future sales test. Prices are unvalidated hypotheses; no rate card was published and no outreach was sent.
 - A dated [UKGC register spot-check audit](ukgc-register-audit-2026-10.md) documents operator permission vs. brand launch/domain proof, including Bet Ahoy, BetLegend, BetTOM, and the inactive Ivy Casino trading-name entry. These remain research leads/holds, not qualified paid buyers.
 - An internal [media-kit evidence template](media-kit-evidence-template.md) now requires dated, source-backed audience metrics and explicitly prohibits invented traffic figures; it is a template, not a completed media kit.
+- The internal [Morocco privacy/data-protection checklist](privacy-law-09-08-prelaunch-checklist.md) now links to CNDP primary materials, including the 2025 cookie-processing procedure, and lists controller identity, processing notifications/authorisations, transfers, retention, and deployed-cookie checks as legal-review questions. It is not a legal opinion and does not close the privacy gate.
 
 ## Gate board
 
