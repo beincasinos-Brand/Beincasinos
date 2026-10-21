@@ -59,6 +59,23 @@ class SalesPipelineValidatorTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("valid HTTPS official_contact_source", result.stdout)
 
+    def test_won_paid_listing_rejects_not_applicable_invoice(self):
+        row = {
+            "brand_name": "Example", "legal_entity": "Example Ltd", "target_market": "GB",
+            "qualification_status": "pass", "pipeline_stage": "won",
+            "first_contact_date_utc": "2026-10-20",
+            "official_contact_source": "https://example.com/contact",
+            "source_evidence_url": "https://example.com/terms",
+            "agreement_status": "signed", "invoice_status": "not applicable",
+            "placement_type": "paid listing", "currency": "GBP",
+            "term_start": "2026-10-21", "term_end": "2027-10-20",
+            "paid_label_confirmed": "yes", "market_review_confirmed": "yes",
+            "privacy_tracking_review": "yes",
+        }
+        result = self.run_fixture(row)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("not applicable is not accepted for a paid listing", result.stdout)
+
     def test_won_row_requires_contract_and_review_gates(self):
         result = self.run_fixture({
             "brand_name": "Example", "qualification_status": "pass", "pipeline_stage": "won",
