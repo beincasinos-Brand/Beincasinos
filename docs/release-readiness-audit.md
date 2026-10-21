@@ -8,6 +8,11 @@ This is a source/repository review, not a live production audit. Repository file
 
 The internal UKGC audit now includes a fourth small research batch for Silkbet, BigBangBet, and the RoyalOl/Speadboom relationship, using official licence, domain and trading-name records where available. The batch identifies material gaps between operator permission and a reviewed live consumer product; all three remain on hold. It does not establish quality, legal suitability outside Great Britain, or commercial demand. No public profiles or outreach are approved. Details: [UKGC register audit](ukgc-register-audit-2026-10.md), commit https://github.com/beincasinos-Brand/BeInCasinos/commit/df92068f0c4e944085fb1c65595a276e4e16f8b9.
 
+## Public review methodology disclosure — 21 October 2026
+
+The Reviews hub now displays all six planned score weights (100 points total), links to the full methodology, and states that no casino profiles are currently scored or ranked. A new source-check guard prevents these disclosures from silently disappearing. Full CI/browser smoke checks passed for the page and both guard/document changes: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588733763, https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588775707, and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39588787474.
+
+
 ## Latest integrated source verification — 21 October 2026
 
 - The complaint guide's official regulator links and dated source-review notice passed CI, including Chromium browser smoke tests. The sources distinguish operator complaint procedures, regulatory reports, and dispute-resolution routes rather than implying guaranteed recovery: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585552501, https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585584042, and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585620272. Launch acceptance coverage was expanded to require a manual check of these market-specific complaint resources, and the follow-up source/build/artifact/Chromium run passed: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39585704495.
