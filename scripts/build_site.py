@@ -28,6 +28,7 @@ PUBLIC_DIRS = (
     "responsible-gambling",
     "reviews",
     "tools",
+    "terms",
 )
 FORBIDDEN_PUBLIC_PATHS = (
     "README.md",
