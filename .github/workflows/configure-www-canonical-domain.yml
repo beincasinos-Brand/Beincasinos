@@ -38,7 +38,7 @@ jobs:
           import urllib.parse
           import urllib.request
 
-          token = os.environ.get("CLOUDFLARE_API_TOKEN") or os.environ.get("EDIT_ZONE_DNS")
+          token = os.environ.get("EDIT_ZONE_DNS") or os.environ.get("CLOUDFLARE_API_TOKEN")
           if not token:
               print("ERROR: no Cloudflare token is available to this workflow.")
               sys.exit(1)
