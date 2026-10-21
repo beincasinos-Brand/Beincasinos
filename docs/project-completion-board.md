@@ -277,3 +277,11 @@
 - Added the new casino-review-business-model guide to the manual launch acceptance checklist so human browser checks include it too.
 - Updated the launch evidence register to reference the latest passing workflow and artifact.
 - Release remains **BLOCKED** pending real-world owner evidence and approval: domain/DNS control, monitored mailbox, name/trademark decision, accurate publisher/legal identity, qualified privacy/market review, approved commercial hosting, manual device/live-host QA, and explicit launch authorization. No DNS changes, public deployment, Search Console submission, indexing unblock, or commercial outreach were performed.
+
+
+## Prospect research and pipeline hygiene — 21 October 2026
+
+- Added 12 additional UK launch-discovery candidates to the internal research note and paid-listing pipeline: Brillbet, BetLegend, BetAhoy, Proper Bet, Stakewise, Betty, Megaways Casino, BestOdds, 247Bet, TigerBet, Betnero and ThreeSix Vegas.
+- All 12 are recorded as `hold` / `not_contacted`. This is not a list of approved operators or willing buyers. Most evidence is secondary-source discovery only; Brillbet has an initial UKGC trading-name match, while Betty has an operator record but its exact brand/domain mapping remains unverified. Each requires exact-domain, remote-casino licence/product-scope and regulatory-history checks.
+- No outreach was sent. The prospect count is still far below the desired 100, and no evidence supports a claim that any of these brands will pay a listing fee.
+- Updated the manual launch acceptance checklist to include the new public guide and refreshed the launch evidence register after the 24-route integrated CI pass.
