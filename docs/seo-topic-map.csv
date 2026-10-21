@@ -1,6 +1,7 @@
 cluster,topic_or_question,search_intent,proposed_path,status,market_scope,source_requirement,notes
 Game maths,What does RTP mean?,Informational,/guides/return-to-player-rtp-explained/,published,General education,Official regulator or technical primary source,Do not imply individual return
 Game maths,RTP vs volatility,Informational,/guides/rtp-vs-volatility/,published,General education,Official regulator or technical primary source,Explain concepts not gambling strategy
+Game maths,What is house edge?,Informational,/guides/house-edge-explained/,published,General education,Official regulator or authoritative maths source,Explain theoretical complement to RTP only under matching assumptions; no personal forecasts
 Game maths,What is house edge?,Informational,/guides/house-edge-explained/,idea_unvalidated,General education,Official regulator or authoritative maths source,Separate theoretical edge from short-term results
 Game maths,Probability vs RTP,Informational,/guides/probability-vs-rtp/,idea_unvalidated,General education,Primary technical sources,No prediction claims
 Game maths,Why past results do not predict random outcomes,Informational,/guides/random-outcomes-and-gambling/,idea_unvalidated,General education,Regulator or technical primary source,Avoid system strategy framing
