@@ -38,8 +38,9 @@ jobs:
           import urllib.parse
           import urllib.request
 
-          token = os.environ.get("EDIT_ZONE_DNS") or os.environ.get("CLOUDFLARE_API_TOKEN")
-          if not token:
+          pages_token = os.environ.get("CLOUDFLARE_API_TOKEN")
+          dns_token = os.environ.get("EDIT_ZONE_DNS")
+          if not pages_token and not dns_token:
               print("ERROR: no Cloudflare token is available to this workflow.")
               sys.exit(1)
 
@@ -57,7 +58,7 @@ jobs:
                   data=data,
                   method=method,
                   headers={
-                      "Authorization": "Bearer " + token,
+                      "Authorization": "Bearer " + (dns_token if path.startswith("/zones/") else (pages_token or dns_token)),
                       "Accept": "application/json",
                       "Content-Type": "application/json",
                   },
