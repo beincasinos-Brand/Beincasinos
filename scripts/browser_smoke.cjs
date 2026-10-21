@@ -4,7 +4,7 @@ const axeSource = require.resolve("axe-core");
 const baseURL = process.env.BASE_URL || "http://127.0.0.1:4173";
 const routes = [
   "/", "/about/", "/affiliate-disclosure/", "/contact/", "/editorial-policy/",
-  "/guides/", "/guides/bonus-terms-explained/", "/guides/how-to-check-a-casino-licence/",
+  "/guides/", "/guides/bonus-terms-explained/", "/guides/how-casino-review-sites-make-money/", "/guides/how-to-check-a-casino-licence/",
   "/guides/how-to-compare-casino-review-sites/", "/guides/how-to-complain-about-a-casino/",
   "/guides/how-to-read-casino-terms/", "/guides/online-gambling-self-exclusion/",
   "/guides/what-wagering-requirements-mean/", "/guides/withdrawal-terms/",
