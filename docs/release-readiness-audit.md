@@ -6,6 +6,8 @@ This is a source/repository review, not a live production audit. Repository file
 
 ## Latest integrated source verification — 21 October 2026
 
+- The operator evidence checklist on `/partners/` and the aligned outreach-playbook safeguards subsequently passed full CI, including Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583892480 and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583930526. These runs validate source, build/artifact guards, and automated browser checks only; they do not validate the live domain, actual mailbox, legal compliance, audience, or operator demand. Commercial intake remains closed and no outreach has been sent.
+
 - Added `/guides/how-to-complain-about-a-casino/`, linked it from the Guides hub, added it to the sitemap and Chromium route list, and updated the artifact checker and documentation inventory. The integrated full CI run, including Chromium browser smoke tests, passed on commit `c1407a2a68a93d3a3f9ab0e22397f43b20bd4ba3`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39583259274.
 - The source inventory is now **23 indexable routes / 24 HTML files including the custom 404**. This does not establish domain resolution, production behavior, legal compliance, audience evidence, or commercial readiness. The release remains blocked by the gates below.
 
@@ -59,7 +61,7 @@ This is a source/repository review, not a live production audit. Repository file
 - Do not add tracking/analytics or third-party forms without reviewing consent and privacy requirements.
 
 ### 5. Technical readiness
-- Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 20 indexable public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
+- Canonical, Open Graph URL/title/description, and Twitter summary metadata have been added to all 23 indexable public HTML pages using the intended origin. CI checks canonical and `og:url` consistency; the live host, redirects, and actual social-card rendering still need production checks.
 - A public-only deployment artifact is built into `dist/`, and CI checks that internal research docs, CSV trackers, scripts, and provider configuration are not published.
 - Verify the registrar, DNS, host, HTTPS, preferred host redirects, 404 handling, asset loading, and production sitemap after a host is chosen.
 - Perform actual browser tests on desktop and mobile, keyboard-only testing, calculator edge cases, checklist print/reset/progress tests, and an accessibility review.
