@@ -1,10 +1,12 @@
 # BeInCasinos — project completion board
 
-**Snapshot:** 21 October 2026 (updated after prospect-scorecard CI)  
+**Snapshot:** 21 October 2026 (updated after latest release-audit CI)  
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
 **Purpose:** One owner-facing list of work completed, outstanding evidence, and actions that require owner or third-party participation.
 
 ## Latest verified update — 21 October 2026
+
+- Updated `docs/release-readiness-audit.md` to reflect the current release gate and link the latest successful pre-launch checklist and completion-board CI runs. The audit refresh passed the full CI workflow, including the Chromium browser-smoke step: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39582302227. Release remains blocked because legal, domain, hosting, privacy, and live-host checks cannot be resolved by source CI alone.
 
 - Added `docs/operator-prospect-qualification-scorecard.md` and linked it from README. It separates mandatory legal/evidence gates from an internal 0–10 research-priority score and direct-evidence commercial qualification stages. It explicitly states that the 100-name queue is a backlog, not 100 verified prospects or buyers, and that fixed-fee, CPA, revenue-share, hybrid and sponsorship formats remain hypotheses. The full CI workflows passed, including HTML/local-link checks, JS syntax, Vercel config, public-only artifact/leak checks, and Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39581082370 and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39581090861.
 - Refreshed `docs/prelaunch-launch-checklist.md` so its canonical/social metadata and automated-browser-test inventory reflects the current **22 indexable routes** rather than the stale 20-route count. Local CI success is not production-host QA or launch approval. The checklist update passed CI: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39581888259. The completion-board refresh also passed CI: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39581896197.
