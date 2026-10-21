@@ -3,10 +3,11 @@
 **Goal:** build a source-backed, market-specific registry of 100 casino brands before publishing or commercially promoting brand profiles. The owner's 100-million-daily-impressions ambition is a long-term north star, not a forecast or guarantee.
 
 **Current state (2026-10-21):**
-- 10 Swiss online-casino platform/domain leads copied from the Swiss Federal Gaming Board's official online-gambling page into `docs/verified-brand-registry.csv`.
-- 10/100 have an official regulator source confirming that the named casino platform is listed as operating online in Switzerland.
-- 0/100 are marked approved for publication in this sprint: exact legal-entity/domain matching, current licence scope and game permissions, current terms, complaints/support, safer-gambling controls, and editorial review remain to be completed for each row.
-- This is deliberately not a claim that 10 profiles are fully verified, safe, or ready to recommend.
+- The registry contains 16 research leads: 10 Swiss online-casino platform/domain leads from the Swiss Federal Gaming Board's official online-gambling list and 6 UK leads recorded for further domain/operator/licence matching.
+- These are leads, not 16 fully verified brands. The 10 Swiss entries have an official regulator listing as their starting evidence; the 6 UK entries have varying levels of regulator/domain evidence and require row-by-row revalidation.
+- 0/100 are approved for publication in this sprint. Exact legal-entity/domain matching, current licence scope and product permissions, current terms, complaints/support, safer-gambling controls, and editorial review remain open for each candidate.
+- One lead must not count toward the verified-brand target merely because a regulator lists a related operator or domain. In particular, a surrendered licence is not evidence of current authorisation.
+- This is deliberately not a claim that 16 profiles are fully verified, safe, or ready to recommend.
 
 ## What counts as a verified brand
 
