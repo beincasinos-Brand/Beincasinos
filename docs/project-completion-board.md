@@ -220,3 +220,10 @@
 
 
 - Added `docs/launch-evidence-register-template.csv`, a structured gate-by-gate register for identity, hosting, market/privacy, editorial/commercial, build/QA, deployment and indexing. It distinguishes owner actions and unverified checks from passes; keep credentials and private account evidence out of the repository.
+
+## Current launch evidence status register — 21 October 2026
+
+- Added `docs/launch-evidence-register-current-status-2026-10-21.csv`, a current-state register with 25 gate rows separating verified source/CI/artifact passes from unverified owner evidence, legal review, hosting approval, manual live-host QA, and indexing steps.
+- The latest recorded CI run for main commit `b294cbc210b16600366dd5e513ee774074daebd3` passed: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39593632251. This is source/build/browser-smoke evidence, not production-host or legal clearance.
+- Statuses deliberately remain open or blocked where no verifiable evidence exists. In particular, domain/mailbox access, publisher and trademark review, market-specific legal review, commercial hosting approval, manual acceptance tests, production DNS/deployment, and Search Console indexing are not marked complete.
+- Linked the register from README. Keep private account evidence, tokens, inbox contents, and credentials out of the repository.
