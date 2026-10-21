@@ -36,3 +36,10 @@
 **No score assigned.** An active licence/domain record establishes a regulatory fact, not a positive verdict on terms, withdrawals, support or player experience. Complete every eligibility gate and the evidence-gated rubric before publication.
 
 Do not use “best”, “safe”, “fast payouts”, or other comparative claims without dated evidence. Do not count licence activity as proof of a public launch. Paid-listing willingness is unconfirmed; no outreach has been sent.
+
+
+## Supplemental primary-source review — 21 October 2026
+
+The current UK Gambling Commission register identifies `www.44aces.com` as an **Active** domain and `44aces` as an **Active** trading name under Skill On Net Limited (account 39326): https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326 and https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39326. The operator's licence summary lists remote Casino permission as active: https://www.gamblingcommission.gov.uk/public-register/business/detail/39326.
+
+Important historical regulatory evidence: on 23 May 2023 the Commission announced that Skill On Net Limited would pay £305,150 following an investigation that identified social-responsibility and anti-money-laundering failures: https://www.gamblingcommission.gov.uk/news/article/skill-on-net-limited-faces-gbp305-150-regulatory-action. The current register's sanctions page says no regulatory actions are recorded there: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39326. These records should be reconciled, not treated as contradictory proof that the 2023 event did not occur; the Commission notes historic public statements are only online for three years. Before any public profile, disclose and accurately contextualise the 2023 action, verify any subsequent remedial evidence and recheck current records. Status remains **HOLD**; launch timing, terms, withdrawals, complaints, safer-gambling controls and paid-listing willingness remain unverified/unconfirmed.
