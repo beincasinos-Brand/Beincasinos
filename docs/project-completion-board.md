@@ -2,6 +2,9 @@
 
 ## Commercial workflow and automated guardrails — 21 October 2026
 
+- Added `scripts/check_sales_pipeline.py` and wired it into CI. It checks tracker columns, duplicate names, controlled stage/qualification values, required dates/reasons, and blocks `won` unless signed agreement, invoice status, market review, privacy/tracking review and paid-label confirmation are recorded. This is data-integrity automation, not legal or commercial verification.
+- Validator CI run: pending at time of this commit; track at https://github.com/beincasinos-Brand/BeInCasinos/actions.
+
 - Added a launch-gated commercial outreach operating standard to `docs/commercial-outreach-pipeline.md`: exact entity/domain/product/market checks, dated evidence requirements, separate proof of willingness to pay, owner approval before contact, model-specific safeguards for fixed fee/CPA/revshare/hybrid, and activation/renewal/removal controls. No outreach was sent or authorised.
 - Added source-level checks to keep the public partner page's pre-launch status and commercial-integrity statements visible. The complete static-site workflow passed, including Chromium browser smoke tests, on commit `f2d30d2349e96aa197680f319077fb28555ebed7`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595461346.
 - The outreach playbook and README links have since been updated; their CI run is pending. Do not describe those latest documentation changes as verified until their own run passes.
