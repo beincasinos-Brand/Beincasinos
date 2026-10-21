@@ -67,8 +67,8 @@ for line, row in enumerate(rows, start=2):
                 errors.append(f"{label} {brand}: won requires {field}")
         if (row.get("agreement_status") or "").strip().casefold() not in {"signed", "executed"}:
             errors.append(f"{label} {brand}: won requires signed/executed agreement_status")
-        if (row.get("invoice_status") or "").strip().casefold() not in {"paid", "complete", "not applicable"}:
-            errors.append(f"{label} {brand}: won requires paid/complete invoice_status")
+        if (row.get("invoice_status") or "").strip().casefold() not in {"paid", "complete"}:
+            errors.append(f"{label} {brand}: won requires paid/complete invoice_status (not applicable is not accepted for a paid listing)")
         for field in ("paid_label_confirmed", "market_review_confirmed", "privacy_tracking_review"):
             if (row.get(field) or "").strip().casefold() != "yes":
                 errors.append(f"{label} {brand}: won requires {field}=yes")
