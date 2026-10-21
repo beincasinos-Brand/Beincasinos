@@ -108,7 +108,8 @@ else:
             errors.append(f"dist/{asset.relative_to(DIST)}: internal/source file type must not be published")
 
     # Enforce compatibility with the prepared same-origin-only script/style CSP.
-    inline_script = re.compile(r"<script(?![^>]*\bsrc=)[^>]*>", re.IGNORECASE)
+    # JSON-LD is inert structured data, not executable inline JavaScript.
+    inline_script = re.compile(r"<script(?![^>]*\bsrc=)(?![^>]*\btype\s*=\s*['\"]application/ld\+json['\"])[^>]*>", re.IGNORECASE)
     inline_style = re.compile(r"<style\b|\sstyle\s*=", re.IGNORECASE)
     for html_file in DIST.rglob("*.html"):
         try:
