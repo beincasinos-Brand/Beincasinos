@@ -1,3 +1,11 @@
+## SEO expansion — 21 October 2026
+
+- Added four original educational guides: RTP explained, RTP vs volatility, withdrawal verification, and how to evaluate complaint data. Each includes primary-source reading, caveats, canonical metadata, and related internal links.
+- Added the four routes to the sitemap and Guides library; updated the artifact validator to compare sitemap entries with the current indexable HTML route set instead of a hard-coded count.
+- Integrated CI passed on commit `9ca6bdb3f8842a444db2ed807eb5181edb855350`, including HTML/link checks, public artifact/sitemap validation and Chromium smoke tests across 28 indexable routes: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39608954109.
+- Added `docs/seo-growth-plan-1m-daily-impressions.md` and `docs/seo-topic-map.csv`. The 1,000,000 daily impressions target remains an ambition, not measured performance or a guarantee. Topic ideas are not search-volume claims.
+- Search remains intentionally blocked in `robots.txt` until owner, legal, privacy, domain and live-host launch gates are cleared. No Cloudflare project, DNS change, deployment, or Search Console submission has occurred.
+
 ## Cloudflare Pages Free preparation — 21 October 2026
 
 - Updated the static allowlist build to copy the source-controlled `cloudflare/_headers` file into `dist/_headers`, preserving the prepared CSP, HSTS, and other security headers for Cloudflare Pages.
