@@ -37,6 +37,13 @@ FORBIDDEN_PUBLIC_PATHS = (
     "vercel.json",
     ".github",
 )
+# Public content folders may contain only website markup and browser-delivered
+# assets. Source documents, trackers, environment files and arbitrary binaries
+# are not copied merely because they happen to sit beneath a public route.
+PUBLIC_SUFFIXES = {
+    ".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg", ".webp",
+    ".avif", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf",
+}
 
 if DIST.exists():
     shutil.rmtree(DIST)
@@ -44,15 +51,25 @@ DIST.mkdir(parents=True)
 
 for rel in PUBLIC_FILES:
     src = ROOT / rel
-    if not src.is_file():
-        raise SystemExit(f"Required public file is missing: {rel}")
+    if not src.is_file() or src.is_symlink():
+        raise SystemExit(f"Required public file is missing or unsafe: {rel}")
     shutil.copy2(src, DIST / rel)
 
 for rel in PUBLIC_DIRS:
     src = ROOT / rel
-    if not src.is_dir() or not any(src.rglob("*.html")):
-        raise SystemExit(f"Required public page directory is missing HTML pages: {rel}")
-    shutil.copytree(src, DIST / rel)
+    if not src.is_dir() or src.is_symlink() or not any(src.rglob("*.html")):
+        raise SystemExit(f"Required public page directory is missing HTML pages or is unsafe: {rel}")
+    for item in sorted(src.rglob("*")):
+        if item.is_dir():
+            continue
+        relative = item.relative_to(ROOT)
+        if item.is_symlink():
+            raise SystemExit(f"Refusing to publish symlink from public directory: {relative}")
+        if item.suffix.lower() not in PUBLIC_SUFFIXES:
+            raise SystemExit(f"Unexpected file type in public directory; add it deliberately to PUBLIC_SUFFIXES if it is a public asset: {relative}")
+        destination = DIST / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(item, destination)
 
 for rel in FORBIDDEN_PUBLIC_PATHS:
     if (DIST / rel).exists():
