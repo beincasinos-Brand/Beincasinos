@@ -285,3 +285,10 @@
 - All 12 are recorded as `hold` / `not_contacted`. This is not a list of approved operators or willing buyers. Most evidence is secondary-source discovery only; Brillbet has an initial UKGC trading-name match, while Betty has an operator record but its exact brand/domain mapping remains unverified. Each requires exact-domain, remote-casino licence/product-scope and regulatory-history checks.
 - No outreach was sent. The prospect count is still far below the desired 100, and no evidence supports a claim that any of these brands will pay a listing fee.
 - Updated the manual launch acceptance checklist to include the new public guide and refreshed the launch evidence register after the 24-route integrated CI pass.
+
+
+## Prospect discovery batch 2 — 21 October 2026
+
+- Added 13 more 2024–2025 discovery leads to the internal research note and sales tracker: Neptune Play, PricedUp Casino, DragonBet Casino, Bally Casino UK, Rose Casino, O'Reels Casino, BetMaze Casino, Puntit Casino, LuckyMate Casino, Lottoland Casino, Casino Kings, Casiku and Mega Riches Casino.
+- The combined research queue is now approximately **38 candidate entries**, not 100. New entries are `hold` / `not_contacted`, and their legal entity, exact domain, product permission and launch evidence remain unverified unless explicitly stated. Some discovery sources are low-confidence and must be replaced with primary evidence before qualification.
+- No sales outreach or paid partnership was initiated. No willingness-to-pay is known. Continue to keep France and Australia online-casino promotion blocked and evaluate all other markets separately.
