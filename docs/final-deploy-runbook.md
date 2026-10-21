@@ -33,8 +33,9 @@
 - [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the latest repository site-check workflow passed (run `39648226113`, commit `60ded6aefe10a3e6ee2a6c60f789cd96a8fb2715`; [workflow run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39648226113)). All 12 workflow steps completed successfully, including HTML/local-link checks, paid-listing hard-gate tests, build-artifact privacy checks and Chromium smoke tests. This is a CI result, not proof that the Cloudflare Pages deployment is current.
 - [x] Keep `robots.txt` blocked while production checks remain incomplete. The Pages project's Custom Domains screen has no custom domains listed; the apex custom domain still needs to be added through Pages after DNS is reconciled. Do not enable public indexing during this gate.
 - [x] **Deployment freshness discrepancy rechecked 2026-10-21:** after the follow-up repository commits, the live `https://beincasinos.pages.dev/sitemap.xml` returned 32 URLs and included `/guides/casino-affiliate-deal-models/` on a cache-busting fetch. The specific sitemap mismatch is resolved in the preview. Production domain, HTTPS and the remaining launch gates are still unverified; do not treat preview success as production-domain confirmation.
-- [x] Fetch production apex homepage, `robots.txt`, and `sitemap.xml` over HTTPS; they returned content. Spot-checks of `/about/`, `/how-we-review/`, `/reviews/`, `/guides/`, both educational tools, `/privacy/`, `/terms/`, `/contact/`, and `/affiliate-disclosure/` returned page content and expected canonical metadata.
-- [ ] Verify HTTP status codes and response headers (CSP, HSTS and other security headers), all CSS/JS assets, every sitemap URL, calculator/checklist behavior, 404 status and mobile layout.
+- [x] Fetch production apex homepage, `robots.txt`, and `sitemap.xml` over HTTPS; they returned content. All 32 sitemap destinations returned page content with canonical metadata matching the listed HTTPS URL. This does not replace checks of HTTP status codes, response headers, assets, mobile/accessibility behavior, or legal readiness.
+- [ ] Verify HTTP status codes and response headers (CSP, HSTS and other security headers), all CSS/JS assets, calculator/checklist behavior, 404 status and mobile layout.
+- [x] Fetch all 32 sitemap URLs: every requested URL returned page content and a canonical matching its listed HTTPS URL. This is route/canonical verification only; HTTP status codes and Google indexing remain unverified.
 - [ ] Confirm the deployed output does not expose `docs/`, research CSVs, source scripts, provider configuration or other internal files.
 - [ ] Record preview URL and test evidence internally; do not submit it to Search Console.
 - [ ] If GitHub integration cannot be used, do not substitute Vercel instructions silently; document the blocker and agree on an approved alternative deployment path.
@@ -49,7 +50,7 @@
 - [ ] Configure a host-aware permanent redirect from `www.beincasinos.online` to `https://beincasinos.online`, and verify it live.
 - [ ] Re-run launch acceptance checks on the live host, including real HTTP response headers and every public route/tool.
 - [ ] Only after explicit launch approval, remove the `Disallow: /` pre-launch block from `robots.txt` and verify intended indexability.
-- [ ] Verify every sitemap URL uses `https://beincasinos.online` and resolves to the intended canonical page. The sitemap itself returns 32 URLs; only a subset of routes has been spot-checked so far.
+- [x] Verify all 32 sitemap URLs use `https://beincasinos.online` and return content with the intended canonical URL. This does not establish that Google has indexed them or independently verify their HTTP status codes.
 - [ ] Only after launch approval, verify the Google Search Console Domain property using the exact DNS TXT token provided by Google, then submit `https://beincasinos.online/sitemap.xml`.
 - [ ] Monitor indexing, crawl errors, security headers, contact inbox and user feedback after launch.
 
