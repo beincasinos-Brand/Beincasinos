@@ -1,6 +1,6 @@
 # BeInCasinos
 
-**Latest verification (21 October 2026, 11:45 UTC):** Static site checks passed on commit `4f9186924a04d3d33628aead46dfa724a554759b`, including the public-only build and automated browser checks: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39594205787. This is not production-host, legal, privacy, or launch approval; release gates remain blocked pending evidence.
+**Latest confirmed source-level verification (21 October 2026, 11:54 UTC):** Static site checks passed on commit `f2d30d2349e96aa197680f319077fb28555ebed7`, including commercial-disclosure guardrails, the public-only build, and automated browser checks: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595461346. Later documentation changes must pass their own CI run before being treated as verified. This is not production-host, legal, privacy, or launch approval; release gates remain blocked pending evidence.
 
 An English-language, evidence-led casino reviews and research brand focused on operator identity, market-specific licensing, terms, withdrawals, and safer gambling. Individual reviews must pass the internal evidence and publication gate before they can go live.
 
@@ -18,6 +18,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Current launch evidence status (CSV): `docs/launch-evidence-register-current-status-2026-10-21.csv`; records source/CI passes separately from unverified owner, legal, hosting, live-QA, and indexing gates. Do not store credentials or private account evidence here.
 - Primary-source Tier 1 market compliance gate for AU, US, FR, DE, CH, GB and NL: `docs/tier-1-market-compliance-gate-2026-10-21.md` (internal screening only; does not clear any market).
 - Internal fixed-fee, CPA, revenue-share, hybrid, qualification, and outreach playbook: `docs/commercial-partnership-operating-playbook.md`.
+- Step-by-step, evidence-gated prospect outreach pipeline and commercial-model controls: `docs/commercial-outreach-pipeline.md`; preparation only, no outreach authorised or sent.
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
 - The owner's top-10 ambition and 100 million daily search-impressions ambition are goals only, not current metrics or guaranteed results.
 
