@@ -87,5 +87,34 @@ class SalesPipelineValidatorTests(unittest.TestCase):
         self.assertIn("won requires paid_label_confirmed=yes", result.stdout)
 
 
+    def test_invalid_iso_date_fails(self):
+        result = self.run_fixture({
+            "brand_name": "Example", "qualification_status": "hold", "pipeline_stage": "contacted",
+            "first_contact_date_utc": "21-10-2026",
+            "official_contact_source": "https://example.com/contact",
+            "source_evidence_url": "https://example.com/terms",
+        })
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("first_contact_date_utc must use YYYY-MM-DD format", result.stdout)
+
+    def test_last_contact_cannot_precede_first_contact(self):
+        result = self.run_fixture({
+            "brand_name": "Example", "qualification_status": "hold", "pipeline_stage": "contacted",
+            "first_contact_date_utc": "2026-10-21", "last_contact_date_utc": "2026-10-20",
+            "official_contact_source": "https://example.com/contact",
+            "source_evidence_url": "https://example.com/terms",
+        })
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("last_contact_date_utc cannot precede first contact", result.stdout)
+
+    def test_term_end_cannot_precede_term_start(self):
+        result = self.run_fixture({
+            "brand_name": "Example", "qualification_status": "hold", "pipeline_stage": "not_contacted",
+            "term_start": "2027-01-01", "term_end": "2026-12-31",
+        })
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("term_end cannot precede term_start", result.stdout)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
