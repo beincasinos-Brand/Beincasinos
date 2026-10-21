@@ -1,4 +1,12 @@
 # BeInCasinos — project completion board
+
+## Commercial workflow and automated guardrails — 21 October 2026
+
+- Added a launch-gated commercial outreach operating standard to `docs/commercial-outreach-pipeline.md`: exact entity/domain/product/market checks, dated evidence requirements, separate proof of willingness to pay, owner approval before contact, model-specific safeguards for fixed fee/CPA/revshare/hybrid, and activation/renewal/removal controls. No outreach was sent or authorised.
+- Added source-level checks to keep the public partner page's pre-launch status and commercial-integrity statements visible. The complete static-site workflow passed, including Chromium browser smoke tests, on commit `f2d30d2349e96aa197680f319077fb28555ebed7`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39595461346.
+- The outreach playbook and README links have since been updated; their CI run is pending. Do not describe those latest documentation changes as verified until their own run passes.
+- Release remains blocked: this does not verify the domain/mailbox, clear the brand, approve target markets, purchase hosting, pass live-host QA, or grant owner launch approval.
+
 **Latest integrated verification — 21 October 2026, 11:45 UTC**
 
 - The operator qualification scorecard and linked project documentation passed the complete Static site checks workflow on commit `4f9186924a04d3d33628aead46dfa724a554759b`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39594205787. This is repository/source and automated browser validation only; it does not clear any owner, legal, hosting, live-domain, or launch gate.
