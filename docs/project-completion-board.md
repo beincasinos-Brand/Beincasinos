@@ -197,3 +197,6 @@
 - The commercial playbook documents fixed-fee listings, CPA, revenue share, hybrid and sponsored-content models as options to validate—not confirmed deals or proven pricing. No operator outreach was sent and no willingness to pay is claimed.
 - Deployment remains BLOCKED pending evidence for trademark/name clearance, legal review across the intended markets, real mailbox/contact monitoring, final privacy and commercial disclosures, live-domain/DNS verification, manual device/accessibility QA, and explicit owner authorization for paid hosting and production deployment.
 - No Vercel project or paid subscription was created, no DNS was changed, no production deployment was made, and indexing remains blocked.
+
+
+- Added `docs/tier-1-market-compliance-gate-2026-10-21.md`, an internal primary-source screening matrix for AU, US, FR, DE, CH, GB and NL. It flags France's online-casino prohibition, Switzerland's Swiss-authorisation requirement, state-by-state US review, UK/Netherlands affiliate responsibilities and Australia's August 2026 reforms affecting activity-based affiliate commissions. It is a risk-screening aid, not legal clearance; all markets remain gated pending legal review and dated evidence.
