@@ -117,3 +117,18 @@ These additional names were found in secondary-source reporting about Dutch mark
 | Circus | Reported Dutch launch in 2022 | https://www.nederlandsecasinos.nl/nieuwe-online-casinos/ | HOLD. Verify current permit, exact domain and product category in the current Ksa register. |
 
 Dutch-market note: a historic permit date or secondary launch listing does not prove a permit remains active in October 2026. The Ksa's official licence guide and current Kansspelwijzer must be the controlling sources; commercial outreach remains unapproved until the applicable legal, privacy and launch gates are cleared.
+
+
+## Additional Great Britain launch and pre-launch candidates — 21 October 2026
+
+**Status: discovery / HOLD.** UK Gambling Commission records establish operator permissions, not buyer interest, and an active licence does not prove a brand has a functioning public casino. Verify exact trading names/domains and current live status before any outreach or public profile.
+
+| Candidate | Initial primary evidence | Current qualification gap |
+|---|---|---|
+| BigBangBet | UKGC record for InnoBoom Limited, account 101150: https://www.gamblingcommission.gov.uk/public-register/business/detail/101150. Record lists active remote casino permission from 3 June 2026; trading-name record: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/101150. | Verify exact domain, public launch/readiness and current brand-domain association; licence alone is not proof that a live product is open. |
+| DC Bet | UKGC record for Playterry Ltd, account 100630: https://www.gamblingcommission.gov.uk/public-register/business/detail/100630. Current record lists active remote casino permission; domain records include https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100630. | Verify the exact domain's current public status and that the intended product is a functioning casino rather than a coming-soon/social product. |
+| SilkBet | UKGC record for Silkbet Limited, account 101183: https://www.gamblingcommission.gov.uk/public-register/business/detail/101183. Active remote casino permission listed from 7 May 2026. | Confirm current live casino status and exact active domain; secondary reporting has described a launch page rather than a full product. |
+| RamboBet | UKGC register search for Ballyhack Sports and Gaming (BSG) Limited: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Bally&uc=true. | Exact brand/domain mapping and live public launch remain unresolved; keep as pre-launch watchlist only. |
+| Casino and Friends | Secondary launch report: https://talksport.com/betting/4542397/casinoandfriends-review/. | Verify exact legal operator, trading name, domain and active UKGC casino scope directly in the official register. |
+
+Do not count pre-launch brands as sales-ready inventory. No outreach has been sent, and none of these candidates has expressed willingness to pay BeInCasinos.
