@@ -46,6 +46,18 @@ for line, row in enumerate(rows, start=2):
     if key in seen:
         errors.append(f"{label}: duplicate brand_name {brand!r}")
     seen.add(key)
+
+    # Every prospect row must have a minimally identifiable entity, market and
+    # traceable source even while it remains in the untouched research queue.
+    for field in ("legal_entity", "target_market", "source_evidence_url"):
+        if not (row.get(field) or "").strip():
+            errors.append(f"{label} {brand}: populated prospect requires {field}")
+    source_url = (row.get("source_evidence_url") or "").strip()
+    if source_url:
+        parsed_source = urlparse(source_url)
+        if parsed_source.scheme != "https" or not parsed_source.netloc:
+            errors.append(f"{label} {brand}: source_evidence_url must be a valid HTTPS URL")
+
     stage = (row.get("pipeline_stage") or "").strip()
     qual = (row.get("qualification_status") or "").strip().casefold()
     if stage not in STAGES:
