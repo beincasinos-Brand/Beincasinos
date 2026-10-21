@@ -116,5 +116,41 @@ class SalesPipelineValidatorTests(unittest.TestCase):
         self.assertIn("term_end cannot precede term_start", result.stdout)
 
 
+    def test_duplicate_brand_names_fail_case_insensitively(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "scripts").mkdir()
+            (root / "docs").mkdir()
+            shutil.copy2(VALIDATOR, root / "scripts" / "check_sales_pipeline.py")
+            with (root / "docs" / "paid-listing-sales-pipeline.csv").open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.DictWriter(handle, fieldnames=FIELDS)
+                writer.writeheader()
+                writer.writerow({"brand_name": "Example", "qualification_status": "hold", "pipeline_stage": "not_contacted"})
+                writer.writerow({"brand_name": "example", "qualification_status": "hold", "pipeline_stage": "not_contacted"})
+            result = subprocess.run(
+                [sys.executable, str(root / "scripts" / "check_sales_pipeline.py")],
+                capture_output=True, text=True, check=False,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("duplicate brand_name", result.stdout)
+
+    def test_valid_paid_listing_win_passes_hard_gates(self):
+        row = {
+            "brand_name": "Example", "legal_entity": "Example Ltd", "target_market": "GB",
+            "qualification_status": "pass", "pipeline_stage": "won",
+            "first_contact_date_utc": "2026-10-20", "last_contact_date_utc": "2026-10-21",
+            "official_contact_source": "https://example.com/contact",
+            "source_evidence_url": "https://example.com/terms",
+            "agreement_status": "signed", "invoice_status": "paid",
+            "placement_type": "paid listing", "currency": "GBP",
+            "term_start": "2026-10-21", "term_end": "2027-10-20",
+            "paid_label_confirmed": "yes", "market_review_confirmed": "yes",
+            "privacy_tracking_review": "yes",
+        }
+        result = self.run_fixture(row)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("1 populated prospect row(s)", result.stdout)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
