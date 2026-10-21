@@ -82,3 +82,40 @@ BeInCasinos
 - Check each target market separately. US permissions are state-specific; a license in one country does not imply permission elsewhere.
 - Re-verify license and domain status before publication and at scheduled reviews.
 - Do not publish a profile solely because the operator paid.
+
+
+## Launch-gated operating standard (added 21 October 2026)
+
+This workflow is preparation only. It does not authorise outreach, confirm a buyer, establish a brand's licence, or constitute a contract.
+
+### Hard sequence before any contact
+
+1. Verify the exact brand, legal entity, consumer-facing domain, product, target market and current regulator record. A missing, stale or conflicting result means Hold.
+2. Capture dated primary-source evidence for player terms, bonus conditions, payments/withdrawals, complaints, safer-gambling tools and support information. Separate independently verified facts from operator claims.
+3. Verify any commercial signal from an official programme, rate card, media page or dated response from an authorised representative. A brand appearing on another directory or affiliate network is not evidence it will pay a fixed listing fee.
+4. Confirm the publisher's monitored contact address, privacy notice, legal basis and approved outreach method. Check anti-spam/privacy rules and channel terms for both sender and recipient jurisdictions.
+5. Obtain the owner's approval for the specific campaign and tailored draft. No scraped personal contacts, guessed email addresses, bulk unsolicited messaging or contact after opt-out.
+6. Use a dated first-party audience/search report only after measurement is lawfully configured and privacy reviewed. Never invent visits, rankings, reach, clicks, conversions or revenue.
+7. Send a written proposal only after genuine interest. State currency, taxes, inventory, term, prominent sponsored label, link attributes, tracking responsibilities, reporting limits, cancellation/refund terms, invoice terms and renewal/removal process.
+8. Do not activate a placement or tracking until market review, editorial review, written agreement, required payment conditions, disclosure, QA and owner approval are recorded.
+
+### Keep commercial models separate
+
+- **Fixed listing fee:** a defined, labelled placement for a defined term; never a positive review, licence endorsement or ranking guarantee.
+- **CPA:** only when the operator's current programme expressly permits the market, product, traffic source and promotion. Record qualifying event, attribution, reversals and payment rules.
+- **Revenue share:** record the exact contractual calculation, deductions, reporting, dispute/audit process, payment schedule and termination terms.
+- **Hybrid:** list each fixed and performance component separately and disclose the combined incentive where required. Editorial scoring must remain independent.
+
+Do not publish a universal rate card until inventory, costs, genuine buyer feedback and measurable audience evidence exist. Pricing hypotheses remain internal.
+
+### Evidence and status discipline
+
+For each material claim, save its exact source, issuer, access date/time, market/entity/domain/product scope, reviewer, uncertainty, next-check date and decision. Record commercial willingness separately as Unknown, Unconfirmed or Confirmed, with dated evidence. A regulator permission is market/product/entity specific and does not automatically validate other domains or jurisdictions.
+
+Keep Hold and Reject distinct from commercial priority. Passing research qualification only permits the next review; it does not automatically approve a public listing. The paid-listing tracker may use `won` only after signed terms, invoice/payment status and required market/disclosure confirmations are recorded. Respect `do_not_contact` permanently for sales purposes.
+
+### Weekly review and launch dependencies
+
+Review active conversations, opt-outs, proposals, agreement/invoice status, live placement labels, end dates and renewal/removal actions weekly. Re-check eligibility before publication and after material changes. Retain only necessary business-contact information under a documented retention/deletion policy.
+
+The public launch remains blocked until domain and monitored mailbox access are verified, name clearance is resolved, legal/privacy and target-market reviews are complete, a suitable commercial hosting plan is authorised, manual live-host/accessibility checks pass, and explicit launch approval is recorded. This playbook satisfies none of those owner or third-party gates by itself.
