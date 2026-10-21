@@ -239,9 +239,15 @@ for title, paths in titles.items():
 
 robots = ROOT / "robots.txt"
 if not robots.exists():
-    errors.append("robots.txt is missing; keep the pre-launch crawl block until launch approval")
-elif "Disallow: /" not in robots.read_text(encoding="utf-8"):
-    errors.append("robots.txt no longer blocks crawling; update this guard only as part of an explicitly approved launch")
+    errors.append("robots.txt is missing")
+else:
+    robots_text = robots.read_text(encoding="utf-8")
+    if re.search(r"^Disallow:\s*/\s*$", robots_text, re.I | re.M):
+        errors.append("robots.txt blocks all crawling; remove the site-wide block for the approved public launch")
+    if not re.search(r"^User-agent:\s*\*\s*$", robots_text, re.I | re.M):
+        errors.append("robots.txt must include a wildcard user-agent policy")
+    if not re.search(r"^Sitemap:\s*https://beincasinos[.]online/sitemap[.]xml\s*$", robots_text, re.I | re.M):
+        errors.append("robots.txt must advertise the canonical XML sitemap")
 sitemap = ROOT / "sitemap.xml"
 if sitemap.exists() and re.search(r"YOUR-DOMAIN|example[.]com|[.]example|localhost|127[.]0[.]0[.]1", sitemap.read_text(encoding="utf-8"), re.I):
     errors.append("sitemap.xml contains a domain placeholder or local URL; production sitemap must use https://beincasinos.online")
