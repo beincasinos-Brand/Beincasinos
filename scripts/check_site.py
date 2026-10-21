@@ -84,7 +84,8 @@ class PageParser(HTMLParser):
                 self._link_text.append("image alt")
             elif a.get("aria-label", "").strip() or a.get("title", "").strip():
                 self._link_text.append("accessible label")
-        if tag == "script" and not a.get("src"):
+        # JSON-LD is inert structured data, not executable inline JavaScript.
+        if tag == "script" and not a.get("src") and a.get("type", "").lower() != "application/ld+json":
             self.inline_scripts += 1
         if tag == "style" or "style" in a:
             self.inline_styles += 1
