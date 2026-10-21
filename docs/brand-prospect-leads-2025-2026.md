@@ -50,3 +50,33 @@ The following regulator checks materially change the prospect risk assessment:
 - **Market restriction reminder:** the UKGC public register and Ksa register are jurisdiction-specific. Neither establishes permission to offer online casino services in the US, France, Germany, Switzerland or Australia.
 
 Evidence grades should reflect the current evidence and risk, not commercial excitement. Licensing is a minimum gate, not a safety endorsement or proof of willingness to pay.
+
+
+## Additional UK launch-discovery batch — 2026-10-21
+
+**Evidence grade: discovery only.** The entries below are additional names surfaced by a specialist launch tracker updated in October 2026. The tracker is a secondary source, not a substitute for checking each exact brand/domain and the operator's current remote-casino permission in the UK Gambling Commission public register. Inclusion here does **not** mean approval, recommendation, partner interest, willingness to pay, or suitability for another market. All remain HOLD pending individual evidence review.
+
+Source for discovery leads: https://britishgambler.co.uk/casino/new/ (reported tracker updated during October 2026). Official regulator starting point: https://www.gamblingcommission.gov.uk/licensees-and-businesses/page/public-register.
+
+| Candidate | Reported UK launch / status | Current evidence level | Required next step |
+|---|---|---|---|
+| Brillbet | September 2026; reported new operator | Official UKGC trading-name page identifies Brillbet as an active trading name of UK Digital Bookmakers Ltd, account 101570: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/101570. This is an initial name/operator match only, not full product/domain clearance. | Check active remote casino licence types, exact UK-facing domain and product scope; review any regulatory actions; then consider market-specific editorial qualification. |
+| BetLegend | August 2026; reported new brand | Secondary-source launch lead only | Match the exact domain and operator to current UKGC register records and remote-casino permissions. |
+| BetAhoy | May 2026; reported new operator | Secondary-source launch lead only | Verify legal operator, exact domain and active remote-casino licence directly with UKGC. |
+| Proper Bet | May 2026; reported new operator | Secondary-source launch lead only | Verify legal operator, exact domain and active remote-casino licence directly with UKGC. |
+| Stakewise | April 2026; reported new operator | Secondary-source launch lead only | Verify legal operator, exact domain and active remote-casino licence directly with UKGC. |
+| Betty | April 2026; reported new brand | UKGC search results identify Betty Gaming (Malta) Limited, account 100695, as an operator record; that alone does not establish the precise brand/domain or casino permissions. | Open the official operator record, check remote-casino licence types and trading names, then verify the exact domain. |
+| Megaways Casino | Early 2026; reported relaunch, not a clean new-brand launch | Secondary-source relaunch lead | Confirm current legal operator, exact domain, UKGC record and whether relaunch is materially distinct; do not count as a new brand without a clear definition. |
+| BestOdds | August 2025; reported new brand | Secondary-source launch lead only | Verify legal operator, exact domain and current UKGC remote-casino permission. |
+| 247Bet | August 2025; reported new brand | Secondary-source launch lead only | Verify legal operator, exact domain and current UKGC remote-casino permission. |
+| TigerBet | June 2025; reported new operator | Secondary-source launch lead only | Verify legal operator, exact domain and current UKGC remote-casino permission. |
+| Betnero | May 2025; reported new brand | Secondary-source launch lead only | Verify legal operator, exact domain and current UKGC remote-casino permission. |
+| ThreeSix Vegas | May 2025; reported new operator | Secondary-source launch lead only | Verify legal operator, exact domain and current UKGC remote-casino permission. |
+
+### Qualification and commercial guardrails for this batch
+
+1. Keep these records in the internal prospect research queue; do not publish profiles, send traffic, or describe them as verified recommendations.
+2. Record the exact regulator URL, legal entity, trading name, exact domain, remote-casino permission, relevant market, date checked, and any material regulatory action separately.
+3. Check the relevant operator's official corporate/affiliate contact route only after the basic legal-entity and market evidence has been reviewed. Do not infer buyer intent from a launch, platform supplier, or affiliate programme.
+4. Any outreach must be individually approved, truthful about BeInCasinos' pre-launch status, and must not promise traffic, rankings, favourable scores, or guaranteed inclusion.
+5. UK verification does not grant permission for US states, France, Germany, Switzerland, Netherlands or Australia. Apply each market's separate gate; France and Australia remain blocked for online-casino promotion under the current internal launch policy.
