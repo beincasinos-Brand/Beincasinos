@@ -61,6 +61,22 @@ www_redirect = any(
 if not www_redirect:
     errors.append("vercel.json: add a permanent www.beincasinos.online to apex redirect")
 
+# Cloudflare Pages uses a plain-text _headers file copied into dist/.
+cf_path = ROOT / "cloudflare" / "_headers"
+try:
+    cf_headers = cf_path.read_text(encoding="utf-8")
+except (OSError, UnicodeError) as exc:
+    errors.append(f"cloudflare/_headers: cannot read header rules ({exc})")
+    cf_headers = ""
+
+for name, expected in required.items():
+    if not any(line.strip() == f"{name}: {expected}" for line in cf_headers.splitlines()):
+        errors.append(f"cloudflare/_headers: missing or incorrect {name}")
+if not any(line.strip() == "Strict-Transport-Security: max-age=31536000" for line in cf_headers.splitlines()):
+    errors.append("cloudflare/_headers: HSTS must retain max-age=31536000")
+if not any(line.strip() == "/*" for line in cf_headers.splitlines()):
+    errors.append("cloudflare/_headers: global path rule is required")
+
 if errors:
     print(f"FAIL: {len(errors)} Vercel configuration issue(s)")
     for error in errors:
