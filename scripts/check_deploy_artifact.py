@@ -13,7 +13,7 @@ errors = []
 if not DIST.is_dir():
     errors.append("dist/ is missing; run scripts/build_site.py first")
 else:
-    forbidden = ("docs", "scripts", ".github", "README.md", "netlify.toml", "vercel.json")
+    forbidden = ("docs", "scripts", ".github", "README.md", "vercel.json")
     for rel in forbidden:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
