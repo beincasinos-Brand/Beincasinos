@@ -12,6 +12,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Held profile dossiers (not public reviews): `docs/brand-profile-casineo-ch-draft.md`, `docs/brand-profile-admiral-ch-draft.md`, `docs/brand-profile-tipico-casino-de-sh-draft.md`, `docs/brand-profile-ember-casino-us-nj-draft.md`, `docs/brand-profile-bettom-gb-draft.md`, `docs/brand-profile-threesix-vegas-gb-draft.md`, `docs/brand-profile-betsuna-gb-draft.md`, `docs/brand-profile-betinia-us-nj-draft.md`, `docs/brand-profile-vegas-club-us-nj-draft.md`, and `docs/brand-profile-winz-nl-draft.md`.
 - Public operator listing information and commercial-independence policy: `/partners/` (not accepting paid placements yet).
 - Owner-facing release gates and evidence record: `docs/owner-final-gates-and-launch-evidence.md`.
+- Fillable launch evidence register (CSV): `docs/launch-evidence-register-template.csv`; keep private account evidence outside the repository.
 - Primary-source Tier 1 market compliance gate for AU, US, FR, DE, CH, GB and NL: `docs/tier-1-market-compliance-gate-2026-10-21.md` (internal screening only; does not clear any market).
 - Internal fixed-fee, CPA, revenue-share, hybrid, qualification, and outreach playbook: `docs/commercial-partnership-operating-playbook.md`.
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
