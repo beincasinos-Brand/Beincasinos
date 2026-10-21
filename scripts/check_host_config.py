@@ -83,5 +83,5 @@ if errors:
         print("  ERROR: " + error)
     sys.exit(1)
 
-print("PASS: Vercel build, output, URL and security-header configuration is valid.")
+print("PASS: Vercel fallback config and Cloudflare Pages security-header configuration are valid.")
 print("Note: configuration checks do not verify deployed HTTP responses or domain routing.")
