@@ -50,13 +50,15 @@ These are checkpoints, not promised deadlines or traffic forecasts.
 
 ## Existing work added in this iteration
 
-The public source tree contains an educational library of guides and tools. The current public sitemap contains 36 URLs; see the live sitemap for the exact set:
+The public source tree contains an educational library of guides and tools. The current source sitemap contains 36 URLs; verify the live sitemap after each deployment:
 - Return to player (RTP), explained.
 - RTP vs volatility.
 - Casino withdrawal verification: what to check.
 - How to evaluate casino complaint data.
 - How to read casino regulatory actions.
 - Casino withdrawal terms: fees, limits and delays.
+- Bonus expiry dates, activation windows and deadlines.
+- Maximum cashout clauses and how they differ from ordinary withdrawal limits.
 
 These are educational pages, not casino recommendations. Publisher identity, privacy/legal, hosting/billing and market-specific eligibility gates remain open for scored casino reviews or commercial promotion.
 
