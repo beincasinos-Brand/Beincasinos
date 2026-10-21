@@ -10,7 +10,7 @@
 - Build command: `python3 scripts/build_site.py`.
 - Output directory: `dist`, assembled from a public-file allowlist.
 - `cloudflare/_headers` is copied by the build into `dist/_headers` and validated in CI; `vercel.json` is retained only as an alternative-host configuration and is not the Cloudflare Pages deployment configuration.
-- Nameservers were submitted at Spaceship as `keenan.ns.cloudflare.com` and `serena.ns.cloudflare.com`. Propagation, DNSSEC/DS state, and live authoritative DNS still require verification. The custom domain `beincasinos.online` and `www.beincasinos.online` have not been confirmed attached to Pages; do not assume either host is live.
+- Nameservers were submitted at Spaceship as `keenan.ns.cloudflare.com` and `serena.ns.cloudflare.com`. The Cloudflare Pages dashboard inspection on 2026-10-21 reports `beincasinos.online` attached and protected, with no dashboard DNS/SSL errors. However, external fetches of the apex homepage, `robots.txt`, and `sitemap.xml` timed out, and `www.beincasinos.online` could not be fetched. Live authoritative DNS, DNSSEC/DS state, HTTPS response, and www-to-apex redirect remain unverified; do not equate dashboard attachment with a successful public launch.
 - `robots.txt` blocks all crawling. Do not remove that block before explicit launch approval.
 
 ## Gate A — before connecting hosting
@@ -30,14 +30,14 @@
 - [x] Confirm the intended Cloudflare account and GitHub repository; Pages project `beincasinos` exists and is connected to `beincasinos-Brand/BeIncasinos`, branch `main`.
 - [x] Configure the build command as `python3 scripts/build_site.py` and build output directory as `dist`.
 - [x] Confirm preview URL https://beincasinos.pages.dev/ responds; the latest repository site-check workflow passed (run 39636460758, commit `2cac7e8c7d41fb5c2a4aa473fe62fb2879595620`). This is a CI result, not proof that the Cloudflare Pages deployment is current.
-- [ ] Keep the preview non-public where possible and keep `robots.txt` blocked. Do not configure a production custom domain or enable public indexing during this gate.
+- [x] Keep `robots.txt` blocked while production checks remain incomplete. The Cloudflare dashboard now reports the apex custom domain attached/protected; this is not launch approval or proof of end-to-end reachability. Do not enable public indexing during this gate.
 - [x] **Deployment freshness discrepancy rechecked 2026-10-21:** after the follow-up repository commits, the live `https://beincasinos.pages.dev/sitemap.xml` returned 32 URLs and included `/guides/casino-affiliate-deal-models/` on a cache-busting fetch. The specific sitemap mismatch is resolved in the preview. Production domain, HTTPS and the remaining launch gates are still unverified; do not treat preview success as production-domain confirmation.
 - [ ] Verify HTTPS, all CSS/JS assets, calculator and checklist under the real response headers, CSP, HSTS and other security headers, canonical URLs, 404 status and mobile layout.
 - [ ] Confirm the deployed output does not expose `docs/`, research CSVs, source scripts, provider configuration or other internal files.
 - [ ] Record preview URL and test evidence internally; do not submit it to Search Console.
 - [ ] If GitHub integration cannot be used, do not substitute Vercel instructions silently; document the blocker and agree on an approved alternative deployment path.
 
-## Gate C — custom domain and final public deployment (not complete)
+## Gate C — custom domain and final public deployment (not complete; dashboard attachment observed)
 
 - [ ] Confirm Gate A is cleared and the owner explicitly authorizes public deployment.
 - [ ] Verify nameserver propagation and DNSSEC/DS records first. Nameservers were already submitted in Spaceship; if DNSSEC is enabled at the registrar, reconcile its DS record with Cloudflare before troubleshooting TLS.
