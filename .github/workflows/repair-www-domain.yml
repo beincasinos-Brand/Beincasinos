@@ -75,30 +75,44 @@ jobs:
           if not zones:
               raise RuntimeError("Cloudflare zone beincasinos.online was not found; refusing to change DNS.")
           zone_id = zones[0]["id"]
-          # Public DNS diagnostics returned NXDOMAIN for www. Attempt create-only:
-          # this cannot overwrite or delete an existing record. If a record already
-          # exists, Cloudflare rejects the duplicate and this job stops safely.
-          dns_payload = {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True}
           dns_path = f"/zones/{zone_id}/dns_records"
           candidates = []
           for candidate in (os.environ.get("CLOUDFLARE_API_TOKEN", ""), os.environ.get("EDIT_ZONE_DNS", "")):
               if candidate and candidate not in candidates:
                   candidates.append(candidate)
+          records = None
           errors = []
-          created = False
+          # Prefer a token that can read DNS records; the first configured token
+          # may be read-only for account/Pages resources but lack DNS permissions.
           for candidate in candidates:
               token = candidate
               headers["Authorization"] = "Bearer " + token
               try:
-                  api("POST", dns_path, dns_payload)
-                  print("Created a proxied www CNAME to the existing Pages project.")
-                  created = True
+                  result = api("GET", dns_path + "?name=www.beincasinos.online&per_page=100")
+                  records = result if isinstance(result, list) else []
                   break
               except RuntimeError as exc:
                   errors.append(str(exc))
-                  print("DNS create attempt did not succeed; trying another configured token if available.")
-          if not created:
-              raise RuntimeError("Could not create www DNS record with configured tokens. No existing records were deleted or overwritten. Check that one token has Zone > DNS > Edit permission for beincasinos.online. Details: " + " | ".join(errors))
+          if records is None:
+              raise RuntimeError("Could not read www DNS records with configured tokens. Check Zone > DNS > Read permission. Details: " + " | ".join(errors))
+          if len(records) > 1:
+              raise RuntimeError("Multiple www DNS records exist; refusing to change any of them: " + json.dumps([{"type": r.get("type"), "content": r.get("content")} for r in records]))
+          if records:
+              rec = records[0]
+              if rec.get("type") != "CNAME":
+                  raise RuntimeError("A non-CNAME www DNS record exists; refusing to overwrite it: " + json.dumps({"type": rec.get("type"), "content": rec.get("content")}))
+              if rec.get("content", "").rstrip(".") != subdomain.rstrip("."):
+                  raise RuntimeError("www CNAME targets a different host; refusing to overwrite it: " + json.dumps({"content": rec.get("content"), "expected": subdomain}))
+              if rec.get("proxied") is not True:
+                  api("PUT", f"{dns_path}/{rec['id']}",
+                      {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
+                  print("Updated the existing www CNAME to the Pages project and enabled Cloudflare proxy.")
+              else:
+                  print("Existing www CNAME already targets the Pages project and is proxied.")
+          else:
+              api("POST", dns_path,
+                  {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
+              print("Created a proxied www CNAME to the existing Pages project.")
           print("Pages project:", project)
           print("Target:", subdomain)
           print("Domain binding and DNS repair request completed. Public DNS propagation and HTTP redirect must still be verified separately.")
