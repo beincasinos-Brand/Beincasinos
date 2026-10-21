@@ -103,3 +103,17 @@ The following names appeared in specialist new-launch trackers. They expand the 
 | Mega Riches Casino | 2024 | https://www.bingomum.co.uk/casino-sites/new-online-casinos/ | HOLD. Verify whether the 2024 entry reflects a genuine launch, a relaunch or a new white-label domain; confirm exact-domain permission. |
 
 **Research discipline:** the candidate list is not a sales forecast. No willingness-to-pay, commercial contact permission, or live partner relationship is established by a secondary launch tracker. A candidate stays `hold` until primary evidence and the relevant market gate are recorded.
+
+
+## Netherlands market-entry discovery leads — pending current Ksa verification
+
+These additional names were found in secondary-source reporting about Dutch market launches. The launch/permit dates below are leads, not a statement that the brand is currently licensed, active, or permitted for any specific promotion. Check the live Ksa Kansspelwijzer and exact domain before any further action.
+
+| Candidate | Reported market entry | Discovery source | Status / required check |
+|---|---|---|---|
+| VBet | Reported Dutch launch 7 October 2025; secondary tracker lists a permit date in 2023 | https://nieuw-online-casino.nl/ | HOLD. Verify current permit holder, exact VBet domain and product category in the current Ksa register. |
+| Lucky7 Casino | Reported permit date 11 October 2024 | https://www.wa.nl/aansprakelijkheidsverzekering/internet/wet-kansspelen-op-afstand/ | HOLD. Verify current Ksa status, exact domain and whether the brand is actively offered by the named permit holder. |
+| Betnation | Reported Dutch launch in 2022 | https://www.nederlandsecasinos.nl/nieuwe-online-casinos/ | HOLD. Verify current permit and exact domain; launch-year evidence is secondary only. |
+| Circus | Reported Dutch launch in 2022 | https://www.nederlandsecasinos.nl/nieuwe-online-casinos/ | HOLD. Verify current permit, exact domain and product category in the current Ksa register. |
+
+Dutch-market note: a historic permit date or secondary launch listing does not prove a permit remains active in October 2026. The Ksa's official licence guide and current Kansspelwijzer must be the controlling sources; commercial outreach remains unapproved until the applicable legal, privacy and launch gates are cleared.
