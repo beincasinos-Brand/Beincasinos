@@ -1,3 +1,11 @@
+## Cloudflare Pages Free preparation — 21 October 2026
+
+- Updated the static allowlist build to copy the source-controlled `cloudflare/_headers` file into `dist/_headers`, preserving the prepared CSP, HSTS, and other security headers for Cloudflare Pages.
+- Extended host-configuration and public-artifact checks to validate Cloudflare header rules and ensure `dist/_headers` is included. The existing Vercel config remains as a fallback; no provider account was connected or changed.
+- Updated README and hosting runbook to make Cloudflare Pages Free the preferred initial host. A host-aware `www` to apex Redirect Rule and live header/route checks remain deployment-stage tasks.
+- Expanded the paid-listing pipeline to 100 research candidates; all remain `hold` / `not_contacted`. These are unqualified research leads, not confirmed operators or willing buyers. No outreach was sent.
+- CI for this latest hosting/config change must pass before treating it as verified. No Cloudflare project, deployment, DNS change, Search Console submission, or public launch has occurred.
+
 ## Latest verified integrated site QA — 21 October 2026, 13:02 UTC
 
 - The latest source commit `d2132ae6cbeb7a8864edea07e3c18e9b1f65c516` passed the complete GitHub Actions Static site checks workflow: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39604429326.
