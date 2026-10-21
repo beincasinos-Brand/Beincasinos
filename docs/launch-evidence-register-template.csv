@@ -6,7 +6,7 @@ A,Identity and name,A4,Verified monitored business mailbox and privacy/correctio
 B,Hosting and billing,B1,Approved commercial hosting plan and budget,OWNER ACTION,,,,"Do not purchase or upgrade without explicit owner approval"
 B,Hosting and billing,B2,Approved repository-to-host connection and preview-only deployment plan,BLOCKED,,,,"Project creation may trigger deployment"
 B,Hosting and billing,B3,Verified build command and public-only artifact,IN PROGRESS,,,,"Record commit and artifact checksum"
-C,Market law and privacy,C1,Qualified review of each selected market/product, BLOCKED,,,,"No blanket international approval; retain dated evidence per market"
+C,Market law and privacy,C1,Qualified review of each selected market/product,BLOCKED,,,,"No blanket international approval; retain dated evidence per market"
 C,Market law and privacy,C2,Qualified privacy review including Morocco Law 09-08/CNDP as applicable,BLOCKED,,,,
 C,Market law and privacy,C3,Final privacy/cookie notice matches deployed data flows,BLOCKED,,,,
 C,Market law and privacy,C4,Affiliate and paid-placement disclosures approved,BLOCKED,,,,
