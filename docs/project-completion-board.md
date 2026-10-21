@@ -1,7 +1,7 @@
 # BeInCasinos — project completion board
-**Latest integrated verification — 21 October 2026, 11:43 UTC**
+**Latest integrated verification — 21 October 2026, 11:45 UTC**
 
-- The launch-evidence register CSV normalization passed the complete Static site checks workflow on commit `9e7b2c7eb2c552de95c64f992b03bfb7063ffb65`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39593947561. This is repository/source and automated browser validation only; it does not clear any owner, legal, hosting, live-domain, or launch gate.
+- The operator qualification scorecard and linked project documentation passed the complete Static site checks workflow on commit `4f9186924a04d3d33628aead46dfa724a554759b`: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39594205787. This is repository/source and automated browser validation only; it does not clear any owner, legal, hosting, live-domain, or launch gate.
 - The launch evidence register remains explicit: CI/artifact PASS; domain/mailbox UNVERIFIED; name, legal/privacy, hosting, market and commercial gates OPEN/BLOCK; live-host QA and Search Console NOT STARTED; explicit public-launch approval NOT_GRANTED.
 
 **Snapshot:** 21 October 2026 (updated after complaint-guide build changes)  
