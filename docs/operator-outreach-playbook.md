@@ -51,7 +51,8 @@ Regards,
 2. Who owns approval of directory advertising and legal/compliance review?
 3. What official sources should be used for current brand, domain and product facts?
 4. What disclosure, link, creative, tracking, renewal and cancellation requirements does the operator have?
-5. Is a paid directory listing of interest in principle, subject to market eligibility and transparent terms?
+5. Which models does your team consider: fixed-fee directory inventory, CPA, revenue share, or a hybrid—and what programme rules, attribution/reporting, market restrictions, and approval steps apply?
+6. Is a paid directory listing or future performance-based arrangement of interest in principle, subject to market eligibility, actual measurement capability, and transparent written terms?
 
 A positive reply is only an initial signal. Mark the pipeline stage replied_interested only when the reply explicitly indicates interest; use qualified_buyer only when the relevant decision-maker confirms the paid-listing use case. Mark won only after a signed agreement and recorded payment/invoice status.
 
