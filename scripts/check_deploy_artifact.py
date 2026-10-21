@@ -33,8 +33,8 @@ else:
             root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
             ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
-            if len(urls) != 20:
-                errors.append(f"dist/sitemap.xml: expected 20 URLs, found {len(urls)}")
+            if len(urls) != 21:
+                errors.append(f"dist/sitemap.xml: expected 21 URLs, found {len(urls)}")
             if "https://beincasinos.online/reviews/" not in urls:
                 errors.append("dist/sitemap.xml: Reviews hub is missing from the canonical URL list")
             if "https://beincasinos.online/partners/" not in urls:
