@@ -25,6 +25,16 @@ The set below is a useful peer group for product research, not an ordinal “top
 | ThePogg | Reviews, complaints-related material, bonus monitoring and community resources (verify current site capabilities) | Consider a documented corrections/escalation workflow; do not imply independent dispute resolution unless built |
 | LCB.org (Latest Casino Bonuses) | Established bonus discovery, community content and casino-related resources (verify current pages and regional scope) | Do not compete on bonus volume alone; prioritise verified restrictions, terms clarity and provenance |
 
+## Verified notes on commercial/editorial models (checked 21 October 2026)
+
+- **Casino.org:** Its public editorial guidelines say the main site does not accept third-party advertising and describes editorial independence from casino relationships. Its review-method page describes a 25-step process. This makes Casino.org a useful product/methodology benchmark, but not evidence that the same paid-listing model is available there. Sources: https://www.casino.org/editorial-guidelines/ and https://www.casino.org/how-we-rate/
+- **AskGamblers:** Its public editorial guidelines explicitly describe a listing fee, while stating that payment does not guarantee acceptance, a positive review, a particular rating, or favourable placement. The page also describes primary-source checks, hands-on testing, player feedback and corrections. This is a concrete public example of separating a commercial listing product from editorial conclusions; it does not prove other operators will buy from BeInCasinos. Source: https://www.askgamblers.com/editorial-guidelines
+- **Casino.com:** Its methodology page describes weighted criteria, direct licence verification, real-money testing, and review/update procedures. Treat those as the publisher's own stated process, not an independent audit of execution. Source: https://www.casino.com/how-we-rank/
+- **Casino Guru:** Its review-methodology pages describe a Safety Index using factors including complaints and restrictive practices, with a data-driven review process. This is a useful example of a distinct product proposition; do not copy its proprietary index or imply that BeInCasinos has equivalent complaint data. Sources: https://casino.guru/guide/our-casino-reviews and https://casino.guru/casino-reviews
+- **Gambling.com:** Its editorial guidelines say it uses regulator and operator sources, welcomes corrections, and may earn affiliate commission without operators buying favourable coverage. Source: https://www.gambling.com/editorial-guidelines
+
+These are statements about what the publishers publicly say. They do not independently establish their actual business results, traffic, commercial rates, or the performance of their processes.
+
 ## Public reference pages
 
 - Casino.org reviews: https://www.casino.org/reviews/
