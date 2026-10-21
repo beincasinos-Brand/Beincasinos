@@ -15,6 +15,7 @@
 
 ## Gate A — before connecting hosting
 
+- [ ] Security hygiene: revoke and rotate any Cloudflare API token or R2 credential previously pasted into chat or otherwise exposed; create least-privilege replacements only if needed, keep them out of Git and public build output, and confirm no credential is present in tracked files or deployment artifacts.
 - [ ] Trademark/name review for BeInCasinos / “BEIN”; domain ownership alone is not clearance.
 - [ ] Legal review of publisher identity, target-market rules, advertising/affiliate disclosures, privacy and Moroccan CNDP / Law 09-08 implications.
 - [ ] Complete the primary-source market screening in `docs/tier-1-market-compliance-gate-2026-10-21.md`; obtain qualified legal review and dated evidence for every market/product. This screening is not itself legal clearance.
