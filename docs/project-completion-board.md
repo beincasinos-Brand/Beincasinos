@@ -252,3 +252,11 @@
 - Added [`docs/operator-qualification-scorecard.md`](operator-qualification-scorecard.md), an internal qualification standard with hard market/legal gates, evidence-weighted review criteria, an evidence record, explicit hold/reject/pass outcomes, and recheck triggers.
 - The scorecard explicitly prevents numerical scores from overriding licence/legal gates, treats missing evidence as not evidenced, separates commercial fit from editorial judgement, and confirms that prospect leads are neither approved listings nor confirmed buyers.
 - This is a documentation/process improvement. It does not clear any candidate, contact operators, establish commercial demand, or remove launch blockers.
+
+
+## Latest verified commercial-pipeline regression coverage — 21 October 2026, 12:05 UTC
+
+- The latest integrated **Static site checks** workflow passed on commit `8474df58c7527115321b5f83f0d25ee928e237ac`: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39596686109.
+- Added regression coverage for case-insensitive duplicate brand names and a valid fully-qualified paid-listing path, alongside the prior negative cases for invalid stage, missing first-contact date, non-HTTPS evidence URL, incomplete contract/payment/review gates, malformed or reversed dates, and a paid listing incorrectly marked with an inapplicable invoice.
+- This is a passing automated source/build/browser-smoke and pipeline-validator run. It does not prove a real partner is licensed, willing to pay, or legally promotable, and does not replace a current final-artifact inspection or manual live-host/device tests.
+- Release remains **BLOCKED**. No Vercel project/paid plan, DNS change, public deployment, Search Console submission, indexing unblock, or partner outreach was performed. Domain/mailbox evidence, name clearance, qualified market/privacy review, commercial hosting approval and explicit owner release approvals remain outstanding.
