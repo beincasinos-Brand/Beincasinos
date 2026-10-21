@@ -11,7 +11,7 @@ Search Console impressions count eligible appearances of a site's links in Googl
 1. Owner verifies domain and mailbox access, Cloudflare account security, and current DNS records.
 2. Complete publisher identity, privacy, advertising/affiliate disclosure, trademark, and applicable market legal reviews.
 3. Keep Australia and France online-casino promotion blocked pending qualified review; verify US state/product eligibility and exact operator/domain before market-specific claims or outbound commercial links in GB, DE, CH and NL.
-4. Keep pre-launch crawl block in place until the owner explicitly authorizes public launch after acceptance testing.
+4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Resubmit/verify the updated 34-URL sitemap in Search Console, inspect index coverage, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
 5. Publish operator profiles only after exact domain, legal operator, licence/product scope, territory, terms, withdrawal policy, complaint route, safer-gambling tools and evidence date are verified from primary sources.
 
 ## Growth principles
