@@ -1,7 +1,7 @@
 # Internal profile dossier — 247Bet (Great Britain)
 
 **Status: HOLD — internal research only; not a public review, score, or endorsement.**  
-**Research date:** 20 October 2026  
+**Research date:** 21 October 2026  
 **Target scope:** Great Britain (GB) only.
 
 ## 1. Identity and primary evidence
@@ -11,7 +11,8 @@
 - UKGC licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/52894
 - UKGC domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/52894
 - Secondary launch discovery: https://britishgambler.co.uk/casino/new/
-- The UKGC domain list includes www.247bet.com as a White Label domain under active remote Casino permission. The reported August 2025 launch date remains secondary-source evidence and has not been independently confirmed.
+- Checked 21 October 2026: the UKGC register lists White Hat Gaming Limited (account 52894) with active Remote Casino permission; the official domain-name record lists www.247bet.com as a White Label domain. The UKGC regulatory-actions page currently says no actions have been recorded for this business. These records are scoped to the named licensee and GB register; the UKGC notes domain/trading-name details are supplied by businesses and are not guaranteed by the Commission. Reconfirm the live records before publication. The reported August 2025 launch date remains secondary-source evidence and has not been independently confirmed.
+- Current official sources checked: https://www.gamblingcommission.gov.uk/public-register/business/detail/52894 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/52894 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/52894 ; register data notes: https://www.gamblingcommission.gov.uk/public-register/businesses
 - A licence/domain match is not proof of product quality, a completed editorial review, or willingness to buy a listing.
 
 ## 2. Publication eligibility gates
