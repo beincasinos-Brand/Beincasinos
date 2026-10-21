@@ -20,7 +20,7 @@ For each row, record: status (NOT STARTED, PASS, FAIL, BLOCKED), UTC timestamp, 
 
 Run at minimum on current stable Chrome and Firefox desktop, Safari on a real Apple device if available, and Chrome on Android. If a device/browser cannot be tested, record it as not tested rather than passed.
 
-- [ ] Home, Reviews hub, For Operators, the Guides hub and each guide (including the review-site comparison guide), market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
+- [ ] Home, Reviews hub, For Operators, the Guides hub and each guide (including the review-site comparison guide and the new casino-review-business-model guide), market research, responsible gambling, privacy, editorial policy, about/contact, each tool, and custom 404 render without horizontal overflow at 320px, 375px, 768px, 1024px and 1440px viewport widths.
 - [ ] Navigation, footer, external links, breadcrumbs and in-page anchors work with mouse, touch and keyboard.
 - [ ] BIC monogram/logo is crisp and legible at favicon, header and compact mobile sizes; full BeInCasinos wordmark remains readable beside it.
 - [ ] Reviews hub explains eligibility gates, evidence standards, scoring weights and commercial independence; it does not imply that unverified operators have been scored or ranked. Automated source checks now enforce the six public scoring weights, the full-methodology link, and an explicit statement that no casino profiles are currently scored or ranked; manual browser/host verification remains required.
