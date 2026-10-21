@@ -17,6 +17,7 @@
 
 - [ ] Trademark/name review for BeInCasinos / “BEIN”; domain ownership alone is not clearance.
 - [ ] Legal review of publisher identity, target-market rules, advertising/affiliate disclosures, privacy and Moroccan CNDP / Law 09-08 implications.
+- [ ] Complete the primary-source market screening in `docs/tier-1-market-compliance-gate-2026-10-21.md`; obtain qualified legal review and dated evidence for every market/product. This screening is not itself legal clearance.
 - [ ] Verify the publisher contact mailbox is accessible and monitored; temporary address is beincasinos@gmail.com.
 - [ ] Approve a final privacy notice based on the actual host, logging, analytics and third-party services.
 - [ ] Review every public brand profile's exact domain/operator/licence, market scope, terms, withdrawals, complaints, safer-gambling controls and regulatory history.
