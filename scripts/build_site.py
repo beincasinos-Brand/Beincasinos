@@ -5,6 +5,8 @@ import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
+CLOUDFLARE_HEADERS = "cloudflare/_headers"
+
 PUBLIC_FILES = (
     "index.html",
     "404.html",
@@ -54,6 +56,12 @@ for rel in PUBLIC_FILES:
     if not src.is_file() or src.is_symlink():
         raise SystemExit(f"Required public file is missing or unsafe: {rel}")
     shutil.copy2(src, DIST / rel)
+
+# Cloudflare Pages consumes _headers from the deployment root.
+headers_src = ROOT / CLOUDFLARE_HEADERS
+if not headers_src.is_file() or headers_src.is_symlink():
+    raise SystemExit(f"Required Cloudflare security header file is missing or unsafe: {CLOUDFLARE_HEADERS}")
+shutil.copy2(headers_src, DIST / "_headers")
 
 for rel in PUBLIC_DIRS:
     src = ROOT / rel
