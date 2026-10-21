@@ -4,7 +4,7 @@
 - Extended host-configuration and public-artifact checks to validate Cloudflare header rules and ensure `dist/_headers` is included. The existing Vercel config remains as a fallback; no provider account was connected or changed.
 - Updated README and hosting runbook to make Cloudflare Pages Free the preferred initial host. A host-aware `www` to apex Redirect Rule and live header/route checks remain deployment-stage tasks.
 - Expanded the paid-listing pipeline to 100 research candidates; all remain `hold` / `not_contacted`. These are unqualified research leads, not confirmed operators or willing buyers. No outreach was sent.
-- CI for this latest hosting/config change must pass before treating it as verified. No Cloudflare project, deployment, DNS change, Search Console submission, or public launch has occurred.
+- The integrated GitHub Actions workflow passed on commit `9966fd502a40c7bf9daafdf2b29cce6f07daaf3a`, including site checks, pipeline hard gates/regressions, JavaScript syntax, Cloudflare header validation, artifact leak checks, and Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39608408703. Later deployment-runbook/README evidence updates are documentation-only and have their own CI runs pending. No Cloudflare project, deployment, DNS change, Search Console submission, or public launch has occurred.
 
 ## Latest verified integrated site QA — 21 October 2026, 13:02 UTC
 
