@@ -83,6 +83,13 @@ else:
     if robots.is_file() and "Disallow: /" not in robots.read_text(encoding="utf-8"):
         errors.append("dist/robots.txt: pre-launch crawl block was removed without the release gate")
 
+    # Defense in depth: the public artifact must never contain internal source,
+    # research trackers, environment files, or provider configuration.
+    forbidden_suffixes = {".md", ".csv", ".py", ".toml", ".yml", ".yaml", ".env"}
+    for asset in DIST.rglob("*"):
+        if asset.is_file() and asset.suffix.lower() in forbidden_suffixes:
+            errors.append(f"dist/{asset.relative_to(DIST)}: internal/source file type must not be published")
+
     # Enforce compatibility with the prepared same-origin-only script/style CSP.
     inline_script = re.compile(r"<script(?![^>]*\bsrc=)[^>]*>", re.IGNORECASE)
     inline_style = re.compile(r"<style\b|\sstyle\s*=", re.IGNORECASE)
