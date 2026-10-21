@@ -33,7 +33,6 @@ FORBIDDEN_PUBLIC_PATHS = (
     "README.md",
     "docs",
     "scripts",
-    "netlify.toml",
     "vercel.json",
     ".github",
 )
