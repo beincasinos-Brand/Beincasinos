@@ -188,3 +188,12 @@
 - Latest CI run: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39573291872 passed all 10 substantive steps, including source/link checks, shared-JavaScript syntax, Vercel configuration, public-only build, internal-file exclusion, Chromium browser smoke tests, and sanitized artifact storage. This is repository/CI evidence only; it is not live-host validation, legal clearance, or release approval.
 - The tracker validation now enforces a minimum of 100 brand-name research leads while excluding two category-level restriction rows. The 100-name count remains a research-queue milestone only; the added grade-C leads remain held until primary-source operator/domain and market permission checks are completed.
 - Release remains BLOCKED. Do not deploy, enable indexing, or represent the prospect queue as 100 qualified or fee-paying buyers.
+
+
+## Latest operations update — 21 October 2026
+
+- Added the owner-facing launch-gate/evidence checklist and commercial partnership operating playbook in PR #1. The pull request was marked ready and merged to `main` after the full repository workflow passed: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39592440087.
+- Latest verified workflow result: all substantive steps passed, including HTML/local-link checks, shared JavaScript syntax, Vercel configuration validation, public-only build, internal-file exclusion, Chromium browser smoke tests, and sanitized artifact storage. This is CI evidence for the repository, not production-host or legal approval.
+- The commercial playbook documents fixed-fee listings, CPA, revenue share, hybrid and sponsored-content models as options to validate—not confirmed deals or proven pricing. No operator outreach was sent and no willingness to pay is claimed.
+- Deployment remains BLOCKED pending evidence for trademark/name clearance, legal review across the intended markets, real mailbox/contact monitoring, final privacy and commercial disclosures, live-domain/DNS verification, manual device/accessibility QA, and explicit owner authorization for paid hosting and production deployment.
+- No Vercel project or paid subscription was created, no DNS was changed, no production deployment was made, and indexing remains blocked.
