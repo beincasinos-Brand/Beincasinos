@@ -5,6 +5,7 @@ const baseURL = process.env.BASE_URL || "http://127.0.0.1:4173";
 const routes = [
   "/", "/about/", "/affiliate-disclosure/", "/contact/", "/editorial-policy/",
   "/guides/", "/guides/bonus-terms-explained/", "/guides/how-to-check-a-casino-licence/",
+  "/guides/how-to-compare-casino-review-sites/",
   "/guides/how-to-read-casino-terms/", "/guides/online-gambling-self-exclusion/",
   "/guides/what-wagering-requirements-mean/", "/guides/withdrawal-terms/",
   "/how-we-review/", "/market-research/", "/partners/", "/privacy/",
