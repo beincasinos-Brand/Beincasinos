@@ -1,10 +1,13 @@
 # BeInCasinos — project completion board
 
-**Snapshot:** 21 October 2026 (updated after comparison-guide and partnership-research CI)  
+**Snapshot:** 21 October 2026 (updated after prospect-scorecard CI)  
 **Release decision:** BLOCKED — do not deploy publicly or enable indexing.  
 **Purpose:** One owner-facing list of work completed, outstanding evidence, and actions that require owner or third-party participation.
 
 ## Latest verified update — 21 October 2026
+
+- Added `docs/operator-prospect-qualification-scorecard.md` and linked it from README. It separates mandatory legal/evidence gates from an internal 0–10 research-priority score and direct-evidence commercial qualification stages. It explicitly states that the 100-name queue is a backlog, not 100 verified prospects or buyers, and that fixed-fee, CPA, revenue-share, hybrid and sponsorship formats remain hypotheses. The full CI workflows passed, including HTML/local-link checks, JS syntax, Vercel config, public-only artifact/leak checks, and Chromium browser smoke tests: https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39581082370 and https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/39581090861.
+- Refreshed `docs/prelaunch-launch-checklist.md` so its canonical/social metadata and automated-browser-test inventory reflects the current **22 indexable routes** rather than the stale 20-route count. Local CI success is not production-host QA or launch approval.
 
 - Added the public guide `/guides/how-to-compare-casino-review-sites/`, linked it from the homepage, guides hub, and review hub, and added it to the sitemap and browser smoke-test route list. The current expected inventory is **22 indexable routes / 23 HTML files including 404**. The guide explains how readers can compare review publishers without implying BeInCasinos has independently tested or audited its competitors.
 - Added the guide's source-backed internal competitor benchmark and updated it with public publisher disclosures/methodology statements. These are publishers' own published claims, not independent audits: Casino.org describes its own review methodology and says it does not accept third-party advertising on its main site; AskGamblers says it charges a listing fee while separating payment from acceptance, review outcome, rating, and placement; Casino.com, Casino Guru, and Gambling.com have their own published methodology/editorial disclosures.
