@@ -185,6 +185,31 @@ jobs:
               raise RuntimeError("Final DNS verification did not find the expected CNAME.")
           print(f"SUCCESS: {www_name} is attached/listed in Pages and the expected CNAME exists.")
 
+          # Ask Pages to retry hostname validation if it is still pending.
+          domain_path = domains_path + "/" + urllib.parse.quote(www_name, safe="")
+          status, body = api("GET", domain_path)
+          require_success(status, body, "Pages www domain status lookup")
+          current_domain = body.get("result") or {}
+          current_status = current_domain.get("status")
+          validation = current_domain.get("validation_data") or {}
+          verification = current_domain.get("verification_data") or {}
+          print(
+              "Pages www status before validation retry: "
+              + str(current_status)
+              + "; validation="
+              + str(validation.get("status"))
+              + "; verification="
+              + str(verification.get("status"))
+          )
+          if current_status in ("pending", "initializing") or validation.get("status") == "pending":
+              retry_status, retry_body = api("PATCH", domain_path, {})
+              if 200 <= retry_status < 300 and retry_body.get("success"):
+                  print("Requested Cloudflare Pages custom-domain validation retry.")
+              else:
+                  print("Pages validation retry was not accepted; preserving current DNS and continuing checks.")
+          else:
+              print("Pages domain is not pending; no validation retry requested.")
+
           # Poll public DNS and the real HTTP redirect so this run verifies end-to-end behavior.
           print("Checking public DNS propagation and the live redirect...")
           public_ready = False
