@@ -209,3 +209,6 @@
 - Aligned the Australia note with the existing target-market matrix: ACMA reports a range of advertising/affiliate reforms due to commence 1 January 2027. The enacted text, commencement/transition instruments, exact scope and qualified advice still need re-checking before any 2027 campaign or commission agreement.
 - This work is an internal screening control only. It does not constitute legal clearance or approve any operator. No partner outreach, paid placement, affiliate activation, production deploy, DNS change, Vercel upgrade, or indexing change was made.
 - The latest docs-only commits have not yet been independently verified by a completed CI run. Repeat the repository workflow against the final main commit before relying on CI status.
+
+
+- Added `docs/paid-placement-order-form-internal-draft.md`, a non-binding internal order-form and contract checklist covering exact deliverables, market eligibility, fee/commission calculations, disclosure, privacy/tracking, editorial independence, pause/removal rights, invoicing and recordkeeping. It is not a live offer or a substitute for counsel-drafted terms. It cannot be used until publisher identity, legal review, audience evidence, market approval, privacy controls and launch approval are complete.
