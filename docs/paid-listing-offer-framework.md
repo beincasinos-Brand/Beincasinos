@@ -17,6 +17,22 @@ A paid listing is a clearly disclosed advertising product, not a licence badge, 
 
 These ranges are starting hypotheses for willingness-to-pay interviews. Do not publish them as final prices. Validate with at least 10 relevant commercial conversations, record reasons for acceptance/refusal, compare like-for-like media kits, and adjust based on actual audience and fulfilment cost. A “yes” to an interview is not a “yes” to paying.
 
+## Partnership models to validate (not yet offered)
+
+The owner intends to explore more than fixed-fee listings. Treat the following as commercial hypotheses to validate with authorised operator contacts; do not publish rates or imply any current offer.
+
+| Model | Possible commercial structure | Required controls |
+|---|---|---|
+| Fixed-fee listing | Fixed amount for a defined, labelled placement and period | Audience evidence, exact inventory, market/product approval, delivery/reporting definition, expiry and cancellation terms |
+| CPA | Payment for a contractually defined qualifying action | Written definition of eligible action, attribution window, fraud/duplicate rules, validation, payout timing, market permission and disclosure |
+| Revenue share | Contractual share of defined net revenue or other agreed base | Precise revenue base, deductions, negative carryover treatment if any, reporting, audit rights, attribution, payment currency/timing, termination and post-termination handling |
+| Hybrid | Fixed fee plus CPA and/or revenue share | Separate fixed deliverables and performance calculation; avoid double-counting; define caps/floors if negotiated, reporting, attribution and termination |
+| Sponsored content | Fixed fee for a clearly labelled educational/advertising asset | Strong ad label, editorial review, no disguised advertorial, no paid score/rank, claims substantiation and legal approval |
+
+Do not assume every operator accepts all models. Some brands may only work through an existing affiliate network, and a network deal does not establish interest in buying a directory listing. Do not invent standard commission rates or use confidential third-party terms as market benchmarks without permission.
+
+Before any performance-based deal, confirm that the attribution technology and reporting actually work, the privacy notice and consent design match the implementation, and the partner's programme terms allow the intended markets, pages, link placement, and promotion methods. Do not add tracking parameters, pixels, or cookies before the privacy and legal gate is approved.
+
 ## Inventory and measurement rules
 
 - Label paid placements conspicuously as “Sponsored” or “Paid placement” next to the item, in plain language.
