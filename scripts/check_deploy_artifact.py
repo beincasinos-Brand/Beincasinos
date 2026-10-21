@@ -33,8 +33,8 @@ else:
             root = ET.fromstring(sitemap.read_text(encoding="utf-8"))
             ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             urls = [((item.text or "").strip()) for item in root.findall(".//sm:loc", ns)]
-            if len(urls) != 23:
-                errors.append(f"dist/sitemap.xml: expected 23 URLs, found {len(urls)}")
+            if len(urls) != 24:
+                errors.append(f"dist/sitemap.xml: expected 24 URLs, found {len(urls)}")
             if len(set(urls)) != len(urls):
                 errors.append("dist/sitemap.xml: duplicate canonical URL entries found")
 
