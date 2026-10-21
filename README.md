@@ -27,6 +27,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Paid-listing offer framework and pricing hypotheses: `docs/paid-listing-offer-framework.md`. This is an internal research draft, not a public rate card; pricing and demand remain unvalidated.
 - Operator prospect qualification scorecard: `docs/operator-prospect-qualification-scorecard.md`. This keeps legal/evidence gates separate from research priority and unconfirmed commercial demand.
 - Media-kit evidence template: `docs/media-kit-evidence-template.md`. Fill only from real, dated reports; no audience metrics are asserted until measured.
+- Paid-placement order-form checklist: `docs/paid-placement-order-form-internal-draft.md`. Internal counsel-review draft only; not a contract or offer.
 
 ## Local preview
 Open `index.html` directly, or run `python -m http.server 8080` from the project root.
