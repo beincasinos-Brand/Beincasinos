@@ -1,0 +1,24 @@
+gate_id,gate_name,item_id,required_evidence,status,owner_or_reviewer,evidence_url_or_private_reference,review_date_utc,notes
+A,Identity and name,A1,Qualified trademark/name clearance for BeInCasinos and BEIN element,BLOCKED,,,,Do not infer clearance from domain ownership
+A,Identity and name,A2,Confirmed legal publisher identity and public disclosure requirements,OWNER ACTION,,,,
+A,Identity and name,A3,Verified domain control renewal and DNS access in Spaceship,OWNER ACTION,,,,
+A,Identity and name,A4,Verified monitored business mailbox and privacy/correction contact,OWNER ACTION,,,,
+B,Hosting and billing,B1,Approved commercial hosting plan and budget,OWNER ACTION,,,,"Do not purchase or upgrade without explicit owner approval"
+B,Hosting and billing,B2,Approved repository-to-host connection and preview-only deployment plan,BLOCKED,,,,"Project creation may trigger deployment"
+B,Hosting and billing,B3,Verified build command and public-only artifact,IN PROGRESS,,,,"Record commit and artifact checksum"
+C,Market law and privacy,C1,Qualified review of each selected market/product, BLOCKED,,,,"No blanket international approval; retain dated evidence per market"
+C,Market law and privacy,C2,Qualified privacy review including Morocco Law 09-08/CNDP as applicable,BLOCKED,,,,
+C,Market law and privacy,C3,Final privacy/cookie notice matches deployed data flows,BLOCKED,,,,
+C,Market law and privacy,C4,Affiliate and paid-placement disclosures approved,BLOCKED,,,,
+D,Editorial and commercial,D1,Exact operator/domain/product/market evidence for each public profile,BLOCKED,,,,"All current candidates remain unpublished until approved"
+D,Editorial and commercial,D2,Measured audience baseline and evidence-only media kit,NOT STARTED,,,,"Use Not measured until actual dated data exists"
+D,Editorial and commercial,D3,Approved contract, pricing, cancellation and reporting terms,NOT STARTED,,,,
+D,Editorial and commercial,D4,No claim of partner or buyer status without evidence,IN PROGRESS,,,,
+E,Build and acceptance,E1,Latest CI success for exact release commit,NOT VERIFIED,,,,"Do not substitute older successful workflow"
+E,Build and acceptance,E2,Public artifact leak scan and source/link/JS checks,NOT VERIFIED,,,,
+E,Build and acceptance,E3,Manual keyboard, screen-reader, real-device and responsive checks,NOT STARTED,,,,
+E,Build and acceptance,E4,Live preview HTTPS redirects headers CSP routes and 404 verified,NOT STARTED,,,,
+F,Release and indexing,F1,Owner explicit production deployment approval,BLOCKED,,,,
+F,Release and indexing,F2,Live-host acceptance tests passed and evidence stored,BLOCKED,,,,
+F,Release and indexing,F3,Owner separate indexing approval,BLOCKED,,,,"Keep robots.txt Disallow: / until this gate passes"
+F,Release and indexing,F4,Search Console ownership and sitemap submission after approval,BLOCKED,,,,
