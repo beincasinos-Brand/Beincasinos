@@ -4,7 +4,7 @@
 
 ## Purpose
 
-The existing 100-name list is a research backlog, not 100 qualified prospects. Use this scorecard to decide which names deserve more research and which, if any, may later be approached about a clearly labelled listing. Do not score a brand as commercially qualified merely because it is licensed, new, visible in search results, or has a press contact.
+The existing 100-name list is a research backlog, not 100 qualified prospects. Use this scorecard to decide which names deserve more research and which, if any, may later be approached about a clearly labelled listing. Do not score a brand as commercially qualified merely because it is licensed, new, visible in search results, or has a press contact. The separate Tier 1 master tracker now contains 103 brand-name research rows plus two market-category restriction rows; that larger count reflects research leads, not additional qualified buyers. The latest three UKGC-backed entries (Silkbet, BigBangBet, and RoyalOl / Speadboom) remain Hold because the consumer product, terms and full editorial evidence are incomplete.
 
 ## Gate 0 — market and product legality (mandatory pass/fail)
 
