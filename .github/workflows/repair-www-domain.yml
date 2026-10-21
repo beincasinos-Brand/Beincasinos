@@ -78,9 +78,27 @@ jobs:
           # Public DNS diagnostics returned NXDOMAIN for www. Attempt create-only:
           # this cannot overwrite or delete an existing record. If a record already
           # exists, Cloudflare rejects the duplicate and this job stops safely.
-          api("POST", f"/zones/{zone_id}/dns_records",
-              {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True})
-          print("Created a proxied www CNAME to the existing Pages project.")
+          dns_payload = {"type": "CNAME", "name": "www", "content": subdomain, "ttl": 1, "proxied": True}
+          dns_path = f"/zones/{zone_id}/dns_records"
+          candidates = []
+          for candidate in (os.environ.get("CLOUDFLARE_API_TOKEN", ""), os.environ.get("EDIT_ZONE_DNS", "")):
+              if candidate and candidate not in candidates:
+                  candidates.append(candidate)
+          errors = []
+          created = False
+          for candidate in candidates:
+              token = candidate
+              headers["Authorization"] = "Bearer " + token
+              try:
+                  api("POST", dns_path, dns_payload)
+                  print("Created a proxied www CNAME to the existing Pages project.")
+                  created = True
+                  break
+              except RuntimeError as exc:
+                  errors.append(str(exc))
+                  print("DNS create attempt did not succeed; trying another configured token if available.")
+          if not created:
+              raise RuntimeError("Could not create www DNS record with configured tokens. No existing records were deleted or overwritten. Check that one token has Zone > DNS > Edit permission for beincasinos.online. Details: " + " | ".join(errors))
           print("Pages project:", project)
           print("Target:", subdomain)
           print("Domain binding and DNS repair request completed. Public DNS propagation and HTTP redirect must still be verified separately.")
