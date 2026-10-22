@@ -5,9 +5,10 @@
 ## Current state (2026-10-22)
 
 - `docs/brand-research-template.csv` contains 100 candidate rows. These are research leads, not 100 verified brands; candidate names do not prove existence, licence status, product permission, market eligibility, or willingness to pay.
-- The Swiss/FGB research lead batch and the Great Britain/UKGC research batches are internal evidence logs. Current GB documents: [batch 1](gb-brand-research-batch-1.md), [batch 2](gb-brand-research-batch-2.md), and [batch 3](gb-brand-research-batch-3.md).
+- The Swiss/FGB and Great Britain/UKGC research batches remain internal evidence logs. Current GB documents: [batch 1](gb-brand-research-batch-1.md), [batch 2](gb-brand-research-batch-2.md), and [batch 3](gb-brand-research-batch-3.md).
+- Denmark regulator evidence has expanded through internal batches [4](reviews/internal/denmark-official-operator-evidence-batch-4-2026-10-22.md), [5](reviews/internal/denmark-official-operator-evidence-batch-5-2026-10-22.md), [6](reviews/internal/denmark-official-operator-evidence-batch-6-2026-10-22.md), [7](reviews/internal/denmark-official-operator-evidence-batch-7-2026-10-22.md), and [8](reviews/internal/denmark-official-operator-evidence-batch-8-2026-10-22.md), plus the [regulatory-history watchlist](reviews/internal/denmark-regulatory-history-insolvency-watchlist-2026-10-22.md). These are candidate evidence notes, not completed reviews.
 - The three GB batches cover regulator identity leads, domain/operator ambiguities, and historic surrendered permissions. Some rows are related entities rather than distinct consumer brands, so they must be deduplicated before counting the 100-brand target.
-- **0/100 candidates are approved for publication** in this sprint. The research documents are not completed consumer reviews, legal opinions, or evidence of hands-on testing.
+- **0/100 candidates are approved for publication** in this sprint. The new Denmark batches are regulator/operator evidence only; they do not count as fully verified brands or publication-ready reviews. The Danish Gambling Authority reported Jackpotbet A/S was declared bankrupt on 18 June 2026 and its licences revoked; exclude it from active candidates unless a new official record establishes lawful current permission. Source: https://spillemyndigheden.dk/en-us/news-articles/gambling-operator-declared-bankrupt. Research documents are not completed consumer reviews, legal opinions, or evidence of hands-on testing.
 - The targeted ADR route repair workflow previously failed before purge with Cloudflare API HTTP 401 / error 10000 (authentication error); no cache purge was accepted. See [issue #14](https://github.com/beincasinos-Brand/BeIncasinos/issues/14) and [workflow run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39749376879). A current content fetch can read the canonical guide, but this alone does not prove the edge returned raw HTTP 200.
 - The latest static site check run for the previous research commit passed, including Chromium browser smoke tests. The latest run after batch 3 was still in progress at the last check; do not call it passed until it finishes.
 
@@ -28,9 +29,10 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 1. **CH:** finish the 10 FGB-listed online platforms and verify exact domain/operator/product scope from current official sources.
 2. **GB:** continue with the UK Gambling Commission's current business, domain, trading-name and licence records. Require exact domain/trading-name mapping plus active remote casino permission; an operator's active licence alone is insufficient. Recheck the domain and permissions immediately before publication.
-3. **NL:** use the Kansspelautoriteit's current Kansspelwijzer and permit decisions; re-check renewals and exact brand/domain mapping.
-4. **DE:** use the relevant official state authority/official whitelist and confirm exact permit and product scope before any profile.
-5. Add another market only after a documented legal/advertising/affiliate eligibility review.
+3. **DK:** continue beyond operator/domain discovery into brand-specific current terms, payment/withdrawal restrictions, support, complaints and safer-gambling evidence; resolve shared-operator and domain-transition conflicts. Exclude revoked/bankrupt operators from active candidates.
+4. **NL:** use the Kansspelautoriteit's current Kansspelwijzer and permit decisions; re-check renewals and exact brand/domain mapping.
+5. **DE:** use the relevant official state authority/official whitelist and confirm exact permit and product scope before any profile.
+6. Add another market only after a documented legal/advertising/affiliate eligibility review.
 
 ## Publishing and SEO gates
 
