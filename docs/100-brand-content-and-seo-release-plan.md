@@ -45,7 +45,7 @@ A missing or conflicting material fact means **HOLD**. A licence in one market d
 ### Batch order
 
 1. **CH — official register-led batch:** finish the Swiss Federal Gaming Board-listed platforms and verify exact current domain/operator/product scope. Do not infer permission from brand similarity.
-2. **GB — UKGC batch:** confirm exact domain and trading name against the current UKGC register, active remote-casino permission, terms, complaints and historical actions. Distinguish the licensed operator from the brand.
+2. **GB — UKGC batches 1–4:** continue checking exact domains and trading names against the current UKGC register, active remote-casino permission, terms, complaints and historical actions. The current research notes are [batch 1](gb-brand-research-batch-1.md), [batch 2](gb-brand-research-batch-2.md), [batch 3](gb-brand-research-batch-3.md), and [batch 4](gb-brand-research-batch-4.md). Distinguish the licensed operator from the consumer brand; related entity records are not automatically distinct brands.
 3. **NL — KSA batch:** use the current Kansspelwijzer/register and current permit decisions; re-check renewals and domain/product scope.
 4. **DE — official state/whitelist batch:** include only brands with exact current permission and product scope confirmed from official sources.
 5. Other markets only after a documented market-specific legal and advertising/affiliate eligibility review. Do not make a global casino list by mixing incomparable legal regimes.
