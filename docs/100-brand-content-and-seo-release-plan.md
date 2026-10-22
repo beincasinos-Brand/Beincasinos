@@ -132,3 +132,8 @@ A live fetch inspected all **44 URLs** currently listed by `https://beincasinos.
 A live production crawl checked the homepage separately and all 43 non-homepage URLs returned by the sitemap extractor (the XML advertises 44 URLs total). Across the checked pages, the fetch results showed page titles, meta descriptions and self-referencing apex canonicals; no noindex directive was returned in the extracted page metadata. The new payment-method ownership guide is live and includes anti-phishing advice, safe handling of identity documents, a carefully scoped Great Britain verification note, and links to related withdrawal/complaint guides.
 
 This is a crawler-based metadata/content availability check, not a definitive HTTP-status matrix from every network path and not a Google indexing report. The XML advertises 44 URLs; the extractor returned 43 non-homepage entries, with the homepage independently checked above. Keep using Search Console's URL Inspection and indexing reports for Google's own state.
+
+
+## International top-10 roadmap — 22 October 2026
+
+A new operating roadmap defines market selection gates, evidence requirements for every public review, competitor lessons, international SEO architecture, measurement, and 30/60/90-day checkpoints. It explicitly treats the international top-10 ambition as unproven and prevents bulk translated/thin affiliate pages. Read [the international top-10 roadmap](international-top-10-roadmap.md).
