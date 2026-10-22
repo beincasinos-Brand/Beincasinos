@@ -48,6 +48,9 @@
 
 - [Batch 26](gb-brand-research-batch-26-2026-10-22.md) records 13 Active domain rows under LC International Limited's active remote casino permission and distinguishes the separate Ladbrokes Betting & Gaming Limited account. These are candidate leads, not approved reviews; **0/100 brands approved, 0 publication-ready reviews**.
 
+
+- [Batch 27](gb-brand-research-batch-27-2026-10-22.md) records Petfre (Gibraltar) Limited's active casino permission, declared Betfred/oddsKing domain rows and separate 2025 technical-standards penalty and 2026 £900,000 social-responsibility settlement. Consumer review remains on hold pending casino-specific terms and testing; **0/100 approved brands, 0 publication-ready reviews**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
