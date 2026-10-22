@@ -34,6 +34,20 @@ jobs:
 
           base = "https://api.cloudflare.com/client/v4"
           target = "https://beincasinos.online/guides/alternative-dispute-resolution-gambling/"
+          # Do not request a privileged purge if the production URL is already healthy.
+          try:
+              req = urllib.request.Request(target, headers={"Cache-Control": "no-cache", "Pragma": "no-cache", "User-Agent": "BeInCasinos-targeted-edge-repair"})
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  current_body = response.read().decode("utf-8", "replace")
+                  if response.status == 200 and ('rel="canonical" href="' + target + '"' in current_body or "rel='canonical' href='" + target + "'" in current_body):
+                      print("Production guide already returns HTTP 200 with the expected self-canonical; no cache purge is necessary.")
+                      raise SystemExit(0)
+          except urllib.error.HTTPError as exc:
+              print(f"Production preflight returned HTTP {exc.code}; attempting the targeted cache repair.")
+          except SystemExit:
+              raise
+          except Exception as exc:
+              print(f"Production preflight could not verify the guide ({type(exc).__name__}); attempting the targeted cache repair.")
           candidates = []
           for name in ("CLOUDFLARE_API_TOKEN", "EDIT_ZONE_DNS"):
               value = (os.environ.get(name) or "").strip()
