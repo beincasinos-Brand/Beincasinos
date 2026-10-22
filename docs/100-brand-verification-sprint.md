@@ -30,6 +30,9 @@
 
 - [Batch 20](gb-brand-research-batch-20-2026-10-22.md) records Blue Star Planet Limited's active Casino Remote permission, its 10bet trading name and the UKGC's 2023 £620,000 regulatory action. Exact domain mapping and consumer terms remain open; this internal evidence note adds **0** approved brands and **0** publication-ready reviews.
 
+
+- [Batch 21](gb-brand-research-batch-21-2026-10-22.md) records Hollywoodbets International UK Limited's active Casino Remote permission and two active UKGC-listed domains, while preserving the limitation that this does not establish eligibility in Morocco or complete a consumer review. Approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
