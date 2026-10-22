@@ -114,3 +114,14 @@ A second live fetch checked the homepage, `/robots.txt`, `/sitemap.xml`, `/revie
 - New private UKGC register follow-up in `docs/gb-operator-research-batch-5.md` records active-domain leads for Gamesys Operations Limited and SBKI/Fitzbet, plus a material 2023 regulatory-action record for Gamesys. These are **research leads only**; none is approved for a public profile.
 
 **Release gate remains unchanged:** the last code commit in this follow-up changes internal research documentation only. Cloudflare's read-only diagnostic completed successfully, and static site checks completed successfully. This does not itself publish new public content, establish Google indexing, or demonstrate Search Console performance.
+
+
+### Sitemap-wide live audit — 22 October 2026
+
+A live fetch inspected all **44 URLs** currently listed by `https://beincasinos.online/sitemap.xml` (homepage, hubs, tools, policy pages and guides).
+
+- All 44 sitemap entries were retrievable by the page-fetch audit; no per-page fetch errors were returned.
+- The homepage and all 43 remaining entries returned a title and description, and each inspected page's canonical matched its sitemap URL.
+- The complaint guide change for Great Britain was verified live at `/guides/how-to-complain-about-a-casino/`; the page links to the Gambling Commission's official eight-week complaint guidance and its ADR guide (updated 15 May 2026).
+- This is an external fetch and metadata audit, not a Googlebot crawl, Search Console indexation report, performance measurement, or guarantee of indexation. Fetch success alone does not prove HTTP status as seen by every crawler, ranking, or impressions.
+- Follow-up: compare the exact 44 URLs against Search Console's Page indexing and Performance reports when authorized data is available; resolve any discovered excluded/canonical-selected URLs with evidence rather than resubmitting everything repeatedly.
