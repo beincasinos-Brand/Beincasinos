@@ -169,3 +169,10 @@ A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-1
 **Important portfolio consistency issue:** this legacy 100-row queue is not yet aligned with the current 10-market roadmap. It includes Romania and repeats several international brands as separate market rows, while the roadmap targets Great Britain, Italy, Spain, Netherlands, Germany, Switzerland, Sweden, Denmark, Belgium and Ontario. Do not present the current 100-row queue as 100 distinct, fully eligible brands until it has been deduplicated and remapped to the agreed market portfolio using current official regulator records.
 
 **Counts after this batch:** candidate rows in this register: 100 (not all validated); narrative drafts in GB batch 01: 15 (all HOLD); approved public reviews: 0/100.
+
+
+## Research batch log — 22 October 2026
+- Germany intake added: `docs/reviews/internal/de-batch-01-10-ggl-whitelist-research-leads-2026-10-22.md` (10 domain-level research leads from the GGL whitelist).
+- These ten leads are **not ten newly verified unique global brands**. Some may already appear elsewhere in the candidate queue or other market batches; deduplicate globally before programme totals are reported.
+- Germany scope is category-sensitive: GGL virtual-slot authorization is not proof of permission for every online-casino product. The batch remains internal HOLD pending exact domain/operator, game-category, terms and independent fact-check verification.
+- Programme-wide approved public reviews remain **0** based on the current internal approval gate. Candidate counts, regulator-listed domains and draft narratives must not be presented as approved reviews.
