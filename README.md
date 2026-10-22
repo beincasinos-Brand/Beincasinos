@@ -54,7 +54,7 @@ The owner has reported completing the `beincasinos.online` purchase through Spac
 4. The owner has specified the publisher display identity as **Anass Amir** and the temporary contact email as **beincasinos@gmail.com**. Verify that the mailbox is accessible and monitored, and determine whether additional legal publisher details are required before launch.
 5. Update privacy/cookie wording to match the actual analytics, tracking, affiliate links, and vendors in use.
 6. Review affiliate program rules, allowed geographies, marketing restrictions, and required disclosures.
-7. Keep the temporary `robots.txt` disallow rule until the launch review is complete.
+7. **Current crawl state (rechecked 22 October 2026):** live `robots.txt` allows crawling and points to `https://beincasinos.online/sitemap.xml`. Do not re-add a sitewide disallow rule without a deliberate owner decision. Crawl permission and sitemap availability do not prove Google indexing or clear the open trademark, privacy, legal, hosting, or launch gates; verify index status in Search Console before making indexing claims.
 8. Cloudflare Pages Free is the preferred first host for the static site, pending preview validation. Do not deploy the commercial site to the connected Vercel Hobby team; that plan is not suitable for the planned affiliate/paid-listing business. See `docs/hosting-decision.md` for Cloudflare setup, security headers, DNS and redirect gates.
 
 ## Hosting decision
