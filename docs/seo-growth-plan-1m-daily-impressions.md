@@ -1,6 +1,6 @@
 # SEO growth plan — 100,000,000 daily Google Search impressions
 
-**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 21 October 2026, the live domain and 36-URL sitemap are verified and public crawling is allowed. Connected Search Console reports 32 URLs submitted for the sitemap (the live sitemap now contains 36), 0 in its deprecated indexed-URL field, and no Search Analytics rows for the previous 28 days. The live crawl policy allows Googlebot. These figures mean discovery/indexing and traffic are not yet demonstrated; verify URL Inspection and submit the updated sitemap before drawing conclusions.
+**North-star ambition:** 100,000,000 Google Search impressions per day. This is an extreme long-term ambition, not a forecast or guarantee. As of 22 October 2026, the live domain is reachable, public crawling is allowed, and the production sitemap advertises 44 URLs. A live external fetch checked the homepage and all 43 non-homepage sitemap entries for page metadata and self-canonical consistency; this is not a Googlebot crawl or proof of indexation. Current Google Search Console data is not available in this workflow, so do not state a current indexed-URL count, impressions, clicks, or sitemap processing status without a fresh Search Console report. The next measurement gate is to inspect the sitemap and Page indexing / Performance reports in Search Console, then record date-stamped evidence.
 
 ## What the metric means
 
