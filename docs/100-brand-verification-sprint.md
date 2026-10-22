@@ -275,3 +275,14 @@ Added `scripts/check_brand_registry.py`, a standard-library Python validator for
 ## Regulatory evidence batch 5 — France product scope — 22 October 2026
 
 Added ANJ-backed product-scope checks for Betclic and Winamax. France's approved-operator list identifies betclic.fr for sports betting, horse betting and poker, and winamax.fr for sports betting and poker; ANJ says online casino games are not authorised in France. Both CSV rows therefore stay HOLD and explicitly prohibit representing either site as a French online casino. A separate casino-market route must be identified and verified before either can become a casino review. Evidence note: [France product-scope evidence — Betclic and Winamax](reviews/internal/fr-product-scope-evidence-2026-10-22-betclic-winamax.md).
+
+
+## Regulatory evidence batch 6 — Great Britain operator/domain attribution (2026-10-22)
+
+Added internal evidence for **Ladbrokes Casino, Coral Casino and Paddy Power Games**:
+- [Batch 6 evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-ladbrokes-coral-paddy-power.md)
+- Updated the corresponding registry rows with explicit entity/domain reconciliation requirements and source notes.
+
+Key finding: the UKGC register returns multiple legal-entity records for Ladbrokes and Coral. LC International Limited (account 54743) is associated with `ladbrokes.com` and `coral.co.uk`, while Ladbrokes Betting & Gaming Limited (account 1611) also has the respective trading names but no matching domain in the search results. Paddy Power's own regulatory page distinguishes gaming from sports-betting, fantasy and technology entities. A brand name or group relationship alone is not sufficient to name the contracting casino operator.
+
+**Decision: all three remain HOLD.** These records are internal source-backed leads, not completed reviews. Live product terms, exact contracting entity, casino-specific permission, payment/withdrawal behavior, complaints/ADR, privacy, safer-gambling controls, current promotions and regulatory history remain to be checked; second-editor review is still required. Do not spend GitHub Actions minutes for this evidence-only update.
