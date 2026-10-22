@@ -286,3 +286,13 @@ Added internal evidence for **Ladbrokes Casino, Coral Casino and Paddy Power Gam
 Key finding: the UKGC register returns multiple legal-entity records for Ladbrokes and Coral. LC International Limited (account 54743) is associated with `ladbrokes.com` and `coral.co.uk`, while Ladbrokes Betting & Gaming Limited (account 1611) also has the respective trading names but no matching domain in the search results. Paddy Power's own regulatory page distinguishes gaming from sports-betting, fantasy and technology entities. A brand name or group relationship alone is not sufficient to name the contracting casino operator.
 
 **Decision: all three remain HOLD.** These records are internal source-backed leads, not completed reviews. Live product terms, exact contracting entity, casino-specific permission, payment/withdrawal behavior, complaints/ADR, privacy, safer-gambling controls, current promotions and regulatory history remain to be checked; second-editor review is still required. Do not spend GitHub Actions minutes for this evidence-only update.
+
+
+## Regulatory evidence batch 7 — Sky successor licence and LeoVegas domains (2026-10-22)
+
+Added [batch 7 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-10-22-sky-leovegas-betmgm.md) and updated registry source notes for Sky Vegas, LeoVegas and BetMGM Casino.
+
+- **Sky Vegas:** UKGC currently lists the relevant Sky Vegas domains and active trading names under Bonne Terre Gaming Limited (65519). The predecessor Bonne Terre Limited (38718) shows inactive Sky domains/trading names and its Casino Remote licence surrendered effective 31 October 2025. Do not reuse the predecessor's licence as current evidence.
+- **LeoVegas / BetMGM UK:** UKGC lists active Casino Remote permission for LeoVegas Gaming PLC (39198); its domain record lists `leovegas.co.uk` and `betmgm.co.uk` active, while `leovegas.com` variants are inactive in that record.
+
+**Decision: all three remain HOLD.** Domain and regulator records are evidence leads, not completed consumer reviews. Confirm current customer terms and contracting entity, then finish current offers, payments/withdrawals, complaints/ADR, privacy, safer-gambling and regulatory-history checks plus second-editor review. No Actions workflow or deployment was triggered.
