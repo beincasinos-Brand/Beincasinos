@@ -54,3 +54,21 @@
 - Unibet UK — Terms and Conditions: https://www.unibet.co.uk/general-info/terms
 - Unibet UK — Safer Gambling: https://www.unibet.co.uk/general-info/whentostop
 - UK Gambling Commission — public register: https://www.gamblingcommission.gov.uk/public-register
+
+
+## Addendum — 22 October 2026 source recheck
+
+A fresh read of the first-party General Terms and Conditions confirms the named contracting party is **Platinum Gaming Limited** (Gibraltar company registration 114100) and the terms state UK Gambling Commission licence number **45322** for customers located in Great Britain. The page itself links to the official register entry below. Treat this as a confirmed operator statement; still inspect the current register entry and exact domain/activity mapping before approval.
+
+- First-party terms: https://www.unibet.co.uk/general-info/terms
+- Exact UKGC register URL linked from those terms: https://www.gamblingcommission.gov.uk/public-register/business/detail/45322
+- First-party casino welcome page found: https://www.unibet.co.uk/promotions/welcome-to-casino
+- First-party safer-gambling page rechecked: https://www.unibet.co.uk/general-info/whentostop
+
+The terms describe identity, age, address, location, financial-circumstance and source-of-funds checks, and state that accounts can be restricted, including withdrawals, while required verification remains incomplete. This is contractual wording, not evidence of an actual payout test.
+
+The casino welcome page exists and contains offer-specific rules, but no headline amount or full current offer terms are approved for publication from this pass. Recheck exact offer eligibility, wagering base, game contribution, expiry, maximum bet, cashout cap and withdrawal conditions before quoting it.
+
+A historical £1.6m settlement was surfaced by a secondary search result, but the attempted official news URL resolved to the Gambling Commission news index rather than the intended statement. **Do not publish the amount or findings as verified until the original UKGC decision/public-register record is retrieved and matched to the exact entity.**
+
+This remains **HOLD**. No public casino review or score was created from this evidence update.
