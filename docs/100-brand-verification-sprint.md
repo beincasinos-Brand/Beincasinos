@@ -54,6 +54,9 @@
 
 - Internal review draft created: [Betfred Casino — Great Britain](review-drafts/betfred-gb-internal-draft-2026-10-22.md). It includes the sourced operator/licence facts, balanced disclosure of the 2025/2026 UKGC actions, and explicit holds for unverified bonus, payments, support and hands-on testing. This is **1 internal draft, 0 publication-ready reviews**; approved brands remain **0/100**.
 
+
+- Internal review draft created: [888casino — Great Britain](review-drafts/888casino-gb-internal-draft-2026-10-22.md). It records the UKGC identity evidence and holds all unverified bonus, payments, support and testing claims. This is **2 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
