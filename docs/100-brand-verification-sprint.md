@@ -306,3 +306,14 @@ Added [batch 8 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-
 - **Betway:** UKGC lists active Casino Remote permission and active `betway.com` / `casino.betway.com` domains under Betway Limited (39372). The register also includes other brand domains and a white-label domain under the same account; these must not be treated as identical consumer products without terms checks.
 
 **Decision: both remain HOLD.** Current consumer checks and independent second-editor approval are still outstanding. This was a source/documentation-only change; no Actions or deployment was triggered.
+
+
+## Regulatory evidence batch 9 — Grosvenor, NetBet and L & L Europe (2026-10-22)
+
+Added [batch 9 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-10-22-grosvenor-netbet-lleurope.md) and updated the existing Grosvenor registry row.
+
+- **Grosvenor Casinos:** the UKGC's 7 October 2026 settlement against Grosvenor Casinos Limited (account 614) concerns AML and premises-based customer-interaction failures; the payment in lieu of a financial penalty was £5,012,261 and an external audit commitment was included. Registry notes now explicitly warn against treating this land-based action as proof of a failure in the online casino product.
+- **NetBet:** UKGC lists active Casino Remote permission and active NetBet domains; a 5 November 2025 settlement concerning AML/CTF, remote customer interaction, marketing and regulatory returns is recorded as a lead. NetBet is not currently one of the 100 registry rows, so it has not been silently inserted.
+- **L & L Europe:** UKGC's 21 October 2026 settlement required a £900,000 payment in lieu of penalty and covered unfair withdrawal terms/withholding, AML/CTF, remote customer interaction and technical financial-limit controls. This is an operator-level watchlist lead; the current registry has no clearly matched L & L Europe brand row.
+
+**Decision:** Grosvenor remains HOLD. NetBet and L & L Europe remain internal leads outside the 100-brand registry. The evidence distinguishes historic findings and product scope; no current consumer test or remediation is claimed. No Actions or deployment was triggered.
