@@ -103,6 +103,7 @@ jobs:
           PY
 
       - name: Verify canonical domain, guide response, sitemap and www redirect
+        if: always()
         shell: bash
         run: |
           set -euo pipefail
