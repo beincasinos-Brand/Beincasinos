@@ -71,3 +71,12 @@ Never infer indexing, ranking, impressions, or traffic from a passing build, a l
 - The clean canonical route intermittently returned a cached 404 to the external fetch checker, while a cache-busted request and `index.html` route loaded the guide with the expected title, metadata and self-canonical. Treat this as a cache/edge consistency issue to clear and recheck, not as proof of stable clean-route availability. Do not claim route QA fully passed until the clean URL consistently returns the guide.
 - Search Console connector still reports the older sitemap submission as 32 URLs (last submitted 21 October 2026 21:39 UTC), with 0 errors/warnings. Resubmit the current 44-URL sitemap in the Search Console UI; connector is read-only and no submission was made.
 - Search Analytics returned no rows for the last 12 months; this does not prove exactly zero impressions. URL Inspection, selected canonical, and Pages exclusion reasons remain unverified.
+
+
+## Fresh production crawl audit — 22 October 2026, 12:00 UTC
+
+- The current production sitemap advertises 44 canonical URLs. A live external page-fetch audit inspected the homepage and all 43 non-homepage entries returned by the sitemap extractor.
+- Returned page metadata showed titles, descriptions, and self-referencing apex canonicals across the checked set; no `noindex` directive was returned in the extracted metadata. This checks fetched HTML metadata only; it does not prove Googlebot access on every path, HTTP status for every crawler, or Google indexation.
+- `robots.txt` currently allows all user agents and points to the production sitemap.
+- Historical Search Console connector values recorded above (32 submitted URLs and the deprecated `indexed` field) are a dated snapshot, not a current report. Do not carry them forward as current counts. A fresh Search Console Page indexing / sitemap / URL Inspection and Performance review remains required; no current GSC metrics are asserted in this audit.
+- Latest repository change refreshed the SEO growth plan to reflect the 44-URL crawl and explicitly distinguish external fetch results from Search Console evidence: https://github.com/beincasinos-Brand/BeIncasinos/commit/4a8c0ecdf1f1be38b5bd66829c8f7310bd8367d3.
