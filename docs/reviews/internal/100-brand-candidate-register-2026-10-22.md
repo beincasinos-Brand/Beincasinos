@@ -184,3 +184,8 @@ A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-1
 - Programme-wide approved public reviews remain **0** under the current approval gate.
 
 - Germany batch correction committed: six unsupported domain leads removed; current file records 8 leads with distinct category/geographic-scope notes. Keep all eight on HOLD until current terms and product availability are checked.
+
+
+- Germany batch 02 added: `docs/reviews/internal/de-batch-02-10-ggl-official-whitelist-research-leads-2026-10-22.md`. It records 10 official-list research leads with operator/category/geographic-scope notes. Shared operators and cross-market overlaps mean this is not 10 unique global brands.
+- Source used: official GGL whitelist marked updated 02 October 2026. Keep each lead on HOLD pending fresh domain, terms, product-scope and independent editorial verification.
+- Approved public reviews remain **0** under the programme approval gate.
