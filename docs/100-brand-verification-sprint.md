@@ -158,3 +158,12 @@ A brand only counts toward the 100 verified target when all required fields are 
 - Updated `scripts/check_deploy_artifact.py` to fail the release-artifact check if the generated `robots.txt` is missing the wildcard user-agent group, explicit `Allow: /` rule, or canonical sitemap directive, or if a site-wide `Disallow: /` conflicts with the intended current crawl policy.
 - This corrects a stale comment that described a site-wide crawl block as intentional even though the repository's current `robots.txt` allows crawling. The guard checks generated output; it does not establish Google indexing, a production deployment, or launch approval.
 - No Actions workflow was triggered for this code change, so the updated validator still requires one final combined CI run before release. Preserve remaining Actions minutes; do not deploy on this change alone.
+
+
+## V.Partners brand expansion — 22 October 2026
+
+Added an internal research queue for the seven brands shown on the official [V.Partners portfolio](https://v.partners/): Slotoro, FieryPlay, Hit’n’Spin, Verde Casino, ICE Casino, FS Casino and V.Vegas. The project owner reports prior work with V.Partners; this is recorded as owner-reported relationship context, not proof of current contract or legal approval.
+
+Register: [V.Partners brand expansion](v-partners-brand-expansion.md).
+
+All seven remain **HOLD** until exact official domains, contracting entities, regulator records, target-market permission, current consumer terms and second-editor review are complete. They expand the research queue; they do not increase the approved-brand count. No production deployment was triggered.
