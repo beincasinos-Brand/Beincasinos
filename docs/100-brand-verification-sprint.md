@@ -73,6 +73,7 @@
 - Internal review draft created: [LuckyMate Casino — Great Britain](../review-drafts/luckymate-gb-internal-draft-2026-10-22.md). It separates UKGC-backed facts from unverified consumer claims, flags the absent trading-name entry and shared-domain portfolio, and leaves rating unassigned. This is **5 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 - Internal review draft created: [Midnite — Great Britain](../review-drafts/midnite-gb-internal-draft-2026-10-22.md). It flags the two UKGC licensee/domain associations and leaves the rating unassigned until the contracting-entity history is reconciled. This is **6 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 - Internal review draft created: [Brillbet — Great Britain](../review-drafts/brillbet-gb-internal-draft-2026-10-22.md). It distinguishes active casino/betting permissions from a pending software application and holds publication pending full terms and consumer checks. This is **7 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
+- Internal review draft created: [BigBangBet — Great Britain](../review-drafts/bigbangbet-gb-internal-draft-2026-10-22.md). It limits claims to the UKGC-listed .co.uk domain and flags the unverified same-name .net domain. This is **8 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 
 ## What counts as a verified brand
 
