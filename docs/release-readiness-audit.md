@@ -3,6 +3,14 @@
 
 This is a source/repository review, not a live production audit. Repository files and CI runs were inspected and the audit refreshed on 21 October 2026. The domain registration, DNS, hosting account, live browser rendering, and legal position have not been independently verified.
 
+## Current verification update — 22 October 2026
+
+- Static site checks and Chromium browser smoke tests passed on commit `fd574826572460253f81ee1e9e5e0c83e4c944ac` ([run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39778691066)); read-only Cloudflare launch diagnostics also passed ([run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39778691437)). These are source/build and read-only configuration checks, not permission to deploy.
+- The withdrawal-terms guide now includes a structured evidence-record table that distinguishes published processing estimates from independently measured results. Its sitemap `<lastmod>` was updated to `2026-10-22` in the latest source changes; latest-run checks are pending.
+- A live content fetch returned the expected ADR guide body and self-canonical on both the custom domain and Cloudflare Pages domain. The fetch did not expose a reliable raw HTTP status/header trace, so the intermittent clean-URL 404 issue remains open pending status-level verification ([issue #14](https://github.com/beincasinos-Brand/BeIncasinos/issues/14)).
+- Production pages continue to state that no casino profiles are scored or ranked. No new profile has been approved for publication; market matrix entries remain on hold.
+- **Release decision remains BLOCKED.** Do not create a new production deployment, change DNS/nameservers, or claim Google indexation until the owner-only launch gates and required evidence are cleared. The current sitemap and crawlability do not establish Google indexing or search performance.
+
 
 ## Additional UKGC operator research — 21 October 2026
 
