@@ -12,7 +12,7 @@ const routes = [
   "/guides/house-edge-explained/", "/guides/probability-vs-rtp/", "/guides/maximum-bet-rules-explained/",
   "/guides/casino-affiliate-deal-models/", "/guides/random-outcomes-and-gambling/",
   "/guides/return-to-player-rtp-explained/", "/guides/rtp-vs-volatility/",
-  "/how-we-review/", "/market-research/", "/partners/", "/privacy/",
+  "/how-we-review/", "/market-research/", "/markets/", "/partners/", "/privacy/",
   "/responsible-gambling/", "/reviews/", "/terms/", "/tools/terms-checklist/",
   "/tools/wagering-calculator/"
 ];
