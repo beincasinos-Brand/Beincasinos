@@ -16,8 +16,8 @@
 
 ### Gate 0 — production reliability and publisher readiness
 
-1. Fix the Cloudflare token used by the targeted cache-repair workflow. Use a new/replaced GitHub Actions secret with only Zone:Read and Zone:Cache Purge on the `beincasinos.online` zone. Never paste secrets into chat.
-2. Rerun the targeted workflow and require all checks to pass: clean canonical URL HTTP 200, correct self-canonical, sitemap inclusion, and www-to-apex redirect. Do not change DNS to work around a path-level failure.
+1. The ADR guide route currently passes production checks, so do not rotate credentials or run a cache purge merely for this resolved incident. If a future verified route/cache issue requires a purge, repair the GitHub Actions credential through GitHub's secret settings with only the minimum required zone permissions; never paste secrets into chat.
+2. For any route repair, require production checks for HTTP 200, the expected self-canonical, sitemap inclusion, and www-to-apex behavior. Do not change DNS to work around a path-level failure. The latest successful checks prove availability of this guide, not Google indexing.
 3. Complete the owner-only release checklist in Issue #2: publisher identity/contact, trademark, target-market legal/advertising review, Morocco privacy/CNDP review, commercial/affiliate policy, hosting cost/terms, and manual accessibility/mobile/outbound-link QA.
 4. Do not re-submit the sitemap or request mass indexing until the release checklist is explicitly cleared by the owner. The existing prior Search Console snapshot is stale relative to the current 44-URL sitemap.
 
