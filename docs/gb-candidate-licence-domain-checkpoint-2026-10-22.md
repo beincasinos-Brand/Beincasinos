@@ -53,3 +53,20 @@
 6. Obtain independent second-editor and legal/editorial sign-off before any brand can move from HOLD to approved.
 
 **Release rule:** no candidate in this checkpoint is an approved review, no score/ranking is assigned, and no public brand page is created by this document.
+
+
+## Follow-up candidate: Mr Green UK — 22 October 2026
+
+| Consumer-facing brand | Official licensee evidence | Exact GB domain evidence | Current disposition |
+|---|---|---|---|
+| Mr Green UK Casino | **Blue Rock Managed Services Limited**, UKGC account **67740**, holds an active Remote Casino licence **067740-R-341312-003** from 2 October 2025. The older Mr Green Limited account **39264** has its Remote Casino licence surrendered effective 28 October 2024; do not treat it as the current operator. | UKGC domain-register search result for account 67740 lists **www.mrgreen.co.uk — White Label**. Preserve that exact status. The current first-party website/search results identify Blue Rock as the operator. Direct register-table extraction returned a cookie wall, so archive the live table before final approval. | **Candidate screen supported; full review HOLD.** Count one brand candidate only after the current domain row is archived; do not double-count the old licensee record. |
+
+- Current operator licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/67740
+- Current domain register: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/67740
+- Legacy licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/39264
+- Current first-party terms: https://www.mrgreen.co.uk/terms-and-conditions
+- Current first-party privacy notice: https://www.mrgreen.co.uk/privacy-notice
+- Current withdrawal help article (published 20 August 2026): https://support.mrgreen.co.uk/hc/en-gb/articles/32284421655057-How-quickly-are-withdrawals-processed
+- Historical regulator action for the legacy Mr Green operation: https://www.gamblingcommission.gov.uk/public-and-players/guide/page/mr-green-to-pay-gbp3m-for-regulatory-failures
+
+The internal evidence pack is at `docs/reviews/internal/mr-green-casino-gb-evidence-2026-10-22.md`. Current terms, full bonus conditions, privacy clauses, online safer-gambling controls, complaints/ADR, current enforcement for Blue Rock, independent second review and editorial/legal sign-off remain outstanding. This adds **zero approved reviews**; approved reviews remain **0/100**.
