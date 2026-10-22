@@ -144,3 +144,10 @@ A brand only counts toward the 100 verified target when all required fields are 
 2. Complete terms, withdrawals, complaints, safer-gambling and regulatory-action evidence for each candidate that passes the identity gate.
 3. Recheck the public route and resolve the Cloudflare secret issue through the owner-managed GitHub Actions secret; never paste a token into chat.
 4. Keep every row on hold until all evidence, market eligibility, and second editorial review checks pass.
+
+
+## Ladbrokes GB evidence refresh — 22 October 2026
+
+- Updated [Ladbrokes Casino GB internal evidence pack](reviews/internal/ladbrokes-casino-gb-evidence-2026-10-22.md) with accessible first-party terms-entry, LadBucks promotion, support/contact and current UKGC remote-casino licence-scope sources.
+- The first-party sources improve the research trail but do not resolve the two-licensee/domain ambiguity recorded in the pack. Current full casino terms, exact customer-facing contracting entity, payments, privacy, ADR, regulator action attribution and independent editorial sign-off remain open.
+- Decision remains **HOLD**; this adds research evidence, not an approved brand or publishable review. Approved public reviews remain **0/100**. No Actions workflow or production deployment was triggered.
