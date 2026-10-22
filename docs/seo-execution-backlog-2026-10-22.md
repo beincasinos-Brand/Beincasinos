@@ -142,3 +142,19 @@ This check supports host canonicalisation and unknown-path handling at the homep
 GitHub Actions run #1183 completed successfully on roadmap head `e2b4e79` and stored artifact `beincasinos-public-site-dist` (artifact ID `12436799005`, SHA-256 `a44ce9a114e0b1d5c5dcaec02b7d286c6380ac8945dfe77de7d0274ad8225a7f`, expiry 29 October 2026). It passed the HTML/local-link, schema/regression, JavaScript, host-config, public-only build, internal-file exclusion and Chromium smoke-test steps.
 
 **Important:** this artifact was built from PR #36's roadmap branch and does **not** contain PR #37's new `/markets/` hub. It is not the release artifact for the intended combined site. Do not deploy or promote it as the final candidate. The release artifact must be rebuilt from the exact approved commit that includes all approved changes, and its SHA/contents must be verified before the one production deployment.
+
+## Release-gate recheck — 22 October 2026 (latest pass)
+
+A fresh production fetch checked the homepage, `/robots.txt`, `/sitemap.xml`, `/reviews/`, and `/markets/`.
+
+- The homepage and review directory returned visible content and self-consistent apex canonical metadata.
+- The fetched `robots.txt` content says `User-agent: *`, `Allow: /`, and identifies `https://beincasinos.online/sitemap.xml`. This fetch confirms the published text currently allows crawling; it does not test every CDN response header or every URL's robots directives.
+- Production `/sitemap.xml` still identifies 44 URLs and does not include `/markets/`.
+- Production `/markets/` still returns 404; the preview route must not be represented as live production content.
+- PR #37 CI run #1184 completed successfully on head `2b2c1ae`, including Chromium browser smoke tests for 35 routes, responsive widths and axe checks.
+- PR #36 CI run #1185 completed successfully on head `1fc47cb`, including Chromium browser smoke tests and public-only artifact exclusion checks.
+- Both PRs remain open and draft. No production deployment was performed.
+
+### Updated decision
+
+Crawlability text at the root appears open, but the overall release remains **HOLD**. Do not submit `/markets/` for indexing while it returns 404. Before the single deployment, rebuild from the exact reviewed combined commit, validate that artifact contains the hub and excludes all internal drafts/evidence, parse and compare the sitemap, and complete the final production release checklist. Approved brand reviews remain **0/100**; CI success does not convert any candidate into an approved review.
