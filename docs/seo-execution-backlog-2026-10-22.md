@@ -83,3 +83,30 @@ Do not promise a traffic target or infer indexation from a successful fetch. Avo
 6. Run release QA, obtain explicit owner approval, then deploy one tested release.
 
 **Current gate:** approved brand reviews remain 0/100 until the ledger and evidence records say otherwise. This document itself does not change that count.
+
+
+## Live release-gate snapshot — 22 October 2026
+
+This section records a direct production/preview check and must be refreshed before any release. It is not an indexation claim.
+
+| Check | Observed result | Release implication |
+|---|---|---|
+| Production `/robots.txt` | Fetch succeeds; `User-agent: *`, `Allow: /`, and canonical sitemap URL present | Crawler directives do not globally block crawling in the fetched file; still inspect response headers and page-level robots directives |
+| Production `/sitemap.xml` | Valid-looking XML response labelled 44 URLs; does not include `/markets/` | Sitemap is stale relative to the market-hub candidate |
+| Production `/markets/` | HTTP 404 at check time | Candidate page is not live; do not submit it for indexing or claim it is published |
+| PR #37 preview `/markets/` | Page renders; title, description, Open Graph and canonical observed; canonical targets the production apex URL | Preview content/metadata check passed, but canonical is expected to point to production and is not evidence of production availability |
+| PR #37 preview sitemap | 45 URLs; includes `https://beincasinos.online/markets/` | Sitemap candidate differs from production by one URL; verify XML, uniqueness, status, canonical and robots for all entries before release |
+| PR #37 CI | GitHub Actions “Static site checks” run #1178 succeeded on head `403a61c` | CI success does not replace crawl/link/accessibility/public-artifact checks |
+| PR #35 CI and preview | Static site checks run #1179 succeeded on head `2058035`; Cloudflare preview succeeded | Sisal evidence remains internal and on HOLD; build success is not brand approval |
+
+### Required next actions before the single production deploy
+
+1. Re-run a clean build and a full internal-link crawl against the exact release commit; include the full list of failures and fixes.
+2. Parse both production and candidate sitemaps as XML; compare the URL inventory, verify uniqueness and canonical host, and check every URL's HTTP status, redirects, page-level robots and canonical target.
+3. Inspect all generated files for unpublished brand drafts, internal evidence packs, private data, environment values and credentials. Internal Sisal evidence must not be reachable from the public output.
+4. Verify the root and `www` host behaviour, HTTP-to-HTTPS redirects, trailing-slash policy, query-string canonicals, unknown-path 404, metadata, structured data, keyboard navigation and mobile layout.
+5. Keep PR #37 draft until the release candidate passes these checks. Merge/deploy only through the owner-approved one-deploy release plan.
+6. After deployment, immediately verify `/markets/`, production sitemap and robots, key pages, canonical/redirect behaviour, and Search Console sitemap/URL inspection. A successful fetch or submitted URL is not proof of indexing.
+7. Keep the brand ledger unchanged unless a specific profile passes all evidence gates and an independent second reviewer plus legal/editorial sign-off is recorded.
+
+**Status at this snapshot:** the market hub is available on preview but not on production; the production route returns 404. Approved brand reviews remain 0/100. No production deploy was performed by this QA pass.
