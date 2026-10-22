@@ -6,11 +6,15 @@ on:
     paths-ignore:
       - "docs/**"
       - "*.md"
+      - ".github/workflows/site-check.yml"
+      - ".github/workflows/cloudflare-readonly-launch-diagnostics.yml"
   pull_request:
     branches: [main]
     paths-ignore:
       - "docs/**"
       - "*.md"
+      - ".github/workflows/site-check.yml"
+      - ".github/workflows/cloudflare-readonly-launch-diagnostics.yml"
   workflow_dispatch:
 
 permissions:
