@@ -55,20 +55,17 @@ Build pages that answer a distinct user question with source-backed evidence and
 - [Google Search Console indexing and crawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
 - [Swiss Federal Gaming Board — online gambling](https://www.esbk.admin.ch/en/online-gambling)
 
-## Live-site smoke audit — 21 October 2026
+## Live-site smoke audit — 22 October 2026
 
-External fetch verification of the public site found:
+A fresh external fetch checked the current production homepage, review directory, market-research page, privacy page, robots.txt and sitemap.
 
-- Homepage resolves at `https://beincasinos.online/`; the canonical and Open Graph URL both point to the apex hostname.
-- `https://www.beincasinos.online/` resolves to the apex homepage.
-- `/robots.txt` is retrievable, allows crawling, and declares `https://beincasinos.online/sitemap.xml`.
-- `/sitemap.xml` is retrievable and lists 38 canonical apex URLs, including the new `/guides/brand-name-vs-legal-operator/` guide.
-- The new guide is live and its canonical, Open Graph title/description and page content were externally retrieved. It explains matching a brand/domain to the legal operator, regulator record, permitted product and jurisdiction without endorsing any unverified operator.
-- The guide index now links to the new page, and the review directory links to it as supporting identity-verification guidance.
-- The latest repository CI for commit `3ec73bd26c32095fb3abfc95efd3066ce108bda4` passed static site checks and read-only Cloudflare diagnostics. This verifies automated checks and diagnostics, not a new production deployment.
-- The review directory continues to state that no profiles are currently scored or ranked and that the directory is in development. Preserve this disclosure until reviews actually pass publication checks.
-
-This is an HTTP/content retrieval and CI check only; it does not confirm Google indexing, rankings, Search Console ownership, impressions or clicks.
+- The homepage was retrieved at `https://beincasinos.online/` with canonical `https://beincasinos.online/`; the current title is “BeInCasinos — Casino Reviews & Research”.
+- The public review directory explicitly says no casino profiles are currently scored or ranked. Preserve this until real reviews pass all publication checks.
+- The repository sitemap currently contains 44 canonical apex URLs; `robots.txt` allows crawling and points to `https://beincasinos.online/sitemap.xml`.
+- The market-research source now labels its link “Privacy notice” and links to `/privacy/`. External content retrieval is not a guarantee that every visitor sees the latest deployment revision.
+- The homepage and review directory provide clear informational framing and caution that gambling is not income. Keep this non-promotional, evidence-led positioning.
+- This audit does **not** prove Google indexing, Googlebot response status for every URL, Search Console sitemap processing, rankings, impressions or clicks. The current Search Console performance and Page indexing reports must be reviewed directly before setting a numerical baseline.
+- Automated static-site checks and read-only Cloudflare diagnostics for the international roadmap commit succeeded: [static checks](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39776075692), [Cloudflare diagnostics](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39776075652). These verify the checked commit and diagnostics, not Google indexation or a guaranteed production rollout.
 
 ## Next content sprint — evidence before volume
 
