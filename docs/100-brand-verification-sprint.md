@@ -29,6 +29,8 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 - [GB batch 13: 888 UK Limited / 888casino.com](gb-brand-research-batch-13-2026-10-22.md) records the current UKGC register's active Casino Remote permission and active domain association for 888casino.com. This advances one identity check only; terms, payments, complaints, safer-gambling and second-editor review remain open.
 
+- [GB batch 14: 32Red licence-status alert](gb-brand-research-batch-14-2026-10-22.md) records the UKGC register's surrendered Casino Remote permission for 32Red Limited effective 12 March 2025; the brand must not be treated as currently licensed in Great Britain without fresh exact-domain/operator evidence.
+
 ## Batch order
 
 1. **CH:** finish the 10 FGB-listed online platforms and verify exact domain/operator/product scope from current official sources.
