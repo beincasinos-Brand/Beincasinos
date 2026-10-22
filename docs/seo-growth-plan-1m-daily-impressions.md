@@ -11,7 +11,7 @@ Search Console impressions count eligible appearances of a site's links in Googl
 1. Owner verifies domain and mailbox access, Cloudflare account security, and current DNS records.
 2. Complete publisher identity, privacy, advertising/affiliate disclosure, trademark, and applicable market legal reviews.
 3. Keep Australia and France online-casino promotion blocked pending qualified review; verify US state/product eligibility and exact operator/domain before market-specific claims or outbound commercial links in GB, DE, CH and NL.
-4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. Submit the updated 36-URL sitemap in Search Console (the connected integration is read-only), inspect URL indexing and the Pages report, and keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
+4. Owner explicitly authorized public-site discoverability on 21 October 2026; robots.txt now allows crawling. This is not proof of indexing. The current production sitemap advertises 44 URLs. Verify its submission and inspect URL indexing and the Pages report directly in Search Console; no fresh Search Console report is available in this workflow. Keep scored casino reviews/commercial promotion on hold until the remaining identity, legal/privacy, hosting and market gates are resolved.
 5. Publish operator profiles only after exact domain, legal operator, licence/product scope, territory, terms, withdrawal policy, complaint route, safer-gambling tools and evidence date are verified from primary sources.
 
 ## Growth principles
@@ -50,7 +50,7 @@ These are checkpoints, not promised deadlines or traffic forecasts.
 
 ## Existing work added in this iteration
 
-The public source tree contains an educational library of guides and tools. The current source sitemap contains 36 URLs; verify the live sitemap after each deployment:
+The public source tree contains an educational library of guides and tools. The production sitemap audit on 22 October 2026 found 44 URLs; verify the live sitemap after each deployment:
 - Return to player (RTP), explained.
 - RTP vs volatility.
 - Casino withdrawal verification: what to check.
@@ -88,7 +88,7 @@ These are educational pages, not casino recommendations. Publisher identity, pri
 
 ### Current measurable starting point
 
-As of 21 October 2026, the public sitemap contains 36 URLs and `robots.txt` allows crawling. Search Console connector data returned no rows for the previous 28-day Search Analytics query and its sitemap report reflected an earlier 32-URL submission; the latest 36-URL sitemap still needs submission/verification. This means there is not yet a reliable performance baseline in the available report. It does not prove that zero URLs are indexed.
+Historical note: a Search Console connector snapshot from 21–22 October 2026 reported an earlier 32-URL sitemap submission and no Search Analytics rows for the queried period; the connector's indexed field was deprecated. The production sitemap was subsequently verified at 44 URLs on 22 October. Because a fresh Search Console report is not available in this workflow, the old figures must not be treated as current status. There is not yet a reliable current performance baseline here, and the historical empty query does not prove that zero URLs are indexed.
 
 ### Release stop conditions
 
