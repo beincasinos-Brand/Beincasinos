@@ -125,3 +125,10 @@ A live fetch inspected all **44 URLs** currently listed by `https://beincasinos.
 - The complaint guide change for Great Britain was verified live at `/guides/how-to-complain-about-a-casino/`; the page links to the Gambling Commission's official eight-week complaint guidance and its ADR guide (updated 15 May 2026).
 - This is an external fetch and metadata audit, not a Googlebot crawl, Search Console indexation report, performance measurement, or guarantee of indexation. Fetch success alone does not prove HTTP status as seen by every crawler, ranking, or impressions.
 - Follow-up: compare the exact 44 URLs against Search Console's Page indexing and Performance reports when authorized data is available; resolve any discovered excluded/canonical-selected URLs with evidence rather than resubmitting everything repeatedly.
+
+
+### Complete sitemap URL spot-check — 22 October 2026
+
+A live production crawl checked the homepage separately and all 43 non-homepage URLs returned by the sitemap extractor (the XML advertises 44 URLs total). Across the checked pages, the fetch results showed page titles, meta descriptions and self-referencing apex canonicals; no noindex directive was returned in the extracted page metadata. The new payment-method ownership guide is live and includes anti-phishing advice, safe handling of identity documents, a carefully scoped Great Britain verification note, and links to related withdrawal/complaint guides.
+
+This is a crawler-based metadata/content availability check, not a definitive HTTP-status matrix from every network path and not a Google indexing report. The XML advertises 44 URLs; the extractor returned 43 non-homepage entries, with the homepage independently checked above. Keep using Search Console's URL Inspection and indexing reports for Google's own state.
