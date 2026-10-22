@@ -110,3 +110,17 @@ This section records a direct production/preview check and must be refreshed bef
 7. Keep the brand ledger unchanged unless a specific profile passes all evidence gates and an independent second reviewer plus legal/editorial sign-off is recorded.
 
 **Status at this snapshot:** the market hub is available on preview but not on production; the production route returns 404. Approved brand reviews remain 0/100. No production deploy was performed by this QA pass.
+
+## Sitemap URL fetch sweep — 22 October 2026
+
+A live fetch sweep was run across all 44 URLs listed in the production sitemap at the time of checking.
+
+- **44/44 URLs fetched without a per-URL fetch error** in the QA tool.
+- Each returned the same final URL that was requested; no redirect was observed in this sweep.
+- All 44 extracted pages returned visible text, a title, and a canonical URL matching the requested sitemap URL.
+- The separate `/markets/` check still returned 404 and is not in the production sitemap.
+- This is a page-fetch/metadata sweep, not a complete HTTP status-code audit, internal-link crawl, accessibility test, legal review, or Google indexing confirmation.
+
+### Release decision
+
+The existing sitemap pages passed this limited fetch/canonical sample. The overall release remains **HOLD** because PR #37 is not in production and `/markets/` is 404; PR #35 Sisal evidence remains internal/HOLD; full internal-link/public-artifact/accessibility and final release checks are still required. Do not deploy until the approved single-release plan is ready.
