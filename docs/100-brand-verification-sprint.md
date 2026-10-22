@@ -229,3 +229,7 @@ Updated the 100-row candidate CSV with source-backed UKGC fields, checked date, 
 ## Candidate registry expansion — six more brands — 22 October 2026
 
 Updated six additional rows in `docs/brand-research-template.csv` with regulator-register links, entity/domain caveats, review dates and **HOLD** decisions: PlayOJO, LeoVegas, Mr Green, Casumo, Videoslots and Sky Vegas. The evidence distinguishes active permissions from surrendered historical records: the cited Mr Green Limited GB licence is surrendered; Casumo Services Limited's legacy licence is surrendered and current Recro Limited/domain matching remains required; LeoVegas and Sky Vegas have active records with brand/domain caveats; PlayOJO and Videoslots still need the exact live GB route and customer terms matched. These are candidate research records, not six publication-ready reviews.
+
+## Candidate registry expansion — four matched rows plus one unresolved lead — 22 October 2026
+
+Updated the candidate registry for Unibet Casino, 32Red, BetMGM Casino and Grosvenor Casinos. Unibet's exact current permission/domain and terms still need direct matching; 32Red's legacy 32Red Limited licence is surrendered and a separate Platinum Gaming Limited domain association needs current reconciliation; BetMGM UK FAQ names LeoVegas Gaming PLC as the UK operator but the exact current domain record remains open. Grosvenor's operator is explicitly marked unresolved, not guessed. All four remain **HOLD** and are not counted as publication-ready reviews.
