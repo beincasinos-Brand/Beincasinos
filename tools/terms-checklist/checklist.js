@@ -1,5 +1,6 @@
 (() => {
  const boxes = Array.from(document.querySelectorAll('.check-item input[type="checkbox"]'));
+ const recordFields = Array.from(document.querySelectorAll('.evidence-record input, .evidence-record textarea'));
  const count = document.getElementById('checked-count');
  const total = document.getElementById('total-count');
  const fill = document.getElementById('progress-fill');
@@ -16,6 +17,6 @@
  }
  boxes.forEach(box => box.addEventListener('change', update));
  document.getElementById('print-checklist').addEventListener('click', () => window.print());
- document.getElementById('reset-checklist').addEventListener('click', () => { boxes.forEach(box => { box.checked = false; }); update(); });
+ document.getElementById('reset-checklist').addEventListener('click', () => { boxes.forEach(box => { box.checked = false; }); recordFields.forEach(field => { field.value = ''; }); update(); });
  update();
 })();
