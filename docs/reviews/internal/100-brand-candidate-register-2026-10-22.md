@@ -208,3 +208,16 @@ The following dated internal checkpoints were added after consulting the Swedish
 | 888casino | `docs/reviews/internal/888casino-se-primary-source-checkpoint-2026-10-22.md` | Domain/licensee entry found; global deduplication required | HOLD |
 
 These are preliminary primary-source checkpoints, not completed consumer reviews. They do not satisfy all requirements for terms capture, enforcement analysis, reproducible UX/support tests, second-editor verification, or editorial/legal approval. No entry above should be counted as an approved review. Programme-wide approved public reviews remain **0/100** until the full evidence gate is passed. Keep all files internal and excluded from the public build and sitemap.
+
+
+### Sweden source-checkpoint batch 2 — 22 October 2026
+
+Three more internal checkpoints were added from the Swedish Gambling Authority's domain-specific register:
+
+| Candidate | Internal file | Preliminary finding | Status |
+|---|---|---|---|
+| NordicBet Casino | `docs/reviews/internal/nordicbet-se-primary-source-checkpoint-2026-10-22.md` | `nordicbet.com` listed under NGG Nordic Ltd; commercial online and betting entries shown through 31 Dec 2028 | HOLD |
+| LeoVegas Sweden | `docs/reviews/internal/leovegas-se-primary-source-checkpoint-2026-10-22.md` | `leovegas.com` listed under Roar Vegas Ltd; entries shown through 27 Nov 2028 | HOLD |
+| Unibet Sweden | `docs/reviews/internal/unibet-se-primary-source-checkpoint-2026-10-22.md` | `unibet.se` listed under Kaprifol Services Limited; entries shown through 22 Oct 2030 | HOLD |
+
+These are domain/licence checkpoints only. They do not satisfy current terms capture, full enforcement review, actual reproducible UX/support tests, independent second review, or editorial/legal approval. LeoVegas and Unibet are cross-market identities and must not be counted as additional unique global brands. Approved public reviews remain **0/100** until all required gates are met. All checkpoint documents remain internal and excluded from the public build/sitemap.
