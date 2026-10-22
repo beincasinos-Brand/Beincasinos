@@ -1,48 +1,48 @@
-# Germany batch 01 — GGL whitelist research leads
+# Germany batch 01 — corrected official-whitelist research leads
 Date: 2026-10-22
 Repository: beincasinos-Brand/Beincasinos
 Status: INTERNAL RESEARCH ONLY — HOLD
 Market: Germany (DE)
 
-## Purpose and strict scope
-This is a regulator-led research intake, not a set of approved reviews and not legal advice. The official German Joint Gambling Authority (GGL) whitelist says it lists permitted gambling providers and internet addresses, and is dated 02 October 2026. A listing for **Virtuelle Automatenspiele** must not be described as permission for every casino product, live dealer games, or online casino games. Germany's state-level online-casino permissions are a separate category; the GGL's own FAQ explains that online casino games are authorized by the relevant state authorities, not by the GGL itself.
+## Correction note
+This file replaces the earlier 10-row candidate list because the original set included domains that were not sufficiently supported by the official GGL page reviewed. The unsupported entries (Casumo, Winfest, Lapalingo, Lord Lucky, TigerSpin and Ice36) have been removed. Do not use the earlier list as evidence.
+
+## Official regulator basis
+The German Joint Gambling Authority (GGL) whitelist states that it lists permitted gambling providers and internet addresses. The page currently identifies its data as last updated 02 October 2026. Category is essential: **Virtuelle Automatenspiele** (virtual slot games) does not itself establish permission for every online-casino product. The whitelist also contains entries overseen by state authorities, including some online-casino permissions limited to Schleswig-Holstein.
 
 Official sources:
 - GGL official whitelist: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist
-- GGL FAQ explaining the distinction for online casino games: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/informationen-fuer-spielende-faqs/faq-was-sind-legale-online-casinos-in-deutschland
+- GGL FAQ: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/informationen-fuer-spielende-faqs/faq-was-sind-legale-online-casinos-in-deutschland
 
-## Candidate intake — not publication-ready
-The official whitelist text surfaced the following domains in the **Virtuelle Automatenspiele** category. Treat the brand/domain mapping below as leads for a fresh, page-by-page review, not as proof that all products advertised on a domain are currently available or authorized.
+## Supported research leads — not publication-ready
+The domains below appeared in the official whitelist text reviewed. Brand/domain mapping is an initial label; the exact contracting entity, present customer journey, game availability and terms still require a fresh check.
 
-| # | Domain shown in official whitelist | Candidate brand label | Evidence class | Current decision |
-|---:|---|---|---|---|
-| 1 | bet365.de | bet365 Germany | GGL whitelist — virtual slots | HOLD |
-| 2 | wunderino.de | Wunderino Germany | GGL whitelist — virtual slots | HOLD |
-| 3 | spinmodo.de | Spinmodo | GGL whitelist — virtual slots | HOLD |
-| 4 | novoline.de | NOVOLINE | GGL whitelist — virtual slots | HOLD |
-| 5 | casumo.de | Casumo Germany | GGL whitelist — virtual slots | HOLD |
-| 6 | winfest.de | Winfest | GGL whitelist — virtual slots | HOLD |
-| 7 | lapalingo.de | Lapalingo | GGL whitelist — virtual slots | HOLD |
-| 8 | lordlucky.de | Lord Lucky | GGL whitelist — virtual slots | HOLD |
-| 9 | tigerspin.de | TigerSpin | GGL whitelist — virtual slots | HOLD |
-| 10 | ice36.de | Ice36 | GGL whitelist — virtual slots | HOLD |
+| # | Domain | Initial label | Regulator category shown in source | Market scope shown | Decision |
+|---:|---|---|---|---|---|
+| 1 | bet365.de | bet365 | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 2 | wunderino.de | Wunderino | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 3 | spinmodo.de | Spinmodo | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 4 | novoline.de | NOVOLINE | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 5 | games.tipwin.de | Tipwin Games | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 6 | jollie.de | Jollie | Virtuelle Automatenspiele | länderübergreifend | HOLD |
+| 7 | casino.novoline.de | NOVOLINE online casino | Online-Casinospiele | Schleswig-Holstein | HOLD |
+| 8 | merkur-spiel.de | Merkur Spiel | Online-Casinospiele | Schleswig-Holstein | HOLD |
 
-## Required verification before a review can be approved
-For every candidate, record the date and evidence for:
-1. The exact current domain and brand/operator relationship.
-2. The official whitelist entry and precise game category; re-check the live GGL list immediately before publication.
-3. Which products are actually offered on that domain in Germany; do not infer table games or live casino from a virtual-slots listing.
-4. Current German terms: deposits, withdrawals, fees, bonus wagering/expiry, game restrictions, account closure, complaints and responsible-gambling controls.
-5. Independent reviewer notes and dated screenshots/URLs for each material claim.
-6. Editorial conflict/affiliate disclosure and a second-person fact-check.
-7. Clear jurisdiction-specific wording and a visible review/update date.
+## Required verification before approval
+For every lead, capture dated evidence for:
+1. Exact current domain, brand and contracting entity.
+2. Current official whitelist entry, precise game category, responsible regulator and geographic scope.
+3. Whether the product is available in the target German state; do not generalize a Schleswig-Holstein-only online-casino permission nationwide.
+4. Current German terms for deposits, withdrawals, fees, bonus wagering/expiry, restricted games, account closure, complaints and safer-gambling controls.
+5. Dated source URLs/screenshots, first-hand testing notes, affiliate disclosure and independent second-person fact-check.
+6. Visible review/update date and precise wording that matches the evidence.
 
 ## Release gate
-- Approved public reviews from this batch: **0**
-- Review drafts produced by this intake: **0**
-- Candidate leads recorded: **10**
-- Publication status: **HOLD — do not publish as verified casino reviews**
-- No claim of account opening, deposits, gameplay, KYC, customer support, or withdrawal testing has been made.
+- Supported leads recorded in this corrected batch: **8**
+- Completed reviews from this intake: **0**
+- Approved public reviews from this intake: **0**
+- Publication status: **HOLD — internal research only**
+- No account opening, deposits, gameplay, KYC, support contact or withdrawal test is claimed.
 
-## Source interpretation
-The GGL whitelist is a licensing/permission source, not a quality rating or a substitute for reviewing terms and product availability. The GGL FAQ specifically distinguishes online casino games from virtual slot-machine games and notes that online-casino permissions are a state-level matter. A regulator listing alone does not establish fairness, payout speed, customer-service quality, bonus value, or a positive recommendation.
+## Interpretation limits
+A regulator listing is not a quality score or endorsement and does not prove payout speed, fairness, customer-service quality or bonus value. GGL virtual-slot listings and state-level online-casino permissions are distinct categories; all claims must match the exact product, domain and jurisdiction.
