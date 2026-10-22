@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beincasinos.online/sitemap.xml
