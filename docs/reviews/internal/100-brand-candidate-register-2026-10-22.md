@@ -160,3 +160,12 @@ A follow-up search located these official starting points for checking the candi
 - Several proposed names are **not yet proven to offer an active online casino product in the proposed market**. Examples include candidates with “casino” added to a broader sports/betting brand name, products that may be bingo/poker-first, and brands that may no longer be available locally. Keep them in QUEUE only until official register and live product evidence agree.
 - The 100 names are a global candidate universe, not 100 market-specific approvals. Repeated international operations of one brand do not become separate unique global brands.
 - Official lists change. Recheck the live register immediately before any review approval and retain a dated evidence extract.
+
+
+## Editorial draft progress — 22 October 2026
+
+A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-15-evidence-led-review-drafts-2026-10-22.md`. It contains 15 Great Britain casino-product draft reviews derived from the matching dated evidence packs. Each remains HOLD and is internal only. No live user-experience tests or independent second-review sign-offs have been completed, so these 15 drafts add **zero** to the approved-review count.
+
+**Important portfolio consistency issue:** this legacy 100-row queue is not yet aligned with the current 10-market roadmap. It includes Romania and repeats several international brands as separate market rows, while the roadmap targets Great Britain, Italy, Spain, Netherlands, Germany, Switzerland, Sweden, Denmark, Belgium and Ontario. Do not present the current 100-row queue as 100 distinct, fully eligible brands until it has been deduplicated and remapped to the agreed market portfolio using current official regulator records.
+
+**Counts after this batch:** candidate rows in this register: 100 (not all validated); narrative drafts in GB batch 01: 15 (all HOLD); approved public reviews: 0/100.
