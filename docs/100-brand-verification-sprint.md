@@ -241,3 +241,11 @@ Added evidence leads for Virgin Games, Mr Vegas, Betfair Casino and PokerStars C
 ## Candidate registry expansion — bwin — 22 October 2026
 
 Added a primary UKGC business-register search lead for bwin to the 100-candidate CSV. The register search returns LC International Limited trading as bwin (account 54743) and `bwin.com`, while separately listing ProgressPlay Limited against `tebwin.com`; the two domains/operators are not conflated. The exact current Casino Remote permission and customer-facing GB terms still need account-level confirmation. The row remains **HOLD** and is not an approved review.
+
+## Editorial quality gate added — 22 October 2026
+
+Added `docs/reviews/internal/review-quality-gates-2026-10-22.md` to standardise source quality, current market/entity/licence/domain matching, consumer evidence, regulatory-history attribution, affiliate disclosure, responsible-gambling content, second-editor sign-off and technical launch checks. It explicitly forbids fabricated payout/support tests and separates evidence-captured rows from approved reviews, published pages and indexed URLs. Use this checklist for every one of the 100 candidate brands; no row should move from HOLD solely because a licence record was found.
+
+## Current registry snapshot
+
+The latest CSV structural check found 100 candidate rows plus the header, 31 columns, and no rows with mismatched field counts. At the time of this check, 23 rows were labelled `evidence captured` and also `HOLD`; the remaining candidates are still research prospects. This is a registry integrity check only, not a claim that 23 complete consumer reviews exist.
