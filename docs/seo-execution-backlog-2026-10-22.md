@@ -124,3 +124,15 @@ A live fetch sweep was run across all 44 URLs listed in the production sitemap a
 ### Release decision
 
 The existing sitemap pages passed this limited fetch/canonical sample. The overall release remains **HOLD** because PR #37 is not in production and `/markets/` is 404; PR #35 Sisal evidence remains internal/HOLD; full internal-link/public-artifact/accessibility and final release checks are still required. Do not deploy until the approved single-release plan is ready.
+
+## Host canonicalisation and 404 checks — 22 October 2026
+
+Live fetches confirmed these requested variants all resolve to `https://beincasinos.online/` and expose the apex canonical URL:
+
+- `http://beincasinos.online/`
+- `https://www.beincasinos.online/`
+- `http://www.beincasinos.online/`
+
+A deliberately nonexistent path, `/this-route-should-not-exist-qa-20261022/`, returned 404 as expected. The market hub `/markets/` separately still returns 404 because it is not yet released.
+
+This check supports host canonicalisation and unknown-path handling at the homepage level. It does not establish the exact redirect status code or validate every path/query-string combination.
