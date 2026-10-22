@@ -1,3 +1,9 @@
+# Live site audit — 22 October 2026
+
+- Added `docs/live-production-seo-and-publication-readiness-audit-2026-10-22.md` from read-only public checks of the homepage, `www` canonicalization, robots, sitemap, reviews directory, guides directory, and a missing route.
+- Confirmed the live sitemap currently lists 44 URLs; `www` resolves to the apex host; `/reviews/` explicitly states that no profiles are scored or ranked yet. These observations do not establish Google indexation.
+- Follow-up remains owner-gated: verify current sitemap submission in Search Console after release approval, complete legal/privacy/identity/hosting gates, and keep the 100-brand publication count at 0 until each profile is independently verified and second-reviewed.
+
 ## ADR guide release — 22 October 2026
 
 - Merged PR #12 (commit `64e4b83a592884da5457082c2d9f25c5319362af`) and the integrated Static site checks passed, including Chromium smoke tests: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39747923664.
