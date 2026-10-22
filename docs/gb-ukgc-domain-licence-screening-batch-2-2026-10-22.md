@@ -32,3 +32,21 @@
 6. Require an independent second reviewer and final legal/editorial approval.
 
 **Count credited by this screening note: 0 approved reviews.** Eight regulator/domain candidates were screened; none is marked publication-approved. Internal document only; keep excluded from the public deployment artifact.
+
+
+## Live primary-source recheck — 22 October 2026
+
+A fresh fetch of the eight UKGC licence-summary pages confirmed that each linked account currently displays an **Active Casino Remote** licence:
+
+- Hillside (UK Gaming) ENC — account 55149
+- 888 UK Limited — account 39028
+- Betway Limited — account 39372
+- Petfre (Gibraltar) Limited — account 39544
+- WHG (International) Limited — account 39225
+- Bonne Terre Gaming Limited — account 65519
+- PPB Games Limited — account 39411
+- Betfair Casino Limited — account 39435
+
+This recheck establishes the status shown on the linked licence-summary pages at fetch time. It does **not** independently re-verify the separate domain-name tables or each live site's legal footer, terms, enforcement record, payments, withdrawal process, privacy/cookies, safer-gambling tools, or customer support. The domain claims in the table remain to be cross-checked on the corresponding official domain pages before any publication decision. No candidate is promoted from HOLD and no approved review is credited by this recheck.
+
+Primary source: UK Gambling Commission Public Register, individual account links in the table above.
