@@ -10,7 +10,7 @@
 - Gamesys Operations Limited domain names: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905
 - UKGC register guidance and freshness: https://www.gamblingcommission.gov.uk/public-register/businesses/
 
-The UKGC register search associates **virgingames.com** with **Gamesys Operations Limited**, account **38905**, and lists the domain status as **Active** in the domain record. A third-party summary of the UKGC register has reported the domain as Active, while another table labels Virgin Games a white-label relationship; because the official current domain row is the authoritative source, re-open and capture that exact row at publication time and preserve its precise status. Do not present the domain as independently operated by a separate Virgin Games legal entity based on brand name alone.
+The UKGC's official domain record for **Gamesys Operations Limited**, account **38905**, explicitly lists **virgingames.com** as **White Label** (not Active direct domain). This official row takes precedence over third-party summaries that may label it Active. Do not present Virgin Games as directly operated by a separate Virgin Games legal entity or describe this domain as a direct active domain under this account. Capture the relevant consumer-facing legal disclosure and any applicable regulator entry before publication.
 
 ## Required checks before publication
 
