@@ -1,3 +1,12 @@
+# Latest research and CI checkpoint — 22 October 2026
+
+- PR #26 merged after the complete integrated CI job passed, including Chromium browser smoke tests, the public-only deployment artifact build, and the check that internal research files are excluded from that artifact: https://github.com/beincasinos-Brand/BeInCasinos/pull/26
+- Germany register is now tracked internally as 13 site/domain entries, but these are not 13 unique brands and the source evidence is scoped to virtual-slot permissions unless a state-level online-casino concession is separately confirmed. Official GGL whitelist: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist/
+- PR #20 merged after the same integrated CI job passed. Its Search Console record documents 32 submitted URLs versus 44 current sitemap URLs, and explicitly treats indexing/performance as unverified: https://github.com/beincasinos-Brand/BeInCasinos/pull/20
+- Spain is the next research market: the official DGOJ finder currently displays licensed-operator records and consumer domains. Each candidate still needs matching legal entity, exact domain, general licence and specific game permission checked before it can count as a verified review: https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores
+- Count discipline remains unchanged: 20 first-stage candidate brands across Switzerland and Great Britain, plus a Germany register with deduplication and product-scope limits; **0/100 fully publication-approved brand reviews**. Candidate registers and HOLD drafts are not publication-ready reviews.
+- No production deployment, DNS/nameserver change, billing change, or Search Console write action was made. Keep the single-deploy rule: do not deploy until the 100-brand evidence target and owner/legal/hosting release gates are cleared.
+
 # Live site audit — 22 October 2026
 
 - Added `docs/live-production-seo-and-publication-readiness-audit-2026-10-22.md` from read-only public checks of the homepage, `www` canonicalization, robots, sitemap, reviews directory, guides directory, and a missing route.
