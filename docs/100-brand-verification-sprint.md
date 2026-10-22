@@ -45,6 +45,9 @@
 
 - [Batch 25](gb-brand-research-batch-25-2026-10-22.md) records Rank Interactive (Gibraltar) Limited's active Casino Remote permission and Grosvenorcasinos.com domain status, while separating inactive legacy domains and related brands. This is evidence only, not a complete review; approved brands remain **0/100**.
 
+
+- [Batch 26](gb-brand-research-batch-26-2026-10-22.md) records 13 Active domain rows under LC International Limited's active remote casino permission and distinguishes the separate Ladbrokes Betting & Gaming Limited account. These are candidate leads, not approved reviews; **0/100 brands approved, 0 publication-ready reviews**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
