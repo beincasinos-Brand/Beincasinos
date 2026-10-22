@@ -301,6 +301,30 @@ if sitemap.exists():
                 continue
             if not target.is_file() or target.suffix.lower() not in (".html", ".htm"):
                 errors.append(f"sitemap.xml: URL does not map to an HTML page: {url}")
+                continue
+            # A sitemap entry should resolve to an indexable page whose canonical
+            # agrees with the submitted URL. Existing-file checks alone can let
+            # noindex pages or canonicalized duplicates slip into the sitemap.
+            target_source = target.read_text(encoding="utf-8")
+            canonical_match = re.search(
+                r'<link\\s+rel=["\\']canonical["\\']\\s+href=["\\']([^"\\']+)["\\']',
+                target_source,
+                re.I,
+            )
+            if not canonical_match:
+                errors.append(f"sitemap.xml: listed page is missing a canonical URL: {url}")
+            elif canonical_match.group(1) != url:
+                errors.append(
+                    f"sitemap.xml: listed page canonical does not match sitemap URL: "
+                    f"{url} -> {canonical_match.group(1)}"
+                )
+            robots_match = re.search(
+                r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\']([^"\\']+)["\\']',
+                target_source,
+                re.I,
+            )
+            if robots_match and re.search(r"\\bnoindex\\b", robots_match.group(1), re.I):
+                errors.append(f"sitemap.xml: listed page has a noindex directive: {url}")
         expected_paths = set()
         for page in pages:
             rel = page.relative_to(ROOT).as_posix()
