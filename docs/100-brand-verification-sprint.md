@@ -27,6 +27,9 @@
 
 - [Batch 19](gb-brand-research-batch-19-2026-10-22.md) records BV Gaming Limited's active Casino Remote permission and the Betano UK terms' operator statement, while preserving the UKGC domain record's **White Label** label. This is an identity lead, not a completed review or evidence of Moroccan eligibility; approved brands remain **0/100**.
 
+
+- [Batch 20](gb-brand-research-batch-20-2026-10-22.md) records Blue Star Planet Limited's active Casino Remote permission, its 10bet trading name and the UKGC's 2023 £620,000 regulatory action. Exact domain mapping and consumer terms remain open; this internal evidence note adds **0** approved brands and **0** publication-ready reviews.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
