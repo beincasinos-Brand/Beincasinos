@@ -45,6 +45,13 @@ with REGISTRY.open("r", encoding="utf-8-sig", newline="") as handle:
         errors.append("Missing required columns: " + ", ".join(missing))
     rows = list(reader)
 
+for line, row in enumerate(rows, start=2):
+    if None in row:
+        errors.append(f"Line {line}: extra CSV fields beyond the header")
+    missing_values = [key for key, value in row.items() if key is not None and value is None]
+    if missing_values:
+        errors.append(f"Line {line}: missing CSV values for: " + ", ".join(missing_values))
+
 if len(rows) != EXPECTED_BRANDS:
     errors.append(f"Expected {EXPECTED_BRANDS} brand rows, found {len(rows)}")
 
