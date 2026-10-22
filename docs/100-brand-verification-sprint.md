@@ -267,3 +267,7 @@ Added a primary UK Gambling Commission trading-name record for Betano. The UKGC 
 ## Regulatory evidence batch 4 — ComeOn Sweden — 22 October 2026
 
 Added a Sweden-specific regulator record for ComeOn. Spelinspektionen's URL lookup identifies comeon.com with ComeOn Sweden Ltd and online-gambling/betting licences valid 2025-10-30 to 2030-10-29. The regulator's December 2024 update confirms a historical SEK 13 million sanction for prohibited bonus offers and duty-of-care failures after the Supreme Administrative Court declined leave to appeal; a separate 2025 matter was closed without further action. The CSV keeps this row **HOLD**, scopes it to Sweden and does not infer other markets or current player outcomes. Evidence note: [ComeOn Sweden evidence](reviews/internal/se-brand-evidence-batch-2026-10-22-comeon.md).
+
+## Registry integrity tooling — 22 October 2026
+
+Added `scripts/check_brand_registry.py`, a standard-library Python validator for the 100-row registry. It checks expected row count, duplicate/blank brand names, required columns, status/decision values, and prevents approval when a row is not reviewed or still has unresolved issues. The script has been committed but **has not been executed in CI or on a checked-out repository**; the live CSV was separately inspected through the repository API and currently has 100 rows, 31 columns, no width mismatches or duplicate brand names, 28 evidence-captured/HOLD rows and 72 prospect/not-reviewed rows. Do not treat the static inspection as a run of the new script.
