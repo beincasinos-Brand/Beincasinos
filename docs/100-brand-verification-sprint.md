@@ -270,7 +270,7 @@ Added a Sweden-specific regulator record for ComeOn. Spelinspektionen's URL look
 
 ## Registry integrity tooling — 22 October 2026
 
-Added `scripts/check_brand_registry.py`, a standard-library Python validator for the 100-row registry. It checks expected row count, duplicate/blank brand names, required columns, status/decision values, and prevents approval when a row is not reviewed or still has unresolved issues. The script has been committed but **has not been executed in CI or on a checked-out repository**; the live CSV was separately inspected through the repository API and currently has 100 rows, 31 columns, no width mismatches or duplicate brand names, 28 evidence-captured/HOLD rows and 72 prospect/not-reviewed rows. Do not treat the static inspection as a run of the new script.
+Added `scripts/check_brand_registry.py`, a standard-library Python validator for the 100-row registry. It checks expected row count, duplicate/blank brand names, required columns, status/decision values, and prevents approval when a row is not reviewed or still has unresolved issues. The script has been committed but **has not been executed in CI or on a checked-out repository**; the live CSV was separately inspected through the repository API and currently has 100 rows, 31 columns, no width mismatches or duplicate brand names, 30 evidence-captured/HOLD rows and 70 prospect/not-reviewed rows. Do not treat the static inspection as a run of the new script.
 
 ## Regulatory evidence batch 5 — France product scope — 22 October 2026
 
