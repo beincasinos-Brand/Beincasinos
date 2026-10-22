@@ -11,6 +11,7 @@
 - Current verified-to-publish count remains **0** in the 100-brand sprint until each profile passes all gates.
 - Public `/reviews/` correctly states that no live casino profiles are scored or ranked yet. Keep that truthful status until profiles are genuinely approved.
 - **Production route status (verified 2026-10-22):** the ADR guide returns HTTP 200 with the expected self-canonical; the sitemap returns HTTP 200 and includes the guide; the www guide URL returns HTTP 200 and resolves to the apex canonical. The latest repair workflow preflights the public route and skips the privileged cache purge when the page is already healthy. This confirms route availability, not Google indexing or search traffic. See [successful production verification](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39753522659) and [static site checks](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39753522742).
+- **Latest repository checks (verified 2026-10-22):** commit `0c849925513c5a71cf258bd59f667dd150e314c2` passed the full static-site workflow, including Chromium browser smoke tests, and passed read-only Cloudflare launch diagnostics. See [static checks](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39754095237) and [Cloudflare diagnostics](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39754095326). This validates repository/build checks, not a new production deployment or search performance.
 
 ## Release sequence
 
@@ -20,6 +21,8 @@
 2. For any route repair, require production checks for HTTP 200, the expected self-canonical, sitemap inclusion, and www-to-apex behavior. Do not change DNS to work around a path-level failure. The latest successful checks prove availability of this guide, not Google indexing.
 3. Complete the owner-only release checklist in Issue #2: publisher identity/contact, trademark, target-market legal/advertising review, Morocco privacy/CNDP review, commercial/affiliate policy, hosting cost/terms, and manual accessibility/mobile/outbound-link QA.
 4. Do not re-submit the sitemap or request mass indexing until the release checklist is explicitly cleared by the owner. The existing prior Search Console snapshot is stale relative to the current 44-URL sitemap.
+5. Treat indexing as a separate measurement from HTTP availability and CI. Google's guidance says crawl/indexing is not guaranteed and can take time; inspect representative priority URLs and use the Page indexing report to diagnose exclusions rather than repeatedly requesting the same URLs. See [Google Search Console Page indexing report](https://support.google.com/webmasters/answer/7440203?hl=en-TT).
+6. Do not respond to slow indexing by publishing dozens of near-duplicate pages. Google's spam policy identifies scaled, unoriginal content made primarily to manipulate rankings as abuse; prioritize genuinely useful, evidence-backed pages and internal discoverability. See [Google Search spam policies](https://developers.google.com/search/docs/essentials/spam-policies?rd=1&visit_id=639264566515765879-584995437).
 
 ### Gate 1 — research the 100 candidate brands in batches
 
