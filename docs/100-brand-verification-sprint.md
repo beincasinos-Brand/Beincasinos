@@ -296,3 +296,13 @@ Added [batch 7 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-
 - **LeoVegas / BetMGM UK:** UKGC lists active Casino Remote permission for LeoVegas Gaming PLC (39198); its domain record lists `leovegas.co.uk` and `betmgm.co.uk` active, while `leovegas.com` variants are inactive in that record.
 
 **Decision: all three remain HOLD.** Domain and regulator records are evidence leads, not completed consumer reviews. Confirm current customer terms and contracting entity, then finish current offers, payments/withdrawals, complaints/ADR, privacy, safer-gambling and regulatory-history checks plus second-editor review. No Actions workflow or deployment was triggered.
+
+
+## Regulatory evidence batch 8 — Betfair Casino and Betway (2026-10-22)
+
+Added [batch 8 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-10-22-betfair-betway.md) and updated both registry rows.
+
+- **Betfair Casino:** UKGC lists active Casino Remote permission and an active `www.betfair.com` domain under Betfair Casino Limited (39435), but the brand search returns multiple Betfair-related licensees. The registry now flags exact operator reconciliation. The 17 December 2025 UKGC settlement concerning social-responsibility/customer-interaction controls is recorded with its date and scope, rather than omitted or exaggerated.
+- **Betway:** UKGC lists active Casino Remote permission and active `betway.com` / `casino.betway.com` domains under Betway Limited (39372). The register also includes other brand domains and a white-label domain under the same account; these must not be treated as identical consumer products without terms checks.
+
+**Decision: both remain HOLD.** Current consumer checks and independent second-editor approval are still outstanding. This was a source/documentation-only change; no Actions or deployment was triggered.
