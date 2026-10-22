@@ -217,3 +217,7 @@ Added [the Videoslots evidence note](reviews/internal/gb-brand-evidence-batch-20
 ## Deeper first-party terms review — Sky Vegas — 22 October 2026
 
 Added [the Sky Vegas deep-check evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-sky-vegas-deep-check.md). It records the operator's casino-vs-sportsbook distinction, active UKGC Casino Remote and domain records, the additional Bonne Terre Limited domain association, and key clauses on verification before withdrawals, conditional withdrawal delays, maximum winnings and safer-gambling tools. These are terms disclosures, not hands-on performance findings. Payment specifics, bonus terms, complaint/ADR, privacy, current safer-gambling page checks and second-editor sign-off remain open; status stays **HOLD**.
+
+## 888casino — regulatory-history correction — 22 October 2026
+
+Added [the 888casino UKGC enforcement evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-888casino-regulatory-update.md). In addition to an active Casino Remote licence and active `888casino.com` domain entry, UKGC records show financial penalties dated 19 August 2024 (£23,000), 7 August 2025 (£33,075), and 18 November 2025 (£86,843). These must be attributed precisely and included in a balanced review; the current consumer terms, payment/withdrawal and safer-gambling checks remain open. Status **HOLD**.
