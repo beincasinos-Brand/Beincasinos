@@ -5,15 +5,15 @@
 - Canonical host intended by source files: `https://beincasinos.online/`.
 - `robots.txt` allows all user agents and advertises `https://beincasinos.online/sitemap.xml`.
 - The source-controlled and live production sitemap now list 43 canonical URL entries, including `/guides/what-a-gambling-licence-means/`. This is a submitted/discovery inventory, not evidence that Google indexed any URL.
-- Latest integrated source/build/browser workflow passed on commit `08e984464e0d8081ca4ae8c6f26e1b31cba7716f`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39697317267
+- The licence-guide integrated source/build/browser workflow passed on commit `e2a9e628908a4454dc73543113a32d5060175140`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39745520599.
 - Latest read-only Cloudflare diagnostic reported a valid API token, readable zone, Pages project `beincasinos`, production branch `main`, and active production deployments: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39697317005
-- DNS A lookups returned Cloudflare addresses for both apex and `www`. The `www` CNAME query returned no answer; this alone does not prove a DNS fault because proxied records may be represented differently. An HTTP redirect test is still required.
+- Live fetch verification found `https://www.beincasinos.online/` resolves to `https://beincasinos.online/`. This confirms the observed redirect path, not Google indexing.
 - No current Search Console URL Inspection result, indexing status, or successful current sitemap submission is established by these checks.
 
 ## Owner/browser steps — Search Console
 
 1. Open the correct Google Search Console property for `https://beincasinos.online/` (or its verified Domain property).
-2. Open **Sitemaps** and submit `https://beincasinos.online/sitemap.xml` if the current sitemap has not been submitted since the 42-URL inventory was published.
+2. Open **Sitemaps** and submit `https://beincasinos.online/sitemap.xml` if the current 43-URL sitemap has not been submitted.
 3. Record the submission timestamp and the exact status/error shown. A successful fetch means Google can read the sitemap; it does not mean all listed URLs are indexed.
 4. Inspect these representative URLs one at a time:
    - `https://beincasinos.online/`
