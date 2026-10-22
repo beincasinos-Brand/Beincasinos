@@ -57,6 +57,9 @@
 
 - Internal review draft created: [888casino — Great Britain](review-drafts/888casino-gb-internal-draft-2026-10-22.md). It records the UKGC identity evidence and holds all unverified bonus, payments, support and testing claims. This is **2 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 
+
+- Internal review draft created: [Betway Casino — Great Britain](review-drafts/betway-casino-gb-internal-draft-2026-10-22.md). It separates direct and white-label domain rows and keeps unverified terms, payments, support, regulatory history and testing on hold. This is **3 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
