@@ -20,14 +20,14 @@ This intake uses the regulator's A+ table as the initial evidence for online cas
 | 4 | betanocasino.be — Betano Casino | SA/NV CASINOS AUSTRIA INTERNATIONAL BELGIUM | A+ table lists domain; expiry 2026-12-31 | Recheck status/renewal closely before publication; capture terms |
 | 5 | circus-casino.be — Circus Casino | SA/NV GAMBLING MANAGEMENT | A+ table lists domain; expiry 2034-12-11 | Verify exact domain and casino terms; don't reuse sportsbook claims |
 | 6 | pokerstars.be — PokerStars | SA/NV GAMBLING MANAGEMENT | Same A+ row lists this domain with circus-casino.be | Treat as a separate brand lead, but verify current casino availability and avoid double-counting operator |
-| 7 | casinолadbrokes.be — Ladbrokes Casino | SA/NV GRAND CASINO DE DINANT | A+ table lists casinолadbrokes.be; expiry 2038-01-19 | Confirm exact ASCII domain spelling from official table, current brand/domain and terms |
+| 7 | casinoladbrokes.be — Ladbrokes Casino | SA/NV GRAND CASINO DE DINANT | A+ table lists domain; expiry 2038-01-19 | Confirm live domain, current brand/domain and terms |
 | 8 | unibetcasino.be — Unibet Casino | SA/NV BLANKENBERGE CASINO-KURSAAL | A+ table lists domain; expiry 2036-01-01 | Confirm live casino product, operator disclosures and payment rules |
 | 9 | bwincasino.be — Bwin Casino | SA/NV Infiniti Casino Oostende | A+ table lists domain; expiry 2036-08-01 | Verify exact product and current legal/bonus terms |
 | 10 | betssoncasino.be — Betsson Casino | SA/NV EXPLOITATIE CASINO MIDDELKERKE | A+ table lists domain; expiry 2039-02-22 | Verify live domain, operator disclosure, game categories and terms |
 
 ## Data hygiene note
 
-The regulator table displays website/operator relationships that may not match the familiar consumer-facing brand's wider corporate group. Record the exact Belgian licence holder from the live row and separately research brand ownership; do not silently substitute a global parent company. For the Ladbrokes row, verify the domain's exact spelling directly in the official table before use; do not copy the typographical string in this document as a link.
+The regulator table displays website/operator relationships that may not match the familiar consumer-facing brand's wider corporate group. Record the exact Belgian licence holder from the live row and separately research brand ownership; do not silently substitute a global parent company. Recheck the exact Ladbrokes domain in the official table before use.
 
 ## Evidence packet before scoring
 
