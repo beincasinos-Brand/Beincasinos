@@ -1,3 +1,10 @@
+## Search discovery verification checklist — 22 October 2026
+
+- Added `docs/search-discovery-indexing-verification-2026-10-22.md` with reproducible Search Console steps, representative URL Inspection targets, live apex/www/HTTP redirect checks, sitemap validation criteria, and evidence-reporting rules.
+- Recorded the distinction between source/CI success, live URL availability, Google discovery, crawling, indexing and actual Search Console impressions. Current repo sitemap contains 42 URLs and robots.txt allows crawling; neither fact proves indexing.
+- Latest integrated CI and read-only Cloudflare diagnostic are documented with their run links in the checklist. Search Console results and current sitemap submission still require verification inside the owner's account.
+- No DNS changes, Search Console actions, production deployment, or indexing claims were made by this documentation update.
+
 ## Verified withdrawal-content release checkpoint — 22 October 2026
 
 - Added `/guides/documenting-withdrawal-delay/` with a practical evidence timeline, safe handling of personal data, factual support-message template, official complaint escalation steps, and recovery-scam warnings.

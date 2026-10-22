@@ -10,6 +10,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Competitive benchmark and differentiation roadmap for Casino.org and leading review publishers: `docs/competitive-review-publishers-benchmark-2026-10-21.md`.
 - International review-page architecture, SEO guardrails, and market gates: `docs/international-seo-content-architecture.md`.
 - SEO growth plan toward the 1,000,000-daily-impression ambition: `docs/seo-growth-plan-1m-daily-impressions.md`; staged measurement and launch gates, not a forecast.
+- Current Search Console, sitemap, canonical-host and indexing verification steps: `docs/search-discovery-indexing-verification-2026-10-22.md`; distinguishes published, discovered, crawled, indexed and visible URLs.
 - SEO topic map: `docs/seo-topic-map.csv`; planned topics are research ideas, not keyword-volume claims or permission to publish market-specific legal content.
 - Evidence-gated scoring, eligibility rules, and ranking independence: `docs/editorial-review-scoring-rubric.md`.
 - Current UK and Swiss primary-source prospect audits: `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
