@@ -1,7 +1,13 @@
+## ADR guide release — 22 October 2026
+
+- Merged PR #12 (commit `64e4b83a592884da5457082c2d9f25c5319362af`) and the integrated Static site checks passed, including Chromium smoke tests: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39747923664.
+- Production guide index links to the new ADR page and live sitemap lists 44 canonical URLs. The clean route intermittently returned 404 in external fetch checks, but a cache-busted URL and `index.html` route returned the page. Clear/recheck the edge cache before calling route delivery fully stable.
+- Search Console's last submitted sitemap record remains 32 URLs; resubmit the current 44-URL sitemap in the UI. The available connector is read-only.
+
 ## Search Console status — 22 October 2026
 
 - Read-only connector confirms the `https://beincasinos.online/` Search Console property is connected.
-- Sitemap last submitted 21 October 2026 at 21:39 UTC; connector reports 32 submitted URLs and 0 errors/warnings. The live sitemap now contains 43 URLs, so resubmission is still needed.
+- Sitemap last submitted 21 October 2026 at 21:39 UTC; connector reports 32 submitted URLs and 0 errors/warnings. The live sitemap now contains 44 URLs, so resubmission is still needed.
 - Search Analytics returned no rows for the last 12 months; do not equate this with a verified zero-impression result. The connector's sitemap `indexed` field is deprecated and must not be used as an index count.
 - No URL Inspection or Pages exclusion verdicts have been verified. The connector is read-only; no sitemap submission was made.
 
