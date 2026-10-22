@@ -11,11 +11,15 @@
 - The official terms, regulatory information and casino support URLs returned HTTP 403 during this research pass. The snippets are leads only; the full pages must be captured in a browser or other accessible official copy before review approval.
 - Official casino support page URL: https://casino.betfair.com/info/support
 
-## Regulatory history — material context
+## Regulatory history — material context (checked 22 October 2026)
 - Gambling Commission action page gives decision date **17 December 2025**. It says a licence review followed a compliance assessment in April and May 2024 of remote licences for four licensees trading as Betfair and Paddy Power.
 - The regulator found failings in Social Responsibility Code Provision 3.4.3, relating to remote customer interaction, across the four listed licensees. The total payment in lieu of financial penalty was **£2,000,000 across the group of four licensees**.
+- The regulator's public statement describes examples where indicators of potential harm were not identified or escalated promptly, including high-velocity deposits, overnight activity, and delayed manual review. These are regulator findings about the relevant historic period; do not imply that the same behaviour has been independently observed in the current product.
 - This is a group-level amount. Do not claim Betfair Casino Limited alone paid £2m. The action page also lists commission costs and a public statement as outcomes.
-- Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39435
+- Primary sources:
+  - Betfair Casino Limited action: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39435
+  - UKGC public statement: https://www.gamblingcommission.gov.uk/public-register/public-statement/detail/paddy-power-betfair-public-statement
+  - UKGC announcement, 17 December 2025: https://www.gamblingcommission.gov.uk/news/article/paddy-power-betfair-to-pay-gbp2m-for-regulatory-failures
 
 ## Current product terms and customer experience
 - Full current GB casino terms were not readable in this fetch because the operator's official pages returned 403. Do not infer details about wagering, account closure, withdrawals or complaint deadlines from snippets.
@@ -41,6 +45,8 @@
 
 ## Source log
 - Gambling Commission — Betfair Casino Limited regulatory sanctions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39435
+- UKGC — Paddy Power Betfair public statement: https://www.gamblingcommission.gov.uk/public-register/public-statement/detail/paddy-power-betfair-public-statement
+- UKGC — announcement dated 17 December 2025: https://www.gamblingcommission.gov.uk/news/article/paddy-power-betfair-to-pay-gbp2m-for-regulatory-failures
 - Betfair — General Terms and Conditions (403 during this pass): https://www.betfair.com/aboutUs/Terms.and.Conditions/
 - Betfair — Regulatory Information (403 during this pass): https://www.betfair.com/aboutUs/Regulatory.Information/
 - Betfair Casino — Support Page (403 during this pass): https://casino.betfair.com/info/support
