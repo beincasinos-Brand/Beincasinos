@@ -45,14 +45,53 @@ The operator says account access is limited to adults and that Italian legal sel
 
 Source: https://www.888casino.it/gioco-responsabile/
 
+
+### Bonus terms — operator-published, promotion-specific terms must be checked
+
+The current general bonus information says casino welcome-bonus eligibility is restricted to new customers who have not previously held an account or used a welcome promotion across the operator's Italian 888 brands. Its general casino-bonus rule states a wagering requirement of 30 times the bonus amount before bonus-related winnings become withdrawable, unless the specific promotion states otherwise. The published contribution table gives different contributions by game type (for example, slots generally contribute 100%, roulette 20%, and blackjack/live casino 10%); these are material restrictions, not a simple cash equivalent. Some deposit-linked casino promotions exclude deposits made through Neteller or Skrill, and the operator says bonus funds themselves are not withdrawable.
+
+Do not present 30x as the universal requirement for every offer: the specific live promotion's own terms can override or supplement general terms. One indexed promotional terms page contains visibly blank fields for the offer expiry, qualifying deposit and wagering multiplier, so it is not suitable evidence for a current advertised offer. Before publication, save a complete current offer page and its full terms or omit promotional amounts entirely.
+
+Sources:
+- General bonus information: https://www.888casino.it/promozioni/informativa-sui-bonus/
+- Example promotion terms page with incomplete/blank offer fields: https://www.888casino.it/promozioni/bonus-extra/termini-condizioni/
+- General terms: https://www.888casino.it/sicurezza-e-privacy/accordo-con-utente-real/
+
+### Complaints and customer support
+
+The operator's contact page lists assistenza@888casino.it and says users should first contact its customer service/contact centre. If the issue is unresolved, the page says a formal report/complaint can be submitted through ADM's Portale delle Segnalazioni, available from 10 September 2026; it states that in this initial process ADM forwards the report to the concessionaire and the concessionaire is to respond through the portal within 72 working hours. This is a description of the stated process, not evidence of a particular complaint outcome or independent service quality.
+
+Sources:
+- Contact and complaints route: https://www.888casino.it/contattaci/
+- Responsible-gambling page also describes the ADM complaint route: https://www.888casino.it/gioco-responsabile/
+
+### Privacy and data handling — operator policy
+
+The current privacy notice identifies 888 Italia Limited as data controller for the 888 brand and says it processes account, identity, location, gaming, payment, customer-service and responsible-gambling data for service provision and legal/compliance purposes. It lists recipients including group companies, payment providers, fraud-control companies, regulators and public authorities; it also describes international transfers and a general ten-year customer-data retention period for Italy. These are operator statements and need a legal/editorial check before being summarised for readers; the cookie notice and current effective/version date still need to be captured separately.
+
+Source:
+- Privacy notice: https://www.888casino.it/sicurezza-e-privacy/informativa-sulla-privacy/
+
+### Updated evidence status
+
+- [x] General bonus policy reviewed at desk-research level; a current specific offer is still required before describing any advertised bonus.
+- [x] Operator's published complaints escalation route located; independent complaint-outcome evidence not collected.
+- [x] Privacy notice located; cookie notice and effective/version date still need capture.
+- [ ] Exact currently permitted casino game categories captured from the live ADM entry.
+- [ ] Current full terms and live casino rules archived with effective/version dates.
+- [ ] Deposit methods, minimums, fees and limits verified from current Italy-facing sources.
+- [ ] Responsible-gambling tools tested reproducibly; no account/login testing claimed.
+- [ ] Independent second reviewer assigned and signs off.
+- [ ] Legal/affiliate-disclosure review completed.
+
 ## Missing evidence / hard gates
 
 - [ ] Re-open ADM record and capture exact active casino-game categories and any status notes.
 - [ ] Verify live legal notice, contracting entity and current account terms.
-- [ ] Capture current casino rules, bonus terms and wagering/cashout restrictions.
+- [ ] Capture current casino rules and a complete, live promotion-specific bonus offer with its effective dates and wagering/cashout restrictions; omit promotional amounts if incomplete.
 - [ ] Inventory supported deposits, minimums, limits, fees and verification requirements.
 - [ ] Reconcile current withdrawal help pages with older detailed policy pages.
-- [ ] Capture privacy/cookie notice, data controller, complaints route and support hours.
+- [ ] Capture privacy/cookie notice version date, data controller and current support hours; complaints route found but outcome evidence remains missing.
 - [ ] Check current ADM enforcement and material product changes.
 - [ ] Document reproducible user-experience tests; do not claim deposits or withdrawals were tested unless they were.
 - [ ] Independent second reviewer signs off on every material public claim.
