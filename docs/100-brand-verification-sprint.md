@@ -205,3 +205,7 @@ Added [the LeoVegas, Mr Green and Casumo primary-source evidence log](reviews/in
 ## UKGC evidence batch — Unibet and 32Red entity/domain reconciliation — 22 October 2026
 
 Added [the Unibet and 32Red evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-unibet-32red.md). UKGC search results associate `www.unibet.co.uk` and `www.32red.com` with Platinum Gaming Limited (account 45322), while 32Red Limited's old Casino Remote licence was surrendered in March 2025. This is an entity-resolution warning, not proof that the live product is approved: confirm the exact active permission and current customer terms before making a GB licensing claim. Both remain **HOLD**.
+
+## UKGC portfolio evidence — Skill On Net Limited — 22 October 2026
+
+Added [the Skill On Net multi-brand domain evidence log](reviews/internal/gb-brand-evidence-batch-2026-10-22-skill-on-net-portfolio.md). UKGC account 39326 has an active Casino Remote licence and lists several active trading names/domains, including PlayOJO, EU Casino, DrückGlück, Spin Genie and LuckyVegas. The note separates domain/trading-name evidence from full consumer-review approval and explicitly flags White Label/inactive domain distinctions. All five remain **HOLD** until current terms, operator/product scope, payment/withdrawal and safer-gambling checks, and second-editor approval are complete.
