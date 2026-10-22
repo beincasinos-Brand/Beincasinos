@@ -249,3 +249,7 @@ Added `docs/reviews/internal/review-quality-gates-2026-10-22.md` to standardise 
 ## Current registry snapshot
 
 The latest CSV structural check found 100 candidate rows plus the header, 31 columns, and no rows with mismatched field counts. At the time of this check, 23 rows were labelled `evidence captured` and also `HOLD`; the remaining candidates are still research prospects. This is a registry integrity check only, not a claim that 23 complete consumer reviews exist.
+
+## Jurisdiction-specific evidence batch — Betsson, NordicBet and Rizk — 22 October 2026
+
+Updated three additional candidate rows with first-party operator disclosures and regulator lookup links. Betsson's UK terms name Zecure Gaming Limited and state UKGC licence 56427, but current service/domain status must be independently confirmed. Sweden's regulator lookup identifies NGG Nordic Ltd for nordicbet.com with online-gambling and betting licences valid 2024–2028, while NordicBet's own complaints page identifies different operators for other jurisdictions; market-specific review is mandatory. Rizk's first-party page states MGA sub-licence MGA/CRP/1117/2025/02 and UKGC 056427, but secondary evidence conflicts on current UK service availability, so the row stays HOLD pending primary UKGC reconciliation. All three remain **HOLD**; no licence or market claim is approved by this evidence capture alone.
