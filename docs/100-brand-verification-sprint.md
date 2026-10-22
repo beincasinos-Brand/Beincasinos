@@ -25,6 +25,10 @@ A brand only counts toward the 100 verified target when all required fields are 
 7. Conflicts, unknowns, enforcement history, and market limitations are documented; unresolved material issues mean `hold`, not `verified`.
 8. A second editorial check is completed before a public page is published. Commercial interest never changes a factual verdict or score.
 
+## Latest register evidence
+
+- [GB batch 13: 888 UK Limited / 888casino.com](gb-brand-research-batch-13-2026-10-22.md) records the current UKGC register's active Casino Remote permission and active domain association for 888casino.com. This advances one identity check only; terms, payments, complaints, safer-gambling and second-editor review remain open.
+
 ## Batch order
 
 1. **CH:** finish the 10 FGB-listed online platforms and verify exact domain/operator/product scope from current official sources.
