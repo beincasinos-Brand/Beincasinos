@@ -85,3 +85,15 @@ A 403 from the research tool is an access restriction, not evidence that the pag
 - UK Gambling Commission, LC International Limited domain names, accessed 2026-10-22.
 - UK Gambling Commission business register search for Ladbrokes, accessed 2026-10-22.
 - Ladbrokes first-party URL attempts listed above, accessed 2026-10-22; HTTP 403 from research environment.
+
+
+## First-party source refresh — 22 October 2026
+
+A fresh indexed-source pass found accessible first-party routes that were not available to the earlier fetch pass. This does **not** resolve the legal-entity/domain conflict above.
+
+- **Account safety and terms entry point:** https://www.ladbrokes.com/en/p/responsible-gaming/account-safety-and-ts-and-cs — first-party page says it was reviewed/updated in July 2026, describes identity checks, and points to current terms. Treat the stated controls as operator disclosures, not independently tested behavior.
+- **Casino promotion detail:** https://www.ladbrokes.com/en/promo/ladbucks/faq — the page says the LadBucks promotion began 2 August 2026 and continues until further notice; it says promotion terms must be read with the general casino bonus and website terms. This is a specific loyalty promotion, **not** a general welcome offer or evidence that all customers qualify.
+- **Help/contact categories:** https://www.ladbrokes.com/en/myaccount/contact — lists withdrawal, verification, deposit, promotions, casino, licensing/terms and safer-gambling help categories. The ADR provider and formal complaint escalation still need direct confirmation.
+- **Regulator's licence-scope rule:** https://www.gamblingcommission.gov.uk/licensees-and-businesses/licences-and-fees/remote-casino-operating-licence — the UKGC states a remote casino operating licence covers casino games delivered online and is required for remote gambling supplied to consumers in Great Britain. This reinforces the need to verify the exact licensee and active domain, rather than assuming a brand name or group relationship is sufficient.
+
+**Updated decision remains HOLD.** The accessible pages improve the list of first-party sources for a later review, but do not settle which registered entity contracts with the exact GB casino journey, do not replace the full current casino terms, and do not complete payments, privacy, ADR, enforcement or independent editorial checks. No public profile, rating, or “verified” status is authorised.
