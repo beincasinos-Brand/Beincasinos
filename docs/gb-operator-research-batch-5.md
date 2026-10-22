@@ -30,3 +30,14 @@ The UK Gambling Commission public register can establish the named legal entity 
 6. Independent editorial review completed; no invented player experience, withdrawal tests, quotes, ratings or unsupported structured data.
 
 **Current result: 0 of these 8 leads approved for public reviews.** Keep this file internal until each gate is independently satisfied. A licence status is not an endorsement or a quality rating.
+
+## Follow-up identity checks — 22 October 2026
+
+These are targeted updates to two leads above, based on additional UKGC register pages opened on 22 October 2026. They do not satisfy the full publication gate.
+
+| Lead | Additional primary-source finding | Interpretation and next step |
+|---|---|---|
+| **Midnite** | The UKGC [Midnite Limited domain record](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/101839) lists `www.midnite.com` as Active, and its [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/101839) shows Casino Remote Active from 11 August 2026. However, the UKGC's [search results for Midnite](https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Midnite) also associate `midnite.com` with **Dribble Media Limited**, account 42647, and separately show Midnite Limited, account 101839, with `www.midnite.com`. | **HOLD — material entity ambiguity.** Do not assume which entity contracts with customers on a given page or product. Compare the current site's legal terms/footer with both entities' register records and relevant licence scope before any brand profile. |
+| **Brillbet** | The UKGC [trading-name record for UK Digital Bookmakers Ltd](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/101570) lists `brillbet` as Active. Its [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/101570) shows Casino Remote Active from 15 June 2026. | **HOLD — domain and terms not yet established.** The active trading-name and casino-permission records are a useful match, but they do not by themselves confirm the exact consumer domain, current product terms, complaints route, safer-gambling controls, or market-specific publication approval. |
+
+**Source limitation:** The UKGC says trading names and domain names are supplied by the businesses and are not guaranteed by the Commission. A register match is an identity/permission input, not an endorsement, quality score, hands-on test, or proof of permission outside Great Britain. See the [register's data notes](https://www.gamblingcommission.gov.uk/public-register/businesses).
