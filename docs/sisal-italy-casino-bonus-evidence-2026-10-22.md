@@ -48,3 +48,11 @@ Confirm current permitted casino-game scope and game rules; verify the offer liv
 ## Decision
 
 **HOLD.** This evidence supplement is internal only and does not qualify Sisal as a completed review.
+
+## Live recheck — 22 October 2026
+
+A live-fetch attempt against the canonical welcome-offer path and both previously observed query variants returned a bot-blocked response for all three URLs. This means the current offer and exact current eligible-slot list could not be independently re-read in this pass; the block is not evidence that the offer is unavailable.
+
+The official Sisal promotions FAQ was accessible at https://www.sisal.it/faq/promozioni. It states that welcome offers may be selected during registration, that only one welcome offer is selected, that a preselected option can be changed, and that the detailed terms for the chosen offer govern eligibility and product restrictions. This supports the need to identify the specific offer version assigned to the intended customer/market, but it does **not** establish why the two indexed slot lists differ or which list is current.
+
+**Updated decision remains HOLD.** A reviewer with normal browser access must capture the actual canonical offer as served, identify the offer/version shown to an eligible Italian user without creating an account or activating a promotion, save full terms and timestamp, and resolve the differing game lists. Until then, do not publish a numeric bonus or eligible-game list as current.
