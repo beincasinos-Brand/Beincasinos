@@ -101,3 +101,16 @@ A live read-only audit checked the homepage, `/reviews/`, `/guides/`, `/sitemap.
 - The review hub accurately says that no casino profiles are currently scored or ranked; the candidate research notes remain internal until the evidence gates are passed.
 
 **Important limitation:** this is a crawlability and on-page metadata check, not proof that Google indexed any specific URL or that the site is receiving impressions. Use dated Search Console performance and indexing reports for those claims. Do not repeatedly submit the same URL as a substitute for improving evidence, internal discovery and page quality.
+
+
+### Follow-up audit — live pages and register research (22 October 2026)
+
+A second live fetch checked the homepage, `/robots.txt`, `/sitemap.xml`, `/reviews/`, `/market-research/`, and `/privacy/`.
+
+- Homepage title, description, Open Graph URL and canonical consistently point to the apex homepage. The live sitemap advertises **44 URLs**.
+- The review hub remains transparent: no casino profiles are scored or ranked, and the planned scoring framework is not represented as completed testing.
+- The market-research page documents market-specific restrictions and identifies the Swiss Federal Gaming Board's ten listed online platforms as a research snapshot, not an endorsement or ranking. Any later profile still needs fresh operator, licence-extension, product-permit, terms, complaint and safer-gambling checks.
+- The privacy notice currently describes a static informational site and says there is no analytics integration, advertising pixel, contact form, visitor account system or active affiliate tracking in the current source. This is a claim about current implementation; re-audit and update the notice before enabling any of those features. Confirm the contact mailbox is monitored before relying on it for privacy or editorial requests.
+- New private UKGC register follow-up in `docs/gb-operator-research-batch-5.md` records active-domain leads for Gamesys Operations Limited and SBKI/Fitzbet, plus a material 2023 regulatory-action record for Gamesys. These are **research leads only**; none is approved for a public profile.
+
+**Release gate remains unchanged:** the last code commit in this follow-up changes internal research documentation only. Cloudflare's read-only diagnostic completed successfully, and static site checks completed successfully. This does not itself publish new public content, establish Google indexing, or demonstrate Search Console performance.
