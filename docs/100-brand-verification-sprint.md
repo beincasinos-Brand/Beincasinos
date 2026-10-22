@@ -12,6 +12,9 @@
 - The targeted ADR route repair workflow previously failed before purge with Cloudflare API HTTP 401 / error 10000 (authentication error); no cache purge was accepted. See [issue #14](https://github.com/beincasinos-Brand/BeIncasinos/issues/14) and [workflow run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39749376879). A current content fetch can read the canonical guide, but this alone does not prove the edge returned raw HTTP 200.
 - The latest static site check run for the previous research commit passed, including Chromium browser smoke tests. The latest run after batch 3 was still in progress at the last check; do not call it passed until it finishes.
 
+
+- [Batch 11](gb-brand-research-batch-11-2026-10-22.md), [batch 12](gb-brand-research-batch-12-2026-10-22.md), [batch 13](gb-brand-research-batch-13-2026-10-22.md), [batch 14](gb-brand-research-batch-14-2026-10-22.md), and [batch 15](gb-brand-research-batch-15-2026-10-22.md) extend the GB evidence queue. Batch 11–12 are supplier/enforcement leads; batch 13 records 888casino.com / 888 UK Limited register mapping; batch 14 flags 32Red Limited's surrendered Casino Remote permission; batch 15 records Betway Limited's active Casino Remote permission and listed domains. These are internal evidence notes, not five publication-ready reviews. Keep the sprint total at **0/100 approved** until each brand independently passes all verification and editorial gates.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
