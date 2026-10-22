@@ -263,3 +263,7 @@ Evidence note: [Regulatory evidence batch — Betsson, NordicBet, Rizk and 10bet
 ## Regulatory evidence batch 3 — Betano GB identity — 22 October 2026
 
 Added a primary UK Gambling Commission trading-name record for Betano. The UKGC lists betano as an active trading name of BV Gaming Limited (account 39576), and the business search lists betano.co.uk as a matching domain. This is an identity/domain lead only; current casino-specific licence scope and all consumer-review checks remain open. The CSV row stays HOLD and does not infer authorisation in any other country. Evidence note: [Betano UKGC identity check](reviews/internal/gb-brand-evidence-batch-2026-10-22-betano.md).
+
+## Regulatory evidence batch 4 — ComeOn Sweden — 22 October 2026
+
+Added a Sweden-specific regulator record for ComeOn. Spelinspektionen's URL lookup identifies comeon.com with ComeOn Sweden Ltd and online-gambling/betting licences valid 2025-10-30 to 2030-10-29. The regulator's December 2024 update confirms a historical SEK 13 million sanction for prohibited bonus offers and duty-of-care failures after the Supreme Administrative Court declined leave to appeal; a separate 2025 matter was closed without further action. The CSV keeps this row **HOLD**, scopes it to Sweden and does not infer other markets or current player outcomes. Evidence note: [ComeOn Sweden evidence](reviews/internal/se-brand-evidence-batch-2026-10-22-comeon.md).
