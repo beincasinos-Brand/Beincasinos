@@ -26,56 +26,66 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          TOKEN="${CLOUDFLARE_API_TOKEN:-${EDIT_ZONE_DNS:-}}"
-          if [ -z "$TOKEN" ]; then
-            echo "::error::No Cloudflare token is available in repository secrets."
-            echo "Add CLOUDFLARE_API_TOKEN with Zone:Read and Zone:Cache Purge permission for beincasinos.online. Do not paste the token into chat."
-            exit 1
-          fi
-          export TOKEN
           python - <<'PY'
           import json
           import os
           import urllib.error
-          import urllib.parse
           import urllib.request
 
           base = "https://api.cloudflare.com/client/v4"
-          token = os.environ["TOKEN"]
-          headers = {
-              "Authorization": "Bearer " + token,
-              "Accept": "application/json",
-              "Content-Type": "application/json",
-              "User-Agent": "BeInCasinos-targeted-edge-repair",
-          }
-
-          def request(path, payload=None):
-              data = None if payload is None else json.dumps(payload).encode()
-              req = urllib.request.Request(base + path, data=data, headers=headers)
-              try:
-                  with urllib.request.urlopen(req, timeout=20) as response:
-                      body = json.load(response)
-                      status = response.status
-              except urllib.error.HTTPError as exc:
-                  detail = exc.read().decode("utf-8", "replace")[:500]
-                  raise SystemExit(
-                      f"Cloudflare API returned HTTP {exc.code}; token may lack the required permission. "
-                      f"Response excerpt: {detail}"
-                  )
-              if not body.get("success"):
-                  errors = body.get("errors", [])
-                  raise SystemExit("Cloudflare API operation failed: " + json.dumps(errors)[:500])
-              return status, body
-
-          _, zones = request("/zones?name=beincasinos.online&per_page=1")
-          matching = zones.get("result") or []
-          if not matching:
-              raise SystemExit("No readable Cloudflare zone found for beincasinos.online.")
-          zone_id = matching[0]["id"]
           target = "https://beincasinos.online/guides/alternative-dispute-resolution-gambling/"
-          _, result = request(f"/zones/{zone_id}/purge_cache", {"files": [target]})
-          print("Cloudflare accepted a purge request for the single affected URL.")
-          print("Purge request id: " + str((result.get("result") or {}).get("id", "accepted")))
+          candidates = []
+          for name in ("CLOUDFLARE_API_TOKEN", "EDIT_ZONE_DNS"):
+              value = (os.environ.get(name) or "").strip()
+              if value and value not in [item[1] for item in candidates]:
+                  candidates.append((name, value))
+          if not candidates:
+              raise SystemExit("No Cloudflare token is available. Add a token in GitHub Actions Secrets; never paste it into chat.")
+
+          failures = []
+          for name, token in candidates:
+              headers = {
+                  "Authorization": "Bearer " + token,
+                  "Accept": "application/json",
+                  "Content-Type": "application/json",
+                  "User-Agent": "BeInCasinos-targeted-edge-repair",
+              }
+
+              def request(path, payload=None):
+                  data = None if payload is None else json.dumps(payload).encode()
+                  req = urllib.request.Request(base + path, data=data, headers=headers)
+                  try:
+                      with urllib.request.urlopen(req, timeout=20) as response:
+                          return response.status, json.load(response)
+                  except urllib.error.HTTPError as exc:
+                      # Do not print response bodies, which can contain account details.
+                      return exc.code, None
+
+              verify_status, verify = request("/user/tokens/verify")
+              if verify_status != 200 or not verify or not verify.get("success"):
+                  failures.append(f"{name}: token verification failed (HTTP {verify_status})")
+                  continue
+
+              zone_status, zones = request("/zones?name=beincasinos.online&per_page=1")
+              matching = (zones or {}).get("result") or []
+              if zone_status != 200 or not zones or not zones.get("success") or not matching:
+                  failures.append(f"{name}: zone lookup failed (HTTP {zone_status})")
+                  continue
+
+              zone_id = matching[0]["id"]
+              purge_status, result = request(f"/zones/{zone_id}/purge_cache", {"files": [target]})
+              if purge_status == 200 and result and result.get("success"):
+                  purge_id = str((result.get("result") or {}).get("id", "accepted"))
+                  print(f"Cloudflare accepted a targeted purge using secret {name}.")
+                  print("Only the affected guide URL was requested for purge.")
+                  print("Purge request id: " + purge_id)
+                  break
+              failures.append(f"{name}: targeted purge rejected (HTTP {purge_status}; check Zone:Cache Purge permission)")
+          else:
+              print("No available token could purge the single target URL.")
+              for failure in failures:
+                  print("- " + failure)
+              raise SystemExit("Action required: configure a valid token with Zone:Read and Zone:Cache Purge for beincasinos.online.")
           PY
 
       - name: Verify canonical domain, guide response, sitemap and www redirect
