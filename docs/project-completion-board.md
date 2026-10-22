@@ -1,3 +1,11 @@
+## Licensing-literacy content release candidate — 22 October 2026
+
+- Added a general educational guide at `/guides/what-a-gambling-licence-means/` explaining licence scope, jurisdiction limits, enforcement records, and what a licence does not guarantee.
+- Linked the guide from `/guides/`, added its canonical URL to `sitemap.xml`, and updated `docs/seo-topic-map.csv`.
+- Content cites official UK Gambling Commission registers and consumer guidance for the UK-specific examples; it does not claim that any individual operator is licensed or that one licence authorises a product worldwide.
+- Source change is on branch `seo/guide-licence-limits-2026-10-22` and is awaiting CI/review through a pull request. Sitemap count in this branch is 43 URLs; repository checks and a sitemap entry do not establish Google indexing.
+- No production deployment, DNS change, Search Console action, or live operator endorsement was made.
+
 ## Verified withdrawal-content release checkpoint — 22 October 2026
 
 - Added `/guides/documenting-withdrawal-delay/` with a practical evidence timeline, safe handling of personal data, factual support-message template, official complaint escalation steps, and recovery-scam warnings.
