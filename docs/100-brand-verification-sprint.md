@@ -201,3 +201,7 @@ Added [the 10bet and PlayOJO evidence note](reviews/internal/gb-brand-evidence-b
 ## UKGC status and enforcement batch — LeoVegas, Mr Green and Casumo — 22 October 2026
 
 Added [the LeoVegas, Mr Green and Casumo primary-source evidence log](reviews/internal/gb-brand-evidence-batch-2026-10-22-leovegas-mrgreen-casumo.md). LeoVegas has an active UKGC Casino Remote record and an active `leovegas.co.uk` domain entry, but its 2022 £1.32m enforcement package is material context. The cited Mr Green Limited UK Casino Remote licence was surrendered in October 2024, so it must not be described as current GB authority. Casumo Services Limited's record was surrendered in November 2023; the UKGC source points to Recro Limited as the website operator, requiring fresh current entity/domain verification. Statuses remain **HOLD / NOT APPROVED** as detailed in the evidence file; no publication approval inferred.
+
+## UKGC evidence batch — Unibet and 32Red entity/domain reconciliation — 22 October 2026
+
+Added [the Unibet and 32Red evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-unibet-32red.md). UKGC search results associate `www.unibet.co.uk` and `www.32red.com` with Platinum Gaming Limited (account 45322), while 32Red Limited's old Casino Remote licence was surrendered in March 2025. This is an entity-resolution warning, not proof that the live product is approved: confirm the exact active permission and current customer terms before making a GB licensing claim. Both remain **HOLD**.
