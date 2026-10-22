@@ -29,6 +29,10 @@ Do not copy competitors' wording, scores, databases, images, brand assets, or un
 6. **Independence controls:** disclose affiliate relationships; commercial payment must not buy a score, approval, placement, or removal of criticism. Label sponsored placement clearly if ever permitted.
 7. **Local relevance:** native or professionally edited language, local currency and payment context, market-specific law, and locally relevant support resources. Do not ship mass translated doorway pages.
 
+## Working market matrix
+
+Use the [international market-readiness matrix](international-market-readiness-matrix.csv) as a live internal checklist. All entries start on HOLD; these are not legal determinations or approved target markets. Fill in dated official sources, qualified legal review where required, affiliate restrictions, local editorial readiness and actual Search Console demand before any market can be marked eligible. A strong commercial score cannot override a failed legal gate.
+
 ## Market entry: choose by evidence, not intuition
 
 No market should be marked approved until a documented review confirms current advertising rules, gambling-product legality, operator/domain permissions, affiliate-program terms, privacy/cookie requirements, age restrictions, and required disclosures. Keep markets on hold where evidence is incomplete. Australia and France online-casino promotion remain blocked under the existing project gate pending qualified review. US eligibility must be state- and product-specific. A foreign licence is not proof of local authorisation.
