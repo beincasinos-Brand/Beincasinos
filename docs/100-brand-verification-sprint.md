@@ -193,3 +193,7 @@ Added [the Sky Vegas and Virgin Games evidence note](reviews/internal/gb-brand-e
 ## UKGC evidence batch — BetMGM UK — 22 October 2026
 
 Added [the BetMGM UK operator/licence evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-betmgm.md). BetMGM's own UK FAQ names LeoVegas Gaming PLC as UK operator, and the UKGC record shows active Casino Remote permission for account 39198. The note explicitly distinguishes BetMGM UK from BetMGM.com in other countries. Still **HOLD** until current domain/terms, payments, complaints/ADR, safer gambling, regulatory-history review and second-editor sign-off are complete.
+
+## UKGC evidence batch — 10bet and PlayOJO — 22 October 2026
+
+Added [the 10bet and PlayOJO evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-10bet-playojo.md). 10bet has an active Blue Star Planet Limited Casino Remote record plus a declared www.10bet.co.uk domain; the .ie domain is explicitly not assumed to be covered by UK permission. PlayOJO has an active Skill On Net Limited Casino Remote record, but exact current domain mapping remains a pre-publication check. Both remain **HOLD** until the full editorial checklist passes.
