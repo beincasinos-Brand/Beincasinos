@@ -185,3 +185,7 @@ Added [internal evidence for Paddy Power, Ladbrokes and Coral](reviews/internal/
 ## UKGC evidence batch — 888casino, Grosvenor Casinos and 32Red — 22 October 2026
 
 Added [a primary-source evidence note for 888casino, Grosvenor Casinos and 32Red](reviews/internal/gb-brand-evidence-batch-2026-10-22-888-grosvenor-32red.md). 888casino has a GB-specific domain/licence match in the cited UKGC record; Grosvenor has multiple active candidate licensee records that require exact player-terms attribution; 32Red's cited UKGC Casino Remote permission is surrendered and must not be presented as current GB authorisation. These are research findings, not approved reviews. Keep publication gates closed until full current terms, payments, complaints/ADR, safer gambling, regulatory history and second-editor review pass.
+
+## UKGC evidence batch — Sky Vegas and Virgin Games — 22 October 2026
+
+Added [the Sky Vegas and Virgin Games evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-sky-vegas-virgin-games.md). Sky Vegas has duplicate licensee/domain associations requiring exact customer-terms attribution; Virgin Games has an active Gamesys Operations Limited casino licence record, but the current domain-to-entity mapping must be confirmed before publication. Both remain **HOLD** until full review gates pass.
