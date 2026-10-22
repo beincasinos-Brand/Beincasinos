@@ -28,7 +28,7 @@ No entries approved yet.
 - Great Britain: first-stage candidate register and HOLD drafts.
 - Germany: official whitelist-based candidate register; product scope distinguishes virtual slots from state-authorised online casino games.
 - Spain: DGOJ-based candidate register; exact current licence/game scope and some brand/domain/entity relationships need rechecking.
-- Italy: ADM concessionaire candidate register and initial HOLD review drafts.
+- Italy: ADM register shortlist currently tracks 38 brand/domain investigations (not 38 verified casino brands); initial HOLD drafts cover bet365, LeoVegas, StarCasinò, Sisal, 888casino, Betfair, AdmiralBet, Betsson, Eurobet and SNAI. Product scope, current terms, entity/domain matches and duplicate-brand decisions remain open.
 - Netherlands: Ksa renewed-licensee candidate register; casino game-category permission must be confirmed for each brand.
 
 ## Release gates beyond brand count
@@ -43,4 +43,4 @@ No entries approved yet.
 
 ## Audit note
 
-As of 22 October 2026, the repository contains research candidates and HOLD drafts, not 100 publication-approved reviews. Do not describe candidate counts as verified review counts.
+As of 22 October 2026, the repository contains regulator-led candidate research and HOLD drafts, not 100 publication-approved reviews. The Italy shortlist's 38 entries are investigations only and may collapse after casino-scope checks and deduplication. Do not describe candidate counts as verified review counts.
