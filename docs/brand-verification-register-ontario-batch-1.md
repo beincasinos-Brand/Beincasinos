@@ -66,3 +66,33 @@ This is an operational queue, not an editorial ranking:
 - Official player FAQ / complaint context: https://igamingontario.ca/en/player/player-faqs
 - The official directory says its data were accurate as of 1 September 2026; this is a dated snapshot, not a live guarantee for publication on a later date.
 - **Approved reviews contributed by this document: 0.** This register adds candidate coverage only. It does not change the central approved-review count and must remain internal until a separate publication decision is made.
+
+
+## Additional Ontario casino candidates from the same official directory snapshot
+
+These additional casino-facing entries were also present on the official iGaming Ontario directory on 1 September 2026. They expand the candidate pool but do not change any approval count.
+
+| # | Brand / Ontario-facing product | Legal operator named by iGaming Ontario | Exact directory-linked site | Evidence status |
+|---:|---|---|---|---|
+| 26 | Captain Cooks Casino | Apollo Entertainment Ltd | https://ontario.captaincooks.casino/ | Candidate; consumer evidence pending |
+| 27 | Casino Classic | Apollo Entertainment Ltd | https://ontario.casinoclassic.casino/ | Candidate; consumer evidence pending |
+| 28 | Golden Tiger | Apollo Entertainment Ltd | https://ontario.goldentiger.casino/ | Candidate; consumer evidence pending |
+| 29 | Grand Mondial | Apollo Entertainment Ltd | https://ontario.grandmondial.casino/ | Candidate; consumer evidence pending |
+| 30 | Luxury Casino | Apollo Entertainment Ltd | https://ontario.luxury.casino/ | Candidate; consumer evidence pending |
+| 31 | Yukon Gold Casino | Apollo Entertainment Ltd | https://ontario.yukongold.casino/ | Candidate; consumer evidence pending |
+| 32 | Zodiac Casino | Apollo Entertainment Ltd | https://ontario.zodiac.casino/ | Candidate; consumer evidence pending |
+| 33 | Bally Bet | Bally's Canada Inc. | https://play.ballybet.ca | Candidate; verify casino offering and Ontario terms |
+| 34 | Monopoly Casino | Bally's Canada Inc. | https://play.monopolycasino.ca/casino | Candidate; consumer evidence pending |
+| 35 | Swiper | Canadix Limited | https://on.swiper.com/ | Candidate; confirm casino product scope and terms |
+| 36 | ToonieBet | Canadix Limited | https://tooniebet.ca | Candidate; confirm casino product scope and terms |
+| 37 | Casino Time | CasinoTime Inc. | https://www.casinotime.ca/ | Candidate; consumer evidence pending |
+| 38 | Delta Casino | Delta iGaming Inc. | https://www.deltacasino.com/ | Candidate; consumer evidence pending |
+| 39 | DAZN Bet | DZBT Marketing Limited | https://on.daznbet.ca | Candidate; verify casino offering before inclusion in casino-only reviews |
+| 40 | Sports Interaction | ElectraWorks Maple Limited | https://on.sportsinteraction.com | Candidate; verify casino product scope and terms |
+| 41 | High Flyer Casino | Ellipse Entertainment Limited | https://m.highflyercasino.com/public/home | Candidate; consumer evidence pending |
+| 42 | Spin Away | Jungle Media Ltd. | https://spinaway.ca/ | Candidate; consumer evidence pending |
+| 43 | Lucky Days | L7 Entertainment Limited | https://luckydays.ca/ | Candidate; consumer evidence pending |
+| 44 | Lucky Casino | LCKY Entertainment Limited | https://luckycasino.ca/ | Candidate; consumer evidence pending |
+| 45 | TonyBet | Ligtip Limited | https://tonybet.ca | Candidate; verify casino product scope and terms |
+
+**Count note:** the Ontario register now contains 45 site/product entries, not 45 approved reviews. Brand overlap across markets and shared corporate groups must be deduplicated before any global 100-brand count is reported.
