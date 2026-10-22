@@ -77,3 +77,13 @@ The following UKGC enforcement notices were fetched directly. These are material
 **Enforcement screening status:** material history was identified for at least five candidates / related product groups. This is not a complete enforcement-history audit; absence of a result in this pass is not evidence of no enforcement. Check each entity's full register record, linked public statements, related trading entities, and later updates before publication.
 
 **Candidate accounting remains unchanged:** eight screened accounts; five exact active domains were readable in the previous domain-table pass; three domain mappings remain on HOLD; **0/100 approved reviews**. This remains internal research and must not be included in the public deployment artifact.
+
+
+### Related-entity attribution cautions — additional search pass, 22 October 2026
+
+- **Sky Vegas / Bonne Terre Gaming Limited (65519):** a search surfaced the UKGC's 9 March 2022 £1.17m notice for **Bonne Terre Limited**, trading as Sky Betting and Gaming, involving promotional emails to customers who had self-excluded: https://www.gamblingcommission.gov.uk/news/article/gbp1-17m-fine-for-marketing-to-vulnerable-consumers. The entity named in that notice is **Bonne Terre Limited**, not the Bonne Terre Gaming Limited account 65519 screened here. Do not attribute that penalty to account 65519 without further official evidence establishing the legal relationship and relevant product scope. It is a lead for a related-entity audit only.
+- **888casino / 888 UK Limited (39028):** this search pass did not produce a reliable notice naming this exact entity. The UKGC enforcement index contains historical notices involving the broader 888 group, but that alone is insufficient to assign any group penalty to 888 UK Limited. Exact entity, date, scope and regulator's wording must be checked before using any related case.
+- **Paddy Power Casino / PPB Games Limited (39411):** the 17 December 2025 £2m notice names PPB Entertainment Limited, PPB Counterparty Services Limited, Betfair Casino Limited and TSE Malta LP; it does not list PPB Games Limited. Treat it as direct evidence for Betfair Casino Limited and as a lead for a corporate-relationship check—not as direct enforcement against PPB Games Limited.
+- **Negative-search rule:** a search result that returns no exact-entity notice is not proof that no enforcement history exists. Review the full regulator register, archived public statements, company/group relationships, and any later actions before making an “no enforcement” statement.
+
+This addendum is a research lead and attribution-control note only. It does not change any candidate to approved and does not change the approved count.
