@@ -237,3 +237,7 @@ Updated the candidate registry for Unibet Casino, 32Red, BetMGM Casino and Grosv
 ## Candidate registry expansion — four additional brands — 22 October 2026
 
 Added evidence leads for Virgin Games, Mr Vegas, Betfair Casino and PokerStars Casino in `docs/brand-research-template.csv`. Virgin Games' first-party about-us page identifies Gamesys Operations Limited and account 38905; the current domain mapping still needs reconciliation. Mr Vegas is associated with Videoslots Limited by secondary evidence, so direct UKGC domain matching remains mandatory. Betfair Casino Limited is kept distinct from other Betfair group licensees. PokerStars Casino's Stars Interactive Limited/account 39108 mapping remains a lead until confirmed directly against the primary register. All four rows are **HOLD**; evidence capture is not a consumer review and is not publication approval.
+
+## Candidate registry expansion — bwin — 22 October 2026
+
+Added a primary UKGC business-register search lead for bwin to the 100-candidate CSV. The register search returns LC International Limited trading as bwin (account 54743) and `bwin.com`, while separately listing ProgressPlay Limited against `tebwin.com`; the two domains/operators are not conflated. The exact current Casino Remote permission and customer-facing GB terms still need account-level confirmation. The row remains **HOLD** and is not an approved review.
