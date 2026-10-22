@@ -189,3 +189,7 @@ Added [a primary-source evidence note for 888casino, Grosvenor Casinos and 32Red
 ## UKGC evidence batch — Sky Vegas and Virgin Games — 22 October 2026
 
 Added [the Sky Vegas and Virgin Games evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-sky-vegas-virgin-games.md). Sky Vegas has duplicate licensee/domain associations requiring exact customer-terms attribution; Virgin Games has an active Gamesys Operations Limited casino licence record, but the current domain-to-entity mapping must be confirmed before publication. Both remain **HOLD** until full review gates pass.
+
+## UKGC evidence batch — BetMGM UK — 22 October 2026
+
+Added [the BetMGM UK operator/licence evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-betmgm.md). BetMGM's own UK FAQ names LeoVegas Gaming PLC as UK operator, and the UKGC record shows active Casino Remote permission for account 39198. The note explicitly distinguishes BetMGM UK from BetMGM.com in other countries. Still **HOLD** until current domain/terms, payments, complaints/ADR, safer gambling, regulatory-history review and second-editor sign-off are complete.
