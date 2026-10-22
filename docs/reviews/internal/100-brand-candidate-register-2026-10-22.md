@@ -138,3 +138,25 @@ The separate checkpoint `docs/gb-candidate-licence-domain-checkpoint-2026-10-22.
 For each candidate: (1) check whether the casino product is legal for the chosen market; (2) capture the current official register and active product-specific permission; (3) match exact domain to legal entity; (4) capture current general/bonus/payment/privacy/complaint/safer-gambling terms; (5) search official enforcement history; (6) record source dates and inaccessible pages; (7) conduct and log actual usability/support tests only when feasible; (8) independent second review; (9) approve or reject with reasons.
 
 **Honest progress snapshot:** 100 candidate slots are populated as a research queue; they are not 100 verified brands. Approved public reviews: **0/100**. Do not publish this table as a ranking or use it to imply licensing. This file is excluded from public site output and sitemap.
+
+## Official regulator directory discovery — 22 October 2026
+
+A follow-up search located these official starting points for checking the candidate queue. They are directories to query, not evidence that any specific row above is licensed.
+
+| Market | Official register / directory | Verification notes |
+|---|---|---|
+| Great Britain | https://www.gamblingcommission.gov.uk/public-register | Check active remote casino permission, exact domain and enforcement history separately. |
+| Sweden | https://www.spelinspektionen.se/licens-o-tillstand/licensregister/ | Regulator says the register contains valid licences/permissions and online operators' website addresses; filter for commercial online gambling/casino. |
+| Denmark | https://spillemyndigheden.dk/en-us/licensed-gambling-operators | Authority's licensed-operator list; confirm online casino rather than betting-only permissions. |
+| Spain | http://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores | Search operator records and relevant singular casino licences; a general licence alone may not cover every game. |
+| Italy | https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari | Official list of authorised remote-gambling concessionaires; match exact domain and concession holder. |
+| Ontario, Canada | https://igamingontario.ca/en/player/regulated-igaming-market | Official directory of sites offered by regulated operators contracted with iGaming Ontario; review Ontario-specific terms. |
+| Netherlands | https://kansspelautoriteit.nl/kansspelwijzer | Official Kansspelwijzer for permit-holding providers; verify the permitted product type and current status. |
+| Germany | https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist | Official GGL whitelist; verify that the exact casino offering/domain appears, not just a related poker or betting brand. |
+| Romania | https://onjn.gov.ro/licentiati-clasa-i/ | Official Class I licensee list; confirm remote-gambling scope and current validity. |
+| Greece (potential replacement market) | https://www.gamingcommission.gov.gr/ | Use the Hellenic Gaming Commission's official registers if a candidate is moved into the Greek market; do not assume current permission from brand presence. |
+
+### Research cautions surfaced
+- Several proposed names are **not yet proven to offer an active online casino product in the proposed market**. Examples include candidates with “casino” added to a broader sports/betting brand name, products that may be bingo/poker-first, and brands that may no longer be available locally. Keep them in QUEUE only until official register and live product evidence agree.
+- The 100 names are a global candidate universe, not 100 market-specific approvals. Repeated international operations of one brand do not become separate unique global brands.
+- Official lists change. Recheck the live register immediately before any review approval and retain a dated evidence extract.
