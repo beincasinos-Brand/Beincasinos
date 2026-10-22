@@ -136,3 +136,9 @@ Live fetches confirmed these requested variants all resolve to `https://beincasi
 A deliberately nonexistent path, `/this-route-should-not-exist-qa-20261022/`, returned 404 as expected. The market hub `/markets/` separately still returns 404 because it is not yet released.
 
 This check supports host canonicalisation and unknown-path handling at the homepage level. It does not establish the exact redirect status code or validate every path/query-string combination.
+
+## Public artifact provenance guard — 22 October 2026
+
+GitHub Actions run #1183 completed successfully on roadmap head `e2b4e79` and stored artifact `beincasinos-public-site-dist` (artifact ID `12436799005`, SHA-256 `a44ce9a114e0b1d5c5dcaec02b7d286c6380ac8945dfe77de7d0274ad8225a7f`, expiry 29 October 2026). It passed the HTML/local-link, schema/regression, JavaScript, host-config, public-only build, internal-file exclusion and Chromium smoke-test steps.
+
+**Important:** this artifact was built from PR #36's roadmap branch and does **not** contain PR #37's new `/markets/` hub. It is not the release artifact for the intended combined site. Do not deploy or promote it as the final candidate. The release artifact must be rebuilt from the exact approved commit that includes all approved changes, and its SHA/contents must be verified before the one production deployment.
