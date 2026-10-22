@@ -67,6 +67,7 @@
 - Internal review draft created: [Betway Casino — Great Britain](review-drafts/betway-casino-gb-internal-draft-2026-10-22.md). It separates direct and white-label domain rows and keeps unverified terms, payments, support, regulatory history and testing on hold. This is **3 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 
 - Internal review draft created: [threesix vegas — Great Britain](../review-drafts/threesix-vegas-gb-internal-draft-2026-10-22.md). It records only regulator-backed identity/permission and operator-published eligibility and safer-gambling disclosures, leaves rating unassigned, and explicitly holds publication pending full terms/payment/complaints checks and testing. This is **4 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
+- Internal review draft created: [LuckyMate Casino — Great Britain](../review-drafts/luckymate-gb-internal-draft-2026-10-22.md). It separates UKGC-backed facts from unverified consumer claims, flags the absent trading-name entry and shared-domain portfolio, and leaves rating unassigned. This is **5 internal drafts, 0 publication-ready reviews**; approved brands remain **0/100**.
 
 ## What counts as a verified brand
 
