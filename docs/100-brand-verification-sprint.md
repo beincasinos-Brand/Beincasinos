@@ -181,3 +181,7 @@ Added [internal evidence for Betway, bet365, William Hill and Betfred](reviews/i
 ## UKGC multi-entity evidence batch — 22 October 2026
 
 Added [internal evidence for Paddy Power, Ladbrokes and Coral](reviews/internal/gb-paddy-ladbrokes-coral-evidence-2026-10-22.md). The note captures UKGC domain/trading-name collisions and the 17 December 2025 Paddy Power/Betfair multi-licensee social-responsibility settlement with explicit attribution limits. All three remain **HOLD** until exact current casino terms/operator/domain matches, payments, complaints/ADR, safer-gambling and second-editor checks are complete. No workflow or production deployment was triggered.
+
+## UKGC evidence batch — 888casino, Grosvenor Casinos and 32Red — 22 October 2026
+
+Added [a primary-source evidence note for 888casino, Grosvenor Casinos and 32Red](reviews/internal/gb-brand-evidence-batch-2026-10-22-888-grosvenor-32red.md). 888casino has a GB-specific domain/licence match in the cited UKGC record; Grosvenor has multiple active candidate licensee records that require exact player-terms attribution; 32Red's cited UKGC Casino Remote permission is surrendered and must not be presented as current GB authorisation. These are research findings, not approved reviews. Keep publication gates closed until full current terms, payments, complaints/ADR, safer gambling, regulatory history and second-editor review pass.
