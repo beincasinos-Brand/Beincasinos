@@ -1,0 +1,127 @@
+name: Repair ADR guide edge cache and verify production
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/repair-adr-edge-cache.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repair-adr-edge-cache
+  cancel-in-progress: false
+
+jobs:
+  purge-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Purge only the affected public URL
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          EDIT_ZONE_DNS: ${{ secrets.EDIT_ZONE_DNS }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TOKEN="${CLOUDFLARE_API_TOKEN:-${EDIT_ZONE_DNS:-}}"
+          if [ -z "$TOKEN" ]; then
+            echo "::error::No Cloudflare token is available in repository secrets."
+            echo "Add CLOUDFLARE_API_TOKEN with Zone:Read and Zone:Cache Purge permission for beincasinos.online. Do not paste the token into chat."
+            exit 1
+          fi
+          export TOKEN
+          python - <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          base = "https://api.cloudflare.com/client/v4"
+          token = os.environ["TOKEN"]
+          headers = {
+              "Authorization": "Bearer " + token,
+              "Accept": "application/json",
+              "Content-Type": "application/json",
+              "User-Agent": "BeInCasinos-targeted-edge-repair",
+          }
+
+          def request(path, payload=None):
+              data = None if payload is None else json.dumps(payload).encode()
+              req = urllib.request.Request(base + path, data=data, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as response:
+                      body = json.load(response)
+                      status = response.status
+              except urllib.error.HTTPError as exc:
+                  detail = exc.read().decode("utf-8", "replace")[:500]
+                  raise SystemExit(
+                      f"Cloudflare API returned HTTP {exc.code}; token may lack the required permission. "
+                      f"Response excerpt: {detail}"
+                  )
+              if not body.get("success"):
+                  errors = body.get("errors", [])
+                  raise SystemExit("Cloudflare API operation failed: " + json.dumps(errors)[:500])
+              return status, body
+
+          _, zones = request("/zones?name=beincasinos.online&per_page=1")
+          matching = zones.get("result") or []
+          if not matching:
+              raise SystemExit("No readable Cloudflare zone found for beincasinos.online.")
+          zone_id = matching[0]["id"]
+          target = "https://beincasinos.online/guides/alternative-dispute-resolution-gambling/"
+          _, result = request(f"/zones/{zone_id}/purge_cache", {"files": [target]})
+          print("Cloudflare accepted a purge request for the single affected URL.")
+          print("Purge request id: " + str((result.get("result") or {}).get("id", "accepted")))
+          PY
+
+      - name: Verify canonical domain, guide response, sitemap and www redirect
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import time
+          import urllib.error
+          import urllib.request
+
+          target = "https://beincasinos.online/guides/alternative-dispute-resolution-gambling/"
+          sitemap = "https://beincasinos.online/sitemap.xml"
+          www = "https://www.beincasinos.online/guides/alternative-dispute-resolution-gambling/"
+          headers = {"Cache-Control": "no-cache", "Pragma": "no-cache", "User-Agent": "BeInCasinos-production-smoke-test"}
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as response:
+                      return response.status, response.geturl(), response.read().decode("utf-8", "replace")
+              except urllib.error.HTTPError as exc:
+                  return exc.code, exc.geturl(), exc.read().decode("utf-8", "replace")
+
+          status = 0
+          body = ""
+          for attempt in range(1, 4):
+              status, final_url, body = fetch(target)
+              print(f"Guide attempt {attempt}: HTTP {status}; final URL: {final_url}")
+              if status == 200:
+                  break
+              time.sleep(3)
+          if status != 200:
+              raise SystemExit("The canonical guide URL still does not return HTTP 200 after the targeted purge.")
+          if 'rel="canonical" href="' + target + '"' not in body and "rel='canonical' href='" + target + "'" not in body:
+              raise SystemExit("Guide returned HTTP 200 but the expected self-canonical was not found.")
+          print("Guide canonical check passed.")
+
+          sitemap_status, _, sitemap_body = fetch(sitemap)
+          if sitemap_status != 200 or target not in sitemap_body:
+              raise SystemExit(f"Sitemap check failed (HTTP {sitemap_status}) or the guide URL is missing.")
+          print("Sitemap check passed: affected guide URL is listed.")
+
+          www_status, www_final, _ = fetch(www)
+          print(f"www check: HTTP {www_status}; final URL: {www_final}")
+          if www_status != 200 or not www_final.startswith("https://beincasinos.online/"):
+              raise SystemExit("www did not resolve through to the canonical apex domain.")
+          print("All production smoke checks passed.")
+          PY
