@@ -189,3 +189,22 @@ A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-1
 - Germany batch 02 added: `docs/reviews/internal/de-batch-02-10-ggl-official-whitelist-research-leads-2026-10-22.md`. It records 10 official-list research leads with operator/category/geographic-scope notes. Shared operators and cross-market overlaps mean this is not 10 unique global brands.
 - Source used: official GGL whitelist marked updated 02 October 2026. Keep each lead on HOLD pending fresh domain, terms, product-scope and independent editorial verification.
 - Approved public reviews remain **0** under the programme approval gate.
+
+
+## Sweden source-checkpoint batch — 22 October 2026
+
+The following dated internal checkpoints were added after consulting the Swedish Gambling Authority's domain-specific register and, where noted, operator or regulator pages:
+
+| Candidate | Checkpoint | Initial result | Status |
+|---|---|---|---|
+| QuickCasino | `docs/reviews/internal/quickcasino-se-primary-source-checkpoint-2026-10-22.md` | Regulator domain entry found | HOLD |
+| HappyCasino | `docs/reviews/internal/happycasino-se-primary-source-checkpoint-2026-10-22.md` | Regulator domain entry found | HOLD |
+| Betsson Casino | `docs/reviews/internal/betsson-se-primary-source-checkpoint-2026-10-22.md` | Domain entry lists Betsson Nordic Ltd and Spin Nordic Ltd; transition needs reconciliation | HOLD |
+| Betinia | `docs/reviews/internal/betinia-se-primary-source-checkpoint-2026-10-22.md` | Domain entry and operator terms checkpoint | HOLD |
+| Svenska Spel Casino | `docs/reviews/internal/svenska-spel-se-primary-source-checkpoint-2026-10-22.md` | Domain/licensee entry found | HOLD |
+| ATG Casino | `docs/reviews/internal/atg-se-product-scope-checkpoint-2026-10-22.md` | Product-scope lead; exact regulator domain match still required | HOLD |
+| ComeOn Casino | `docs/reviews/internal/comeon-se-primary-source-checkpoint-2026-10-22.md` | Domain/licensee entry found; enforcement history needs context | HOLD |
+| Hajper | `docs/reviews/internal/hajper-se-primary-source-checkpoint-2026-10-22.md` | Domain/licensee entry found; regulator notice includes an ongoing betting-rules review | HOLD |
+| 888casino | `docs/reviews/internal/888casino-se-primary-source-checkpoint-2026-10-22.md` | Domain/licensee entry found; global deduplication required | HOLD |
+
+These are preliminary primary-source checkpoints, not completed consumer reviews. They do not satisfy all requirements for terms capture, enforcement analysis, reproducible UX/support tests, second-editor verification, or editorial/legal approval. No entry above should be counted as an approved review. Programme-wide approved public reviews remain **0/100** until the full evidence gate is passed. Keep all files internal and excluded from the public build and sitemap.
