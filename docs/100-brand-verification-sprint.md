@@ -197,3 +197,7 @@ Added [the BetMGM UK operator/licence evidence note](reviews/internal/gb-brand-e
 ## UKGC evidence batch — 10bet and PlayOJO — 22 October 2026
 
 Added [the 10bet and PlayOJO evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-10bet-playojo.md). 10bet has an active Blue Star Planet Limited Casino Remote record plus a declared www.10bet.co.uk domain; the .ie domain is explicitly not assumed to be covered by UK permission. PlayOJO has an active Skill On Net Limited Casino Remote record, but exact current domain mapping remains a pre-publication check. Both remain **HOLD** until the full editorial checklist passes.
+
+## UKGC status and enforcement batch — LeoVegas, Mr Green and Casumo — 22 October 2026
+
+Added [the LeoVegas, Mr Green and Casumo primary-source evidence log](reviews/internal/gb-brand-evidence-batch-2026-10-22-leovegas-mrgreen-casumo.md). LeoVegas has an active UKGC Casino Remote record and an active `leovegas.co.uk` domain entry, but its 2022 £1.32m enforcement package is material context. The cited Mr Green Limited UK Casino Remote licence was surrendered in October 2024, so it must not be described as current GB authority. Casumo Services Limited's record was surrendered in November 2023; the UKGC source points to Recro Limited as the website operator, requiring fresh current entity/domain verification. Statuses remain **HOLD / NOT APPROVED** as detailed in the evidence file; no publication approval inferred.
