@@ -221,3 +221,7 @@ Added [the Sky Vegas deep-check evidence note](reviews/internal/gb-brand-evidenc
 ## 888casino — regulatory-history correction — 22 October 2026
 
 Added [the 888casino UKGC enforcement evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-888casino-regulatory-update.md). In addition to an active Casino Remote licence and active `888casino.com` domain entry, UKGC records show financial penalties dated 19 August 2024 (£23,000), 7 August 2025 (£33,075), and 18 November 2025 (£86,843). These must be attributed precisely and included in a balanced review; the current consumer terms, payment/withdrawal and safer-gambling checks remain open. Status **HOLD**.
+
+## Candidate registry population — UKGC evidence rows — 22 October 2026
+
+Updated the 100-row candidate CSV with source-backed UKGC fields, checked date, entity/domain caveats, and **HOLD** decisions for 888casino, Betway Casino, bet365 Casino, William Hill Casino, Betfred Casino, Paddy Power Games, Ladbrokes Casino and Coral Casino. The CSV now distinguishes evidence captured from publication approval and records regulatory-history/domain-matching work still outstanding. These remain candidate records, not eight approved reviews.
