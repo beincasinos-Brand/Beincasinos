@@ -248,7 +248,7 @@ Added `docs/reviews/internal/review-quality-gates-2026-10-22.md` to standardise 
 
 ## Current registry snapshot
 
-The latest CSV structural check found 100 candidate rows plus the header, 31 columns, and no rows with mismatched field counts. At the time of this check, 23 rows were labelled `evidence captured` and also `HOLD`; the remaining candidates are still research prospects. This is a registry integrity check only, not a claim that 23 complete consumer reviews exist.
+The latest CSV structural check (2026-10-22) found 100 candidate rows plus the header, 31 columns, and no rows with mismatched field counts. 26 rows are labelled `evidence captured` and also `HOLD`; 74 remain research prospects. This is a registry integrity check only, not a claim that 26 complete consumer reviews exist.
 
 ## Jurisdiction-specific evidence batch — Betsson, NordicBet and Rizk — 22 October 2026
 
