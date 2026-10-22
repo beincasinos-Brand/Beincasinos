@@ -118,6 +118,20 @@ Sources: https://developers.google.com/search/docs/essentials/spam-policies and 
 4. Finish a market-specific legality and affiliate-eligibility review before adding monetization links.
 5. Measure actual Search Console data before setting growth forecasts.
 
+
+## Recent industry signal: SEO alone is a fragile business model
+
+A Q2 2026 industry report published by AffPapa and updated 7 October 2026 describes major affiliates diversifying into data products, paid media, sponsorships, CRM/loyalty and direct audience monetization as organic search becomes less predictable. Catena Media's public business-model page likewise describes CPA as its most important revenue source, revenue share as 9% of 2025 revenue, and additional fixed-fee/hybrid/subscription arrangements; its page emphasizes broadening beyond traditional affiliate revenue. These sources support a risk-management lesson, not a promise that BeInCasinos should immediately build expensive extra products.
+
+**Practical adaptation for BeInCasinos, with no upfront paid tools:**
+1. First make the core site reliable and evidence-led.
+2. Build a useful owned audience only with consent and a genuine reason to return (e.g., updates to regulator/licence guides or corrections); no unsolicited gambling promotions.
+3. Treat social/video/community as later experiments only after compliance review, and do not pay for traffic until the site has measurable conversion data and market legality is checked.
+4. Consider free, non-gambling utility content (regulator lookup explainers, complaint preparation checklist, terms glossary) as repeat-use value, not just affiliate landing pages.
+5. Do not pursue prediction-market products, user accounts, payment handling, or data-heavy features without a separate legal, privacy and security assessment.
+
+Sources: https://www.catenamedia.com/about-us/business-model/ and https://affpapa.com/q2-2026-igaming-affiliate-report-a-market-moving-beyond-seo/
+
 ## Source list
 - Casino.org About: https://www.casino.org/about/
 - AskGamblers Editorial Guidelines: https://www.askgamblers.com/editorial-guidelines
