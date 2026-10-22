@@ -221,3 +221,11 @@ Three more internal checkpoints were added from the Swedish Gambling Authority's
 | Unibet Sweden | `docs/reviews/internal/unibet-se-primary-source-checkpoint-2026-10-22.md` | `unibet.se` listed under Kaprifol Services Limited; entries shown through 22 Oct 2030 | HOLD |
 
 These are domain/licence checkpoints only. They do not satisfy current terms capture, full enforcement review, actual reproducible UX/support tests, independent second review, or editorial/legal approval. LeoVegas and Unibet are cross-market identities and must not be counted as additional unique global brands. Approved public reviews remain **0/100** until all required gates are met. All checkpoint documents remain internal and excluded from the public build/sitemap.
+
+
+### Sweden enforcement-risk checkpoint — 22 October 2026
+
+- Added `docs/reviews/internal/snabbare-se-enforcement-and-licence-status-checkpoint-2026-10-22.md`.
+- Official Swedish Gambling Authority sources document a 2025 AML warning and SEK 5.5 million sanction, a separate 2025 information-duty matter closed without further action, and an older 2021 bonus-offer sanction. These events are distinct and must be accurately dated/contextualized.
+- The checkpoint does **not** verify current licence status after the licence period stated in the 2025 decision. Keep Snabbare on HOLD until a current domain-specific register entry and all consumer-evidence requirements are verified.
+- This is a risk/evidence checkpoint, not a completed review and not a new unique brand count. Approved public reviews remain **0/100**.
