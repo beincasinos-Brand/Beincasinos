@@ -1,3 +1,10 @@
+## Search Console status — 22 October 2026
+
+- Read-only connector confirms the `https://beincasinos.online/` Search Console property is connected.
+- Sitemap last submitted 21 October 2026 at 21:39 UTC; connector reports 32 submitted URLs and 0 errors/warnings. The live sitemap now contains 43 URLs, so resubmission is still needed.
+- Search Analytics returned no rows for the last 12 months; do not equate this with a verified zero-impression result. The connector's sitemap `indexed` field is deprecated and must not be used as an index count.
+- No URL Inspection or Pages exclusion verdicts have been verified. The connector is read-only; no sitemap submission was made.
+
 ## Latest production verification — 22 October 2026
 
 - Merged PR #10 adding the evidence-led gambling-licence guide; integrated static-site CI passed and Cloudflare Pages deployed the merged release.

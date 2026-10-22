@@ -8,7 +8,7 @@
 - The licence-guide integrated source/build/browser workflow passed on commit `e2a9e628908a4454dc73543113a32d5060175140`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39745520599.
 - Latest read-only Cloudflare diagnostic reported a valid API token, readable zone, Pages project `beincasinos`, production branch `main`, and active production deployments: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39697317005
 - Live fetch verification found `https://www.beincasinos.online/` resolves to `https://beincasinos.online/`. This confirms the observed redirect path, not Google indexing.
-- No current Search Console URL Inspection result, indexing status, or successful current sitemap submission is established by these checks.
+- Read-only Search Console connector check on 22 October 2026: `https://beincasinos.online/` property is connected. The submitted sitemap record reports 32 submitted URLs, 0 errors, 0 warnings, last submitted `2026-10-21T21:39:13Z`, and last downloaded `2026-10-21T21:39:14Z`. Production sitemap now contains 43 URLs, so the sitemap should be resubmitted in Search Console and its status rechecked. The connector's `indexed` field is marked deprecated and returned 0; do not treat that field as a reliable current index count. Search Analytics queries returned no rows for the last 12 months, which does not by itself establish a true zero-impressions verdict; inspect the property directly in Search Console.
 
 ## Owner/browser steps — Search Console
 
@@ -53,3 +53,12 @@ Never infer indexing, ranking, impressions, or traffic from a passing build, a l
 - Verified `https://beincasinos.online/guides/what-a-gambling-licence-means/` is live and returns the expected page metadata with a self-canonical URL.
 - Verified `https://beincasinos.online/sitemap.xml` is live and reports 43 URLs, including the new guide.
 - Verified `https://www.beincasinos.online/` resolves to the apex host in a live fetch. This does not prove Google has indexed the site or any specific URL.
+
+## Search Console connector readout — 22 October 2026
+
+- The read-only connector can access the `https://beincasinos.online/` Search Console property.
+- Sitemap record: `https://beincasinos.online/sitemap.xml`; 32 submitted URLs; 0 errors; 0 warnings; last submitted 21 October 2026 at 21:39:13 UTC; last downloaded 21:39:14 UTC.
+- The live sitemap was verified to contain 43 URLs after the most recent guide additions. The 32-URL submission record is stale relative to the current sitemap. Submit `sitemap.xml` again in Search Console and verify the updated submitted count/status. The connected connector is read-only and exposes no sitemap-submission action, so this step has not been performed automatically.
+- The connector exposes an `indexed` sitemap field marked deprecated and returned 0; do not report this as a reliable current indexed-page count.
+- Search Analytics requests for daily clicks, impressions, CTR and position returned no rows for the last 12 months. This is an empty connector result, not proof of exactly zero impressions; validate directly in Search Console, including the property, date range, and search type.
+- URL Inspection verdicts, Google's selected canonicals, and Pages indexing/exclusion reasons remain unverified.
