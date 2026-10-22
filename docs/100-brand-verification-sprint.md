@@ -151,3 +151,10 @@ A brand only counts toward the 100 verified target when all required fields are 
 - Updated [Ladbrokes Casino GB internal evidence pack](reviews/internal/ladbrokes-casino-gb-evidence-2026-10-22.md) with accessible first-party terms-entry, LadBucks promotion, support/contact and current UKGC remote-casino licence-scope sources.
 - The first-party sources improve the research trail but do not resolve the two-licensee/domain ambiguity recorded in the pack. Current full casino terms, exact customer-facing contracting entity, payments, privacy, ADR, regulator action attribution and independent editorial sign-off remain open.
 - Decision remains **HOLD**; this adds research evidence, not an approved brand or publishable review. Approved public reviews remain **0/100**. No Actions workflow or production deployment was triggered.
+
+
+## Release-artifact crawl-policy guard — 22 October 2026
+
+- Updated `scripts/check_deploy_artifact.py` to fail the release-artifact check if the generated `robots.txt` is missing the wildcard user-agent group, explicit `Allow: /` rule, or canonical sitemap directive, or if a site-wide `Disallow: /` conflicts with the intended current crawl policy.
+- This corrects a stale comment that described a site-wide crawl block as intentional even though the repository's current `robots.txt` allows crawling. The guard checks generated output; it does not establish Google indexing, a production deployment, or launch approval.
+- No Actions workflow was triggered for this code change, so the updated validator still requires one final combined CI run before release. Preserve remaining Actions minutes; do not deploy on this change alone.
