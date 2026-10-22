@@ -172,7 +172,7 @@ A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-1
 
 
 ## Research batch log — 22 October 2026
-- Germany intake added: `docs/reviews/internal/de-batch-01-10-ggl-whitelist-research-leads-2026-10-22.md` (10 domain-level research leads from the GGL whitelist).
+- Germany intake corrected: `docs/reviews/internal/de-batch-01-10-ggl-whitelist-research-leads-2026-10-22.md` now contains 8 supported domain-level leads after removing six domains not sufficiently supported by the official GGL page reviewed.
 - These ten leads are **not ten newly verified unique global brands**. Some may already appear elsewhere in the candidate queue or other market batches; deduplicate globally before programme totals are reported.
 - Germany scope is category-sensitive: GGL virtual-slot authorization is not proof of permission for every online-casino product. The batch remains internal HOLD pending exact domain/operator, game-category, terms and independent fact-check verification.
 - Programme-wide approved public reviews remain **0** based on the current internal approval gate. Candidate counts, regulator-listed domains and draft narratives must not be presented as approved reviews.
@@ -182,3 +182,5 @@ A first narrative-draft batch now exists at `docs/reviews/internal/gb-batch-01-1
 - These are market/platform research leads, not ten newly verified unique global brands and not approved reviews. Deduplicate operator/brand identities globally and validate each current domain and relevant game approvals before scoring.
 - The official ESBK source says individual games require approval; the presence of a platform on the online-casino list does not support untested quality or payout claims.
 - Programme-wide approved public reviews remain **0** under the current approval gate.
+
+- Germany batch correction committed: six unsupported domain leads removed; current file records 8 leads with distinct category/geographic-scope notes. Keep all eight on HOLD until current terms and product availability are checked.
