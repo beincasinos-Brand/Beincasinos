@@ -213,3 +213,7 @@ Added [the Skill On Net multi-brand domain evidence log](reviews/internal/gb-bra
 ## UKGC licence evidence — Videoslots — 22 October 2026
 
 Added [the Videoslots evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-videoslots.md). UKGC account 39380 lists an active Casino Remote permission. The current UK domain-to-operator match, customer terms, payment/withdrawal rules, safer-gambling evidence and regulatory-history check remain outstanding. Videoslots remains **HOLD**; the licence record alone does not support a quality score or recommendation.
+
+## Deeper first-party terms review — Sky Vegas — 22 October 2026
+
+Added [the Sky Vegas deep-check evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-sky-vegas-deep-check.md). It records the operator's casino-vs-sportsbook distinction, active UKGC Casino Remote and domain records, the additional Bonne Terre Limited domain association, and key clauses on verification before withdrawals, conditional withdrawal delays, maximum winnings and safer-gambling tools. These are terms disclosures, not hands-on performance findings. Payment specifics, bonus terms, complaint/ADR, privacy, current safer-gambling page checks and second-editor sign-off remain open; status stays **HOLD**.
