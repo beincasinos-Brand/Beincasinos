@@ -18,6 +18,9 @@
 
 - [Batch 16](gb-brand-research-batch-16-2026-10-22.md) records Betfair Casino Limited (UKGC account 39435), its active Casino Remote entry and www.betfair.com domain, plus the Commission's 17 December 2025 combined enforcement settlement affecting four Paddy Power Betfair licensees. The £2m total must not be attributed solely to Betfair Casino Limited. This remains an internal evidence lead, not a completed review; approved brands remain **0/100**.
 
+
+- [Batch 17](gb-brand-research-batch-17-2026-10-22.md) records the official William Hill domain/operator mapping: www.williamhill.com is associated in the UKGC search with WHG (International) Limited (account 39225), while William Hill's own terms describe a separate William Hill Global PLC operator for many non-GB markets. Do not infer Moroccan eligibility from the GB record. This is an identity lead only; the sprint remains **0/100 approved brands** and **0 publication-ready reviews**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
