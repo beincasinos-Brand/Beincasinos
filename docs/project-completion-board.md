@@ -1,3 +1,13 @@
+## Verified withdrawal-content release checkpoint — 22 October 2026
+
+- Added `/guides/documenting-withdrawal-delay/` with a practical evidence timeline, safe handling of personal data, factual support-message template, official complaint escalation steps, and recovery-scam warnings.
+- Confirmed the public page resolves with the expected title and description: https://beincasinos.online/guides/documenting-withdrawal-delay/
+- Confirmed the public guide index links to the new page and the public sitemap lists 42 URLs, including this guide and the recent withdrawal/bonus/payment-ownership guides: https://beincasinos.online/guides/ and https://beincasinos.online/sitemap.xml
+- Latest static checks passed on commit `08e984464e0d8081ca4ae8c6f26e1b31cba7716f`, including Chromium browser smoke tests and the sanitized public artifact step: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39697317267
+- Latest read-only Cloudflare diagnostics passed on the same commit: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39697317005
+- Public HTTP availability, sitemap presence, and CI success do not establish Google indexing, search ranking, impressions, or Search Console access. Continue to hold operator reviews unless entity/domain/product/jurisdiction and current primary evidence are verified.
+- No DNS or nameserver changes were made.
+
 ## Latest content and live-route verification — 21 October 2026, 23:58 UTC
 
 - Added `/guides/withdrawal-processing-times/`, an educational guide separating operator review, identity checks, payment dispatch, and bank/wallet settlement. It includes a document checklist, safer handling of sensitive information, and escalation guidance without unsupported operator-specific timing claims.
