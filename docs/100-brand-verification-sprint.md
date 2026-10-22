@@ -36,6 +36,9 @@
 
 - [Batch 22](gb-brand-research-batch-22-2026-10-22.md) adds the UKGC LeoVegas Gaming PLC licence/domain portfolio lead, with inactive domains clearly separated from active ones and shared-licensee brands flagged for deduplication. [Batch 23](gb-brand-research-batch-23-2026-10-22.md) opens a Virgin Games domain/operator check; its exact current official status must be re-captured before approval. Both are research leads only; **0/100 brands approved and 0 publication-ready reviews**.
 
+
+- Added [SEO architecture and page-value plan](seo-architecture-and-page-value-plan-2026-10-22.md): search-intent clusters, indexation/canonical policy, review evidence requirements, structured-data guardrails, internal linking and release/measurement checks. This is a committed implementation guide, not a claim that production has already been changed or indexed.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
