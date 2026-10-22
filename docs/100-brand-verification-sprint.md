@@ -39,6 +39,9 @@
 
 - Added [SEO architecture and page-value plan](seo-architecture-and-page-value-plan-2026-10-22.md): search-intent clusters, indexation/canonical policy, review evidence requirements, structured-data guardrails, internal linking and release/measurement checks. This is a committed implementation guide, not a claim that production has already been changed or indexed.
 
+
+- [Batch 24](gb-brand-research-batch-24-2026-10-22.md) records LeoVegas Gaming PLC's active Casino Remote permission and separates active domains from inactive .com/bingo entries. [Batch 23](gb-brand-research-batch-23-2026-10-22.md) was corrected against the official UKGC domain page: **virgingames.com is White Label**, not an Active direct domain. These remain evidence leads only; **0/100 approved brands, 0 publication-ready reviews**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
