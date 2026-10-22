@@ -26,14 +26,16 @@ Source:
 
 ### Payments — operator-stated, not independently tested
 
-The current Betsson terms page includes a method-specific withdrawal table. The indexed page lists, among other methods, bank transfer with a stated range of 0–9 working days and e-wallet entries such as Skrill and Neteller at 72 hours. It also notes that security checks can lengthen processing and that withdrawals require completed registration and identity documentation. Capture the full current table, including any method-specific minimum/maximum, request caps, fees and timestamps, directly from the live page before making public comparisons. These are operator statements, not observed test results.
+The current Betsson terms page includes a method-specific withdrawal table. The indexed page lists bank-card withdrawals at 4–9 working days, PayPal processing at 72 hours with immediate stated credit, bank transfer at 0–9 working days, and Skrill/NETeller processing at 72 hours with immediate stated credit. It also says requests are processed within seven days, requires a completed account/identity verification, sets a €10 minimum withdrawal for most cases, and warns that security checks can extend timings. These figures are operator statements, not observed test results; the page needs a fresh direct capture before any public use.
+
+**Material freshness warning:** the same indexed terms page includes a responsible-gambling transition note referring to 13 May 2026 and 1 February 2026 as future effective dates. Both dates have passed as of this review date (22 October 2026). This is an internal inconsistency / stale-copy signal. Do not publish the payment table or responsible-gambling timeline as definitive until the live page is checked, the applicable current rules are confirmed, and the operator's published wording is reconciled. Record page capture time and relevant section headings.
 
 Source:
 - Current terms and payment table: https://www.betsson.it/supporto/termini-e-condizioni
 
 ### Responsible gambling
 
-The terms page includes a “Gioco legale e responsabile” section referencing the operator's “Gioca Corretto” programme. Extract and verify the exact current controls for deposit/spending limits, time-outs, self-exclusion, national exclusion and help resources before drafting public claims.
+The terms page includes a “Gioco legale e responsabile” section referencing the operator's “Gioca Corretto” programme. It states that initial daily connection, spending and deposit limits are applied at account activation; tighter initial limits apply to customers aged 18–24; users can configure daily, weekly, monthly and annual deposit/spending/loss/time limits; reductions apply immediately while increases take seven days; and national self-exclusion is integrated with ADM's RUA. Because the page also contains past dates described as future implementation dates, these controls must be checked against the actual current account experience and applicable ADM rules before public claims are made.
 
 Source:
 - Current terms and responsible-gambling section: https://www.betsson.it/supporto/termini-e-condizioni
