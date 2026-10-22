@@ -92,7 +92,9 @@ jobs:
                   print("Only the affected guide URL was requested for purge.")
                   print("Purge request id: " + purge_id)
                   break
-              failures.append(f"{name}: targeted purge rejected (HTTP {purge_status}; check Zone:Cache Purge permission)")
+              detail = (result or {}).get("errors") or []
+              summary = "; ".join(f"Cloudflare {item.get('code', 'unknown')}: {str(item.get('message', 'no message'))[:160]}" for item in detail[:3])
+              failures.append(f"{name}: targeted purge rejected (HTTP {purge_status}" + (f"; {summary}" if summary else "; no API error details returned") + ")")
           else:
               print("No available token could purge the single target URL.")
               for failure in failures:
