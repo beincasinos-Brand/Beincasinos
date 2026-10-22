@@ -173,3 +173,7 @@ All seven remain **HOLD** until exact official domains, contracting entities, re
 - Expanded the internal [V.Partners brand research register](v-partners-brand-expansion.md) with individual network profile URLs for Slotoro, FieryPlay, Hit’n’Spin, Verde Casino, ICE Casino, FS Casino and V.Vegas.
 - The network's own pages include market-restriction lists; several explicitly list Great Britain as restricted. These are first-party screening signals, not regulator approvals. The team must compare each brand's live terms, final consumer domain, legal operator and target-market permissions before deciding whether a market-specific review is appropriate.
 - All seven remain **HOLD**. The seven entries are research leads only and do not increase the approved-review count. No workflow or production deployment was triggered.
+
+## UKGC four-brand identity batch — 22 October 2026
+
+Added [internal evidence for Betway, bet365, William Hill and Betfred](reviews/internal/gb-four-brand-register-evidence-2026-10-22.md), based on the UK Gambling Commission's current licence summaries and domain-search results. The batch records active Casino Remote permission for the cited licensees and notes material multi-entity attribution cautions for bet365, William Hill and Betfred. This advances identity/domain research only: all four remain HOLD until player-facing terms, payments, complaints/ADR, safer-gambling, regulatory-action attribution and second-editor checks are complete. No workflow or production deployment was triggered.
