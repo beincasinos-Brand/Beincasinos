@@ -17,6 +17,7 @@
 | Betfred | BETFRED TECHNOLOGY LIMITED, account 49528: active remote Gambling Software and Game Host (Casino) licences in the fetched summary. | Domain-register fetch did not return domain rows. The fetched record does **not** show a remote casino operating licence for this entity. | **Do not count yet.** Identify the actual operating licensee and exact active GB domain; software/game-host permissions alone do not establish that this entity is the consumer-facing casino operator. |
 | Mr Green UK Casino | Blue Rock Managed Services Limited, UKGC account 67740, holds active Remote Casino licence 067740-R-341312-003 from 2 October 2025. The older Mr Green Limited account 39264 has its Remote Casino licence surrendered effective 28 October 2024. | UKGC domain-register search result lists `www.mrgreen.co.uk` as **White Label**; direct register-table extraction returned a cookie wall, so archive the live table before final approval. | **Candidate screen supported; full review HOLD.** Count one brand candidate only after the current domain row is archived. |
 | Ladbrokes Casino (follow-up, 22 Oct 2026) | Ladbrokes Betting & Gaming Limited, account 1611: active Remote Casino licence **001611-R-319348-018** from 1 November 2014. LC International Limited, account 54743, separately has active Remote Casino licence **054743-R-330863-015**. | LC International Limited's domain register lists **ladbrokes.com — Active**. The account 1611 domain table did not extract; Ladbrokes first-party homepage and attempted terms/privacy/safer-gambling URLs returned HTTP 403 in the research environment. | **HOLD.** Two active licensees are associated with the Ladbrokes trading name; establish the actual GB casino operator/domain mapping and current terms before review. Do not count the same brand twice. |
+| Virgin Games | Gamesys Operations Limited, UKGC account 38905: active Remote Casino licence **038905-R-319430-023** from 1 November 2014. | Official UKGC domain register lists `virgingames.com` as **White Label** under account 38905. | **Candidate; HOLD.** UKGC action dated 22 Nov 2023 records a £6,071,292 penalty, warning and added licence condition for AML/customer-interaction failures in Nov 2021–Jul 2022. Full current offer, payments, privacy, complaints and safer-gambling checks remain open. Do not attribute the group-licensee penalty as Virgin Games-only. |
 
 ## Enforcement checkpoints that must be discussed accurately
 
@@ -60,3 +61,11 @@
 6. Obtain independent second-editor and legal/editorial sign-off before any brand can move from HOLD to approved.
 
 **Release rule:** no candidate in this checkpoint is an approved review, no score/ranking is assigned, and no public brand page is created by this document. The evidence packs and checkpoint are internal research only; approved reviews remain **0/100**.
+
+
+## Virgin Games evidence pack
+
+- Internal pack: `docs/reviews/internal/virgin-games-casino-gb-evidence-2026-10-22.md`.
+- Official licence/domain records: https://www.gamblingcommission.gov.uk/public-register/business/detail/38905 and https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905.
+- Official enforcement record: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/38905.
+- Candidate remains HOLD; current offer and consumer terms have not been fully verified, and no review is approved.
