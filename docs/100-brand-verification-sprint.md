@@ -177,3 +177,7 @@ All seven remain **HOLD** until exact official domains, contracting entities, re
 ## UKGC four-brand identity batch — 22 October 2026
 
 Added [internal evidence for Betway, bet365, William Hill and Betfred](reviews/internal/gb-four-brand-register-evidence-2026-10-22.md), based on the UK Gambling Commission's current licence summaries and domain-search results. The batch records active Casino Remote permission for the cited licensees and notes material multi-entity attribution cautions for bet365, William Hill and Betfred. This advances identity/domain research only: all four remain HOLD until player-facing terms, payments, complaints/ADR, safer-gambling, regulatory-action attribution and second-editor checks are complete. No workflow or production deployment was triggered.
+
+## UKGC multi-entity evidence batch — 22 October 2026
+
+Added [internal evidence for Paddy Power, Ladbrokes and Coral](reviews/internal/gb-paddy-ladbrokes-coral-evidence-2026-10-22.md). The note captures UKGC domain/trading-name collisions and the 17 December 2025 Paddy Power/Betfair multi-licensee social-responsibility settlement with explicit attribution limits. All three remain **HOLD** until exact current casino terms/operator/domain matches, payments, complaints/ADR, safer-gambling and second-editor checks are complete. No workflow or production deployment was triggered.
