@@ -424,3 +424,20 @@
 - Registry now has 16 research leads (10 Swiss regulator-listing leads and 6 UK leads); these are not 16 approved reviews. All entries remain publication-hold until exact legal operator/domain mapping, current product-specific licence scope, terms, safer-gambling controls and regulatory history are reviewed. The 32Red Limited Casino Remote licence is recorded as surrendered and is not treated as an eligible active UK licence.
 - Search Console submission/indexing and Google impressions/clicks are not confirmed by CI or the Cloudflare API. Do not claim indexed URLs or traffic without Search Console evidence. Google states sitemap submission and recrawl requests do not guarantee indexing.
 - Open owner/legal gates remain: name clearance, jurisdiction-specific legal/privacy review, contact/mailbox verification, manual live-host acceptance, and Search Console account-side inspection/submission. No DNS or nameserver change was made by this checkpoint.
+
+
+## Brand research progress — 22 October 2026
+
+- Built a Swiss regulator-backed inventory of 10 online casino platforms listed by the Swiss Federal Gaming Board. Internal research drafts now exist for the full set: jackpots.ch, mycasino.ch, online.swisscasinos.ch, casino777.ch, starvegas.ch, 7melons.ch, pasino.ch, swiss4win.ch, admiral.ch, and casineo.ch. The master register is `docs/brand-verification-register-switzerland-batch-1.md`.
+- Built a Great Britain first-stage inventory of 10 brands with UK Gambling Commission records showing active remote casino licences: 888casino, Sky Vegas, Ladbrokes, Coral, LeoVegas, Grosvenor online casino, Betway, Unibet, Betfred, and Paddy Power. Internal research drafts are in the review PR and will remain on HOLD until CI and further checks pass. Master register: `docs/brand-verification-register-great-britain-batch-1.md`.
+- Licence-status due diligence caught an exclusion: Mr Green Limited's UKGC record shows its Casino Remote licence surrendered on 28 October 2024, so it is not counted as an active Great Britain candidate without fresh regulator evidence.
+- Counting discipline: 20 first-stage jurisdiction/licence candidates identified across two distinct markets; **0 fully publication-approved brand reviews** so far. These counts are deliberately separate. A licence listing is not a complete operator review, a game-permit check, a payout test, or permission to target another country.
+- Relevant internal work: PR #19 merged (MyCasino.ch draft); PR #21 merged (eight additional Swiss drafts); PR #22 merged (Swiss candidate register); PR #23 merged (Great Britain candidate register). PR #20 Search Console audit and PR #24 Great Britain drafts are still in CI/review as of this update.
+- No production deployment, DNS/nameserver change, billing change, or Search Console write action was made. Do not deploy until the owner-requested 100-brand verification target and all launch gates are met; the final deployment should be a single controlled release after acceptance checks.
+
+### Next brand-verification gates
+1. Finish current CI/review and merge only after successful checks.
+2. For each brand, verify the exact consumer domain and legal entity against current site terms and regulator records, including product/jurisdiction scope.
+3. Review payments, withdrawal rules, current bonus terms (if mentioned), complaints/escalation, privacy/contact, safer-gambling resources, game-permit scope, and regulator enforcement history.
+4. Capture dated primary-source evidence, resolve discrepancies, and require second-editor sign-off before counting a brand as fully verified.
+5. Repeat with additional regulated jurisdictions until 100 profiles pass the complete verification gate. Keep candidates that lack evidence on HOLD rather than inflating the total.
