@@ -4,11 +4,11 @@
 
 - Canonical host intended by source files: `https://beincasinos.online/`.
 - `robots.txt` allows all user agents and advertises `https://beincasinos.online/sitemap.xml`.
-- The source-controlled and live production sitemap now list 43 canonical URL entries, including `/guides/what-a-gambling-licence-means/`. This is a submitted/discovery inventory, not evidence that Google indexed any URL.
+- The source-controlled and live production sitemap now list 44 canonical URL entries, including `/guides/alternative-dispute-resolution-gambling/` and `/guides/what-a-gambling-licence-means/`. This is a submitted/discovery inventory, not evidence that Google indexed any URL.
 - The licence-guide integrated source/build/browser workflow passed on commit `e2a9e628908a4454dc73543113a32d5060175140`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39745520599.
 - Latest read-only Cloudflare diagnostic reported a valid API token, readable zone, Pages project `beincasinos`, production branch `main`, and active production deployments: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39697317005
 - Live fetch verification found `https://www.beincasinos.online/` resolves to `https://beincasinos.online/`. This confirms the observed redirect path, not Google indexing.
-- Read-only Search Console connector check on 22 October 2026: `https://beincasinos.online/` property is connected. The submitted sitemap record reports 32 submitted URLs, 0 errors, 0 warnings, last submitted `2026-10-21T21:39:13Z`, and last downloaded `2026-10-21T21:39:14Z`. Production sitemap now contains 43 URLs, so the sitemap should be resubmitted in Search Console and its status rechecked. The connector's `indexed` field is marked deprecated and returned 0; do not treat that field as a reliable current index count. Search Analytics queries returned no rows for the last 12 months, which does not by itself establish a true zero-impressions verdict; inspect the property directly in Search Console.
+- Read-only Search Console connector check on 22 October 2026: `https://beincasinos.online/` property is connected. The submitted sitemap record reports 32 submitted URLs, 0 errors, 0 warnings, last submitted `2026-10-21T21:39:13Z`, and last downloaded `2026-10-21T21:39:14Z`. Production sitemap now contains 44 URLs, so the sitemap should be resubmitted in Search Console and its status rechecked. The connector's `indexed` field is marked deprecated and returned 0; do not treat that field as a reliable current index count. Search Analytics queries returned no rows for the last 12 months, which does not by itself establish a true zero-impressions verdict; inspect the property directly in Search Console.
 
 ## Owner/browser steps — Search Console
 
@@ -58,7 +58,16 @@ Never infer indexing, ranking, impressions, or traffic from a passing build, a l
 
 - The read-only connector can access the `https://beincasinos.online/` Search Console property.
 - Sitemap record: `https://beincasinos.online/sitemap.xml`; 32 submitted URLs; 0 errors; 0 warnings; last submitted 21 October 2026 at 21:39:13 UTC; last downloaded 21:39:14 UTC.
-- The live sitemap was verified to contain 43 URLs after the most recent guide additions. The 32-URL submission record is stale relative to the current sitemap. Submit `sitemap.xml` again in Search Console and verify the updated submitted count/status. The connected connector is read-only and exposes no sitemap-submission action, so this step has not been performed automatically.
+- The live sitemap was verified to contain 44 URLs after the ADR guide release. The 32-URL submission record is stale relative to the current sitemap. Submit `sitemap.xml` again in Search Console and verify the updated submitted count/status. The connected connector is read-only and exposes no sitemap-submission action, so this step has not been performed automatically.
 - The connector exposes an `indexed` sitemap field marked deprecated and returned 0; do not report this as a reliable current indexed-page count.
 - Search Analytics requests for daily clicks, impressions, CTR and position returned no rows for the last 12 months. This is an empty connector result, not proof of exactly zero impressions; validate directly in Search Console, including the property, date range, and search type.
 - URL Inspection verdicts, Google's selected canonicals, and Pages indexing/exclusion reasons remain unverified.
+
+
+## ADR guide production verification — 22 October 2026
+
+- PR #12 was merged as commit `64e4b83a592884da5457082c2d9f25c5319362af`; integrated Static site checks passed, including Chromium browser smoke tests: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/39747923664.
+- Production guide library links to `/guides/alternative-dispute-resolution-gambling/` and live `sitemap.xml` lists 44 canonical URLs including this guide.
+- The clean canonical route intermittently returned a cached 404 to the external fetch checker, while a cache-busted request and `index.html` route loaded the guide with the expected title, metadata and self-canonical. Treat this as a cache/edge consistency issue to clear and recheck, not as proof of stable clean-route availability. Do not claim route QA fully passed until the clean URL consistently returns the guide.
+- Search Console connector still reports the older sitemap submission as 32 URLs (last submitted 21 October 2026 21:39 UTC), with 0 errors/warnings. Resubmit the current 44-URL sitemap in the Search Console UI; connector is read-only and no submission was made.
+- Search Analytics returned no rows for the last 12 months; this does not prove exactly zero impressions. URL Inspection, selected canonical, and Pages exclusion reasons remain unverified.
