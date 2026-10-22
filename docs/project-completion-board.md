@@ -1,3 +1,10 @@
+## Latest production verification — 22 October 2026
+
+- Merged PR #10 adding the evidence-led gambling-licence guide; integrated static-site CI passed and Cloudflare Pages deployed the merged release.
+- Live production fetch confirms `/guides/what-a-gambling-licence-means/` loads with a self-canonical URL and `sitemap.xml` lists 43 URLs including the guide. The `www` host resolves to the apex host.
+- Google Search Console URL Inspection, sitemap submission status, indexed URL counts, impressions and clicks remain unverified. A live page and sitemap entry are not evidence of indexing.
+- Search Console follow-up steps are recorded in `docs/search-discovery-indexing-verification-2026-10-22.md`.
+
 ## Licensing-literacy content release candidate — 22 October 2026
 
 - Added a general educational guide at `/guides/what-a-gambling-licence-means/` explaining licence scope, jurisdiction limits, enforcement records, and what a licence does not guarantee.
