@@ -24,6 +24,9 @@
 
 - [Batch 18](gb-brand-research-batch-18-2026-10-22.md) records the UKGC's active Casino Remote entry for Hillside (UK Gaming) ENC (bet365) and distinguishes it from the separate betting licensee Hillside (UK Sports) ENC. It also records the licensee-specific 2024 AML/customer-interaction settlement with correct attribution. This is internal evidence, not a completed review; approved brands remain **0/100**.
 
+
+- [Batch 19](gb-brand-research-batch-19-2026-10-22.md) records BV Gaming Limited's active Casino Remote permission and the Betano UK terms' operator statement, while preserving the UKGC domain record's **White Label** label. This is an identity lead, not a completed review or evidence of Moroccan eligibility; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
