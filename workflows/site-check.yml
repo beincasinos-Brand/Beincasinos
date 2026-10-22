@@ -1,0 +1,52 @@
+name: Static site checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check HTML structure and local links
+        run: python3 scripts/check_site.py
+      - name: Validate paid-listing pipeline schema and hard gates
+        run: python3 scripts/check_sales_pipeline.py
+      - name: Run sales pipeline validator regression tests
+        run: python3 scripts/test_sales_pipeline.py
+      - name: Check shared JavaScript syntax
+        run: node --check script.js && node --check scripts/browser_smoke.cjs
+      - name: Validate Vercel build and security configuration
+        run: python3 scripts/check_host_config.py
+      - name: Build public-only deployment artifact
+        run: python3 scripts/build_site.py
+      - name: Verify deployment artifact excludes internal files
+        run: python3 scripts/check_deploy_artifact.py
+      - name: Run Chromium browser smoke tests
+        run: |
+          npm install --no-save playwright@1.55.0 axe-core@4.10.3
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --directory dist > /tmp/beincasinos-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" || true' EXIT
+          sleep 2
+          BASE_URL=http://127.0.0.1:4173 node scripts/browser_smoke.cjs
+      - name: Store sanitized site artifact for later release
+        uses: actions/upload-artifact@v4
+        with:
+          name: beincasinos-public-site-dist
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7

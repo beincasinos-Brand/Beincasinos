@@ -1,6 +1,0 @@
-# Generated public-only deployment artifact
-/dist/
-
-# Local provider metadata
-/.netlify/
-/.vercel/
