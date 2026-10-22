@@ -51,6 +51,9 @@
 
 - [Batch 27](gb-brand-research-batch-27-2026-10-22.md) records Petfre (Gibraltar) Limited's active casino permission, declared Betfred/oddsKing domain rows and separate 2025 technical-standards penalty and 2026 £900,000 social-responsibility settlement. Consumer review remains on hold pending casino-specific terms and testing; **0/100 approved brands, 0 publication-ready reviews**.
 
+
+- Internal review draft created: [Betfred Casino — Great Britain](review-drafts/betfred-gb-internal-draft-2026-10-22.md). It includes the sourced operator/licence facts, balanced disclosure of the 2025/2026 UKGC actions, and explicit holds for unverified bonus, payments, support and hands-on testing. This is **1 internal draft, 0 publication-ready reviews**; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
