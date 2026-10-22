@@ -307,7 +307,7 @@ if sitemap.exists():
             # noindex pages or canonicalized duplicates slip into the sitemap.
             target_source = target.read_text(encoding="utf-8")
             canonical_match = re.search(
-                r'<link\\s+rel=["\\']canonical["\\']\\s+href=["\\']([^"\\']+)["\\']',
+                r'<link rel="canonical" href="([^"]+)"',
                 target_source,
                 re.I,
             )
@@ -319,11 +319,11 @@ if sitemap.exists():
                     f"{url} -> {canonical_match.group(1)}"
                 )
             robots_match = re.search(
-                r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\']([^"\\']+)["\\']',
+                r'<meta name="robots" content="([^"]+)"',
                 target_source,
                 re.I,
             )
-            if robots_match and re.search(r"\\bnoindex\\b", robots_match.group(1), re.I):
+            if robots_match and re.search(r"\bnoindex\b", robots_match.group(1), re.I):
                 errors.append(f"sitemap.xml: listed page has a noindex directive: {url}")
         expected_paths = set()
         for page in pages:
