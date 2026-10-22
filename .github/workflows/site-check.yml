@@ -3,18 +3,38 @@ name: Static site checks
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "docs/**"
-      - "*.md"
-      - ".github/workflows/site-check.yml"
-      - ".github/workflows/cloudflare-readonly-launch-diagnostics.yml"
+    paths:
+      - '**.html'
+      - '**/*.html'
+      - 'styles.css'
+      - 'script.js'
+      - 'favicon.svg'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'site.webmanifest'
+      - 'vercel.json'
+      - 'functions/**'
+      - 'cloudflare/**'
+      - 'scripts/**'
+      - 'docs/100-brand-verification-ledger.md'
+      - 'docs/brand-review-evidence-template.md'
   pull_request:
     branches: [main]
-    paths-ignore:
-      - "docs/**"
-      - "*.md"
-      - ".github/workflows/site-check.yml"
-      - ".github/workflows/cloudflare-readonly-launch-diagnostics.yml"
+    paths:
+      - '**.html'
+      - '**/*.html'
+      - 'styles.css'
+      - 'script.js'
+      - 'favicon.svg'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'site.webmanifest'
+      - 'vercel.json'
+      - 'functions/**'
+      - 'cloudflare/**'
+      - 'scripts/**'
+      - 'docs/100-brand-verification-ledger.md'
+      - 'docs/brand-review-evidence-template.md'
   workflow_dispatch:
 
 permissions:
