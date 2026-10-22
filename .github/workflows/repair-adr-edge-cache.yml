@@ -58,8 +58,20 @@ jobs:
                       with urllib.request.urlopen(req, timeout=20) as response:
                           return response.status, json.load(response)
                   except urllib.error.HTTPError as exc:
-                      # Do not print response bodies, which can contain account details.
-                      return exc.code, None
+                      # Keep only Cloudflare's error codes/messages; never print headers or credentials.
+                      try:
+                          body = json.loads(exc.read().decode("utf-8", "replace"))
+                          errors = body.get("errors") or []
+                          safe_errors = [
+                              {
+                                  "code": item.get("code"),
+                                  "message": str(item.get("message", ""))[:180],
+                              }
+                              for item in errors[:3]
+                          ]
+                      except Exception:
+                          safe_errors = []
+                      return exc.code, {"success": False, "errors": safe_errors}
 
               verify_status, verify = request("/user/tokens/verify")
               if verify_status != 200 or not verify or not verify.get("success"):
