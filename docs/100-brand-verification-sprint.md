@@ -15,6 +15,9 @@
 
 - [Batch 11](gb-brand-research-batch-11-2026-10-22.md), [batch 12](gb-brand-research-batch-12-2026-10-22.md), [batch 13](gb-brand-research-batch-13-2026-10-22.md), [batch 14](gb-brand-research-batch-14-2026-10-22.md), and [batch 15](gb-brand-research-batch-15-2026-10-22.md) extend the GB evidence queue. Batch 11–12 are supplier/enforcement leads; batch 13 records 888casino.com / 888 UK Limited register mapping; batch 14 flags 32Red Limited's surrendered Casino Remote permission; batch 15 records Betway Limited's active Casino Remote permission and listed domains. These are internal evidence notes, not five publication-ready reviews. Keep the sprint total at **0/100 approved** until each brand independently passes all verification and editorial gates.
 
+
+- [Batch 16](gb-brand-research-batch-16-2026-10-22.md) records Betfair Casino Limited (UKGC account 39435), its active Casino Remote entry and www.betfair.com domain, plus the Commission's 17 December 2025 combined enforcement settlement affecting four Paddy Power Betfair licensees. The £2m total must not be attributed solely to Betfair Casino Limited. This remains an internal evidence lead, not a completed review; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
