@@ -88,3 +88,16 @@ Report counts, not assumptions:
 ## Acceptance criteria for the 100-brand milestone
 
 “100 brands” means 100 distinct brands with completed source-backed evidence, exact market/product scope, current terms and complaints/safety information, dated review, no unresolved critical conflicts, and independent editorial approval. Candidate names or bulk-generated pages do not count. The milestone is not complete merely because 100 URLs exist.
+
+
+## Production technical audit — 22 October 2026
+
+A live read-only audit checked the homepage, `/reviews/`, `/guides/`, `/sitemap.xml`, and `/robots.txt`.
+
+- The homepage, review hub, and guide hub returned page content with unique titles, descriptions, and self-referencing canonical URLs on `https://beincasinos.online/`.
+- The homepage links to core policy pages and the main learning guides; the guide hub links to the newer withdrawal, payment verification, operator-identity, complaint, bonus-term and probability explainers.
+- `robots.txt` permits crawling and declares `https://beincasinos.online/sitemap.xml`.
+- The sitemap contains 44 canonical apex URLs in the repository snapshot and includes the latest guide additions. Reconcile every URL against the live HTTP status, canonical and robots directive during future release checks.
+- The review hub accurately says that no casino profiles are currently scored or ranked; the candidate research notes remain internal until the evidence gates are passed.
+
+**Important limitation:** this is a crawlability and on-page metadata check, not proof that Google indexed any specific URL or that the site is receiving impressions. Use dated Search Console performance and indexing reports for those claims. Do not repeatedly submit the same URL as a substitute for improving evidence, internal discovery and page quality.
