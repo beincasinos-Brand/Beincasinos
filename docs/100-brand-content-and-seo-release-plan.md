@@ -137,3 +137,11 @@ This is a crawler-based metadata/content availability check, not a definitive HT
 ## International top-10 roadmap — 22 October 2026
 
 A new operating roadmap defines market selection gates, evidence requirements for every public review, competitor lessons, international SEO architecture, measurement, and 30/60/90-day checkpoints. It explicitly treats the international top-10 ambition as unproven and prevents bulk translated/thin affiliate pages. Read [the international top-10 roadmap](international-top-10-roadmap.md).
+
+## International execution assets — 22 October 2026
+
+- [International top-10 roadmap](international-top-10-roadmap.md): competitor lessons, editorial gates, international SEO architecture and measurement plan.
+- [Market readiness matrix](international-market-readiness-matrix.csv): country/product hard gates and evidence checklist. All markets remain HOLD until verified.
+- [SEO keyword and content execution map](seo-keyword-content-execution-map.md): existing URL intent clusters and free-first prioritisation; keyword examples are hypotheses, not volume claims.
+
+These are internal execution aids, not evidence of rankings, legal clearance, or completed casino reviews. Public reviews remain withheld until the exact operator/domain/product and target market pass the documented evidence gates.
