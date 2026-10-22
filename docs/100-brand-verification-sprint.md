@@ -209,3 +209,7 @@ Added [the Unibet and 32Red evidence note](reviews/internal/gb-brand-evidence-ba
 ## UKGC portfolio evidence — Skill On Net Limited — 22 October 2026
 
 Added [the Skill On Net multi-brand domain evidence log](reviews/internal/gb-brand-evidence-batch-2026-10-22-skill-on-net-portfolio.md). UKGC account 39326 has an active Casino Remote licence and lists several active trading names/domains, including PlayOJO, EU Casino, DrückGlück, Spin Genie and LuckyVegas. The note separates domain/trading-name evidence from full consumer-review approval and explicitly flags White Label/inactive domain distinctions. All five remain **HOLD** until current terms, operator/product scope, payment/withdrawal and safer-gambling checks, and second-editor approval are complete.
+
+## UKGC licence evidence — Videoslots — 22 October 2026
+
+Added [the Videoslots evidence note](reviews/internal/gb-brand-evidence-batch-2026-10-22-videoslots.md). UKGC account 39380 lists an active Casino Remote permission. The current UK domain-to-operator match, customer terms, payment/withdrawal rules, safer-gambling evidence and regulatory-history check remain outstanding. Videoslots remains **HOLD**; the licence record alone does not support a quality score or recommendation.
