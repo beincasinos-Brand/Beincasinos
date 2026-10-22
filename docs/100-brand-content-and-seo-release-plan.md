@@ -10,7 +10,7 @@
 - Candidates are research leads. Do not describe them as licensed, approved, safe, recommended, tested, or commercially qualified until the evidence for the exact brand, legal entity, domain, product and target jurisdiction is independently checked.
 - Current verified-to-publish count remains **0** in the 100-brand sprint until each profile passes all gates.
 - Public `/reviews/` correctly states that no live casino profiles are scored or ranked yet. Keep that truthful status until profiles are genuinely approved.
-- The production route for the ADR guide has an unresolved 404/cache issue. Its repair workflow failed with Cloudflare API HTTP 401 / error 10000 (authentication error); no cache purge was accepted. See Issue #14 and workflow run 39749376879.
+- **Production route status (verified 2026-10-22):** the ADR guide returns HTTP 200 with the expected self-canonical; the sitemap returns HTTP 200 and includes the guide; the www guide URL returns HTTP 200 and resolves to the apex canonical. The latest repair workflow preflights the public route and skips the privileged cache purge when the page is already healthy. This confirms route availability, not Google indexing or search traffic. See [successful production verification](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39753522659) and [static site checks](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39753522742).
 
 ## Release sequence
 
