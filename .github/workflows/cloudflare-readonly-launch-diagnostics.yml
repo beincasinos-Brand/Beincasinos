@@ -1,10 +1,6 @@
 name: Read-only Cloudflare launch diagnostics
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/cloudflare-readonly-launch-diagnostics.yml"
   workflow_dispatch:
 
 permissions:
