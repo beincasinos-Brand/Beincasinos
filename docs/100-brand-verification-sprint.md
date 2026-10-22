@@ -167,3 +167,9 @@ Added an internal research queue for the seven brands shown on the official [V.P
 Register: [V.Partners brand expansion](v-partners-brand-expansion.md).
 
 All seven remain **HOLD** until exact official domains, contracting entities, regulator records, target-market permission, current consumer terms and second-editor review are complete. They expand the research queue; they do not increase the approved-brand count. No production deployment was triggered.
+
+## V.Partners first-party source review — 22 October 2026
+
+- Expanded the internal [V.Partners brand research register](v-partners-brand-expansion.md) with individual network profile URLs for Slotoro, FieryPlay, Hit’n’Spin, Verde Casino, ICE Casino, FS Casino and V.Vegas.
+- The network's own pages include market-restriction lists; several explicitly list Great Britain as restricted. These are first-party screening signals, not regulator approvals. The team must compare each brand's live terms, final consumer domain, legal operator and target-market permissions before deciding whether a market-specific review is appropriate.
+- All seven remain **HOLD**. The seven entries are research leads only and do not increase the approved-review count. No workflow or production deployment was triggered.
