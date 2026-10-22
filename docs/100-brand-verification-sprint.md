@@ -42,6 +42,9 @@
 
 - [Batch 24](gb-brand-research-batch-24-2026-10-22.md) records LeoVegas Gaming PLC's active Casino Remote permission and separates active domains from inactive .com/bingo entries. [Batch 23](gb-brand-research-batch-23-2026-10-22.md) was corrected against the official UKGC domain page: **virgingames.com is White Label**, not an Active direct domain. These remain evidence leads only; **0/100 approved brands, 0 publication-ready reviews**.
 
+
+- [Batch 25](gb-brand-research-batch-25-2026-10-22.md) records Rank Interactive (Gibraltar) Limited's active Casino Remote permission and Grosvenorcasinos.com domain status, while separating inactive legacy domains and related brands. This is evidence only, not a complete review; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
