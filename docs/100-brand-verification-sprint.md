@@ -225,3 +225,7 @@ Added [the 888casino UKGC enforcement evidence note](reviews/internal/gb-brand-e
 ## Candidate registry population — UKGC evidence rows — 22 October 2026
 
 Updated the 100-row candidate CSV with source-backed UKGC fields, checked date, entity/domain caveats, and **HOLD** decisions for 888casino, Betway Casino, bet365 Casino, William Hill Casino, Betfred Casino, Paddy Power Games, Ladbrokes Casino and Coral Casino. The CSV now distinguishes evidence captured from publication approval and records regulatory-history/domain-matching work still outstanding. These remain candidate records, not eight approved reviews.
+
+## Candidate registry expansion — six more brands — 22 October 2026
+
+Updated six additional rows in `docs/brand-research-template.csv` with regulator-register links, entity/domain caveats, review dates and **HOLD** decisions: PlayOJO, LeoVegas, Mr Green, Casumo, Videoslots and Sky Vegas. The evidence distinguishes active permissions from surrendered historical records: the cited Mr Green Limited GB licence is surrendered; Casumo Services Limited's legacy licence is surrendered and current Recro Limited/domain matching remains required; LeoVegas and Sky Vegas have active records with brand/domain caveats; PlayOJO and Videoslots still need the exact live GB route and customer terms matched. These are candidate research records, not six publication-ready reviews.
