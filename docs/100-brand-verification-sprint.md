@@ -21,6 +21,9 @@
 
 - [Batch 17](gb-brand-research-batch-17-2026-10-22.md) records the official William Hill domain/operator mapping: www.williamhill.com is associated in the UKGC search with WHG (International) Limited (account 39225), while William Hill's own terms describe a separate William Hill Global PLC operator for many non-GB markets. Do not infer Moroccan eligibility from the GB record. This is an identity lead only; the sprint remains **0/100 approved brands** and **0 publication-ready reviews**.
 
+
+- [Batch 18](gb-brand-research-batch-18-2026-10-22.md) records the UKGC's active Casino Remote entry for Hillside (UK Gaming) ENC (bet365) and distinguishes it from the separate betting licensee Hillside (UK Sports) ENC. It also records the licensee-specific 2024 AML/customer-interaction settlement with correct attribution. This is internal evidence, not a completed review; approved brands remain **0/100**.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
