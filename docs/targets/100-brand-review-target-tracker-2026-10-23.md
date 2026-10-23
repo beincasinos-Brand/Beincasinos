@@ -150,3 +150,9 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Static QA: 100 brand cards and 100 context panels remain present; all 20 image candidates have alt text, fallback monograms, and visible rights-pending labels. No duplicate HTML IDs were found. This does not change the publication status: the directory remains `noindex,follow`, the PR is unmerged, and no Cloudflare production deployment is confirmed.
 
 - Final HTML source check after the image-layout patch: 100 unique brand labels; 100/100 cards contain legal-operator field, regulator/authority, evidence grade, checklist and research-context panel; 20/20 candidate image tags have dimension hints and alt text; no malformed image attributes or unsafe `target=_blank` links detected. This remains source-level QA, not a live-browser test or Cloudflare deployment.
+
+
+### Brand-list integrity correction — 23 October 2026
+
+- Replaced the France and Australia category placeholders (not actual brands) with Silkbet and BigBangBet, using the official UKGC register/domain evidence already recorded in the master prospect tracker. Both remain HOLD: live consumer-product status, current terms, withdrawals, complaints, safer-gambling controls and enforcement history still require review.
+- Added a visible market-scope guardrail stating France and Australia are excluded from this online-casino directory. Current source-level check confirms 100 cards and 100 unique card labels. Page remains noindex and no production deployment is confirmed.
