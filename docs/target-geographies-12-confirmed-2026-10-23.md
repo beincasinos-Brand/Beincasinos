@@ -23,7 +23,7 @@ Ghana, Colombia, Brazil, Argentina, Mexico, South Africa, Nigeria, Denmark, and 
 
 ## Review and legal gates
 
-- The active registry currently contains 175 market-specific candidate/research records with 140 provisional global_brand_id values after cross-market alias grouping. These are not 140 verified eligible brands and are not 100 completed reviews. Publication-approved reviews remain 0/100 until all evidence and independent editorial/legal gates pass.
+- The active registry currently contains 204 market-specific candidate/research records with 154 provisional global_brand_id values after cross-market alias grouping. These are not 140 verified eligible brands and are not 100 completed reviews. Publication-approved reviews remain 0/100 until all evidence and independent editorial/legal gates pass.
 - Australia and France generally prohibit online casino services. Do not promote offshore online casinos as locally legal or invent casino candidates to fill a quota. Research legal scope and publish only legally appropriate explanatory content if approved.
 - Canada requires province/territory-specific checks. Ontario evidence does not establish authorisation across Canada.
 - The United States requires state/tribal-specific checks. Never imply nationwide online-casino authorisation from a single state or tribal record.
