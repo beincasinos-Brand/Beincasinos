@@ -94,3 +94,14 @@ File: `docs/brand-profile-betmgm-gb-draft.md`
 - Commit: `76cb7576c34d8db4c5acb6ad622c2b7a22c14ed4`.
 
 This is an internal dossier, not an approved public review. Approved reviews from this batch: 0.
+
+
+## 9. 100-brand tracking queue template added
+
+File: `docs/brand-research-queue-template.md`
+
+- Added a standard row schema for candidate ID, jurisdiction, product scope, exact domain, legal entity, regulator/account, domain status, enforcement, terms, payments, complaints/ADR, safer-gambling checks, independent feedback, evidence completeness, status, next action and commit link.
+- Defined explicit stage labels and the rule that only Approved review counts toward the 100 completed-review target.
+- Commit: `f27d35fe7d8c8008d6cd8a7608bfd8d230b51bf8`.
+
+This is a workflow asset, not a brand review; it does not increase the approved-review count.
