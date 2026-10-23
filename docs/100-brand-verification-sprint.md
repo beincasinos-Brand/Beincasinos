@@ -571,3 +571,10 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 
 - The Gaming Commission of Ghana's licensed-operator table also lists JACKPOTCITY for Online Casino, issued 1 January 2026 and expiring 31 December 2026, location Accra: https://www.gamingcommission.gov.gh/licensed-operators/ .
 - Updated the existing Jackpot City row with the Ghana-only scope. The register does not name the live domain or contracting entity, so this remains HOLD pending identity match and consumer review evidence.
+
+
+## Ghana cross-market follow-up and registry-validator fix — 2026-10-23
+
+- Ghana regulator's current licensed-operator table also lists JACKPOTCITY for Online Casino, and lists BETWAY and BETANO for both Online Casino and Sports Betting. Existing rows were updated with Ghana-only leads while preserving their separate UKGC evidence. Ghana's table does not identify live domains or contracting entities; match them before asserting Ghana availability. Source: https://www.gamingcommission.gov.gh/licensed-operators/ .
+- Fixed `scripts/check_brand_registry.py` status validation to accept the actual internal workflow statuses (`research`, `scope triage`, `legal hold`, `legal scope hold`) as well as the existing prospect/draft/reviewed statuses. This corrects a mismatch between the validator's vocabulary and the current registry; the script has not been run in CI and no Actions minutes were consumed.
+- Registry still contains exactly 100 rows and 31 columns. All decisions are HOLD; this is a safe publication gate, not evidence that 100 consumer reviews are complete.
