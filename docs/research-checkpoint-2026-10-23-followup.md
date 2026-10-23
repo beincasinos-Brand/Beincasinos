@@ -232,3 +232,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - This is explicitly a jurisdiction/domain verification gate, not a claim that Betsson is currently licensed for Great Britain. The exact brand-domain-to-active-UKGC-account match remains unresolved and must be verified against the live register before any GB recommendation.
 - The UKGC register provides searches by operator, trading name, domain and account number and records licence status and declared domains. See https://www.gamblingcommission.gov.uk/public-register/businesses
 - Status **HOLD / DRAFT**; no approved public review counted.
+
+
+## 24. Evolution supplier-level research dossier added
+
+- File: `docs/brand-profile-evolution-gb-draft.md`
+- Commit: `07e8930046ee8c0a1ce3ac8d133336be5961ac43`
+- Recorded the UKGC's 23 July 2026 £4.75m settlement with Evolution Malta Holding Limited, following findings that games had reached six unlicensed sites accessible in Great Britain and that supplier-level AML/CTF and partner-risk controls were inadequate.
+- Explicitly distinguishes the game supplier from consumer-facing casino operators: this finding must not be attributed automatically to every casino using Evolution games.
+- Status **HOLD / DRAFT** pending defined page scope and second-editor review. Approved public consumer reviews contributed by this dossier: **0**.
