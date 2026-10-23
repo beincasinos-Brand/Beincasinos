@@ -420,3 +420,8 @@ After linking the Grosvenor and PlayOJO evidence notes in the CSV, a read-back a
 - Updated [Betfred Casino (GB) internal draft](brand-profile-betfred-uk-draft.md) with current UKGC licence/domain evidence, the regulator's 2025 technical-standards sanction and 2026 social-responsibility settlement, current casino-specific terms, and open review gates. The regulator actions are attributed to Petfre (Gibraltar) Limited/account 39544. No score or publication approval was added.
 - Updated [Midnite (GB) internal dossier](brand-profile-midnite-gb-draft.md) with the latest initial account/domain checkpoint and an explicit unresolved operator-transition gate involving the separate Dribble Media Limited record. No score or publication approval was added.
 - Primary-source refreshes are internal research only. Current consumer terms, payment/withdrawal evidence, complaints/ADR, safer-gambling and privacy checks, second-editor approval, and site-wide release gates still prevent publication. No Actions run or deployment was triggered.
+
+
+## Production crawlability follow-up — 2026-10-23
+
+A fresh live fetch confirmed that the market-rules hub is now available at `https://beincasinos.online/markets/`, declares the apex canonical, the `www` route resolves to the apex HTTPS URL, and the production sitemap contains 45 URLs including `/markets/`. The root robots file remains reachable and points to the canonical sitemap. Detailed evidence and limitations are recorded in the [SEO execution backlog](seo-execution-backlog-2026-10-22.md). This supersedes the earlier dated 404 snapshot but does not prove Google indexing or complete whole-site QA. No GitHub Actions run or deployment was triggered by this verification.
