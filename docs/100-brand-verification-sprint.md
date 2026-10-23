@@ -96,3 +96,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a **DraftKings Casino — New Jersey** internal evidence note. The New Jersey DGE authorized-sites list includes `casino.draftkings.com` under Resorts Casino Hotel Atlantic City; DraftKings' first-party regulator page states NJ DGE regulation and 21+ eligibility. A New Jersey terms page identifies Crown NJ Gaming Inc. for the linked site, but exact casino-specific contracting-party mapping and current terms still require review. The note is HOLD and must not be treated as an approved public review. See [DraftKings New Jersey evidence note](reviews/internal/draftkings-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Added a **FanDuel Casino — New Jersey** internal evidence pack using the current NJ DGE authorized-sites list and FanDuel New Jersey terms updated 15 October 2026. The DGE lists `casino.fanduel.com` under Golden Nugget Atlantic City; the terms identify Betfair Interactive US LLC operating the casino under agreement with Golden Nugget Atlantic City LLC, distinct from the sportsbook's racetrack relationship. The candidate registry was updated; product/payment checks and independent review remain outstanding. Status **HOLD**, not an approved public review. See [FanDuel NJ evidence pack](reviews/internal/fanduel-casino-new-jersey-evidence-2026-10-23.md).
