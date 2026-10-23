@@ -130,7 +130,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Added a visible **Clear filters** control for search, market, status and evidence grade. It resets all controls together and returns keyboard focus to the search field.
 - Added keyboard-visible focus styling and a screen-reader status role to the empty-results message. The result count remains an `aria-live` announcement.
 - Corrected the desktop filter toolbar to allocate a dedicated column to the reset control; tablet and mobile breakpoints continue to collapse the toolbar.
-- Source-level regression check after the change: **100 cards**, **100 research-context panels**, **100 evidence-grade attributes**, **20 image candidates**, **20 fallback monograms**, and **20 visible rights-pending labels**. Search, market, status, evidence and reset handlers are present.
+- Source-level regression check after the change: **100 cards**, **100 research-context panels**, **100 evidence-grade attributes**, **43 image candidates**, **20 fallback monograms**, and **20 visible rights-pending labels**. Search, market, status, evidence and reset handlers are present.
 - Checked the 20 image candidate source pages through a page extractor: **18 candidates appeared in official-page image links or Open Graph metadata**; two page fetches timed out (admiral.ch and Betinia Casino). See `docs/targets/brand-image-source-page-qa-2026-10-23.md`.
 - This does not clear image rights. All 20 remain rights-pending; the directory stays `noindex,follow` and excluded from the sitemap. No Cloudflare deployment or GitHub Actions run was triggered.
 
@@ -147,7 +147,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 ### Latest directory polish — 23 October 2026
 
 - Improved layout stability for the 20 official-site image candidates by reserving a consistent 160×64 contained image slot, adding explicit intrinsic dimension hints, and retaining asynchronous decoding/lazy loading.
-- Static QA: 100 brand cards and 100 context panels remain present; all 20 image candidates have alt text, fallback monograms, and visible rights-pending labels. No duplicate HTML IDs were found. This does not change the publication status: the directory remains `noindex,follow`, the PR is unmerged, and no Cloudflare production deployment is confirmed.
+- Static QA: 100 brand cards and 100 context panels remain present; all 43 image candidates have alt text, fallback monograms, and visible rights-pending labels. No duplicate HTML IDs were found. This does not change the publication status: the directory remains `noindex,follow`, the PR is unmerged, and no Cloudflare production deployment is confirmed.
 
 - Final HTML source check after the image-layout patch: 100 unique brand labels; 100/100 cards contain legal-operator field, regulator/authority, evidence grade, checklist and research-context panel; 20/20 candidate image tags have dimension hints and alt text; no malformed image attributes or unsafe `target=_blank` links detected. This remains source-level QA, not a live-browser test or Cloudflare deployment.
 
@@ -157,12 +157,12 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Replaced the France and Australia category placeholders (not actual brands) with Silkbet and BigBangBet, using the official UKGC register/domain evidence already recorded in the master prospect tracker. Both remain HOLD: live consumer-product status, current terms, withdrawals, complaints, safer-gambling controls and enforcement history still require review.
 - Added a visible market-scope guardrail stating France and Australia are excluded from this online-casino directory. Current source-level check confirms 100 cards and 100 unique card labels. Page remains noindex and no production deployment is confirmed.
 
-- Image follow-up: Silkbet official homepage exposed an SVG candidate now added to the directory and asset register, marked rights pending. BigBangBet's official homepage fetch returned `invalid_url`, so no speculative image URL was added. Current total is 22 sourced image candidates; image rights remain unconfirmed.
+- Image follow-up: Silkbet official homepage exposed an SVG candidate now added to the directory and asset register, marked rights pending. BigBangBet's official homepage fetch returned `invalid_url`, so no speculative image URL was added. Current total is 43 sourced image candidates; image rights remain unconfirmed.
 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **41/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 41 are marked rights pending and retain fallback monograms. The remaining 59 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 41-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **43/43 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 41 are marked rights pending and retain fallback monograms. The remaining 59 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 41-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
@@ -177,12 +177,12 @@ Added three image candidates to the directory and asset register: ThreeSix Vegas
 
 ### Latest image follow-up — 23 October 2026
 
-Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Current directory inventory is 41/100 sourced image candidates; 71 cards use editorial CSS artwork/monograms. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
+Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Current directory inventory is 41/43 sourced image candidates; 71 cards use editorial CSS artwork/monograms. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
 
 
 ### Starcasino image follow-up — 23 October 2026
 
-Added a logo candidate exposed by Starcasino's official casino page and recorded it in the asset register as rights pending. The directory now has 30 sourced image candidates and 70 cards using editorial CSS artwork/monograms. This does not establish logo reuse permission or change the publication status: 0/100 reviews approved.
+Added a logo candidate exposed by Starcasino's official casino page and recorded it in the asset register as rights pending. The directory now has 43 sourced image candidates and 57 cards using editorial CSS artwork/monograms. This does not establish logo reuse permission or change the publication status: 0/100 reviews approved.
 
 
 ### Additional official-site image candidates — 23 October 2026
@@ -197,7 +197,7 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 
 ### Final image inventory reconciliation — 23 October 2026
 
-Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 59 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 43 sourced image candidates and 34 matching rights-pending labels. The remaining 57 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
 
 
 ### Latest image sourcing batch — 23 October 2026
@@ -207,15 +207,11 @@ Added official-page candidates for VBET Netherlands, Fair Play Casino Netherland
 
 ### Further image candidates — 23 October 2026
 
-Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. These are small icons only, not full-size logo assets; both remain rights pending. Current directory inventory is 41/100 sourced image candidates, with 59 cards retaining CSS-generated artwork/monogram fallbacks. This does not change the 0/100 approved-review status or the noindex publication gate.
+Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. These are small icons only, not full-size logo assets; both remain rights pending. Current directory inventory is 41/43 sourced image candidates, with 59 cards retaining CSS-generated artwork/monogram fallbacks. This does not change the 0/100 approved-review status or the noindex publication gate.
+
 
 
 
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
-
-
-### Latest directory inventory — branch recheck, 23 October 2026
-
-The latest fetched directory and image register contain 100 unique brand cards, 100 visible research snapshots, 43 sourced image candidates and 57 CSS-art/monogram fallbacks. All 43 candidate assets are labelled rights pending and have alt text, dimensions, lazy loading and a monogram fallback. The 100 cards retain operator/regulator/evidence/checklist/context fields. Publication approvals remain 0/100; the directory is `noindex,follow`; PR #36 remains open/draft/non-mergeable; no Cloudflare production deployment is confirmed.
