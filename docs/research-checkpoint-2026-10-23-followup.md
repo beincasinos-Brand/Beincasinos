@@ -508,3 +508,19 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The payment page lists card, PayPal, Paysafecard and Apple Pay options, but no account or withdrawal test was performed. The official complaints page and safer-gambling page were reviewed as starting sources; the exact escalation timeline, ADR conditions and current account-level tools still need complete verification.
 - The current account-specific UKGC actions page says no actions recorded for this business; do not extend that claim to other Rank entities or the wider group.
 - Editorial decision: **HOLD**, no score, no public review, not counted as approved. No GitHub Actions run, Cloudflare setting change, DNS change or deployment was triggered.
+
+
+## 52. Lucky VIP GB — current offer, terms and payment sources — 23 October 2026
+
+- Added `docs/brand-profile-lucky-vip-gb-draft.md` for Lucky VIP, using the official site and UKGC account 57924 for Rank Interactive (Gibraltar) Limited. UKGC lists `luckyvip.com` Active and the operator's remote casino permission Active.
+- Official terms show an effective date of 16 December 2025. The live welcome offer advertises a £40 bonus after a first deposit of at least £20; PayPal and Paysafe deposits are excluded, and the bonus is restricted to selected games. The homepage also states 10x wagering and a £100 maximum win; full terms still need final capture.
+- The official payment page shows Visa, Mastercard, PayPal and Paysafecard; Paysafecard is deposit-only. No account or withdrawal test was performed. The complaint route, exact ADR eligibility, full safer-gambling controls, independent feedback and second-editor sign-off remain open.
+- Decision: **HOLD**, no score, no public review, not approved. No GitHub Actions or deployment was triggered.
+
+
+## 53. Rialto Casino GB — current welcome-offer and payment sources — 23 October 2026
+
+- Added `docs/brand-profile-rialto-casino-gb-draft.md` for Rialto Casino, operated by Rank Interactive (Gibraltar) Limited (UKGC account 57924). The UKGC domain record lists `rialtocasino.com` Active; the operator's remote casino permission is Active.
+- Official terms show an effective date of 16 December 2025. The current welcome offer provides 100 free spins on Big Bass Hold & Spinner after a new, verified customer deposits and stakes £10; the terms show 10x wagering, seven-day use/wagering periods, a £200 maximum conversion to cash and forfeiture conditions. Recheck the full offer before publication.
+- The payment page lists Visa, Mastercard, PayPal and Paysafecard; Paysafecard is shown as deposit-only. No account or withdrawal test was performed. Complaints escalation/ADR details, full safer-gambling controls, independent feedback and second-editor review remain open.
+- Decision: **HOLD**, no score, no public review, not approved. No GitHub Actions or deployment was triggered.
