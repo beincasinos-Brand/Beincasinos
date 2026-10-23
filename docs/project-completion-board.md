@@ -1,3 +1,12 @@
+# Latest research checkpoint — 23 October 2026, batch 5
+
+- Added `docs/gb-brand-verification-follow-up-batch-5-2026-10-23.md` on branch `research/gb-batch-5-2026-10-23`, with five more official UKGC register checks. Changes remain off `main` to conserve GitHub Actions minutes and avoid an unintended Cloudflare Pages production build.
+- Four legal-entity leads are HOLD pending exact consumer brand/domain mapping: SpeadBoom Ltd (100875), Aion Gaming Limited (100746), SBKI Limited (48760), and Betable Limited (23328). Each record shows active Casino Remote status in the official-register search, but that alone does not approve a consumer brand or review.
+- Playtech Plc (38516) is explicitly excluded from the consumer-brand count on this evidence alone because its register includes software/game-host activity; supplier licensing must not be confused with approval of a distinct direct-to-consumer brand.
+- Batch result: **0 new publication-approved brands; 0 new completed reviews**. Total publication-approved review count remains **0/100** until brand/domain/entity, current regulatory actions, product/market scope, terms, payments/withdrawals, complaints and safer-gambling evidence are independently reviewed.
+- Official source index and caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+- Batch file commit: `0d4e65df0a3221d2e7646d8e3a2a7f160f2971ca`. No production deploy, DNS change, Search Console write action, or operator outreach was performed.
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
