@@ -382,3 +382,8 @@ Additional Italy-specific evidence: the ADM directory also associates www.codere
 
 
 Additional Italy ADM corroboration: existing registry rows for LeoVegas and Sportium now record official Italian domain/concessionaire associations — leovegas.it with Leo Vegas Gaming P.l.c. (16019), and sportium.it with E-play 24 Ita Limited (16005). See [internal corroboration note](reviews/internal/it-adm-domain-corroboration-leovegas-sportium-2026-10-23.md). Both remain HOLD; do not generalize Italian evidence to other jurisdictions. No Actions or deployment was triggered.
+
+
+## Spain DGOJ evidence capture — Luckia (2026-10-23)
+
+The existing Luckia registry row now records the official DGOJ operator profile: [internal evidence note](reviews/internal/es-dgoj-luckia-evidence-2026-10-23.md). DGOJ lists luckia.es and singular licences for slots, poker, blackjack and roulette, including roulette/blackjack renewal decisions dated 14 October 2026. This is Spain-specific evidence, not a completed consumer review or approval to publish. Row remains HOLD; current terms, payment/withdrawal flow, complaints, privacy, safer-play controls and second-editor review remain outstanding. No Actions or deployment was triggered.
