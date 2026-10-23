@@ -1,5 +1,13 @@
 
 
+## Payment / complaints / safer-gambling evidence — batch 31 (2026-10-23)
+- Added [batch 31 public policy evidence](docs/gb-brand-validation-batch-31-payment-safer-gambling-evidence-2026-10-23.md).
+- Lad Casino's public payment-methods page states £10 minimum deposit, £2,000 maximum per deposit transaction, £10 minimum withdrawal, and Visa/Mastercard debit cards for deposits/withdrawals. Its safer-gambling page describes deposit limits, time-outs, 6-month to 5-year self-exclusion and the distinction from GAMSTOP. These are published claims, not tested functionality.
+- 666 Casino's terms page confirms Jupiter Gaming Limited / UKGC 67098, identity and source-of-funds checks, and a stated 3-working-day initial complaints response target unless further investigation is needed. Withdrawal processing times and exact payment methods remain unverified.
+- Some help-page routes returned unavailable/page-not-found or timeout responses; recorded as inconclusive page-access/documentation gaps, not proof support is unavailable.
+- No account or transaction tests performed. New publication-approved brands: **0**. New publication-approved reviews: **0**. Production deploys: **0**. No main/DNS/production changes.
+
+
 ## Live-page and legal cross-check — batch 30 (2026-10-23)
 - Added [batch 30 live-page and legal cross-check evidence](docs/gb-brand-validation-batch-30-live-pages-legal-crosscheck-2026-10-23.md).
 - Public homepage/legal-page evidence captured for **666 Casino** and **Lad Casino**. Both sites' fetched terms identify Jupiter Gaming Limited / UKGC account 67098; the terms page states last published 17 August 2026. Lad Casino's about page describes LadBet as sports betting and Lad Casino as casino product, so LadBet must not automatically be treated as a casino review.
