@@ -524,3 +524,11 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official terms show an effective date of 16 December 2025. The current welcome offer provides 100 free spins on Big Bass Hold & Spinner after a new, verified customer deposits and stakes £10; the terms show 10x wagering, seven-day use/wagering periods, a £200 maximum conversion to cash and forfeiture conditions. Recheck the full offer before publication.
 - The payment page lists Visa, Mastercard, PayPal and Paysafecard; Paysafecard is shown as deposit-only. No account or withdrawal test was performed. Complaints escalation/ADR details, full safer-gambling controls, independent feedback and second-editor review remain open.
 - Decision: **HOLD**, no score, no public review, not approved. No GitHub Actions or deployment was triggered.
+
+
+## 54. Regal Wins GB — £30 bonus / 50 spins terms and payment evidence — 23 October 2026
+
+- Added `docs/brand-profile-regal-wins-gb-draft.md` for Regal Wins, operated by Rank Interactive (Gibraltar) Limited under UKGC account 57924. The regulator's domain record lists `regalwins.com` Active; the operator has active remote casino permission.
+- Official terms are effective 16 December 2025. The welcome offer requires a first deposit of at least £15, excludes Paysafecard deposits and restricts bonus play to selected games. The terms state the qualifying £15 deposit plus £30 bonus must be wagered 10 times before bonus-balance winnings can be withdrawn: £450 total wagering. The homepage also states 10x wagering and a £50 maximum win. Full restrictions need a final pre-publication capture.
+- The payment page lists Visa, Mastercard, PayPal and Paysafecard, with Paysafecard deposit-only; no account or withdrawal test was performed. Complaints escalation/ADR, complete safer-gambling tools, independent feedback and second-editor review remain open.
+- Decision: **HOLD**, no score, no public review, not approved. No GitHub Actions or deployment was triggered.
