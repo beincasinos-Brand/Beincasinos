@@ -2,30 +2,32 @@
 
 **Checked:** 2026-10-23  
 **Scope:** CH and BE only. Internal research; not legal advice, not a recommendation to gamble, and not publication approval.  
-**Registry update:** 20 market-specific candidate rows added to `docs/brand-research-template.csv`. All are `HOLD`; none counts as an approved review.
+**Registry update:** 20 CH/BE rows were added in the original pass. The Swiss subset has since been tightened: five rows have a historical official ESBK domain/entity lead; five are explicitly unverified and must not count as eligible until current official mapping is confirmed. All records remain `HOLD`.
 
-## Switzerland (CH): official ESBK/FGB platform list
+## Switzerland (CH): legal gate and candidate quality
 
-The Swiss Federal Gaming Board's official online-gambling page lists the following ten platforms as currently offering online gambling. Swiss law requires a casino licence extension and separate authorisation for games; an entry on the platform list is only a regulator-backed candidate lead, not a substitute for matching the contracting legal entity, licence extension, individual game permissions, current terms and domain.
+The Federal Gaming Board's [current online-gambling page](https://www.esbk.admin.ch/en/online-gambling), published 17 March 2026, says Swiss casinos need a Federal Council licence extension for online gambling and a separate FGB permit for each game. The current casino list is rendered as an image in the page, so this pass does **not** claim to have independently parsed and matched all ten proposed domains against the live 2026 list.
 
-| Candidate platform | Official domain | Associated casino named by ESBK | Evidence |
+The official ESBK 2023 annual report contains historical domain/operator associations for some platforms. These are useful leads, not proof that the current 2026 concession holder, domain, game permissions and contracting entity remain unchanged.
+
+| Candidate platform | Domain | Historical ESBK association | Current status |
 |---|---|---|---|
-| Jackpots.ch | https://www.jackpots.ch | Casino Baden | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Mycasino.ch | https://www.mycasino.ch | Casino Luzern | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Swiss Casinos Online | https://online.swisscasinos.ch | Casino Pfäffikon | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Casino777.ch | https://www.casino777.ch | Casino Davos | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Starvegas.ch | https://www.starvegas.ch | Casino Interlaken | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| 7melons.ch | https://7melons.ch | Casino Bern | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Pasino.ch | https://www.pasino.ch | Casino Meyrin | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Swiss4win.ch | https://www.swiss4win.ch | Casino Lugano | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Admiral.ch (CH) | https://www.admiral.ch | Casino Mendrisio | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
-| Casineo.ch | https://www.casineo.ch | Casino Locarno | [ESBK online gambling](https://www.esbk.admin.ch/en/online-gambling) |
+| Jackpots.ch | https://www.jackpots.ch | Grand Casino Baden AG | Historical official lead; current 2025–2026 concession/operator and game permits must be rechecked |
+| Mycasino.ch | https://www.mycasino.ch | Grand Casino Luzern AG | Historical official lead; current concession/operator and game permits must be rechecked |
+| Swiss Casinos Online (CH) | https://www.swisscasinos.ch | Casino Zürichsee AG (Pfäffikon) | Historical official lead; current concession/operator and game permits must be rechecked |
+| Starvegas.ch | https://www.starvegas.ch | Casino Interlaken AG | Historical official lead; current concession/operator and game permits must be rechecked |
+| Pasino.ch | https://www.pasino.ch | Casino du Lac Meyrin SA | Historical official lead; current concession/operator and game permits must be rechecked |
+| Swiss4win.ch | https://www.swiss4win.ch | Casinò Lugano SA | Historical official lead; current concession/operator and game permits must be rechecked |
+| Casino777.ch | https://www.casino777.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
+| 7melons.ch | https://7melons.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
+| Admiral.ch (CH) | https://www.admiral.ch | Not verified in this pass; historical ESBK material does not establish this online domain | **Unverified — do not count** |
+| Casineo.ch | https://www.casineo.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
 
-The ESBK page was published on 17 March 2026 and lists Casino Locarno/Casineo.ch as starting online operations on 17 March 2026. The ESBK's separate [unauthorised online games page](https://www.esbk.admin.ch/en/unauthorised-online-games) says foreign/unlicensed sites may be blocked in Switzerland. Do not use a foreign licence as evidence of Swiss permission.
+**Primary sources:** [ESBK current online gambling page](https://www.esbk.admin.ch/en/online-gambling); [ESBK 2023 annual report (official PDF)](https://www.esbk.admin.ch/dam/it/sd-web/pdM8POPNTNDw/jahresbericht-2023-i.pdf). A foreign licence is not Swiss authorisation. Do not publish an online casino as authorised in Switzerland without matching the current Swiss concession extension and relevant game permits.
 
 ## Belgium (BE): official A+ register
 
-The Belgian Gaming Commission's official A+ table returned these online-casino domain records. The retrieved table says it was last updated 8 October 2026. These are candidate leads only: recheck the live register and current licence status immediately before any review publication, and reconcile the listed gaming establishment/operator against the actual contracting entity and product.
+The Belgian Gaming Commission's [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en) was last updated 8 October 2026 in the retrieved record. It provides regulator-backed domain/operator leads, but each entry must be rechecked on the live register before publication and matched to the exact contracting entity and current product.
 
 | Candidate brand/domain | Operator shown in register | Register record |
 |---|---|---|
@@ -38,9 +40,9 @@ The Belgian Gaming Commission's official A+ table returned these online-casino d
 | Ladbrokes Casino (BE) — https://www.casinoladbrokes.be | SA/NV GRAND CASINO DE DINANT | Dossier 65721; expiry 2038-01-19 |
 | Unibet Casino (BE) — https://www.unibetcasino.be | SA/NV BLANKENBERGE CASINO-KURSAAL | Dossier 505296; expiry 2036-12-31 |
 | bwin Casino (BE) — https://www.bwincasino.be | SA/NV Infiniti Casino Oostende | Dossier 571352; expiry 2036-08-01 |
-| Betsson Casino (BE) — https://www.betssoncasino.be | SA/NV EXPLOITATIE CASINO MIDDELKERKE | Dossier 595153; expiry 2039-02-22 |
+| Betfirst Casino (BE) — https://www.betfirstcasino.be | SA/NV EXPLOITATIE CASINO MIDDELKERKE | Dossier 595153; expiry 2039-02-22 |
 
-**Primary source:** [Belgian Gaming Commission — A+ licence table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en). The table's expiry dates and current status must be revalidated on the live record; this document is a dated research snapshot.
+**Correction log:** the official A+ row for dossier 595153 lists `betfirstcasino.be`, not `betssoncasino.be`. The active registry has been corrected to Betfirst Casino (BE); do not substitute the generic Betsson brand/domain for this Belgian A+ entry.
 
 ## Remaining gates before any of these can be published
 
@@ -55,4 +57,4 @@ The Belgian Gaming Commission's official A+ table returned these online-casino d
 
 ## Registry and target accounting
 
-The active candidate registry increased from 54 to 74 rows. The new rows are market-specific candidate records, not completed reviews. **Approved reviews remain 0/100** until all gates above and the project-wide approval process pass. Switzerland and Belgium evidence cannot be reused to infer authorisation in another target geography.
+The current active CSV contains 115 research records, including one disqualified historical GB record and five Swiss leads that are explicitly unverified. Registry rows are not approved reviews. **Approved reviews remain 0/100** until all evidence gates and the project-wide approval process pass. Switzerland and Belgium evidence cannot be reused to infer authorisation in another target geography.
