@@ -60,3 +60,12 @@ The Spanish Dirección General de Ordenación del Juego (DGOJ) operator director
 ## Registry accounting
 
 The active registry now contains 101 market-specific candidate/research rows. The 27 rows from this batch are leads only; their casino vertical remains explicitly unconfirmed pending primary-record verification. All rows remain `HOLD`; the approved-review count remains **0/100**. Candidate-row count must not be reported as completed review count.
+
+
+## Counting and evidence limitation — checked 23 October 2026
+
+The Italian ADM public list currently shows online-gambling concession/domain pairs including 888casino.it, casinoveneziaonline.it, online.casinosanremo.it, starcasino.it, betsson.it, betfair.it, betflag.it, betpoint.it, sunbet.it, bgame.it, netbet.it, admiralbet.it, codere.it, eplay24.it, sportium.it, eurobet.it, bwin.it, giocodigitale.it, leovegas.it, pokerstars.it, starvegas.it, quigioco.it, bet365.it and others. This list proves an ADM concession/domain association for remote gambling; it does **not** by itself prove that each listed site offers the online-casino vertical or that the relevant game permissions are current. For every candidate, verify exact casino-game vertical, active concession, legal contracting entity, current terms, payments/withdrawals, complaints, safer gambling, privacy/cookies, accessibility and enforcement before counting it as an eligible casino review.
+
+Primary source: https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari
+
+Current project registry contains 26 Italy-labelled candidate rows, including overlapping/global brands and a duplicated LeoVegas/Codere family entry under different row labels. Do not count these as 26 distinct, eligible casino operators until duplicate market-brand pairs and vertical permissions are reconciled. All remain HOLD.
