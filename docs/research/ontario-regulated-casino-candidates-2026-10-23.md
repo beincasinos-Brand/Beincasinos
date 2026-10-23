@@ -26,7 +26,7 @@ The directory explains that, except for OLG.ca, an operator in the regulated mar
 | PointsBet | Pointsbet Canada Operations 1 Inc. | https://on.pointsbet.ca |
 | Spin Casino | Cadtree Limited | https://www.spincasino.ca |
 
-**Counting note:** the current CSV contains 12 Ontario-focused candidates from this list; the memo also records the Spin Casino Ontario route as an additional directory-backed candidate if it is not already counted as a distinct Ontario row. Before counting toward the final 100, deduplicate brand/market pairs and match the active legal entity and product. Do not count duplicate variants as separate brands unless the product, legal entity, terms and user experience are materially different.
+**Counting note:** the active CSV now contains 13 Ontario-focused records from this list, including OLG.ca and Spin Casino. Before counting toward the final 100, deduplicate brand/market pairs and match the active legal entity and product. Do not count duplicate variants as separate brands unless the product, legal entity, terms and user experience are materially different.
 
 ## Required next evidence
 
