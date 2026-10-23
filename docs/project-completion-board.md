@@ -479,3 +479,11 @@
 - Current terms identify Holland Casino N.V. and Ksa permit 3627, describe segregated customer funds, account/identity/payment restrictions and complaint intake timestamps. Main site direct fetch returned HTTP 403 to the extraction service; this is logged as a verification limitation, not as site unavailability.
 - Historical Ksa Wwft notice says the 2019 instruction was complied with within the prescribed deadlines. This is recorded as historical enforcement with remediation, not an unresolved current breach.
 - **HOLD remains.** Need normal-browser recheck, exact domain/permit matching, full current cashier/complaints/privacy/accessibility review and independent second-editor approval. This update adds zero approved reviews. No Actions workflow, Cloudflare deploy, DNS change or Search Console write was triggered.
+
+
+## NorthStar Bets Ontario evidence refresh — 23 October 2026
+- Added internal dossier `docs/reviews/internal/northstar-bets-ontario-evidence-review-2026-10-23.md` with regulator-directory evidence and public product-route findings.
+- iGaming Ontario's directory (accurate 1 September 2026) lists NorthStar Gaming (Ontario) Inc. and NorthStar Bets under Casino and Sports Betting. This is Ontario-specific, not a Canada-wide permission claim: https://igamingontario.ca/en/operator/operators
+- iGO materials state 19+ and physical Ontario location for wagering, describe province-wide BetGuard opt-out and site-level self-exclusion expectations. No account controls or payment flows were tested.
+- Current offer terms, cashier/payment rules, withdrawal fees/timing, complaints escalation, privacy/cookies and accessibility remain open. Fetch errors are recorded as limitations, not proof that policies are absent.
+- Status remains HOLD; approved reviews 0/100. No Actions workflow, Cloudflare Pages deploy, DNS change or Search Console write was triggered.
