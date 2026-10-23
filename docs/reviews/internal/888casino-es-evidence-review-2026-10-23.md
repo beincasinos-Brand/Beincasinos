@@ -64,3 +64,40 @@ Until the current Spanish site and its actual legal/help links can be inspected,
 - [ ] Complete legal/editorial approval and affiliate disclosure.
 
 **Decision: HOLD.** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
+
+
+## Regulatory-history refresh — 23 October 2026
+
+The DGOJ operator profile and sanctions index were rechecked after the initial evidence review. The original checklist's statement that enforcement history was “not fully checked” can now be refined: the public sanctions index contains multiple entries for 888 ONLINE GAMES ESPAÑA, S.A., including:
+
+- **ES/2025/003** — listed by DGOJ as a serious administrative infringement under Article 40(k) of Spain's Gambling Act 13/2011. Index entry: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=3&type=94
+- **ES/2025/025** — listed by DGOJ as a serious administrative infringement under Article 40(j). Index entry: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=1
+- **ES/2024/179** — listed by DGOJ as a serious administrative infringement under Article 40(j). Index entry: https://ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=4
+- **ES/2023/078** — the DGOJ decision page identifies the same operator and a serious administrative infringement under Article 40(j). Decision index: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras/es2023078
+
+These are index-level findings. Before writing a consumer-facing summary, open and inspect each decision/resolution itself to verify the conduct, dates, finality/status, penalty amount and any appeal or payment details. Do not infer the underlying conduct solely from the statutory article or describe these as a single combined penalty.
+
+The DGOJ operator profile continues to associate **https://www.888casino.es** with **888 ONLINE GAMES ESPAÑA, S.A.**, and lists slots, blackjack, roulette and poker among the singular licence categories. Source: https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa
+
+### Required editorial treatment
+
+If the review later reaches approval, the regulatory-history section must report each material decision separately with its decision date, factual conduct, amount and procedural status, based on the underlying official resolution. A licence/domain listing is not a substitute for a current consumer-terms review, and a regulator record alone does not establish current customer experience.
+
+**Disposition remains HOLD.** Current Spanish terms, promotions, payments, complaints/ADR, safer-gambling implementation, privacy/cookies, accessibility, and independent review remain unverified. No score, recommendation or “safe/trusted” claim is authorised by this refresh.
+
+
+## Separate AML enforcement record — BOE publication checked 23 October 2026
+
+A separate Spanish anti-money-laundering enforcement notice was found in the official Boletín Oficial del Estado (BOE), distinct from the DGOJ gambling-licence enforcement index:
+
+- **Official publication:** BOE-A-2026-15121, published 10 July 2026.
+- **Entity named:** 888 Online Games España, S.A.
+- **Underlying decision date:** 23 June 2025, file ST/4006/2024.
+- **Status stated in the notice:** final in the administrative route.
+- **Findings stated:** two serious AML/CFT infringements — failure to apply continuous monitoring to the business relationship and failure to conduct a special examination.
+- **Sanctions stated:** two separate fines of **€275,976 each**, each accompanied by a public reprimand; combined arithmetic total €551,952, but the two findings must still be described separately.
+- **Primary source:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15121
+
+Editorial guardrail: label this as an AML/CFT action, not a DGOJ casino-licensing sanction. Do not conflate it with the DGOJ records ES/2025/003, ES/2025/025, ES/2024/179 or ES/2023/078. The BOE notice supports the specific facts above; consumer-facing treatment still needs legal/editorial review and context from the complete notice.
+
+**Disposition remains HOLD.** This update strengthens regulatory-history sourcing only. It does not verify current consumer terms, promotions, payments, complaint handling, safer-gambling tools, privacy/cookies or accessibility.
