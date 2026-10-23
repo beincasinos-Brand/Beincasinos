@@ -220,3 +220,13 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+### Target continuation — Betway Great Britain official register refresh (23 October 2026)
+
+- Rechecked the UKGC public register for Betway Limited, account 39372.
+- Recorded the active Casino Remote permission and register-listed domains in the internal evidence review.
+- Explicitly separated casino permission from real-event and virtual-event betting permissions.
+- Preserved unresolved historical-action discrepancy: current account page's “no actions recorded” wording is not sufficient to claim no historical regulatory action; primary notices still need entity/account reconciliation.
+- Evidence file: `docs/reviews/internal/betway-casino-gb-evidence-review-2026-10-23.md`.
+- Status remains HOLD; approved review count unchanged. No public content or Cloudflare deployment changed.
