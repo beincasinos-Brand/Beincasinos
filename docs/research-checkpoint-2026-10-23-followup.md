@@ -470,3 +470,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The guide links to existing relevant BeInCasinos educational pages and primary UKGC resources. It explicitly says the review directory is still in development and does not imply any operator was tested or approved.
 - Commits: guide `c7d89cce61e814b88ff563fcca2bc869aa5030ff`; guide hub `d89c9ecc93ba6ce13b2b7eddc10f1ca949c65f3b`; sitemap `34693953fe610bcc9f4fabd81722772ffb1dddfc`.
 - Source files were changed only. No deployment, GitHub Actions run, live HTTP validation, or Search Console inspection was performed; sitemap inclusion does not prove indexing.
+
+
+## 48. Bet365 GB primary-source recheck — 23 October 2026
+
+- Re-fetched UKGC account 55148 (Hillside (UK Sports) ENC) and 55149 (Hillside (UK Gaming) ENC). The former still lists active remote real-event, virtual-event and pool betting permissions; the latter lists active remote Casino permission. Both domain records list `bet365.com` as Active.
+- Re-fetched the official GB terms page; it loaded and states the 18+ eligibility requirement and that verification checks may apply before account actions and on an ongoing basis.
+- Re-fetched the UKGC's 4 April 2024 settlement announcement: £582,120 total, split £343,035 for Hillside (UK Gaming) ENC and £239,085 for Hillside (UK Sports) ENC, for failures identified in a March 2022 assessment.
+- Updated `docs/brand-profile-bet365-gb-draft.md` with a dated source recheck, commit `4163c0c1b7f37ade486c25d79af2ec55b7ba81bc`.
+- Status remains **HOLD**. Current bonus specifics, cashier/withdrawal evidence, complaint/ADR, safer-gambling usability, independent feedback, accessibility and second-editor sign-off remain open. This is not an approved review and does not count toward 100 approved reviews.
+- No GitHub Actions workflow or production deployment was triggered.
