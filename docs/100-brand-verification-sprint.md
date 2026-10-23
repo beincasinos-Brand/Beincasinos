@@ -435,3 +435,8 @@ The existing Betfred Casino row in `docs/brand-research-template.csv` now links 
 ## Candidate register refresh — 888casino (2026-10-23)
 
 The existing 888casino row now records the current GB user-agreement URL, withdrawal-policy URL, the stated policy update date, the internal complaints/ADR wording, and the regulator's three recorded actions for 888 UK Limited. The row warns that the withdrawal policy is dated and must be rechecked, and keeps the brand at HOLD pending current market-route, payments, promotions, safer-gambling/privacy and independent-review checks. A read-back parse confirms the registry still has 100 rows × 31 columns, zero ragged rows, zero duplicate names, 49 HOLD and 51 not reviewed, with zero publication approvals. No validator/CI run or deployment was triggered.
+
+
+## Live sitemap and guide sweep — 2026-10-23
+
+The current 45-URL production sitemap was fetched and checked: 45/45 pages returned content without fetch errors, all had titles and canonicals matching the requested URL, with no redirects or canonical mismatches observed. A separate sweep checked all 30 guide URLs linked from the guides hub with no fetch errors or canonical mismatches. Full details and limitations are in the [SEO execution backlog](seo-execution-backlog-2026-10-22.md). This does not prove search-engine indexing and does not replace response-status/header checks, XML parser validation, structured-data validation, accessibility/browser QA or Search Console inspection. No Actions run or deployment was triggered.
