@@ -25,7 +25,7 @@ The Federal Gaming Board's [current online-gambling page](https://www.esbk.admin
 
 ## Belgium (BE): official A+ register
 
-The Belgian Gaming Commission's [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en) shows a last-update timestamp of 28 August 2026 in the retrieved table. It provides regulator-backed domain/operator leads, but each entry must be rechecked on the live register before publication and matched to the exact contracting entity and current product.
+The Belgian Gaming Commission's [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en) returned the live entries on 23 October 2026; the table includes expiry dates but its embedded display did not reliably expose a separate last-update timestamp in this pass. It provides regulator-backed domain/operator leads, but each entry must be rechecked on the live register before publication and matched to the exact contracting entity and current product.
 
 | Candidate brand/domain | Operator shown in register | Register record |
 |---|---|---|
@@ -38,9 +38,9 @@ The Belgian Gaming Commission's [official A+ table](https://data.gamingcommissio
 | Ladbrokes Casino (BE) — https://www.casinoladbrokes.be | SA/NV GRAND CASINO DE DINANT | Dossier 65721; expiry 2038-01-19 |
 | Unibet Casino (BE) — https://www.unibetcasino.be | SA/NV BLANKENBERGE CASINO-KURSAAL | Dossier 505296; expiry 2036-12-31 |
 | bwin Casino (BE) — https://www.bwincasino.be | SA/NV Infiniti Casino Oostende | Dossier 571352; expiry 2036-08-01 |
-| Betfirst Casino (BE) — https://www.betfirstcasino.be | SA/NV EXPLOITATIE CASINO MIDDELKERKE | Dossier 595153; expiry 2039-02-22 |
+| Betsson Casino (BE) — https://www.betssoncasino.be | SA/NV EXPLOITATIE CASINO MIDDELKERKE | Dossier 595153; expiry 2039-02-22 |
 
-**Correction log:** the official A+ row for dossier 595153 lists `betfirstcasino.be`, not `betssoncasino.be`. The active registry has been corrected to Betfirst Casino (BE); do not substitute the generic Betsson brand/domain for this Belgian A+ entry.
+**Correction log — 23 October 2026:** a fresh read of the current official A+ table returned `betssoncasino.be` for dossier 595153 under SA/NV EXPLOITATIE CASINO MIDDELKERKE, replacing the earlier retrieved value `betfirstcasino.be`. The registry has been corrected to Betsson Casino (BE). The prior snapshot discrepancy remains open and must be rechecked at publication time.
 
 ## Remaining gates before any of these can be published
 
