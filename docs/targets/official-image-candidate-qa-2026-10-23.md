@@ -47,12 +47,12 @@ Directory: `brand-directory/index.html`
 
 - Added Silkbet's `https://silkbet.bet/assets/silkbet-gold.svg` after the official Silkbet homepage exposed it as an image link. It is labelled `SOURCE FOUND · RIGHTS PENDING` and has a monogram fallback. This does not grant republication rights.
 - Tried the tracker-listed BigBangBet homepage, but the fetch returned `invalid_url`; no image URL was guessed. Its directory card retains the custom artwork and the asset register marks it `NOT SOURCED`.
-- Current directory count: 22 official-site image candidate tags across 100 cards; all remain subject to direct-load, identity and rights checks. The France/Australia category placeholders and the planned Maine Caesars category placeholder are removed from the 100-brand list.
+- Current directory count before this batch: 22 official-site image candidate tags across 100 cards; all remain subject to direct-load, identity and rights checks. The France/Australia category placeholders and the planned Maine Caesars category placeholder are removed from the 100-brand list.
 
 
 ## Inventory reconciliation — 23 October 2026
 
-The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 22 image elements, 22 visible rights-pending labels, and 22 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 78 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
+The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 25 image elements, 25 visible rights-pending labels, and 25 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 75 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
 
 
 ### Ember Casino image candidate — 23 October 2026
@@ -66,3 +66,14 @@ The current HTML and asset register were re-counted after adding Silkbet and Emb
 - Replaced the excluded, planned Maine entry `Caesars online casino brands` with `Horseshoe Online Casino (Michigan)`, using the Michigan Gaming Control Board's authorized-platform page, which lists Caesars/Horseshoe and the Michigan casino-games URL `https://horseshoeonlinecasino.com/us/mi/casino`.
 - The replacement is Michigan-only and remains HOLD. The exact customer-contracting entity, current consumer terms, payments, complaints, safer-gambling controls and enforcement history still need review. It is not a claim of consumer testing or a positive review.
 - The replacement does not add an image asset; its CSS artwork remains clearly editorial. Current static inventory remains 100 unique brand labels and 22 sourced image candidates, all rights pending.
+
+
+### Official-site image follow-up — 23 October 2026
+
+Three additional image candidates were found on the respective brand sites and registered with explicit source and reuse caveats:
+
+- **ThreeSix Vegas:** `https://36vegascasinos.uk/img/general-category/logo-36vegas-casino-jpo.webp` exposed by `https://36vegascasinos.uk/`. The directory's listed domain is `36vegas.co.uk`, so confirm the domain/operator relationship before treating this asset as the same brand's logo.
+- **Midnite:** `https://www.midnite.com/images/brands/midnite/logo-emblem-2025.svg` exposed by the official Midnite homepage; this appears to be an emblem, not necessarily a full wordmark.
+- **Winz.nl:** `https://www.winz.nl/_internal/hy-images/cmv4yct4d06bo01uzglxp45qb/x0AngDYSTKOQGUOy7vFO` exposed as the official homepage favicon, so it is a small-icon candidate, not a full-size logo.
+
+The current inventory is **25/100** sourced candidates. All remain rights pending and need direct-load/visual review. The 75 remaining cards use editorial CSS art/monograms. No reuse permission is inferred from source presence.
