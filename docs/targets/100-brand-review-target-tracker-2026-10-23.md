@@ -225,3 +225,16 @@ Latest branch-source audit: **100 unique brand cards, 100 visible research snaps
 ## Brand directory image-state filter — 23 October 2026
 
 The directory page now has a proposed image-state filter in branch `feature/brand-directory-image-status-filter-2026-10-23`: `Source found · rights pending` versus `Editorial artwork fallback`. The filter is a triage aid only; it does not certify reuse rights or official brand identity. Existing market, verification status and evidence-grade filters remain. Change is pending review and has not been deployed.
+
+
+## Snapshot reconciliation addendum — 23 October 2026
+
+The current working-branch CSV was parsed and the deduplication audit was regenerated from that same file:
+
+- **204** market-specific research rows.
+- **154** provisional `global_brand_id` values; not an eligibility count.
+- **30** repeated-ID groups covering **80** rows, or **50** excess rows beyond one row per ID. Market rows must remain separate for licensing and terms evidence.
+- **202 HOLD**, **2 rejected**, **0 publication-approved reviews**.
+- Directory: **100 research cards**, not 100 verified distinct global brands.
+
+These counts describe the working branch snapshot, not a production deployment. Eligibility is still unverified. Next, manually inspect the 30 repeated-ID groups, reconcile the 2 rejected rows and any unconfirmed/historical market entries, and verify exact current casino permissions plus customer-facing domains before marking any brand-market pair eligible. Do not increase the approved-review counter for internal drafts.
