@@ -270,3 +270,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - UKGC decision dated 24 August 2026 imposes a £535 financial penalty for breach of LC 15.3.1 concerning general and regulatory returns.
 - The dossier avoids inferring consumer harm or an online casino product from this limited decision. The current licence category and any consumer-facing brand/domain must be verified separately.
 - Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
+
+
+## 28. Octobet / Octopus Game Limited brand dossier added
+
+- File: `docs/brand-profile-octobet-gb-draft.md`
+- Commit: `2195533c819b88b9f0d609900f60dc219248f614`
+- UKGC account 62545 lists Octopus Game Limited's remote casino and remote betting permissions as active; Octobet is listed as an active trading name and octobet.com as an active domain at time of research.
+- UKGC settlement dated 25 March 2026: £26,000 payment in lieu of penalty, Commission costs and published statement; findings covered AML/CTF controls and remote customer interaction / social responsibility.
+- Dossier includes both adverse findings and the regulator's stated mitigating factors, and does not claim remediation is complete.
+- Consumer testing (terms, deposits/withdrawals, games, support, limits) remains incomplete. Status **HOLD / DRAFT**; approved public reviews contributed: **0**.
