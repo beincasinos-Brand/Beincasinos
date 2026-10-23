@@ -317,3 +317,10 @@ Added [batch 9 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-
 - **L & L Europe:** UKGC's 21 October 2026 settlement required a £900,000 payment in lieu of penalty and covered unfair withdrawal terms/withholding, AML/CTF, remote customer interaction and technical financial-limit controls. This is an operator-level watchlist lead; the current registry has no clearly matched L & L Europe brand row.
 
 **Decision:** Grosvenor remains HOLD. NetBet and L & L Europe remain internal leads outside the 100-brand registry. The evidence distinguishes historic findings and product scope; no current consumer test or remediation is claimed. No Actions or deployment was triggered.
+
+
+## Registry evidence batch 10 — Jackpot City and Spin Casino (2026-10-22)
+
+Added [batch 10 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-10-22-jackpotcity-spincasino.md) and updated both existing candidate rows to **evidence captured / HOLD**.
+
+The UKGC domain register for Betway Limited (account 39372) lists `jackpotcity.co.uk`, `jackpotcitycasino.co.uk` and `spincasino.co.uk` as active. This is a useful official-register lead, not proof of current customer terms, consumer quality or full review completion. Confirm the exact live product and contracting entity, bonus/wagering rules, payments/withdrawals, complaints/ADR, privacy, safer-gambling tools and regulatory history before publication. No consumer account test or second-editor approval is claimed.
