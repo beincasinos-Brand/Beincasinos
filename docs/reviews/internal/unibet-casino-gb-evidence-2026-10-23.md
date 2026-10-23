@@ -12,6 +12,7 @@
 - **Official UKGC domain record checked:** the record lists **www.unibet.co.uk** as Active and **touch.unibt.co.uk** as Active; it also lists www.32red.com as Active and two Bingo.com domains as White Label. Domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/45322
 - This establishes a stronger operator/domain/licence match for Unibet GB than the initial search leads. Still verify the current official Unibet site footer and terms directly before public approval, and inspect regulatory actions against the correct legal entity.
 - The Gambling Commission register notes that domain and trading-name data are supplied by businesses and are not guaranteed by the Commission.
+- **Material regulatory history:** UKGC decision dated 22 September 2025 imposed a £10,000,000 financial penalty, warning and additional licence condition on Platinum Gaming Limited following findings involving anti-money-laundering and customer-interaction requirements for January 2023–May 2024. See the internal [regulatory action addendum](./unibet-gb-regulatory-action-addendum-2026-10-23.md) and the official decision: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/291. Attribute this to the legal operator, not to the Unibet brand alone.
 - No account creation, deposit, gameplay, withdrawal or customer-support test has been performed for this pack. No bonus or payout claim is verified here.
 
 ## Sources to verify before approval
@@ -31,7 +32,8 @@
 - [x] Confirm the official UKGC register lists active remote casino permission for Platinum Gaming Limited (account 45322).
 - [x] Confirm the official UKGC domain record lists www.unibet.co.uk as Active.
 - [ ] Match the exact live Unibet site footer and current terms to the operator/domain record, and inspect regulatory actions.
-- [ ] Check all current regulatory actions and accurately attribute each action to the correct legal entity; do not conflate brand-wide and company-specific findings.
+- [x] Record the 22 September 2025 UKGC action against Platinum Gaming Limited in the regulatory-action addendum.
+- [ ] Complete a full scan of all current regulatory actions and accurately attribute each to the correct legal entity; do not conflate brand-wide and company-specific findings.
 - [ ] Read the live terms, bonus terms, withdrawal/payment pages, dormant-account rules, complaint process, privacy/cookie policy and safer-gambling tools.
 - [ ] Verify game catalogue and providers directly on the live product; do not invent counts or availability.
 - [ ] Test mobile usability, navigation and account/support flows without depositing money; any real-money testing requires explicit authorization and a lawful, safe test plan.
