@@ -52,7 +52,7 @@ Directory: `brand-directory/index.html`
 
 ## Inventory reconciliation — 23 October 2026
 
-The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 25 image elements, 25 visible rights-pending labels, and 25 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 75 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
+The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 33 image elements, 33 visible rights-pending labels, and 33 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 67 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
 
 
 ### Ember Casino image candidate — 23 October 2026
@@ -102,3 +102,8 @@ Current inventory: 25/100 image candidates, all rights pending; 75 cards retain 
 ### Starcasino official logo candidate — 23 October 2026
 
 The official Starcasino casino page exposed `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It has been added as a rights-pending candidate. The source page does not establish permission to reuse the logo. Current inventory: 30/100 image candidates; 70 cards use editorial CSS artwork/monograms.
+
+
+### Additional official-site image candidates — 23 October 2026
+
+Added TOTO's official logo SVG, plus Kansino and Stakewise UK favicon candidates. The latter are small-icon candidates, not full-size logos. All are marked **SOURCE FOUND — RIGHTS PENDING**. Current image inventory is 33/100, with 67 cards still using editorial CSS artwork/monograms. This source check does not establish reuse rights, full image quality, or production deployment.
