@@ -34,3 +34,13 @@ All six weighted criteria remain **Not assessed**: terms clarity (25), withdrawa
 ## Commercial status
 
 No paid listing, affiliate relationship, outreach, or willingness-to-pay claim is confirmed in this dossier. Commercial status must not affect eligibility, evidence interpretation, score, or ranking.
+
+
+## Fresh primary-source recheck — 23 October 2026
+
+- Re-fetched the UKGC licence summary for account 39028: 888 UK Limited still has active remote Casino, Bingo, real-event betting and virtual-event betting permissions in the retrieved record.
+- Re-fetched the domain record: `888casino.com` is listed as Active for account 39028. The record also contains both active and inactive domains; do not infer current status for any other domain without checking its row.
+- Re-fetched the account-specific sanctions page. It records a decision dated 19 August 2024 imposing a £23,000 financial penalty on 888 UK Limited for a breach of licence condition 6.1.2 (use of credit cards). The Commission notes the licensee self-identified the breach, reported it proactively, took immediate remedial action and cooperated. Any future review must include this material context and not imply it proves present-day product quality.
+- Official-site fetch limitation: requests to `https://www.888casino.com/` and `/terms/` returned empty content to the research fetcher, while `/responsible-gambling/` returned HTTP 404. This is a tooling/access observation, not proof that the pages are unavailable to GB users. The official-site terms, payments, complaints/ADR and safer-gambling controls remain unverified in this pass.
+
+**Status remains HOLD.** Licence/domain records and the 2024 action are refreshed; the consumer-evidence gates and second-editor review remain open. No score assigned and no public review counted.
