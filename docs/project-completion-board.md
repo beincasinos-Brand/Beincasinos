@@ -1,3 +1,13 @@
+# Latest research checkpoint — 23 October 2026, batch 7
+
+- Added `docs/gb-brand-verification-follow-up-batch-7-2026-10-23.md` on branch `research/gb-batch-7-2026-10-23`; this avoids committing research-only work to `main` and triggering unnecessary Cloudflare Pages builds.
+- Documented five further UKGC register candidates with official domain/trading-name references: BetTom (Bet Tom Limited, 64959), Bet Ahoy (Bet Ahoy Ltd, 100094), BetMaster (BM Solutions GB Ltd, 65699), 24bettle (Condor Malta Limited, 50094), and B-Bets (Condor Malta Limited, 50094).
+- The 24bettle record has a spelling discrepancy between domain `24bettle.com` and trading name `24bette`; it remains HOLD until resolved against the live site and terms. 24bettle and B-Bets share a legal licensee, so do not double-count the operator; assess each distinct consumer brand separately.
+- UKGC action pages state no recorded actions for Bet Tom Limited, BM Solutions GB Ltd, and Condor Malta Limited at the time checked. This is not a guarantee of safety or service quality.
+- Batch result: **5 additional first-stage candidates documented; 0 publication-approved brands; 0 completed reviews**. Total fully approved reviews remains **0/100** pending domain/entity/product/market matching, terms, payment/withdrawal, complaint and safer-gambling evidence plus second-editor approval.
+- Commit: `b3e7a04e6a7c22134318a107d9e1d7f11b636f5a`. No production deploy, DNS change, Search Console write action, or operator outreach was performed.
+- Primary source caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
