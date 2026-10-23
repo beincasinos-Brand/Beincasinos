@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **83 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **84 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -105,9 +105,12 @@ Classify each file as consumer brand, supplier/operator context, duplicate marke
 
 ## Inventory reconciliation — 23 October 2026, follow-up
 
-A fresh recursive tree check after the latest research commits found **84 files including the template, or 83 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
+A fresh recursive tree check after the latest research commits found **85 files including the template, or 84 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
 
 - `docs/brand-profile-bet-ahoy-gb-draft.md` — preliminary GB identity research; **HOLD**, not an approved review. Official-site access was location-restricted in the research session, so current terms, payments, complaints and safer-gambling evidence remain unverified.
 - `docs/brand-profile-pokerstars-gb-draft.md` — internal dossier; verify its current status in the file and do not count it as an approved review by filename alone.
 
 The count remains a count of dossier files, not 83 unique verified consumer brands. The number of approved public reviews is still determined only by the evidence gate and second-editor sign-off; this inventory does not certify any review as approved.
+
+
+- `docs/brand-profile-stakemate-gb-draft.md` — preliminary Great Britain dossier for Stakemate / Bet Theory (Malta) Limited (UKGC account 66151). Initial domain/operator match confirmed; consumer terms reviewed, but payment performance and full promotion evidence remain open. **HOLD**, not an approved review.
