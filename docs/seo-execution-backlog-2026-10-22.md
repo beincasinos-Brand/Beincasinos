@@ -171,3 +171,10 @@ A fresh uncached fetch of the production routes now shows the market hub is live
 - `https://beincasinos.online/robots.txt` is reachable and contains `User-agent: *`, `Allow: /` and the canonical sitemap URL.
 
 This verifies the current route, metadata/canonical and sitemap membership at fetch time. It does **not** prove Google has indexed the page, validate every sitemap URL, test all HTTP response headers, or replace Search Console URL Inspection. The old 22 October observations remain as historical snapshots and should not be read as current state. The full release gate remains HOLD until the exact final artifact, whole-site checks and brand/editorial approvals are complete.
+
+
+## Full live sitemap fetch sweep — 23 October 2026
+
+The current production sitemap was fetched and its **45 URLs** were checked in live batches. Results: **45/45 returned extracted page content without a fetch error; 45/45 had a title; 45/45 exposed a canonical matching the requested URL; zero redirects were observed; zero canonical mismatches; zero pages fell below 500 extracted characters**. The separate guide-hub link sweep also checked 30 linked guide URLs with no fetch errors or canonical mismatches.
+
+This is a live content/metadata fetch audit, not a substitute for HTTP-status tooling, XML parser validation, response-header checks, structured-data validation, browser accessibility testing, Search Console URL Inspection, or proof of indexing. A fetch returning content does not prove a URL is indexed. Preserve the publication and legal/editorial gates; approved casino reviews remain 0/100.
