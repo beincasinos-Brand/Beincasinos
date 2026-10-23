@@ -66,3 +66,20 @@ These are statements in the published terms, not independent testing. No account
 ## 5. Decision
 
 **Keep Grosvenor as a research candidate; do not approve or score a public GB online-casino review yet.** The key blocker is exact online operator/domain/licence mapping across two distinct UKGC account records. A licence entry for one entity and brand-name similarity are not substitutes for that mapping. No public recommendation or claim of hands-on experience is supported by this checkpoint.
+
+
+## 6. Regulatory source refresh — 23 October 2026
+
+The UK Gambling Commission's current register and its public statement published 7 October 2026 were checked directly.
+
+- The register currently shows account **614 (Grosvenor Casinos Limited)** with an active Casino Remote licence and active non-remote casino permissions. The register also lists the trading name “grosvenor casinos”. Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/614 and https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/614
+- The domain-name record for account 614 still needs to be captured and reconciled against the online terms. The official Grosvenor terms in section 1.1 identify Rank Interactive (Gibraltar) Limited/account **57924** for GB online customers. This review must not treat account 614 as the confirmed online contracting entity merely because its register entry has remote casino permission.
+- The Commission's 7 October 2026 statement for **Grosvenor Casinos Limited, account 614** reports AML and premises-based safer-gambling control failures and a payment in lieu of a financial penalty of **£5,012,261**, with a third-party external audit commitment. Source: https://www.gamblingcommission.gov.uk/public-register/public-statement/detail/grosvenor-casinos-limited-public-statement
+- The Commission's wider news summary describes the group context as Grosvenor Casinos Limited, Grosvenor Casinos (GC) Limited and Gaming Group Limited, which run 51 casinos across Great Britain. Source: https://www.gamblingcommission.gov.uk/news/article/land-based-casino-operators-to-pay-gbp5m-for-regulatory-failures
+- **Scope caution:** the cited findings include premises-based customer-interaction examples and relate to the named licensee/wider group settlement. They must be disclosed accurately as material group/regulatory context, but must not be misrepresented as proof that the separate online contracting entity (Rank Interactive (Gibraltar) Limited/account 57924) was itself the subject of this specific account-614 action.
+
+### Editorial change required
+
+If a future online Grosvenor review is approved, add a concise, dated “Regulatory and ownership context” section that states the exact licensee, decision date, amount, control failures, and the distinction between account 614 and the online entity identified in the terms. Do not make an unqualified claim that the online product is “safe”, “trusted” or “fully verified” from licence status alone.
+
+**Disposition remains HOLD.** Exact online-domain mapping, current full product terms, payments, current promotions, safer-gambling implementation, complaints/ADR, privacy/cookies, hands-on testing where feasible, and independent second-review/sign-off remain open. Approved-review count remains unchanged.

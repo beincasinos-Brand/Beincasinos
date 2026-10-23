@@ -97,3 +97,36 @@ This is a provisional evidence summary, not a recommendation.
 10. Sources, checked date, review method, affiliate disclosure, author and independent reviewer.
 
 **Decision remains HOLD.** This evidence pack is internal and must be excluded from the public build. The brand remains 0/100 approved until every mandatory gate and independent sign-off are complete.
+
+
+## 8. Evidence refresh — 23 October 2026
+
+A source refresh was completed for the licence-identity and general-terms claims. This refresh does not replace the outstanding product, consumer-testing, and second-editor gates above.
+
+### Register and entity mapping
+
+- The UKGC public-register search for “Bet365” currently returns separate records for Hillside (Technology) Limited (account 38721), Hillside (UK Gaming) ENC (account 55149), and Hillside (UK Sports) ENC (account 55148). Its result associates `bet365.com` with accounts 55149 and 55148. This is why the casino review must use the gaming entity/account and must not collapse all group entities into one.
+- The UKGC explains that a remote casino operating licence authorises casino games delivered online and that operators serving consumers in Great Britain require the appropriate licence. This is a jurisdiction-specific regulatory test, not evidence of permission in other countries.
+- Register starting points:
+  - Search result: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Bet365
+  - Casino licence summary: https://www.gamblingcommission.gov.uk/public-register/business/detail/55149
+  - Domain register: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/55149
+  - UKGC remote casino licence explanation: https://www.gamblingcommission.gov.uk/licensees-and-businesses/licences-and-fees/remote-casino-operating-licence
+
+### Terms and consumer-risk framing
+
+The currently indexed official Great Britain terms page reiterates that funds may usually be withdrawn but can be delayed or withheld in specified circumstances; it also describes the 18+ eligibility requirement, offer-specific terms, and safer-gambling tools such as budget calculator, deposit limits, reality checks, activity tracker, time-out, self-exclusion and gambling blocks. These are operator disclosures, not independent evidence that tools work effectively in practice.
+
+- Official terms: https://help.bet365.com/s/en-gb/terms-and-conditions
+- The exact casino-specific rules, cashier options, current fees/limits, complaints/ADR route and real-world usability remain unverified in this refresh.
+
+### Editorial guardrails reaffirmed
+
+1. Do not call the product “verified” without distinguishing licence verification from consumer review completion.
+2. Do not describe the £582,120 2024 group settlement as solely a casino penalty; the prior evidence pack attributes £343,035 to Hillside (UK Gaming) ENC, based on the cited UKGC notice.
+3. Do not list a sportsbook Bet Credits offer as a casino welcome bonus.
+4. Do not claim a withdrawal speed, payout reliability, game count, support quality or hands-on experience without dated evidence.
+5. Do not imply that Great Britain permission establishes legal eligibility in Morocco or any other unassessed market.
+6. Keep the review unpublished until the checklist in section 6 is closed and an independent second reviewer records approval.
+
+**Disposition after refresh: HOLD; approved-review count unchanged at 0/100.** This is a source-evidence improvement, not a completed or publication-approved consumer review.
