@@ -261,3 +261,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The 8 September 2026 decision page records breaches relating to general/regulatory duties, key-event reporting, qualified persons, technical standards and cooperation with the Commission. The public entry reviewed does not fully describe the factual basis, so the dossier explicitly avoids speculation.
 - This is a supplier-level dossier, not a consumer casino review. Any casino using a named game must be checked against its own operator/domain/licence and current game availability.
 - Status **HOLD / DRAFT**; approved public consumer reviews contributed by this dossier: **0**.
+
+
+## 27. The Purple Gaming Company Limited operator dossier added
+
+- File: `docs/operator-profile-purple-gaming-company-gb-draft.md`
+- Commit: `920bfa10a684f3cd5880588371d86a09bb9c146b`
+- UKGC decision dated 24 August 2026 imposes a £535 financial penalty for breach of LC 15.3.1 concerning general and regulatory returns.
+- The dossier avoids inferring consumer harm or an online casino product from this limited decision. The current licence category and any consumer-facing brand/domain must be verified separately.
+- Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
