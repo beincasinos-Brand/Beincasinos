@@ -299,3 +299,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official UKGC notice says the combined remote licence was suspended on 21 September 2026 after AML concerns, then explicitly updated to say the suspension was lifted on 13 October 2026 following significant action by the operator.
 - Dossier preserves the full timeline and warns against incorrectly describing the licence as currently suspended or inferring a penalty/remediation details not stated in the source.
 - Current live register, terms, payments, complaints, safer-gambling controls and independent usability evidence remain open. Status **HOLD / DRAFT**; approved public reviews contributed: **0**.
+
+
+## 31. Reconcile the two north-star targets and SEO reporting — 23 October 2026
+
+- Target 1 remains **100 verified casino brands**. A brand counts only after the exact consumer domain, legal operator, market, licence/product scope, current terms and withdrawals, complaints/ADR, safer-gambling information, dated sources, and independent second-editor approval are complete. A dossier or prospect is not an approved review.
+- Target 2 remains **100,000,000 Google Search impressions per day** as an extreme long-term ambition, not a forecast or guarantee. Impressions are a Search Console metric, not a count of published URLs, indexed URLs, clicks, users or revenue.
+- Corrected the README's inconsistent 1,000,000/day wording to 100,000,000/day and aligned it with the existing SEO growth plan. Commit: `106b1d7c3c273fcd2418ef67da4bfced66ce773f`.
+- Source: [README update](https://github.com/beincasinos-Brand/Beincasinos/commit/106b1d7c3c273fcd2418ef67da4bfced66ce773f).
+- Measurement blocker remains: the latest documented Search Console connector result had a stale sitemap submission (32 URLs versus 44 in the live sitemap) and no Analytics rows; this does not prove zero impressions or indexing. Resubmit/recheck the current sitemap and inspect URL Inspection, Pages and Performance reports directly when the authorized browser workflow is available.
+- No deployment or GitHub Actions run was triggered. No new brand was counted as an approved review in this documentation-only change.
