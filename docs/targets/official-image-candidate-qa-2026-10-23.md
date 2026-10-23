@@ -34,3 +34,10 @@ Directory: `brand-directory/index.html`
 - This is markup/layout QA only. It does not prove remote image uptime, exact brand ownership, permission to reuse, or production deployment. Keep all image rights pending until permission/licence is documented.
 
 - Final markup recheck after the image-dimension edit: 100 unique card labels; all 100 cards include operator, regulator/authority, evidence grade, verification checklist, and research-context panel; all 20 image tags have dimensions and alt text; no malformed `height/src` attribute boundaries remain; no unsafe new-tab links were detected. The page intentionally remains `noindex,follow` until the review and asset-rights gates are cleared.
+
+
+## Brand-list integrity correction — 23 October 2026
+
+- Replaced the two non-brand placeholders `France online casino category` and `Australia online casino category` with two distinct Great Britain research leads: Silkbet and BigBangBet. Both have official UK Gambling Commission register/domain evidence in the tracker, but remain HOLD because consumer-product status/terms are not fully reviewed.
+- Preserved an explicit market-scope guardrail: France and Australia are excluded from this casino directory. The page remains `noindex,follow` and is not a consumer recommendation list.
+- Source-level check after replacement: 100 cards, 100 unique card labels, both new brand entries present, both category placeholders absent. This verifies list integrity only; it does not change publication approvals or image rights.
