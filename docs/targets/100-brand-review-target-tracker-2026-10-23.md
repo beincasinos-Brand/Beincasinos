@@ -120,3 +120,9 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - UKGC account 39426 lists remote casino permission Active. The UKGC action/public statement identifies a 17 December 2025 social-responsibility settlement involving four Paddy Power/Betfair licensees and a **£2,000,000 total group payment**; do not attribute the full sum to Paddy Power alone.
 - General terms were extracted, but casino-specific cashier/withdrawal detail, current bonus terms, complaints/ADR particulars, safer-gambling controls, privacy/cookies, accessibility and independent review remain incomplete. The safer-gambling route returned HTTP 403 to automated extraction; this is not evidence the controls are absent.
 - Decision remains **HOLD**; this dossier is research evidence, not an approved consumer review. Approved reviews remain **0/100**. No account or transaction testing and no deployment.
+
+
+## Organic growth workstream — 23 October 2026
+
+- Added `docs/research/10m-daily-impressions-execution-plan-2026-10-23.md` and linked it from the indexability audit. The plan defines the 10m/day ambition as a measured north star, documents that the Search Console baseline is still unverified, and sets out phased technical QA, lawful-market content clusters, a first-10-review gate, internal linking, query-led iteration and weekly metrics.
+- This does not change the verified review count: **0/100 publication-approved**. Registry candidates and internal dossiers do not count. The corrected 46-URL sitemap remains a research-branch change until an authorised Cloudflare Pages release.
