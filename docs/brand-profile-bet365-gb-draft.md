@@ -56,3 +56,15 @@ The regulator described weaknesses that included customer interactions not being
 6. Have a second reviewer verify every factual statement and every score before publication.
 
 **Counting rule:** this file is one researched candidate dossier, not one approved review. It must not be counted toward the 100 completed high-quality reviews until every gate is evidenced and independently checked.
+
+
+## 6. Fresh primary-source recheck — 23 October 2026
+
+A live fetch of the UKGC primary records reconfirmed the following on this research date:
+
+- Account 55148 (Hillside (UK Sports) ENC): active remote real-event betting, virtual-event betting and pool betting licences; `bet365.com` listed as an Active domain.
+- Account 55149 (Hillside (UK Gaming) ENC): active remote Casino licence; `bet365.com` listed as an Active domain.
+- The current official GB terms page loaded at https://help.bet365.com/s/en-gb/terms-and-conditions and states that account use creates a binding contract, that users must be 18 or older and meet eligibility criteria, and that verification checks can be required before certain account actions and on an ongoing basis.
+- The UKGC's 4 April 2024 announcement remains available and confirms the £582,120 regulatory settlement split between £343,035 for Hillside (UK Gaming) ENC and £239,085 for Hillside (UK Sports) ENC, following failings identified in a March 2022 assessment.
+
+This recheck strengthens the dated identity/licence and source availability record only. It does not close the dossier's open consumer-evidence gates: current bonus specifics, cashier/withdrawal rules, complaint/ADR route, safer-gambling usability, independent feedback sample, accessibility observations and second-editor review. Status remains **HOLD**; no rating assigned.
