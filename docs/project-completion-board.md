@@ -684,3 +684,8 @@
 - Main commits: page `841a1d5a3ed1359dfe362dfede73b0222f06609c`; build allowlist `c5fe583108de11f2ec796878e6cbd68471eb0cef`; source market guard `2a33045aa286dfac55e780f089c7dd51e962022e`; artifact guard `84f84fc087688c29458a5ac69412a9924aa64829`; sitemap `9749d8c53f25f92af336cacd7ef3e40372dcc658`; tracker reconciliation `5ce6e9e0ea2e71686e3ab2e0a07b2e73355ccb30`.
 - Validation/deployment: **not run/not deployed**. These source changes use `[CF-Pages-Skip]` to avoid spending Pages builds; GitHub Actions tests remain unrun pending a planned validation window.
 - Current registry re-read: 204 candidate rows, 154 distinct global IDs, 202 HOLD, 2 rejected; approved reviews remain 0/100. Counts represent leads, not approved unique brands.
+
+
+### Static source consistency check — 23 October 2026
+
+A read-only GitHub source check after the market-page commits confirmed: 46 indexable HTML routes estimated from the public build directories; 46 sitemap URLs; no duplicate sitemap URLs; `/markets/` is present; `markets/index.html` has a self-canonical and Terms link; all twelve geography labels are present; and the build, site-check, and artifact-check sources include the new market route. These are source assertions, **not** execution of the Python scripts, a rendered browser test, an HTTP-status test, or proof of production deployment/indexation.
