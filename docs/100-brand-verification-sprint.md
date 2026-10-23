@@ -565,3 +565,9 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Added [Ghana licensed-operator checkpoint](reviews/internal/ghana-operator-register-2026-10-23.md) and updated seven existing candidate rows against the Gaming Commission of Ghana's official register.
 - Register entries checked show 1 January 2026 issue date, 31 December 2026 expiry and Accra location. BETPAWA, BETIKA, SPORTYBET and 1XBET list online casino plus sports betting; PREMIER BET, 22BET and MELBET list sports betting only in the checked table. Do not infer casino permission for those sports-only entries.
 - The register omits domains and contracting legal entities, so match both against the permit before review. All seven remain HOLD.
+
+
+### Ghana register follow-up — Jackpot City
+
+- The Gaming Commission of Ghana's licensed-operator table also lists JACKPOTCITY for Online Casino, issued 1 January 2026 and expiring 31 December 2026, location Accra: https://www.gamingcommission.gov.gh/licensed-operators/ .
+- Updated the existing Jackpot City row with the Ghana-only scope. The register does not name the live domain or contracting entity, so this remains HOLD pending identity match and consumer review evidence.
