@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **78 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **79 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -73,6 +73,7 @@ Detected **78 non-template dossier files** under `docs/brand-profile-*.md` at th
 - `docs/brand-profile-paddy-power-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-paddy-power-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-pasino-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-playojo-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-quinnbet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-sisal-it-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-sky-bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
