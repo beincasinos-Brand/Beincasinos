@@ -489,3 +489,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official-site fetches returned empty content for the homepage and `/terms/`, and HTTP 404 for `/responsible-gambling/`. This is a fetch/access limitation, not evidence the pages are unavailable to GB users. Consumer terms, payments, complaints/ADR and safer-gambling checks remain open.
 - Updated `docs/brand-profile-888casino-gb-draft.md`, commit `2df6e26e098cb502cae5448ac3cff6d2a07dc06c`. Status remains HOLD, no score and no approved public review counted.
 - No GitHub Actions workflow or production deployment triggered.
+
+
+## 50. PlayOJO GB live-site and jurisdiction recheck — 23 October 2026
+
+- UKGC account 39326 rechecked: active remote Casino and Bingo permissions and active remote virtual-event betting from 1 October 2026; the register lists `www.playojo.co.uk` and `www.playojo.com` Active.
+- The `.co.uk` homepage redirected to `.com` in the research context. The linked official terms page names Skill On Net Limited but states Malta Gaming Authority licensing; the extracted text did not establish the precise GB contracting/licensing route. This is a material jurisdiction-mapping gap, not proof that GB users are served under that MGA licence. **HOLD** until GB-specific terms are confirmed.
+- Official help page publishes payment-processing and document-verification timing claims; these remain operator claims, not independently tested results. Official safer-gambling page describes tools and age/ID controls; no usability test completed. Privacy page loaded but substantive policy text was not exposed by the fetcher.
+- The previously recorded UKGC historical enforcement URL redirected to the general news page in this check; canonical source needs rechecking before publication.
+- Updated `docs/brand-profile-playojo-gb-draft.md`, commit `27e67561135b1c97ad87aa89661a33295d1e1871`. No score; not an approved review.
+- No GitHub Actions workflow or production deployment triggered.
