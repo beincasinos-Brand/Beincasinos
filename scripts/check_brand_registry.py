@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "docs" / "brand-research-template.csv"
-EXPECTED_BRANDS = 100
+TARGET_REVIEWS = 100
 REQUIRED_COLUMNS = {
     "brand_name",
     "official_url",
@@ -28,7 +28,7 @@ REQUIRED_COLUMNS = {
     "publication_decision",
     "unresolved_issues",
 }
-VALID_STATUSES = {"prospect", "research", "scope triage", "legal hold", "legal scope hold", "evidence captured", "draft", "reviewed"}
+VALID_STATUSES = {"prospect", "research", "scope triage", "legal hold", "legal scope hold", "evidence captured", "draft", "reviewed", "research lead — unverified", "excluded - current permission/domain not active"}
 VALID_DECISIONS = {"not reviewed", "HOLD", "approved", "rejected"}
 errors: list[str] = []
 warnings: list[str] = []
@@ -52,8 +52,10 @@ for line, row in enumerate(rows, start=2):
     if missing_values:
         errors.append(f"Line {line}: missing CSV values for: " + ", ".join(missing_values))
 
-if len(rows) != EXPECTED_BRANDS:
-    errors.append(f"Expected {EXPECTED_BRANDS} brand rows, found {len(rows)}")
+if len(rows) < TARGET_REVIEWS:
+    errors.append(f"Need at least {TARGET_REVIEWS} candidate rows to support the review target, found {len(rows)}")
+elif len(rows) > TARGET_REVIEWS:
+    warnings.append(f"Registry has {len(rows)} candidate rows for a target of {TARGET_REVIEWS} approved reviews; surplus leads are allowed and must not be counted as completed reviews")
 
 names = [((row.get("brand_name") or "").strip().casefold()) for row in rows]
 for name, count in Counter(names).items():
@@ -89,7 +91,7 @@ for line, row in enumerate(rows, start=2):
         warnings.append(f"{brand}: evidence-captured row is missing a register URL or source notes")
 
 print(f"Registry: {REGISTRY.relative_to(ROOT)}")
-print(f"Rows: {len(rows)} / {EXPECTED_BRANDS}")
+print(f"Candidate rows: {len(rows)} (target: {TARGET_REVIEWS} approved reviews)")
 print(f"Columns: {len(columns)}")
 print(f"Unique non-empty brand names: {len({n for n in names if n})}")
 print(f"Errors: {len(errors)}")
