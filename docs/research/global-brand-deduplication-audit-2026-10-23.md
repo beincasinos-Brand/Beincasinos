@@ -1,5 +1,7 @@
 # Global brand deduplication audit — 23 October 2026
 
+> **Snapshot correction — 23 October 2026:** The current `docs/brand-research-template.csv` on the working branch was parsed as **204 data rows, 33 columns, 154 distinct non-empty `global_brand_id` values, and no missing `global_brand_id` or `market_code` fields**. The earlier 175-row / 140-ID figures below describe an older snapshot and must not be used as current totals. This 154-ID count is still provisional: it has not been manually alias-reviewed and is **not** an eligible-brand count. The repeat-brand groups below are an earlier pass and must be regenerated/rechecked against the 204-row snapshot before being treated as exhaustive. Publication-approved reviews remain **0/100**.
+
 **Purpose:** prevent market-specific registry rows from being misreported as distinct brands toward the 100-brand target.  
 **Scope:** active research CSV only; not an eligibility or publication audit.
 
