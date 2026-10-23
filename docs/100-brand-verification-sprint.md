@@ -379,3 +379,6 @@ The registry CSV now records official ADM concessionaire/domain evidence for thr
 
 
 Additional Italy-specific evidence: the ADM directory also associates www.codere.it with Codere.it S.r.l. (concession code 16018). The existing “Codere” row now records this as an Italy-only match; it must not be used to infer that “Codere Mexico” has the same entity or permissions. Source: https://www.adm.gov.it/portale/en/monopoli/giochi/gioco_distanza/gioco_dist_concessionari?codconc=desc&pager=2. The row remains HOLD pending full product and consumer checks.
+
+
+Additional Italy ADM corroboration: existing registry rows for LeoVegas and Sportium now record official Italian domain/concessionaire associations — leovegas.it with Leo Vegas Gaming P.l.c. (16019), and sportium.it with E-play 24 Ita Limited (16005). See [internal corroboration note](reviews/internal/it-adm-domain-corroboration-leovegas-sportium-2026-10-23.md). Both remain HOLD; do not generalize Italian evidence to other jurisdictions. No Actions or deployment was triggered.
