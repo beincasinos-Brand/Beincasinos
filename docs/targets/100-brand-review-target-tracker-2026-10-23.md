@@ -70,3 +70,11 @@ Three of the 204 registry records are deliberately not allocated to an active ta
 - US-NJ: expanded the registry from one to 30 New Jersey-scoped rows using the official DGE Internet Gaming Sites list, which explicitly states that sites absent from the list are not approved. The 29 new records are candidate leads grouped under licensed Atlantic City casino affiliates, not 29 distinct operators; several domains still require exact contracting-entity and casino-vertical checks. All remain HOLD. Memo: `docs/research/new-jersey-dge-authorized-casino-candidates-2026-10-23.md`.
 
 A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/betmgm-casino-nj-evidence-review-2026-10-23.md`. The DGE authorized-site listing was captured, but the operator's public terms/promotions/responsible-gambling routes redirected to a geolocation selector; current NJ-specific consumer terms remain unverified. This draft is HOLD and is not counted as an approved review.
+
+
+## Evidence batch — 23 October 2026: 888casino GB
+
+- Updated the existing internal 888casino Great Britain evidence draft with the fresh UKGC licence/domain check and exact GB agreement route. Evidence log: `docs/research/gb-batch-34-888casino-evidence-gaps-2026-10-23.md`.
+- The official UKGC account 39028 still lists Casino Remote Active and `888casino.com` Active. The operator licensing page identifies 888 UK Limited for UK services.
+- A generic agreement URL was explicitly not applicable to UK users and linked to a GB-specific agreement. Attempts to fetch that UK agreement and the linked payment, withdrawal, bonus, responsible-gambling, privacy and cookie pages timed out; these are inconclusive, not missing-policy findings.
+- The candidate remains HOLD. Approved reviews remain **0/100**; the target is not met. No account, payment, gameplay, withdrawal or support test was performed; no production changes.
