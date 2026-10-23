@@ -661,3 +661,10 @@
 - Added [10m daily impressions execution plan](docs/research/10m-daily-impressions-execution-plan-2026-10-23.md) and linked it from the indexability audit and target tracker. It turns the 10m/day aspiration into a staged measurement framework and sets the crawl/indexation, content-quality, internal-linking, first-10-review and Search Console gates.
 - Read-only recheck of the live guide index found an existing broad educational cluster covering licensing, terms, withdrawals, ADR, bonus rules, RTP/probability and affiliate transparency. Growth work should improve evidence, intent match and internal discovery rather than add near-duplicate generic guides. The live page exposes real guide routes; two guessed slugs returned 404, so do not assume missing pages from guessed paths.
 - The 46-URL repository sitemap correction remains on the research branch. Approved reviews remain 0/100. No production release, DNS change, or Search Console write was made.
+
+
+## Live SEO consistency follow-up — 23 October 2026
+
+- Rechecked live sitemap, robots.txt, guide index, review directory, markets directory and methodology. Live sitemap remains at 46 URLs; robots allows crawling. These observations do not confirm Google indexation or a verified impression baseline.
+- Logged a public-copy mismatch: `/markets/` says “Ten markets” while the approved target scope lists 12 geographies. See the indexability audit and target tracker. This needs a source-level correction and approved release; no production changes were made in this pass.
+- `/reviews/` still correctly states no casino profiles are scored/ranked. Publication-approved review count remains 0/100. Existing guide coverage is broad; focus on accuracy and useful linking rather than adding duplicate pages.
