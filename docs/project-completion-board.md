@@ -1,3 +1,12 @@
+# Latest research checkpoint — 23 October 2026, batch 6
+
+- Added `docs/gb-brand-verification-follow-up-batch-6-2026-10-23.md` on branch `research/gb-batch-6-2026-10-23`, with five UKGC-backed consumer-brand candidates and exact regulator-listed domain/trading-name references.
+- Candidates: Akbets (Akbo Limited, 66030), LuckyMate (Anakatech Interactive Limited, 48789), Aztec Riches Casino UK (Apollo Entertainment Limited, 38620), Buzz Casino (Buzz Bingo Digital Limited, 57594), and Betfair Casino (Betfair Casino Limited, 39435).
+- Official register action pages currently report no recorded actions for Anakatech Interactive Limited, Apollo Entertainment Limited, and Buzz Bingo Digital Limited. Betfair Casino Limited has a material regulatory-history flag: UKGC settlement dated 17 December 2025 covering social-responsibility/customer-interaction failings across four Betfair/Paddy Power licensees, with a combined £2,000,000 payment in lieu of a financial penalty. The report records this for transparent review rather than endorsement.
+- All five remain HOLD pending live terms/footer, domain/entity/product/market scope, current safer-gambling and payment/withdrawal evidence, complaint handling, and second-editor sign-off. **New approved brands: 0; new approved reviews: 0; total approved reviews remains 0/100.**
+- File commit: `8ea3239c1ac39537e7d3031297424303556eedc7`. Internal changes remain off `main` to conserve GitHub Actions minutes and avoid triggering Cloudflare Pages production builds. No production deploy, DNS change, Search Console write action or operator outreach was performed.
+- Primary register sources: https://www.gamblingcommission.gov.uk/public-register/businesses/ ; https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/308
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
