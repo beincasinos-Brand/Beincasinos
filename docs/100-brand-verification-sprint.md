@@ -324,3 +324,18 @@ Added [batch 9 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-
 Added [batch 10 internal evidence](reviews/internal/gb-brand-evidence-batch-2026-10-22-jackpotcity-spincasino.md) and updated both existing candidate rows to **evidence captured / HOLD**.
 
 The UKGC domain register for Betway Limited (account 39372) lists `jackpotcity.co.uk`, `jackpotcitycasino.co.uk` and `spincasino.co.uk` as active. This is a useful official-register lead, not proof of current customer terms, consumer quality or full review completion. Confirm the exact live product and contracting entity, bonus/wagering rules, payments/withdrawals, complaints/ADR, privacy, safer-gambling tools and regulatory history before publication. No consumer account test or second-editor approval is claimed.
+
+
+## Ontario market evidence batch 11 — six candidate brands (2026-10-23)
+
+Added [Ontario regulator-directory evidence](reviews/internal/ca-on-regulated-market-evidence-2026-10-23.md) and updated six existing rows in `docs/brand-research-template.csv` to **evidence captured / HOLD**:
+- Bet99 — 1000007698 Ontario Ltd
+- FanDuel Casino — FanDuel Canada ULC
+- Fanatics Casino — FBG Enterprises Canada, Inc.
+- NorthStar Bets — NorthStar Gaming (Ontario) Inc.
+- PointsBet Canada — Pointsbet Canada Operations 1 Inc.
+- BetRivers Casino — Rush Street Interactive Canada, ULC
+
+The official iGaming Ontario directory says its listing is accurate as of 1 September 2026 and requires players to be physically located in Ontario. These are market-specific directory matches only, not evidence of permission throughout Canada, consumer quality or a completed review. Exact live URLs and terms, bonuses, payments/withdrawals, complaints, privacy, safer-gambling controls, enforcement history and independent review remain outstanding.
+
+**No publication approvals were granted.** No GitHub Actions or deployment was triggered.
