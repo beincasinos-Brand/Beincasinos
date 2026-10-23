@@ -59,7 +59,7 @@ The Spanish Dirección General de Ordenación del Juego (DGOJ) operator director
 
 ## Registry accounting
 
-The active registry now contains 101 market-specific candidate/research rows. The 27 rows from this batch are leads only; their casino vertical remains explicitly unconfirmed pending primary-record verification. All rows remain `HOLD`; the approved-review count remains **0/100**. Candidate-row count must not be reported as completed review count.
+The active registry now contains 130 market-specific candidate/research rows. The current registry includes 26 Italy-labelled rows and 8 Spain-labelled rows; these are regulator-directory leads only and the casino vertical remains unconfirmed pending primary-record verification. All rows remain `HOLD`; the approved-review count remains **0/100**. Candidate-row count must not be reported as completed review count.
 
 
 ## Counting and evidence limitation — checked 23 October 2026
@@ -68,4 +68,4 @@ The Italian ADM public list currently shows online-gambling concession/domain pa
 
 Primary source: https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari
 
-Current project registry contains 26 Italy-labelled candidate rows, including overlapping/global brands and a duplicated LeoVegas/Codere family entry under different row labels. Do not count these as 26 distinct, eligible casino operators until duplicate market-brand pairs and vertical permissions are reconciled. All remain HOLD.
+Current project registry contains 26 Italy-labelled candidate rows and 8 Spain-labelled candidate rows, including overlapping/global brands and records that may not represent distinct eligible casino operators. Do not count these as distinct, eligible casino operators until duplicate market-brand pairs and casino vertical permissions are reconciled. All remain HOLD.
