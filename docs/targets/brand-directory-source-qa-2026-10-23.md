@@ -11,7 +11,7 @@
 | Brand cards | 100 |
 | Unique brand labels | 100 |
 | Visible research snapshots | 100/100 |
-| Legal-operator field populated | 46/100 |
+| Legal-operator field populated | 50/100 |
 | Official-domain field populated | 51/100 |
 | Regulator/authority field | 100/100 |
 | Evidence-grade field | 100/100 |
@@ -53,6 +53,7 @@ Earlier sections and commits record historical snapshots from before the image-c
 
 
 
+
 ## Authoritative current directory state — 23 October 2026
 
-Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 48 sourced image candidates, 48 rights-pending labels and 52 CSS artwork/monogram fallbacks**. The image register has 100 rows, 48 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 51/100 cards; the legal-operator field is populated on 46/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 48 sourced image candidates, 48 rights-pending labels and 52 CSS artwork/monogram fallbacks**. The image register has 100 rows, 48 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 51/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Four operator notes were strengthened from official-site terms/homepage statements (Onyx Gaming Ltd, ProgressPlay Limited, Videoslots Limited and Jumpman Gaming Limited), but exact current UKGC register/domain matching remains a publication gate. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
