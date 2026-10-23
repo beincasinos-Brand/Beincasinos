@@ -14,9 +14,13 @@ Primary sources:
 - Domain names: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326
 - Regulatory action: https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/39326
 
-## Regulatory context
+## Regulatory history — correction to current register view
 
-The current UKGC sanctions page for account 39326 says no regulatory actions have been recorded for this business on that page. This statement is limited to the current register view and must not be generalized into a guarantee of compliance, product quality, or absence of all historical issues in every jurisdiction.
+The UKGC announced on **23 May 2023** that Skill On Net Limited would pay **£305,150 in lieu of a financial penalty**, plus £9,079 towards investigation costs, following findings about anti-money-laundering and social-responsibility controls. The review covered January 2021 to December 2022 and identified, among other issues, weaknesses in assessing spend against customers' financial circumstances, night play as a harm marker, and limits on unverified payment methods. The regulator described Skill On Net as operating multiple websites; the action is against the licensee, not a separately itemised finding for every individual brand.
+
+Primary source: https://www.gamblingcommission.gov.uk/news/enforcement-action (entry dated 23 May 2023, “Skill On Net Limited faces £305,150 regulatory action”). Additional report: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Skill%20On%20Net
+
+The current UKGC sanctions page for account 39326 may not show that older action in its current view. Do not interpret the current page alone as a clean lifetime history. Equally, do not claim that the historical findings prove the current PlayOJO product has the same deficiencies today; current controls and any remediation outcome require fresh evidence.
 
 ## Review evidence still required
 
