@@ -22,7 +22,7 @@
 ## Target and counting rules
 
 - Goal: 100 distinct, market-specific, fully verified casino reviews.
-- Current active registry: **74 candidate/research rows** mapped to target markets (54 earlier rows plus 20 regulator-backed CH/BE candidate rows added 23 October 2026); this is not 100 completed reviews.
+- Current active registry: **101 market-specific candidate/research rows** mapped to target markets (54 earlier rows plus 20 CH/BE regulator leads and 27 IT/ES official-register leads added 23 October 2026); this is not 100 completed reviews.
 - Fully approved reviews: **0/100**. Every candidate remains HOLD until all mandatory evidence and independent editorial/legal gates pass.
 - Do not count a candidate, a licence-only check, or an unpublished draft as a completed review.
 - A single brand may count in more than one geography only when the local product, entity/licence, terms, payments and user experience are materially market-specific.
@@ -32,8 +32,9 @@
 ## Latest evidence batch (23 October 2026)
 
 - Added 10 Switzerland platform candidates from the Swiss Federal Gaming Board's official online-gambling list and 10 Belgium domain/brand candidates from the Belgian Gaming Commission's official A+ table. Full dated source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md`.
-- Registry validation after the batch: 74 data rows, 31 columns on every row, no duplicate brand names, all 74 rows still `HOLD`, and zero approved reviews. These checks validate registry structure only, not legal eligibility or review completeness.
-- Next evidence batches should prioritize DE, NL, SE, ES, IT and market-specific CA/US eligibility. Recheck live regulator records before publication.
+- Added 20 CH/BE leads from official regulator lists and 27 IT/ES leads from the Swiss Federal Gaming Board, Belgian Gaming Commission, Italian ADM and Spanish DGOJ. Source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md` and `docs/research/italy-spain-regulator-leads-2026-10-23.md`.
+- Registry validation after the latest batch: 101 data rows, 31 columns on every row, no duplicate names, all 101 rows still `HOLD`, and zero approved reviews. These checks validate structure only, not legal eligibility or review completeness. Italian and Spanish remote-gambling/operator listings do not by themselves establish casino-game permission; verify vertical scope before counting any casino review.
+- Next evidence batches should prioritize DE, NL, SE and market-specific CA/US eligibility. Recheck live regulator records before publication.
 
 ## Mandatory approval gates
 
