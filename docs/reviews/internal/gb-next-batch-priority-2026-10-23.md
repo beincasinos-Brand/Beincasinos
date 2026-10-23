@@ -14,6 +14,7 @@
 - **LeoVegas:** active remote casino licence and domain evidence captured; historic 2018 £600,000 and 2022 £1.32m UKGC enforcement decisions added. Do not call the operator's history “clean.” Still HOLD.
 - **Betway:** active licence and domain/trading-name records captured; active domains, multiple brand names and a white-label domain mapped. Still HOLD.
 - **10bet:** UKGC licence/domain/trading-name match and the 2023 £620,000 regulatory settlement are documented in a new evidence pack. Still HOLD pending full current casino terms, product-policy capture and review gates.
+- **BetVictor:** refreshed evidence pack confirms BV Gaming Limited (39576), active `betvictor.com`, and the UKGC's 2022 £2m action. Still HOLD; full current terms and reproducible product checks remain outstanding.
 - **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
