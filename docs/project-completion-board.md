@@ -1,5 +1,12 @@
 
 
+## Official domain cross-check — batch 29 (2026-10-23)
+- Added [batch 29 official domain-register cross-check](docs/gb-brand-discovery-batch-29-official-domain-crosschecks-2026-10-23.md).
+- Official UKGC domain records list `666casino.com`, `dreamjackpot.com`, `kingcasino.com`, and `ladbet.com` as Active under Jupiter Gaming Limited (account 67098), and `stakewise.co.uk` as Active under Rocbrook Limited (account 100802). Sources: [Jupiter domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/67098), [Rocbrook domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100802).
+- This confirms regulator-declared domain status only; live site, terms/contracting entity, actual casino product and distinct-brand checks remain open. All remain **HOLD**. Proper Bet has no exact official domain match established in this check.
+- New publication-approved brands: **0**. New publication-approved reviews: **0**. Production deploys: **0**. No main, DNS or production configuration changes.
+
+
 ## Research checkpoint — batch 28 (2026-10-23)
 - Added [batch 28: newer operator/domain discovery leads](docs/gb-brand-discovery-batch-28-newer-operator-domain-leads-2026-10-23.md).
 - Logged six leads for verification: 666 Casino, Dream Jackpot, King Casino and Ladbet (Jupiter Gaming Limited account clue); Proper Bet (Proper Bet Limited); Stakewise (Rocbrook Limited).
