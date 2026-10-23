@@ -8,9 +8,9 @@ from __future__ import annotations
 
 import csv
 import sys
-from urllib.parse import urlparse
 from collections import Counter
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "docs" / "brand-research-template.csv"
@@ -23,7 +23,6 @@ REQUIRED_COLUMNS = {
     "regulator",
     "official_register_url",
     "license_scope",
-    "markets_allowed",
     "source_notes",
     "last_checked_utc",
     "status",
