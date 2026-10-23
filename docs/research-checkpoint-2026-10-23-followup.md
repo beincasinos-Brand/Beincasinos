@@ -131,3 +131,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Updated `docs/brand-profile-betway-gb-draft.md` in commit `6d51dfd761c659e8c89a2aa99207e66fe150ec0b`.
 - The account-specific UKGC actions page says no actions are recorded there, but the Commission's own site search surfaces historic Betway Limited notices: the £11.6m VIP/social-responsibility and AML settlement (2020) and £408,915 marketing penalty (2022).
 - The dossier now records this discrepancy and requires the original notices to be opened and entity scope verified. This is a correction to the research, not an approved review.
+
+
+## 13. Betfair GB research dossier added
+
+- File: `docs/brand-profile-betfair-gb-draft.md`
+- Commit: `0a5c90f6218b8f7a9369450324b392012c6b25a0`
+- Mapped the Betfair.com GB-facing domain to the multiple entities listed in the UKGC register and kept Betfair Limited account 2062 separate because its listed licence is gambling software remote.
+- Documented the UKGC settlement dated 17 December 2025: four specified Betfair/Paddy Power licensees, social-responsibility customer-interaction failures, total £2m payment in lieu of penalty.
+- Status: **Hold / draft**, not an approved review. Exact product-to-entity mapping, current terms, payment evidence, complaints/ADR, safer-gambling evidence and second-editor approval remain open.
+- This research dossier does not count as an approved review.
