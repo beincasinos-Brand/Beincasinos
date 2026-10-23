@@ -191,3 +191,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Recorded the 5 November 2025 regulatory settlement: £650,000 payment in lieu of a financial penalty, Commission costs and public statement, following AML/CTF and social-responsibility/customer-interaction findings.
 - Current terms, promotions, payments/withdrawals, complaints/ADR, safer-gambling usability, remediation evidence, independent feedback and second-editor review remain open.
 - Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
+
+
+## 20. L & L Europe GB operator/domain dossier added
+
+- File: `docs/brand-profile-l-and-l-europe-gb-draft.md`
+- Commit: `a6c9055580b3e48dac44c2f607586af1e7dc56d9`
+- UKGC account 38758 has active remote casino and real-event betting permissions. Active listed domains include allbritishcasino.com, casinocasino.com, hypercasino.com, pubcasino.co.uk, quickbet.co.uk and funcasino.com; the register marks nobonuscasino.com, racecasino.com and yakocasino.com inactive.
+- Recorded the 21 October 2026 £900,000 settlement and the regulator's findings about unfair withdrawal terms/delays, AML/CTF controls, safer-gambling interactions and technical-limit testing. The regulator also says withdrawal handling was amended; independent current-state verification remains required.
+- Do not count all listed domains as independent reviews. Each consumer-facing brand needs its own current terms, payment, complaints, safer-gambling and independent feedback checks.
+- Status **HOLD / DRAFT**. Approved public brand reviews contributed by this dossier: **0**.
