@@ -431,3 +431,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Scope is source files only. A passing result cannot confirm editorial evidence, second-editor approval, live HTTP status, production deployment, Search Console discovery, indexing, rankings, or impressions.
 - Script commit: `2f76fb79fed73d4f9bab947ac5e78601453cf6a0` (includes the canonical-regex correction).
 - No GitHub Actions run or deployment triggered.
+
+
+## 44. PlayOJO GB — current register match plus historical enforcement context — 23 October 2026
+
+- Added `docs/brand-profile-playojo-gb-draft.md` as an evidence-gated internal dossier; it is not a public review or score.
+- UKGC account 39326 identifies Skill On Net Limited. Current register pages list Remote Casino as Active, trading name `playojo` as Active, and `www.playojo.co.uk` / `www.playojo.com` as Active domains.
+- The current account-specific actions page says no actions have been recorded, but the UKGC separately published a 23 May 2023 announcement that Skill On Net Limited would pay £305,150 following social-responsibility and AML failures. The dossier preserves both facts and avoids saying the operator has never faced enforcement.
+- **HOLD** pending dated evidence for current terms, promotions, withdrawals, complaints/ADR, safer-gambling tools, usability, independent feedback and second-editor approval. No score or recommendation assigned.
+- Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/39326/ ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39326 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39326 ; https://www.gamblingcommission.gov.uk/news/article/skill-on-net-limited-faces-gbp305-150-regulatory-action
+- Dossier commit: `170bc70ee030f9eb744357185cef18e7507eb12f`. No deployment or GitHub Actions run triggered.
