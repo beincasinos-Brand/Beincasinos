@@ -557,3 +557,9 @@
 - Added [internal PokerStars Casino GB evidence review](docs/reviews/internal/pokerstars-casino-gb-evidence-review-2026-10-23.md), commit `b0c3c4d42379fac7ab71816501ac3a7b56a582d8`.
 - UKGC register account 39108 lists `pokerstarscasino.uk` as Active under Stars Interactive Limited. PokerStars GB terms distinguish TSG Interactive Plc, Stars Mobile Limited and the licence-holder relationship; they describe identity checks before deposits/real-money play, a financial vulnerability check threshold of GBP 135 net deposits in a rolling 30-day period, and withdrawal conditions.
 - These are initial primary-source checks, not a full review. Current offer-specific terms, cashier/fees/withdrawal details, complaints/ADR, privacy/cookies, accessibility, regulatory-action/court status and independent second-editor review remain open. PokerStars stays HOLD; approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Great Britain — 32Red operator transition and enforcement evidence (23 October 2026)
+- Added [internal 32Red GB operator-transition/enforcement dossier](docs/reviews/internal/32red-casino-gb-operator-transition-enforcement-2026-10-23.md), commit `7d5921bb11a12111c4ad68f2e2416d61b09718b5`.
+- Important correction: former 32Red Limited (account 39430) surrendered its GB remote permissions effective 12 March 2025; the UKGC now lists `www.32red.com` as Active under Platinum Gaming Limited (account 45322), which has an active remote casino licence. The dossier also captures the UKGC's 23 March 2023 enforcement announcement and carefully separates the penalties/findings for the two entities.
+- Current terms, offers, cashier, complaints/ADR, privacy/cookies, accessibility and later enforcement/court status still require verification. 32Red stays HOLD. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
