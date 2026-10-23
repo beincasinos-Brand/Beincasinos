@@ -241,3 +241,6 @@ These counts describe the working branch snapshot, not a production deployment. 
 
 
 **Deduplicated planning artifact:** [First 100 distinct-ID research workqueue](../research/first-100-distinct-id-review-workqueue-2026-10-23.md). It contains 100 provisional global IDs after excluding IDs whose only rows are EXCLUDED/UNCONFIRMED or whose decision rows are all rejected. This is a prioritized HOLD queue, not 100 verified or approved brands.
+
+
+**Content quality gate:** `docs/quality/first-100-content-completeness-audit-2026-10-23.md` measures the first-100 queue's evidence gaps. Among its 149 market-specific rows, 132 lack a terms URL, 146 lack withdrawals and complaints URLs, 144 lack a responsible-gambling URL, and 61 lack a privacy/tracking review status. These are field-completeness gaps, not proof the sources do not exist; they must be researched and verified before any review can pass publication QA.
