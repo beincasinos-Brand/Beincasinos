@@ -139,7 +139,7 @@ if research_page.is_file():
     card_count = research_html.count('class="brand-card"')
     if card_count != 100:
         errors.append(f"brand-research/index.html: expected 100 unique brand cards, found {card_count}")
-    if not re.search(r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\'][^"\\']*noindex', research_html, re.I):
+    if not re.search(r"<meta\\s+name=['\\"]robots['\\"]\\s+content=['\\"][^'\\"]*noindex", research_html, re.I):
         errors.append("brand-research/index.html: research register must remain noindex until publication approval")
     if research_html.count('class="brand-logo"') < 100:
         errors.append("brand-research/index.html: expected a visual favicon preview for each candidate")
