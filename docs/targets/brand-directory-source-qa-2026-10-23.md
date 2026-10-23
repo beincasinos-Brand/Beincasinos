@@ -63,3 +63,15 @@ Three official-page metadata favicon URLs were added for 888.nl, BetTOM and 44Ac
 ## Latest image inventory reconciliation — 23 October 2026
 
 After adding Brillbet's official-site `media/logo.png` candidate, the current branch contains **100 unique brand cards, 29 image candidates, and 100 visible research snapshots**. All 29 candidate images have alt text, explicit width/height and lazy loading, and each candidate is marked rights pending. Brillbet's official page redirected to a customer-service notice during inspection, so current product status must be checked before any recommendation. The directory remains `noindex,follow`; no Cloudflare production deployment is confirmed.
+
+
+## Latest content-quality pass — 23 October 2026
+
+A static audit after enriching ten previously thin snapshots found:
+
+- **100/100** cards have visible research snapshots and 100/100 have expandable evidence-context panels.
+- **0** visible snapshots are blank or shorter than 90 characters. The ten formerly terse leads now explain what is and is not verified and give a primary-source verification direction; no licence, live product, consumer test or positive recommendation was invented.
+- **29/29** image candidates have alt text, width/height hints and lazy loading; all remain rights pending.
+- **100** unique brand labels; no duplicate HTML IDs; no new-tab links missing `noopener noreferrer`.
+
+This is source-level QA only. It does not confirm that every remote image loads in a real browser, that image reuse rights exist, that each licence is current, or that Cloudflare has deployed the branch.
