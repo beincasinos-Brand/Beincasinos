@@ -558,3 +558,10 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - BETPAWA, BETIKA, SPORTYBET and 1XBET are listed for sports betting and online casino; PREMIER BET, 22BET and MELBET are listed for sports betting only in the checked table. Do not infer casino authorization for the latter three.
 - Listed entries show issue date 1 Jan 2026, expiry 31 Dec 2026 and location Accra. The table does not show domains or contracting entities, so those must be matched to the actual permit before review.
 - All seven remain HOLD; no ratings, no claim of authorization outside Ghana, and no deployment or Actions run.
+
+
+## Ghana regulator-list batch — 2026-10-23
+
+- Added [Ghana licensed-operator checkpoint](reviews/internal/ghana-operator-register-2026-10-23.md) and updated seven existing candidate rows against the Gaming Commission of Ghana's official register.
+- Register entries checked show 1 January 2026 issue date, 31 December 2026 expiry and Accra location. BETPAWA, BETIKA, SPORTYBET and 1XBET list online casino plus sports betting; PREMIER BET, 22BET and MELBET list sports betting only in the checked table. Do not infer casino permission for those sports-only entries.
+- The register omits domains and contracting legal entities, so match both against the permit before review. All seven remain HOLD.
