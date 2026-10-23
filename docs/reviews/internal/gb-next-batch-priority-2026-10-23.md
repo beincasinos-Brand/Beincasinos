@@ -17,6 +17,8 @@
 - **BetVictor:** refreshed evidence pack confirms BV Gaming Limited (39576), active `betvictor.com`, and the UKGC's 2022 £2m action. Still HOLD; full current terms and reproducible product checks remain outstanding.
 - **PlayOJO:** UKGC account 39326 links Skill On Net Limited to active remote casino permissions and active `playojo.co.uk` / `playojo.com` domains. HOLD for current terms and reproducible product checks.
 - **Buzz Casino:** UKGC account 57594 lists active remote casino licence, active `buzz casino` trading name and `www.buzzcasino.com` domain. Keep distinct from Buzz Group Limited / land-based venues. HOLD for current terms and product checks.
+- **Mr Vegas:** GB terms identify Videoslots Limited (UKGC 39380) for `mrvegas.com`; distinguish this from ProgressPlay Limited's separate `mrvegascasino.com` record. Include the 2023 £2m and 2025 £650,000 UKGC actions in accurate historical context. HOLD pending current terms/product tests and verification of audit outcomes.
+- **PlayOJO:** evidence pack corrected to include the 23 May 2023 £305,150 UKGC settlement against Skill On Net Limited; current register view alone should not be described as a clean lifetime history. HOLD pending current terms and product tests.
 - **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
