@@ -528,3 +528,10 @@
 - Captured published withdrawal terms: 30-minute reconsideration period, typical 15–30 minute arrival after processing (operator-stated, not tested), €0.01 minimum and €25,000 maximum per withdrawal, no operator-added withdrawal fee (bank/payment fees may apply), and possible extra document checks.
 - Captured published responsible-play tools: deposit limits, login-time limits, time-out, 6/12-month self-exclusion, automatic withdrawal limit and self-test. No account controls were tested.
 - Still HOLD pending full current terms, offer-specific rules, deposits, complaints/ADR, privacy/cookies, accessibility, enforcement check and independent second review. Approved reviews remain 0/100; no CI/deploy triggered.
+
+
+## Spain — 888casino DGOJ licence and enforcement refresh (23 October 2026)
+- Added `docs/reviews/internal/888casino-spain-dgoj-enforcement-evidence-refresh-2026-10-23.md`.
+- DGOJ operator profile lists 888 Online Games España, S.A., `888casino.es`, general licences and specific permissions; latest listed slots system homologation is dated 13 October 2025.
+- Reviewed DGOJ case ES/2025/003: technical-system compliance case relating to a provider data-centre move without required prior authorisation; regulator records acknowledgement and €75,000 voluntary payment after reductions from €125,000. Do not infer consumer harm or game-result interference from this finding.
+- DGOJ also lists a separate ES/2025/025 case against the operator; full decision still needs review. Current consumer terms, bonus rules, cashier/withdrawals, complaints/ADR, safer-gambling controls, privacy/cookies and accessibility remain open. 888casino Spain stays HOLD and must be deduplicated against other 888 market records. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
