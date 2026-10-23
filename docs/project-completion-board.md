@@ -699,3 +699,10 @@ A read-only GitHub source check after the market-page commits confirmed: 46 inde
 - **Target:** research register has 100 candidates; approved high-quality consumer reviews remain **0/100**. Next work is to close full evidence gates for the first publishable batch, not to mislabel candidate cards as completed reviews.
 
 - **Content depth update:** first seven GB priority cards now include tailored primary-source evidence summaries and regulator links, including enforcement-context caveats where material. All seven remain HOLD; open consumer terms, cashier, complaints/ADR, safer-gambling, privacy/accessibility and independent sign-off gates are still explicit. Added a public disclosure that initials tiles are not official logos; brand image provenance remains open.
+
+
+## Brand-register visual and CSP follow-up — 2026-10-23
+- Added 100 lazy-loaded favicon previews to the 100 candidate cards, each based on the recorded official-site hostname, with an initials fallback when an image fails. The page explicitly states that third-party favicons are not verified official logos or endorsements. Added a neutral evidence-register illustration at `/brand-research/evidence-register.svg`.
+- Moved the register's styling and filter logic to same-origin `brand-research/research.css` and `brand-research/research.js`, consistent with the prepared Cloudflare Content Security Policy. The build allowlist and artifact guard already require the register page and its assets.
+- The register remains `noindex,follow` until candidate evidence and editorial approval are complete; it is accessible through site navigation, but is intentionally not added to the XML sitemap yet. This is not the 100 approved consumer-review milestone.
+- No CI run, browser run, deployment, DNS change, or main merge performed in this follow-up. Source files were reviewed through GitHub API only; do not report runtime test success.
