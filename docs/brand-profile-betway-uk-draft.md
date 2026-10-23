@@ -20,3 +20,18 @@ Before this can be published, confirm the exact consumer domain and legal entity
 
 ## Evidence still required
 Confirm canonical general terms, payment/bonus rules, safer-gambling settings, privacy and complaints route, and UKGC regulatory-action history. No hands-on tests; no score assigned.
+
+
+## Dated primary-source refresh — 23 October 2026
+
+The UK Gambling Commission's current register lists **Betway Limited, account 39372**, with active Casino Remote permission from 1 November 2014. The account's domain record lists `betway.com` and `casino.betway.com` as Active, alongside market-specific domains for other brands. The trading-name record includes `betway` as Active. The current actions page says no regulatory actions are recorded for this licensee; this is a statement about this account's register entry, not a general guarantee of safety or service quality.
+
+- Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/39372
+- Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39372
+- Trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39372
+- Actions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39372
+- Operator casino page (claims must be independently labelled): https://betway.com/gb/en/casino
+
+The casino landing page makes statements about withdrawal minimums and operator processing time. These remain **operator claims, not independently timed outcomes**. No account, cashier, deposit, withdrawal, bonus, support conversation or game session was tested for this draft.
+
+**Decision: HOLD.** Before publication, match current GB terms to the live final URL and contracting entity; verify all fees/limits and payment restrictions; inspect offer-specific wagering, safer-gambling tools, privacy/cookies, complaints and ADR; record accessibility/usability observations; and obtain independent second-editor and commercial/legal sign-off. Do not assign a rating until these gates are cleared.
