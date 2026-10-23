@@ -23,6 +23,13 @@ The working-branch sitemap has now been updated to include `/markets/`, bringing
 
 Other repository snapshot facts: 44 URLs were unique; 17 had `lastmod` values and 27 did not. Missing `lastmod` is not automatically an indexing error; do not invent dates. Keep dates only where supported by a substantive update.
 
+
+## Additional page sample — 10 priority routes
+
+A second live fetch checked these routes: `/guides/`, `/market-research/`, `/about/`, `/how-we-review/`, `/editorial-policy/`, `/affiliate-disclosure/`, `/privacy/`, `/terms/`, `/responsible-gambling/`, and `/tools/terms-checklist/`.
+
+**Observed result:** all 10 returned readable page content, each fetch ended at the requested apex HTTPS URL, and each exposed a self-referencing canonical URL matching the requested page. No per-URL fetch errors were returned. This is a positive spot-check, not a full crawl and not a substitute for HTTP status/header capture, link validation or legal review.
+
 ## Remaining verification gaps
 
 - Obtain raw HTTP status codes, redirect chain and content type for HTTP/HTTPS and apex/www variants using a trusted direct HTTP check.
