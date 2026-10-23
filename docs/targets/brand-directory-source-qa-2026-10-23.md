@@ -111,3 +111,8 @@ Added five candidates across recent batches: VBET Netherlands logo SVG; Fair Pla
 ## Additional image candidates — Horseshoe and BestOdds — 23 October 2026
 
 Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. Both are small-icon candidates only and remain rights pending. The Horseshoe asset source is its Michigan casino page; this does not replace jurisdiction-specific licence review. BestOdds is a betting information site, not itself proof of an online casino operator. Current count: 41 sourced image candidates and 59 CSS artwork/monogram fallbacks.
+
+
+## Authoritative inventory reconciliation — 23 October 2026, latest branch source
+
+The latest `brand-directory/index.html` and `brand-image-asset-register-2026-10-23.csv` were fetched and counted together. Current source of truth: **100 unique brand cards; 100 visible research snapshots; 41 sourced image candidates with matching rights-pending labels and fallback monograms; 59 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 41 image tags have alt text, width/height, lazy loading and error fallback. These are source-level checks only. Asset URLs have not all been directly loaded or visually inspected, and no reuse permission is established. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 remains open/draft/unmerged and is not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere in this file are historical snapshots, not the current inventory.
