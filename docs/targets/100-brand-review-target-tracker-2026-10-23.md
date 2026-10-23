@@ -78,3 +78,8 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - The official UKGC account 39028 still lists Casino Remote Active and `888casino.com` Active. The operator licensing page identifies 888 UK Limited for UK services.
 - A generic agreement URL was explicitly not applicable to UK users and linked to a GB-specific agreement. Attempts to fetch that UK agreement and the linked payment, withdrawal, bonus, responsible-gambling, privacy and cookie pages timed out; these are inconclusive, not missing-policy findings.
 - The candidate remains HOLD. Approved reviews remain **0/100**; the target is not met. No account, payment, gameplay, withdrawal or support test was performed; no production changes.
+
+
+### Batch 34 follow-up — UK policy evidence captured
+- The exact UK user agreement loaded on a subsequent single-page fetch. Sections 9/14/16 cover withdrawal conditions, complaint escalation and eCOGRA ADR; section 16 says the operator is registered with GAMSTOP. Separate withdrawal policy provides verification-document and potential instalment details. Generic bonus policy states a usual 30x wagering requirement and 90-day expiry unless promotion-specific terms differ; no current GB offer was established. Do not confuse general policy with an offer-specific bonus.
+- Exact UK payment methods/fees, universal withdrawal processing time, current offer-specific terms, privacy/cookie behaviour, accessibility and independent second-editor review remain open. 888casino remains HOLD; publication approvals stay **0/100**.
