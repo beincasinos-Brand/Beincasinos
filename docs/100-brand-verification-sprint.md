@@ -452,3 +452,11 @@ The existing Betway Casino row now links the UKGC account, domain, trading-name 
 - [888casino GB draft](brand-profile-888casino-uk-draft.md) and the 100-brand CSV now include the current UKGC account 39028 status, official GB operator/user-agreement disclosures, privacy notice pointer and all three recorded UKGC penalties (2024–2025), with the regulator's context preserved. The draft remains HOLD; no player journey was tested.
 - The 100-row, 31-column registry was updated in place; no new brand row was created and no review was promoted to approved. Current consumer terms, payment/withdrawal evidence, complaints/ADR, safer-gambling and privacy implementation, independent review and publication controls remain required.
 - No GitHub Actions run or deployment was triggered by these documentation/research updates.
+
+
+## Further GB operator verification — 2026-10-23
+
+- Refreshed the [Betway GB profile](brand-profile-betway-uk-draft.md) with current UKGC account 39372, domain/trading-name records and its account-level regulatory-action status. Operator claims about withdrawal timing remain explicitly untested.
+- Refreshed the [Ladbrokes GB profile](brand-profile-ladbrokes-uk-draft.md) to separate account 1611 from LC International Limited/account 54743. The latter register record lists active `ladbrokes.com` and `coral.co.uk` domains; the former lists active brand trading names but no account-level domains. The tracker now records the same distinction for Ladbrokes and Coral without treating group accounts as interchangeable.
+- The 100-brand CSV has been updated in place for Betway Casino, Ladbrokes Casino and Coral Casino. All remain HOLD while exact customer contract terms, payments, complaints/ADR, safer-gambling, privacy, hands-on usability and independent editorial/commercial approval remain incomplete.
+- Research/documentation only; no GitHub Actions run or deployment triggered.
