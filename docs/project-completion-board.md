@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 17 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-17-jumpman-white-label-leads-2026-10-23.md` on `research/gb-batch-17-2026-10-23`.
+- Added eight further Jumpman white-label leads: Billion Casino, Cash Casino, Chilli Spins, Daisy Slots, Elf Slots, Fortune Games, Great Britain Casino and Lucky Admiral. All remain HOLD until site, partner and terms checks are complete.
+- No approved brand/review totals changed. Research branch remains unmerged; no Cloudflare deployment or main-branch push was triggered.
+
+
 ## Research checkpoint — batch 16 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-16-jumpman-white-label-leads-2026-10-23.md` on `research/gb-batch-16-2026-10-23`.
 - Captured eight UKGC-listed Jumpman white-label domains: 123 Spins, 24Spin, Amigoslots, Cheeky Casino, Clover Casino, Dove Casino, Kong Casino and PlayLeon. All remain HOLD pending live-site, marketing partner, legal terms and duplicate checks.
