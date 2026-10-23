@@ -230,3 +230,11 @@ Latest branch-source audit: **100 unique brand cards, 100 visible research snaps
 - Evidence file: `docs/reviews/internal/888casino-es-evidence-review-2026-10-23.md`.
 - Counting decision: regulatory-history research only; this is not a completed or approved consumer review. Approved-review count unchanged.
 - Production status: internal documentation only; no public page changed and no Cloudflare deployment performed.
+
+
+### Additional official-source check — 888 Spain AML/CFT record (23 October 2026)
+
+- Added BOE-A-2026-15121 to the 888casino Spain internal evidence file: official BOE publication dated 10 July 2026, based on a 23 June 2025 decision, describing two serious AML/CFT infringements and two separate €275,976 fines with public reprimands.
+- Kept this separate from DGOJ gambling-licence enforcement entries; do not conflate regulator remit or combine distinct findings into a single claim.
+- Primary source: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15121
+- This is regulatory evidence only. No consumer-review approval, rating or recommendation is created; 888 Spain remains HOLD.
