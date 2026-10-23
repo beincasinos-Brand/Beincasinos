@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **91 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **92 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -105,7 +105,7 @@ Classify each file as consumer brand, supplier/operator context, duplicate marke
 
 ## Inventory reconciliation — 23 October 2026, follow-up
 
-A fresh recursive tree check after the latest research commits found **92 files including the template, or 91 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
+A fresh recursive tree check after the latest research commits found **93 files including the template, or 92 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
 
 - `docs/brand-profile-bet-ahoy-gb-draft.md` — preliminary GB identity research; **HOLD**, not an approved review. Official-site access was location-restricted in the research session, so current terms, payments, complaints and safer-gambling evidence remain unverified.
 - `docs/brand-profile-pokerstars-gb-draft.md` — internal dossier; verify its current status in the file and do not count it as an approved review by filename alone.
@@ -131,3 +131,6 @@ The count remains a count of dossier files, not 83 unique verified consumer bran
 
 - `docs/brand-profile-spin-and-win-gb-draft.md` — preliminary GB dossier for Spin and Win / Rank Interactive (Gibraltar) Limited, UKGC account 57924. Official offer, terms and payment pages reviewed; complete ADR and withdrawal evidence remain open. **HOLD**, not approved.
 - `docs/brand-profile-mecca-games-gb-draft.md` — preliminary GB dossier for Mecca Games / Rank Interactive (Gibraltar) Limited, UKGC account 57924. Official offer, terms and payment pages reviewed; complete ADR and withdrawal evidence remain open. **HOLD**, not approved.
+
+
+- `docs/brand-profile-luxury-casino-gb-draft.md` — identity-conflict note only. Although UKGC account 38620 lists `luxurycasino.co.uk` Active under Apollo Entertainment Limited, the current site redirects users toward Cosmo Casino and the privacy notice names Fresh Horizons Limited (BVI). **HOLD / unresolved**, not counted as a verified consumer brand or approved review.

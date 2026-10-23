@@ -548,3 +548,26 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official terms are effective 16 December 2025. The welcome offer requires a new player to select the offer and deposit at least £10 for a £20 bonus and 50 free spins. Paysafecard deposits are excluded; the bonus is restricted to selected games and free spins/winnings to Kong 3 Even Bigger Bonus. The homepage states 10x wagering and £50 maximum win; full offer terms need complete review.
 - Payment page lists card and PayPal options plus Paysafecard as deposit-only; no account/payment test was performed. Complaint escalation/ADR, full safer-gambling tools, independent feedback and second-editor review remain open.
 - Decision: **HOLD**, no score, no public review, not approved.
+
+
+## 57. Mecca Games GB — current terms, offer and payment snapshot — 23 October 2026
+
+- Added `docs/brand-profile-mecca-games-gb-draft.md` for Mecca Games, operated by Rank Interactive (Gibraltar) Limited under UKGC account 57924; `meccagames.com` appears as Active in the operator's domain record.
+- Official terms effective 16 December 2025. Current offer: £20 bonus + 50 free spins after selecting the offer and making a first deposit of at least £10; Paysafecard excluded; bonus restricted to selected games and free spins/winnings to Kong 3 Even Bigger Bonus. Homepage states 10x wagering and £50 max win; full terms require a complete pre-publication check.
+- Payment methods page lists card/PayPal options and Paysafecard as deposit-only; no account or withdrawal test. Complaints/ADR, full safer-gambling tools, independent feedback and second-editor review remain open.
+- Decision: **HOLD**, no score, no public review, not approved.
+
+
+## 58. Luxury Casino GB — unresolved domain and operator relationship — 23 October 2026
+
+- Added `docs/brand-profile-luxury-casino-gb-draft.md` as an **identity-conflict note**, not a verified consumer-brand dossier. UKGC account 38620 (Apollo Entertainment Limited) lists `luxurycasino.co.uk` as Active and an active remote Casino licence.
+- The current homepage displays a prompt to continue to Cosmo Casino; the privacy policy names “Luxury Casino” managed by Fresh Horizons Limited in the British Virgin Islands; the terms refer to `luxury.casino`. Also, `captaincookcasino.co.uk` redirected to Luxury Casino during this check.
+- These inconsistencies mean the current consumer experience, contracting entity and UKGC domain record are not yet reconciled. **HOLD**; do not recommend or count this as a verified brand or review.
+- No deployment, Cloudflare changes or GitHub Actions run.
+
+
+## 59. Spin and Win GB — current offer snapshot — 23 October 2026
+
+- Added `docs/brand-profile-spin-and-win-gb-draft.md` for Spin and Win, operated by Rank Interactive (Gibraltar) Limited under UKGC account 57924; `spinandwin.com` is listed Active.
+- Official terms effective 16 December 2025. Current offer requires a verified new customer to deposit and stake £20 on Fishin' Frenzy The Big Catch 2 for 200 free spins; Paysafecard excluded; spins must be used within seven days; free-spin winnings subject to 10x wagering; homepage states £100 max win. Full offer conversion/expiry conditions need a final capture.
+- Payment methods include card/PayPal and Paysafecard as deposit-only; no account or withdrawal test. ADR, safer-gambling tool checks, independent feedback and second-editor sign-off remain open. **HOLD**, no score or public review.
