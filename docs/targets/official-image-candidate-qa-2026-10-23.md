@@ -24,3 +24,11 @@ Do not describe any logo as licensed for reuse based on this check. Keep permiss
 
 Asset register: `docs/targets/brand-image-asset-register-2026-10-23.csv`  
 Directory: `brand-directory/index.html`
+
+
+## Directory image-layout pass — 23 October 2026
+
+- Added explicit `width="160"` and `height="64"` dimension hints to all 20 remote logo candidates and fixed the CSS image box to a contained 160×64 slot. This gives the browser a stable reserved image ratio before the remote asset loads and avoids stretching logos; `object-fit: contain` preserves the asset proportions.
+- Added/retained asynchronous image decoding and the existing lazy loading, descriptive alt text, fallback monograms, and visible `SOURCE FOUND · RIGHTS PENDING` labels.
+- Source-level verification after the change: 100 cards; 20 image elements; 20 dimension pairs; 20 fallback spans; 20 rights-pending labels; no missing image alt text; no duplicate HTML IDs; external links opened in new tabs carry `noopener` protection.
+- This is markup/layout QA only. It does not prove remote image uptime, exact brand ownership, permission to reuse, or production deployment. Keep all image rights pending until permission/licence is documented.
