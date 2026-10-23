@@ -371,3 +371,8 @@ These are iGaming Ontario directory matches (directory stated accurate as of 1 S
 ## Italy ADM evidence capture (2026-10-23)
 
 Added [internal Italy ADM evidence note](reviews/internal/it-adm-remote-gaming-evidence-2026-10-23.md). ADM's authorized remote-gaming concessionaire list associates Lottomatica.it with GBO Italy S.p.A. (code 16010), Sisal.it with Sisal Italia S.p.A. (code 16020), and Snai.it with Snaitech S.p.A. (code 16032). This is Italy-specific regulator evidence, not a completed review or approval to publish. Current terms, payments/withdrawals, complaints, privacy, safer-gambling controls, product identity and second-editor review remain outstanding. No GitHub Actions or deployment was triggered.
+
+
+## Italy ADM evidence capture — registry update (2026-10-23)
+
+The registry CSV now records official ADM concessionaire/domain evidence for three existing candidates: Lottomatica.it — Goldbet Better Organization Italy S.p.A. (code 16010); Sisal.it — Sisal Italia S.p.A. (code 16020); and Snai.it — Snaitech S.p.A. (code 16032). See [the internal evidence note](reviews/internal/it-adm-remote-gaming-evidence-2026-10-23.md). After the update, static CSV reinspection confirms 100 rows, 31 columns, no blank or duplicate brand names, no row-width mismatches, 46 evidence-captured/HOLD and 54 prospect/not reviewed, with zero publication approvals. This was a repository-content inspection only; the validator script and CI were not run. No Actions or deployment was triggered.
