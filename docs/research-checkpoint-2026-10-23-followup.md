@@ -412,3 +412,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - **HOLD** pending dated consumer evidence for terms/promotions, withdrawals, complaints/ADR, safer-gambling controls, independent feedback and second-editor sign-off. No rating or recommendation.
 - Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/39576 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39576 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39576 ; https://www.gamblingcommission.gov.uk/news/article/online-gambling-business-faces-gbp2m-regulatory-action
 - No deployment or GitHub Actions run triggered.
+
+
+## 42. Dossier inventory against the 100-review goal — 23 October 2026
+
+- Created `docs/brand-dossier-inventory-2026-10-23.md` from the repository's recursive source tree.
+- Counted **78 non-template `docs/brand-profile-*.md` files** at audit time. This is a raw file count only: it includes multiple market variants, unresolved drafts, and supplier/operator context. It is not 78 unique consumer brands and not 78 approved reviews.
+- The inventory states counting rules and requires deduplication by brand-market, exclusion of supplier dossiers from consumer-review totals, evidence-gate completion, second-editor sign-off, and separate public-page/sitemap/live/indexing checks.
+- Inventory commit: https://github.com/beincasinos-Brand/Beincasinos/commit/50e28b4abd697ada209eb39fe9c1aa5600cdec78
+- No deployment or GitHub Actions run triggered.
