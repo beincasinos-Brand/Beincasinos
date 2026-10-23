@@ -181,3 +181,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Recorded the 30 October 2025 £650,000 penalty, warning and additional licence condition for AML/CTF and customer-interaction failures, including deposit-limit logic that excluded an initial deposit and weaknesses in customer-risk monitoring.
 - Current terms, promotions, payment/withdrawal checks, complaints/ADR, safer-gambling usability, remediation/audit outcome, independent feedback and second-editor review remain open.
 - Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
+
+
+## 19. NetBet GB research dossier added
+
+- File: `docs/brand-profile-netbet-gb-draft.md`
+- Commit: `0d60027f42eb95d3bfa2ed11a2c9b2285cd6c0e4`
+- UKGC account 39170 maps netbet.co.uk and its listed casino, live, lottery, poker, sports and Vegas subdomains to Netbet Enterprises Limited; remote casino and several other remote permissions are active.
+- Recorded the 5 November 2025 regulatory settlement: £650,000 payment in lieu of a financial penalty, Commission costs and public statement, following AML/CTF and social-responsibility/customer-interaction findings.
+- Current terms, promotions, payments/withdrawals, complaints/ADR, safer-gambling usability, remediation evidence, independent feedback and second-editor review remain open.
+- Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
