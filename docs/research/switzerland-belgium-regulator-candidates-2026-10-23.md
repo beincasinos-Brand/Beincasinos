@@ -6,24 +6,22 @@
 
 ## Switzerland (CH): legal gate and candidate quality
 
-The Federal Gaming Board's [current online-gambling page](https://www.esbk.admin.ch/en/online-gambling), published 17 March 2026, says Swiss casinos need a Federal Council licence extension for online gambling and a separate FGB permit for each game. The current casino list is rendered as an image in the page, so this pass does **not** claim to have independently parsed and matched all ten proposed domains against the live 2026 list.
+The Federal Gaming Board's [current online-gambling page](https://www.esbk.admin.ch/en/online-gambling), published 17 March 2026, explicitly lists all ten platforms below as Swiss online-casino platforms. It also states that operators need a Federal Council concession extension and a separate FGB permit for each game. This current page supports a regulator-listed platform lead, but it does **not** replace checks of the contracting entity, current domain route, relevant game permits, current terms, payments or consumer protections.
 
-The official ESBK 2023 annual report contains historical domain/operator associations for some platforms. These are useful leads, not proof that the current 2026 concession holder, domain, game permissions and contracting entity remain unchanged.
+| Candidate platform | Domain listed by ESBK | Current status |
+|---|---|---|
+| Jackpots.ch | https://www.jackpots.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Mycasino.ch | https://www.mycasino.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Swiss Casinos Online (CH) | https://online.swisscasinos.ch | Listed on current ESBK online-gambling page; use this exact online domain, not a generic corporate domain |
+| Casino777.ch | https://www.casino777.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Starvegas.ch | https://www.starvegas.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| 7melons.ch | https://7melons.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Pasino.ch | https://www.pasino.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Swiss4win.ch | https://www.swiss4win.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Admiral.ch (CH) | https://www.admiral.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
+| Casineo.ch | https://www.casineo.ch | Listed on current ESBK online-gambling page; exact entity and per-game permits still to verify |
 
-| Candidate platform | Domain | Historical ESBK association | Current status |
-|---|---|---|---|
-| Jackpots.ch | https://www.jackpots.ch | Grand Casino Baden AG | Historical official lead; current 2025–2026 concession/operator and game permits must be rechecked |
-| Mycasino.ch | https://www.mycasino.ch | Grand Casino Luzern AG | Historical official lead; current concession/operator and game permits must be rechecked |
-| Swiss Casinos Online (CH) | https://www.swisscasinos.ch | Casino Zürichsee AG (Pfäffikon) | Historical official lead; current concession/operator and game permits must be rechecked |
-| Starvegas.ch | https://www.starvegas.ch | Casino Interlaken AG | Historical official lead; current concession/operator and game permits must be rechecked |
-| Pasino.ch | https://www.pasino.ch | Casino du Lac Meyrin SA | Historical official lead; current concession/operator and game permits must be rechecked |
-| Swiss4win.ch | https://www.swiss4win.ch | Casinò Lugano SA | Historical official lead; current concession/operator and game permits must be rechecked |
-| Casino777.ch | https://www.casino777.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
-| 7melons.ch | https://7melons.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
-| Admiral.ch (CH) | https://www.admiral.ch | Not verified in this pass; historical ESBK material does not establish this online domain | **Unverified — do not count** |
-| Casineo.ch | https://www.casineo.ch | Not verified in this pass | **Unverified — do not count** until matched to current ESBK list |
-
-**Primary sources:** [ESBK current online gambling page](https://www.esbk.admin.ch/en/online-gambling); [ESBK 2023 annual report (official PDF)](https://www.esbk.admin.ch/dam/it/sd-web/pdM8POPNTNDw/jahresbericht-2023-i.pdf). A foreign licence is not Swiss authorisation. Do not publish an online casino as authorised in Switzerland without matching the current Swiss concession extension and relevant game permits.
+**Primary source:** [ESBK current online gambling page](https://www.esbk.admin.ch/en/online-gambling). A foreign licence is not Swiss authorisation. Do not publish an online casino as authorised in Switzerland without matching the current Swiss concession extension, exact contracting entity and relevant game permits.
 
 ## Belgium (BE): official A+ register
 
