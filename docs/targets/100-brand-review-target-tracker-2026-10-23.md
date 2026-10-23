@@ -9,7 +9,7 @@
 
 The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
 
-Sixteen internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Seventeen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -49,7 +49,7 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 | Measure | Current verified value |
 |---|---:|
 | Raw market-specific research records | 204 |
-| Internal evidence drafts tracked | 16 |
+| Internal evidence drafts tracked | 17 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
@@ -63,3 +63,10 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 - Swiss / Belgian source memo: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md`
 - Ontario regulator mapping: `docs/research/ontario-regulated-casino-candidates-2026-10-23.md`
 - Current roadmap: `docs/100-verified-brands-10-markets-roadmap-2026-10-22.md`
+
+
+## Latest work batch — 23 October 2026
+
+- US-NJ: expanded the registry from one to 30 New Jersey-scoped rows using the official DGE Internet Gaming Sites list, which explicitly states that sites absent from the list are not approved. The 29 new records are candidate leads grouped under licensed Atlantic City casino affiliates, not 29 distinct operators; several domains still require exact contracting-entity and casino-vertical checks. All remain HOLD. Memo: `docs/research/new-jersey-dge-authorized-casino-candidates-2026-10-23.md`.
+
+A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/betmgm-casino-nj-evidence-review-2026-10-23.md`. The DGE authorized-site listing was captured, but the operator's public terms/promotions/responsible-gambling routes redirected to a geolocation selector; current NJ-specific consumer terms remain unverified. This draft is HOLD and is not counted as an approved review.
