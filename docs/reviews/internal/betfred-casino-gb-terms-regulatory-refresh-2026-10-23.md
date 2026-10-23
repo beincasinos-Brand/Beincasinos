@@ -39,6 +39,19 @@ UKGC account 39544 records:
 - Independently check the complete regulatory timeline and ensure the 2022, 2025 and 2026 actions are separately scoped and accurately attributed.
 - Independent editorial review and legal/compliance approval remain mandatory.
 
+
+## Follow-up first-party checks — 2026-10-23
+
+- **Complaints / ADR:** Betfred's current complaints procedure sets out five stages. It says customer services aims to respond within 24 hours after sufficient details are provided; an internal Case Review Manager aims to respond within 72 hours; complex complaints may take up to eight weeks. Its preferred ADR provider is IBAS, subject to availability. These are stated service targets, not a guarantee of individual resolution time. Source: https://www.betfred.com/complaints
+- **Verification:** the first-party verification policy says electronic checks are normally attempted first and further documents may be requested if age, identity or address cannot be verified electronically. Source: https://www.betfred.com/verification-policy
+- **Safer-gambling controls:** first-party information describes deposit limits, time-out, self-exclusion and reality-check alerts. The surfaced page is in a Betfred bingo section; before publishing a casino-specific review, confirm the same tools and steps in the GB casino account journey. Source: https://www.betfred.com/bingo/community/safer-gambling/article/safer-gambling
+- **Payments:** Betfred's dated education article lists Visa, Mastercard, instant bank payments and BACS and describes processing estimates, but it is not a definitive current casino cashier capture. Do not publish those estimates as current verified casino processing times without checking the current Help payment-processing table and cashier. Source: https://insights.betfred.com/education/betfred-withdrawal-time-methods/
+- **Current terms caution:** the 31 July 2026 general terms permit additional verification and, in specified circumstances, delayed or withheld withdrawals. Describe the stated conditions accurately and avoid implying all withdrawals are delayed.
+
+## Remaining gates (unchanged)
+
+Current casino cashier/payment details, market-specific safer-gambling journey, offer terms if a specific offer is covered, complete primary-source regulatory timeline and independent editorial/compliance approval remain open. This refresh does not move the brand out of HOLD.
+
 ## Editorial disposition
 
 **HOLD.** The identity, terms and regulator actions are documented, but this pack is not a complete consumer review and does not count as a verified/approved/published/indexed brand.
