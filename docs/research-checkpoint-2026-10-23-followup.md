@@ -251,3 +251,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Clearly separates the software supplier and named games from consumer-facing casino operators; no casino brand review is implied.
 - Current supplier permissions, affected game versions, remediation and current GB availability remain to be re-verified.
 - Status **HOLD / DRAFT**. Approved public consumer reviews contributed by this dossier: **0**.
+
+
+## 26. Tom Horn Gaming supplier suspension dossier added
+
+- File: `docs/brand-profile-tom-horn-gaming-gb-draft.md`
+- Commit: `872f287f459fb31bf6b6f69d96c28b08db2ceb5d`
+- UKGC account 49577 currently lists both remote Gambling Software and Game Host (Casino) permissions as **Suspended**.
+- The 8 September 2026 decision page records breaches relating to general/regulatory duties, key-event reporting, qualified persons, technical standards and cooperation with the Commission. The public entry reviewed does not fully describe the factual basis, so the dossier explicitly avoids speculation.
+- This is a supplier-level dossier, not a consumer casino review. Any casino using a named game must be checked against its own operator/domain/licence and current game availability.
+- Status **HOLD / DRAFT**; approved public consumer reviews contributed by this dossier: **0**.
