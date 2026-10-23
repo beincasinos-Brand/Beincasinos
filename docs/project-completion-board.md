@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 22 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-22-register-listed-leads-2026-10-23.md` on `research/gb-batch-22-2026-10-23`.
+- Eight additional register-index leads captured: 21 Casino, 21 Lucky Bet, 21 Privé, 21.co.uk, 21Bets Casino, 247Bet, 333 Casino and All British Casino. All HOLD until the exact official domain/operator pages and live site are checked.
+- No approved brand/review count changed. Research branch only; no main merge, Cloudflare configuration change or production deployment.
+
+
 ## Research checkpoint — batch 21 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-21-skill-on-net-white-label-leads-2026-10-23.md` on `research/gb-batch-21-2026-10-23`.
 - Eight white-label leads captured: Genting Casino, PlayJango, Metal Casino, Regency Casino, Swift Casino, SlotStars, Zebra Wins and Luna Casino. All HOLD pending live-site, legal-operator/marketing-partner, terms and deduplication checks.
