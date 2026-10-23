@@ -212,3 +212,14 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The regulator says the operator took remedial action; current controls still require independent verification.
 - Current terms, promotions, payments/withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open.
 - Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
+
+
+## 22. Grosvenor Casinos GB research dossier added
+
+- File: `docs/brand-profile-grosvenor-casinos-gb-draft.md`
+- Commit: `48fb1d496f2a000e8f2e9a87a46d424699e91812`
+- UKGC account 614 identifies Grosvenor Casinos Limited. The regulator's 7 October 2026 announcement covers three Rank Group-owned land-based casino operators operating 51 casinos across Great Britain.
+- Recorded the regulator's £5m group settlement announcement and the Grosvenor Casinos Limited settlement record specifying £5,012,261 on behalf of the licensee and wider group, including an external audit commitment.
+- Summarised regulator findings on AML controls and missed/delayed safer-gambling interactions. The external audit outcome and current venue-level consumer evidence remain open.
+- Kept land-based venue-network research separate from online-casino reviews; status **HOLD / DRAFT**.
+- Approved public reviews contributed by this dossier: **0**.
