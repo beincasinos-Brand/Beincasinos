@@ -32,7 +32,7 @@
 
 ## Latest evidence batch (23 October 2026)
 
-- CH: five currently listed registry records are matched to ESBK's official list of ten online-casino domains; each remains a candidate pending the exact concession/game permissions, terms and consumer-evidence checks. Official source: https://www.esbk.admin.ch/en/online-gambling.
+- CH: all ten ESBK-listed online-casino domains are now represented in the registry. The Swiss Casinos route was corrected to `online.swisscasinos.ch`; each remains HOLD pending the exact contracting entity, concession extension, relevant per-game permits, terms and consumer-evidence checks. Official source: https://www.esbk.admin.ch/en/online-gambling.
 - BE: ten candidates are matched to the Belgian Gaming Commission's A+ table, including `betfirstcasino.be` (not `betssoncasino.be`). Confirm current expiry and live terms before approval. Source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en.
 - NL: eight candidate rows map to the eight renewal licensees named by the Ksa on 17 September 2026. They remain HOLD until exact live domains and products are matched and consumer-evidence gates pass. Detailed memo: `docs/reviews/internal/nl-licence-renewal-register-2026-10-23.md`.
 - SE: one domain-level regulator lead for `spela.svenskaspel.se` is captured. Five other Swedish candidate rows have been downgraded to explicitly unverified because exact domain-level evidence was not substantiated in this pass; none can count until validated. Official register: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/.
