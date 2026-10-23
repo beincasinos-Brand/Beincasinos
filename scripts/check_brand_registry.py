@@ -28,9 +28,12 @@ REQUIRED_COLUMNS = {
     "status",
     "publication_decision",
     "unresolved_issues",
+    "global_brand_id",
+    "market_code",
 }
 VALID_STATUSES = {"prospect", "research", "scope triage", "legal hold", "legal scope hold", "evidence captured", "draft", "reviewed", "research lead — unverified", "excluded - current permission/domain not active"}
 VALID_DECISIONS = {"not reviewed", "HOLD", "approved", "rejected"}
+VALID_MARKET_CODES = {"AU", "CA", "CA-ON", "CA-BC", "CA-QC", "CA-AB", "CA-MB", "CA-SK", "CA-NS", "CA-NB", "CA-NL", "CA-PE", "CA-YT", "CA-NT", "CA-NU", "GB", "US", "US-MI", "US-NJ", "US-PA", "US-WV", "US-DE", "US-CT", "US-RI", "US-NV", "US-MA", "US-IL", "CH", "DE", "DE-SH", "NL", "SE", "ES", "IT", "FR", "BE", "UNCONFIRMED", "EXCLUDED"}
 errors: list[str] = []
 warnings: list[str] = []
 
@@ -69,12 +72,20 @@ for line, row in enumerate(rows, start=2):
     brand = (row.get("brand_name") or "").strip() or f"line {line}"
     status = (row.get("status") or "").strip()
     decision = (row.get("publication_decision") or "").strip()
+    global_brand_id = (row.get("global_brand_id") or "").strip()
+    market_code = (row.get("market_code") or "").strip()
     issues = (row.get("unresolved_issues") or "").strip()
     register_url = (row.get("official_register_url") or "").strip()
     source_notes = (row.get("source_notes") or "").strip()
 
     if status not in VALID_STATUSES:
         errors.append(f"{brand}: invalid status {status!r}")
+    if not global_brand_id:
+        errors.append(f"{brand}: global_brand_id is required for cross-market deduplication")
+    if market_code not in VALID_MARKET_CODES:
+        errors.append(f"{brand}: invalid market_code {market_code!r}")
+    if decision == "approved" and market_code in {"UNCONFIRMED", "EXCLUDED"}:
+        errors.append(f"{brand}: cannot approve a review with market_code={market_code}")
     if decision not in VALID_DECISIONS:
         errors.append(f"{brand}: invalid publication_decision {decision!r}")
 
@@ -127,6 +138,12 @@ print(f"Registry: {REGISTRY.relative_to(ROOT)}")
 print(f"Candidate rows: {len(rows)} (target: {TARGET_REVIEWS} approved reviews)")
 print(f"Columns: {len(columns)}")
 print(f"Unique non-empty brand names: {len({n for n in names if n})}")
+global_ids = [((row.get("global_brand_id") or "").strip()) for row in rows]
+print(f"Provisional global brand IDs: {len({gid for gid in global_ids if gid})}")
+market_pairs = [(row.get("global_brand_id", "").strip(), row.get("market_code", "").strip()) for row in rows if row.get("market_code", "").strip() not in {"UNCONFIRMED", "EXCLUDED"}]
+for pair, count in Counter(market_pairs).items():
+    if count > 1:
+        errors.append(f"Duplicate eligible brand-market pair ({count} rows): {pair[0]} / {pair[1]}")
 approved_count = sum(1 for row in rows if (row.get("publication_decision") or "").strip() == "approved")
 print(f"Publication-approved rows: {approved_count} / {TARGET_REVIEWS}")
 print(f"Errors: {len(errors)}")
