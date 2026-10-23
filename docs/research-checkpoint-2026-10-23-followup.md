@@ -340,3 +340,15 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Rationale: the existing page already teaches exact domain, contracting entity, regulator, product and territory matching. Creating another page without a distinct reader need risks duplicating intent instead of strengthening the existing cluster.
 - Commit: `7466dd6943866865e5a0d0637c9f73302cf4a7a9`.
 - This is an internal SEO planning improvement, not a live deployment or a claim of ranking/impression gains. No GitHub Actions run triggered.
+
+
+## 35. BetVictor GB — provisional identity/domain match; review held — 23 October 2026
+
+- Added `docs/brand-profile-betvictor-gb-draft.md` after checking the UKGC business, licence, domain, trading-name and regulatory-actions pages, plus the operator's GB terms.
+- UKGC account 39576 is BV Gaming Limited. The current register lists remote casino, bingo, software, real-event betting and virtual-event betting licences as active; `betvictor.com` and `betvictor.mobi` are listed as active domains and `betvictor` as an active trading name.
+- The UKGC actions page currently says no regulatory actions are recorded for this business. This is reported narrowly and is not a quality guarantee or a statement about other jurisdictions.
+- The operator's GB terms identify BV Gaming Limited and warn that verification documents may be required before withdrawals; the full current withdrawal, promotions, complaints/ADR and safer-gambling evidence still needs to be captured and reviewed.
+- Status: **Research in progress / HOLD**. No score or public recommendation; not counted toward the 100 approved reviews target.
+- Commit: `f9504fad4bf3f33a38d90a0a3c8c31bbca5190b7`.
+- Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/39576), [domains](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39576), [trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39576), [regulatory actions](https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39576), [BetVictor GB terms](https://www.betvictor.com/en-gb/pages/terms-conditions/uk-terms-and-conditions).
+- No deployment or GitHub Actions run triggered.
