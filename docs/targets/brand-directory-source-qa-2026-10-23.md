@@ -16,19 +16,19 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 29 |
-| Candidate images with alt text | 29/29 |
-| Candidate images with explicit width/height | 29/29 |
-| Candidate images with lazy loading | 29/29 |
+| Logo/image candidates | 30 |
+| Candidate images with alt text | 30/30 |
+| Candidate images with explicit width/height | 30/30 |
+| Candidate images with lazy loading | 30/30 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 29/100 cards have a sourced image candidate; all remain **rights pending**.
-- 71/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 30/100 cards have a sourced image candidate; all remain **rights pending**.
+- 70/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 29 sourced image candidates with rights pending, and 71 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 30 sourced image candidates with rights pending, and 70 editorial card artworks.
 
 ## Publication and deployment gates
 
@@ -75,3 +75,8 @@ A static audit after enriching ten previously thin snapshots found:
 - **100** unique brand labels; no duplicate HTML IDs; no new-tab links missing `noopener noreferrer`.
 
 This is source-level QA only. It does not confirm that every remote image loads in a real browser, that image reuse rights exist, that each licence is current, or that Cloudflare has deployed the branch.
+
+
+## Starcasino image addition — 23 October 2026
+
+Added a logo candidate exposed by Starcasino's official casino page: `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It is labelled rights pending. Current inventory: 30 image candidates and 70 cards using editorial CSS artwork. No reuse permission is inferred.
