@@ -1,13 +1,13 @@
 # Official-site image candidate QA — 23 October 2026
 
-**Current scope:** 22 sourced logo candidates are now registered in the 100-brand directory. The original 20-candidate spot-check is retained below as historical QA; Silkbet was added afterward from an image link exposed by its official homepage. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
+**Historical scope at original edit:** 22 sourced logo candidates are now registered in the 100-brand directory. The original 20-candidate spot-check is retained below as historical QA; Silkbet was added afterward from an image link exposed by its official homepage. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
 
 ## Current image inventory
 
-- 22/100 brand cards have sourced logo candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
+- 29/100 brand cards have sourced image candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
 - The original 20-candidate spot-check found 18 candidates on successfully extracted official pages; two pages timed out (Admiral Switzerland and Betinia NJ). Silkbet's homepage subsequently exposed `https://silkbet.bet/assets/silkbet-gold.svg`, bringing the current count to 19 candidates found in extracted official-page image links, with the same two original timeouts. An additional official-site image candidate was found for Ember Casino NJ.
 - Jollie's card and asset register use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was a social-preview image rather than the preferred logo.
-- All 22 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
+- All 29 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
 
 
 ## Candidate pages checked
@@ -88,3 +88,12 @@ Three candidates were added and marked rights pending:
 - **Winz.nl:** `https://www.winz.nl/_internal/hy-images/cmv4yct4d06bo01uzglxp45qb/x0AngDYSTKOQGUOy7vFO`, exposed as the official homepage favicon; small-icon candidate only.
 
 Current inventory: 25/100 image candidates, all rights pending; 75 cards retain editorial CSS artwork/monograms. Source presence is not reuse permission.
+
+
+### Current reconciliation — 23 October 2026
+
+- Current directory and asset register contain **29/100 sourced image candidates**, all rights pending, with fallback monograms.
+- Added official-site candidate for Brillbet: `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`, exposed on the Brillbet site. During extraction, the official URL redirected to a customer-service notice; verify the consumer product remains active before publication.
+- The three favicon/small-icon candidates (888.nl, BetTOM, 44Aces) and Winz.nl's favicon candidate should not be described as full-size logos.
+- ThreeSix Vegas asset is sourced from `36vegascasinos.uk` while the directory lists `36vegas.co.uk`; relationship needs confirmation.
+- 71 cards use CSS-generated editorial artwork. No reuse permission is established by source-page presence.
