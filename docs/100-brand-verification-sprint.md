@@ -339,3 +339,17 @@ Added [Ontario regulator-directory evidence](reviews/internal/ca-on-regulated-ma
 The official iGaming Ontario directory says its listing is accurate as of 1 September 2026 and requires players to be physically located in Ontario. These are market-specific directory matches only, not evidence of permission throughout Canada, consumer quality or a completed review. Exact live URLs and terms, bonuses, payments/withdrawals, complaints, privacy, safer-gambling controls, enforcement history and independent review remain outstanding.
 
 **No publication approvals were granted.** No GitHub Actions or deployment was triggered.
+
+
+## Ontario market evidence batch 12 — five additional candidate brands (2026-10-23)
+
+Added [batch 12 internal evidence](reviews/internal/ca-on-regulated-market-evidence-batch-12-2026-10-23.md) and updated five existing rows to **evidence captured / HOLD**:
+- Caesars Palace Online Casino — American Wagering Inc
+- DraftKings Casino — Crown DK CAN Ltd
+- Hard Rock Bet Casino — Hard Rock Digital (Canada) Limited
+- Golden Nugget Online Casino — Crown DK CAN Ltd
+- Bally Bet Casino — Bally's Canada Inc.
+
+Combined Ontario batches 11 and 12 now add evidence-directory matches for 11 candidate brands in total. The iGaming Ontario directory is marked accurate as of 1 September 2026 and is specific to regulated operators/sites in Ontario; the player directory says players must be physically located in Ontario to play. Do not generalize this evidence to Canada as a whole.
+
+**Registry snapshot after batch 12:** 100 candidate rows, 31 columns, 0 row-width mismatches, 0 blank brand names, 0 duplicate names; 43 rows are evidence captured/HOLD and 57 remain prospect/not reviewed. This is a static CSV inspection via repository API, not execution of the validator script or a CI test. No publication approvals were granted, and no Actions/deployment was triggered.
