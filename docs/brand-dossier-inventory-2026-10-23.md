@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **94 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **95 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -105,7 +105,7 @@ Classify each file as consumer brand, supplier/operator context, duplicate marke
 
 ## Inventory reconciliation — 23 October 2026, follow-up
 
-A fresh recursive tree check after the latest research commits found **95 files including the template, or 94 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
+A fresh recursive tree check after the latest research commits found **96 files including the template, or 95 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
 
 - `docs/brand-profile-bet-ahoy-gb-draft.md` — preliminary GB identity research; **HOLD**, not an approved review. Official-site access was location-restricted in the research session, so current terms, payments, complaints and safer-gambling evidence remain unverified.
 - `docs/brand-profile-pokerstars-gb-draft.md` — internal dossier; verify its current status in the file and do not count it as an approved review by filename alone.
@@ -140,3 +140,6 @@ The count remains a count of dossier files, not 83 unique verified consumer bran
 
 
 - `docs/brand-profile-21prive-gb-draft.md` — preliminary GB dossier for 21Prive / White Hat Gaming Limited, UKGC account 52894. Domain and operator match are supported; multi-currency offer and public safer-gambling/complaints evidence remain incomplete. **HOLD**, not an approved review.
+
+
+- `docs/brand-profile-lottomatica-it-draft.md` — preliminary Italy dossier for Lottomatica / GBO Italy S.p.A. The official ADM register associates concession code 16010 with `www.lottomatica.it`; official account-opening guidance identifies GBO Italy S.p.A. The current official terms page returned HTTP 403 in this research environment, so terms and consumer evidence remain open. **HOLD**, not an approved review.

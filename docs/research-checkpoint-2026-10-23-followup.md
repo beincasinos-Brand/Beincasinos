@@ -587,3 +587,10 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - General terms last updated 2 July 2026 (version 6.3). The visible welcome offer was last updated 12 February 2026 (version 1.3) and advertises up to £1,300 plus 200 spins; the surfaced conditions include a multi-deposit offer and a 100% bonus up to €300 plus 200 spins. The offer is multi-currency; exact GB-specific eligibility and terms must be captured before publication.
 - The official banking page describes card deposits/withdrawals and web-wallet options. The responsible-gambling link redirected to login during this check, so the public policy text, tools, complaints route and ADR eligibility remain open. No account or payment test was performed.
 - Decision: **HOLD**, no score, no public review, not approved.
+
+
+## 62. Lottomatica Italy — ADM concession and official terms access blocker — 23 October 2026
+
+- Added `docs/brand-profile-lottomatica-it-draft.md` for Lottomatica.it, scoped to Italy. The current ADM authorised remote-gambling concessionaire list associates code 16010 with GBO Italy S.p.A. and `www.lottomatica.it`. The official Lottomatica help centre identifies GBO Italy S.p.A. as the concessionaire and states that an Italian tax code and identity verification are required to open an account.
+- The official terms page at `https://www.lottomatica.it/guida/norme-regolamenti/termini-e-condizioni` returned HTTP 403 from the research environment. No third-party mirror was used to fill the gap. Current terms, bonus, payments/withdrawals, complaints and responsible-gambling tools remain unverified.
+- Decision: **HOLD**, no score, no public review, not approved. Use the official ADM register for the concession/domain match and recheck the official terms through an authorised public access path before publication.
