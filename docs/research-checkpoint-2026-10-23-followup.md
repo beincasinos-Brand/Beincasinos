@@ -290,3 +290,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Establishes editorial guardrails: sector-level risk is context, not a brand-specific breach or safety verdict; suppliers must be distinguished from consumer-facing casino operators.
 - Adds a reusable evidence checklist for domain/entity matching, enforcement, identity checks, safer-gambling controls and payments/withdrawals.
 - This is an internal reference, not a consumer review; approved public reviews contributed: **0**.
+
+
+## 30. Ken Howell's Sports Betting / Targetlocal Ltd — licence timeline dossier
+
+- File: `docs/brand-profile-ken-howells-sports-betting-gb-draft.md`
+- Commit: `6eb69bb45954dbaf9a64ddb6bfdca158ecaf4fac`
+- Official UKGC notice says the combined remote licence was suspended on 21 September 2026 after AML concerns, then explicitly updated to say the suspension was lifted on 13 October 2026 following significant action by the operator.
+- Dossier preserves the full timeline and warns against incorrectly describing the licence as currently suspended or inferring a penalty/remediation details not stated in the source.
+- Current live register, terms, payments, complaints, safer-gambling controls and independent usability evidence remain open. Status **HOLD / DRAFT**; approved public reviews contributed: **0**.
