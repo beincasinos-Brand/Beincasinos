@@ -1,0 +1,100 @@
+# Brand dossier inventory — 23 October 2026
+
+**Purpose:** source-tree inventory for the 100-brand / 100-approved-review programme. This is a count of internal dossier files, not a count of completed or publishable reviews.
+
+## Counting rules
+
+- A dossier file is not automatically a verified brand, an approved review, or a public page.
+- Market suffixes may mean multiple files relate to one brand; count unique brand-market pairs only after identity/domain deduplication.
+- Supplier/operator dossiers (for example game studios or platform providers) must not be counted as consumer casino reviews.
+- Every public review must pass `docs/brand-review-evidence-gate-v1.md`, include market-specific terms and consumer evidence, and receive a second-editor sign-off.
+- Public page count, sitemap inclusion, deployment status and Google indexing are separate checks.
+
+## Current source-tree inventory
+
+Detected **78 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+
+- `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-32red-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-32red-gb-regulatory-followup-2026-10-23.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-44aces-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-7bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-7melons-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-888casino-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-888casino-gb-regulatory-followup-2026-10-23.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-888casino-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-admiral-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-bestodds-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-bet365-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betano-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betcrown-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betfair-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betfred-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betfred-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betinia-us-nj-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betlegend-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betmgm-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betnero-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betsson-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betsuna-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-bettom-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betty-casino-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betvictor-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betway-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-betway-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-bresbet-gb-status-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-brillbet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-casiku-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-casineo-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-casino777-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-casushi-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-coral-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-dabble-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-ember-casino-us-nj-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-evolution-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-fruitkings-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-grosvenor-casinos-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-grosvenor-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-jackpots-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-justin-casino-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-ken-howells-sports-betting-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-l-and-l-europe-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-ladbrokes-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-leovegas-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-leovegas-it-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-leovegas-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-luckymate-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-megaways-casino-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-midnite-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-mycasino-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-netbet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-octobet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-paddy-power-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-paddy-power-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-pasino-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-quinnbet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-sisal-it-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-sky-bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-sky-vegas-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-stakelogic-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-stakewise-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-starccasino-it-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-starvegas-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-swiss4win-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-swisscasinos-ch-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-threesix-vegas-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-tipico-casino-de-sh-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-tom-horn-gaming-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-unibet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-unibet-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-vegas-club-us-nj-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-videoslots-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-william-hill-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-winz-nl-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+
+## Next action
+
+Classify each file as consumer brand, supplier/operator context, duplicate market variant, or unresolved identity; then record one canonical brand-market row per target. Do not manufacture 100 approved reviews from the dossier count. The public `reviews/` tree must be checked separately before claiming review publication progress.
+
+**Scope limitation:** this inventory reflects the repository source tree only. It does not prove the live site is deployed or that search engines indexed any URL.
