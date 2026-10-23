@@ -82,3 +82,9 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - Added responsive three-column / two-column / single-column card layouts, compact regulator-check labels, hover states that respect reduced-motion preferences, and an explicit note that market cards are research scopes—not approved casino recommendations.
 - Updated `index.html` and `styles.css` on the existing draft PR branch. Static source verification confirms all 12 market cards and responsive CSS are present. Production deployment, live visual QA, accessibility audit and real-device screenshot checks remain outstanding.
 - This is a design/content-navigation improvement, not a review-count increase. Approved reviews remain **0/100**; do not infer that the site is deployed from branch commits.
+
+## Website directory — 100-brand research queue (23 October 2026)
+
+Created `brand-directory/index.html` on this branch with 100 entries sourced from `docs/tier-1-master-prospect-tracker.csv`. The page includes search, market and status filters; each card shows the market scope, known domain/operator (or an explicit not-verified label), and a pending/excluded state. It includes a clear warning that entries are research leads, not recommendations, and a `noindex,follow` directive while legal and editorial gates remain open. Added navigation links from the home page, reviews page and market-research page.
+
+**Important scope note:** the first 100 tracker rows are GB-heavy (64 GB entries) and include four excluded leads plus markets that need additional legal-scope work. This is a working queue display, not the final 100 approved brands. The directory is intentionally not added to the sitemap; do not remove noindex or promote entries until regulator/domain/product verification and editorial approval are complete. No logo/brand imagery is represented as official; the cards use original CSS artwork and monograms. No deployment or GitHub Actions run was triggered.
