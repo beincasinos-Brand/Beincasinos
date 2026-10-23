@@ -6,7 +6,7 @@
 
 ## Current inventory
 
-The latest branch-source count is **48 image candidates across 100 cards**. Every candidate is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has alt text, width/height hints, lazy loading and a monogram fallback. The register contains 100 brand rows, 48 with a sourced candidate. The remaining 52 cards use CSS artwork/monograms, not official logos or photographs.
+The latest branch-source count is **50 image candidates across 100 cards**. Every candidate is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has alt text, width/height hints, lazy loading and a monogram fallback. The register contains 100 brand rows, 50 with a sourced candidate. The remaining 50 cards use CSS artwork/monograms, not official logos or photographs.
 
 **Important:** a logo or favicon being exposed on a brand's website does not establish permission to republish it. This audit does not certify that every URL still loads, that every asset is visually correct at display size, or that each brand is licensed in the directory's named market.
 
@@ -29,7 +29,7 @@ The initial 20-candidate source spot-check found 18 image candidates exposed on 
 
 ## Publication controls
 
-- All 48 candidates remain rights pending.
+- All 50 candidates remain rights pending.
 - The directory remains `noindex,follow` and is excluded from the sitemap until domain/operator, local licence, content and image-rights checks are complete.
 - **0/100 reviews are approved.** Image sourcing does not approve a review or change a brand's HOLD status.
 - No Cloudflare production deployment is confirmed, and no GitHub Actions run was triggered for this work.
@@ -46,6 +46,15 @@ Both assets are visibly marked rights pending; source-page presence is not reuse
 
 
 
+
+### Latest additions — GeckoPlay and Rose Casino — 23 October 2026
+
+- **GeckoPlay:** official homepage exposes `https://www.geckoplay.com/logo.webp`. The card lists the official-site candidate domain with current UKGC domain/trading-name matching still pending.
+- **Rose Casino:** official homepage exposes `https://www.rosecasino.com/img/logo/rose-casino-logo-white-new.svg`. The image container uses a dark background for contrast; the card remains on HOLD pending current UKGC matching and image reuse rights.
+
+Both assets are marked rights pending. Source presence is not a licence or reuse grant.
+
+
 ## Authoritative current directory state — 23 October 2026
 
-Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 48 sourced image candidates, 48 rights-pending labels and 52 CSS artwork/monogram fallbacks**. The image register has 100 rows, 48 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 51/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Four operator notes were strengthened from official-site terms/homepage statements (Onyx Gaming Ltd, ProgressPlay Limited, Videoslots Limited and Jumpman Gaming Limited), but exact current UKGC register/domain matching remains a publication gate. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
