@@ -20,6 +20,8 @@
 - **Mr Vegas:** GB terms identify Videoslots Limited (UKGC 39380) for `mrvegas.com`; distinguish this from ProgressPlay Limited's separate `mrvegascasino.com` record. Include the 2023 £2m and 2025 £650,000 UKGC actions in accurate historical context. HOLD pending current terms/product tests and verification of audit outcomes.
 - **PlayOJO:** evidence pack corrected to include the 23 May 2023 £305,150 UKGC settlement against Skill On Net Limited; current register view alone should not be described as a clean lifetime history. HOLD pending current terms and product tests.
 - **PokerStars Casino:** UKGC 39108 has active remote casino permissions and lists `pokerstars.uk` / `pokerstarscasino.uk`; current terms distinguish TSG Interactive Plc (real-money games) from Stars Mobile Limited (play-money games). HOLD pending casino-specific terms capture and product checks.
+- **Ladbrokes Casino:** account 1611 has active remote casino permission, but the current search result associates `ladbrokes.com` with LC International Limited (54743). Preserve the 2019/2022 enforcement scope and resolve the current GB contracting party. HOLD.
+- **Casumo:** former Casumo Services Limited account 39265 has surrendered remote casino permission (effective 3 Nov 2023), while `casumo.com` is also listed under Recro Limited (61549). Current GB eligibility unresolved; HOLD/exclude from current recommendation until verified.
 - **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
