@@ -9,7 +9,7 @@
 
 The active research CSV contains **162 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
 
-Thirteen internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), and William Hill Casino (Spain). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Fourteen internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -26,7 +26,7 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 | Switzerland (CH) | 10 | ESBK-listed online-casino platforms; match exact contracting entity, current concession extension and relevant per-game permits. |
 | Germany (DE) | 1 | Schleswig-Holstein-specific lead only. Verify current state-specific authorisation and product; do not imply nationwide eligibility. |
 | Netherlands (NL) | 8 | Reconcile Ksa licence holder to exact live domain/product. TOTO and Winnitt share TOTO Online B.V.; do not double-count them as distinct operators without materially distinct product evidence. |
-| Sweden (SE) | 7 | One domain-level Svenska Spel lead plus six rows needing revalidation. Do not count unverified domain/operator mappings. |
+| Sweden (SE) | 7 | Svenska Spel has a domain-level licence lookup; Betsson Nordic Ltd has a regulator-confirmed betsson.com/sv licence lead plus a material SEK 6.5m AML sanction (appeal pending). The remaining domain/operator rows need exact current licence-register matching; all remain HOLD. |
 | Spain (ES) | 19 | 16 individual DGOJ profiles checked across 18 brand/domain rows. PartyCasino/Bwin share ELECTRAWORKS CEUTA, S.A.; PlatinCasino/Fuegocasino share 8PE ESPAÑA, PLC. Winamax's 2026 roulette/slots/blackjack licences are provisional and need effectiveness confirmation. Betfred.es is excluded because its casino licences were extinguished in 2023. All remaining candidates are HOLD pending consumer evidence and second review. Details: `docs/research/spain-dgoj-candidate-expansion-2026-10-23.md`. |
 | Italy (IT) | 46 | ADM candidate buffer. Several entries are broad remote-gambling leads, not proven casino products; confirm active concession, domain and casino vertical. Deduplicate cross-listed brands. |
 | France (FR) | 2 | These are sports/poker-related leads, not online-casino authorisations. Online casino is not generally authorised; do not count either toward the casino-review target. |
@@ -49,7 +49,7 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 | Measure | Current verified value |
 |---|---:|
 | Raw market-specific research records | 162 |
-| Internal evidence drafts tracked | 13 |
+| Internal evidence drafts tracked | 14 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
