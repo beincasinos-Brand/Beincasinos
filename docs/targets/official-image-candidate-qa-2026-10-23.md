@@ -77,3 +77,14 @@ Three additional image candidates were found on the respective brand sites and r
 - **Winz.nl:** `https://www.winz.nl/_internal/hy-images/cmv4yct4d06bo01uzglxp45qb/x0AngDYSTKOQGUOy7vFO` exposed as the official homepage favicon, so it is a small-icon candidate, not a full-size logo.
 
 The current inventory is **25/100** sourced candidates. All remain rights pending and need direct-load/visual review. The 75 remaining cards use editorial CSS art/monograms. No reuse permission is inferred from source presence.
+
+
+### Official-site image follow-up — 23 October 2026
+
+Three candidates were added and marked rights pending:
+
+- **ThreeSix Vegas:** `https://36vegascasinos.uk/img/general-category/logo-36vegas-casino-jpo.webp` from `https://36vegascasinos.uk/`. The directory lists `36vegas.co.uk`; confirm domain/operator relationship before publication.
+- **Midnite:** `https://www.midnite.com/images/brands/midnite/logo-emblem-2025.svg` from the official homepage; likely an emblem rather than a full wordmark.
+- **Winz.nl:** `https://www.winz.nl/_internal/hy-images/cmv4yct4d06bo01uzglxp45qb/x0AngDYSTKOQGUOy7vFO`, exposed as the official homepage favicon; small-icon candidate only.
+
+Current inventory: 25/100 image candidates, all rights pending; 75 cards retain editorial CSS artwork/monograms. Source presence is not reuse permission.
