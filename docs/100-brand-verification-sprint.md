@@ -108,3 +108,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a **New Jersey casino review scorecard and evidence schema**: hard pass/fail publication gates, weighted rubric only after gates pass, claim-level source fields, rules for attributing regulator actions, and recheck triggers. This is an internal editorial standard; it does not score or approve any brand. See [NJ scorecard and evidence schema](research/new-jersey-casino-review-scorecard-and-evidence-schema-2026-10-23.md).
+
+
+- **Bally Bet Casino (New Jersey):** added an internal evidence pack based on the DGE authorized-sites list, first-party casino page and NJ Casino Control Commission host-license context. Updated the brand registry with a New Jersey-only scope and explicit HOLD status. Exact player contracting entity, current terms, cashier/withdrawal rules and safer-gambling checks remain unresolved; this is not an approved review. [Evidence pack](reviews/internal/bally-bet-casino-new-jersey-evidence-2026-10-23.md).
