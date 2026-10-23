@@ -387,3 +387,6 @@ Additional Italy ADM corroboration: existing registry rows for LeoVegas and Spor
 ## Spain DGOJ evidence capture — Luckia (2026-10-23)
 
 The existing Luckia registry row now records the official DGOJ operator profile: [internal evidence note](reviews/internal/es-dgoj-luckia-evidence-2026-10-23.md). DGOJ lists luckia.es and singular licences for slots, poker, blackjack and roulette, including roulette/blackjack renewal decisions dated 14 October 2026. This is Spain-specific evidence, not a completed consumer review or approval to publish. Row remains HOLD; current terms, payment/withdrawal flow, complaints, privacy, safer-play controls and second-editor review remain outstanding. No Actions or deployment was triggered.
+
+
+Additional Spain DGOJ evidence: the existing Codere row now separates the Italy domain/legal entity (codere.it — Codere.it S.r.l., ADM 16018) from Spain (codere.es/codereapuestas.es — CODERE ONLINE, SAU, DGOJ). These are separate market-specific records; neither proves authorization in Mexico or other countries. Sources: https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari?cod_conc=16018&nome_conc=&nome_sito=&sub_home=Ricerca ; https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau. The Codere row remains HOLD pending full market-specific consumer review.
