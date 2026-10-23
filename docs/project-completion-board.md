@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 21 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-21-skill-on-net-white-label-leads-2026-10-23.md` on `research/gb-batch-21-2026-10-23`.
+- Eight white-label leads captured: Genting Casino, PlayJango, Metal Casino, Regency Casino, Swift Casino, SlotStars, Zebra Wins and Luna Casino. All HOLD pending live-site, legal-operator/marketing-partner, terms and deduplication checks.
+- These are domain-level leads, not eight approved brands or reviews. No approved totals changed; no merge to `main` and no Cloudflare deployment.
+
+
 ## Research checkpoint — batch 20 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-20-skill-on-net-active-domains-2026-10-23.md` on `research/gb-batch-20-2026-10-23`.
 - Captured 14 Skill On Net active-domain/trading-name leads: Jackpot Star, Lord Ping, Lucky Me Slots, Lucky Vegas, Megaways Casino, Miami Jackpots, Paris Vegas Club, PlayMillion, Prime Casino, RedKings, Royale500, Slots Magic, TurboNino and Vegas Winner. All remain HOLD pending live-site and review-evidence checks.
