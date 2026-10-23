@@ -119,3 +119,17 @@ No numerical rating is assigned before all mandatory evidence and independent re
 - [ ] Record affiliate/commercial disclosure separately from editorial scoring.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+
+
+## Fresh verification addendum — 23 October 2026
+This addendum records a new direct fetch of the current public routes and the regulator's latest public notice. It supplements, and does not replace, the evidence and unresolved issues above.
+
+- The Ksa's official continuation-licence announcement was fetched successfully. It explicitly lists **TOTO Online B.V. (TOTO and Winnitt)** among eight recipients of licences for **October 2026–September 2031** and says all eight meet the requirements to continue. Source: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+- The Ksa's public Wwft instruction summary was fetched successfully. It describes deficiencies in ongoing transaction/customer monitoring, documenting risk classifications and measures, and source-of-funds checks. It says the operator was directed to remedy the outstanding issues within six months and that the Ksa would reinspect after that period. Since the public summary is dated **24 December 2025**, the six-month period has elapsed by this research date. **No follow-up/reinspection result was located in this pass**; this remains an approval blocker, not proof of continued non-compliance. Source: https://kansspelautoriteit.nl/wwft-aanwijzing-voor-toto-online
+- The live TOTO homepage and licence page were fetched. The site exposes separate casino and live-casino routes, plus first-party links to participant regulations, responsible-play information, privacy and cookies. The licence page states that the Ksa licence for TOTO Sport and TOTO Casino is held by TOTO Online B.V. Source: https://www.toto.nl/vergunning
+- The current casino welcome-bonus page was fetched and states the offer is available only to new players aged **24 or older**. The page extraction did not reliably expose the complete offer terms; no amount, wagering requirement or expiry should be stated from this evidence alone. Source: https://www.toto.nl/welkomstbonus/casino
+- The responsible-play and safe-play routes were reachable, but extracted content did not provide a complete current set of operational rules for limits, timeout and self-exclusion. No account settings were tested.
+- The participant-regulations page loaded as a page shell without exposing the complete text in this extraction. Do not substitute the older 2024 PDF for current terms.
+
+### Updated gate
+**HOLD remains unchanged.** Priority blockers are: (1) verify the Ksa's post-six-month Wwft follow-up/reinspection outcome; (2) inspect the actual 2026–2031 licence and match the casino domain/product; (3) obtain full current terms and complete offer rules; and (4) verify current withdrawals, fees, complaint escalation and operational safer-gambling controls. No review approval or score is granted by this addendum.
