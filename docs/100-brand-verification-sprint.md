@@ -114,3 +114,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - **bet365 Casino (New Jersey):** added an internal evidence pack from the current NJ terms (effective 31 Aug 2026) and DGE authorized-sites list. Registry now records Hillside (New Jersey) LLC and the Boardwalk 1000, LLC agreement disclosed in terms, NJ-only scope, withdrawal-policy caveats and HOLD status. No hands-on test or public approval is claimed. [Evidence pack](reviews/internal/bet365-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Hard Rock Bet Casino (NJ): internal evidence note added from the DGE authorized-sites list and first-party site; registry updated with NJ-only scope and HOLD status. Operator/contracting entity, payments, bonus rules and player-protection checks remain open. [Evidence note](reviews/internal/hard-rock-bet-casino-new-jersey-evidence-2026-10-23.md).
