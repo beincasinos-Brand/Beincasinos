@@ -397,3 +397,14 @@ Additional Spain DGOJ evidence: the existing Codere row now separates the Italy 
 Added [official Ontario OLG and Québec Loto-Québec evidence note](reviews/internal/ca-olg-lotoquebec-operator-evidence-2026-10-23.md). Official iGaming Ontario material distinguishes OLG.ca, conducted and managed by the Ontario Lottery and Gaming Corporation, from the private operators contracted by iGaming Ontario. Loto-Québec's official online-gaming page identifies lotoquebec.com as its online gaming site and describes its casino, lottery and sports-betting products; its 27 August 2026 statement reiterates the Québec-specific scope.
 
 This is source capture only. The registry rows for OLG.ca and Loto-Québec have **not yet been updated** because the CSV replacement operation was blocked; they remain prospects until the source notes and market-specific fields are written successfully. Espacejeux is kept separate pending first-party confirmation of the current official brand/domain relationship. No publication approvals, CI/Actions runs, or deployment were performed.
+
+
+## Supplemental GB evidence checkpoints — 2026-10-23
+
+Two additional internal evidence checkpoints have been added to help resolve identity and domain questions before any GB consumer review is approved:
+
+- [Grosvenor Casino — online entity/domain mapping checkpoint](reviews/internal/grosvenor-casino-gb-evidence-2026-10-23.md): separates the Grosvenor Casinos Limited account 614 record from the online terms naming Rank Interactive (Gibraltar) Limited/account 57924. Keep HOLD until the exact live customer domain is reconciled to the correct official account/domain record and all consumer-review gates are completed.
+- [Midnite Casino — GB licence/domain screening checkpoint](reviews/internal/midnite-casino-gb-evidence-2026-10-23.md): records a preliminary account 101839 and www.midnite.com screen, while explicitly flagging a second-editor review and remaining terms, payments, ADR, privacy and promotion checks.
+- [PlayOJO — GB candidate screening checkpoint](reviews/internal/playojo-casino-gb-evidence-2026-10-23.md): records the initial Skill On Net Limited/account 39326 screen and keeps domain mapping and all consumer-review gates open pending reconciliation against the current account-level record.
+
+These are supplemental internal source notes, not three newly verified brands and not approved consumer reviews. They do not change the registry's publication-approval count. The 100-row CSV remains a candidate/evidence registry; do not claim 100 approved brands or 100 finished reviews until each row independently clears its publication gates. No CI/Actions run or deployment was triggered for these documentation-only changes.
