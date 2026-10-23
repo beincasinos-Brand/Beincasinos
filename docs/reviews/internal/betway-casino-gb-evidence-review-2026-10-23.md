@@ -107,3 +107,34 @@ Some secondary profiles report a historical £11.6m regulatory settlement in Mar
 - [ ] Complete independent second review and legal/editorial approval.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+
+
+## Batch 35 — primary-source enforcement reconciliation and current GB policies (23 October 2026)
+
+### Historical enforcement discrepancy resolved with regulator notices
+
+The earlier caution about relying on secondary summaries is now resolved: two primary UK Gambling Commission notices were located and captured. The current account-level actions page's “no actions recorded” message must **not** be treated as proof that no historic action exists; the dated Commission notices below directly document Betway Limited actions.
+
+1. **12 March 2020 — £11.6 million regulatory settlement** for social-responsibility and anti-money-laundering failings involving seven high-spending customers. The Commission describes failures in affordability/source-of-funds checks and customer interactions; it reported £5.8m that was found or reasonably suspected to be proceeds of crime had flowed through the business, with the majority to be divested and returned to victims. The Commission later confirmed the £11.6m had been paid and explains that settlements can include divestment to affected people, social-responsibility payments and regulator costs. Sources: https://www.gamblingcommission.gov.uk/news/article/betway-to-pay-gbp11-6m-for-failings-linked-to-vip-customers and https://www.gamblingcommission.gov.uk/about-us/freedomofinformation/betway-fine.
+2. **21 September 2022 — £408,915 penalty** for gambling logos linking to Betway on children-directed pages on West Ham United's website, including a teddy-bear colouring page and “Young Hammers at Home”. The Commission says there was no suggestion Betway deliberately targeted children or that children had been allowed to gamble, and notes remedial action since taken. Source: https://www.gamblingcommission.gov.uk/news/article/betway-faces-gbp400-000-fine-for-marketing-on-childrens-webpages.
+
+Present the two events separately with their dates and context; do not imply they were a single combined fine, that the current UKGC account page is a complete historic-action index, or that these historical events establish a present-day breach.
+
+### Current operator-published GB product and protection claims
+
+- **Casino route:** https://betway.com/gb/en/casino describes 500+ games, game categories, browser/app access and identity verification before real-money play. Treat the catalogue size and access claims as operator statements; actual availability, accessibility and performance were not tested.
+- **Payment claims:** the same page says methods depend on the account, withdrawals return to the deposit method where possible, debit-card/PayPal withdrawals have a £5 minimum, and a £1 fee may apply to low remaining balances. It states Betway aims to process withdrawals within 24 hours, while payment-provider arrival time and exceptions/checks may differ. None of these statements is a tested payout result; the exact cashier and full exception clauses still need capture.
+- **Safer-gambling claims:** the page describes net-deposit limits, Take a Break, activity statements, session reminders and self-exclusion, and links to GAMSTOP and support services. No logged-in tool was exercised.
+- **Site version:** the current public terms shell displayed version `20261023.4`, but the source extractor returned only the shell/navigation for the detailed dynamic terms, responsible-gambling and cookie routes. This is a content-extraction limitation, not evidence that policy text or controls are absent.
+- **Welcome offer:** the casino page says offers can vary and the terms attached to a promotion take priority. The dynamic `/gb/en/dyn/casinowelcomebonus` route did not expose the actual offer terms in this extraction, so no current offer-specific welcome bonus is verified. Do not use a sports welcome offer as a casino offer.
+
+### Remaining blockers — HOLD
+
+1. Confirm the active UKGC Casino Remote permission and exact domain again at publication time.
+2. Capture a current GB casino welcome offer and its full terms, or explicitly report that no offer could be verified from the accessible route.
+3. Capture exact market-specific cashier methods/limits/fees and withdrawal exceptions; do not present operator timing language as independent testing.
+4. Capture readable current complaints/ADR terms, privacy notice and cookie-policy text; test consent behaviour and accessibility in a live browser.
+5. Document actual safer-gambling controls only if they can be checked lawfully without deposits or play.
+6. Obtain independent second-editor and editorial/legal/affiliate-disclosure sign-off.
+
+**Decision remains HOLD.** This batch materially resolves the historic-enforcement source conflict and adds current operator claims, but it does not establish a completed consumer review, tested service quality or approval to publish.
