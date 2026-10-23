@@ -689,3 +689,11 @@
 ### Static source consistency check — 23 October 2026
 
 A read-only GitHub source check after the market-page commits confirmed: 46 indexable HTML routes estimated from the public build directories; 46 sitemap URLs; no duplicate sitemap URLs; `/markets/` is present; `markets/index.html` has a self-canonical and Terms link; all twelve geography labels are present; and the build, site-check, and artifact-check sources include the new market route. These are source assertions, **not** execution of the Python scripts, a rendered browser test, an HTTP-status test, or proof of production deployment/indexation.
+
+
+## Batch 36 — 100-brand register milestone (2026-10-23)
+- **Completed in research branch:** added `/brand-research/` with 100 unique candidate cards, market and recorded operator lead, regulator starting point, candidate-specific open-evidence notes, and official/regulator links when present in the research CSV. All cards remain HOLD; excluded/rejected brands are not counted.
+- **Build/quality guardrails added:** build allowlist includes `brand-research/`; page assets are same-origin CSS/JS/SVG; homepage and Reviews hub link to the register; source checker validates disclosures and excluded-brand safeguards; deployment-artifact checker requires the route/assets and skips its `noindex,follow` page when reconciling the sitemap.
+- **Visuals:** original evidence-register illustration plus consistent initials tiles. These tiles are not official logos; official logo/image sourcing and licence/provenance checks remain open. No invented brand artwork is presented as authentic.
+- **Verification boundary:** GitHub source reads confirm 100 cards and 100 HOLD labels, nav links, route allowlist, sitemap exclusion, and checker guard text. Automated scripts/build/browser checks have not been executed. No Cloudflare deploy, DNS change, or main merge. Keep the route noindex until there is an editorially approved publication set.
+- **Target:** research register has 100 candidates; approved high-quality consumer reviews remain **0/100**. Next work is to close full evidence gates for the first publishable batch, not to mislabel candidate cards as completed reviews.
