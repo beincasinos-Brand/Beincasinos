@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 25 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-25-domain-reconciliation-2026-10-23.md` on `research/gb-batch-25-2026-10-23`.
+- Added four domain reconciliation tasks: Jackpot City (two domains, count at most once), Spin Casino, Hippodrome Online (legal-entity overlap must be resolved), and UK Riches. All remain HOLD pending direct official-register and live-site evidence.
+- Research-only; no approved brand/review count changed, no merge to `main`, no Cloudflare settings or DNS changed, and no production deployment.
+
+
 ## Operations checkpoint — Cloudflare Pages release safety (23 October 2026)
 - Added `docs/cloudflare-pages-single-deploy-release-runbook-2026-10-23.md` on `research/cloudflare-release-safety-2026-10-23`.
 - Documented Pages skip-build prefixes, branch controls, build-watch paths, artifact/CI checks, owner/legal/hosting gates, single-production-deploy sequencing and post-deploy Search Console verification.
