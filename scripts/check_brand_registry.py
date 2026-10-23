@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import csv
 import sys
+from urllib.parse import urlparse
 from collections import Counter
 from pathlib import Path
 
@@ -17,6 +18,7 @@ TARGET_REVIEWS = 100
 REQUIRED_COLUMNS = {
     "brand_name",
     "official_url",
+    "markets_allowed",
     "legal_entity",
     "regulator",
     "official_register_url",
@@ -76,6 +78,26 @@ for line, row in enumerate(rows, start=2):
         errors.append(f"{brand}: invalid status {status!r}")
     if decision not in VALID_DECISIONS:
         errors.append(f"{brand}: invalid publication_decision {decision!r}")
+
+    official_url = (row.get("official_url") or "").strip()
+    market_scope = (row.get("markets_allowed") or "").strip()
+    if not market_scope:
+        errors.append(f"{brand}: markets_allowed must state a specific jurisdiction or explicitly say none confirmed")
+    if not official_url:
+        errors.append(f"{brand}: official_url is required for a candidate record")
+    else:
+        parsed = urlparse(official_url)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            errors.append(f"{brand}: official_url must be an absolute HTTP(S) URL")
+
+    if decision == "HOLD" and not issues:
+        errors.append(f"{brand}: HOLD decision must explain unresolved issues")
+    for field in ("official_register_url", "terms_url", "withdrawals_url", "complaints_url", "responsible_gambling_url", "partnership_contact_url", "launch_year_source_url", "partnership_evidence_url"):
+        value = (row.get(field) or "").strip()
+        if value:
+            parsed = urlparse(value)
+            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                errors.append(f"{brand}: {field} must be an absolute HTTP(S) URL when populated")
     if decision == "approved":
         if status != "reviewed":
             errors.append(f"{brand}: approved decision requires status=reviewed")
@@ -94,6 +116,7 @@ print(f"Registry: {REGISTRY.relative_to(ROOT)}")
 print(f"Candidate rows: {len(rows)} (target: {TARGET_REVIEWS} approved reviews)")
 print(f"Columns: {len(columns)}")
 print(f"Unique non-empty brand names: {len({n for n in names if n})}")
+print(f"Publication-approved rows: {sum((row.get(\"publication_decision\") or \"\").strip() == \"approved\" for row in rows)} / {TARGET_REVIEWS}")
 print(f"Errors: {len(errors)}")
 print(f"Warnings: {len(warnings)}")
 for message in errors:
