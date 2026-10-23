@@ -361,3 +361,15 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - This validates source-repository coverage only. It does not confirm that the deployed website serves every route successfully, that Google has crawled or indexed them, or that the submitted sitemap in Search Console is current.
 - Previously documented Search Console submission showed 32 URLs versus the live sitemap's 44 at that time; the current source sitemap count is 45. Next external verification is to submit/recheck `https://beincasinos.online/sitemap.xml`, inspect the sitemap's discovered URLs, and inspect Pages/URL Inspection reports. Do not claim indexing or impressions without those reports.
 - No sitemap edit was necessary from this repository-to-sitemap comparison. No deployment or GitHub Actions run triggered.
+
+
+## 37. QuinnBet GB — current licence/domain match and 2026 settlement — 23 October 2026
+
+- Added `docs/brand-profile-quinnbet-gb-draft.md` from current UKGC register and settlement records.
+- UKGC account 61011 (QuinnBet (Gibraltar) Limited) lists active remote Casino, Real Event Betting and Virtual Event Betting permissions; `m.quinnbet.com` and `www.quinnbet.com` are listed active. Trading names `quinnbet`, `quinncasino` and `quinnsports` are listed active.
+- UKGC settlement dated 20 August 2026 records £609,104 payment in lieu of financial penalty, Commission costs and public statement, with findings involving AML/CTF, remote customer interaction and financial-vulnerability checks.
+- Current licence status does not erase enforcement history; no unsupported claims about individual customer outcomes or remediation were added.
+- Status: **HOLD / DRAFT** pending current terms, offers, payments/withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review. This dossier is not an approved public review and does not count toward the 100-review target.
+- Dossier commit: `8640bb6d42c44c0f5f50ddd1ffe473f9058375eb`.
+- Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/61011), [domains](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/61011), [trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/61011), [UKGC settlement](https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/341).
+- No deployment or GitHub Actions run triggered.
