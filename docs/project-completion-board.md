@@ -1,5 +1,13 @@
 # Latest research checkpoint — 23 October 2026
 
+- Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
+- Current register evidence: Betway Limited, 888 UK Limited and Bonne Terre Gaming Limited (Sky Vegas) show active Remote Casino licences. Ladbrokes has active casino-licence evidence but a brand/domain-to-legal-entity mapping issue remains. bet365 search returns multiple legal entities and needs exact casino-product matching. 32Red Limited's Remote Casino licence is recorded as surrendered from 12 March 2025.
+- These are regulator-register checks, **not six completed editorial reviews**. Terms, withdrawals, complaints, safer-gambling controls, regulatory history and second-review remain outstanding. No scores or public endorsements were created; publication-approved review count remains **0/100**.
+- Latest research file update commit: `2a269f1350859edbb4c5f79b1b8a044964bba2f0`.
+- No production deploy, DNS/nameserver change, billing change, Search Console write action, or operator outreach was performed.
+
+# Latest research checkpoint — 23 October 2026
+
 - Added `docs/gb-brand-verification-batch-2026-10-23.md` with a fresh official UK Gambling Commission register check for Betway Casino, 888casino, bet365, and 32Red.
 - Evidence result: Betway Limited (account 39372) and 888 UK Limited (account 39028) show active Remote Casino licences in the GB register; bet365 resolves to multiple legal entities and requires product-to-licensee matching; 32Red Limited's GB Remote Casino licence is recorded as surrendered from 12 March 2025. Sources and limitations are recorded in the batch file.
 - This is a regulator-register research pass, **not** four completed editorial reviews. Terms, withdrawals, complaints, safer-gambling controls, regulatory history and second-review remain outstanding; no scores or public endorsements were created. Publication-approved review count remains **0/100**.
