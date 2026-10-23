@@ -220,3 +220,8 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Brand directory image-state filter — 23 October 2026
+
+The directory page now has a proposed image-state filter in branch `feature/brand-directory-image-status-filter-2026-10-23`: `Source found · rights pending` versus `Editorial artwork fallback`. The filter is a triage aid only; it does not certify reuse rights or official brand identity. Existing market, verification status and evidence-grade filters remain. Change is pending review and has not been deployed.
