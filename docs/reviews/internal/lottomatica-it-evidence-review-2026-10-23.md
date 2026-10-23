@@ -11,6 +11,8 @@ Italy's Agenzia delle Dogane e dei Monopoli (ADM) lists **Goldbet Better Organiz
 
 A visible first-party promotion search result showed a casino welcome-bonus headline “up to €10,030” with a promotion validity window ending **27 September 2026**. As the review date is 23 October 2026, that offer is **expired on the evidence captured** and must not be presented as current. The same page contains separate offers for sports, bingo and poker; their terms must not be blended with casino terms.
 
+**Direct-access limitation:** on 23 October 2026, direct extraction attempts for the Lottomatica homepage, casino page and promotion page returned HTTP 403. The concession/domain and expired-promotion details above are based on the official ADM listing and first-party search-indexed page extracts, not a successful direct inspection of the live site. Reconfirm all dynamic details through a successful live visit before publication.
+
 **No score or recommendation is assigned.** Payments/withdrawals, full current casino bonus terms, complaints, privacy/cookies, accessibility, enforcement review and independent second review remain open.
 
 ## Identity and regulatory evidence
@@ -73,4 +75,4 @@ No numerical rating is assigned until evidence gates pass.
 
 ## Publication decision
 
-**HOLD.** This is an internal research draft, not a recommendation, endorsement, or finished consumer review. Keep it out of public rankings and do not assign a score until the outstanding evidence is captured, checked and independently reviewed.
+**HOLD.** Direct access to the operator site returned HTTP 403 in this pass; the current terms, cashier, complaint policy and privacy/RG flows therefore remain unverified. This is an internal research draft, not a recommendation, endorsement, or finished consumer review. Keep it out of public rankings and do not assign a score until the outstanding evidence is captured, checked and independently reviewed.
