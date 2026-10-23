@@ -141,3 +141,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Documented the UKGC settlement dated 17 December 2025: four specified Betfair/Paddy Power licensees, social-responsibility customer-interaction failures, total £2m payment in lieu of penalty.
 - Status: **Hold / draft**, not an approved review. Exact product-to-entity mapping, current terms, payment evidence, complaints/ADR, safer-gambling evidence and second-editor approval remain open.
 - This research dossier does not count as an approved review.
+
+
+## 15. Sky Bet GB research dossier
+
+- File: `docs/brand-profile-sky-bet-gb-draft.md`
+- Latest commit: `18d11b7409996a4440ea639e50f13c88cc91d937`
+- Separates SBG Sports Limited (UKGC account 67370) for sports betting/virtual racing from Bonne Terre Gaming Limited (account 65519) for casino, bingo and poker. Treats older Bonne Terre Limited account 38718 as legacy/surrendered, not the current active operator.
+- Includes historical 2022 £1.17m UKGC action as an item requiring original-notice review and careful entity attribution.
+- Status remains **Hold / draft** until current terms, payments, complaints/ADR, safer-gambling evidence and independent review are complete.
