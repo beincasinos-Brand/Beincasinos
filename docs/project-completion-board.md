@@ -577,3 +577,9 @@
 - Confirmed the old 32Red Limited account's permissions are Surrendered (ending 12 March 2025), Platinum Gaming Limited's remote casino licence remains Active, and `www.32red.com` is listed Active under Platinum Gaming Limited. Current terms summary flags verification checks, one account per brand and maximum winnings limits; the full legal-entity disclosure and full clauses still need review.
 - Rechecked UKGC's 23 March 2023 £7.1m combined enforcement announcement and preserved the separate penalty amounts/findings for the two operators. This is historic evidence, not a claim about current controls.
 - 32Red remains HOLD pending offer/cashier, complaints/ADR, privacy/cookies, accessibility, safer-gambling, later enforcement/court checks and independent sign-off. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Great Britain — William Hill Casino licence/operator evidence (23 October 2026)
+- Added [internal William Hill Casino GB evidence dossier](docs/reviews/internal/william-hill-casino-gb-licence-operator-evidence-2026-10-23.md), commit `77d4a3c6056c1371adf3732ae6b227aeefced710`.
+- UKGC register search associates `www.williamhill.com` with WHG (International) Limited, account 39225; current terms also identify WHG (International) Limited as operator for GB customers and note the Evoke group relationship. The dossier flags a contractual clause concerning liability for regulatory compliance neutrally, without drawing an unsupported enforceability conclusion.
+- Exact current casino licence activity, casino-specific rules/offers, cashier/withdrawals, complaints/ADR, privacy/cookies, accessibility and current enforcement/court status remain open. William Hill stays HOLD. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
