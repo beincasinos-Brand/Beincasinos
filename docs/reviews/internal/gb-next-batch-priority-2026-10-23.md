@@ -30,6 +30,7 @@
 - **Casumo:** former Casumo Services Limited account 39265 surrendered its remote casino licence effective 3 Nov 2023, but the UKGC and first-party UK site identify Recro Limited (61549) as the current operator of `casumo.com`. Operator mapping confirmed; HOLD pending current product/terms checks and editorial approval.
 - **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **Sky Vegas — terms refresh:** UKGC account 65519 and first-party terms confirm Bonne Terre Gaming Limited for casino products; keep separate from SBG Sports Limited sportsbook operations and surrendered Bonne Terre Limited account 38718. HOLD pending cashier/payment, complaints/ADR, safer-gambling and product checks.
+- **888casino — terms/regulatory refresh:** UKGC account 39028 and first-party GB agreement identify 888 UK Limited; record the three 2024–2025 UKGC decisions with regulator-stated scope/context and preserve customer-funds caveats. HOLD until the exact casino agreement, cashier, ADR, safer-gambling and product checks are captured.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
 ## Next priority order
