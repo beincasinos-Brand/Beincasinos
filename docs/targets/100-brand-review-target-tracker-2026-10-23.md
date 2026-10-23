@@ -112,3 +112,11 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - Refreshed the existing bet365 GB draft with official GB general terms, deposit methods, complaints/IBAS, privacy/cookies and safer-gambling sources. The casino operator (Hillside (UK Gaming) ENC, UKGC 55149) remains distinct from sportsbook operator Hillside (UK Sports) ENC, account 55148.
 - The cashier evidence currently supports published deposit-method examples only; withdrawal-specific figures are not promoted to universal GB casino claims because the linked withdrawal article's scope is not sufficiently clear. Casino-specific welcome-offer terms, exact GB withdrawal terms, live controls/accessibility, regulator/court-status refresh and second review remain open.
 - Dossier remains HOLD; no new approved review. Approved count remains **0/100**. Commit: `0b8482f5cc8cbb48a8d37ab2de60ea4c769e563d`.
+
+
+## Evidence batch — 23 October 2026: Paddy Power Casino (GB)
+
+- Added internal primary-source dossier: `docs/reviews/internal/paddy-power-casino-gb-evidence-review-2026-10-23.md`.
+- UKGC account 39426 lists remote casino permission Active. The UKGC action/public statement identifies a 17 December 2025 social-responsibility settlement involving four Paddy Power/Betfair licensees and a **£2,000,000 total group payment**; do not attribute the full sum to Paddy Power alone.
+- General terms were extracted, but casino-specific cashier/withdrawal detail, current bonus terms, complaints/ADR particulars, safer-gambling controls, privacy/cookies, accessibility and independent review remain incomplete. The safer-gambling route returned HTTP 403 to automated extraction; this is not evidence the controls are absent.
+- Decision remains **HOLD**; this dossier is research evidence, not an approved consumer review. Approved reviews remain **0/100**. No account or transaction testing and no deployment.
