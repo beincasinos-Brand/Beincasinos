@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 19 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-19-jumpman-additional-domains-2026-10-23.md` on `research/gb-batch-19-2026-10-23`.
+- Four further active-domain leads captured: Big Thunder Slots, Simba Slots, Slots Royale and Aladdin Slots. All HOLD pending live-site, legal terms and duplicate/brand identity checks.
+- No approved brand/review totals changed; branch remains research-only, with no main merge or Cloudflare deployment.
+
+
 ## Research checkpoint — batch 18 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-18-jumpman-active-domains-2026-10-23.md` on `research/gb-batch-18-2026-10-23`.
 - Eight active Jumpman casino-domain leads captured: Loot Casino, Pirate Slots, Rainbow Spins, Space Wins, Buffalo Spins, Crystal Slots, Amazon Slots and Incredible Spins. All HOLD pending current live-site, legal terms and duplicate checks.
