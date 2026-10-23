@@ -487,3 +487,10 @@
 - iGO materials state 19+ and physical Ontario location for wagering, describe province-wide BetGuard opt-out and site-level self-exclusion expectations. No account controls or payment flows were tested.
 - Current offer terms, cashier/payment rules, withdrawal fees/timing, complaints escalation, privacy/cookies and accessibility remain open. Fetch errors are recorded as limitations, not proof that policies are absent.
 - Status remains HOLD; approved reviews 0/100. No Actions workflow, Cloudflare Pages deploy, DNS change or Search Console write was triggered.
+
+
+## Sweden — Betsson regulator-status refresh (23 October 2026)
+- Added internal evidence file `docs/reviews/internal/betsson-sweden-regulator-enforcement-evidence-refresh-2026-10-23.md`.
+- Spelinspektionen's domain lookup lists Betsson.com/sv with commercial online-gambling permission from 24 August 2026 to 23 August 2031, naming Spin Nordic Ltd and Betsson Nordic Ltd. Match exact contracting entity and consumer terms before any review approval.
+- Enforcement chronology corrected: 2025 AML warning and SEK 6.5m sanction; Administrative Court upheld it in July 2026; authority says the company appealed to the Administrative Court of Appeal. Final appellate status remains to be checked at publication time.
+- Betsson remains HOLD. Approved review count unchanged at 0/100. No production deployment or CI run triggered.
