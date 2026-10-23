@@ -3,7 +3,9 @@
 **Checked:** 2026-10-23  
 **Use:** Internal research queue only. These entries are not approved casino reviews. All new rows remain `HOLD`.
 
-## Italy (IT) — ADM authorised remote-gaming concessionaire list
+## Italy (IT) — ADM authorised remote-gaming concessionaire list (initial batch; later expanded)
+
+This is the initial 20-domain research batch, not the complete current Italy buffer. The later expansion is documented in `docs/research/italy-adm-candidate-expansion-2026-10-23.md`.
 
 The Agenzia delle Dogane e dei Monopoli (ADM) publishes a live list titled “Elenco dei concessionari autorizzati al gioco a distanza” (authorised remote-gaming concessionaires). The table associates concessionaires with websites. This is a useful primary-source lead, but it must **not** be treated as proof that every listed domain currently has a casino-game product permission: verify the exact game category, active concession, operator, domain, and live product before counting a casino review.
 
@@ -32,7 +34,9 @@ The Agenzia delle Dogane e dei Monopoli (ADM) publishes a live list titled “El
 
 **Primary source:** [ADM — authorised remote-gaming concessionaires](https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari). The live page has pagination and sorting; verify each current row and product scope again before publication.
 
-## Spain (ES) — DGOJ operator/domain directory
+## Spain (ES) — DGOJ operator/domain directory (initial batch; later expanded)
+
+This is the initial seven-domain research batch, not the complete current Spain buffer. The later expansion is documented in `docs/research/spain-dgoj-candidate-expansion-2026-10-23.md`.
 
 The Spanish Dirección General de Ordenación del Juego (DGOJ) operator directory lists operator/domain associations. Its directory is a starting point, not by itself confirmation that a particular domain holds an active online-casino licence category. The licence filters and current operator record must be checked before a candidate can enter a casino-specific review.
 
@@ -48,7 +52,7 @@ The Spanish Dirección General de Ordenación del Juego (DGOJ) operator director
 
 **Primary source:** [DGOJ — operator search and domain directory](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores). Check current licence categories and domain mapping directly on the live DGOJ record.
 
-## Required gates for all 27 leads
+## Required gates for the initial 27 leads
 
 1. Re-open the live regulator record and record the date/time checked.
 2. Verify an active permission for the **casino-game vertical**, not merely remote gambling, sports betting, poker, or another category.
@@ -59,7 +63,7 @@ The Spanish Dirección General de Ordenación del Juego (DGOJ) operator director
 
 ## Registry accounting
 
-The active registry now contains 130 market-specific candidate/research rows. The current registry includes 26 Italy-labelled rows and 8 Spain-labelled rows; these are regulator-directory leads only and the casino vertical remains unconfirmed pending primary-record verification. All rows remain `HOLD`; the approved-review count remains **0/100**. Candidate-row count must not be reported as completed review count.
+Historical snapshot note: this initial batch was first added when the registry had 130 market-specific candidate/research rows, including 26 Italy-labelled rows and 8 Spain-labelled rows. The active registry has since expanded to 162 market-specific records (48 Italy-labelled and 19 Spain-labelled at the last tracker reconciliation). Counts include cross-listed brands and leads whose casino vertical is unconfirmed; they are not eligible-brand or completed-review counts. All remain HOLD; approved reviews remain **0/100**.
 
 
 ## Counting and evidence limitation — checked 23 October 2026
