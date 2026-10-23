@@ -425,3 +425,8 @@ After linking the Grosvenor and PlayOJO evidence notes in the CSV, a read-back a
 ## Production crawlability follow-up — 2026-10-23
 
 A fresh live fetch confirmed that the market-rules hub is now available at `https://beincasinos.online/markets/`, declares the apex canonical, the `www` route resolves to the apex HTTPS URL, and the production sitemap contains 45 URLs including `/markets/`. The root robots file remains reachable and points to the canonical sitemap. Detailed evidence and limitations are recorded in the [SEO execution backlog](seo-execution-backlog-2026-10-22.md). This supersedes the earlier dated 404 snapshot but does not prove Google indexing or complete whole-site QA. No GitHub Actions run or deployment was triggered by this verification.
+
+
+## Candidate register refresh — Betfred Casino (2026-10-23)
+
+The existing Betfred Casino row in `docs/brand-research-template.csv` now links the current UKGC account/domain records, casino-specific terms, general terms, complaints procedure and the 2025/2026 regulatory actions for Petfre (Gibraltar) Limited. The row explicitly preserves GB-only scope and HOLD status; no hands-on withdrawal/support test or editorial score is claimed. A read-back CSV parse confirms the registry remains 100 rows × 31 columns, with zero ragged rows or duplicate names; decisions remain 49 HOLD and 51 not reviewed, with zero publication approvals. No validator/CI run or deployment was triggered.
