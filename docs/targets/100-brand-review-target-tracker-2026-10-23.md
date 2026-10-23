@@ -135,3 +135,10 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - This does not clear image rights. All 20 remain rights-pending; the directory stays `noindex,follow` and excluded from the sitemap. No Cloudflare deployment or GitHub Actions run was triggered.
 
 - Follow-up search improvement: the directory search now matches full card text, including regulator/authority labels, evidence descriptions and brand-specific research-context notes, as well as the original brand/domain/operator index.
+
+
+### Image candidate correction — 23 October 2026
+
+- Replaced the Jollie social-preview image with the official-site logo asset `https://jollie.de/Assets/Images/jollie-logo-white-1.svg` in both the directory and asset register after checking the Jollie page's image list.
+- Added `docs/targets/official-image-candidate-qa-2026-10-23.md` documenting the spot-check results, the two timeouts, and the limits of this check.
+- Image reuse permissions are still pending for all 20 candidates. Source presence is not a licence check. The directory remains `noindex,follow`; no Cloudflare deployment or GitHub Actions run was triggered.
