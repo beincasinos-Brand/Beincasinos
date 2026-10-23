@@ -493,3 +493,11 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - **Loto-Québec:** official 27 August 2026 statement identifies lotoquebec.com as Québec's only legal casino and sports-betting website.
 - **Espacejeux:** current distinct product and contracting entity not verified; retained as HOLD and explicitly flagged for replacement if no distinct live product is confirmed.
 - All six remain HOLD; regulator evidence is not a substitute for product terms, payment/withdrawal evidence, complaints, privacy, safer gambling, accessibility, hands-on testing and second-editor review. No Actions run or deployment was triggered.
+
+
+## Brazil market-wide legal hold — 2026-10-23
+
+- Added [Brazil market legal-status alert](reviews/internal/brazil-market-legal-hold-2026-10-23.md) based on current Ministry of Finance guidance for MP 1.394/2026 and the Congress tracking page.
+- Ministry guidance says MP 1.394/2026 prohibits operation, offering, intermediation and advertising of fixed-odds betting nationwide, covering online games and offers by foreign operators to people located in Brazil; its timeline says sites/apps should be unavailable from 6 October 2026. Congress tracking as checked 23 October says the measure is awaiting mixed-commission installation, with deliberation window through 23 November; the legal record shows no express revocation. Recheck before any publication.
+- Updated the existing rows for EstrelaBet, Betnacional, Pixbet, Sportingbet Brazil, Betano Brazil, Superbet, KTO, Novibet and Aposta Ganha. All are legal hold/HOLD; historic authorization/domain records are not presented as current permission. Aposta Ganha's authorization was not established from the reviewed official excerpts.
+- These are legal-screening outcomes, not completed consumer reviews. No brand in this batch is rated, promoted or described as currently available in Brazil. No Actions run or deployment was triggered.
