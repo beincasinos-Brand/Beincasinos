@@ -120,3 +120,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Fanatics Casino (New Jersey): internal evidence pack added from the DGE authorized-sites list and first-party product page; registry updated with NJ-only scope and HOLD decision. Contracting entity, full offer terms, cashier, player-protection and complaint checks remain open. No hands-on test or public approval claimed. [Evidence pack](reviews/internal/fanatics-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Monopoly Casino US (New Jersey): added a narrow internal evidence note because the current DGE list names play.monopolycasinous.com/casino under Bally's Atlantic City. It is not yet mapped to a row in the 100-brand registry, and no review is approved; resolve the current contracting entity, terms and consumer-protection evidence before deciding whether it belongs in the 100-brand scope. [Evidence note](reviews/internal/monopoly-casino-us-new-jersey-evidence-2026-10-23.md).
