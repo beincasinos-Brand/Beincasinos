@@ -28,7 +28,7 @@ REQUIRED_COLUMNS = {
     "publication_decision",
     "unresolved_issues",
 }
-VALID_STATUSES = {"prospect", "evidence captured", "draft", "reviewed"}
+VALID_STATUSES = {"prospect", "research", "scope triage", "legal hold", "legal scope hold", "evidence captured", "draft", "reviewed"}
 VALID_DECISIONS = {"not reviewed", "HOLD", "approved", "rejected"}
 errors: list[str] = []
 warnings: list[str] = []
