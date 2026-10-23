@@ -508,3 +508,10 @@
 - DGOJ lists LUCKIA GAMES, S.A. and `luckia.es`, including specific permissions for gaming machines, poker, roulette and blackjack; roulette and blackjack licence extensions appear dated 14 October 2026.
 - Consumer-site automated retrieval returned HTTP 451. This is recorded as a fetch limitation, not proof of site unavailability or missing policies. Terms, payments, safer-gambling details, privacy/cookies and accessibility remain unverified.
 - Luckia remains HOLD; approved reviews stay 0/100. No CI run, Cloudflare Pages deploy or production setting changes.
+
+
+## Netherlands — TOTO official-source recheck (23 October 2026)
+- Updated `docs/reviews/internal/toto-casino-nl-evidence-review-2026-10-23.md` after re-fetching Ksa and TOTO pages.
+- Ksa confirms TOTO Online B.V. (TOTO and Winnitt) received a continuation licence covering October 2026–September 2031. Its Wwft instruction page documents historic deficiencies and a required six-month remediation/follow-up inspection; no follow-up inspection outcome was located in this pass.
+- Current casino welcome-bonus page says new players must be 24+, but the extracted page did not expose the offer amount and detailed conditions. Responsible-play page routes to controls but does not prove they were tested.
+- TOTO remains HOLD; no approval credit. No CI, production deployment, DNS or Search Console write triggered.
