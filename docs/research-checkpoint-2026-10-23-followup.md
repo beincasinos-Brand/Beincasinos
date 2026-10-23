@@ -480,3 +480,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Updated `docs/brand-profile-bet365-gb-draft.md` with a dated source recheck, commit `4163c0c1b7f37ade486c25d79af2ec55b7ba81bc`.
 - Status remains **HOLD**. Current bonus specifics, cashier/withdrawal evidence, complaint/ADR, safer-gambling usability, independent feedback, accessibility and second-editor sign-off remain open. This is not an approved review and does not count toward 100 approved reviews.
 - No GitHub Actions workflow or production deployment was triggered.
+
+
+## 49. 888casino GB primary-source recheck — 23 October 2026
+
+- UKGC account 39028 rechecked: 888 UK Limited's retrieved licence summary lists active remote Casino, Bingo, real-event and virtual-event betting permissions; its domain record lists `888casino.com` Active.
+- Account-specific sanctions record shows a 19 August 2024 £23,000 financial penalty for breach of licence condition 6.1.2 (use of credit cards). The regulator notes self-reporting, immediate remedial action and cooperation. Include this context accurately; do not infer current product quality.
+- Official-site fetches returned empty content for the homepage and `/terms/`, and HTTP 404 for `/responsible-gambling/`. This is a fetch/access limitation, not evidence the pages are unavailable to GB users. Consumer terms, payments, complaints/ADR and safer-gambling checks remain open.
+- Updated `docs/brand-profile-888casino-gb-draft.md`, commit `2df6e26e098cb502cae5448ac3cff6d2a07dc06c`. Status remains HOLD, no score and no approved public review counted.
+- No GitHub Actions workflow or production deployment triggered.
