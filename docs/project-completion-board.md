@@ -638,3 +638,11 @@
 - The review now explicitly distinguishes Hillside (UK Gaming) ENC / UKGC 55149 for casino/live casino/poker from Hillside (UK Sports) ENC / 55148 for sportsbook. It records the published £5 minimum and example £5–£20,000 limits on listed GB deposit methods, while leaving withdrawal method-specific details open because the linked general withdrawal article did not establish a GB-casino-specific scope.
 - Complaint escalation/IBAS and privacy-controller details are now sourced. Current casino welcome offer, exact GB withdrawal details, enforcement/court status recheck, live cookie/accessibility/control testing and independent second review remain open. The dossier remains HOLD. Commit: `0b8482f5cc8cbb48a8d37ab2de60ea4c769e563d`.
 - Research-only commit uses `[CF-Pages-Skip]`; no production deployment, `main` merge, DNS change or Search Console write.
+
+
+## Batch 35 follow-up — PokerStars GB route conflict (23 October 2026)
+
+- Re-fetched the legacy PokerStars UK terms, casino, promotions and responsible-gambling routes. The extraction returned a FanDuel-branded page/title with US-facing products/currency and “Welcome to PokerStars on FanDuel” copy, not a clearly GB-specific PokerStars Casino journey.
+- Updated [PokerStars Casino GB internal evidence review](reviews/internal/pokerstars-casino-gb-evidence-review-2026-10-23.md) to flag this as a material unresolved brand/domain/market mismatch. The extraction did not provide a reliable redirect chain, so this is **not** treated as proof of closure, licence loss or a confirmed global rebrand.
+- Required next step is a UK-region browser check plus fresh UKGC account 39108/domain and operator/legal-entity verification. Until resolved, do not count PokerStars Casino GB as a distinct currently verified brand for the quota. Review remains HOLD, approved count unchanged. Dossier commit: `bbc34ee1eb53ecef3a5ab6355458fb25cf133db5`.
+- Research branch only; `[CF-Pages-Skip]`; no deployment, merge to `main`, DNS change or Search Console write.
