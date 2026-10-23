@@ -550,3 +550,11 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Added [OLG.ca Ontario internal review draft](../review-drafts/olg-ca-internal-draft-2026-10-23.md) using the iGaming Ontario directory and current OLG Player Agreement. It documents Ontario-only eligibility and incorporated policies; no hands-on or payment testing, no score, HOLD.
 - Added [BetPlay Colombia internal review draft](../review-drafts/betplay-colombia-internal-draft-2026-10-23.md) using the Coljuegos authorized-sites directory and operator disclosure. It records Corredor Empresarial S.A./contract C1876 and the stated concession period; no hands-on testing, no score, HOLD.
 - These are internal drafts, not approved public reviews. Product terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on evidence and independent review remain open.
+
+
+## Ghana operator register batch — 2026-10-23
+
+- Added [Ghana regulator register checkpoint](reviews/internal/ghana-operator-register-2026-10-23.md) and updated seven existing candidate rows from the Gaming Commission of Ghana's licensed-operators list.
+- BETPAWA, BETIKA, SPORTYBET and 1XBET are listed for sports betting and online casino; PREMIER BET, 22BET and MELBET are listed for sports betting only in the checked table. Do not infer casino authorization for the latter three.
+- Listed entries show issue date 1 Jan 2026, expiry 31 Dec 2026 and location Accra. The table does not show domains or contracting entities, so those must be matched to the actual permit before review.
+- All seven remain HOLD; no ratings, no claim of authorization outside Ghana, and no deployment or Actions run.
