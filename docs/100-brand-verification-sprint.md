@@ -390,3 +390,10 @@ The existing Luckia registry row now records the official DGOJ operator profile:
 
 
 Additional Spain DGOJ evidence: the existing Codere row now separates the Italy domain/legal entity (codere.it — Codere.it S.r.l., ADM 16018) from Spain (codere.es/codereapuestas.es — CODERE ONLINE, SAU, DGOJ). These are separate market-specific records; neither proves authorization in Mexico or other countries. Sources: https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari?cod_conc=16018&nome_conc=&nome_sito=&sub_home=Ricerca ; https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau. The Codere row remains HOLD pending full market-specific consumer review.
+
+
+## Official provincial-operator evidence — OLG.ca and Loto-Québec (2026-10-23)
+
+Added [official Ontario OLG and Québec Loto-Québec evidence note](reviews/internal/ca-olg-lotoquebec-operator-evidence-2026-10-23.md). Official iGaming Ontario material distinguishes OLG.ca, conducted and managed by the Ontario Lottery and Gaming Corporation, from the private operators contracted by iGaming Ontario. Loto-Québec's official online-gaming page identifies lotoquebec.com as its online gaming site and describes its casino, lottery and sports-betting products; its 27 August 2026 statement reiterates the Québec-specific scope.
+
+This is source capture only. The registry rows for OLG.ca and Loto-Québec have **not yet been updated** because the CSV replacement operation was blocked; they remain prospects until the source notes and market-specific fields are written successfully. Espacejeux is kept separate pending first-party confirmation of the current official brand/domain relationship. No publication approvals, CI/Actions runs, or deployment were performed.
