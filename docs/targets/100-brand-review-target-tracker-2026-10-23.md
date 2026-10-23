@@ -98,3 +98,10 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 
 - Refreshed the existing William Hill Casino GB draft with official current UK terms (version 2026/1.4, updated 30 September 2026), published cashier options and limits, withdrawal routing, deposit-limit options, self-exclusion policy and the complaint/IBAS escalation clause. Source notes are in `docs/reviews/internal/william-hill-casino-gb-evidence-review-2026-10-23.md`.
 - This is an evidence upgrade, not a new approved review. Casino-specific current welcome-offer terms, privacy/cookie consent, accessibility, live-control testing, independent second review and legal/editorial approval remain open. Status remains HOLD; approved review count stays **0/100**. Dossier commit: `d8857c8ecf28e95d3d348b5d0bff93bfa69a72e7`.
+
+
+### Batch 35 follow-up — Betway GB enforcement reconciliation (23 October 2026)
+
+- Located the original UKGC notices for Betway Limited's **£11.6m regulatory settlement (12 March 2020)** and **£408,915 penalty (21 September 2022)**. The current account-level actions page's “no actions recorded” wording is not a complete historic record; the dossier now cites and contextualises both primary notices directly.
+- Updated the Betway GB draft with current operator-published game, payments and safer-gambling claims while clearly labelling them untested. Dynamic detailed policy routes did not extract beyond their shell; current casino welcome offer, full readable complaints/ADR and privacy/cookie text, live consent/accessibility checks and second review remain open.
+- The dossier remains HOLD. This is evidence progress only, not a new approved review; approved-review count stays **0/100**. Commit: `0308885f39f99db78eda18b10be3c1799bf6a0d0`.
