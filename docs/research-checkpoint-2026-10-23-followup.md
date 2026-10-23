@@ -532,3 +532,19 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official terms are effective 16 December 2025. The welcome offer requires a first deposit of at least £15, excludes Paysafecard deposits and restricts bonus play to selected games. The terms state the qualifying £15 deposit plus £30 bonus must be wagered 10 times before bonus-balance winnings can be withdrawn: £450 total wagering. The homepage also states 10x wagering and a £50 maximum win. Full restrictions need a final pre-publication capture.
 - The payment page lists Visa, Mastercard, PayPal and Paysafecard, with Paysafecard deposit-only; no account or withdrawal test was performed. Complaints escalation/ADR, complete safer-gambling tools, independent feedback and second-editor review remain open.
 - Decision: **HOLD**, no score, no public review, not approved. No GitHub Actions or deployment was triggered.
+
+
+## 55. Spin and Win GB — 200 free spins offer and payment evidence — 23 October 2026
+
+- Added `docs/brand-profile-spin-and-win-gb-draft.md` for Spin and Win, operated by Rank Interactive (Gibraltar) Limited (UKGC account 57924). The regulator lists `spinandwin.com` Active and active remote casino permission for the operator.
+- Official terms are effective 16 December 2025. The welcome offer requires a fully verified new customer to deposit and stake £20 on Fishin' Frenzy The Big Catch 2 for 200 free spins. The page states Paysafecard is excluded, spins must be used within seven days, free-spin winnings are subject to 10x wagering, and the homepage states a £100 max win. Full terms and conversion/expiry restrictions still need pre-publication capture.
+- Payment page lists Visa, Mastercard, PayPal and Paysafecard, with Paysafecard deposit-only. No account/payment test was performed. Complaints/ADR, full safer-gambling tools, independent feedback and second-editor sign-off remain open.
+- Decision: **HOLD**, no score, no public review, not approved.
+
+
+## 56. Mecca Games GB — £20 bonus / 50 free spins terms — 23 October 2026
+
+- Added `docs/brand-profile-mecca-games-gb-draft.md` for Mecca Games, operated by Rank Interactive (Gibraltar) Limited (UKGC account 57924). The UKGC domain record lists `meccagames.com` Active and the operator has active remote casino permission.
+- Official terms are effective 16 December 2025. The welcome offer requires a new player to select the offer and deposit at least £10 for a £20 bonus and 50 free spins. Paysafecard deposits are excluded; the bonus is restricted to selected games and free spins/winnings to Kong 3 Even Bigger Bonus. The homepage states 10x wagering and £50 maximum win; full offer terms need complete review.
+- Payment page lists card and PayPal options plus Paysafecard as deposit-only; no account/payment test was performed. Complaint escalation/ADR, full safer-gambling tools, independent feedback and second-editor review remain open.
+- Decision: **HOLD**, no score, no public review, not approved.
