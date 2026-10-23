@@ -116,3 +116,10 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Expanded official-site image candidates from 11 to **20**; all remain rights-pending and are tracked individually. No claim of image reuse permission is made.
 - Added a collapsible, brand-specific research context/evidence-limits note to **all 100 cards**, sourced from the existing prospect tracker, including the tracker’s last-checked date with an explicit caveat that it does not mean every term/licence was rechecked on that date.
 - Added the evidence-grade filter and machine-readable grade to all 100 cards. The page remains noindex and excluded from the sitemap until legal/operator/product checks and editorial approvals are complete.
+
+
+### Image resilience and rights-label QA — 23 October 2026
+
+- Added image-load fallback monograms for all 20 externally hosted image candidates, so a broken/blocked logo URL degrades gracefully rather than leaving an empty image area.
+- Changed the visible image ribbon to **SOURCE FOUND · RIGHTS PENDING** on all 20 candidates. This explicitly avoids implying permission to republish.
+- Final source-level checks: 100 brand cards; 100 brand-specific research-context panels; 100 evidence-grade attributes and an active evidence filter; 20 sourced image tags with 20 fallbacks and rights-pending labels; 100 image manifest rows. The page remains noindex and has not been deployed to Cloudflare.
