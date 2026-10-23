@@ -162,7 +162,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **43/43 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 43 are marked rights pending and retain fallback monograms. The remaining 59 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 43-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **43/100 cards with sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 43 are marked rights pending and retain fallback monograms. The remaining 57 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 43-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
@@ -177,7 +177,7 @@ Added three image candidates to the directory and asset register: ThreeSix Vegas
 
 ### Latest image follow-up — 23 October 2026
 
-Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Current directory inventory is 41/43 sourced image candidates; 71 cards use editorial CSS artwork/monograms. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
+Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Historical snapshot at that stage: 41/100 sourced image candidates and 59 CSS-art cards; superseded by the latest 43/100 count. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
 
 
 ### Starcasino image follow-up — 23 October 2026
@@ -192,7 +192,7 @@ Added TOTO's official logo SVG, plus Kansino and Stakewise UK favicon candidates
 
 ### Betty Casino image candidate — 23 October 2026
 
-Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. The current inventory is 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork. Source presence is not permission to reuse.
+Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. Historical snapshot at that stage: 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork; superseded by the latest 43/100 count. Source presence is not permission to reuse.
 
 
 ### Final image inventory reconciliation — 23 October 2026
