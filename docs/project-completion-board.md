@@ -1,5 +1,13 @@
 
 
+## Legal terms, complaints and jurisdiction evidence — batch 33 (2026-10-23)
+- Added [batch 33 legal, complaints and jurisdiction evidence](docs/gb-brand-validation-batch-33-legal-complaints-jurisdiction-2026-10-23.md).
+- Both 666 Casino and Lad Casino terms identify Jupiter Gaming Limited, UKGC 67098 / Jersey licence RGO-2600-30, and say terms last published 17 Aug 2026. Their terms state play/wagers are accepted only from people located in the UK; make this restriction prominent and do not imply global eligibility.
+- Terms state initial complaint response target of 3 working days, escalation response within 10 working days, and IBAS for unresolved UKGC-regulated disputes subject to internal process/deadlock or eight-week wait, with referral within 12 months. Published terms only; no support test performed.
+- UKGC domain register account 67098 currently lists 666casino.com, ladcasino.com, ladbet.com, dreamjackpot.com, kingcasino.com, mrluck.com, redcasino.com and rightbet.com Active; ivycasino.com, oreels.com and rosecasino.com Inactive. Register status alone is not review approval.
+- Terms describe own-name payment methods and identity/source-of-funds verification. Universal withdrawal times and fee tables remain unverified. New approved brands: **0**; new publication-approved reviews: **0**; production deploys: **0**. No main/DNS/production changes; commit uses `[CF-Pages-Skip]`.
+
+
 ## Support, deposits and safer-gambling policy check — batch 32 (2026-10-23)
 - Added [batch 32 support and policy evidence](docs/gb-brand-validation-batch-32-support-payments-safer-gambling-2026-10-23.md).
 - 666 Casino: Contact Us page describes live chat/email; safer-gambling page describes net-deposit limits, reality checks, time-outs and self-exclusion. Deposit-methods route returned 404 in this fetch, fair-play route had an SSL error, and one safer-gambling route timed out; these are access gaps, not proof of missing services. Complaint/ADR eligibility and full current terms remain unverified in this batch.
