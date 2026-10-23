@@ -461,3 +461,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The official complaints help article gives internal escalation steps, but the independent ADR provider, referral criteria and time limits still need verification. **HOLD** pending live terms/offers, payment and withdrawal evidence, ADR, safer-gambling usability, independent feedback and second-editor sign-off.
 - Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/54310 ; https://www.virginbet.com/about-us/terms-and-conditions.html ; https://help.virginbet.com/hc/en-gb/articles/360013391833-Making-a-complaint
 - Dossier commit: `edabced55c3b2532ca112e42b007258d139fbfff`. No deployment or GitHub Actions run triggered.
+
+
+## 47. Public evidence checklist guide and source-level discovery links — 23 October 2026
+
+- Added the public educational guide `guides/casino-review-evidence-checklist/index.html`, covering exact brand/domain/legal-operator matching, market-specific licence scope, bonus terms, withdrawals, complaints/ADR, safer-gambling controls, regulatory history, review-site transparency and pass/hold publication decisions.
+- Added a contextual card on `guides/index.html` and the canonical URL `https://beincasinos.online/guides/casino-review-evidence-checklist/` to `sitemap.xml` with source last-modified date 2026-10-23.
+- The guide links to existing relevant BeInCasinos educational pages and primary UKGC resources. It explicitly says the review directory is still in development and does not imply any operator was tested or approved.
+- Commits: guide `c7d89cce61e814b88ff563fcca2bc869aa5030ff`; guide hub `d89c9ecc93ba6ce13b2b7eddc10f1ca949c65f3b`; sitemap `34693953fe610bcc9f4fabd81722772ffb1dddfc`.
+- Source files were changed only. No deployment, GitHub Actions run, live HTTP validation, or Search Console inspection was performed; sitemap inclusion does not prove indexing.
