@@ -101,3 +101,11 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Added `docs/reviews/100-brand-review-production-standard.md`: required review structure, minimum primary-source evidence, jurisdiction controls, affiliate disclosure, image provenance and independent sign-off gates.
 - Added `docs/targets/brand-image-asset-register-2026-10-23.csv`: 100 directory entries with image source, permission/licence, alt-text and check-date fields. Image URLs and rights are deliberately blank until verified; do not substitute invented logo URLs or unlicensed images. The current directory artwork is decorative CSS, not official brand imagery.
 - These are production controls, not 100 completed reviews. Publication approvals remain 0/100 until each brand independently clears the evidence and sign-off gates.
+
+
+### Directory follow-up — evidence filter and sourced image candidates
+
+- Added an evidence-grade filter (A/B/C/unassigned) to the 100-card directory; every card now carries a machine-readable grade so users can narrow the research queue without implying approval.
+- Located 11 brand-image assets on official brand websites and rendered them on their matching cards: admiral.ch, casineo.ch, jollie.de, Betsuna, Vegas Club Casino, Betinia Casino, Casushi, FruitKings, Betcrown, BetLegend and BetNero.
+- All 11 image records remain **rights pending** in `docs/targets/brand-image-asset-register-2026-10-23.csv`. Official-site hosting is not proof of permission to republish; confirm rights/terms and visual rendering before production.
+- The directory still has `noindex,follow`, is excluded from the sitemap, and remains a research queue. No production deployment or GitHub Actions run was initiated.
