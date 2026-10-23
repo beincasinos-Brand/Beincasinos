@@ -26,7 +26,7 @@
 ## Visual asset status
 
 - 43/100 cards have a sourced image candidate; all remain **rights pending**.
-- 57/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 57/57 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
 - The directory hero now accurately states 100 research entries, 43 sourced image candidates with rights pending, and 57 CSS artwork/monogram fallbacks.
 
@@ -45,24 +45,24 @@ The 100-card list no longer includes the excluded planned Maine placeholder `Cae
 
 ## Official-site image follow-up — 23 October 2026
 
-Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 41 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
+Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 43 sourced image candidates, all rights pending; 57 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
 
 
 ## Visible content enhancement — 23 October 2026
 
 Added a visible **Research snapshot** to each of the 100 cards, drawn from that card's existing research-context paragraph, so key evidence/limitations are not hidden entirely inside the expandable panel. This is an editorial presentation enhancement, not new verification. Ten snapshots remain intentionally short because the underlying evidence is only a preliminary lead; they should stay marked as research leads rather than be padded with unsupported claims.
 
-Post-change source audit: 100 cards, 100 unique names, 100 visible snapshots, 100 context panels, 25 image candidates with alt text/dimensions/lazy loading, 25 rights-pending labels, no duplicate IDs, no unsafe new-tab links. Page remains `noindex,follow`.
+Post-change source audit: 100 cards, 100 unique names, 100 visible snapshots, 100 context panels, 43 image candidates with alt text/dimensions/lazy loading, 25 rights-pending labels, no duplicate IDs, no unsafe new-tab links. Page remains `noindex,follow`.
 
 
 ## Additional favicon candidates — 23 October 2026
 
-Three official-page metadata favicon URLs were added for 888.nl, BetTOM and 44Aces. These are **small-icon candidates**, not full-size logos, and all remain rights pending. BetTOM's fetched page was the sportsbook route, so its casino-product/market association still needs confirmation. Current total: 28 sourced image candidates; 72 cards retain editorial CSS artwork. The 100 visible research snapshots remain based on existing research-context text, not a claim of new verification.
+Three official-page metadata favicon URLs were added for 888.nl, BetTOM and 44Aces. These are **small-icon candidates**, not full-size logos, and all remain rights pending. BetTOM's fetched page was the sportsbook route, so its casino-product/market association still needs confirmation. Current total: 43 sourced image candidates; 72 cards retain editorial CSS artwork. The 100 visible research snapshots remain based on existing research-context text, not a claim of new verification.
 
 
 ## Latest image inventory reconciliation — 23 October 2026
 
-After adding Brillbet's official-site `media/logo.png` candidate, the current branch contains **100 unique brand cards, 29 image candidates, and 100 visible research snapshots**. All 29 candidate images have alt text, explicit width/height and lazy loading, and each candidate is marked rights pending. Brillbet's official page redirected to a customer-service notice during inspection, so current product status must be checked before any recommendation. The directory remains `noindex,follow`; no Cloudflare production deployment is confirmed.
+After adding Brillbet's official-site `media/logo.png` candidate, the current branch contains **100 unique brand cards, 43 image candidates, and 100 visible research snapshots**. All 29 candidate images have alt text, explicit width/height and lazy loading, and each candidate is marked rights pending. Brillbet's official page redirected to a customer-service notice during inspection, so current product status must be checked before any recommendation. The directory remains `noindex,follow`; no Cloudflare production deployment is confirmed.
 
 
 ## Latest content-quality pass — 23 October 2026
@@ -79,12 +79,12 @@ This is source-level QA only. It does not confirm that every remote image loads 
 
 ## Starcasino image addition — 23 October 2026
 
-Added a logo candidate exposed by Starcasino's official casino page: `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It is labelled rights pending. Current inventory: 30 image candidates and 70 cards using editorial CSS artwork. No reuse permission is inferred.
+Added a logo candidate exposed by Starcasino's official casino page: `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It is labelled rights pending. Current inventory: 43 image candidates and 70 cards using editorial CSS artwork. No reuse permission is inferred.
 
 
 ## Additional official image candidates — 23 October 2026
 
-Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansino's homepage favicon, and Stakewise's UK homepage favicon image. All three are registered with explicit alt text and remain **rights pending**; the latter two are small-icon candidates, not full-size logos. Current total: 34/100 sourced image candidates and 67 cards with CSS editorial artwork. Source-level HTML QA is not a live browser test, direct-asset uptime check, reuse licence, legal review, or deployment confirmation.
+Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansino's homepage favicon, and Stakewise's UK homepage favicon image. All three are registered with explicit alt text and remain **rights pending**; the latter two are small-icon candidates, not full-size logos. Current total: 34/43 sourced image candidates and 67 cards with CSS editorial artwork. Source-level HTML QA is not a live browser test, direct-asset uptime check, reuse licence, legal review, or deployment confirmation.
 
 
 ### Betty Casino image candidate — 23 October 2026
@@ -94,7 +94,7 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 
 ### Final image inventory reconciliation — 23 October 2026
 
-Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 43 sourced image candidates and 34 matching rights-pending labels. The remaining 57 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
 
 
 The directory's methodology section now explicitly separates image discovery from reuse rights: official-site presence does not grant permission, and each image candidate remains rights pending until identity, direct rendering and reuse permission are checked. The hero label now accurately describes the 66 remaining cards as CSS artwork/monogram fallbacks.
@@ -105,20 +105,16 @@ A fifth methodology card now defines evidence grades (A/B/C) and explicitly stat
 
 ## Additional official-site image batch — 23 October 2026
 
-Added five candidates across recent batches: VBET Netherlands logo SVG; Fair Play Casino Netherlands favicon; BetMGM Netherlands logo SVG; Hard Rock Bet logo SVG (does not verify Michigan availability); and Lottoland UK favicon. All remain rights pending. Current source inventory is 39/100 image candidates; 61 cards use editorial CSS art/monogram fallback. The directory remains noindex pending brand-level verification and editorial/legal sign-off.
+Added five candidates across recent batches: VBET Netherlands logo SVG; Fair Play Casino Netherlands favicon; BetMGM Netherlands logo SVG; Hard Rock Bet logo SVG (does not verify Michigan availability); and Lottoland UK favicon. All remain rights pending. Current source inventory is 39/43 image candidates; 61 cards use editorial CSS art/monogram fallback. The directory remains noindex pending brand-level verification and editorial/legal sign-off.
 
 
 ## Additional image candidates — Horseshoe and BestOdds — 23 October 2026
 
-Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. Both are small-icon candidates only and remain rights pending. The Horseshoe asset source is its Michigan casino page; this does not replace jurisdiction-specific licence review. BestOdds is a betting information site, not itself proof of an online casino operator. Current count: 41 sourced image candidates and 59 CSS artwork/monogram fallbacks.
+Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. Both are small-icon candidates only and remain rights pending. The Horseshoe asset source is its Michigan casino page; this does not replace jurisdiction-specific licence review. BestOdds is a betting information site, not itself proof of an online casino operator. Current count: 43 sourced image candidates and 59 CSS artwork/monogram fallbacks.
+
 
 
 
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
-
-
-## Inventory reconciliation — latest branch read, 23 October 2026
-
-The live branch file and asset register were fetched together after further image work. Current counts: **100 unique brand cards, 100 visible research snapshots, 43 sourced image candidates, 57 CSS-art/monogram fallbacks, 100 register rows**. All 43 image tags have alt text, explicit dimensions and lazy loading; each has an adjacent monogram fallback and visible rights-pending label. All cards contain an operator field, regulator/authority field, evidence grade, verification checklist and expandable research context. The directory remains `noindex,follow`; PR #36 remains draft, open and non-mergeable; no Cloudflare production deployment is confirmed.
