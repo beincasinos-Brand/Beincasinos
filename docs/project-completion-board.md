@@ -668,3 +668,10 @@
 - Rechecked live sitemap, robots.txt, guide index, review directory, markets directory and methodology. Live sitemap remains at 46 URLs; robots allows crawling. These observations do not confirm Google indexation or a verified impression baseline.
 - Logged a public-copy mismatch: `/markets/` says “Ten markets” while the approved target scope lists 12 geographies. See the indexability audit and target tracker. This needs a source-level correction and approved release; no production changes were made in this pass.
 - `/reviews/` still correctly states no casino profiles are scored/ranked. Publication-approved review count remains 0/100. Existing guide coverage is broad; focus on accuracy and useful linking rather than adding duplicate pages.
+
+
+## Validator alignment — 23 October 2026
+
+- Updated `scripts/check_site.py`'s master-prospect market allowlist to accept the confirmed target geographies and the existing supported province/state subcodes (Canada and US remain jurisdiction-specific). This removes a stale validator mismatch that would have rejected valid market codes for CA, SE, ES, IT and BE as the target scope expanded.
+- Commit: `dae6312a503d782b82764f889d9b6b53b701d66a` on the research branch; `[CF-Pages-Skip]` to conserve Actions minutes. No workflow was run, so this is a source correction, not a passing CI claim. Review the change in the next deliberately scheduled local/CI validation window before merge.
+- Live follow-up also logged that `/markets/` says “Ten markets” while the approved scope lists 12 geographies; the static repo has a separate `/market-research/` page that already lists all twelve. The live `/markets/` source could not be located in the current static tree, so no guessed production-source edit was made.
