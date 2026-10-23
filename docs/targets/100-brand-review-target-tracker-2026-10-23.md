@@ -158,3 +158,8 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Added a visible market-scope guardrail stating France and Australia are excluded from this online-casino directory. Current source-level check confirms 100 cards and 100 unique card labels. Page remains noindex and no production deployment is confirmed.
 
 - Image follow-up: Silkbet official homepage exposed an SVG candidate now added to the directory and asset register, marked rights pending. BigBangBet's official homepage fetch returned `invalid_url`, so no speculative image URL was added. Current total is 21 sourced logo candidates; image rights remain unconfirmed.
+
+
+## Directory image inventory reconciliation — 23 October 2026
+
+After adding Silkbet's official-site SVG candidate, the live branch contains **21/100 sourced logo candidates** in `brand-directory/index.html` and the 100-row asset register. All 21 are marked rights pending and retain fallback monograms. The remaining 79 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note now distinguishes the original 20-candidate spot-check from the current 21-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
