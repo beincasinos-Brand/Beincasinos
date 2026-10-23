@@ -37,3 +37,17 @@ Do **not** conflate accounts 614, 34161 and 57924. The first two regulator recor
 ## Decision
 
 **HOLD.** The regulator and first-party sources establish useful operator/licence leads, but the exact current online domain mapping, terms capture, functional testing and editorial/legal approvals remain open. Do not count this as one of the 100 verified public brands or 100 approved reviews.
+
+
+## Regulatory separation and 7 October 2026 update
+
+The operator/domain distinction is material here:
+
+- **Online brand evidence:** the UKGC lists **Rank Interactive (Gibraltar) Limited**, account **57924**, with active remote casino permission; its domain record lists **grosvenorcasinos.com** as Active. Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/57924 and https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/57924
+- The UKGC action page for account 57924 currently says no regulatory actions have been recorded for that business: https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/57924
+- **Separate legal entity / separate scope:** on 7 October 2026, the UKGC announced a **£5,012,261 payment in lieu of a financial penalty** against **Grosvenor Casinos Limited**, account **614**, following AML and social-responsibility failings at a land-based venue. The published settlement says the resolution was made on behalf of the licensee and wider group, including Grosvenor Casinos (GC) Limited and Gaming Group Limited, because the group used the same policies, procedures and controls. Primary source: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/347
+- Do not state that the £5,012,261 was a fine specifically against Rank Interactive (Gibraltar) Limited or the online Grosvenor brand. A careful review may mention the group-level public statement as relevant corporate context, with the exact entities and scope stated.
+
+## Publication gate
+
+Still **HOLD**. The online operator/domain match and regulatory distinction are documented, but current terms, bonuses, withdrawals, complaints/ADR, privacy/cookies, safer-gambling tools, hands-on UX observations and independent sign-off remain incomplete. Do not publish this internal pack or add it to public routes or sitemap.
