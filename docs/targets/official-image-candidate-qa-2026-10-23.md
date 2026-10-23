@@ -32,3 +32,5 @@ Directory: `brand-directory/index.html`
 - Added/retained asynchronous image decoding and the existing lazy loading, descriptive alt text, fallback monograms, and visible `SOURCE FOUND · RIGHTS PENDING` labels.
 - Source-level verification after the change: 100 cards; 20 image elements; 20 dimension pairs; 20 fallback spans; 20 rights-pending labels; no missing image alt text; no duplicate HTML IDs; external links opened in new tabs carry `noopener` protection.
 - This is markup/layout QA only. It does not prove remote image uptime, exact brand ownership, permission to reuse, or production deployment. Keep all image rights pending until permission/licence is documented.
+
+- Final markup recheck after the image-dimension edit: 100 unique card labels; all 100 cards include operator, regulator/authority, evidence grade, verification checklist, and research-context panel; all 20 image tags have dimensions and alt text; no malformed `height/src` attribute boundaries remain; no unsafe new-tab links were detected. The page intentionally remains `noindex,follow` until the review and asset-rights gates are cleared.
