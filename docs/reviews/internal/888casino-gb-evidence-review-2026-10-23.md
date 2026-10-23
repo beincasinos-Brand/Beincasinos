@@ -109,3 +109,30 @@ Until every applicable gate is closed, keep the listing at **HOLD** and do not p
 - **Bonus policy:** generic policy says 30x wagering and 90-day expiry generally apply unless promotion-specific terms differ; game contributions vary. No current GB welcome offer was verified, and the general policy must not be presented as an offer-specific term without checking the current promotion.
 - **Payments:** generic deposit page lists example methods but is not proof that each is available to GB accounts. Exact UK payment options, fees and processing timeframes remain unverified.
 - No account, payment, game, withdrawal or support test performed. Candidate remains **HOLD** pending privacy/cookie and accessibility checks, exact GB payment details, current offer terms and independent second-editor sign-off.
+
+
+### Batch 35 — current UK-specific consumer-policy evidence refresh (23 October 2026)
+
+A new official-site extraction pass succeeded for the exact GB agreement and linked policy pages after the prior timeout. This supersedes the earlier fetch-failure note only for the pages listed below; it does not mean that live account functionality was tested.
+
+**Current source-backed findings**
+
+- **GB contract / verification:** the UK-specific User Agreement is https://www.888casino.com/security-and-privacy/user-agreement-uk/. Its opening summary says users must be 18+, meet eligibility criteria and complete verification checks before certain account actions, including deposits and withdrawals. It also describes consequences for duplicate accounts and prohibited practices. Do not use the generic user-agreement-ma page for the GB review.
+- **Withdrawals:** https://www.888casino.com/banking/withdrawal/policy/ says payout methods depend on previous deposit methods and amounts, and ID/address/payment-card documents or additional verification may be requested. The policy reserves the right to pay casino winnings above £30,000 in instalments of up to £30,000 per calendar month; jackpot winnings may, at the operator's discretion, be paid in up to 24 monthly instalments. This is a published contractual possibility, not evidence of a typical payout experience. The source does not establish a universal processing-time promise.
+- **Bonuses:** https://www.888casino.com/promotions/bonus-policy/ states that, unless the applicable promotion says otherwise, the general wagering requirement is 30x the initial bonus and bonuses/associated winnings expire within 90 days. The policy also distinguishes restricted and available funds, says a withdrawal request can forfeit unconverted restricted funds and associated winnings, and notes game-category contribution differences. **No current GB welcome offer or offer-specific terms were verified**, so the general policy must not be misrepresented as a current welcome offer.
+- **Complaints and ADR:** the GB agreement links to Live Chat / internal escalation and identifies eCOGRA as an ADR route after the operator's process, subject to the agreement's stated conditions. eCOGRA's own published ADR policy says players must first follow the operator's internal complaints procedure and make reasonable attempts to resolve the dispute; eligibility and acceptance conditions apply. Sources: https://www.888casino.com/security-and-privacy/user-agreement-uk/ and https://ecogra.org/adr-policies-and-procedures-for-assistance/. Do not promise that every dispute will be accepted.
+- **Safer gambling:** the GB-specific page https://www.888casino.com/security-and-privacy/responsible-gaming-uk/ identifies 888 UK Limited and describes a control centre with deposit-limit controls, promotional preferences, self-exclusion, take-a-break, game history, deposit/behaviour trends and time-spent reminders. The page links to GAMSTOP. These are published descriptions; no logged-in controls were exercised and usability is not verified.
+- **Privacy:** https://www.888casino.com/security-and-privacy/privacy-policy/ identifies 888 UK Limited as the data controller for use of the 888 brand and describes collection of account, payment, gaming, KYC/source-of-funds, safer-gambling, device/IP and other data. It also states participation in the UK GamProtect Single Customer View trial. The privacy notice requires a close editorial read for purposes, lawful bases, sharing, retention and rights before approval.
+- **Cookies / tracking:** https://www.888casino.com/security-and-privacy/cookie-policy/ describes first- and third-party tracking technologies for service operation, analytics, personalisation and advertising. A page fetch cannot establish the actual consent-banner behaviour, whether optional tracking fires before consent, or the settings available to a fresh GB visitor; those require a live browser check.
+- **Licence identity:** https://www.888casino.com/security-and-privacy/licensing/ names 888 UK Limited as the UK operator under UKGC account 39028, consistent with the regulator register already captured in this draft.
+
+**Remaining blockers — still HOLD**
+
+1. Recheck the exact GB route and current UKGC licence/domain record at publication time.
+2. Capture a current, GB-visible welcome offer (or document that no offer was visible in the tested route) and all promotion-specific terms; do not invent an offer.
+3. Establish the exact GB cashier methods, minimum/maximum limits, fees and published processing stages from a market-specific source. No deposit/withdrawal transaction has been performed.
+4. Run documented, lawful live-browser checks for cookie consent behaviour, accessibility (keyboard, labels, contrast and mobile), and pre-registration availability/readability of material terms.
+5. Independently recheck all three UKGC actions, their dates/amounts and contextual mitigation against the primary notices.
+6. Obtain a genuinely independent second-editor review and record editorial/legal/affiliate-disclosure sign-off.
+
+No account opening, deposit, gameplay, payment, withdrawal, support-contact or logged-in safer-gambling test was performed. This update closes some desk-research evidence gaps only; it does not convert the draft into a publication-approved review.
