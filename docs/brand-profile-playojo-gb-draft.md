@@ -54,3 +54,14 @@ Sources checked 23 October 2026:
 - UKGC domain names: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326
 - UKGC current account actions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39326
 - UKGC historic enforcement announcement: https://www.gamblingcommission.gov.uk/news/article/skill-on-net-limited-faces-gbp305-150-regulatory-action
+
+
+## Fresh official-site and register recheck — 23 October 2026
+
+- Re-fetched UKGC account 39326. The licence summary lists active remote Casino and Bingo permissions and active remote virtual-event betting from 1 October 2026. The domain record lists `www.playojo.co.uk` and `www.playojo.com` as Active.
+- The live `https://www.playojo.co.uk/` request redirected to `https://www.playojo.com/` in this research context. The linked official terms page at `https://www.playojo.com/terms-conditions/` names Skill On Net Limited but describes operation under a Malta Gaming Authority licence (MGA/CRP/171/2009/01); it does not, in the extracted text, establish the precise GB contracting entity/licence terms. This is a material jurisdiction-mapping question, not proof that GB customers are served under the MGA licence. **Do not publish the page as a GB-specific review until the GB-specific legal terms/route are confirmed.**
+- The official help page claims that most payments are processed within a few hours and that document verification is aimed within 12 hours, with exceptions. These are operator-published claims, not independently tested performance; any later review must attribute them and record the exact page/date, then check payment-specific conditions and exceptions.
+- The official safer-gambling page describes tools, 18+ age/ID checks and support availability. The existence of these statements is not a usability test or proof of effectiveness. The current privacy page was reachable but its extracted content did not expose the substantive policy text.
+- The old UKGC enforcement-news URL supplied in the dossier redirected to the general news page in this fetch. Keep the already-documented £305,150 action only with the canonical, retrievable regulator source rechecked before publication; do not rely on a broken/redirecting URL.
+
+**Decision remains HOLD.** This recheck adds current operator-site observations but does not resolve GB-specific legal entity mapping, current bonus details, payment terms/fees/limits, complaint/ADR route, hands-on safer-gambling usability, independent feedback, accessibility or second-editor review. No score assigned and no approved review counted.
