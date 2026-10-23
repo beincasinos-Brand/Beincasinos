@@ -16,3 +16,19 @@ Before this can be published, confirm the exact consumer domain and legal entity
 
 ## Evidence still required
 Current full casino terms, payments and withdrawals, bonus conditions, safer-gambling controls, privacy/contact, complaints/escalation route and UKGC regulatory actions. No hands-on tests; no score assigned.
+
+
+## Dated primary-source refresh — 23 October 2026
+
+The UKGC register lists **Platinum Gaming Limited, account 45322**, with active Casino Remote permission. Its domain record lists `www.unibet.co.uk` as Active, along with `touch.unibt.co.uk` and `www.32red.com`; two Bingo.com domains are listed as White Label. The account's trading-name page currently records no trading names, so the live footer and contract terms are important for documenting the Unibet brand relationship.
+
+A major account-specific regulatory action is recorded on **22 September 2025**. The Commission found anti-money-laundering failings and failures against multiple customer-interaction social-responsibility code provisions for the period January 2023 to May 2024. Outcomes were a warning, additional licence condition and **£10,000,000 financial penalty**. The decision says the licensee cooperated. The review should describe the findings and outcomes accurately, and should not imply the historic action by itself measures present-day performance.
+
+- Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/45322
+- Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/45322
+- Trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/45322
+- Regulatory decision: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/291
+- Current GB general terms (operator source): https://uni-bet-uk.com/general-terms/
+- UKGC guidance on licensee/account disclosure: https://www.gamblingcommission.gov.uk/public-and-players/guide/opening-accounts
+
+**Decision: HOLD.** The current live site/footer and current casino-specific terms still need direct reconciliation with the account and brand. Bonus terms, wagering, payment/withdrawal limits and fees, complaints/ADR, safer-gambling tools, privacy/cookies, accessibility, hands-on customer journey and independent second-editor/commercial sign-off remain open. No account, deposit or withdrawal was tested; no score is assigned.
