@@ -280,3 +280,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - UKGC settlement dated 25 March 2026: £26,000 payment in lieu of penalty, Commission costs and published statement; findings covered AML/CTF controls and remote customer interaction / social responsibility.
 - Dossier includes both adverse findings and the regulator's stated mitigating factors, and does not claim remediation is complete.
 - Consumer testing (terms, deposits/withdrawals, games, support, limits) remains incomplete. Status **HOLD / DRAFT**; approved public reviews contributed: **0**.
+
+
+## 29. Cross-brand UKGC 2026 risk context added
+
+- File: `docs/ukgc-2026-remote-casino-risk-context.md`
+- Commit: `dd649c0dc5557cbc02f750695976f087ed6b690f`
+- Captures the UKGC's 30 July 2026 assessment that the remote casino sector remains **High** AML/CTF risk and gambling software sector risk has increased to **Medium**.
+- Establishes editorial guardrails: sector-level risk is context, not a brand-specific breach or safety verdict; suppliers must be distinguished from consumer-facing casino operators.
+- Adds a reusable evidence checklist for domain/entity matching, enforcement, identity checks, safer-gambling controls and payments/withdrawals.
+- This is an internal reference, not a consumer review; approved public reviews contributed: **0**.
