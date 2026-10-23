@@ -536,3 +536,10 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - The list records betPawa, Betika, SportyBet and 1xBet for Online Casino and Sports Betting, with issue date 1 January 2026 and expiry 31 December 2026, location Accra. Premier Bet, 22Bet and Melbet are listed for sports betting only in the entries checked; those entries do not establish online-casino permission.
 - The regulator table does not include domains/legal contracting entity, so domain/entity matching remains open. Evidence applies to Ghana only and must not be generalized to other countries.
 - All seven remain HOLD until live domain/entity matching, current terms, payment/withdrawal, complaints, privacy, safer-gambling, accessibility, hands-on testing and second-editor review are complete.
+
+
+## Final 17 market-scope blockers — 2026-10-23
+
+- Added [market-scope triage for the final 17 candidates](reviews/internal/final-17-market-scope-triage-2026-10-23.md) and updated all 17 rows with explicit unresolved market/entity/domain/licence blockers and HOLD decisions.
+- Stake Casino's Colombia listing is recorded as Colombia-specific only; it does not establish worldwide authorization. The seven US-facing/offshore candidates are held pending state-specific legal entity and authorization checks. Other multi-market candidates are held pending an identified target market and matching regulator evidence.
+- This closes the initial publication-decision triage across all 100 rows: every candidate now has a decision, but HOLD/scope-triage is not the same as a completed consumer review. Consumer terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on evidence and independent review remain incomplete for many rows.
