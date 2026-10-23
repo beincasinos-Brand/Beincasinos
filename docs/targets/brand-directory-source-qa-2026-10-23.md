@@ -16,19 +16,19 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 28 |
-| Candidate images with alt text | 28/28 |
-| Candidate images with explicit width/height | 28/28 |
-| Candidate images with lazy loading | 28/28 |
+| Logo/image candidates | 29 |
+| Candidate images with alt text | 29/29 |
+| Candidate images with explicit width/height | 29/29 |
+| Candidate images with lazy loading | 29/29 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 28/100 cards have a sourced image candidate; all remain **rights pending**.
-- 72/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 29/100 cards have a sourced image candidate; all remain **rights pending**.
+- 71/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 28 sourced image candidates with rights pending, and 72 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 29 sourced image candidates with rights pending, and 71 editorial card artworks.
 
 ## Publication and deployment gates
 
@@ -58,3 +58,8 @@ Post-change source audit: 100 cards, 100 unique names, 100 visible snapshots, 10
 ## Additional favicon candidates — 23 October 2026
 
 Three official-page metadata favicon URLs were added for 888.nl, BetTOM and 44Aces. These are **small-icon candidates**, not full-size logos, and all remain rights pending. BetTOM's fetched page was the sportsbook route, so its casino-product/market association still needs confirmation. Current total: 28 sourced image candidates; 72 cards retain editorial CSS artwork. The 100 visible research snapshots remain based on existing research-context text, not a claim of new verification.
+
+
+## Latest image inventory reconciliation — 23 October 2026
+
+After adding Brillbet's official-site `media/logo.png` candidate, the current branch contains **100 unique brand cards, 29 image candidates, and 100 visible research snapshots**. All 29 candidate images have alt text, explicit width/height and lazy loading, and each candidate is marked rights pending. Brillbet's official page redirected to a customer-service notice during inspection, so current product status must be checked before any recommendation. The directory remains `noindex,follow`; no Cloudflare production deployment is confirmed.
