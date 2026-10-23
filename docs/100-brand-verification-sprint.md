@@ -518,3 +518,13 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - South African government consumer guidance (June 2026) distinguishes lawful online sports/horse-race betting through licensed bookmakers from online casino games, which it says are illegal. Hollywoodbets, Supabets, SunBet and World Sports Betting are therefore on legal-scope HOLD until their exact provincial licence and product scope are verified; no online casino legality is implied.
 - FCT Lottery Regulation Office lists BET9JA sports betting under KC Gaming Ltd and BET9JA CASINO under KC Gaming Networks Ltd. This supports only an Abuja/FCT screening result; nationwide Nigerian authorization is not inferred.
 - All five remain HOLD. Current product terms, payments, complaints, privacy, safer gambling, accessibility, hands-on tests and second-editor review remain open.
+
+
+## Argentina and Mexico evidence batch — 2026-10-23
+
+- Added [Argentina/Mexico evidence checkpoint](reviews/internal/argentina-mexico-evidence-2026-10-23.md) and updated four candidate rows.
+- Betsson Argentina: operator's PBA site names the licensed UT and Resolution RESO-2020-795, explicitly limited to Buenos Aires Province; no nationwide claim.
+- BetWarrior: Buenos Aires Province regulator lists the brand among seven authorized platforms. Current operator offer terms show casino welcome-offer wagering conditions, including 55x on deposit plus bonus and 20x on free spins for the listed offer; exact offer version and jurisdiction must be archived before publication.
+- Caliente.mx: operator terms identify Tecnología en Entretenimiento Caliplay, S.A.P.I. de C.V. and permit DGG/SP/404/97. Terms include an inactive-account charge and complaint-deadline/confidentiality wording requiring legal review. Operator claims about withdrawal times are not independently tested.
+- Codere Mexico: operator identifies Libros Foráneos S.A. de C.V. and lists SEGOB permit numbers; its help page states $100 MXN minimum deposit and $10 MXN minimum withdrawal, not independently tested. Permit scope must be independently confirmed.
+- All four remain HOLD; no score or publication approval. No Actions run or deployment triggered.
