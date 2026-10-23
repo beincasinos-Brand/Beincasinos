@@ -1,3 +1,11 @@
+# Latest research checkpoint — 23 October 2026
+
+- Added `docs/gb-brand-verification-batch-2026-10-23.md` with a fresh official UK Gambling Commission register check for Betway Casino, 888casino, bet365, and 32Red.
+- Evidence result: Betway Limited (account 39372) and 888 UK Limited (account 39028) show active Remote Casino licences in the GB register; bet365 resolves to multiple legal entities and requires product-to-licensee matching; 32Red Limited's GB Remote Casino licence is recorded as surrendered from 12 March 2025. Sources and limitations are recorded in the batch file.
+- This is a regulator-register research pass, **not** four completed editorial reviews. Terms, withdrawals, complaints, safer-gambling controls, regulatory history and second-review remain outstanding; no scores or public endorsements were created. Publication-approved review count remains **0/100**.
+- The commit adding this internal research batch is `c980958b4bb6fb2311e0af7aefe4a43dc002f18d`.
+- No production deploy, DNS/nameserver change, billing change, Search Console write action, or operator outreach was performed.
+
 # Latest research and CI checkpoint — 22 October 2026
 
 - PR #26 merged after the complete integrated CI job passed, including Chromium browser smoke tests, the public-only deployment artifact build, and the check that internal research files are excluded from that artifact: https://github.com/beincasinos-Brand/BeInCasinos/pull/26
