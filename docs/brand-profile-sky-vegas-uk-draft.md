@@ -16,3 +16,19 @@ Before this can be published, confirm the exact consumer domain and legal entity
 
 ## Evidence still required
 Current full terms, payments/withdrawals, bonus terms, safer-gambling tools, privacy notice, customer support and complaints/escalation route have not been reviewed in this pass. Check the UKGC regulatory-actions register and confirm any brand/group-specific actions before scoring. No hands-on tests; no score assigned.
+
+
+## Dated primary-source refresh — 23 October 2026
+
+The UKGC records two related licensees with Sky Vegas domain history, and their status must not be conflated. **Bonne Terre Gaming Limited (account 65519)** has active Casino Remote permission from 18 November 2024; its domain list marks `www.skyvegas.com` and `m.skyvegas.com` Active, and its trading-name list marks `sky vegas` Active. Its actions page currently says no actions have been recorded for this business. In contrast, **Bonne Terre Limited (account 38718)** shows all remote licences surrendered effective 31 October 2025; its Sky Vegas domains are Inactive and its trading-name record is Inactive. The old account's status is not evidence that the current account is unlicensed; equally, the current account's record must be matched to the actual consumer contract.
+
+- Active account licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/65519
+- Active account domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65519
+- Active account trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/65519
+- Active account actions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/65519
+- Former account licence status: https://www.gamblingcommission.gov.uk/public-register/business/detail/38718
+- Former account domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38718
+- Former account trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/38718
+- UKGC explanation of licensee responsibility: https://www.gamblingcommission.gov.uk/about-us/freedomofinformation/flutter-licences
+
+**Decision: HOLD.** Verify the live site footer and contracting entity/account, current casino terms and bonus rules, payments/withdrawals, complaints/ADR, safer-gambling tools, privacy/cookies, accessibility, hands-on customer journey and independent second-editor/commercial sign-off. No account or payment has been tested; no score is assigned.
