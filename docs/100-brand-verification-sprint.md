@@ -501,3 +501,12 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Ministry guidance says MP 1.394/2026 prohibits operation, offering, intermediation and advertising of fixed-odds betting nationwide, covering online games and offers by foreign operators to people located in Brazil; its timeline says sites/apps should be unavailable from 6 October 2026. Congress tracking as checked 23 October says the measure is awaiting mixed-commission installation, with deliberation window through 23 November; the legal record shows no express revocation. Recheck before any publication.
 - Updated the existing rows for EstrelaBet, Betnacional, Pixbet, Sportingbet Brazil, Betano Brazil, Superbet, KTO, Novibet and Aposta Ganha. All are legal hold/HOLD; historic authorization/domain records are not presented as current permission. Aposta Ganha's authorization was not established from the reviewed official excerpts.
 - These are legal-screening outcomes, not completed consumer reviews. No brand in this batch is rated, promoted or described as currently available in Brazil. No Actions run or deployment was triggered.
+
+
+## Colombia operator evidence batch — 2026-10-23
+
+- Added [Colombia operator evidence checkpoint](reviews/internal/colombia-operator-evidence-2026-10-23.md) and updated the existing BetPlay, Wplay and Rushbet candidate rows against Coljuegos' authorized online-gaming directory.
+- BetPlay row now records Corredor Empresarial S.A., contract C1876 and the operator-stated expiry date 17 September 2027.
+- Wplay row flags a contract-number discrepancy: Coljuegos directory says 1741 while the operator page says C2182 with a 2025–2030 period. This must be reconciled from the current signed regulator concession before publication.
+- Rushbet row records Rush Street Interactive Colombia S.A.S. and contract 1972 from the Coljuegos directory.
+- All three remain HOLD. No payment/service quality claims or ratings are made; consumer terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on tests and independent review remain open.
