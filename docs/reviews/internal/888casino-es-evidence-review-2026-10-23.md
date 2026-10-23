@@ -64,3 +64,23 @@ Until the current Spanish site and its actual legal/help links can be inspected,
 - [ ] Complete legal/editorial approval and affiliate disclosure.
 
 **Decision: HOLD.** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
+
+
+## Regulatory-history refresh — 23 October 2026
+
+The DGOJ operator profile and sanctions index were rechecked after the initial evidence review. The original checklist's statement that enforcement history was “not fully checked” can now be refined: the public sanctions index contains multiple entries for 888 ONLINE GAMES ESPAÑA, S.A., including:
+
+- **ES/2025/003** — listed by DGOJ as a serious administrative infringement under Article 40(k) of Spain's Gambling Act 13/2011. Index entry: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=3&type=94
+- **ES/2025/025** — listed by DGOJ as a serious administrative infringement under Article 40(j). Index entry: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=1
+- **ES/2024/179** — listed by DGOJ as a serious administrative infringement under Article 40(j). Index entry: https://ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras?page=4
+- **ES/2023/078** — the DGOJ decision page identifies the same operator and a serious administrative infringement under Article 40(j). Decision index: https://www.ordenacionjuego.es/datos-estudios/resoluciones-sancionadoras/es2023078
+
+These are index-level findings. Before writing a consumer-facing summary, open and inspect each decision/resolution itself to verify the conduct, dates, finality/status, penalty amount and any appeal or payment details. Do not infer the underlying conduct solely from the statutory article or describe these as a single combined penalty.
+
+The DGOJ operator profile continues to associate **https://www.888casino.es** with **888 ONLINE GAMES ESPAÑA, S.A.**, and lists slots, blackjack, roulette and poker among the singular licence categories. Source: https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa
+
+### Required editorial treatment
+
+If the review later reaches approval, the regulatory-history section must report each material decision separately with its decision date, factual conduct, amount and procedural status, based on the underlying official resolution. A licence/domain listing is not a substitute for a current consumer-terms review, and a regulator record alone does not establish current customer experience.
+
+**Disposition remains HOLD.** Current Spanish terms, promotions, payments, complaints/ADR, safer-gambling implementation, privacy/cookies, accessibility, and independent review remain unverified. No score, recommendation or “safe/trusted” claim is authorised by this refresh.
