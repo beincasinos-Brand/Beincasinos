@@ -98,3 +98,6 @@ Current checked source state: 100 unique brand cards, 100 visible research snaps
 
 
 The directory's methodology section now explicitly separates image discovery from reuse rights: official-site presence does not grant permission, and each image candidate remains rights pending until identity, direct rendering and reuse permission are checked. The hero label now accurately describes the 66 remaining cards as CSS artwork/monogram fallbacks.
+
+
+A fifth methodology card now defines evidence grades (A/B/C) and explicitly states they are not casino ratings, safety guarantees or recommendations. This reduces the risk that research confidence is misread as consumer-quality scoring.
