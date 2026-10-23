@@ -309,3 +309,15 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Source: [README update](https://github.com/beincasinos-Brand/Beincasinos/commit/106b1d7c3c273fcd2418ef67da4bfced66ce773f).
 - Measurement blocker remains: the latest documented Search Console connector result had a stale sitemap submission (32 URLs versus 44 in the live sitemap) and no Analytics rows; this does not prove zero impressions or indexing. Resubmit/recheck the current sitemap and inspect URL Inspection, Pages and Performance reports directly when the authorized browser workflow is available.
 - No deployment or GitHub Actions run was triggered. No new brand was counted as an approved review in this documentation-only change.
+
+
+## 32. Dabble GB — provisional domain/licence match, review held — 23 October 2026
+
+- Added `docs/brand-profile-dabble-gb-draft.md` after checking the UKGC register and Dabble's official casino page.
+- UKGC account 65677 records Dabble Sports UK Ltd, active trading name “dabble”, active domains `dabble.co.uk` and `dabble.uk`, and active remote casino and real/virtual betting permissions. The operator's casino page also identifies Dabble Sports UK Ltd as UKGC-licensed.
+- The UKGC actions page currently reports no regulatory actions recorded for this business. This is reported narrowly and is not a claim that no investigation or action has ever existed in any context.
+- Outstanding gates: archived current legal terms and exact contracting-entity match; full offer terms; withdrawal methods/fees/limits/timing; complaints and ADR; safer-gambling control usability; independent feedback sample; second-editor review.
+- Status: **Research in progress / HOLD**. Not a public recommendation and not counted toward the 100 approved reviews target.
+- Commit: `036d0a58b9a274e7ae6e927311bdd055686d0c22`.
+- Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/65677), [UKGC domain names](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65677), [UKGC trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/65677), [UKGC actions](https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/65677), [Dabble Casino](https://dabble.co.uk/dabble-casino/).
+- No deployment or GitHub Actions run triggered.
