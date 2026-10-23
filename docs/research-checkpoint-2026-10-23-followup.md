@@ -352,3 +352,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Commit: `f9504fad4bf3f33a38d90a0a3c8c31bbca5190b7`.
 - Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/39576), [domains](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39576), [trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39576), [regulatory actions](https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39576), [BetVictor GB terms](https://www.betvictor.com/en-gb/pages/terms-conditions/uk-terms-and-conditions).
 - No deployment or GitHub Actions run triggered.
+
+
+## 36. Repository sitemap coverage audit — 23 October 2026
+
+- Compared the repository's public `index.html` routes with the root `sitemap.xml` using the current recursive Git tree.
+- Result at this repository revision: **45 public index pages and 45 sitemap URLs**, with **0 missing routes and 0 stale routes** in the comparison.
+- This validates source-repository coverage only. It does not confirm that the deployed website serves every route successfully, that Google has crawled or indexed them, or that the submitted sitemap in Search Console is current.
+- Previously documented Search Console submission showed 32 URLs versus the live sitemap's 44 at that time; the current source sitemap count is 45. Next external verification is to submit/recheck `https://beincasinos.online/sitemap.xml`, inspect the sitemap's discovered URLs, and inspect Pages/URL Inspection reports. Do not claim indexing or impressions without those reports.
+- No sitemap edit was necessary from this repository-to-sitemap comparison. No deployment or GitHub Actions run triggered.
