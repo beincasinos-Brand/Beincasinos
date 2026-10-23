@@ -6,9 +6,9 @@
 ## Snapshot
 
 - Active registry: **175 market-specific rows**, 31 columns, no ragged CSV rows, no exact duplicate brand-name cells, and no publication-approved rows.
-- A preliminary normalization that strips a trailing market code in parentheses (for example, (DE), (IT), (ES), (MI)) produces **148 provisional brand labels**.
-- That preliminary normalization identifies **20 repeat-brand groups** and 27 excess market-specific rows beyond one row per normalized label.
-- **148 is not the number of eligible brands.** It is a label-normalization estimate only. The registry still includes leads, unverified permission records, excluded records, shared legal operators and brands with incomplete casino-vertical checks.
+- The registry now carries a stable `global_brand_id` and `market_code` on every row. The IDs collapse known market suffixes and manually reconciled aliases, producing **140 provisional global brand IDs** across the 175 rows.
+- The ID-based grouping identifies **24 repeat-brand groups** and 35 excess market-specific rows beyond one row per global brand ID.
+- **140 is not the number of eligible brands.** It is a provisional ID count only; IDs still require manual alias/brand-family review. The registry still includes leads, unverified permission records, excluded records, shared legal operators and brands with incomplete casino-vertical checks.
 - Publication-approved reviews remain **0/100**. All candidate rows remain HOLD or rejected as recorded in the registry.
 
 ## Repeat-brand groups found by market-suffix normalization
@@ -16,8 +16,8 @@
 | Provisional brand label | Market-specific rows |
 |---|---|
 | bet365 Casino | bet365 Casino; Bet365 Casino (NL); bet365 Casino (MI); bet365 Casino (DE) |
-| 888casino | 888casino; 888casino (SE); 888casino (IT) |
-| Betway Casino | Betway Casino; Betway Casino (DE) |
+| 888casino | 888casino; 888casino.es; 888casino (SE); 888casino (IT) |
+| Betway | Betway Casino; Betway (ES); Betway Casino (DE) |
 | William Hill Casino | William Hill Casino; William Hill Casino (ES) |
 | Ladbrokes Casino | Ladbrokes Casino; Ladbrokes Casino (BE) |
 | LeoVegas | LeoVegas; LeoVegas (IT); LeoVegas (DE) |
@@ -33,8 +33,12 @@
 | Hard Rock Bet Casino | Hard Rock Bet Casino; Hard Rock Bet Casino (MI) |
 | Fanatics Casino | Fanatics Casino; Fanatics Casino (MI) |
 | Winamax | Winamax; Winamax (ES) |
-| Betano Casino | Betano Casino (BE); Betano Casino (DE) |
-| Betsson | Betsson (IT); Betsson (SE) |
+| Betano | Betano; Betano Casino (BE); Betano Casino (DE) |
+| Betsson | Betsson Casino; Betsson (IT); Betsson (SE) |
+| Codere | Codere (ES); Codere.it (IT) |
+| Casino777 | Casino777.ch; Casino777.be (BE) |
+| Starvegas | Starvegas.ch; StarVegas (IT) |
+| Starcasino | Starcasino.be (BE); StarCasino (IT) |
 
 ## Additional manual identity checks
 
@@ -45,6 +49,8 @@
 
 ## Required counting model
 
+The first-pass market-code reconciliation found 4 rows whose market is still unconfirmed and one historical GB row marked excluded. Those rows must not count as eligible brand-market pairs.
+
 Use two distinct counts in the project dashboard:
 
 1. **Distinct global brands:** deduplicated customer-facing brands, after manual alias review.
@@ -54,7 +60,7 @@ The 100-review goal should count only a completed, evidence-backed review for a 
 
 ## Next reconciliation steps
 
-1. Add a stable global brand ID to each registry record, while preserving market-specific rows.
+1. Keep the new stable global_brand_id and market_code columns populated on every registry record, while preserving market-specific rows.
 2. Manually reconcile aliases and brand spelling, including brands whose name changes are not expressed as a simple country suffix.
 3. Confirm current casino vertical and local permission before counting an eligible brand-market pair.
 4. Record each review as draft, second review, approved, or rejected; never infer approval from evidence collection alone.
