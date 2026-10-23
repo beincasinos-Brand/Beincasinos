@@ -33,3 +33,20 @@ The UKGC published a 23 March 2023 enforcement announcement covering **two separ
 ## Editorial decision
 
 **HOLD.** The key contribution of this dossier is the current-operator distinction and accurately scoped historic enforcement context. It is not a complete review. No rating, score, ranking or firsthand-testing claim is authorised. Deduplicate this brand across markets before counting unique brands. Approved reviews remain **0/100** until all evidence and sign-off gates are met.
+
+
+## Follow-up: live register and operator-terms recheck (23 October 2026)
+
+### Current register pages re-fetched
+- 32Red Limited, account 39430: UKGC page currently shows its Casino Remote and General Betting Standard - Real Event Remote permissions as **Surrendered**, ending 12 March 2025: https://www.gamblingcommission.gov.uk/public-register/business/detail/39430/
+- Platinum Gaming Limited, account 45322: UKGC page currently shows Remote Casino licence `045322-R-324275-020` **Active** from 12 July 2016 to Current: https://www.gamblingcommission.gov.uk/public-register/business/detail/45322/
+- UKGC domain page for account 45322 currently lists `www.32red.com` as **Active**: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/45322
+
+### Current operator terms — preliminary observations
+The current 32Red terms page was retrieved at https://www.32red.com/terms-and-conditions/. The visible summary states 18+ eligibility, verification checks before some account actions and potentially on an ongoing basis, a one-account-per-brand rule, maximum winnings limits, and possible suspension/closure or withholding of funds for defined prohibited activity. These are terms-summary statements, not a substitute for reviewing the full referenced clauses. The legal contracting entity and licence disclosure still must be captured from the full current terms/footer and reconciled with the UKGC register before publication.
+
+### Enforcement source checked again
+The UKGC announcement dated 23 March 2023 states the combined £7.1m penalty package but assigns £4,195,655 to 32Red Limited and £2,937,599 to Platinum Gaming Limited, with distinct social-responsibility and AML findings: https://www.gamblingcommission.gov.uk/news/article/gambling-commission-fines-32red-and-platinum-gaming-gbp7-1m. Keep these historic findings tied to the investigated entities and date; do not imply they establish present-day controls or current consumer outcomes.
+
+### Remaining HOLD gates
+Current bonus terms, cashier/deposit/withdrawal specifics, complaint/ADR route, privacy/cookies, accessibility, safer-gambling tools, later enforcement/court status, full entity reconciliation, and independent second-editor/legal review remain incomplete. This refresh does not change publication status: **HOLD; approved reviews 0/100**.
