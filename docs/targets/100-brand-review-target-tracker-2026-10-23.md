@@ -27,7 +27,7 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 | Germany (DE) | 1 | Schleswig-Holstein-specific lead only. Verify current state-specific authorisation and product; do not imply nationwide eligibility. |
 | Netherlands (NL) | 8 | Reconcile Ksa licence holder to exact live domain/product. TOTO and Winnitt share TOTO Online B.V.; do not double-count them as distinct operators without materially distinct product evidence. |
 | Sweden (SE) | 7 | One domain-level Svenska Spel lead plus six rows needing revalidation. Do not count unverified domain/operator mappings. |
-| Spain (ES) | 19 | DGOJ domain/operator leads; confirm the current online-casino vertical and Spain-specific terms, not just a general remote-gambling entry. |
+| Spain (ES) | 19 | 12 individual DGOJ operator profiles now confirm casino-vertical licences across 13 brand rows; Betfred.es is excluded because its singular casino licences were extinguished in 2023. PartyCasino and Bwin share ELECTRAWORKS CEUTA, S.A. All remaining candidates are HOLD pending current consumer terms and second review. Details: `docs/research/spain-dgoj-candidate-expansion-2026-10-23.md`. |
 | Italy (IT) | 46 | ADM candidate buffer. Several entries are broad remote-gambling leads, not proven casino products; confirm active concession, domain and casino vertical. Deduplicate cross-listed brands. |
 | France (FR) | 2 | These are sports/poker-related leads, not online-casino authorisations. Online casino is not generally authorised; do not count either toward the casino-review target. |
 | Belgium (BE) | 10 | Match each live domain to the current A+ licence table, operator and expiry; verify the casino product and current terms before counting. |
