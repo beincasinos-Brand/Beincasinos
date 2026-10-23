@@ -25,7 +25,7 @@ The Federal Gaming Board's [current online-gambling page](https://www.esbk.admin
 
 ## Belgium (BE): official A+ register
 
-The Belgian Gaming Commission's [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en) was last updated 8 October 2026 in the retrieved record. It provides regulator-backed domain/operator leads, but each entry must be rechecked on the live register before publication and matched to the exact contracting entity and current product.
+The Belgian Gaming Commission's [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en) shows a last-update timestamp of 28 August 2026 in the retrieved table. It provides regulator-backed domain/operator leads, but each entry must be rechecked on the live register before publication and matched to the exact contracting entity and current product.
 
 | Candidate brand/domain | Operator shown in register | Register record |
 |---|---|---|
