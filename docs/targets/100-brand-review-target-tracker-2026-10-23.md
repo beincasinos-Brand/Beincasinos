@@ -220,3 +220,9 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Additional internal consumer-review draft — 23 October 2026
+
+- **Unibet Casino (Great Britain):** added `docs/reviews/internal/unibet-casino-gb-consumer-review-draft-2026-10-23.md` on branch `editorial/unibet-gb-consumer-review-draft-2026-10-23`. This is a jurisdiction-scoped internal draft based on the existing Unibet GB evidence pack. It separates operator-stated terms and safer-gambling features from independently tested outcomes, omits unverified bonus and enforcement claims, and lists the remaining publication gates.
+- **Status remains HOLD.** This draft is not merged, not deployed, and does not increase the approved consumer-review count. Publication approvals remain **0/100** on this roadmap snapshot.
