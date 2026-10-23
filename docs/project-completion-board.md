@@ -597,3 +597,9 @@
 - UKGC records identify Petfre (Gibraltar) Limited (account 39544) as the online `betfred.com` operator, with active remote casino permissions. Kept this separate from Done Brothers (Cash Betting) Limited (account 1058; retail-focused £825,000 action in 2025) and BETFRED TECHNOLOGY LIMITED (account 49528).
 - Petfre's UKGC action page records a £240,000 technical-standards penalty (20 May 2025) and a separate £900,000 payment in lieu of penalty (30 June 2026) after remote customer-interaction findings. Current GB terms/cashier could not be reliably extracted in this pass, so no claims made about current offers, withdrawals or ADR.
 - Betfred remains HOLD pending full terms, cashier, complaint/ADR, privacy/cookies, accessibility, safer-gambling and full decision/court review plus independent sign-off. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Great Britain — Sky Vegas Casino licence/consumer-evidence refresh (23 October 2026)
+- Added [internal Sky Vegas GB licence and consumer-evidence dossier](docs/reviews/internal/sky-vegas-casino-gb-licence-consumer-evidence-2026-10-23.md), commit `625eaed99853a6ae8b739501bb1090337c712d34`.
+- UKGC account 65519 lists Bonne Terre Gaming Limited with active remote casino/bingo permissions and lists `www.skyvegas.com` / `m.skyvegas.com` as Active. Official signup support states 18+ eligibility, contact verification before deposits, possible additional ID/address documents, and deposit-limit setup.
+- Current offer, cashier/withdrawals, complaint/ADR and sanctions details could not be fully extracted; dossier explicitly marks these as unknown, not absent. Sky Vegas remains HOLD. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
