@@ -124,3 +124,10 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Added the UKGC's 17 December 2025 announcement of a £2m settlement across four Paddy Power/Betfair remote licensees, with entity-attribution cautions; flagged the reported 2023 £490,000 fine for source retrieval.
 - Status: **Hold / draft**, not an approved review. Product-specific entity mapping, current commercial terms, payments, complaints/ADR, safer-gambling evidence and independent editorial approval remain open.
 - Count rule unchanged: a dossier does not count as an approved review.
+
+
+## 12. Betway regulatory cross-check correction
+
+- Updated `docs/brand-profile-betway-gb-draft.md` in commit `6d51dfd761c659e8c89a2aa99207e66fe150ec0b`.
+- The account-specific UKGC actions page says no actions are recorded there, but the Commission's own site search surfaces historic Betway Limited notices: the £11.6m VIP/social-responsibility and AML settlement (2020) and £408,915 marketing penalty (2022).
+- The dossier now records this discrepancy and requires the original notices to be opened and entity scope verified. This is a correction to the research, not an approved review.
