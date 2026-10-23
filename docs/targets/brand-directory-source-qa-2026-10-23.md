@@ -84,4 +84,9 @@ Added a logo candidate exposed by Starcasino's official casino page: `https://im
 
 ## Additional official image candidates — 23 October 2026
 
-Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansino's homepage favicon, and Stakewise's UK homepage favicon image. All three are registered with explicit alt text and remain **rights pending**; the latter two are small-icon candidates, not full-size logos. Current total: 33/100 sourced image candidates and 67 cards with CSS editorial artwork. Source-level HTML QA is not a live browser test, direct-asset uptime check, reuse licence, legal review, or deployment confirmation.
+Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansino's homepage favicon, and Stakewise's UK homepage favicon image. All three are registered with explicit alt text and remain **rights pending**; the latter two are small-icon candidates, not full-size logos. Current total: 34/100 sourced image candidates and 67 cards with CSS editorial artwork. Source-level HTML QA is not a live browser test, direct-asset uptime check, reuse licence, legal review, or deployment confirmation.
+
+
+### Betty Casino image candidate — 23 October 2026
+
+Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. The current inventory is 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork. Source presence is not permission to reuse.
