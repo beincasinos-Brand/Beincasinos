@@ -551,3 +551,9 @@
 - Added [internal bet365 Casino GB evidence review](docs/reviews/internal/bet365-casino-gb-evidence-review-2026-10-23.md), commit `4011bd85e525d1331743a5dc0bef32c4560111fa`.
 - UKGC account 55149 identifies Hillside (UK Gaming) ENC and active Casino Remote licence `055149-R-331499-004`; the UKGC domain register lists `bet365.com` as Active. Current GB terms effective 1 October 2026 distinguish casino operator from the separate sportsbook entity and describe verification, withdrawal conditions and safer-gambling tools.
 - These are initial official-source checks only. Offer-specific rules, cashier/withdrawal details, complaints/ADR, privacy/cookies, accessibility, enforcement/court status and independent second-editor review remain open. bet365 stays HOLD; no rating or publication approval. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Great Britain — PokerStars Casino regulator evidence (23 October 2026)
+- Added [internal PokerStars Casino GB evidence review](docs/reviews/internal/pokerstars-casino-gb-evidence-review-2026-10-23.md), commit `b0c3c4d42379fac7ab71816501ac3a7b56a582d8`.
+- UKGC register account 39108 lists `pokerstarscasino.uk` as Active under Stars Interactive Limited. PokerStars GB terms distinguish TSG Interactive Plc, Stars Mobile Limited and the licence-holder relationship; they describe identity checks before deposits/real-money play, a financial vulnerability check threshold of GBP 135 net deposits in a rolling 30-day period, and withdrawal conditions.
+- These are initial primary-source checks, not a full review. Current offer-specific terms, cashier/fees/withdrawal details, complaints/ADR, privacy/cookies, accessibility, regulatory-action/court status and independent second-editor review remain open. PokerStars stays HOLD; approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
