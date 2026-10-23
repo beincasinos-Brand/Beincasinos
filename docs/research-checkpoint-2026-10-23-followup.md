@@ -53,3 +53,17 @@ File: `docs/brand-profile-bet365-gb-draft.md`
 - Commit: `be285ffff3ec11563620b8d064d976b59be7f1e6`.
 
 This is an evidence dossier, not an approved public review. Approved reviews from this batch: 0.
+
+
+## 5. William Hill Online GB — operator and enforcement evidence added
+
+File: `docs/brand-profile-william-hill-gb-draft.md`
+
+- Matched the GB online domain to WHG (International) Limited, UKGC account 39225, with the official website legal disclosure and regulator register.
+- Recorded active remote permissions across casino, bingo, gambling software, real-event betting, virtual-event betting and pool betting; domain and trading-name entries are active on the register.
+- Added the 2023 £19.2m group enforcement context, correctly separating £12.5m for WHG (International) Limited, £3.7m for Mr Green Limited and £3m for William Hill Organisation Limited.
+- Added the 7 Aug 2025 £82,687 penalty for WHG (International) Limited and the regulator's notes about self-reporting, remediation and cooperation.
+- Kept the dossier on HOLD pending current offer terms, withdrawals, complaints/ADR, safer-gambling checks, dated usability testing and independent editorial review.
+- Commit: `198500552a62db1fce9e7d0719f58e20a2e16b3b`.
+
+This remains an internal evidence dossier, not an approved public review. Approved reviews from this follow-up batch: 0.
