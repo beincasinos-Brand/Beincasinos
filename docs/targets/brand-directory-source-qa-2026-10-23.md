@@ -28,7 +28,7 @@
 - 34/100 cards have a sourced image candidate; all remain **rights pending**.
 - 66/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 34 sourced image candidates with rights pending, and 66 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 34 sourced image candidates with rights pending, and 66 CSS artwork/monogram fallbacks.
 
 ## Publication and deployment gates
 
@@ -95,3 +95,6 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 ### Final image inventory reconciliation — 23 October 2026
 
 Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+
+
+The directory's methodology section now explicitly separates image discovery from reuse rights: official-site presence does not grant permission, and each image candidate remains rights pending until identity, direct rendering and reuse permission are checked. The hero label now accurately describes the 66 remaining cards as CSS artwork/monogram fallbacks.
