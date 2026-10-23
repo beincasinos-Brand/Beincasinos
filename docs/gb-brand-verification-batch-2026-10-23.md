@@ -32,3 +32,13 @@ Internal research only. This file is not a public endorsement, ranking, review, 
 The UKGC says its business register can be searched by business name, trading name, domain name or account number, and that domain/trading-name information is supplied by the gambling business and is not guaranteed by the Commission. Keep that limitation attached to conclusions.
 
 Register landing page: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
+
+## Additional register checks — 23 October 2026
+
+| Candidate | Official register finding checked 2026-10-23 | Evidence | Decision |
+|---|---|---|---|
+| Sky Vegas | Bonne Terre Gaming Limited (account 65519) shows Remote Casino status Active from 18 Nov 2024 to Current. UKGC trading-name records list “sky vegas” as Active; the operator's own site identifies Bonne Terre Gaming Limited as operator for UK customers. | https://www.gamblingcommission.gov.uk/public-register/business/detail/65519 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/65519 ; https://skyvegas.com/ | **Research further; not publication-approved.** Verify terms, withdrawals, complaints, safer-gambling controls and regulatory actions. The licence evidence is GB-specific. |
+| Ladbrokes Casino | Ladbrokes Betting & Gaming Limited (account 1611) shows Remote Casino status Active from 1 Nov 2014 to Current. The current search results also associate the trading name and ladbrokes.com with LC International Limited (account 54743), so the exact consumer product/legal-entity mapping must be resolved before scoring. | https://www.gamblingcommission.gov.uk/public-register/business/detail/1611 ; https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Ladbrokes | **Research further; entity/domain mapping required.** Do not assume a shared brand name means the same licensee across products or domains. |
+
+These two entries are regulator-record candidates only. They do not change the publication-approved review count; all editorial evidence and second-review gates remain open.
