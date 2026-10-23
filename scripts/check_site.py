@@ -908,6 +908,32 @@ if reviews_hub.is_file():
 else:
     errors.append("reviews/index.html is missing")
 
+# The public market directory must reflect the twelve-geography scope and must not
+# imply that research targets are legal launch approvals.
+markets_page = ROOT / "markets" / "index.html"
+if markets_page.is_file():
+    markets_source = markets_page.read_text(encoding="utf-8")
+    for required_phrase in (
+        "Twelve target geographies. No automatic approvals.",
+        "Australia (AU)",
+        "Canada (CA)",
+        "Great Britain (GB)",
+        "United States (US)",
+        "Switzerland (CH)",
+        "Germany (DE)",
+        "Netherlands (NL)",
+        "Sweden (SE)",
+        "Spain (ES)",
+        "Italy (IT)",
+        "France (FR)",
+        "Belgium (BE)",
+        "not twelve launch approvals",
+    ):
+        if required_phrase not in markets_source:
+            errors.append(f"markets/index.html: missing market-scope safeguard/content: {required_phrase}")
+else:
+    errors.append("markets/index.html is missing")
+
 # Keep operator-facing commercial claims aligned with the actual pre-launch state.
 # These are deliberate release guardrails, not legal approval.
 partners_page = ROOT / "partners" / "index.html"
