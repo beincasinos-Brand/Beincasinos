@@ -123,3 +123,13 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Added image-load fallback monograms for all 20 externally hosted image candidates, so a broken/blocked logo URL degrades gracefully rather than leaving an empty image area.
 - Changed the visible image ribbon to **SOURCE FOUND · RIGHTS PENDING** on all 20 candidates. This explicitly avoids implying permission to republish.
 - Final source-level checks: 100 brand cards; 100 brand-specific research-context panels; 100 evidence-grade attributes and an active evidence filter; 20 sourced image tags with 20 fallbacks and rights-pending labels; 100 image manifest rows. The page remains noindex and has not been deployed to Cloudflare.
+
+
+### Directory usability and image-source QA — 23 October 2026
+
+- Added a visible **Clear filters** control for search, market, status and evidence grade. It resets all controls together and returns keyboard focus to the search field.
+- Added keyboard-visible focus styling and a screen-reader status role to the empty-results message. The result count remains an `aria-live` announcement.
+- Corrected the desktop filter toolbar to allocate a dedicated column to the reset control; tablet and mobile breakpoints continue to collapse the toolbar.
+- Source-level regression check after the change: **100 cards**, **100 research-context panels**, **100 evidence-grade attributes**, **20 image candidates**, **20 fallback monograms**, and **20 visible rights-pending labels**. Search, market, status, evidence and reset handlers are present.
+- Checked the 20 image candidate source pages through a page extractor: **18 candidates appeared in official-page image links or Open Graph metadata**; two page fetches timed out (admiral.ch and Betinia Casino). See `docs/targets/brand-image-source-page-qa-2026-10-23.md`.
+- This does not clear image rights. All 20 remain rights-pending; the directory stays `noindex,follow` and excluded from the sitemap. No Cloudflare deployment or GitHub Actions run was triggered.
