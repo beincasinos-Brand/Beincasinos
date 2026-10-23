@@ -102,3 +102,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a **Caesars Palace Online Casino — New Jersey** evidence pack using the NJ DGE authorized-sites list, current first-party terms (effective 15 December 2025), and the NJ Casino Control Commission's 2024 report. The sources show a skin/host/platform relationship that changed in 2024, so the pack explicitly requires current contract-party reconciliation before publication. Registry row updated; status remains HOLD pending terms/product/payment checks and independent review. See [Caesars Palace NJ evidence pack](reviews/internal/caesars-palace-online-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Added a consolidated **New Jersey authorized casino domains and review gates** research register from the live DGE list. It records candidate domains by the regulator's host grouping, distinguishes domain authorization from contract-party and product checks, and documents the regulator's complaint/escalation and responsible-gambling guidance. It is a research queue only; it does not turn unreviewed brands into verified or publishable reviews. See [NJ domain register](research/new-jersey-authorized-casino-domains-and-review-gates-2026-10-23.md).
