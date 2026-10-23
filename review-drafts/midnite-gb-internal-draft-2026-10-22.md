@@ -46,3 +46,13 @@ The public records and current terms provide useful starting evidence for the cu
 - [ ] Complete independent editorial review.
 - [ ] Confirm target-market legal and affiliate eligibility.
 - [ ] Add commercial disclosure and corrections/contact route if published.
+
+
+## Evidence refresh — 23 October 2026
+
+The dated regulator/domain checkpoint is recorded at [`docs/reviews/internal/midnite-casino-gb-evidence-2026-10-23.md`](../docs/reviews/internal/midnite-casino-gb-evidence-2026-10-23.md), and the companion profile dossier is [`docs/brand-profile-midnite-gb-draft.md`](../docs/brand-profile-midnite-gb-draft.md). Rechecking account 101839 supports the narrower statement that the UKGC record currently lists active Casino Remote permission and the account's domain page lists `www.midnite.com` as Active. The official terms also identify Midnite Limited for UK customers. Do not imply this alone establishes the exact effective date or treatment of legacy accounts connected with Dribble Media Limited/account 42647.
+
+### Editorial refinement
+The current best-supported GB identity wording is: **“The current UK-facing terms identify Midnite Limited as the operator for UK customers; the UKGC register also retains a separate historical/associated record for Dribble Media Limited that should be reconciled before making claims about transfer timing or legacy accounts.”** Recheck the terms and both register records on publication day and preserve the exact pages. Avoid calling the current customer contract wholly unresolved if the current terms clearly identify the operator; instead, describe the remaining historical association precisely.
+
+The other material review gates remain open: current promotion-specific conditions, payments and withdrawals, complaint/ADR details, privacy/cookies, safer-gambling controls, both entities' regulatory-action history, hands-on usability observations, and independent second-editor sign-off. No player account, deposit or withdrawal was tested. No score is assigned and the review remains **HOLD**.
