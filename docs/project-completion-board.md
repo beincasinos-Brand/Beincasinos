@@ -1,5 +1,11 @@
 
 
+## Batch 34 follow-up — UK policy pages successfully captured
+- Follow-up single-page fetch succeeded for the exact [888casino GB User Agreement](https://www.888casino.com/security-and-privacy/user-agreement-uk/), [Withdrawal Policy](https://www.888casino.com/banking/withdrawal/policy/) and [Bonus Policy](https://www.888casino.com/promotions/bonus-policy/). Evidence recorded in [batch 34 log](docs/research/gb-batch-34-888casino-evidence-gaps-2026-10-23.md) and the updated [internal review draft](docs/reviews/internal/888casino-gb-evidence-review-2026-10-23.md).
+- GB terms say withdrawals depend on cleared deposits/verification and can be delayed during certain investigations; thresholds vary by method, and the full balance may be processed below threshold. The policy also describes potential instalments for very large winnings. Agreement identifies Live Chat, Second Opinion escalation and eCOGRA adjudication after the internal process/eight-week condition; it states GAMSTOP registration and 6-month, 1-year or 5-year exclusions. Generic bonus policy says 30x wagering and 90-day expiry usually apply unless specific offer terms differ. No current offer-specific welcome bonus or GB-specific full payment list was established.
+- 888casino remains **HOLD** pending exact payment availability/fees, current offer-specific terms, privacy/cookies, accessibility and independent second-editor review. Approved reviews remain **0/100**. No account/transaction tests, no production deploy, no main or DNS changes.
+
+
 ## Batch 34 — 888casino Great Britain evidence gap closure (2026-10-23)
 - Added [batch 34 evidence log](docs/research/gb-batch-34-888casino-evidence-gaps-2026-10-23.md) and updated the [internal 888casino GB draft](docs/reviews/internal/888casino-gb-evidence-review-2026-10-23.md) and [100-brand tracker](docs/targets/100-brand-review-target-tracker-2026-10-23.md).
 - UKGC account 39028 still shows Casino Remote Active and `888casino.com` Active. Operator licensing disclosure identifies 888 UK Limited for UK services.
