@@ -1,6 +1,6 @@
 # BeInCasinos — 100 verified reviews across the 12 confirmed target geographies
 
-**Status:** Internal operating plan. The owner-confirmed scope correction on 23 October 2026 supersedes the historical filename and any earlier ten-market plan. See `docs/target-geographies-12-confirmed-2026-10-23.md`.
+**Status:** Internal operating plan. The owner-confirmed scope correction on 23 October 2026 supersedes the historical filename and any earlier ten-market plan. See `docs/target-geographies-12-confirmed-2026-10-23.md`. The reconciled market counts and review-completion ledger are maintained in `docs/targets/100-brand-review-target-tracker-2026-10-23.md`.
 
 ## Target geographies
 
