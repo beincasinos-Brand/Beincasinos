@@ -118,3 +118,11 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
+
+
+## Latest field coverage audit — 23 October 2026
+
+- Official-domain field populated (not `Not verified`): **46/100**. A populated field does not mean local casino authorisation or exact brand/domain mapping is approved; TOTO and Kansino explicitly retain that caveat.
+- Legal-operator field populated: **46/100**. Some values are reported permit holders with brand/domain match still pending; they are not a consumer recommendation or legal sign-off.
+- Evidence-grade distribution: **A 44, B 7, C 49**. These are research evidence grades, not product quality scores. Publication remains on HOLD for 99 entries and one is excluded from recommendation scope.
+- Market split in this directory: CH 2, DE 2, NL 18, GB 66, US-NJ 7, US-MI 2, US-PA 3. US entries are state-specific; no nationwide US authorisation is implied.
