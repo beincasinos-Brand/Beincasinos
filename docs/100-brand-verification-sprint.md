@@ -117,3 +117,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Hard Rock Bet Casino (NJ): internal evidence note added from the DGE authorized-sites list and first-party site; registry updated with NJ-only scope and HOLD status. Operator/contracting entity, payments, bonus rules and player-protection checks remain open. [Evidence note](reviews/internal/hard-rock-bet-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Fanatics Casino (New Jersey): internal evidence pack added from the DGE authorized-sites list and first-party product page; registry updated with NJ-only scope and HOLD decision. Contracting entity, full offer terms, cashier, player-protection and complaint checks remain open. No hands-on test or public approval claimed. [Evidence pack](reviews/internal/fanatics-casino-new-jersey-evidence-2026-10-23.md).
