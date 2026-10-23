@@ -1,3 +1,12 @@
+# Latest research checkpoint — 23 October 2026, batch 11
+
+- Added `docs/gb-brand-discovery-batch-11-newer-domains-2026-10-23.md` on `research/gb-batch-11-2026-10-23`.
+- Five discovery leads from a secondary domain-arrival tracker: BetLegend, Fitzwilliam, Betsuna, Mamzino Bet, and Rambobet. Official UKGC licensee records are linked for follow-up; the secondary source is explicitly not treated as proof of current domain authorization or live operation.
+- Rambobet is flagged because the discovery source reported “No answer”; it must not be presented as a live casino without a successful current site check and legal-domain match.
+- Outcome: **5 leads recorded; 0 approved brands; 0 approved reviews**. Approved review count remains **0/100**.
+- Commit: `a08b8c26bb3f69316c1500077f11c319e2fab7ce`. Research branch only; no main merge, production deployment, DNS modification, or Search Console write.
+- Primary register caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
