@@ -93,3 +93,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a New Jersey market evidence note for BetMGM using the current state DGE authorized-sites list, the Casino Control Commission 2024 annual report, and BetMGM's first-party NJ page. The official DGE list places `nj.betmgm.com/en/casino` under Borgata Hotel Casino & Spa. Scope is New Jersey only; current contract-party mapping, terms, payments, complaints and independent review remain unresolved. The registry row is updated and remains HOLD. This is not an approved public review and does not establish eligibility in any other jurisdiction. See [BetMGM NJ evidence note](reviews/internal/betmgm-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Added a **DraftKings Casino — New Jersey** internal evidence note. The New Jersey DGE authorized-sites list includes `casino.draftkings.com` under Resorts Casino Hotel Atlantic City; DraftKings' first-party regulator page states NJ DGE regulation and 21+ eligibility. A New Jersey terms page identifies Crown NJ Gaming Inc. for the linked site, but exact casino-specific contracting-party mapping and current terms still require review. The note is HOLD and must not be treated as an approved public review. See [DraftKings New Jersey evidence note](reviews/internal/draftkings-casino-new-jersey-evidence-2026-10-23.md).
