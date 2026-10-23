@@ -654,3 +654,10 @@
 - UKGC account 39426 lists remote casino permission Active. The regulator's 17 December 2025 action describes social-responsibility control failures involving four Paddy Power/Betfair licensees and a £2,000,000 **combined** payment in lieu of penalty; the group total must not be attributed solely to Paddy Power or one account.
 - General terms were extracted; the current offer, casino-specific payment/withdrawal facts, complaints/ADR details, safer-gambling controls, privacy/cookies, accessibility and second-editor sign-off remain outstanding. A 403 on automated safer-gambling extraction is an access limitation, not evidence that tools are absent.
 - Status remains HOLD; approved reviews remain 0/100. Research commit only, [CF-Pages-Skip]; no production deployment, DNS change or Search Console write.
+
+
+## Organic search execution plan — 23 October 2026
+
+- Added [10m daily impressions execution plan](docs/research/10m-daily-impressions-execution-plan-2026-10-23.md) and linked it from the indexability audit and target tracker. It turns the 10m/day aspiration into a staged measurement framework and sets the crawl/indexation, content-quality, internal-linking, first-10-review and Search Console gates.
+- Read-only recheck of the live guide index found an existing broad educational cluster covering licensing, terms, withdrawals, ADR, bonus rules, RTP/probability and affiliate transparency. Growth work should improve evidence, intent match and internal discovery rather than add near-duplicate generic guides. The live page exposes real guide routes; two guessed slugs returned 404, so do not assume missing pages from guessed paths.
+- The 46-URL repository sitemap correction remains on the research branch. Approved reviews remain 0/100. No production release, DNS change, or Search Console write was made.
