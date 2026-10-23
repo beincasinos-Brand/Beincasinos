@@ -6,12 +6,13 @@ The directory must not imply that 100 market-specific cards equal 100 distinct g
 
 ## Conflicting snapshots that must be reconciled
 
-- `docs/research/global-brand-deduplication-audit-2026-10-23.md` reports an active CSV snapshot of **175 market-specific rows** and **140 provisional global-brand IDs**.
-- `docs/targets/100-brand-review-target-tracker-2026-10-23.md` reports **204 market-specific research records**.
+- The current working-branch snapshot of `docs/brand-research-template.csv` parses as **204 market-specific rows**, **154 distinct non-empty `global_brand_id` values**, 33 columns, and no missing `global_brand_id` or `market_code` values.
+- `docs/research/global-brand-deduplication-audit-2026-10-23.md` contained an older 175-row / 140-ID snapshot. A correction has been added, but its repeat-brand groups are an earlier pass and must be regenerated against the current 204-row file.
+- `docs/targets/100-brand-review-target-tracker-2026-10-23.md` reports **204 market-specific research records**, matching the current row count.
 - The directory displays **100 research cards**; it is a curated working view, not proof of 100 unique eligible global brands.
 - The tracker records **0/100 publication-approved reviews**.
 
-These numbers describe different snapshots/scopes and must not be silently substituted for one another. Do not claim the 140 provisional IDs or 175 rows are eligible brands. The source CSV, row inclusion rules, and tracker snapshot date must be reconciled before a definitive count is published.
+The current CSV count and tracker row count now agree at 204, but the older deduplication-group analysis is not yet recomputed. The 154 IDs are provisional and must not be reported as eligible brands. Row inclusion rules and alias-group membership still require review before a definitive eligible count is published.
 
 ## Reconciliation checklist
 
@@ -26,6 +27,7 @@ These numbers describe different snapshots/scopes and must not be silently subst
 ## Acceptance criteria
 
 - One dated registry snapshot and one reproducible counting rule.
+- Current snapshot baseline: 204 rows / 154 provisional global IDs / 0 publication-approved reviews; these are working-branch counts, not production state.
 - Every merged alias has a documented reason and reviewer.
 - No excluded or unverified row contributes to the eligible count.
 - Dashboard and tracker totals are generated from the same snapshot.
