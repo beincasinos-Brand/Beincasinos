@@ -80,3 +80,17 @@ File: `docs/brand-profile-leovegas-gb-draft.md`
 - Commit: `4e430d566ca52a733bfe831639821e38df55cd79`.
 
 This is internal research, not an approved public review. Approved reviews from this batch: 0.
+
+
+## 7. BetMGM UK — current terms, operator and safer-gambling evidence added
+
+File: `docs/brand-profile-betmgm-gb-draft.md`
+
+- Matched `betmgm.co.uk` to LeoVegas Gaming PLC (UKGC account 39198) using the current official UK terms and UKGC domain register.
+- Confirmed the register lists active remote Casino/Bingo and real-event/virtual-event betting permissions for the named entity.
+- Located current official terms, separate sports/casino promotional terms, help centre and safer-gambling page; recorded the published control types while distinguishing operator claims from independent usability testing.
+- Carried forward the historical 3 Aug 2022 LeoVegas £1.32m enforcement context even though the current account actions page says no actions are recorded in its current view.
+- Bonus restrictions, withdrawal detail, complaints/ADR, usability testing and independent editorial review remain outstanding; score withheld.
+- Commit: `76cb7576c34d8db4c5acb6ad622c2b7a22c14ed4`.
+
+This is an internal dossier, not an approved public review. Approved reviews from this batch: 0.
