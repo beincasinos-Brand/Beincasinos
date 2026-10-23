@@ -353,3 +353,16 @@ Added [batch 12 internal evidence](reviews/internal/ca-on-regulated-market-evide
 Combined Ontario batches 11 and 12 now add evidence-directory matches for 11 candidate brands in total. The iGaming Ontario directory is marked accurate as of 1 September 2026 and is specific to regulated operators/sites in Ontario; the player directory says players must be physically located in Ontario to play. Do not generalize this evidence to Canada as a whole.
 
 **Registry snapshot after batch 12:** 100 candidate rows, 31 columns, 0 row-width mismatches, 0 blank brand names, 0 duplicate names; 43 rows are evidence captured/HOLD and 57 remain prospect/not reviewed. This is a static CSV inspection via repository API, not execution of the validator script or a CI test. No publication approvals were granted, and no Actions/deployment was triggered.
+
+
+## Ontario cross-market corroboration — seven existing brands (2026-10-23)
+
+Added [supplementary Ontario evidence](reviews/internal/ca-on-cross-market-corroboration-2026-10-23.md) and recorded source notes in the existing registry rows:
+- BetMGM Casino — BetMGM Canada Inc.
+- Betano — Kaizen Gaming Canada Inc.
+- ComeOn Casino — Bunchberry Limited
+- Jackpot City and Spin Casino — Cadtree Limited
+- PlayOJO — Skill On Net Ltd.
+- LeoVegas — TigerGen Limited
+
+These are iGaming Ontario directory matches (directory stated accurate as of 1 September 2026), not replacements for the same brands' legal entities in other jurisdictions. The Ontario player directory requires physical presence in Ontario. All remain HOLD; current terms, exact live route, consumer testing, and second-editor review remain outstanding. Registry count is unchanged by this corroboration-only batch.
