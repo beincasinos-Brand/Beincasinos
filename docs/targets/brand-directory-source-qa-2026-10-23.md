@@ -16,17 +16,17 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 39 |
-| Candidate images with alt text | 39/39 |
-| Candidate images with explicit width/height | 39/39 |
-| Candidate images with lazy loading | 39/39 |
+| Logo/image candidates | 41 |
+| Candidate images with alt text | 41/41 |
+| Candidate images with explicit width/height | 41/41 |
+| Candidate images with lazy loading | 41/41 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 39/100 cards have a sourced image candidate; all remain **rights pending**.
-- 61/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 41/100 cards have a sourced image candidate; all remain **rights pending**.
+- 59/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
 - The directory hero now accurately states 100 research entries, 34 sourced image candidates with rights pending, and 66 CSS artwork/monogram fallbacks.
 
@@ -45,7 +45,7 @@ The 100-card list no longer includes the excluded planned Maine placeholder `Cae
 
 ## Official-site image follow-up — 23 October 2026
 
-Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 39 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
+Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 41 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
 
 
 ## Visible content enhancement — 23 October 2026
@@ -106,3 +106,8 @@ A fifth methodology card now defines evidence grades (A/B/C) and explicitly stat
 ## Additional official-site image batch — 23 October 2026
 
 Added five candidates across recent batches: VBET Netherlands logo SVG; Fair Play Casino Netherlands favicon; BetMGM Netherlands logo SVG; Hard Rock Bet logo SVG (does not verify Michigan availability); and Lottoland UK favicon. All remain rights pending. Current source inventory is 39/100 image candidates; 61 cards use editorial CSS art/monogram fallback. The directory remains noindex pending brand-level verification and editorial/legal sign-off.
+
+
+## Additional image candidates — Horseshoe and BestOdds — 23 October 2026
+
+Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. Both are small-icon candidates only and remain rights pending. The Horseshoe asset source is its Michigan casino page; this does not replace jurisdiction-specific licence review. BestOdds is a betting information site, not itself proof of an online casino operator. Current count: 41 sourced image candidates and 59 CSS artwork/monogram fallbacks.
