@@ -111,3 +111,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - **Bally Bet Casino (New Jersey):** added an internal evidence pack based on the DGE authorized-sites list, first-party casino page and NJ Casino Control Commission host-license context. Updated the brand registry with a New Jersey-only scope and explicit HOLD status. Exact player contracting entity, current terms, cashier/withdrawal rules and safer-gambling checks remain unresolved; this is not an approved review. [Evidence pack](reviews/internal/bally-bet-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- **bet365 Casino (New Jersey):** added an internal evidence pack from the current NJ terms (effective 31 Aug 2026) and DGE authorized-sites list. Registry now records Hillside (New Jersey) LLC and the Boardwalk 1000, LLC agreement disclosed in terms, NJ-only scope, withdrawal-policy caveats and HOLD status. No hands-on test or public approval is claimed. [Evidence pack](reviews/internal/bet365-casino-new-jersey-evidence-2026-10-23.md).
