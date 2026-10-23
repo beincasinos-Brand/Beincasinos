@@ -43,3 +43,10 @@
 3. Review the official site's terms and obtain permission where required before republication.
 4. Prefer locally stored, permission-cleared image assets for production stability; preserve source attribution and alt text.
 5. Keep the directory noindex until the brand qualification and editorial release gates are satisfied.
+
+
+## Follow-up — Silkbet and BigBangBet
+
+- Silkbet official homepage extraction returned `https://silkbet.bet/assets/silkbet-gold.svg`; the directory uses it as a rights-pending candidate with fallback monogram.
+- BigBangBet `https://bigbangbet.co.uk/` could not be fetched by the source extractor (`invalid_url`). No asset was guessed or added; continue with CSS artwork until the official source is reachable and identifiable.
+- Source-page presence is not proof of reuse rights or reliable direct rendering.
