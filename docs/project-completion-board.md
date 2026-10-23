@@ -613,3 +613,12 @@
 - The 888casino GB dossier remains **HOLD**; no consumer review is approved by this research pass. No account, payment, gameplay, withdrawal or support test was performed. Independent second-editor and legal/editorial sign-off remain required.
 - Dossier commit: `fd51f1bdb3cf397d03c42fb5fb26a7e56ef5977a`.
 - This is a research-branch-only update. Commit uses `[CF-Pages-Skip]`; no Cloudflare Pages deployment, `main` merge, DNS change or Search Console write was made.
+
+
+## Batch 35 follow-up — William Hill GB consumer evidence (23 October 2026)
+
+- Updated [William Hill Casino GB internal evidence review](reviews/internal/william-hill-casino-gb-evidence-review-2026-10-23.md) using current official UK terms version 2026/1.4 (updated 30 September 2026), debit-card and bank-transfer cashier help pages, withdrawal-routing policy, deposit-limit page, self-exclusion policy and complaint/IBAS escalation clauses.
+- New desk evidence records the published debit-card £5 minimums, card-specific limits and stated processing ranges, bank-transfer £25 minimum and 3–5 working-day range, verification/withdrawal routing rules, UK daily/weekly/monthly deposit-limit options, self-exclusion duration and cross-brand extension, and the complaint escalation route. These are official published terms, not transaction tests.
+- No current casino welcome offer or full casino-specific bonus terms were established. Privacy/cookie consent, accessibility, current licence/enforcement recheck, independent second review and editorial/legal approval remain open. The dossier remains **HOLD** and is not counted as an approved review.
+- Dossier commit: `d8857c8ecf28e95d3d348b5d0bff93bfa69a72e7`.
+- Research-only branch; `[CF-Pages-Skip]`; no deploy, merge to `main`, DNS change or Search Console write.
