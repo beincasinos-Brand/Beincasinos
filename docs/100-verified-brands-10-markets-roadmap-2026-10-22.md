@@ -10,31 +10,34 @@
 | CA | Canada | [AGCO](https://www.agco.ca/), [iGaming Ontario](https://www.igamingontario.ca/) and provincial/territorial regulators | Check province/territory. Ontario is not all Canada. |
 | GB | Great Britain | [UK Gambling Commission](https://www.gamblingcommission.gov.uk/public-register/businesses) | Match active remote casino permission, entity and domain. |
 | US | United States | Relevant state/tribal regulator; [NIGC](https://www.nigc.gov/) as a starting point | State/tribal scope only; no nationwide online-casino licence assumption. |
-| CH | Switzerland | [Federal Gaming Board](https://www.esbk.admin.ch/en/online-gambling) | Foreign licence is not Swiss authorisation. |
-| DE | Germany | [GGL whitelist](https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist) | Match exact domain, entity and permitted product. |
-| NL | Netherlands | [Kansspelautoriteit](https://kansspelautoriteit.nl/register-licensees) | Verify current licence and product scope. |
-| SE | Sweden | [Spelinspektionen](https://www.spelinspektionen.se/) | Verify current licence and product scope. |
+| CH | Switzerland | [Federal Gaming Board](https://www.esbk.admin.ch/en/online-gambling) | Foreign licence is not Swiss authorisation; verify the current concession extension and per-game permits. |
+| DE | Germany | [GGL whitelist](https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist) | Match exact domain, entity, product and state-specific scope. |
+| NL | Netherlands | [Kansspelautoriteit](https://kansspelautoriteit.nl/register-licensees) | Verify current licence and product scope; renewal does not replace domain/product checks. |
+| SE | Sweden | [Spelinspektionen](https://www.spelinspektionen.se/) | Verify current licence, exact domain and commercial online-casino product. |
 | ES | Spain | [DGOJ](https://www.ordenacionjuego.es/) | Verify operator and online-casino permission. |
-| IT | Italy | [ADM](https://www.adm.gov.it/portale/monopoli/giochi/gioco-distanza/gioco_dist_concessionari) | Verify current concession, domain and product. |
+| IT | Italy | [ADM](https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari) | Verify current concession, domain and casino-game vertical. |
 | FR | France | [ANJ](https://anj.fr/index.php/joueurs/offre-illegale) | Online casino games are not generally authorised; sports/poker permissions do not authorise casino games. |
-| BE | Belgium | [Belgian Gaming Commission](https://www.gamingcommission.be/) | Verify the exact operator and casino licence category. |
+| BE | Belgium | [Belgian Gaming Commission](https://www.gamingcommission.be/) | Verify exact domain, operator and A+ casino licence category. |
 
 ## Target and counting rules
 
-- Goal: 100 distinct, market-specific, fully verified casino reviews.
-- Current active registry: **101 market-specific candidate/research rows** mapped to target markets (54 earlier rows plus 20 CH/BE regulator leads and 27 IT/ES official-register leads added 23 October 2026); this is not 100 completed reviews.
-- Fully approved reviews: **0/100**. Every candidate remains HOLD until all mandatory evidence and independent editorial/legal gates pass.
-- Do not count a candidate, a licence-only check, or an unpublished draft as a completed review.
+- Goal: **100 distinct, market-specific, fully verified casino reviews**.
+- Current registry: **115 research records** in `docs/brand-research-template.csv`. This includes candidate leads and a disqualified historical record; it is not 115 eligible operators.
+- **One record is explicitly excluded** from active target counting: 32Red's historic UKGC casino permission was surrendered on 12 March 2025 and the domain is listed inactive. Five Swiss records are explicitly marked unverified and must not count as eligible until matched to current ESBK evidence.
+- **Approved reviews: 0/100.** Three internal evidence-review drafts have been started (888casino GB, Betfred GB and William Hill Casino GB); all remain HOLD and are not publication-ready. The drafts are evidence-backed starting points, not completed consumer reviews.
+- Do not count a candidate, licence-only check, or unpublished draft as a completed review.
 - A single brand may count in more than one geography only when the local product, entity/licence, terms, payments and user experience are materially market-specific.
 - Do not fill quotas where legal online-casino eligibility is absent or cannot be proven. AU and FR are legal-scope gates; no offshore casino should be presented as locally legal.
 - Exclude Ghana, Colombia, Brazil, Argentina, Mexico, South Africa, Nigeria, Denmark and every other non-target geography. The internal out-of-scope archive is audit-only and cannot count toward the target.
 
 ## Latest evidence batch (23 October 2026)
 
-- Added 10 Switzerland platform candidates from the Swiss Federal Gaming Board's official online-gambling list and 10 Belgium domain/brand candidates from the Belgian Gaming Commission's official A+ table. Full dated source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md`.
-- Added 20 CH/BE leads from official regulator lists and 27 IT/ES leads from the Swiss Federal Gaming Board, Belgian Gaming Commission, Italian ADM and Spanish DGOJ. Source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md` and `docs/research/italy-spain-regulator-leads-2026-10-23.md`.
-- Registry validation after the latest batch: 101 data rows, 31 columns on every row, no duplicate names, all 101 rows still `HOLD`, and zero approved reviews. These checks validate structure only, not legal eligibility or review completeness. Italian and Spanish remote-gambling/operator listings do not by themselves establish casino-game permission; verify vertical scope before counting any casino review.
-- Next evidence batches should prioritize DE, NL, SE and market-specific CA/US eligibility. Recheck live regulator records before publication.
+- CH/BE candidate evidence was tightened after checking source details. The Swiss regulator's current online-casino list is an image on the official page, so only historical ESBK domain/operator associations are treated as leads; five other Swiss domains are explicitly unverified and cannot count yet. The Belgian A+ register correction replaces the erroneous `betssoncasino.be` lead with the listed `betfirstcasino.be` domain. Source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md`.
+- Added eight Netherlands renewal leads based on the Ksa's 17 September 2026 announcement, five Sweden domain-level licence leads from Spelinspektionen, and one Germany state-specific lead for Schleswig-Holstein. These are candidates, not finished reviews; the Netherlands renewal announcement does not alone validate each current casino product/domain, and German permissions must not be generalized beyond their state/product scope.
+- Added 20 CH/BE leads and 27 IT/ES official-register leads in the earlier pass. Italian and Spanish remote-gambling/operator listings do not by themselves establish casino-game permission; verify vertical scope before counting any casino review. Source notes: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md` and `docs/research/italy-spain-regulator-leads-2026-10-23.md`.
+- Created internal source-backed evidence drafts for [888casino GB](reviews/internal/888casino-gb-evidence-review-2026-10-23.md), [Betfred GB](reviews/internal/betfred-gb-evidence-review-2026-10-23.md) and [William Hill Casino GB](reviews/internal/william-hill-casino-gb-evidence-review-2026-10-23.md). Each highlights regulator history and clearly lists missing consumer-testing evidence. None is approved.
+- 32Red was disqualified from the current Great Britain candidate count after the UKGC register showed its Casino Remote licence surrendered effective 12 March 2025 and its domain inactive.
+- Registry rows are research records only. Every candidate remains HOLD for publication until current permission, exact operator/domain, terms, payments, complaints/ADR, safer gambling, privacy, accessibility, enforcement, reproducible UX checks and independent second review pass.
 
 ## Mandatory approval gates
 
@@ -54,7 +57,7 @@
 ## Release sequence
 
 1. Complete regulator source maps for all twelve target geographies.
-2. Build a longlist of eligible candidates only; maintain a separate legal-scope state where online casino is prohibited.
+2. Reconcile candidate rows and exclude stale/ineligible records before counting toward 100.
 3. Verify candidates in batches and preserve source URLs, check dates and unresolved issues.
 4. Complete every consumer-evidence gate and second review before approving a brand.
 5. Run static build, crawl, link, canonical, robots, sitemap, 404, accessibility and editorial checks on one release candidate.
