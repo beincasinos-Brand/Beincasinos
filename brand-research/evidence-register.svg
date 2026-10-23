@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<title id="title">Evidence-first brand research</title><desc id="desc">A stylized folder of research records, a checklist, and a magnifying glass.</desc>
+<rect x="34" y="28" width="652" height="304" rx="28" fill="#edf4f0"/>
+<circle cx="580" cy="82" r="48" fill="#d4e7dc"/><circle cx="115" cy="282" r="30" fill="#d4e7dc"/>
+<rect x="114" y="72" width="286" height="218" rx="16" fill="#fff" stroke="#c3d6cc" stroke-width="3"/>
+<path d="M114 91a19 19 0 0 1 19-19h83l20 22h145a19 19 0 0 1 19 19v12H114z" fill="#c7ded2"/>
+<rect x="145" y="143" width="220" height="112" rx="10" fill="#f8fbf9" stroke="#d9e5df" stroke-width="2"/>
+<g stroke="#2d7356" stroke-width="5" stroke-linecap="round" fill="none"><path d="m163 168 7 7 13-15"/><path d="m163 199 7 7 13-15"/><path d="m163 230 7 7 13-15"/></g>
+<g fill="#9eb6aa"><rect x="196" y="163" width="135" height="8" rx="4"/><rect x="196" y="194" width="115" height="8" rx="4"/><rect x="196" y="225" width="126" height="8" rx="4"/></g>
+<rect x="423" y="113" width="132" height="160" rx="13" fill="#fff" stroke="#c3d6cc" stroke-width="3" transform="rotate(7 489 193)"/>
+<rect x="447" y="142" width="82" height="9" rx="4.5" fill="#2d7356" transform="rotate(7 488 146)"/>
+<rect x="443" y="168" width="88" height="7" rx="3.5" fill="#c2d4cb" transform="rotate(7 487 171)"/>
+<rect x="439" y="189" width="78" height="7" rx="3.5" fill="#c2d4cb" transform="rotate(7 478 192)"/>
+<rect x="436" y="210" width="83" height="7" rx="3.5" fill="#c2d4cb" transform="rotate(7 477 213)"/>
+<circle cx="551" cy="225" r="51" fill="#1b4f3d"/><circle cx="551" cy="225" r="32" fill="none" stroke="#fff" stroke-width="8"/><path d="m575 249 28 28" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+<circle cx="551" cy="225" r="17" fill="#d9ebe1"/>
+<path d="M532 224l13 13 24-29" fill="none" stroke="#2d7356" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
