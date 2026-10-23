@@ -510,3 +510,11 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Wplay row flags a contract-number discrepancy: Coljuegos directory says 1741 while the operator page says C2182 with a 2025–2030 period. This must be reconciled from the current signed regulator concession before publication.
 - Rushbet row records Rush Street Interactive Colombia S.A.S. and contract 1972 from the Coljuegos directory.
 - All three remain HOLD. No payment/service quality claims or ratings are made; consumer terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on tests and independent review remain open.
+
+
+## Africa legal-scope screening — 2026-10-23
+
+- Added [Africa legal-scope checkpoint](reviews/internal/africa-legal-scope-2026-10-23.md) and updated five existing candidate rows.
+- South African government consumer guidance (June 2026) distinguishes lawful online sports/horse-race betting through licensed bookmakers from online casino games, which it says are illegal. Hollywoodbets, Supabets, SunBet and World Sports Betting are therefore on legal-scope HOLD until their exact provincial licence and product scope are verified; no online casino legality is implied.
+- FCT Lottery Regulation Office lists BET9JA sports betting under KC Gaming Ltd and BET9JA CASINO under KC Gaming Networks Ltd. This supports only an Abuja/FCT screening result; nationwide Nigerian authorization is not inferred.
+- All five remain HOLD. Current product terms, payments, complaints, privacy, safer gambling, accessibility, hands-on tests and second-editor review remain open.
