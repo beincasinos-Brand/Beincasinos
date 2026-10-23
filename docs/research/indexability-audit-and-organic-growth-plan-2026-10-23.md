@@ -100,3 +100,12 @@ Read-only recheck of the live sitemap, robots file, review directory, guide inde
 3. Once a release is authorised, run direct HTTP/status/redirect/header checks and Search Console URL Inspection; record the Google-selected canonical and indexation reason.
 4. Export actual 28-day and 90-day Search Console page/query data to establish the baseline before making traffic forecasts.
 5. Keep all casino review pages out of public rankings until evidence and independent review gates pass.
+
+
+## Market-directory source correction — 23 October 2026
+
+The prior live crawl found that `/markets/` presented a “Ten markets” heading while the research scope is twelve geographies. The route was present in the sitemap but missing from the static public artifact allowlist, which meant source and build definitions were inconsistent.
+
+On the research branch, added `markets/index.html` as a purpose-built twelve-geography directory with regulator starting points and explicit market-specific caveats; linked it from the home and market-research navigation; added it to `scripts/build_site.py`'s public directory allowlist; and added source/artifact checks so the route and all twelve geographies cannot silently disappear. The sitemap already listed the route and now includes `lastmod=2026-10-23`.
+
+This is a **source-side correction only**. It has not been deployed or checked on the production domain. CI/build/browser tests were intentionally not run to conserve the remaining GitHub Actions budget; run them in the next deliberate validation window before merge/release. The new page does not declare any market legally cleared and does not add casino reviews or rankings.
