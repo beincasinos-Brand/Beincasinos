@@ -220,3 +220,13 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Target work continuation — 23 October 2026 (bet365 GB evidence refresh)
+
+- Refreshed the internal bet365 Casino (Great Britain) evidence pack with the current indexed UKGC register search, remote-casino licence guidance, and official Great Britain terms.
+- Reaffirmed the key identity distinction between Hillside (UK Gaming) ENC (casino account 55149) and Hillside (UK Sports) ENC (sports account 55148). The UKGC search associates the shared domain with separate licensee records, so the review must remain entity-specific.
+- Reconfirmed the editorial exclusions: sportsbook Bet Credits must not be described as a casino welcome bonus; the 2024 group settlement must not be attributed entirely to the casino licensee; no withdrawal-speed or hands-on-testing claims without direct evidence.
+- Internal evidence pack: `docs/reviews/internal/bet365-casino-gb-evidence-2026-10-22.md`.
+- **Counting decision:** this is a source refresh only. It does not close the full casino rules, cashier, complaints/ADR, safer-gambling usability, privacy/cookie, accessibility, consumer-testing or second-review gates. The approved-review count remains **0/100** and the review remains **HOLD**.
+- **Production:** no Cloudflare deployment was performed and no public page was changed by this evidence-only pass.
