@@ -392,3 +392,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Next work must prioritize converting fully evidenced dossiers into market-specific public pages only after review gates pass, and adding those canonical pages to the sitemap and relevant internal links. Do not manufacture a “100 reviews complete” claim.
 - Source tree was checked via the repository's recursive Git tree. This is not a live-host or Google-indexing audit.
 - No deployment or GitHub Actions run triggered.
+
+
+## 40. 10bet GB dossier — 23 October 2026
+
+- Added `docs/brand-profile-10bet-gb-draft.md` as an evidence-gated internal dossier, not a public review.
+- Primary UKGC pages identify Blue Star Planet Limited (account 43173), active remote casino and real-/virtual-event betting activities, active trading name `10bet`, and active domain `www.10bet.co.uk`.
+- Recorded the UKGC's 16 February 2023 announcement of a £620,000 settlement after social-responsibility and anti-money-laundering failures. Also documented the apparent mismatch with the current sanctions listing, which may reflect the register's three-year display window; the historic announcement must not be suppressed.
+- Decision remains **HOLD**: live terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review are still required. No rating, recommendation or approved-review count added.
+- Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/43173 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/43173 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/43173 ; https://www.gamblingcommission.gov.uk/news/article/blue-star-planet-faces-gbp620-000-regulatory-action
+- No deployment or GitHub Actions run triggered.
