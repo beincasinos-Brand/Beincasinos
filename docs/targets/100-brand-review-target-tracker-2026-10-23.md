@@ -19,14 +19,14 @@ Counts below are raw rows whose current registry market-scope text maps to the g
 |---|---:|---|
 | Australia (AU) | 0 | Legal-scope gate: online casino services are generally prohibited. Do not create offshore-casino recommendations to fill a quota. Research lawful explanatory content only if approved. |
 | Canada (CA) | 16 | Province/territory-specific. Ontario has 13 directory-mapped records; BC and Québec have separate records. Confirm current local regulator/operator/product and never generalise Ontario permission to Canada. |
-| Great Britain (GB) | 22 | Reconcile active UKGC Casino Remote permission to exact domain, customer contract and local product. Remove surrendered/inactive accounts; complete consumer-evidence gates. |
+| Great Britain (GB) | 23 | Reconcile active UKGC Casino Remote permission to exact domain, customer contract and local product. Remove surrendered/inactive accounts; complete consumer-evidence gates. |
 | United States (US) | 16 | State/tribal-specific: current buffer includes New Jersey, Pennsylvania and Michigan. Verify each site, operator and casino-game authorisation in the exact state/tribal market. |
 | Switzerland (CH) | 10 | ESBK-listed online-casino platforms; match exact contracting entity, current concession extension and relevant per-game permits. |
 | Germany (DE) | 1 | Schleswig-Holstein-specific lead only. Verify current state-specific authorisation and product; do not imply nationwide eligibility. |
 | Netherlands (NL) | 8 | Reconcile Ksa licence holder to exact live domain/product. TOTO and Winnitt share TOTO Online B.V.; do not double-count them as distinct operators without materially distinct product evidence. |
 | Sweden (SE) | 7 | One domain-level Svenska Spel lead plus six rows needing revalidation. Do not count unverified domain/operator mappings. |
 | Spain (ES) | 19 | DGOJ domain/operator leads; confirm the current online-casino vertical and Spain-specific terms, not just a general remote-gambling entry. |
-| Italy (IT) | 48 | ADM candidate buffer. Several entries are broad remote-gambling leads, not proven casino products; confirm active concession, domain and casino vertical. Deduplicate cross-listed brands. |
+| Italy (IT) | 46 | ADM candidate buffer. Several entries are broad remote-gambling leads, not proven casino products; confirm active concession, domain and casino vertical. Deduplicate cross-listed brands. |
 | France (FR) | 2 | These are sports/poker-related leads, not online-casino authorisations. Online casino is not generally authorised; do not count either toward the casino-review target. |
 | Belgium (BE) | 10 | Match each live domain to the current A+ licence table, operator and expiry; verify the casino product and current terms before counting. |
 
