@@ -162,7 +162,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **43/43 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 41 are marked rights pending and retain fallback monograms. The remaining 59 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 41-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **43/43 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 43 are marked rights pending and retain fallback monograms. The remaining 59 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 43-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
@@ -172,7 +172,7 @@ The excluded planned Maine entry `Caesars online casino brands` was replaced by 
 
 ### Official-site image follow-up — 23 October 2026
 
-Added three image candidates to the directory and asset register: ThreeSix Vegas (source `36vegascasinos.uk`; verify its relationship to the listed `36vegas.co.uk` domain), Midnite (official `logo-emblem-2025.svg`), and Winz.nl (official homepage favicon, small-icon candidate only). All three are marked rights pending. Current source inventory is 25/100 candidate assets, with 70 cards still using editorial CSS artwork/monograms. This is not rights clearance or production-deployment confirmation.
+Added three image candidates to the directory and asset register: ThreeSix Vegas (source `36vegascasinos.uk`; verify its relationship to the listed `36vegas.co.uk` domain), Midnite (official `logo-emblem-2025.svg`), and Winz.nl (official homepage favicon, small-icon candidate only). All three are marked rights pending. Historical snapshot at that stage: 25/100 candidate assets and 75 cards using editorial CSS artwork/monograms; superseded by the latest 43/100 count. This is not rights clearance or production-deployment confirmation.
 
 
 ### Latest image follow-up — 23 October 2026
@@ -197,21 +197,22 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 
 ### Final image inventory reconciliation — 23 October 2026
 
-Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 43 sourced image candidates and 34 matching rights-pending labels. The remaining 57 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 43 sourced image candidates and 43 matching rights-pending labels. The remaining 57 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
 
 
 ### Latest image sourcing batch — 23 October 2026
 
-Added official-page candidates for VBET Netherlands, Fair Play Casino Netherlands, BetMGM Netherlands, Hard Rock Bet, and Lottoland UK. VBET/BetMGM/Hard Rock Bet provide logo SVG candidates; Fair Play and Lottoland provide favicon candidates only. All candidates remain rights pending. Current source inventory is 39/100; 61 cards use CSS editorial artwork/monogram fallbacks. This is not a claim that the assets are licensed for republication or that local casino products have been approved.
+Added official-page candidates for VBET Netherlands, Fair Play Casino Netherlands, BetMGM Netherlands, Hard Rock Bet, and Lottoland UK. VBET/BetMGM/Hard Rock Bet provide logo SVG candidates; Fair Play and Lottoland provide favicon candidates only. All candidates remain rights pending. Historical snapshot at that stage: 39/100 image candidates and 61 CSS-art cards; superseded by the latest 43/100 count. This is not a claim that the assets are licensed for republication or that local casino products have been approved.
 
 
 ### Further image candidates — 23 October 2026
 
-Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. These are small icons only, not full-size logo assets; both remain rights pending. Current directory inventory is 41/43 sourced image candidates, with 59 cards retaining CSS-generated artwork/monogram fallbacks. This does not change the 0/100 approved-review status or the noindex publication gate.
+Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. These are small icons only, not full-size logo assets; both remain rights pending. Historical snapshot at that stage: 41/100 sourced image candidates and 59 CSS-art cards; superseded by the latest 43/100 count. This does not change the 0/100 approved-review status or the noindex publication gate.
 
 
 
 
-## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
-Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
+## Authoritative current directory state — 23 October 2026
+
+The latest branch-source audit is **100 unique brand cards, 100 visible research snapshots, 43 sourced image candidates, 43 rights-pending labels and 57 CSS artwork/monogram fallbacks**. The image register has 100 rows, 43 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. Official-domain and legal-operator fields are populated on 46/100 cards each; these are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
