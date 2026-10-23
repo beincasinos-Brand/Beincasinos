@@ -1,48 +1,59 @@
-# Next GB verification batch — priority and stop/go rules
+# Next GB verification batch — updated priority and stop/go rules
 
-**Date:** 2026-10-23  
+**Updated:** 2026-10-23  
 **Audience:** internal research/editorial workflow  
 **Status:** working queue, not approval
 
-## Priority order
+## Completed evidence-pack milestones in the current branch
 
-1. **Unibet** — resolve exact GB online casino contracting entity, domain and active remote casino licence.
-2. **Mr Green** — resolve current GB operator and domain after corporate/brand changes; do not reuse old entity assumptions.
-3. **Virgin Games** — verify the current GB online casino operator and whether the target product is available under the intended market.
-4. **William Hill / Betfred / Betfair / LeoVegas / Paddy Power / Coral / Grosvenor** — complete terms capture and current domain/operator cross-check for the existing evidence packs.
-5. **Remaining candidates** — proceed only after the same primary-source checks; do not inflate the verified count with candidates that merely have a recognizable brand name.
+- **Unibet:** UKGC active remote casino permission and declared www.unibet.co.uk domain captured; £10m 2025 enforcement action added. Still HOLD pending current terms, product checks and sign-off.
+- **Mr Green:** UKGC account 39264 remote casino licence surrender and inactive domain/trading-name recorded. Exclude from current GB casino recommendations unless new official evidence proves a lawful active GB offer.
+- **Virgin Games:** Gamesys Operations Limited account 38905, UKGC licence and white-label domain status captured; 2023 enforcement action attributed to the legal operator. Still HOLD.
+- **Coral:** operator/licence/domain/trading-name match captured for LC International Limited account 54743. Still HOLD.
+- **Grosvenor Casino:** online operator/domain separated from the October 2026 land-based settlement. Still HOLD.
+- **LeoVegas:** active remote casino licence and domain evidence captured; historic 2018 £600,000 and 2022 £1.32m UKGC enforcement decisions added. Do not call the operator's history “clean.” Still HOLD.
+- **Betway:** active licence and domain/trading-name records captured; active domains, multiple brand names and a white-label domain mapped. Still HOLD.
+- **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
+
+## Next priority order
+
+1. **Finish the source/terms pass for Betfred, William Hill and bet365** — each has material historical regulatory findings and operator terms already mapped. Capture the current terms pages, complaints/ADR, privacy/cookies, safer-gambling tools and offer rules only if a specific offer will be covered.
+2. **Betfair Casino and Paddy Power Casino** — keep separate legal entities and do not assign the combined 17 December 2025 £2m group settlement wholly to one licensee.
+3. **888casino** — refresh UKGC licence/domain/action records and confirm the current UK customer agreement, protection-of-funds wording and complaint route.
+4. **Finish Coral, Grosvenor, LeoVegas, Betway and Virgin Games product-policy capture** before considering any draft complete.
+5. **Remaining longlist candidates** — proceed in batches only after the previous batch's evidence status is reconciled.
 
 ## Mandatory evidence for every candidate
 
-- Official regulator record for the legal operator, current licence status and relevant remote casino activity.
-- Official regulator domain and trading-name record, with exact market-specific domain.
-- Current operator website footer and customer terms naming the contracting entity and licence/account number.
-- Dated copies/URLs for terms, bonus conditions (if reviewed), deposits/withdrawals, dormant-account fees, complaints/ADR, privacy/cookies and safer-gambling tools.
-- Clear distinction between regulator fact, operator claim, independent test result and unknown.
-- Second-person editorial check and market-specific legal review before public approval.
+- Official regulator record for legal operator, current licence status and relevant remote casino activity.
+- Official regulator domain and trading-name record for the exact market domain.
+- Current first-party footer and customer terms naming the contracting entity and licence/account number.
+- Dated URLs/copies for casino rules, promotions if reviewed, deposits/withdrawals, dormant-account fees, complaints/ADR, privacy/cookies and safer-gambling tools.
+- Separate regulator facts, operator claims, independent test results and unknowns.
+- Independent editorial check and market-specific legal/compliance review before approval.
 
 ## Exclusion/hold rules
 
-- **EXCLUDE** from a GB casino recommendation if the target domain lacks a current, verifiable contracting operator/licence match, the licence is surrendered/inactive, or the site is not lawfully available for the intended audience.
-- **HOLD** if evidence is incomplete, conflicting, stale, or dependent on a parent/group brand relationship.
-- Do not turn a domain match or a licence entry alone into a quality rating or player recommendation.
-- Never state hands-on testing occurred unless test notes exist.
-- A regulator settlement must be attributed only to the entity/entities and scope stated by the regulator.
+- **EXCLUDE** from GB recommendations when no current lawful operator/licence match is established, the relevant licence is surrendered/inactive, or the offer is not lawful for the intended audience.
+- **HOLD** if evidence is incomplete, conflicting, stale or depends on a group-brand inference.
+- A licence or domain match alone is not a quality rating or recommendation.
+- Never claim hands-on testing without dated test notes.
+- Attribute regulator actions only to the legal entity/entities and scope stated in the official decision.
 
-## Efficiency controls
+## Efficiency and SEO controls
 
-- Research in batches; store reusable source URLs and exact claim evidence to avoid repeated searches.
-- Do not run GitHub Actions or deploy for internal markdown-only evidence work.
-- Keep all internal files outside public sitemap, public navigation and production page routes.
-- Do not claim rankings, impressions or indexing without actual Search Console and production evidence.
+- Do not run GitHub Actions or deploy for internal Markdown-only work; conserve remaining Actions minutes.
+- Keep internal files out of public sitemap, navigation and production routes.
+- Never claim impressions, rankings, indexing or deployment without current production/Search Console evidence.
+- Prefer improving existing useful public pages and completing evidence-backed reviews over creating thin, near-duplicate landing pages.
 
 ## Count definitions
 
-- **Candidate:** name in the longlist.
-- **Evidence started:** internal source pack exists.
-- **Verified:** all mandatory operator/domain/licence checks pass for the target market.
-- **Review drafted:** full review exists with source citations and limitations.
-- **Approved:** independent editorial/legal gates pass.
-- **Published/indexed:** separately confirmed on production and in Search Console.
+- **Candidate:** name in longlist.
+- **Evidence started:** at least one internal source pack exists.
+- **Verified:** current operator/domain/licence checks pass for the target market.
+- **Review drafted:** complete, source-grounded review exists with limitations.
+- **Approved:** independent editorial and legal/compliance gates pass.
+- **Published/indexed:** confirmed separately on production and in Search Console.
 
-These statuses must not be combined into one “completed” number.
+Do not combine these states into one “completed” number. Current internal evidence work does not change the approved public-review count.
