@@ -97,7 +97,19 @@ for line, row in enumerate(rows, start=2):
             parsed = urlparse(value)
             if parsed.scheme not in {"http", "https"} or not parsed.netloc:
                 errors.append(f"{brand}: {field} must be an absolute HTTP(S) URL when populated")
+    # Enforce confirmed target scope and jurisdiction-specific legal gates.
+    scope_text = market_scope.casefold()
+    forbidden_markets = ("ghana", "colombia", "brazil", "argentina", "mexico", "south africa", "nigeria", "denmark")
+    for forbidden in forbidden_markets:
+        if forbidden in scope_text and decision != "rejected":
+            errors.append(f"{brand}: out-of-scope geography {forbidden!r} cannot remain an active target candidate")
     if decision == "approved":
+        if "australia" in scope_text or ("france" in scope_text and "no online casino authorisation" in scope_text):
+            errors.append(f"{brand}: cannot approve an online-casino review for a market where this record explicitly notes no general online-casino authorisation")
+        if "canada" in scope_text and not any(province in scope_text for province in ("ontario", "quebec", "québec", "british columbia", "alberta", "manitoba", "saskatchewan", "nova scotia", "new brunswick", "newfoundland", "prince edward island", "yukon", "northwest territories", "nunavut")):
+            errors.append(f"{brand}: Canadian approval requires a named province/territory")
+        if ("united states" in scope_text or "usa" in scope_text or "u.s." in scope_text) and not any(state in scope_text for state in ("michigan", "new jersey", "pennsylvania", "west virginia", "delaware", "connecticut", "rhode island", "nevada", "massachusetts", "illinois", "tribal")):
+            errors.append(f"{brand}: US approval requires an explicit state/tribal jurisdiction")
         if status != "reviewed":
             errors.append(f"{brand}: approved decision requires status=reviewed")
         if issues:
