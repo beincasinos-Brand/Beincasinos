@@ -94,3 +94,10 @@ Created `brand-directory/index.html` on this branch with 100 entries sourced fro
 Updated `brand-directory/index.html` to expand all 100 queue cards with product scope, market, known legal operator (or an explicit unverified label), regulator/authority, official register link, evidence grade, a per-brand next-action checklist, and a primary-source link when a valid URL is recorded in the tracker. Domain links are only rendered as clickable links where the CSV contains a syntactically valid HTTPS URL; otherwise the card says the domain is not verified. Added expandable verification details and matching styles. Source-level verification confirmed 100 cards, 100 expandable checklists, working search/market/status filter hooks, and the noindex directive.
 
 **Imagery:** the directory uses original CSS-generated decorative art and initials, not third-party logos or stock images; official logos are not claimed. To replace those placeholders responsibly, each brand asset must be sourced from and checked against the official brand site, with permissions/usage terms considered. The page remains noindex and all entries remain research leads; this is not 100 approved reviews. No Cloudflare deploy or GitHub Actions run was triggered.
+
+
+## Follow-on work added — 23 October 2026
+
+- Added `docs/reviews/100-brand-review-production-standard.md`: required review structure, minimum primary-source evidence, jurisdiction controls, affiliate disclosure, image provenance and independent sign-off gates.
+- Added `docs/targets/brand-image-asset-register-2026-10-23.csv`: 100 directory entries with image source, permission/licence, alt-text and check-date fields. Image URLs and rights are deliberately blank until verified; do not substitute invented logo URLs or unlicensed images. The current directory artwork is decorative CSS, not official brand imagery.
+- These are production controls, not 100 completed reviews. Publication approvals remain 0/100 until each brand independently clears the evidence and sign-off gates.
