@@ -37,3 +37,8 @@ A populated legal-entity or register field may still be a candidate or unresolve
 The directory can display 100 research cards, but the CSV is not yet rich enough to support 100 publication-quality consumer reviews. Resolve terms, withdrawals, complaints/ADR and safer-gambling source gaps first. Then complete the content and image-rights review for each distinct brand-market page. Current publication-approved review count remains **0/100**.
 
 **Status: OPEN / HOLD.** No entry is certified by this audit, and no Cloudflare deployment is implied.
+
+
+## Website card-structure check
+
+A structural scan of `brand-directory/index.html` on this branch found **100 cards**. All 100 contain a research summary, official-domain field, legal-operator field, regulator/authority field, evidence-grade field, expandable verification checklist and research-context/evidence-limits section. **50 cards have remote image candidates and 50 use CSS artwork/monogram fallbacks.** The 50 remote images remain **rights pending**; structural presence does not establish reuse permission, current identity, or successful rendering on the production site. This check is markup-level QA only and does not verify factual accuracy of every claim.
