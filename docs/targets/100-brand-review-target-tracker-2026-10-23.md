@@ -162,9 +162,14 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **22/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 22 are marked rights pending and retain fallback monograms. The remaining 78 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 22-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **25/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 25 are marked rights pending and retain fallback monograms. The remaining 75 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 25-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
 
 The excluded planned Maine entry `Caesars online casino brands` was replaced by `Horseshoe Online Casino (Michigan)`. The Michigan Gaming Control Board's authorized-platform list identifies Caesars/Horseshoe and the casino-games URL `https://horseshoeonlinecasino.com/us/mi/casino`. This entry is Michigan-specific and remains HOLD pending exact customer-contracting entity, current terms, withdrawals, complaints, safer-gambling controls and enforcement review. No consumer testing or positive review is claimed. The asset register has been updated; no official Horseshoe image was sourced, so the card retains original CSS artwork.
+
+
+### Official-site image follow-up — 23 October 2026
+
+Added three image candidates to the directory and asset register: ThreeSix Vegas (source `36vegascasinos.uk`; verify its relationship to the listed `36vegas.co.uk` domain), Midnite (official `logo-emblem-2025.svg`), and Winz.nl (official homepage favicon, small-icon candidate only). All three are marked rights pending. Current source inventory is 25/100 candidate assets, with 75 cards still using editorial CSS artwork/monograms. This is not rights clearance or production-deployment confirmation.
