@@ -23,6 +23,18 @@ Spain's Dirección General de Ordenación del Juego (DGOJ) publishes an official
 | William Hill Casino (ES) | WHG Ceuta, S.A. | https://www.williamhill.es |
 | Winamax (ES) | WINAMAX, S.A. | https://www.winamax.es |
 
+## Individual DGOJ profile checks completed — 23 October 2026
+
+The following records have now been opened individually rather than relying only on the directory list:
+
+| Brand candidate | DGOJ operator profile | Casino-related singular licences shown | Other dated evidence in profile |
+|---|---|---|---|
+| 888casino.es | [888 ONLINE GAMES ESPAÑA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa) | Máquinas de azar, Black Jack, Ruleta, Póquer | 13 Oct 2025 second technical-system homologation for slots; 19 Mar 2025 slots licence extension; commercial names include 888CASINO |
+| Videoslots Casino (ES) | [VIDEOSLOTS CASINO, PLC](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/videoslots-casino-plc) | Máquinas de azar, Black Jack, Ruleta | Profile marks operator adhered to phishing-alert service and shows advertising authorisation |
+| PokerStars Casino (ES) | [TSG INTERACTIVE SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/tsg-interactive-spain-sa) | Máquinas de azar, Black Jack, Ruleta, Póquer | 19 May 2026 blackjack/roulette extensions; 24 Sep 2026 poker extension; technical-system homologations listed in 2025 |
+
+These individual profiles support a current Spain-specific casino-vertical research lead for the three brands. They do not close customer terms, payments, complaints, responsible gambling, privacy/cookies, accessibility, enforcement review or second-editor gates. First-party access checks on 888casino.es returned empty content and the guessed /ayuda route returned 404; the current Videoslots/PokerStars customer journeys have not been inspected in this pass. All remain HOLD.
+
 ## Verification gates
 
 Every added row is marked research/HOLD. Before it can count as an eligible online-casino review, verify:
