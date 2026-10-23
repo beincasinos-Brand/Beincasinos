@@ -1,5 +1,11 @@
 
 
+## Operations checkpoint — Cloudflare Pages release safety (23 October 2026)
+- Added `docs/cloudflare-pages-single-deploy-release-runbook-2026-10-23.md` on `research/cloudflare-release-safety-2026-10-23`.
+- Documented Pages skip-build prefixes, branch controls, build-watch paths, artifact/CI checks, owner/legal/hosting gates, single-production-deploy sequencing and post-deploy Search Console verification.
+- This is documentation only; no Cloudflare settings, DNS, `main`, or production deployment was changed. Publication-approved reviews remain 0/100 per the existing evidence gate.
+
+
 ## Research checkpoint — batch 24 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-24-register-index-leads-2026-10-23.md` on `research/gb-batch-24-2026-10-23`.
 - Eight register-index leads captured: All Star Games, Aloha Slots, Amber Spins, Azimut Casino, Best Odds, Bet St George, Bet442 and Bet600. All HOLD pending official domain/licence scope, live-site, casino-product and duplicate checks.
