@@ -3,3 +3,5 @@
 .research-figure{max-width:560px;margin:26px auto 4px;text-align:center}.research-figure img{display:block;width:100%;height:auto;border-radius:18px}.research-figure figcaption{font-size:.82rem;color:#596862;margin-top:8px}
 
 .evidence-highlight{border-left:3px solid #7b9f8d;background:#f3f7f4;border-radius:0 10px 10px 0;padding:12px 13px;margin:14px 0;font-size:.84rem;line-height:1.58;color:#344c41}.evidence-highlight a{font-weight:700;color:#17674d;white-space:normal}.evidence-highlight code{font-size:.9em}
+
+.brand-card .brand-mark{position:relative;overflow:hidden}.brand-card .brand-initials{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}.brand-card .brand-logo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:5px;background:#fff;opacity:0;border-radius:11px}.brand-card .brand-mark.has-logo .brand-logo{opacity:1}.brand-card .brand-mark.has-logo .brand-initials{display:none}
