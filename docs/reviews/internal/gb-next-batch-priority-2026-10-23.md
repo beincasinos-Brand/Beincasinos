@@ -31,6 +31,7 @@
 - **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **Sky Vegas — terms refresh:** UKGC account 65519 and first-party terms confirm Bonne Terre Gaming Limited for casino products; keep separate from SBG Sports Limited sportsbook operations and surrendered Bonne Terre Limited account 38718. HOLD pending cashier/payment, complaints/ADR, safer-gambling and product checks.
 - **888casino — terms/regulatory refresh:** UKGC account 39028 and first-party GB agreement identify 888 UK Limited; record the three 2024–2025 UKGC decisions with regulator-stated scope/context and preserve customer-funds caveats. HOLD until the exact casino agreement, cashier, ADR, safer-gambling and product checks are captured.
+- **Betfred Casino — terms/regulatory refresh:** first-party terms dated 31 July 2026 identify Petfre (Gibraltar) Limited (UKGC 39544), casino rules and IBAS complaint route. Preserve separate attribution for the 2025 £240,000 technical-standards penalty and 2026 £900,000 remote customer-interaction settlement. HOLD pending cashier/safer-gambling checks and independent approval.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
 ## Next priority order
