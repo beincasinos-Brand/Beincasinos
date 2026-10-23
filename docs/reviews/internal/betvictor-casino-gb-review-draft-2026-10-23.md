@@ -91,3 +91,22 @@ Primary sources support the BetVictor/BV Gaming Limited/operator match and discl
 - [ ] Independent editorial and legal/compliance sign-off.
 
 **Internal only. Do not include in public navigation, generated routes or sitemap before approval.**
+
+
+## Operator correction and licence evidence (23 October 2026)
+
+The correct legal operator for the Great Britain BetVictor website is **BV Gaming Limited**, UK Gambling Commission account **39576**. The regulator's public search result maps the BetVictor trading name and betvictor.com/betvictor.mobi to that account. BetVictor's own current GB casino page and UK terms independently identify BV Gaming Limited as the operator and state that account 39576 permits casino operation.
+
+Primary sources:
+- UKGC register search: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Betvictor
+- Official BetVictor GB casino page: https://www.betvictor.com/en-gb/casino
+- Official UK terms: https://www.betvictor.com/en-gb/pages/terms-conditions/uk-terms-and-conditions
+
+**Important attribution control:** BV Gaming Limited is also linked to Betano under the same UKGC account. Any regulatory action on the licensee record must be attributed to the legal entity and its documented scope, not automatically described as a BetVictor-only event. The official register warns that trading-name and domain data are supplied by licensees and are not guaranteed by the Commission; recheck the live site at publication.
+
+### Remaining publication gate
+- [ ] Archive current GB casino rules and any active offer terms.
+- [ ] Capture written cashier methods, withdrawal limits/fees, verification and processing policy; no withdrawal test is claimed.
+- [ ] Verify current safer-gambling tools, self-exclusion route, complaints and applicable ADR provider.
+- [ ] Check licensee-level UKGC actions and attribute their scope carefully.
+- [ ] Independent editorial review; keep HOLD until complete.
