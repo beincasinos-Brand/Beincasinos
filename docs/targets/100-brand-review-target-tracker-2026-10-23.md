@@ -7,9 +7,9 @@
 
 ## Current position
 
-The active research CSV contains **162 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
+The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
 
-Fourteen internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Sixteen internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -22,7 +22,7 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 | Australia (AU) | 0 | Legal-scope gate: online casino services are generally prohibited. Do not create offshore-casino recommendations to fill a quota. Research lawful explanatory content only if approved. |
 | Canada (CA) | 16 | Province/territory-specific. Ontario has 13 directory-mapped records; BC and Québec have separate records. Confirm current local regulator/operator/product and never generalise Ontario permission to Canada. |
 | Great Britain (GB) | 23 | Reconcile active UKGC Casino Remote permission to exact domain, customer contract and local product. Remove surrendered/inactive accounts; complete consumer-evidence gates. |
-| United States (US) | 16 | State/tribal-specific: current buffer includes New Jersey, Pennsylvania and Michigan. Verify each site, operator and casino-game authorisation in the exact state/tribal market. |
+| United States (US) | 45 | State/tribal-specific: 30 New Jersey rows (29 newly added from DGE's approved-site list), 14 Michigan-specific rows and one Pennsylvania lead. This is a candidate buffer, not 45 distinct operators. Verify exact state/tribal site, contracting entity and casino-game authorisation. Details: `docs/research/new-jersey-dge-authorized-casino-candidates-2026-10-23.md`. |
 | Switzerland (CH) | 10 | ESBK-listed online-casino platforms; match exact contracting entity, current concession extension and relevant per-game permits. |
 | Germany (DE) | 1 | Schleswig-Holstein-specific lead only. Verify current state-specific authorisation and product; do not imply nationwide eligibility. |
 | Netherlands (NL) | 8 | Reconcile Ksa licence holder to exact live domain/product. TOTO and Winnitt share TOTO Online B.V.; do not double-count them as distinct operators without materially distinct product evidence. |
@@ -48,8 +48,8 @@ Three of the 162 registry records are deliberately not allocated to an active ta
 
 | Measure | Current verified value |
 |---|---:|
-| Raw market-specific research records | 162 |
-| Internal evidence drafts tracked | 14 |
+| Raw market-specific research records | 204 |
+| Internal evidence drafts tracked | 16 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
