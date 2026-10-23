@@ -321,3 +321,14 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Commit: `036d0a58b9a274e7ae6e927311bdd055686d0c22`.
 - Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/65677), [UKGC domain names](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65677), [UKGC trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/65677), [UKGC actions](https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/65677), [Dabble Casino](https://dabble.co.uk/dabble-casino/).
 - No deployment or GitHub Actions run triggered.
+
+
+## 33. BresBet GB — surrendered licence and unresolved withdrawal-status research — 23 October 2026
+
+- Added `docs/brand-profile-bresbet-gb-status-draft.md` from the UKGC enforcement notice and current register pages.
+- UKGC states that BresBet Ltd's operating licence was suspended on 28 August 2026 following enquiries into suspected AML and social-responsibility failings, then surrendered on 4 September 2026. The same official notice was updated on 30 September to say the Commission was aware some customers were having withdrawal difficulties; the notice checked for this dossier did not establish a final resolution.
+- UKGC register shows the remote Bingo, Casino, Real Event Betting and Virtual Event Betting licences surrendered as of 4 September 2026; register-listed domains `bresbet.com` and `bresbet.co.uk` are inactive.
+- Status: **HOLD / consumer-status research only**. Do not describe as currently licensed, recommend new account opening, or count toward the 100 approved reviews.
+- Commit: `736340952bfe6af9ba5cc7160448cfff41f14bb2`.
+- Primary source: [UKGC notice updated 16 October 2026](https://www.gamblingcommission.gov.uk/news/article/suspension-of-licences-bresbet-ltd-and-bet-st-george-ltd), [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/65252), [domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65252).
+- No deployment or GitHub Actions run triggered.
