@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 23 / editorial workflow (23 October 2026)
+- Added `docs/casino-review-evidence-dossier-template.md` on `research/gb-batch-23-2026-10-23` to standardize the evidence dossier for every brand review.
+- Template covers official licence/domain, legal operator, dated source log, actual hands-on tests, bonus/wagering, payments/withdrawals, KYC, support, responsible-gambling controls, regulatory history, transparent scoring, affiliate disclosure and second-editor QA.
+- The template explicitly prevents claims about tests not performed and does not approve any brand automatically. Approved brand/review totals unchanged.
+- Research branch only; no merge to `main`, Cloudflare setting changes, DNS updates or production deployment.
+
+
 ## Research checkpoint — batch 22 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-22-register-listed-leads-2026-10-23.md` on `research/gb-batch-22-2026-10-23`.
 - Eight additional register-index leads captured: 21 Casino, 21 Lucky Bet, 21 Privé, 21.co.uk, 21Bets Casino, 247Bet, 333 Casino and All British Casino. All HOLD until the exact official domain/operator pages and live site are checked.
