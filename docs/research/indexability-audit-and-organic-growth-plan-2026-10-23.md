@@ -74,3 +74,8 @@ The review directory explicitly states that no casino profiles are currently sco
 
 ## Full sitemap crawl pass (23 October 2026)
 The corrected 46-URL repository sitemap was used as the test set against the live site. Results: **46/46 extracted**, **0 fetch errors**, **0 redirects/final-URL changes**, **0 missing canonical tags**, **0 canonical mismatches**, and **0 robots directives exposed in returned metadata**. These results show the sampled public routes are fetchable by the extraction service and canonical consistency looks good; they do **not** prove Google indexed all URLs or that every response was HTTP 200. Search Console and raw response/header verification remain required.
+
+
+## North-star execution plan — 23 October 2026
+
+A separate phased operating plan now defines the 10-million-daily-impressions ambition as a measured north star, not a forecast: `docs/research/10m-daily-impressions-execution-plan-2026-10-23.md`. It records the known 46-URL crawl-extraction limitation, the absent verified Search Console baseline, staged measurement gates, lawful-market rules, technical/indexation prerequisites, first-10-review quality gates, query-led iteration and weekly scorecard. No deployment or Search Console write is implied by this research update.
