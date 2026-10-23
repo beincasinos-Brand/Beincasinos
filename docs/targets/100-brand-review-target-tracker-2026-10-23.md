@@ -166,3 +166,9 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - No CI, build, browser, deployment, DNS change or main merge was run/performed. Source-level updates only.
 
 - Added a further UKGC-based note for Virgin Games: account 38905 has active Casino Remote permission, but its current trading-name page says no trading names are recorded. This is explicitly treated as an unresolved brand/domain-to-licensee mapping, not as proof the brand is covered by that account.
+
+## Evidence refresh — TOTO Casino Netherlands (23 October 2026)
+
+Added `docs/reviews/internal/toto-casino-nl-primary-source-refresh-2026-10-23.md` on the research branch. It reconciles the Ksa's 17 September 2026 follow-on licence announcement (October 2026–September 2031) with the separately published Wwft-instruction notice, records first-party customer-support and safer-play information, and explicitly marks payment/withdrawal detail, the Wwft follow-up recheck, full terms, and second review as unresolved. The decision PDF heading date (28 October 2025) and Ksa announcement publication date (24 December 2025) are kept distinct pending primary-source reconciliation.
+
+**Approval effect:** none. TOTO remains HOLD; this is an internal evidence update, not a publish-ready review. No consumer testing, score, recommendation, production deploy, or GitHub Actions run was performed.
