@@ -16,6 +16,16 @@ Its domain register lists **www.betfair.com** as active, and the trading-name re
 The wider Betfair search returns multiple entities using the Betfair name and domain. For a casino review, the evidence needs to remain anchored to Betfair Casino Limited, account 39435, while any cross-group facts must identify the correct entity:
 https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=betfair
 
+### Entity mapping nuance
+
+The UKGC's business search also lists PPB Entertainment Limited (39426), PPB Counterparty Services Limited (39439), PPB Games Limited (39411) and TSE Malta LP (39561) against the Betfair domain. The official records show different licence scopes: Betfair Casino Limited (39435) has an active remote casino licence; PPB Entertainment Limited and PPB Games Limited also show active remote casino permissions; PPB Counterparty Services Limited's listed remote licences are betting, not casino. This means the domain alone cannot establish which company contracted with a particular customer or product flow. Match the live casino terms and transaction path to the relevant entity.
+
+Official records:
+- Betfair Casino Limited: https://www.gamblingcommission.gov.uk/public-register/business/detail/39435
+- PPB Entertainment Limited: https://www.gamblingcommission.gov.uk/public-register/business/detail/39426
+- PPB Games Limited: https://www.gamblingcommission.gov.uk/public-register/business/detail/39411
+- PPB Counterparty Services Limited: https://www.gamblingcommission.gov.uk/public-register/business/detail/39439
+
 ## 2. Material regulatory settlement — 17 December 2025
 
 The UKGC's public decision states that a licence review followed a compliance assessment in April and May 2024 of four licensees trading under the Betfair and Paddy Power names, including Betfair Casino Limited. The review found failings in remote social-responsibility/customer-interaction controls under SRCP 3.4.3, including requirements concerning meaningful and appropriately tailored interactions. The four licensees will make a total payment in lieu of a financial penalty of **£2,000,000**.
