@@ -214,3 +214,8 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
+
+
+### Latest directory inventory — branch recheck, 23 October 2026
+
+The latest fetched directory and image register contain 100 unique brand cards, 100 visible research snapshots, 43 sourced image candidates and 57 CSS-art/monogram fallbacks. All 43 candidate assets are labelled rights pending and have alt text, dimensions, lazy loading and a monogram fallback. The 100 cards retain operator/regulator/evidence/checklist/context fields. Publication approvals remain 0/100; the directory is `noindex,follow`; PR #36 remains open/draft/non-mergeable; no Cloudflare production deployment is confirmed.
