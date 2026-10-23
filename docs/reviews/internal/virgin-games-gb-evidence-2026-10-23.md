@@ -30,6 +30,12 @@ A first-party support article describes source-of-funds checks and notes that do
 The UKGC explains that its register provides licence activities, current status, domains, trading names and regulatory actions; it also cautions that domains and trading names are supplied by businesses and may not be guaranteed:
 https://www.gamblingcommission.gov.uk/public-register/businesses
 
+## Official regulator evidence added
+
+- UKGC licence summary for Gamesys Operations Limited, account **38905**, currently lists active remote casino, bingo and betting permissions: https://www.gamblingcommission.gov.uk/public-register/business/detail/38905
+- UKGC domain register classifies **virgingames.com as White Label** under account 38905, not as an Active owned-domain entry: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905. The brand's own about page says Gamesys Operations Limited operates Virgin Games in Great Britain under account 38905: https://www.virgingames.com/uk/about-us
+- UKGC sanction record for Gamesys Operations Limited, decision dated **22 November 2023**, records a **£6,071,292 financial penalty**, warning and additional licence condition following findings involving anti-money-laundering and customer-interaction controls in the period November 2021–July 2022: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/210. Attribute this action to Gamesys Operations Limited; do not claim it was imposed on the Virgin brand itself.
+
 ## Review checklist — unresolved
 
 - [ ] Capture dated official UKGC record and exact licence permissions.
