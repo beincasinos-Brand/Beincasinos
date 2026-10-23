@@ -23,10 +23,17 @@ The UKGC domain page lists betway.com as active, along with casino.betway.com, i
 
 ## 3. Regulatory record
 
-The UKGC regulatory-actions page for account 39372 currently states that no regulatory actions have been recorded for this business:
+**Important cross-check:** the account-specific regulatory-actions page currently says no actions are recorded on that page:
 https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39372
 
-This is a statement about the record for this account on the date checked; it must not be rewritten as proof that the wider corporate group has never faced action, or as a quality/safety endorsement. Search the regulator's historical notices and relevant connected entities before approval.
+However, the UKGC's own site search surfaces historical Betway Limited enforcement notices. These must be included in the research record rather than treating the current account-actions page as proof of a clean history:
+
+- **£11.6 million regulatory settlement (March 2020):** social-responsibility and anti-money-laundering failures linked to high-spending VIP customers.
+- **£408,915 penalty (September 2022):** gambling marketing appeared on children-oriented pages of West Ham United FC's website.
+
+Official regulator search page: https://www.gamblingcommission.gov.uk/search/?q=betway
+
+Before publication, open and archive the original notices, verify the precise decision dates and scope, and confirm which findings attach to Betway Limited versus connected entities. The discrepancy between the account-specific actions page and historical notices is a material editorial issue and must be resolved or explicitly disclosed. Neither an active licence nor an incomplete actions listing is a quality/safety endorsement.
 
 ## 4. Evidence still required before a public review
 
