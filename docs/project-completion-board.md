@@ -622,3 +622,11 @@
 - No current casino welcome offer or full casino-specific bonus terms were established. Privacy/cookie consent, accessibility, current licence/enforcement recheck, independent second review and editorial/legal approval remain open. The dossier remains **HOLD** and is not counted as an approved review.
 - Dossier commit: `d8857c8ecf28e95d3d348b5d0bff93bfa69a72e7`.
 - Research-only branch; `[CF-Pages-Skip]`; no deploy, merge to `main`, DNS change or Search Console write.
+
+
+## Batch 35 — Betway GB primary enforcement reconciliation (23 October 2026)
+
+- Updated [Betway Casino GB internal review](reviews/internal/betway-casino-gb-evidence-review-2026-10-23.md) with the original UKGC notices for the 12 March 2020 £11.6m regulatory settlement and the 21 September 2022 £408,915 penalty, including the regulator's stated context and mitigation. The older discrepancy is resolved at the source level: the account-level action page's “no actions recorded” message must not be treated as a complete historic record when dated primary notices exist.
+- Added current operator-published GB casino page claims on game catalogue, identity verification, payment/withdrawal wording and safer-gambling tools. These are not independent tests. The dynamic terms/responsible-gambling/cookie pages returned only a shell during extraction, and the current casino welcome offer, readable complaints/ADR terms, privacy/cookie text, live consent behaviour and accessibility remain unresolved.
+- Betway dossier remains **HOLD**, with no score and no publication approval. Dossier commit: `0308885f39f99db78eda18b10be3c1799bf6a0d0`.
+- Research branch only; `[CF-Pages-Skip]`; no deployment, `main` merge, DNS change or Search Console write.
