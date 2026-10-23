@@ -24,7 +24,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - Internal fixed-fee, CPA, revenue-share, hybrid, qualification, and outreach playbook: `docs/commercial-partnership-operating-playbook.md`.
 - Step-by-step, evidence-gated prospect outreach pipeline and commercial-model controls: `docs/commercial-outreach-pipeline.md`; preparation only, no outreach authorised or sent.
 - Public review-standard hub: `/reviews/`. It deliberately does not present unverified operators as recommendations.
-- The owner's north-star ambition is 1,000,000 daily Google Search impressions. This is a goal only, not a current metric, forecast, or guaranteed result. Track actual impressions in Search Console after launch.
+- The owner's north-star ambition is 100,000,000 daily Google Search impressions. This is an extreme long-term goal only—not a current metric, forecast, or guaranteed result. Track actual impressions, clicks, CTR, average position, queries, pages, country and device in Search Console; do not treat published URLs or indexed-page counts as impressions.
 
 ## Stack
 - Static HTML, CSS, and vanilla JavaScript
