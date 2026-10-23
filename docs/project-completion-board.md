@@ -590,3 +590,10 @@
 - Rechecked UKGC account 39028: Casino Remote licence and `888casino.com` domain are listed Active. Recorded separately the 19 Aug 2024 £23,000 credit-card breach action, 7 Aug 2025 £33,075 group-account identification action, and 18 Nov 2025 £86,843 self-exclusion action, including the regulator's stated cooperation/remediation notes.
 - Captured operator's UK withdrawal guide: £10 minimum for partial-balance withdrawals, UK reverse-withdrawal unavailability, possible verification documents and bonus-restriction consequences. These are published terms, not independent testing. The generic complaint article does not establish the GB ADR route, so that remains explicitly unresolved.
 - 888 GB remains HOLD pending full terms/offers/cashier, GB complaints/ADR, privacy/cookies, accessibility, safer-gambling, fresh enforcement check and independent sign-off. Deduplicate with 888 Spain and other market records. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
+
+
+## Great Britain — Betfred Casino licence and enforcement refresh (23 October 2026)
+- Added [internal Betfred Casino GB licence/enforcement evidence refresh](docs/reviews/internal/betfred-casino-gb-licence-enforcement-refresh-2026-10-23.md), commit `05f6f0a5ea5804be6b9a1866e40b09709cd386a3`.
+- UKGC records identify Petfre (Gibraltar) Limited (account 39544) as the online `betfred.com` operator, with active remote casino permissions. Kept this separate from Done Brothers (Cash Betting) Limited (account 1058; retail-focused £825,000 action in 2025) and BETFRED TECHNOLOGY LIMITED (account 49528).
+- Petfre's UKGC action page records a £240,000 technical-standards penalty (20 May 2025) and a separate £900,000 payment in lieu of penalty (30 June 2026) after remote customer-interaction findings. Current GB terms/cashier could not be reliably extracted in this pass, so no claims made about current offers, withdrawals or ADR.
+- Betfred remains HOLD pending full terms, cashier, complaint/ADR, privacy/cookies, accessibility, safer-gambling and full decision/court review plus independent sign-off. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
