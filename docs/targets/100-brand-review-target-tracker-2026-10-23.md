@@ -139,3 +139,11 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 
 - Updated `scripts/check_site.py` master-prospect market-code allowlist to include all 12 confirmed target geographies and currently supported Canadian province/territory and US state codes, aligning it with `scripts/check_brand_registry.py`. Commit: `dae6312a503d782b82764f889d9b6b53b701d66a`.
 - This is a source-level validator correction only; CI was not run to conserve GitHub Actions minutes. Do not call it verified until the next approved validation run passes. No change to candidate or approved-review counts.
+
+
+## Market-directory and registry reconciliation — 23 October 2026
+
+- Re-read the current branch registry: **204 market-specific rows**, **154 distinct `global_brand_id` values**, 202 rows marked `HOLD`, and 2 rejected. This is a research lead pool, not a count of approved unique operators. Publication-approved reviews remain **0/100**.
+- Added the missing `markets/index.html` source route to represent the twelve target geographies and their official regulator starting points. The page explicitly states that research scope is not launch approval; AU/FR restrictions and US/Canada jurisdiction-specific rules are called out.
+- Added the route to the static build allowlist, home/research navigation, sitemap last-modified date, and source/artifact guardrails. Commits: `841a1d5a3ed1359dfe362dfede73b0222f06609c` (page), `c5fe583108de11f2ec796878e6cbd68471eb0cef` (build allowlist), `2a33045aa286dfac55e780f089c7dd51e962022e` (site-check scope guard), `84f84fc087688c29458a5ac69412a9924aa64829` (artifact guard), `9749d8c53f25f92af336cacd7ef3e40372dcc658` (sitemap).
+- CI/build/browser tests were not run because Actions minutes are constrained. The source is not considered validated or production-deployed until the next approved test/release gate. No review approvals were added.
