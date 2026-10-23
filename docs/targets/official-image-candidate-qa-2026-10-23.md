@@ -41,3 +41,10 @@ Directory: `brand-directory/index.html`
 - Replaced the two non-brand placeholders `France online casino category` and `Australia online casino category` with two distinct Great Britain research leads: Silkbet and BigBangBet. Both have official UK Gambling Commission register/domain evidence in the tracker, but remain HOLD because consumer-product status/terms are not fully reviewed.
 - Preserved an explicit market-scope guardrail: France and Australia are excluded from this casino directory. The page remains `noindex,follow` and is not a consumer recommendation list.
 - Source-level check after replacement: 100 cards, 100 unique card labels, both new brand entries present, both category placeholders absent. This verifies list integrity only; it does not change publication approvals or image rights.
+
+
+## Latest image candidate update — 23 October 2026
+
+- Added Silkbet's `https://silkbet.bet/assets/silkbet-gold.svg` after the official Silkbet homepage exposed it as an image link. It is labelled `SOURCE FOUND · RIGHTS PENDING` and has a monogram fallback. This does not grant republication rights.
+- Tried the tracker-listed BigBangBet homepage, but the fetch returned `invalid_url`; no image URL was guessed. Its directory card retains the custom artwork and the asset register marks it `NOT SOURCED`.
+- Current directory count: 21 candidate logo image tags across 100 cards; all remain subject to direct-load, identity and rights checks. The two replaced category placeholders are removed from the 100-brand list.
