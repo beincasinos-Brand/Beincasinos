@@ -9,7 +9,7 @@
 
 The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 204 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 204 records remain HOLD or otherwise not approved for publication.
 
-Seventeen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden), Betway virtual slots (Germany), and LeoVegas virtual slots (Germany). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Eighteen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), Betano Casino (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden), Betway virtual slots (Germany), and LeoVegas virtual slots (Germany). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -49,7 +49,7 @@ Three of the 204 registry records are deliberately not allocated to an active ta
 | Measure | Current verified value |
 |---|---:|
 | Raw market-specific research records | 204 |
-| Internal evidence drafts tracked | 17 |
+| Internal evidence drafts tracked | 18 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
@@ -70,3 +70,8 @@ Three of the 204 registry records are deliberately not allocated to an active ta
 - US-NJ: expanded the registry from one to 30 New Jersey-scoped rows using the official DGE Internet Gaming Sites list, which explicitly states that sites absent from the list are not approved. The 29 new records are candidate leads grouped under licensed Atlantic City casino affiliates, not 29 distinct operators; several domains still require exact contracting-entity and casino-vertical checks. All remain HOLD. Memo: `docs/research/new-jersey-dge-authorized-casino-candidates-2026-10-23.md`.
 
 A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/betmgm-casino-nj-evidence-review-2026-10-23.md`. The DGE authorized-site listing was captured, but the operator's public terms/promotions/responsible-gambling routes redirected to a geolocation selector; current NJ-specific consumer terms remain unverified. This draft is HOLD and is not counted as an approved review.
+
+
+## Ontario evidence update — 23 October 2026
+- Added `docs/reviews/internal/betano-casino-ontario-evidence-2026-10-23.md`. iGaming Ontario's operator directory lists Betano under Kaizen Gaming Canada Inc. with casino and sports-betting categories (directory dated 1 September 2026). First-party terms summary, deposit-method guidance, withdrawal-processing estimates and responsible-gaming pages were captured with dates. The evidence distinguishes operator statements from tested outcomes and blocks publication pending complete binding terms, exact current entity/domain match, privacy/cookie review, enforcement search, lawful UX/accessibility checks, authorised image rights, second review and legal/editorial sign-off.
+- Betano Ontario remains **HOLD** and is not an approved review. The addition increases internal evidence drafts from 17 to 18; approved reviews remain **0/100**. No Actions workflow or production deployment was triggered.
