@@ -1,5 +1,12 @@
 
 
+## Live-page and legal cross-check — batch 30 (2026-10-23)
+- Added [batch 30 live-page and legal cross-check evidence](docs/gb-brand-validation-batch-30-live-pages-legal-crosscheck-2026-10-23.md).
+- Public homepage/legal-page evidence captured for **666 Casino** and **Lad Casino**. Both sites' fetched terms identify Jupiter Gaming Limited / UKGC account 67098; the terms page states last published 17 August 2026. Lad Casino's about page describes LadBet as sports betting and Lad Casino as casino product, so LadBet must not automatically be treated as a casino review.
+- Dream Jackpot, King Casino, LadBet, Stakewise, Mr Luck and Red Casino remain HOLD; timeouts are inconclusive, not proof of downtime. Official regulator domain lists provide leads but do not by themselves approve a review.
+- Publication-approved brands added: **0**. Publication-approved reviews added: **0**. Production deploys: **0**. No main/DNS/production changes. Commit messages use `[CF-Pages-Skip]`.
+
+
 ## Official domain cross-check — batch 29 (2026-10-23)
 - Added [batch 29 official domain-register cross-check](docs/gb-brand-discovery-batch-29-official-domain-crosschecks-2026-10-23.md).
 - Official UKGC domain records list `666casino.com`, `dreamjackpot.com`, `kingcasino.com`, and `ladbet.com` as Active under Jupiter Gaming Limited (account 67098), and `stakewise.co.uk` as Active under Rocbrook Limited (account 100802). Sources: [Jupiter domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/67098), [Rocbrook domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/100802).
