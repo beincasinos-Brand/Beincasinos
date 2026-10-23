@@ -241,3 +241,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Recorded the UKGC's 23 July 2026 £4.75m settlement with Evolution Malta Holding Limited, following findings that games had reached six unlicensed sites accessible in Great Britain and that supplier-level AML/CTF and partner-risk controls were inadequate.
 - Explicitly distinguishes the game supplier from consumer-facing casino operators: this finding must not be attributed automatically to every casino using Evolution games.
 - Status **HOLD / DRAFT** pending defined page scope and second-editor review. Approved public consumer reviews contributed by this dossier: **0**.
+
+
+## 25. Stakelogic supplier-level dossier added
+
+- File: `docs/brand-profile-stakelogic-gb-draft.md`
+- Commit: `bf8fcfe5021f5f2863450c8784da50e03872f071`
+- Recorded the UKGC's 25 June 2026 £122,835 action against Stakelogic B.V. concerning Super Stake and UltraStake game cycles completing faster than the 2.5-second minimum described by the regulator.
+- Clearly separates the software supplier and named games from consumer-facing casino operators; no casino brand review is implied.
+- Current supplier permissions, affected game versions, remediation and current GB availability remain to be re-verified.
+- Status **HOLD / DRAFT**. Approved public consumer reviews contributed by this dossier: **0**.
