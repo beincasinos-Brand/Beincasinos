@@ -1,3 +1,11 @@
+# Latest research checkpoint — 23 October 2026, batch 9
+
+- Added `docs/gb-brand-discovery-exclusion-batch-9-2026-10-23.md` on `research/gb-batch-9-2026-10-23`.
+- Captured two mapping leads (Bally's Interactive LLC and Bally's (Newcastle) Limited), while explicitly excluding AG Communications/Aspire Global as a consumer-brand count until B2C evidence is demonstrated, Broadway Gaming Ireland DF Limited as a single brand because its domains may represent multiple brands/white labels, and Evolution Malta Holding Limited as a supplier/game-host record rather than consumer operator evidence.
+- Outcome: **0 approved brands and 0 approved reviews added**. Classification discipline is necessary to avoid falsely counting suppliers or legal entities as consumer casinos. Review target remains 0/100 publication-approved reviews.
+- File commit: `6ba0166c2f55924a5f631cd627ee1b6d2c857a35`. Research branch only; no main merge, Cloudflare Pages deployment, DNS update or Search Console write action.
+- UKGC register data caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
