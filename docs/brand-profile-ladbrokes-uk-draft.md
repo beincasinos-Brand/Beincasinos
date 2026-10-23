@@ -20,3 +20,20 @@ Before this can be published, confirm the exact consumer domain and legal entity
 
 ## Evidence still required
 Full current terms, payments/withdrawals, bonuses, safer-gambling controls, privacy, complaints, and UKGC regulatory-action history. No hands-on tests; no score assigned.
+
+
+## Dated primary-source refresh — 23 October 2026
+
+The GB online brand must be mapped to the correct legal account rather than relying on a single legacy name. The UKGC account page for **Ladbrokes Betting & Gaming Limited (1611)** lists active Casino Remote permission and the trading-name page lists `ladbrokes` and `coral` as Active, but its account-level domain page records no domains. The separate **LC International Limited (54743)** account lists active Casino Remote permission and records both `ladbrokes.com` and `coral.co.uk` as Active domains. The latter account's action page currently says no regulatory actions are recorded for that business. This evidence supports a multi-entity mapping checkpoint; it does not mean the two accounts or their actions can be treated as interchangeable.
+
+- Account 1611 licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/1611
+- Account 1611 domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/1611
+- Account 1611 trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/1611
+- Account 54743 licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/54743
+- Account 54743 domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/54743
+- Account 54743 actions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/54743
+- UKGC explanation of licence/account disclosures: https://www.gamblingcommission.gov.uk/public-and-players/guide/opening-accounts
+
+The official register states that domain/trading-name information is supplied by the gambling business and is not guaranteed by the Commission. Before publication, capture the live `ladbrokes.com` GB landing page, redirects, footer, applicable casino terms and contracting entity; establish whether the GB customer contract sits under account 1611, account 54743 or another correctly disclosed group entity. Do not use the absence of a domain on account 1611 alone to imply unlawful operation, and do not generalise the “no actions recorded” entry for account 54743 to every group entity.
+
+**Decision: HOLD.** Current casino terms, offer-specific wagering, payment/withdrawal limits and fees, complaints/ADR, privacy/cookies, safer-gambling tools, accessibility/usability and independent editorial/commercial sign-off remain to be completed. No hands-on customer journey has been tested; no rating is assigned.
