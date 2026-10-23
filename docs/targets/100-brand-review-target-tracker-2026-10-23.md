@@ -238,3 +238,6 @@ The current working-branch CSV was parsed and the deduplication audit was regene
 - Directory: **100 research cards**, not 100 verified distinct global brands.
 
 These counts describe the working branch snapshot, not a production deployment. Eligibility is still unverified. Next, manually inspect the 30 repeated-ID groups, reconcile the 2 rejected rows and any unconfirmed/historical market entries, and verify exact current casino permissions plus customer-facing domains before marking any brand-market pair eligible. Do not increase the approved-review counter for internal drafts.
+
+
+**Deduplicated planning artifact:** [First 100 distinct-ID research workqueue](../research/first-100-distinct-id-review-workqueue-2026-10-23.md). It contains 100 provisional global IDs after excluding IDs whose only rows are EXCLUDED/UNCONFIRMED or whose decision rows are all rejected. This is a prioritized HOLD queue, not 100 verified or approved brands.
