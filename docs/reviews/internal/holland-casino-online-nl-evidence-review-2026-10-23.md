@@ -70,3 +70,52 @@ Holland Casino's land-based venues and its online product must not be treated as
 - [ ] Complete legal/editorial approval and affiliate/commercial disclosure.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+
+
+## Current consumer-terms and payout evidence addendum — 23 October 2026
+A fresh official search-index check surfaced the current general terms and dated Holland Casino Online help-centre pages. Direct fetching of the main site returned HTTP 403 to the extraction service, so the findings below are operator-published indexed text and still require a normal-browser recheck.
+
+### General terms
+The current official terms at https://www.hollandcasino.nl/terms-conditions identify Holland Casino N.V. as the contracting entity and cite Ksa permit 3627. They state:
+- Minimum age is 18 and a player may have only one account.
+- Players must use their own payment instruments/counter-account and provide accurate account information.
+- Account funds are held separately from other business funds; the terms describe protection through a dedicated foundation if the operator becomes insolvent.
+- The operator may verify identity and investigate transactions, and may stop transactions or take account measures where required checks cannot be completed or money-laundering concerns arise.
+- Section 4.8 says withdrawal-request charges are borne by Holland Casino Online, while the help centre notes banks/payment methods may impose their own fees.
+- Complaints are registered within 72 hours; receipt is confirmed no later than 72 hours; handling is recorded within 72 hours after registration; and the operator says it will notify the player within one week if it declines to handle a complaint. These are intake/recording deadlines, not a guarantee that every dispute is resolved within 72 hours.
+
+### Withdrawal guidance (published operator claims, not independently tested)
+Official help-centre pages updated 4 February 2026 state:
+- A withdrawal request has a 30-minute cooling-off period; after that, the operator says it processes the request directly and funds usually arrive in 15–30 minutes, with a stated total of about one hour.
+- Minimum withdrawal is €0.01 and maximum is €25,000 per withdrawal.
+- The operator says it charges no extra deposit/withdrawal fees, but the user's bank or payment method may charge its own fee.
+- Additional documents may be requested before some withdrawals are approved.
+- Another article says automated withdrawal limits and verification can mean approval/processing/crediting takes up to 48 hours in some circumstances. Avoid unqualified “instant” or guaranteed one-hour payout claims.
+
+Sources:
+- https://support.hollandcasino.nl/hc/nl/articles/7219095937041-Wanneer-ontvang-ik-mijn-opnamebedrag
+- https://support.hollandcasino.nl/hc/nl/articles/7218978261649-Wat-zijn-de-minimale-en-maximale-opnamebedragen
+- https://support.hollandcasino.nl/hc/nl/articles/7219168620689-Zijn-er-kosten-verbonden-aan-het-opnemen-van-geld
+- https://support.hollandcasino.nl/hc/nl/articles/7219205857169-Ik-wil-mijn-winsten-opnemen-Waarom-word-ik-om-documenten-gevraagd
+- https://support.hollandcasino.nl/hc/nl/articles/7218160492561-Wat-is-een-Automatisch-Opnamelimiet-en-hoe-kan-ik-deze-instellen
+
+### Safer-play controls (operator-published)
+The official help centre describes deposit limits, login/time limits, automatic withdrawal limits, time-outs, a six- or twelve-month self-exclusion, and a self-assessment tool. A help article updated 26 August 2026 says reductions take effect immediately and increases take seven days. The terms describe CRUKS checks and monitoring/intervention powers. No account controls were exercised, so this is not proof of implementation quality.
+Sources:
+- https://support.hollandcasino.nl/hc/nl/articles/7214981374993-Welke-limieten-en-hulp-zijn-er-voor-online-spelen
+- https://support.hollandcasino.nl/hc/nl/articles/7217649676945-Hoe-speel-ik-veilig-en-verantwoord-met-limieten
+- https://support.hollandcasino.nl/hc/nl/articles/7216192229649-Wat-is-veilig-en-verantwoord-speelgedrag-en-wat-heeft-dit-met-mij-te-maken
+
+### Historical Wwft instruction — remediation stated by regulator
+The Ksa's 29 July 2024 notice about Holland Casino explains that the original Wwft instruction dated to 2019 and concerned inadequate monitoring of player behaviour and source of funds. The regulator explicitly says Holland Casino complied with all required conduct lines within the prescribed deadlines. This must be described as historical enforcement with reported remediation, not as an unresolved current breach. Official source surfaced by search: https://kansspelautoriteit.nl/aanwijzing-holland-casino-onvoldoende-naleven-wwft . The guessed direct route returned 404 to the extraction service; verify the official page URL in a normal browser before publication.
+
+### Remaining approval blockers
+- Recheck current licence/domain/brand notification in the Ksa register and archive the individual 2026 licence decision.
+- Normal-browser review of the current terms/help-centre pages because direct fetch returned 403.
+- Confirm current cashier deposit methods, deposit limits and payment restrictions.
+- Extract full complaints escalation and independent dispute routes.
+- Verify privacy/cookies, accessibility and actual responsible-play account flows.
+- Check for any regulator updates after the historical Wwft instruction.
+- Complete independent second-editor and legal/editorial sign-off.
+
+**Decision remains HOLD.** The evidence addendum improves terms and payout coverage but does not constitute hands-on testing, a public review, or approval. Adds zero to the approved-review count.
