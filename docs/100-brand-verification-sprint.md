@@ -408,3 +408,8 @@ Two additional internal evidence checkpoints have been added to help resolve ide
 - [PlayOJO — GB candidate screening checkpoint](reviews/internal/playojo-casino-gb-evidence-2026-10-23.md): records the initial Skill On Net Limited/account 39326 screen and keeps domain mapping and all consumer-review gates open pending reconciliation against the current account-level record.
 
 These are supplemental internal source notes, not three newly verified brands and not approved consumer reviews. They do not change the registry's publication-approval count. The 100-row CSV remains a candidate/evidence registry; do not claim 100 approved brands or 100 finished reviews until each row independently clears its publication gates. No CI/Actions run or deployment was triggered for these documentation-only changes.
+
+
+## Registry integrity recheck after supplemental checkpoints — 2026-10-23
+
+After linking the Grosvenor and PlayOJO evidence notes in the CSV, a read-back and CSV parse confirmed **100 brand rows, 31 columns, zero ragged rows, and zero duplicate brand names**. Current publication-decision counts are **49 HOLD and 51 not reviewed; zero approved for publication**. The Midnite note is linked from this sprint tracker but no extra CSV row was added, so the 100-row candidate target remains intact. This was a repository-content parse only; the validator script and CI were not run. No Actions minutes were spent and no deployment was triggered.
