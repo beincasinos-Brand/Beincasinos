@@ -1,5 +1,12 @@
 
 
+## Support, deposits and safer-gambling policy check — batch 32 (2026-10-23)
+- Added [batch 32 support and policy evidence](docs/gb-brand-validation-batch-32-support-payments-safer-gambling-2026-10-23.md).
+- 666 Casino: Contact Us page describes live chat/email; safer-gambling page describes net-deposit limits, reality checks, time-outs and self-exclusion. Deposit-methods route returned 404 in this fetch, fair-play route had an SSL error, and one safer-gambling route timed out; these are access gaps, not proof of missing services. Complaint/ADR eligibility and full current terms remain unverified in this batch.
+- Lad Casino: terms page loaded (last published 17 Aug 2026), Contact Us describes live chat/email, but FAQ says “Questions Forthcoming”, deposit page has no usable instructions in extraction, and withdrawal info page says unavailable. Batch 31 payment-method claims remain explicitly untested; withdrawal processing time/fees and exact complaint/ADR process still need evidence.
+- Both brands remain **HOLD**; no accounts, deposits, games, withdrawals or support contacts were tested. New approved brands: **0**. New publication-approved reviews: **0**. Production deploys: **0**; no main/DNS/production changes. Commit messages use `[CF-Pages-Skip]`.
+
+
 ## Payment / complaints / safer-gambling evidence — batch 31 (2026-10-23)
 - Added [batch 31 public policy evidence](docs/gb-brand-validation-batch-31-payment-safer-gambling-evidence-2026-10-23.md).
 - Lad Casino's public payment-methods page states £10 minimum deposit, £2,000 maximum per deposit transaction, £10 minimum withdrawal, and Visa/Mastercard debit cards for deposits/withdrawals. Its safer-gambling page describes deposit limits, time-outs, 6-month to 5-year self-exclusion and the distinction from GAMSTOP. These are published claims, not tested functionality.
