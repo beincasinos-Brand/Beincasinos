@@ -92,7 +92,7 @@ Current inventory: 25/100 image candidates, all rights pending; 75 cards retain 
 
 ### Current reconciliation — 23 October 2026
 
-- Current directory and asset register contain **30/100 sourced image candidates**, all rights pending, with fallback monograms.
+- Current directory and asset register contain **34/100 sourced image candidates**, all rights pending, with fallback monograms.
 - Added official-site candidate for Brillbet: `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`, exposed on the Brillbet site. During extraction, the official URL redirected to a customer-service notice; verify the consumer product remains active before publication.
 - The three favicon/small-icon candidates (888.nl, BetTOM, 44Aces) and Winz.nl's favicon candidate should not be described as full-size logos.
 - ThreeSix Vegas asset is sourced from `36vegascasinos.uk` while the directory lists `36vegas.co.uk`; relationship needs confirmation.
@@ -112,3 +112,8 @@ Added TOTO's official logo SVG, plus Kansino and Stakewise UK favicon candidates
 ### Betty Casino image candidate — 23 October 2026
 
 Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. The current inventory is 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork. Source presence is not permission to reuse.
+
+
+### Final image inventory reconciliation — 23 October 2026
+
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
