@@ -9,7 +9,7 @@
 
 The active research CSV contains **162 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
 
-Seven internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), and Holland Casino Online (Netherlands). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Eight internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), and Lottomatica (Italy). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -47,7 +47,7 @@ Counts below are raw rows whose current registry market-scope text maps to the g
 | Measure | Current verified value |
 |---|---:|
 | Raw market-specific research records | 162 |
-| Internal evidence drafts tracked | 7 |
+| Internal evidence drafts tracked | 8 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
