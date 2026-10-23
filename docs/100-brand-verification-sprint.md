@@ -481,3 +481,15 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - [LeoVegas](brand-profile-leovegas-uk-draft.md): captured the register distinction between active `leovegas.co.uk` and inactive `.com` domains on account 39198.
 - [Unibet](brand-profile-unibet-uk-draft.md): recorded the 22 September 2025 £10m UKGC financial penalty and associated AML/customer-interaction findings for Platinum Gaming Limited/account 45322.
 - The matching CSV rows are updated in place; all remain HOLD until consumer-facing terms, payments/withdrawals, safer-gambling/privacy, complaints/ADR, usability testing and independent review are completed.
+
+
+## North American candidate research batch — 2026-10-23
+
+- Added [internal North American evidence checkpoint](reviews/internal/north-america-candidate-evidence-2026-10-23.md) and updated the six matching rows in the 100-brand CSV using regulator/provincial primary sources.
+- **Borgata Online Casino:** NJDGE authorized-site list includes Borgata Online; New Jersey-only evidence.
+- **betPARX Casino:** PGCB interactive-gaming operator list includes BetParx; Pennsylvania-only evidence.
+- **PlayNow:** British Columbia IGCO identifies BCLC/PlayNow as the province's only permitted commercial online gambling service.
+- **OLG.ca:** iGaming Ontario directory identifies OLG.ca as legally operated under OLG; current player agreement specifies Ontario residence/physical location and age conditions for casino play.
+- **Loto-Québec:** official 27 August 2026 statement identifies lotoquebec.com as Québec's only legal casino and sports-betting website.
+- **Espacejeux:** current distinct product and contracting entity not verified; retained as HOLD and explicitly flagged for replacement if no distinct live product is confirmed.
+- All six remain HOLD; regulator evidence is not a substitute for product terms, payment/withdrawal evidence, complaints, privacy, safer gambling, accessibility, hands-on testing and second-editor review. No Actions run or deployment was triggered.
