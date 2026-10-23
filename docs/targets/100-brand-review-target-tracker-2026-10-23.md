@@ -109,3 +109,10 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Located 11 brand-image assets on official brand websites and rendered them on their matching cards: admiral.ch, casineo.ch, jollie.de, Betsuna, Vegas Club Casino, Betinia Casino, Casushi, FruitKings, Betcrown, BetLegend and BetNero.
 - All 11 image records remain **rights pending** in `docs/targets/brand-image-asset-register-2026-10-23.csv`. Official-site hosting is not proof of permission to republish; confirm rights/terms and visual rendering before production.
 - The directory still has `noindex,follow`, is excluded from the sitemap, and remains a research queue. No production deployment or GitHub Actions run was initiated.
+
+
+### Further directory enrichment — 23 October 2026
+
+- Expanded official-site image candidates from 11 to **20**; all remain rights-pending and are tracked individually. No claim of image reuse permission is made.
+- Added a collapsible, brand-specific research context/evidence-limits note to **all 100 cards**, sourced from the existing prospect tracker, including the tracker’s last-checked date with an explicit caveat that it does not mean every term/licence was rechecked on that date.
+- Added the evidence-grade filter and machine-readable grade to all 100 cards. The page remains noindex and excluded from the sitemap until legal/operator/product checks and editorial approvals are complete.
