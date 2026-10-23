@@ -117,3 +117,8 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 ### Final image inventory reconciliation — 23 October 2026
 
 Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+
+
+## Authoritative inventory reconciliation — 23 October 2026, latest branch source
+
+The latest `brand-directory/index.html` and `brand-image-asset-register-2026-10-23.csv` were fetched and counted together. Current source of truth: **100 unique brand cards; 100 visible research snapshots; 41 sourced image candidates with matching rights-pending labels and fallback monograms; 59 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 41 image tags have alt text, width/height, lazy loading and error fallback. These are source-level checks only. Asset URLs have not all been directly loaded or visually inspected, and no reuse permission is established. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 remains open/draft/unmerged and is not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere in this file are historical snapshots, not the current inventory.
