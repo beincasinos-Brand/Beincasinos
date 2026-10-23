@@ -1,0 +1,63 @@
+# BeInCasinos — 100-brand / 100-review target tracker
+
+**Last reconciled:** 23 October 2026  
+**Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
+**Target:** 100 distinct, jurisdiction-appropriate brands with 100 independently checked, high-quality reviews.  
+**Publication approvals:** **0/100**. Do not treat research records or internal drafts as completed reviews.
+
+## Current position
+
+The active research CSV contains **162 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
+
+Seven internal evidence drafts are tracked: 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), and Holland Casino Online (Netherlands). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+
+## Market-by-market lead inventory
+
+Counts below are raw rows whose current registry market-scope text maps to the geography. They are **not** counts of eligible brands. Deduplicate brand + local product + contracting entity, and verify current online-casino permission before promoting a row into the final 100.
+
+| Target geography | Raw scoped rows | Qualification gate / next work |
+|---|---:|---|
+| Australia (AU) | 0 | Legal-scope gate: online casino services are generally prohibited. Do not create offshore-casino recommendations to fill a quota. Research lawful explanatory content only if approved. |
+| Canada (CA) | 16 | Province/territory-specific. Ontario has 13 directory-mapped records; BC and Québec have separate records. Confirm current local regulator/operator/product and never generalise Ontario permission to Canada. |
+| Great Britain (GB) | 22 | Reconcile active UKGC Casino Remote permission to exact domain, customer contract and local product. Remove surrendered/inactive accounts; complete consumer-evidence gates. |
+| United States (US) | 16 | State/tribal-specific: current buffer includes New Jersey, Pennsylvania and Michigan. Verify each site, operator and casino-game authorisation in the exact state/tribal market. |
+| Switzerland (CH) | 10 | ESBK-listed online-casino platforms; match exact contracting entity, current concession extension and relevant per-game permits. |
+| Germany (DE) | 1 | Schleswig-Holstein-specific lead only. Verify current state-specific authorisation and product; do not imply nationwide eligibility. |
+| Netherlands (NL) | 8 | Reconcile Ksa licence holder to exact live domain/product. TOTO and Winnitt share TOTO Online B.V.; do not double-count them as distinct operators without materially distinct product evidence. |
+| Sweden (SE) | 7 | One domain-level Svenska Spel lead plus six rows needing revalidation. Do not count unverified domain/operator mappings. |
+| Spain (ES) | 19 | DGOJ domain/operator leads; confirm the current online-casino vertical and Spain-specific terms, not just a general remote-gambling entry. |
+| Italy (IT) | 48 | ADM candidate buffer. Several entries are broad remote-gambling leads, not proven casino products; confirm active concession, domain and casino vertical. Deduplicate cross-listed brands. |
+| France (FR) | 2 | These are sports/poker-related leads, not online-casino authorisations. Online casino is not generally authorised; do not count either toward the casino-review target. |
+| Belgium (BE) | 10 | Match each live domain to the current A+ licence table, operator and expiry; verify the casino product and current terms before counting. |
+
+## Mandatory qualification pipeline
+
+1. **Scope:** confirm one of the 12 target geographies; archive everything else.
+2. **Legal permission:** current primary regulator source confirms the exact online-casino product in that local jurisdiction.
+3. **Identity:** live domain, trading name and contracting entity match the permission.
+4. **Current product evidence:** dated terms, bonus conditions, payments/withdrawals, fees/limits, complaints/ADR, safer-gambling tools, privacy/cookies and accessibility.
+5. **Risk and enforcement:** current sanctions, suspensions, ownership/domain changes and relevant complaints/consumer risks are recorded with balanced context.
+6. **Consumer checks:** reproducible checks are documented where lawful and possible. Never claim an account, payment, withdrawal or support test that did not occur.
+7. **Editorial quality:** original, useful, market-specific writing; clear methodology and affiliate disclosure; no copied filler, unsupported “best” claims, fake scores or invented first-hand experience.
+8. **Second review:** another reviewer checks the primary sources, calculations, claims, legal framing and all material caveats.
+9. **Release approval:** editorial/legal sign-off recorded. Only then may the row be marked `reviewed` / `approved`.
+
+## Review completion ledger
+
+| Measure | Current verified value |
+|---|---:|
+| Raw market-specific research records | 162 |
+| Internal evidence drafts tracked | 7 |
+| Publication-approved reviews | 0 |
+| Remaining approved reviews to target | 100 |
+
+**Do not manufacture progress:** research records are not approved brands; draft documents are not completed reviews; a regulator directory entry alone is not a consumer review. Where local law does not permit online casino services, leave that geography as a legal-scope gate rather than filling a quota.
+
+## Related records
+
+- Confirmed geography scope: `docs/target-geographies-12-confirmed-2026-10-23.md`
+- Active candidate registry: `docs/brand-research-template.csv`
+- Out-of-scope archive: `docs/research-excluded-out-of-scope-2026-10-23.csv`
+- Swiss / Belgian source memo: `docs/research/switzerland-belgium-regulator-candidates-2026-10-23.md`
+- Ontario regulator mapping: `docs/research/ontario-regulated-casino-candidates-2026-10-23.md`
+- Current roadmap: `docs/100-verified-brands-10-markets-roadmap-2026-10-22.md`
