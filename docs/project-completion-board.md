@@ -1,3 +1,12 @@
+# Latest research checkpoint — 23 October 2026, batch 8
+
+- Added `docs/gb-brand-verification-follow-up-batch-8-2026-10-23.md` on branch `research/gb-batch-8-2026-10-23`.
+- Recorded five discovery leads: Midnite Limited (101839), DragonBet Ltd (64908), DZBT Limited / DAZN Bet (48756), Eaton Gate Gaming Limited / kwiff (44448), and EU Lotto Limited / Lottoland (38991).
+- Important quality gate: each is HOLD, not an approved brand. The register listing alone does not prove the correct current consumer domain, current casino product availability or quality of service. In particular, Kwiff and Lottoland require explicit casino-product/licence-scope checks; exclude if casino eligibility is not demonstrated.
+- Batch outcome: 5 discovery leads; **0 newly approved brands; 0 completed approved reviews**. Total publication-approved reviews remains **0/100**.
+- File commit: `b5476695047a779f9d524cef6a15ffc120775bec`. Research stays on a non-production branch; no main push, Cloudflare Pages deployment, DNS changes, or Search Console write action.
+- Source caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
