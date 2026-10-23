@@ -22,6 +22,8 @@ else:
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
+    if not (DIST / "markets" / "index.html").is_file():
+        errors.append("dist/: twelve-market directory is missing")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
