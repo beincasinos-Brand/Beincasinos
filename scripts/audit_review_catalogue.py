@@ -57,7 +57,7 @@ for page in review_pages:
     url = canonical_url(page)
     if url not in sitemap_urls:
         missing.append((page.relative_to(ROOT).as_posix(), url, "missing from sitemap"))
-    match = re.search(r'<link\\s+rel=["\\']canonical["\\']\\s+href=["\\']([^"\\']+)', source, re.I)
+    match = re.search(r'<link\s+rel=["\']canonical["\']\s+href=["\']([^"\']+)', source, re.I)
     if not match:
         missing.append((page.relative_to(ROOT).as_posix(), url, "canonical missing"))
     elif match.group(1) != url:
