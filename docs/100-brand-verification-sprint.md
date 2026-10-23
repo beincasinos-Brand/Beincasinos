@@ -445,3 +445,10 @@ The current 45-URL production sitemap was fetched and checked: 45/45 pages retur
 ## Candidate register refresh — Betway Casino (2026-10-23)
 
 The existing Betway Casino row now links the UKGC account, domain, trading-name and regulatory-action records and the current UK casino page. It records active Casino Remote permission and that the current action page reports no actions for Betway Limited/account 39372, while explicitly treating withdrawal timing/fees as operator claims, not hands-on results. Related white-label domains are kept separate from the Betway product. The row remains HOLD pending full current terms, cashier, complaints/ADR, privacy, safer-gambling and independent-editor checks. CSV read-back still confirms 100 rows × 31 columns, zero malformed rows or duplicate names, 49 HOLD and 51 not reviewed, and zero approved reviews. No CI/Actions or deployment was triggered.
+
+
+## Additional review-dossier refresh — 2026-10-23
+
+- [888casino GB draft](brand-profile-888casino-uk-draft.md) and the 100-brand CSV now include the current UKGC account 39028 status, official GB operator/user-agreement disclosures, privacy notice pointer and all three recorded UKGC penalties (2024–2025), with the regulator's context preserved. The draft remains HOLD; no player journey was tested.
+- The 100-row, 31-column registry was updated in place; no new brand row was created and no review was promoted to approved. Current consumer terms, payment/withdrawal evidence, complaints/ADR, safer-gambling and privacy implementation, independent review and publication controls remain required.
+- No GitHub Actions run or deployment was triggered by these documentation/research updates.
