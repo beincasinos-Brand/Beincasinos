@@ -30,6 +30,20 @@ A second live fetch checked these routes: `/guides/`, `/market-research/`, `/abo
 
 **Observed result:** all 10 returned readable page content, each fetch ended at the requested apex HTTPS URL, and each exposed a self-referencing canonical URL matching the requested page. No per-URL fetch errors were returned. This is a positive spot-check, not a full crawl and not a substitute for HTTP status/header capture, link validation or legal review.
 
+
+## Full sitemap URL content/canonical pass — 2026-10-23
+
+A follow-up live fetch covered the remaining URLs in the live sitemap. Across the 45 sitemap entries:
+
+- All 45 requested sitemap URLs returned readable extracted page content in the combined fetches.
+- All 45 exposed canonical metadata matching the requested HTTPS apex URL.
+- The sampled fetches showed no per-URL fetch errors.
+- The two utility pages, `/tools/wagering-calculator/` and `/tools/terms-checklist/`, also returned readable content and self-canonicals.
+- Short extracted text on `/contact/` (~983 characters), `/about/` (~1,029), and `/tools/wagering-calculator/` (~1,145) is a review priority, not proof of thin content by itself; assess rendered page value and purpose before changing or removing them.
+- The extraction tool did not expose raw HTTP status codes, full response headers, or a reliable robots meta value for every page. This is a content/canonical fetch pass, not a full HTTP crawl or Search Console indexation verification.
+
+**Updated assessment:** live sitemap coverage and self-canonical metadata are now spot-checked for all 45 sitemap URLs. Redirect permanence, raw status/header checks, internal-link destination status, structured data validation, and Search Console index coverage remain open.
+
 ## Remaining verification gaps
 
 - Obtain raw HTTP status codes, redirect chain and content type for HTTP/HTTPS and apex/www variants using a trusted direct HTTP check.
