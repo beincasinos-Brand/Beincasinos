@@ -12,9 +12,13 @@ First-party website: https://www.casumo.com/
 
 ## Historical regulatory action
 
-Casumo has previously been subject to regulatory action in Great Britain. The exact decision date, amount, legal entity and scope must be captured from the UKGC's own action record before any public review mentions it. This evidence pack intentionally does not invent a fine amount or characterize current compliance without the primary record in hand.
+The UKGC announced on **25 March 2021** that Casumo would pay a **£6 million fine** and receive an official warning following social-responsibility and anti-money-laundering failures. It required an independent audit under a new licence condition. A separate UKGC announcement on **29 November 2018** described a **£5.85 million** financial penalty package against Casumo after a licence review. These are historical actions; they do not establish current controls or prove that the present domain is currently licensed for Great Britain.
 
-UKGC action register: https://www.gamblingcommission.gov.uk/public-register/regulatory-actions
+Primary sources:
+- 25 March 2021: https://www.gamblingcommission.gov.uk/news/article/regulatory-action-against-casumo
+- 29 November 2018: https://www.gamblingcommission.gov.uk/news/article/gambling-commission-takes-widespread-regulatory-action-against-online-casino
+- Former licence record: https://www.gamblingcommission.gov.uk/public-register/business/detail/39265
+- Current Casumo search result: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=casumo
 
 ## Required before public review
 
@@ -27,4 +31,4 @@ UKGC action register: https://www.gamblingcommission.gov.uk/public-register/regu
 
 ## Publication decision
 
-**HOLD — incomplete regulator evidence.** This is a research stub, not a verified brand profile or completed review. Keep it internal and out of public navigation, generated routes and sitemap. It counts as **zero** approved public reviews.
+**HOLD — GB licence/contracting-entity status unresolved.** The former Casumo Services Limited licence is surrendered, its trading name is inactive, and the register also lists casumo.com under Recro Limited. Do not publish a GB casino recommendation until the current domain, terms, legal entity and active GB permissions are reconciled. Keep it internal and out of public navigation, generated routes and sitemap. It counts as **zero** approved public reviews.
