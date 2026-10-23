@@ -630,3 +630,11 @@
 - Added current operator-published GB casino page claims on game catalogue, identity verification, payment/withdrawal wording and safer-gambling tools. These are not independent tests. The dynamic terms/responsible-gambling/cookie pages returned only a shell during extraction, and the current casino welcome offer, readable complaints/ADR terms, privacy/cookie text, live consent behaviour and accessibility remain unresolved.
 - Betway dossier remains **HOLD**, with no score and no publication approval. Dossier commit: `0308885f39f99db78eda18b10be3c1799bf6a0d0`.
 - Research branch only; `[CF-Pages-Skip]`; no deployment, `main` merge, DNS change or Search Console write.
+
+
+## Batch 35 follow-up — bet365 GB consumer evidence (23 October 2026)
+
+- Updated [bet365 Casino GB internal review](reviews/internal/bet365-casino-gb-evidence-review-2026-10-23.md) with current official GB general terms, deposit-method page, complaint procedure, IBAS ADR page, privacy notice, cookie policy and safer-gambling descriptions.
+- The review now explicitly distinguishes Hillside (UK Gaming) ENC / UKGC 55149 for casino/live casino/poker from Hillside (UK Sports) ENC / 55148 for sportsbook. It records the published £5 minimum and example £5–£20,000 limits on listed GB deposit methods, while leaving withdrawal method-specific details open because the linked general withdrawal article did not establish a GB-casino-specific scope.
+- Complaint escalation/IBAS and privacy-controller details are now sourced. Current casino welcome offer, exact GB withdrawal details, enforcement/court status recheck, live cookie/accessibility/control testing and independent second review remain open. The dossier remains HOLD. Commit: `0b8482f5cc8cbb48a8d37ab2de60ea4c769e563d`.
+- Research-only commit uses `[CF-Pages-Skip]`; no production deployment, `main` merge, DNS change or Search Console write.
