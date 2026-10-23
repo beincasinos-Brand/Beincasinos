@@ -223,3 +223,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Summarised regulator findings on AML controls and missed/delayed safer-gambling interactions. The external audit outcome and current venue-level consumer evidence remain open.
 - Kept land-based venue-network research separate from online-casino reviews; status **HOLD / DRAFT**.
 - Approved public reviews contributed by this dossier: **0**.
+
+
+## 23. Betsson GB jurisdiction verification gate added
+
+- File: `docs/brand-profile-betsson-gb-draft.md`
+- Commit: `647e9aaaa034972c5522b21d972051dfddf848e2`
+- This is explicitly a jurisdiction/domain verification gate, not a claim that Betsson is currently licensed for Great Britain. The exact brand-domain-to-active-UKGC-account match remains unresolved and must be verified against the live register before any GB recommendation.
+- The UKGC register provides searches by operator, trading name, domain and account number and records licence status and declared domains. See https://www.gamblingcommission.gov.uk/public-register/businesses
+- Status **HOLD / DRAFT**; no approved public review counted.
