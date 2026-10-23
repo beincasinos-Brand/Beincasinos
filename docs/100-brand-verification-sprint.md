@@ -543,3 +543,10 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Added [market-scope triage for the final 17 candidates](reviews/internal/final-17-market-scope-triage-2026-10-23.md) and updated all 17 rows with explicit unresolved market/entity/domain/licence blockers and HOLD decisions.
 - Stake Casino's Colombia listing is recorded as Colombia-specific only; it does not establish worldwide authorization. The seven US-facing/offshore candidates are held pending state-specific legal entity and authorization checks. Other multi-market candidates are held pending an identified target market and matching regulator evidence.
 - This closes the initial publication-decision triage across all 100 rows: every candidate now has a decision, but HOLD/scope-triage is not the same as a completed consumer review. Consumer terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on evidence and independent review remain incomplete for many rows.
+
+
+## Two additional internal review drafts — 2026-10-23
+
+- Added [OLG.ca Ontario internal review draft](../review-drafts/olg-ca-internal-draft-2026-10-23.md) using the iGaming Ontario directory and current OLG Player Agreement. It documents Ontario-only eligibility and incorporated policies; no hands-on or payment testing, no score, HOLD.
+- Added [BetPlay Colombia internal review draft](../review-drafts/betplay-colombia-internal-draft-2026-10-23.md) using the Coljuegos authorized-sites directory and operator disclosure. It records Corredor Empresarial S.A./contract C1876 and the stated concession period; no hands-on testing, no score, HOLD.
+- These are internal drafts, not approved public reviews. Product terms, payments/withdrawals, complaints, privacy, safer-gambling, accessibility, hands-on evidence and independent review remain open.
