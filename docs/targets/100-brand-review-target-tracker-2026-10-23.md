@@ -133,3 +133,5 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Source-level regression check after the change: **100 cards**, **100 research-context panels**, **100 evidence-grade attributes**, **20 image candidates**, **20 fallback monograms**, and **20 visible rights-pending labels**. Search, market, status, evidence and reset handlers are present.
 - Checked the 20 image candidate source pages through a page extractor: **18 candidates appeared in official-page image links or Open Graph metadata**; two page fetches timed out (admiral.ch and Betinia Casino). See `docs/targets/brand-image-source-page-qa-2026-10-23.md`.
 - This does not clear image rights. All 20 remain rights-pending; the directory stays `noindex,follow` and excluded from the sitemap. No Cloudflare deployment or GitHub Actions run was triggered.
+
+- Follow-up search improvement: the directory search now matches full card text, including regulator/authority labels, evidence descriptions and brand-specific research-context notes, as well as the original brand/domain/operator index.
