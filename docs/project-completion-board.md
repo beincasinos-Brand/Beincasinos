@@ -675,3 +675,12 @@
 - Updated `scripts/check_site.py`'s master-prospect market allowlist to accept the confirmed target geographies and the existing supported province/state subcodes (Canada and US remain jurisdiction-specific). This removes a stale validator mismatch that would have rejected valid market codes for CA, SE, ES, IT and BE as the target scope expanded.
 - Commit: `dae6312a503d782b82764f889d9b6b53b701d66a` on the research branch; `[CF-Pages-Skip]` to conserve Actions minutes. No workflow was run, so this is a source correction, not a passing CI claim. Review the change in the next deliberately scheduled local/CI validation window before merge.
 - Live follow-up also logged that `/markets/` says “Ten markets” while the approved scope lists 12 geographies; the static repo has a separate `/market-research/` page that already lists all twelve. The live `/markets/` source could not be located in the current static tree, so no guessed production-source edit was made.
+
+
+## Twelve-market directory source fix — 23 October 2026
+
+- Added `markets/index.html` for the twelve approved research geographies, official regulator starting points, and explicit legal-scope caveats. It does not claim any market is launch-cleared and adds no casino rankings.
+- Added the route to the Cloudflare Pages public artifact allowlist, linked it from home and market-research navigation, added a sitemap lastmod, and strengthened source-level and deployment-artifact guardrails for all twelve geographies and the market route.
+- Main commits: page `841a1d5a3ed1359dfe362dfede73b0222f06609c`; build allowlist `c5fe583108de11f2ec796878e6cbd68471eb0cef`; source market guard `2a33045aa286dfac55e780f089c7dd51e962022e`; artifact guard `84f84fc087688c29458a5ac69412a9924aa64829`; sitemap `9749d8c53f25f92af336cacd7ef3e40372dcc658`; tracker reconciliation `5ce6e9e0ea2e71686e3ab2e0a07b2e73355ccb30`.
+- Validation/deployment: **not run/not deployed**. These source changes use `[CF-Pages-Skip]` to avoid spending Pages builds; GitHub Actions tests remain unrun pending a planned validation window.
+- Current registry re-read: 204 candidate rows, 154 distinct global IDs, 202 HOLD, 2 rejected; approved reviews remain 0/100. Counts represent leads, not approved unique brands.
