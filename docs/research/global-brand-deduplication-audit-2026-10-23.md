@@ -5,7 +5,7 @@
 
 ## Snapshot
 
-- Active registry: **175 market-specific rows**, 31 columns, no ragged CSV rows, no exact duplicate brand-name cells, and no publication-approved rows.
+- Active registry: **175 market-specific rows**, 33 columns, no ragged CSV rows, no exact duplicate brand-name cells, and no publication-approved rows.
 - The registry now carries a stable `global_brand_id` and `market_code` on every row. The IDs collapse known market suffixes and manually reconciled aliases, producing **140 provisional global brand IDs** across the 175 rows.
 - The ID-based grouping identifies **24 repeat-brand groups** and 35 excess market-specific rows beyond one row per global brand ID.
 - **140 is not the number of eligible brands.** It is a provisional ID count only; IDs still require manual alias/brand-family review. The registry still includes leads, unverified permission records, excluded records, shared legal operators and brands with incomplete casino-vertical checks.
@@ -49,7 +49,7 @@
 
 ## Required counting model
 
-The first-pass market-code reconciliation found 4 rows whose market is still unconfirmed and one historical GB row marked excluded. Those rows must not count as eligible brand-market pairs.
+The first-pass market-code reconciliation found 3 rows whose market is still unconfirmed and one historical GB row marked excluded. Those rows must not count as eligible brand-market pairs.
 
 Use two distinct counts in the project dashboard:
 
