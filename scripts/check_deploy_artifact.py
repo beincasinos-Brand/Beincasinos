@@ -64,7 +64,7 @@ else:
                     continue
                 # A noindex research register can be linked for users while it is
                 # deliberately excluded from the XML sitemap until editorial approval.
-                if re.search(r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\'][^"\\']*noindex', markup, re.IGNORECASE):
+                if re.search(r"<meta\s+name=[\"\']robots[\"\']\s+content=[\"\'][^\"\']*noindex", markup, re.IGNORECASE):
                     continue
                 if rel == "index.html":
                     route = "/"
