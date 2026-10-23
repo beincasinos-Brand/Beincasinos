@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 16 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-16-jumpman-white-label-leads-2026-10-23.md` on `research/gb-batch-16-2026-10-23`.
+- Captured eight UKGC-listed Jumpman white-label domains: 123 Spins, 24Spin, Amigoslots, Cheeky Casino, Clover Casino, Dove Casino, Kong Casino and PlayLeon. All remain HOLD pending live-site, marketing partner, legal terms and duplicate checks.
+- White-label sites are operated under the license holder's responsibility; a domain record alone does not verify a distinct consumer brand or review facts.
+- No approved count changed; no merge to `main` and no production deployment.
+
+
 ## Research checkpoint — batch 15 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-15-entity-resolution-2026-10-23.md` on `research/gb-batch-15-2026-10-23`.
 - Captured three leads: Hippodrome Casino, Hippodrome Online, and Silkbet. All remain HOLD; Hippodrome requires brand/operator overlap resolution, and Silkbet requires proof of a functioning consumer casino product and official domain mapping.
