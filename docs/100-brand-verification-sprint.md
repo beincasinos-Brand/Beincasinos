@@ -440,3 +440,8 @@ The existing 888casino row now records the current GB user-agreement URL, withdr
 ## Live sitemap and guide sweep — 2026-10-23
 
 The current 45-URL production sitemap was fetched and checked: 45/45 pages returned content without fetch errors, all had titles and canonicals matching the requested URL, with no redirects or canonical mismatches observed. A separate sweep checked all 30 guide URLs linked from the guides hub with no fetch errors or canonical mismatches. Full details and limitations are in the [SEO execution backlog](seo-execution-backlog-2026-10-22.md). This does not prove search-engine indexing and does not replace response-status/header checks, XML parser validation, structured-data validation, accessibility/browser QA or Search Console inspection. No Actions run or deployment was triggered.
+
+
+## Candidate register refresh — Betway Casino (2026-10-23)
+
+The existing Betway Casino row now links the UKGC account, domain, trading-name and regulatory-action records and the current UK casino page. It records active Casino Remote permission and that the current action page reports no actions for Betway Limited/account 39372, while explicitly treating withdrawal timing/fees as operator claims, not hands-on results. Related white-label domains are kept separate from the Betway product. The row remains HOLD pending full current terms, cashier, complaints/ADR, privacy, safer-gambling and independent-editor checks. CSV read-back still confirms 100 rows × 31 columns, zero malformed rows or duplicate names, 49 HOLD and 51 not reviewed, and zero approved reviews. No CI/Actions or deployment was triggered.
