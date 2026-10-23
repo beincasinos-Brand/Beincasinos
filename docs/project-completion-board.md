@@ -1,3 +1,11 @@
+
+
+## Research checkpoint — batch 12 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-12-domain-leads-2026-10-23.md` on `research/gb-batch-12-2026-10-23`.
+- Eight new domain-level leads recorded: PlayOJO, DrueckGlueck, EUcasino, SpinGenie, Anytime Casino, Quartz Casino, SlotsKingdom and Target Slots.
+- Status remains **HOLD** for all eight until live-site, legal-entity/terms, casino-product, and editorial evidence are captured. UKGC domain records are not live-site checks and are not sufficient alone to approve a review.
+- The UKGC public register overview says it was last updated 21 October 2026 and cautions that trading names/domains are supplied by licensees and may be inaccurate: https://www.gamblingcommission.gov.uk/public-register/businesses/
+- Approved brands/reviews remain unchanged; this research branch is not merged to `main` and no production deployment was triggered.
 # Latest research checkpoint — 23 October 2026, batch 11
 
 - Added `docs/gb-brand-discovery-batch-11-newer-domains-2026-10-23.md` on `research/gb-batch-11-2026-10-23`.
