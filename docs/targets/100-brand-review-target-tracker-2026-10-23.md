@@ -133,3 +133,9 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - Read-only check reconfirmed the live sitemap exposes 46 URLs and `robots.txt` allows crawling while advertising that sitemap. This is not proof of Google indexation; actual Search Console baseline remains unverified.
 - New content-consistency issue logged in `docs/research/indexability-audit-and-organic-growth-plan-2026-10-23.md`: the live `/markets/` heading says “Ten markets”, but the approved target scope contains 12 geographies (AU, CA, GB, US, CH, DE, NL, SE, ES, IT, FR, BE). Correct the public heading/table after reconciling each row with the approved scope and local law. Canada and US require province/state-specific evidence; AU and FR must not be presented as lawful online-casino markets.
 - The live `/reviews/` page appropriately says no profiles are currently scored or ranked. Approved reviews remain **0/100**. Existing guide index already has broad coverage, so prioritise accuracy, primary-source freshness and useful internal links over near-duplicate content.
+
+
+## Validation tooling correction — 23 October 2026
+
+- Updated `scripts/check_site.py` master-prospect market-code allowlist to include all 12 confirmed target geographies and currently supported Canadian province/territory and US state codes, aligning it with `scripts/check_brand_registry.py`. Commit: `dae6312a503d782b82764f889d9b6b53b701d66a`.
+- This is a source-level validator correction only; CI was not run to conserve GitHub Actions minutes. Do not call it verified until the next approved validation run passes. No change to candidate or approved-review counts.
