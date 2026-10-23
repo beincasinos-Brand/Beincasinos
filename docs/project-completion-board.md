@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 18 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-18-jumpman-active-domains-2026-10-23.md` on `research/gb-batch-18-2026-10-23`.
+- Eight active Jumpman casino-domain leads captured: Loot Casino, Pirate Slots, Rainbow Spins, Space Wins, Buffalo Spins, Crystal Slots, Amazon Slots and Incredible Spins. All HOLD pending current live-site, legal terms and duplicate checks.
+- Official UKGC domain status is regulatory-register evidence, not a live-site or review-quality check. Bingo-focused domains were excluded from the casino count pending evidence of casino product.
+- No approved brand/review totals changed; no merge to `main`, Cloudflare config change, or production deployment.
+
+
 ## Research checkpoint — batch 17 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-17-jumpman-white-label-leads-2026-10-23.md` on `research/gb-batch-17-2026-10-23`.
 - Added eight further Jumpman white-label leads: Billion Casino, Cash Casino, Chilli Spins, Daisy Slots, Elf Slots, Fortune Games, Great Britain Casino and Lucky Admiral. All remain HOLD until site, partner and terms checks are complete.
