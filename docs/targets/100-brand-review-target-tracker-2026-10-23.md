@@ -105,3 +105,10 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - Located the original UKGC notices for Betway Limited's **£11.6m regulatory settlement (12 March 2020)** and **£408,915 penalty (21 September 2022)**. The current account-level actions page's “no actions recorded” wording is not a complete historic record; the dossier now cites and contextualises both primary notices directly.
 - Updated the Betway GB draft with current operator-published game, payments and safer-gambling claims while clearly labelling them untested. Dynamic detailed policy routes did not extract beyond their shell; current casino welcome offer, full readable complaints/ADR and privacy/cookie text, live consent/accessibility checks and second review remain open.
 - The dossier remains HOLD. This is evidence progress only, not a new approved review; approved-review count stays **0/100**. Commit: `0308885f39f99db78eda18b10be3c1799bf6a0d0`.
+
+
+### Batch 35 follow-up — bet365 GB consumer-policy evidence (23 October 2026)
+
+- Refreshed the existing bet365 GB draft with official GB general terms, deposit methods, complaints/IBAS, privacy/cookies and safer-gambling sources. The casino operator (Hillside (UK Gaming) ENC, UKGC 55149) remains distinct from sportsbook operator Hillside (UK Sports) ENC, account 55148.
+- The cashier evidence currently supports published deposit-method examples only; withdrawal-specific figures are not promoted to universal GB casino claims because the linked withdrawal article's scope is not sufficiently clear. Casino-specific welcome-offer terms, exact GB withdrawal terms, live controls/accessibility, regulator/court-status refresh and second review remain open.
+- Dossier remains HOLD; no new approved review. Approved count remains **0/100**. Commit: `0b8482f5cc8cbb48a8d37ab2de60ea4c769e563d`.
