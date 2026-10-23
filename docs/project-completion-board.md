@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 26 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-26-jumpman-register-domain-leads-2026-10-23.md` on `research/gb-batch-26-2026-10-23`.
+- Logged four official-register domain leads associated in search results with Jumpman Gaming Limited (39175): onlinecasinolondon.com, freebet.casino, crazykingcasino.com and 777cherry.com. All remain HOLD pending live-site, exact brand, legal terms and deduplication checks.
+- The UKGC licence summary currently lists Jumpman's Remote Casino licence as active, but the regulator warns domain/trading-name data may be inaccurate. Leads do not count as verified brands/reviews.
+- No merge to `main`, Cloudflare settings/DNS change or production deployment. Publication-approved reviews remain 0/100.
+
+
 ## Research checkpoint — batch 25 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-25-domain-reconciliation-2026-10-23.md` on `research/gb-batch-25-2026-10-23`.
 - Added four domain reconciliation tasks: Jackpot City (two domains, count at most once), Spin Casino, Hippodrome Online (legal-entity overlap must be resolved), and UK Riches. All remain HOLD pending direct official-register and live-site evidence.
