@@ -119,3 +119,14 @@ The Ksa's 29 July 2024 notice about Holland Casino explains that the original Ww
 - Complete independent second-editor and legal/editorial sign-off.
 
 **Decision remains HOLD.** The evidence addendum improves terms and payout coverage but does not constitute hands-on testing, a public review, or approval. Adds zero to the approved-review count.
+
+
+## Help-centre recheck — 23 October 2026
+Official Holland Casino help-centre articles were fetched again in this pass:
+- **Withdrawal timing:** the article states a 30-minute reconsideration period, after which the withdrawal is processed and funds typically arrive within 15–30 minutes; it frames this as within about one hour. This is the operator's stated process, not an independently tested payout guarantee. Source: https://support.hollandcasino.nl/hc/nl/articles/7219095937041-Wanneer-ontvang-ik-mijn-opnamebedrag
+- **Withdrawal amount:** minimum €0.01 and maximum €25,000 per withdrawal. Source: https://support.hollandcasino.nl/hc/nl/articles/7218978261649-Wat-zijn-de-minimale-en-maximale-opnamebedragen
+- **Fees:** the operator says it charges no additional deposit or withdrawal fee, while the bank/payment method may charge. Source: https://support.hollandcasino.nl/hc/nl/articles/7219168620689-Zijn-er-kosten-verbonden-aan-het-opnemen-van-geld
+- **Documents:** the operator says it may request extra documents before approving some withdrawals to verify personal details/identity. Source: https://support.hollandcasino.nl/hc/nl/articles/7219205857169-Ik-wil-mijn-winsten-opnemen-Waarom-word-ik-om-documenten-gevraagd
+- **Responsible-play tools:** its article lists daily/weekly/monthly deposit limits, login-time limits, time-out, self-exclusion for six or twelve months, an automatic withdrawal limit and a self-test. These are published descriptions; no account controls were tested. Source: https://support.hollandcasino.nl/hc/nl/articles/7214981374993-Welke-limieten-en-hulp-zijn-er-voor-online-spelen
+
+This narrows the help-centre evidence gaps but does not clear the review. Exact live domain/contracting entity, current full terms and offer-specific bonus rules, deposit methods and limits, complaint/ADR, privacy/cookies, accessibility, current enforcement check and second-editor sign-off remain required. **HOLD; zero approved-review credit.**
