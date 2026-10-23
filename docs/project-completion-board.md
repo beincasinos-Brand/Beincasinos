@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 24 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-24-register-index-leads-2026-10-23.md` on `research/gb-batch-24-2026-10-23`.
+- Eight register-index leads captured: All Star Games, Aloha Slots, Amber Spins, Azimut Casino, Best Odds, Bet St George, Bet442 and Bet600. All HOLD pending official domain/licence scope, live-site, casino-product and duplicate checks.
+- Betting-only and games-only brands must not count toward casino reviews. No approved totals changed; research branch only, no main merge or production deployment.
+
+
 ## Research checkpoint — batch 23 / editorial workflow (23 October 2026)
 - Added `docs/casino-review-evidence-dossier-template.md` on `research/gb-batch-23-2026-10-23` to standardize the evidence dossier for every brand review.
 - Template covers official licence/domain, legal operator, dated source log, actual hands-on tests, bonus/wagering, payments/withdrawals, KYC, support, responsible-gambling controls, regulatory history, transparent scoring, affiliate disclosure and second-editor QA.
