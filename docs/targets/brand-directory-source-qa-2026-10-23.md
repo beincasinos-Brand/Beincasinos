@@ -16,19 +16,19 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 42 |
-| Candidate images with alt text | 42/42 |
-| Candidate images with explicit width/height | 42/42 |
-| Candidate images with lazy loading | 42/42 |
+| Logo/image candidates | 43 |
+| Candidate images with alt text | 43/43 |
+| Candidate images with explicit width/height | 43/43 |
+| Candidate images with lazy loading | 43/43 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 42/100 cards have a sourced image candidate; all remain **rights pending**.
-- 58/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 43/100 cards have a sourced image candidate; all remain **rights pending**.
+- 57/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 42 sourced image candidates with rights pending, and 58 CSS artwork/monogram fallbacks.
+- The directory hero now accurately states 100 research entries, 43 sourced image candidates with rights pending, and 57 CSS artwork/monogram fallbacks.
 
 ## Publication and deployment gates
 
@@ -117,3 +117,8 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
+
+
+## Inventory reconciliation — latest branch read, 23 October 2026
+
+The live branch file and asset register were fetched together after further image work. Current counts: **100 unique brand cards, 100 visible research snapshots, 43 sourced image candidates, 57 CSS-art/monogram fallbacks, 100 register rows**. All 43 image tags have alt text, explicit dimensions and lazy loading; each has an adjacent monogram fallback and visible rights-pending label. All cards contain an operator field, regulator/authority field, evidence grade, verification checklist and expandable research context. The directory remains `noindex,follow`; PR #36 remains draft, open and non-mergeable; no Cloudflare production deployment is confirmed.
