@@ -35,3 +35,8 @@
 - The 100 cards are research queue entries, not 100 approved consumer reviews. Publication approval remains 0/100.
 - No GitHub Actions run was triggered. No Cloudflare production deployment is confirmed.
 - Before publication, verify exact local domain/operator/casino authorisation, current terms and safer-gambling information, complaints/enforcement scope, image reuse rights, and independent editorial sign-off.
+
+
+## Brand-list scope correction — 23 October 2026
+
+The 100-card list no longer includes the excluded planned Maine placeholder `Caesars online casino brands`. It now includes `Horseshoe Online Casino (Michigan)`, sourced to the Michigan Gaming Control Board's authorized-platform list and exact Michigan casino URL. It remains HOLD, with exact contracting entity, current terms, payment/withdrawal, complaints, safer-gambling and enforcement checks outstanding. This change does not alter the 22-image-candidate count.
