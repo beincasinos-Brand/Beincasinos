@@ -73,3 +73,18 @@ The list includes domains grouped under multiple Caesars Interactive Entertainme
 **Evidence grade:** current regulator domain-directory evidence refreshed.  
 **Publication decision:** **HOLD** for all candidates pending exact contracting-entity reconciliation and full consumer evidence.  
 **Approved reviews added:** **0**. No first-hand account, deposit, or withdrawal testing is claimed.
+
+
+## Candidate registry cross-check — 23 October 2026
+
+The current 30-row `US-NJ` candidate slice in `docs/brand-research-template.csv` was compared with the DGE's live Internet Gaming Sites directory. **30/30 candidate domains/routes matched the extracted directory** under the regulator's licensee/affiliate groupings. This is only a domain/jurisdiction screen, not full consumer-review verification, an exact contracting-entity finding, a quality score, or publication approval.
+
+Groupings observed in the current directory include Bally's Atlantic City; Borgata Hotel Casino & Spa; Caesars Interactive Entertainment New Jersey affiliate groups tied to Boardwalk Regency, Harrah's Atlantic City Operating Company, and Tropicana Atlantic City; Golden Nugget Hotel Casino & Marina; Hard Rock Hotel and Casino; Ocean Resort Casino; and Resorts Casino Hotel Atlantic City. The regulator page also lists additional skins/domains not necessarily represented by the current 30-row shortlist. Preserve each exact grouping and do not count each skin as a separate license or automatically as a distinct global brand.
+
+**Priority exception:** the Mohegan Sun NJ candidate has a terms endpoint returning FanDuel/Mohegan Sun terms expressly scoped to Connecticut. Keep HOLD until NJ-specific terms and the customer-contracting entity are reconciled. See `docs/reviews/internal/mohegan-sun-casino-nj-jurisdiction-terms-mismatch-2026-10-23.md`.
+
+The PokerStars NJ domain returned empty extraction in the same pass; this is an extraction limitation, not evidence that the product is unavailable or unapproved. Recheck through the DGE's current listed-domain record and a separate first-party browser journey.
+
+For every candidate, remaining gates include NJ-specific terms, offer restrictions, payment/withdrawal methods and limits, complaint process, responsible-gambling tools, privacy/cookies, accessibility, enforcement history, exact contracting entity, and independent second-editor/legal/affiliate-disclosure sign-off.
+
+**Cross-check outcome:** 30/30 domain/route matches; 0/30 full consumer-review evidence sets completed by this screen; approved reviews added: **0**. All remain HOLD.
