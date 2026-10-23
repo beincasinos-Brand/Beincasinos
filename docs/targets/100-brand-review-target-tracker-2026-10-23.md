@@ -142,3 +142,9 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 - Replaced the Jollie social-preview image with the official-site logo asset `https://jollie.de/Assets/Images/jollie-logo-white-1.svg` in both the directory and asset register after checking the Jollie page's image list.
 - Added `docs/targets/official-image-candidate-qa-2026-10-23.md` documenting the spot-check results, the two timeouts, and the limits of this check.
 - Image reuse permissions are still pending for all 20 candidates. Source presence is not a licence check. The directory remains `noindex,follow`; no Cloudflare deployment or GitHub Actions run was triggered.
+
+
+### Latest directory polish — 23 October 2026
+
+- Improved layout stability for the 20 official-site image candidates by reserving a consistent 160×64 contained image slot, adding explicit intrinsic dimension hints, and retaining asynchronous decoding/lazy loading.
+- Static QA: 100 brand cards and 100 context panels remain present; all 20 image candidates have alt text, fallback monograms, and visible rights-pending labels. No duplicate HTML IDs were found. This does not change the publication status: the directory remains `noindex,follow`, the PR is unmerged, and no Cloudflare production deployment is confirmed.
