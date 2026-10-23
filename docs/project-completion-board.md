@@ -583,3 +583,10 @@
 - Added [internal William Hill Casino GB evidence dossier](docs/reviews/internal/william-hill-casino-gb-licence-operator-evidence-2026-10-23.md), commit `77d4a3c6056c1371adf3732ae6b227aeefced710`.
 - UKGC register search associates `www.williamhill.com` with WHG (International) Limited, account 39225; current terms also identify WHG (International) Limited as operator for GB customers and note the Evoke group relationship. The dossier flags a contractual clause concerning liability for regulatory compliance neutrally, without drawing an unsupported enforceability conclusion.
 - Exact current casino licence activity, casino-specific rules/offers, cashier/withdrawals, complaints/ADR, privacy/cookies, accessibility and current enforcement/court status remain open. William Hill stays HOLD. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
+
+
+## Great Britain — 888 Casino enforcement and withdrawals refresh (23 October 2026)
+- Added [internal 888 Casino GB enforcement/withdrawal evidence refresh](docs/reviews/internal/888casino-gb-enforcement-withdrawal-refresh-2026-10-23.md), commit `3d69ebd7e92b542d39a91e62df628936856bcf9a`.
+- Rechecked UKGC account 39028: Casino Remote licence and `888casino.com` domain are listed Active. Recorded separately the 19 Aug 2024 £23,000 credit-card breach action, 7 Aug 2025 £33,075 group-account identification action, and 18 Nov 2025 £86,843 self-exclusion action, including the regulator's stated cooperation/remediation notes.
+- Captured operator's UK withdrawal guide: £10 minimum for partial-balance withdrawals, UK reverse-withdrawal unavailability, possible verification documents and bonus-restriction consequences. These are published terms, not independent testing. The generic complaint article does not establish the GB ADR route, so that remains explicitly unresolved.
+- 888 GB remains HOLD pending full terms/offers/cashier, GB complaints/ADR, privacy/cookies, accessibility, safer-gambling, fresh enforcement check and independent sign-off. Deduplicate with 888 Spain and other market records. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
