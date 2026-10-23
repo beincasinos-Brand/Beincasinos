@@ -150,3 +150,14 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Separates SBG Sports Limited (UKGC account 67370) for sports betting/virtual racing from Bonne Terre Gaming Limited (account 65519) for casino, bingo and poker. Treats older Bonne Terre Limited account 38718 as legacy/surrendered, not the current active operator.
 - Includes historical 2022 £1.17m UKGC action as an item requiring original-notice review and careful entity attribution.
 - Status remains **Hold / draft** until current terms, payments, complaints/ADR, safer-gambling evidence and independent review are complete.
+
+
+## 16. Unibet GB research dossier added
+
+- File: `docs/brand-profile-unibet-gb-draft.md`
+- Commit: `d12daba0843153b696a0380a2343642ac3c61758`
+- UKGC register maps `www.unibet.co.uk` to Platinum Gaming Limited (account 45322) with active remote casino, bingo, real-event betting, virtual-event betting and pool betting permissions.
+- Added the UKGC's 22 October 2025 £10m penalty, warning and third-party audit requirement for AML and social-responsibility failings; recorded the regulator's statement that the operator had also been fined £2.9m in 2023, with the original 2023 notice still to retrieve and review.
+- Kept status **HOLD / DRAFT**. Current terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open.
+- Unibet and 32Red share UKGC account 45322; count product reviews separately only where brand-specific evidence exists, and never count this dossier as an approved review.
+- Approved public reviews contributed by this dossier: **0**.
