@@ -501,3 +501,10 @@
 - Domain register confirms `betsson.com/sv` has commercial online permission dated 24 Aug 2026–23 Aug 2031 and lists Betsson Nordic Ltd and Spin Nordic Ltd. Match the precise product and contracting entity; don't double-count holders/domains.
 - Decision register currently labels the AML matter appealed; it records the Administrative Court's 2 July 2026 judgment rejecting the appeal and says Betsson Nordic Ltd appealed onward to the Administrative Court of Appeal. No final appellate outcome shown in the captured official register.
 - Betsson remains HOLD; no review approval credited. No CI or Cloudflare Pages deployment triggered.
+
+
+## Spain — Luckia DGOJ evidence refresh (23 October 2026)
+- Added internal dossier `docs/reviews/internal/luckia-spain-dgoj-licence-evidence-refresh-2026-10-23.md` from the official DGOJ operator profile and current resolutions index.
+- DGOJ lists LUCKIA GAMES, S.A. and `luckia.es`, including specific permissions for gaming machines, poker, roulette and blackjack; roulette and blackjack licence extensions appear dated 14 October 2026.
+- Consumer-site automated retrieval returned HTTP 451. This is recorded as a fetch limitation, not proof of site unavailability or missing policies. Terms, payments, safer-gambling details, privacy/cookies and accessibility remain unverified.
+- Luckia remains HOLD; approved reviews stay 0/100. No CI run, Cloudflare Pages deploy or production setting changes.
