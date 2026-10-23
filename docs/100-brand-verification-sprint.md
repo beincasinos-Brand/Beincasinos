@@ -465,3 +465,11 @@ The existing Betway Casino row now links the UKGC account, domain, trading-name 
 ## Paddy Power source refresh — 2026-10-23
 
 The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and corresponding CSV candidate row now record account 39426's active Casino Remote permission, active `paddy power` trading name, `www.paddypower.com` domain, and the UKGC settlement dated 17 December 2025. The settlement is described as a multi-licensee customer-interaction case with a £2m total group payment, not as an amount attributable solely to one account. The candidate remains HOLD pending current product terms, payment/withdrawal, complaints/ADR, safer-gambling/privacy, accessibility, hands-on evidence and second-editor/commercial sign-off. No Actions run or deployment was triggered.
+
+
+## LeoVegas and Unibet account-level evidence — 2026-10-23
+
+- [LeoVegas GB profile](brand-profile-leovegas-uk-draft.md): added account 39198 licence and domain-status checkpoint. `leovegas.co.uk` is Active in the UKGC register while `leovegas.com` and `www.leovegas.com` are Inactive; the account's trading-name page has no names and its actions page has no actions recorded. Live redirect/footer/contract reconciliation remains open.
+- [Unibet GB profile](brand-profile-unibet-uk-draft.md): added Platinum Gaming Limited/account 45322 and its 22 September 2025 UKGC decision: AML and customer-interaction failures in Jan 2023–May 2024; warning, additional licence condition and £10m penalty, with cooperation noted by the regulator. This is described as an account-specific historic finding, not an unsupported statement about current customer outcomes.
+- Both matching CSV rows were updated in place and remain HOLD. Current terms, payment/withdrawal, complaints/ADR, safer-gambling/privacy, accessibility, hands-on verification and independent review are still required.
+- No GitHub Actions workflow or deployment was run.
