@@ -499,3 +499,12 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The previously recorded UKGC historical enforcement URL redirected to the general news page in this check; canonical source needs rechecking before publication.
 - Updated `docs/brand-profile-playojo-gb-draft.md`, commit `27e67561135b1c97ad87aa89661a33295d1e1871`. No score; not an approved review.
 - No GitHub Actions workflow or production deployment triggered.
+
+
+## 51. Magical Vegas GB — current welcome offer, payments and complaints sources — 23 October 2026
+
+- Added `docs/brand-profile-magical-vegas-gb-draft.md` for Magical Vegas, with Rank Interactive (Gibraltar) Limited identified as operator and UKGC account 57924. The regulator lists `magicalvegas.com` Active and active remote casino permission for the operator.
+- Official terms are effective 16 December 2025. The live welcome-offer terms state that a new, verified player deposits and stakes £10 on The Goonies Megaways Quest For Treasure Jackpot King for 100 free spins; the page states seven days to use the spins and 10x wagering on winnings. Full conditions, maximum conversion and exclusions still require a complete pre-publication capture.
+- The payment page lists card, PayPal, Paysafecard and Apple Pay options, but no account or withdrawal test was performed. The official complaints page and safer-gambling page were reviewed as starting sources; the exact escalation timeline, ADR conditions and current account-level tools still need complete verification.
+- The current account-specific UKGC actions page says no actions recorded for this business; do not extend that claim to other Rank entities or the wider group.
+- Editorial decision: **HOLD**, no score, no public review, not counted as approved. No GitHub Actions run, Cloudflare setting change, DNS change or deployment was triggered.

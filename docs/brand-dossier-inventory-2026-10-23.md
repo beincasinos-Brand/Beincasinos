@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **85 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **86 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -105,7 +105,7 @@ Classify each file as consumer brand, supplier/operator context, duplicate marke
 
 ## Inventory reconciliation — 23 October 2026, follow-up
 
-A fresh recursive tree check after the latest research commits found **86 files including the template, or 85 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
+A fresh recursive tree check after the latest research commits found **87 files including the template, or 86 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
 
 - `docs/brand-profile-bet-ahoy-gb-draft.md` — preliminary GB identity research; **HOLD**, not an approved review. Official-site access was location-restricted in the research session, so current terms, payments, complaints and safer-gambling evidence remain unverified.
 - `docs/brand-profile-pokerstars-gb-draft.md` — internal dossier; verify its current status in the file and do not count it as an approved review by filename alone.
@@ -117,3 +117,6 @@ The count remains a count of dossier files, not 83 unique verified consumer bran
 
 
 - `docs/brand-profile-bella-casino-gb-draft.md` — preliminary GB dossier for Bella Casino / Rank Interactive (Gibraltar) Limited, UKGC account 57924. Official terms, offer, payment-methods and complaint-route evidence captured; payment wording and independent review gates remain open. **HOLD**, not an approved review.
+
+
+- `docs/brand-profile-magical-vegas-gb-draft.md` — preliminary GB dossier for Magical Vegas / Rank Interactive (Gibraltar) Limited, UKGC account 57924. Domain, current terms, welcome offer, payments and complaint/safer-gambling sources reviewed; remaining verification gates are open. **HOLD**, not an approved review.
