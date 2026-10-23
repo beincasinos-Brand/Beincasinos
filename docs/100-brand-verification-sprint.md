@@ -528,3 +528,11 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - Caliente.mx: operator terms identify Tecnología en Entretenimiento Caliplay, S.A.P.I. de C.V. and permit DGG/SP/404/97. Terms include an inactive-account charge and complaint-deadline/confidentiality wording requiring legal review. Operator claims about withdrawal times are not independently tested.
 - Codere Mexico: operator identifies Libros Foráneos S.A. de C.V. and lists SEGOB permit numbers; its help page states $100 MXN minimum deposit and $10 MXN minimum withdrawal, not independently tested. Permit scope must be independently confirmed.
 - All four remain HOLD; no score or publication approval. No Actions run or deployment triggered.
+
+
+## Ghana regulator cross-check — 2026-10-23
+
+- Added [Ghana operator cross-check](reviews/internal/ghana-operator-crosscheck-2026-10-23.md) and updated seven candidate rows from the Gaming Commission of Ghana's 2026 licensed-operators list.
+- The list records betPawa, Betika, SportyBet and 1xBet for Online Casino and Sports Betting, with issue date 1 January 2026 and expiry 31 December 2026, location Accra. Premier Bet, 22Bet and Melbet are listed for sports betting only in the entries checked; those entries do not establish online-casino permission.
+- The regulator table does not include domains/legal contracting entity, so domain/entity matching remains open. Evidence applies to Ghana only and must not be generalized to other countries.
+- All seven remain HOLD until live domain/entity matching, current terms, payment/withdrawal, complaints, privacy, safer-gambling, accessibility, hands-on testing and second-editor review are complete.
