@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 27 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-27-register-crosschecks-2026-10-23.md` on `research/gb-batch-27-2026-10-23`.
+- Captured official-register leads for Party Casino (partycasino.com, LC International Limited 54743) and Quatro Casino UK (quatrocasino.co.uk, Apollo Entertainment Limited 38620), both HOLD pending current licence/domain and live-site checks.
+- Recorded Betfair's shared-domain multi-entity mapping as a blocker; retained 888casino as an existing candidate rather than double-counting it.
+- Research only; no publication-approved reviews added (0/100), no merge to `main`, no Cloudflare/DNS change or production deployment.
+
+
 ## Research checkpoint — batch 26 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-26-jumpman-register-domain-leads-2026-10-23.md` on `research/gb-batch-26-2026-10-23`.
 - Logged four official-register domain leads associated in search results with Jumpman Gaming Limited (39175): onlinecasinolondon.com, freebet.casino, crazykingcasino.com and 777cherry.com. All remain HOLD pending live-site, exact brand, legal terms and deduplication checks.
