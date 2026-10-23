@@ -563,3 +563,10 @@
 - Added [internal 32Red GB operator-transition/enforcement dossier](docs/reviews/internal/32red-casino-gb-operator-transition-enforcement-2026-10-23.md), commit `7d5921bb11a12111c4ad68f2e2416d61b09718b5`.
 - Important correction: former 32Red Limited (account 39430) surrendered its GB remote permissions effective 12 March 2025; the UKGC now lists `www.32red.com` as Active under Platinum Gaming Limited (account 45322), which has an active remote casino licence. The dossier also captures the UKGC's 23 March 2023 enforcement announcement and carefully separates the penalties/findings for the two entities.
 - Current terms, offers, cashier, complaints/ADR, privacy/cookies, accessibility and later enforcement/court status still require verification. 32Red stays HOLD. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
+
+
+## Great Britain — Unibet Casino licence/domain and enforcement evidence (23 October 2026)
+- Added [internal Unibet Casino GB evidence dossier](docs/reviews/internal/unibet-casino-gb-licence-enforcement-evidence-2026-10-23.md), commit `c55102555a8c8a8b0e06f175f4a5316c460ba156`.
+- UKGC account 45322 lists Platinum Gaming Limited with active Remote Casino licence `045322-R-324275-020` and lists `www.unibet.co.uk` as Active. The same domain register lists `www.32red.com` under the same licensee, so brand records must stay distinct while the common operator is explicit.
+- Captured the UKGC 23 March 2023 enforcement announcement: £2,937,599 attributed to Platinum Gaming Limited and £4,195,655 to 32Red Limited in a combined package. Dossier scopes findings to the historical investigations and does not imply current controls remain deficient.
+- Current full terms, offers, cashier/withdrawals, complaints/ADR, privacy/cookies, accessibility and later enforcement/court status remain outstanding. Unibet stays HOLD; approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
