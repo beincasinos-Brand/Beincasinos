@@ -7,7 +7,7 @@
 - 22/100 brand cards have sourced logo candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
 - The original 20-candidate spot-check found 18 candidates on successfully extracted official pages; two pages timed out (Admiral Switzerland and Betinia NJ). Silkbet's homepage subsequently exposed `https://silkbet.bet/assets/silkbet-gold.svg`, bringing the current count to 19 candidates found in extracted official-page image links, with the same two original timeouts. An additional official-site image candidate was found for Ember Casino NJ.
 - Jollie's card and asset register use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was a social-preview image rather than the preferred logo.
-- All 21 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
+- All 22 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
 
 
 ## Candidate pages checked
@@ -47,15 +47,22 @@ Directory: `brand-directory/index.html`
 
 - Added Silkbet's `https://silkbet.bet/assets/silkbet-gold.svg` after the official Silkbet homepage exposed it as an image link. It is labelled `SOURCE FOUND · RIGHTS PENDING` and has a monogram fallback. This does not grant republication rights.
 - Tried the tracker-listed BigBangBet homepage, but the fetch returned `invalid_url`; no image URL was guessed. Its directory card retains the custom artwork and the asset register marks it `NOT SOURCED`.
-- Current directory count: 21 candidate logo image tags across 100 cards; all remain subject to direct-load, identity and rights checks. The two replaced category placeholders are removed from the 100-brand list.
+- Current directory count: 22 official-site image candidate tags across 100 cards; all remain subject to direct-load, identity and rights checks. The France/Australia category placeholders and the planned Maine Caesars category placeholder are removed from the 100-brand list.
 
 
 ## Inventory reconciliation — 23 October 2026
 
-The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 22 image elements, 22 visible rights-pending labels, and 22 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 79 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
+The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 22 image elements, 22 visible rights-pending labels, and 22 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 78 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
 
 
 ### Ember Casino image candidate — 23 October 2026
 
 - Added `https://nj.embercasino.com/library/.customization/preloader_logo_bg.png?t=1792789912595` after the official Ember Casino NJ homepage exposed it in its image links.
 - The card uses a fallback monogram and remains visibly marked **SOURCE FOUND · RIGHTS PENDING**. Confirm the asset's direct rendering and any reuse permission before production publication; source-page presence is not a licence.
+
+
+### Brand-list qualification correction — 23 October 2026
+
+- Replaced the excluded, planned Maine entry `Caesars online casino brands` with `Horseshoe Online Casino (Michigan)`, using the Michigan Gaming Control Board's authorized-platform page, which lists Caesars/Horseshoe and the Michigan casino-games URL `https://horseshoeonlinecasino.com/us/mi/casino`.
+- The replacement is Michigan-only and remains HOLD. The exact customer-contracting entity, current consumer terms, payments, complaints, safer-gambling controls and enforcement history still need review. It is not a claim of consumer testing or a positive review.
+- The replacement does not add an image asset; its CSS artwork remains clearly editorial. Current static inventory remains 100 unique brand labels and 22 sourced image candidates, all rights pending.
