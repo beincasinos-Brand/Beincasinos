@@ -1,3 +1,13 @@
+# Latest research checkpoint — 23 October 2026, batch 10
+
+- Added `docs/gb-brand-verification-follow-up-batch-10-2026-10-23.md` on branch `research/gb-batch-10-2026-10-23`.
+- Five first-stage consumer leads recorded: Big Bang Bet / InnoBoom Limited (101150), BetGoodwin / Goodwin Racing Limited (2927), Horizons Casino / Horizons Leisure Limited (51540), Hippodrome Casino online / Hippodrome Casino Limited (29471), and BetVickers / J R & S LEISURE LTD (66877).
+- Every lead remains HOLD pending confirmation from the official domain-names and licence tabs, live terms/footer, casino product scope, actions, payments, complaints and safer-gambling evidence.
+- Entity-resolution warning added: current register-derived data appears to show both Dribble Media Limited trading as Midnite (42647) and Midnite Limited (101839) with casino-related licensing. Do not merge them or double-count a brand until the live domain and terms establish the correct relationship.
+- Outcome: **5 new leads, 0 approved brands, 0 approved reviews**. Approved reviews remain **0/100**.
+- File commit: `9967239639da714e15918965b2b38642b3dcd4a3`. Research branch only; no main merge, Cloudflare Pages deploy, DNS change or Search Console write.
+- Official source caveat: https://www.gamblingcommission.gov.uk/public-register/businesses/
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
