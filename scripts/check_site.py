@@ -950,6 +950,14 @@ if brand_research_page.is_file():
             errors.append(f"brand-research/index.html: missing research safety/disclosure: {required_phrase}")
     if "32Red" in brand_research_source or "Betfred (ES)" in brand_research_source:
         errors.append("brand-research/index.html: rejected/excluded candidates must not be counted in the 100-brand research register")
+    if brand_research_source.count('<article class="brand-card">') != 100:
+        errors.append("brand-research/index.html: expected exactly 100 candidate cards")
+    if brand_research_source.count('class="status">Not approved · HOLD') != 100:
+        errors.append("brand-research/index.html: every candidate must visibly remain HOLD")
+    if brand_research_source.count('class="evidence-highlight"') < 7:
+        errors.append("brand-research/index.html: first seven priority cards need sourced primary-evidence highlights")
+    if "not official brand logos" not in brand_research_source:
+        errors.append("brand-research/index.html: brand image provenance disclosure is missing")
 else:
     errors.append("brand-research/index.html is missing")
 
