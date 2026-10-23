@@ -12,7 +12,7 @@
 | Unique brand labels | 100 |
 | Visible research snapshots | 100/100 |
 | Legal-operator field populated | 46/100 |
-| Official-domain field populated | 46/100 |
+| Official-domain field populated | 48/100 |
 | Regulator/authority field | 100/100 |
 | Evidence-grade field | 100/100 |
 | Verification checklist | 100/100 |
