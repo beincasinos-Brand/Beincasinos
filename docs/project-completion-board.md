@@ -521,3 +521,10 @@
 - Added `docs/reviews/internal/betway-spain-dgoj-licence-evidence-refresh-2026-10-23.md` based on the official DGOJ operator profile and technical-system record.
 - DGOJ identifies BETWAY SPAIN, S.A. / Betway and `betway.es`; its profile lists specific permissions including gaming machines, roulette and blackjack, and a 3 September 2025 technical-system homologation decision.
 - Consumer terms, offer-specific conditions, payments/withdrawals, complaints, safer-gambling controls, privacy/cookies and accessibility remain open. Betway stays HOLD; approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Holland Casino Online — help-centre recheck (23 October 2026)
+- Updated `docs/reviews/internal/holland-casino-online-nl-evidence-review-2026-10-23.md` with fresh operator help-centre extracts.
+- Captured published withdrawal terms: 30-minute reconsideration period, typical 15–30 minute arrival after processing (operator-stated, not tested), €0.01 minimum and €25,000 maximum per withdrawal, no operator-added withdrawal fee (bank/payment fees may apply), and possible extra document checks.
+- Captured published responsible-play tools: deposit limits, login-time limits, time-out, 6/12-month self-exclusion, automatic withdrawal limit and self-test. No account controls were tested.
+- Still HOLD pending full current terms, offer-specific rules, deposits, complaints/ADR, privacy/cookies, accessibility, enforcement check and independent second review. Approved reviews remain 0/100; no CI/deploy triggered.
