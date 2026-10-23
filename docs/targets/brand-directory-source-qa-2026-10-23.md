@@ -12,26 +12,26 @@
 | Unique brand labels | 100 |
 | Visible research snapshots | 100/100 |
 | Legal-operator field populated | 50/100 |
-| Official-domain field populated | 51/100 |
+| Official-domain field populated | 53/100 |
 | Regulator/authority field | 100/100 |
 | Evidence-grade field | 100/100 |
 | Verification checklist | 100/100 |
 | Research-context panel | 100/100 |
-| Sourced image candidates | 48/100 |
-| Candidate images with alt text | 48/48 |
-| Candidate images with explicit width/height | 48/48 |
-| Candidate images with lazy loading | 48/48 |
-| Candidate images with error fallback | 48/48 |
-| Visible rights-pending labels | 48 |
+| Sourced image candidates | 50/100 |
+| Candidate images with alt text | 50/50 |
+| Candidate images with explicit width/height | 50/50 |
+| Candidate images with lazy loading | 50/50 |
+| Candidate images with error fallback | 50/50 |
+| Visible rights-pending labels | 50 |
 | Rows in image asset register | 100 |
-| Rows with a sourced candidate | 48 |
+| Rows with a sourced candidate | 50 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Interpretation and gaps
 
-- 48 cards have a sourced image candidate. All 48 remain **SOURCE FOUND · RIGHTS PENDING**; the asset register does not establish permission to republish.
-- 52 cards use original CSS artwork and monograms, not official brand logos or photographs.
+- 50 cards have a sourced image candidate. All 50 remain **SOURCE FOUND · RIGHTS PENDING**; the asset register does not establish permission to republish.
+- 50 cards use original CSS artwork and monograms, not official brand logos or photographs.
 - A populated official-domain field does not mean that the exact brand/domain is approved for the named jurisdiction. TOTO and Kansino retain explicit Ksa brand/domain and casino-scope caveats.
 - The legal-operator field is populated on 46 cards. Some values are reported permit holders whose exact brand/domain match remains pending; they are not legal sign-off.
 - Evidence-grade distribution: A 44, B 7, C 49. These are evidence grades, not quality scores. Current status distribution is 99 HOLD and 1 EXCLUDE.
@@ -54,6 +54,7 @@ Earlier sections and commits record historical snapshots from before the image-c
 
 
 
+
 ## Authoritative current directory state — 23 October 2026
 
-Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 48 sourced image candidates, 48 rights-pending labels and 52 CSS artwork/monogram fallbacks**. The image register has 100 rows, 48 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 51/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Four operator notes were strengthened from official-site terms/homepage statements (Onyx Gaming Ltd, ProgressPlay Limited, Videoslots Limited and Jumpman Gaming Limited), but exact current UKGC register/domain matching remains a publication gate. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
