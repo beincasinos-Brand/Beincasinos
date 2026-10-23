@@ -75,3 +75,10 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 ## Ontario evidence update — 23 October 2026
 - Added `docs/reviews/internal/betano-casino-ontario-evidence-2026-10-23.md`. iGaming Ontario's operator directory lists Betano under Kaizen Gaming Canada Inc. with casino and sports-betting categories (directory dated 1 September 2026). First-party terms summary, deposit-method guidance, withdrawal-processing estimates and responsible-gaming pages were captured with dates. The evidence distinguishes operator statements from tested outcomes and blocks publication pending complete binding terms, exact current entity/domain match, privacy/cookie review, enforcement search, lawful UX/accessibility checks, authorised image rights, second review and legal/editorial sign-off.
 - Betano Ontario remains **HOLD** and is not an approved review. The addition increases internal evidence drafts from 17 to 18; approved reviews remain **0/100**. No Actions workflow or production deployment was triggered.
+
+
+## Homepage design update — 23 October 2026
+- Added a responsive 12-market research showcase to the homepage, with clear market-specific verification notes and separate legal-scope cautions for Australia and France.
+- Added responsive three-column / two-column / single-column card layouts, compact regulator-check labels, hover states that respect reduced-motion preferences, and an explicit note that market cards are research scopes—not approved casino recommendations.
+- Updated `index.html` and `styles.css` on the existing draft PR branch. Static source verification confirms all 12 market cards and responsive CSS are present. Production deployment, live visual QA, accessibility audit and real-device screenshot checks remain outstanding.
+- This is a design/content-navigation improvement, not a review-count increase. Approved reviews remain **0/100**; do not infer that the site is deployed from branch commits.
