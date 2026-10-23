@@ -230,3 +230,13 @@ Latest branch-source audit: **100 unique brand cards, 100 visible research snaps
 - Internal evidence pack: `docs/reviews/internal/bet365-casino-gb-evidence-2026-10-22.md`.
 - **Counting decision:** this is a source refresh only. It does not close the full casino rules, cashier, complaints/ADR, safer-gambling usability, privacy/cookie, accessibility, consumer-testing or second-review gates. The approved-review count remains **0/100** and the review remains **HOLD**.
 - **Production:** no Cloudflare deployment was performed and no public page was changed by this evidence-only pass.
+
+
+## Target continuation — Grosvenor Casino regulatory refresh (23 October 2026)
+
+- Rechecked the UKGC account 614 licence summary and active trading-name record.
+- Added the regulator's 7 October 2026 settlement/public statement to the internal Grosvenor evidence pack, including the £5,012,261 payment in lieu of a financial penalty and the reported AML and premises-based safer-gambling control failures.
+- Explicitly separated this account-614 regulatory context from the online terms' stated contracting entity, Rank Interactive (Gibraltar) Limited/account 57924. The online domain/entity mapping remains an open HOLD gate.
+- Evidence file: `docs/reviews/internal/grosvenor-casino-gb-evidence-2026-10-23.md`.
+- Counting decision: evidence refresh only; no full consumer review completed or independently approved. This does not increase the approved-review count.
+- Production status: internal documentation only; no public page change and no Cloudflare deployment.
