@@ -1,3 +1,10 @@
+
+
+## Batch 34 — 888casino Great Britain evidence gap closure (2026-10-23)
+- Added [batch 34 evidence log](docs/research/gb-batch-34-888casino-evidence-gaps-2026-10-23.md) and updated the [internal 888casino GB draft](docs/reviews/internal/888casino-gb-evidence-review-2026-10-23.md) and [100-brand tracker](docs/targets/100-brand-review-target-tracker-2026-10-23.md).
+- UKGC account 39028 still shows Casino Remote Active and `888casino.com` Active. Operator licensing disclosure identifies 888 UK Limited for UK services.
+- Corrected source selection: the generic user-agreement page explicitly excludes UK users and points to a GB-specific agreement. Attempts to fetch the GB agreement and linked payment/withdrawal/bonus/responsible-gambling/privacy/cookie pages timed out; access result is inconclusive, not evidence those policies are absent.
+- 888casino remains HOLD; approved reviews remain **0/100**. No account or transaction tests, no main branch change, no production deploy, no DNS change. Commit messages use `[CF-Pages-Skip]` to conserve Actions minutes.
 # Latest research and CI checkpoint — 22 October 2026
 
 - PR #26 merged after the complete integrated CI job passed, including Chromium browser smoke tests, the public-only deployment artifact build, and the check that internal research files are excluded from that artifact: https://github.com/beincasinos-Brand/BeInCasinos/pull/26
