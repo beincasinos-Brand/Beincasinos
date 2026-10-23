@@ -1,0 +1,26 @@
+# Official-site image candidate QA — 23 October 2026
+
+**Scope:** spot-check of the 20 image candidates currently used in the 100-brand directory. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
+
+## Results
+
+- 20 image candidate records are registered and linked to claimed official source pages.
+- 17 candidate URLs were found in the image lists extracted from their official source pages on this pass.
+- One mismatch was corrected: Jollie's card and asset register now use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was an official social-preview image rather than the preferred logo.
+- Two source pages timed out during the automated check: Admiral Switzerland and Betinia NJ. Their assets remain **source found / rights pending**, not verified by this pass.
+- All 20 cards retain a fallback monogram and the visible **SOURCE FOUND · RIGHTS PENDING** label.
+
+## Candidate pages checked
+
+Successful page extraction: Casineo, Jollie, Betsuna, Vegas Club Casino, Casushi, FruitKings, Betcrown, BetLegend, BetNero, Casiku, Peachy Games, PlaySunny, PlayWins, BetFusion, Megaways Casino, LuckyMate, 7Bet, and Justin Casino.
+
+Timed out: Admiral Switzerland and Betinia NJ.
+
+## Publication gate
+
+Do not describe any logo as licensed for reuse based on this check. Keep permissions pending until terms, written permission, or another valid reuse basis is recorded. Keep the directory `noindex,follow` until brand-level legal scope, evidence, image rights, and editorial approval are complete. Image-source presence does not validate a brand's licence or availability in every market.
+
+## Reproduction
+
+Asset register: `docs/targets/brand-image-asset-register-2026-10-23.csv`  
+Directory: `brand-directory/index.html`
