@@ -46,6 +46,8 @@
 - The targeted ADR route repair workflow previously failed before purge with Cloudflare API HTTP 401 / error 10000 (authentication error); no cache purge was accepted. See [issue #14](https://github.com/beincasinos-Brand/BeIncasinos/issues/14) and [workflow run](https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39749376879). A current content fetch can read the canonical guide, but this alone does not prove the edge returned raw HTTP 200.
 - The latest static site check run for the previous research commit passed, including Chromium browser smoke tests. The latest run after batch 3 was still in progress at the last check; do not call it passed until it finishes.
 
+- **Candidate registry populated:** the 100-row candidate CSV now has first-pass GB operator/licence/market-scope/source notes and explicit HOLD gates filled for 24 existing candidate rows (including 888casino, Betway, Betfred, Sky Vegas, William Hill, Ladbrokes, Coral, Virgin Games, PlayOJO, Mr Vegas, LeoVegas, Unibet, PokerStars, Betfair, bwin, Casumo, Mr Green, Betsson, Betano, Paddy Power Games, Grosvenor, Videoslots, 32Red and Rizk). This is research progress, not approval: unresolved markets/entities stay HOLD, non-eligible GB candidates are explicitly marked for exclusion unless new primary evidence appears, and 0/100 candidates are approved for publication.
+
 ## What counts as a verified brand
 
 A brand only counts toward the 100 verified target when all required fields are recorded in `docs/brand-research-template.csv` / `docs/brand-profile-template.md` and independently checked:
