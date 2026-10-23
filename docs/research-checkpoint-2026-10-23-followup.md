@@ -201,3 +201,14 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Recorded the 21 October 2026 £900,000 settlement and the regulator's findings about unfair withdrawal terms/delays, AML/CTF controls, safer-gambling interactions and technical-limit testing. The regulator also says withdrawal handling was amended; independent current-state verification remains required.
 - Do not count all listed domains as independent reviews. Each consumer-facing brand needs its own current terms, payment, complaints, safer-gambling and independent feedback checks.
 - Status **HOLD / DRAFT**. Approved public brand reviews contributed by this dossier: **0**.
+
+
+## 21. QuinnBet GB research dossier added
+
+- File: `docs/brand-profile-quinnbet-gb-draft.md`
+- Commit: `090bbab20d3f316a2fed2e74117c0c46f95b986c`
+- UKGC identifies QuinnBet (Gibraltar) Limited, account 61011, as the operator of quinnbet.com.
+- Recorded the 20 August 2026 £609,104 settlement for AML/CTF, customer-interaction and financial-vulnerability-check failures. The regulator described examples involving missed high-risk betting patterns and ineffective financial/source-of-funds controls.
+- The regulator says the operator took remedial action; current controls still require independent verification.
+- Current terms, promotions, payments/withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open.
+- Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
