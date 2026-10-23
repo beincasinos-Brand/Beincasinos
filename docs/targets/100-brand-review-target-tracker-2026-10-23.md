@@ -156,3 +156,5 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 - Replaced the France and Australia category placeholders (not actual brands) with Silkbet and BigBangBet, using the official UKGC register/domain evidence already recorded in the master prospect tracker. Both remain HOLD: live consumer-product status, current terms, withdrawals, complaints, safer-gambling controls and enforcement history still require review.
 - Added a visible market-scope guardrail stating France and Australia are excluded from this online-casino directory. Current source-level check confirms 100 cards and 100 unique card labels. Page remains noindex and no production deployment is confirmed.
+
+- Image follow-up: Silkbet official homepage exposed an SVG candidate now added to the directory and asset register, marked rights pending. BigBangBet's official homepage fetch returned `invalid_url`, so no speculative image URL was added. Current total is 21 sourced logo candidates; image rights remain unconfirmed.
