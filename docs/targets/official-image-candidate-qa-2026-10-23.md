@@ -119,11 +119,7 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
 
 
+
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
-The latest `brand-directory/index.html` and `brand-image-asset-register-2026-10-23.csv` were fetched and counted together. Current source of truth: **100 unique brand cards; 100 visible research snapshots; 41 sourced image candidates with matching rights-pending labels and fallback monograms; 59 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 41 image tags have alt text, width/height, lazy loading and error fallback. These are source-level checks only. Asset URLs have not all been directly loaded or visually inspected, and no reuse permission is established. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 remains open/draft/unmerged and is not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere in this file are historical snapshots, not the current inventory.
-
-
-### Latest image inventory — Tonybet candidate — 23 October 2026
-
-Tonybet's official page metadata exposed `https://d1130drgd67wse.cloudfront.net/site/upload/logos/5820ce91-5941-4940-9847-1122c80ae6df/1784552358_logo-old.png`. The page itself was country-blocked, so the asset remains an unverified image candidate, not evidence of Dutch availability or casino authorisation. It is marked rights pending. Current source count is 42/100 image candidates, with 58 CSS-art/monogram fallbacks; image permissions remain unconfirmed.
+Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
