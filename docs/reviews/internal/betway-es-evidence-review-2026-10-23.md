@@ -63,3 +63,25 @@ The first-party homepage https://www.betway.es timed out during this pass. That 
 - [ ] Complete legal/editorial approval and affiliate disclosure.
 
 **Decision: HOLD.** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
+
+
+## DGOJ register recheck — 23 October 2026
+
+The current DGOJ individual operator profile was rechecked for this refresh. It still identifies **BETWAY SPAIN, S.A.**, lists **https://www.betway.es** as its domain, and shows singular licences for Black Jack, Ruleta and Máquinas de azar alongside betting categories. The profile also continues to display adherence to the DGOJ phishing-alert service and advertising authorisation.
+
+The visible dated licence/system records include:
+- **3 September 2025:** second technical-system homologation for the general betting licence and the slots licence.
+- **11 October 2024:** extension of the general betting licence.
+- **27 September 2024:** extension of the slots licence.
+- **5 April 2024:** extensions for Black Jack, Ruleta and horse-racing counterparty bets.
+
+Primary source (rechecked): https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/betway-spain-sa
+
+### Scope and editorial control
+
+- These are register facts, not proof that the current site is accessible, that all licensed products are currently offered, or that a consumer can use every game.
+- The DGOJ profile includes betting permissions as well as casino-game permissions; do not describe betting permissions as casino licensing.
+- The first-party site access failure noted in the initial review remains unresolved. This register refresh does not validate current Spanish terms, welcome offer, payment methods, withdrawals, complaints/ADR, safer-gambling controls, privacy/cookies or accessibility.
+- No enforcement-history conclusion is drawn from the licence profile alone; the current DGOJ sanctions records still need a separate entity-specific check.
+
+**Disposition remains HOLD.** No score, recommendation, or publication approval is authorised by this update.
