@@ -210,11 +210,7 @@ Added official-page candidates for VBET Netherlands, Fair Play Casino Netherland
 Added official-page favicon candidates for Horseshoe Online Casino (Michigan) and BestOdds. These are small icons only, not full-size logo assets; both remain rights pending. Current directory inventory is 41/100 sourced image candidates, with 59 cards retaining CSS-generated artwork/monogram fallbacks. This does not change the 0/100 approved-review status or the noindex publication gate.
 
 
+
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
-The latest `brand-directory/index.html` and `brand-image-asset-register-2026-10-23.csv` were fetched and counted together. Current source of truth: **100 unique brand cards; 100 visible research snapshots; 41 sourced image candidates with matching rights-pending labels and fallback monograms; 59 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 41 image tags have alt text, width/height, lazy loading and error fallback. These are source-level checks only. Asset URLs have not all been directly loaded or visually inspected, and no reuse permission is established. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 remains open/draft/unmerged and is not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere in this file are historical snapshots, not the current inventory.
-
-
-### Latest directory source audit — 23 October 2026
-
-Current checked source: 100 unique cards, 100 visible research snapshots, 42 image candidates and 58 CSS-art/monogram fallbacks. All 42 candidates are marked rights pending and use alt text, dimensions, lazy loading and an error fallback. The latest copy pass expanded verification gates on ten preliminary leads without upgrading their evidence status. Approved reviews remain 0/100; page remains `noindex,follow`; PR #36 remains draft/unmerged/non-mergeable. No Cloudflare production deployment is confirmed.
+Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
