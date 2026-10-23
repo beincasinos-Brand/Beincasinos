@@ -15,6 +15,7 @@
 | Cards with evidence-grade field | 100/100 |
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
+| Visible source-backed research snapshots | 100/100 |
 | Logo/image candidates | 25 |
 | Candidate images with alt text | 25/25 |
 | Candidate images with explicit width/height | 25/25 |
@@ -45,3 +46,10 @@ The 100-card list no longer includes the excluded planned Maine placeholder `Cae
 ## Official-site image follow-up — 23 October 2026
 
 Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 25 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
+
+
+## Visible content enhancement — 23 October 2026
+
+Added a visible **Research snapshot** to each of the 100 cards, drawn from that card's existing research-context paragraph, so key evidence/limitations are not hidden entirely inside the expandable panel. This is an editorial presentation enhancement, not new verification. Ten snapshots remain intentionally short because the underlying evidence is only a preliminary lead; they should stay marked as research leads rather than be padded with unsupported claims.
+
+Post-change source audit: 100 cards, 100 unique names, 100 visible snapshots, 100 context panels, 25 image candidates with alt text/dimensions/lazy loading, 25 rights-pending labels, no duplicate IDs, no unsafe new-tab links. Page remains `noindex,follow`.
