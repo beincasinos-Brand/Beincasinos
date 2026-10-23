@@ -463,3 +463,11 @@
 3. Review payments, withdrawal rules, current bonus terms (if mentioned), complaints/escalation, privacy/contact, safer-gambling resources, game-permit scope, and regulator enforcement history.
 4. Capture dated primary-source evidence, resolve discrepancies, and require second-editor sign-off before counting a brand as fully verified.
 5. Repeat with additional regulated jurisdictions until 100 profiles pass the complete verification gate. Keep candidates that lack evidence on HOLD rather than inflating the total.
+
+
+## TOTO Netherlands evidence refresh — 23 October 2026
+- Updated internal dossier: `docs/reviews/internal/toto-casino-nl-evidence-review-2026-10-23.md` on branch `research/nl-batch-35-toto-renewal-enforcement-2026-10-23`.
+- Re-fetched the Ksa's 17 September 2026 continuation-licence notice: TOTO Online B.V. (TOTO and Winnitt) is listed for October 2026–September 2031. TOTO's own licence, casino, responsible-play, privacy and bonus routes were also rechecked.
+- Material unresolved gate: the Ksa's 24 December 2025 Wwft-instruction summary required corrective steps within six months followed by reinspection. That period has elapsed, but no reinspection/follow-up outcome was verified in this pass. Do not infer either continued non-compliance or completed remediation.
+- Current casino welcome-bonus route states eligibility is limited to new players aged 24 or older; full offer-specific conditions were not extracted, so no numeric offer or wagering claims are approved.
+- **Status remains HOLD; this work adds zero approved reviews.** No CI workflow, Cloudflare Pages deployment, DNS change, or Search Console write was triggered. All internal evidence remains excluded from public output.
