@@ -65,7 +65,7 @@ The current HTML and asset register were re-counted after adding Silkbet and Emb
 
 - Replaced the excluded, planned Maine entry `Caesars online casino brands` with `Horseshoe Online Casino (Michigan)`, using the Michigan Gaming Control Board's authorized-platform page, which lists Caesars/Horseshoe and the Michigan casino-games URL `https://horseshoeonlinecasino.com/us/mi/casino`.
 - The replacement is Michigan-only and remains HOLD. The exact customer-contracting entity, current consumer terms, payments, complaints, safer-gambling controls and enforcement history still need review. It is not a claim of consumer testing or a positive review.
-- The replacement does not add an image asset; its CSS artwork remains clearly editorial. Current static inventory remains 100 unique brand labels and 22 sourced image candidates, all rights pending.
+- The replacement does not add an image asset; its CSS artwork remains clearly editorial. Current static inventory remains 100 unique brand labels and 43 sourced image candidates, all rights pending.
 
 
 ### Official-site image follow-up — 23 October 2026
@@ -87,21 +87,21 @@ Three candidates were added and marked rights pending:
 - **Midnite:** `https://www.midnite.com/images/brands/midnite/logo-emblem-2025.svg` from the official homepage; likely an emblem rather than a full wordmark.
 - **Winz.nl:** `https://www.winz.nl/_internal/hy-images/cmv4yct4d06bo01uzglxp45qb/x0AngDYSTKOQGUOy7vFO`, exposed as the official homepage favicon; small-icon candidate only.
 
-Current inventory: 25/100 image candidates, all rights pending; 75 cards retain editorial CSS artwork/monograms. Source presence is not reuse permission.
+Current inventory: 25/43 image candidates, all rights pending; 75 cards retain editorial CSS artwork/monograms. Source presence is not reuse permission.
 
 
 ### Current reconciliation — 23 October 2026
 
-- Current directory and asset register contain **34/100 sourced image candidates**, all rights pending, with fallback monograms.
+- Current directory and asset register contain **43/43 sourced image candidates**, all rights pending, with fallback monograms.
 - Added official-site candidate for Brillbet: `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`, exposed on the Brillbet site. During extraction, the official URL redirected to a customer-service notice; verify the consumer product remains active before publication.
 - The three favicon/small-icon candidates (888.nl, BetTOM, 44Aces) and Winz.nl's favicon candidate should not be described as full-size logos.
 - ThreeSix Vegas asset is sourced from `36vegascasinos.uk` while the directory lists `36vegas.co.uk`; relationship needs confirmation.
-- 70 cards use CSS-generated editorial artwork. No reuse permission is established by source-page presence.
+- 57 cards use CSS-generated editorial artwork. No reuse permission is established by source-page presence.
 
 
 ### Starcasino official logo candidate — 23 October 2026
 
-The official Starcasino casino page exposed `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It has been added as a rights-pending candidate. The source page does not establish permission to reuse the logo. Current inventory: 30/100 image candidates; 70 cards use editorial CSS artwork/monograms.
+The official Starcasino casino page exposed `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It has been added as a rights-pending candidate. The source page does not establish permission to reuse the logo. Current inventory: 30/43 image candidates; 70 cards use editorial CSS artwork/monograms.
 
 
 ### Additional official-site image candidates — 23 October 2026
@@ -116,7 +116,8 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 
 ### Final image inventory reconciliation — 23 October 2026
 
-Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 43 sourced image candidates and 34 matching rights-pending labels. The remaining 57 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+
 
 
 
@@ -124,7 +125,6 @@ Current checked source state: 100 unique brand cards, 100 visible research snaps
 
 Latest HTML and image-register audit: **100 unique brand cards; 100 visible research snapshots; 43 sourced image candidates with matching rights-pending labels and fallback monograms; 57 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 43 image tags have alt text, width/height, lazy loading and an error fallback. Asset URLs have not all been directly loaded or visually inspected, and source presence does not establish reuse permission. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 is open/draft/unmerged and not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere are historical snapshots, not the current inventory.
 
+### Fanatics image candidate — 23 October 2026
 
-### Latest source-count reconciliation — 23 October 2026
-
-A fresh fetch of the directory and asset register reports **43/100** sourced image candidates and **57/100** CSS-art/monogram fallbacks. This supersedes earlier count snapshots in this working note. All image candidates remain rights pending; direct asset rendering and reuse permissions are not uniformly verified.
+Added an image exposed by the official Fanatics Sports & Casino homepage for the Fanatics Casino research card. The candidate is labelled rights pending; the exact New Jersey authorized-product/domain mapping is still unconfirmed, so this is an image lead only and does not upgrade the card's HOLD status. The 247Bet homepage extraction returned `content_too_large`; Tipico's casino page returned HTTP 403; Casino and Friends returned a bot block; BigBangBet returned an invalid URL; Neptune Play redirected to a blocked-country page. No asset URLs were guessed for these pages.
