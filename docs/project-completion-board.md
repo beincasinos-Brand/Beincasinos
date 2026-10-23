@@ -706,3 +706,5 @@ A read-only GitHub source check after the market-page commits confirmed: 46 inde
 - Moved the register's styling and filter logic to same-origin `brand-research/research.css` and `brand-research/research.js`, consistent with the prepared Cloudflare Content Security Policy. The build allowlist and artifact guard already require the register page and its assets.
 - The register remains `noindex,follow` until candidate evidence and editorial approval are complete; it is accessible through site navigation, but is intentionally not added to the XML sitemap yet. This is not the 100 approved consumer-review milestone.
 - No CI run, browser run, deployment, DNS change, or main merge performed in this follow-up. Source files were reviewed through GitHub API only; do not report runtime test success.
+
+- Privacy follow-up: updated `privacy/index.html` to disclose that the public register loads favicon previews from Google’s favicon service, that requests leave BeInCasinos, and that Google’s privacy policy applies. The register itself also labels these as third-party visual aids, not verified official logos.
