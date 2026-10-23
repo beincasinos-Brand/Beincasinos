@@ -132,6 +132,20 @@ def resolve_local_url(page, raw):
     return target.resolve(), parsed.fragment
 
 
+# The public research register is intentionally noindex until its evidence and editorial gates pass.
+research_page = ROOT / "brand-research" / "index.html"
+if research_page.is_file():
+    research_html = research_page.read_text(encoding="utf-8")
+    card_count = research_html.count('class="brand-card"')
+    if card_count != 100:
+        errors.append(f"brand-research/index.html: expected 100 unique brand cards, found {card_count}")
+    if not re.search(r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\'][^"\\']*noindex', research_html, re.I):
+        errors.append("brand-research/index.html: research register must remain noindex until publication approval")
+    if research_html.count('class="brand-logo"') < 100:
+        errors.append("brand-research/index.html: expected a visual favicon preview for each candidate")
+    if 'href="/brand-research/research.css"' not in research_html or 'src="/brand-research/research.js"' not in research_html:
+        errors.append("brand-research/index.html: external CSP-compatible CSS/JS assets are missing")
+
 for page in pages:
     rel = page.relative_to(ROOT).as_posix()
     parser = PageParser()
