@@ -79,3 +79,24 @@ The corrected 46-URL repository sitemap was used as the test set against the liv
 ## North-star execution plan — 23 October 2026
 
 A separate phased operating plan now defines the 10-million-daily-impressions ambition as a measured north star, not a forecast: `docs/research/10m-daily-impressions-execution-plan-2026-10-23.md`. It records the known 46-URL crawl-extraction limitation, the absent verified Search Console baseline, staged measurement gates, lawful-market rules, technical/indexation prerequisites, first-10-review quality gates, query-led iteration and weekly scorecard. No deployment or Search Console write is implied by this research update.
+
+
+## Live follow-up QA — 23 October 2026
+
+Read-only recheck of the live sitemap, robots file, review directory, guide index, markets directory and methodology completed.
+
+- Live sitemap still announces **46 URLs** and includes `/markets/` and `/guides/casino-review-evidence-checklist/`. This confirms the live sitemap now exposes those routes; it does not establish that Google has indexed them.
+- `robots.txt` still allows crawling and advertises the sitemap.
+- The public review directory correctly states that there are no scored/ranked casino profiles yet and that individual profiles will appear only after market-specific checks.
+- **New consistency issue:** the live `/markets/` page heading says “Ten markets”, while the owner-confirmed target geography plan names **12** geographies (AU, CA, GB, US, CH, DE, NL, SE, ES, IT, FR, BE). Align the public page heading and table with the approved scope before representing all 12 as covered. Do not silently count US/Canada sub-jurisdictions as nationwide casino permission.
+- Existing guide index already covers licence checks, brand vs legal operator, withdrawal processing/verification, complaints/ADR, bonus rules, RTP/probability, safer gambling, regulatory actions and affiliate transparency. Prioritise improving and interlinking these useful pages rather than creating near-duplicates.
+- The extractor reported no errors for the six sampled routes. This is content extraction, not an authoritative HTTP-status/header or Google indexation test.
+- Search Console baseline is still not verified in this audit; no impressions-per-day number should be claimed from this pass.
+
+### Corrective actions
+
+1. Update the markets directory's “Ten markets” heading and related explanatory copy only after reconciling the table with the 12-geography approved scope.
+2. Verify each market row against its primary regulator and the current legal scope; retain separate provincial/state permissions for Canada/US and do not recommend online casinos in restricted markets.
+3. Once a release is authorised, run direct HTTP/status/redirect/header checks and Search Console URL Inspection; record the Google-selected canonical and indexation reason.
+4. Export actual 28-day and 90-day Search Console page/query data to establish the baseline before making traffic forecasts.
+5. Keep all casino review pages out of public rankings until evidence and independent review gates pass.
