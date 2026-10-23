@@ -1,14 +1,14 @@
 # Official-site image candidate QA — 23 October 2026
 
-**Scope:** spot-check of the 20 image candidates currently used in the 100-brand directory. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
+**Current scope:** 21 sourced logo candidates are now registered in the 100-brand directory. The original 20-candidate spot-check is retained below as historical QA; Silkbet was added afterward from an image link exposed by its official homepage. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
 
-## Results
+## Current image inventory
 
-- 20 image candidate records are registered and linked to claimed official source pages.
-- 17 candidate URLs were found in the image lists extracted from their official source pages on this pass.
-- One mismatch was corrected: Jollie's card and asset register now use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was an official social-preview image rather than the preferred logo.
-- Two source pages timed out during the automated check: Admiral Switzerland and Betinia NJ. Their assets remain **source found / rights pending**, not verified by this pass.
-- All 20 cards retain a fallback monogram and the visible **SOURCE FOUND · RIGHTS PENDING** label.
+- 21/100 brand cards have sourced logo candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
+- The original 20-candidate spot-check found 18 candidates on successfully extracted official pages; two pages timed out (Admiral Switzerland and Betinia NJ). Silkbet's homepage subsequently exposed `https://silkbet.bet/assets/silkbet-gold.svg`, bringing the current count to 19 candidates found in extracted official-page image links, with the same two original timeouts.
+- Jollie's card and asset register use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was a social-preview image rather than the preferred logo.
+- All 21 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
+
 
 ## Candidate pages checked
 
@@ -48,3 +48,8 @@ Directory: `brand-directory/index.html`
 - Added Silkbet's `https://silkbet.bet/assets/silkbet-gold.svg` after the official Silkbet homepage exposed it as an image link. It is labelled `SOURCE FOUND · RIGHTS PENDING` and has a monogram fallback. This does not grant republication rights.
 - Tried the tracker-listed BigBangBet homepage, but the fetch returned `invalid_url`; no image URL was guessed. Its directory card retains the custom artwork and the asset register marks it `NOT SOURCED`.
 - Current directory count: 21 candidate logo image tags across 100 cards; all remain subject to direct-load, identity and rights checks. The two replaced category placeholders are removed from the 100-brand list.
+
+
+## Inventory reconciliation — 23 October 2026
+
+The current HTML and asset register were re-counted after adding Silkbet: **100 brand cards, 21 image elements, 21 visible rights-pending labels, and 21 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 79 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
