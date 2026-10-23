@@ -105,3 +105,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a consolidated **New Jersey authorized casino domains and review gates** research register from the live DGE list. It records candidate domains by the regulator's host grouping, distinguishes domain authorization from contract-party and product checks, and documents the regulator's complaint/escalation and responsible-gambling guidance. It is a research queue only; it does not turn unreviewed brands into verified or publishable reviews. See [NJ domain register](research/new-jersey-authorized-casino-domains-and-review-gates-2026-10-23.md).
+
+
+- Added a **New Jersey casino review scorecard and evidence schema**: hard pass/fail publication gates, weighted rubric only after gates pass, claim-level source fields, rules for attributing regulator actions, and recheck triggers. This is an internal editorial standard; it does not score or approve any brand. See [NJ scorecard and evidence schema](research/new-jersey-casino-review-scorecard-and-evidence-schema-2026-10-23.md).
