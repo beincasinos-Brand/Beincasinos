@@ -15,19 +15,19 @@
 | Cards with evidence-grade field | 100/100 |
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
-| Logo/image candidates | 22 |
-| Candidate images with alt text | 22/22 |
-| Candidate images with explicit width/height | 22/22 |
-| Candidate images with lazy loading | 22/22 |
+| Logo/image candidates | 25 |
+| Candidate images with alt text | 25/25 |
+| Candidate images with explicit width/height | 25/25 |
+| Candidate images with lazy loading | 25/25 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 22/100 cards have a sourced logo candidate; all remain **rights pending**.
-- 78/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 25/100 cards have a sourced logo candidate; all remain **rights pending**.
+- 75/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 22 logo candidates with rights pending, and 78 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 25 logo candidates with rights pending, and 75 editorial card artworks.
 
 ## Publication and deployment gates
 
@@ -39,4 +39,9 @@
 
 ## Brand-list scope correction — 23 October 2026
 
-The 100-card list no longer includes the excluded planned Maine placeholder `Caesars online casino brands`. It now includes `Horseshoe Online Casino (Michigan)`, sourced to the Michigan Gaming Control Board's authorized-platform list and exact Michigan casino URL. It remains HOLD, with exact contracting entity, current terms, payment/withdrawal, complaints, safer-gambling and enforcement checks outstanding. This change does not alter the 22-image-candidate count.
+The 100-card list no longer includes the excluded planned Maine placeholder `Caesars online casino brands`. It now includes `Horseshoe Online Casino (Michigan)`, sourced to the Michigan Gaming Control Board's authorized-platform list and exact Michigan casino URL. It remains HOLD, with exact contracting entity, current terms, payment/withdrawal, complaints, safer-gambling and enforcement checks outstanding. This change does not alter the 25-image-candidate count.
+
+
+## Official-site image follow-up — 23 October 2026
+
+Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 25 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
