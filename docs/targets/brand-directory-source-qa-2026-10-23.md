@@ -16,19 +16,19 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 30 |
-| Candidate images with alt text | 30/30 |
-| Candidate images with explicit width/height | 30/30 |
-| Candidate images with lazy loading | 30/30 |
+| Logo/image candidates | 34 |
+| Candidate images with alt text | 34/34 |
+| Candidate images with explicit width/height | 34/34 |
+| Candidate images with lazy loading | 34/34 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 30/100 cards have a sourced image candidate; all remain **rights pending**.
-- 70/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 34/100 cards have a sourced image candidate; all remain **rights pending**.
+- 66/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 30 sourced image candidates with rights pending, and 70 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 34 sourced image candidates with rights pending, and 66 editorial card artworks.
 
 ## Publication and deployment gates
 
@@ -90,3 +90,8 @@ Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansi
 ### Betty Casino image candidate — 23 October 2026
 
 Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. The current inventory is 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork. Source presence is not permission to reuse.
+
+
+### Final image inventory reconciliation — 23 October 2026
+
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
