@@ -545,3 +545,9 @@
 - The two added pages were fetched successfully and expose self-referential canonicals. Live robots allows crawling and points to the sitemap. These are crawlability signals, not proof Google indexed every URL.
 - Correction is branch-only and not deployed. Search Console URL coverage/indexing remains unverified; approved casino reviews remain 0/100 because the live directory says no profiles are scored/ranked. No main merge, Search Console write, CI run or Cloudflare deployment triggered.
 - Completed a live crawl/extraction pass for all 46 URLs in the corrected source sitemap: 46/46 returned content, with no extractor errors, final-URL changes, missing canonicals or canonical mismatches. This is not proof of Google indexation or HTTP 200; Search Console and raw response/header verification remain outstanding. Audit report updated.
+
+
+## Great Britain — bet365 Casino regulator evidence (23 October 2026)
+- Added [internal bet365 Casino GB evidence review](docs/reviews/internal/bet365-casino-gb-evidence-review-2026-10-23.md), commit `4011bd85e525d1331743a5dc0bef32c4560111fa`.
+- UKGC account 55149 identifies Hillside (UK Gaming) ENC and active Casino Remote licence `055149-R-331499-004`; the UKGC domain register lists `bet365.com` as Active. Current GB terms effective 1 October 2026 distinguish casino operator from the separate sportsbook entity and describe verification, withdrawal conditions and safer-gambling tools.
+- These are initial official-source checks only. Offer-specific rules, cashier/withdrawal details, complaints/ADR, privacy/cookies, accessibility, enforcement/court status and independent second-editor review remain open. bet365 stays HOLD; no rating or publication approval. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
