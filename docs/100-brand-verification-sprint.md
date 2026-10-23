@@ -460,3 +460,8 @@ The existing Betway Casino row now links the UKGC account, domain, trading-name 
 - Refreshed the [Ladbrokes GB profile](brand-profile-ladbrokes-uk-draft.md) to separate account 1611 from LC International Limited/account 54743. The latter register record lists active `ladbrokes.com` and `coral.co.uk` domains; the former lists active brand trading names but no account-level domains. The tracker now records the same distinction for Ladbrokes and Coral without treating group accounts as interchangeable.
 - The 100-brand CSV has been updated in place for Betway Casino, Ladbrokes Casino and Coral Casino. All remain HOLD while exact customer contract terms, payments, complaints/ADR, safer-gambling, privacy, hands-on usability and independent editorial/commercial approval remain incomplete.
 - Research/documentation only; no GitHub Actions run or deployment triggered.
+
+
+## Paddy Power source refresh — 2026-10-23
+
+The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and corresponding CSV candidate row now record account 39426's active Casino Remote permission, active `paddy power` trading name, `www.paddypower.com` domain, and the UKGC settlement dated 17 December 2025. The settlement is described as a multi-licensee customer-interaction case with a £2m total group payment, not as an amount attributable solely to one account. The candidate remains HOLD pending current product terms, payment/withdrawal, complaints/ADR, safer-gambling/privacy, accessibility, hands-on evidence and second-editor/commercial sign-off. No Actions run or deployment was triggered.
