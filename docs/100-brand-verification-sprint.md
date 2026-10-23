@@ -99,3 +99,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 
 
 - Added a **FanDuel Casino — New Jersey** internal evidence pack using the current NJ DGE authorized-sites list and FanDuel New Jersey terms updated 15 October 2026. The DGE lists `casino.fanduel.com` under Golden Nugget Atlantic City; the terms identify Betfair Interactive US LLC operating the casino under agreement with Golden Nugget Atlantic City LLC, distinct from the sportsbook's racetrack relationship. The candidate registry was updated; product/payment checks and independent review remain outstanding. Status **HOLD**, not an approved public review. See [FanDuel NJ evidence pack](reviews/internal/fanduel-casino-new-jersey-evidence-2026-10-23.md).
+
+
+- Added a **Caesars Palace Online Casino — New Jersey** evidence pack using the NJ DGE authorized-sites list, current first-party terms (effective 15 December 2025), and the NJ Casino Control Commission's 2024 report. The sources show a skin/host/platform relationship that changed in 2024, so the pack explicitly requires current contract-party reconciliation before publication. Registry row updated; status remains HOLD pending terms/product/payment checks and independent review. See [Caesars Palace NJ evidence pack](reviews/internal/caesars-palace-online-casino-new-jersey-evidence-2026-10-23.md).
