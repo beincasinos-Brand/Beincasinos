@@ -621,7 +621,7 @@ if master_tracker.exists():
             brand_count = sum(1 for name in names if name and name not in category_rows)
             if brand_count < 100:
                 errors.append(f"docs/tier-1-master-prospect-tracker.csv: expected at least 100 brand-name research leads, found {brand_count}")
-            allowed_markets = {"AU", "US", "US-NJ", "US-ME", "US-PA", "US-MI", "FR", "DE", "CH", "GB", "NL"}
+            allowed_markets = {"AU", "CA", "CA-ON", "CA-QC", "CA-BC", "US", "US-NJ", "US-ME", "US-PA", "US-MI", "FR", "DE", "DE-SH", "CH", "GB", "NL", "SE", "ES", "IT", "BE"}
             allowed_publication_status = {"Hold", "Exclude", "Approved"}
             for index, row in enumerate(rows, start=2):
                 market = row.get("market", "").strip()
