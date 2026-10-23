@@ -25,15 +25,20 @@ Spain's Dirección General de Ordenación del Juego (DGOJ) publishes an official
 
 ## Individual DGOJ profile checks completed — 23 October 2026
 
-The following records have now been opened individually rather than relying only on the directory list:
+Eight individual operator profiles have now been opened, covering **nine brand rows** because Bwin and PartyCasino share ELECTRAWORKS CEUTA, S.A. These are stronger than directory-only leads, but still do not close consumer-review gates.
 
-| Brand candidate | DGOJ operator profile | Casino-related singular licences shown | Other dated evidence in profile |
+| Brand candidate(s) | DGOJ operator profile | Casino-related singular licences shown | Recent/profile evidence |
 |---|---|---|---|
-| 888casino.es | [888 ONLINE GAMES ESPAÑA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa) | Máquinas de azar, Black Jack, Ruleta, Póquer | 13 Oct 2025 second technical-system homologation for slots; 19 Mar 2025 slots licence extension; commercial names include 888CASINO |
-| Videoslots Casino (ES) | [VIDEOSLOTS CASINO, PLC](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/videoslots-casino-plc) | Máquinas de azar, Black Jack, Ruleta | Profile marks operator adhered to phishing-alert service and shows advertising authorisation |
-| PokerStars Casino (ES) | [TSG INTERACTIVE SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/tsg-interactive-spain-sa) | Máquinas de azar, Black Jack, Ruleta, Póquer | 19 May 2026 blackjack/roulette extensions; 24 Sep 2026 poker extension; technical-system homologations listed in 2025 |
+| Codere (ES) | [CODERE ONLINE, SAU](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau) | Slots, blackjack, roulette | Domain/product details captured in registry; keep separate from Codere.it S.r.l. in Italy |
+| Luckia (ES) | [LUCKIA GAMES, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/luckia-games-sa) | Slots, blackjack, roulette, poker | 14 Oct 2026 blackjack/roulette licence extensions; 11 Feb 2026 poker technical-system approval |
+| 888casino.es | [888 ONLINE GAMES ESPAÑA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa) | Slots, blackjack, roulette, poker | 13 Oct 2025 second technical-system homologation for slots; commercial names include 888CASINO |
+| Videoslots Casino (ES) | [VIDEOSLOTS CASINO, PLC](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/videoslots-casino-plc) | Slots, blackjack, roulette | DGOJ profile marks phishing-alert adherence and advertising authorisation |
+| PokerStars Casino (ES) | [TSG INTERACTIVE SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/tsg-interactive-spain-sa) | Slots, blackjack, roulette, poker | 19 May 2026 blackjack/roulette extensions; 24 Sep 2026 poker extension |
+| PartyCasino (ES) and Bwin Casino (ES) | [ELECTRAWORKS CEUTA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/electraworks-ceuta-sa) | Slots, blackjack, roulette, poker | Commercial names include Partycasino and Bwin; 3 Sep 2025 slots system homologation, 13 Mar 2025 slots extension, 8 Jul 2026 extension for other counterparty bets |
+| Betway (ES) | [BETWAY SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/betway-spain-sa) | Slots, blackjack, roulette | 3 Sep 2025 system homologation for slots; 27 Sep 2024 slots extension |
+| Betfair Casino (ES) | [BETFAIR INTERNATIONAL SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/betfair-international-spain-sa) | Slots, blackjack, roulette, poker | 24 Sep 2026 blackjack/roulette extensions; 2 Apr 2025 slots extension |
 
-These individual profiles support a current Spain-specific casino-vertical research lead for the three brands. They do not close customer terms, payments, complaints, responsible gambling, privacy/cookies, accessibility, enforcement review or second-editor gates. First-party access checks on 888casino.es returned empty content and the guessed /ayuda route returned 404; the current Videoslots/PokerStars customer journeys have not been inspected in this pass. All remain HOLD.
+The DGOJ directory maps each candidate domain to the named operator; the individual profiles support the stated casino-vertical licences. These are local permission/domain leads, not approved reviews. The first-party 888casino.es fetch returned empty content and the guessed /ayuda route returned 404; the Luckia homepage returned HTTP 451. Current first-party terms, payments, complaints, safer-gambling, privacy/cookies, accessibility, enforcement and independent second review remain open. Bwin and PartyCasino must not be counted as separate operators solely because they are separate brands under the same legal entity; distinct reviews require materially distinct product/terms/user-experience evidence.
 
 ## Verification gates
 
