@@ -15,19 +15,19 @@
 | Cards with evidence-grade field | 100/100 |
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
-| Logo/image candidates | 21 |
-| Candidate images with alt text | 21/21 |
-| Candidate images with explicit width/height | 21/21 |
-| Candidate images with lazy loading | 21/21 |
+| Logo/image candidates | 22 |
+| Candidate images with alt text | 22/22 |
+| Candidate images with explicit width/height | 22/22 |
+| Candidate images with lazy loading | 22/22 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 21/100 cards have a sourced logo candidate; all remain **rights pending**.
-- 79/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 22/100 cards have a sourced logo candidate; all remain **rights pending**.
+- 78/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 21 logo candidates with rights pending, and 79 editorial card artworks.
+- The directory hero now accurately states 100 research entries, 22 logo candidates with rights pending, and 78 editorial card artworks.
 
 ## Publication and deployment gates
 
