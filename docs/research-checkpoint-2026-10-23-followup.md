@@ -40,3 +40,16 @@ File: `docs/brand-profile-bettom-gb-draft.md`
 ## Next work
 
 Continue in batches against official primary sources. Prioritise completing the missing current-product evidence gates, not just licence checks: current terms, withdrawals, complaint paths, safer-gambling tools, usability, and regulatory history. Only count a brand as approved after all eligibility gates and rubric criteria are evidenced and second-reviewed. Keep deployment held until the documented owner/legal/privacy/hosting release gates are cleared.
+
+
+## 4. bet365 GB — operator mapping and regulatory history added
+
+File: `docs/brand-profile-bet365-gb-draft.md`
+
+- Mapped the GB product to the two relevant UKGC entities rather than treating all products as one operator: Hillside (UK Sports) ENC (account 55148) for betting and Hillside (UK Gaming) ENC (account 55149) for casino/bingo.
+- Recorded active remote betting licence categories and active `bet365.com` domain records from the UKGC register; official GB terms name both licence holders.
+- Added the UKGC's 4 April 2024 combined £582,120 settlement context: £343,035 for Hillside (UK Gaming) ENC and £239,085 for Hillside (UK Sports) ENC, concerning AML and social-responsibility failures identified in a March 2022 assessment.
+- Explicitly retained the publication HOLD: bonus terms, payments/withdrawals, complaints/ADR, safer-gambling usability, current legal footer and independent editorial review remain outstanding.
+- Commit: `be285ffff3ec11563620b8d064d976b59be7f1e6`.
+
+This is an evidence dossier, not an approved public review. Approved reviews from this batch: 0.
