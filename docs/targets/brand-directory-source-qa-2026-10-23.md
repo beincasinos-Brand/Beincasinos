@@ -45,7 +45,7 @@ The 100-card list no longer includes the excluded planned Maine placeholder `Cae
 
 ## Official-site image follow-up — 23 October 2026
 
-Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 28 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
+Three candidates were added after official-site extraction: ThreeSix Vegas (source site `36vegascasinos.uk`; confirm its relationship to the listed `36vegas.co.uk` domain), Midnite (`logo-emblem-2025.svg`), and Winz.nl (favicon candidate only, not a full-size logo). The current total is 33 sourced image candidates, all rights pending; 75 cards retain CSS-generated editorial artwork. This source-level count does not establish permission to reuse the assets.
 
 
 ## Visible content enhancement — 23 October 2026
@@ -80,3 +80,8 @@ This is source-level QA only. It does not confirm that every remote image loads 
 ## Starcasino image addition — 23 October 2026
 
 Added a logo candidate exposed by Starcasino's official casino page: `https://images.ctfassets.net/yru0bhhzza0c/01H8BF5CMT8EY0RDSR845X5YEA/c4fff10c35356e63159f77c3d08e3833/Starcasino-Logo-2025-Vertical-White.png?fm=webp&w=256&q=75`. It is labelled rights pending. Current inventory: 30 image candidates and 70 cards using editorial CSS artwork. No reuse permission is inferred.
+
+
+## Additional official image candidates — 23 October 2026
+
+Added three further source-exposed assets: TOTO's logo SVG from `toto.nl`, Kansino's homepage favicon, and Stakewise's UK homepage favicon image. All three are registered with explicit alt text and remain **rights pending**; the latter two are small-icon candidates, not full-size logos. Current total: 33/100 sourced image candidates and 67 cards with CSS editorial artwork. Source-level HTML QA is not a live browser test, direct-asset uptime check, reuse licence, legal review, or deployment confirmation.
