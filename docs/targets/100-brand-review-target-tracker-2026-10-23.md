@@ -220,3 +220,13 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Target continuation — 888casino Spain regulatory-history refresh (23 October 2026)
+
+- Rechecked the DGOJ operator profile/domain list and public sanctions index.
+- Added four index-level regulatory-history leads for 888 ONLINE GAMES ESPAÑA, S.A. (ES/2025/003, ES/2025/025, ES/2024/179 and ES/2023/078) to the internal Spain evidence review, each linked to its official DGOJ record.
+- Recorded the limitation explicitly: underlying resolutions must be read for conduct, date, penalty, procedural status and appeals before any public-facing summary; the index alone does not justify a combined fine or unsupported claim.
+- Evidence file: `docs/reviews/internal/888casino-es-evidence-review-2026-10-23.md`.
+- Counting decision: regulatory-history research only; this is not a completed or approved consumer review. Approved-review count unchanged.
+- Production status: internal documentation only; no public page changed and no Cloudflare deployment performed.
