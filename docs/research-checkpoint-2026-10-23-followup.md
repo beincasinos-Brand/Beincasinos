@@ -332,3 +332,11 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Commit: `736340952bfe6af9ba5cc7160448cfff41f14bb2`.
 - Primary source: [UKGC notice updated 16 October 2026](https://www.gamblingcommission.gov.uk/news/article/suspension-of-licences-bresbet-ltd-and-bet-st-george-ltd), [licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/65252), [domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65252).
 - No deployment or GitHub Actions run triggered.
+
+
+## 34. SEO topic-map cleanup — avoid a near-duplicate licence-domain page — 23 October 2026
+
+- Updated `docs/seo-topic-map.csv` to consolidate the proposed standalone `/guides/check-gambling-domain-licence/` topic into the existing brand-vs-legal-operator and licence-check guides.
+- Rationale: the existing page already teaches exact domain, contracting entity, regulator, product and territory matching. Creating another page without a distinct reader need risks duplicating intent instead of strengthening the existing cluster.
+- Commit: `7466dd6943866865e5a0d0637c9f73302cf4a7a9`.
+- This is an internal SEO planning improvement, not a live deployment or a claim of ranking/impression gains. No GitHub Actions run triggered.
