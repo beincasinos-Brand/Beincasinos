@@ -494,3 +494,10 @@
 - Spelinspektionen's domain lookup lists Betsson.com/sv with commercial online-gambling permission from 24 August 2026 to 23 August 2031, naming Spin Nordic Ltd and Betsson Nordic Ltd. Match exact contracting entity and consumer terms before any review approval.
 - Enforcement chronology corrected: 2025 AML warning and SEK 6.5m sanction; Administrative Court upheld it in July 2026; authority says the company appealed to the Administrative Court of Appeal. Final appellate status remains to be checked at publication time.
 - Betsson remains HOLD. Approved review count unchanged at 0/100. No production deployment or CI run triggered.
+
+
+## Betsson Sweden — appeal status rechecked (23 October 2026)
+- Added `docs/reviews/internal/betsson-sweden-regulator-status-check-2026-10-23.md` after re-fetching the official Spelinspektionen licence and decision pages.
+- Domain register confirms `betsson.com/sv` has commercial online permission dated 24 Aug 2026–23 Aug 2031 and lists Betsson Nordic Ltd and Spin Nordic Ltd. Match the precise product and contracting entity; don't double-count holders/domains.
+- Decision register currently labels the AML matter appealed; it records the Administrative Court's 2 July 2026 judgment rejecting the appeal and says Betsson Nordic Ltd appealed onward to the Administrative Court of Appeal. No final appellate outcome shown in the captured official register.
+- Betsson remains HOLD; no review approval credited. No CI or Cloudflare Pages deployment triggered.
