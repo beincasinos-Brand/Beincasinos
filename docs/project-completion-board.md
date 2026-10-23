@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 15 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-15-entity-resolution-2026-10-23.md` on `research/gb-batch-15-2026-10-23`.
+- Captured three leads: Hippodrome Casino, Hippodrome Online, and Silkbet. All remain HOLD; Hippodrome requires brand/operator overlap resolution, and Silkbet requires proof of a functioning consumer casino product and official domain mapping.
+- No changes to approved brand/review totals; no merge to `main`, Cloudflare configuration change, or production deployment.
+
+
 ## Research checkpoint — batch 14 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-14-progressplay-domain-leads-2026-10-23.md` on `research/gb-batch-14-2026-10-23`.
 - Recorded eight ProgressPlay active-domain leads: CasinoMite, Lumoslots, LuckyPro Casino, Sunny Casino, Quid Slots, UK Slots, Yoko Casino and Glimmer Casino. All HOLD because current live operation and brand-to-terms mapping have not been verified.
