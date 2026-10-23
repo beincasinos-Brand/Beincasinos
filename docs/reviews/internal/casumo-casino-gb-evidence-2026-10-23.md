@@ -8,7 +8,11 @@
 The UK Gambling Commission public register search for Casumo identifies **Casumo Services Limited**, account **396 ವಿನ**. Before publication, re-open the register and capture the exact account number, active Remote Casino licence, current trading name and domain record. Do not rely on brand-name search alone to determine the contracting entity or GB market permission.
 
 Primary source entry point: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Casumo
-First-party website: https://www.casumo.com/
+First-party UK website: https://www.casumo.com/en-gb/select-country/
+First-party UK FAQ/legal disclosures: https://www.casumo.com/en-gb/faq/
+UKGC FOI response confirming Recro Limited runs the Casumo website: https://www.gamblingcommission.gov.uk/about-us/freedomofinformation/print/casumo-services-ltd
+Recro Limited domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/61549
+First-party fairness statement with UKGC account disclosure: https://www.casumo.com/en-gb/fairness-statement/
 
 ## Historical regulatory action
 
@@ -31,4 +35,4 @@ Primary sources:
 
 ## Publication decision
 
-**HOLD — GB licence/contracting-entity status unresolved.** The former Casumo Services Limited licence is surrendered, its trading name is inactive, and the register also lists casumo.com under Recro Limited. Do not publish a GB casino recommendation until the current domain, terms, legal entity and active GB permissions are reconciled. Keep it internal and out of public navigation, generated routes and sitemap. It counts as **zero** approved public reviews.
+**HOLD — current operator mapping confirmed; review incomplete.** The GB-facing site names Recro Limited (UKGC 61549), and the register lists `casumo.com` under that operator. The former Casumo Services Limited licence is surrendered and its trading name inactive. Finish current terms, payments, safer-gambling/product checks, historic enforcement verification and editorial approval before any public review. Keep it internal and out of public navigation, generated routes and sitemap. It counts as **zero** approved public reviews.
