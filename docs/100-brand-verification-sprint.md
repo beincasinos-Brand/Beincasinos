@@ -2,7 +2,15 @@
 
 **Goal:** build a source-backed, market-specific registry of 100 casino brands before publishing or commercially promoting brand profiles. The owner's 100-million-daily-impressions ambition is a long-term aspiration, not a forecast or guarantee.
 
-## Current state (2026-10-22)
+## Current state (2026-10-23 — refreshed)
+
+- The 100 rows in `docs/brand-research-template.csv` remain candidates, not verified brands.
+- The current GB batch now includes additional internal evidence packs and corrections for Unibet, Mr Green, Virgin Games, Coral, Grosvenor, LeoVegas, Betway, Betfair and Paddy Power, alongside existing Betfred, bet365, William Hill and 888casino research. These remain internal evidence files; product terms, direct customer-journey checks where lawful, second-editor review and legal/compliance gates are not all complete.
+- The current source-backed work identified important entity-resolution traps: Coral's `coral.co.uk` maps to LC International Limited (54743), while Entain Operations Limited (57408) has no domain recorded in the current UKGC domain subregister; Grosvenor's `grosvenorcasinos.com` maps to Rank Interactive (Gibraltar) Limited (57924), while other Grosvenor group entities have separate permissions and separate regulatory actions. See [GB batch register](brand-verification-register-great-britain-batch-1.md).
+- LeoVegas evidence now records historical UKGC penalties of £600,000 (2018) and £1.32m (2022); the current sanctions subpage alone must not be described as a clean lifetime record.
+- The current repository `sitemap.xml` snapshot has **44 URL entries** and none of the listed URL paths contain internal/evidence/draft markers. This is a repository snapshot, not proof of the live deployed sitemap or indexation. See [repository SEO snapshot audit](reviews/internal/repository-seo-snapshot-audit-2026-10-23.md).
+- **0/100 candidates are approved for publication** in this sprint. Internal source packs do not count as completed reviews or approved public pages.
+- No deploy or Search Console write was performed by these documentation commits. Preserve remaining GitHub Actions minutes; do not trigger CI solely for internal Markdown updates.
 
 - `docs/brand-research-template.csv` contains 100 candidate rows. These are research leads, not 100 verified brands; candidate names do not prove existence, licence status, product permission, market eligibility, or willingness to pay.
 - The Swiss/FGB research lead batch and the Great Britain/UKGC research batches are internal evidence logs. Current GB documents: [batch 1](gb-brand-research-batch-1.md), [batch 2](gb-brand-research-batch-2.md), and [batch 3](gb-brand-research-batch-3.md).
