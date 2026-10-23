@@ -471,3 +471,11 @@
 - Material unresolved gate: the Ksa's 24 December 2025 Wwft-instruction summary required corrective steps within six months followed by reinspection. That period has elapsed, but no reinspection/follow-up outcome was verified in this pass. Do not infer either continued non-compliance or completed remediation.
 - Current casino welcome-bonus route states eligibility is limited to new players aged 24 or older; full offer-specific conditions were not extracted, so no numeric offer or wagering claims are approved.
 - **Status remains HOLD; this work adds zero approved reviews.** No CI workflow, Cloudflare Pages deployment, DNS change, or Search Console write was triggered. All internal evidence remains excluded from public output.
+
+
+## Holland Casino Online evidence refresh — 23 October 2026
+- Extended `docs/reviews/internal/holland-casino-online-nl-evidence-review-2026-10-23.md` with current official terms and dated help-centre evidence for withdrawals, fees, complaint intake, identity checks and safer-play tools.
+- Operator-published withdrawal guidance says a 30-minute cooling-off period, followed by processing and typical receipt in 15–30 minutes; the same help centre notes exceptions including extra verification and up to 48 hours in some circumstances. Minimum withdrawal €0.01 and maximum €25,000 per withdrawal. These are published claims, not tested outcomes.
+- Current terms identify Holland Casino N.V. and Ksa permit 3627, describe segregated customer funds, account/identity/payment restrictions and complaint intake timestamps. Main site direct fetch returned HTTP 403 to the extraction service; this is logged as a verification limitation, not as site unavailability.
+- Historical Ksa Wwft notice says the 2019 instruction was complied with within the prescribed deadlines. This is recorded as historical enforcement with remediation, not an unresolved current breach.
+- **HOLD remains.** Need normal-browser recheck, exact domain/permit matching, full current cashier/complaints/privacy/accessibility review and independent second-editor approval. This update adds zero approved reviews. No Actions workflow, Cloudflare deploy, DNS change or Search Console write was triggered.
