@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **80 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **81 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -92,6 +92,7 @@ Detected **80 non-template dossier files** under `docs/brand-profile-*.md` at th
 - `docs/brand-profile-unibet-uk-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-vegas-club-us-nj-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-videoslots-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
+- `docs/brand-profile-virgin-bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-william-hill-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-winz-nl-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 
