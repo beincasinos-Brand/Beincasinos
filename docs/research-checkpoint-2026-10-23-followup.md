@@ -571,3 +571,11 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Added `docs/brand-profile-spin-and-win-gb-draft.md` for Spin and Win, operated by Rank Interactive (Gibraltar) Limited under UKGC account 57924; `spinandwin.com` is listed Active.
 - Official terms effective 16 December 2025. Current offer requires a verified new customer to deposit and stake £20 on Fishin' Frenzy The Big Catch 2 for 200 free spins; Paysafecard excluded; spins must be used within seven days; free-spin winnings subject to 10x wagering; homepage states £100 max win. Full offer conversion/expiry conditions need a final capture.
 - Payment methods include card/PayPal and Paysafecard as deposit-only; no account or withdrawal test. ADR, safer-gambling tool checks, independent feedback and second-editor sign-off remain open. **HOLD**, no score or public review.
+
+
+## 60. Mecca Bingo GB — bingo/slots product-to-licence mapping — 23 October 2026
+
+- Added `docs/brand-profile-mecca-bingo-gb-draft.md` as an internal mapping dossier. UKGC account 2396 (Mecca Bingo Limited) has active remote/non-remote Bingo permissions; it does not list remote Casino permission on that account. UKGC account 57924 (Rank Interactive (Gibraltar) Limited) has active remote Casino permission and also lists `meccabingo.com` as Active.
+- The official Mecca Bingo site offers both bingo and slots; the linked privacy notice names Rank Interactive (Gibraltar) Limited. This product/entity split must be reconciled in the current full terms before a licence statement or score is published.
+- Current welcome offers: choice of bingo reward (£20 bingo bonus + £10 club voucher after first deposit and £5+ spend on selected bingo) or slots reward (50 free spins + £10 club voucher after first deposit and £5+ spend on selected slots). Full restrictions need final capture. Payment page lists cards and PayPal with product-specific minimums; no payment was tested.
+- Decision: **HOLD**, no score, not a public review or approved review until product-to-operator identity, ADR, safer gambling, independent feedback and second-editor checks are closed.

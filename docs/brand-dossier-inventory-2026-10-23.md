@@ -12,7 +12,7 @@
 
 ## Current source-tree inventory
 
-Detected **92 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
+Detected **93 non-template dossier files** under `docs/brand-profile-*.md` at the time of this audit.
 
 - `docs/brand-profile-10bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
 - `docs/brand-profile-247bet-gb-draft.md` — internal research dossier; verify individual status in the file; do not count as approved review by filename alone.
@@ -105,7 +105,7 @@ Classify each file as consumer brand, supplier/operator context, duplicate marke
 
 ## Inventory reconciliation — 23 October 2026, follow-up
 
-A fresh recursive tree check after the latest research commits found **93 files including the template, or 92 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
+A fresh recursive tree check after the latest research commits found **94 files including the template, or 93 non-template dossier files**. Two files absent from the prior inventory list have been added to this inventory snapshot:
 
 - `docs/brand-profile-bet-ahoy-gb-draft.md` — preliminary GB identity research; **HOLD**, not an approved review. Official-site access was location-restricted in the research session, so current terms, payments, complaints and safer-gambling evidence remain unverified.
 - `docs/brand-profile-pokerstars-gb-draft.md` — internal dossier; verify its current status in the file and do not count it as an approved review by filename alone.
@@ -134,3 +134,6 @@ The count remains a count of dossier files, not 83 unique verified consumer bran
 
 
 - `docs/brand-profile-luxury-casino-gb-draft.md` — identity-conflict note only. Although UKGC account 38620 lists `luxurycasino.co.uk` Active under Apollo Entertainment Limited, the current site redirects users toward Cosmo Casino and the privacy notice names Fresh Horizons Limited (BVI). **HOLD / unresolved**, not counted as a verified consumer brand or approved review.
+
+
+- `docs/brand-profile-mecca-bingo-gb-draft.md` — product-entity mapping dossier only. Mecca Bingo Limited (account 2396) has active remote bingo permission; Rank Interactive (account 57924) has active remote casino permission and also lists `meccabingo.com` as Active. The live site offers bingo and slots, while its privacy notice names Rank Interactive. **HOLD** until the contracting entity is mapped per product; not an approved review.
