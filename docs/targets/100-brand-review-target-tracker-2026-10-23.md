@@ -7,15 +7,15 @@
 
 ## Current position
 
-The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 162 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 162 records remain HOLD or otherwise not approved for publication.
+The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 204 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 204 records remain HOLD or otherwise not approved for publication.
 
-Seventeen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Seventeen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden), Betway virtual slots (Germany), and LeoVegas virtual slots (Germany). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
 Counts below are raw rows whose current registry market-scope text maps to the geography. They are **not** counts of eligible brands. Deduplicate brand + local product + contracting entity, and verify current online-casino permission before promoting a row into the final 100.
 
-Three of the 162 registry records are deliberately not allocated to an active target market in the current scope field: Betsson Casino and NordicBet Casino remain in scope triage until a named local route is evidenced; Rizk has no confirmed market route. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
+Three of the 204 registry records are deliberately not allocated to an active target market in the current scope field: Betsson Casino and NordicBet Casino remain in scope triage until a named local route is evidenced; Rizk has no confirmed market route. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
 
 | Target geography | Raw scoped rows | Qualification gate / next work |
 |---|---:|---|
