@@ -430,3 +430,8 @@ A fresh live fetch confirmed that the market-rules hub is now available at `http
 ## Candidate register refresh — Betfred Casino (2026-10-23)
 
 The existing Betfred Casino row in `docs/brand-research-template.csv` now links the current UKGC account/domain records, casino-specific terms, general terms, complaints procedure and the 2025/2026 regulatory actions for Petfre (Gibraltar) Limited. The row explicitly preserves GB-only scope and HOLD status; no hands-on withdrawal/support test or editorial score is claimed. A read-back CSV parse confirms the registry remains 100 rows × 31 columns, with zero ragged rows or duplicate names; decisions remain 49 HOLD and 51 not reviewed, with zero publication approvals. No validator/CI run or deployment was triggered.
+
+
+## Candidate register refresh — 888casino (2026-10-23)
+
+The existing 888casino row now records the current GB user-agreement URL, withdrawal-policy URL, the stated policy update date, the internal complaints/ADR wording, and the regulator's three recorded actions for 888 UK Limited. The row warns that the withdrawal policy is dated and must be rechecked, and keeps the brand at HOLD pending current market-route, payments, promotions, safer-gambling/privacy and independent-review checks. A read-back parse confirms the registry still has 100 rows × 31 columns, zero ragged rows, zero duplicate names, 49 HOLD and 51 not reviewed, with zero publication approvals. No validator/CI run or deployment was triggered.
