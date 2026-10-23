@@ -18,12 +18,14 @@ else:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
 
-    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css", "brand-research/research.css", "brand-research/research.js", "brand-research/evidence-register.svg")
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
     if not (DIST / "markets" / "index.html").is_file():
         errors.append("dist/: twelve-market directory is missing")
+    if not (DIST / "brand-research" / "index.html").is_file():
+        errors.append("dist/: 100-brand research register is missing")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
@@ -53,8 +55,16 @@ else:
             for html_file in DIST.rglob("*.html"):
                 rel = html_file.relative_to(DIST).as_posix()
                 if rel in {"404.html", "google05b7a00eb84d7acb.html"}:
-                    # Google Search Console verification is a required public asset,
-                    # but it is not an indexable content page and must stay out of the sitemap.
+                    # Verification and error pages are public assets, not indexable routes.
+                    continue
+                try:
+                    markup = html_file.read_text(encoding="utf-8")
+                except (OSError, UnicodeError) as exc:
+                    errors.append(f"dist/{rel}: cannot inspect robots meta for sitemap eligibility ({exc})")
+                    continue
+                # A noindex research register can be linked for users while it is
+                # deliberately excluded from the XML sitemap until editorial approval.
+                if re.search(r'<meta\\s+name=["\\']robots["\\']\\s+content=["\\'][^"\\']*noindex', markup, re.IGNORECASE):
                     continue
                 if rel == "index.html":
                     route = "/"
