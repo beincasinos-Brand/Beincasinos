@@ -50,3 +50,10 @@
 - Betfair — General Terms and Conditions (403 during this pass): https://www.betfair.com/aboutUs/Terms.and.Conditions/
 - Betfair — Regulatory Information (403 during this pass): https://www.betfair.com/aboutUs/Regulatory.Information/
 - Betfair Casino — Support Page (403 during this pass): https://casino.betfair.com/info/support
+
+
+## Entity-mapping refresh — 23 October 2026
+- The operator's own **Regulatory and Company Information** page lists separate UK Gambling Commission gaming entities and permissions, including **Betfair Casino Limited — 000-039435-R-319329**, **PPB Entertainment Limited — 000-039426-R-319332**, and **PPB Games Limited — 000-039411-R-319335**. This corroborates that the group must not be treated as one undifferentiated licence holder. Source: https://www.betfair.es/aboutUs/Regulatory.Information/ (official Betfair group regulatory-information page; accessed 23 October 2026).
+- The same page lists Betfair International Plc's Spanish sports-betting and gaming general licences separately (273/GA/1018 and 274/GC/1018). These Spanish permissions do **not** establish GB authorisation and must not be used as evidence for the GB product.
+- The GB evidence pack still needs a direct, current UKGC account-page capture and an accessible official GB consumer-terms copy before approval. The official group table is useful corroboration of entity separation, not a substitute for current jurisdiction-specific terms, domain mapping, or licence-status verification.
+- **Decision unchanged: HOLD.** The £2m December 2025 payment remains group-level across four licensees; do not attribute the total to Betfair Casino Limited alone.
