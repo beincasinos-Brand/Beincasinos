@@ -1,11 +1,11 @@
 # Official-site image candidate QA — 23 October 2026
 
-**Current scope:** 21 sourced logo candidates are now registered in the 100-brand directory. The original 20-candidate spot-check is retained below as historical QA; Silkbet was added afterward from an image link exposed by its official homepage. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
+**Current scope:** 22 sourced logo candidates are now registered in the 100-brand directory. The original 20-candidate spot-check is retained below as historical QA; Silkbet was added afterward from an image link exposed by its official homepage. This is a source-presence check, not a legal review, licence verification, or guarantee of long-term URL availability.
 
 ## Current image inventory
 
-- 21/100 brand cards have sourced logo candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
-- The original 20-candidate spot-check found 18 candidates on successfully extracted official pages; two pages timed out (Admiral Switzerland and Betinia NJ). Silkbet's homepage subsequently exposed `https://silkbet.bet/assets/silkbet-gold.svg`, bringing the current count to 19 candidates found in extracted official-page image links, with the same two original timeouts.
+- 22/100 brand cards have sourced logo candidates; each is visibly marked **SOURCE FOUND · RIGHTS PENDING** and has a fallback monogram.
+- The original 20-candidate spot-check found 18 candidates on successfully extracted official pages; two pages timed out (Admiral Switzerland and Betinia NJ). Silkbet's homepage subsequently exposed `https://silkbet.bet/assets/silkbet-gold.svg`, bringing the current count to 19 candidates found in extracted official-page image links, with the same two original timeouts. An additional official-site image candidate was found for Ember Casino NJ.
 - Jollie's card and asset register use `https://jollie.de/Assets/Images/jollie-logo-white-1.svg`, an official logo asset present on the Jollie website. The previously used `og-default.png` was a social-preview image rather than the preferred logo.
 - All 21 assets remain **rights pending**. Source-page presence does not prove direct asset uptime, exact legal identity, or permission to reuse.
 
@@ -52,4 +52,10 @@ Directory: `brand-directory/index.html`
 
 ## Inventory reconciliation — 23 October 2026
 
-The current HTML and asset register were re-counted after adding Silkbet: **100 brand cards, 21 image elements, 21 visible rights-pending labels, and 21 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 79 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
+The current HTML and asset register were re-counted after adding Silkbet and Ember Casino: **100 brand cards, 22 image elements, 22 visible rights-pending labels, and 22 asset-register rows with a sourced candidate**. BigBangBet remains without an image URL because the official-site fetch failed; no URL was guessed. The remaining 79 cards use original CSS-generated decorative artwork and monograms, not brand-owned logos or photographs. No image reuse permission has been established by this source check. The directory remains `noindex,follow`, and production deployment is not confirmed.
+
+
+### Ember Casino image candidate — 23 October 2026
+
+- Added `https://nj.embercasino.com/library/.customization/preloader_logo_bg.png?t=1792789912595` after the official Ember Casino NJ homepage exposed it in its image links.
+- The card uses a fallback monogram and remains visibly marked **SOURCE FOUND · RIGHTS PENDING**. Confirm the asset's direct rendering and any reuse permission before production publication; source-page presence is not a licence.
