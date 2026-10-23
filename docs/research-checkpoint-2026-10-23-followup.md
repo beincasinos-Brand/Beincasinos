@@ -451,3 +451,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - **HOLD** pending current GB terms/offers, withdrawal and payment evidence, complaints/ADR, safer-gambling usability, remediation/audit follow-up, dated independent feedback and second-editor approval. No rating, recommendation or approved review added.
 - Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/39380 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39380 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/sanctions/39380 ; https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/296 ; https://www.gamblingcommission.gov.uk/news/article/gbp650-000-fine-for-online-operator-videoslots-limited ; https://www.gamblingcommission.gov.uk/news/article/videoslots-limited-to-pay-gbp2m-for-regulatory-failures ; https://www.mrvegas.com/terms-and-conditions/
 - Dossier commit: `e147e877e4866f5f760c603d76d84f9719b8974e`. No deployment or GitHub Actions run triggered.
+
+
+## 46. Virgin Bet GB — licence, domain status and complaints evidence gates — 23 October 2026
+
+- Added `docs/brand-profile-virgin-bet-gb-draft.md` as an internal dossier, not a public review or rating.
+- UKGC account 54310 identifies Virgin Bet Limited and lists active remote casino, real-event and virtual-event betting permissions. The trading-name page lists `virgin bet` as Active; the domain page labels `www.virginbet.com` **White Label**, which is preserved exactly. The operator's official terms identify Virgin Bet Limited and UKGC account 54310.
+- The current account-specific actions page reports no regulatory actions recorded. This is documented narrowly and not treated as proof that no historic issue exists across related entities or jurisdictions.
+- The official complaints help article gives internal escalation steps, but the independent ADR provider, referral criteria and time limits still need verification. **HOLD** pending live terms/offers, payment and withdrawal evidence, ADR, safer-gambling usability, independent feedback and second-editor sign-off.
+- Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/54310 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/54310 ; https://www.virginbet.com/about-us/terms-and-conditions.html ; https://help.virginbet.com/hc/en-gb/articles/360013391833-Making-a-complaint
+- Dossier commit: `edabced55c3b2532ca112e42b007258d139fbfff`. No deployment or GitHub Actions run triggered.
