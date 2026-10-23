@@ -17,3 +17,18 @@ Before this can be published, confirm the exact consumer domain and legal entity
 
 ## Evidence still required
 Confirm exact consumer-domain and product mapping, full current casino terms, payments/withdrawals, bonus conditions, safer-gambling settings, privacy/contact, complaint escalation and UKGC regulatory-action history. No hands-on tests; no score assigned.
+
+
+## Dated primary-source refresh — 23 October 2026
+
+The UKGC's current register lists **PPB Entertainment Limited (account 39426)** with active Casino Remote permission from 1 November 2014. Its trading-name record lists `paddy power` as Active, and its domain record lists `www.paddypower.com` as Active. The regulator's action record has a settlement dated **17 December 2025** relating to remote customer-interaction social-responsibility controls. The Commission says four licensees trading under Paddy Power and Betfair names failed to comply with several parts of SRCP 3.4.3; the group total payment in lieu of financial penalty was £2,000,000. This must be described as a multi-licensee settlement and not falsely assigned as the whole group payment solely to account 39426.
+
+- Licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/39426
+- Trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39426
+- Domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39426
+- Action record: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39426
+- UKGC public statement: https://www.gamblingcommission.gov.uk/public-register/public-statement/detail/paddy-power-betfair-public-statement
+
+The regulator notes that the assessment found failings in customer-interaction controls, including multiple social-responsibility code provisions. Before publication, read the full statement and any account-specific settlement schedules; accurately describe remedial commitments and avoid implying that a regulatory settlement alone establishes current performance.
+
+**Decision: HOLD.** No customer account, deposit, bonus, withdrawal, gameplay or support interaction has been tested. The current product-specific terms, offer rules, payment/withdrawal fees and limits, complaints/ADR, safer-gambling settings, privacy/cookies, accessibility and independent second-editor/commercial sign-off remain open. No score is assigned.
