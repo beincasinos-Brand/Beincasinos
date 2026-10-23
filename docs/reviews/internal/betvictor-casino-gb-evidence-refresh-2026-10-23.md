@@ -37,3 +37,11 @@ No registration, gameplay, deposit, withdrawal, customer-support interaction, or
 - Keep this evidence file outside public navigation, page-generation globs, sitemap and production routes.
 
 **Decision: HOLD.** This evidence pack contributes **zero** approved public reviews.
+
+
+## Confirmed operator mapping correction
+The Great Britain BetVictor site is operated by **BV Gaming Limited**, UKGC account **39576**, not a Betano-only entity. Primary evidence is the UKGC register search and BetVictor's official GB casino page/terms:
+- https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Betvictor
+- https://www.betvictor.com/en-gb/casino
+- https://www.betvictor.com/en-gb/pages/terms-conditions/uk-terms-and-conditions
+Because the same licensee account is associated with Betano as well, keep historic regulatory-action attribution at the exact legal-entity and scope level. This correction does not approve publication; offer, cashier, withdrawals, safer gambling and ADR checks remain open.
