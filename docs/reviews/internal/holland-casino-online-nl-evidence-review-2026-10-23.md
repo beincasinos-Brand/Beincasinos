@@ -7,9 +7,9 @@
 
 ## Editorial decision
 
-The Kansspelautoriteit (Ksa) published a separate decision page for Holland Casino N.V. and its follow-on online gambling licence. The project research memo records the new licence period as 1 October 2026 through 30 September 2031 and directs reviewers to the Ksa's individual operator decision. This is primary-regulator evidence for a research lead, not a completed consumer review.
+The Kansspelautoriteit's individual decision page confirms a licence granted to Holland Casino N.V. on 30 July 2026, effective **1 October 2026 through 30 September 2031**. It explicitly covers casino games where the player plays against the licence holder, player-versus-player casino games, and sports-event/outcome betting. The decision includes conditions requiring the operator to report all brand names, domains and app names before launch and whenever they change; restrictions on using pre-regulation customer data in registration; compliance with an exit plan; execution of enforceable Dutch court judgments; and correction of control-database (CDB) deficiencies within three months after notification. This is primary regulator evidence of the permission scope and conditions, not a completed consumer review.
 
-The exact live domain, casino vertical, current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history still need to be captured. No score or recommendation is assigned.
+The live domain and exact domain notification under the permit must still be matched against the Ksa's public domain/brand disclosure; the existence of a current website alone does not prove the domain was reported under this licence. Current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history remain open. No score or recommendation is assigned.
 
 ## Identity and permission
 
@@ -20,13 +20,13 @@ The exact live domain, casino vertical, current terms, offers, payment/withdrawa
 - **Ksa individual operator decision:** https://kansspelautoriteit.nl/holland-casino-n-v
 - **Ksa follow-on licence announcement:** https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
 
-**Current evidence boundary:** the Ksa decision is the required primary source for the licence and product scope. This pass has not independently captured its full text or reconciled every current domain and product entry. Do not infer that all site sections, products or promotions are covered by the same permission without checking the decision and live regulator register.
+**Current evidence boundary:** the Ksa decision text has now been extracted. It identifies Holland Casino N.V., registration number 68662289, the effective period, covered categories and permit conditions. It does not itself name the customer-facing domain in the decision text captured here; the decision requires domain/app names to be reported before launch and on each change. Match the current `hollandcasino.nl` online route to the Ksa's current reported-domain disclosure and the live customer terms before approval.
 
 ## Licence and domain checks still required
 
 Before publication:
-1. Reopen the current Ksa individual decision and record the decision date, licence scope, effective dates and any conditions.
-2. Match Holland Casino N.V. to the exact live domain and current Dutch customer terms.
+1. Recheck the Ksa individual decision (dated 30 July 2026) and the current reported brand/domain/app disclosure; the licence runs 1 October 2026–30 September 2031 and covers operator-versus-player casino games, player-versus-player casino games, and sports-event/outcome bets.
+2. Match Holland Casino N.V. (Dutch company number 68662289) to the exact live domain and current Dutch customer terms.
 3. Verify the online-casino vertical and current product route against the regulator's active register.
 4. Check whether the operator has any additional relevant permissions or restrictions and distinguish those from land-based casino operations.
 5. Recheck the licence and domain at the actual publication date; do not rely on a historic snapshot.
