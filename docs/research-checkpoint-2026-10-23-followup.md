@@ -114,3 +114,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Official UKGC register identifies Betway Limited, account 39372, with active remote casino and remote betting licences; the register lists `betway.com` as active. Regulatory-actions page currently says no actions recorded for this account. Official sources are linked in the dossier.
 - Status remains **Hold / draft**, not an approved review: current terms, promotion restrictions, payments/withdrawals, complaints/ADR, safer-gambling controls, historical/group checks and independent review remain open.
 - Counting rule unchanged: a research dossier is not one of the 100 approved reviews.
+
+
+## 11. Paddy Power GB research dossier added
+
+- File: `docs/brand-profile-paddy-power-gb-draft.md`
+- Commit: `bec2df6c0c5ce6cbfb44a749f9a3f3cca1e65514`
+- Mapped the four licensees disclosed in Paddy Power's GB terms and linked the official UKGC public-register search.
+- Added the UKGC's 17 December 2025 announcement of a £2m settlement across four Paddy Power/Betfair remote licensees, with entity-attribution cautions; flagged the reported 2023 £490,000 fine for source retrieval.
+- Status: **Hold / draft**, not an approved review. Product-specific entity mapping, current commercial terms, payments, complaints/ADR, safer-gambling evidence and independent editorial approval remain open.
+- Count rule unchanged: a dossier does not count as an approved review.
