@@ -579,3 +579,11 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The official Mecca Bingo site offers both bingo and slots; the linked privacy notice names Rank Interactive (Gibraltar) Limited. This product/entity split must be reconciled in the current full terms before a licence statement or score is published.
 - Current welcome offers: choice of bingo reward (£20 bingo bonus + £10 club voucher after first deposit and £5+ spend on selected bingo) or slots reward (50 free spins + £10 club voucher after first deposit and £5+ spend on selected slots). Full restrictions need final capture. Payment page lists cards and PayPal with product-specific minimums; no payment was tested.
 - Decision: **HOLD**, no score, not a public review or approved review until product-to-operator identity, ADR, safer gambling, independent feedback and second-editor checks are closed.
+
+
+## 61. 21Prive GB — active domain, multi-currency offer and open evidence gates — 23 October 2026
+
+- Added `docs/brand-profile-21prive-gb-draft.md` for 21Prive. UKGC account 52894 lists active remote Casino permission; the domain record lists `www.21prive.com` Active. The official footer identifies White Hat Gaming Limited and UKGC account 52894 for GB customers.
+- General terms last updated 2 July 2026 (version 6.3). The visible welcome offer was last updated 12 February 2026 (version 1.3) and advertises up to £1,300 plus 200 spins; the surfaced conditions include a multi-deposit offer and a 100% bonus up to €300 plus 200 spins. The offer is multi-currency; exact GB-specific eligibility and terms must be captured before publication.
+- The official banking page describes card deposits/withdrawals and web-wallet options. The responsible-gambling link redirected to login during this check, so the public policy text, tools, complaints route and ADR eligibility remain open. No account or payment test was performed.
+- Decision: **HOLD**, no score, no public review, not approved.
