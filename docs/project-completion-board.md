@@ -603,3 +603,13 @@
 - Added [internal Sky Vegas GB licence and consumer-evidence dossier](docs/reviews/internal/sky-vegas-casino-gb-licence-consumer-evidence-2026-10-23.md), commit `625eaed99853a6ae8b739501bb1090337c712d34`.
 - UKGC account 65519 lists Bonne Terre Gaming Limited with active remote casino/bingo permissions and lists `www.skyvegas.com` / `m.skyvegas.com` as Active. Official signup support states 18+ eligibility, contact verification before deposits, possible additional ID/address documents, and deposit-limit setup.
 - Current offer, cashier/withdrawals, complaint/ADR and sanctions details could not be fully extracted; dossier explicitly marks these as unknown, not absent. Sky Vegas remains HOLD. Approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
+
+
+## Batch 35 — 888casino GB consumer evidence refresh (23 October 2026)
+
+- Updated the existing internal [888casino GB evidence review](reviews/internal/888casino-gb-evidence-review-2026-10-23.md) after successful extraction of the exact UK customer agreement, withdrawal policy, general bonus policy, UK responsible-gambling page, privacy notice, cookie policy, licensing disclosure and eCOGRA ADR policy.
+- New confirmed desk-research facts include: 30x default wagering and 90-day expiry in the general bonus policy (subject to promotion-specific terms); withdrawal-method dependency on previous deposit routes; identity/address/payment verification possibilities; contractual discretion for large winnings to be paid in instalments; the UK-specific control-centre features described by the operator; 888 UK Limited named as data controller; and an eCOGRA ADR route subject to eligibility and prior internal complaint steps.
+- Corrected a source-access limitation: the earlier timeout is no longer a blocker for those pages. The actual cookie-consent behaviour, logged-in safer-gambling controls, current GB cashier options/fees/limits, current offer-specific welcome terms, accessibility and any transactional outcomes remain untested or unverified.
+- The 888casino GB dossier remains **HOLD**; no consumer review is approved by this research pass. No account, payment, gameplay, withdrawal or support test was performed. Independent second-editor and legal/editorial sign-off remain required.
+- Dossier commit: `fd51f1bdb3cf397d03c42fb5fb26a7e56ef5977a`.
+- This is a research-branch-only update. Commit uses `[CF-Pages-Skip]`; no Cloudflare Pages deployment, `main` merge, DNS change or Search Console write was made.
