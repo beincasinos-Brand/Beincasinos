@@ -4,7 +4,7 @@
 **Status:** source-side correction committed to research branch; live deployment and Search Console verification still pending
 
 ## Executive summary
-This is a technical/source consistency audit, not proof that Google has indexed every URL. The live site responds to extraction for the homepage, `/robots.txt`, `/sitemap.xml`, `/reviews/`, `/how-we-review/`, `/markets/`, and the casino review evidence checklist. The homepage and sampled content pages expose self-referential canonical URLs. The robots file allows crawling and advertises the sitemap.
+This is a technical/source consistency audit, not proof that Google has indexed every URL. The live site was checked across all 46 URLs in the corrected repository sitemap. All 46 returned extracted page content, had a final URL matching the requested URL, and exposed a self-referential canonical; the extractor reported no per-URL errors, redirects, missing canonicals, or visible robots directives in the returned page metadata. The robots file allows crawling and advertises the sitemap. This is a useful crawl/metadata check, but the extraction result does not independently prove HTTP status codes, Google-selected canonicals, or actual indexation.
 
 A concrete mismatch was found: the live sitemap announces 46 URLs, while the repository's `sitemap.xml` on this research branch had 44 entries. The live sitemap contained two URLs missing from the repository version: `/markets/` and `/guides/casino-review-evidence-checklist/`. Both live pages were fetched and expose canonical URLs matching their own URLs. The repository sitemap was updated to include both entries, now 46 URLs. This source correction is committed on the research branch only; it is not live until reviewed and deployed through the approved Cloudflare Pages workflow.
 
@@ -18,7 +18,8 @@ The review directory explicitly states that no casino profiles are currently sco
 - `/how-we-review/`: canonical is self-referential and methodology includes eligibility gates, scoring criteria, evidence rules and limitations.
 - `/markets/`: canonical is self-referential and the page identifies itself as a primary-source directory, not legal advice or a casino ranking.
 - `/guides/casino-review-evidence-checklist/`: canonical is self-referential and page provides a practical evidence checklist.
-- Metadata extraction did not report a robots meta directive on the sampled pages. This is not a complete raw-HTML audit of every URL; confirm HTTP headers and raw HTML in Search Console/Cloudflare before treating every route as indexable.
+- **Full sitemap URL pass:** 46/46 sitemap URLs returned extracted content; 0 extraction errors; 0 final-URL changes; 0 missing canonical tags; 0 canonical mismatches; 0 visible robots directives in returned metadata. This is an extractor-based check, not a replacement for direct HTTP status/header validation or Google Search Console URL Inspection.
+- Metadata extraction did not report a robots meta directive on the sampled pages. Verify raw HTML and HTTP headers in Cloudflare/Google Search Console before treating every route as indexable.
 
 ## Change made
 - Updated `sitemap.xml` on branch `research/nl-batch-35-toto-renewal-enforcement-2026-10-23` from 44 to 46 `<loc>` entries.
@@ -69,3 +70,7 @@ The review directory explicitly states that no casino profiles are currently sco
 - Source sitemap correction is not deployed to production.
 - The public review directory says no casino profiles are currently scored or ranked; approved reviews remain 0/100.
 - Search demand and competitor gaps still need to be measured with reliable keyword/query data, then prioritised against the team's lawful market and evidence constraints.
+
+
+## Full sitemap crawl pass (23 October 2026)
+The corrected 46-URL repository sitemap was used as the test set against the live site. Results: **46/46 extracted**, **0 fetch errors**, **0 redirects/final-URL changes**, **0 missing canonical tags**, **0 canonical mismatches**, and **0 robots directives exposed in returned metadata**. These results show the sampled public routes are fetchable by the extraction service and canonical consistency looks good; they do **not** prove Google indexed all URLs or that every response was HTTP 200. Search Console and raw response/header verification remain required.
