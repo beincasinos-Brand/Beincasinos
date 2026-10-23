@@ -88,3 +88,13 @@ No numerical score is assigned in this draft. Scoring before the consumer-eviden
 - [ ] Legal/editorial approval recorded.
 
 Until every applicable gate is closed, keep the listing at **HOLD** and do not publish this as a completed review.
+
+
+## Evidence update — batch 34 (23 October 2026)
+
+- Rechecked UKGC account 39028: Casino Remote remains Active; 888casino.com is listed Active on the same account. Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/39028 and https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39028
+- Operator licensing page identifies 888 UK Limited as the UK operator: https://www.888casino.com/security-and-privacy/licensing/
+- Important source correction: the generic `user-agreement-ma` URL explicitly says it does not apply to UK users and points to the UK-specific agreement at https://www.888casino.com/security-and-privacy/user-agreement-uk/. The GB review must use the latter.
+- The UK-specific agreement and linked withdrawal, payment, bonus, responsible-gambling, privacy and cookie pages timed out during this fetch. This is inconclusive access evidence, not proof the pages or services are absent. Generic responsible-gambling/complaints routes attempted returned 404 and must not be cited as evidence of service unavailability.
+- Decision remains **HOLD**. Payment/withdrawal/bonus/complaints/ADR/current safer-gambling/privacy/cookie/accessibility evidence and second-editor review remain incomplete. No first-hand account, deposit, game, withdrawal or support test was performed.
+- Detailed log: `docs/research/gb-batch-34-888casino-evidence-gaps-2026-10-23.md`.
