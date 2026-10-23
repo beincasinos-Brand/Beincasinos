@@ -161,3 +161,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Kept status **HOLD / DRAFT**. Current terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open.
 - Unibet and 32Red share UKGC account 45322; count product reviews separately only where brand-specific evidence exists, and never count this dossier as an approved review.
 - Approved public reviews contributed by this dossier: **0**.
+
+
+## 17. Betfred GB research dossier added
+
+- File: `docs/brand-profile-betfred-gb-draft.md`
+- Commit: `dbd87117800e8e86319a809e7c6bf54d31048000`
+- UKGC register maps `betfred.com` to Petfre (Gibraltar) Limited, account 39544, with active remote casino, bingo, real-event betting, virtual-event betting and pool betting permissions. The account also lists `oddsking.com`; the retail entity Done Brothers (Cash Betting) Limited is kept separate.
+- Recorded the 30 June 2026 £900,000 settlement for remote customer-interaction failings and the 20 May 2025 £240,000 technical-standards penalty. Also flagged the 2022 £2.9m enforcement record for original-notice review and precise scope.
+- Current terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open; status **HOLD / DRAFT**.
+- Approved public reviews contributed by this dossier: **0**.
