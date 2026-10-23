@@ -157,3 +157,10 @@ A BetMGM Casino (NJ) evidence draft is now recorded at `docs/reviews/internal/be
 - Target accounting remains: 100 research candidates visible in the noindex working register; **0/100 approved consumer reviews**. This does not complete the high-quality review target.
 
 - Added seven dated primary-source evidence highlights to the first priority cards: bet365 (account 55149/operator distinction), 888casino (three UKGC actions with context), Betway (unresolved action-record discrepancy), Betfred GB (online-vs-retail entity separation and 2025/2026 actions), Paddy Power (four-licensee group attribution), Sky Vegas (licence/domain match with sanctions check still open), and William Hill (2025 customer-identification penalty and remediation context). These are still research notes, not approved reviews.
+
+
+## Visual register and priority evidence update — 2026-10-23
+- Public working register at `/brand-research/` now has 100 candidate cards, 100 lazy-loaded favicon previews from the recorded official-site hostnames, a neutral evidence-register illustration, filter/search controls, and initials fallback when favicons fail. Third-party favicons are disclosed as unverified visual aids, not official logos or endorsements.
+- Added primary-source GB regulator context to cards 8–10: Ladbrokes/Coral distinguish LC International Limited's online account 54743 from the separate Ladbrokes Betting & Gaming Limited account 1611 and accurately split the 2022 £17m group settlement; Grosvenor's active remote-casino permissions are documented without falsely resolving current online domain-to-licensee mapping. Added Skill On Net/PlayOJO account 39326 evidence while keeping live route/terms checks open.
+- The first 12 cards now contain 11 primary-source evidence highlights in total; all 100 remain HOLD. This is progress on research visibility, not completion of 100 approved reviews. The register remains `noindex,follow` and is intentionally absent from the XML sitemap until the publication gate is satisfied.
+- No CI, build, browser, deployment, DNS change or main merge was run/performed. Source-level updates only.
