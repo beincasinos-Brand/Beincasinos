@@ -708,3 +708,9 @@ A read-only GitHub source check after the market-page commits confirmed: 46 inde
 - No CI run, browser run, deployment, DNS change, or main merge performed in this follow-up. Source files were reviewed through GitHub API only; do not report runtime test success.
 
 - Privacy follow-up: updated `privacy/index.html` to disclose that the public register loads favicon previews from Google’s favicon service, that requests leave BeInCasinos, and that Google’s privacy policy applies. The register itself also labels these as third-party visual aids, not verified official logos.
+
+
+## 100-brand register guard follow-up — 2026-10-23
+- Added a source checker assertion requiring exactly 100 brand cards, 100 visual favicon previews, same-origin CSS/JS assets, and the deliberate `noindex` gate. Added a deployment-artifact assertion that `dist/brand-research/index.html` must exist.
+- Added the Brand research navigation link to the Market research page. The register remains excluded from the XML sitemap while it is noindex; this is intentional until candidate verification and editorial/legal sign-off.
+- Source-level GitHub API inspection confirms 100 candidate cards and 100 favicon preview elements plus the neutral illustration. No build, browser, CI, deployment, DNS change, or merge to main was run.
