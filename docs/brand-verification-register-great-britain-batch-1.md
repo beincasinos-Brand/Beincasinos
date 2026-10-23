@@ -52,3 +52,14 @@ Do not assign scores, claim hands-on testing, imply all games are licensed, or p
 - These are **not** ten fully verified editorial reviews.
 - The Swiss batch is tracked separately because Swiss authorisation is jurisdiction-specific.
 - Do not add multiple domains or duplicate licensees as separate brands unless the consumer brands and evidence genuinely differ.
+
+
+## Entity-mapping correction — 23 October 2026
+
+The table above is a first-stage candidate list, not the final domain-to-operator mapping. New primary-source checks resolve two important entries and add a second possible online operator where appropriate:
+
+- **Coral:** for the live consumer domain **coral.co.uk**, the UKGC domain search maps the domain to **LC International Limited, account 54743**. Its licence summary lists active remote casino permission and its trading-name record lists Coral as active. Official sources: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=coral.co.uk, https://www.gamblingcommission.gov.uk/public-register/business/detail/54743, https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/54743. **Entain Operations Limited (57408)** also has an active remote casino licence, but its UKGC domain record currently lists no domains; do not use account 57408 as the operator match for coral.co.uk without direct evidence.
+- **Grosvenor online casino:** the exact domain **grosvenorcasinos.com** is listed Active under **Rank Interactive (Gibraltar) Limited, account 57924**, which has an active remote casino licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/57924 and https://www.gamblingcommission.gov.uk/public-register/business/detail/57924. **Grosvenor Casinos (GC) Limited (34161)** also has active remote casino permission, but its trading-name record has no trading names recorded and it has many land-based premises. Keep the online domain mapped to the entity supported by the domain record and live terms; do not collapse the separate entities.
+- **Regulatory-action scope:** the UKGC's 7 October 2026 settlement for **Grosvenor Casinos Limited (614)** concerns AML and premises-based social-responsibility controls and states the settlement was made on behalf of that licensee and wider group. Do not attribute the whole £5,012,261 to Rank Interactive (Gibraltar) Limited (57924) as if it were the same licensee. Primary source: https://www.gamblingcommission.gov.uk/public-register/public-statement/detail/grosvenor-casinos-limited-public-statement.
+
+These corrections do not move Coral or Grosvenor to “fully verified.” They remain on hold until current terms, product-policy checks, claim-level evidence and independent editorial/compliance sign-off are complete.
