@@ -373,3 +373,11 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Dossier commit: `8640bb6d42c44c0f5f50ddd1ffe473f9058375eb`.
 - Primary sources: [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/61011), [domains](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/61011), [trading names](https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/61011), [UKGC settlement](https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/341).
 - No deployment or GitHub Actions run triggered.
+
+
+## 38. Guide-hub internal-link coverage audit — 23 October 2026
+
+- Compared all repository paths matching `guides/<slug>/index.html` against the links in `guides/index.html`.
+- Result: **29 guide pages found; 0 were missing from the guide hub** at this source revision.
+- This is a source-level internal-link check only. It does not test live HTTP status, crawl rendering, external links, Google discovery, or rankings.
+- No content change was needed for the guide hub from this comparison. No deployment or GitHub Actions run triggered.
