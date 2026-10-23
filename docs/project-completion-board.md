@@ -515,3 +515,9 @@
 - Ksa confirms TOTO Online B.V. (TOTO and Winnitt) received a continuation licence covering October 2026–September 2031. Its Wwft instruction page documents historic deficiencies and a required six-month remediation/follow-up inspection; no follow-up inspection outcome was located in this pass.
 - Current casino welcome-bonus page says new players must be 24+, but the extracted page did not expose the offer amount and detailed conditions. Responsible-play page routes to controls but does not prove they were tested.
 - TOTO remains HOLD; no approval credit. No CI, production deployment, DNS or Search Console write triggered.
+
+
+## Spain — Betway DGOJ evidence refresh (23 October 2026)
+- Added `docs/reviews/internal/betway-spain-dgoj-licence-evidence-refresh-2026-10-23.md` based on the official DGOJ operator profile and technical-system record.
+- DGOJ identifies BETWAY SPAIN, S.A. / Betway and `betway.es`; its profile lists specific permissions including gaming machines, roulette and blackjack, and a 3 September 2025 technical-system homologation decision.
+- Consumer terms, offer-specific conditions, payments/withdrawals, complaints, safer-gambling controls, privacy/cookies and accessibility remain open. Betway stays HOLD; approved reviews remain 0/100. No CI or Cloudflare deployment triggered.
