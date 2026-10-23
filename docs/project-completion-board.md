@@ -1,3 +1,12 @@
+# Latest research checkpoint — 23 October 2026, batch 4
+
+- Added research-only batch 4 at `docs/gb-brand-verification-follow-up-batch-4-2026-10-23.md` on branch `research/gb-batch-4-2026-10-23`; it deliberately avoids `main` to conserve GitHub Actions minutes and avoid an unintended Cloudflare Pages production build.
+- Checked UKGC account 39175: Jumpman Gaming Limited has an active Casino Remote licence, but it is a licensee—not yet a mapped consumer brand/domain—so it remains HOLD and does not increase the verified-brand count.
+- Checked Casumo Services Limited (39265; Casino Remote surrendered 3 November 2023) and Mr Green Limited (39264; Casino Remote surrendered 28 October 2024). Both are excluded from the current GB-licensed shortlist based on these records.
+- This batch adds **0 publication-approved brands and 0 completed reviews**. Current publication-approved review count remains **0/100**. Licence checks alone are not full operator reviews; exact domain/entity mapping, terms, withdrawals, complaints, safer-gambling checks, regulatory-history review and independent second review are still required.
+- Official register and records: https://www.gamblingcommission.gov.uk/public-register/businesses/ ; https://www.gamblingcommission.gov.uk/public-register/business/detail/39175 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/39265 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/39264
+- File commit: `65614e081bdd0c595c7f5eaf7af32f9e7e422b1e`. File re-read successfully from GitHub. No production deploy, DNS change, Search Console write action, or operator outreach was performed.
+
 # Latest research checkpoint — 23 October 2026
 
 - Expanded `docs/gb-brand-verification-batch-2026-10-23.md` with official UK Gambling Commission checks for six candidate brands: Betway Casino, 888casino, bet365, 32Red, Sky Vegas and Ladbrokes.
