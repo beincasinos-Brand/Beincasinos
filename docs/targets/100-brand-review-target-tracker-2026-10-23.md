@@ -162,7 +162,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **30/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 30 are marked rights pending and retain fallback monograms. The remaining 66 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 29-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **34/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 30 are marked rights pending and retain fallback monograms. The remaining 66 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 29-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
@@ -193,3 +193,8 @@ Added TOTO's official logo SVG, plus Kansino and Stakewise UK favicon candidates
 ### Betty Casino image candidate — 23 October 2026
 
 Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favicon/android-icon-192x192.png`. This is a square icon candidate rather than a full-size wordmark and remains rights pending. The current inventory is 34/100 sourced candidates, with 66 cards retaining CSS-generated editorial artwork. Source presence is not permission to reuse.
+
+
+### Final image inventory reconciliation — 23 October 2026
+
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
