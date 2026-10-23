@@ -646,3 +646,11 @@
 - Updated [PokerStars Casino GB internal evidence review](reviews/internal/pokerstars-casino-gb-evidence-review-2026-10-23.md) to flag this as a material unresolved brand/domain/market mismatch. The extraction did not provide a reliable redirect chain, so this is **not** treated as proof of closure, licence loss or a confirmed global rebrand.
 - Required next step is a UK-region browser check plus fresh UKGC account 39108/domain and operator/legal-entity verification. Until resolved, do not count PokerStars Casino GB as a distinct currently verified brand for the quota. Review remains HOLD, approved count unchanged. Dossier commit: `bbc34ee1eb53ecef3a5ab6355458fb25cf133db5`.
 - Research branch only; `[CF-Pages-Skip]`; no deployment, merge to `main`, DNS change or Search Console write.
+
+
+## Batch 35 — Paddy Power GB casino evidence (23 October 2026)
+
+- Added the internal [Paddy Power casino GB evidence review](docs/reviews/internal/paddy-power-casino-gb-evidence-review-2026-10-23.md) and updated the [100-brand tracker](docs/targets/100-brand-review-target-tracker-2026-10-23.md).
+- UKGC account 39426 lists remote casino permission Active. The regulator's 17 December 2025 action describes social-responsibility control failures involving four Paddy Power/Betfair licensees and a £2,000,000 **combined** payment in lieu of penalty; the group total must not be attributed solely to Paddy Power or one account.
+- General terms were extracted; the current offer, casino-specific payment/withdrawal facts, complaints/ADR details, safer-gambling controls, privacy/cookies, accessibility and second-editor sign-off remain outstanding. A 403 on automated safer-gambling extraction is an access limitation, not evidence that tools are absent.
+- Status remains HOLD; approved reviews remain 0/100. Research commit only, [CF-Pages-Skip]; no production deployment, DNS change or Search Console write.
