@@ -90,3 +90,6 @@ A brand only counts toward the 100 verified target when all required fields are 
 2. Complete terms, withdrawals, complaints, safer-gambling and regulatory-action evidence for each candidate that passes the identity gate.
 3. Recheck the public route and resolve the Cloudflare secret issue through the owner-managed GitHub Actions secret; never paste a token into chat.
 4. Keep every row on hold until all evidence, market eligibility, and second editorial review checks pass.
+
+
+- Added a New Jersey market evidence note for BetMGM using the current state DGE authorized-sites list, the Casino Control Commission 2024 annual report, and BetMGM's first-party NJ page. The official DGE list places `nj.betmgm.com/en/casino` under Borgata Hotel Casino & Spa. Scope is New Jersey only; current contract-party mapping, terms, payments, complaints and independent review remain unresolved. The registry row is updated and remains HOLD. This is not an approved public review and does not establish eligibility in any other jurisdiction. See [BetMGM NJ evidence note](reviews/internal/betmgm-casino-new-jersey-evidence-2026-10-23.md).
