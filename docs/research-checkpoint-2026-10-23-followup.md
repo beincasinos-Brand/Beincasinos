@@ -381,3 +381,14 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Result: **29 guide pages found; 0 were missing from the guide hub** at this source revision.
 - This is a source-level internal-link check only. It does not test live HTTP status, crawl rendering, external links, Google discovery, or rankings.
 - No content change was needed for the guide hub from this comparison. No deployment or GitHub Actions run triggered.
+
+
+## 39. Review-target baseline audit — 23 October 2026
+
+- `docs/brand-research-template.csv` contains **100 named prospect rows**. This is a commercial/partnership research template, not proof of regulatory verification or completed editorial reviews.
+- The public source tree contains **1 dedicated brand review HTML pages** under `reviews/`; `reviews/index.html` is currently a methodology/standard page, not a 100-brand review catalogue.
+- The public site has 29 individual guide pages and 45 source sitemap URLs, but those figures must not be represented as brand reviews.
+- Therefore the current evidenced status is: **100 candidate rows in a prospect template; 0 dedicated brand review HTML pages detected under `reviews/` in the source tree**. Internal brand dossiers remain research notes until all mandatory evidence gates and second-editor approval are passed.
+- Next work must prioritize converting fully evidenced dossiers into market-specific public pages only after review gates pass, and adding those canonical pages to the sitemap and relevant internal links. Do not manufacture a “100 reviews complete” claim.
+- Source tree was checked via the repository's recursive Git tree. This is not a live-host or Google-indexing audit.
+- No deployment or GitHub Actions run triggered.
