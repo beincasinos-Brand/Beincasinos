@@ -473,3 +473,11 @@ The [Paddy Power GB draft](brand-profile-paddy-power-uk-draft.md) and correspond
 - [Unibet GB profile](brand-profile-unibet-uk-draft.md): added Platinum Gaming Limited/account 45322 and its 22 September 2025 UKGC decision: AML and customer-interaction failures in Jan 2023–May 2024; warning, additional licence condition and £10m penalty, with cooperation noted by the regulator. This is described as an account-specific historic finding, not an unsupported statement about current customer outcomes.
 - Both matching CSV rows were updated in place and remain HOLD. Current terms, payment/withdrawal, complaints/ADR, safer-gambling/privacy, accessibility, hands-on verification and independent review are still required.
 - No GitHub Actions workflow or deployment was run.
+
+
+## Further UKGC entity/domain mapping — 2026-10-23
+
+- [Sky Vegas](brand-profile-sky-vegas-uk-draft.md): distinguished active Bonne Terre Gaming Limited/account 65519 from former Bonne Terre Limited/account 38718, whose remote licences were surrendered effective 31 October 2025 and whose Sky Vegas domains/trading names are inactive. Current live contract/footer must still be matched to account 65519.
+- [LeoVegas](brand-profile-leovegas-uk-draft.md): captured the register distinction between active `leovegas.co.uk` and inactive `.com` domains on account 39198.
+- [Unibet](brand-profile-unibet-uk-draft.md): recorded the 22 September 2025 £10m UKGC financial penalty and associated AML/customer-interaction findings for Platinum Gaming Limited/account 45322.
+- The matching CSV rows are updated in place; all remain HOLD until consumer-facing terms, payments/withdrawals, safer-gambling/privacy, complaints/ADR, usability testing and independent review are completed.
