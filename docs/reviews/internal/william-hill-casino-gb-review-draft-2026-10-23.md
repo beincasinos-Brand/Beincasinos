@@ -87,3 +87,39 @@ Primary sources are sufficient to describe the GB operator, its active permissio
 - [ ] Independent editorial and legal/compliance sign-off.
 
 **Internal only. Do not include in public navigation, generated routes or sitemap before approval.**
+
+## Additional evidence and publication controls
+
+Primary UKGC records checked for this draft:
+- Licence summary, account 39225: https://www.gamblingcommission.gov.uk/public-register/business/detail/39225
+- Trading names, account 39225: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39225
+- Domain names, account 39225: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39225
+- Regulatory actions, account 39225: https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/39225
+- UKGC public register search results distinguish WHG (International) Limited (39225; www.williamhill.com) from William Hill Organization Limited (2752): https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=William+Hill
+
+The official register says its domain and trading-name fields are supplied by the gambling business and cannot be guaranteed by the Commission. Therefore the register mapping should be cross-checked against the live GB terms and exact domain at publication time.
+
+### Claim-control matrix
+
+| Topic | Evidence status | Publication rule |
+|---|---|---|
+| GB casino operator | UKGC record and current GB terms identify WHG (International) Limited | State entity and account number; do not merge with account 2752 |
+| Casino permission | UKGC register lists active Remote Casino permission | Recheck on publication day |
+| Domain | UKGC register lists www.williamhill.com as active | Verify canonical live domain and redirect chain |
+| Regulatory history | UKGC action dated 7 August 2025; £82,687 financial penalty | Attribute to exact licensee and describe the regulator's stated issue, self-reporting and remediation |
+| Bonus value | Not fully captured in this draft | Do not advertise a specific offer until complete live terms are archived |
+| Withdrawals | No transaction tested | Describe only written policy; never claim measured speed |
+| Support | No support contact tested | Do not claim response time or quality from an unperformed test |
+| Safer gambling | Current customer journey not fully captured | Keep score unassigned until controls and local self-exclusion route are checked |
+
+### Final publication gate
+- [ ] Archive full current GB customer terms and casino-specific rules.
+- [ ] Archive any named offer and all restrictions on expiry, wagering, excluded games and cashout.
+- [ ] Capture cashier methods, limits, fees, identity checks and written processing conditions.
+- [ ] Verify current deposit limits, time-outs, GAMSTOP/self-exclusion and account-closure flow.
+- [ ] Verify complaints process and the applicable ADR provider from current terms.
+- [ ] Confirm page is not duplicated by another William Hill entity/product page.
+- [ ] Independent editor validates every factual claim and source.
+- [ ] Keep HOLD if any market, operator or material term remains unresolved.
+
+**This is a document-led internal review. It does not claim hands-on testing or publication readiness.**
