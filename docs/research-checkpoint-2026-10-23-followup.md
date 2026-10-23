@@ -402,3 +402,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Decision remains **HOLD**: live terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review are still required. No rating, recommendation or approved-review count added.
 - Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/43173 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/43173 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/43173 ; https://www.gamblingcommission.gov.uk/news/article/blue-star-planet-faces-gbp620-000-regulatory-action
 - No deployment or GitHub Actions run triggered.
+
+
+## 41. Betano GB dossier — 23 October 2026
+
+- Added `docs/brand-profile-betano-gb-draft.md` as an internal evidence dossier; it is not an approved public review.
+- UKGC account 39576 (BV Gaming Limited) lists active remote casino, bingo, gambling software, real-event and virtual-event betting licences; the trading name `betano` is active. The UKGC domain page labels `betano.co.uk` as **White Label**, so the dossier preserves that exact status rather than describing it as plain Active.
+- The current sanctions page shows no actions recorded, while the Commission's retention policy says actions remain on the register for three years. A £2m 2022 action was announced for BV Gaming trading as BetVictor; this is labelled operator-group context and not attributed as a Betano-specific finding.
+- **HOLD** pending dated consumer evidence for terms/promotions, withdrawals, complaints/ADR, safer-gambling controls, independent feedback and second-editor sign-off. No rating or recommendation.
+- Primary sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/39576 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39576 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39576 ; https://www.gamblingcommission.gov.uk/news/article/online-gambling-business-faces-gbp2m-regulatory-action
+- No deployment or GitHub Actions run triggered.
