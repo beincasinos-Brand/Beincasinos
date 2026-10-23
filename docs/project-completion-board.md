@@ -1,5 +1,12 @@
 
 
+## Research checkpoint — batch 13 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-13-skill-on-net-leads-2026-10-23.md` on `research/gb-batch-13-2026-10-23`.
+- Eight further Skill On Net domain/trading-name leads captured: 44 Aces, Prime Slots, Queen Vegas, Lucky Niki, Lucky Louis, Mega Casino, Simba Games, Winning Kings. All remain HOLD pending live-site and terms checks.
+- These are leads from one licensee, not eight independently verified operators. Avoid duplicate brand/domain counting; Simba Games requires explicit proof it is a consumer casino site.
+- No approved brand/review count changed; branch remains unmerged and no deployment was triggered.
+
+
 ## Research checkpoint — batch 12 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-12-domain-leads-2026-10-23.md` on `research/gb-batch-12-2026-10-23`.
 - Eight new domain-level leads recorded: PlayOJO, DrueckGlueck, EUcasino, SpinGenie, Anytime Casino, Quartz Casino, SlotsKingdom and Target Slots.
