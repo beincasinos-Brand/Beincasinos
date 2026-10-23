@@ -421,3 +421,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - The inventory states counting rules and requires deduplication by brand-market, exclusion of supplier dossiers from consumer-review totals, evidence-gate completion, second-editor sign-off, and separate public-page/sitemap/live/indexing checks.
 - Inventory commit: https://github.com/beincasinos-Brand/Beincasinos/commit/50e28b4abd697ada209eb39fe9c1aa5600cdec78
 - No deployment or GitHub Actions run triggered.
+
+
+## 43. Repeatable public review-catalogue audit — 23 October 2026
+
+- Added `scripts/audit_review_catalogue.py` to count dedicated review HTML pages under `reviews/`, check each page's expected canonical URL against the source sitemap, and flag missing or mismatched canonical metadata.
+- The audit excludes the top-level `reviews/index.html` hub from the review-page count but includes nested brand-specific `index.html` pages. This prevents a hub/methodology page from being misreported as a completed brand review.
+- Run from repository root with `python3 scripts/audit_review_catalogue.py`. It uses only the Python standard library and does not run GitHub Actions or deploy the site.
+- Scope is source files only. A passing result cannot confirm editorial evidence, second-editor approval, live HTTP status, production deployment, Search Console discovery, indexing, rankings, or impressions.
+- Script commit: `2f76fb79fed73d4f9bab947ac5e78601453cf6a0` (includes the canonical-regex correction).
+- No GitHub Actions run or deployment triggered.
