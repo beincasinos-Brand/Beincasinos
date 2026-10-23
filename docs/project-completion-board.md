@@ -1,5 +1,11 @@
 
 
+## Research checkpoint — batch 20 (23 October 2026)
+- Added `docs/gb-brand-discovery-batch-20-skill-on-net-active-domains-2026-10-23.md` on `research/gb-batch-20-2026-10-23`.
+- Captured 14 Skill On Net active-domain/trading-name leads: Jackpot Star, Lord Ping, Lucky Me Slots, Lucky Vegas, Megaways Casino, Miami Jackpots, Paris Vegas Club, PlayMillion, Prime Casino, RedKings, Royale500, Slots Magic, TurboNino and Vegas Winner. All remain HOLD pending live-site and review-evidence checks.
+- Deduplication rules exclude previously recorded brands and require product-type checks for ambiguous names. No approved totals changed; no merge to `main` or production deploy.
+
+
 ## Research checkpoint — batch 19 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-19-jumpman-additional-domains-2026-10-23.md` on `research/gb-batch-19-2026-10-23`.
 - Four further active-domain leads captured: Big Thunder Slots, Simba Slots, Slots Royale and Aladdin Slots. All HOLD pending live-site, legal terms and duplicate/brand identity checks.
