@@ -537,3 +537,10 @@
 - DGOJ also lists a separate ES/2025/025 case against the operator; full decision still needs review. Current consumer terms, bonus rules, cashier/withdrawals, complaints/ADR, safer-gambling controls, privacy/cookies and accessibility remain open. 888casino Spain stays HOLD and must be deduplicated against other 888 market records. Approved reviews remain 0/100; no CI or Cloudflare deployment triggered.
 
 - Follow-up completed: reviewed the full DGOJ ES/2025/025 resolution. It records that two players were allowed to withdraw winnings before documentary verification; the operator acknowledged responsibility and paid €75,000 after reductions from €125,000. DGOJ terminated the administrative procedure. This is distinct from ES/2025/003; both facts are recorded neutrally in the internal dossier. Later judicial-status checks and all consumer-facing evidence remain open.
+
+
+## Indexability and organic growth audit (23 October 2026)
+- Added [indexability audit and organic growth plan](docs/research/indexability-audit-and-organic-growth-plan-2026-10-23.md) based on live checks of `robots.txt`, sitemap, homepage, review directory, methodology, market directory and evidence checklist.
+- Found source/live sitemap drift: repository sitemap had 44 URLs, while the live sitemap reports 46. Added the two missing live URLs, `/markets/` and `/guides/casino-review-evidence-checklist/`, to the research-branch `sitemap.xml`; source now has 46 entries (commit `d34396b701aca8b8652ad890a77acf227c22549d`).
+- The two added pages were fetched successfully and expose self-referential canonicals. Live robots allows crawling and points to the sitemap. These are crawlability signals, not proof Google indexed every URL.
+- Correction is branch-only and not deployed. Search Console URL coverage/indexing remains unverified; approved casino reviews remain 0/100 because the live directory says no profiles are scored/ranked. No main merge, Search Console write, CI run or Cloudflare deployment triggered.
