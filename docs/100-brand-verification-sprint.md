@@ -366,3 +366,8 @@ Added [supplementary Ontario evidence](reviews/internal/ca-on-cross-market-corro
 - LeoVegas — TigerGen Limited
 
 These are iGaming Ontario directory matches (directory stated accurate as of 1 September 2026), not replacements for the same brands' legal entities in other jurisdictions. The Ontario player directory requires physical presence in Ontario. All remain HOLD; current terms, exact live route, consumer testing, and second-editor review remain outstanding. Registry count is unchanged by this corroboration-only batch.
+
+
+## Italy ADM evidence capture (2026-10-23)
+
+Added [internal Italy ADM evidence note](reviews/internal/it-adm-remote-gaming-evidence-2026-10-23.md). ADM's authorized remote-gaming concessionaire list associates Lottomatica.it with GBO Italy S.p.A. (code 16010), Sisal.it with Sisal Italia S.p.A. (code 16020), and Snai.it with Snaitech S.p.A. (code 16032). This is Italy-specific regulator evidence, not a completed review or approval to publish. Current terms, payments/withdrawals, complaints, privacy, safer-gambling controls, product identity and second-editor review remain outstanding. No GitHub Actions or deployment was triggered.
