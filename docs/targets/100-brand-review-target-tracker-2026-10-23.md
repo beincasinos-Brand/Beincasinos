@@ -162,7 +162,7 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 ## Directory image inventory reconciliation — 23 October 2026
 
-After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **34/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 30 are marked rights pending and retain fallback monograms. The remaining 66 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 29-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
+After adding Silkbet's SVG and Ember Casino's official-site image candidates, the branch contains **39/100 sourced image candidates** in `brand-directory/index.html` and the 100-row asset register. All 39 are marked rights pending and retain fallback monograms. The remaining 61 cards use CSS-generated decorative artwork, not official brand logos/photos. The image QA note distinguishes the original 20-candidate spot-check from the current 39-candidate inventory. This does not change publication approvals: **0/100 approved reviews**, and the directory remains `noindex,follow` pending evidence, legal-scope, image-rights and editorial gates.
 
 
 ## Brand-list qualification correction — 23 October 2026
@@ -177,7 +177,7 @@ Added three image candidates to the directory and asset register: ThreeSix Vegas
 
 ### Latest image follow-up — 23 October 2026
 
-Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Current directory inventory is 29/100 sourced image candidates; 71 cards use editorial CSS artwork/monograms. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
+Brillbet's official page exposed `https://brillbet-co-uk.s3.eu-west-1.amazonaws.com/media/logo.png`; the candidate is added to the directory and register as rights pending. The fetched Brillbet URL redirected to a customer-service notice, so current consumer-product availability is unresolved and the brand remains on HOLD. Current directory inventory is 39/100 sourced image candidates; 71 cards use editorial CSS artwork/monograms. All 100 brand cards retain evidence context and a verification checklist; publication approvals remain 0/100.
 
 
 ### Starcasino image follow-up — 23 October 2026
@@ -197,4 +197,9 @@ Added the official Betty Casino homepage favicon `https://playbetty.co.uk/favico
 
 ### Final image inventory reconciliation — 23 October 2026
 
-Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 66 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+Current checked source state: 100 unique brand cards, 100 visible research snapshots, 100 verification checklists, 34 sourced image candidates and 34 matching rights-pending labels. The remaining 61 cards use CSS-generated editorial artwork/monograms. The asset register retains 100 brand rows. This is static source QA only; image candidates are not reuse-cleared, the page remains `noindex,follow`, and no production deployment is confirmed.
+
+
+### Latest image sourcing batch — 23 October 2026
+
+Added official-page candidates for VBET Netherlands, Fair Play Casino Netherlands, BetMGM Netherlands, Hard Rock Bet, and Lottoland UK. VBET/BetMGM/Hard Rock Bet provide logo SVG candidates; Fair Play and Lottoland provide favicon candidates only. All candidates remain rights pending. Current source inventory is 39/100; 61 cards use CSS editorial artwork/monogram fallbacks. This is not a claim that the assets are licensed for republication or that local casino products have been approved.
