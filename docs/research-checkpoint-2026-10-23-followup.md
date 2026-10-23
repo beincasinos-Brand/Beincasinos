@@ -67,3 +67,16 @@ File: `docs/brand-profile-william-hill-gb-draft.md`
 - Commit: `198500552a62db1fce9e7d0719f58e20a2e16b3b`.
 
 This remains an internal evidence dossier, not an approved public review. Approved reviews from this follow-up batch: 0.
+
+
+## 6. LeoVegas GB — current register and historical enforcement added
+
+File: `docs/brand-profile-leovegas-gb-draft.md`
+
+- Confirmed LeoVegas Gaming PLC (UKGC account 39198) has active remote Casino and Bingo licences and active remote real-event/virtual-event betting permissions.
+- Preserved the domain distinction: the UKGC lists leovegas.co.uk as Active while leovegas.com is listed Inactive; the dossier scope is the GB domain.
+- Recorded the UKGC's 3 Aug 2022 £1.32m penalty, official warning and audit for social-responsibility and anti-money-laundering failures. Also noted the current register's actions page says no actions are recorded, without using that page to erase historical public enforcement.
+- Current bonus terms, payments/withdrawals, complaints/ADR, safer-gambling controls and independent editorial review remain outstanding; score withheld.
+- Commit: `4e430d566ca52a733bfe831639821e38df55cd79`.
+
+This is internal research, not an approved public review. Approved reviews from this batch: 0.
