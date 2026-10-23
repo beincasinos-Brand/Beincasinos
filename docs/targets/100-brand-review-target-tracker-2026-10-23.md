@@ -148,3 +148,5 @@ Updated `brand-directory/index.html` to expand all 100 queue cards with product 
 
 - Improved layout stability for the 20 official-site image candidates by reserving a consistent 160×64 contained image slot, adding explicit intrinsic dimension hints, and retaining asynchronous decoding/lazy loading.
 - Static QA: 100 brand cards and 100 context panels remain present; all 20 image candidates have alt text, fallback monograms, and visible rights-pending labels. No duplicate HTML IDs were found. This does not change the publication status: the directory remains `noindex,follow`, the PR is unmerged, and no Cloudflare production deployment is confirmed.
+
+- Final HTML source check after the image-layout patch: 100 unique brand labels; 100/100 cards contain legal-operator field, regulator/authority, evidence grade, checklist and research-context panel; 20/20 candidate image tags have dimension hints and alt text; no malformed image attributes or unsafe `target=_blank` links detected. This remains source-level QA, not a live-browser test or Cloudflare deployment.
