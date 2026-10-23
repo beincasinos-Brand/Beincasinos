@@ -55,3 +55,8 @@ This historical action should be attributed to the entity and period named by th
 ## Source limitations
 
 The UKGC notes that some trading-name/domain details are supplied by businesses and may not be guaranteed accurate. Compare the register against the live footer and current terms before publication.
+
+
+## 6. Correction note — legacy operator account
+
+A previous research attempt to create this dossier was blocked and did not create a file. This file is the successfully committed version. It intentionally treats account 38718 as a legacy/surrendered licence and distinguishes SBG Sports Limited (67370) from Bonne Terre Gaming Limited (65519). Re-verify these records at publication time.
