@@ -934,6 +934,25 @@ if markets_page.is_file():
 else:
     errors.append("markets/index.html is missing")
 
+# The 100-brand research register must remain explicit that these are unapproved candidates.
+brand_research_page = ROOT / "brand-research" / "index.html"
+if brand_research_page.is_file():
+    brand_research_source = brand_research_page.read_text(encoding="utf-8")
+    for required_phrase in (
+        'name="robots" content="noindex,follow"',
+        "100 casino brands under research.",
+        "All entries on this page are marked HOLD",
+        "not a recommendation",
+        'href="/terms/"',
+        'src="/brand-research/evidence-register.svg"',
+    ):
+        if required_phrase not in brand_research_source:
+            errors.append(f"brand-research/index.html: missing research safety/disclosure: {required_phrase}")
+    if "32Red" in brand_research_source or "Betfred (ES)" in brand_research_source:
+        errors.append("brand-research/index.html: rejected/excluded candidates must not be counted in the 100-brand research register")
+else:
+    errors.append("brand-research/index.html is missing")
+
 # Keep operator-facing commercial claims aligned with the actual pre-launch state.
 # These are deliberate release guardrails, not legal approval.
 partners_page = ROOT / "partners" / "index.html"
