@@ -158,3 +158,16 @@ A fresh production fetch checked the homepage, `/robots.txt`, `/sitemap.xml`, `/
 ### Updated decision
 
 Crawlability text at the root appears open, but the overall release remains **HOLD**. Do not submit `/markets/` for indexing while it returns 404. Before the single deployment, rebuild from the exact reviewed combined commit, validate that artifact contains the hub and excludes all internal drafts/evidence, parse and compare the sitemap, and complete the final production release checklist. Approved brand reviews remain **0/100**; CI success does not convert any candidate into an approved review.
+
+
+## Live production recheck — 23 October 2026 (supersedes the earlier stale-404 snapshot)
+
+A fresh uncached fetch of the production routes now shows the market hub is live and the earlier `/markets/` 404 snapshot is stale:
+
+- `https://beincasinos.online/markets/` returned the expected market-rules page with title, description, visible body content and canonical `https://beincasinos.online/markets/`.
+- `https://www.beincasinos.online/markets/` resolves to the apex HTTPS route and the page declares the same apex canonical.
+- `https://beincasinos.online/markets/index.html` resolves to the canonical trailing-slash route.
+- `https://beincasinos.online/sitemap.xml` currently contains **45 URLs** and includes `https://beincasinos.online/markets/`.
+- `https://beincasinos.online/robots.txt` is reachable and contains `User-agent: *`, `Allow: /` and the canonical sitemap URL.
+
+This verifies the current route, metadata/canonical and sitemap membership at fetch time. It does **not** prove Google has indexed the page, validate every sitemap URL, test all HTTP response headers, or replace Search Console URL Inspection. The old 22 October observations remain as historical snapshots and should not be read as current state. The full release gate remains HOLD until the exact final artifact, whole-site checks and brand/editorial approvals are complete.
