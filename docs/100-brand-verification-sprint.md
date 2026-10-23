@@ -376,3 +376,6 @@ Added [internal Italy ADM evidence note](reviews/internal/it-adm-remote-gaming-e
 ## Italy ADM evidence capture — registry update (2026-10-23)
 
 The registry CSV now records official ADM concessionaire/domain evidence for three existing candidates: Lottomatica.it — Goldbet Better Organization Italy S.p.A. (code 16010); Sisal.it — Sisal Italia S.p.A. (code 16020); and Snai.it — Snaitech S.p.A. (code 16032). See [the internal evidence note](reviews/internal/it-adm-remote-gaming-evidence-2026-10-23.md). After the update, static CSV reinspection confirms 100 rows, 31 columns, no blank or duplicate brand names, no row-width mismatches, 46 evidence-captured/HOLD and 54 prospect/not reviewed, with zero publication approvals. This was a repository-content inspection only; the validator script and CI were not run. No Actions or deployment was triggered.
+
+
+Additional Italy-specific evidence: the ADM directory also associates www.codere.it with Codere.it S.r.l. (concession code 16018). The existing “Codere” row now records this as an Italy-only match; it must not be used to infer that “Codere Mexico” has the same entity or permissions. Source: https://www.adm.gov.it/portale/en/monopoli/giochi/gioco_distanza/gioco_dist_concessionari?codconc=desc&pager=2. The row remains HOLD pending full product and consumer checks.
