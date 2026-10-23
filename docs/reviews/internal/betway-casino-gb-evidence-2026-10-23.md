@@ -15,6 +15,13 @@ The UK Gambling Commission (UKGC) record identifies **Betway Limited**, account 
 
 The operator's casino page states that Betway is licensed in Great Britain under account 39372 and describes segregated customer funds at the regulator's **high protection** level. Treat this as the operator's published statement and check the complete terms and UKGC fund-protection explanation before turning it into a consumer-facing conclusion.
 
+### Domain and brand mapping detail
+
+The UKGC domain register for account 39372 lists **betway.com**, **casino.betway.com**, and **vegas.betway.com** as Active. It also lists **jackpotcity.co.uk**, **jackpotcitycasino.co.uk**, and **spincasino.co.uk** as Active, while **hippodromeonline.com** is marked White Label. The trading-name register separately lists betway, hippodrome online, jackpot city and spin casino as Active. These are operator-register associations; do not assume that all listed sites use identical terms, offers, products or customer-fund arrangements.
+
+- Official domain register: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39372
+- Official trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39372
+
 ## 2. Regulatory-action scope
 
 At the time checked, the UKGC regulatory-actions page for **Betway Limited account 39372** stated that no regulatory actions had been recorded for this business:
@@ -48,6 +55,7 @@ Before publication, inspect the full current safer-gambling policy and user jour
 ## 6. Outstanding publication gates
 
 - Reopen the licence, trading-name, domain and regulatory-action pages and record capture timestamps.
+- Reconfirm whether each brand/domain is a direct Betway service or a white-label arrangement; review each consumer-facing legal operator and terms separately.
 - Verify full current terms, payment/withdrawal policy, privacy/cookie notice, safer-gambling tools, complaints/ADR and contact details.
 - Verify customer-funds protection wording against current official UKGC guidance and retain all caveats.
 - If mentioning promotions, snapshot the full GB-specific terms on the same date.
