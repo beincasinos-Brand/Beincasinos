@@ -13,12 +13,13 @@
 - **Grosvenor Casino:** online operator/domain separated from the October 2026 land-based settlement. Still HOLD.
 - **LeoVegas:** active remote casino licence and domain evidence captured; historic 2018 £600,000 and 2022 £1.32m UKGC enforcement decisions added. Do not call the operator's history “clean.” Still HOLD.
 - **Betway:** active licence and domain/trading-name records captured; active domains, multiple brand names and a white-label domain mapped. Still HOLD.
+- **Betfair / Paddy Power:** initial licence-scope mapping for shared domains updated; still HOLD until live casino terms resolve the contracting entity.
 - **William Hill, Betfred, bet365, Betfair, Paddy Power, 888casino:** evidence packs already exist; current terms, product-specific details and publication gates remain to be rechecked.
 
 ## Next priority order
 
 1. **Finish the source/terms pass for Betfred, William Hill and bet365** — each has material historical regulatory findings and operator terms already mapped. Capture the current terms pages, complaints/ADR, privacy/cookies, safer-gambling tools and offer rules only if a specific offer will be covered.
-2. **Betfair Casino and Paddy Power Casino** — keep separate legal entities and do not assign the combined 17 December 2025 £2m group settlement wholly to one licensee.
+2. **Betfair Casino and Paddy Power Casino** — initial shared-domain and entity mapping updated in their evidence packs; finish current product terms and confirm which entity contracts with casino customers. Do not assign the combined 17 December 2025 £2m group settlement wholly to one licensee.
 3. **888casino** — refresh UKGC licence/domain/action records and confirm the current UK customer agreement, protection-of-funds wording and complaint route.
 4. **Finish Coral, Grosvenor, LeoVegas, Betway and Virgin Games product-policy capture** before considering any draft complete.
 5. **Remaining longlist candidates** — proceed in batches only after the previous batch's evidence status is reconciled.
