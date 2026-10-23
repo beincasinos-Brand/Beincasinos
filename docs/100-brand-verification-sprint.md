@@ -413,3 +413,10 @@ These are supplemental internal source notes, not three newly verified brands an
 ## Registry integrity recheck after supplemental checkpoints — 2026-10-23
 
 After linking the Grosvenor and PlayOJO evidence notes in the CSV, a read-back and CSV parse confirmed **100 brand rows, 31 columns, zero ragged rows, and zero duplicate brand names**. Current publication-decision counts are **49 HOLD and 51 not reviewed; zero approved for publication**. The Midnite note is linked from this sprint tracker but no extra CSV row was added, so the 100-row candidate target remains intact. This was a repository-content parse only; the validator script and CI were not run. No Actions minutes were spent and no deployment was triggered.
+
+
+## Additional GB profile dossier refresh — 2026-10-23
+
+- Updated [Betfred Casino (GB) internal draft](brand-profile-betfred-uk-draft.md) with current UKGC licence/domain evidence, the regulator's 2025 technical-standards sanction and 2026 social-responsibility settlement, current casino-specific terms, and open review gates. The regulator actions are attributed to Petfre (Gibraltar) Limited/account 39544. No score or publication approval was added.
+- Updated [Midnite (GB) internal dossier](brand-profile-midnite-gb-draft.md) with the latest initial account/domain checkpoint and an explicit unresolved operator-transition gate involving the separate Dribble Media Limited record. No score or publication approval was added.
+- Primary-source refreshes are internal research only. Current consumer terms, payment/withdrawal evidence, complaints/ADR, safer-gambling and privacy checks, second-editor approval, and site-wide release gates still prevent publication. No Actions run or deployment was triggered.
