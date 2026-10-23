@@ -1,5 +1,14 @@
 
 
+## Research checkpoint — batch 28 (2026-10-23)
+- Added [batch 28: newer operator/domain discovery leads](docs/gb-brand-discovery-batch-28-newer-operator-domain-leads-2026-10-23.md).
+- Logged six leads for verification: 666 Casino, Dream Jackpot, King Casino and Ladbet (Jupiter Gaming Limited account clue); Proper Bet (Proper Bet Limited); Stakewise (Rocbrook Limited).
+- All six remain **HOLD** pending live-domain, legal-terms, active remote-casino scope and brand-identity checks. These are discovery leads, not verified brands.
+- Publication-approved brands added: **0**. Publication-approved reviews added: **0**. Production deploys: **0**.
+- Release safety unchanged: no merge to `main`, no Cloudflare Pages production deploy, and no DNS/configuration change. Commit messages use `[CF-Pages-Skip]` to request a Pages build skip.
+- Official reference: [UKGC register](https://www.gamblingcommission.gov.uk/public-register/businesses/) states declared domain and trading-name data may be inaccurate; verify each record before approval.
+
+
 ## Research checkpoint — batch 27 (23 October 2026)
 - Added `docs/gb-brand-discovery-batch-27-register-crosschecks-2026-10-23.md` on `research/gb-batch-27-2026-10-23`.
 - Captured official-register leads for Party Casino (partycasino.com, LC International Limited 54743) and Quatro Casino UK (quatrocasino.co.uk, Apollo Entertainment Limited 38620), both HOLD pending current licence/domain and live-site checks.
