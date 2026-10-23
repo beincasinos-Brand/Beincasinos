@@ -107,3 +107,19 @@ Some secondary profiles report a historical £11.6m regulatory settlement in Mar
 - [ ] Complete independent second review and legal/editorial approval.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+
+
+## Official register refresh — 23 October 2026
+
+The UK Gambling Commission's live public register was rechecked on 23 October 2026:
+
+- **Legal entity/account:** Betway Limited, account **39372**.
+- **Casino permission:** Casino Remote **039372-R-319367-029**, shown **Active**, from 1 November 2014 to current.
+- **Other permissions:** General Betting Standard — Real Event Remote and Virtual Event Remote are also shown active; these are betting permissions and must not be presented as casino-specific evidence.
+- **Register-listed domains:** `betway.com`, `casino.betway.com`, `inplay.betway.com`, `sports.betway.com`, and `vegas.betway.com`.
+- **Primary sources:** UKGC licence summary https://www.gamblingcommission.gov.uk/public-register/business/detail/39372 and register search result https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=betway
+- The UKGC explains that domains and trading names are supplied by the gambling business and that it cannot guarantee the accuracy of third-party-supplied information in every case: https://www.gamblingcommission.gov.uk/public-register/businesses
+
+This register refresh confirms the current licence and listed-domain snapshot, but it does **not** resolve the separate historical regulatory-action discrepancy already documented above. The register's account-level “no actions recorded” message must not be generalized into a claim that no historical regulatory action ever occurred. Continue to locate and reconcile original UKGC notices to the correct entity/account before making a historical summary public.
+
+**Disposition remains HOLD.** No independent payment/withdrawal testing, terms audit, safer-gambling walkthrough, complaints-route test, privacy/cookie review, accessibility test or second-person editorial approval is claimed by this register refresh.
