@@ -84,3 +84,20 @@ The DGOJ operator profile continues to associate **https://www.888casino.es** wi
 If the review later reaches approval, the regulatory-history section must report each material decision separately with its decision date, factual conduct, amount and procedural status, based on the underlying official resolution. A licence/domain listing is not a substitute for a current consumer-terms review, and a regulator record alone does not establish current customer experience.
 
 **Disposition remains HOLD.** Current Spanish terms, promotions, payments, complaints/ADR, safer-gambling implementation, privacy/cookies, accessibility, and independent review remain unverified. No score, recommendation or “safe/trusted” claim is authorised by this refresh.
+
+
+## Separate AML enforcement record — BOE publication checked 23 October 2026
+
+A separate Spanish anti-money-laundering enforcement notice was found in the official Boletín Oficial del Estado (BOE), distinct from the DGOJ gambling-licence enforcement index:
+
+- **Official publication:** BOE-A-2026-15121, published 10 July 2026.
+- **Entity named:** 888 Online Games España, S.A.
+- **Underlying decision date:** 23 June 2025, file ST/4006/2024.
+- **Status stated in the notice:** final in the administrative route.
+- **Findings stated:** two serious AML/CFT infringements — failure to apply continuous monitoring to the business relationship and failure to conduct a special examination.
+- **Sanctions stated:** two separate fines of **€275,976 each**, each accompanied by a public reprimand; combined arithmetic total €551,952, but the two findings must still be described separately.
+- **Primary source:** https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15121
+
+Editorial guardrail: label this as an AML/CFT action, not a DGOJ casino-licensing sanction. Do not conflate it with the DGOJ records ES/2025/003, ES/2025/025, ES/2024/179 or ES/2023/078. The BOE notice supports the specific facts above; consumer-facing treatment still needs legal/editorial review and context from the complete notice.
+
+**Disposition remains HOLD.** This update strengthens regulatory-history sourcing only. It does not verify current consumer terms, promotions, payments, complaint handling, safer-gambling tools, privacy/cookies or accessibility.
