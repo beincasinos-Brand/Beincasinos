@@ -105,3 +105,12 @@ File: `docs/brand-research-queue-template.md`
 - Commit: `f27d35fe7d8c8008d6cd8a7608bfd8d230b51bf8`.
 
 This is a workflow asset, not a brand review; it does not increase the approved-review count.
+
+
+## 10. Betway GB research dossier added
+
+- File: `docs/brand-profile-betway-gb-draft.md`
+- Commit: `8f3728f863a3eef17bee3211728e8b65ba7771f6`
+- Official UKGC register identifies Betway Limited, account 39372, with active remote casino and remote betting licences; the register lists `betway.com` as active. Regulatory-actions page currently says no actions recorded for this account. Official sources are linked in the dossier.
+- Status remains **Hold / draft**, not an approved review: current terms, promotion restrictions, payments/withdrawals, complaints/ADR, safer-gambling controls, historical/group checks and independent review remain open.
+- Counting rule unchanged: a research dossier is not one of the 100 approved reviews.
