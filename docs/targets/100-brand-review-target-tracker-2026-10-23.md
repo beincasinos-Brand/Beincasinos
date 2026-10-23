@@ -15,6 +15,8 @@ Eight internal evidence drafts are tracked: 888casino (GB), Betfred (GB), Willia
 
 Counts below are raw rows whose current registry market-scope text maps to the geography. They are **not** counts of eligible brands. Deduplicate brand + local product + contracting entity, and verify current online-casino permission before promoting a row into the final 100.
 
+Four of the 162 registry records are deliberately not allocated to a target geography in the current scope field: Betsson Casino and NordicBet Casino remain in scope triage until a named local route is evidenced; Rizk has no confirmed market route; and 32Red is rejected/excluded because the current GB casino permission/domain was not active in the evidence check. None may count toward the 100.
+
 | Target geography | Raw scoped rows | Qualification gate / next work |
 |---|---:|---|
 | Australia (AU) | 0 | Legal-scope gate: online casino services are generally prohibited. Do not create offshore-casino recommendations to fill a quota. Research lawful explanatory content only if approved. |
