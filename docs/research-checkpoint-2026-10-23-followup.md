@@ -171,3 +171,13 @@ This is a workflow asset, not a brand review; it does not increase the approved-
 - Recorded the 30 June 2026 £900,000 settlement for remote customer-interaction failings and the 20 May 2025 £240,000 technical-standards penalty. Also flagged the 2022 £2.9m enforcement record for original-notice review and precise scope.
 - Current terms, promotions, withdrawals, complaints/ADR, safer-gambling usability, independent feedback and second-editor review remain open; status **HOLD / DRAFT**.
 - Approved public reviews contributed by this dossier: **0**.
+
+
+## 18. Videoslots GB research dossier added
+
+- File: `docs/brand-profile-videoslots-gb-draft.md`
+- Commit: `775475b44606a9215874b9761279307f1c8b8880`
+- UKGC account 39380 has active remote casino, bingo, real-event betting and linked gambling software permissions. The UKGC's 20 November 2025 announcement names videoslots.co.uk, mrvegas.com and megariches.com as sites run by Videoslots Limited; related brands are not automatically counted as separate reviews.
+- Recorded the 30 October 2025 £650,000 penalty, warning and additional licence condition for AML/CTF and customer-interaction failures, including deposit-limit logic that excluded an initial deposit and weaknesses in customer-risk monitoring.
+- Current terms, promotions, payment/withdrawal checks, complaints/ADR, safer-gambling usability, remediation/audit outcome, independent feedback and second-editor review remain open.
+- Status **HOLD / DRAFT**. Approved public reviews contributed by this dossier: **0**.
