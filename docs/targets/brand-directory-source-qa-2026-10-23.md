@@ -16,19 +16,19 @@
 | Cards with verification checklist | 100/100 |
 | Cards with research-context panel | 100/100 |
 | Visible source-backed research snapshots | 100/100 |
-| Logo/image candidates | 41 |
-| Candidate images with alt text | 41/41 |
-| Candidate images with explicit width/height | 41/41 |
-| Candidate images with lazy loading | 41/41 |
+| Logo/image candidates | 42 |
+| Candidate images with alt text | 42/42 |
+| Candidate images with explicit width/height | 42/42 |
+| Candidate images with lazy loading | 42/42 |
 | Duplicate HTML IDs | 0 |
 | New-tab links missing `noopener noreferrer` | 0 |
 
 ## Visual asset status
 
-- 41/100 cards have a sourced image candidate; all remain **rights pending**.
-- 59/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
+- 42/100 cards have a sourced image candidate; all remain **rights pending**.
+- 58/100 cards use CSS-generated editorial artwork and monograms, not official logos or photographs.
 - BigBangBet has no image URL because its official-site fetch failed; no URL was guessed.
-- The directory hero now accurately states 100 research entries, 34 sourced image candidates with rights pending, and 66 CSS artwork/monogram fallbacks.
+- The directory hero now accurately states 100 research entries, 42 sourced image candidates with rights pending, and 58 CSS artwork/monogram fallbacks.
 
 ## Publication and deployment gates
 
@@ -116,3 +116,8 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative inventory reconciliation — 23 October 2026, latest branch source
 
 The latest `brand-directory/index.html` and `brand-image-asset-register-2026-10-23.csv` were fetched and counted together. Current source of truth: **100 unique brand cards; 100 visible research snapshots; 41 sourced image candidates with matching rights-pending labels and fallback monograms; 59 cards using CSS artwork/monograms; 100 brand rows in the image register.** All 41 image tags have alt text, width/height, lazy loading and error fallback. These are source-level checks only. Asset URLs have not all been directly loaded or visually inspected, and no reuse permission is established. **0/100 reviews approved.** Directory remains `noindex,follow`; PR #36 remains open/draft/unmerged and is not mergeable; no Cloudflare production deployment is confirmed. Older counts elsewhere in this file are historical snapshots, not the current inventory.
+
+
+## Latest source audit — 23 October 2026
+
+The current `brand-directory/index.html` contains 100 unique brand cards, 100 visible research snapshots, 42 image candidates, and 58 CSS-art/monogram fallbacks. All 42 image tags have alt text, explicit dimensions, lazy loading, and error fallback; all 42 are marked rights pending. The image register still contains 100 rows, 42 with a sourced candidate and 58 not sourced. The last content pass strengthened ten low-evidence snapshots with explicit domain/operator, jurisdictional authorisation, active-product, terms, payments, complaints and safer-gambling verification gates. These are clearer research notes, not newly verified facts or approved reviews. Page remains `noindex,follow`; PR #36 is draft/unmerged/non-mergeable; no Cloudflare production deployment is confirmed.
