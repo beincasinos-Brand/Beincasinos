@@ -10,7 +10,7 @@
 
 The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 204 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 204 records remain HOLD or otherwise not approved for publication.
 
-Thirty-three internal evidence drafts are now tracked across the initial batches and batches D–F: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), Betano Casino (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), Betsson (Sweden), Betway virtual slots (Germany), LeoVegas virtual slots (Germany); bet365 Casino (GB), Betano Casino (GB), Betfair Casino (GB), Paddy Power Casino (GB), Grosvenor Casino (GB), Virgin Games Casino (GB), PlayOJO (GB), Mr Green Casino (GB), Videoslots (GB), Midnite Casino (GB), Mega Riches (GB), Los Vegas Casino (GB), PricedUp Casino (GB), Rollerbet Casino (GB), and Betta Bet Casino (GB). These are market-specific internal evidence drafts, not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Thirty-eight internal evidence drafts are now tracked across the initial batches and batches D–G: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), Betano Casino (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), Betsson (Sweden), Betway virtual slots (Germany), LeoVegas virtual slots (Germany); bet365 Casino (GB), Betano Casino (GB), Betfair Casino (GB), Paddy Power Casino (GB), Grosvenor Casino (GB), Virgin Games Casino (GB), PlayOJO (GB), Mr Green Casino (GB), Videoslots (GB), Midnite Casino (GB), Mega Riches (GB), Los Vegas Casino (GB), PricedUp Casino (GB), Rollerbet Casino (GB), Betta Bet Casino (GB), Bally Casino UK (GB), Conquer Casino (GB), QuinnBet Casino (GB), LottoGo Casino (GB), and Alfobet Casino (GB). These are market-specific internal evidence drafts, not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -384,8 +384,8 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
 - Current card status flags: **HOLD=98, EXCLUDE=2**. Stakemate is excluded because current evidence supports a sports-betting scope, not a verified casino product; Ivy Casino is also excluded pending a verified casino identity/scope.
 - The page remains `noindex,follow`; do not promote this internal research directory as a consumer review destination.
-- Internal review batches A–F remain research drafts only. Batch F adds five GB evidence-limited drafts; it does not add approved reviews or imply first-hand testing.
-- **Internal evidence drafts: 33. Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
+- Internal review batches A–G remain research drafts only. Batches F and G add ten GB evidence-limited drafts; they do not add approved reviews or imply first-hand testing.
+- **Internal evidence drafts: 38. Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
 - No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget. The latest image edit was statically checked: 100 cards, 60 image elements, all lazy-loaded with alt text and onerror fallbacks.
 
 ### Great Britain source refresh — 24 October 2026
@@ -395,6 +395,14 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - Updated PricedUp, Rollerbet and Betta Bet directory summaries to disclose those unresolved checks instead of implying a completed customer journey.
 - Replaced the Mega Riches 16×16 favicon candidate with its official homepage Open Graph image (1200×630 JPEG). The new candidate remains rights-pending and needs visual-crop and permission review.
 - Static directory QA after the edits: 100 cards, 100 unique titles, 60 image elements, all with alt text, lazy loading and on-error fallback. No browser visual regression, Lighthouse test, GitHub Actions build or Cloudflare deployment was run.
+
+### Additional GB review evidence — batch G — 24 October 2026
+
+- Added five internal drafts for Bally Casino UK, Conquer Casino, QuinnBet Casino, LottoGo Casino and Alfobet Casino; internal draft count is now 38, while approved consumer reviews remain 0/100.
+- Refreshed UKGC licence summaries for Gamesys Operations Limited (38905), ProgressPlay Limited (39335), QuinnBet (Gibraltar) Limited (61011), Annexio (Jersey) Limited (51692) and Grace Media (Gibraltar) Limited (57869).
+- QuinnBet's 20 August 2026 £609,104 settlement and stated AML/social-responsibility findings are treated as material dated context, not as proof of present-day control performance.
+- Conquer Casino's terms identify ProgressPlay Ltd and UKGC account 39335. Alfobet's current consumer domain still needs reconciliation with the White Label domain recorded in the register. No consumer accounts, deposits or withdrawals were tested.
+- No production status changes: directory remains noindex, PR #52 remains draft/unmerged, and no GitHub Actions build or Cloudflare deployment was triggered.
 
 ### Next execution gates
 
