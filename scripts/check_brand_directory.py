@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import csv
 import re
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,15 +31,15 @@ def main() -> None:
     with REGISTER_PATH.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
-    cards = re.findall(r'<article class="brand-card"\\b[^>]*>[\\s\\S]*?</article>', html)
+    cards = re.findall(r'<article class="brand-card"\b[^>]*>[\s\S]*?</article>', html)
     if not cards:
         # The class is followed by data-* attributes, so a literal space is also valid.
-        cards = re.findall(r'<article class="brand-card"[^>]*>[\\s\\S]*?</article>', html)
+        cards = re.findall(r'<article class="brand-card"[^>]*>[\s\S]*?</article>', html)
     if len(cards) != 100:
         fail(f"expected 100 directory cards, found {len(cards)}")
 
     def card_title(card: str) -> str:
-        match = re.search(r"<h2[^>]*>([\\s\\S]*?)</h2>", card)
+        match = re.search(r"<h2[^>]*>([\s\S]*?)</h2>", card)
         return re.sub(r"<[^>]+>", "", match.group(1)).strip() if match else ""
 
     titles = [card_title(card) for card in cards]
@@ -50,7 +49,7 @@ def main() -> None:
     if duplicates:
         fail("duplicate displayed titles: " + ", ".join(duplicates))
 
-    robots = re.search(r'<meta\\s+name="robots"\\s+content="([^"]+)"', html, re.I)
+    robots = re.search(r'<meta\s+name="robots"\s+content="([^"]+)"', html, re.I)
     if not robots or robots.group(1).strip().lower() != "noindex,follow":
         fail("directory must remain noindex,follow until release gates pass")
     if "brand-directory" in sitemap:
@@ -65,13 +64,13 @@ def main() -> None:
     images = 0
     mismatches: list[str] = []
     for card, title in zip(cards, titles):
-        match = re.search(r"<img\\b[^>]*>", card, re.I)
+        match = re.search(r"<img\b[^>]*>", card, re.I)
         if not match:
             continue
         images += 1
         tag = match.group(0)
-        src = re.search(r'\\bsrc="([^"]+)"', tag, re.I)
-        alt = re.search(r'\\balt="([^"]*)"', tag, re.I)
+        src = re.search(r'\bsrc="([^"]+)"', tag, re.I)
+        alt = re.search(r'\balt="([^"]*)"', tag, re.I)
         if not src or not src.group(1).strip():
             fail(f"{title}: image has no src")
         if not alt or not alt.group(1).strip():
