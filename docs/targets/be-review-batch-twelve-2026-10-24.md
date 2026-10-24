@@ -1,0 +1,5 @@
+# Belgium review batch twelve — 24 October 2026
+
+Eight internal Belgium-market review drafts: Betway Belgium, Napoleon Games, Casino777, Unibet Belgium, bwin Belgium, Circus Belgium, Golden Palace and Starcasino Belgium. Drafts are under `docs/reviews/internal/` with the `-review-draft-2026-10-24.md` suffix.
+
+All remain HOLD and are not approved for publication. No scores, recommendations or hands-on tests are claimed. Verify current Belgian Gaming Commission licence, exact operator/domain mapping and binding local terms; complete product, promotions, payments/withdrawals, safer-gambling, complaints, privacy/accessibility, image-rights and independent editorial checks. Deduplicate brands/operators before counting toward 100. No Cloudflare deployment or GitHub Actions workflow was triggered.
