@@ -728,3 +728,25 @@ The exact displayed card-title list at this checkpoint is:
 100. BetGoodwin Casino
 
 **Important reconciliation note:** This directory-card set is not the same as the 100-ID research workqueue. Card titles are candidate labels, not proof of 100 distinct global operators. Several require alias/domain/market deduplication and regulator checks. Do not call the list “100 verified brands” until the card set is reconciled against the global-ID queue and market-specific licence/domain evidence. Publication-approved reviews remain 0/100; this commit is documentation only, not a production deployment.
+
+
+## Indexing work — 24 October 2026 (branch-only; production unverified)
+
+- Changed the directory page robots meta directive from `noindex,follow` to `index,follow` in `brand-directory/index.html` (commit `7a1df0ddee3f267076d58a3162c4a7aeb88dcc2c`).
+- Added the canonical directory URL `https://beincasinos.online/brand-directory/` to `sitemap.xml` (commit `30d94f40250f1bc96cae90bc944f42dfb384ce11`).
+- Source-level re-fetch confirmed the new directive and sitemap entry on the working branch. This does **not** prove the change is deployed, the live URL returns HTTP 200, Google can crawl it, or Google has indexed it. Direct live-site checks were inaccessible in the current check.
+- Risk decision still open: the directory is a research-lead catalogue, not 100 verified consumer reviews. Index eligibility should be reconsidered against useful unique content, accurate market/legal status, and image rights before release; do not imply that the 100 cards are 100 approved reviews.
+- No GitHub Actions workflow was triggered and no Cloudflare deployment was performed.
+
+### Current target counts (do not conflate milestones)
+
+| Milestone | Status |
+|---|---|
+| Directory cards in branch | 100 |
+| Distinct eligible brands fully verified | Not yet demonstrated |
+| Internal evidence drafts tracked | 53 (tracker count; draft != review) |
+| Publication-approved reviews | 0/100 |
+| Directory robots directive in branch | `index,follow` |
+| Directory URL in branch sitemap | Yes |
+| Production Cloudflare state verified | No |
+| Google/Bing indexing confirmed | No |
