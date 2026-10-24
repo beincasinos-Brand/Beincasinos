@@ -50,7 +50,7 @@ Three of the 204 registry records are deliberately not allocated to an active ta
 | Measure | Current verified value |
 |---|---:|
 | Raw market-specific research records | 204 |
-| Internal evidence drafts tracked | 18 |
+| Internal evidence drafts tracked | 53 |
 | Publication-approved reviews | 0 |
 | Remaining approved reviews to target | 100 |
 
@@ -439,3 +439,12 @@ Cumulative internal evidence drafts: **53**. Publication-approved reviews remain
 ### Image readiness audit — 24 October 2026
 
 Added `docs/targets/directory-image-readiness-audit-2026-10-24.md` after a static review of the 100-row asset register. The register contains 60 remote image candidates (60%) and 40 rows with no remote image URL, intended to use CSS artwork/monogram fallbacks. All 60 candidates remain RIGHTS PENDING; source-page presence is not permission to republish. The register has 100/100 rows with alt text and 0 sourced rows without a source-page URL. This was a metadata-only audit: no remote asset fetch, pixel/format validation, rights clearance, GitHub Actions build, merge, or Cloudflare deployment was performed. Approved consumer reviews remain 0/100; PR #52 remains draft/unmerged.
+
+### Directory card-count reconciliation — 24 October 2026
+
+A fresh static parse of `brand-directory/index.html` on this branch found **100 rendered brand cards and 100 unique displayed titles**. This confirms the page count, not 100 qualified/distinct operators: several titles may be duplicate brands, market variants, sportsbook-led products or unresolved legal-scope leads, and the registry must be reconciled by brand + local casino product + contracting entity before the directory can become an approved recommendation page. The directory remains `noindex,follow` and must stay that way until all qualification and editorial gates are met.
+
+The asset register has 100 rows; 60 have remote image candidates and 40 rely on decorative CSS artwork/monogram fallback. All 60 sourced candidates remain rights-pending. Static markup includes alt text, lazy loading and image-error fallback, but this is not a browser rendering, accessibility, link, image-fetch or rights-clearance test. No GitHub Actions run, merge or Cloudflare deployment was triggered by this reconciliation.
+
+**Ledger correction:** the completion table above previously said 18 internal evidence drafts, a stale figure from the early Ontario update. Later batches G–J raised the cumulative tracked count to **53**. Approved consumer reviews remain **0/100**; all 53 are internal evidence drafts and none is publication-approved.
+
