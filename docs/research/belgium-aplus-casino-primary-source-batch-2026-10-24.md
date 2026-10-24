@@ -2,7 +2,7 @@
 
 **Status:** Internal research batch only; not for publication.  
 **Authority checked:** Belgian Gaming Commission, official A+ licence table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en  
-**Source freshness shown by authority:** last updated 8 October 2026.  
+**Source freshness shown by authority:** the official A+ page displayed an update date in October 2026; the table was re-opened on 24 October 2026. Its displayed last-updated field is dynamic, so recheck it before publication.  
 **Method limitation:** this batch checks the official register's displayed domain/operator/dossier/expiry fields. It does not constitute a successful end-to-end consumer-site inspection, terms capture, payment test, legal opinion or review approval.
 
 ## Register-backed candidate rows
@@ -17,7 +17,7 @@
 | PokerStars.be — https://www.pokerstars.be | Casino de Namur; SA/NV GAMBLING MANAGEMENT | 20635 | 11 Dec 2034 | HOLD; same listed operator/record as Circus; check product contract separately |
 | Ladbrokes Casino — https://www.casinoladbrokes.be | Grand Casino de Dinant; SA/NV GRAND CASINO DE DINANT | 65721 | 19 Jan 2038 | HOLD; not interchangeable with the GB operator mapping |
 | Unibet Casino — https://www.unibetcasino.be | Casino Blankenberge; SA/NV BLANKENBERGE CASINO-KURSAAL | 505296 | 1 Jan 2036 | HOLD; Belgian casino licence is distinct from the sports-betting entity |
-| bwin Casino — https://www.bwincasino.be | Infiniti Casino Oostende; SA/NV Infiniti Casino Oostende | 571352 | 1 Aug 2036 | HOLD; confirm exact current contract against register |
+| bwin Casino — https://www.bwincasino.be | Infiniti Casino Oostende; SA/NV Infiniti Casino Oostende | 571352 | 1 Aug 2036 | HOLD; confirm exact current contract against register |\n| Betsson Casino — https://www.betssoncasino.be | Casino Middelkerke x Betsson; SA/NV EXPLOITATIE CASINO MIDDELKERKE | 595153 | 22 Feb 2039 | HOLD; material domain/brand change from earlier BetFIRST record; verify live contract |
 
 The official table gives evidence of Belgian A+ domain/operator associations, not a general group licence. These local operators may differ from the brand's contracting entity in other markets. Confirm each current Belgian customer agreement and terms before publication.
 
@@ -70,7 +70,7 @@ Draft paths:
 - `docs/reviews/internal/unibet-casino-be-evidence-review-2026-10-24.md`
 - `docs/reviews/internal/bwin-casino-be-evidence-review-2026-10-24.md`
 
-Across this research batch, all nine A+ register rows have now been represented in a Belgium-specific internal draft or batch memo. This is nine local market records, **not nine newly verified global brands**: several are existing global brands, and Circus/PokerStars share one official A+ record/operator. All nine remain HOLD pending live contracts, current terms, consumer evidence, enforcement and image-rights checks, independent review and editorial/legal approval. Approved-review count remains **0/100**.
+Across this research batch, all ten currently surfaced domain records have now been represented in a Belgium-specific internal draft or batch memo. This is nine local market records, **not nine newly verified global brands**: several are existing global brands, and Circus/PokerStars share one official A+ record/operator. All nine remain HOLD pending live contracts, current terms, consumer evidence, enforcement and image-rights checks, independent review and editorial/legal approval. Approved-review count remains **0/100**.
 
 
 ## Correction — current A+ register includes Betsson Casino, 24 October 2026
