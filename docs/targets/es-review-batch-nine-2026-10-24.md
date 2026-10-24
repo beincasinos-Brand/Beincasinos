@@ -1,0 +1,5 @@
+# Spain review batch nine — 24 October 2026
+
+Eight internal Spain-market review drafts: Codere, Luckia, Sportium, Kirolbet, Jokerbet, Casino Barcelona Online, GoldenPark and Pastón. Drafts live under `docs/reviews/internal/` with `-es-review-draft-2026-10-24.md` suffix.
+
+All remain HOLD, not approved for publication. No scores, recommendations or hands-on tests are claimed. Verify current DGOJ authorization, contracting entity, domain and Spanish terms; complete product, promotion, payments/withdrawals, safer-gambling, complaints, privacy/accessibility and image-rights checks; obtain independent editorial approval. Do not generalize authorization across countries. Deduplicate brand/operator records before counting toward 100. No Cloudflare deployment or GitHub Actions workflow was triggered.
