@@ -1,47 +1,56 @@
-# Target-100 release-gate audit — reconciled 2026-10-24
+# Target-100 release-gate audit — canonical public-directory ledger — 24 October 2026
 
 ## Scope and method
-Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` on branch `ops/2026-10-24-target-reconciliation-and-release-gates`. The complete CSV was parsed with quote-aware CSV handling and checked for row width, slot uniqueness and gate-field population. This is an internal research ledger, not a production review catalogue.
+Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` on branch `ops/2026-10-24-target-reconciliation-and-release-gates`. The CSV was parsed with quote-aware handling and checked for row widths, slot uniqueness, brand/market uniqueness, and release-gate fields. The ledger is an internal research tracker, not a consumer-ready review catalogue.
 
 ## Current structural result
-- Data rows: **100**; columns: **43**; every data row has exactly 43 fields; duplicate slot IDs: **0**.
-- Official bonus/promotion URL field: **57 populated / 43 blank**. A URL is a research lead, not proof an offer is live, available in the stated market, lawful, or fully understood.
-- Image source URL: **0 populated**; image reuse/rights status: **PENDING for 100/100**.
+- Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
+- Official consumer-facing domain URL: **45/100** populated; 55 blank. Do not infer a valid operator domain for blank rows.
+- Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
+- Terms URL: **8/100**.
+- Bonus/promotion URL: **8/100**. These are source leads, not verified, current, eligible or cleared offers.
+- Complaints URL: **3/100**; responsible-gambling URL: **7/100**.
+- Deposit-method URL: **3/100**; fees/limits URL: **3/100**; withdrawal URL: **3/100**.
+- Privacy/cookies URL: **4/100**; accessibility evidence URL: **0/100**.
+- Regulatory-action URL: **1/100**; ADR/dispute URL: **1/100**. A regulator complaint process is not private ADR unless the source explicitly establishes that.
+- Image-source URL: **50/100**. For those 50, image rights status remains **PENDING — SOURCE FOUND · RIGHTS PENDING**; the other **50/100** are marked **NOT FOUND — editorial fallback required**. No image is cleared merely because a source URL exists.
 - Overall score: **NOT SCORED for 100/100**.
 - Review status: **HOLD for 100/100**; publication status: **HOLD for 100/100**.
-- Deposit-method URL: **2/100**; fees/limits URL: **2/100**; withdrawal URL: **15/100**; accessibility evidence URL: **0/100**; regulatory-actions URL: **2/100**; ADR/dispute-resolution URL: **2/100**.
-- Privacy/cookies URL: **10/100 populated; 90 blank**.
 - Consumer testing: **NOT PERFORMED for 100/100**.
 - Affiliate disclosure status: **NOT REVIEWED for 100/100**.
-- Evidence bundle path: **0/100**.
+- Primary/secondary reviewer fields and approval dates: **0/100 populated**; evidence bundle path: **0/100**.
 
 ## Release decision
 **Do not publish or rank these 100 entries as completed reviews.** No entry has a substantiated overall score, independent second-review sign-off, documented consumer testing, cleared image rights, or a complete evidence bundle. Keep the public approved-review count at zero until individual entries pass all applicable gates. Do not manufacture scores, ratings, screenshots, testimonials, payment-test claims, or bonus availability.
 
-## Highest-priority identity and scope risks
-1. **Slot 15 — Betano Casino (DE):** current ledger evidence mentions virtual slots, but does not establish a separate online table/live-casino permission. Do not label it a full casino until product and licence scope are proven.
-2. **Slot 24 — DraftKings Casino (CA-ON):** exact Ontario customer domain/contracting entity mapping is not yet established from the recorded regulator source.
-3. **Slot 25 — Espacejeux (CA-QC):** may overlap the Loto-Québec/lotoquebec.com product rather than represent a distinct current brand; resolve or deduplicate before counting it as a separate verified target.
-4. **Slots 5 and 20 — MERKUR Spiel / Tipico Casino (DE-SH):** permission recorded is Schleswig-Holstein-specific; do not imply nationwide German online-casino availability.
-5. **Slot 28 — Hollywood Casino (US-PA):** offer-source notes contain conflicting first-time-deposit wording; use the newer official help-centre article only as a lead until the complete Pennsylvania terms are confirmed.
-6. **Slot 38 — Fanatics Casino (US-NJ):** public homepage claim is casino credit, not cash; complete in-app eligibility and loss-calculation terms were not captured.
-7. **Slot 39 — BetRivers Casino (US-MI):** recorded page describes loyalty/rewards, not a verified welcome bonus or guaranteed cash value.
-8. **Slot 95 — Casino Gran Madrid Online (ES):** recorded promotion period ends **2026-10-31**; recheck on/after expiry and do not carry the offer forward automatically.
-9. **Slot 93 — Casineo.ch (CH):** a recorded promo code's page did not clearly state the year for its 14 November expiry; confirm the year and eligibility before making a current claim.
-10. **Slots 23 — Luckia (ES), and 46 other rows with blank offer URL:** do not infer a welcome bonus from a generic homepage. Research official market-specific promotion and full terms; if unavailable, record NOT FOUND / NEEDS ACCOUNT and retain HOLD.
+## Highest-priority blockers
+1. **Domain and legal identity:** 55 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
+2. **Thin terms/payment evidence:** only 8 terms URLs and 3 each for deposit, fees/limits and withdrawals are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
+3. **Offer scope:** only 8 promotion URLs are captured. Check the full current market-specific terms, product scope, eligibility, opt-in, wagering, max bet, eligible games, expiry and caps. Treat points/credit/rewards separately from cash.
+4. **Player protection and privacy:** complaint routes exist for 3 entries, responsible-gambling URLs for 7 and privacy/cookies URLs for 4. Fill these from official sources; distinguish regulator escalation from private ADR.
+5. **Image rights:** 50 source leads have pending rights; 50 entries have no source. Use only assets with documented licence/permission or a deliberate original editorial fallback.
+6. **Independent review and consumer testing:** no reviewer assignments or approval dates are recorded; no hands-on consumer tests were performed. Do not imply that deposits, games, withdrawals, support or account controls were tested.
+7. **Regulatory and territory scope:** verify each current exact domain/product and permitted territory. Do not generalise state/province-specific permission to a whole country; do not recommend unlicensed or offshore products as substitutes.
+8. **Publisher/compliance:** verify publisher identity and monitored contact route; review privacy/cookie implementation, affiliate disclosures and commercial relationships, target-market requirements and trademark clearance before commercial launch.
+9. **Technical QA:** test key pages and tools in desktop/mobile browsers, keyboard and screen-reader paths, broken/internal/external links, image alt text and rights, structured data, metadata uniqueness, HTTP status/redirects, sitemap consistency, security headers and performance.
+10. **Release control:** no merge-to-production or Cloudflare deployment is authorised by this audit. Respect the project constraint to wait until the 100-review target and required checks are complete, then perform the planned single deployment only with required approval.
+
+## Source batch 11 — official Swiss and German operator sources
+Added official terms, payments, privacy, player-protection and/or support sources for slots 1–4 where available:
+- ADMIRAL.ch (CH): operator terms, payments and responsible-gambling resources; official Swiss Federal Gaming Board page lists admiral.ch among online casino platforms.
+- Casineo.ch (CH): official terms, help/payment/limits and privacy policy; Federal Gaming Board page lists casineo.ch among online casino platforms. Some localized help content contains domain/product wording that needs reconciliation before publication.
+- Tipico Casino (DE): operator terms, privacy and safer-gambling sources plus GGL whitelist. The whitelist distinguishes virtual-slot permissions from the Schleswig-Holstein-scoped online-casino offer; do not imply nationwide permission for casino.tipico.de.
+- Jollie (DE): terms, privacy, player-protection and support sources plus GGL whitelist. The whitelist lists Aurora Alea A/S / jollie.de for virtual slots; payment methods and a formal complaint/ADR route remain to be sourced.
+These are public documentation leads only. No account creation, deposits, gameplay or withdrawals were tested. No score, image-rights clearance or publication approval was added.
 
 ## Required evidence sequence
-1. Reconcile each brand's exact consumer-facing domain, product type, market and contracting legal entity against the current regulator record.
+1. Reconcile each candidate's exact consumer-facing domain, product type, market and contracting legal entity against the current primary regulator record.
 2. Capture current official terms and market-specific promotion terms, including eligibility, opt-in, minimum deposit, wagering, max bet, eligible games, expiry, caps and cash-vs-credit distinctions.
-3. Capture official deposit/withdrawal methods, fees/limits/verification, complaints and ADR, safer-gambling/self-exclusion, privacy/cookies, accessibility, and regulator enforcement sources.
+3. Capture official deposit/withdrawal methods, fees/limits/verification, complaints and ADR, safer-gambling/self-exclusion, privacy/cookies, accessibility and regulator-enforcement sources.
 4. Record images only where created or sourced with documented permission/licence; do not assume official logos or promotional artwork are reusable.
-5. Perform hands-on testing only where lawful and actually completed; record date, method, market, device and limitations. Never imply a deposit/withdrawal test was run if it was not.
-6. Apply the published scoring rubric only after evidence exists; require an independent second reviewer, editorial approval, and affiliate-disclosure review.
+5. Perform hands-on testing only where lawful and actually completed; record date, method, market, device and limitations.
+6. Apply the published scoring rubric only after evidence exists; require an independent second reviewer, editorial approval and affiliate-disclosure review.
 7. Add a complete evidence-bundle path and run repository checks before requesting release review.
 
-## Source batches recorded
-- Payment-source batch 07 added official public payment/withdrawal documentation for Gun Lake Casino / Play Gun Lake (MI) and Hollywood Casino Online (PA), plus a Play Gun Lake responsible-gambling source and Hollywood Casino privacy-policy source. Regulator/dispute batch 08 added Michigan and Pennsylvania regulator complaint routes, enforcement-source leads and refreshed Ontario operator mapping. These are documentation leads only; no account or transaction tests were performed. Current field counts: deposit-method 2/100, fees/limits 2/100, withdrawal 15/100, privacy/cookies 10/100, complaints 16/100, ADR/dispute source 3/100, responsible-gambling source 38/100.
-Internal source notes currently cover batches 01–06, including Great Britain offer leads; Ontario, New Jersey, Michigan and Pennsylvania sources; Italy, Spain, Sweden, Belgium, Netherlands and Switzerland offer leads. Individual batches preserve caveats about stale pages, conflicting terms, rotating promotions, restricted market scope and rewards that are not cash. See `docs/reviews/internal/official-bonus-source-batch-*-2026-10-24.md` for dated detail.
-
 ## CI and deployment status
-The available workflow-run lookup returned no PR-triggered runs for the inspected documentation commit. **CI is unconfirmed, not passed.** This work does not merge PR #141, change DNS/indexing, or deploy Cloudflare Pages. The project hosting target remains **Cloudflare**, not Vercel.
+The available workflow-run lookup returned no PR-triggered runs for the inspected commit. **CI is unconfirmed, not passed.** This work does not merge PR #141, change DNS/indexing, or deploy Cloudflare Pages. The hosting target remains **Cloudflare Pages**, not Vercel.
