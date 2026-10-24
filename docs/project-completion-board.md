@@ -326,3 +326,10 @@
 - Added [internal regulator evidence batch 06](reviews/internal/regulator-evidence-batch-06-2026-10-24.md) for candidates 46–55 and updated ten ledger notes.
 - Evidence covers Sportium (IT), Fuegocasino (ES), Hard Rock Bet (Ontario), Monopoly Casino (NJ), Horseshoe (MI), Casumo (DE), Sky Vegas (GB), PokerStars (BE), Pop Casino (SE) and Fair Play Casino (NL). Sky Vegas's 250-vs-50 spin conflict remains unresolved; Casumo's German record supports virtual slots, not a separately evidenced full online casino; Fuegocasino and PlatinCasino share the same DGOJ operator and need distinct-product checks.
 - Batches 01–06 now document dated regulator evidence for 54/100 candidates, including row 16's existing UKGC record and offer snapshot. This is not review completion; all 100 remain HOLD and unscored.
+
+
+## Regulator evidence batch 07 — 24 October 2026
+
+- Added [internal regulator evidence batch 07](reviews/internal/regulator-evidence-batch-07-2026-10-24.md) for candidates 56–65 and updated ten ledger notes.
+- Evidence covers 7melons.ch (CH), Admiral Bet (IT), AdmiralBet.es (ES), Golden Nugget (Ontario and Michigan), PartyCasino (NJ), Winfest (DE), William Hill (GB), Ladbrokes (BE) and Svenska Spel (SE). Source freshness and product scope are retained as blockers where needed, including Winfest's virtual-slots-only evidence and Admiral Bet's dated 2024 terms PDF.
+- Batches 01–07 now document dated regulator evidence for 64/100 candidates, plus 888casino's existing UKGC record/offer snapshot. All candidates remain HOLD and unscored; this is not review completion.
