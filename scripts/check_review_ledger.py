@@ -110,7 +110,7 @@ def check(ledger_path):
         overall_raw = row.get("overall_score_100", "").strip()
         if numeric_scores and len(numeric_scores) != len(SCORE_LIMITS):
             errors.append(f"{label}: partial rubric score; either score all 9 components or leave all blank")
-        if overall_raw and len(numeric_scores) != len(SCORE_LIMITS):
+        if overall_raw and overall_raw.casefold() not in {"not scored", "not assigned", "pending", "n/a"} and len(numeric_scores) != len(SCORE_LIMITS):
             errors.append(f"{label}: overall_score_100 requires all 9 rubric components")
         if len(numeric_scores) == len(SCORE_LIMITS):
             expected = sum(numeric_scores.values())
