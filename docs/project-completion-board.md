@@ -492,3 +492,12 @@
 - Corrected the Betway (DE) ledger row from a UK-domain URL and UK-only £ offers to the German-specific `betway.de/de-de/` source and Germany terms page.
 - The German homepage advertises a 100% first-deposit match up to €100, €10 minimum deposit, 18x wagering and minimum odds 1.75, but the retrieved page is primarily sports-betting marketing and does not establish a casino-specific welcome offer or exact product permission. It remains HOLD pending GGL product-scope and casino terms verification.
 - Updated `docs/reviews/internal/bonus-snapshot-leovegas-de-ladbrokes-be-2026-10-24.md` with the correction. UK terms must not be reused for Germany, and Belgian promotional benefits remain subject to local legal review.
+
+
+# Eleventh bonus source pass and current audit — 24 October 2026
+
+- Added official source notes for Svenska Spel Sport & Casino (SE) and Casino Gran Madrid Online (ES): `docs/reviews/internal/bonus-snapshot-svenskaspel-granmadrid-2026-10-24.md`.
+- The ledger now contains **52 official bonus/promotion source URLs** across 100 candidates, all with the 2026-10-24 observation date and non-empty status notes. This includes additional source entries now present for Admiral Bet Italy, Betfair Italy and Betflag Italy; these still require exact offer terms and independent verification.
+- Svenska Spel's SEK 100 welcome offer runs 4 September 2026–4 January 2027, with a SEK 25 minimum deposit and SEK 1 first-game bet; it covers multiple product types, so it must not be presented as a casino-only bonus.
+- Gran Madrid's current landing page states 200% up to €200, 20x wagering, 14-day validity and a period ending 31 October 2026. Minimum-deposit wording needs reconciliation, and the offer must be rechecked after expiry.
+- Structural audit: 100 rows, 43 columns, 100 unique brand/market identities, 52 dated official bonus-source URLs, zero blank bonus-status fields, zero non-HTTPS populated URLs, zero numeric review scores, and 100 NOT SCORED states. Consumer testing and affiliate-disclosure review remain incomplete for all 100 rows.
