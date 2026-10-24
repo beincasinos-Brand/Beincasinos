@@ -1,5 +1,18 @@
 # Latest verified continuation — 24 October 2026
 
+- **International target coverage:** the ten Tier-1 market/brand pairs on the international board now each have a matching market-specific row and expected global brand ID in the Tier-1 prospect tracker. This closes an identity/coverage gap, not the consumer-review gates.
+- **Tracker snapshot:** 114 data rows, 18 columns, 15 populated global-brand-ID cells, 99 blank IDs, 14 unique IDs among populated cells, 58 `VERIFY` domain placeholders, zero `UNKNOWN` domains, two `NOT APPLICABLE` entries and zero duplicate brand/market keys. bet365 intentionally shares `bet365-casino` across GB and NL, preserving separate market rows.
+- **bet365 GB evidence:** updated the internal dossier with the current first-party GB General Terms effective date of 1 October 2026. The current terms still cross-reference casino-specific rules and other linked documents; payment/withdrawal processing statements need careful contextualisation. No account, deposit, withdrawal, gameplay, support-contact or accessibility test is claimed.
+- **StarVegas CH evidence:** strengthened the dossier and tracker with the FGB's current platform list and 2024 activity report. StarVegas.ch is associated with Casino Interlaken; Casino Interlaken AG is named as concessionaire. Current customer-contracting party and game-specific permissions remain to be verified.
+- **CI state:** latest-head Static site checks run `40119516612` was observed queued immediately after commit `e4521526bfe333f79bbed2e5aafd6d2cff3cd5b0`; final outcome not yet verified at this checkpoint. Recent earlier runs failed in under three seconds with runner ID 0 and no steps. PR #141 remains open, Draft and unmerged; 126 changed files. No production deployment or merge was made.
+- **Completion truth:** approved reviews remain **0/100**. All ten priority targets and supplemental US-state leads remain HOLD pending exact current terms, customer-contract match, real usability/accessibility testing, image rights and independent review.
+
+**Next:** verify latest CI result, run full site and artifact tests if a runner is allocated, and continue source/terms capture. Keep all publication and production gates intact.
+
+---
+
+# Latest verified continuation — 24 October 2026
+
 - **Market-pair coverage:** added the missing Great Britain bet365 row as a distinct market-specific record (UKGC account 55149, active Casino Remote permission and bet365.com domain), while retaining the Netherlands row separately under the same global brand ID. Both remain HOLD; the UKGC's 4 April 2024 settlement is captured with context and must not be hidden from a future review.
 - **Swiss target coverage:** added StarVegas — Switzerland to the Tier-1 prospect tracker using the FGB's current online-platform list: starvegas.ch is listed for Casino Interlaken, with online business starting 24 February 2020. Game-specific authorisations and current customer-contracting entity still need checking.
 - **Identity reconciliation:** normalized BetRivers Pennsylvania to global ID `betrivers-casino` and Caesars Casino Ontario to `caesars-palace-online-casino`, matching the existing global identity ledger. This does not collapse their separate jurisdiction-specific evidence or grant cross-market permissions.
