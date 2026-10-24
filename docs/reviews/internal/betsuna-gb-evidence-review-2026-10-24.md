@@ -1,33 +1,35 @@
 # Betsuna (Great Britain) — enhanced-risk evidence review draft
 
 **Status: HOLD — enhanced regulatory-history review required.**  
-**Evidence snapshot inherited from the master prospect tracker:** 20 October 2026. Refresh all primary sources before release.
+**Source spot-check refreshed:** 24 October 2026. The launch and brand/domain mapping still require separate confirmation.
 
 ## Identity and market scope
 
 - Brand: Betsuna
 - Market lead: Great Britain; launch material also mentions Ireland, but this draft makes no Irish legality claim
-- Domain recorded: https://www.betsuna.com
-- Operator recorded: ProgressPlay Limited
-- UKGC account recorded: 39335
+- Domain lead: https://www.betsuna.com
+- Operator lead: ProgressPlay Limited
+- UKGC account: 39335
 - Official entity record: https://www.gamblingcommission.gov.uk/public-register/business/detail/39335
 - Official domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39335
 - Launch source lead: https://www.globenewswire.com/news-release/2026/05/22/3300092/0/en/betsuna-launches-as-new-online-sportsbook-casino-and-bingo-brand-powered-by-progressplay.html
-- Enforcement source lead: https://www.gamblingcommission.gov.uk/news/article/gbp1m-fine-for-online-operator-progressplay-limited
+- Official enforcement record: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/276
 
-The tracker describes the launch announcement as dated 22 May 2026 and says the UKGC record showed an active remote-casino permission and betsuna.com listed as a white-label domain. A white-label listing is not, by itself, independent proof of brand ownership or unrestricted permission. The tracker also records a UKGC announcement of a £1m fine and warning for ProgressPlay Limited on 21 August 2025 following AML and social-responsibility failings, plus a prior 2022 enforcement action and required third-party audit. Those points must be re-opened in the regulator's own sources and accurately updated before any consumer-facing statement.
+The official UKGC account page captured on 24 October 2026 lists Casino Remote as Active from 1 November 2014 to Current for ProgressPlay Limited. That establishes the operator's licence status, not the brand/domain's precise customer-contract relationship. The UKGC enforcement record gives a decision date of **9 May 2025** and records conditions attached to the licence, a warning and a £1,000,000 financial penalty. The Commission describes AML and customer-interaction failures, required a third-party audit within six months of the conclusion of the review, and states that the licensee cooperated and took corrective steps.
+
+**Correction to the earlier tracker wording:** for this specific £1m sanction, use the official decision date of 9 May 2025, not 21 August 2025. The current outcome of the required audit/remediation has not been verified here. In the source spot-check, the UKGC account page did not surface a matching Betsuna domain in the search snapshot, so the exact white-label domain mapping still needs direct confirmation. The brand launch announcement dated 22 May 2026 is a launch lead, not evidence of consumer quality or licence/domain identity by itself.
 
 ## Required caution
 
-Do not treat launch publicity as evidence of consumer experience or quality. Do not omit material enforcement context, but do not imply that historical action automatically determines current compliance. Establish the regulator's current status, any remediation/audit outcome, subsequent actions, and any appeal or closure information from primary sources.
+Do not omit material enforcement context, but do not imply that historical action automatically determines current compliance. Verify current remediation/audit outcome, subsequent actions and any appeal or closure information from primary sources. Do not treat launch publicity as evidence of consumer experience.
 
 ## Required checks before scoring
 
-- [ ] Re-open the UKGC entity and domain records; verify current remote-casino permission, white-label mapping, domain status and trading-name relationship.
-- [ ] Re-open the August 2025 enforcement notice and 2022 record; document exact findings, required remedies, follow-up, appeal/status and dates.
-- [ ] Confirm the live site identifies the same contracting entity and supplies current binding terms.
+- [ ] Confirm the current UKGC entity record, casino permission and domain/trading-name relationship; obtain direct evidence of how betsuna.com is mapped.
+- [ ] Verify the current audit/remediation outcome and any later regulator actions; record exact dates and status.
+- [ ] Confirm the live site's contracting entity and binding customer terms.
 - [ ] Review casino-specific bonus rules, payment/withdrawal methods, limits, fees, verification, complaints and applicable ADR.
-- [ ] Review safer-gambling tools, self-exclusion, customer interaction policy disclosures and relevant UK support links.
+- [ ] Review safer-gambling tools, self-exclusion, customer interaction disclosures and relevant UK support links.
 - [ ] Review privacy/cookies, accessibility, mobile/desktop behaviour and current product availability.
 - [ ] Separate casino, sportsbook and bingo permissions/features; do not generalise one vertical's evidence to another.
 - [ ] Confirm image source and rights basis; preserve a rights-pending fallback until permission is established.
