@@ -31,3 +31,8 @@ This record concerns the Belgian casino domain and casino establishment. It is n
 ## Editorial disposition
 
 No score or recommendation. Keep **HOLD** pending all required evidence and sign-offs.
+
+
+## First-party terms freshness — 24 October 2026
+
+The current accessible French-language terms page is https://fr.unibetcasino.be/general-info/terms. It identifies licence A+ 505296 and names **Blankenberge Casino-Kursaal** as licensee in the terms. However, the page footer identifies version **3.7.2**, last updated **1 September 2024**. That is materially old for a 2026 review. It describes a complaints route to customer service and, on request, referral to the Belgian Gaming Commission; it says the operator aims to report investigation results within **21 days**. Do not treat this 2024 document as proof that terms remain unchanged today. Capture the currently served terms/version, confirm the legal contracting party and review the intervening period before publication. No support contact or payment test was performed.
