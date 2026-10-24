@@ -1,3 +1,15 @@
+# Latest work checkpoint — 24 October 2026, 17:05 UTC
+
+- PR #141 remains open and Draft, not merged. The branch is for internal research, release-gate corrections and Cloudflare Pages preparation; it is not a production release.
+- Added `docs/session-audit-and-next-work-2026-10-24.md` and `docs/tier-1-target-qualification-audit-2026-10-24.md`. The master tracker currently contains 105 data rows, 59 rows with the placeholder domain `VERIFY`, and 0/100 fully publication-approved reviews. These counts are tracker counts, not review completion.
+- Updated README and this board to remove stale statements that contradicted later Cloudflare Pages setup notes. Cloudflare is the preferred host; Vercel is retained only as an alternative configuration.
+- Static site checks workflow run #1312 (`40114310640`) for commit `59b74bf192f3a2784f9fdbf171803589714205da` failed immediately with runner ID 0 and no steps. A rerun also failed before allocating a runner. The log endpoint returned BlobNotFound, so this is an unresolved GitHub Actions execution/setup issue, not a confirmed source-check failure. Do not claim CI passes until a real run completes its steps.
+- Latest branch commit has no confirmed workflow result in the commit-status wrapper; preview deployment freshness is unverified. No production deployment, merge, DNS change, crawl unblock, paid-plan purchase or outreach occurred.
+
+**Next sequence:** resolve why Actions jobs fail before runner allocation; run the checks to completion; requalify/deduplicate the target list; replace `VERIFY` domains only with primary-source evidence; finish and second-review a smaller set of complete consumer reviews before counting toward 100.
+
+---
+
 # Latest research and CI checkpoint — 22 October 2026
 
 - PR #26 merged after the complete integrated CI job passed, including Chromium browser smoke tests, the public-only deployment artifact build, and the check that internal research files are excluded from that artifact: https://github.com/beincasinos-Brand/BeInCasinos/pull/26
