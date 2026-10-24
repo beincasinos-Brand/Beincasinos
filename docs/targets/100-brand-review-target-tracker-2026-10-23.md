@@ -557,3 +557,11 @@ The table below is the exact 100-card working list currently rendered by `brand-
 
 **Reconciliation result:** 100 cards; 100 unique displayed titles; 60 remote image elements with alt text, lazy loading and error fallback; 40 cards use decorative CSS/monogram fallback. This confirms list/card count only. It does not confirm 100 distinct legal operators, 100 active local casino permissions, image reuse rights, completed reviews, or a Cloudflare production release.
 
+
+
+## Source-control update — UKGC register validation, 24 October 2026
+
+- Rechecked the UK Gambling Commission's official business register entry point: https://www.gamblingcommission.gov.uk/public-register/businesses (register metadata says updated 23 October 2026). The register supports lookup by legal business, trading name and domain; it exposes licence status, licence activity, declared domains/trading names and regulatory actions. Its own notice says domain/trading-name data is supplied by businesses and is not guaranteed accurate.
+- The register's definition of an **Active** licence is that the licence is active and up to date; domain status is a separate field and can be Active, Inactive or White label. Therefore, a trading-name or domain hit alone is not sufficient: each GB candidate must be tied to an active **remote casino** permission and matching contracting entity, and white-label brands must be mapped to the responsible licensee before qualification.
+- Primary-source reference for the required licence activity: https://www.gamblingcommission.gov.uk/licensees-and-businesses/sectors/sector/casino. The Commission describes a remote casino operating licence as permitting casino games online, including slots, roulette and blackjack.
+- This is a source-methodology validation only. It does **not** approve any of the 100 directory entries, does not convert a lead into a completed review, and does not change the current approved-review count (0/100). Keep all GB candidates HOLD until the per-brand register record, domain, licence activity, current consumer terms and second-review sign-off are captured in the evidence record.
