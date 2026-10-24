@@ -2,43 +2,59 @@
 
 **Status:** HOLD — internal research only; not an approved consumer review.  
 **Research date:** 24 October 2026.  
-**Scope:** Coral-branded online casino in Great Britain. Do not conflate online casino operation with retail betting shops or sportsbook activity.
+**Scope:** Coral-branded online casino in Great Britain. Keep online casino evidence separate from retail betting shops and sportsbook claims.
 
-## Entity mapping remains unresolved
+## Operator and domain mapping — primary-source evidence captured
 
-The current UK Gambling Commission register must be searched for the precise legal operator and final domain stated in the current Coral GB casino terms. A retail business or group-company association is not enough to establish the online casino's operator.
+The current UKGC register search returns both **Ladbrokes Betting & Gaming Limited** (account **1611**) and **LC International Limited** (account **54743**) as businesses with Coral trading-name records. The distinction matters:
 
-Start with these official sources:
-- UKGC register search for Coral: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Coral
-- UKGC full business register: https://www.gamblingcommission.gov.uk/public-register/businesses
-- UKGC remote casino licence guidance: https://www.gamblingcommission.gov.uk/licensees-and-businesses/licences-and-fees/remote-casino-operating-licence
-- UKGC regulatory action register: https://www.gamblingcommission.gov.uk/public-register/regulatory-actions
+- **LC International Limited**, account 54743, has active Casino Remote licence **054743-R-330863-015**, shown active from 1 July 2019 to current.
+- The UKGC domain record for account 54743 lists **coral.co.uk** as active.
+- The UKGC trading-name record for account 54743 lists **coral** and **gala coral** as active.
+- The current Coral online-casino page says Coral is licensed and regulated by the UKGC under account 54743, and identifies LC International Limited as operator.
+- The Commission's FOI response states that Coral Interactive (Gibraltar) Limited surrendered its remote licence on 21 October 2019 and that all remote activity was put under LC International Limited, account 54743.
 
-## Evidence required
+These sources give a substantially stronger operator/domain match than relying on the similarly named account 1611 alone. Still archive the exact current GB terms and final URL before publication; the site's general footer also refers to Gibraltar licences 010 and 012, so the reviewer must confirm the applicable GB customer terms and not merge jurisdictions.
 
-| Area | Required evidence | State |
+## Official sources captured
+
+- UKGC search for Coral: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Coral
+- LC International Limited licence summary, account 54743: https://www.gamblingcommission.gov.uk/public-register/business/detail/54743
+- LC International Limited domains: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/54743
+- LC International Limited trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/54743
+- LC International Limited regulatory actions: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/54743
+- UKGC FOI response on Coral Interactive (Gibraltar) Limited and transfer of remote activity: https://www.gamblingcommission.gov.uk/about-us/freedomofinformation/coral-interactive-gibraltar-limited
+- Coral online casino page with licence account and operator disclosure: https://www.coral.co.uk/en/games
+- Coral safer-gambling page: https://www.coral.co.uk/en/p/responsible-gaming
+- Coral spending/control page: https://www.coral.co.uk/en/p/safer-gambling/gambling-controls
+
+The current account 54743 action page says no regulatory actions are recorded for that business. Phrase this narrowly as an account-level register observation; it is not proof that every group entity has no historical action.
+
+## Evidence checklist
+
+| Area | Evidence required | State |
 |---|---|---|
-| Current GB domain | Visit live route, record final URL and redirects | Not tested |
-| Legal operator | Capture current casino terms and exact named operator | Not captured |
-| Licence | Match exact operator to active Casino Remote permission and domain record | Not established |
-| Terms and games | Archive current terms and game rules | Not tested |
-| Promotions | Capture offer terms and material restrictions | Not tested |
-| Payments | Test cashier methods, limits, fees, verification and withdrawal disclosures | Not tested |
-| Complaints/ADR | Verify route, deadlines and named ADR provider | Not verified |
-| Safer gambling | Test limits, time-outs, self-exclusion and account closure | Not tested |
-| Regulatory history | Attribute decisions to exact licensee and include scope/date/outcome | Not completed |
-| Privacy/accessibility | Notices plus keyboard, focus, contrast, zoom and mobile checks | Not tested |
-| Consumer testing | Dated reproducible notes from real journeys | Not performed |
+| Operator/domain | Match final GB route and current GB terms to LC International Limited/account 54743 and coral.co.uk | Strong primary-source match captured; archive final route/terms |
+| Licence | Active Casino Remote for account 54743 | Active licence recorded; recheck before publication |
+| Terms and games | Archive current GB terms and game rules | Not archived |
+| Promotions | Capture current offer terms and material restrictions | Not tested |
+| Payments | Test actual cashier methods, limits, fees, verification and withdrawal disclosures | Not tested |
+| Complaints/ADR | Verify complaint route, deadlines and named ADR provider | Not verified |
+| Safer gambling | Operator describes deposit limits, time-out/cool-off and self-exclusion; test current GB tools and exact conditions | Public claims captured; usability not tested |
+| Regulatory history | Verify exact account and context; do not conflate historical Coral Interactive record with current account | Initial reconciliation done; second review pending |
+| Privacy/accessibility | Current privacy/cookie notices; keyboard, focus, contrast, zoom and mobile tests | Not tested |
+| Consumer testing | Dated reproducible notes from actual journeys | Not performed |
 | Image rights | Confirm permission for logos/screenshots | Not cleared |
 | Independent review | Citation/factual review and score sign-off | Not started |
 
 ## Editorial guardrails
 
-- Do not infer the online casino operator from the Coral brand or retail betting-shop licence records.
-- Do not publish a licence-status claim until the current operator, domain and active Casino Remote permission are matched.
-- Do not invent current offers, payment options, withdrawal speeds, game counts, ratings or firsthand experience.
-- Keep this note internal and unindexed until all key checks and independent sign-off are complete.
+- Do not infer the online operator from the retail brand alone; use the current GB product terms and exact domain record.
+- Do not combine account 1611, account 54743 and the surrendered Coral Interactive (Gibraltar) licence into one entity.
+- Do not treat an operator's description of safer-gambling features as evidence that those controls were independently tested.
+- Do not invent current offers, payment options, withdrawal speeds, game counts, scores or firsthand testing.
+- Keep this note internal and unindexed until current terms, consumer testing, image rights and independent review are complete.
 
 ## Decision
 
-**HOLD — operator/domain verification required.** No score assigned. This worksheet is not an approved review and does not count toward the 100-review target.
+**HOLD — consumer-term verification and actual product testing required.** No score assigned. This worksheet is not an approved review and does not count toward the 100-review target.
