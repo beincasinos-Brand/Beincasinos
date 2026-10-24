@@ -57,3 +57,9 @@ It failed before executing any workflow step. The job record reports `runner_id:
 After the documentation/checkpoint updates, run **40126180341** targeted the then-current PR head `0ae2525153600a075b26743878dae3169414e978`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126180341
 
 The job again completed as failure in roughly two seconds, with `runner_id: 0`, an empty runner name, and no workflow steps. This is the latest confirmed current-head CI observation at the time of this note. No Python, site, artifact or browser test executed in that run. CI remains blocked; the run cannot establish whether those checks pass or fail.
+
+## Latest observed run after ID reconciliation — 24 October 2026, 19:46 UTC
+
+Run [40126710369](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126710369) targeted commit `7687d5b439ba6352de1ab6624b4408e183be21be` and failed in roughly two seconds. Its job record again has `runner_id: 0`, an empty runner name, and `steps: []`. The latest tracker changes therefore have no successful Python/CI validation yet.
+
+A read attempt against repository Actions permissions and billing endpoints was rejected by the available GitHub connector; no permission/billing state can be inferred from that rejection. The repository owner needs to inspect the run in GitHub's Actions UI and check repository/organization Actions settings and runner availability. Repeated reruns alone are not resolving the failure. Keep CI and production release blocked.
