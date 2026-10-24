@@ -7,7 +7,7 @@
 - Programme goal: 100 unique brands and 100 market-specific, publication-quality reviews.
 - The existing candidate slate is a research queue; it is not proof that all 100 brands are eligible, distinct, or fully researched.
 - **Publication-approved reviews: 0/100.** Every target below is HOLD until the evidence, testing, rights and independent review gates are complete.
-- Master prospect tracker audit: 106 data rows, 18 columns, no malformed rows or duplicate brand/market keys; 58 VERIFY domains, one UNKNOWN, two NOT APPLICABLE and 106 blank global brand IDs. These are research leads, not approved reviews.
+- Master prospect tracker audit: 106 data rows, 18 columns, no malformed rows or duplicate brand/market keys; 58 VERIFY domains, one UNKNOWN, two NOT APPLICABLE and 105 blank global brand IDs (Hollywood Casino Online PA now uses `hollywood-casino`). These are research leads, not approved reviews.
 - No account, deposit, withdrawal, customer-support or real-money gameplay testing is claimed unless an individual dossier explicitly records it.
 - No score, public recommendation or ranking is assigned on this board.
 
