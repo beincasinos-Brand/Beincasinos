@@ -370,6 +370,15 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 
 ## 24 October — directory visual and editorial QA update
 
+### Directory design and metadata pass — 24 October
+
+- Refined the directory into a more product-like research interface rather than a plain blog index: stronger card hierarchy, larger logo stage, softer premium borders/shadows, consistent card body layout, hover/focus states, clearer evidence summaries and a sticky desktop filter panel with responsive mobile layout.
+- Methodology panels now use a denser multi-column layout on wide screens and collapse for tablet/mobile; reduced-motion preferences are respected.
+- Added Open Graph and Twitter summary metadata and updated hero counters to the verified working-branch totals: **60 image candidates / 40 CSS-art or monogram fallbacks**.
+- Search title, description and canonical remain in place. The page deliberately remains `noindex,follow` because the directory still contains unverified leads and rights-pending image assets; metadata is not a claim that the page is ready to rank.
+- Static QA after the change: 100 cards, 100 unique displayed titles, one H1, 60 image elements, all with alt text, lazy loading and error fallbacks. No browser visual regression, lighthouse run or production Cloudflare check was performed.
+
+
 - Directory HTML contains **100 brand cards** and 100 unique displayed card titles; this is not proof of 100 verified, globally distinct casino brands.
 - The current visual asset pass contains **60 image candidates** and **40 CSS-art/monogram fallbacks** after adding official-site logo candidates for Betmaster UK, DynoBet, BetGoodwin Casino and London.bet. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks. All three new candidates are labelled rights pending and documented in the batch F and G reconciliation memos.
 - Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
