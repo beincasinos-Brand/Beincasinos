@@ -501,3 +501,11 @@
 - Svenska Spel's SEK 100 welcome offer runs 4 September 2026–4 January 2027, with a SEK 25 minimum deposit and SEK 1 first-game bet; it covers multiple product types, so it must not be presented as a casino-only bonus.
 - Gran Madrid's current landing page states 200% up to €200, 20x wagering, 14-day validity and a period ending 31 October 2026. Minimum-deposit wording needs reconciliation, and the offer must be rechecked after expiry.
 - Structural audit: 100 rows, 43 columns, 100 unique brand/market identities, 52 dated official bonus-source URLs, zero blank bonus-status fields, zero non-HTTPS populated URLs, zero numeric review scores, and 100 NOT SCORED states. Consumer testing and affiliate-disclosure review remain incomplete for all 100 rows.
+
+
+# Belgian promotional-inducement compliance hold — 24 October 2026
+
+- Corrected Circus Casino Belgium to its current Belgian promotions hub and added `docs/reviews/internal/belgium-promotion-compliance-hold-2026-10-24.md`.
+- Casino777.be, Napoleon Casino Belgium, Circus Casino Belgium and Ladbrokes Casino Belgium remain HOLD pending a legal/compliance determination for the exact local promotion mechanic and current terms. Do not describe a generic promo page, game boost, prize drop or tournament as a lawful welcome bonus without that sign-off.
+- Latest ledger audit: 100 rows, 43 columns, 100 unique identities, **54** dated official bonus/promotion URLs, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numerical review scores, and all 100 rows explicitly NOT SCORED. All 100 consumer/usability tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED.
+- Latest Actions runs `40138041825` and `40138026593` still fail before source steps execute; issue #143 tracks runner allocation. No CI pass, merge or production deploy is claimed.
