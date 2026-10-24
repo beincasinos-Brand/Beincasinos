@@ -31,3 +31,10 @@ This is a Belgium-specific casino permission/domain association. It must not be 
 ## Editorial disposition
 
 No score or recommendation. Keep **HOLD** until current consumer evidence and independent sign-off are complete.
+
+
+## First-party identity cross-check — 24 October 2026
+
+The current first-party page https://www.casinoladbrokes.be/en/casino/ states that **Derby S.A. (VAT BE 0407.042.484) operates the site with SA Casino de Dinant, holder of A+65721**. The Belgian Gaming Commission's A+ table associates domain casinoladbrokes.be with **Grand Casino de Dinant / SA/NV GRAND CASINO DE DINANT**. These disclosures may describe different roles, but the current customer agreement and legal footer have not been reconciled. This is a material operator/contract identity question: keep **HOLD**, quote both records accurately in the internal evidence log, and do not state that the identities match until the live contract and regulator's role definitions are confirmed.
+
+The same first-party page advertises a weekly €200 deposit limit (subject to additional checks), age 21+, identity verification, player-set deposit/stake limits, session time limits and EPIS self-exclusion. Its promotional and payment claims are publisher statements, not independent tests; current offer terms and actual processing remain unverified. No account or payment was tested.
