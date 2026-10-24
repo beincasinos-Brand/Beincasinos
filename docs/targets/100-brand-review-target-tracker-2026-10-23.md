@@ -788,3 +788,10 @@ This adds **five internal SEO/research briefs, not five completed reviews**. No 
 Added five Ontario-market page-structure/evidence briefs in `docs/reviews/internal/market-review-draft-batch-2026-10-24-e.md` for BetMGM Casino, Horseshoe Online Casino, Fanatics Casino, Hard Rock Bet, and Hollywood Casino. Each brief references the official iGaming Ontario operator/site directory and explicitly separates casino product claims from sportsbook, poker, or land-based venue claims where applicable. The directory itself states its listing was accurate as of 1 September 2026, so every page requires a fresh pre-publication check.
 
 The five entries are **research briefs, not completed or approved reviews**. Current consumer terms, payment/withdrawal rules, complaint routes, safer-gambling controls, privacy/accessibility, exact live-domain matching, image rights and independent editorial approval remain required. Approved reviews remain **0/100**. No Cloudflare deployment or search indexing is claimed, and no GitHub Actions workflow was intentionally triggered.
+
+
+## Evidence-led individual review draft — London.bet GB — 24 October 2026
+
+Created `docs/reviews/internal/london-bet-uk-evidence-review-draft-2026-10-24.md` using the UK Gambling Commission's public register for Thistle Bet Limited account 66162 (licence summary, trading name, domain and regulatory-actions record), the operator's casino and safer-gambling pages, and the Commission's general withdrawal guidance. The draft separates regulator-confirmed register details from operator claims and explicitly records that no account, gameplay, deposit, withdrawal or support test was performed.
+
+This is a substantive **internal evidence-led draft, not an approved consumer review**. Bonus terms, cashier/withdrawal policy, complaint/ADR route, privacy/cookie checks, accessibility, image rights and independent editorial approval remain publication blockers. Approved reviews remain **0/100**. No deployment, indexing, or GitHub Actions execution is claimed.
