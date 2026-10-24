@@ -1,3 +1,16 @@
+# Latest continuation checkpoint — 24 October 2026, 19:25 UTC
+
+- **Current PR state:** PR #141 is open, Draft and unmerged. Latest observed head at this checkpoint: `3bd9565258a18cb30cf5bb7a7f2141995f731b21`; 124 changed files. No merge or production deployment was performed.
+- **International scope corrected:** the ten-market priority board covers Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for Tipico), Switzerland and Ontario. It is a research queue, not a public ranking; approved reviews remain **0/100**.
+- **Pennsylvania source correction:** PGCB's 13 February 2026 certificate-holder PDF lists `http://www.hollywoodcasino.com` for slots/table games with commencement date 19 December 2024; the old `pa.hollywoodcasino.com` site ended 14 December 2023. The current HTTPS canonical/redirect and customer-contracting entity still require verification. Hollywood is HOLD, not excluded. BetRivers remains a separate PA research lead.
+- **Tracker:** 106 market-specific data records, 18 columns, zero malformed-width rows; Hollywood maps to `hollywood-casino`, while 105 global IDs remain blank. Alias/cross-market deduplication remains incomplete.
+- **Sweden:** Betsson dossier notes the current register result for betsson.com naming Betsson Nordic Ltd and Spin Nordic Ltd with commercial-online licence dates 24 August 2026–23 August 2031. Exact /sv customer-contract match and appeal outcome remain open.
+- **Code QA:** added regression coverage for robots noindex parsing and inline event handlers blocked by the CSP. These changes are source-verified, but no successful full CI run or built-artifact test is confirmed.
+- **CI and preview:** the latest completed workflow attempts observed for preceding heads failed before runner allocation (runner ID 0, no steps/logs). No successful workflow result for this exact head is confirmed. The web-fetch tool could not retrieve the existing branch preview URL, so current preview freshness remains unverified. Production's directory is not updated; no release is authorized.
+
+**Next:** get CI to execute on an allocated runner; confirm the branch preview for the exact current commit; finish current terms/cashier/accessibility and legal-entity checks for the ten priority markets; reconcile all 100 brand IDs; obtain independent second reviews. Do not merge, deploy or publish until all gates pass and the owner explicitly authorizes release.
+---
+
 # Latest correction — Pennsylvania brand/domain distinction — 24 October 2026
 
 - The PGCB's 2024–2025 Annual Report reports a new Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate, and the current PGCB operator directory displays Hollywood Casino Online. The separate legacy URL `pa.hollywoodcasino.com` is listed as a former site ending 14 December 2023 in the 13 February 2026 certificate-holder PDF.
