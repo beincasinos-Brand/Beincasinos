@@ -1,39 +1,40 @@
-# Hollywood Casino Online — Pennsylvania status reconciliation
+# Hollywood Casino Online — Pennsylvania brand/domain reconciliation
 
 **Checked:** 24 October 2026  
 **Market:** Pennsylvania only  
-**Status:** HOLD — regulator confirms a current brand-level lead, but the exact current domain and customer-contracting entity still need matching  
-**Scope correction:** The legacy `pa.hollywoodcasino.com` site is retired; do not confuse it with the later Hollywood Casino online-brand launch.
+**Status:** HOLD — PGCB confirms a Hollywood Casino iGaming-site launch in December 2024, but the current customer domain and contracting entity remain unresolved.  
+**Method:** documentary review of the PGCB 2024–2025 Annual Report and its 13 February 2026 licensed certificate-holder/authorized-websites PDF. No account, deposit, withdrawal, support or real-money play test is claimed.
 
-## What the primary evidence establishes
+## Material reconciliation: brand relaunch versus retired legacy URL
 
-Two PGCB records need to be read together:
+The PGCB's 2024–2025 Annual Report, published 1 October 2025, explicitly states that **Hollywood Casino launched as an iGaming site in December 2024** under the Hollywood Casino at Penn National Race Course iGaming certificate. The same report lists Hollywood Casino among the websites associated with that casino certificate.
 
-1. The PGCB's 13 February 2026 certificate-holder/authorized-websites PDF records legacy `pa.hollywoodcasino.com` as a **former interactive gaming site**, operated from 18 July 2019 to 14 December 2023 under Mountainview Thoroughbred Racing Association, LLC's interactive gaming certificate, with Penn shifting operations to ESPN Bet.
-2. The PGCB's 2024–2025 Annual Report separately says **Hollywood Casino launched in December 2024** under the Hollywood Casino at Penn National Race Course iGaming certificate. The PGCB's current interactive-operator directory also displays a Hollywood Casino Online brand entry.
+Primary source:
+- PGCB 2024–2025 Annual Report, Interactive Gaming section, printed page 19: https://gamingcontrolboard.pa.gov/sites/default/files/2025-09/PGCB%20Annual%20Report%202024-2025%20FINAL.pdf
 
-Primary sources:
-- PGCB certificate-holder and authorized websites PDF (updated 13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
-- PGCB Annual Report 2024–2025, Interactive Gaming section: https://gamingcontrolboard.pa.gov/sites/default/files/2025-09/PGCB%20Annual%20Report%202024-2025%20FINAL.pdf
-- PGCB current interactive-gaming operator directory: https://gamingcontrolboard.pa.gov/interactive-gaming-operators
-- Penn Entertainment's launch announcement (secondary corroboration): https://pennnationalgaming.gcs-web.com/news-releases/news-release-details/penn-entertainment-launches-new-hollywood-casino-app
+Separately, the PGCB's 13 February 2026 certificate-holder/authorized-websites PDF lists the legacy `pa.hollywoodcasino.com` URL under **former interactive gaming sites**, with its historical operation period ending **14 December 2023**. That evidence retires the old URL; it does **not** negate the regulator's later record that a Hollywood Casino-branded site launched in December 2024. The two sources are compatible if the 2024 launch used a different customer route.
 
-## Reconciliation and remaining uncertainty
+Secondary primary source for the legacy URL status:
+- PGCB licensed interactive gaming certificateholders and authorized websites (13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
 
-The former-site record does **not** prove that the later Hollywood Casino brand stopped operating. The regulator's annual report gives primary evidence of a December 2024 launch, so the earlier decision to exclude Hollywood Casino Online altogether was too broad. Keep the brand as a **HOLD research candidate**, not as a completed or approved review.
+## Current evidence and open identity questions
 
-The exact current secure customer URL, customer-contracting entity, current terms, product scope and matching certificate-holder/operator relationship still need direct verification. Do not reuse `pa.hollywoodcasino.com` as the current domain based on the former-site record. Do not infer legal availability outside Pennsylvania.
+- The regulator's annual report supports a Pennsylvania Hollywood Casino iGaming brand/site launch in December 2024 under the named casino certificate.
+- The old `pa.hollywoodcasino.com` URL is historical and must not be presented as the current route.
+- **Current canonical customer domain: UNKNOWN.** The annual report's brand/site table does not provide a customer URL.
+- **Exact customer-contracting entity: unverified.** The certificate holder/casino operator relationship does not by itself establish which legal entity contracts with online customers.
+- Do not use land-based casino revenue or operator-wide revenue as proof of the current skin's product quality or independent commercial performance.
 
-## Required next checks
+## Evidence still required
 
-- [ ] Follow the current PGCB brand entry to its actual secure consumer destination and archive the URL/date.
-- [ ] Match the live customer agreement, privacy notice and payment terms to the current legal entity and Penn/PGCB authorization.
-- [ ] Confirm slots/table games/poker scope from the current certificate-holder record, rather than inferring it from revenue totals.
-- [ ] Archive current bonus rules, wagering requirements, deposit/withdrawal methods, fees, limits, verification steps and timelines.
-- [ ] Verify complaints/support routes, responsible-gambling controls, self-exclusion and Pennsylvania help links.
-- [ ] Check enforcement history for the exact entity; do not transfer the legacy site's history to a different contracting entity without evidence.
-- [ ] Complete dated accessibility/usability testing, image-rights clearance, affiliate disclosure and independent second review.
+- [ ] Re-open the current PGCB authorized-sites register and identify the current Hollywood Casino online domain.
+- [ ] Match the current domain to its live customer agreement, privacy notice and exact contracting entity.
+- [ ] Archive current Pennsylvania casino terms, bonus conditions, game scope, payment methods, fees, limits and withdrawal/verification rules.
+- [ ] Verify complaint/support route, safer-gambling tools, self-exclusion and Pennsylvania help links.
+- [ ] Check current and historical enforcement records for the exact entities and scope.
+- [ ] Document actual mobile/desktop and accessibility tests; no firsthand testing is claimed here.
+- [ ] Clear logo/image rights, affiliate disclosures and conflicts; obtain independent second review and editorial/legal approval.
 
 ## Disposition
 
-**HOLD — not excluded.** A current brand-level lead is supported by the PGCB's annual report and directory, but the exact live domain and customer contract remain unresolved. No score or recommendation assigned; no firsthand testing claimed.
+**HOLD — retain as a research candidate, not an approved review.** The PGCB confirms a December 2024 brand launch but the current domain and customer-contracting entity have not been reconciled. The former `pa.hollywoodcasino.com` route remains retired; no score or recommendation is assigned.
