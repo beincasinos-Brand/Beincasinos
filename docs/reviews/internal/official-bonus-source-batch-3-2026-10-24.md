@@ -29,3 +29,8 @@ Read-only review of official first-party promotion/help pages discovered for thr
 - Do not assign scores or infer bonus value from stale, contradictory or incomplete offer pages.
 - All three brands remain HOLD; consumer testing, image rights, full evidence bundles and independent sign-off remain separate requirements.
 - No public-site content, DNS, indexing, merge or Cloudflare production deployment was changed.
+
+
+## Follow-up on slot 28 — current-period offer found
+
+A second search found the official page https://hollywoodcasino.zendesk.com/hc/en-us/articles/43419055947149-New-User-Bet-5-Get-300-Bonus-Spins. It lists a promotion period from 20 July 2026 through 31 December 2026 and describes a “Bet $5, Get 300 Bonus Spins” offer. Eligibility is described for new users who have not previously wagered on Hollywood Casino within theScore Bet (U.S.) or the standalone app; spins must be used within seven days. The page is multi-state, not a PA-only offer, and full current PA-specific terms, exact account route, value per spin and remaining exclusions still need confirmation. The ledger now points to this current-period offer while retaining the separate first-time-deposit offer discrepancy in this dossier. **Do not merge the two offers into one claim; HOLD remains.**
