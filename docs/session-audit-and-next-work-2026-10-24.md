@@ -1,3 +1,11 @@
+# Latest checkpoint — 24 October 2026, 18:42 UTC
+
+- Added `docs/us-state-supplemental-research-queue-2026-10-24.md` and linked it from README and the international board. The queue separates state-specific leads from the ten-market roadmap.
+- Parsed `docs/tier-1-master-prospect-tracker.csv` with CSV quote/multiline handling: 114 data rows, 18 columns, no malformed rows, no duplicate brand/market keys, all ten roadmap markets represented, 99 blank global-brand IDs, 58 blank/VERIFY domains, and 111 HOLD rows. The two US-PA rows for BetRivers and Hollywood Casino Online remain separate HOLD leads.
+- The Hollywood Casino Online PA dossier distinguishes the old retired `pa.hollywoodcasino.com` skin (ended 14 Dec 2023) from the later PGCB-listed `http://www.hollywoodcasino.com` route with a 19 Dec 2024 commencement date. Current HTTPS redirect and customer-contract entity remain unverified.
+- Retried the latest observed Static site checks failure: run 40120514437, attempt 2, job 120954831508. It failed in two seconds with runner ID 0 and no steps; logs are unavailable. This is an unresolved runner/workflow service failure, not a diagnosed source-code test failure.
+- PR #141 remains open, Draft and unmerged. No production deployment. Approved reviews remain 0/100.
+
 # Latest checkpoint — 24 October 2026, 18:24 UTC
 
 - **100-target slate validation:** parsed the provisional review slate and confirmed exactly 100 numbered rows, 100 distinct global-brand IDs, zero duplicate IDs, and no missing official URL, legal-entity field or regulator/register URL. These are evidence-backed research targets, not approved reviews; every row remains HOLD.
