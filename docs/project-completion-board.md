@@ -485,3 +485,10 @@
 - Corrected Ladbrokes Belgium from a UK welcome-bonus URL to the Belgium-specific Casinoladbrokes.be domain and promotions page. UK offer terms are explicitly not applicable to Belgium.
 - Flagged a Belgian legal/compliance gate for both Ladbrokes Belgium and Casino777.be: Belgium applies strict restrictions to gambling bonuses/promotional inducements. Neither a generic promotions page nor the “777 Boost” game-specific mechanic proves legality. No bonus should be published without confirmation that the exact mechanic is lawful and current.
 - Internal source note: `docs/reviews/internal/bonus-snapshot-leovegas-de-ladbrokes-be-2026-10-24.md`; Casino777 note updated with the same legal gate.
+
+
+# Additional exact-market source correction — Betway Germany — 24 October 2026
+
+- Corrected the Betway (DE) ledger row from a UK-domain URL and UK-only £ offers to the German-specific `betway.de/de-de/` source and Germany terms page.
+- The German homepage advertises a 100% first-deposit match up to €100, €10 minimum deposit, 18x wagering and minimum odds 1.75, but the retrieved page is primarily sports-betting marketing and does not establish a casino-specific welcome offer or exact product permission. It remains HOLD pending GGL product-scope and casino terms verification.
+- Updated `docs/reviews/internal/bonus-snapshot-leovegas-de-ladbrokes-be-2026-10-24.md` with the correction. UK terms must not be reused for Germany, and Belgian promotional benefits remain subject to local legal review.
