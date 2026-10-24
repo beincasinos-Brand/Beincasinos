@@ -7,7 +7,7 @@
 - Programme goal: 100 unique brands with market-specific evidence and editorial reviews.
 - The 100-name candidate register is a research queue; it is not 100 verified or approved reviews.
 - Main registry: 205 market-specific rows, 154 distinct global-brand IDs, 203 HOLD and 2 rejected. Exact normalized slug matching finds 20 direct matches against the 100-name candidate register; alias and market-variant mapping remains incomplete.
-- Tier-1 prospect tracker: 106 data rows, 18 columns, 102 blank global-brand IDs. Four source-matched IDs are populated for Hollywood Casino Online (PA), BetRivers Casino (PA), Casineo.ch and Jollie.de; the other IDs still require human reconciliation.
+- Tier-1 prospect tracker: **112 data rows**, 18 columns, zero malformed rows or duplicate brand/market keys, **108 blank global-brand IDs**, 58 VERIFY domains, zero UNKNOWN domains and two NOT APPLICABLE rows. Six previously missing roadmap-market rows were added for Belgium, Sweden, Denmark, Spain, Italy and Ontario; these remain HOLD research leads.
 - Approved reviews: **0/100**. Every target below remains **HOLD**. No target has been awarded a score.
 - The US-state dossiers for New Jersey, Pennsylvania and Michigan remain in a supplemental queue; their authorisations do not replace or expand the ten-market international board.
 
