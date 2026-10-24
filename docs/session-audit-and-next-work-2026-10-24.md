@@ -1,3 +1,13 @@
+# Latest correction — Pennsylvania brand/domain distinction — 24 October 2026
+
+- The PGCB's 2024–2025 Annual Report reports a new Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate, and the current PGCB operator directory displays Hollywood Casino Online. The separate legacy URL `pa.hollywoodcasino.com` is listed as a former site ending 14 December 2023 in the 13 February 2026 certificate-holder PDF.
+- Correct disposition: **do not reuse the retired legacy URL; retain Hollywood Casino Online as a HOLD research lead** until its current customer route, contracting entity and terms are verified. The prior claim that the brand itself should be excluded is withdrawn.
+- Added a Pennsylvania-specific row to `docs/brand-research-template.csv` under existing global brand ID `hollywood-casino`, market `US-PA`, with official URL `VERIFY` and no public score.
+- Updated the global-ID reconciliation CSV after the added market row. Registry count is now 205 market-specific rows across 154 global IDs; the 100-name candidate register remains a separate selection queue. Exact normalized slug matches remain only a diagnostic; aliases need manual reconciliation.
+- Sources: https://gamingcontrolboard.pa.gov/sites/default/files/2025-09/PGCB%20Annual%20Report%202024-2025%20FINAL.pdf ; https://gamingcontrolboard.pa.gov/interactive-gaming-operators ; https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
+
+---
+
 # Latest verified continuation — 24 October 2026
 
 - **Pennsylvania correction:** the legacy `pa.hollywoodcasino.com` URL ended on 14 December 2023, but the PGCB's 2024–2025 Annual Report records a later Hollywood Casino online-brand launch in December 2024. The prior blanket exclusion was too broad. Current Hollywood Casino is HOLD/UNKNOWN until the exact live domain and customer-contracting entity are matched; BetRivers remains a separate Pennsylvania HOLD lead.
