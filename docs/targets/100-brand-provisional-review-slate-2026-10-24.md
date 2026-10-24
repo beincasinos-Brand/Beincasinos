@@ -147,3 +147,8 @@ Before any row can be approved:
 ## Current decision
 
 This slate creates a stable 100-unique-ID research target from the current candidate pool. It does **not** complete the target: **0/100 approved reviews**. The public brand directory is a transparent research queue, not a ranked list. Production publication and Cloudflare deployment remain gated on evidence quality, checks, and release approval.
+
+
+## Post-slate evidence updates — 24 October 2026
+
+The underlying CSV was refreshed after this slate was generated. First-party terms/withdrawal/complaint/RG links and dated notes were added for Lottomatica, Sisal, SNAI, Sportium, Admiral Bet (IT), BetFlag (IT), NetBet (IT) and AdmiralBet.es. See `docs/research/italy-first-party-terms-follow-up-2026-10-24.md` and `docs/research/spain-first-party-terms-follow-up-2026-10-24.md`. These updates do not change the 100-ID slate or its HOLD status; the slate is a snapshot of target selection, not publication approval.
