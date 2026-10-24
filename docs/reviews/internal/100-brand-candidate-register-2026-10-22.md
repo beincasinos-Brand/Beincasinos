@@ -18,16 +18,16 @@
 
 | # | Candidate brand | First market to investigate | Initial status | Required next proof |
 |---:|---|---|---|---|
-| 1 | bet365 Casino | Great Britain | QUEUE | Current GB remote-casino operator, exact active domain, current terms and full enforcement history |
-| 2 | 888casino | Great Britain | QUEUE | Exact contracting entity/domain, current GB terms, payments, ADR and enforcement |
-| 3 | Betway Casino | Great Britain | QUEUE | Exact active domain/operator mapping, casino permission, current terms and enforcement |
-| 4 | William Hill Casino | Great Britain | QUEUE | Current operator/domain and product-specific licence; current terms and player controls |
-| 5 | Ladbrokes Casino | Great Britain | HOLD | Resolve relationship between active licensees and exact customer journey; no duplicate counting |
-| 6 | Coral Casino | Great Britain | HOLD | Current domain is associated with active licensee; complete terms, payments, safer gambling and enforcement |
-| 7 | Unibet Casino | Great Britain | HOLD | Current domain/operator evidence, current offer terms and 2025 enforcement review |
-| 8 | LeoVegas Casino | Great Britain | HOLD | Restrict research to verified active GB domain; current terms, payments and controls |
-| 9 | Mr Green Casino | Great Britain | HOLD | Verify current white-label/domain mapping and current operator terms |
-| 10 | Grosvenor Casinos Online | Great Britain | HOLD | Confirm exact domain and read full 2026 regulatory action before approval |
+| 1 | bet365 Casino | Great Britain | HOLD — evidence captured | `bet365-casino-gb-evidence-review-2026-10-24.md`; still confirm final GB customer route, current terms, cashier, complaints/ADR, consumer tests and independent sign-off |
+| 2 | 888casino | Great Britain | HOLD — evidence captured | `888casino-gb-evidence-review-2026-10-24.md` and regulatory-action context; finish cashier/bonus/support/RG/privacy/accessibility tests and second review |
+| 3 | Betway Casino | Great Britain | HOLD — evidence captured | `betway-casino-gb-evidence-review-2026-10-24.md`; reconcile historical enforcement sources, archive current terms, test cashier/RG/support and obtain second review |
+| 4 | William Hill Casino | Great Britain | HOLD — evidence captured | `william-hill-casino-gb-evidence-review-2026-10-24.md` plus regulatory context; finish current offer/cashier/ADR/RG/accessibility testing and second review |
+| 5 | Ladbrokes Casino | Great Britain | HOLD — entity reconciliation captured | `ladbrokes-casino-gb-licence-evidence-2026-10-24.md`; confirm final GB route/terms and finish consumer testing, image rights and second review |
+| 6 | Coral Casino | Great Britain | HOLD — entity reconciliation captured | `coral-casino-gb-operator-licence-reconciliation-2026-10-24.md`; archive exact GB terms and test payments, safer gambling, complaints, accessibility and imagery |
+| 7 | Unibet Casino | Great Britain | HOLD — evidence captured | `unibet-casino-gb-evidence-review-2026-10-24.md` and 2025 regulatory context; verify exact active route and complete consumer testing/second review |
+| 8 | LeoVegas Casino | Great Britain | HOLD — evidence captured | `leovegas-casino-gb-evidence-review-2026-10-24.md`; confirm active GB domain and complete current terms, cashier, complaints, RG and accessibility tests |
+| 9 | Mr Green Casino | Great Britain | HOLD — status reconciliation captured | `mr-green-gb-licence-status-reconciliation-2026-10-24.md`; confirm current customer route/terms, white-label mapping, cashier and consumer testing |
+| 10 | Grosvenor Casinos Online | Great Britain | HOLD — evidence captured | `grosvenor-casino-gb-regulatory-context-2026-10-24.md`; verify current terms/domain, test cashier/complaints/RG and complete independent review |
 | 11 | Paddy Power Casino | Great Britain | HOLD | Confirm active casino domain register and current terms; include 2025 settlement |
 | 12 | Betfair Casino | Great Britain | QUEUE | Exact casino operator/domain, current casino-specific terms and group enforcement scope |
 | 13 | Virgin Games | Great Britain | HOLD | Confirm current consumer terms and domain mapping; distinguish licensee-level action |
@@ -120,6 +120,8 @@
 | 100 | 888 Casino Romania | Romania | QUEUE | Confirm current Romanian operation and ONJN authorisation |
 
 ## First verification batch already researched (Great Britain)
+
+The first ten GB candidates now have individual evidence dossiers or entity/regulatory reconciliation notes linked in the table above. All ten remain HOLD: this is progress in primary-source reconciliation, not ten approved reviews. Consumer testing, current terms capture, image-rights clearance and independent editorial sign-off remain outstanding on the individual dossiers.
 The separate checkpoint `docs/gb-candidate-licence-domain-checkpoint-2026-10-22.md` records source-backed research and unresolved blockers for several GB candidates, including Coral, LeoVegas, Unibet, Mr Green, Ladbrokes, Grosvenor, Paddy Power, Betfred, Virgin Games and Sky. It explicitly excludes unverified/legacy identities from the approved count. These candidate notes do **not** automatically satisfy the complete review template.
 
 ## Market-regulator starting points (official sources to check)
