@@ -284,3 +284,10 @@
 - Created `docs/reviews/internal/gb-bonus-snapshot-batch-2026-10-24.md` with source links and caveats. Sky Vegas is explicitly marked CONFLICT because the homepage advertises 250 spins while the promotions page describes a 50-spin offer/£10 deposit-and-stake path; no definitive bonus headline should be published until reconciled.
 - Ledger QA after these edits: 100 rows, 30 columns, zero malformed rows. Six offers have dated source snapshots; 94 rows remain without a captured offer URL. Image-rights fields remain pending across the ledger, all scores remain withheld, and all 100 publication decisions remain HOLD.
 - These are operator-published offer snapshots only. No account was opened, offer claimed, deposit made, game played, support contacted or withdrawal tested. Approved consumer reviews remain 0/100.
+
+
+## Regulator evidence batch — 24 October 2026
+
+- Added [internal regulator evidence batch 01](reviews/internal/regulator-evidence-batch-01-2026-10-24.md), documenting primary-source checks for bet365 Casino (GB), Casino777.be (BE), ComeOn Casino (SE), TOTO Casino (NL), MERKUR Spiel (Schleswig-Holstein only) and Jackpots.ch (CH).
+- Updated the matching six ledger blocker/evidence notes. Key diligence: the UKGC register shows an active bet365 Casino Remote licence for Hillside (UK Gaming) ENC, and the UKGC also records a 2024 settlement requiring £343,035 in lieu of penalty/costs for historic AML and customer-harm failings; that history must be reflected fairly. The other records are scoped to the exact market/state described and are not evidence of service quality.
+- This is regulator-source verification only. All six remain NOT SCORED / HOLD while consumer terms, payments, current bonus terms, safer gambling, complaints/ADR, privacy/cookies, accessibility, image rights and independent review remain incomplete. No customer accounts, deposits or hands-on tests were performed.
