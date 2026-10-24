@@ -14,6 +14,8 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - SEO topic map: `docs/seo-topic-map.csv`; planned topics are research ideas, not keyword-volume claims or permission to publish market-specific legal content.
 - Evidence-gated scoring, eligibility rules, and ranking independence: `docs/editorial-review-scoring-rubric.md`.
 - Current UK and Swiss primary-source prospect audits: `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
+- Fresh GB operator evidence batch (internal HOLD only): `docs/reviews/internal/gb-five-brand-evidence-batch-2026-10-24.md`; covers BetVictor, Coral, Ladbrokes, Sky Vegas and 888casino with dated UKGC primary sources.
+- GB candidate/exclusion batch (internal HOLD/EXCLUDE only): `docs/reviews/internal/gb-four-candidates-one-exclusion-batch-2026-10-24.md`; covers Betway, Betfred, LeoVegas, William Hill Online and the surrendered Mr Green GB licence check.
 - Held profile dossiers (not public reviews): `docs/brand-profile-casineo-ch-draft.md`, `docs/brand-profile-admiral-ch-draft.md`, `docs/brand-profile-tipico-casino-de-sh-draft.md`, `docs/brand-profile-ember-casino-us-nj-draft.md`, `docs/brand-profile-bettom-gb-draft.md`, `docs/brand-profile-threesix-vegas-gb-draft.md`, `docs/brand-profile-betsuna-gb-draft.md`, `docs/brand-profile-betinia-us-nj-draft.md`, `docs/brand-profile-vegas-club-us-nj-draft.md`, and `docs/brand-profile-winz-nl-draft.md`.
 - Public operator listing information and commercial-independence policy: `/partners/` (not accepting paid placements yet).
 - Owner-facing release gates and evidence record: `docs/owner-final-gates-and-launch-evidence.md`.
