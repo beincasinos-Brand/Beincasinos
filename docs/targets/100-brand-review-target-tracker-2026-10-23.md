@@ -600,3 +600,14 @@ Added an evidence-gated organic search plan to `docs/quality/first-100-content-c
 Added distinct SEO titles, meta descriptions, H1s, search-intent focus, section outlines and image briefs for five existing market-specific internal drafts: BetVictor Casino (GB), Coral Casino (GB), Ladbrokes Casino (GB), Sky Vegas Casino (GB), and 888casino (Sweden). Added shared premium review-page requirements for a casino-review experience rather than a generic blog layout, including market/operator identity panels, dated evidence, a visible methodology, accessible verdict states, rights-cleared imagery and structured-data guardrails.
 
 **This is content-planning progress, not five completed reviews.** The drafts remain HOLD/noindex; publication approvals remain 0/100. The review queue still needs current terms, payments/withdrawals, complaints/ADR, safer-gambling, privacy/accessibility and regulator-action evidence as applicable, plus image-rights clearance and second-editor/legal approval. No Cloudflare production deployment was performed or verified, and no GitHub Actions workflow was intentionally triggered.
+
+
+## Continued work — market-specific SEO packages for batches B and C
+
+Added ten additional distinct SEO/content-layout briefs to internal review batches B and C:
+- BetMGM Casino (New Jersey), Holland Casino Online (Netherlands), TOTO Casino (Netherlands), Betsson (Sweden), SolCasino (Spain).
+- William Hill Casino (GB), Betfred Casino (GB), Betway Casino (GB), Luckia Casino (Spain), William Hill Casino (Spain).
+
+Each package has its own title, meta description, H1, search intent, section order and rights-aware image brief. The instructions explicitly preserve market boundaries, separate licensee-specific enforcement history, and prevent reuse of foreign-market offers as local facts. Shared page requirements reinforce a dedicated casino-review layout rather than a generic blog template.
+
+**Count of SEO/page-structure packages drafted in this work sequence: 15 market-review candidates** (5 in the GB batch including the previously added London.bet package; 5 in batch B; 5 in batch C). This is not the number of complete or approved reviews. All remain HOLD/noindex; approved reviews remain **0/100**. No new public pages, Cloudflare deployment, or GitHub Actions run is claimed.
