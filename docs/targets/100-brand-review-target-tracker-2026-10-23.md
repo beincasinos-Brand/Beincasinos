@@ -585,3 +585,7 @@ The table below is the exact 100-card working list currently rendered by `brand-
 ## Latest review-draft increment — 24 October 2026
 
 Added an evidence-led London.bet Great Britain draft section to `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md` (commit `6da7fdf25a46a17223fafd57ea6bc0a3ccb1df77`). It records the UKGC operator/licence/domain match, distinguishes operator marketing claims from tested results, and sets out the remaining terms, payment, complaints, privacy, image-rights, SEO and editorial approval gates. This adds one internal draft increment only; it does not qualify as a completed or approved consumer review. Approved reviews remain **0/100**.
+
+
+## 24 October — London.bet SEO/content increment
+Expanded the internal London.bet draft with a proposed SEO title/meta description/H1, evidence-limited consumer-facing copy, provisional unrated verdict, on-page SEO/image-rights checklist and publication gates. Commit: `a03c6ef58aea249f47ed776db1ae80486b890a43`. This remains internal HOLD content; no new approved consumer review is counted. Approved reviews remain **0/100**. No Actions workflow was triggered and no Cloudflare deployment is claimed.
