@@ -430,3 +430,10 @@
 - BET99's official Help Centre states a 100% first-deposit match up to CAD $1,000, code CASINO99, 30x wagering within 30 days and game contribution differences (slots 100%, live/table/crash 10%, progressive/video poker 0%). Its live promotion page was inaccessible to automated retrieval, so current offer/eligibility is not cleared.
 - Hard Rock Bet's Ontario-specific offer page describes 200 Sweet Bonanza spins worth CAD $40 after a CAD $10 deposit and up to CAD $1,000 slot lossback with 1x wagering within 14 days; contractual/current terms still need confirmation.
 - All three rows remain HOLD; no account, deposit, claim, game, support or withdrawal test was performed.
+
+
+# CI runner blocker tracked — 24 October 2026
+
+- Opened [Issue #143](https://github.com/beincasinos-Brand/BeIncasinos/issues/143) for the repeated GitHub Actions runner-allocation failure.
+- Latest run `40137160128` and prior runs terminate before the first step with `runner_id: 0`, blank runner name and no steps. A retry also failed before steps began.
+- The workflow has not validated source, built the Cloudflare artifact or run browser/a11y checks. This issue is an infrastructure blocker; it must not be misreported as a test pass or source-code test failure.
