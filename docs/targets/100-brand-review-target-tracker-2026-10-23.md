@@ -816,3 +816,10 @@ These are **not approved consumer reviews**. Every prior register observation mu
 Added `docs/quality/brand-directory-release-qa-2026-10-24.md` from static inspection of the feature-branch HTML. Measured: 100 cards; 98 HOLD and 2 EXCLUDE; 100 expandable checklists; 60 remote image elements, all with alt attributes; 59 explicitly marked rights-pending/not-confirmed and the remaining image still needs a documented rights record; 323 external-link anchors counted in source but not fetched/tested. Source currently declares `index,follow` and the directory is in the branch sitemap.
 
 This is not a live Cloudflare/browser/image test. Before release, test mobile/keyboard interactions, all official-domain links, image availability and rights, canonical/robots/sitemap after deployment. Indexability does not guarantee Google indexing. No deployment was performed.
+
+
+## Market-record field completeness audit — 24 October 2026
+
+Added `docs/quality/market-record-field-completeness-audit-2026-10-24.md` after parsing the current 204 populated market-specific rows in `docs/brand-research-template.csv`. Current missing-field counts: terms URL 184/204; withdrawals URL 200/204; complaints URL 200/204; responsible-gambling URL 198/204; partnership contact URL 204/204; privacy/tracking review status 62/204; reviewer 20/204. Decisions remain 202 HOLD and 2 rejected.
+
+This is structural completeness only: URLs were not fetched and field presence does not prove current evidence. The biggest next priority is adding dated, product-specific consumer terms, payment/withdrawal, complaint and safer-gambling sources before any candidate can move toward approval. This audit does not change candidate status or claim deployment/indexing.
