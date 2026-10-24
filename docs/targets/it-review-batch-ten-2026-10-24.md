@@ -1,0 +1,5 @@
+# Italy review batch ten — 24 October 2026
+
+Eight internal Italian-market review drafts: Lottomatica, SNAI, Eurobet, Goldbet, StarCasinò, PokerStars Casino Italia, Betflag and AdmiralBet Italia. Drafts are under `docs/reviews/internal/` with the `-it-review-draft-2026-10-24.md` suffix.
+
+All are HOLD and not publication-approved. No score, recommendation or hands-on test is claimed. Verify current ADM concessionaire/domain authorization and binding Italian terms; complete product, promotions, payments/withdrawals, responsible-gambling, complaints, privacy/accessibility, image-rights and independent editorial checks. Do not generalize authorization across jurisdictions. Deduplicate related brands/operators before counting toward 100. No Cloudflare deployment or GitHub Actions workflow was triggered.
