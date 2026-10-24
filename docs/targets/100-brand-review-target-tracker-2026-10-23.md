@@ -402,3 +402,8 @@ Added internal drafts and synchronized registry notes for Emotiva Casino and Par
 Added internal drafts for AdmiralBet Spain, Emotiva Casino and PartyCasino, and updated the Emotiva/PartyCasino CSV rows with DGOJ profile findings. DGOJ lists relevant casino-game categories for BeatYa Online S.A. (AdmiralBet) and for Electraworks Ceuta, S.A. (PartyCasino/Bwin), with a recent July 2026 resolution on the latter profile; however, the accessible operator profiles showed empty domain lists, and first-party pages were blocked or returned only minimal content. Emotiva's DGOJ profile lists slots, blackjack, roulette and poker but also showed an empty domain list and historic Aconcagua Juegos references. These are domain/contract verification blockers, not a basis to infer illegality. All remain HOLD and the approved-review count remains **0/100**.
 
 The public directory hero now says **“100 research leads”** rather than implying 100 verified brands and explicitly displays **0/100 reviews approved for publication**. The source checker now guards both disclosures.
+
+
+### Search-index safety gate — 24 October 2026
+
+The 100-entry directory remains an unverified research queue, not a set of finished consumer reviews. Updated `brand-directory/index.html` to `noindex,follow` and removed `https://beincasinos.online/brand-directory/` from `sitemap.xml` (44 URL entries remain). This prevents the queue from being deliberately submitted for indexing while primary-source, consumer-evidence and approval gates remain open. The change is in this draft PR branch only; it has **not** been deployed to Cloudflare production. Re-add the directory to indexing only after its claims and eligibility status are editorially approved.
