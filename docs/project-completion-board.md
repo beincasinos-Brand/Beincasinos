@@ -553,3 +553,13 @@
 - The canonical public-directory ledger currently contains **9** bonus/promotion source leads, not eight. The ninth is GetLucky (NL), added to `docs/reviews/internal/canonical-directory-bonus-source-leads-2026-10-24.md`.
 - GetLucky's official promo subdomain describes up to 200 free spins across three qualifying deposits, but the public directory card still lacks a verified official domain and the exact regulator/domain mapping remains unresolved. Keep it on HOLD.
 - Canonical audit remains: 100 public cards, 100 ledger rows, exact identity-set equality, 100 unique IDs, 9 source URLs, zero numeric scores, 100 NOT SCORED states, and all consumer tests/disclosures incomplete.
+
+
+# Four additional public-directory bonus sources — 24 October 2026
+
+- Added official source leads for admiral.ch, Starcasino.nl, Winz.nl and 888.nl; canonical public-directory ledger now contains **13** dated source URLs. Details are in `docs/reviews/internal/bonus-snapshot-admiral-starcasino-winz-888-nl-ch-2026-10-24.md`.
+- admiral.ch: up to CHF 1,000 bonus funds + 500 free spins across three deposit stages; exact terms remain to be reconciled.
+- Starcasino.nl: casino welcome 100% up to €250 and separate live-casino 100% up to €250; sportsbook benefits excluded from casino value.
+- Winz.nl: choice up to €200 cash bonus or 200 free spins; individual offer terms not captured.
+- 888.nl: Dutch homepage references welcome bonuses for players aged 24+, but the promotions route threw a client-side exception; no amount is claimed.
+- All four remain HOLD. No bonus is approved for public recommendation.
