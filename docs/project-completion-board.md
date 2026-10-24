@@ -1,3 +1,52 @@
+# Current project checkpoint — 24 October 2026
+
+**Working branch:** `feature/directory-global-brand-count-disclosure-2026-10-23`  
+**Release:** draft PR #52; not merged. **Cloudflare production deployment is not confirmed.** No GitHub Actions run was triggered during this work.
+
+## First target: 100 distinct eligible brands and 100 publication-ready reviews
+
+| Measure | Current state | What it means |
+|---|---:|---|
+| Market-specific research records | 204 | Research leads, not verified eligible brands |
+| Provisional global-brand IDs | 154 | Still require deduplication and consumer-facing identity checks |
+| Distinct-ID review workqueue | 100 | Planning queue only; all entries remain HOLD |
+| Directory cards | 100 | 100 distinct displayed titles, not 100 verified eligible global brands |
+| Directory status | 98 HOLD / 2 EXCLUDE | No card is approved as a recommendation |
+| Internal evidence-draft packages | 62 | Draft evidence packages, not completed consumer reviews |
+| Publication-approved reviews | **0/100** | Target remains unmet |
+| Image candidates in directory | 63/100 | All candidates remain rights-pending; direct rendering/permission is not cleared |
+| CSS-art / monogram fallbacks | 37/100 | Retain until an appropriate asset and reuse basis are verified |
+
+## Latest completed work
+
+- Corrected the directory release QA snapshot so it accurately records `noindex,follow` and sitemap exclusion; an earlier snapshot had incorrectly said `index,follow` and that the directory was in the sitemap.
+- Added official-page image candidates for **LottoGo Casino, Alfobet and Rollerbet** to the directory and asset register. The Los Vegas favicon candidate was removed after a direct 404 response.
+- Reconciled the directory HTML and 100-row image register: **100 cards, 100 unique displayed titles, 63 image tags and 63 matching register URLs**, with no HTML/register source mismatches found in the static check. All image tags include alt text, lazy loading and error fallbacks.
+- Tested a small batch of official pages and candidate image URLs. Some pages were blocked or geolocated; LottoGo and Alfobet direct asset checks returned no extractable text, and Rollerbet's favicon request returned 403. These are unresolved rendering checks, not rights clearance.
+- Updated the image-readiness audit and this target tracker to reflect the current counts.
+
+## Release and quality gates still open
+
+1. Deduplicate the displayed cards against the first-100 distinct-ID queue and confirm the exact consumer-facing brand, legal entity, domain, market and casino product.
+2. Verify local authorisation from current primary regulator sources before counting any brand toward the 100 eligible-brand target.
+3. Complete terms, payments/withdrawals, complaints/ADR, safer-gambling, privacy, enforcement, accessibility and lawful consumer-check evidence for each review.
+4. Obtain a documented reuse basis for every logo/image or use original artwork. Do not treat official-site hosting as image permission.
+5. Complete second-review and editorial/legal sign-off. Internal drafts do not count as publication-ready reviews.
+6. Run browser/device checks and validate the Cloudflare preview/live response only after release approval. Keep the directory `noindex,follow` and excluded from the sitemap until an explicit release decision.
+
+## Current working records
+
+- [100-brand target tracker](targets/100-brand-review-target-tracker-2026-10-23.md)
+- [Brand directory source QA](quality/brand-directory-release-qa-2026-10-24.md)
+- [Directory image-readiness audit](targets/directory-image-readiness-audit-2026-10-24.md)
+- [100-card research directory](../brand-directory/index.html)
+- [First-100 distinct-ID research workqueue](research/first-100-distinct-id-review-workqueue-2026-10-23.md)
+- [100-row image asset register](targets/brand-image-asset-register-2026-10-23.csv)
+
+**Bottom line:** visible progress has been made on the directory and image-source coverage, but the first target is not complete. Do not claim 100 verified brands, 100 approved reviews, live deployment, or search indexing.
+
+---
+
 # Latest research and CI checkpoint — 22 October 2026
 
 - PR #26 merged after the complete integrated CI job passed, including Chromium browser smoke tests, the public-only deployment artifact build, and the check that internal research files are excluded from that artifact: https://github.com/beincasinos-Brand/BeInCasinos/pull/26
