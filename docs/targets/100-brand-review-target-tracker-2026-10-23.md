@@ -316,3 +316,11 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 **Latest HTML/source QA after this batch:** 100 cards; 100 unique displayed titles; status attributes 99 HOLD / 1 EXCLUDE; evidence-grade attributes A=19, B=19, C=39, UNKNOWN=23; 51 sourced image candidates; 49 CSS artwork/monogram fallbacks. The image asset register has 100 rows and 51 candidates marked rights pending. These counts supersede older checkpoint figures elsewhere in the historical notes; the grade attributes are a data-quality inventory, not a brand-quality rating.
 
 The previous and current batches updated ten cards total this session: Mega Riches, Lottoland Casino, Bally Casino UK, Alfobet, DynoBet, Proper Bet, Betta Bet, Rollerbet, Conquer Casino and PricedUp Casino. All ten remain HOLD. Approved consumer reviews remain **0/100**. The page remains `noindex,follow`; PR #52 remains open/draft/unmerged; no Cloudflare production deployment is confirmed.
+
+
+## 24 October 2026 — Conquer Casino image and consumer-source note
+
+- Added a Conquer Casino logo candidate linked from the official homepage at `https://www.conquercasino.com/wp-content/uploads/2017/04/cc-logo.png`. The directory card and 100-row image asset register now point to the same asset, both marked **SOURCE FOUND · RIGHTS PENDING**.
+- The official Conquer Casino homepage identifies ProgressPlay Limited as operator and links to terms, withdrawals, privacy, deposit methods and responsible-gambling pages. The homepage displays a welcome offer with 50× wagering requirements and other conditions; treat this as a dated operator claim, not an endorsement, and re-check the applicable GB terms before review.
+- Latest static source QA: **100 cards / 100 unique titles**, **52 sourced image candidates / 48 CSS artwork fallbacks**, and **52 rights-pending candidates in the 100-row asset register**. All candidates still require rights and rendering checks.
+- Evidence-grade attributes remain A=19, B=19, C=39, UNKNOWN=23; statuses remain 99 HOLD / 1 EXCLUDE. These are current source-field counts, not a consumer-quality ranking. Review approvals remain **0/100**; no Cloudflare deployment is confirmed.
