@@ -1,6 +1,6 @@
 # BeInCasinos — 100-brand / 100-review target tracker
 
-**Last reconciled:** 23 October 2026  
+**Last reconciled:** 24 October 2026  
 **Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
 **Target:** 100 distinct, jurisdiction-appropriate brands with 100 independently checked, high-quality reviews.  
 **Publication approvals:** **0/100**. Do not treat research records or internal drafts as completed reviews.
@@ -220,3 +220,14 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Reconciliation addendum — 24 October 2026
+
+The preceding counts are the **23 October baseline**, not a live total of distinct, approved reviews. On 24 October, draft PR [#141](https://github.com/beincasinos-Brand/Beincasinos/pull/141) contains 19 additional internal evidence-review draft files across selected Great Britain and Switzerland candidates, plus a primary-source spot-check memo and this release-gate audit. Those drafts may overlap brands already represented in earlier research PRs, and some deliberately remain HOLD because domain-to-entity mapping, consumer evidence, or follow-up on regulatory history is unresolved. Therefore, do not add the 19 to the older 18 as a verified unique count.
+
+**Authoritative publication count remains 0/100.** Neither candidate rows nor internal drafts count toward the goal. PR #141 is a draft and is not merged; no public review pages were changed and no Cloudflare deployment was performed.
+
+The live-site release-gate audit is recorded at `docs/audits/live-site-release-gate-2026-10-24.md`. Its live fetch confirmed that `robots.txt` allows crawling and points to the sitemap, the sitemap currently advertises 46 URLs, and `/reviews/` explicitly states that no casino profiles are currently scored or ranked. These checks do not establish Google indexing, full technical QA, or publication readiness.
+
+Before promoting any candidate, record the exact market, product, live domain, contracting legal entity, current regulator evidence, dated consumer-product checks, enforcement follow-up, image rights, independent second review, and editorial/legal sign-off. If any mandatory field is unresolved, keep the candidate on HOLD and do not score it.
