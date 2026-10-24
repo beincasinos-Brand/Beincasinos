@@ -12,7 +12,7 @@ The FGB's official online-gambling list names Casino Mendrisio and the domain ht
 Primary sources:
 - FGB online-gambling list: https://www.esbk.admin.ch/en/online-gambling/
 - Federal Council release granting Casinò Admiral SA a concession extension (26 February 2025): https://www.esbk.admin.ch/fr/nsb?id=104291
-- FGB release confirming required authorisations for Casino Mendrisio (16 July 2025): https://www.esbk.admin.ch/en/2025-07-16-e
+- FGB release confirming required authorisations for Casino Mendrisio (16 July 2025): https://www.esbk.admin.ch/fr/2025-07-16-f
 
 This establishes a regulator-listed Swiss online casino platform/domain and a start date, and identifies Casinò Admiral SA as the recipient of the concession extension. It still does not identify the exact entity contracting with current online customers, prove every currently displayed game is individually permitted, or establish product quality, payment performance, complaints handling or willingness to pay for a listing.
 
