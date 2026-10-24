@@ -59,3 +59,10 @@ A structural PASS is not evidence that a regulator page is current, that an offe
 The ledger now has 43 columns. In addition to the original identity, licensing, bonus and scoring fields, it tracks deposit methods, fees/limits, privacy/cookies, accessibility evidence, regulatory actions, ADR, named primary and secondary reviewers, independent-review and editorial-approval dates, consumer-test status, affiliate-disclosure review and an evidence-bundle path. Every candidate currently explicitly records consumer/usability testing as `NOT PERFORMED` and affiliate disclosure as `NOT REVIEWED`.
 
 The automated gate requires all schema fields and blocks publication until the review record has the necessary evidence URLs, distinct named reviewers, dated approvals, completed consumer/usability testing, reviewed affiliate disclosure, a complete consistent rubric score, and explicitly cleared image rights. A populated field is only a tracking assertion; source freshness, accuracy and the underlying review still require manual verification.
+
+
+## Pre-launch crawl gate and latest bonus evidence (24 October 2026)
+
+Before explicit launch approval, the deployment artifact must ship with `robots.txt` using `Disallow: /`. The artifact validator enforces that state and rejects a site-wide allow rule. The canonical sitemap remains prepared for future launch readiness but is not permission to publish or index.
+
+The 24 October source pass recorded official offer pages for Jackpots.ch (CH) and Unibet (SE), bringing the candidate ledger to 13 bonus/promotion URLs. These offers remain on HOLD pending exact offer-specific terms, complete consumer-review evidence, image rights, testing and independent sign-off.
