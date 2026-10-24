@@ -194,7 +194,6 @@ for page in pages:
                 errors.append("brand-directory/index.html: pending brand image must remain hidden")
             if rights == "cleared" and not image.get("src"):
                 errors.append("brand-directory/index.html: rights-cleared image must have a live src")
-        pending_images = sum(1 for image in parser.brand_images if (image.get("data-image-rights") or "pending").strip().lower() != "cleared")
         if len(parser.brand_fallbacks) != len(parser.brand_images):
             errors.append("brand-directory/index.html: each brand image must have a matching fallback monogram")
         if any("hidden" in fallback for fallback in parser.brand_fallbacks):
