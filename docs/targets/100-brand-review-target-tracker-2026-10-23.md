@@ -331,3 +331,16 @@ The previous and current batches updated ten cards total this session: Mega Rich
 A source QA pass found that some cards displayed a populated evidence-grade description while their filter attribute was still `UNKNOWN`, and mixed grades such as `A/B` or `B/C` were not mapped consistently. The directory card attributes have now been aligned to the visible grade text. Where primary evidence exists but launch timing or identity remains unresolved, the filter uses Grade B rather than treating the whole entry as Grade A.
 
 **Current validated source counts:** 100 cards; 100 unique displayed titles; evidence filter attributes A=19, B=46, C=35, UNKNOWN=0; statuses 99 HOLD / 1 EXCLUDE; 52 sourced image candidates / 48 CSS-art fallbacks. The image register contains 100 rows, 52 candidate assets and 48 NOT SOURCED rows. All 52 candidates remain rights pending. These are evidence-field classifications, not quality ratings or publication approvals. Approved reviews remain **0/100**.
+
+
+## 24 October 2026 — GB evidence batch D and image update
+
+- **Los Vegas (058):** UKGC account 48695 confirms active Casino Remote permission and www.losvegas.bet as Active under SuprPlay Limited.
+- **O'Reels Casino (059):** UKGC lists www.oreels.com as Inactive under Grace Media account 57869; current live route is unresolved, so the entry remains Grade C/HOLD.
+- **QuinnBet Casino (060):** UKGC confirms active casino permission, active quinnbet.com domain and active quinncasino trading name under account 61011. UKGC announced a £609,104 settlement on 20 August 2026 for AML/CTF, customer-interaction and financial-vulnerability-check failures. Current remediation effectiveness needs independent verification.
+- **LottoGo Casino (061):** UKGC confirms active Casino Remote permission under Annexio (Jersey) Limited account 51692 and www.lottogo.com as Active.
+- Added an official-site QuinnBet emblem candidate from the UK site to the directory and image asset register. It is a small icon candidate, not a full wordmark, and remains rights pending.
+
+Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24-d.md`.
+
+**Latest source QA:** 100 cards; 100 unique displayed titles; grades A=19, B=49, C=32; statuses 99 HOLD / 1 EXCLUDE; 53 sourced image candidates / 47 CSS artwork fallbacks; 100 asset-register rows with 53 candidates. All candidate images remain rights pending. Approved reviews remain **0/100**; the directory remains noindex and has not been deployed to Cloudflare.
