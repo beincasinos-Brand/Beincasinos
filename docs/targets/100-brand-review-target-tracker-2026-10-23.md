@@ -753,3 +753,10 @@ The exact displayed card-title list at this checkpoint is:
 
 
 - **Default-branch comparison:** checked the repository default branch after the edits. `robots.txt` allows crawling and references the sitemap there, but `brand-directory/index.html` is absent from the default branch. Therefore the new directory and sitemap entry are still feature-branch work and are **not live by virtue of these commits**. Keep PR #52 as the review/release path; do not claim production indexing until the approved changes are merged, the Cloudflare deployment is confirmed, and live URL inspection succeeds.
+
+
+## Follow-on SEO production work — 24 October 2026
+
+- Added five tailored, market-specific on-page SEO briefs to `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md`: Smooth Spins (GB), Planet Sport Bet (GB), Betmaster UK (GB), London.bet Casino (GB), and BetGoodwin Casino (GB).
+- Each brief now has a distinct title, meta description, H1, search intent, suggested evidence-led section structure and explicit publication blockers. London.bet's documented regulator/domain lead is labelled as research evidence, not hands-on testing.
+- This is SEO drafting work only. It adds **0** approved reviews; approved consumer reviews remain **0/100**. It does not change the 53 internal evidence-draft count, verify new licence facts, create public routes, clear image rights, run GitHub Actions, deploy to Cloudflare, or prove indexing.
