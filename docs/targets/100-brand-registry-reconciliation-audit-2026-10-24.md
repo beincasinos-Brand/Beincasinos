@@ -79,3 +79,13 @@ Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano
 ## Belgium source correction
 
 The current surfaced Belgian A+ table associates dossier 595153 with betssoncasino.be, Casino Middelkerke x Betsson, SA/NV EXPLOITATIE CASINO MIDDELKERKE, listed expiry 22 February 2039. An earlier captured row associated that dossier with betfirstcasino.be. This is a material domain/brand transition and remains HOLD until the current live legal footer and customer contract are matched. The separate B+ leads are not counted as A+ casino licences.
+
+
+## Updated artifact inventory — 24 October 2026
+
+A fresh GitHub directory listing on the current branch returned:
+- `docs/reviews/internal/`: **170 files** total.
+- Candidate-specific filenames matching the evidence-review/product-scope-review pattern: **63**.
+- `review-drafts/`: **21 files**.
+
+These are file counts, not completed consumer reviews. They may overlap by brand and market, include scope checks rather than finished reviews, and do not have second-review/editorial approval merely because a file exists. The approved review count remains **0/100**.
