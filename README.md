@@ -116,6 +116,7 @@ See [the internal operator outreach playbook](docs/operator-outreach-playbook.md
 - [Tier-1 target qualification audit (24 October 2026)](docs/tier-1-target-qualification-audit-2026-10-24.md) — counts the master tracker rows and highlights unresolved domains, market scope, and publication holds.
 - [Top-10 priority review production board (24 October 2026)](docs/top-10-review-priority-board-2026-10-24.md) — tracks the first ten GB priorities, existing evidence dossiers, and remaining review/release blockers.
 - [International 10-market priority board (24 October 2026)](docs/international-10-market-priority-board-2026-10-24.md) — the original GB, BE, SE, DK, ES, IT, NL, DE-SH, CH and Ontario roadmap; supplemental US-state leads are tracked separately.
+- [US-state supplemental research queue (24 October 2026)](docs/us-state-supplemental-research-queue-2026-10-24.md) — separate NJ, PA and MI evidence leads; each state is held independently and is not part of the ten-market international roadmap.
 
 ## Recent prospect-research updates (internal only)
 
