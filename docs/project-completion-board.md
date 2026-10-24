@@ -509,3 +509,10 @@
 - Casino777.be, Napoleon Casino Belgium, Circus Casino Belgium and Ladbrokes Casino Belgium remain HOLD pending a legal/compliance determination for the exact local promotion mechanic and current terms. Do not describe a generic promo page, game boost, prize drop or tournament as a lawful welcome bonus without that sign-off.
 - Latest ledger audit: 100 rows, 43 columns, 100 unique identities, **54** dated official bonus/promotion URLs, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numerical review scores, and all 100 rows explicitly NOT SCORED. All 100 consumer/usability tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED.
 - Latest Actions runs `40138041825` and `40138026593` still fail before source steps execute; issue #143 tracks runner allocation. No CI pass, merge or production deploy is claimed.
+
+
+# Twelfth bonus source pass and latest source audit — 24 October 2026
+
+- Added BetRivers Michigan and Fair Play Online Netherlands official-source notes at `docs/reviews/internal/bonus-snapshot-betrivers-mi-fairplay-nl-2026-10-24.md`.
+- BetRivers' Michigan landing page describes a 1x bonus playthrough and links a casino-back/spins offer, but the full offer terms were not exposed; the casino offer must not be conflated with sportsbook offers. Fair Play Online's official promotions page is for existing players; no new-customer welcome bonus was verified, so the ledger records that uncertainty rather than inventing one.
+- Latest audit: **55/100** candidates have a dated official bonus/promotion source URL; 100 rows, 43 columns, 100 unique brand/market identities, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric review scores and 100 NOT SCORED states. All 100 consumer tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED.
