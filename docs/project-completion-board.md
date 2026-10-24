@@ -1,3 +1,17 @@
+# Latest work checkpoint — 24 October 2026, 19:30 UTC
+
+- Corrected the Pennsylvania candidate register: the old Hollywood Casino Online route is excluded because the PGCB's 13 February 2026 certificate-holder record lists the legacy skin as ended 14 December 2023. The priority target is BetRivers Casino (PA), with certificate holder SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia, interactive operator Rush Street Interactive PA, LLC, and the Pennsylvania-specific pa.betrivers.com route. BetRivers remains HOLD; current terms, consumer tests and second review are outstanding.
+- Added internal regulator-led dossiers for admiral.ch (Swiss FGB), Ember (New Jersey DGE), and Horseshoe Online Casino (Michigan MGCB). Hollywood's draft was replaced by a dated status correction; it is not counted as an active target.
+- Hardened sitemap validation: a shared HTML robots-meta parser recognizes noindex/none directives, keeps noindex pages out of the expected sitemap set, and flags them if listed. Added seven regression tests for directive order, case, whitespace, false positives and default behaviour, and wired them into the Static site checks workflow.
+- Source-level execution of the parser's seven cases passed locally in an isolated Python check. This does not equal running the repository's complete CI or testing the actual built artifact.
+- Current PR #141 head is `1a22de9ff596063eed9875bd2f7cfe2f4067fa81`; 122 changed files at the last check. PR remains open, Draft and unmerged. The latest observed Actions job failed before runner allocation (runner ID 0, no steps and no logs); no successful CI run for the current head is confirmed. A rerun was requested on an earlier attempt but showed the same pre-runner failure.
+- Live-site spot-check: production currently returns 404 for `/brand-directory/`; the current public sitemap lists 46 URLs and does not include that route. This is consistent with the research-directory change remaining branch-only; no production release was attempted.
+- Approved consumer reviews remain **0/100**. All incomplete profiles remain HOLD; no merge, production deploy, indexing release, paid placement or outreach occurred.
+
+**Next:** get GitHub Actions to allocate a runner; run the full suite and test the checker against the built artifact; continue evidence capture for the highest-priority GB profiles; independently review any complete drafts; keep all production/publication gates intact.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 19:00 UTC
 
 - Corrected a material Pennsylvania target error: the PGCB's 13 February 2026 certificate-holder PDF lists legacy pa.hollywoodcasino.com under former interactive gaming sites and records its operation ending 14 December 2023. Hollywood Casino Online is now marked EXCLUDED pending fresh proof of a distinct active skin; its previous current-brand claim is withdrawn.
