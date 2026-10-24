@@ -908,6 +908,35 @@ if reviews_hub.is_file():
 else:
     errors.append("reviews/index.html is missing")
 
+# Keep the 100-brand research directory discoverable without implying reviews are approved.
+directory_page = ROOT / "brand-directory" / "index.html"
+if directory_page.is_file():
+    directory_source = directory_page.read_text(encoding="utf-8")
+    if not re.search(r'<meta name="robots" content="index,follow"', directory_source, re.I):
+        errors.append("brand-directory/index.html: public research directory must be index,follow")
+    if '<link rel="canonical" href="https://beincasinos.online/brand-directory/">' not in directory_source:
+        errors.append("brand-directory/index.html: canonical URL is missing or incorrect")
+    if "intentionally marked noindex" in directory_source:
+        errors.append("brand-directory/index.html: stale noindex explanation contradicts the public robots directive")
+    cards = re.findall(r'<article\\b[^>]*class="[^"]*\\bbrand-card\\b[^"]*"[^>]*>([\\s\\S]*?)</article>', directory_source)
+    if len(cards) != 100:
+        errors.append(f"brand-directory/index.html: expected 100 research cards, found {len(cards)}")
+    titles = []
+    for card in cards:
+        match = re.search(r'<h2[^>]*>([\\s\\S]*?)</h2>', card)
+        title = re.sub(r'<[^>]+>', '', match.group(1)).strip() if match else ""
+        if not title:
+            errors.append("brand-directory/index.html: a research card is missing its title")
+        titles.append(title.casefold())
+        if "brand-summary" not in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} is missing a summary")
+    if len(set(titles)) != len(titles):
+        errors.append("brand-directory/index.html: duplicate card titles found")
+    if "https://beincasinos.online/brand-directory/" not in (ROOT / "sitemap.xml").read_text(encoding="utf-8"):
+        errors.append("sitemap.xml: indexable brand directory is missing from sitemap")
+else:
+    errors.append("brand-directory/index.html is missing")
+
 # Keep operator-facing commercial claims aligned with the actual pre-launch state.
 # These are deliberate release guardrails, not legal approval.
 partners_page = ROOT / "partners" / "index.html"
