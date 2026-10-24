@@ -148,7 +148,8 @@ def check(ledger_path):
             absent = [field for field in required if not row.get(field, "").strip()]
             if absent:
                 errors.append(f"{label}: publication state {state!r} lacks required fields: {', '.join(absent)}")
-            if "cleared" not in row.get("image_rights_status", "").casefold():
+            rights_state = row.get("image_rights_status", "").casefold()
+            if "cleared" not in rights_state or any(token in rights_state for token in ("not cleared", "pending", "unknown", "permission not evidenced")):
                 errors.append(f"{label}: publication blocked until image rights are explicitly cleared")
             if not re.search(r"second reviewer|independent review|editorial approval", row.get("blockers", ""), re.I):
                 warnings.append(f"{label}: publication state should cite independent-review/editorial approval evidence in blockers or the linked review record")
