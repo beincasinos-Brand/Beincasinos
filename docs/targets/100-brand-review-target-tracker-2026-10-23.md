@@ -898,6 +898,8 @@ Added [New Jersey evidence-led review drafts — batch M](../reviews/internal/nj
 
 
 ## Official-site image candidate pass — 24 October 2026
+- Fixed a logo-fallback CSS cascade issue so the monogram stays hidden when an image loads successfully and appears only after the image error handler reveals it.
+- Added `scripts/check_brand_directory.py` as a repeatable source gate for the 100-card count, title uniqueness, asset-register alignment, image accessibility/fallback attributes and noindex/sitemap guardrails. This script has not been executed by CI; GitHub Actions was intentionally not run.
 
 - Added image-source candidates to the existing directory cards and 100-row asset register for **LottoGo Casino**, **Alfobet**, and **Rollerbet**, based on image URLs or favicon metadata exposed by the matching official domains. Los Vegas was initially added but its favicon URL returned 404 in a direct asset check, so the candidate was removed and its card returned to the CSS-art fallback.
 - The three remaining candidates are marked **SOURCE FOUND — RIGHTS PENDING**. Rollerbet is a favicon-sized candidate; LottoGo redirected to a location-unavailable page during the source check; Alfobet's official homepage exposed a logo, but its exact consumer-facing domain/operator relationship remains a separate HOLD. The Los Vegas favicon was removed after a direct 404.
