@@ -61,3 +61,45 @@ Five differentiated draft sections converted from existing market evidence packs
 - Approved reviews added: **0**
 - Cumulative approved reviews against target: **0/100**
 - All drafts remain HOLD; no public site or sitemap change is implied.
+
+
+## Distinct SEO packages — batch B (internal / HOLD)
+
+These metadata briefs target distinct market-specific queries. They do not establish review completion or permit publication. Keep all proposed pages noindex and out of the sitemap until each evidence pack passes its publication gate.
+
+### BetMGM Casino — New Jersey
+- **SEO title:** BetMGM Casino NJ Review: Approved Site & Player Checks
+- **Meta description:** Check BetMGM’s New Jersey approved-site listing and the local terms, payments, complaints and safer-gambling details still needing verification.
+- **H1:** BetMGM Casino Review for New Jersey: Licence and Local Terms
+- **Intent / page order:** NJ approved-site record; contracting entity; geolocation and account eligibility; NJ-specific terms and offers; deposits/withdrawals; dispute process; responsible gaming; privacy/accessibility; evidence-limited verdict.
+- **Image brief:** Rights-cleared product image or original New Jersey online-gaming explainer illustration. Do not reuse terms or promotions from another state.
+
+### Holland Casino Online — Netherlands
+- **SEO title:** Holland Casino Online Review NL: Licence & Player Protections
+- **Meta description:** Review the Dutch licence evidence and check the current domain, local terms, payments, complaints and safer-gambling protections before deciding.
+- **H1:** Holland Casino Online Review: Dutch Licence and Terms
+- **Intent / page order:** Ksa permit and effective period; exact domain/brand notification; local terms and offers; payments/withdrawals; complaints; safer-gambling requirements; privacy/accessibility; regulatory context; verdict.
+- **Image brief:** Rights-cleared current Dutch product imagery or original neutral illustration. The permit decision must not be presented as proof of service quality.
+
+### TOTO Casino — Netherlands
+- **SEO title:** TOTO Casino Review Netherlands: Licence, Bonuses & Withdrawals
+- **Meta description:** Check TOTO Casino’s Dutch market evidence and the current terms, bonus conditions, payment rules and player-protection details that need verification.
+- **H1:** TOTO Casino Review (Netherlands): Licence and Consumer Terms
+- **Intent / page order:** Exact Dutch domain/operator match; current Ksa permission; product scope; dated local bonus terms; deposits/withdrawals; complaint route; responsible gambling; privacy/cookies; accessibility; evidence-based verdict.
+- **Image brief:** Use only a licensed asset matching the Dutch casino product; never substitute sportsbook promotion art for casino terms or catalogue evidence.
+
+### Betsson — Sweden
+- **SEO title:** Betsson Sweden Casino Review: Licence & Spelpaus Checks
+- **Meta description:** Check Betsson’s Swedish casino identity and local licence evidence, then review Swedish bonus terms, withdrawals, complaints and Spelpaus protections.
+- **H1:** Betsson Casino Review for Sweden: Licence and Player Safety
+- **Intent / page order:** Swedish domain and licensee; Spelinspektionen record; local product; current Swedish offers; payment and withdrawal rules; complaints; Spelpaus/RG; privacy/accessibility; verdict.
+- **Image brief:** Rights-cleared Swedish-market asset only. Avoid carrying over offers, payment methods or regulatory claims from another Betsson market.
+
+### SolCasino — Spain
+- **SEO title:** SolCasino Review Spain: DGOJ Licence & Casino Terms
+- **Meta description:** Review SolCasino’s Spain-specific operator and licence evidence, plus the current bonus, withdrawal, complaint and safer-gambling terms to verify.
+- **H1:** SolCasino Review (Spain): Licence, Terms and Player Protections
+- **Intent / page order:** Spanish domain and contracting entity; current DGOJ permission; Spanish-language terms; bonus rules; payment/withdrawal details; complaints; safer gambling; privacy/cookies; accessibility; verdict.
+- **Image brief:** Rights-cleared Spanish product asset with accurate Spanish-market alt text. Do not translate a foreign-market promotion and imply it is available in Spain.
+
+**Shared visual standard:** Build each as a dedicated casino-review page, not a blog post: market badge, last-checked date, operator/licence panel, methodology/source panel, concise verdict state, structured consumer-term tables, clear unknowns, and related review/guide links. Keep typography, spacing and mobile interactions consistent while making each page’s evidence and search intent unique. No fabricated scores, star ratings, firsthand claims, or review schema. All five remain HOLD until sources are refreshed, image rights are logged, and independent editorial/legal review is recorded.
