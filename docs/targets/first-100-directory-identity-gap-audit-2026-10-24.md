@@ -1,7 +1,7 @@
 # First-100 directory identity gap audit — 24 October 2026
 
 **Branch:** `feature/directory-global-brand-count-disclosure-2026-10-23`
-**Method:** static parsing of the 100 existing HTML cards only. This is not a live regulatory verification, does not establish eligibility, and does not approve publication.
+**Method:** static parsing of the 100 existing HTML cards, reconciled after seven regulator-backed domain corrections on 24 October 2026. This is not a live regulatory verification, does not establish eligibility, and does not approve publication.
 
 ## Static counts
 
