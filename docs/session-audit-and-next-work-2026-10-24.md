@@ -1,3 +1,12 @@
+# Latest QA checkpoint — 24 October 2026, 17:41 UTC
+
+- Read-only browser fetch of the existing branch preview `https://ops-2026-10-24-target-reconc.beincasinos.pages.dev/brand-directory/` returned the older directory content: it still showed the pre-replacement research cards, so the current BetRivers source change is not confirmed live in the preview. The preview sitemap exposed 44 URLs. A read-only check of production found `/brand-directory/` returning 404 and a 46-URL production sitemap; this confirms production is not updated with the branch-only directory.
+- Commit-prefix preview URLs tested for the recent commit SHAs returned 404, so they are not valid per-commit preview addresses in this project. No alternate current-preview URL was established.
+- GitHub Actions Static site checks continues to fail before a runner is assigned. Run #1473 (ID 40117091388) for commit `b6a85cb97b632e0d8ce563bec939446f3f32888e` had `runner_id: 0`, no steps, and no logs. Rerunning its failed job created run #1474, which failed the same way. A newer run for the current directory head was queued at last observation; no successful current-head build is confirmed.
+- This is not a source-test failure diagnosis. Do not bypass CI, merge PR #141, or publish the directory. PR remains Draft/open/unmerged; production release remains blocked.
+
+---
+
 # BeInCasinos session audit and next-work queue — 24 October 2026
 
 **Scope:** Repository branch and PR #141 review. This is an internal engineering/research checkpoint, not a release approval.
