@@ -100,3 +100,8 @@ The workflow runs `scripts/check_directory_ledger_alignment.py` after the ledger
 ## Canonical source count correction
 
 The public-directory-aligned ledger now contains nine source leads (not eight), including GetLucky (NL). GetLucky remains held because its public directory card lacks a verified official domain and the precise regulator/domain mapping is not complete. No numerical score or public bonus claim is approved.
+
+
+## Additional canonical directory bonus sources
+
+The canonical directory ledger now has 13 official source leads after checks for admiral.ch, Starcasino.nl, Winz.nl and 888.nl. All remain held pending exact offer-specific terms. Do not reuse offers across markets; for 888.nl, the Dutch promotion route was not readable, so no current amount is claimed.
