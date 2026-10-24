@@ -249,10 +249,10 @@
 
 ---
 
-# Latest QA checkpoint — 24 October 2026, 18:00 UTC
+# Historical QA snapshot — 24 October 2026, 18:00 UTC (superseded by the latest checkpoint above)
 
 - Audited the two different registries rather than treating them as one count. `docs/brand-research-template.csv` contains **204 market-specific rows, 154 distinct global_brand_id values, 202 HOLD and 2 rejected**. The separate Tier-1 prospect tracker contains **106 rows and 106 blank global_brand_id values**.
-- The 100-name candidate register contains 100 candidates. Its candidate-to-global-ID map now has 22 provisional exact-name matches, 47 provisional aliases, and 31 unresolved mappings. These mappings are for identity deduplication only; the remaining 31 names require explicit reconciliation, and none of these mappings establishes market eligibility or review approval.
+- The candidate-to-global-ID map at this historical checkpoint had 22 provisional exact-name matches, 17 provisional aliases and 61 unresolved mappings. The later alias reconciliation is recorded in the latest checkpoint above.
 - Added `docs/reviews/internal/global-brand-id-reconciliation-2026-10-24.csv`: one row per distinct registry ID, market-row counts, name variants, market codes, decisions, exact candidate matches and a manual-reconciliation status. No aliases were guessed.
 - Confirmed the PGCB's 13 February 2026 certificate-holder list names BetRivers under SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia (certificate holder) and Rush Street Interactive PA, LLC (interactive-gaming operator), with slots/table games/poker and a BetRivers launch date of 30 January 2020. The legacy `pa.hollywoodcasino.com` URL is in the former-site section, but the PGCB 2024–2025 Annual Report records a later Hollywood Casino online-brand launch in December 2024. Keep the current brand as HOLD until the exact new domain and customer contract are matched. <https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf>
 - Latest observed Static site checks runs #1493–#1495 failed in roughly 1–3 seconds, with no recorded steps and no readable logs; job metadata is consistent with runner allocation failing before any source test. A retry was requested for the latest failed run. No successful current-head CI is confirmed.
