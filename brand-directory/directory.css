@@ -10,3 +10,41 @@
 .directory-method-heading{font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.5rem);margin:34px 0 8px}
 .directory-method-intro{max-width:760px;color:var(--muted);margin:0}
 .brand-art-rose{background:#201d20}
+
+
+/* Original CSS artwork for cards whose brand marks are not rights-cleared. */
+.brand-art-image {
+  background:
+    radial-gradient(circle at 24% 22%, rgba(255,255,255,.92) 0, rgba(255,255,255,0) 36%),
+    linear-gradient(132deg, #e3f1e7 0%, #f7f1df 54%, #e4ece8 100%);
+}
+.brand-art-image::before,
+.brand-art-image::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(23,77,62,.14);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.brand-art-image::before {
+  width: 156px;
+  height: 156px;
+  right: -18px;
+  top: -78px;
+  box-shadow: 0 0 0 16px rgba(23,77,62,.035), 0 0 0 32px rgba(23,77,62,.025);
+}
+.brand-art-image::after {
+  width: 92px;
+  height: 92px;
+  left: 18px;
+  bottom: -56px;
+  opacity: .8;
+}
+.brand-art-image .brand-logo-link {
+  position: relative;
+  z-index: 1;
+}
+.brand-art-image .brand-logo-fallback {
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 8px 20px rgba(23,77,62,.09);
+}
