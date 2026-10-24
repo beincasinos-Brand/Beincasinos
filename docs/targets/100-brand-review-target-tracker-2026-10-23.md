@@ -428,3 +428,9 @@ Primary records:
 - Captured six dated first-party GB bonus snapshots in [bonus research batch](../reviews/internal/gb-bonus-snapshot-batch-2026-10-24.md). Sky Vegas has conflicting current offer messaging (250-spin homepage headline versus 50-spin promotions-page offer) and remains unresolved.
 - CSV revalidation after the bonus edits: 100 rows, 30 columns, zero malformed-width rows. Six offer source URLs recorded; 94 bonus entries remain uncaptured; image rights pending for all 100; scores withheld; all 100 remain HOLD. These are candidate records and offer snapshots, not finished consumer reviews.
 - Approved reviews remain **0/100**. No merge or Cloudflare production deployment is claimed.
+
+
+## Regulator evidence batch 01 — 24 October 2026
+
+- Added [primary-source regulator evidence notes](../reviews/internal/regulator-evidence-batch-01-2026-10-24.md) for the first six candidate rows and updated the production ledger blockers with jurisdiction-specific findings.
+- This does not change the approved-review count: **0/100 approved**. Scores remain withheld; publication status remains HOLD; no merge or Cloudflare production deployment is claimed.
