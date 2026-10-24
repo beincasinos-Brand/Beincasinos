@@ -434,3 +434,8 @@ The cumulative internal evidence-draft count is **48**. Approved consumer review
 Added `docs/reviews/internal/market-review-draft-batch-2026-10-24-j.md` with five cautious GB research drafts: ThreeSix Vegas, Brillbet, Betty Casino, Casushi, and FruitKings. The batch deliberately treats official-site/domain records as discovery evidence only; current exact UKGC domain/account mapping, contracting entities, binding terms and consumer-evidence checks remain publication blockers. No unsupported licence, payment-performance, support-quality or first-hand testing claims are made.
 
 Cumulative internal evidence drafts: **53**. Publication-approved reviews remain **0/100**. All five new entries are HOLD and require exact regulator records, current terms/payment/complaints/safer-gambling evidence, image-rights clearance, independent second review and editorial/legal sign-off. No GitHub Actions build or Cloudflare deployment was triggered.
+
+
+### Image readiness audit — 24 October 2026
+
+Added `docs/targets/directory-image-readiness-audit-2026-10-24.md` after a static review of the 100-row asset register. The register contains 60 remote image candidates (60%) and 40 rows with no remote image URL, intended to use CSS artwork/monogram fallbacks. All 60 candidates remain RIGHTS PENDING; source-page presence is not permission to republish. The register has 100/100 rows with alt text and 0 sourced rows without a source-page URL. This was a metadata-only audit: no remote asset fetch, pixel/format validation, rights clearance, GitHub Actions build, merge, or Cloudflare deployment was performed. Approved consumer reviews remain 0/100; PR #52 remains draft/unmerged.
