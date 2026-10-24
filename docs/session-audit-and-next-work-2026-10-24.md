@@ -44,7 +44,7 @@ The project board's most recent prior baseline says **0/100 fully publication-ap
 ## Open blockers
 
 1. Diagnose GitHub Actions runs that fail before runner allocation. If this persists, inspect repository Actions settings/availability with the owner; do not guess that a source check failed.
-2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; a preview deployment succeeded for commit `1aa650c`, while the later preview for `095dccb` was still building at the last check. Verify freshness and real production behavior separately.
+2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; a preview deployment succeeded for commit `ee28cc0`, which contains the brand-directory CSP fix, at `https://0ba9ee8b.beincasinos.pages.dev`. Documentation-only commits have followed; the live production release remains blocked. Verify freshness and real production behavior separately.
 3. Keep `robots.txt` and the public-release gate unchanged until explicit approval and the legal/editorial/manual-host acceptance gates are cleared.
 4. Requalify the 100-name legacy prospect queue against the actual market strategy, deduplicate brands/legal entities, exclude inactive or out-of-scope products, and maintain separate counts for prospects, evidence-complete drafts, and approved reviews.
 5. Prefer finishing and independently reviewing a smaller number of evidence-complete profiles over producing additional generic HOLD templates.
