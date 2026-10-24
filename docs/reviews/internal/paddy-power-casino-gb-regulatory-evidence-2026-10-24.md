@@ -8,16 +8,19 @@
 
 The UK Gambling Commission's business-register search returns multiple entities using the Paddy Power trading name. They are not interchangeable:
 
-- **PPB Entertainment Limited**, account 39426 — listed against www.paddypower.com.
+- **PPB Entertainment Limited**, account 39426 — active Casino Remote permission since 1 November 2014; `www.paddypower.com` and `paddy power` are listed Active on the UKGC domain and trading-name pages.
 - **PPB Counterparty Services Limited**, account 39439 — listed against www.paddypower.com.
 - **PPB Games Limited**, account 39411 — listed against www.paddypower.com.
 - **Paddy Power Holdings Limited**, account 38939 — the register search shows its Gambling Software Remote licence as surrendered on 21 October 2024 and no matching domain in that result.
 
 Sources:
 - Search results for the brand: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Paddy+Power
+- PPB Entertainment Limited account summary (active Casino Remote): https://www.gamblingcommission.gov.uk/public-register/business/detail/39426
+- PPB Entertainment Limited domain names: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39426
+- PPB Entertainment Limited trading names: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39426
 - Paddy Power Holdings Limited record: https://www.gamblingcommission.gov.uk/public-register/business/detail/38939
 
-**Important:** The brand search alone does not establish which specific legal entity contracts for each casino product or which account currently holds the exact Casino Remote permission relevant to a particular GB user journey. Before publication, open each current account summary, domain and trading-name record, and match the casino terms to the correct licensee.
+**Important:** The direct UKGC account 39426 summary confirms an active Casino Remote permission, and its domain/trading-name pages list `www.paddypower.com` and `paddy power` as Active. The remaining issue is not whether an associated account has casino permission; it is which exact licensee the current GB casino customer contract names, given multiple group entities share the domain and trading name. Match the current casino terms and live journey to the correct licensee before publication.
 
 ## Regulatory action — group-level context with exact entities
 
@@ -38,7 +41,7 @@ Sources:
 
 | Topic | Evidence still needed | State |
 |---|---|---|
-| Casino licence | Confirm exact active Casino Remote activity for the entity named in current GB casino terms | Not completed |
+| Casino licence | UKGC account 39426 has active Casino Remote permission; match current casino contract to the exact licensee | Permission verified; contract mapping open |
 | Domain/entity | Match live GB landing route, redirects, account holder and trading name | Partial only |
 | Current casino terms | Archive dated casino rules and applicable general terms | Not captured |
 | Offers | Verify live promotion terms, wagering, expiry, game contribution, max bet and withdrawal limits | Not tested |
