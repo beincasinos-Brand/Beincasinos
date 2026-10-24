@@ -76,3 +76,10 @@ The test suite now has seven regression cases covering the explicit unscored sta
 ## Market scope and legal holds
 
 A source URL must match the exact country/state/province in the candidate row. LeoVegas now points to the German offer page, not the UK promotions page. Ladbrokes Belgium now points to its local Belgian casino/promotion pages, not UK account terms. Belgium-specific candidates Casino777.be and Ladbrokes Belgium remain on HOLD because Belgian restrictions on gambling bonuses/promotional inducements require a legal/compliance determination for the exact mechanic before publication. Do not copy offers across markets.
+
+
+## Belgian promotional-inducement hold
+
+Belgian market candidates Casino777.be, Napoleon Casino Belgium, Circus Casino Belgium and Ladbrokes Casino Belgium remain on HOLD pending local legal/compliance confirmation that each exact promotional mechanic is permitted and the live terms are complete. Do not assume a promotional page establishes legal availability. See `docs/reviews/internal/belgium-promotion-compliance-hold-2026-10-24.md`.
+
+Latest ledger audit reports 54 dated official bonus/promotion URLs across 100 rows, with no numeric scores assigned. Actions validation remains unconfirmed because runner allocation fails before steps begin.
