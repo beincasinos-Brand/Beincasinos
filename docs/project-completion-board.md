@@ -1,3 +1,15 @@
+# Latest verified continuation — 24 October 2026, 20:30 UTC
+
+- **Tracker reconciliation:** matched eight more market-specific records to the main registry's existing global brand IDs: bet365 (NL) → `bet365-casino`, Betano (BE) → `betano`, Betsson (SE) → `betsson`, Danske Licens Spil (DK) → `danske-spil-casino`, Luckia (ES) → `luckia`, Sisal (IT) → `sisal`, Holland Casino Online (NL) → `holland-casino-online`, and Tipico → `tipico-casino`. The Tipico tracker market was corrected from generic `DE` to `DE-SH` to match the actual Schleswig-Holstein-only scope. Notes were added to each affected row; no review was approved by assigning an ID.
+- **Current tracker count:** 112 data rows, 18 columns, 12 filled global-brand IDs and 100 blank IDs. These are prospect identity mappings, not review approvals. The ten-market international board still has ten targets, all HOLD.
+- **Review accuracy:** corrected 888casino's Great Britain evidence dossier so the GB operator/terms citation points to the UK-specific User Agreement, not the separate `user-agreement-ma/` regional page. Current UKGC evidence continues to show active Casino Remote permission for account 39028 and the 2024–2025 enforcement context; no account or payment testing is claimed.
+- **Noindex QA:** added five robots-meta parser regression cases in `scripts/test_deploy_artifact.py`. An isolated local reproduction of the repository parser and all 17 unit cases passed; this is **not** a full repository CI/build test. GitHub Actions still fails before runner allocation (runner ID 0, no steps and no logs); a retry did not resolve it.
+- **PR #141:** open, Draft, unmerged; 126 changed files at the last confirmed PR file-list check. Latest commits have new workflow runs, but no successful current-head CI is confirmed. No current preview refresh, production deployment, or merge is confirmed. Approved reviews remain **0/100**.
+
+**Next:** resolve Actions runner/job-start failure through repository settings or GitHub support; then run the complete static site, tracker, deployment artifact, parser-unit and browser-smoke tests. Keep all consumer-review publication gates in place.
+
+---
+
 # Current continuation checkpoint — 24 October 2026, 20:15 UTC
 
 - Added five regression cases to `scripts/test_deploy_artifact.py` for crawler-specific noindex directives among unrelated meta tags, exact directive-token matching, HTML-comment handling, mixed case/whitespace, and attribute order. Commit: `b256768a6264f231eafbf1e77d3bc5f8af6ba1ba`. The workflow contains a dedicated `python3 -m unittest scripts.test_deploy_artifact -v` step, but it cannot run until the GitHub runner is allocated.
