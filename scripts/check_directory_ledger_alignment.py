@@ -47,12 +47,15 @@ def parse_ledger_identities(path: Path) -> set[tuple[str, str]]:
 
 
 def compare_identities(
-    directory_ids: set[tuple[str, str]], ledger_ids: set[tuple[str, str]]
+    directory_ids: set[tuple[str, str]],
+    ledger_ids: set[tuple[str, str]],
+    *,
+    require_100: bool = False,
 ) -> list[str]:
     errors: list[str] = []
-    if len(directory_ids) != 100:
+    if require_100 and len(directory_ids) != 100:
         errors.append(f"public directory must contain 100 unique brand/market identities; found {len(directory_ids)}")
-    if len(ledger_ids) != 100:
+    if require_100 and len(ledger_ids) != 100:
         errors.append(f"canonical ledger must contain 100 unique brand/market identities; found {len(ledger_ids)}")
     missing = sorted(directory_ids - ledger_ids)
     extra = sorted(ledger_ids - directory_ids)
@@ -70,7 +73,7 @@ def main() -> int:
     except (OSError, UnicodeError, ValueError, csv.Error) as exc:
         print(f"ERROR: could not parse directory/ledger: {exc}", file=sys.stderr)
         return 1
-    errors = compare_identities(directory_ids, ledger_ids)
+    errors = compare_identities(directory_ids, ledger_ids, require_100=True)
     if errors:
         for error in errors:
             print("ERROR: " + error, file=sys.stderr)
