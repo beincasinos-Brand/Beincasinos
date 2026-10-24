@@ -33,8 +33,15 @@ def validate_exact_name_mappings(tracker_rows, registry_ids_by_name):
     errors = []
     warnings = []
     checked = 0
+    known_ids = set().union(*registry_ids_by_name.values()) if registry_ids_by_name else set()
     for line, row in enumerate(tracker_rows, start=2):
         name = canonical_name(row.get("brand_name"))
+        actual_id = (row.get("global_brand_id") or "").strip()
+        if actual_id and actual_id not in known_ids:
+            errors.append(
+                f"row {line} ({row.get('brand_name', '').strip()}): tracker ID "
+                f"{actual_id!r} does not exist in the canonical registry"
+            )
         if not name or name not in registry_ids_by_name:
             continue
         registry_ids = registry_ids_by_name[name]
@@ -47,7 +54,6 @@ def validate_exact_name_mappings(tracker_rows, registry_ids_by_name):
             )
             continue
         expected_id = next(iter(registry_ids))
-        actual_id = (row.get("global_brand_id") or "").strip()
         checked += 1
         if not actual_id:
             errors.append(
