@@ -371,13 +371,13 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 ## 24 October — directory visual and editorial QA update
 
 - Directory HTML contains **100 brand cards** and 100 unique displayed card titles; this is not proof of 100 verified, globally distinct casino brands.
-- The current visual asset pass contains **56 image candidates** and **44 CSS-art/monogram fallbacks**. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks.
+- The current visual asset pass contains **59 image candidates** and **41 CSS-art/monogram fallbacks** after adding official-site logo candidates for Betmaster UK, DynoBet and BetGoodwin Casino. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks. All three new candidates are labelled rights pending and documented in the batch F reconciliation memo.
 - Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
 - Current card status flags: **HOLD=98, EXCLUDE=2**. Stakemate is excluded because current evidence supports a sports-betting scope, not a verified casino product; Ivy Casino is also excluded pending a verified casino identity/scope.
 - The page remains `noindex,follow`; do not promote this internal research directory as a consumer review destination.
 - Existing internal review batches (including batch D) remain research drafts only. This tracker update does not add approved reviews or imply new first-hand testing.
 - **Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
-- No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget.
+- No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget. The latest image edit was statically checked: 100 cards, 59 image elements, all lazy-loaded with alt text and onerror fallbacks.
 
 ### Next execution gates
 
