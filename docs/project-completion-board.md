@@ -1,3 +1,15 @@
+# Latest correction — 24 October 2026, 19:10 UTC
+
+- **Scope correction:** the 18:15 note below incorrectly claimed the approved international review scope excluded Belgium, Sweden, Denmark, Spain, Italy and Ontario. That was not supported by the programme's ten-market board and conflicts with existing dossiers. The current international priority board is restored to the original ten markets: Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for the current Tipico draft), Switzerland and Ontario, Canada. The 18:15 scope statement is superseded.
+- **Priority board:** one evidence-led candidate per market is linked to its existing internal dossier. This is a task queue, not a ranking. All ten remain HOLD and publication-approved reviews remain 0/100.
+- **QA hardening:** added a parser-based artifact check for inline HTML event handlers, which violate the prepared same-origin-only CSP, plus regression tests for click handlers, mixed-case handlers, and safe non-event attributes. These changes are committed, but the full repository workflow has not completed successfully.
+- **CI:** latest observed workflow runs continue to fail in roughly two seconds with runner ID 0, no steps and no logs. A rerun was requested, but no successful current-head CI is confirmed. Treat this as runner-allocation/infrastructure failure until a runner executes and reports a real test result; do not infer source tests pass or fail from these attempts.
+- **Repo/release:** PR #141 remains Draft, open and unmerged. Latest known changed-file count was 122 before the most recent commits; recheck at release time. No production deployment, merge, or indexing release was performed. Branch-preview freshness remains unconfirmed.
+- **Research integrity:** the Betano Belgium A+ register decision/expiry correction remains in force; the legacy Pennsylvania Hollywood Casino Online skin remains excluded pending fresh evidence of a separate active authorisation, with BetRivers PA as the replacement research lead. These are market-specific regulator leads, not approved reviews.
+
+**Next actions:** obtain a real GitHub Actions runner; run the full build, artifact and browser checks; verify the latest Cloudflare preview only after it is generated for the current head; continue the ten-market dossiers with dated terms/cashier/accessibility evidence; deduplicate the 100-brand slate; keep every review on HOLD until independent review and publication sign-off.
+---
+
 # Latest QA checkpoint — 24 October 2026, 17:41 UTC
 
 - Read-only browser fetch of the existing branch preview `https://ops-2026-10-24-target-reconc.beincasinos.pages.dev/brand-directory/` returned the older directory content: it still showed the pre-replacement research cards, so the current BetRivers source change is not confirmed live in the preview. The preview sitemap exposed 44 URLs. A read-only check of production found `/brand-directory/` returning 404 and a 46-URL production sitemap; this confirms production is not updated with the branch-only directory.
