@@ -299,3 +299,20 @@ Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - Directory static check after the update: **100 cards, 100 unique displayed titles, 51 sourced image candidates, 49 CSS artwork/monogram fallbacks**. All 51 image candidates remain rights-pending; none should be treated as cleared for republication.
 - Bally's official page identifies Gamesys Operations Limited as operator, refers to 900+ slots/table games, advertises 24/7 support and lists safer-gambling tools. These are operator statements, not independently tested performance. Payment methods shown on the site still require direct availability, fee and withdrawal checks.
 - The target status is unchanged: the directory is a 100-card research list, not 100 verified distinct global brands. The 100-review approval count remains **0/100**. The page remains noindex and this work has not been deployed to Cloudflare.
+
+
+## 24 October 2026 — second GB primary-source batch and source QA
+
+Five additional GB cards now have UKGC-backed research snapshots, operator/domain fields and evidence links:
+
+- **Proper Bet (082):** Proper Bet Limited, account 100990, has active Casino Remote permission from 22 May 2026; exact consumer domain and public launch date remain unverified.
+- **Betta Bet (083):** Grace Media (Gibraltar) Limited, account 57869, has active Remote Casino permission and the UKGC lists bettabet.co.uk as Active; customer-contracting route and launch timing remain open.
+- **Rollerbet (084):** TECH-IN GLOBAL LTD, account 66539, has active Remote Casino permission from 18 June 2025; www.rollerbet.co.uk and trading name rollerbet are Active in the UKGC register.
+- **Conquer Casino (085):** ProgressPlay Limited, account 39335, has active Remote Casino permission; www.conquercasino.com is listed as White Label.
+- **PricedUp Casino (086):** Off Course Bookmakers Limited, account 1776, has active Remote Casino permission from 26 April 2024 and pricedup.bet is Active. Casino launch qualification still needs product-specific evidence.
+
+Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24-c.md`.
+
+**Latest HTML/source QA after this batch:** 100 cards; 100 unique displayed titles; status attributes 99 HOLD / 1 EXCLUDE; evidence-grade attributes A=19, B=19, C=39, UNKNOWN=23; 51 sourced image candidates; 49 CSS artwork/monogram fallbacks. The image asset register has 100 rows and 51 candidates marked rights pending. These counts supersede older checkpoint figures elsewhere in the historical notes; the grade attributes are a data-quality inventory, not a brand-quality rating.
+
+The previous and current batches updated ten cards total this session: Mega Riches, Lottoland Casino, Bally Casino UK, Alfobet, DynoBet, Proper Bet, Betta Bet, Rollerbet, Conquer Casino and PricedUp Casino. All ten remain HOLD. Approved consumer reviews remain **0/100**. The page remains `noindex,follow`; PR #52 remains open/draft/unmerged; no Cloudflare production deployment is confirmed.
