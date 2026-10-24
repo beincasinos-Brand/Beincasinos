@@ -38,8 +38,11 @@ class PageParser(HTMLParser):
         self.ids = set()
         self.id_counts = {}
         self.images_missing_alt = 0
+        self.brand_images = []
+        self.brand_fallbacks = []
         self.inline_scripts = 0
         self.inline_styles = 0
+        self.inline_event_handlers = []
         self.html_lang = None
         self.has_viewport = False
         self.unsafe_new_tab_links = []
@@ -50,6 +53,9 @@ class PageParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        for attr_name, _attr_value in attrs:
+            if attr_name and attr_name.lower().startswith("on"):
+                self.inline_event_handlers.append((tag, attr_name.lower()))
         if tag == "html":
             self.html_lang = a.get("lang", "").strip()
         if "id" in a:
@@ -57,6 +63,10 @@ class PageParser(HTMLParser):
             self.id_counts[a["id"]] = self.id_counts.get(a["id"], 0) + 1
         if tag == "img" and "alt" not in a:
             self.images_missing_alt += 1
+        if tag == "img" and "brand-logo-image" in a.get("class", "").split():
+            self.brand_images.append(a)
+        if tag == "span" and "brand-logo-fallback" in a.get("class", "").split():
+            self.brand_fallbacks.append(a)
         if tag == "title":
             self.title_depth += 1
         if tag == "meta":
@@ -164,12 +174,30 @@ for page in pages:
         errors.append(f"{rel}: inline script blocked by the prepared Content Security Policy; move logic to a same-origin .js file")
     if parser.inline_styles:
         errors.append(f"{rel}: inline styles blocked by the prepared Content Security Policy; move styles to a same-origin .css file")
+    if parser.inline_event_handlers:
+        handlers = ", ".join(f"<{tag} {attribute}>" for tag, attribute in parser.inline_event_handlers)
+        errors.append(f"{rel}: inline event handler(s) blocked by the prepared Content Security Policy; move them to a same-origin .js file: {handlers}")
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
     for href in parser.unsafe_new_tab_links:
         errors.append(f"{rel}: target=_blank link missing rel=noopener: {href}")
     for href in parser.empty_links:
         errors.append(f"{rel}: link has no text or accessible label: {href}")
+    if rel == "brand-directory/index.html":
+        for image in parser.brand_images:
+            rights = (image.get("data-image-rights") or "pending").strip().lower()
+            if rights != "cleared" and image.get("src"):
+                errors.append("brand-directory/index.html: unapproved remote brand image must not use src before rights clearance")
+            if rights != "cleared" and not image.get("data-candidate-src"):
+                errors.append("brand-directory/index.html: pending brand image must retain its candidate URL for internal review")
+            if rights != "cleared" and "hidden" not in image:
+                errors.append("brand-directory/index.html: pending brand image must remain hidden")
+            if rights == "cleared" and not image.get("src"):
+                errors.append("brand-directory/index.html: rights-cleared image must have a live src")
+        if len(parser.brand_fallbacks) != len(parser.brand_images):
+            errors.append("brand-directory/index.html: each brand image must have a matching fallback monogram")
+        if any("hidden" in fallback for fallback in parser.brand_fallbacks):
+            errors.append("brand-directory/index.html: fallback monograms must remain visible while brand-image rights are pending")
     for raw in parser.links + parser.resources:
         target, fragment = resolve_local_url(page, raw)
         if target is None:
@@ -907,6 +935,39 @@ if reviews_hub.is_file():
             errors.append(f"reviews/index.html: missing public methodology disclosure: {required_phrase}")
 else:
     errors.append("reviews/index.html is missing")
+
+# Keep the 100-brand research directory discoverable without implying reviews are approved.
+directory_page = ROOT / "brand-directory" / "index.html"
+if directory_page.is_file():
+    directory_source = directory_page.read_text(encoding="utf-8")
+    if not re.search(r'<meta name="robots" content="index,follow"', directory_source, re.I):
+        errors.append("brand-directory/index.html: public research directory must be index,follow")
+    if '<link rel="canonical" href="https://beincasinos.online/brand-directory/">' not in directory_source:
+        errors.append("brand-directory/index.html: canonical URL is missing or incorrect")
+    if "intentionally marked noindex" in directory_source:
+        errors.append("brand-directory/index.html: stale noindex explanation contradicts the public robots directive")
+    if "<h1>100 research leads." not in directory_source:
+        errors.append("brand-directory/index.html: headline must describe the entries as research leads, not verified brands")
+    if "0/100" not in directory_source or "reviews approved for publication" not in directory_source:
+        errors.append("brand-directory/index.html: current approved-review count disclosure is missing")
+    cards = re.findall(r'<article[^>]*class="[^"]*brand-card[^"]*"[^>]*>(.*?)</article>', directory_source, re.S)
+    if len(cards) != 100:
+        errors.append(f"brand-directory/index.html: expected 100 research cards, found {len(cards)}")
+    titles = []
+    for card in cards:
+        match = re.search(r'<h2[^>]*>(.*?)</h2>', card, re.S)
+        title = re.sub(r'<[^>]+>', '', match.group(1)).strip() if match else ""
+        if not title:
+            errors.append("brand-directory/index.html: a research card is missing its title")
+        titles.append(title.casefold())
+        if "brand-summary" not in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} is missing a summary")
+    if len(set(titles)) != len(titles):
+        errors.append("brand-directory/index.html: duplicate card titles found")
+    if "https://beincasinos.online/brand-directory/" not in (ROOT / "sitemap.xml").read_text(encoding="utf-8"):
+        errors.append("sitemap.xml: indexable brand directory is missing from sitemap")
+else:
+    errors.append("brand-directory/index.html is missing")
 
 # Keep operator-facing commercial claims aligned with the actual pre-launch state.
 # These are deliberate release guardrails, not legal approval.

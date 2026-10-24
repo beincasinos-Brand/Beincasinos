@@ -1,7 +1,7 @@
 # BeInCasinos — 100-brand / 100-review target tracker
 
-**Last reconciled:** 23 October 2026  
-**Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
+**Last reconciled:** 24 October 2026  
+**Working branch:** `ops/2026-10-24-target-reconciliation-and-release-gates`  
 **Target:** 100 distinct, jurisdiction-appropriate brands with 100 independently checked, high-quality reviews.  
 **Publication approvals:** **0/100**. Do not treat research records or internal drafts as completed reviews.
 
@@ -15,7 +15,7 @@ Eighteen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888ca
 
 Counts below are raw rows whose current registry market-scope text maps to the geography. They are **not** counts of eligible brands. Deduplicate brand + local product + contracting entity, and verify current online-casino permission before promoting a row into the final 100.
 
-Three of the 204 registry records are deliberately not allocated to an active target market in the current scope field: Betsson Casino and NordicBet Casino remain in scope triage until a named local route is evidenced; Rizk has no confirmed market route. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
+Three of the 204 registry records are deliberately not allocated to an active target market in the current scope field: the generic cross-market Betsson Casino lead (market code UNCONFIRMED), NordicBet Casino (unconfirmed), and Rizk (no confirmed route). This does not mean all Betsson records are unallocated: separate Betsson (BE), Betsson (IT) and Betsson (SE) rows exist, each with its own market-specific evidence gates and all still HOLD. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
 
 | Target geography | Raw scoped rows | Qualification gate / next work |
 |---|---:|---|
@@ -220,3 +220,190 @@ Added official-page favicon candidates for Horseshoe Online Casino (Michigan) an
 ## Authoritative current directory state — 23 October 2026
 
 Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+
+
+## Reconciliation addendum — 24 October 2026
+
+The preceding counts are the **23 October baseline**, not a live total of distinct, approved reviews. On 24 October, draft PR [#141](https://github.com/beincasinos-Brand/Beincasinos/pull/141) contains 19 additional internal evidence-review draft files across selected Great Britain and Switzerland candidates, plus a primary-source spot-check memo and this release-gate audit. Those drafts may overlap brands already represented in earlier research PRs, and some deliberately remain HOLD because domain-to-entity mapping, consumer evidence, or follow-up on regulatory history is unresolved. Therefore, do not add the 19 to the older 18 as a verified unique count.
+
+**Authoritative publication count remains 0/100.** Neither candidate rows nor internal drafts count toward the goal. PR #141 is a draft and is not merged; no public review pages were changed and no Cloudflare deployment was performed.
+
+The live-site release-gate audit is recorded at `docs/audits/live-site-release-gate-2026-10-24.md`. Its live fetch confirmed that `robots.txt` allows crawling and points to the sitemap, the sitemap currently advertises 46 URLs, and `/reviews/` explicitly states that no casino profiles are currently scored or ranked. These checks do not establish Google indexing, full technical QA, or publication readiness.
+
+Before promoting any candidate, record the exact market, product, live domain, contracting legal entity, current regulator evidence, dated consumer-product checks, enforcement follow-up, image rights, independent second review, and editorial/legal sign-off. If any mandatory field is unresolved, keep the candidate on HOLD and do not score it.
+
+
+### Additional primary-source delta — 24 October 2026
+
+- **QuinnBet (GB):** UKGC records account 61011, QuinnBet (Gibraltar) Limited, with Casino Remote Active and active domain/trading-name entries. The regulator also records a settlement dated **20 August 2026**, including a public statement and payment in lieu of a financial penalty of **£609,104**, for AML/CTF, remote customer interaction and financial-vulnerability-control failings. Keep on enhanced-risk HOLD; licence status does not negate the enforcement findings. See `docs/research/primary-source-follow-up-ukgc-nj-2026-10-24.md`.
+- **Betway (GB):** UKGC account 39372 shows Casino Remote Active, active `betway.com` / `casino.betway.com` domain entries, and no regulatory actions recorded for that business in the checked record. Still HOLD pending exact live contracting-entity match and full consumer evidence; this is not a quality verdict.
+- **New Jersey inventory:** the live DGE approved-site page now includes `jackiecasino.playstar.com` and `rwbetnj.com/en/casino` under Ocean Resort Casino. Added as unqualified leads only; neither counts as a distinct eligible brand until exact product/entity mapping, deduplication and consumer review gates pass. See `docs/research/new-jersey-dge-candidate-delta-2026-10-24.md`.
+
+These deltas are research corrections, not newly approved reviews. Keep the authoritative publication count at **0/100** until each candidate has passed all mandatory gates.
+
+
+### Further UKGC identity reconciliation — 24 October 2026
+
+- **Sky Vegas:** current UKGC records show Bonne Terre Gaming Limited (65519) with Casino Remote Active and active Sky Vegas domains/trading name; Bonne Terre Limited (38718) has its casino licence surrendered effective 31 October 2025 and the related Sky Vegas records inactive. This materially narrows the ambiguity, but the live site's customer contract must still confirm the current contracting entity.
+- **Ladbrokes Casino:** account 1611 has Casino Remote Active and active Ladbrokes/Coral trading names but no matching domain in the current search result; account 54743 (LC International Limited) is associated with ladbrokes.com and the Ladbrokes trading name. Do not infer the contracting entity for every product/domain from this overlap.
+- **Coral Casino:** the current UKGC search for coral.co.uk maps that domain to LC International Limited (54743), while account 1611 also lists Coral as a trading name. Confirm the live customer contract and product terms before publication.
+
+Detailed official-source URLs and caveats are recorded in `docs/research/primary-source-follow-up-sky-ladbrokes-coral-2026-10-24.md`. All three remain HOLD pending live-contract verification, complete consumer evidence and independent sign-off; these are not newly approved reviews.
+
+
+### UKGC candidate follow-up — 24 October 2026
+
+- **Midnite (GB):** UKGC search results show Dribble Media Limited (account 42647) and Midnite Limited (account 101839) with overlapping brand/domain signals. Account 101839 shows Casino Remote active and a www.midnite.com domain record, but the live contracting entity and relationship between records remain unresolved. HOLD.
+- **Betty Casino (GB):** Betty Gaming (Malta) Limited (account 100695) has an active Casino Remote signal and domain records for betty.com / playbetty.co.uk. A checked actions record showed no actions recorded at that time; this is not a consumer-quality verdict. HOLD pending complete product evidence and independent review.
+- **Brillbet (GB):** UK Digital Bookmakers Ltd (account 101570) has an active Casino Remote/trading-name signal, but the live consumer URL previously redirected to a customer-service notice. Current availability and binding terms are unresolved. HOLD.
+
+Evidence memo: `docs/research/ukgc-candidate-follow-up-midnite-betty-brillbet-2026-10-24.md`. UKGC domain/trading-name data is licensee-supplied and must be cross-checked against the live contract. This batch adds **0 approved reviews**; the authoritative publication count remains **0/100**.
+
+
+### Betway historical-enforcement correction — 24 October 2026
+
+The current UKGC actions page for Betway Limited (account 39372) states no actions are recorded on that page today, but the Commission's own announcement dated 21 September 2022 records a £408,915 penalty for gambling advertising appearing on children's pages of West Ham United FC's website. Because UKGC sanctions remain on the public register for three years from publication, an empty current actions page must not be represented as no historical action. Record the dated historical action alongside the current active licence/domain signal and the current-page result. Full note: `docs/research/ukgc-historical-enforcement-betway-2026-10-24.md`. Betway remains HOLD; this adds **0 approved reviews**.
+
+
+### Belgium A+ register batch — 24 October 2026
+
+Checked the Belgian Gaming Commission's official A+ register (table page displayed last-updated 8 October 2026): https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. Added one batch memo and five internal market-specific draft files for Casino777.be, Napoleon Casino, StarCasino.be, Betano Casino and Circus Casino. The source records domain/operator/dossier/expiry associations; it does not prove current terms, consumer quality, payment performance, or publication readiness.
+
+- `docs/research/belgium-aplus-casino-primary-source-batch-2026-10-24.md`
+- `docs/reviews/internal/casino777-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/napoleon-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/starcasino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/betano-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/circus-casino-be-evidence-review-2026-10-24.md`
+
+Key controls: Betano's listed A+ expiry is 31 December 2026, so current status/renewal must be rechecked before publication. The official register lists Circus Casino and PokerStars.be together under Casino de Namur / SA/NV GAMBLING MANAGEMENT; preserve separate brand/domain records while avoiding a false claim of separate licence holders. Belgian licensees for Unibet, bwin and Ladbrokes must not be conflated with their operators in other markets. All five drafts remain HOLD pending live contract, terms, payments policy, complaints, safer-gambling, privacy, accessibility, enforcement, image rights, independent second review and editorial/legal sign-off.
+
+This batch adds **5 internal drafts, 0 publication-approved reviews**. It does not change the authoritative count of **0/100 approved reviews**, publish any review, or authorize production deployment.
+
+
+### Belgium A+ register batch — completion addendum, 24 October 2026
+
+Expanded the Belgium A+ register work to cover all nine domain rows in the official table: Casino777, Napoleon Casino, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes Casino, Unibet Casino and bwin Casino. Four additional internal drafts were added for PokerStars.be, Ladbrokes Casino, Unibet Casino and bwin Casino, and the research memo was extended. Source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
+
+- **9 Belgium-specific internal drafts/records are represented; 0 approved reviews.**
+- Circus and PokerStars.be share one listed A+ dossier/operator; they are distinct brand/domain entries, not separate licence holders.
+- Betano's listed expiry remains 31 December 2026 and must be rechecked after that date.
+- Local Belgian licensees must not be confused with the same brands' GB or other-market operators.
+- No public pages were changed and no production deployment was performed by this research batch.
+
+
+### Correction: current Belgium A+ row for Betsson Casino — 24 October 2026
+
+A fresh lookup of the current official A+ register returned dossier 595153 with domain `betssoncasino.be`, establishment Casino Middelkerke x Betsson, operator SA/NV EXPLOITATIE CASINO MIDDELKERKE, listed expiry 22 February 2039. Earlier captured data associated the dossier with `betfirstcasino.be`. This domain/brand transition must be checked against the live site and current customer contract; do not assume the transition or terms are verified. Added `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md` and corrected the Belgium batch memo.
+
+This corrects the previous batch's claim that all current A+ rows were represented: the earlier nine drafts omitted the Betsson row. There are now **10 Belgium-specific internal draft files** covering the surfaced current A+ row set (nine dossier rows, ten domain strings), with Circus and PokerStars sharing one row. All remain HOLD; approved reviews remain **0/100**.
+
+
+### Belgium B+ product-scope batch — 24 October 2026
+
+Added eight internal B+ product-scope drafts for Madison Casino, PepperMill, CasinoExperience, Loco Casino, CasinoBelgium, Wellington Casino, Versailles Casino and 711 Casino. Official source: https://data.gamingcommission.be/licenses/BPLUS/latest/table.html?lang=en (table updated 16 October 2026). These are **B+ online gaming-arcade records, not A+ online-casino licences**. Do not add them to the casino-only approved target unless editorial/legal scope explicitly permits B+ arcade products. Wellington and Versailles share the listed operator SA/NV SONIC; PepperMill has multiple B+ establishment/operator records. All eight are HOLD pending live contracts, exact product taxonomy, terms and consumer evidence.
+
+This adds eight internal scope/evidence drafts, **zero approved reviews**. The A+ Belgium register batch and the B+ product-scope queue remain separate to avoid inflating the casino count.
+
+
+### Ontario official-directory batch — 24 October 2026
+
+Added five Ontario-specific internal evidence drafts from iGaming Ontario's official operator/site directory (which states it was accurate as of 1 September 2026):
+- `docs/reviews/internal/bet99-casino-ontario-evidence-review-2026-10-24.md` — 1000007698 Ontario Ltd
+- `docs/reviews/internal/casino-days-ontario-evidence-review-2026-10-24.md` — Golden Nebula Limited
+- `docs/reviews/internal/spin-casino-ontario-evidence-review-2026-10-24.md` — Cadtree Limited
+- `docs/reviews/internal/playojo-ontario-evidence-review-2026-10-24.md` — Skill On Net Ltd
+- `docs/reviews/internal/royal-panda-ontario-evidence-review-2026-10-24.md` — TigerGen Limited
+
+Primary sources: https://igamingontario.ca/en/operator/operators and https://www.igamingontario.ca/en/player/regulated-igaming-market. Ontario-only permission; the regulator directory states 19+ and physical presence in Ontario are required to play. These records establish directory association and product category, not tested consumer experience. Cadtree also lists Jackpot City, Royal Vegas and Ruby Fortune; TigerGen also lists LeoVegas, so deduplicate operators and global brands separately. All five remain HOLD pending exact live domain/contract, current terms, payment/withdrawal policy, complaints, safer-gambling, privacy/accessibility, enforcement and independent sign-off. This batch adds **5 internal drafts, 0 approved reviews**.
+
+
+### Registry reconciliation QA — 24 October 2026
+
+A CSV-level audit of `docs/brand-research-template.csv` now records exact counts in `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md`:
+
+- 204 market-specific candidate rows; 204 display names; 154 provisional global brand IDs.
+- 200 distinct brand-ID / market pairs after excluding explicit unconfirmed/excluded codes; no duplicate eligible pair found at the key level.
+- 202 rows remain HOLD, 2 are rejected, and **0 are approved**.
+- `docs/reviews/internal/` contains 165 files of mixed types; 50 match the candidate evidence-review filename pattern. The separate `review-drafts/` folder contains 21 more draft files with overlap possible. These counts are file inventories, not counts of completed reviews.
+
+The previous summary of “18 internal evidence drafts” is a historical snapshot and must not be used as the current file count. Conversely, the larger file inventory must not be described as completed reviews: it includes batch research, scope audits and duplicate drafts. The next blocker is evidence qualification and approval, not raw lead quantity.
+
+
+### Belgium A+ count correction — 24 October 2026
+
+Re-opened the official A+ register on 24 October and reconciled the current surfaced rows with the existing Betsson draft. The correct current snapshot is **10 consumer-domain/brand records under 9 A+ licence dossiers**, not nine domain records: Casino777, Napoleon, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes, Unibet, bwin and Betsson Casino. Circus and PokerStars.be share dossier 20635 and the same listed operator. Betsson Casino's current surfaced domain is `betssoncasino.be` under dossier 595153, expiry 22 February 2039; older evidence linked this dossier to `betfirstcasino.be`, so the domain/brand transition remains a material HOLD pending live contract confirmation. See `docs/research/belgium-aplus-casino-primary-source-batch-2026-10-24.md` and `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md`.
+
+Source: Belgian Gaming Commission official A+ table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. All ten records remain internal/HOLD; this correction adds **0 approved reviews**.
+
+
+### Registry reconciliation update — 24 October 2026
+
+Expanded the existing audit at `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md` with the exact market-row breakdown, major repeated global-brand IDs, scope-triage identities, exclusions and the Belgium Betsson domain-transition correction. This consolidates the analysis in the existing target audit rather than maintaining a second copy.
+
+The CSV snapshot remains 204 market rows / 154 provisional global-brand IDs / 202 HOLD / 2 rejected / 0 approved. Counts are a QA snapshot and must be regenerated after further registry changes.
+
+
+### Updated internal artifact inventory — 24 October 2026
+
+A fresh listing of the current branch reports 170 files in `docs/reviews/internal/`, 63 candidate-specific evidence/product-scope review filenames, and 21 files in `review-drafts/`. These file counts may overlap by brand and market and are not approved-review counts. Publication-approved reviews remain **0/100**. See `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md` for the updated inventory and the global identity reconciliation.
+
+
+### Belgium first-party terms follow-up — 24 October 2026
+
+Added `docs/research/belgium-first-party-terms-follow-up-2026-10-24.md` and expanded six internal drafts with current first-party findings or access limitations. Key blockers include: StarCasino's terms set a seven-day complaint filing condition and a 30-business-day response target; Ladbrokes Casino Belgium's first-party page names Derby S.A. as operator alongside SA Casino de Dinant, while the regulator's A+ table lists Grand Casino de Dinant / SA/NV GRAND CASINO DE DINANT, requiring a role/contract reconciliation; Unibet's accessible terms footer is version 3.7.2 dated 1 September 2024 and needs a fresh 2026 version check; a direct PokerStars.be research-browser visit redirected to FanDuel; Betano and Circus terms could not be fully extracted in this session. These findings increase the evidence quality but do not clear any candidate. All remain HOLD; approved-review count remains **0/100**.
+
+
+### Cloudflare Pages artifact / directory indexing correction — 24 October 2026
+
+- Changed `brand-directory/index.html` to `index,follow`, added Open Graph metadata and a transparent `CollectionPage` description, removed the stale copy claiming the page is intentionally noindex, and updated its on-page date.
+- Added `https://beincasinos.online/brand-directory/` to `sitemap.xml` with a 24 October 2026 lastmod.
+- Found and fixed a deployment-blocking omission: `scripts/build_site.py` did **not** include `brand-directory` in its public allowlist, so the page could be listed in the sitemap but omitted from the Cloudflare build artifact. The folder is now allowlisted, and `scripts/check_deploy_artifact.py` explicitly requires `dist/brand-directory/index.html`.
+- Replaced the host config check's Vercel-specific validation with Cloudflare Pages `_headers` and build-allowlist validation; renamed the CI step accordingly. The `vercel.json` file remains excluded from the public artifact.
+- Source-level audit confirms the directory has **100 cards / 100 unique card titles / 100 summaries**, 50 image elements with no missing alt attributes, canonical URL set correctly, `index,follow`, and exactly one sitemap entry with no duplicate sitemap URLs.
+
+This is a source/CI configuration change, not proof of a live deployment or Google indexing. The PR has not been merged or deployed to production. All brand cards remain research leads, not approved consumer reviews; the approved-review count remains **0/100**.
+
+
+### Provisional 100-ID target slate — 24 October 2026
+
+Created `docs/targets/100-brand-provisional-review-slate-2026-10-24.md`, a deduplicated internal work queue with **100 distinct provisional global_brand_id values**, one market-specific registry row per ID. It excludes generic unconfirmed records, explicitly excluded rows, France/Australia casino leads, and generic US/Canada rows without named state/province. The slate prioritises rows with captured regulator/register links and a populated legal-entity field, then fills remaining slots after cross-market deduplication.
+
+This is a **provisional target slate, not 100 regulator-verified eligible brands**: some global IDs may still represent aliases, legal entities/domains may be unresolved, and all 100 rows remain HOLD. It is intended to stabilise the target selection so research can progress brand by brand without double-counting cross-market variants. The review-completion count remains **0/100 approved**.
+
+
+### Italy first-party terms batch — 24 October 2026
+
+Added `docs/research/italy-first-party-terms-follow-up-2026-10-24.md` and six internal candidate drafts (Sisal, BetFlag, NetBet, AdmiralBet, SNAI and Sportium); Lottomatica's existing draft was updated with additional first-party source leads. Key evidence includes BetFlag's first-party terms stating ADM concession 16008 and updated cross-operator self-exclusion rules effective 1 February 2026; NetBet's first-party help pages describing identity validation, withdrawal blocks and self-exclusion while binding terms remain HTTP 403; AdmiralBet's detailed 2024 terms PDF, which must be superseded by current terms; SNAI's September 2026 terms PDF, whose extraction timed out; and Sportium/Sisal pages that were blocked or returned 404 in this session. These are useful evidence captures, not completed consumer reviews. All remain HOLD; approved-review count remains **0/100**.
+
+
+### Spain first-party terms follow-up — 24 October 2026
+
+Added `docs/research/spain-first-party-terms-follow-up-2026-10-24.md` and an AdmiralBet Spain internal draft. AdmiralBet's first-party terms identify BeatYa Online S.A. and list casino-related DGOJ permissions for slots, blackjack and roulette, but the displayed terms version is dated 1 August 2025 and must be refreshed. Additional first-party routes were identified for Betfair, PartyCasino, Emotiva Casino, Casino Gran Madrid and Platincasino; several returned HTTP 403 or empty content, so their consumer terms remain unresolved. No candidate was approved; approved-review count remains **0/100**.
+
+
+### Registry source-link synchronization — 24 October 2026
+
+Updated the candidate CSV fields (terms, withdrawals, complaints, safer-gambling URLs; source notes; last-checked date; and blockers) for eight market-specific rows: Lottomatica, Sisal, SNAI, Sportium, Admiral Bet (IT), BetFlag (IT), NetBet (IT), and AdmiralBet.es. The full CSV was re-parsed after the edit: **204 data rows, 33 columns, 0 malformed-width rows**. All affected rows remain HOLD. Source URL presence does not mean the page was readable or the terms were fully reviewed; access failures and stale-version blockers are recorded in the rows and research memos.
+
+
+### Emotiva Casino Spain — DGOJ domain/contract blocker — 24 October 2026
+
+Added `docs/reviews/internal/emotiva-casino-es-evidence-review-2026-10-24.md` and updated the Emotiva row in the candidate CSV. DGOJ's current operator profile lists general “Otros juegos” and singular licences for Black Jack, Ruleta, Máquinas de azar and Póquer, but the visible domain list was empty in this capture; historical licence resolutions also refer to Aconcagua Juegos, S.A. First-party terms, payments and complaints pages redirected to `/notallowed.htm` with “Acceso no autorizado”. This is a material domain/contract mapping blocker, not proof that the product is unauthorized. Emotiva remains HOLD; no review approval count changes.
+
+
+### Spain DGOJ domain-list follow-up — 24 October 2026
+
+Added internal drafts and synchronized registry notes for Emotiva Casino and PartyCasino Spain. The DGOJ profile for Emotiva On-Line, S.A. lists relevant casino-game licences but its visible domain list was empty, and historical records reference Aconcagua Juegos, S.A.; Emotiva's first-party terms/payment/complaint routes returned “Acceso no autorizado”. The DGOJ profile for Electraworks Ceuta, S.A. lists licences for slots, blackjack, roulette and poker plus PartyCasino/Bwin trading names, but its visible domain list was also empty; PartyCasino's first-party safer-gambling page returned only a brand label. Both remain HOLD pending live domain/contract matching and readable current consumer terms. No approval count changes.
+
+
+### Additional Spain candidates — 24 October 2026
+
+Added internal drafts for AdmiralBet Spain, Emotiva Casino and PartyCasino, and updated the Emotiva/PartyCasino CSV rows with DGOJ profile findings. DGOJ lists relevant casino-game categories for BeatYa Online S.A. (AdmiralBet) and for Electraworks Ceuta, S.A. (PartyCasino/Bwin), with a recent July 2026 resolution on the latter profile; however, the accessible operator profiles showed empty domain lists, and first-party pages were blocked or returned only minimal content. Emotiva's DGOJ profile lists slots, blackjack, roulette and poker but also showed an empty domain list and historic Aconcagua Juegos references. These are domain/contract verification blockers, not a basis to infer illegality. All remain HOLD and the approved-review count remains **0/100**.
+
+The public directory hero now says **“100 research leads”** rather than implying 100 verified brands and explicitly displays **0/100 reviews approved for publication**. The source checker now guards both disclosures.
+
+
+### Search-index safety gate — 24 October 2026
+
+The 100-entry directory remains an unverified research queue, not a set of finished consumer reviews. Updated `brand-directory/index.html` to `noindex,follow` and removed `https://beincasinos.online/brand-directory/` from `sitemap.xml` (44 URL entries remain). This prevents the queue from being deliberately submitted for indexing while primary-source, consumer-evidence and approval gates remain open. The change is in this draft PR branch only; it has **not** been deployed to Cloudflare production. Re-add the directory to indexing only after its claims and eligibility status are editorially approved.

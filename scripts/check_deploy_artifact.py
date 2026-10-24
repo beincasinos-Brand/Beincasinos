@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check that the deployment artifact contains public assets only."""
 from pathlib import Path
+from scripts.robots_meta import InlineEventHandlerParser, RobotsMetaParser
 from urllib.parse import urlparse, unquote
 import xml.etree.ElementTree as ET
 import sys
@@ -18,10 +19,12 @@ else:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
 
-    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "brand-directory/index.html", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
+    if not (DIST / "brand-directory" / "index.html").is_file():
+        errors.append("dist/: required public brand research directory is missing")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
@@ -46,13 +49,13 @@ else:
                 errors.append("dist/sitemap.xml: duplicate canonical URL entries found")
 
             # Keep the sitemap synchronized with the actual public HTML pages.
-            # The 404 page is intentionally excluded from indexable routes.
+            # The 404 and verification pages are excluded; page-level robots noindex directives are respected below.
             expected_urls = set()
+            noindex_urls = set()
             for html_file in DIST.rglob("*.html"):
                 rel = html_file.relative_to(DIST).as_posix()
                 if rel in {"404.html", "google05b7a00eb84d7acb.html"}:
-                    # Google Search Console verification is a required public asset,
-                    # but it is not an indexable content page and must stay out of the sitemap.
+                    # Error and verification pages are required assets, not sitemap content.
                     continue
                 if rel == "index.html":
                     route = "/"
@@ -60,10 +63,19 @@ else:
                     route = "/" + rel[:-len("index.html")]
                 else:
                     route = "/" + rel
-                expected_urls.add("https://beincasinos.online" + route)
+                canonical_url = "https://beincasinos.online" + route
+                html_text = html_file.read_text(encoding="utf-8")
+                robots_parser = RobotsMetaParser()
+                robots_parser.feed(html_text)
+                if robots_parser.noindex:
+                    noindex_urls.add(canonical_url)
+                    continue
+                expected_urls.add(canonical_url)
             if len(urls) != len(expected_urls):
                 errors.append(f"dist/sitemap.xml: expected one URL per indexable HTML page ({len(expected_urls)}), found {len(urls)}")
             actual_urls = set(urls)
+            for forbidden in sorted(noindex_urls & actual_urls):
+                errors.append(f"dist/sitemap.xml: noindex page must not be included: {forbidden}")
             for missing in sorted(expected_urls - actual_urls):
                 errors.append(f"dist/sitemap.xml: public HTML route missing from sitemap: {missing}")
             for unexpected in sorted(actual_urls - expected_urls):
@@ -128,6 +140,11 @@ else:
             errors.append(f"dist/{html_file.relative_to(DIST)}: inline script violates the same-origin-only CSP")
         if inline_style.search(markup):
             errors.append(f"dist/{html_file.relative_to(DIST)}: inline style violates the same-origin-only CSP")
+        event_parser = InlineEventHandlerParser()
+        event_parser.feed(markup)
+        if event_parser.handlers:
+            rendered = ", ".join(f"<{tag} {attribute}>" for tag, attribute in event_parser.handlers)
+            errors.append(f"dist/{html_file.relative_to(DIST)}: inline event handler violates the same-origin-only CSP: {rendered}")
 
     # Scan deployable text assets for common accidental secrets and obvious placeholders.
     # This is a lightweight guardrail, not a replacement for a dedicated secret scanner.

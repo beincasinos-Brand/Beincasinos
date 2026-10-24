@@ -1,7 +1,7 @@
 # Hosting decision — Cloudflare Pages Free preferred
 
 **Current preferred provider:** Cloudflare Pages Free for the initial static site, subject to preview acceptance.
-**Deployment status:** no Cloudflare account connected, no Pages project created, not deployed, and not public.
+**Deployment status (latest evidence):** Cloudflare Pages project `beincasinos` is connected to the GitHub repository and has produced successful preview deployments, including a preview for this work branch. This does not mean the latest commit has passed GitHub CI or that production release is approved. Keep production deployment and indexing blocked until all release gates pass.
 **Previous account finding:** the connected Vercel team is **BeinCasinos** (slug: bein-casinos), on the **Hobby** plan, with no linked projects. Verified by read-only account inspection on 21 October 2026.
 
 ## Plan and commercial-use gate
@@ -10,7 +10,7 @@ Vercel's official Fair Use Guidelines restrict Hobby to personal/non-commercial 
 
 Therefore, **do not deploy the planned commercial BeInCasinos directory to the current Hobby team**. The expected path is Vercel Pro or another Vercel plan whose current terms explicitly permit the planned paid-listing and affiliate business. Before upgrading, review current price, usage/billing terms, limits, and relevant acceptable-use terms at https://vercel.com/pricing. No upgrade, purchase, or billing change has been made.
 
-The owner subsequently preferred Cloudflare Pages Free to avoid the Vercel Pro monthly cost. Cloudflare remains unconnected until the owner creates and authorizes the account. Code, content, SEO and test preparation can continue meanwhile.
+The owner subsequently preferred Cloudflare Pages Free to avoid the Vercel Pro monthly cost. Later deployment-runbook and Cloudflare check-run evidence record the `beincasinos` Pages project connected to this repository and branch previews being generated. Recheck current project settings and preview freshness before relying on them. Code, content, SEO and test preparation can continue without a production release.
 
 ### Current plan-price reference — checked 21 October 2026
 
@@ -22,7 +22,7 @@ The current Terms of Service also limit Hobby to personal/non-commercial use, an
 
 ## Budget-first hosting decision update — 21 October 2026
 
-**Recommendation: do not buy Vercel Pro now. Evaluate Cloudflare Pages Free first for the initial static editorial directory, after preview/manual acceptance.** This changes the preferred launch-host evaluation, not the fact that the owner originally selected Vercel; no provider account or deployment has been changed.
+**Recommendation: do not buy Vercel Pro now. Use Cloudflare Pages Free for the initial static editorial directory, subject to preview/manual acceptance.** Cloudflare Pages is now the preferred and configured host; `vercel.json` remains only an alternative-host configuration. Preview deployment is not production approval.
 
 Why this fits the current project:
 - The public site is built as static files by `python3 scripts/build_site.py` into `dist/`; the public artifact is allowlisted. The initial site does not require server-side rendering or a paid backend for its core pages.
@@ -39,7 +39,7 @@ Important caveats:
 - “Free hosting” is not “free business”: domain renewal, email, legal review, content/research, privacy, and payment/partner tools can still cost money.
 - Do not move authoritative DNS nameservers blindly. First add the domain to the chosen provider, inspect the generated DNS records, preserve existing MX/SPF/DKIM/DMARC email records, then change only what is needed. Never delete mail records to make the website work.
 - A preview deployment is not the public launch. Keep indexing blocked until legal/editorial review, manual live acceptance, domain verification, and the separate owner launch approval are complete.
-- No Cloudflare/Netlify account was connected, no project was created, no DNS was changed, and no deployment was performed by this documentation update.
+- A Cloudflare Pages project and Git integration are now recorded in the final deployment runbook, with successful branch-preview deployments. No DNS change, paid plan purchase, or production release was performed by this documentation update.
 
 ## Repository configuration
 
@@ -55,8 +55,8 @@ Important caveats:
 ## Deployment sequence — Cloudflare Pages, preview first
 
 1. Clear non-deployment launch gates: name/trademark review, publisher/contact verification, market/legal review, privacy/disclosure readiness, and publication eligibility for any operator profiles.
-2. Owner creates a Cloudflare account, enables 2FA, and retains account/billing/recovery ownership. Never share passwords, 2FA codes, recovery codes or broad API tokens in chat.
-3. Connect the private GitHub repository using the owner's authorized account flow. Confirm the GitHub app has only the repository access required. Configure build command `python3 scripts/build_site.py` and output directory `dist`; validate that the build environment has Python. If not, move artifact building into GitHub Actions and deploy the artifact using a supported Pages workflow.
+2. Verify the owner's Cloudflare account access, 2FA, recovery and billing ownership for the existing Pages project. Never share passwords, 2FA codes, recovery codes or broad API tokens in chat.
+3. Verify the existing GitHub integration is connected to the intended repository and that the production branch and preview branch controls are correct. Confirm build command `python3 scripts/build_site.py` and output directory `dist`; validate that the build environment has Python. If not, move artifact building into GitHub Actions and deploy the artifact using a supported Pages workflow.
 4. Avoid enabling production auto-deploy until the owner has reviewed the settings and explicitly authorized the release. Use a preview deployment first when available and keep `robots.txt` blocked.
 5. Confirm `dist/_headers` is present and that live responses preserve CSP, HSTS and other security headers. Test all 24 indexable routes, tools, real 404 status, HTTPS, canonical URLs, mobile layout, keyboard navigation, and absence of internal files.
 6. Add `beincasinos.online` as a custom domain. If Cloudflare asks to onboard the zone, first record existing DNS and mail records at Spaceship. Change nameservers only after confirming the complete DNS set, preserving MX/SPF/DKIM/DMARC. Configure and test a host-aware permanent `www` to apex redirect.
@@ -68,4 +68,4 @@ Important caveats:
 
 ## Not done
 
-No Cloudflare Pages project was created, no Git integration was enabled, no deployment was made, no paid plan was purchased, no DNS was changed, no Search Console submission was made, and no brand outreach was sent. The Vercel team remains unmodified.
+The Cloudflare Pages project and Git integration exist, and branch-preview deployments have succeeded. The latest preview is not proof of a production release. No paid plan was purchased, no DNS change or production deployment was made by this documentation update, no Search Console submission was made, and no brand outreach was sent. The Vercel team remains unmodified.

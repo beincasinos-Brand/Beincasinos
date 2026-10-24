@@ -1,18 +1,19 @@
-# 100-brand directory source QA — 23 October 2026
+# Brand directory source QA — 24 October 2026
 
-**Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
-**File checked:** `brand-directory/index.html`  
-**Purpose:** Static source audit only. This is not a live-browser test, regulator re-verification, image-rights clearance, legal sign-off, or proof of Cloudflare deployment.
+**Branch checked:** `ops/2026-10-24-target-reconciliation-and-release-gates`  
+**Source checked:** `brand-directory/index.html` and `brand-directory/directory.js`  
+**Scope:** static-source audit only. This is not a browser/accessibility test, regulator re-verification, image-rights clearance, legal sign-off or proof that Cloudflare serves the latest commit.
 
-## Latest measured state
+## Current measured state
 
 | Check | Result |
 |---|---:|
 | Brand cards | 100 |
-| Unique brand labels | 100 |
+| Unique card headings | 100 |
 | Visible research snapshots | 100/100 |
-| Legal-operator field populated | 50/100 |
-| Official-domain field populated | 53/100 |
+| Market labels | 7 represented markets |
+| Legal-operator / concession-recipient field | 99/100 |
+| Official-domain field | 99/100 |
 | Regulator/authority field | 100/100 |
 | Evidence-grade field | 100/100 |
 | Verification checklist | 100/100 |
@@ -24,37 +25,41 @@
 | Candidate images with error fallback | 50/50 |
 | Visible rights-pending labels | 50 |
 | Rows in image asset register | 100 |
-| Rows with a sourced candidate | 50 |
-| Duplicate HTML IDs | 0 |
-| New-tab links missing `noopener noreferrer` | 0 |
+| Rows with a sourced candidate in the register | 50 |
+| Duplicate HTML IDs | 0 (latest source scan) |
+| New-tab links missing `noopener noreferrer` | 0 (latest source scan) |
 
-## Interpretation and gaps
+## Market and status distribution
 
-- 50 cards have a sourced image candidate. All 50 remain **SOURCE FOUND · RIGHTS PENDING**; the asset register does not establish permission to republish.
-- 50 cards use original CSS artwork and monograms, not official brand logos or photographs.
-- A populated official-domain field does not mean that the exact brand/domain is approved for the named jurisdiction. TOTO and Kansino retain explicit Ksa brand/domain and casino-scope caveats.
-- The legal-operator field is populated on 46 cards. Some values are reported permit holders whose exact brand/domain match remains pending; they are not legal sign-off.
-- Evidence-grade distribution: A 44, B 7, C 49. These are evidence grades, not quality scores. Current status distribution is 99 HOLD and 1 EXCLUDE.
-- Market split: CH 2, DE 2, NL 18, GB 66, US-NJ 7, US-MI 2, US-PA 3. US entries are state-specific; no nationwide authorisation is implied.
-- Fanatics has an image candidate from the official Fanatics Sports & Casino homepage, but its exact New Jersey authorized-product/domain mapping remains unconfirmed.
-- Official-site fetch failures were not worked around by guessing asset URLs: 247Bet returned `content_too_large`, Tipico returned HTTP 403, Casino and Friends was bot-blocked, BigBangBet returned an invalid URL, and Neptune Play redirected to a blocked-country page.
+| Market | Cards |
+|---|---:|
+| Great Britain (GB) | 65 |
+| Netherlands (NL) | 18 |
+| New Jersey (US-NJ) | 7 |
+| Pennsylvania (US-PA) | 4 |
+| Switzerland (CH) | 2 |
+| Germany, state-specific (DE) | 2 |
+| Michigan (US-MI) | 2 |
+| **Total** | **100** |
 
-## Publication and deployment gates
+All 100 visible cards are currently marked **HOLD**. Evidence grades are A: 19, B: 6, C: 52, and UNKNOWN: 23. These are source-evidence grades, not casino quality scores. The directory is intentionally marked `noindex,follow` and excluded from the sitemap while the queue is unapproved.
 
-- The directory remains `noindex,follow` and excluded from the sitemap while brand-level legal scope, source evidence, image rights and editorial sign-off remain incomplete.
-- These 100 cards are a research queue, not 100 approved consumer reviews. **Review approval remains 0/100.**
-- PR #36 is open, draft, unmerged and currently not mergeable.
-- No GitHub Actions run was triggered for this work. No Cloudflare production deployment is confirmed.
-- Before publication, verify exact local domain/operator/casino authorisation, current terms, payments and withdrawals, complaints/enforcement scope, safer-gambling information, image reuse rights and independent editorial sign-off.
+## Findings and risks
 
-## Note on earlier counts
+- Fifty cards display an official-site image candidate; all 50 are labelled **SOURCE FOUND · RIGHTS PENDING**. Finding an image on an official site does not establish permission to reuse it. Fifty other cards use CSS artwork/monograms rather than brand logos or photographs.
+- The image tags have alt text, width/height, lazy loading, and a fallback to text if a remote logo fails. They still depend on third-party image hosts; this audit does not establish uptime, rights, privacy effects, or mobile rendering.
+- Legal-operator and official-domain fields are populated on 99/100 cards, but a populated field is not a verified current customer-contracting entity or product-specific permission.
+- The market set includes US state-specific cards. No US-wide authorisation is implied; Pennsylvania, New Jersey and Michigan require independent regulator/domain/contract checks.
+- France and Australia remain outside the 100-card directory scope; their filter options are retained for audit context only.
+- The source HTML is included in the current branch build allowlist and would be publicly reachable if deployed; noindex is not access control. A separate read-only production fetch on 24 October 2026 found that the live `/brand-directory/` route returns 404, so the source QA below must not be described as a live production feature check. Its content identifies the entries as an unapproved research queue and does not present them as consumer recommendations.
 
-Earlier sections and commits record historical snapshots from before the image-candidate batches were completed. The measured source state above is the current count for this branch and supersedes those earlier inventory figures.
+## Release gates
 
+1. Verify each current brand/domain/legal-entity/product relationship in the applicable regulator's primary source.
+2. Capture dated current terms, bonus rules, deposit/withdrawal methods and restrictions, complaints/support, safer-gambling controls, privacy/cookies, and accessibility.
+3. Clear image reuse rights or replace the candidate with approved assets/original artwork before treating it as a production asset.
+4. Complete independent review and editorial/legal approval before publishing consumer scores or recommendations.
+5. Run the full static and browser test suite on an actual CI runner. Current PR #141 checks are failing before runner allocation (runner ID 0, zero steps); this is unresolved and no passing CI result is claimed.
+6. Do not merge or deploy production without explicit approval and completion of the 100-review publication gates.
 
-
-
-
-## Authoritative current directory state — 23 October 2026
-
-Latest branch-source audit: **100 unique brand cards, 100 visible research snapshots, 50 sourced image candidates, 50 rights-pending labels and 50 CSS artwork/monogram fallbacks**. The image register has 100 rows, 50 with sourced candidates. All image tags have alt text, dimensions, lazy loading and fallback handling. The official-domain field is populated on 53/100 cards; the legal-operator field is populated on 50/100 cards. These are field-coverage counts, not licensing approvals. Evidence grades: A 44, B 7, C 49; statuses: 99 HOLD, 1 EXCLUDE. Review approval remains 0/100. The page is noindex, PR #36 is open/draft/unmerged and not mergeable, and no Cloudflare production deployment is confirmed. Historical counts above describe earlier batch checkpoints only.
+**Decision:** source structure is consistently labelled as research, not recommendations. The 100 cards are not 100 approved reviews; approved review count remains **0/100**.

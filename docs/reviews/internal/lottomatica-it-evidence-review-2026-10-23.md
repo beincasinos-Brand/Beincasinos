@@ -76,3 +76,13 @@ No numerical rating is assigned until evidence gates pass.
 ## Publication decision
 
 **HOLD.** Direct access to the operator site returned HTTP 403 in this pass; the current terms, cashier, complaint policy and privacy/RG flows therefore remain unverified. This is an internal research draft, not a recommendation, endorsement, or finished consumer review. Keep it out of public rankings and do not assign a score until the outstanding evidence is captured, checked and independently reviewed.
+
+
+## Additional first-party source leads — 24 October 2026
+
+A new search of Lottomatica's first-party site surfaced:
+- Account FAQ, search result dated **4 August 2026**: https://www.lottomatica.it/guida/faq-conto-gioco — the result says users may also direct complaints to ADM and points to the “Carta dei Servizi e Reclami” section.
+- Google Pay withdrawal guide: https://www.lottomatica.it/guida/prelievo/googlepay — the result describes requesting a withdrawal from the “Prelievi” section of the account.
+- General site navigation references the contract, terms and conditions, and service/complaints charter.
+
+These are first-party search-indexed leads only. The direct Lottomatica homepage/casino/offer pages previously returned HTTP 403, and the new FAQ/withdrawal pages have not yet been successfully inspected end-to-end. Do not infer current processing times, fees, limits or complete complaint conditions from snippets. Capture readable current terms and the full withdrawal/complaint pages before approval. Lottomatica remains HOLD; no consumer transaction was tested.

@@ -1,6 +1,6 @@
 # Holland Casino Online — Netherlands evidence review
 
-**Research date:** 23 October 2026  
+**Research date:** 24 October 2026  
 **Market:** Netherlands (NL) only  
 **Status:** **HOLD — internal evidence review, not publication-ready**  
 **Method:** desk research of Ksa renewal materials and the project registry. No account, deposit, withdrawal or real-money play was tested.
@@ -9,7 +9,7 @@
 
 The Kansspelautoriteit's individual decision page confirms a licence granted to Holland Casino N.V. on 30 July 2026, effective **1 October 2026 through 30 September 2031**. It explicitly covers casino games where the player plays against the licence holder, player-versus-player casino games, and sports-event/outcome betting. The decision includes conditions requiring the operator to report all brand names, domains and app names before launch and whenever they change; restrictions on using pre-regulation customer data in registration; compliance with an exit plan; execution of enforceable Dutch court judgments; and correction of control-database (CDB) deficiencies within three months after notification. This is primary regulator evidence of the permission scope and conditions, not a completed consumer review.
 
-The live domain and exact domain notification under the permit must still be matched against the Ksa's public domain/brand disclosure; the existence of a current website alone does not prove the domain was reported under this licence. Current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history remain open. No score or recommendation is assigned.
+The live domain and exact domain notification under the renewed permit must still be matched against the Ksa's current public domain/brand disclosure; the prior Ksa profile still displays the old permit period ending in October 2026. The existence of a current website alone does not prove the domain was reported under the renewed licence. Current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history remain open. No score or recommendation is assigned.
 
 ## Identity and permission
 
@@ -32,6 +32,27 @@ Before publication:
 5. Recheck the licence and domain at the actual publication date; do not rely on a historic snapshot.
 
 The renewal period recorded in the project research memo is **1 October 2026–30 September 2031**. Treat this as a research lead until rechecked directly in the current Ksa decision.
+
+## Fresh first-party consumer disclosures — 24 October 2026
+
+The operator's current public Help Center adds specific eligibility and safer-gambling disclosures:
+
+- **Eligibility (Help Center updated 4 February 2026):** age 18+; users under 24 are described as having a monthly deposit limit of **€149** and being excluded from bonuses/offers. The operator says registration requires Dutch citizenship or a Dutch residence permit, followed by identity/nationality verification. These are operator-published disclosures, not an independent test.
+- **Login-time limits (Help Center updated 26 August 2026):** the operator says players can set daily, weekly and monthly login-time limits; the daily maximum is eight hours; reducing a limit takes effect immediately, while increasing it takes seven days.
+- **Customer support (Help Center article published 23 June 2025):** the operator publishes phone **088 0900 567** and email **ondersteuning@hollandcasino.nl** as available 24/7; live chat is listed for 09:00–02:00 and requires a logged-in account. These are published channels, not tested service quality.
+- **Automatic withdrawal limit (Help Center updated 4 February 2026):** this optional account tool transfers balance above a user-set threshold to a registered bank/payment method, leaving a selected minimum balance. The operator says raising the limit takes seven days and that an automatic withdrawal can take up to 48 hours to be approved, processed and credited. This is not a general guarantee for ordinary withdrawal requests and has not been tested.
+- **Terms route:** the first-party page links to https://www.hollandcasino.nl/terms-conditions, but the current read-only fetch returned HTTP 403. This is a research-access limitation, not proof that the terms are absent or that the service is unavailable.
+- **Current public Ksa profile:** https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/ still shows the prior permit period ending 1 October 2026 while listing Holland Casino Online and hollandcasino.nl. This historical profile corroborates the prior brand/domain association but does **not** establish that the domain was reported under the renewed permit effective 1 October 2026. Keep the domain/renewal match as a publication blocker until the current Kansspelwijzer entry is updated or the Ksa confirms it.
+
+Sources:
+- Ksa follow-on permit announcement (17 September 2026): https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+- Ksa individual permit decision (30 July 2026): https://kansspelautoriteit.nl/holland-casino-n-v
+- Ksa public Kansspelwijzer profile: https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/
+- First-party eligibility help: https://support.hollandcasino.nl/hc/nl/articles/7205769344017-Wie-mag-spelen-bij-Holland-Casino-Online
+- First-party login-time limit help: https://support.hollandcasino.nl/hc/nl/articles/7218287805329-Wat-zijn-Inloglimieten-en-hoe-kan-ik-deze-instellen
+- First-party support channels: https://support.hollandcasino.nl/hc/nl/articles/7212910880017-Hoe-kan-ik-de-Servicedesk-van-Holland-Casino-Online-bereiken
+- First-party automatic withdrawal limit: https://support.hollandcasino.nl/hc/nl/articles/7218160492561-Wat-is-een-Automatisch-Opnamelimiet-en-hoe-kan-ik-deze-instellen
+- First-party terms route: https://www.hollandcasino.nl/terms-conditions
 
 ## Consumer evidence still required
 
@@ -70,3 +91,14 @@ Holland Casino's land-based venues and its online product must not be treated as
 - [ ] Complete legal/editorial approval and affiliate/commercial disclosure.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+## Fresh regulator and live-route check — 24 October 2026
+
+The Ksa's official announcement dated 17 September 2026 names Holland Casino N.V. among the eight operators granted a follow-on online-gambling permit for October 2026–September 2031. The individual decision page remains explicit that Holland Casino N.V.'s new permit is effective 1 October 2026–30 September 2031 and requires all brand names, domains and app names to be reported before offering and when changed.
+
+Primary sources checked today:
+- Ksa follow-on permit announcement (17 September 2026): https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+- Ksa individual permit decision (30 July 2026): https://kansspelautoriteit.nl/holland-casino-n-v
+
+A read-only fetch of https://www.hollandcasino.nl/online returned HTTP 403 in the current research environment. This is **not** evidence that the service is unavailable to a Dutch consumer; it only means the live customer page and current terms were not inspected in this pass. The current Ksa-reported domain/brand disclosure remains a required publication gate; an older Ksa enforcement record mentioning hollandcasino.nl does not by itself prove that the domain has been reported under the renewed permit.
+
+**Updated disposition:** HOLD. Renewal authorization is verified at operator/category level, but current brand/domain notification and live customer terms are not yet matched. No consumer test or score is claimed.
