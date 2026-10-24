@@ -34,3 +34,8 @@ The same register row associates both circus-casino.be and pokerstars.be with Ca
 ## Editorial disposition
 
 No score, ranking or recommendation is assigned. Keep **HOLD** until the current contract and all mandatory consumer-evidence gates pass.
+
+
+## First-party source access limitation — 24 October 2026
+
+The official A+ register associates circus-casino.be with dossier 20635 and SA/NV GAMBLING MANAGEMENT. Search-indexed first-party snippets for https://www.circus-casino.be/en/n/legal/terms-of-use indicate that withdrawals require player-account authentication and show a €25,000 maximum; a first-party payments article dated 14 September 2026 describes bank-transfer limits. Direct extraction of the terms and privacy pages was blocked by the site in this research session. These snippets are leads only: capture the current live terms and payment table before relying on exact limits. Do not represent this as a successful full terms inspection or payment test.
