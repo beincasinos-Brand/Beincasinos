@@ -31,6 +31,11 @@ REQUIRED_COLUMNS = {
     "bonus_offer_url", "bonus_checked_utc", "bonus_status",
     "image_source_url", "image_rights_status", *SCORE_LIMITS,
     "overall_score_100", "review_status", "publication_status", "blockers",
+    "deposit_methods_url", "fees_limits_url", "privacy_cookies_url",
+    "accessibility_evidence_url", "regulatory_actions_url", "adr_url",
+    "reviewer_primary", "reviewer_secondary", "independent_review_date",
+    "editorial_approval_date", "consumer_test_status", "affiliate_disclosure_status",
+    "evidence_bundle_path",
 }
 PUBLISHABLE_STATES = {"APPROVED", "APPROVED_TO_PUBLISH", "PUBLISHED", "LIVE"}
 errors = []
@@ -81,7 +86,9 @@ def check(ledger_path):
             if value and not has_https_url(value):
                 errors.append(f"{label}: {field} must be an HTTPS URL when populated")
         for field in ("terms_url", "withdrawals_url", "complaints_url",
-                      "responsible_gambling_url", "bonus_offer_url", "image_source_url"):
+                      "responsible_gambling_url", "bonus_offer_url", "image_source_url",
+                      "deposit_methods_url", "fees_limits_url", "privacy_cookies_url",
+                      "accessibility_evidence_url", "regulatory_actions_url", "adr_url"):
             value = row.get(field, "").strip()
             if value and not has_https_url(value):
                 errors.append(f"{label}: {field} must be an HTTPS URL when populated")
@@ -137,6 +144,18 @@ def check(ledger_path):
         if bonus_url and not bonus_date:
             warnings.append(f"{label}: bonus source has no checked date; do not publish as current")
 
+        # New sign-off fields must never be left ambiguous: blank is not evidence of a test or approval.
+        for field in ("consumer_test_status", "affiliate_disclosure_status"):
+            if not row.get(field, "").strip():
+                errors.append(f"{label}: {field} must explicitly state its status")
+        for field in ("independent_review_date", "editorial_approval_date"):
+            raw_date = row.get(field, "").strip()
+            if raw_date:
+                try:
+                    date.fromisoformat(raw_date[:10])
+                except ValueError:
+                    errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
+
         state = row.get("publication_status", "").strip().upper()
         if re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\b|\s|$)", state):
             required = (
@@ -144,10 +163,21 @@ def check(ledger_path):
                 "terms_url", "withdrawals_url", "complaints_url",
                 "responsible_gambling_url", "bonus_offer_url", "bonus_checked_utc",
                 "image_source_url", "image_rights_status", "overall_score_100",
+                "deposit_methods_url", "fees_limits_url", "privacy_cookies_url",
+                "accessibility_evidence_url", "regulatory_actions_url", "adr_url",
+                "reviewer_primary", "reviewer_secondary", "independent_review_date",
+                "editorial_approval_date", "consumer_test_status",
+                "affiliate_disclosure_status", "evidence_bundle_path",
             )
             absent = [field for field in required if not row.get(field, "").strip()]
             if absent:
                 errors.append(f"{label}: publication state {state!r} lacks required fields: {', '.join(absent)}")
+            if row.get("reviewer_primary", "").strip().casefold() == row.get("reviewer_secondary", "").strip().casefold():
+                errors.append(f"{label}: primary and secondary reviewers must be named and different")
+            if row.get("consumer_test_status", "").strip().upper() != "COMPLETED":
+                errors.append(f"{label}: publication blocked until consumer/usability testing is documented as COMPLETED")
+            if row.get("affiliate_disclosure_status", "").strip().upper() != "REVIEWED":
+                errors.append(f"{label}: publication blocked until affiliate disclosure is reviewed")
             rights_state = row.get("image_rights_status", "").casefold()
             if "cleared" not in rights_state or any(token in rights_state for token in ("not cleared", "pending", "unknown", "permission not evidenced")):
                 errors.append(f"{label}: publication blocked until image rights are explicitly cleared")
