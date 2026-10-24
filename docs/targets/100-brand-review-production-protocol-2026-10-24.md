@@ -66,3 +66,8 @@ The automated gate requires all schema fields and blocks publication until the r
 Before explicit launch approval, the deployment artifact must ship with `robots.txt` using `Disallow: /`. The artifact validator enforces that state and rejects a site-wide allow rule. The canonical sitemap remains prepared for future launch readiness but is not permission to publish or index.
 
 The 24 October source pass recorded official offer pages for Jackpots.ch (CH) and Unibet (SE), bringing the candidate ledger to 13 bonus/promotion URLs. These offers remain on HOLD pending exact offer-specific terms, complete consumer-review evidence, image rights, testing and independent sign-off.
+
+
+## Review-ledger regression coverage
+
+The test suite now has seven regression cases covering the explicit unscored state, partial rubric rejection, score-total consistency, duplicate brand/market identity, non-HTTPS source rejection, malformed bonus-check date rejection, and publication blocked by missing evidence or image-rights clearance. GitHub Actions execution remains unconfirmed due to runner allocation; do not claim these tests passed until the job actually runs.
