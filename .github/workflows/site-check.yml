@@ -28,7 +28,7 @@ jobs:
         run: python3 scripts/test_sales_pipeline.py
       - name: Check shared JavaScript syntax
         run: node --check script.js && node --check scripts/browser_smoke.cjs
-      - name: Validate Vercel build and security configuration
+      - name: Validate Cloudflare Pages build and security configuration
         run: python3 scripts/check_host_config.py
       - name: Build public-only deployment artifact
         run: python3 scripts/build_site.py
