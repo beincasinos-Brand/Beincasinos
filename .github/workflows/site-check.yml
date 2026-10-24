@@ -22,13 +22,15 @@ jobs:
           python-version: "3.x"
       - name: Check HTML structure and local links
         run: python3 scripts/check_site.py
+      - name: Validate 100-card research directory release gate
+        run: python3 scripts/check_brand_directory.py
       - name: Validate paid-listing pipeline schema and hard gates
         run: python3 scripts/check_sales_pipeline.py
       - name: Run sales pipeline validator regression tests
         run: python3 scripts/test_sales_pipeline.py
       - name: Check shared JavaScript syntax
         run: node --check script.js && node --check scripts/browser_smoke.cjs
-      - name: Validate Vercel build and security configuration
+      - name: Validate Cloudflare Pages security headers and Vercel fallback config
         run: python3 scripts/check_host_config.py
       - name: Build public-only deployment artifact
         run: python3 scripts/build_site.py
