@@ -10,7 +10,7 @@
 
 The active research CSV contains **204 market-specific records** across the confirmed target geographies. This is a lead buffer, not 204 verified distinct operators: the registry includes same-brand variants, cross-market entries, state/province-specific records, leads whose casino vertical is not yet proven, and rows that must be excluded or deduplicated. All 204 records remain HOLD or otherwise not approved for publication.
 
-Eighteen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), Betano Casino (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), and Betsson (Sweden), Betway virtual slots (Germany), and LeoVegas virtual slots (Germany). They are not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
+Thirty-three internal evidence drafts are now tracked across the initial batches and batches D–F: BetMGM Casino (New Jersey), 888casino (GB), Betfred (GB), William Hill Casino (GB), Betway Casino (GB), NorthStar Bets (Ontario), Betano Casino (Ontario), TOTO Casino (Netherlands), Holland Casino Online (Netherlands), Lottomatica (Italy), Luckia (Spain), 888casino (Spain), Betway (Spain), SolCasino (Spain), William Hill Casino (Spain), Betsson (Sweden), Betway virtual slots (Germany), LeoVegas virtual slots (Germany); bet365 Casino (GB), Betano Casino (GB), Betfair Casino (GB), Paddy Power Casino (GB), Grosvenor Casino (GB), Virgin Games Casino (GB), PlayOJO (GB), Mr Green Casino (GB), Videoslots (GB), Midnite Casino (GB), Mega Riches (GB), Los Vegas Casino (GB), PricedUp Casino (GB), Rollerbet Casino (GB), and Betta Bet Casino (GB). These are market-specific internal evidence drafts, not approved consumer reviews. The 100-review target is not met until each review has complete current primary-source evidence, documented consumer-product checks where lawful, a second reviewer, and editorial/legal sign-off.
 
 ## Market-by-market lead inventory
 
@@ -380,12 +380,12 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 
 
 - Directory HTML contains **100 brand cards** and 100 unique displayed card titles; this is not proof of 100 verified, globally distinct casino brands.
-- The current visual asset pass contains **60 image candidates** and **40 CSS-art/monogram fallbacks** after adding official-site logo candidates for Betmaster UK, DynoBet, BetGoodwin Casino and London.bet. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks. All three new candidates are labelled rights pending and documented in the batch F and G reconciliation memos.
+- The current visual asset pass contains **60 image candidates** and **40 CSS-art/monogram fallbacks** after adding official-site logo candidates for Betmaster UK, DynoBet, BetGoodwin Casino and London.bet. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks. The four newest candidates are labelled rights pending and documented in the batch F and G reconciliation memos.
 - Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
 - Current card status flags: **HOLD=98, EXCLUDE=2**. Stakemate is excluded because current evidence supports a sports-betting scope, not a verified casino product; Ivy Casino is also excluded pending a verified casino identity/scope.
 - The page remains `noindex,follow`; do not promote this internal research directory as a consumer review destination.
-- Existing internal review batches (including batch D) remain research drafts only. This tracker update does not add approved reviews or imply new first-hand testing.
-- **Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
+- Internal review batches A–F remain research drafts only. Batch F adds five GB evidence-limited drafts; it does not add approved reviews or imply first-hand testing.
+- **Internal evidence drafts: 33. Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
 - No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget. The latest image edit was statically checked: 100 cards, 60 image elements, all lazy-loaded with alt text and onerror fallbacks.
 
 ### Next execution gates
