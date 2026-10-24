@@ -18,6 +18,8 @@ The PGCB's certificate-holder list updated **13 February 2026** records:
 The PGCB's current Interactive Gaming Operators page also lists BetRivers as a Pennsylvania-regulated interactive-gaming brand. These are Pennsylvania-specific records; they do not authorize the brand in other jurisdictions or establish product quality.
 
 Primary sources:
+- First-party “Get Started” page (deposit-method list, 1X promotional claim, RushPay withdrawal claim, geolocation and operator disclosure): https://pa.betrivers.com/?page=get-started
+- First-party casino landing page (current market/legal footer): https://pa.betrivers.com/?l=RiversPhiladelphia&page=all-games
 - PGCB certificate-holder and authorized websites PDF (updated 13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
 - PGCB interactive gaming operators: https://gamingcontrolboard.pa.gov/interactive-gaming-operators
 
@@ -38,6 +40,10 @@ Primary first-party sources:
 
 A fresh read of the official PA customer route (`https://pa.betrivers.com/?l=RiversPhiladelphia&page=all-games`) returned a current page title, “Slot Games | Table Games | Online Casino Games | PA BetRivers”. Its visible footer states that wagering requires age 21+ and physical location in Pennsylvania, displays the 1-800-GAMBLER message, and identifies **Rush Street Interactive PA, LLC, licence #110298**, acting on behalf of **SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia (Internet Gaming Certificate 1356)** and **Holdings Acquisition Co., LP d/b/a Rivers Casino Pittsburgh (licence #F-1361)**. The footer also says Rivers/BetRivers marks are held by Rivers IP Holdings, L.L.C.
 
+The official “Get Started” page also displays the following **deposit methods**: Trustly Online Banking, VIP Preferred, Visa, Mastercard, Discover, PayPal, BetRivers Play+, Venmo, PayNearMe, VanillaDirect, RushCash at Rivers Casino, and Apple Pay. This is a published deposit-method list, not confirmation that every method is available to every account or for withdrawals.
+
+The same first-party page advertises a “1X Wager” / 1X bonus play-through message and states that “over 90%” of withdrawal requests are approved in real time under RushPay. These are operator marketing claims, not independently verified performance statistics or a promise that any particular withdrawal will be instant. The actual eligibility rules, limits, exceptions, verification checks, and end-to-end settlement timing remain unverified.
+
 The site links to terms (`?page=eula&tos=TOC`), privacy (`?page=eula&tos=PP`), protection (`?page=eula&tos=PROT`), responsible-gambling information (`?page=eula&tos=RESPONSIBLEGAMBLING`) and a Pennsylvania help centre. However, the text extraction returned the common site footer rather than the substantive text of those query-selected pages; the canonical metadata strips the `tos` query parameter. Therefore the current terms, privacy, protection and RG contents are **not yet verified or archived**. This is a source-capture limitation, not proof that the pages are empty or unavailable to customers.
 
 ## Legal/operator distinction
@@ -50,7 +56,8 @@ The certificate-holder, interactive-gaming operator, and customer-facing BetRive
 - [x] Capture the first-party route footer's age/location message, 1-800-GAMBLER message and named operator/certificate-holder relationships.
 - [ ] Capture the substantive text of the terms, privacy, protection and RG pages; a footer-only extraction is insufficient.
 - [ ] Archive current Pennsylvania terms, privacy notice, bonus conditions, wagering requirements, exclusions and expiry; current policy links did not expose full text in static retrieval.
-- [ ] Verify deposit/withdrawal methods, limits, fees, timelines, verification requirements and restrictions.
+- [x] Record the public deposit-method list and capture the operator's RushPay marketing claim as an unverified claim.
+- [ ] Verify which deposit methods are also withdrawal methods, plus limits, fees, timelines, verification requirements, restrictions and exceptions.
 - [ ] Verify complaints/support route and applicable Pennsylvania escalation process.
 - [ ] Check responsible-gambling tools, self-exclusion and local help links.
 - [ ] Check current and historical enforcement records against the exact legal entity.
