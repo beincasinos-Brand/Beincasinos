@@ -650,3 +650,18 @@
 3. Review payments, withdrawal rules, current bonus terms (if mentioned), complaints/escalation, privacy/contact, safer-gambling resources, game-permit scope, and regulator enforcement history.
 4. Capture dated primary-source evidence, resolve discrepancies, and require second-editor sign-off before counting a brand as fully verified.
 5. Repeat with additional regulated jurisdictions until 100 profiles pass the complete verification gate. Keep candidates that lack evidence on HOLD rather than inflating the total.
+
+---
+
+# Continuation checkpoint — 24 October 2026, 19:35 UTC
+
+- The Tier-1 priority queue remains the ten roadmap markets: Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for Tipico), Switzerland and Ontario. Pennsylvania targets are separate extra research leads, not substitutions for those ten markets.
+- Pennsylvania source distinction is now explicit: PGCB lists the later `hollywoodcasino.com` route for slots/table games with a 19 December 2024 commencement date; the former `pa.hollywoodcasino.com` route ended 14 December 2023. Hollywood Casino Online remains HOLD pending live HTTPS/customer-contract matching. BetRivers is another separate PA HOLD lead.
+- Current read-only preview check: brand-directory preview returns 200, canonical `https://beincasinos.online/brand-directory/`, robots `noindex,follow`; its sitemap has 44 URLs and excludes the directory. Production directory still returns 404. Do not interpret preview behavior as production publication.
+- Latest observed PR #141 head before this checkpoint was `b6254cb541276795743a7def195554c971e8db3e` with 124 changed files; the session-audit update is now committed on the branch. Re-fetch PR metadata before relying on the current head SHA.
+- Static site checks latest observed run ID `40118090721`, retry attempt 2, still failed before runner allocation (runner ID 0; no steps). No current-head CI pass or complete artifact/browser QA is confirmed.
+- The tracker has 106 data rows, 18 columns, no malformed rows or duplicate brand/market keys, 102 blank global IDs and 58 VERIFY domains. Approved consumer reviews remain **0/100**.
+- No merge, production deployment, indexing release or paid placement was performed.
+
+**Release remains blocked** until a functioning CI runner executes the full suite, the latest preview is tied to the current commit, current customer terms and legal entities are verified, actual usability/accessibility testing and image-rights clearance are documented, and independent review signs off.
+
