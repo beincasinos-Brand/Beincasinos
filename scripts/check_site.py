@@ -918,6 +918,10 @@ if directory_page.is_file():
         errors.append("brand-directory/index.html: canonical URL is missing or incorrect")
     if "intentionally marked noindex" in directory_source:
         errors.append("brand-directory/index.html: stale noindex explanation contradicts the public robots directive")
+    if "<h1>100 research leads." not in directory_source:
+        errors.append("brand-directory/index.html: headline must describe the entries as research leads, not verified brands")
+    if "0/100" not in directory_source or "reviews approved for publication" not in directory_source:
+        errors.append("brand-directory/index.html: current approved-review count disclosure is missing")
     cards = re.findall(r'<article[^>]*class="[^"]*brand-card[^"]*"[^>]*>(.*?)</article>', directory_source, re.S)
     if len(cards) != 100:
         errors.append(f"brand-directory/index.html: expected 100 research cards, found {len(cards)}")
