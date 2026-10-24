@@ -395,3 +395,10 @@ Added `docs/reviews/internal/emotiva-casino-es-evidence-review-2026-10-24.md` an
 ### Spain DGOJ domain-list follow-up — 24 October 2026
 
 Added internal drafts and synchronized registry notes for Emotiva Casino and PartyCasino Spain. The DGOJ profile for Emotiva On-Line, S.A. lists relevant casino-game licences but its visible domain list was empty, and historical records reference Aconcagua Juegos, S.A.; Emotiva's first-party terms/payment/complaint routes returned “Acceso no autorizado”. The DGOJ profile for Electraworks Ceuta, S.A. lists licences for slots, blackjack, roulette and poker plus PartyCasino/Bwin trading names, but its visible domain list was also empty; PartyCasino's first-party safer-gambling page returned only a brand label. Both remain HOLD pending live domain/contract matching and readable current consumer terms. No approval count changes.
+
+
+### Additional Spain candidates — 24 October 2026
+
+Added internal drafts for AdmiralBet Spain, Emotiva Casino and PartyCasino, and updated the Emotiva/PartyCasino CSV rows with DGOJ profile findings. DGOJ lists relevant casino-game categories for BeatYa Online S.A. (AdmiralBet) and for Electraworks Ceuta, S.A. (PartyCasino/Bwin), with a recent July 2026 resolution on the latter profile; however, the accessible operator profiles showed empty domain lists, and first-party pages were blocked or returned only minimal content. Emotiva's DGOJ profile lists slots, blackjack, roulette and poker but also showed an empty domain list and historic Aconcagua Juegos references. These are domain/contract verification blockers, not a basis to infer illegality. All remain HOLD and the approved-review count remains **0/100**.
+
+The public directory hero now says **“100 research leads”** rather than implying 100 verified brands and explicitly displays **0/100 reviews approved for publication**. The source checker now guards both disclosures.
