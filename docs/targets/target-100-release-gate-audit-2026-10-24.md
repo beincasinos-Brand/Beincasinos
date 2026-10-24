@@ -5,7 +5,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Verified counts
 - Ledger rows: 100; columns: 43.
-- Bonus/promotion URL populated: 53 rows; blank: 47 rows. A populated URL is only a source lead, not confirmation that the offer is current or fully verified.
+- Bonus/promotion URL populated: 54 rows; blank: 46 rows. A populated URL is only a source lead, not confirmation that the offer is current or fully verified.
 - Image source URL populated: 0; image-rights status pending: 100.
 - Overall score: NOT SCORED for 100; review status HOLD for 100; publication status HOLD for 100.
 - Deposit-method URL: 0 populated; fees/limits URL: 0 populated; accessibility evidence URL: 0 populated; regulatory-actions URL: 0 populated; ADR URL: 0 populated.
@@ -72,3 +72,5 @@ The commit-status API returned no status checks and the workflow-run lookup retu
 - Re-fetched and parsed the entire ledger after the write: **100 data rows, 43 columns, 100 unique slot IDs, 53 bonus/promotion URLs populated and 47 blank**. This fresh count corrects the previous stale 50/50 count in the audit.
 - All 100 candidates remain NOT SCORED / review HOLD / publication HOLD. Consumer testing remains NOT PERFORMED and image-rights clearance remains pending for all 100.
 - No merge or Cloudflare Pages production deployment was performed. The workflow-run lookup returned no PR-triggered runs for the latest documentation commit; CI remains unconfirmed, not passed.
+
+- Follow-up: added the official BetRivers Michigan iRush Rewards page as a rewards-program source lead, not a quantified welcome offer. Fresh ledger count: 100 rows / 43 columns / 54 bonus-promotion URLs populated / 46 blank. No account test, score, approval or production deployment.
