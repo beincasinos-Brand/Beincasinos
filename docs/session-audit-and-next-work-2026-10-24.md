@@ -9,7 +9,7 @@
 - Base: `ops/tier1-10-market-100-brand-roadmap-2026-10-22`
 - PR: https://github.com/beincasinos-Brand/Beincasinos/pull/141
 - PR state: open, Draft, not merged.
-- Latest observed changed-file count at the previous checkpoint: 110; after the review-priority boards, four additional market-specific evidence dossiers and the noindex/sitemap checker fix, PR #141 has 117 changed files at the latest observed count; verify again after subsequent commits.
+- Latest observed changed-file count at the prior checkpoint was 117; after adding tested robots-meta parsing, regression tests, and the Pennsylvania target correction, PR #141 has 122 changed files at the latest observed count.
 - Public-release decision remains BLOCKED. No production deployment, merge, DNS change, crawl-unblock, or brand outreach was authorized by this work.
 
 ## Work completed in this session
@@ -49,7 +49,7 @@ The project board's most recent baseline and current checkpoint both say **0/100
 ## Open blockers
 
 1. Diagnose GitHub Actions runs that fail before runner allocation. If this persists, inspect repository Actions settings/availability with the owner; do not guess that a source check failed.
-2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; a preview deployment succeeded for commit `ee28cc0`, which contains the brand-directory CSP fix, at `https://0ba9ee8b.beincasinos.pages.dev`. Documentation-only commits have followed; the live production release remains blocked. Verify freshness and real production behavior separately.
+2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; a prior preview deployment succeeded for commit `ee28cc0`, but freshness of the current branch preview remains unverified. Production currently returns 404 for `/brand-directory/`, and the public sitemap lists 46 URLs without that route. No production release is authorized; verify preview freshness and real production behavior separately.
 3. Keep `robots.txt` and the public-release gate unchanged until explicit approval and the legal/editorial/manual-host acceptance gates are cleared.
 4. Requalify the 100-name legacy prospect queue against the actual market strategy, deduplicate brands/legal entities, exclude inactive or out-of-scope products, and maintain separate counts for prospects, evidence-complete drafts, and approved reviews.
 5. Prefer finishing and independently reviewing a smaller number of evidence-complete profiles over producing additional generic HOLD templates.
