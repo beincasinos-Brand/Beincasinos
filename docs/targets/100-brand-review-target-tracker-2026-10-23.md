@@ -838,3 +838,8 @@ Added official consumer-policy source links for bet365 Casino, William Hill Casi
 ## Official consumer-policy source-link pass B — 2026-10-24
 
 Added official policy-source links for **Sky Vegas, Ladbrokes Casino, and Coral Casino** in `docs/brand-research-template.csv`; all three remain `HOLD`. The CSV remains 204 market-specific records / 33 columns. Field-presence counts changed from 8 to 11 withdrawal/payment URLs, 7 to 9 complaint/ADR URLs, and 12 to 15 safer-gambling URLs; terms remain 23, partnership contacts 0, privacy/tracking reviews 142, and named reviewers 184. Full evidence and limitations: [GB consumer-policy source-link pass B](gb-consumer-policy-source-link-pass-2026-10-24-b.md). These are source-link updates only, not consumer tests or approved reviews. No GitHub Actions run, merge, or Cloudflare deployment was performed.
+
+
+## PlayOJO UK help-centre source pass — 2026-10-24
+
+Added the official GB-filtered PlayOJO help centre to its withdrawal/payment-help and safer-gambling source fields. The page includes withdrawal process, payment-method, verification, limits/self-exclusion and support guidance. It is not a dedicated complaint/ADR policy and does not replace current UK terms. PlayOJO remains `HOLD`. Updated counts after passes B+C: terms 23, withdrawal/payment 12, complaints/ADR 9, safer-gambling 16, partnership contacts 0, privacy/tracking review 142, named reviewer 184. Details: [PlayOJO UK help-centre source pass](../quality/gb-consumer-policy-source-link-pass-2026-10-24-c.md). No consumer tests or publication approvals claimed; no Actions, merge, or Cloudflare deploy.
