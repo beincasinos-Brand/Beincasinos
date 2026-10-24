@@ -795,3 +795,10 @@ The five entries are **research briefs, not completed or approved reviews**. Cur
 Created `docs/reviews/internal/london-bet-uk-evidence-review-draft-2026-10-24.md` using the UK Gambling Commission's public register for Thistle Bet Limited account 66162 (licence summary, trading name, domain and regulatory-actions record), the operator's casino and safer-gambling pages, and the Commission's general withdrawal guidance. The draft separates regulator-confirmed register details from operator claims and explicitly records that no account, gameplay, deposit, withdrawal or support test was performed.
 
 This is a substantive **internal evidence-led draft, not an approved consumer review**. Bonus terms, cashier/withdrawal policy, complaint/ADR route, privacy/cookie checks, accessibility, image rights and independent editorial approval remain publication blockers. Approved reviews remain **0/100**. No deployment, indexing, or GitHub Actions execution is claimed.
+
+
+## Ontario research batch E — 24 October 2026
+
+Added five Ontario-specific internal research/page-structure briefs in `docs/reviews/internal/market-review-draft-batch-2026-10-24-e.md`: BetMGM Casino, Horseshoe Online Casino, Fanatics Casino, Hard Rock Bet, and Hollywood Casino. Each brief points to iGaming Ontario's official operator directory and separates the casino product from sportsbook, poker, and land-based venue claims where relevant.
+
+These are **research briefs, not completed or approved reviews**. The official directory page itself states a date for its listing, so every operator/domain match and all consumer terms must be rechecked before publication. Current terms, payment/withdrawal rules, complaints, safer-gambling controls, privacy/accessibility and image rights remain publication gates. Approved consumer reviews remain **0/100**; no Cloudflare deployment or search indexing is claimed, and no GitHub Actions workflow was intentionally triggered.
