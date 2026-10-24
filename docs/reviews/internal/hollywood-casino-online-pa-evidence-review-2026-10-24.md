@@ -1,19 +1,22 @@
-# Hollywood Casino Online — Pennsylvania historical-status correction
+# Hollywood Casino Online — Pennsylvania status correction
 
 **Checked:** 24 October 2026  
-**Disposition:** EXCLUDED as a current online-casino brand target unless new primary evidence proves a distinct current authorization.
+**Market:** Pennsylvania only  
+**Status:** **EXCLUDED / HOLD — do not count as a current qualified target**  
+**Supersedes:** the earlier draft in this file that treated a PGCB operator directory entry as sufficient evidence of a current authorized customer skin.
 
-## Material correction
+## Corrected regulator evidence
 
-The earlier draft incorrectly treated the current PGCB interactive-operator logo directory and a certificate-holder PDF as sufficient evidence that the legacy pa.hollywoodcasino.com online casino remains an active consumer brand. The PGCB's 13 February 2026 certificate-holder/authorized-websites PDF places pa.hollywoodcasino.com in its **former interactive gaming sites** section and states that it operated from **18 July 2019 to 14 December 2023** under Mountainview Thoroughbred Racing Association, LLC's certificate, with Penn shifting operations to ESPN Bet.
+The Pennsylvania Gaming Control Board's certificate-holder / authorized-websites PDF updated **13 February 2026** records the legacy `pa.hollywoodcasino.com` route under former interactive-gaming sites and lists the operation end date as **14 December 2023**. That record is not evidence that the old skin remains active today.
 
 Primary source:
-- PGCB licensed certificateholders and authorized websites, updated 13 February 2026: https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
+- PGCB certificate-holder and authorized websites PDF (13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
 
-The current PGCB interactive-operator directory's logo list alone is not enough to overturn the dated former-site record. Revenue reported for Hollywood Casino at Penn National Race Course is a casino/operator reporting category and does not prove the legacy Hollywood Casino Online skin is still an active separate online brand.
+The PGCB's general operator directory or a recognizable brand name should not override the exact domain/status in the certificate-holder record. Until a distinct, current Pennsylvania-authorized Hollywood Casino Online skin is independently established by a current official record, the old URL must not be presented as an active consumer route or counted toward the qualified target list.
 
-## Decision
+## Disposition
 
-Do **not** count Hollywood Casino Online as a current active Pennsylvania online-casino target or publish a review based on the former URL. The old draft's claims about a current customer route are withdrawn. Reopen this target only if a current PGCB certificate-holder entry and matching customer contract establish an active separate Hollywood Casino Online skin.
-
-Replacement target: **BetRivers Casino — Pennsylvania**, documented separately in betrivers-casino-pa-evidence-review-2026-10-24.md. All replacement work remains HOLD pending current terms, testing and independent review.
+- **EXCLUDED from the current target slate** pending fresh official evidence of a distinct active authorized skin.
+- Do not publish an operator recommendation, current-domain claim, score, or review based on the old URL.
+- The Pennsylvania priority target is now **BetRivers Casino**, documented separately in [the BetRivers Pennsylvania evidence review](betrivers-casino-pa-evidence-review-2026-10-24.md).
+- No account, deposit, withdrawal, support, or real-money play test is claimed.
