@@ -767,3 +767,10 @@ The exact displayed card-title list at this checkpoint is:
 Added tailored SEO/page-structure briefs for Admiral Casino (Switzerland), casineo.ch (Switzerland), Winz.nl (Netherlands), Kansino (Netherlands), and Bingoal Casino (Belgium) in `docs/reviews/internal/market-review-draft-batch-2026-10-24-b.md`. Each brief specifies a distinct search intent and review structure, market-specific regulator/entity/domain checks, consumer-term and payment/complaint/RG/privacy evidence requirements, and a rights-aware image brief.
 
 **Status remains internal planning, not five completed reviews.** These briefs do not assert that any candidate is currently authorized or available, do not add approved reviews, and do not clear any image rights. All five remain HOLD until current primary-source evidence, complete consumer-term checks and independent editorial review are recorded. Approved reviews remain **0/100**. The 100-card directory remains a candidate list rather than 100 verified operators; production deployment and search indexing remain unverified. No GitHub Actions workflow was intentionally triggered.
+
+
+## Further review-brief work — 24 October 2026
+
+Added five additional market-specific page briefs in `docs/reviews/internal/market-review-draft-batch-2026-10-24-c.md`: Tipico Casino (Germany), 888.nl, BetCity and FairPlay Casino (Netherlands), and VBET (Great Britain). The briefs define distinct search intent, page structure, local regulator/entity/domain checks, consumer-term and payment checks, safer-gambling/privacy/accessibility checks, and image-rights requirements. FairPlay is explicitly held until its exact identity is resolved.
+
+These are internal briefs, not completed or approved reviews. No licence status or availability is asserted by the briefs. Approved reviews remain **0/100**; Cloudflare production and search indexing remain unverified. No GitHub Actions workflow was intentionally triggered.
