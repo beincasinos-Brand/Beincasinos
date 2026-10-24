@@ -524,3 +524,12 @@
 - Bingoal's official casino offer states 100% match up to €250, €10 minimum deposit, 35x wagering within 31 days, game contribution of slots 100% / live casino 10% / non-live table games 5%, age 24+, and no combination with sportsbook welcome offer. Full terms and customer eligibility still require review.
 - Videoslots' .es candidate URL redirects to generic .com; no Spain-specific licence/offer route was verified, so generic or UK terms are not accepted as evidence. Pop Casino's Swedish homepage did not expose a public welcome offer; ledger records “no public welcome offer verified” rather than inventing one.
 - Latest audit: **56/100** candidates have dated official bonus/promotion source URLs; 100 rows, 43 columns, 100 unique identities, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric scores and 100 explicit NOT SCORED states. All consumer tests remain NOT PERFORMED; affiliate disclosures remain NOT REVIEWED.
+
+
+# Canonical ledger reconciliation — public directory is the source of truth — 24 October 2026
+
+- Reconciled a major mismatch: the public directory contains 100 brand cards across CH, DE, NL, GB and selected US states, while the earlier cross-market research ledger contained a different set of 100 candidates across 15 markets. Only 14 brand/market pairs matched approximately.
+- Preserved the prior research set, including its 57 populated bonus-source URLs, at `docs/targets/100-brand-review-cross-market-research-ledger-2026-10-24.csv`. It remains a separate research workstream and must not be treated as evidence for a different market or brand.
+- Rebuilt the canonical `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` to match the exact 100 public directory cards by name and market. Eight market-matched bonus/promotion source leads were carried over; they remain NOT CLEARED, and rows without a matching source explicitly state that no current offer is approved rather than inventing one.
+- Canonical-ledger audit: 100 rows, 43 columns, 100 unique brand/market identities and unique IDs, 8 dated official bonus-source leads, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric scores, and 100 NOT SCORED rows. Consumer tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED on all 100.
+- This reconciliation makes the public list and its evidence tracker consistent; it does not complete the 100 reviews. Do not merge/deploy until remaining evidence, images, tests, disclosures, independent review and launch approval are complete.
