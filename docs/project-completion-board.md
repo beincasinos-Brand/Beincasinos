@@ -1,3 +1,15 @@
+# Latest work checkpoint — 24 October 2026, 19:00 UTC
+
+- Updated the top-10 board's stale tracker counts to the current audited snapshot: 114 market-specific rows, 99 blank global IDs, 58 VERIFY domains; 0/100 approved reviews.
+- Found and documented a material Betway Great Britain route mismatch: opening the cited first-party https://betway.com/gb/en/casino redirected to https://betway.de/de/de/sports (German sportsbook) on 24 Oct 2026. The UKGC licence/domain register remains a regulatory lead, but this URL is not proof of a working GB casino journey. The dossier, top-10 board and brand-research CSV now place the GB product on HOLD until the exact route/contracting entity are re-established. Previously surfaced withdrawal/payment claims are not treated as current GB evidence.
+- Re-requested the latest failed Static site checks job (run 40122280507); retry again failed before runner allocation (runner ID 0, zero steps, no logs). This is an infrastructure/runner failure, not a test result. A new commit will trigger another PR check; do not claim green CI until it actually executes.
+- PR #141 remains open, Draft and unmerged. No production deployment was performed. The live /brand-directory/ route was still reported as 404 in the latest release-gate audit, even though the current source build includes brand-directory/; that remains a release verification blocker, not a reason to bypass approval.
+- Approved reviews remain 0/100. All target dossiers remain HOLD until exact market permissions, current terms, actual consumer/accessibility tests, image rights and independent sign-off are complete.
+
+**Next:** restore/verify the current GB Betway route, continue evidence capture for the remaining first-ten candidates, and get CI to allocate a runner so the public-only Cloudflare artifact can be tested.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 18:45 UTC
 
 - Added `docs/us-state-supplemental-research-queue-2026-10-24.md`, linked it from README and the international board, and kept NJ/PA/MI supplemental targets separate from the ten-market roadmap.
