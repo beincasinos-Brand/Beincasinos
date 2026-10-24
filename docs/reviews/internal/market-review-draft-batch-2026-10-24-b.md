@@ -103,3 +103,54 @@ These metadata briefs target distinct market-specific queries. They do not estab
 - **Image brief:** Rights-cleared Spanish product asset with accurate Spanish-market alt text. Do not translate a foreign-market promotion and imply it is available in Spain.
 
 **Shared visual standard:** Build each as a dedicated casino-review page, not a blog post: market badge, last-checked date, operator/licence panel, methodology/source panel, concise verdict state, structured consumer-term tables, clear unknowns, and related review/guide links. Keep typography, spacing and mobile interactions consistent while making each page’s evidence and search intent unique. No fabricated scores, star ratings, firsthand claims, or review schema. All five remain HOLD until sources are refreshed, image rights are logged, and independent editorial/legal review is recorded.
+
+
+## Additional market-specific SEO packages — batch B follow-on (internal / HOLD)
+
+These are editorial build briefs, not evidence that a brand is licensed, currently available, or suitable for recommendation. Keep each candidate unpublished and noindex until its exact contracting entity, current domain, regulator status, terms and consumer-protection details are checked against primary sources.
+
+### Admiral Casino — Switzerland
+- **SEO title:** Admiral Casino Switzerland Review: Permit & Player Terms
+- **Meta description:** Check Admiral's exact Swiss operator and domain evidence, then review current game scope, bonus terms, withdrawals, complaints and player safeguards.
+- **H1:** Admiral Casino Review for Switzerland: Operator and Terms
+- **Search intent / page order:** Resolve the exact Swiss brand/domain and contracting entity; verify the current Swiss regulator listing and product scope; date-stamp the evidence; inspect Swiss-specific terms and offers; payment methods, limits and withdrawal rules; complaint/escalation route; safer-gambling tools; privacy/cookies/accessibility; evidence-limited conclusion.
+- **Image brief:** Use a rights-cleared Swiss-market asset or original neutral illustration. Do not infer Swiss authorization from similarly named foreign Admiral brands.
+- **Publication blockers:** Exact legal entity/domain match; current regulator record; current Swiss terms and offer clauses; payment/complaint/RG/privacy evidence; asset rights; independent review.
+
+### casineo.ch — Switzerland
+- **SEO title:** casineo.ch Review: Swiss Licence, Terms & Withdrawals
+- **Meta description:** Verify the exact Swiss casino operator and authorization, then check local bonus conditions, payment rules, complaints and safer-gambling protections.
+- **H1:** casineo.ch Review: Swiss Authorization and Consumer Terms
+- **Search intent / page order:** Exact domain and licensee; current Swiss regulator entry and authorized game categories; local terms; offer-specific wagering/expiry/exclusion clauses; deposit and withdrawal limits/fees/timing; complaints; self-exclusion and limits; privacy/cookies/accessibility; dated evidence table; conclusion only after gaps close.
+- **Image brief:** Rights-cleared current product imagery or an original Swiss-market explainer visual. Avoid logo reuse pending written permission.
+- **Publication blockers:** Confirm active authorization and domain; reconcile bonus/general terms; document payment and dispute routes; inspect RG/privacy/accessibility; clear imagery; second-editor sign-off.
+
+### Winz.nl — Netherlands
+- **SEO title:** Winz Casino Netherlands Review: Ksa Permit & Terms
+- **Meta description:** Check the exact Dutch operator and permit evidence, then compare current casino terms, bonus restrictions, withdrawals and player-protection information.
+- **H1:** Winz Casino Review (Netherlands): Permit and Player Terms
+- **Search intent / page order:** Confirm the exact Dutch domain and contracting entity; check the current Ksa permit and any domain/brand notifications; distinguish casino products from other verticals; capture dated Dutch terms and offers; payment methods/fees/limits; withdrawal verification and timing; complaint route; responsible-gambling protections; privacy/cookies/accessibility; evidence-based verdict.
+- **Image brief:** Rights-cleared Dutch product image or original neutral artwork. Do not assume that a similarly named brand or foreign licence covers Winz.nl.
+- **Publication blockers:** Current Ksa and entity/domain evidence; terms and bonus capture; payment/withdrawal and complaints; RG/privacy/accessibility; image permission; independent review.
+
+### Kansino — Netherlands
+- **SEO title:** Kansino Review Netherlands: Licence, Bonus Rules & Payouts
+- **Meta description:** Verify Kansino's current Dutch permit and operator details, then review local bonus conditions, payout rules, complaints and safer-gambling tools.
+- **H1:** Kansino Casino Review: Dutch Permit and Current Terms
+- **Search intent / page order:** Current Ksa permit, licensee and exact domain; dated local product/offer terms; bonus wagering, expiry and eligibility; deposit/withdrawal methods, limits, fees and verification; complaints/ADR; Dutch safer-gambling controls; privacy/cookies/accessibility; source table and balanced verdict.
+- **Image brief:** Use only a rights-cleared asset for the verified Dutch product; no sportsbook-only creative or generic affiliate logo scrape.
+- **Publication blockers:** Refresh primary regulator record; verify the exact domain/operator; preserve offer terms; document payment and complaint details; assess RG/privacy/accessibility; clear rights; second review.
+
+### Bingoal Casino — Belgium
+- **SEO title:** Bingoal Casino Belgium Review: Licence & Local Conditions
+- **Meta description:** Confirm Bingoal's exact Belgian operator and casino authorization, then check local terms, payment rules, complaint options and safer-gambling protections.
+- **H1:** Bingoal Casino Review for Belgium: Licence and Consumer Terms
+- **Search intent / page order:** Exact Belgian domain and legal entity; current Gaming Commission authorization and product scope; local-language terms/offers; bonus restrictions and eligibility; deposit/withdrawal limits, fees and verification; complaints/escalation; exclusion and responsible-gambling controls; privacy/cookies/accessibility; dated sources and evidence-limited conclusion.
+- **Image brief:** Rights-cleared Belgium-market image or original neutral visual; do not use Dutch/French-market promotion art as proof of Belgian availability.
+- **Publication blockers:** Current Belgian regulator/entity/domain match; verify casino scope separately from betting; inspect current terms, payments, complaints and safeguards; privacy/accessibility; image rights; independent review.
+
+**Batch B follow-on status**
+- Additional market-specific page-structure packages: **5**
+- Approved consumer reviews added: **0**
+- Cumulative approved reviews against target: **0/100**
+- No license status is asserted by these briefs; all candidates remain HOLD until primary-source checks and editorial approval are complete.
