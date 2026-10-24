@@ -381,3 +381,11 @@
 - Added an official Casino777 Belgium promotion snapshot at `docs/reviews/internal/bonus-snapshot-casino777-be-2026-10-24.md`. The ledger now records eleven official bonus/promotion source URLs.
 - The observed 777 Boost is explicitly classified as a game-specific promotion (1000% boost on a qualifying €5+ win up to €50, subject to game, account and age restrictions), not a welcome deposit bonus. Its current availability still requires a fresh check before publication.
 - The source and current observation are recorded; the brand remains on HOLD pending all other review gates. No account or gameplay test was performed.
+
+
+# Final source-integrity sweep — 24 October 2026
+
+- Normalized the Hollywood Casino (PA) candidate URL to its HTTPS official domain after checking the current official homepage; a ledger URL audit found and corrected the only populated URL field using HTTP.
+- Current ledger source audit: 100 candidate rows, 43 columns, 100 unique brand/market identities, 11 official bonus/promotion source URLs, zero numeric scores assigned, zero cleared image-rights rows, 100 consumer tests marked `NOT PERFORMED`, and 100 affiliate-disclosure states marked `NOT REVIEWED`.
+- The explicit “NOT SCORED” value is allowed as a transparent unscored state; the gate still rejects partial component scores and requires all nine numeric components plus a matching total before any numeric score can be treated as complete.
+- Latest workflow attempts continue to fail before any steps start (runner ID 0, no runner name/steps). This is not a test result. No merge, production deployment, public bonus claim or review approval has been made.
