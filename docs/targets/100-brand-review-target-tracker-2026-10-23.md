@@ -263,3 +263,19 @@ Evidence memo: `docs/research/ukgc-candidate-follow-up-midnite-betty-brillbet-20
 ### Betway historical-enforcement correction — 24 October 2026
 
 The current UKGC actions page for Betway Limited (account 39372) states no actions are recorded on that page today, but the Commission's own announcement dated 21 September 2022 records a £408,915 penalty for gambling advertising appearing on children's pages of West Ham United FC's website. Because UKGC sanctions remain on the public register for three years from publication, an empty current actions page must not be represented as no historical action. Record the dated historical action alongside the current active licence/domain signal and the current-page result. Full note: `docs/research/ukgc-historical-enforcement-betway-2026-10-24.md`. Betway remains HOLD; this adds **0 approved reviews**.
+
+
+### Belgium A+ register batch — 24 October 2026
+
+Checked the Belgian Gaming Commission's official A+ register (table page displayed last-updated 8 October 2026): https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. Added one batch memo and five internal market-specific draft files for Casino777.be, Napoleon Casino, StarCasino.be, Betano Casino and Circus Casino. The source records domain/operator/dossier/expiry associations; it does not prove current terms, consumer quality, payment performance, or publication readiness.
+
+- `docs/research/belgium-aplus-casino-primary-source-batch-2026-10-24.md`
+- `docs/reviews/internal/casino777-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/napoleon-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/starcasino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/betano-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/circus-casino-be-evidence-review-2026-10-24.md`
+
+Key controls: Betano's listed A+ expiry is 31 December 2026, so current status/renewal must be rechecked before publication. The official register lists Circus Casino and PokerStars.be together under Casino de Namur / SA/NV GAMBLING MANAGEMENT; preserve separate brand/domain records while avoiding a false claim of separate licence holders. Belgian licensees for Unibet, bwin and Ladbrokes must not be conflated with their operators in other markets. All five drafts remain HOLD pending live contract, terms, payments policy, complaints, safer-gambling, privacy, accessibility, enforcement, image rights, independent second review and editorial/legal sign-off.
+
+This batch adds **5 internal drafts, 0 publication-approved reviews**. It does not change the authoritative count of **0/100 approved reviews**, publish any review, or authorize production deployment.
