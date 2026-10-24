@@ -276,3 +276,18 @@ Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 
 
 - **GeckoPlay (092):** directory card updated with the UKGC active trading-name record for Skill On Net Limited (account 39326) and active Casino Remote licence lead. Exact live domain mapping, current terms and consumer review gates remain open. Memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24.md`.
+
+
+## 24 October 2026 — GB directory evidence batch B
+
+Five directory entries received a primary-source reconciliation pass and their displayed evidence grades were updated from C to B where the available official records now support a clearer operator/domain relationship:
+
+- **Mega Riches (088):** UKGC states Videoslots Limited runs megariches.com; the UKGC's 20 November 2025 notice records a £650,000 penalty, warning and third-party audit requirement for AML and social-responsibility failures. Treat as dated operator-level history; remediation and consumer experience remain unverified.
+- **Lottoland Casino (090):** UKGC's 2021 enforcement notice identifies EU Lotto as operator of lottoland.co.uk and records a £760,000 fine, formal warning and audit requirement for failures from 2019–2020. Lottoland is an established brand; do not count it as a newly created global brand merely because a casino-product card exists.
+- **Bally Casino UK (091):** UKGC account 38905 shows active Remote Casino permission and lists ballycasino.co.uk as Active. Launch/rebrand timing and consumer checks remain open.
+- **Alfobet (093):** UKGC account 57869 shows active Remote Casino permission; the domain register lists lobby.alfobet.com as White Label. Exact consumer route and launch/relaunch chronology remain unresolved.
+- **DynoBet (095):** UKGC domain register for ProgressPlay Limited (account 39335) lists dynobet.com as White Label. This does not by itself prove the precise customer-contracting entity or a new-brand launch.
+
+Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24-b.md`.
+
+**Quality gates unchanged:** all five remain HOLD; no consumer testing is claimed; no new review is approved. The displayed directory remains 100 cards with 100 unique card titles, not 100 verified distinct global brands. Approved reviews remain **0/100**. Image candidates remain rights-pending where labelled. The directory remains noindex; this change does not merge the PR or deploy to Cloudflare.
