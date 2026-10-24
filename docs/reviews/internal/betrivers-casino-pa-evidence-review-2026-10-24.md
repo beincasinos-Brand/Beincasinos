@@ -21,6 +21,19 @@ Primary sources:
 - PGCB certificate-holder and authorized websites PDF (updated 13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
 - PGCB interactive gaming operators: https://gamingcontrolboard.pa.gov/interactive-gaming-operators
 
+## First-party service disclosures and current limitations
+
+The current Pennsylvania-facing BetRivers landing page identifies **Rush Street Interactive PA, LLC**, Pennsylvania licence number 110298, as the gaming service provider. It says the service is licensed by the PGCB on behalf of **SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia** (Internet Gaming Certificate 1356) and **Holdings Acquisition Co., LP d/b/a Rivers Casino Pittsburgh** (licence F-1361). This means the customer-facing site describes a multi-certificate relationship; the exact product route and contract terms must be matched to the correct licencee rather than flattened into one entity.
+
+The same first-party page says customers must be at least **21** and physically located in Pennsylvania to wager, and displays the Pennsylvania problem-gambling contact **1-800-GAMBLER**. Its “Get Started” page lists deposit channels including Trustly, ACH, Visa, Mastercard, Discover, PayPal, Play+, Venmo, PayNearMe, VanillaDirect, RushCash and Apple Pay. These are published site disclosures, not an independently verified account-specific cashier menu or evidence of withdrawal performance.
+
+Primary first-party sources:
+- Pennsylvania landing page: https://pa.betrivers.com/
+- Get Started / product and payment overview: https://pa.betrivers.com/?page=get-started
+- Current PGCB certificate-holder and authorized-websites PDF (13 February 2026): https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
+
+**Important access limitation:** the regulator page is readable, but static web retrieval of the BetRivers “Terms of Service”, “Privacy Policy” and “Player Protection” links returned an app/account shell rather than the full policy text. The current policies therefore remain unarchived in this desk-research pass; do not claim that their substantive wording has been verified. Use a browser session to inspect and save the actual policy documents, including promotion-specific terms, cashier/withdrawal conditions, complaints, privacy/cookies and safer-gambling options.
+
 ## Legal/operator distinction
 
 The certificate-holder, interactive-gaming operator, and customer-facing BetRivers brand are distinct roles in the regulator record. Before publishing, match the current customer agreement and privacy notice to the contracting entity. Do not describe Rush Street Interactive PA, LLC as the certificate holder; the cited record names SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia as the certificate holder.
@@ -28,7 +41,7 @@ The certificate-holder, interactive-gaming operator, and customer-facing BetRive
 ## Evidence still required before a consumer review
 
 - [ ] Re-open the current PGCB register and confirm the authorized URL at publication time.
-- [ ] Archive current Pennsylvania terms, privacy notice, bonus conditions, wagering requirements, exclusions and expiry.
+- [ ] Archive current Pennsylvania terms, privacy notice, bonus conditions, wagering requirements, exclusions and expiry; current policy links did not expose full text in static retrieval.
 - [ ] Verify deposit/withdrawal methods, limits, fees, timelines, verification requirements and restrictions.
 - [ ] Verify complaints/support route and applicable Pennsylvania escalation process.
 - [ ] Check responsible-gambling tools, self-exclusion and local help links.
