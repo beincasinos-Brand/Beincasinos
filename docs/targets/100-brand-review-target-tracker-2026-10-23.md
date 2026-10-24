@@ -304,3 +304,15 @@ This corrects the previous batch's claim that all current A+ rows were represent
 Added eight internal B+ product-scope drafts for Madison Casino, PepperMill, CasinoExperience, Loco Casino, CasinoBelgium, Wellington Casino, Versailles Casino and 711 Casino. Official source: https://data.gamingcommission.be/licenses/BPLUS/latest/table.html?lang=en (table updated 16 October 2026). These are **B+ online gaming-arcade records, not A+ online-casino licences**. Do not add them to the casino-only approved target unless editorial/legal scope explicitly permits B+ arcade products. Wellington and Versailles share the listed operator SA/NV SONIC; PepperMill has multiple B+ establishment/operator records. All eight are HOLD pending live contracts, exact product taxonomy, terms and consumer evidence.
 
 This adds eight internal scope/evidence drafts, **zero approved reviews**. The A+ Belgium register batch and the B+ product-scope queue remain separate to avoid inflating the casino count.
+
+
+### Ontario official-directory batch — 24 October 2026
+
+Added five Ontario-specific internal evidence drafts from iGaming Ontario's official operator/site directory (which states it was accurate as of 1 September 2026):
+- `docs/reviews/internal/bet99-casino-ontario-evidence-review-2026-10-24.md` — 1000007698 Ontario Ltd
+- `docs/reviews/internal/casino-days-ontario-evidence-review-2026-10-24.md` — Golden Nebula Limited
+- `docs/reviews/internal/spin-casino-ontario-evidence-review-2026-10-24.md` — Cadtree Limited
+- `docs/reviews/internal/playojo-ontario-evidence-review-2026-10-24.md` — Skill On Net Ltd
+- `docs/reviews/internal/royal-panda-ontario-evidence-review-2026-10-24.md` — TigerGen Limited
+
+Primary sources: https://igamingontario.ca/en/operator/operators and https://www.igamingontario.ca/en/player/regulated-igaming-market. Ontario-only permission; the regulator directory states 19+ and physical presence in Ontario are required to play. These records establish directory association and product category, not tested consumer experience. Cadtree also lists Jackpot City, Royal Vegas and Ruby Fortune; TigerGen also lists LeoVegas, so deduplicate operators and global brands separately. All five remain HOLD pending exact live domain/contract, current terms, payment/withdrawal policy, complaints, safer-gambling, privacy/accessibility, enforcement and independent sign-off. This batch adds **5 internal drafts, 0 approved reviews**.
