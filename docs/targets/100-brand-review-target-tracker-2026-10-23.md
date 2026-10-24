@@ -297,3 +297,10 @@ Expanded the Belgium A+ register work to cover all nine domain rows in the offic
 A fresh lookup of the current official A+ register returned dossier 595153 with domain `betssoncasino.be`, establishment Casino Middelkerke x Betsson, operator SA/NV EXPLOITATIE CASINO MIDDELKERKE, listed expiry 22 February 2039. Earlier captured data associated the dossier with `betfirstcasino.be`. This domain/brand transition must be checked against the live site and current customer contract; do not assume the transition or terms are verified. Added `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md` and corrected the Belgium batch memo.
 
 This corrects the previous batch's claim that all current A+ rows were represented: the earlier nine drafts omitted the Betsson row. There are now **10 Belgium-specific internal draft files** covering the surfaced current A+ row set (nine dossier rows, ten domain strings), with Circus and PokerStars sharing one row. All remain HOLD; approved reviews remain **0/100**.
+
+
+### Belgium B+ product-scope batch — 24 October 2026
+
+Added eight internal B+ product-scope drafts for Madison Casino, PepperMill, CasinoExperience, Loco Casino, CasinoBelgium, Wellington Casino, Versailles Casino and 711 Casino. Official source: https://data.gamingcommission.be/licenses/BPLUS/latest/table.html?lang=en (table updated 16 October 2026). These are **B+ online gaming-arcade records, not A+ online-casino licences**. Do not add them to the casino-only approved target unless editorial/legal scope explicitly permits B+ arcade products. Wellington and Versailles share the listed operator SA/NV SONIC; PepperMill has multiple B+ establishment/operator records. All eight are HOLD pending live contracts, exact product taxonomy, terms and consumer evidence.
+
+This adds eight internal scope/evidence drafts, **zero approved reviews**. The A+ Belgium register batch and the B+ product-scope queue remain separate to avoid inflating the casino count.
