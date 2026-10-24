@@ -385,3 +385,8 @@ Added `docs/research/spain-first-party-terms-follow-up-2026-10-24.md` and an Adm
 ### Registry source-link synchronization — 24 October 2026
 
 Updated the candidate CSV fields (terms, withdrawals, complaints, safer-gambling URLs; source notes; last-checked date; and blockers) for eight market-specific rows: Lottomatica, Sisal, SNAI, Sportium, Admiral Bet (IT), BetFlag (IT), NetBet (IT), and AdmiralBet.es. The full CSV was re-parsed after the edit: **204 data rows, 33 columns, 0 malformed-width rows**. All affected rows remain HOLD. Source URL presence does not mean the page was readable or the terms were fully reviewed; access failures and stale-version blockers are recorded in the rows and research memos.
+
+
+### Emotiva Casino Spain — DGOJ domain/contract blocker — 24 October 2026
+
+Added `docs/reviews/internal/emotiva-casino-es-evidence-review-2026-10-24.md` and updated the Emotiva row in the candidate CSV. DGOJ's current operator profile lists general “Otros juegos” and singular licences for Black Jack, Ruleta, Máquinas de azar and Póquer, but the visible domain list was empty in this capture; historical licence resolutions also refer to Aconcagua Juegos, S.A. First-party terms, payments and complaints pages redirected to `/notallowed.htm` with “Acceso no autorizado”. This is a material domain/contract mapping blocker, not proof that the product is unauthorized. Emotiva remains HOLD; no review approval count changes.
