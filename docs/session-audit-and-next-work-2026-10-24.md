@@ -9,7 +9,7 @@
 - Base: `ops/tier1-10-market-100-brand-roadmap-2026-10-22`
 - PR: https://github.com/beincasinos-Brand/Beincasinos/pull/141
 - PR state: open, Draft, not merged.
-- Latest observed changed-file count before this checkpoint's README and completion-board corrections: 103; this count will increase as these documentation corrections and this audit note land.
+- Latest observed changed-file count at the previous checkpoint: 103; after hosting-status corrections and the new tracker/session audits, the PR has 107 changed files.
 - Public-release decision remains BLOCKED. No production deployment, merge, DNS change, crawl-unblock, or brand outreach was authorized by this work.
 
 ## Work completed in this session
@@ -17,15 +17,15 @@
 1. Added internal brand evidence/reconciliation worksheets for Betfair Casino, Coral Casino, Gala Casino and Virgin Games in Great Britain, plus prior worksheets for the other brands listed in PR history. These are HOLD worksheets, not approved consumer reviews.
 2. Corrected stale README hosting statements that incorrectly said Cloudflare was not connected and Vercel was selected. The final deployment runbook records Cloudflare Pages `beincasinos` connected to GitHub and a preview URL; freshness of the current branch deployment is still unverified.
 3. Corrected stale project-completion-board statements that contradicted later Cloudflare setup notes.
-4. Investigated latest Static site checks workflow run #1312, run ID `40114310640`, for commit `59b74bf192f3a2784f9fdbf171803589714205da`. It failed within approximately one second with runner ID 0 and no recorded steps. The log download returned BlobNotFound. This is **not enough evidence to diagnose a source-code failure**. A rerun of the failed job was requested; result must be checked before claiming CI passes.
+4. Investigated latest Static site checks workflow run #1312, run ID `40114310640`, for commit `59b74bf192f3a2784f9fdbf171803589714205da`. It failed within approximately one second with runner ID 0 and no recorded steps. The log download returned BlobNotFound. This is **not enough evidence to diagnose a source-code failure**. A rerun of the failed job was requested and also failed before runner allocation. Later commit checks show the same immediate failure pattern; no source-level failure has been isolated.
 
 ## Key quality findings
 
 ### The 100-brand goal must not be confused with file count
 
-The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
+The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The master tracker is a separate 105-row research dataset. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
 
-The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 105 lines including its header at this checkpoint. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
+The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 105 data rows (106 lines including its header). 103 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions. All 105 `global_brand_id` fields are blank, preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
 
 ### Review approval criteria
 
