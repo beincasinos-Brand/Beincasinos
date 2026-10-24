@@ -18,6 +18,7 @@
 | CSS-art / monogram fallbacks | 37/100 | Retain until an appropriate asset and reuse basis are verified |
 
 ## Latest completed work
+- Cross-checked both Michigan cards against the official MGCB platform-provider page: Horseshoe's casino-games URL matches exactly; Hard Rock Bet's official casino-games route is on the same domain. The audit records the tribe/casino operator separately from the platform provider and keeps both entries on HOLD pending contracting-entity and consumer-review checks.
 - Added a 100-card identity gap audit: **33** cards have a missing/placeholder official domain, **37** have an unresolved/placeholder operator field, and all 100 cards remain HOLD/EXCLUDE rather than approved reviews.
 - Added a prioritized verification shortlist: **55** rows have a named domain/operator record to verify first; **45** are blocked on identity fields. This is triage only, not a count of eligible brands.
 - Cross-checked the **7 current US-NJ cards** against the NJ DGE official approved-site list, page metadata last modified 15 October 2026. All seven displayed domain hosts match entries on the official list. This verifies only the domain-list match; it does not approve the brands or consumer reviews.
