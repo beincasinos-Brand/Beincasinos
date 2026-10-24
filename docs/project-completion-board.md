@@ -1,3 +1,14 @@
+# Latest work checkpoint — 24 October 2026, 17:40 UTC
+
+- Replaced the retired Pennsylvania Hollywood Casino research card in the public-facing (still noindex) directory with a regulator-sourced BetRivers Casino card. The card identifies Pennsylvania-only scope and correctly separates SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia as certificate holder from Rush Street Interactive PA, LLC as interactive-gaming operator. It carries no score and explicitly states that current terms and consumer testing are incomplete.
+- Fixed semantic markup in that card and re-counted the directory: 100 brand cards remain, exactly one BetRivers card is present, and the old Hollywood Casino card is no longer present.
+- Expanded the admiral.ch dossier and tracker using the Federal Council's 26 February 2025 concession-extension notice naming Casinò Admiral SA, plus the FGB's online platform list and 16 July 2025 authorisation announcement. The customer-contracting entity and current game-by-game permissions remain open.
+- Re-audited the Tier-1 CSV using a quote-aware parser: 106 data records, 18 columns, no malformed row widths, no duplicate brand/market keys. Official-domain status is 58 VERIFY, one UNKNOWN, two NOT APPLICABLE; all 106 global brand IDs are blank, so cross-market deduplication is incomplete.
+- Latest observed GitHub Actions run #1463 (ID 40116692311) for commit 767a769ade7f2506d32eed86fe21fb5f3cbfa0eb failed in about two seconds before any step ran: runner ID 0, no steps, no logs. This is an infrastructure/runner-allocation failure, not an observed source-code test failure. The current head after these newer edits has not yet passed CI.
+- PR #141 remains open, Draft and unmerged, with 122 changed files at the last count. No production deploy, merge, DNS change or indexing release performed. Approved reviews remain 0/100.
+
+---
+
 # Latest work checkpoint — 24 October 2026
 
 - Pennsylvania scope corrected: the legacy pa.hollywoodcasino.com skin is provisionally excluded from the active 100-brand count because the PGCB's 13 February 2026 certificate-holder PDF records it as a former site ending 14 December 2023, while the current logo directory still displays Hollywood Casino Online. Tracker now uses UNKNOWN for the unresolved active domain and requires a current certificate plus matching customer contract before reinstatement. BetRivers Casino (PA) is the replacement lead, with the certificate-holder/operator roles separated correctly.
