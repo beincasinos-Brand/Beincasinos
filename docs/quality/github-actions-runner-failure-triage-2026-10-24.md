@@ -45,3 +45,9 @@ A retry was requested for failed run **40124827950**. GitHub created attempt 2, 
 Run link: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40124827950
 
 This confirms the retried run again failed before any workflow step started. It still does not reveal the underlying GitHub-side runner allocation reason. The retried run targets older commit `edf557f64130949b605d6dca2c18bd28950c8187`, not the current PR head; it is diagnostic evidence of the repeated runner symptom, **not a current-head CI result**.
+
+## Current-head run after the workflow/checker changes — 24 October 2026, 19:37 UTC
+
+The updated workflow did trigger on the current PR head commit `0b48320b383e59e7964c5c90238a9fedcd1d4e36`, run **40126147949**: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126147949
+
+It failed before executing any workflow step. The job record reports `runner_id: 0`, empty runner name, and `steps: []`. Therefore the new exact-name ID checker and its five regression tests have **not** been executed by CI yet. This is a current-head workflow failure, but the missing runner/step evidence still does not identify a code-level failure. Release gate remains blocked.
