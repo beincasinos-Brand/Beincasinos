@@ -139,4 +139,8 @@ The project board's most recent baseline and current checkpoint both say **0/100
 - Tracker remains 106 data rows, 18 columns, no malformed rows/duplicate brand-market keys; 102 global IDs remain blank. Approved consumer reviews remain **0/100**. No merge, production deploy, indexing release, or paid placement was made.
 
 **Next actions:** resolve Actions runner availability with the repository owner; get a current-head preview or deployment identifier before asserting freshness; complete exact customer-contract/current terms and actual usability/accessibility evidence for the ten roadmap targets; reconcile the remaining 102 global brand IDs; obtain independent second reviews.
+## Regulatory-source continuation — 24 October 2026, 19:40 UTC
 
+- Re-opened the Swedish regulator's live Betsson Nordic Ltd enforcement page. It still records the 28 May 2025 warning and SEK 6.5 million sanction, the 2 July 2026 administrative-court rejection, and a subsequent appeal to the Administrative Court of Appeal; no later outcome was displayed on the official page checked today. Updated the Sweden dossier and the Betsson (SE) row in docs/brand-research-template.csv to distinguish the first appeal from the pending further appeal and record the check date.
+- Official source: https://www.spelinspektionen.se/vara-beslut/beslutslista/betsson-nordic-ltd---varning-penningtvatt/ ; enforcement summary: https://www.spelinspektionen.se/nyhetsarkiv/betsson-nordic-ltd-far-varning-och-sanktionsavgift-for-brister-i-arbetet-mot-penningtvatt/
+- Current source changes are documentation-only. They do not change Betsson's HOLD status, do not settle the appeal, and do not count as a completed consumer review.
