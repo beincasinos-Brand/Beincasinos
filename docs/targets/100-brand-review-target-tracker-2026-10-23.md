@@ -446,3 +446,9 @@ Primary records:
 
 - Added [primary-source regulator evidence batch 03](../reviews/internal/regulator-evidence-batch-03-2026-10-24.md) for candidates 17–25 and updated the production ledger with market-specific scope and identity blockers.
 - Dated regulator-source evidence now documented for 24/100 candidates across batches 01–03. Approved consumer reviews remain **0/100**; all 100 publication decisions remain HOLD; score fields remain blank; no merge or Cloudflare production deployment is claimed.
+
+
+## Regulator evidence batch 04 — 24 October 2026
+
+- Added [primary-source regulator evidence batch 04](../reviews/internal/regulator-evidence-batch-04-2026-10-24.md) for candidates 26–35. The ledger now records current market-specific evidence and material regulatory history for Betfred and Betsson, and flags Betway's limited product scope.
+- Batches 01–04 cover dated regulator-source checks for 34/100 candidate rows, plus row 16's official GB regulator record/bonus snapshot. Approved consumer reviews remain **0/100**; all 100 publication decisions remain HOLD; score fields are not populated with ratings; no merge or Cloudflare production deployment is claimed.
