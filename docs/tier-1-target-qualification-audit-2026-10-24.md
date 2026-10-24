@@ -8,7 +8,7 @@ Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026 after t
 
 - Data rows: **106** (excluding header), not 100.
 - Rows within the currently permitted research scope (GB, NL, CH, DE, US-NJ, US-PA, US-MI): **104**; 2 category-level exclusions are for FR and AU.
-- The `global_brand_id` field is blank on **105 rows**; the Hollywood Casino Online (US-PA) row now has the provisional ID `hollywood-casino`. The remaining cross-market identities still require human reconciliation.
+- The `global_brand_id` field is blank on **102 rows**. Four source-matched IDs are populated: Hollywood Casino Online (PA) → `hollywood-casino`, BetRivers Casino (PA) → `betrivers-casino`, Casineo.ch (CH) → `casineo`, and Jollie.de (DE) → `jollie`. Remaining cross-market identities still require human reconciliation.
 - Columns: 18.
 - The Hollywood Casino Online (US-PA) row remains **Hold**, with the PGCB-listed URL `http://www.hollywoodcasino.com`. The PGCB's 2024–2025 Annual Report reports a December 2024 site launch under the Hollywood Casino at Penn National Race Course certificate. The separate legacy `pa.hollywoodcasino.com` URL ended 14 December 2023 and must not be reused. Verify the current HTTPS canonical/redirect and exact customer-contracting entity before publication.
 - Publication status: **103 Hold**, 1 Exclude, 1 Exclude from French online-casino listings, 1 Exclude from Australian online-casino listings.
