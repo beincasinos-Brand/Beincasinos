@@ -32,3 +32,8 @@ The same register row lists circus-casino.be and pokerstars.be under the same es
 ## Editorial disposition
 
 No score or recommendation. Keep **HOLD** until every required evidence gate is documented.
+
+
+## Live-access / redirect limitation — 24 October 2026
+
+A direct fetch of https://www.pokerstars.be/splash/ redirected to **https://www.fanduel.com** in the research browser. This is an observed session result, not proof that PokerStars.be is unavailable for all Belgian users; the cause may include routing, geolocation or bot handling. Nevertheless, it creates a domain/consumer-route ambiguity that must be resolved by a Belgium-specific live visit and current legal footer/terms before publication. The official A+ register's association with dossier 20635 remains only one part of the evidence. No casino play, account creation or payment was tested.
