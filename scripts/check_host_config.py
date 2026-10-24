@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Vercel's static build/output settings and production security headers."""
+"""Validate Cloudflare Pages security headers and the retained Vercel fallback configuration."""
 import json
 import sys
 from pathlib import Path
@@ -78,10 +78,10 @@ if not any(line.strip() == "/*" for line in cf_headers.splitlines()):
     errors.append("cloudflare/_headers: global path rule is required")
 
 if errors:
-    print(f"FAIL: {len(errors)} Vercel configuration issue(s)")
+    print(f"FAIL: {len(errors)} host configuration issue(s)")
     for error in errors:
         print("  ERROR: " + error)
     sys.exit(1)
 
-print("PASS: Vercel fallback config and Cloudflare Pages security-header configuration are valid.")
+print("PASS: Cloudflare Pages security headers and Vercel fallback configuration are valid.")
 print("Note: configuration checks do not verify deployed HTTP responses or domain routing.")
