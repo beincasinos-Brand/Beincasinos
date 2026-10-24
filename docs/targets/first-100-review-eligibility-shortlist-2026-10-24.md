@@ -122,3 +122,9 @@ These rows already show a named domain and operator relationship in the current 
 - [ ] Final review approved for publication; no internal draft counted as a completed review.
 
 **Current decision: HOLD.** Existing entries are market-specific leads, not proof that 100 distinct international brands meet the site's inclusion criteria. The working directory remains noindex and excluded from the sitemap until the release gates are complete.
+
+## Evidence refresh — Betsuna GB (24 October 2026)
+
+- Added `docs/reviews/internal/betsuna-gb-primary-source-verification-2026-10-24.md` with official UKGC licence, domain and trading-name records; current public FAQ/homepage/privacy-policy evidence; and the UKGC's 9 May 2025 £1,000,000 ProgressPlay Limited regulatory action.
+- **Decision unchanged: HOLD / NOT SCORED.** ProgressPlay Limited's Casino Remote permission is Active, but the UKGC lists `betsuna.com` as a **White Label** domain and records no trading names for ProgressPlay. Do not describe Betsuna as a separate licensee or count it as a distinct operator.
+- The current full GB terms, complaints/ADR route, binding bonus terms, privacy/cookie freshness, and current responsible-gambling controls still require review. No account, deposit, withdrawal, game, or support test was performed. This evidence update does not count as an approved consumer review.
