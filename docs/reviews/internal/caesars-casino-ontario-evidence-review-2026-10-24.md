@@ -37,3 +37,22 @@ The same operator also lists Horseshoe Online Casino. Treat those as separate br
 ## Editorial disposition
 
 No score, ranking or recommendation is assigned. Keep **HOLD** until live domain/contract and the full consumer-evidence package are verified. Internal draft only; approved-review count change: zero.
+
+## Fresh iGaming Ontario source recheck — 24 October 2026
+
+Re-opened the current official iGaming Ontario operator directory. It states that its list was accurate as of **1 September 2026**, and records **49 regulated operators / 84 gaming websites**. Under **American Wagering Inc**, the directory lists the site label **Caesars** with casino offering, and separately lists **Horseshoe Online Casino**. This is the current official operator/site association found in this pass; it is not a consumer quality assessment.
+
+- Operator/site register: https://www.igamingontario.ca/en/operator/operators
+- Player-facing regulated-market directory: https://www.igamingontario.ca/en/player/regulated-igaming-market
+- iGaming Ontario player support / complaint process: https://www.igamingontario.ca/en/player/player-support
+- Operator FAQ on ADR: https://www.igamingontario.ca/en/operator/operator-faqs
+
+### Complaint/ADR nuance
+
+iGaming Ontario's operator FAQ says it does **not** require operators to use a third-party Alternative Dispute Resolution provider at this time. Its player-support page describes a path for eligible complaints about regulated sites: players generally need to first make a formal complaint to the operator and obtain a complaint number before escalating an unresolved matter. Do not describe iGaming Ontario as an independent ADR provider or promise that it will adjudicate every transaction dispute; accurately distinguish the operator's own complaint process from iGO's assistance and scope limits.
+
+### Consumer-product evidence still missing
+
+The official directory confirms the site/market relationship only. Current Ontario customer-contracting entity, exact consumer domain and legal footer, bonus and binding terms, cashier/withdrawal methods and fees, response times, responsible-gambling controls, privacy/cookies, accessibility and first-hand support usability remain unverified. No account, deposit, withdrawal or game test was performed.
+
+**Decision unchanged: HOLD / NOT SCORED / NOT APPROVED.** This fresh source pass adds no distinct global brand and no approved review.
