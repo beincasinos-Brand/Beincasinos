@@ -1,13 +1,30 @@
 #!/usr/bin/env python3
 """Regression tests for robots meta directives used by sitemap validation."""
 import unittest
-from scripts.robots_meta import RobotsMetaParser
+from scripts.robots_meta import InlineEventHandlerParser, RobotsMetaParser
 
 
 def parse(html):
     parser = RobotsMetaParser()
     parser.feed(html)
     return parser.noindex
+
+
+class InlineEventHandlerParserTests(unittest.TestCase):
+    def test_inline_click_handler_is_detected(self):
+        parser = InlineEventHandlerParser()
+        parser.feed('<button onclick="run()">Go</button>')
+        self.assertEqual(parser.handlers, [("button", "onclick")])
+
+    def test_mixed_case_handler_and_multiple_elements_are_detected(self):
+        parser = InlineEventHandlerParser()
+        parser.feed('<IMG ONERROR="bad()"><a onmouseover="bad()">link</a>')
+        self.assertEqual(parser.handlers, [("img", "onerror"), ("a", "onmouseover")])
+
+    def test_non_event_attributes_are_allowed(self):
+        parser = InlineEventHandlerParser()
+        parser.feed('<button class="onclick" data-onclick="x" title="ok">Go</button>')
+        self.assertEqual(parser.handlers, [])
 
 
 class RobotsMetaParserTests(unittest.TestCase):
