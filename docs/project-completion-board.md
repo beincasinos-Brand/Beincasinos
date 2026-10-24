@@ -437,3 +437,11 @@
 - Opened [Issue #143](https://github.com/beincasinos-Brand/BeIncasinos/issues/143) for the repeated GitHub Actions runner-allocation failure.
 - Latest run `40137160128` and prior runs terminate before the first step with `runner_id: 0`, blank runner name and no steps. A retry also failed before steps began.
 - The workflow has not validated source, built the Cloudflare artifact or run browser/a11y checks. This issue is an infrastructure blocker; it must not be misreported as a test pass or source-code test failure.
+
+
+# Seventh market-specific bonus evidence pass — Switzerland — 24 October 2026
+
+- Added official promotion sources for Swiss Casinos Online and StarVegas; ledger now has **22** official bonus/promotion URLs. Internal note: `docs/reviews/internal/bonus-snapshot-swisscasinos-starvegas-ch-2026-10-24.md`.
+- Swiss Casinos' official registration page describes up to CHF 1,400 bonus credit + 100 spins, with the components, deposit thresholds, 35x wagering and 30-day expiry recorded. A separate CHF 20 CasinoBoost26 code expired 4 October 2026 and is explicitly excluded from any current-offer claim.
+- StarVegas advertises a welcome offer up to 50 Super Spins and has a separate promotional-terms index, but exact live conditions could not be extracted reliably; this remains held pending manual verification.
+- Ledger audit after the Hollywood Casino HTTPS correction: 100 rows, 43 columns, 100 unique brand/market identities, all populated bonus sources dated 2026-10-24, no blank bonus-status fields, no non-HTTPS populated URL fields, 0 numeric scores, 100 explicit NOT SCORED states, 100 consumer tests NOT PERFORMED, and 100 affiliate disclosures NOT REVIEWED.
