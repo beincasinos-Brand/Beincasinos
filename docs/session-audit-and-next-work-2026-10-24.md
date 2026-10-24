@@ -9,10 +9,14 @@
 - Base: `ops/tier1-10-market-100-brand-roadmap-2026-10-22`
 - PR: https://github.com/beincasinos-Brand/Beincasinos/pull/141
 - PR state: open, Draft, not merged.
-- Latest observed changed-file count at the previous checkpoint: 103; after hosting, tracker, brand-evidence and CSP fixes, PR #141 now has 110 changed files.
+- Latest observed changed-file count at the previous checkpoint: 110; after the review-priority boards, four additional market-specific evidence dossiers and the noindex/sitemap checker fix, PR #141 has 117 changed files at the latest observed count; verify again after subsequent commits.
 - Public-release decision remains BLOCKED. No production deployment, merge, DNS change, crawl-unblock, or brand outreach was authorized by this work.
 
 ## Work completed in this session
+
+5. Re-aligned the ten-target priority board to the approved Tier-1 market scope: GB, NL, CH, DE (Schleswig-Holstein only), US-NJ, US-PA and US-MI. The programme now uses ten brand-market targets across seven market codes, not a claim of ten countries.
+6. Added internal primary-source dossiers for admiral.ch (FGB), Ember (NJ DGE), Hollywood Casino Online (PA PGCB) and Horseshoe Online Casino (MI MGCB). All remain HOLD; no firsthand real-money testing is claimed.
+7. Fixed a sitemap checker inconsistency: it now parses page-level robots directives, omits noindex pages from expected sitemap URLs, and rejects any noindex page found in the sitemap. Updated the public directory copy to state that it remains noindex pending approval.
 
 1. Added internal brand evidence/reconciliation worksheets for Betfair Casino, Coral Casino, Gala Casino and Virgin Games in Great Britain, plus prior worksheets for the other brands listed in PR history. These are HOLD worksheets, not approved consumer reviews.
 2. Corrected stale README hosting statements that incorrectly said Cloudflare was not connected and Vercel was selected. The final deployment runbook records Cloudflare Pages `beincasinos` connected to GitHub and a preview URL; freshness of the current branch deployment is still unverified.
