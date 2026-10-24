@@ -464,3 +464,9 @@ Primary records:
 
 - Added [primary-source regulator evidence batch 06](../reviews/internal/regulator-evidence-batch-06-2026-10-24.md) for candidates 46–55. Ten more ledger rows now include regulator evidence and remaining blockers.
 - Regulator-source coverage across batches 01–06 is 54/100 candidate rows. Approved consumer reviews remain **0/100**; all 100 remain HOLD and no score has been assigned; no merge or Cloudflare production deployment is claimed.
+
+
+## Regulator evidence batch 07 — 24 October 2026
+
+- Added [primary-source regulator evidence batch 07](../reviews/internal/regulator-evidence-batch-07-2026-10-24.md) for candidates 56–65 and recorded source freshness/product-scope blockers in the ledger.
+- Regulator-source coverage across batches 01–07 is 64/100 candidate rows, plus row 16's UKGC record/offer snapshot. Approved consumer reviews remain **0/100**; all 100 remain HOLD/unscored; no merge or Cloudflare production deployment is claimed.
