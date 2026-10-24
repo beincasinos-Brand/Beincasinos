@@ -32,3 +32,15 @@ Decision: **HOLD**; do not import UK terms or offers into Belgium.
 ## Legal and evidence discipline
 
 These are official-page observations, not legal advice or a completed consumer test. No account was created, offer claimed, deposit made, game played, support contacted or withdrawal tested. The market-specific official source and complete terms must be checked before any public summary.
+
+
+## Betway Germany — source correction
+
+Official Germany-specific sources:
+- German homepage/welcome-offer module: https://betway.de/de-de/
+- German terms page: https://betway.de/de/de/dyn/TermsAndConditions
+- Official Germany page observed: the homepage advertises a 100% first-deposit match up to €100, minimum €10 deposit, specified payment methods, 18x wagering, minimum odds 1.75 and a 30-day offer period. However, the retrieved page is primarily sports-betting marketing and does not establish a casino-specific welcome offer or exact German casino product scope.
+
+The prior ledger URL pointed to Betway's UK domain and had UK-only £ offers. It has been replaced with the German domain; the UK offer is not evidence for the German candidate. Verify the exact GGL whitelist product permissions and casino-specific terms before any public claim.
+
+Decision: **HOLD**.
