@@ -291,3 +291,11 @@ Five directory entries received a primary-source reconciliation pass and their d
 Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24-b.md`.
 
 **Quality gates unchanged:** all five remain HOLD; no consumer testing is claimed; no new review is approved. The displayed directory remains 100 cards with 100 unique card titles, not 100 verified distinct global brands. Approved reviews remain **0/100**. Image candidates remain rights-pending where labelled. The directory remains noindex; this change does not merge the PR or deploy to Cloudflare.
+
+
+## 24 October 2026 — image candidate and operator-detail update
+
+- Added a Bally Bet Sports & Casino UK logo candidate reached from the official `ballycasino.co.uk` page. The card now uses the asset with a visible **SOURCE FOUND · RIGHTS PENDING** label and a fallback monogram; the asset register records the same source URL and rights caveat.
+- Directory static check after the update: **100 cards, 100 unique displayed titles, 51 sourced image candidates, 49 CSS artwork/monogram fallbacks**. All 51 image candidates remain rights-pending; none should be treated as cleared for republication.
+- Bally's official page identifies Gamesys Operations Limited as operator, refers to 900+ slots/table games, advertises 24/7 support and lists safer-gambling tools. These are operator statements, not independently tested performance. Payment methods shown on the site still require direct availability, fee and withdrawal checks.
+- The target status is unchanged: the directory is a 100-card research list, not 100 verified distinct global brands. The 100-review approval count remains **0/100**. The page remains noindex and this work has not been deployed to Cloudflare.
