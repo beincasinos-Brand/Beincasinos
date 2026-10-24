@@ -18,6 +18,9 @@
 | CSS-art / monogram fallbacks | 37/100 | Retain until an appropriate asset and reuse basis are verified |
 
 ## Latest completed work
+- Added a 100-card identity gap audit: **33** cards have a missing/placeholder official domain, **37** have an unresolved/placeholder operator field, and all 100 cards remain HOLD/EXCLUDE rather than approved reviews.
+- Added a prioritized verification shortlist: **55** rows have a named domain/operator record to verify first; **45** are blocked on identity fields. This is triage only, not a count of eligible brands.
+- Cross-checked the **7 current US-NJ cards** against the NJ DGE official approved-site list, page metadata last modified 15 October 2026. All seven displayed domain hosts match entries on the official list. This verifies only the domain-list match; it does not approve the brands or consumer reviews.
 - Verified and filled seven previously missing state-specific official domains from primary regulator lists: four New Jersey sites from NJ DGE and three Pennsylvania sites from PGCB. The corresponding cards remain HOLD because regulator listing does not complete legal-entity, consumer-terms or distinct-global-brand checks.
 - Added [first-100 identity-gap audit](targets/first-100-directory-identity-gap-audit-2026-10-24.md); it records domain/operator uncertainty and market-specific duplicate risk. The 100 cards are not 100 distinct global brands.
 - Fixed a CSS cascade defect: the author-level flex rule could override the HTML `hidden` attribute on logo fallbacks, making fallback monograms appear even when an image loaded. Added `.brand-logo-fallback[hidden]{display:none!important}`.
