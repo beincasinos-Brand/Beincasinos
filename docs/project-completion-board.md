@@ -1,3 +1,16 @@
+# Latest QA checkpoint — 24 October 2026, 18:00 UTC
+
+- Audited the two different registries rather than treating them as one count. `docs/brand-research-template.csv` contains **204 market-specific rows, 154 distinct global_brand_id values, 202 HOLD and 2 rejected**. The separate Tier-1 prospect tracker contains **106 rows and 106 blank global_brand_id values**.
+- The 100-name candidate register contains 100 candidates. Exact normalized slug matching finds only 20 direct matches against the 154-ID registry; this is a reconciliation diagnostic, not proof that the other 80 candidate names are absent. Aliases, market variants, and entity/product differences need manual mapping before claiming the selected 100 are globally deduplicated.
+- Added `docs/reviews/internal/global-brand-id-reconciliation-2026-10-24.csv`: one row per distinct registry ID, market-row counts, name variants, market codes, decisions, exact candidate matches and a manual-reconciliation status. No aliases were guessed.
+- Confirmed the PGCB's 13 February 2026 certificate-holder list names BetRivers under SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia (certificate holder) and Rush Street Interactive PA, LLC (interactive-gaming operator), with slots/table games/poker and a BetRivers launch date of 30 January 2020. The separate legacy Hollywood Casino Online domain is in the former-site section and should not be counted as a current target without new proof. <https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf>
+- Latest observed Static site checks runs #1493–#1495 failed in roughly 1–3 seconds, with no recorded steps and no readable logs; job metadata is consistent with runner allocation failing before any source test. A retry was requested for the latest failed run. No successful current-head CI is confirmed.
+- PR #141 remains open, Draft and unmerged, with 122 changed files at the latest count before this reconciliation file; verify the changed-file count again after the latest commit. No production deployment or merge was performed. Approved reviews remain **0/100**.
+
+**Next:** manually resolve the candidate-to-global-ID alias map, inspect current GitHub Actions run status, and only then decide which 100 unique brands are the approved programme cohort. Keep all profiles HOLD until consumer testing and independent review are complete.
+
+---
+
 # Latest correction — 24 October 2026, 19:10 UTC
 
 - **Scope correction:** the 18:15 note below incorrectly claimed the approved international review scope excluded Belgium, Sweden, Denmark, Spain, Italy and Ontario. That was not supported by the programme's ten-market board and conflicts with existing dossiers. The current international priority board is restored to the original ten markets: Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for the current Tipico draft), Switzerland and Ontario, Canada. The 18:15 scope statement is superseded.
