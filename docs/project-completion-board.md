@@ -1,3 +1,14 @@
+# Latest evidence reconciliation — 24 October 2026, 19:20 UTC
+
+- **Hollywood Casino PA correction:** the PGCB's 2024–2025 Annual Report (published 1 October 2025) confirms that Hollywood Casino launched as an iGaming site in December 2024 under the Hollywood Casino at Penn National Race Course certificate. The PGCB's February 2026 certificate-holder PDF separately lists the old `pa.hollywoodcasino.com` URL as a former site ending 14 December 2023. The correct conclusion is **brand relaunch confirmed, current domain unknown**—not “brand retired.” Updated the internal dossier and restored Hollywood Casino Online to the tracker as HOLD with `official_domain=UNKNOWN`.
+- **Tracker QA:** master prospect tracker now has 107 data records plus header, 18 columns, and zero malformed-width rows. The added Hollywood row keeps the global brand ID blank; global alias/deduplication is still incomplete. BetRivers PA remains a separate regulator-supported lead; the international ten-market priority board remains GB, BE, SE, DK, ES, IT, NL, DE-SH, CH and Ontario.
+- **Sweden update:** Betsson dossier now records the current Spelinspektionen betsson.com licence-register result naming Betsson Nordic Ltd and Spin Nordic Ltd, commercial online licence period 24 August 2026–23 August 2031. It explicitly keeps the /sv customer route, contracting entity and appeal outcome as open verification tasks.
+- **QA hardening:** added parser-based CSP artifact checks for inline HTML event handlers and three regression cases. These source changes are present, but the complete workflow has not run on an allocated runner.
+- **CI/release:** PR #141 remains open, Draft and unmerged. Latest observed workflows fail before a runner is allocated (runner ID 0, no steps/logs); a rerun was requested. No successful current-head CI is confirmed. No production deployment, merge, or indexing release was performed. Approved reviews remain **0/100**.
+
+**Next:** reconcile the current Hollywood customer URL against the live PGCB authorised-site list and contract; obtain a functioning CI runner; verify the current Cloudflare preview; then continue dated terms/cashier/accessibility capture and independent second review. Keep all candidates HOLD until every gate passes.
+---
+
 # Latest verified continuation — 24 October 2026
 
 - **Pennsylvania correction:** the legacy `pa.hollywoodcasino.com` site was retired on 14 December 2023, but the PGCB's 2024–2025 Annual Report independently records a Hollywood Casino online-brand launch in December 2024. The previous blanket exclusion was too broad. Hollywood Casino is again a **HOLD** candidate with UNKNOWN current domain and unverified customer-contracting entity; no score or recommendation. The research directory swaps the known inactive Ivy Casino lead for Hollywood Casino, keeping exactly 100 cards.
