@@ -580,3 +580,8 @@ The table below is the exact 100-card working list currently rendered by `brand-
 - **Domain:** `betgoodwin.co.uk` is listed as Active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/2927.
 - **Casino permission:** the licence summary lists **Casino Remote 002927-R-327985-009 — Active**, from 14 September 2023 to Current: https://www.gamblingcommission.gov.uk/public-register/business/detail/2927.
 - **Decision:** positive GB regulator/domain/entity match for the lead, but still HOLD as a publication review until current consumer terms, deposits/withdrawals, complaints/ADR, safer-gambling and privacy evidence, enforcement context, image rights, and independent second review are complete. This source check is not a claim that a consumer account or transaction was tested.
+
+
+## Latest review-draft increment — 24 October 2026
+
+Added an evidence-led London.bet Great Britain draft section to `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md` (commit `6da7fdf25a46a17223fafd57ea6bc0a3ccb1df77`). It records the UKGC operator/licence/domain match, distinguishes operator marketing claims from tested results, and sets out the remaining terms, payment, complaints, privacy, image-rights, SEO and editorial approval gates. This adds one internal draft increment only; it does not qualify as a completed or approved consumer review. Approved reviews remain **0/100**.
