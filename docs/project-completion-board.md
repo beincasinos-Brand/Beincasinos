@@ -1,3 +1,16 @@
+# Latest work checkpoint — 24 October 2026, 19:00 UTC
+
+- Corrected a material Pennsylvania target error: the PGCB's 13 February 2026 certificate-holder PDF lists legacy pa.hollywoodcasino.com under former interactive gaming sites and records its operation ending 14 December 2023. Hollywood Casino Online is now marked EXCLUDED pending fresh proof of a distinct active skin; its previous current-brand claim is withdrawn.
+- Replaced that target with BetRivers Casino — Pennsylvania. Added a new evidence dossier and a master-tracker row based on the PGCB certificate-holder record: SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia is the certificate holder, Rush Street Interactive PA, LLC the interactive gaming operator, and pa.betrivers.com is listed for slots/table games/poker. Current terms and consumer testing remain incomplete.
+- Updated the Tier-1 international priority board and research tracker. The master tracker now has 106 data rows, 59 official-domain placeholders and 106 blank global brand IDs; these are prospect/research counts, not approved reviews.
+- The site-artifact checker was updated to parse robots meta directives and keep noindex pages out of sitemap expectations. This source change still needs a successful CI run and a test against a real built artifact.
+- PR #141 remains open, Draft and unmerged. The latest observed CI attempts fail before runner allocation (runner ID 0, no steps and no readable logs). No successful current-head CI or current-commit Cloudflare preview is confirmed. No production deployment or merge was made.
+- Approved reviews remain **0/100**. All current target dossiers remain HOLD until exact current terms, legal/customer entity match, actual usability/accessibility tests, image rights and independent review are complete.
+
+**Next:** get CI to allocate a runner, validate sitemap/noindex logic against built output, continue current terms/cashier capture on the highest-priority GB profiles, and preserve all publication/production gates.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 18:15 UTC
 
 - Corrected the priority board so it follows the approved Tier-1 scope rather than adding Belgium, Sweden, Denmark, Spain, Italy or Ontario without approval. The ten targets now span seven market codes: GB, NL, CH, DE (Schleswig-Holstein only), US-NJ, US-PA and US-MI.
