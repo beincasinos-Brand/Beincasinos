@@ -16,7 +16,7 @@ Parsed the current 33-column `docs/brand-research-template.csv` on branch `featu
 | Current terms URL | 181 | 23 | 11.3% |
 | Withdrawals URL | 196 | 8 | 3.9% |
 | Complaints URL | 197 | 7 | 3.4% |
-| Responsible-gambling URL | 194 | 10 | 4.9% |
+| Responsible-gambling URL | 192 | 12 | 5.9% |
 | Partnership contact URL | 204 | 0 | 0.0% |
 | Privacy/tracking review status | 62 | 142 | 69.6% |
 | Named reviewer | 20 | 184 | 90.2% |
@@ -72,3 +72,8 @@ Updated four Great Britain market rows in `docs/brand-research-template.csv` wit
 - **Paddy Power Games:** added the official general terms page for terms/withdrawal/safer-gambling research and its official complaints procedure.
 
 The CSV now has **23/204 terms URLs, 8/204 withdrawal URLs, 7/204 complaints URLs and 10/204 safer-gambling URLs**. These fields are source leads only: shared URLs may cover several sections, and page presence does not mean the policies were fully reviewed or that the live product/contracting entity was matched. All four rows remain **HOLD**. No partnership contacts were guessed. No consumer review was approved, no Actions workflow was triggered and no Cloudflare deployment was performed.
+
+
+### Additional safer-gambling source pass
+
+Added official Great Britain safer-gambling sources for **Betway Casino** and **Betfred Casino** on 24 October 2026. Betway's official GB casino slots page describes account controls; Betfred's official safer-gambling FAQ identifies Petfre (Gibraltar) Limited and UKGC account 39544. These are operator sources, not independent usability tests. Current coverage is **12/204** rows with a safer-gambling URL; **192/204** remain blank. Both records remain HOLD.
