@@ -407,3 +407,15 @@ The public directory hero now says **“100 research leads”** rather than impl
 ### Search-index safety gate — 24 October 2026
 
 The 100-entry directory remains an unverified research queue, not a set of finished consumer reviews. Updated `brand-directory/index.html` to `noindex,follow` and removed `https://beincasinos.online/brand-directory/` from `sitemap.xml` (44 URL entries remain). This prevents the queue from being deliberately submitted for indexing while primary-source, consumer-evidence and approval gates remain open. The change is in this draft PR branch only; it has **not** been deployed to Cloudflare production. Re-add the directory to indexing only after its claims and eligibility status are editorially approved.
+
+## Fresh Sweden licence-holder conflict — 24 October 2026
+
+The current Spelinspektionen URL lookups for `betsson.com` and `betsson.com/sv` list **both Betsson Nordic Ltd and Spin Nordic Ltd**. The URL record includes commercial online and betting licence periods beginning 24 August 2026 and a separate betting period beginning 1 January 2024, but does not unambiguously map each licence line to each named holder. The Betsson Nordic Ltd holder page still lists the 28 May 2025 AML warning as appealed.
+
+Primary records:
+- https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com
+- https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com/sv
+- https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=4AC75805E4B90CB63D22F0CA244D54DE28288F2CCBFB67F9C7AC8E172656AC3A
+- https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=55963B9F241E74FEF05A9A6199A7FEA3C303C08563FEFA6BAA7412866C21B9A8
+
+**Decision stays HOLD.** The current live Swedish customer-contracting entity and the regulator's licence-to-holder mapping must be reconciled before publication. The historical SEK 6.5 million AML sanction is against Betsson Nordic Ltd and must not be casually attributed to Spin Nordic Ltd; do not treat the two entities as interchangeable or count them as two consumer brands. Detail: `docs/reviews/internal/betsson-se-evidence-review-2026-10-23.md`. Approved reviews remain **0/100**.
