@@ -176,6 +176,9 @@ const routes = [
     if (!(await page.locator("#progress-fill").getAttribute("class")).includes("progress-1")) {
       throw new Error("terms checklist progress bar did not update its CSP-safe state class");
     }
+    await page.locator("#record-brand").fill("Example Operator");
+    await page.locator("#record-domain").fill("https://example.com");
+    await page.locator("#record-gaps").fill("Domain not independently verified");
     await page.locator("#reset-checklist").click();
     if ((await page.locator("#checked-count").textContent()).trim() !== "0") {
       throw new Error("terms checklist reset did not clear progress");
@@ -183,9 +186,14 @@ const routes = [
     if (!(await page.locator("#progress-fill").getAttribute("class")).includes("progress-0")) {
       throw new Error("terms checklist reset did not reset the progress bar");
     }
+    for (const field of ["#record-brand", "#record-domain", "#record-gaps"]) {
+      if (await page.locator(field).inputValue() !== "") {
+        throw new Error("terms checklist reset did not clear evidence field " + field);
+      }
+    }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset and evidence-field clearing, and no page errors.");
   } finally {
     await browser.close();
   }
