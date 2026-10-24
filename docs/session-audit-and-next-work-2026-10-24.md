@@ -57,3 +57,10 @@ The project board's most recent baseline and current checkpoint both say **0/100
 ## Current decision
 
 **BLOCKED — continue internal research and source/CI fixes only.** This checkpoint does not approve publication, deployment, indexing, paid placement or outreach.
+
+
+## Additional 24 October work checkpoint
+
+- Expanded current first-party GB evidence dossiers and the research template rows for bet365, 888casino and William Hill. Captured payment/withdrawal wording, complaints/ADR routes where found, safer-gambling disclosures and dated regulatory action context. No account or transaction tests are claimed.
+- The master tracker now has 106 rows. The legacy Hollywood Casino Online target is marked Exclude/UNKNOWN pending resolution of conflicting PGCB signals; BetRivers is the replacement PA target. The qualification audit records 58 VERIFY domains, one UNKNOWN and 106 blank global brand IDs.
+- Nine noindex parser regression tests passed in an isolated local harness. Current GitHub Actions runs still fail before runner allocation (runner ID 0, no steps/logs); a rerun was requested. The full site build, browser smoke tests and artifact check remain unverified.
