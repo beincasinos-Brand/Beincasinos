@@ -319,3 +319,10 @@
 - Added [internal regulator evidence batch 05](reviews/internal/regulator-evidence-batch-05-2026-10-24.md) for candidates 36–45 and updated ten ledger blockers/evidence notes.
 - Findings preserve important limits: LeoVegas Germany's official record covers sports betting/virtual slots, not separately evidenced table/live casino; Paddy Power Games' exact casino licensee is unresolved and the UKGC's 2025 review found social-responsibility remote customer-interaction failings across four Paddy Power/Betfair licensees.
 - Batches 01–05 now provide dated regulator-source evidence for 44/100 candidate rows; row 16 / 888casino also has an official UKGC record URL and official bonus snapshot. These are source checks, not finished reviews. All 100 remain HOLD and unscored.
+
+
+## Regulator evidence batch 06 — 24 October 2026
+
+- Added [internal regulator evidence batch 06](reviews/internal/regulator-evidence-batch-06-2026-10-24.md) for candidates 46–55 and updated ten ledger notes.
+- Evidence covers Sportium (IT), Fuegocasino (ES), Hard Rock Bet (Ontario), Monopoly Casino (NJ), Horseshoe (MI), Casumo (DE), Sky Vegas (GB), PokerStars (BE), Pop Casino (SE) and Fair Play Casino (NL). Sky Vegas's 250-vs-50 spin conflict remains unresolved; Casumo's German record supports virtual slots, not a separately evidenced full online casino; Fuegocasino and PlatinCasino share the same DGOJ operator and need distinct-product checks.
+- Batches 01–06 now document dated regulator evidence for 54/100 candidates, including row 16's existing UKGC record and offer snapshot. This is not review completion; all 100 remain HOLD and unscored.
