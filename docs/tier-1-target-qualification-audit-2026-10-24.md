@@ -1,53 +1,58 @@
-# Tier-1 master tracker qualification audit — 24 October 2026
+# Tier-1 prospect-tracker qualification audit — 24 October 2026
 
 **Status:** Internal data-quality audit; not publication approval.
 
-## Snapshot
+## Current snapshot
 
-Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026 after the Pennsylvania target correction.
+Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026.
 
-- Data rows: **106** (excluding header), not 100.
-- Rows within the currently permitted research scope (GB, NL, CH, DE, US-NJ, US-PA, US-MI): **104**; 2 category-level exclusions are for FR and AU.
-- The `global_brand_id` field is blank on **102 rows**. Four source-matched IDs are populated: Hollywood Casino Online (PA) → `hollywood-casino`, BetRivers Casino (PA) → `betrivers-casino`, Casineo.ch (CH) → `casineo`, and Jollie.de (DE) → `jollie`. Remaining cross-market identities still require human reconciliation.
-- Columns: 18.
-- The Hollywood Casino Online (US-PA) row remains **Hold**, with the PGCB-listed URL `http://www.hollywoodcasino.com`. The PGCB's 2024–2025 Annual Report reports a December 2024 site launch under the Hollywood Casino at Penn National Race Course certificate. The separate legacy `pa.hollywoodcasino.com` URL ended 14 December 2023 and must not be reused. Verify the current HTTPS canonical/redirect and exact customer-contracting entity before publication.
-- Publication status: **103 Hold**, 1 Exclude, 1 Exclude from French online-casino listings, 1 Exclude from Australian online-casino listings.
-- Willingness to pay: **104 Unconfirmed**, 2 Not applicable. No row is evidence of confirmed paid-listing demand.
-- The `official_domain` field is the literal placeholder `VERIFY` in **58 rows**. Two rows use `NOT APPLICABLE`; no row currently uses `UNKNOWN`. The PGCB-listed Hollywood Casino URL is HTTP; its current HTTPS canonical/redirect is still unverified.
-- All 106 rows remain unapproved for publication; licence/domain evidence does not substitute for review of the current consumer product.
+- Data rows: **112** (excluding header); this is a mixed market-specific research queue, not 100 approved reviews.
+- Rows within the current roadmap/supplemental research scope: **110** across GB, BE, SE, DK, ES, IT, NL, DE, CH, CA-ON, US-NJ, US-PA and US-MI. Two category-level exclusions remain for FR and AU.
+- Columns: **18**. No malformed-width rows and no duplicate brand/market keys were found in the latest quote-aware parse.
+- `global_brand_id` is populated for **4 rows**: Casineo.ch (CH) → `casineo`; Jollie.de (DE) → `jollie`; BetRivers Casino (US-PA) → `betrivers-casino`; Hollywood Casino Online (US-PA) → `hollywood-casino`. The remaining **108 rows** have blank IDs, so global deduplication is incomplete.
+- Publication status: **109 Hold**, 1 Exclude, 1 Exclude from French online-casino listings, and 1 Exclude from Australian online-casino listings.
+- Willingness to pay remains unconfirmed for all ordinary prospects. No row is evidence of confirmed paid-listing demand.
+- The `official_domain` field is `VERIFY` in **58 rows** and `NOT APPLICABLE` in **2 rows**. No row currently uses `UNKNOWN`; the PGCB-listed Hollywood Casino URL is HTTP, and its HTTPS canonical/redirect plus customer-contracting entity remain unverified.
+- All 112 rows remain unapproved for publication; regulator/domain evidence is not a substitute for current terms, cashier/withdrawal checks, complaints/RG/privacy/accessibility review, documented testing, image rights and independent sign-off.
 
 ## Market distribution
 
 | Market code | Rows | Interpretation |
 |---|---:|---|
-| GB | 69 | Requires exact domain/operator/product checks and current consumer-term review |
-| NL | 18 | Requires exact Ksa brand/domain and permit-scope confirmation |
+| GB | 69 | Exact domain/operator/product checks and current consumer-term review required |
+| NL | 18 | Confirm current Ksa brand/domain notification and permit scope |
 | US-NJ | 7 | New Jersey only; do not generalize to the United States |
-| US-PA | 4 | Pennsylvania only; BetRivers is the current regulator-backed replacement lead |
-| US-MI | 2 | Michigan only |
-| CH | 2 | Swiss register and exact operator/product checks required |
-| DE | 2 | Check exact federal/state product scope; Schleswig-Holstein permission is not blanket Germany permission |
-| FR | 1 | Keep excluded from French online-casino listings pending applicable legal clearance |
-| AU | 1 | Keep excluded from Australian online-casino listings pending applicable legal clearance |
+| US-PA | 4 | Pennsylvania only; verify exact domain and customer-contracting entity |
+| US-MI | 2 | Michigan only; verify exact operator/platform roles and customer terms |
+| CH | 2 | Swiss register, operator and game-permission checks required |
+| DE | 2 | State/product scope must be explicit; Schleswig-Holstein permission is not nationwide German permission |
+| BE | 1 | Belgian Gaming Commission domain/operator and A+ licence scope must match the product |
+| SE | 1 | Swedish licence, domain and current customer terms must match |
+| DK | 1 | Danish licence and exact casino product/domain must match |
+| ES | 1 | DGOJ current authorisation and domain match required |
+| IT | 1 | ADM concession/domain and current terms required |
+| CA-ON | 1 | Ontario-specific registration and customer-contract checks; no province-wide generalization |
+| FR | 1 | Excluded from French online-casino listings pending applicable legal clearance |
+| AU | 1 | Excluded from Australian online-casino listings pending applicable legal clearance |
 
 ## Data-quality risks
 
-1. The tracker has 106 data rows while project language often refers to a 100-brand target. Do not silently truncate or count duplicates; choose a documented 100-row active scope after eligibility checks.
-2. A market code does not prove a brand is currently available or lawful in that market. In the US, each state is a separate scope.
-3. The VERIFY placeholder appears in 58 official-domain cells. These rows need primary-source domain identification before they can count as verified candidates. Hollywood Casino Online (PA) has a regulator-listed HTTP URL, but its HTTPS canonical/redirect and customer contract are not yet verified.
-4. Most rows remain Hold; commercial willingness-to-pay is unconfirmed for every ordinary prospect.
-5. The legacy `docs/brand-prospect-list.md` spans broader regions than the current Tier-1 strategy. Requalify the queue instead of copying its names into public reviews.
-6. A regulator entry can confirm an entity, domain or permitted activity, but does not establish that a full consumer-facing review has been tested or independently approved.
-7. The PGCB's logo directory and certificate-holder list can differ in granularity: a logo alone is not enough to prove that a specific customer-facing skin/domain is currently authorized.
+1. The tracker has 112 rows while the programme goal is 100 globally unique brands. Choose a documented 100-brand cohort after identity and eligibility review; do not silently truncate the queue.
+2. Only four rows currently have a stable global ID. Brand aliases, white-label relationships and market variants require human reconciliation before the cohort can be described as 100 unique brands.
+3. The `VERIFY` placeholder appears in 58 official-domain cells. These entries need primary-source domain identification before they can count as verified candidates.
+4. Market permission is not transferable: US states are separate scopes, Tipico is Schleswig-Holstein-specific, and Ontario/European permissions do not imply broader national or international availability.
+5. The legacy `docs/brand-prospect-list.md` covers regions outside the current programme. Requalify the queue rather than copying its names into public reviews.
+6. A regulator entry can confirm a domain, entity or permitted activity but does not establish consumer quality, firsthand testing, review approval or willingness to buy a paid listing.
+7. Hollywood Casino Online (PA) is a HOLD lead: the PGCB's 13 February 2026 certificate-holder list names `http://www.hollywoodcasino.com` for slots/table games with a 19 December 2024 commencement date. The older `pa.hollywoodcasino.com` URL ended 14 December 2023. Verify HTTPS canonical/redirect and the customer-contracting entity.
 
 ## Required next steps
 
-1. Keep all rows on Hold until their official domain and exact legal operator are resolved; retain explicit Exclude decisions where the current product scope is not established.
-2. Replace each VERIFY only with a domain corroborated by the brand's current official site and the regulator record where one exists; otherwise record UNKNOWN and keep the Hold or Exclude. For Hollywood Casino Online (PA), confirm the secure route and contract entity without treating the retired `pa.hollywoodcasino.com` URL as current.
-3. Review each product against current terms, offers, payment/withdrawal disclosures, complaints/ADR, safer-gambling controls, privacy, accessibility and regulatory history.
-4. Document an explicit scope decision for the 100-brand target, deduplicate same-brand/market entries, and distinguish prospects from review-ready profiles.
-5. Populate a stable global brand identity only after human reconciliation of brand aliases and market variants; do not blindly slug names where two records may be the same brand or operator.
-6. Keep paid-listing demand marked Unconfirmed until directly evidenced; do not infer it from a launch, licence or affiliate programme.
-7. Update this audit only after the tracker changes and rerun a row-count/domain-placeholder check.
+1. Keep all rows on Hold until the current official domain, legal operator and product scope are resolved; retain explicit Exclude decisions where scope is not established.
+2. Replace each `VERIFY` only with a domain corroborated by the brand's current official site and regulator record where one exists; otherwise record `UNKNOWN` and keep Hold/Exclude status.
+3. Review current terms, offers, payment/withdrawal disclosures, complaints/ADR, safer-gambling controls, privacy, accessibility and regulatory history for each product.
+4. Map the candidate register to global IDs manually; the separate candidate-to-global-ID map currently has 36 provisional mappings and 64 unresolved candidates.
+5. Document an explicit 100-brand cohort and market scope. Deduplicate same-brand/market records before claiming progress against the goal.
+6. Keep paid-listing demand Unconfirmed until directly evidenced; do not infer it from a licence, launch, domain or affiliate programme.
+7. Update this audit only after tracker changes and rerun the row-count, schema, duplicate-key and domain-placeholder checks.
 
-**Decision:** The tracker is a research queue, not a list of 100 completed or approved reviews. Current approved-review count remains **0/100** until the separate publication gate is satisfied.
+**Decision:** the tracker is a research queue, not a list of 100 completed or approved reviews. Current approved-review count remains **0/100** until each separate publication gate is satisfied.
