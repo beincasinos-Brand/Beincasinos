@@ -12,3 +12,9 @@
 - Current bonus/promotion URL count is **53 populated / 47 blank**. This is a fresh full-ledger count; it supersedes the stale 50/50 count in the prior audit text. Populated URLs remain leads, not evidence that every offer is current or publication-ready.
 - All 100 entries remain NOT SCORED, review HOLD, publication HOLD; consumer tests remain NOT PERFORMED and image-rights clearance remains pending for all 100.
 - No merge, production publish, or Cloudflare Pages deployment was performed.
+
+## Additional source lead — BetRivers Casino (Michigan), 24 October 2026
+- Official rewards page: https://mi.betrivers.com/?page=rewards
+- The page describes iRush Rewards, loyalty/tier points, Bonus Store Points and a Bonus Store where account holders can redeem rewards including bonus money. This is a rewards-program source lead, not a confirmed welcome offer or guaranteed cash value.
+- No login/account test was performed. Current offer eligibility and account-specific terms still need verification; do not describe points as cash.
+- After this addition, a fresh full-ledger parse reports **54 populated / 46 blank** bonus/promotion URLs across 100 rows and 43 columns. All review and publication holds remain unchanged.
