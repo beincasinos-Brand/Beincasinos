@@ -89,3 +89,9 @@ A fresh GitHub directory listing on the current branch returned:
 - `review-drafts/`: **21 files**.
 
 These are file counts, not completed consumer reviews. They may overlap by brand and market, include scope checks rather than finished reviews, and do not have second-review/editorial approval merely because a file exists. The approved review count remains **0/100**.
+
+## Sweden — current Betsson URL / licence-holder conflict (24 October 2026)
+
+A new official-register recheck shows both Betsson Nordic Ltd and Spin Nordic Ltd on the URL lookup for `betsson.com` and `betsson.com/sv`. The lookup includes a commercial-online licence period from 24 August 2026 to 23 August 2031, while the separate Betsson Nordic holder page still records its 2025 AML warning as appealed. The URL page alone does not clearly map each licence line to each holder. Do not assume the older holder still contracts with Swedish customers, and do not attribute Betsson Nordic Ltd's SEK 6.5m AML sanction to Spin Nordic Ltd without evidence. The current Swedish customer contract and exact licence-holder mapping remain unresolved; Betsson SE stays HOLD and adds zero approved reviews.
+
+Sources: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com ; https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com/sv ; https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=55963B9F241E74FEF05A9A6199A7FEA3C303C08563FEFA6BAA7412866C21B9A8
