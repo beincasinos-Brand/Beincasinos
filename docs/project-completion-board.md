@@ -312,3 +312,10 @@
 - Added [internal regulator evidence batch 04](reviews/internal/regulator-evidence-batch-04-2026-10-24.md) for candidates 26–35.
 - Updated ten ledger rows with dated regulator-source evidence. Material current findings include Betfred's £900,000-in-lieu settlement announced 30 June 2026 for remote customer-interaction/social-responsibility failings, plus its £240,000 technical-standards penalty in 2025; Betsson's SEK 6.5m AML sanction upheld by the administrative court in July 2026 with further appeal noted; and Betway's GGL entry supporting virtual slots/sports betting, not a separately evidenced full online casino.
 - Batches 01–04 now provide dated regulator evidence for 34/100 candidates; 888casino (row 16) also has a regulator record URL and official bonus snapshot. This is not review completion. All 100 remain HOLD and no scores are assigned.
+
+
+## Regulator evidence batch 05 — 24 October 2026
+
+- Added [internal regulator evidence batch 05](reviews/internal/regulator-evidence-batch-05-2026-10-24.md) for candidates 36–45 and updated ten ledger blockers/evidence notes.
+- Findings preserve important limits: LeoVegas Germany's official record covers sports betting/virtual slots, not separately evidenced table/live casino; Paddy Power Games' exact casino licensee is unresolved and the UKGC's 2025 review found social-responsibility remote customer-interaction failings across four Paddy Power/Betfair licensees.
+- Batches 01–05 now provide dated regulator-source evidence for 44/100 candidate rows; row 16 / 888casino also has an official UKGC record URL and official bonus snapshot. These are source checks, not finished reviews. All 100 remain HOLD and unscored.
