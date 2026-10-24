@@ -23,7 +23,7 @@
 
 - **Operator/licence evidence:** UKGC account 38905 identifies Gamesys Operations Limited. Its licence summary lists Remote Casino permission as Active from 1 November 2014; its domain register lists `ballycasino.co.uk` as Active.
 - **Limit:** The register confirms a licence/domain lead, not a public launch date, a standalone operator, consumer experience, or image-reuse permission.
-- **Directory treatment:** Grade B; retain HOLD. Verify the contracting entity, launch/rebrand chronology, current terms, offers, payments/withdrawals, complaints, safer-gambling tools, privacy/cookies, accessibility and current enforcement record.
+- **Directory treatment:** Grade B; retain HOLD. The official site identifies Gamesys Operations Limited as operator and advertises 900+ slots/table games, 24/7 support, deposit/net-deposit limits, time-outs and play-history tools. These are operator claims, not independently tested findings. Verify the contracting entity, launch/rebrand chronology, current terms, offers, payments/withdrawals, complaints, safer-gambling tools, privacy/cookies, accessibility and current enforcement record. An official-site logo candidate was added to the directory and asset register as rights pending.
 - **Primary sources:** [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/38905) · [UKGC domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905)
 
 ## 093 — Alfobet
