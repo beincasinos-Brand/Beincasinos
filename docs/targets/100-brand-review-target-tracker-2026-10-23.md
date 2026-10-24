@@ -375,7 +375,7 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
 - Current card status flags: **HOLD=98, EXCLUDE=2**. Stakemate is excluded because current evidence supports a sports-betting scope, not a verified casino product; Ivy Casino is also excluded pending a verified casino identity/scope.
 - The page remains `noindex,follow`; do not promote this internal research directory as a consumer review destination.
-- Four additional market-specific research drafts have been prepared in the earlier batch D file; batch E screening notes are being maintained internally. These remain internal and do not increase the approved-review count.
+- Existing internal review batches (including batch D) remain research drafts only. This tracker update does not add approved reviews or imply new first-hand testing.
 - **Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
 - No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget.
 
