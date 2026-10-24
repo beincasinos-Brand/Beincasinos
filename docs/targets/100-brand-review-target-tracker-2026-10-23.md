@@ -262,3 +262,14 @@ The original tracker inventory above predates the later batch files below. To pr
 - `docs/reviews/internal/market-review-draft-batch-2026-10-24-e.md` — 5 sections: Virgin Games (GB), PlayOJO (GB), Mr Green (GB), Videoslots (GB), Midnite (GB).
 
 These five batch files contain 25 market-specific draft sections, not 25 approved reviews or necessarily 25 distinct global brands. Several overlap the original evidence inventory or repeat a brand across markets. They do not change the approval ledger: **publication-approved reviews remain 0/100**. Every item requires the original quality gates, current primary-source rechecks, independent second review and editorial/legal approval. No live deployment is implied by these internal files.
+
+
+## Directory primary-source reconciliation — 24 October 2026
+
+Updated four of the final directory cards to replace generic discovery text with exact regulator-backed facts and links:
+- **Spin King (096):** Happytiger ApS / UKGC 57641; active Casino Remote licence and active trading-name entry found; exact live consumer domain remains unresolved.
+- **Bet442 (097):** retained HOLD / grade C. UKGC results associate bet442.co.uk with both Betable Limited and AG Communications Limited; the domain is White Label under one and Inactive under the other. Do not count as qualified until current contracting entity and domain are reconciled.
+- **London.bet Casino (099):** Thistle Bet Limited / UKGC 66162; active Casino Remote licence, domain and trading-name entries.
+- **BetGoodwin Casino (100):** Goodwin Racing Limited / UKGC 2927; active Casino Remote licence, domain and trading-name entries.
+
+Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24.md`. The website cards now link primary register records and list unresolved review gates. This improves evidence traceability only; it does not qualify these brands for publication, establish the full 100 as distinct/eligible, or change the approved-review count. **Publication-approved reviews remain 0/100.** No Cloudflare deployment is implied.
