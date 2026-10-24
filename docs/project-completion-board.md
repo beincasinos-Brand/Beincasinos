@@ -445,3 +445,10 @@
 - Swiss Casinos' official registration page describes up to CHF 1,400 bonus credit + 100 spins, with the components, deposit thresholds, 35x wagering and 30-day expiry recorded. A separate CHF 20 CasinoBoost26 code expired 4 October 2026 and is explicitly excluded from any current-offer claim.
 - StarVegas advertises a welcome offer up to 50 Super Spins and has a separate promotional-terms index, but exact live conditions could not be extracted reliably; this remains held pending manual verification.
 - Ledger audit after the Hollywood Casino HTTPS correction: 100 rows, 43 columns, 100 unique brand/market identities, all populated bonus sources dated 2026-10-24, no blank bonus-status fields, no non-HTTPS populated URL fields, 0 numeric scores, 100 explicit NOT SCORED states, 100 consumer tests NOT PERFORMED, and 100 affiliate disclosures NOT REVIEWED.
+
+
+# Ledger validation regression expansion — 24 October 2026
+
+- Expanded the review-ledger regression suite from five to **seven tests** with explicit cases for rejecting non-HTTPS official sources and malformed bonus-check dates.
+- Existing coverage also tests held/unscored rows, partial component scoring, score-total mismatches, duplicate brand/market identities, and attempted publication without required evidence or cleared image rights.
+- These tests are wired into the existing GitHub Actions workflow, but execution is still blocked by the runner-allocation failure tracked in Issue #143; no test pass is claimed.
