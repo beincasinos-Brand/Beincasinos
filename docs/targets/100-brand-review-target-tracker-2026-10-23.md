@@ -553,7 +553,7 @@ The table below is the exact 100-card working list currently rendered by `brand-
 | 97 | Bet442 | GB | Identity conflict | bet442.co.uk — White Label under Betable Limited; Inactive under AG Communications Limited |
 | 98 | Funky Jackpot | GB | Verification pending | Not verified |
 | 99 | London.bet Casino | GB | Regulator match found; consumer review HOLD | london.bet — UKGC maps to Thistle Bet Limited; domain Active; Casino Remote licence 066162-R-340278-005 Active from 19 Mar 2025 |
-| 100 | BetGoodwin Casino | GB | Verification pending | betgoodwin.co.uk · UKGC domain status: Active |
+| 100 | BetGoodwin Casino | GB | Regulator match found; consumer review HOLD | betgoodwin.co.uk — UKGC maps to Goodwin Racing Limited; domain Active; Casino Remote 002927-R-327985-009 Active |
 
 **Reconciliation result:** 100 cards; 100 unique displayed titles; 60 remote image elements with alt text, lazy loading and error fallback; 40 cards use decorative CSS/monogram fallback. This confirms list/card count only. It does not confirm 100 distinct legal operators, 100 active local casino permissions, image reuse rights, completed reviews, or a Cloudflare production release.
 
@@ -572,3 +572,11 @@ The table below is the exact 100-card working list currently rendered by `brand-
 - **Trading name and domain:** UK Gambling Commission public register maps `london.bet` to **Thistle Bet Limited**, account 66162; the domain register marks `london.bet` Active. Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66162 and https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66162.
 - **Casino permission:** the Commission's licence summary for Thistle Bet Limited lists **Casino Remote 066162-R-340278-005 — Active**, from 19 March 2025 to Current. Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/66162.
 - **Decision:** this is a positive regulator/domain/entity match for the GB lead, not publication approval and not a completed consumer review. Keep HOLD until current consumer terms, payments/withdrawals information, complaints/ADR, safer-gambling tools, privacy/cookies, enforcement context, evidence dates, image rights and independent second review are recorded.
+
+
+### Individual primary-source match — BetGoodwin (GB), 24 October 2026
+
+- **Trading name:** the UK Gambling Commission register lists `betgoodwin` as an Active trading name of **Goodwin Racing Limited**, account 2927: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/2927.
+- **Domain:** `betgoodwin.co.uk` is listed as Active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/2927.
+- **Casino permission:** the licence summary lists **Casino Remote 002927-R-327985-009 — Active**, from 14 September 2023 to Current: https://www.gamblingcommission.gov.uk/public-register/business/detail/2927.
+- **Decision:** positive GB regulator/domain/entity match for the lead, but still HOLD as a publication review until current consumer terms, deposits/withdrawals, complaints/ADR, safer-gambling and privacy evidence, enforcement context, image rights, and independent second review are complete. This source check is not a claim that a consumer account or transaction was tested.
