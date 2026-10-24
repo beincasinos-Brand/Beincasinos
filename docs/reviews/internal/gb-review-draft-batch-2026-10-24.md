@@ -130,3 +130,64 @@ London.bet's safer-gambling page describes account limits and self-exclusion. We
 - Require a second editor to verify every factual claim and all links, then record explicit editorial/legal approval before indexation.
 
 **Sources:** UKGC licence https://www.gamblingcommission.gov.uk/public-register/business/detail/66162 ; trading name https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66162 ; domain https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66162 ; operator homepage https://london.bet/ ; safer-gambling page https://london.bet/safer-gambling .
+
+
+## On-page SEO packages and editorial layout — five GB review drafts
+
+These are implementation-ready metadata and page-structure proposals for the internal drafts below, not publication approvals. Keep each route noindex and out of the sitemap until all evidence gates are passed. Do not add aggregate ratings, Review/AggregateRating schema, invented scores, or stock logos/screenshots without documented rights.
+
+### BetVictor Casino (GB)
+
+- **SEO title:** BetVictor Casino Review UK: Licence, Terms & Withdrawals
+- **Meta description:** Review BetVictor’s UK operator and licence evidence, withdrawal verification terms and the checks still needed on bonuses, payments and safer gambling.
+- **H1:** BetVictor Casino Review (UK): Licence, Terms and Player Checks
+- **Suggested page sections:** At a glance; operator and UKGC record; current casino catalogue (verify live); bonus terms (date-stamped or say not verified); deposits and withdrawals; verification requirements; complaints and ADR; safer gambling; privacy and accessibility; verdict and evidence gaps.
+- **Image brief:** Use a licensed, current brand asset only if permission is recorded. Otherwise create an original neutral editorial illustration about checking casino terms, not a copied logo or a fabricated product screenshot. Alt text should describe what is visibly shown, not claim quality.
+- **Distinctive search intent:** users checking the UK operator identity and withdrawal-verification rules. Keep the enforcement-history check visible before any verdict.
+
+### Coral Casino (GB)
+
+- **SEO title:** Coral Casino Review UK: Licence, Regulatory History & Terms
+- **Meta description:** Check Coral’s UK operator and licence evidence, the context of the 2022 regulatory action involving its licensee, and the current terms still to verify.
+- **H1:** Coral Casino Review (UK): Licence, Regulatory History and Terms
+- **Suggested page sections:** Brand/domain identity; licence status; dated regulatory history and scope; current bonuses and restrictions; payments/withdrawals; complaints and ADR; safer-gambling tools; privacy/accessibility; evidence-led verdict.
+- **Image brief:** Prefer a rights-cleared current brand asset or original neutral illustration. Do not use imagery that sensationalises the historic action or imply the 2022 findings necessarily describe current controls.
+- **Distinctive search intent:** users researching Coral’s regulatory history and what it means. Attribute the 2022 action to LC International Limited’s online business and explain the scope carefully; do not present the £14m amount as a Coral-only penalty.
+
+### Ladbrokes Casino (GB)
+
+- **SEO title:** Ladbrokes Casino Review UK: Operator Identity & Licence Checks
+- **Meta description:** Ladbrokes UK casino review research: why the domain-to-licensee match, current terms, payments and safer-gambling evidence must be confirmed first.
+- **H1:** Ladbrokes Casino Review (UK): Operator and Licence Verification
+- **Suggested page sections:** Identity issue to resolve; regulator records compared; live customer journey; governing terms; bonus evidence; payments/withdrawals; complaints/ADR; safer gambling; privacy/accessibility; publication decision.
+- **Image brief:** Do not use a logo or site screenshot until the exact reviewed domain and asset rights are confirmed. A neutral “operator verification” illustration is safer while the identity match remains unresolved.
+- **Distinctive search intent:** users trying to determine which operator and terms apply to the specific Ladbrokes domain. Do not publish a numerical score or verdict while this remains unresolved.
+
+### Sky Vegas Casino (GB)
+
+- **SEO title:** Sky Vegas Casino Review UK: Promotions, Licence & Safety Checks
+- **Meta description:** Explore Sky Vegas review evidence on promotion restrictions and operator identity, plus the current bonus, withdrawal and safer-gambling checks still required.
+- **H1:** Sky Vegas Casino Review (UK): Promotions and Player Protections
+- **Suggested page sections:** Operator/domain match; current licence record; promotion-restriction policy; current offer terms (only if captured); deposits/withdrawals; complaints/ADR; limits, time-outs and self-exclusion; privacy/accessibility; verdict and unknowns.
+- **Image brief:** Use a rights-cleared asset that genuinely represents the current product. Do not imply that a promotional banner is a current offer unless its eligibility and expiry terms have been archived.
+- **Distinctive search intent:** users trying to understand promotion exclusions and restrictions. Separate general policy from the terms of a specific offer.
+
+### 888casino (Sweden)
+
+- **SEO title:** 888casino Sweden Review: Licence, Spelpaus & Withdrawal Terms
+- **Meta description:** Check 888casino.se’s Swedish licensing record and the evidence still needed on local terms, payments, complaints and Spelpaus protections.
+- **H1:** 888casino Sweden Review: Licence and Player Protection Checks
+- **Suggested page sections:** Swedish domain and licensee; dated Spelinspektionen record; local casino offering; Swedish bonus terms; payment/withdrawal rules; complaints route; Spelpaus and safer gambling; privacy/accessibility; market-specific verdict.
+- **Image brief:** Confirm reuse rights and that the asset matches the Swedish product. Do not reuse a GB or international promotion image as evidence of a Swedish offer.
+- **Distinctive search intent:** Swedish players checking the locally licensed domain and local protections. Keep the Sweden review separate from other 888casino market pages and avoid counting it as a second unique global brand.
+
+### Shared premium review-page design requirements
+
+1. Use a review-page layout rather than a blog-post template: compact brand/market header, visible “last checked” date, evidence-backed licence panel, sticky in-page contents on desktop, clear section navigation, and a concise verdict panel that says “Not rated / verification pending” while evidence is incomplete.
+2. Add a source-and-methodology panel near the top. Label each fact as regulator record, operator statement, or independently tested result; never present an operator claim as test evidence.
+3. Use original visual hierarchy: dark evergreen hero, restrained brass accent, readable light content panels, clear tables for terms and payment limits, and warning/unknown states that remain accessible without colour alone. Keep mobile cards and tables readable without horizontal overflow.
+4. Every meaningful image needs documented rights, source, capture date, and descriptive alt text. A decorative illustration should use empty alt text. Do not hotlink competitor assets, scrape logos, or create fake screenshots, awards, ratings, or reviewer photos.
+5. Add FAQ content only where a real answer is supported by the page evidence. Use structured data only when it accurately represents visible content; no fabricated ratings or review schema. Check canonical, internal links, HTTP status, mobile rendering and Core Web Vitals before launch.
+6. Editorial gate per page: source freshness check; exact market/domain/licensee match; current terms, payment, complaints and safer-gambling evidence; image-rights clearance; second-editor review; legal/compliance approval; only then remove noindex and include in the sitemap.
+
+**Batch SEO package status:** metadata and layout briefs drafted for 5 market-specific review candidates; complete evidence packs, image-rights clearance and publication approval are still outstanding. These 5 packages do not count as 5 approved reviews.
