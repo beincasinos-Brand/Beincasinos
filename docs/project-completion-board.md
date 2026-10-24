@@ -1,15 +1,14 @@
-# Latest work checkpoint — 24 October 2026, 19:30 UTC
+# Latest work checkpoint — 24 October 2026
 
-- Corrected the Pennsylvania candidate register: the old Hollywood Casino Online route is excluded because the PGCB's 13 February 2026 certificate-holder record lists the legacy skin as ended 14 December 2023. The priority target is BetRivers Casino (PA), with certificate holder SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia, interactive operator Rush Street Interactive PA, LLC, and the Pennsylvania-specific pa.betrivers.com route. BetRivers remains HOLD; current terms, consumer tests and second review are outstanding.
-- Added internal regulator-led dossiers for admiral.ch (Swiss FGB), Ember (New Jersey DGE), and Horseshoe Online Casino (Michigan MGCB). Hollywood's draft was replaced by a dated status correction; it is not counted as an active target.
-- Hardened sitemap validation: a shared HTML robots-meta parser recognizes noindex/none directives, keeps noindex pages out of the expected sitemap set, and flags them if listed. Added seven regression tests for directive order, case, whitespace, false positives and default behaviour, and wired them into the Static site checks workflow.
-- Source-level execution of the parser's seven cases passed locally in an isolated Python check. This does not equal running the repository's complete CI or testing the actual built artifact.
-- Current PR #141 head is `1a22de9ff596063eed9875bd2f7cfe2f4067fa81`; 122 changed files at the last check. PR remains open, Draft and unmerged. The latest observed Actions job failed before runner allocation (runner ID 0, no steps and no logs); no successful CI run for the current head is confirmed. A rerun was requested on an earlier attempt but showed the same pre-runner failure.
-- Live-site spot-check: production currently returns 404 for `/brand-directory/`; the current public sitemap lists 46 URLs and does not include that route. This is consistent with the research-directory change remaining branch-only; no production release was attempted.
-- Approved consumer reviews remain **0/100**. All incomplete profiles remain HOLD; no merge, production deploy, indexing release, paid placement or outreach occurred.
+- Corrected the Pennsylvania candidate register: the PGCB's 13 February 2026 certificate-holder record lists the legacy pa.hollywoodcasino.com skin as a former interactive site that ended 14 December 2023. It is excluded as a current target unless a current certificate and customer contract establish a distinct active skin. BetRivers Casino (PA) replaces it; the PGCB record names SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia as certificate holder, Rush Street Interactive PA, LLC as interactive operator, and the Pennsylvania-specific pa.betrivers.com route. BetRivers remains HOLD; current terms, consumer tests and second review are outstanding.
+- Added internal regulator-led dossiers for admiral.ch (Swiss FGB), Ember (New Jersey DGE), BetRivers (Pennsylvania PGCB) and Horseshoe Online Casino (Michigan MGCB). The Hollywood draft is now a dated status correction, not an active target.
+- Hardened sitemap validation: a shared HTML parser respects both general robots and crawler-specific noindex directives (including Googlebot variants), omits noindex pages from expected sitemap URLs, and flags them if listed. The parser has **9 regression tests** covering directive order, casing, whitespace, Googlebot variants, false positives and default behaviour.
+- Ran all nine parser regression tests in an isolated local test harness: **9 passed**. This is a narrow parser test, not the full repository CI or a run against the actual built site artifact.
+- Latest verified branch head: b4e114e6423ade1c8843f8c8fa6715c377f850a5. PR #141 has **122 changed files**, remains open, Draft and unmerged. The latest observed Static site checks run for this head failed before a runner/steps/logs were available; commit status exposes no individual checks. No successful current-head CI is confirmed.
+- Production /brand-directory/ previously returned 404 and the production sitemap did not list it. The research directory is branch-only; no production release was attempted.
+- Approved consumer reviews remain **0/100**. All incomplete profiles remain HOLD. No merge, production deployment, indexing release, paid placement or outreach occurred.
 
-**Next:** get GitHub Actions to allocate a runner; run the full suite and test the checker against the built artifact; continue evidence capture for the highest-priority GB profiles; independently review any complete drafts; keep all production/publication gates intact.
-
+**Next:** resolve the GitHub Actions pre-runner failure; run the full suite and build-artifact check; verify a current Cloudflare preview for the latest commit; then continue current terms/cashier capture on the highest-priority GB reviews.
 ---
 
 # Latest work checkpoint — 24 October 2026, 19:00 UTC
