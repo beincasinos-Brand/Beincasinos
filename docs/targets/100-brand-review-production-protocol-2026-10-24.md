@@ -45,3 +45,10 @@ Use an official brand image only when its source and reuse basis are recorded. U
 - Content/SEO release plan: docs/100-brand-content-and-seo-release-plan.md
 
 No score, current bonus, image, consumer-experience claim or publication approval is invented in the new ledger. Bonus and image evidence remains pending until captured.
+
+
+## Automated ledger guardrail (24 October 2026)
+
+`python3 scripts/check_review_ledger.py` verifies the 100-row ledger schema, unique brand/market identities, HTTPS evidence links, ISO-formatted bonus-check dates, component score bounds and score-sum consistency. It rejects partial rubric scoring and prevents a row from being marked approved/published without the required source fields and explicitly cleared image rights. Regression tests live in `scripts/test_review_ledger.py` and are wired into the static-site workflow.
+
+A structural PASS is not evidence that a regulator page is current, that an offer is available, that a brand is safe, or that a review is approved. Run this gate alongside manual primary-source review and the full publication checklist; do not bypass HOLD statuses to satisfy a numeric target.
