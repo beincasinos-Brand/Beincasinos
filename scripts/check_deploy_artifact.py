@@ -50,11 +50,11 @@ else:
             # Keep the sitemap synchronized with the actual public HTML pages.
             # The 404 page is intentionally excluded from indexable routes.
             expected_urls = set()
+            noindex_urls = set()
             for html_file in DIST.rglob("*.html"):
                 rel = html_file.relative_to(DIST).as_posix()
                 if rel in {"404.html", "google05b7a00eb84d7acb.html"}:
-                    # Google Search Console verification is a required public asset,
-                    # but it is not an indexable content page and must stay out of the sitemap.
+                    # Error and verification pages are required assets, not sitemap content.
                     continue
                 if rel == "index.html":
                     route = "/"
@@ -62,10 +62,17 @@ else:
                     route = "/" + rel[:-len("index.html")]
                 else:
                     route = "/" + rel
-                expected_urls.add("https://beincasinos.online" + route)
+                canonical_url = "https://beincasinos.online" + route
+                html_text = html_file.read_text(encoding="utf-8").lower()
+                if "noindex,follow" in html_text and "robots" in html_text and "name" in html_text:
+                    noindex_urls.add(canonical_url)
+                    continue
+                expected_urls.add(canonical_url)
             if len(urls) != len(expected_urls):
                 errors.append(f"dist/sitemap.xml: expected one URL per indexable HTML page ({len(expected_urls)}), found {len(urls)}")
             actual_urls = set(urls)
+            for forbidden in sorted(noindex_urls & actual_urls):
+                errors.append(f"dist/sitemap.xml: noindex page must not be included: {forbidden}")
             for missing in sorted(expected_urls - actual_urls):
                 errors.append(f"dist/sitemap.xml: public HTML route missing from sitemap: {missing}")
             for unexpected in sorted(actual_urls - expected_urls):
