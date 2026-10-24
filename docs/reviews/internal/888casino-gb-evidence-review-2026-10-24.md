@@ -24,13 +24,38 @@ The UKGC register records regulatory actions for 888 UK Limited. At least the fo
 
 **Editorial rule:** report the dates, regulatory findings, amounts, relevant product/process scope, and the regulator's recorded mitigating/remedial context accurately. Do not present historical action as proof that a current process is failing, nor omit it from the reader's assessment. Verify whether subsequent decisions, appeals, corrections or follow-up actions exist.
 
+
+## Current GB terms, promotion and safer-gambling evidence captured
+
+The UK-specific User Agreement linked from 888casino's own site is the controlling first-party source for this market. It identifies **888 UK Limited**, Gibraltar company number 111791, as the contracting operator and UKGC account **39028** for Great Britain and Northern Ireland. The terms list 888casino.com among the covered domains and cross-reference casino-specific bonus policies and game rules. Source: https://www.888casino.com/security-and-privacy/user-agreement-uk/
+
+### Consumer-facing conditions worth disclosing
+
+- **Verification before use/withdrawal:** the agreement says identity and, in some circumstances, source-of-funds checks may apply at account opening and during the relationship. Unresolved checks can restrict deposits, gameplay or withdrawals.
+- **Customer funds:** the GB terms say customer funds are held in a designated client account separate from company funds and describe this as “medium protection”, while explicitly warning that repayment is not absolutely guaranteed in insolvency. This is a contractual disclosure, not independent assurance about the bank or the current balance.
+- **Inactive account fee:** the agreement says an account becomes inactive after 365 days without login; following notice and at least 30 days, an administration fee of **£3 per month** may be deducted from a positive inactive balance. This is a material term to mention and verify against the current version before publication.
+- **Withdrawal rules:** the agreement permits withdrawal of available balances subject to verification, banking clearance, applicable minimum thresholds and the withdrawal clause; maximum winnings limits can also apply and are specified in relevant game rules. A separate withdrawal policy page last updated 16 April 2024 contains broad multi-currency language and should not be treated as the definitive current GB cashier policy without confirming the live UK link. Current cashier-specific methods, fees, limits and time frames still need a fresh capture.
+- **Complaints / ADR:** the GB terms direct customers first to customer services/live chat, then to the Second Opinion team, and allow referral to **eCOGRA** if dissatisfied or if no final response is received within eight weeks. Source: https://www.888casino.com/security-and-privacy/user-agreement-uk/ (clauses 14.1–14.4).
+- **Safer gambling:** the agreement links to its safer-gambling pages and says 888 is registered with **GAMSTOP**, with self-exclusion periods described as six months, one year or five years. The regulator's 18 November 2025 sanction for self-exclusion controls makes it especially important to distinguish written policy from tested operation. Source: https://www.888casino.com/security-and-privacy/user-agreement-uk/ (clause 16).
+- **Example of a current promotion (checked 24 October 2026):** the first-party UK offer page advertises a 100% slots bonus up to **£100**. The terms require a first deposit of at least £10, a qualifying stake on selected slots within 48 hours, claiming within 48 hours, and 10x wagering on selected slots within 90 days; winnings are capped at £100 and the promotion ends 31 December 2026. This is a dated example, not a permanent offer or a recommendation. Check availability/eligibility before publication. Source: https://www.888casino.com/promotions/deposit-welcome-uk/
+
+### Regulatory history and current risk framing
+
+The UKGC's current account 39028 record lists three recent actions that must remain in the review: **£23,000 (19 August 2024)** for a credit-card-use licence-condition breach; **£33,075 (7 August 2025)** for failures around identifying linked customers across group accounts; and **£86,843 (18 November 2025)** for a remote self-exclusion code breach. The regulator records that the operator self-identified/cooperated and took remedial action in these matters, and specifically notes for the 2025 self-exclusion action that controls preventing excluded customers from logging in or gambling were not affected. Sources: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/272 and https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/299.
+
+These are dated findings against the named licensee, not proof of current product performance. They are nevertheless material evidence and should not be omitted. No independent verification of remediation or real-world self-exclusion operation has been performed here.
+
+## Work still not performed
+
+No account creation, identity verification, deposit/withdrawal, gameplay, support contact, mobile/keyboard/accessibility test, promotion-eligibility test, image-rights clearance or independent second review has been performed. Keep the review on HOLD and do not assign a score.
+
 ## Evidence gaps before any rating or publication
 
 | Area | Evidence still required | Gate |
 |---|---|---|
-| Current GB contracting terms | Save exact current terms, version/date and relevant operator clause | HOLD |
+| Current GB contracting terms | Archive current UK User Agreement, applicable casino rules and version/date | HOLD |
 | Bonus/promotions | Dated GB offer terms, eligibility, expiry, wagering and game restrictions | HOLD |
-| Payments/withdrawals | Current withdrawal policy, methods, limits, fees, verification and processing wording | HOLD |
+| Payments/withdrawals | Capture current GB cashier methods, limits, fees and timing; do not treat the older generic withdrawal policy as sufficient | HOLD |
 | Complaints and ADR | Current GB complaint steps, response timing, applicable independent ADR provider | HOLD |
 | Safer gambling | Verify limit tools, time-outs, self-exclusion and account-group handling against current terms | HOLD |
 | Games and fairness | Current game catalogue, provider/game rules, RNG/testing claims and primary evidence | HOLD |
