@@ -8,15 +8,15 @@
 
 | Measure | Count | Meaning |
 |---|---:|---|
-| Candidate rows | 204 | Market-specific registry records, not approved brands |
-| Distinct display names | 204 | Names differ, but cross-market aliases can represent the same global brand |
-| Non-empty provisional global brand IDs | 154 | Useful deduplication keys; not 154 regulator-verified eligible operators |
-| Distinct brand-ID / market pairs excluding explicit unconfirmed/excluded codes | 200 | Market leads; still subject to legal and identity qualification |
+| Candidate rows | 207 | Market-specific registry records, not approved brands |
+| Distinct display names | 207 | Names differ, but cross-market aliases can represent the same global brand |
+| Non-empty provisional global brand IDs | 207 | Every row currently has a populated ID; there are 156 distinct IDs, not 207 unique global brands |
+| Distinct brand-ID / market pairs excluding explicit unconfirmed/excluded codes | 203 | Market leads; still subject to legal and identity qualification |
 | Rows with publication decision HOLD | 202 | Not approved |
 | Rows rejected | 2 | Must not count toward the target |
 | Rows approved for publication | **0** | The 100-review target remains unmet |
 
-The registry contains 30 global-brand IDs that repeat across more than one row/market. Examples include bet365-casino, 888casino, betway, leovegas, unibet-casino, pokerstars-casino, bwin, betano, betmgm-casino, betsson and casino777. Cross-market rows do not increase the unique-global-brand count. No duplicate eligible brand-ID/market pair was found by the CSV-level key check, but this does not prove that the candidate is eligible or that the IDs themselves are all canonical.
+The registry contains 31 global-brand IDs that repeat across more than one row/market. Examples include bet365-casino, 888casino, pokerstars-casino, betsson, betway, leovegas, unibet-casino, bwin, betano, betmgm-casino, draftkings-casino, fanduel-casino, betrivers-casino, hard-rock-bet-casino and fanatics-casino. Cross-market rows do not increase the unique-global-brand count. No duplicate eligible brand-ID/market pair was found by the CSV-level key check, but this does not prove that the candidate is eligible or that the IDs themselves are all canonical.
 
 ## File inventory — do not confuse records with reviews
 
@@ -47,7 +47,7 @@ Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.ht
 
 ## Detailed market-row reconciliation — 24 October 2026
 
-The same CSV snapshot breaks down as follows. These are **raw rows**, not eligible or unique global brands.
+The current CSV snapshot (207 data rows) breaks down as follows. These are **raw rows**, not eligible or unique global brands.
 
 | Market code | Rows | Scope caveat |
 |---|---:|---|
@@ -56,7 +56,7 @@ The same CSV snapshot breaks down as follows. These are **raw rows**, not eligib
 | ES | 19 | Match current DGOJ casino permission and exact product/domain |
 | US-NJ | 30 | New Jersey only; multiple brands may share licensed casino affiliates |
 | US-MI | 14 | Michigan only |
-| US-PA | 1 | Pennsylvania-specific lead |
+| US-PA | 2 | Pennsylvania-specific leads; BetRivers and the newer Hollywood Casino Online route remain HOLD |
 | CA-ON | 13 | Ontario only; not all Canada |
 | CA-BC | 1 | British Columbia only |
 | CA-QC | 2 | Québec-specific product and operator checks |
@@ -65,7 +65,7 @@ The same CSV snapshot breaks down as follows. These are **raw rows**, not eligib
 | NL | 8 | Check shared operators and exact Ksa product/domain |
 | SE | 7 | Current domain-specific licence and terms required |
 | DE | 13 | Mixed nationwide and category/state-specific leads |
-| DE-SH | 1 | Schleswig-Holstein-specific; reconcile overlap with DE |
+| DE-SH | 2 | Schleswig-Holstein-specific; reconcile overlap with DE |
 | FR | 2 | Online casino is not generally authorised; do not count these as eligible casino brands without a lawful product-specific basis |
 | UNCONFIRMED | 3 | Not countable until market and local route are evidenced |
 | EXCLUDED | 1 | Archive only |
@@ -74,7 +74,7 @@ Repeated global identities include bet365 (5 rows), 888casino (4), PokerStars (4
 
 ## Scope-triage identities and exclusions
 
-Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano, Betsson, NordicBet Casino, Betclic, Winamax and Espacejeux. Three records remain in UNCONFIRMED (Betsson, NordicBet Casino and Rizk) and must not count until a named target market and local route are evidenced. Two rejected rows are 32Red (inactive current GB casino permission/domain) and Betfred (Spain casino permission extinguished in 2023); the latter rejection applies to the Spanish row, not automatically to unrelated markets.
+Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano, Betsson, NordicBet Casino, Betclic, Winamax and Espacejeux. Three records remain in UNCONFIRMED (Betsson, NordicBet Casino and Rizk) and must not count until a named target market and local route are evidenced. Two rejected rows are 32Red (inactive current GB casino permission/domain) and Betfred (Spain casino permission extinguished in 2023); the latter rejection applies to the Spanish row, not automatically to unrelated markets. Current totals: 207 market-specific rows, 156 distinct global IDs, 205 HOLD and 2 rejected.
 
 ## Belgium source correction
 
