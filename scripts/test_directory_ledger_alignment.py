@@ -20,6 +20,11 @@ class DirectoryLedgerAlignmentTests(unittest.TestCase):
         identities = {("Holland Casino Online", "NL"), ("Ember Casino", "US-NJ")}
         self.assertEqual(compare_identities(identities, identities), [])
 
+    def test_ci_mode_requires_one_hundred_unique_identities(self):
+        identities = {("One Casino", "GB")}
+        errors = compare_identities(identities, identities, require_100=True)
+        self.assertTrue(any("must contain 100 unique brand/market identities" in e for e in errors))
+
     def test_market_mismatch_is_not_treated_as_a_match(self):
         directory = {("Tipico Casino", "DE")}
         ledger = {("Tipico Casino", "DE-SH")}
