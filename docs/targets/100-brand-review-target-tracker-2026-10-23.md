@@ -231,3 +231,12 @@ The preceding counts are the **23 October baseline**, not a live total of distin
 The live-site release-gate audit is recorded at `docs/audits/live-site-release-gate-2026-10-24.md`. Its live fetch confirmed that `robots.txt` allows crawling and points to the sitemap, the sitemap currently advertises 46 URLs, and `/reviews/` explicitly states that no casino profiles are currently scored or ranked. These checks do not establish Google indexing, full technical QA, or publication readiness.
 
 Before promoting any candidate, record the exact market, product, live domain, contracting legal entity, current regulator evidence, dated consumer-product checks, enforcement follow-up, image rights, independent second review, and editorial/legal sign-off. If any mandatory field is unresolved, keep the candidate on HOLD and do not score it.
+
+
+### Additional primary-source delta — 24 October 2026
+
+- **QuinnBet (GB):** UKGC records account 61011, QuinnBet (Gibraltar) Limited, with Casino Remote Active and active domain/trading-name entries. The regulator also records a settlement dated **20 August 2026**, including a public statement and payment in lieu of a financial penalty of **£609,104**, for AML/CTF, remote customer interaction and financial-vulnerability-control failings. Keep on enhanced-risk HOLD; licence status does not negate the enforcement findings. See `docs/research/primary-source-follow-up-ukgc-nj-2026-10-24.md`.
+- **Betway (GB):** UKGC account 39372 shows Casino Remote Active, active `betway.com` / `casino.betway.com` domain entries, and no regulatory actions recorded for that business in the checked record. Still HOLD pending exact live contracting-entity match and full consumer evidence; this is not a quality verdict.
+- **New Jersey inventory:** the live DGE approved-site page now includes `jackiecasino.playstar.com` and `rwbetnj.com/en/casino` under Ocean Resort Casino. Added as unqualified leads only; neither counts as a distinct eligible brand until exact product/entity mapping, deduplication and consumer review gates pass. See `docs/research/new-jersey-dge-candidate-delta-2026-10-24.md`.
+
+These deltas are research corrections, not newly approved reviews. Keep the authoritative publication count at **0/100** until each candidate has passed all mandatory gates.
