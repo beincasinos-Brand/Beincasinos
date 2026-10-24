@@ -460,3 +460,12 @@
 - Codere's official pages conflict on the minimum qualifying deposit (€10 in the casino journey vs €20 on the welcome-bonus explainer) and mix sports/casino product language; no casino-only offer was cleared.
 - AdmiralBet's official casino page describes 50 registration spins, a 100% first-deposit bonus up to €150 and 50 post-deposit spins. Its €10 free bet is a sports benefit and is deliberately excluded from casino bonus value; exact casino wagering/expiry/cashout terms remain outstanding.
 - Both rows remain held; no account or offer testing was performed.
+
+
+# Ninth market-specific bonus evidence pass — Great Britain — 24 October 2026
+
+- Added official offer-source entries for Paddy Power Games, William Hill Casino and Virgin Games. The ledger now contains **30 official bonus/promotion source URLs across 100 candidates**. Internal note: `docs/reviews/internal/bonus-snapshot-paddypower-williamhill-virgingames-gb-2026-10-24.md`.
+- Paddy Power's Live Casino welcome offer requires code PASREG and £10 eligible live-casino wagering for 10 Golden Chips worth £5 total; valid UK/IE, debit card/Apple Pay only, three-day expiry and no wagering on chips.
+- William Hill's official homepage module advertises up to 200 spins after a £10 qualifying stake, but the exact current GB offer route and deposit-versus-stake sequence still require confirmation.
+- Virgin Games' official UK page advertises 100 Game of Thrones spins after opt-in and at least £10 deposit + slot wagering; 10p/spin and 30-day expiry are stated, with full rules still to verify.
+- All three remain HOLD. Ledger audit confirms 100 rows, 43 columns, 30 dated bonus sources, zero blank bonus-status fields, zero non-HTTPS populated URLs and zero numerical review scores.
