@@ -2,7 +2,7 @@
 
 **Research date:** 24 October 2026  
 **Market:** Belgium only  
-**Status:** **HOLD — operator/domain association supported; official A+ expiry data conflicts across language variants, and full consumer evidence is incomplete**  
+**Status:** **HOLD — current live regulator table views agree on dossier 20000 dates; full consumer evidence is incomplete**  
 **Method:** desk research of the Belgian Gaming Commission's A+ register, the first-party Betano Belgium page and first-party responsible-gambling pages. No account was opened; no deposit, withdrawal, customer-support or real-money play test is claimed.
 
 ## Identity and regulator evidence
@@ -16,16 +16,16 @@
 - **Primary regulator source:** Belgian Gaming Commission A+ register, English table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
 - **First-party source:** https://www.betano.be/en/
 
-### Material register discrepancy — do not publish a definitive expiry yet
+### Current live register dates — rechecked 24 October 2026
 
-The regulator's **English A+ table, last updated 8 October 2026**, currently displays dossier 20000 with decision date **12 November 2024** and expiry **31 December 2026**. The regulator's **French table, last updated 28 August 2026**, displays the same dossier/domain/operator with decision date **11 December 2019** and expiry **11 December 2034**. The operator identity, A+ dossier and domain match, but the date fields conflict across official language variants.
+The current live Belgian Gaming Commission A+ table returned the same row in both English and French views for dossier **20000**: decision date **12 November 2024**, expiry **31 December 2026**, domain `www.betanocasino.be`, establishment VIAGE, operator SA/NV CASINOS AUSTRIA INTERNATIONAL BELGIUM. The French-language search-index snippet still surfaced an older 2019/2034 row, but a fresh live fetch of the regulator page no longer showed that value. Treat the live regulator page as the source of record and do not repeat the stale indexed 2034 date.
 
 Primary source captures:
-- English A+ table (last updated 8 Oct 2026): https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
-- French A+ table (last updated 28 Aug 2026): https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=fr
+- Current live English A+ table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
+- Current live French A+ table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=fr
 - First-party Betano Belgium disclosure: https://www.betano.be/en/
 
-**Decision:** use the newer-dated English table as the current register lead, but do **not** state that the A+ authorisation expires in 2034 or conclude that it is renewed beyond 31 December 2026. The apparent mismatch needs direct verification against the regulator's downloadable source data or written regulator clarification. The first-party statement confirms the operator's claimed licence reference, not the disputed expiry. Recheck immediately before any public publication.
+**Decision:** the live register currently supports an A+ dossier expiry of **31 December 2026**; it does not support claiming an expiry in 2034. The record remains time-sensitive, so recheck immediately before publication. This regulatory record alone is not a full review or a quality rating.
 
 ## First-party responsible-gambling disclosures — not independently tested
 
@@ -53,7 +53,7 @@ The complete current Belgian casino customer agreement and bonus rules were not 
 
 ## Consumer evidence still required
 
-- [ ] Resolve the A+ dossier 20000 date/expiry conflict with the current downloadable register data or regulator confirmation.
+- [ ] Recheck dossier 20000 and expiry against the live register immediately before publication; retain a dated capture because the indexed French snippet was stale.
 - [ ] Archive the complete current Belgian casino customer agreement and identify its version/effective date.
 - [ ] Capture current casino bonus terms, wagering, exclusions, expiry, maximum bet and withdrawal restrictions.
 - [ ] Verify the live cashier's methods, limits, fees, identity checks and withdrawal disclosures; no actual payment test is claimed.
@@ -66,4 +66,4 @@ The complete current Belgian casino customer agreement and bonus rules were not 
 
 ## Editorial disposition
 
-The A+ dossier 20000, domain and operator association is supported, and the first-party site states A+ 20000 for casino. However, official language variants conflict on the decision/expiry dates: the newer-dated English table shows expiry **31 December 2026**, while the French table shows **11 December 2034**. Treat licence-date certainty as unresolved until the regulator data is reconciled. Full consumer terms, testing, image rights and independent review also remain incomplete. **HOLD; no score or recommendation assigned.**
+The A+ dossier 20000, domain and operator association is supported. A fresh live fetch of both English and French regulator table views on 24 October 2026 showed decision date **12 November 2024** and expiry **31 December 2026**; the older 2019/2034 French search snippet is stale and should not be repeated as current. Recheck before publication. Full consumer terms, testing, image rights and independent review remain incomplete. **HOLD; no score or recommendation assigned.**
