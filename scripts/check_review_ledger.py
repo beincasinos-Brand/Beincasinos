@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""Evidence and publication gate for the 100-brand editorial ledger.
+
+This is a conservative structural gate, not a regulator lookup or a review.
+Run from the repository root: python3 scripts/check_review_ledger.py
+"""
+import csv
+import re
+import sys
+from datetime import date
+from pathlib import Path
+from urllib.parse import urlparse
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_LEDGER = ROOT / "docs/targets/100-brand-review-production-ledger-2026-10-24.csv"
+SCORE_LIMITS = {
+    "score_licence_20": 20,
+    "score_payments_18": 18,
+    "score_safety_15": 15,
+    "score_product_12": 12,
+    "score_bonus_10": 10,
+    "score_complaints_10": 10,
+    "score_ux_8": 8,
+    "score_privacy_4": 4,
+    "score_evidence_3": 3,
+}
+REQUIRED_COLUMNS = {
+    "slot", "brand_name", "global_brand_id", "market_code", "official_url",
+    "legal_entity", "regulator", "official_register_url", "terms_url",
+    "withdrawals_url", "complaints_url", "responsible_gambling_url",
+    "bonus_offer_url", "bonus_checked_utc", "bonus_status",
+    "image_source_url", "image_rights_status", *SCORE_LIMITS,
+    "overall_score_100", "review_status", "publication_status", "blockers",
+}
+PUBLISHABLE_STATES = {"APPROVED", "APPROVED_TO_PUBLISH", "PUBLISHED", "LIVE"}
+errors = []
+warnings = []
+
+
+def has_https_url(value):
+    try:
+        parsed = urlparse((value or "").strip())
+        return parsed.scheme == "https" and bool(parsed.netloc)
+    except ValueError:
+        return False
+
+
+def check(ledger_path):
+    with ledger_path.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        rows = list(reader)
+        columns = reader.fieldnames or []
+    missing = sorted(REQUIRED_COLUMNS - set(columns))
+    if missing:
+        errors.append(f"{ledger_path}: missing required columns: {', '.join(missing)}")
+    if len(columns) != len(set(columns)):
+        errors.append(f"{ledger_path}: duplicate column names")
+    if len(rows) != 100:
+        errors.append(f"{ledger_path}: expected 100 candidate rows, found {len(rows)}")
+
+    seen_slots, seen_keys = set(), set()
+    for line, row in enumerate(rows, start=2):
+        label = f"{ledger_path}:{line}"
+        brand = row.get("brand_name", "").strip()
+        market = row.get("market_code", "").strip().upper()
+        slot = row.get("slot", "").strip()
+        key = (brand.casefold(), market)
+        if not brand:
+            errors.append(f"{label}: missing brand_name")
+        if not market:
+            errors.append(f"{label}: missing market_code")
+        if slot in seen_slots:
+            errors.append(f"{label}: duplicate slot {slot!r}")
+        seen_slots.add(slot)
+        if key in seen_keys:
+            errors.append(f"{label}: duplicate brand/market identity {brand!r}/{market}")
+        seen_keys.add(key)
+
+        for field in ("official_url", "official_register_url"):
+            value = row.get(field, "").strip()
+            if value and not has_https_url(value):
+                errors.append(f"{label}: {field} must be an HTTPS URL when populated")
+        for field in ("terms_url", "withdrawals_url", "complaints_url",
+                      "responsible_gambling_url", "bonus_offer_url", "image_source_url"):
+            value = row.get(field, "").strip()
+            if value and not has_https_url(value):
+                errors.append(f"{label}: {field} must be an HTTPS URL when populated")
+
+        # Score is all-or-nothing: no partial numeric score can masquerade as a final rating.
+        numeric_scores = {}
+        for field, maximum in SCORE_LIMITS.items():
+            raw = row.get(field, "").strip()
+            if not raw:
+                continue
+            try:
+                score = float(raw)
+            except ValueError:
+                errors.append(f"{label}: {field} must be blank or numeric, got {raw!r}")
+                continue
+            if not 0 <= score <= maximum:
+                errors.append(f"{label}: {field}={score:g} is outside 0–{maximum}")
+            numeric_scores[field] = score
+        overall_raw = row.get("overall_score_100", "").strip()
+        if numeric_scores and len(numeric_scores) != len(SCORE_LIMITS):
+            errors.append(f"{label}: partial rubric score; either score all 9 components or leave all blank")
+        if overall_raw and len(numeric_scores) != len(SCORE_LIMITS):
+            errors.append(f"{label}: overall_score_100 requires all 9 rubric components")
+        if len(numeric_scores) == len(SCORE_LIMITS):
+            expected = sum(numeric_scores.values())
+            if not overall_raw:
+                errors.append(f"{label}: complete rubric needs overall_score_100")
+            else:
+                try:
+                    overall = float(overall_raw)
+                    if not 0 <= overall <= 100 or abs(overall - expected) > 0.001:
+                        errors.append(f"{label}: overall score must equal component sum {expected:g}, got {overall:g}")
+                except ValueError:
+                    errors.append(f"{label}: overall_score_100 must be numeric when populated")
+
+        rights = row.get("image_rights_status", "").strip().casefold()
+        if rights and any(token in rights for token in ("pending", "not cleared", "unknown", "permission not evidenced")):
+            # Source URL can be retained as a research candidate, but it must not be represented as cleared.
+            if "cleared" in rights and "not cleared" not in rights:
+                errors.append(f"{label}: contradictory image-rights state {rights!r}")
+
+        bonus_url = row.get("bonus_offer_url", "").strip()
+        bonus_date = row.get("bonus_checked_utc", "").strip()
+        bonus_status = row.get("bonus_status", "").strip().casefold()
+        if bonus_date:
+            try:
+                date.fromisoformat(bonus_date[:10])
+            except ValueError:
+                errors.append(f"{label}: bonus_checked_utc must start with an ISO date (YYYY-MM-DD)")
+        if bonus_status and any(token in bonus_status for token in ("not captured", "not checked", "pending", "unknown")):
+            if bonus_date and not bonus_url:
+                warnings.append(f"{label}: dated bonus status has no official offer URL")
+        if bonus_url and not bonus_date:
+            warnings.append(f"{label}: bonus source has no checked date; do not publish as current")
+
+        state = row.get("publication_status", "").strip().upper()
+        if any(word in state for word in PUBLISHABLE_STATES):
+            required = (
+                "official_url", "legal_entity", "regulator", "official_register_url",
+                "terms_url", "withdrawals_url", "complaints_url",
+                "responsible_gambling_url", "bonus_offer_url", "bonus_checked_utc",
+                "image_source_url", "image_rights_status", "overall_score_100",
+            )
+            absent = [field for field in required if not row.get(field, "").strip()]
+            if absent:
+                errors.append(f"{label}: publication state {state!r} lacks required fields: {', '.join(absent)}")
+            if "cleared" not in row.get("image_rights_status", "").casefold():
+                errors.append(f"{label}: publication blocked until image rights are explicitly cleared")
+            if not re.search(r"second reviewer|independent review|editorial approval", row.get("blockers", ""), re.I):
+                warnings.append(f"{label}: publication state should cite independent-review/editorial approval evidence in blockers or the linked review record")
+    return len(rows)
+
+
+def main():
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_LEDGER
+    try:
+        count = check(path)
+    except (OSError, UnicodeError, csv.Error) as exc:
+        print(f"ERROR: cannot read ledger: {exc}", file=sys.stderr)
+        return 2
+    for message in errors:
+        print("ERROR:", message)
+    for message in warnings:
+        print("WARN:", message)
+    if errors:
+        print(f"Review ledger gate: FAIL ({len(errors)} errors, {len(warnings)} warnings; {count} rows)")
+        return 1
+    print(f"Review ledger gate: PASS structurally ({count} rows, {len(warnings)} warnings). This does not approve any brand or verify live evidence.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
