@@ -419,3 +419,12 @@ Primary records:
 - https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=55963B9F241E74FEF05A9A6199A7FEA3C303C08563FEFA6BAA7412866C21B9A8
 
 **Decision stays HOLD.** The current live Swedish customer-contracting entity and the regulator's licence-to-holder mapping must be reconciled before publication. The historical SEK 6.5 million AML sanction is against Betsson Nordic Ltd and must not be casually attributed to Spin Nordic Ltd; do not treat the two entities as interchangeable or count them as two consumer brands. Detail: `docs/reviews/internal/betsson-se-evidence-review-2026-10-23.md`. Approved reviews remain **0/100**.
+
+
+## Production-ledger checkpoint — 24 October 2026
+
+- New internal worklist: [100-brand review production ledger](100-brand-review-production-ledger-2026-10-24.csv). It selects 100 unique candidate identities across target-market codes and tracks licence/domain/terms, bonus, image rights, weighted score components, blockers and approval status. It is not a list of 100 verified brands.
+- Added [evidence-first review protocol](100-brand-review-production-protocol-2026-10-24.md): 100-point rubric with hard HOLD gates for market legality, exact casino permission, domain/entity match and material safety conflicts.
+- Captured six dated first-party GB bonus snapshots in [bonus research batch](../reviews/internal/gb-bonus-snapshot-batch-2026-10-24.md). Sky Vegas has conflicting current offer messaging (250-spin homepage headline versus 50-spin promotions-page offer) and remains unresolved.
+- CSV revalidation after the bonus edits: 100 rows, 30 columns, zero malformed-width rows. Six offer source URLs recorded; 94 bonus entries remain uncaptured; image rights pending for all 100; scores withheld; all 100 remain HOLD. These are candidate records and offer snapshots, not finished consumer reviews.
+- Approved reviews remain **0/100**. No merge or Cloudflare production deployment is claimed.
