@@ -5,13 +5,13 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Current structural result
 - Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
-- Official consumer-facing domain URL: **45/100** populated; 55 blank. Do not infer a valid operator domain for blank rows.
+- Official consumer-facing domain URL: **47/100** populated; 53 blank. Slots 8 and 9 now have operator URLs; slot 7 (888.nl) remains unresolved. Do not infer a valid operator domain for blank rows.
 - Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
-- Terms URL: **10/100**.
-- Bonus/promotion URL: **8/100**. These are source leads, not verified, current, eligible or cleared offers.
-- Complaints URL: **5/100**; responsible-gambling URL: **9/100**.
-- Deposit-method URL: **4/100**; fees/limits URL: **4/100**; withdrawal URL: **4/100**.
-- Privacy/cookies URL: **5/100**; accessibility evidence URL: **0/100**.
+- Terms URL: **11/100**.
+- Bonus/promotion URL: **9/100**. GetLucky slot 8 has a dated operator-published offer lead; it remains NOT CLEARED. These are source leads, not verified, current, eligible or cleared offers.
+- Complaints URL: **6/100**; responsible-gambling URL: **12/100**.
+- Deposit-method URL: **7/100**; fees/limits URL: **7/100**; withdrawal URL: **6/100**.
+- Privacy/cookies URL: **7/100**; accessibility evidence URL: **0/100**.
 - Regulatory-action URL: **1/100**; ADR/dispute URL: **1/100**. A regulator complaint process is not private ADR unless the source explicitly establishes that.
 - Image-source URL: **50/100**. For those 50, image rights status remains **PENDING — SOURCE FOUND · RIGHTS PENDING**; the other **50/100** are marked **NOT FOUND — editorial fallback required**. No image is cleared merely because a source URL exists.
 - Overall score: **NOT SCORED for 100/100**.
@@ -25,9 +25,9 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Highest-priority blockers
 1. **Domain and legal identity:** 55 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
-2. **Thin terms/payment evidence:** only 8 terms URLs and 3 each for deposit, fees/limits and withdrawals are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
+2. **Thin terms/payment evidence:** only 11 terms URLs, 7 deposit-method URLs, 7 fees/limits URLs and 6 withdrawal URLs are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
 3. **Offer scope:** only 8 promotion URLs are captured. Check the full current market-specific terms, product scope, eligibility, opt-in, wagering, max bet, eligible games, expiry and caps. Treat points/credit/rewards separately from cash.
-4. **Player protection and privacy:** complaint routes exist for 3 entries, responsible-gambling URLs for 7 and privacy/cookies URLs for 4. Fill these from official sources; distinguish regulator escalation from private ADR.
+4. **Player protection and privacy:** complaint URLs exist for 6 entries, responsible-gambling URLs for 12 and privacy/cookies URLs for 7. Fill these from official sources; distinguish regulator escalation from private ADR.
 5. **Image rights:** 50 source leads have pending rights; 50 entries have no source. Use only assets with documented licence/permission or a deliberate original editorial fallback.
 6. **Independent review and consumer testing:** no reviewer assignments or approval dates are recorded; no hands-on consumer tests were performed. Do not imply that deposits, games, withdrawals, support or account controls were tested.
 7. **Regulatory and territory scope:** verify each current exact domain/product and permitted territory. Do not generalise state/province-specific permission to a whole country; do not recommend unlicensed or offshore products as substitutes.
@@ -44,6 +44,16 @@ Added official terms, payments, privacy, player-protection and/or support source
 - Winz (NL): terms, safer-gambling, privacy, payment and operator complaint-procedure sources captured. The complaint route is not independent ADR; the separate cookie policy still needs capture.
 - Starcasino (NL): terms, safer-gambling and complaint-disclosure source leads captured. Exact current register entry, separate privacy/cookie and payment pages still need capture.
 These are public documentation leads only. No account creation, deposits, gameplay or withdrawals were tested. No score, image-rights clearance or publication approval was added. Batch 12 is documented in `docs/reviews/internal/operator-source-batch-12-2026-10-24.md`.
+
+
+## Source batch 13 — official operator sources for slots 7–10
+- Added `docs/reviews/internal/operator-source-batch-13-2026-10-24.md` and reconciled source fields for GetLucky (NL), Oranje Palace (NL) and Betsuna (GB).
+- Slot 7 (888.nl) remains unresolved: this pass did not establish the current operator, exact Ksa/domain match or current terms. A shared GetLucky promo page containing a stray “888” reference was explicitly rejected as identity evidence.
+- GetLucky's official homepage states Tulipa Ent Limited and Ksa licence 2165/01.272.549; the operator-published welcome page advertises up to 200 spins across three €20 qualifying deposits for players 24+, subject to opt-in and 1x deposit wagering before withdrawing spin winnings. Captured as a dated source lead only, not cleared for publication.
+- Oranje Palace's official terms identify Holland Gaming Technology Ltd and state Ksa licence 1631/01.272.522; payment, limits, complaint and privacy sections were recorded, with a caveat that this single page is not a tested transaction or independent ADR evidence.
+- Betsuna's GB homepage and FAQ identify ProgressPlay Limited / UKGC account 39335 and publish payment options, withdrawal processing estimates and minimums. These are operator statements, not observed transactions; current GB terms and formal complaints/ADR sources remain open.
+- Re-parsed ledger after update: 100 rows × 43 columns, zero malformed rows; official domains 47/100; terms 11/100; bonus/promotion 9/100; complaints 6/100; responsible-gambling 12/100; deposits 7/100; fees/limits 7/100; withdrawals 6/100; privacy/cookies 7/100; accessibility 0/100; regulatory-action 1/100; ADR 1/100; image sources 50/100.
+- All 100 remain NOT SCORED/HOLD. No independent reviewer/date, approval date, evidence bundle or image-rights clearance has been added; consumer testing remains NOT PERFORMED and affiliate disclosure remains NOT REVIEWED. CI remains unconfirmed; no merge or Cloudflare Pages deployment.
 
 ## Required evidence sequence
 1. Reconcile each candidate's exact consumer-facing domain, product type, market and contracting legal entity against the current primary regulator record.
