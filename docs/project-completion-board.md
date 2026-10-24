@@ -411,3 +411,13 @@
 
 - Added two regression tests to `scripts/test_deploy_artifact.py`: verify the source `robots.txt` blocks all crawlers pre-launch, and verify the canonical sitemap directive remains prepared for a later approved release.
 - The latest Actions job still exits before its first step with `runner_id: 0`, blank runner name and no steps. This is an infrastructure/runner allocation failure, not evidence that source checks passed or failed.
+
+
+# Fifth market-specific bonus evidence pass — Switzerland — 24 October 2026
+
+- Added official-page bonus sources for Mycasino.ch, 7Melons.ch, Pasino.ch and Casineo.ch. The ledger now has **17** official bonus/promotion source URLs, each tied to its candidate market. Detailed source note: `docs/reviews/internal/bonus-snapshot-mycasino-7melons-pasino-casineo-ch-2026-10-24.md`.
+- Mycasino's public hub lists a first-deposit offer and a 99-spin verification bonus but the exact welcome terms were not exposed; the row remains held.
+- 7Melons lists two welcome choices (100% up to CHF 100 + 250 spins, or 100% up to CHF 300 + 50 super spins), but the exact wagering bases/expiry/cashout are not captured; held.
+- Pasino's detailed offer says 100% up to CHF 500, CHF 10 minimum, 350 spins across six instalments, 35x wagering within 30 days, and six-day spin validity; the detailed page and promotion hub disagree on the eligible spin game, so it remains held.
+- Casineo lists CHF 15 credit via TREAT15 until “14 November” without a clearly rendered year; bonus conditions specify a one-month default bonus validity and CHF 10 maximum bonus wager per round. Offer year and current status remain unresolved; held.
+- No account, deposit, bonus claim, gameplay, support contact or withdrawal test was performed. No ratings were assigned.
