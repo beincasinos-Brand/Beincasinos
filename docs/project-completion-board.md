@@ -298,3 +298,10 @@
 - Added [internal regulator evidence batch 02](reviews/internal/regulator-evidence-batch-02-2026-10-24.md) for candidates 7–15: Lottomatica (IT), Codere (ES), Caesars Palace Online (Ontario), PlayNow (BC), Loto-Québec, Borgata (NJ), BetMGM (MI), betPARX (PA) and Betano (DE).
 - Updated the nine matching ledger blocker/evidence notes. Corrected betPARX's candidate URL to the Pennsylvania-specific `https://pa.betparx.com`. The Betano evidence found permission for virtual slots and sports betting, not a separate table/live-casino permission; the ledger explicitly retains that product-scope limitation.
 - The batch-01 and batch-02 notes now cover regulator-source checks for 15 of 100 candidate rows. These remain source checks only, not finished reviews; scores are withheld and publication remains HOLD.
+
+
+## Regulator evidence batch 03 — 24 October 2026
+
+- Added [internal regulator evidence batch 03](reviews/internal/regulator-evidence-batch-03-2026-10-24.md) for candidates 17–25: Napoleon Casino (BE), Unibet (SE), Winnitt (NL), Tipico (DE-SH), Mycasino.ch (CH), Sisal (IT), Luckia (ES), DraftKings (Ontario) and Espacejeux (Québec).
+- Updated nine ledger blocker/evidence notes with market-specific official-source findings. The batch flags unresolved DraftKings Ontario domain mapping and possible Espacejeux/Loto-Québec duplicate identity, and preserves Tipico's Schleswig-Holstein-only online-casino scope.
+- Batches 01–03 now document dated regulator evidence for 24 candidate rows (row 16 also has an official offer snapshot but remains incomplete). These are source checks, not approved reviews; all candidates remain HOLD and no score is assigned.
