@@ -41,3 +41,11 @@ The commit-status API returned no status checks and the workflow-run lookup retu
 - No scores were assigned, no review/publication status was changed, and all 100 candidates remain HOLD. Consumer tests remain NOT PERFORMED; image-rights clearance remains pending for all 100.
 - This batch does not resolve the broader evidence gaps: deposit-method, fees/limits, accessibility, regulatory-actions and ADR source fields remain unpopulated in the ledger; independent review and approval are still absent.
 - CI remains unconfirmed because Actions runner-start failures have prevented workflow steps from executing. No merge, DNS change, indexing release or Cloudflare production deployment was performed.
+
+
+## Follow-up source batch 04 — 24 October 2026
+
+- Added five more official market-specific promotion sources to the internal ledger: Holland Casino Online (NL), Circus Casino (BE), Kansino (NL), AdmiralBet (IT), and BetFlag (IT). Full offer-specific terms are still required; separate products/offers must not be conflated, and Fun Bonus is not cash.
+- Current ledger structural check: 100 rows / 43 columns. Bonus/promotion URLs now populate **46/100 rows**; **54/100 remain blank**. The ledger remains a research queue, not 100 approved reviews.
+- All 100 entries remain NOT SCORED / HOLD; consumer testing is not performed and image-rights clearance is pending across the set.
+- No live-site change, merge, DNS/indexing change or Cloudflare production deployment was performed. GitHub Actions checks are still unconfirmed in the available workflow-run lookup; no successful CI result is being claimed.
