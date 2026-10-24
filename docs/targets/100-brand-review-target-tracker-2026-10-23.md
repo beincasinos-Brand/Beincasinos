@@ -552,7 +552,7 @@ The table below is the exact 100-card working list currently rendered by `brand-
 | 96 | Spin King | GB | Verification pending | Not verified — do not infer a URL from the trading name |
 | 97 | Bet442 | GB | Identity conflict | bet442.co.uk — White Label under Betable Limited; Inactive under AG Communications Limited |
 | 98 | Funky Jackpot | GB | Verification pending | Not verified |
-| 99 | London.bet Casino | GB | Verification pending | london.bet · UKGC domain status: Active |
+| 99 | London.bet Casino | GB | Regulator match found; consumer review HOLD | london.bet — UKGC maps to Thistle Bet Limited; domain Active; Casino Remote licence 066162-R-340278-005 Active from 19 Mar 2025 |
 | 100 | BetGoodwin Casino | GB | Verification pending | betgoodwin.co.uk · UKGC domain status: Active |
 
 **Reconciliation result:** 100 cards; 100 unique displayed titles; 60 remote image elements with alt text, lazy loading and error fallback; 40 cards use decorative CSS/monogram fallback. This confirms list/card count only. It does not confirm 100 distinct legal operators, 100 active local casino permissions, image reuse rights, completed reviews, or a Cloudflare production release.
@@ -565,3 +565,10 @@ The table below is the exact 100-card working list currently rendered by `brand-
 - The register's definition of an **Active** licence is that the licence is active and up to date; domain status is a separate field and can be Active, Inactive or White label. Therefore, a trading-name or domain hit alone is not sufficient: each GB candidate must be tied to an active **remote casino** permission and matching contracting entity, and white-label brands must be mapped to the responsible licensee before qualification.
 - Primary-source reference for the required licence activity: https://www.gamblingcommission.gov.uk/licensees-and-businesses/sectors/sector/casino. The Commission describes a remote casino operating licence as permitting casino games online, including slots, roulette and blackjack.
 - This is a source-methodology validation only. It does **not** approve any of the 100 directory entries, does not convert a lead into a completed review, and does not change the current approved-review count (0/100). Keep all GB candidates HOLD until the per-brand register record, domain, licence activity, current consumer terms and second-review sign-off are captured in the evidence record.
+
+
+### Individual primary-source match — London.bet (GB), 24 October 2026
+
+- **Trading name and domain:** UK Gambling Commission public register maps `london.bet` to **Thistle Bet Limited**, account 66162; the domain register marks `london.bet` Active. Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66162 and https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66162.
+- **Casino permission:** the Commission's licence summary for Thistle Bet Limited lists **Casino Remote 066162-R-340278-005 — Active**, from 19 March 2025 to Current. Source: https://www.gamblingcommission.gov.uk/public-register/business/detail/66162.
+- **Decision:** this is a positive regulator/domain/entity match for the GB lead, not publication approval and not a completed consumer review. Keep HOLD until current consumer terms, payments/withdrawals information, complaints/ADR, safer-gambling tools, privacy/cookies, enforcement context, evidence dates, image rights and independent second review are recorded.
