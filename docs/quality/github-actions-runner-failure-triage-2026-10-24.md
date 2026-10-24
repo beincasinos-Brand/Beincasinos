@@ -77,3 +77,7 @@ This broadens the diagnosis from “only the current branch may have a workflow/
 ## Recommended decision
 
 Stop creating retry commits solely to trigger identical jobs. Preserve the source work, ask the repository owner to inspect the Actions UI/settings, then run the workflow once after runner availability or settings are confirmed. Keep production deployment blocked until the workflow actually executes and passes.
+
+## Follow-up after registry-ID validator hardening — 24 October 2026, 19:48 UTC
+
+The exact-name validator now also rejects any nonblank tracker ID that does not exist anywhere in the canonical registry, while allowing a legitimate cross-market alias when its ID is already present. Two more regression tests were added (seven total). Current-head run [40126856693](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126856693), commit `ee32817ede3c78e897a2b0551a77094e140f597e`, failed before workflow steps just like the preceding runs. The new tests and validator remain unexecuted in Actions. Do not keep pushing cosmetic commits just to trigger a run; the repository owner needs to investigate the shared runner-start failure.
