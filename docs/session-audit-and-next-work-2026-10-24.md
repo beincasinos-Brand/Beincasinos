@@ -94,7 +94,7 @@
 
 The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The new international priority board now tracks one market-specific candidate in each of ten roadmap markets, but all ten remain HOLD. The master tracker is a separate 105-row research dataset. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
 
-The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 106 data rows (107 lines including its header). 104 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions. All 106 `global_brand_id` fields are blank, preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
+The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 106 data rows (107 lines including its header). Source-matched IDs are filled for Hollywood Casino Online (PA), BetRivers Casino (PA), Casineo.ch (CH) and Jollie.de (DE); 102 `global_brand_id` fields remain blank. 104 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions., preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
 
 ### Review approval criteria
 
@@ -126,5 +126,17 @@ The project board's most recent baseline and current checkpoint both say **0/100
 ## Additional 24 October work checkpoint
 
 - Expanded current first-party GB evidence dossiers and the research template rows for bet365, 888casino and William Hill. Captured payment/withdrawal wording, complaints/ADR routes where found, safer-gambling disclosures and dated regulatory action context. No account or transaction tests are claimed.
-- The master tracker now has 106 rows. The legacy Hollywood Casino Online target is marked Exclude/UNKNOWN pending resolution of conflicting PGCB signals; BetRivers is the replacement PA target. The qualification audit records 58 VERIFY domains, one UNKNOWN and 106 blank global brand IDs.
+- The master tracker now has 106 rows. Hollywood Casino Online remains HOLD using the newer PGCB-listed `hollywoodcasino.com` route (launch 19 December 2024); only the older `pa.hollywoodcasino.com` route is retired. BetRivers is a separate Pennsylvania HOLD lead. The qualification audit records 58 VERIFY domains, one UNKNOWN and 106 blank global brand IDs.
 - Nine noindex parser regression tests passed in an isolated local harness. Current GitHub Actions runs still fail before runner allocation (runner ID 0, no steps/logs); a rerun was requested. The full site build, browser smoke tests and artifact check remain unverified.
+
+## Latest continuation checkpoint — 24 October 2026, 19:35 UTC
+
+- Read-only Cloudflare preview verification was repeated for `/brand-directory/` and `/sitemap.xml`. Preview page returned 200 with canonical `https://beincasinos.online/brand-directory/` and `robots=noindex,follow`; the preview sitemap contains 44 URLs and excludes the directory. Production `https://beincasinos.online/brand-directory/` still returns 404. This is not a production release and does not prove the preview is built from the very latest branch head.
+- Current PR #141 head observed through the GitHub API: `b6254cb541276795743a7def195554c971e8db3e`; 124 changed files. PR remains open, Draft and unmerged.
+- Latest workflow attempt #1573 (run ID `40118090721`) was retried; attempt 2 still failed in roughly one second with runner ID 0 and no steps. This does not identify a source-code failure; source tests and artifact checks remain unverified on GitHub Actions.
+- Reconciled the Pennsylvania status distinction: `hollywoodcasino.com` is listed in the current PGCB certificate-holder PDF for slots/table games with commencement 19 December 2024; only `pa.hollywoodcasino.com` is recorded as a former site ending 14 December 2023. Hollywood remains HOLD. BetRivers is a separate Pennsylvania research lead and does not replace one of the ten roadmap-market priorities.
+- The shared robots parser and regression tests are present in source; `scripts/check_deploy_artifact.py` imports `RobotsMetaParser` from `scripts/robots_meta.py`, and the workflow includes `python3 -m unittest scripts.test_deploy_artifact -v`. Successful execution is still pending an allocated runner.
+- Tracker remains 106 data rows, 18 columns, no malformed rows/duplicate brand-market keys; 102 global IDs remain blank. Approved consumer reviews remain **0/100**. No merge, production deploy, indexing release, or paid placement was made.
+
+**Next actions:** resolve Actions runner availability with the repository owner; get a current-head preview or deployment identifier before asserting freshness; complete exact customer-contract/current terms and actual usability/accessibility evidence for the ten roadmap targets; reconcile the remaining 102 global brand IDs; obtain independent second reviews.
+
