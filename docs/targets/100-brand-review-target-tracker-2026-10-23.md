@@ -895,3 +895,12 @@ Added [New Jersey evidence-led review drafts — batch L](../reviews/internal/nj
 ## New Jersey evidence-led review draft batch M — 2026-10-24
 
 Added [New Jersey evidence-led review drafts — batch M](../reviews/internal/nj-evidence-led-review-draft-batch-2026-10-24-m.md) for Wheel of Fortune Casino, Stardust Casino and Ember Casino. The drafts use the current New Jersey DGE authorized-sites list for the listed NJ routes and host/licensee relationships, while flagging exact customer contracting identity and consumer-policy checks as unresolved. All three remain internal `HOLD`; no hands-on testing is claimed. Internal draft-package count is now **62**, while approved consumer reviews remain **0/100**. No GitHub Actions run, merge or Cloudflare deployment was performed.
+
+
+## Official-site image candidate pass — 24 October 2026
+
+- Added image-source candidates to the existing directory cards and 100-row asset register for **Los Vegas**, **LottoGo Casino**, **Alfobet**, and **Rollerbet**, based on image URLs or favicon metadata exposed by the matching official domains.
+- The candidates are all marked **SOURCE FOUND — RIGHTS PENDING**. Los Vegas and Rollerbet are favicon-sized assets; LottoGo redirected to a location-unavailable page during this check; Alfobet's official homepage exposed a logo, but its exact consumer-facing domain/operator relationship remains a separate HOLD.
+- Ten official-page fetch attempts were made. Five returned page content/metadata and five were blocked or errored; no URL was guessed for the failed candidates.
+- Static source reconciliation: **100 unique displayed titles, 64 remote image candidates, 36 CSS-art/monogram fallbacks**, with 64 image tags using alt text, dimensions, lazy loading, async decoding, referrer policy and error fallback. The asset register remains 100 rows with 64 candidate URLs and 36 unsourced entries.
+- This is a visual-source improvement only. It does not verify image rendering/reuse rights, market eligibility, legal-operator identity, or consumer experience. The 100-card page remains `noindex,follow`, excluded from the sitemap and unreleased. Approved reviews remain **0/100**. No GitHub Actions, merge or Cloudflare deployment was performed.
