@@ -39,7 +39,7 @@ else:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
     if not (DIST / "brand-directory" / "index.html").is_file():
-        errors.append("dist/: indexable brand research directory is missing")
+        errors.append("dist/: required public brand research directory is missing")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
@@ -64,7 +64,7 @@ else:
                 errors.append("dist/sitemap.xml: duplicate canonical URL entries found")
 
             # Keep the sitemap synchronized with the actual public HTML pages.
-            # The 404 page is intentionally excluded from indexable routes.
+            # The 404 and verification pages are excluded; page-level robots noindex directives are respected below.
             expected_urls = set()
             noindex_urls = set()
             for html_file in DIST.rglob("*.html"):
