@@ -12,7 +12,7 @@
 | Distinct display names | 208 | Names differ, but cross-market aliases can represent the same global brand |
 | Non-empty provisional global brand IDs | 208 | Every row currently has a populated ID; there are 157 distinct IDs, not 208 unique global brands |
 | Distinct brand-ID / market pairs excluding explicit unconfirmed/excluded codes | 204 | Market leads; still subject to legal and identity qualification |
-| Rows with publication decision HOLD | 202 | Not approved |
+| Rows with publication decision HOLD | 206 | Not approved |
 | Rows rejected | 2 | Must not count toward the target |
 | Rows approved for publication | **0** | The 100-review target remains unmet |
 
