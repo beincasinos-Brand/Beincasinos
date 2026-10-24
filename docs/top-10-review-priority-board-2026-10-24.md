@@ -6,9 +6,10 @@
 
 ## Count discipline
 
-- Candidate queue: 100 named rows in the legacy candidate register; still needs global deduplication and alignment with the ten-market roadmap.
-- Master prospect tracker: 105 rows, 103 in current market scope and two explicit category exclusions; all 105 global brand IDs are blank and 59 official-domain cells are placeholders.
-- Internal evidence dossiers and entity-reconciliation notes: available for many candidate/market pairs; dossier count is not review-completion count.
+- Legacy candidate queue: 100 named rows; still requires global deduplication and alignment with the ten-market roadmap. This is a candidate list, not 100 verified brands.
+- Tier-1 master prospect tracker (latest structural audit, 24 Oct 2026): **114 market-specific rows**, 18 columns, zero malformed rows and zero duplicate brand/market keys. It contains **99 blank global-brand IDs**, **58 VERIFY official-domain entries**, 111 HOLD rows, one excluded row and two category-specific exclusions. Only 15 rows have a populated global ID (14 distinct IDs); the remainder still need alias and cross-market reconciliation.
+- Main registry: 207 market-specific rows, 156 distinct global-brand IDs, 205 HOLD and 2 rejected. Exact normalized slug matching identifies 20 direct matches against the legacy 100-name list; aliases and market variants remain unresolved.
+- Internal evidence dossiers and entity-reconciliation notes exist for many candidate/market pairs; dossier count is not review-completion count.
 - **Fully approved reviews: 0/100.**
 - **Published and independently checked reviews in this release batch: 0.**
 - No score or “top 10” claim is permitted until all eligibility gates pass and every scored criterion has evidence plus second review.
