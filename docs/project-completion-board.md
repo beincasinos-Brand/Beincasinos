@@ -396,3 +396,12 @@
 - Reconciled a launch-safety contradiction: the site had been configured to allow all crawlers despite prior explicit instructions not to enable indexing before launch approval. `robots.txt` now uses `Disallow: /` and retains the sitemap URL for later readiness.
 - Updated the deployment-artifact validator to require the pre-launch crawl block and reject a site-wide allow rule. This is a guardrail change only; it does not alter DNS, nameservers, Cloudflare deployment, or PR merge status.
 - Public HTML may retain its future launch-ready canonical/index directives, but the published artifact must remain crawl-blocked until legal/privacy/affiliate checks, browser/accessibility verification, domain/DNS/email review and explicit launch approval are complete. A robots block is not a security boundary and does not remove already indexed content by itself.
+
+
+# Fourth market-specific bonus evidence pass and launch-safety fix — 24 October 2026
+
+- Added official-page research for Jackpots.ch (Switzerland) and Unibet (Sweden), increasing ledger bonus/promotion source URLs to **13**. Internal note: `docs/reviews/internal/bonus-snapshot-jackpots-ch-unibet-se-2026-10-24.md`.
+- Jackpots.ch's official welcome page breaks its CHF 2,200 + 200 spins headline into four deposit stages; the bonus-conditions page states a default one-month playthrough deadline, while the payment page describes 3–4 working-day payout release and Swiss-bank-account ownership restrictions. Exact stage-by-stage wagering/cashout/exclusion terms remain outstanding.
+- Unibet Sweden's official bonus page describes either SEK 100 for 50 Pirots 4 spins with 1x wagering, or a 100% deposit bonus up to SEK 1,000 with a SEK 200 minimum and 30x wagering. It also states a SEK 25 maximum bonus-play bet, up to 60-day validity, Sweden residence, and one bonus per player/household/payment method. Exact wagering base, exclusions and an account-eligibility contradiction require reconciliation.
+- Both rows remain HOLD. No account, deposit, claim, gameplay, support or withdrawal test was performed.
+- Corrected the pre-launch crawler policy: `robots.txt` now disallows crawling, and `scripts/check_deploy_artifact.py` requires that block and rejects a site-wide allow rule. This restores the previously authorized no-indexing-before-launch posture. No DNS/nameserver change, merge or production deployment was made.
