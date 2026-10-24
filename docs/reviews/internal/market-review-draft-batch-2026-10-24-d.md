@@ -165,3 +165,54 @@ These are proposed metadata and page architecture only. No page should be indexe
 - **Image brief:** Rights-cleared online-casino imagery that accurately represents the digital product. Do not imply land-based venue amenities are available online.
 
 **Batch D layout requirement:** Preserve the high-end casino-review identity: market/operator summary strip, licence and evidence status, dated methodology, structured tables for current terms, prominent unknowns, and a verdict panel that remains “Not rated — evidence pending” until approval. Keep all five noindex and out of the sitemap; no fabricated star ratings, first-hand tests, review schema, or unlicensed images.
+
+
+## Additional US state-specific SEO packages — batch D follow-on (internal / HOLD)
+
+State-specific pages must identify the exact licensed operator, authorized domain and jurisdiction. A brand name or nationwide marketing page is not proof of authorization in a given state. These briefs do not assert that any product is currently available.
+
+### Hard Rock Bet — Pennsylvania
+- **SEO title:** Hard Rock Bet Casino Pennsylvania Review: Licence & Terms
+- **Meta description:** Verify the Pennsylvania casino operator and approved domain, then review current local bonus terms, withdrawal rules, complaints and safer-gambling controls.
+- **H1:** Hard Rock Bet Casino Review for Pennsylvania: Licence and Terms
+- **Intent / page order:** Pennsylvania Gaming Control Board operator and interactive-gaming authorization; exact approved domain; separate casino product from sportsbook; current PA casino terms and dated promotions; eligibility/geolocation; payment methods, limits, fees and withdrawal verification; complaint path; self-exclusion and responsible-gambling tools; privacy/accessibility; evidence-limited conclusion.
+- **Image brief:** Rights-cleared Pennsylvania-specific online product asset. Do not use sportsbook promotions as evidence of casino offers.
+- **Publication blockers:** Current PGCB record and domain; casino authorization; current PA terms; payment and complaints evidence; RG/privacy/accessibility; image rights; second review.
+
+### Horseshoe Online Casino — Michigan
+- **SEO title:** Horseshoe Online Casino Michigan Review: Licence & Payout Terms
+- **Meta description:** Check Michigan's official operator and online-casino authorization records, then verify current bonus rules, payout conditions, complaints and player protections.
+- **H1:** Horseshoe Online Casino Review (Michigan): Licence and Terms
+- **Intent / page order:** Michigan Gaming Control Board licensee and approved domain; identify the actual contracting entity; local product and eligibility; dated offer rules; deposit/withdrawal methods, fees, limits and verification; complaints; responsible-gambling controls; privacy/accessibility; source and last-checked panel.
+- **Image brief:** Use cleared Michigan-product artwork only; do not conflate similarly named land-based Horseshoe venues or other state products.
+- **Publication blockers:** Exact operator/domain confirmation; current Michigan authorization; complete consumer terms and payment evidence; complaint/RG/privacy checks; rights clearance; independent approval.
+
+### Fanatics Casino — Pennsylvania
+- **SEO title:** Fanatics Casino Pennsylvania Review: Approved Site & Terms
+- **Meta description:** Confirm Fanatics Casino's Pennsylvania authorization and exact domain, then check state-specific offers, withdrawal conditions, complaints and safer-gambling tools.
+- **H1:** Fanatics Casino Review for Pennsylvania: Licence and Player Terms
+- **Intent / page order:** PGCB-approved operator/domain; casino product and state eligibility; distinguish casino terms from sportsbook promotions; capture offer-specific and general bonus rules; payments, withdrawal limits/fees and verification; dispute process; responsible-gambling controls; privacy/cookies/accessibility; evidence-based verdict.
+- **Image brief:** Rights-cleared casino product imagery. Do not reuse sportsbook bonus art or imply a sportsbook promotion applies to casino play.
+- **Publication blockers:** Current state approval and domain; dated terms and promotions; payments/complaints/RG/privacy/accessibility evidence; asset rights; second-editor sign-off.
+
+### Hollywood Casino Online — Pennsylvania
+- **SEO title:** Hollywood Casino Online Pennsylvania Review: Licence & Withdrawals
+- **Meta description:** Verify Hollywood Casino Online's Pennsylvania authorization and operator, then examine local bonus terms, payment conditions, complaints and player protections.
+- **H1:** Hollywood Casino Online Review (Pennsylvania): Licence and Terms
+- **Intent / page order:** PGCB operator and interactive-casino authorization; exact online domain; distinguish online product from physical Hollywood Casino properties; current PA terms and promotions; deposits/withdrawals and verification; complaints; responsible-gambling controls; privacy/accessibility; dated sources and known unknowns.
+- **Image brief:** Rights-cleared online-casino imagery only. Do not present venue amenities or land-based offers as online product features.
+- **Publication blockers:** Current authorization/domain match; current online terms; payment and complaint route; RG/privacy/accessibility; rights clearance; independent review.
+
+### Mohegan PA Online Casino — Pennsylvania
+- **SEO title:** Mohegan PA Online Casino Review: Operator, Licence & Terms
+- **Meta description:** Check the Pennsylvania online-casino authorization and contracting entity, then verify current terms, withdrawal rules, complaints and safer-gambling controls.
+- **H1:** Mohegan PA Online Casino Review: Licence and Consumer Terms
+- **Intent / page order:** PGCB authorization and approved domain; precise online operator and vendor relationships; separate online casino product from the land-based property; current bonus rules and exclusions; payment/withdrawal limits and verification; complaints/escalation; safer-gambling tools; privacy/accessibility; dated evidence panel.
+- **Image brief:** Use licensed online-product imagery and label it accurately. Avoid implying the land-based property's services are included with online play.
+- **Publication blockers:** Verify current PGCB and operator/vendor records; current online terms and payments; complaint/RG/privacy/accessibility checks; image permission; second review.
+
+**Batch D follow-on status**
+- Additional state-specific page-structure packages: **5**
+- Approved consumer reviews added: **0**
+- Cumulative approved reviews against target: **0/100**
+- All five remain HOLD until current primary-source checks, consumer-term evidence, image rights and independent editorial approval are recorded.
