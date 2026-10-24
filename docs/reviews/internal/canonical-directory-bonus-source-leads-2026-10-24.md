@@ -51,3 +51,24 @@ No source above authorizes a public score, recommendation or “best bonus” cl
 
 Source: https://promo.getlucky.nl/casino-welkomstbonus/  
 Observed: up to 200 free spins across the first three qualifying deposits; minimum €20 each; 100/50/50 spins at €0.20 per spin; age 24+; opt-in before first deposit; deposit must be wagered once across casino/live casino/sportsbook for spin-win withdrawal. Full general terms, offer availability, exact operator/domain and regulator mapping remain unverified. The public directory card still needs a verified official domain, so this is a source lead only. **HOLD**.
+
+
+## 10. admiral.ch — Switzerland
+
+Source: https://www.admiral.ch/en/promotions  
+Observed: up to CHF 1,000 bonus funds plus up to 500 free spins; deposit stages are 100% up to CHF 300 on the first and third deposits, and 100% up to CHF 400 on the fifth. Exact wagering, qualifying amounts, spin values/expiry and cashout conditions remain outstanding. **HOLD**.
+
+## 11. Starcasino.nl — Netherlands
+
+Source: https://starcasino.nl/bonussen  
+Observed: casino welcome bonus 100% up to €250 and a separate live-casino welcome bonus 100% up to €250. Sports free bet is separate and excluded from casino value. Full wagering, game contribution, expiry and cashout terms still require verification. **HOLD**.
+
+## 12. Winz.nl — Netherlands
+
+Source: https://www.winz.nl/  
+Observed: welcome choice up to €200 cash bonus or 200 free spins. General terms state age 24+, verified account, opt-in and default 30-day bonus expiry; individual offer terms remain outstanding. **HOLD**.
+
+## 13. 888.nl — Netherlands
+
+Source: https://www.888.nl/nl/promotions  
+The homepage refers to welcome bonuses for Dutch players aged 24+, but the promotions page returned a client-side exception during this check. No current amount or full terms were verified. Do not import UK or other-market 888 offers. **HOLD**.
