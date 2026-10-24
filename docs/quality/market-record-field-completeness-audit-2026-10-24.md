@@ -13,10 +13,10 @@ Parsed the current 33-column `docs/brand-research-template.csv` on branch `featu
 
 | Field | Missing rows | Filled rows | Coverage |
 |---|---:|---:|---:|
-| Current terms URL | 184 | 20 | 9.8% |
-| Withdrawals URL | 200 | 4 | 2.0% |
-| Complaints URL | 200 | 4 | 2.0% |
-| Responsible-gambling URL | 198 | 6 | 2.9% |
+| Current terms URL | 181 | 23 | 11.3% |
+| Withdrawals URL | 196 | 8 | 3.9% |
+| Complaints URL | 197 | 7 | 3.4% |
+| Responsible-gambling URL | 194 | 10 | 4.9% |
 | Partnership contact URL | 204 | 0 | 0.0% |
 | Privacy/tracking review status | 62 | 142 | 69.6% |
 | Named reviewer | 20 | 184 | 90.2% |
@@ -61,3 +61,14 @@ These are market-specific rows, not unique global brands. The source has 154 pro
 ## Limitations
 
 This is a point-in-time parse of the feature-branch CSV. It did not fetch any URL, test product availability, validate a licence beyond the supplied notes, test payments, or check the deployed Cloudflare site. No review has been approved and no deployment or indexing is claimed.
+
+
+## Source-link remediation pass — 24 October 2026
+
+Updated four Great Britain market rows in `docs/brand-research-template.csv` with official operator help/terms sources:
+- **bet365 Casino:** added the official GB terms page to terms, withdrawals, complaints and safer-gambling source fields; the page contains relevant sections 11, 25 and 29, so this is one shared source, not four independent policies.
+- **William Hill Casino:** added official UK/Jersey/Gibraltar terms, UK complaints procedure and UK safer-gambling tools.
+- **Grosvenor Casinos:** added the official terms page for terms, withdrawal-policy research and safer-gambling source; dedicated complaints/ADR source remains unresolved.
+- **Paddy Power Games:** added the official general terms page for terms/withdrawal/safer-gambling research and its official complaints procedure.
+
+The CSV now has **23/204 terms URLs, 8/204 withdrawal URLs, 7/204 complaints URLs and 10/204 safer-gambling URLs**. These fields are source leads only: shared URLs may cover several sections, and page presence does not mean the policies were fully reviewed or that the live product/contracting entity was matched. All four rows remain **HOLD**. No partnership contacts were guessed. No consumer review was approved, no Actions workflow was triggered and no Cloudflare deployment was performed.
