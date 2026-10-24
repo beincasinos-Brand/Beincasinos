@@ -24,6 +24,8 @@ jobs:
         run: python3 scripts/check_site.py
       - name: Validate paid-listing pipeline schema and hard gates
         run: python3 scripts/check_sales_pipeline.py
+      - name: Validate Tier-1 prospect tracker structure
+        run: python3 scripts/check_prospect_tracker.py
       - name: Run sales pipeline validator regression tests
         run: python3 scripts/test_sales_pipeline.py
       - name: Check shared JavaScript syntax
