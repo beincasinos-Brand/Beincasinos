@@ -1,3 +1,16 @@
+# Latest verified continuation — 24 October 2026
+
+- **Market-pair coverage:** added the missing Great Britain bet365 row as a distinct market-specific record (UKGC account 55149, active Casino Remote permission and bet365.com domain), while retaining the Netherlands row separately under the same global brand ID. Both remain HOLD; the UKGC's 4 April 2024 settlement is captured with context and must not be hidden from a future review.
+- **Swiss target coverage:** added StarVegas — Switzerland to the Tier-1 prospect tracker using the FGB's current online-platform list: starvegas.ch is listed for Casino Interlaken, with online business starting 24 February 2020. Game-specific authorisations and current customer-contracting entity still need checking.
+- **Identity reconciliation:** normalized BetRivers Pennsylvania to global ID `betrivers-casino` and Caesars Casino Ontario to `caesars-palace-online-casino`, matching the existing global identity ledger. This does not collapse their separate jurisdiction-specific evidence or grant cross-market permissions.
+- **Tier-1 prospect tracker:** now **114 data rows / 18 columns**, 15 populated global-brand-ID cells, 99 blank IDs, 14 unique IDs among populated cells, 58 `VERIFY` domain placeholders, zero `UNKNOWN` domains, two `NOT APPLICABLE` entries and zero duplicate brand/market keys. The same ID appearing for bet365 in GB and NL is intentional market-level deduplication, not a duplicate pair.
+- **International 10-market board:** all ten targets now have a matching market-specific tracker row and expected global ID. This is identity/coverage QA only; all ten remain HOLD, current terms and consumer testing remain incomplete, and approved reviews remain **0/100**.
+- **CI/release gate:** recent Static site checks still fail immediately with runner ID 0 and no workflow steps; no successful current-head CI is confirmed. Parser regression suite has 17 test methods, but no full site build/browser run is verified in this session. PR #141 remains open, Draft and unmerged; no production deployment or merge was made.
+
+**Next:** unblock GitHub Actions job startup, run the full static build and artifact checks, then continue current terms/cashier capture and independent second-review gates. Do not count candidate rows or regulator listings as completed reviews.
+
+---
+
 # Latest verified continuation — 24 October 2026, 20:30 UTC
 
 - **Tracker reconciliation:** matched eight more market-specific records to the main registry's existing global brand IDs: bet365 (NL) → `bet365-casino`, Betano (BE) → `betano`, Betsson (SE) → `betsson`, Danske Licens Spil (DK) → `danske-spil-casino`, Luckia (ES) → `luckia`, Sisal (IT) → `sisal`, Holland Casino Online (NL) → `holland-casino-online`, and Tipico → `tipico-casino`. The Tipico tracker market was corrected from generic `DE` to `DE-SH` to match the actual Schleswig-Holstein-only scope. Notes were added to each affected row; no review was approved by assigning an ID.
