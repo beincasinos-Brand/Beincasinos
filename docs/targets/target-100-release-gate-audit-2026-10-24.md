@@ -9,7 +9,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 - Image source URL: **0 populated**; image reuse/rights status: **PENDING for 100/100**.
 - Overall score: **NOT SCORED for 100/100**.
 - Review status: **HOLD for 100/100**; publication status: **HOLD for 100/100**.
-- Deposit-method URL: **2/100**; fees/limits URL: **2/100**; withdrawal URL: **15/100**; accessibility evidence URL: **0/100**; regulatory-actions URL: **0/100**; ADR/dispute-resolution URL: **2/100**.
+- Deposit-method URL: **2/100**; fees/limits URL: **2/100**; withdrawal URL: **15/100**; accessibility evidence URL: **0/100**; regulatory-actions URL: **2/100**; ADR/dispute-resolution URL: **2/100**.
 - Privacy/cookies URL: **10/100 populated; 90 blank**.
 - Consumer testing: **NOT PERFORMED for 100/100**.
 - Affiliate disclosure status: **NOT REVIEWED for 100/100**.
@@ -40,7 +40,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 7. Add a complete evidence-bundle path and run repository checks before requesting release review.
 
 ## Source batches recorded
-- Payment-source batch 07 added official public payment/withdrawal documentation for Gun Lake Casino / Play Gun Lake (MI) and Hollywood Casino Online (PA), plus a Play Gun Lake responsible-gambling source and Hollywood Casino privacy-policy source. Regulator/dispute batch 08 added Michigan and Pennsylvania regulator complaint routes and refreshed Ontario operator mapping. These are documentation leads only; no account or transaction tests were performed. Current field counts: deposit-method 2/100, fees/limits 2/100, withdrawal 15/100, privacy/cookies 10/100, complaints 15/100, ADR/dispute source 2/100.
+- Payment-source batch 07 added official public payment/withdrawal documentation for Gun Lake Casino / Play Gun Lake (MI) and Hollywood Casino Online (PA), plus a Play Gun Lake responsible-gambling source and Hollywood Casino privacy-policy source. Regulator/dispute batch 08 added Michigan and Pennsylvania regulator complaint routes, enforcement-source leads and refreshed Ontario operator mapping. These are documentation leads only; no account or transaction tests were performed. Current field counts: deposit-method 2/100, fees/limits 2/100, withdrawal 15/100, privacy/cookies 10/100, complaints 15/100, ADR/dispute source 2/100.
 Internal source notes currently cover batches 01–06, including Great Britain offer leads; Ontario, New Jersey, Michigan and Pennsylvania sources; Italy, Spain, Sweden, Belgium, Netherlands and Switzerland offer leads. Individual batches preserve caveats about stale pages, conflicting terms, rotating promotions, restricted market scope and rewards that are not cash. See `docs/reviews/internal/official-bonus-source-batch-*-2026-10-24.md` for dated detail.
 
 ## CI and deployment status
