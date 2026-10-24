@@ -191,3 +191,57 @@ These are implementation-ready metadata and page-structure proposals for the int
 6. Editorial gate per page: source freshness check; exact market/domain/licensee match; current terms, payment, complaints and safer-gambling evidence; image-rights clearance; second-editor review; legal/compliance approval; only then remove noindex and include in the sitemap.
 
 **Batch SEO package status:** metadata and layout briefs drafted for 5 market-specific review candidates; complete evidence packs, image-rights clearance and publication approval are still outstanding. These 5 packages do not count as 5 approved reviews.
+
+
+## Follow-on on-page SEO packages — five GB research drafts (24 October 2026)
+
+These five packages are tailored to distinct search intents, but are **internal-only proposals**. Keep each eventual page `noindex,follow` and outside the public sitemap until the exact current licence/domain/entity, current terms, consumer evidence, image rights, second review and editorial/legal approval are complete. The draft must not imply hands-on testing.
+
+### Smooth Spins (GB) — SEO package
+- **SEO title:** Smooth Spins Casino Review UK: Operator and Terms Checks
+- **Meta description:** A source-led UK review file for Smooth Spins, separating regulator and operator evidence from the terms, payments and player-protection checks still outstanding.
+- **H1:** Smooth Spins Casino Review (UK): Evidence and Verification Status
+- **Search intent:** Establish which legal operator and UK-facing product apply, and what current evidence supports before deciding whether to use the service.
+- **Page structure:** Market and domain scope; exact licence-holder match; source-date panel; casino product and availability; current bonus terms (only if archived); deposits/withdrawals and verification; complaints/ADR; safer-gambling controls; privacy/cookies/accessibility; evidence limitations; editorial decision.
+- **Publication blocker:** No unverified licence, bonus, payment speed, game catalogue, rating or personal-experience statement. If a current primary source cannot be fetched, label the field unverified rather than filling it from snippets.
+
+### Planet Sport Bet (GB) — SEO package
+- **SEO title:** Planet Sport Bet Casino Review UK: Licence, Product and Terms
+- **Meta description:** Check the UK operator identity and casino-product evidence for Planet Sport Bet, with explicit gaps for current terms, withdrawals, complaints and safer gambling.
+- **H1:** Planet Sport Bet Casino Review (UK): Licence and Product Checks
+- **Search intent:** Separate casino-product permission from any sportsbook branding and establish which terms apply to the exact reviewed domain.
+- **Page structure:** Brand versus legal entity; UKGC record and domain mapping; casino-only product scope; promotion eligibility and expiry; payment/withdrawal rules; complaints and ADR; safer-gambling tools; privacy and accessibility; source log; what remains unknown.
+- **Publication blocker:** Do not transfer sportsbook promotions or permissions to the casino review. A regulator entry or a working homepage alone does not prove all casino features or terms.
+
+### Betmaster UK (GB) — SEO package
+- **SEO title:** Betmaster UK Casino Review: Licence and Withdrawal Evidence
+- **Meta description:** A cautious, market-specific Betmaster UK review plan covering operator identity, casino permission, withdrawal terms and unresolved consumer checks.
+- **H1:** Betmaster UK Casino Review: Operator, Terms and Player Checks
+- **Search intent:** Confirm the exact UK entity/domain and find current, binding rules before describing the product or its payments.
+- **Page structure:** Reviewed domain and market; legal operator and regulator record; product scope; account/verification terms; deposits and withdrawals; bonuses and wagering (if a current offer is documented); complaints/ADR; safer gambling; privacy/cookies; accessibility; evidence date and limitations.
+- **Publication blocker:** Similar brand names or international sites are not evidence of UK authorisation. Do not quote payment estimates or offers without current, local, primary-source terms.
+
+### London.bet Casino (GB) — SEO package
+- **SEO title:** London.bet Casino Review UK: UKGC Record and Player Checks
+- **Meta description:** Review the UKGC identity and domain evidence for London.bet, while distinguishing operator statements from untested payments, support and safer-gambling controls.
+- **H1:** London.bet Casino Review (UK): Licence Evidence and Open Checks
+- **Search intent:** Check the relationship between London.bet, its listed licensee and the UK-facing casino product; understand what has and has not been independently verified.
+- **Page structure:** UKGC account and casino permission; domain/trading-name match; casino features (dated source); bonus rules only if complete terms are captured; deposits/withdrawals and KYC; complaints/ADR; safer-gambling statements versus tested controls; privacy/accessibility; enforcement context; explicit evidence limits.
+- **Evidence boundary:** Current research notes identify Thistle Bet Limited (UKGC account 66162) and a listed London.bet domain/trading name, but no account, deposit, gameplay, support or withdrawal test was performed. Do not present the operator's claims as independently tested results.
+- **Publication blocker:** Reconfirm the live regulator register and current binding terms at release time; independent second review and legal/editorial sign-off remain mandatory.
+
+### BetGoodwin Casino (GB) — SEO package
+- **SEO title:** BetGoodwin Casino Review UK: Operator and Terms Verification
+- **Meta description:** A UK-specific evidence review plan for BetGoodwin Casino, with the legal operator, current casino terms, payments and player-protection checks clearly separated.
+- **H1:** BetGoodwin Casino Review (UK): Evidence, Terms and Limitations
+- **Search intent:** Determine the exact operator and casino domain, then evaluate the published terms and protections using dated primary sources.
+- **Page structure:** Domain and legal entity; UKGC casino record; market/product scope; current bonus terms; deposit and withdrawal rules; verification and limits; complaints/ADR; safer-gambling controls; privacy/cookies/accessibility; enforcement history; sources and unresolved questions.
+- **Publication blocker:** Do not infer that the brand is eligible because it appears in a candidate directory. Verify exact licence, product and domain mapping, and capture current terms before writing a verdict.
+
+### Shared implementation gate for this follow-on batch
+- Store source URLs, access date and claim-level notes in each internal evidence pack.
+- Keep all five pages non-indexable and out of the sitemap until approved; if the public route does not yet exist, do not advertise it as live.
+- Use descriptive titles and a single H1; include market-specific internal links only where the destination exists and genuinely helps readers.
+- Use original editorial artwork or assets with documented reuse permission; do not hotlink or invent logos/screenshots.
+- Add structured data only if it faithfully represents visible, approved content. No review/rating schema, scores, “best” claims or testimonial markup while evidence is incomplete.
+- **Batch result:** five additional tailored SEO briefs; zero additional approved consumer reviews.
