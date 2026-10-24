@@ -333,3 +333,13 @@
 - Added [internal regulator evidence batch 07](reviews/internal/regulator-evidence-batch-07-2026-10-24.md) for candidates 56–65 and updated ten ledger notes.
 - Evidence covers 7melons.ch (CH), Admiral Bet (IT), AdmiralBet.es (ES), Golden Nugget (Ontario and Michigan), PartyCasino (NJ), Winfest (DE), William Hill (GB), Ladbrokes (BE) and Svenska Spel (SE). Source freshness and product scope are retained as blockers where needed, including Winfest's virtual-slots-only evidence and Admiral Bet's dated 2024 terms PDF.
 - Batches 01–07 now document dated regulator evidence for 64/100 candidates, plus 888casino's existing UKGC record/offer snapshot. All candidates remain HOLD and unscored; this is not review completion.
+
+
+## Public directory score/bonus completeness pass — 24 October 2026
+
+- Updated all 100 research cards in `brand-directory/index.html` to show an explicit **Editorial rating: Not scored** state and **Bonus offer: Not cleared** state, each with an explanation. This removes empty-looking score/bonus slots without inventing ratings, current offers, wagering terms or eligibility claims.
+- Reworked hero metrics to show 0/100 editorial scores cleared and 0/100 bonus offers cleared for publication.
+- Added responsive `.card-readiness` styling to `brand-directory/directory.css`.
+- Extended `scripts/check_site.py` so every card must contain the readiness panel, both exact status labels and non-empty explanatory notes.
+- Source inspection: 100 cards, 100 readiness panels, 100 explicit not-scored states, 100 not-cleared bonus states. This is static source validation only; current-head CI/browser execution remains unresolved due to runner allocation failures.
+- This does **not** mean 100 reviews or bonuses are complete. All remain HOLD until market-specific source checks, full terms, review evidence and independent approval pass. No merge, Cloudflare production deployment or DNS change.
