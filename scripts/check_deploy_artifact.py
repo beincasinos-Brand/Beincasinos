@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check that the deployment artifact contains public assets only."""
 from pathlib import Path
-from scripts.robots_meta import RobotsMetaParser
+from scripts.robots_meta import InlineEventHandlerParser, RobotsMetaParser
 from urllib.parse import urlparse, unquote
 import xml.etree.ElementTree as ET
 import sys
@@ -140,6 +140,11 @@ else:
             errors.append(f"dist/{html_file.relative_to(DIST)}: inline script violates the same-origin-only CSP")
         if inline_style.search(markup):
             errors.append(f"dist/{html_file.relative_to(DIST)}: inline style violates the same-origin-only CSP")
+        event_parser = InlineEventHandlerParser()
+        event_parser.feed(markup)
+        if event_parser.handlers:
+            rendered = ", ".join(f"<{tag} {attribute}>" for tag, attribute in event_parser.handlers)
+            errors.append(f"dist/{html_file.relative_to(DIST)}: inline event handler violates the same-origin-only CSP: {rendered}")
 
     # Scan deployable text assets for common accidental secrets and obvious placeholders.
     # This is a lightweight guardrail, not a replacement for a dedicated secret scanner.
