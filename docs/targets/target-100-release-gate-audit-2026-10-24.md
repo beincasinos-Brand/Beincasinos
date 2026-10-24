@@ -24,7 +24,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 **Do not publish or rank these 100 entries as completed reviews.** No entry has a substantiated overall score, independent second-review sign-off, documented consumer testing, cleared image rights, or a complete evidence bundle. Keep the public approved-review count at zero until individual entries pass all applicable gates. Do not manufacture scores, ratings, screenshots, testimonials, payment-test claims, or bonus availability.
 
 ## Highest-priority blockers
-1. **Domain and legal identity:** 45 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
+1. **Domain and legal identity:** 42 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
 2. **Thin terms/payment evidence:** only 19 terms URLs, 13 deposit-method URLs, 13 fees/limits URLs and 12 withdrawal URLs are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
 3. **Offer scope:** 15 promotion URLs are present, but no offer has been cleared for publication. Check the full current market-specific terms, product scope, eligibility, opt-in, wagering, max bet, eligible games, expiry and caps. Treat points/credit/rewards separately from cash.
 4. **Player protection and privacy:** complaint URLs exist for 10 entries, responsible-gambling URLs for 20 and privacy/cookies URLs for 14. Fill these from official sources; distinguish regulator escalation from private ADR.
