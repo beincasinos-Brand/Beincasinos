@@ -71,3 +71,8 @@ The 24 October source pass recorded official offer pages for Jackpots.ch (CH) an
 ## Review-ledger regression coverage
 
 The test suite now has seven regression cases covering the explicit unscored state, partial rubric rejection, score-total consistency, duplicate brand/market identity, non-HTTPS source rejection, malformed bonus-check date rejection, and publication blocked by missing evidence or image-rights clearance. GitHub Actions execution remains unconfirmed due to runner allocation; do not claim these tests passed until the job actually runs.
+
+
+## Market scope and legal holds
+
+A source URL must match the exact country/state/province in the candidate row. LeoVegas now points to the German offer page, not the UK promotions page. Ladbrokes Belgium now points to its local Belgian casino/promotion pages, not UK account terms. Belgium-specific candidates Casino777.be and Ladbrokes Belgium remain on HOLD because Belgian restrictions on gambling bonuses/promotional inducements require a legal/compliance determination for the exact mechanic before publication. Do not copy offers across markets.
