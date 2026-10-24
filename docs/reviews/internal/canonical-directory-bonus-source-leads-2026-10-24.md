@@ -45,3 +45,9 @@ Homepage advertises up to $1,000 back in casino credit on eligible first-day los
 ## Shared gate
 
 No source above authorizes a public score, recommendation or “best bonus” claim. Each offer needs current market-specific full terms, legal/eligibility checks, an evidence bundle, independent review, image-rights clearance, consumer testing and editorial approval. No account was created, bonus claimed, deposit made, game played, support contacted or withdrawal tested.
+
+
+## 9. GetLucky — Netherlands
+
+Source: https://promo.getlucky.nl/casino-welkomstbonus/  
+Observed: up to 200 free spins across the first three qualifying deposits; minimum €20 each; 100/50/50 spins at €0.20 per spin; age 24+; opt-in before first deposit; deposit must be wagered once across casino/live casino/sportsbook for spin-win withdrawal. Full general terms, offer availability, exact operator/domain and regulator mapping remain unverified. The public directory card still needs a verified official domain, so this is a source lead only. **HOLD**.
