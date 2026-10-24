@@ -258,3 +258,8 @@ Detailed official-source URLs and caveats are recorded in `docs/research/primary
 - **Brillbet (GB):** UK Digital Bookmakers Ltd (account 101570) has an active Casino Remote/trading-name signal, but the live consumer URL previously redirected to a customer-service notice. Current availability and binding terms are unresolved. HOLD.
 
 Evidence memo: `docs/research/ukgc-candidate-follow-up-midnite-betty-brillbet-2026-10-24.md`. UKGC domain/trading-name data is licensee-supplied and must be cross-checked against the live contract. This batch adds **0 approved reviews**; the authoritative publication count remains **0/100**.
+
+
+### Betway historical-enforcement correction — 24 October 2026
+
+The current UKGC actions page for Betway Limited (account 39372) states no actions are recorded on that page today, but the Commission's own announcement dated 21 September 2022 records a £408,915 penalty for gambling advertising appearing on children's pages of West Ham United FC's website. Because UKGC sanctions remain on the public register for three years from publication, an empty current actions page must not be represented as no historical action. Record the dated historical action alongside the current active licence/domain signal and the current-page result. Full note: `docs/research/ukgc-historical-enforcement-betway-2026-10-24.md`. Betway remains HOLD; this adds **0 approved reviews**.
