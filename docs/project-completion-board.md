@@ -1,3 +1,15 @@
+# Latest work checkpoint — 24 October 2026, 18:45 UTC
+
+- Added `docs/us-state-supplemental-research-queue-2026-10-24.md`, linked it from README and the international board, and kept NJ/PA/MI supplemental targets separate from the ten-market roadmap.
+- Updated BetRivers PA dossier and tracker using a fresh first-party route capture. Footer confirms Rush Street Interactive PA, LLC licence 110298 and names both SugarHouse HSP Gaming, LP / Internet Gaming Certificate 1356 and Holdings Acquisition Co., LP / licence F-1361. The current terms/privacy/protection/RG pages did not yield their substantive contents in text extraction, so these remain open evidence gaps.
+- Reparsed the tracker with CSV quote/multiline handling: **114 rows, 18 columns, zero malformed rows, zero duplicate brand/market keys, all ten roadmap markets represented, 99 blank global IDs (15 populated rows / 14 distinct IDs), 58 VERIFY domains, 111 HOLD, 1 Exclude, and 2 category-specific exclusions**. The qualification audit now reflects the current 114-row tracker. This remains a research queue, not 100 approved reviews.
+- Current-head workflow run 40122009428 failed before runner allocation (job runner ID 0, zero steps, no logs). A failed-job rerun was requested; the previous run 40120514437 also failed before runner allocation on attempt 2. CI remains an infrastructure/service blocker; no passing check is claimed.
+- PR #141 is still open, Draft and unmerged; latest known head at this checkpoint is `6a8cbbdace76cbf3cccd733d8ccb440cb846c1ed`. No production deployment or merge has been performed. Approved reviews remain **0/100**.
+
+**Next:** inspect the latest rerun outcome; once a runner is available, run the full site, tracker, CSP, sitemap/noindex and browser smoke checks. Continue current terms/cashier evidence capture and independent reviews; keep all unqualified targets on HOLD.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 18:42 UTC
 
 - Added and linked a dedicated US-state supplemental queue covering Ember Casino (NJ), BetMGM (NJ), BetRivers Casino (PA), Hollywood Casino Online (PA), and Horseshoe Online Casino (MI). It preserves the ten-market international board instead of quietly changing its market scope.
