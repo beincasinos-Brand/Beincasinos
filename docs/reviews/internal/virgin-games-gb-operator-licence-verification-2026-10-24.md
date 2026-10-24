@@ -1,50 +1,63 @@
-# Virgin Games — Great Britain operator and licence verification
+# Virgin Games — Great Britain operator, domain and regulatory evidence
 
 **Status:** HOLD — internal research only; not an approved review.  
 **Research date:** 24 October 2026.  
-**Scope:** Virgin Games-branded online casino and/or bingo products in Great Britain. Do not assume that casino, bingo, poker or other products share the same operator or licence scope.
+**Scope:** Virgin Games-branded online casino in Great Britain. Keep casino, bingo and other product scopes distinct.
 
-## Verification status
+## Operator, licence and domain evidence
 
-This worksheet does not yet establish the exact current legal operator, final live domain and active Casino Remote permission for the specific Virgin Games product under review. A brand reference in an industry report or a corporate-group relationship is not sufficient evidence of current licence status.
+The current Virgin Games site identifies **Gamesys Operations Limited** as its UK operator and gives UK Gambling Commission account **38905**. The UKGC register confirms:
+- Casino Remote licence **038905-R-319430-023** is active from 1 November 2014 to current.
+- The domain record lists **virgingames.com** as **White Label** rather than Active.
+- The same register lists other active domains for Gamesys Operations Limited, including ballycasino.co.uk and jackpotjoy.com.
+- The trading-name page has no trading names recorded for account 38905.
 
-Official starting points:
-- UKGC business register search for Virgin Games: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Virgin%20Games
-- UKGC business register: https://www.gamblingcommission.gov.uk/public-register/businesses
-- UKGC remote casino operating licence guidance: https://www.gamblingcommission.gov.uk/licensees-and-businesses/licences-and-fees/remote-casino-operating-licence
-- UKGC regulatory actions: https://www.gamblingcommission.gov.uk/public-register/regulatory-actions
+A white-label domain record is not the same status as an Active domain. The official site and register together provide a plausible operator/licence relationship, but preserve the white-label status explicitly and archive the current GB terms plus any applicable white-label arrangement/consumer disclosure before publication.
 
-## Required reconciliation
+## Regulatory history — material context
 
-1. Confirm the current GB website and record its final URL after redirects.
-2. Capture current product terms and the legal entity named as operator for the specific casino product.
-3. Match the exact legal entity and domain against the UKGC register and verify active Casino Remote permission.
-4. Keep bingo and any other products/licences distinct unless official records show the same scope.
-5. Archive current promotions and their material restrictions; test cashier methods, limits, fees and withdrawal disclosures.
-6. Verify complaints route, deadlines, ADR provider and safer-gambling tools.
-7. Test game rules/RTP where shown, privacy/cookie disclosures and accessibility.
-8. Record real consumer tests with dates and reproducible steps; clear image rights and obtain independent sign-off.
+The UKGC action against Gamesys Operations Limited dated **22 November 2023** records a warning, additional licence condition and a total financial penalty of **£6,071,292** (including a divestment amount of £165,042). The Commission found AML control failings and customer-interaction/social-responsibility failures in the period **November 2021 to July 2022**. The regulator's published decision says the licensee cooperated and reported corrective steps; it also says the Commission found no evidence of criminal monies being deposited by the specific customers examined.
+
+Attribute this action to **Gamesys Operations Limited/account 38905** and state the historical period and findings. Do not imply that this settlement is a direct test result for the current Virgin Games product or that it proves current performance.
+
+## Official sources captured
+
+- Virgin Games current site (operator and account claim): https://www.virgingames.com/
+- UKGC licence summary, account 38905: https://www.gamblingcommission.gov.uk/public-register/business/detail/38905/
+- UKGC domain names, account 38905: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905
+- UKGC trading names, account 38905: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/38905
+- UKGC regulatory action, account 38905: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/38905
+- Full UKGC decision, 22 November 2023: https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/210
+- UKGC remote casino licence guidance: https://www.gamblingcommission.gov.uk/licensees-and-businesses/licences-and-fees/remote-casino-operating-licence
+
+The current site advertises a welcome offer and makes claims about game catalogue size, payment methods and withdrawal times. Treat those as operator claims only: archive the full offer rules and terms, then test actual cashier and withdrawal journeys before using them in an editorial score. Do not repeat unverified marketing claims as independently measured facts.
 
 ## Evidence checklist
 
 | Area | State |
 |---|---|
-| Current domain and redirects | Not tested |
-| Exact casino operator in live terms | Not captured |
-| Active Casino Remote permission and domain match | Not established |
-| Product scope (casino vs bingo/other) | Not reconciled |
-| Promotions, payments and withdrawals | Not tested |
-| Complaints/ADR and safer gambling | Not verified |
-| Games/RTP and privacy | Not tested |
-| Accessibility and mobile checks | Not tested |
-| Regulatory history against exact licensee | Not completed |
-| Consumer testing and image rights | Not performed / not cleared |
+| Named operator | Current site identifies Gamesys Operations Limited; archive current GB terms |
+| Licence | Active Casino Remote permission recorded for account 38905 |
+| Domain | virgingames.com is recorded as White Label, not Active; explicitly preserve this distinction |
+| Regulatory history | 2023 action captured; second-review factual wording required |
+| Promotions | Current offer seen; full terms and eligibility not archived |
+| Payments/withdrawals | Operator claims seen; not independently tested |
+| Complaints/ADR | Not verified |
+| Safer gambling | Operator describes tools; not usability-tested |
+| Games/RTP | Marketing says 1,000+ titles on current homepage; independent catalogue count and RTP sample not completed |
+| Privacy/accessibility | Not tested |
+| Consumer testing | Not performed |
+| Image rights | Not cleared |
 | Independent editorial sign-off | Not started |
 
 ## Editorial guardrails
 
-A mention of Virgin Games in a UKGC report does not itself establish the current operator or licence status. Do not infer current status from that mention, and do not publish a rating, bonus claim or recommendation without current primary evidence. Keep the draft internal and unindexed.
+- Do not label the domain record Active; the UKGC currently shows White Label for virgingames.com.
+- Do not omit the 2023 regulatory decision or imply it directly measured today's consumer experience.
+- Do not treat the site's welcome-offer, withdrawal-time, game-count or fairness statements as independent test results.
+- Do not invent payment methods, payout speed, scores or firsthand testing.
+- Keep this note internal and unindexed until terms, consumer testing, image rights and independent sign-off are complete.
 
 ## Decision
 
-**HOLD — operator/domain verification required.** No score assigned. This worksheet is not an approved review and does not count toward the 100-review target.
+**HOLD — terms, white-label disclosure and consumer testing required.** No score assigned. This worksheet is not an approved review and does not count toward the 100-review target.
