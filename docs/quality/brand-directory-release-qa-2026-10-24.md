@@ -11,7 +11,7 @@
 - Expandable research snapshots/checklists: **100/100**.
 - Remote image elements/candidates: **64**; CSS artwork/monogram fallbacks: **36**.
 - Image elements with alt text, explicit dimensions, lazy loading, async decoding, referrer policy and an error fallback: **64/64**.
-- Asset-register rows: **100**; sourced image candidates: **60**; not sourced: **40**.
+- Asset-register rows: **100**; sourced image candidates: **64**; not sourced: **36**.
 - External-link anchors in cards: **323**. This is a source count only; destinations were not all fetched or checked.
 - Evidence-grade filter and image-state filter are present; the clear-filters control resets the filter inputs.
 - One H1 is present in the page source.
