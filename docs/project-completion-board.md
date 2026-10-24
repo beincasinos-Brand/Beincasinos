@@ -469,3 +469,11 @@
 - William Hill's official homepage module advertises up to 200 spins after a £10 qualifying stake, but the exact current GB offer route and deposit-versus-stake sequence still require confirmation.
 - Virgin Games' official UK page advertises 100 Game of Thrones spins after opt-in and at least £10 deposit + slot wagering; 10p/spin and 30-day expiry are stated, with full rules still to verify.
 - All three remain HOLD. Ledger audit confirms 100 rows, 43 columns, 30 dated bonus sources, zero blank bonus-status fields, zero non-HTTPS populated URLs and zero numerical review scores.
+
+
+# Tenth bonus source pass and latest ledger reconciliation — 24 October 2026
+
+- Added official-source observations for PlayOJO UK and FanDuel Casino Ontario in `docs/reviews/internal/bonus-snapshot-playojo-fanduel-2026-10-24.md`.
+- The latest ledger now has **38** populated official bonus/promotion URLs across the 100 candidates. The additional source URLs now present include market-specific candidates for Caesars Palace Online (Ontario), Borgata (New Jersey), BetMGM (Michigan), betPARX (Pennsylvania), Napoleon (Belgium), Sisal (Italy), LeoVegas (Germany candidate), Ladbrokes (Belgium), and Grosvenor (Great Britain). Each offer still needs full-term reconciliation and the wider review gates; a populated source URL is not publication approval.
+- PlayOJO's UK welcome page states 50 Big Bass Bonanza spins at £0.10 per spin with a £10 first-deposit minimum, and says free-spin winnings have no wagering requirement; it excludes Northern Ireland new players. FanDuel Ontario's homepage shows 500 spins + CAD $20 and a separate up-to-CAD $1,000 first-day lossback headline, but the separate offer-specific conditions remain outstanding.
+- Current structural audit: 100 rows, 43 columns, 100 unique brand/market identities, 38 dated bonus-source URLs, no blank bonus-status fields, no non-HTTPS populated URL fields, 0 numeric scores and 100 explicit NOT SCORED states. All consumer tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED.
