@@ -1,3 +1,11 @@
+# Latest exact-ID mapping — 24 October 2026
+
+- Tier-1 tracker remains 106 data rows, 18 columns, zero malformed rows and zero duplicate brand/market keys. Source-matched global IDs are now filled for Hollywood Casino Online (PA) → `hollywood-casino`, BetRivers Casino (PA) → `betrivers-casino`, Casineo.ch (CH) → `casineo`, and Jollie.de (DE) → `jollie`. These assignments use an existing exact brand ID or an exact normalized brand/market match; no broader aliases were inferred. **102 IDs remain blank**, so deduplication is still incomplete.
+- The source directory contains exactly 100 cards, including one BetRivers and one Hollywood Casino Online; the latter cites the PGCB-listed `http://www.hollywoodcasino.com` URL and keeps HTTPS/customer-contract matching as an open gate. Directory remains `noindex,follow` and absent from the sitemap.
+- PR #141 remains Draft/open/unmerged. CI runner-allocation failure continues; latest preview is stale relative to source changes. Approved reviews remain 0/100 and production release remains blocked.
+
+---
+
 # Latest correction — Pennsylvania brand/domain distinction — 24 October 2026
 
 - The PGCB's 2024–2025 Annual Report reports a new Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate, and the current PGCB operator directory displays Hollywood Casino Online. The separate legacy URL `pa.hollywoodcasino.com` is listed as a former site ending 14 December 2023 in the 13 February 2026 certificate-holder PDF.
