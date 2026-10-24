@@ -421,3 +421,12 @@
 - Pasino's detailed offer says 100% up to CHF 500, CHF 10 minimum, 350 spins across six instalments, 35x wagering within 30 days, and six-day spin validity; the detailed page and promotion hub disagree on the eligible spin game, so it remains held.
 - Casineo lists CHF 15 credit via TREAT15 until “14 November” without a clearly rendered year; bonus conditions specify a one-month default bonus validity and CHF 10 maximum bonus wager per round. Offer year and current status remain unresolved; held.
 - No account, deposit, bonus claim, gameplay, support contact or withdrawal test was performed. No ratings were assigned.
+
+
+# Sixth market-specific bonus evidence pass — Ontario — 24 October 2026
+
+- Added official Ontario-source checks for OLG.ca, BET99 and Hard Rock Bet; ledger now has **20** official bonus/promotion source URLs. Internal note: `docs/reviews/internal/bonus-snapshot-olg-bet99-hardrock-ontario-2026-10-24.md`.
+- OLG's offer detail shows a $25 deposit minimum, $25 qualifying casino-game bet, $250 bonus, 10x wagering and 14-day conversion deadline, while the promotions index summary says $15 minimum deposit; explicitly flagged for reconciliation.
+- BET99's official Help Centre states a 100% first-deposit match up to CAD $1,000, code CASINO99, 30x wagering within 30 days and game contribution differences (slots 100%, live/table/crash 10%, progressive/video poker 0%). Its live promotion page was inaccessible to automated retrieval, so current offer/eligibility is not cleared.
+- Hard Rock Bet's Ontario-specific offer page describes 200 Sweet Bonanza spins worth CAD $40 after a CAD $10 deposit and up to CAD $1,000 slot lossback with 1x wagering within 14 days; contractual/current terms still need confirmation.
+- All three rows remain HOLD; no account, deposit, claim, game, support or withdrawal test was performed.
