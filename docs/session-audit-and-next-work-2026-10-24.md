@@ -9,7 +9,7 @@
 - Base: `ops/tier1-10-market-100-brand-roadmap-2026-10-22`
 - PR: https://github.com/beincasinos-Brand/Beincasinos/pull/141
 - PR state: open, Draft, not merged.
-- Latest observed changed-file count at the previous checkpoint: 103; after hosting-status corrections and the new tracker/session audits, the PR has 107 changed files.
+- Latest observed changed-file count at the previous checkpoint: 103; after hosting, tracker, brand-evidence and CSP fixes, PR #141 now has 110 changed files.
 - Public-release decision remains BLOCKED. No production deployment, merge, DNS change, crawl-unblock, or brand outreach was authorized by this work.
 
 ## Work completed in this session
@@ -43,8 +43,8 @@ The project board's most recent prior baseline says **0/100 fully publication-ap
 
 ## Open blockers
 
-1. Diagnose CI run #1312 / its rerun. If the rerun again fails before runner allocation, inspect repository Actions settings/availability with the owner; do not guess that a source check failed.
-2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; verify preview freshness and real production behavior separately. The current branch commit has not been confirmed deployed.
+1. Diagnose GitHub Actions runs that fail before runner allocation. If this persists, inspect repository Actions settings/availability with the owner; do not guess that a source check failed.
+2. Reconcile any remaining hosting-status contradictions. Cloudflare Pages is the preferred host; a preview deployment succeeded for commit `1aa650c`, while the later preview for `095dccb` was still building at the last check. Verify freshness and real production behavior separately.
 3. Keep `robots.txt` and the public-release gate unchanged until explicit approval and the legal/editorial/manual-host acceptance gates are cleared.
 4. Requalify the 100-name legacy prospect queue against the actual market strategy, deduplicate brands/legal entities, exclude inactive or out-of-scope products, and maintain separate counts for prospects, evidence-complete drafts, and approved reviews.
 5. Prefer finishing and independently reviewing a smaller number of evidence-complete profiles over producing additional generic HOLD templates.
