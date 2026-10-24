@@ -27,3 +27,10 @@ The public help centre lists debit/credit cards, online banking, ACH/e-check, Pa
 2. Check whether the help pages and listed payment methods are current for the specific market and casino product.
 3. Capture complaint escalation, ADR, privacy/cookies, accessibility and regulator enforcement sources.
 4. Perform no real-money test unless separately authorised and lawful; never infer a successful transaction from documentation alone.
+
+
+## Follow-up corrections — same session
+- Replaced the generic Play Gun Lake deposit-method URL with the operator's specific deposit-method article and the fees/limits URL with its current minimum-deposit/limits table.
+- Added Play Gun Lake's official responsible-gambling tools page. It documents deposit, wager, loss, single-bet and time limits, cool-off/timeouts and self-exclusion; this is documentation evidence only, not an interaction test.
+- Added Hollywood Casino's privacy policy URL, which its official Terms of Use references. Confirm applicability against the Pennsylvania jurisdiction terms before publication.
+- No scores or publication statuses changed. All 100 candidates remain HOLD.
