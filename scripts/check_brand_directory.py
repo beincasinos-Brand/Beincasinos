@@ -31,9 +31,6 @@ def main() -> None:
     with REGISTER_PATH.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
-    cards = re.findall(r'<article class="brand-card"\b[^>]*>[\s\S]*?</article>', html)
-    if not cards:
-        # The class is followed by data-* attributes, so a literal space is also valid.
         cards = re.findall(r'<article class="brand-card"[^>]*>[\s\S]*?</article>', html)
     if len(cards) != 100:
         fail(f"expected 100 directory cards, found {len(cards)}")
