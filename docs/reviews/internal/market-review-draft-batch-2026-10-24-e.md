@@ -1,110 +1,77 @@
-# Market-specific casino review drafts — batch E
+# Ontario market-specific review briefs — 24 October 2026
 
-**Prepared:** 24 October 2026  
-**Scope:** Great Britain (GB), online casino only  
-**Status:** All five entries are **HOLD — internal editorial drafts, not consumer reviews or recommendations**.  
-**Testing disclosure:** No account opening, deposit, gameplay, identity submission, support contact or withdrawal testing was performed. Licence screening and operator statements do not establish consumer experience or overall quality.
+**Purpose:** editorial research briefs for Ontario-specific versions of existing brand candidates. These are not finished reviews, do not imply that an offer is available to every reader, and must not be published as factual ratings before the evidence checklist is completed.
 
-## 1. Virgin Games Casino — Great Britain
+**Primary regulatory source checked:** iGaming Ontario's official operator/site directory, which says its listing was accurate as of **1 September 2026** and identifies regulated operators and the gaming websites offered by them: https://igamingontario.ca/en/operator/operators  
+**Player eligibility caveat:** iGaming Ontario states players must be 19+ and physically located in Ontario to play: https://www.igamingontario.ca/en/player/regulated-igaming-market  
+**Verification limit:** directory presence is evidence of listing in the official directory on its stated date only. It does not independently prove current terms, payment performance, product quality, customer support, complaint outcomes, or present availability. Recheck before publication.
 
-### Editorial summary
-The evidence pack maps the Virgin Games consumer brand/domain to Gamesys Operations Limited, UKGC account 38905, which has an active remote-casino licence. The UKGC domain table labels `virgingames.com` as **White Label**. The legal licensee must remain distinct from the consumer brand; do not describe Virgin Games as an independent licensee based on the domain row.
+## 1. BetMGM Casino — Ontario
 
-### Regulatory history
-The UKGC action record for Gamesys Operations Limited records a decision dated 22 November 2023: a £6,071,292 financial penalty, a warning and an additional licence condition relating to AML controls and customer interaction during November 2021–July 2022. The Commission noted cooperation and corrective steps and said it found no evidence of criminal monies in the specific customers examined. A review must preserve the historic period, scope and regulator attribution; it must not present this as proof that every current Virgin Games transaction is unsafe.
+- **Working title:** BetMGM Casino Ontario Review: Operator, Terms and Player Protections
+- **Market:** Ontario, Canada
+- **Regulatory evidence lead:** iGaming Ontario's official directory lists BetMGM Canada Inc. and the separate products BetMGM Casino, BetMGM Poker, and BetMGM Sportsbook. Keep the casino review scoped to the casino product; do not transfer sportsbook or poker claims into it.
+- **Primary source:** https://igamingontario.ca/en/operator/operators
+- **Meta description:** An evidence-led review of BetMGM Casino in Ontario, including the listed operator, casino-specific terms, withdrawals, complaints and safer-gambling tools.
+- **H1:** BetMGM Casino Ontario Review
+- **Required sections:** dated directory check and exact site/domain; contracting operator and product scope; bonus terms and wagering requirements; deposit/withdrawal methods, limits, fees and processing language; identity checks; complaint escalation; self-exclusion and limit tools; privacy/accessibility; source dates and reviewer disclosure.
+- **Evidence still required:** current casino terms, bonus terms, cashier and withdrawal policy, complaint route, responsible-gambling controls, privacy policy and live-domain match. Do not claim test deposits or withdrawals unless actually performed and documented.
+- **Image direction:** use an asset with documented reuse rights; otherwise use a neutral CSS-created brand label.
 
-### Consumer terms and offer
-The first-party site links to terms, privacy, cookies, help/contact and responsible-gambling information; its pages mention session reminders/spend limits and GamProtect. The evidence pack does not yet archive the full current clauses. Current welcome offer, payments/withdrawals, complaints/ADR and exact online contracting-entity wording remain unverified. No bonus or payout-speed rating is made.
+## 2. Horseshoe Online Casino — Ontario
 
-### Sources
-- UKGC licence record: https://www.gamblingcommission.gov.uk/public-register/business/detail/38905
-- UKGC domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/38905
-- UKGC action record: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/38905
-- Official consumer site: https://www.virgingames.com/
+- **Working title:** Horseshoe Online Casino Ontario Review: Licence Listing and Terms
+- **Market:** Ontario, Canada
+- **Regulatory evidence lead:** the iGaming Ontario directory lists Horseshoe Online Casino under American Wagering Inc. Treat this as an Ontario-specific online product, distinct from the land-based Horseshoe property and from any other province's offer.
+- **Primary source:** https://igamingontario.ca/en/operator/operators
+- **Meta description:** Verify Horseshoe Online Casino's Ontario listing, contracting operator, casino terms, withdrawals, complaints and player-protection controls.
+- **H1:** Horseshoe Online Casino Ontario Review
+- **Required sections:** current official listing; domain and operator match; online casino product boundary; bonus eligibility and expiry; withdrawal rules and verification; complaint/escalation process; limits, time-outs and self-exclusion; privacy and accessibility.
+- **Evidence still required:** current terms and payments pages, support and complaint channels, responsible-gambling pages, and any brand/operator relationship changes since the directory's stated date.
+- **Image direction:** no Caesars/Horseshoe resort photography unless it accurately represents the online product and rights are cleared.
 
-### HOLD blockers
-- Capture current first-party terms, bonus terms, payment/withdrawal rules, complaint/ADR process, privacy/cookies and safer-gambling controls.
-- Recheck exact current domain and contracting-entity mapping.
-- Complete permitted public-site UX/accessibility checks, second review and editorial/legal sign-off.
+## 3. Fanatics Casino — Ontario
 
-## 2. PlayOJO — Great Britain
+- **Working title:** Fanatics Casino Ontario Review: Product Scope and Consumer Terms
+- **Market:** Ontario, Canada
+- **Regulatory evidence lead:** the iGaming Ontario directory lists Fanatics Casino under FBG Enterprises Canada, Inc. Do not assume the casino and sportsbook share identical bonuses, terms or complaint processes.
+- **Primary source:** https://igamingontario.ca/en/operator/operators
+- **Meta description:** A source-led check of Fanatics Casino in Ontario, covering its official listing, casino-specific terms, withdrawals and player safeguards.
+- **H1:** Fanatics Casino Ontario Review
+- **Required sections:** dated official listing; exact domain and contracting entity; casino-only welcome offer and eligibility; withdrawal limits and verification; fees and processing disclosures; support and complaints; safer-gambling controls; privacy/accessibility.
+- **Evidence still required:** current casino terms and bonus rules, payment/withdrawal policy, complaints route, responsible-gambling tools and a dated live-domain check.
+- **Image direction:** verify permission for logos and branded assets; otherwise use a text-first, neutral card.
 
-### Editorial summary
-The evidence pack identifies Skill On Net Limited, UKGC account 39326, with active remote-casino permission and the trading name “playojo” marked active. The search result associates PlayOJO with playojo.co.uk and playojo.com, but the account-level domain record was not conclusively captured. That mismatch is a publication blocker, not proof of unlawful operation.
+## 4. Hard Rock Bet — Ontario
 
-### Consumer terms and offer
-Current full terms and casino promotion conditions have not been captured in the evidence pack. Do not state a welcome bonus, wagering requirement, maximum cashout, payment method or withdrawal timeline until the exact current GB terms are documented. No account, deposit, gameplay or withdrawal was tested.
+- **Working title:** Hard Rock Bet Ontario Review: Casino Scope, Terms and Safeguards
+- **Market:** Ontario, Canada
+- **Regulatory evidence lead:** the iGaming Ontario directory lists Hard Rock Digital (Canada) Limited and the Hard Rock Bet product under casino and sports betting categories. The review must explicitly distinguish the casino experience and casino terms from sportsbook features.
+- **Primary source:** https://igamingontario.ca/en/operator/operators
+- **Meta description:** Check Hard Rock Bet's Ontario listing and casino-specific terms, payments, complaints and safer-gambling controls with dated sources.
+- **H1:** Hard Rock Bet Ontario Review
+- **Required sections:** official listing and exact domain; operator identity; casino versus sportsbook product boundary; casino bonus terms; deposit/withdrawal rules; verification and fees; complaints; limit and self-exclusion controls; privacy/accessibility.
+- **Evidence still required:** current casino-specific terms, cashier/withdrawal policy, support and complaint pages, responsible-gambling pages, privacy policy and confirmation that the live domain matches the official listing.
+- **Image direction:** only use licensed assets; avoid implying a land-based venue or a particular sports partnership is part of the online casino offer.
 
-### Sources
-- UKGC licence record: https://www.gamblingcommission.gov.uk/public-register/business/detail/39326/
-- UKGC trading-name record: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/39326
-- UKGC regulatory-action record: https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39326
-- UKGC search result for PlayOJO: https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=playojo
-- UKGC register information note: https://www.gamblingcommission.gov.uk/public-register/businesses
+## 5. Hollywood Casino — Ontario
 
-### HOLD blockers
-- Resolve the exact live GB hostname, redirects and account 39326 domain-register association.
-- Capture current terms and bonus terms; verify payment/withdrawal, KYC, complaints/ADR, privacy, cookies, safer-gambling and GAMSTOP details.
-- Check related-entity enforcement without conflating licensees; finish independent second review and editorial/legal sign-off.
+- **Working title:** Hollywood Casino Ontario Review: Official Listing and Player Terms
+- **Market:** Ontario, Canada
+- **Regulatory evidence lead:** the iGaming Ontario directory lists Hollywood Casino under Score Media and Gaming Inc. Keep this distinct from land-based Hollywood Casino venues and from theScore Bet / theScore Casino listings.
+- **Primary source:** https://igamingontario.ca/en/operator/operators
+- **Meta description:** An Ontario-specific review of Hollywood Casino's listed operator, current casino terms, withdrawals, complaints and safer-gambling tools.
+- **H1:** Hollywood Casino Ontario Review
+- **Required sections:** dated official directory evidence; exact domain/operator mapping; casino product boundaries; bonus rules and exclusions; deposits and withdrawals; verification; customer support and complaints; safer-gambling controls; privacy/accessibility.
+- **Evidence still required:** current casino terms, payment and withdrawal details, complaint process, responsible-gambling controls, privacy/accessibility statements, and confirmation of the current domain/operator relationship.
+- **Image direction:** do not use land-based casino photography or logos without proof that it accurately represents this online product and may be reused.
 
-## 3. Mr Green Casino — Great Britain
+## Shared publication gate
 
-### Editorial summary
-The evidence pack identifies Blue Rock Managed Services Limited, UKGC account 67740, as the current GB operator stated by first-party content, with active remote-casino permission from 2 October 2025 and a domain-register result listing `www.mrgreen.co.uk` as **White Label**. Do not use the legacy Mr Green Limited account 39264 as current permission: its remote-casino licence is recorded as surrendered effective 28 October 2024 and its old `www.mrgreen.com` domain row is inactive.
+All five briefs remain **HOLD**. Before any page is called a review, attach dated source captures or links for every material claim, test page navigation and mobile layout, check for jurisdiction-specific eligibility and terms, document image rights, disclose affiliate relationships, and obtain independent editorial approval. The official directory is a starting point—not a substitute for checking terms, payments, support, complaints or player controls.
 
-### Consumer terms and privacy
-First-party URLs were found for terms, privacy and FAQs, but the current terms clauses and effective date have not yet been fully captured. The privacy search result identifies Blue Rock Managed Services Limited as company/data controller; the complete notice still needs direct review. Do not infer payout performance or current offer value from the regulator record.
-
-### Sources
-- Current operator licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/67740
-- Current operator domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/67740
-- Legacy operator licence: https://www.gamblingcommission.gov.uk/public-register/business/detail/39264
-- Current terms: https://www.mrgreen.co.uk/terms-and-conditions
-- Privacy notice: https://www.mrgreen.co.uk/privacy-notice
-- FAQs: https://www.mrgreen.co.uk/faqs
-
-### HOLD blockers
-- Recheck the current domain table directly and capture the full effective terms and privacy notice.
-- Verify bonus conditions, payment/withdrawal methods and limits, verification triggers, complaints/ADR, RG controls and current relevant regulatory actions.
-- Complete public-site UX/accessibility checks, independent second review and editorial/legal approval.
-
-## 4. Videoslots — Great Britain
-
-### Editorial summary
-The evidence pack identifies Videoslots Limited, UKGC account 39380, with an active Casino Remote licence from 1 November 2014. However, the exact current UK domain-register row and live customer-facing URL were not captured. The licence is a screening lead only and does not establish payout speed, bonus value, support quality, fairness or overall trustworthiness.
-
-### Consumer terms and offer
-Current terms, exact contracting entity, welcome offer and wagering conditions, deposits/withdrawals, fees, KYC triggers, complaint/ADR route, privacy/cookies and safer-gambling controls remain to be verified. The evidence pack does not claim that no regulatory actions exist. No hands-on account or payment test was performed.
-
-### Sources
-- UKGC licence record: https://www.gamblingcommission.gov.uk/public-register/business/detail/39380
-- Official website: https://www.videoslots.com/
-
-### HOLD blockers
-- Match the live GB URL and redirect/canonical to the current official UKGC domain register and contracting entity.
-- Capture current primary-source terms, offer rules, payments, complaints/ADR, privacy, safer-gambling and regulatory-history evidence.
-- Complete public-site checks, independent second review and editorial/legal sign-off.
-
-## 5. Midnite Casino — Great Britain
-
-### Editorial summary
-The evidence checkpoint identifies Midnite Limited (Gibraltar registration 126682), UKGC account 101839, and the product page at midnite.com/casino. The regulator record shows active remote-casino permission from 11 August 2026 and lists `www.midnite.com` as **Active**. This supports an initial GB licence/domain screen only; it does not establish permissions outside Great Britain or a positive quality verdict.
-
-### Material terms to explain
-The operator's terms say withdrawals are subject to cleared funds and verification and generally returned to the original payment method; limits can vary by payment method. Terms also describe deposit/loss limits, cool-off periods and self-exclusion. These are operator statements, not tests of how controls or payments work in practice.
-
-### Sources
-- UKGC licence record: https://www.gamblingcommission.gov.uk/public-register/business/detail/101839
-- UKGC domain record: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/101839
-- Official casino product page: https://www.midnite.com/casino
-- Official terms: https://help.midnite.com/en/articles/2686627-terms-conditions
-- Official withdrawal help: https://help.midnite.com/en/articles/2686798-how-to-make-a-withdrawal
-
-### HOLD blockers
-- Capture current casino promotion terms, including wagering, expiry, maximum bet, game exclusions and cashout limits.
-- Verify complaints and exact independent ADR route, privacy/cookies/data controller, current regulatory actions and live canonical URL.
-- Record permitted public-site desktop/mobile UX observations; independent second review and editorial/legal sign-off remain absent.
-
-## Batch decision
-
-All five entries remain **HOLD**. They are internal evidence-led drafts, not approved reviews, endorsements, affiliate claims or proof of first-hand testing. None may count toward the 100 approved-review target until the missing primary-source evidence, independent second review and release approval are recorded.
+**Batch E status**
+- Ontario market-specific research/page-structure briefs added: **5**
+- Completed and approved consumer reviews added: **0**
+- Cumulative approved reviews toward target: **0/100**
+- No deployment, search indexing, or user-account/payment testing is claimed.
