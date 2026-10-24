@@ -40,6 +40,7 @@ class PageParser(HTMLParser):
         self.images_missing_alt = 0
         self.inline_scripts = 0
         self.inline_styles = 0
+        self.inline_event_handlers = []
         self.html_lang = None
         self.has_viewport = False
         self.unsafe_new_tab_links = []
@@ -50,6 +51,9 @@ class PageParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        for attr_name, _attr_value in attrs:
+            if attr_name and attr_name.lower().startswith("on"):
+                self.inline_event_handlers.append((tag, attr_name.lower()))
         if tag == "html":
             self.html_lang = a.get("lang", "").strip()
         if "id" in a:
@@ -164,6 +168,9 @@ for page in pages:
         errors.append(f"{rel}: inline script blocked by the prepared Content Security Policy; move logic to a same-origin .js file")
     if parser.inline_styles:
         errors.append(f"{rel}: inline styles blocked by the prepared Content Security Policy; move styles to a same-origin .css file")
+    if parser.inline_event_handlers:
+        handlers = ", ".join(f"<{tag} {attribute}>​".replace("\u200b", "") for tag, attribute in parser.inline_event_handlers)
+        errors.append(f"{rel}: inline event handler(s) blocked by the prepared Content Security Policy; move them to a same-origin .js file: {handlers}")
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
     for href in parser.unsafe_new_tab_links:
