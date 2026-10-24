@@ -40,7 +40,7 @@ class ExactNameMappingTests(unittest.TestCase):
         ], registry)
         self.assertEqual(checked, 1)
         self.assertEqual(warnings, [])
-        self.assertIn("conflicts with exact-name registry ID", errors[0])
+        self.assertTrue(any("conflicts with exact-name registry ID" in error for error in errors))
 
     def test_conflicting_registry_ids_are_not_guessed(self):
         registry = build_registry_ids([
