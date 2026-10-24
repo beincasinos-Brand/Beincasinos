@@ -1,3 +1,15 @@
+# Latest checkpoint — 24 October 2026, 18:20 UTC
+
+- **Holland Casino Online (NL):** expanded the internal dossier and both trackers with first-party Help Center evidence: 18+ and Dutch citizenship/residence-permit requirements; under-24 monthly deposit cap of €149 and no bonuses/offers; login-time limits (max eight hours/day; increases delayed seven days); support phone/email published as 24/7 and live chat 09:00–02:00 for logged-in users; optional automatic-withdrawal-limit tool and its up-to-48-hour processing statement. That 48-hour figure applies only to the optional threshold-triggered automatic withdrawal, not ordinary withdrawals. Terms/privacy fetch returned HTTP 403; no login, payment or support test claimed. The Ksa public Kansspelwijzer profile still shows the previous permit period, so the current domain notification under the renewed permit remains HOLD.
+- **Betano Belgium:** fresh live English and French regulator tables agree on A+ dossier 20000 decision 12 Nov 2024 and expiry 31 Dec 2026. The Tier-1 tracker date field now matches the current live table; stale indexed 2019/2034 text is superseded.
+- **Data integrity:** Tier-1 prospect tracker is 114 data rows × 18 columns, zero malformed rows, zero duplicate brand/market keys. The broader research template is 207 data rows × 33 columns, zero malformed rows.
+- **CI:** reran the failed Actions job once. Attempt 2 also failed before runner allocation: runner ID 0, zero steps, no downloadable logs. This is an environment/job-start failure; the site checks themselves did not execute. PR #141 remains open, Draft and unmerged; no production deployment or merge made. The current PR has 126 changed files.
+- **Completion truth:** approved reviews remain **0/100**. The ten international targets and supplemental US-state targets remain HOLD pending exact domain/contract match, full current terms, actual usability/accessibility tests, image rights and independent second review.
+
+**Next:** investigate GitHub Actions runner allocation; get the Ksa current domain notification confirmed for Holland Casino; continue current terms/cashier capture on the priority reviews.
+
+---
+
 # Correction checkpoint — 24 October 2026, live source recheck
 
 - **Betano Belgium A+ register:** fresh live fetches of both the Belgian Gaming Commission's English and French A+ table pages returned the same dossier 20000 row: `www.betanocasino.be`, VIAGE, SA/NV CASINOS AUSTRIA INTERNATIONAL BELGIUM, decision date **12 November 2024**, expiry **31 December 2026**. A search-indexed French snippet that showed 2019/2034 was stale relative to the current page. Updated the Betano dossier, Tier-1 tracker, brand research template and international board to remove the false cross-language-conflict claim. This is a source reconciliation, not review approval; Betano remains HOLD.
