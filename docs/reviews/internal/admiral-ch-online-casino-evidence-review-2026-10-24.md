@@ -7,13 +7,14 @@
 
 ## Regulator-backed identity lead
 
-The FGB's official online-gambling list names Casino Mendrisio and the domain https://www.admiral.ch, with online-business start date **16 July 2025**. The regulator explains that Swiss land-based casinos require a concession extension for online gambling and must obtain FGB permission for each game before offering it online.
+The FGB's official online-gambling list names Casino Mendrisio and the domain https://www.admiral.ch, with online-business start date **16 July 2025**. A Federal Council release dated 26 February 2025 states that **Casinò Admiral SA** was granted a concession extension to operate online games; the FGB's 16 July 2025 release says Casino Mendrisio had then received all required authorisations. The regulator also explains that Swiss land-based casinos require a concession extension for online gambling and must obtain FGB permission for each game before offering it online.
 
 Primary sources:
 - FGB online-gambling list: https://www.esbk.admin.ch/en/online-gambling/
-- FGB release concerning Casino Mendrisio's online offering: https://www.esbk.admin.ch/en/2025-07-16-e
+- Federal Council release granting Casinò Admiral SA a concession extension (26 February 2025): https://www.esbk.admin.ch/fr/nsb?id=104291
+- FGB release confirming required authorisations for Casino Mendrisio (16 July 2025): https://www.esbk.admin.ch/en/2025-07-16-e
 
-This establishes a regulator-listed Swiss online casino platform/domain and a start date. It does not by itself identify every contracting entity, prove every game currently available is individually permitted, or establish product quality, payment performance, complaints handling or willingness to pay for a listing.
+This establishes a regulator-listed Swiss online casino platform/domain and a start date, and identifies Casinò Admiral SA as the recipient of the concession extension. It still does not identify the exact entity contracting with current online customers, prove every currently displayed game is individually permitted, or establish product quality, payment performance, complaints handling or willingness to pay for a listing.
 
 ## Evidence still required before a consumer review
 
