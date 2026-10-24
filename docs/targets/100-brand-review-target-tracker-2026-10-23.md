@@ -611,3 +611,10 @@ Added ten additional distinct SEO/content-layout briefs to internal review batch
 Each package has its own title, meta description, H1, search intent, section order and rights-aware image brief. The instructions explicitly preserve market boundaries, separate licensee-specific enforcement history, and prevent reuse of foreign-market offers as local facts. Shared page requirements reinforce a dedicated casino-review layout rather than a generic blog template.
 
 **Count of SEO/page-structure packages drafted in this work sequence: 15 market-review candidates** (5 in the GB batch including the previously added London.bet package; 5 in batch B; 5 in batch C). This is not the number of complete or approved reviews. All remain HOLD/noindex; approved reviews remain **0/100**. No new public pages, Cloudflare deployment, or GitHub Actions run is claimed.
+
+
+## Continued work — batch D SEO packages
+
+Added distinct metadata, search-intent, section-order and rights-aware image briefs for five additional Great Britain candidates: bet365 Casino, Betano Casino, Betfair Casino, Paddy Power Casino and Grosvenor Casino. The briefs explicitly separate online casino evidence from sportsbook offers and land-based venue information.
+
+The running total of newly documented SEO/page-structure packages in this sequence is now **20 market-review candidates** across the GB, NJ, NL, SE and ES queues. This is planning and draft-structure progress only; it does not mean 20 complete reviews. **Publication approvals remain 0/100**, and the drafts stay HOLD/noindex pending evidence completion, image-rights clearance and independent editorial/legal review. Cloudflare production deployment remains unverified; no GitHub Actions run was intentionally triggered.
