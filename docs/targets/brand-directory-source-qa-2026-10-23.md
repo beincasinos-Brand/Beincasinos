@@ -51,7 +51,7 @@ All 100 visible cards are currently marked **HOLD**. Evidence grades are A: 19, 
 - Legal-operator and official-domain fields are populated on 99/100 cards, but a populated field is not a verified current customer-contracting entity or product-specific permission.
 - The market set includes US state-specific cards. No US-wide authorisation is implied; Pennsylvania, New Jersey and Michigan require independent regulator/domain/contract checks.
 - France and Australia remain outside the 100-card directory scope; their filter options are retained for audit context only.
-- The directory is public even while noindex. Noindex is not access control. Its content intentionally identifies the entries as an unapproved research queue and does not present them as consumer recommendations.
+- The source HTML is included in the current branch build allowlist and would be publicly reachable if deployed; noindex is not access control. A separate read-only production fetch on 24 October 2026 found that the live `/brand-directory/` route returns 404, so the source QA below must not be described as a live production feature check. Its content identifies the entries as an unapproved research queue and does not present them as consumer recommendations.
 
 ## Release gates
 
