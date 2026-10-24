@@ -9,7 +9,7 @@
 
 The Kansspelautoriteit's individual decision page confirms a licence granted to Holland Casino N.V. on 30 July 2026, effective **1 October 2026 through 30 September 2031**. It explicitly covers casino games where the player plays against the licence holder, player-versus-player casino games, and sports-event/outcome betting. The decision includes conditions requiring the operator to report all brand names, domains and app names before launch and whenever they change; restrictions on using pre-regulation customer data in registration; compliance with an exit plan; execution of enforceable Dutch court judgments; and correction of control-database (CDB) deficiencies within three months after notification. This is primary regulator evidence of the permission scope and conditions, not a completed consumer review.
 
-The live domain and exact domain notification under the permit must still be matched against the Ksa's public domain/brand disclosure; the existence of a current website alone does not prove the domain was reported under this licence. Current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history remain open. No score or recommendation is assigned.
+The live domain and exact domain notification under the renewed permit must still be matched against the Ksa's current public domain/brand disclosure; the prior Ksa profile still displays the old permit period ending in October 2026. The existence of a current website alone does not prove the domain was reported under the renewed licence. Current terms, offers, payment/withdrawal rules, complaints/dispute routes, safer-gambling controls, privacy/cookies, accessibility and current enforcement history remain open. No score or recommendation is assigned.
 
 ## Identity and permission
 
@@ -32,6 +32,23 @@ Before publication:
 5. Recheck the licence and domain at the actual publication date; do not rely on a historic snapshot.
 
 The renewal period recorded in the project research memo is **1 October 2026–30 September 2031**. Treat this as a research lead until rechecked directly in the current Ksa decision.
+
+## Fresh first-party consumer disclosures — 24 October 2026
+
+The operator's current public Help Center adds specific eligibility and safer-gambling disclosures:
+
+- **Eligibility (Help Center updated 4 February 2026):** age 18+; users under 24 are described as having a monthly deposit limit of **€149** and being excluded from bonuses/offers. The operator says registration requires Dutch citizenship or a Dutch residence permit, followed by identity/nationality verification. These are operator-published disclosures, not an independent test.
+- **Login-time limits (Help Center updated 26 August 2026):** the operator says players can set daily, weekly and monthly login-time limits; the daily maximum is eight hours; reducing a limit takes effect immediately, while increasing it takes seven days.
+- **Terms route:** the first-party page links to https://www.hollandcasino.nl/terms-conditions, but the current read-only fetch returned HTTP 403. This is a research-access limitation, not proof that the terms are absent or that the service is unavailable.
+- **Current public Ksa profile:** https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/ still shows the prior permit period ending 1 October 2026 while listing Holland Casino Online and hollandcasino.nl. This historical profile corroborates the prior brand/domain association but does **not** establish that the domain was reported under the renewed permit effective 1 October 2026. Keep the domain/renewal match as a publication blocker until the current Kansspelwijzer entry is updated or the Ksa confirms it.
+
+Sources:
+- Ksa follow-on permit announcement (17 September 2026): https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+- Ksa individual permit decision (30 July 2026): https://kansspelautoriteit.nl/holland-casino-n-v
+- Ksa public Kansspelwijzer profile: https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/
+- First-party eligibility help: https://support.hollandcasino.nl/hc/nl/articles/7205769344017-Wie-mag-spelen-bij-Holland-Casino-Online
+- First-party login-time limit help: https://support.hollandcasino.nl/hc/nl/articles/7218287805329-Wat-zijn-Inloglimieten-en-hoe-kan-ik-deze-instellen
+- First-party terms route: https://www.hollandcasino.nl/terms-conditions
 
 ## Consumer evidence still required
 
