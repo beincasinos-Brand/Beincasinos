@@ -60,3 +60,45 @@
 - Approved reviews added: **0**
 - Approved reviews against target: **0/100**
 - All sections remain HOLD and are not public-site content.
+
+
+## Distinct SEO packages — batch C (internal / HOLD)
+
+These metadata briefs are content scaffolds, not completed reviews. All five pages remain noindex and excluded from the sitemap until source checks and editorial/legal approval are complete.
+
+### William Hill Casino — Great Britain
+- **SEO title:** William Hill Casino Review UK: Licence & Regulatory History
+- **Meta description:** Check William Hill’s GB casino licence evidence and the scope of its 2025 regulatory action, alongside current bonus, withdrawal and safer-gambling terms.
+- **H1:** William Hill Casino Review (UK): Licence and Regulatory Context
+- **Intent / page order:** GB operator/domain match; UKGC licence; dated 2025 action and exact scope; current casino rules; offers; withdrawals and verification; complaints/ADR; RG; privacy/accessibility; verdict.
+- **Image brief:** Rights-cleared current casino imagery only. The historic action should be represented as regulatory context, not sensationalised as a current product feature.
+
+### Betfred Casino — Great Britain
+- **SEO title:** Betfred Casino Review UK: Licence, Regulatory Actions & Terms
+- **Meta description:** Review Betfred’s GB casino operator and licence evidence, distinguish licensee-specific regulatory actions, and check current payments and player protections.
+- **H1:** Betfred Casino Review (UK): Licence, Regulatory Actions and Terms
+- **Intent / page order:** Petfre identity and domains; current licence; dated 2025/2026 action scope; explicitly separate other licensees; casino terms and offers; payments/withdrawals; complaints; safer gambling; privacy/accessibility; verdict.
+- **Image brief:** Rights-cleared casino-specific asset. Never combine enforcement amounts from different licensees into a single Betfred-only penalty claim.
+
+### Betway Casino — Great Britain
+- **SEO title:** Betway Casino Review UK: Licence, Bonuses & Withdrawals
+- **Meta description:** Check Betway’s Great Britain casino identity and licence, then verify current bonus terms, withdrawal rules, complaints and safer-gambling controls.
+- **H1:** Betway Casino Review (UK): Licence and Consumer Terms
+- **Intent / page order:** GB domain and contracting operator; UKGC permission; casino-specific terms; dated offer rules or “not verified”; payment and withdrawal limits; complaints/ADR; RG; privacy/accessibility; verdict.
+- **Image brief:** Current rights-cleared GB casino image; do not use a sportsbook creative as evidence of casino content or a current casino bonus.
+
+### Luckia Casino — Spain
+- **SEO title:** Luckia Casino Review Spain: DGOJ Licence & Local Terms
+- **Meta description:** Check Luckia’s Spain-specific operator and licence evidence, plus current Spanish casino offers, withdrawal rules, complaints and player-protection information.
+- **H1:** Luckia Casino Review (Spain): Licence, Bonuses and Withdrawals
+- **Intent / page order:** Spanish domain/entity match; DGOJ record; local casino catalogue; current bonus terms; payment/withdrawal rules; complaints; safer gambling; privacy/cookies; accessibility; verdict.
+- **Image brief:** Rights-cleared Spanish-market imagery and accurate Spanish alt text. Do not import terms from other Luckia jurisdictions.
+
+### William Hill Casino — Spain
+- **SEO title:** William Hill Casino Spain Review: Licence & Spanish Terms
+- **Meta description:** Review William Hill’s Spain-specific casino licence and operator match, with local bonus, payment, complaint and safer-gambling terms checked separately from the UK.
+- **H1:** William Hill Casino Review (Spain): Local Licence and Terms
+- **Intent / page order:** Spanish domain and operator; current DGOJ permission; Spain-specific product and terms; bonus conditions; payments/withdrawals; complaints; RG; privacy/accessibility; verdict. Keep this page independent from the GB review.
+- **Image brief:** Use only assets and offer artwork verified for Spain. Do not copy UK offer details or treat the same global brand as one market-neutral review.
+
+**Shared premium layout:** Dedicated review shell with market/operator strip, last checked date, evidence status, methodology, clearly labelled operator claims versus verified facts, consumer-term comparison tables, accessible “not rated / evidence pending” verdict, and internal links to the relevant market guide. No unsupported scores, fake firsthand tests, aggregate ratings, or misleading schema. Rights clearance and second-editor/legal sign-off are required before indexation.
