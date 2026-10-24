@@ -6,7 +6,7 @@
 
 - Programme goal: 100 unique brands with market-specific evidence and editorial reviews.
 - The 100-name candidate register is a research queue; it is not 100 verified or approved reviews.
-- Main registry: 207 market-specific rows, 156 distinct global-brand IDs, 205 HOLD and 2 rejected. Exact normalized slug matching finds 20 direct matches against the 100-name candidate register; alias and market-variant mapping remains incomplete.
+- Main registry: 207 market-specific rows, 156 distinct global-brand IDs, 205 HOLD and 2 rejected. The current candidate-to-global-ID map records 22 provisional exact-name matches, 47 provisional aliases and 31 unresolved names. This is identity reconciliation only, not eligibility or review approval.
 - Tier-1 prospect tracker: **114 data rows**, 18 columns, zero malformed rows or duplicate brand/market keys, **99 blank global-brand IDs**, 58 VERIFY domains, zero UNKNOWN domains and two NOT APPLICABLE rows. The GB bet365 and CH StarVegas market rows are now explicitly represented; the same bet365 global ID is retained across GB and NL, while each jurisdiction keeps its own evidence and permission checks.
 - Approved reviews: **0/100**. Every target below remains **HOLD**. No target has been awarded a score.
 - The US-state dossiers for New Jersey, Pennsylvania and Michigan remain in a supplemental queue; see [US-state supplemental research queue](us-state-supplemental-research-queue-2026-10-24.md). Their authorisations do not replace or expand the ten-market international board.
