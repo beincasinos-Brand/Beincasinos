@@ -71,3 +71,16 @@ Draft paths:
 - `docs/reviews/internal/bwin-casino-be-evidence-review-2026-10-24.md`
 
 Across this research batch, all nine A+ register rows have now been represented in a Belgium-specific internal draft or batch memo. This is nine local market records, **not nine newly verified global brands**: several are existing global brands, and Circus/PokerStars share one official A+ record/operator. All nine remain HOLD pending live contracts, current terms, consumer evidence, enforcement and image-rights checks, independent review and editorial/legal approval. Approved-review count remains **0/100**.
+
+
+## Correction — current A+ register includes Betsson Casino, 24 October 2026
+
+A fresh lookup of the official current A+ table returned an additional/current row that was omitted from the earlier batch summary:
+
+| Brand / domain | Listed establishment/operator | Dossier | Listed expiry | Disposition |
+|---|---|---:|---|---|
+| Betsson Casino — https://www.betssoncasino.be | Casino Middelkerke x Betsson; SA/NV EXPLOITATIE CASINO MIDDELKERKE | 595153 | 22 Feb 2039 | HOLD; domain/brand transition must be verified |
+
+Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. The current surfaced record associates dossier 595153 with betssoncasino.be, whereas an earlier captured row associated it with betfirstcasino.be. This is a material domain/brand transition signal, not proof that the current contract has been checked. A dedicated draft is now at `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md`.
+
+**Correction to prior count wording:** the earlier memo's “all nine A+ register rows” summary omitted this Betsson row. The current surfaced table contains nine dossier rows and ten distinct domain strings because Circus and PokerStars share one row; Betsson is one of the nine dossier rows. The previous nine-draft batch therefore did not cover the full current row set. The Betsson draft closes that documentary gap but remains HOLD. Approved reviews remain **0/100**.
