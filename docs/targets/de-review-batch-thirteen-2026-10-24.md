@@ -1,0 +1,5 @@
+# Germany review batch thirteen — 24 October 2026
+
+Eight internal Germany-market review drafts: Tipico, bwin Deutschland, bet-at-home Deutschland, Winamax Deutschland, Interwetten Deutschland, MERKUR SPORTS, DrückGlück and 888sport Deutschland. Drafts are under `docs/reviews/internal/` with the `-de-review-draft-2026-10-24.md` suffix.
+
+All remain HOLD and are not approved for publication. No scores, recommendations or hands-on tests are claimed. Verify current GGL whitelist entry, exact licensee/domain and category permission; sports betting permission is not casino permission. Complete product, promotions, payments/withdrawals, player protection, complaints, privacy/accessibility and image-rights checks; obtain independent editorial approval. Deduplicate brands/operators before counting toward 100. No Cloudflare deployment or GitHub Actions workflow was triggered.
