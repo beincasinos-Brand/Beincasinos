@@ -79,3 +79,24 @@ Primary source checked today: https://www.spelinspektionen.se/vara-beslut/beslut
 
 **Editorial treatment:** describe the administrative-court judgment and further appeal separately; do not imply the appellate proceeding has concluded. The pending appeal is a factual status item, not evidence by itself of the current service's quality. Recheck again immediately before publication.
 
+## Critical licence-holder reconciliation — fresh official register check, 24 October 2026
+
+The current Spelinspektionen URL lookup for **both** `betsson.com` and `betsson.com/sv` lists two licence holders: **Spin Nordic Ltd** and **Betsson Nordic Ltd**. The register's licence list includes commercial online gambling and commercial betting licences effective **24 August 2026–23 August 2031**, plus a separate commercial betting licence effective **1 January 2024–31 December 2028**. The URL lookup does not itself clearly map each displayed licence line to each named company, so do not infer that Betsson Nordic Ltd still holds the Swedish online-casino licence merely because it appears on the URL page.
+
+Primary URL lookups re-opened on 24 October 2026:
+- `betsson.com`: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com
+- `betsson.com/sv`: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com/sv
+- Spin Nordic Ltd licence-holder page: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=4AC75805E4B90CB63D22F0CA244D54DE28288F2CCBFB67F9C7AC8E172656AC3A
+- Betsson Nordic Ltd licence-holder page and enforcement list: https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licenshallare/?id=55963B9F241E74FEF05A9A6199A7FEA3C303C08563FEFA6BAA7412866C21B9A8
+
+The Betsson Nordic Ltd holder page continues to list the 28 May 2025 AML warning as **appealed**. The regulator's 2 June 2025 notice confirms the SEK 6.5 million sanction and deficiencies in customer due diligence/source-of-funds information: https://www.spelinspektionen.se/nyhetsarkiv/betsson-nordic-ltd-far-varning-och-sanktionsavgift-for-brister-i-arbetet-mot-penningtvatt/
+
+**Required editorial distinction:** the sanction attaches to Betsson Nordic Ltd for the period and conduct investigated; do not automatically attribute it as a finding against Spin Nordic Ltd. At the same time, the same consumer domain is associated with both companies in the current URL lookup. Until the live Swedish terms identify the current contracting entity and the regulator clarifies the licence-to-entity mapping, the brand/domain record remains **HOLD / identity conflict**, not a cleared review. No distinct new global brand is created by the presence of a second licence holder.
+
+### Updated decision
+
+- Identity match: **CONFLICT / unresolved** (two licence holders shown for the same Swedish URL).
+- Online-casino permission: the URL lookup shows a current commercial-online licence period; precise licence-holder mapping still needs confirmation from the holder record and live terms.
+- Enforcement: Betsson Nordic Ltd's 2025 AML sanction remains material; regulator page continues to show the matter as appealed.
+- Consumer terms, bonus, payments, complaints, safer gambling, privacy/cookies and accessibility: not assessed in a verified Swedish consumer session.
+- Publication status: **HOLD — NOT SCORED — NOT APPROVED**.
