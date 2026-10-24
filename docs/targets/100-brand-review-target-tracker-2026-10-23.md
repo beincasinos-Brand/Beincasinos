@@ -344,3 +344,12 @@ A source QA pass found that some cards displayed a populated evidence-grade desc
 Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24-d.md`.
 
 **Latest source QA:** 100 cards; 100 unique displayed titles; grades A=19, B=49, C=32; statuses 99 HOLD / 1 EXCLUDE; 53 sourced image candidates / 47 CSS artwork fallbacks; 100 asset-register rows with 53 candidates. All candidate images remain rights pending. Approved reviews remain **0/100**; the directory remains noindex and has not been deployed to Cloudflare.
+
+
+## 24 October 2026 — responsive directory design polish and Tipico image candidate
+
+- Refined the directory’s visual hierarchy to better match the best editorial research directories: richer evergreen hero treatment, responsive spacing, stronger card surfaces, larger logo stage, clearer evidence snapshots, more legible verification accordions, and a compact sticky filter bar on desktop/tablet. Small-screen layout removes the sticky filter to preserve usable space; reduced-motion preferences remain respected.
+- Added a Tipico wordmark candidate from Wikimedia Commons to the Tipico Casino card and asset register. Commons labels the simple text logo public domain for copyright but explicitly notes trademark restrictions may still apply; it remains **SOURCE FOUND — RIGHTS PENDING**, not cleared for unrestricted reuse.
+- Latest static source QA after this visual batch: **100 cards; 100 unique displayed titles; 54 logo/image candidates; 46 CSS artwork/monogram fallbacks; 100 asset-register data rows**. The Tipico wordmark is the 54th candidate; all candidates still require rights and rendering checks.
+- This is a source-level design update only: no browser screenshot/visual regression has been run, no GitHub Actions build was triggered, PR #52 remains open/draft/unmerged, and no Cloudflare production deployment is confirmed.
+- **Target truth remains unchanged:** 100 displayed research entries are not 100 verified distinct global brands. Approved consumer reviews remain **0/100**. The directory stays noindex,follow while evidence and editorial gates remain open.
