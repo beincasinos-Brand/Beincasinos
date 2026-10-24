@@ -63,3 +63,17 @@ The job again completed as failure in roughly two seconds, with `runner_id: 0`, 
 Run [40126710369](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126710369) targeted commit `7687d5b439ba6352de1ab6624b4408e183be21be` and failed in roughly two seconds. Its job record again has `runner_id: 0`, an empty runner name, and `steps: []`. The latest tracker changes therefore have no successful Python/CI validation yet.
 
 A read attempt against repository Actions permissions and billing endpoints was rejected by the available GitHub connector; no permission/billing state can be inferred from that rejection. The repository owner needs to inspect the run in GitHub's Actions UI and check repository/organization Actions settings and runner availability. Repeated reruns alone are not resolving the failure. Keep CI and production release blocked.
+
+## Cross-branch comparison and public status — 24 October 2026, 19:47 UTC
+
+The same failure shape is not isolated to the PR branch:
+
+- Target branch run [40126710369](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126710369): failed before steps, `runner_id: 0`.
+- Base branch run [40113611565](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40113611565): failed.
+- Default `main` run [40111953530](https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40111953530): failed before steps, `runner_id: 0`, empty runner name, `steps: []`.
+
+This broadens the diagnosis from “only the current branch may have a workflow/configuration problem” to “the observed failure affects multiple branches in this repository.” It still does not identify the cause. The public [GitHub Status page](https://www.githubstatus.com/) currently reports all systems operational; its visible recent incidents concern other resolved events, not an active Actions runner incident. Therefore do **not** assert a GitHub-wide outage. Check repository/organization Actions settings, hosted-runner availability/quota, and owner-visible run diagnostics. The available connector could not read the repository Actions permissions/billing endpoints.
+
+## Recommended decision
+
+Stop creating retry commits solely to trigger identical jobs. Preserve the source work, ask the repository owner to inspect the Actions UI/settings, then run the workflow once after runner availability or settings are confirmed. Keep production deployment blocked until the workflow actually executes and passes.
