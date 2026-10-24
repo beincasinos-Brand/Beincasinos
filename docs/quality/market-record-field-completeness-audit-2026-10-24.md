@@ -77,3 +77,20 @@ The CSV now has **23/204 terms URLs, 8/204 withdrawal URLs, 7/204 complaints URL
 ### Additional safer-gambling source pass
 
 Added official Great Britain safer-gambling sources for **Betway Casino** and **Betfred Casino** on 24 October 2026. Betway's official GB casino slots page describes account controls; Betfred's official safer-gambling FAQ identifies Petfre (Gibraltar) Limited and UKGC account 39544. These are operator sources, not independent usability tests. Current coverage is **12/204** rows with a safer-gambling URL; **192/204** remain blank. Both records remain HOLD.
+
+
+## Follow-up after GB source-link pass — 24 October 2026
+
+After adding official policy-source URLs to four Great Britain records (bet365 Casino, William Hill Casino, Grosvenor Casinos, Paddy Power Games) and a follow-up source check, the current structural totals across the same 204 market-specific rows are:
+
+| Field | Before pass filled | Current filled | Change |
+|---|---:|---:|---:|
+| Current terms URL | 20 | 23 | +3 |
+| Withdrawal URL | 4 | 8 | +4 |
+| Complaints URL | 4 | 7 | +3 |
+| Safer-gambling URL | 6 | 12 | +6 |
+| Partnership contact URL | 0 | 0 | 0 |
+| Privacy/tracking status | 142 | 142 | 0 |
+| Named reviewer | 184 | 184 | 0 |
+
+The fields added are not necessarily one-to-one with distinct brands because several URLs may be reused as a source for more than one policy section where the official page itself contains those sections. A source URL in a field is only a research lead: the relevant clauses, market, product and current operator identity still need verification. No records were promoted from HOLD, and no review was approved. Approved consumer reviews remain 0/100. The detailed batch note is in `docs/quality/gb-consumer-policy-source-link-pass-2026-10-24.md`; see also `docs/quality/gb-source-link-pass-structural-follow-up-2026-10-24.md`.
