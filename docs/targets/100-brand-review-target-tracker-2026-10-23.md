@@ -820,6 +820,11 @@ This is not a live Cloudflare/browser/image test. Before release, test mobile/ke
 
 ## Market-record field completeness audit — 24 October 2026
 
-Updated `docs/quality/market-record-field-completeness-audit-2026-10-24.md` after the official-source remediation pass. The 204-row CSV now has terms URLs 23/204 (181 missing), withdrawal URLs 8/204 (196 missing), complaints URLs 7/204 (197 missing), responsible-gambling URLs 10/204 (194 missing), partnership contacts 0/204, privacy/tracking review status missing 62/204, and reviewer missing 20/204. Decisions remain 202 HOLD and 2 rejected.
+Updated `docs/quality/market-record-field-completeness-audit-2026-10-24.md` after the official-source remediation pass. The 204-row CSV now has terms URLs 23/204 (181 missing), withdrawal URLs 8/204 (196 missing), complaints URLs 7/204 (197 missing), responsible-gambling URLs 12/204 (192 missing), partnership contacts 0/204, privacy/tracking review status missing 62/204, and reviewer missing 20/204. Decisions remain 202 HOLD and 2 rejected.
 
 On 2026-10-24, official consumer-policy source links were added for bet365 Casino, William Hill Casino, Grosvenor Casinos and Paddy Power Games (GB rows). This improved source-field coverage but did not approve any review. Shared terms pages may cover multiple sections and still require careful reading, product/market/entity matching and evidence capture. No partnership contacts were invented. No deployment or indexing is claimed.
+
+
+## Additional official-source pass — 24 October 2026
+
+Added official safer-gambling source URLs for Betway Casino and Betfred Casino (Great Britain rows) in `docs/brand-research-template.csv`. Current structural coverage: terms 23/204; withdrawals 8/204; complaints 7/204; safer gambling 12/204. These links do not demonstrate consumer testing or review approval. All affected candidates remain HOLD; approved reviews remain 0/100. No Actions workflow or Cloudflare deployment was triggered.
