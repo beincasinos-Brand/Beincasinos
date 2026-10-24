@@ -1,0 +1,5 @@
+# Belgium review batch twelve — 24 October 2026
+
+Eight internal Belgium-market review drafts: Napoleon Games, Casino777, BetFirst, Ladbrokes Belgium, Unibet Belgium, Circus Belgium, bwin Belgium and Starcasino Belgium. Files are under `docs/reviews/internal/` with `-be-review-draft-2026-10-24.md` suffix.
+
+All remain HOLD, not publication-approved. No scores, recommendations or hands-on tests are claimed. Verify current Belgian Gaming Commission licence, exact operator, domain and binding terms; complete product, promotions, payments/withdrawals, safer-gambling, complaints, privacy/accessibility and image-rights checks. Do not infer Belgian permission from another jurisdiction. Deduplicate related brands/operators before counting toward 100. No Cloudflare deployment or GitHub Actions workflow was triggered.
