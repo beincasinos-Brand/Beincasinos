@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check that the deployment artifact contains public assets only."""
 from pathlib import Path
+from html.parser import HTMLParser
 from urllib.parse import urlparse, unquote
 import xml.etree.ElementTree as ET
 import sys
@@ -9,6 +10,21 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 errors = []
+
+class RobotsMetaParser(HTMLParser):
+    """Read robots directives from an HTML document without executing it."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.noindex = False
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() != "meta":
+            return
+        values = {key.lower(): (value or "") for key, value in attrs if key}
+        if values.get("name", "").strip().lower() == "robots":
+            directives = {part.strip().lower() for part in values.get("content", "").split(",")}
+            if "noindex" in directives or "none" in directives:
+                self.noindex = True
 
 if not DIST.is_dir():
     errors.append("dist/ is missing; run scripts/build_site.py first")
@@ -63,8 +79,10 @@ else:
                 else:
                     route = "/" + rel
                 canonical_url = "https://beincasinos.online" + route
-                html_text = html_file.read_text(encoding="utf-8").lower()
-                if "noindex,follow" in html_text and "robots" in html_text and "name" in html_text:
+                html_text = html_file.read_text(encoding="utf-8")
+                robots_parser = RobotsMetaParser()
+                robots_parser.feed(html_text)
+                if robots_parser.noindex:
                     noindex_urls.add(canonical_url)
                     continue
                 expected_urls.add(canonical_url)
