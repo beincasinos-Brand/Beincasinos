@@ -14,6 +14,7 @@ An English-language, evidence-led casino reviews and research brand focused on o
 - SEO topic map: `docs/seo-topic-map.csv`; planned topics are research ideas, not keyword-volume claims or permission to publish market-specific legal content.
 - Evidence-gated scoring, eligibility rules, and ranking independence: `docs/editorial-review-scoring-rubric.md`.
 - Current UK and Swiss primary-source prospect audits: `docs/ukgc-register-audit-2026-10.md` and `docs/swiss-prospect-research-batch-2026.md`.
+- Image-rights candidate register: `docs/image-rights-candidate-register-2026-10-24.csv`. All 50 unapproved remote brand-logo candidates are now stored as metadata only; they are not loaded by the directory until rights are explicitly cleared, and visible monogram fallbacks remain.
 - Held profile dossiers (not public reviews): `docs/brand-profile-casineo-ch-draft.md`, `docs/brand-profile-admiral-ch-draft.md`, `docs/brand-profile-tipico-casino-de-sh-draft.md`, `docs/brand-profile-ember-casino-us-nj-draft.md`, `docs/brand-profile-bettom-gb-draft.md`, `docs/brand-profile-threesix-vegas-gb-draft.md`, `docs/brand-profile-betsuna-gb-draft.md`, `docs/brand-profile-betinia-us-nj-draft.md`, `docs/brand-profile-vegas-club-us-nj-draft.md`, and `docs/brand-profile-winz-nl-draft.md`.
 - Public operator listing information and commercial-independence policy: `/partners/` (not accepting paid placements yet).
 - Owner-facing release gates and evidence record: `docs/owner-final-gates-and-launch-evidence.md`.
