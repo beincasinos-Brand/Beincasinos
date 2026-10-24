@@ -1,6 +1,6 @@
 # Holland Casino Online — Netherlands evidence review
 
-**Research date:** 23 October 2026  
+**Research date:** 24 October 2026  
 **Market:** Netherlands (NL) only  
 **Status:** **HOLD — internal evidence review, not publication-ready**  
 **Method:** desk research of Ksa renewal materials and the project registry. No account, deposit, withdrawal or real-money play was tested.
@@ -70,3 +70,14 @@ Holland Casino's land-based venues and its online product must not be treated as
 - [ ] Complete legal/editorial approval and affiliate/commercial disclosure.
 
 **Decision: HOLD.** This is an internal evidence review, not a completed consumer review or endorsement.
+## Fresh regulator and live-route check — 24 October 2026
+
+The Ksa's official announcement dated 17 September 2026 names Holland Casino N.V. among the eight operators granted a follow-on online-gambling permit for October 2026–September 2031. The individual decision page remains explicit that Holland Casino N.V.'s new permit is effective 1 October 2026–30 September 2031 and requires all brand names, domains and app names to be reported before offering and when changed.
+
+Primary sources checked today:
+- Ksa follow-on permit announcement (17 September 2026): https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend
+- Ksa individual permit decision (30 July 2026): https://kansspelautoriteit.nl/holland-casino-n-v
+
+A read-only fetch of https://www.hollandcasino.nl/online returned HTTP 403 in the current research environment. This is **not** evidence that the service is unavailable to a Dutch consumer; it only means the live customer page and current terms were not inspected in this pass. The current Ksa-reported domain/brand disclosure remains a required publication gate; an older Ksa enforcement record mentioning hollandcasino.nl does not by itself prove that the domain has been reported under the renewed permit.
+
+**Updated disposition:** HOLD. Renewal authorization is verified at operator/category level, but current brand/domain notification and live customer terms are not yet matched. No consumer test or score is claimed.
