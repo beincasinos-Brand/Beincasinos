@@ -440,3 +440,9 @@ Primary records:
 
 - Added [primary-source regulator evidence batch 02](../reviews/internal/regulator-evidence-batch-02-2026-10-24.md) for candidate rows 7–15. Updated the production ledger and corrected betPARX to its Pennsylvania-specific candidate domain; Betano remains restricted to the product scope supported by the GGL record.
 - Combined regulator-source coverage in batches 01 and 02: 15/100 candidates. Approved consumer reviews remain **0/100**; all 100 remain NOT SCORED / HOLD; no merge or Cloudflare production deployment is claimed.
+
+
+## Regulator evidence batch 03 — 24 October 2026
+
+- Added [primary-source regulator evidence batch 03](../reviews/internal/regulator-evidence-batch-03-2026-10-24.md) for candidates 17–25 and updated the production ledger with market-specific scope and identity blockers.
+- Dated regulator-source evidence now documented for 24/100 candidates across batches 01–03. Approved consumer reviews remain **0/100**; all 100 publication decisions remain HOLD; score fields remain blank; no merge or Cloudflare production deployment is claimed.
