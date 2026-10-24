@@ -46,6 +46,13 @@ The commit-status API returned no status checks and the workflow-run lookup retu
 ## Follow-up source batch 04 — 24 October 2026
 
 - Added five more official market-specific promotion sources to the internal ledger: Holland Casino Online (NL), Circus Casino (BE), Kansino (NL), AdmiralBet (IT), and BetFlag (IT). Full offer-specific terms are still required; separate products/offers must not be conflated, and Fun Bonus is not cash.
-- Current ledger structural check: 100 rows / 43 columns. Bonus/promotion URLs now populate **46/100 rows**; **54/100 remain blank**. The ledger remains a research queue, not 100 approved reviews.
+- Current ledger structural check: 100 rows / 43 columns. Bonus/promotion URLs now populate **49/100 rows**; **51/100 remain blank**. The ledger remains a research queue, not 100 approved reviews.
 - All 100 entries remain NOT SCORED / HOLD; consumer testing is not performed and image-rights clearance is pending across the set.
 - No live-site change, merge, DNS/indexing change or Cloudflare production deployment was performed. GitHub Actions checks are still unconfirmed in the available workflow-run lookup; no successful CI result is being claimed.
+
+
+## Follow-up source entries — 24 October 2026
+
+- Added official first-party offer/promotion sources for SNAI Italy, PlatinCasino Spain and Betfair Casino Italy.
+- The ledger now contains **49/100** bonus/promotion source URLs; **51/100** remain blank. The entries explicitly distinguish Fun Bonus/play credit from cash, separate casino from sportsbook offers, and record the 30-day wait before promotions at PlatinCasino Spain.
+- All 100 entries remain NOT SCORED / HOLD. No review approval, user testing, image-rights clearance, merge or Cloudflare deployment is claimed.
