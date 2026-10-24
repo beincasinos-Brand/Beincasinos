@@ -1,54 +1,52 @@
-# Tier-1 international 10-target review board — 24 October 2026
+# International 10-market priority review board — 24 October 2026
 
-**Internal research queue, not a public ranking.** The ten targets below are selected from the currently approved Tier-1 market scope: Great Britain, the Netherlands, Switzerland, Germany (only where the exact state/product permission is established), and the specifically named US state markets New Jersey, Pennsylvania and Michigan. There are **seven market codes**, not ten countries. The word “international” describes the combined programme; it does not make these products directly comparable or authorize cross-border claims.
+**Internal evidence queue, not a public ranking.** This board follows the programme's ten-market set: Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for the current Tipico dossier), Switzerland, and Ontario, Canada. Each row is one market-specific product. A brand’s authorisation in one country does not establish permission in another.
 
-## Current completion truth
+## Honest completion status
 
-- Programme goal: 100 unique brands with market-specific evidence and editorial reviews.
-- Legacy candidate register: 100 names, not yet globally deduplicated or all verified.
-- Tier-1 master prospect tracker: 106 data rows; 58 rows use VERIFY for the official domain, one uses UNKNOWN, two are NOT APPLICABLE, and all 106 global brand IDs remain blank.
-- Approved reviews: **0/100**.
-- All targets below remain **HOLD**. A regulator listing is only an eligibility lead; it is not a quality rating, full review, firsthand experience, or commercial lead.
-- Do not publish a cross-market “top 10” score. Any later ranking must be limited to comparable products in a named market and pass every rubric gate.
+- Programme goal: 100 unique brands and 100 market-specific, publication-quality reviews.
+- The existing candidate slate is a research queue; it is not proof that all 100 brands are eligible, distinct, or fully researched.
+- **Publication-approved reviews: 0/100.** Every target below is HOLD until the evidence, testing, rights and independent review gates are complete.
+- No account, deposit, withdrawal, customer-support or real-money gameplay testing is claimed unless an individual dossier explicitly records it.
+- No score, public recommendation or ranking is assigned on this board.
 
-## Priority batch — ten brand/market targets
+## Priority targets
 
-| # | Brand and market | Evidence artefact | Primary-source evidence currently available | Remaining blockers |
-|---:|---|---|---|---|
-| 1 | bet365 Casino — Great Britain | [GB evidence review](reviews/internal/bet365-casino-gb-evidence-review-2026-10-24.md) and [checklist](reviews/internal/bet365-casino-gb-evidence-checklist-2026-10-24.md) | UKGC account 55149 and Casino Remote permission recorded for Hillside (UK Gaming) ENC; exact final consumer route still needs reconciliation because multiple group entities exist | Archive current GB terms and bonus; test cashier, withdrawals, complaints/ADR, safer-gambling controls, privacy and accessibility; image rights and independent second review |
-| 2 | 888casino — Great Britain | [GB evidence review](reviews/internal/888casino-gb-evidence-review-2026-10-24.md) and regulatory context | UKGC account 39028 and active Casino Remote/domain leads; historical actions captured with dates and context | Reconfirm current live route and terms; verify offer/cashier/support/complaints and RG; document actual accessibility tests; image rights and second review |
-| 3 | William Hill Casino — Great Britain | [GB evidence review](reviews/internal/william-hill-casino-gb-evidence-review-2026-10-24.md) and [regulatory context](reviews/internal/william-hill-casino-gb-regulatory-context-2026-10-24.md) | UKGC account 39225, active Casino Remote record and domain evidence captured; £82,687 2025 action contextualized to the named licensee | Reconfirm live route and terms; test offer, cashier, complaints/ADR, RG, privacy and accessibility; independent review |
-| 4 | Ladbrokes Casino — Great Britain | [Licence/domain reconciliation](reviews/internal/ladbrokes-casino-gb-licence-evidence-2026-10-24.md) | UKGC entity/domain reconciliation separates LC International Limited/account 54743 from Ladbrokes Betting & Gaming Limited/account 1611 | Match final GB customer route and contract; test current offers, cashier, complaints, RG and accessibility; clear images and second review |
-| 5 | Holland Casino Online — Netherlands | [Netherlands evidence review](reviews/internal/holland-casino-online-nl-evidence-review-2026-10-23.md) | Ksa decision grants Holland Casino N.V. a remote-gambling permit for 1 Oct 2026–30 Sep 2031, including casino games | Exact live brand/domain notification remains unverified in the tracker; match the current customer terms, payment/withdrawal conditions, complaints, RG, privacy and accessibility; second review |
-| 6 | admiral.ch — Switzerland | [Swiss evidence review](reviews/internal/admiral-ch-online-casino-evidence-review-2026-10-24.md) | FGB lists Casino Mendrisio and admiral.ch with online-business start date 16 Jul 2025; the Federal Council says Casinò Admiral SA received the concession extension on 26 Feb 2025 | Verify exact operating entity and current game-by-game permissions; capture current terms, payments, complaints, RG, privacy and accessibility; image rights and second review |
-| 7 | Tipico Casino — Germany, Schleswig-Holstein only | [Territory-limited evidence review](reviews/internal/tipico-casino-schleswig-holstein-evidence-review-2026-10-24.md) | GGL whitelist and operator launch notice identify casino.tipico.de for the Schleswig-Holstein online-casino scope | Recheck live whitelist and territory; archive German terms and payment rules; test complaints, RG, privacy/accessibility and support; do not describe as nationwide Germany |
-| 8 | Ember Casino — New Jersey only | [NJ evidence review](reviews/internal/ember-casino-nj-evidence-review-2026-10-24.md) | NJ DGE Order TSB-FI-026-001 describes Gamewise LLC t/a Ember and authorization through Caesars Interactive Entertainment New Jersey LLC | Reconfirm live authorized platform/domain and contracting party; capture current NJ terms, payments, complaints, RG, privacy and accessibility; second review |
-| 9 | BetRivers Casino — Pennsylvania only | [PA evidence review](reviews/internal/betrivers-casino-pa-evidence-review-2026-10-24.md) | PGCB’s 13 Feb 2026 certificate-holder list identifies SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia, Rush Street Interactive PA, LLC, slots/table games/poker, and pa.betrivers.com; BetRivers launch recorded as 30 Jan 2020 | Match current customer contract and the Philadelphia/Pittsburgh certificate relationship; first-party page states 21+ and PA geolocation, but current policy links did not expose full text in static retrieval; archive terms/cashier, test complaints, RG, privacy/accessibility; independent second review |
-| 10 | Horseshoe Online Casino — Michigan only | [MI evidence review](reviews/internal/horseshoe-online-casino-mi-evidence-review-2026-10-24.md) | MGCB lists Sault Ste. Marie Tribe of Chippewa Indians with Caesars/Horseshoe platform provider and a Michigan casino URL | Match exact contract entity and current terms; verify cashier, bonus rules, complaints, RG, privacy/accessibility and enforcement; independent review |
+| # | Market | Brand / product | Internal evidence dossier | Primary-source lead captured | Remaining publication blockers |
+|---:|---|---|---|---|---|
+| 1 | Great Britain | bet365 Casino | [GB evidence review](reviews/internal/bet365-casino-gb-evidence-review-2026-10-24.md) and [checklist](reviews/internal/bet365-casino-gb-evidence-checklist-2026-10-24.md) | UKGC account 55149 and Casino Remote permission recorded for Hillside (UK Gaming) ENC; multiple group entities mean customer-contract matching remains necessary | Refresh live domain/terms; archive bonus, cashier and withdrawal rules; test support/complaints, safer-gambling controls, privacy/accessibility; clear imagery and independent second review |
+| 2 | Belgium | Betano Casino Belgium | [Belgium evidence review](reviews/internal/betano-casino-be-evidence-review-2026-10-24.md) | Belgian Gaming Commission A+ register dossier 20000 lists betanocasino.be, VIAGE, SA/NV Casinos Austria International Belgium, decision 11 Dec 2019 and expiry 11 Dec 2034; first-party page identifies A+ 20000 and sportsbook F+ 116777 | Recheck current register and contract entity; capture current terms, bonus, cashier/withdrawals, complaints, RG, privacy/accessibility; independent review |
+| 3 | Sweden | Betsson Casino Sweden | [Swedish evidence review](reviews/internal/betsson-se-evidence-review-2026-10-23.md) | Spelinspektionen licence/domain and enforcement records; the 2025 AML warning and SEK 6.5m sanction need exact entity/date/context attribution, with later appeal context checked | Refresh current Swedish licence/domain and current terms; verify bonus/cashier/complaints/RG/privacy/accessibility; record appeal outcome accurately; independent review |
+| 4 | Denmark | Danske Licens Spil / casino product | [Danish evidence note](reviews/internal/danske-licens-spil-casino-denmark-evidence-2026-10-22.md) | Danish Gambling Authority operator record identifies Danske Licens Spil A/S and danskespil.dk; official register should be rechecked at publication time | Confirm exact casino product and customer route; capture current terms, promotions, payment/withdrawal rules, complaints, RG, privacy/accessibility; independent review |
+| 5 | Spain | Luckia Casino | [Spanish evidence review](reviews/internal/luckia-casino-es-evidence-review-2026-10-23.md) | DGOJ operator profile for LUCKIA GAMES, S.A. lists luckia.es and singular licences including slots, poker, blackjack and roulette; DGOJ published renewals dated 14 Oct 2026 | Recheck current DGOJ permissions/domain; archive Spanish terms and bonus/cashier rules; verify complaint/ADR and RG routes; test mobile/accessibility; independent review |
+| 6 | Italy | Sisal Casino | [Italian evidence review](reviews/internal/sisal-casino-it-evidence-review-2026-10-24.md) | ADM remote-gambling concession register lists Sisal Italia S.p.A., concession 16020, sisal.it | Resolve binding terms/PDF extraction and current contract entity; capture current bonus, cashier, withdrawals, complaints, RG, privacy/accessibility; independent review |
+| 7 | Netherlands | Holland Casino Online | [Dutch evidence review](reviews/internal/holland-casino-online-nl-evidence-review-2026-10-23.md) | Ksa decision grants Holland Casino N.V. a remote-gambling permit effective 1 Oct 2026 through 30 Sep 2031 | Confirm exact notified live domain and customer entity; capture current terms, payments/withdrawals, complaints, RG, privacy/accessibility; independent review |
+| 8 | Germany — Schleswig-Holstein only | Tipico Casino | [Territory-limited German evidence review](reviews/internal/tipico-casino-schleswig-holstein-evidence-review-2026-10-24.md) | GGL whitelist and operator launch evidence recorded for casino.tipico.de; dossier explicitly limits the claim to Schleswig-Holstein | Refresh whitelist, current domain and territory rules; archive German terms and cashier; verify complaints, RG, privacy/accessibility; independent review; do not call this nationwide German authorisation |
+| 9 | Switzerland | StarVegas.ch | [Swiss evidence review](reviews/internal/starvegas-ch-evidence-review-2026-10-24.md) | Swiss FGB/ESBK online-platform register records StarVegas.ch with Casino Interlaken and online-business start date 24 Feb 2020 | Match current contract entity and game-level permissions; capture terms, bonus, cashier, complaints, RG, privacy/accessibility; image rights and independent review |
+| 10 | Ontario, Canada | Caesars Casino Ontario | [Ontario evidence review](reviews/internal/caesars-casino-ontario-evidence-review-2026-10-24.md) | iGaming Ontario official operator/site directory association recorded in the dossier | Recheck current authorised Ontario site and contracting entity; archive current terms/bonus/cashier/withdrawals; verify complaint, RG and privacy routes; test accessibility; independent review |
 
-## Common completion gate
+## Mandatory release gate for each market-specific review
 
-Every review must document exact market/product scope, regulator and operator source URLs, check date, legal entity, current customer route, and reviewer.
+- [ ] Exact market, product, live consumer URL and contracting entity matched to current regulator and first-party sources.
+- [ ] Current general terms, bonus conditions, wagering requirements, exclusions and expiry archived with date/version.
+- [ ] Deposit/withdrawal methods, fees, limits, verification steps, timing and restrictions checked.
+- [ ] Complaints route, support contacts and market-appropriate escalation/ADR route verified.
+- [ ] Age/KYC requirements, safer-gambling tools, self-exclusion and local help links checked.
+- [ ] Regulatory actions attributed to the correct legal entity, with dates, outcomes and appeal status.
+- [ ] Actual usability/accessibility tests documented only if performed; no invented player experience.
+- [ ] Privacy/cookie behaviour, image/logo rights, affiliate disclosures and conflicts reviewed.
+- [ ] Every review criterion supported by evidence; missing evidence blocks a numeric score.
+- [ ] Independent second reviewer and editorial/legal sign-off recorded.
+- [ ] Build/CI checks pass; preview and live host verified only after authorised release.
 
-- [ ] Exact live domain, legal contracting entity and product-specific authorization matched.
-- [ ] Current general terms, bonus conditions, wagering rules, exclusions and expiry archived.
-- [ ] Payment methods, fees, limits, withdrawal steps, timings and verification requirements checked.
-- [ ] Complaints process, applicable escalation/ADR route and support contacts verified.
-- [ ] Safer-gambling controls, age/KYC information and local help links checked.
-- [ ] Regulatory actions attributed to the named entity with dates, outcome and context.
-- [ ] Actual accessibility/usability tests documented only if performed; no fabricated player experience.
-- [ ] Privacy/cookie behaviour, image rights, affiliate disclosure and conflicts reviewed.
-- [ ] Every score criterion evidenced; missing evidence blocks a total score.
-- [ ] Independent second review and editorial/legal sign-off completed.
-- [ ] Site checks pass; preview and live URL verified only after authorized release.
+## Next execution sequence
 
-## Next work sequence
+1. Finish the GB bet365 evidence pack, then reuse its structured checklist—not its conclusions—for the other nine markets.
+2. Resolve Betano's current Belgian customer contract and current terms; keep the corrected licence decision/expiry dates intact.
+3. Refresh Swedish licence/enforcement status, including the appeal outcome; avoid describing an appeal as a final court ruling.
+4. Resolve the Sisal binding-terms extraction and Holland Casino notified-domain gate before treating either as qualified.
+5. Revalidate Germany's exact Schleswig-Holstein scope and Switzerland's game-level permission rules.
+6. Complete Ontario's exact live-site/contract match, then conduct documented usability/accessibility tests and independent second reviews.
+7. Reconcile the 100-brand global slate only after alias/domain deduplication and per-market eligibility checks; do not count dossiers as approved reviews.
 
-1. Finish current terms and cashier capture for the four GB targets, which already have the most extensive evidence trail.
-2. Close the domain/contract mismatch for Holland Casino Online before counting it as a fully qualified target.
-3. For Switzerland and Schleswig-Holstein, verify the exact entity, current game/territory permissions and consumer terms.
-4. For NJ, PA and MI, match regulator authorization to the exact live URL, customer contract and platform/licensee relationship.
-5. Add original consumer/accessibility tests and independent sign-off; keep all incomplete targets on HOLD.
-6. Reconcile the target list to 100 globally unique brands only after brand aliases and cross-market duplicates are resolved.
-
-**Decision:** evidence progress only. All ten targets remain HOLD; approved reviews remain **0/100**. This board does not claim a “top 10” ranking.
+**Decision:** this is a market-prioritisation and evidence-tracking board, not a top-10 ranking. All ten targets remain HOLD; publication-approved reviews remain **0/100**.
