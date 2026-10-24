@@ -843,3 +843,8 @@ Added official policy-source links for **Sky Vegas, Ladbrokes Casino, and Coral 
 ## PlayOJO UK help-centre source pass — 2026-10-24
 
 Added the official GB-filtered PlayOJO help centre to its withdrawal/payment-help and safer-gambling source fields. The page includes withdrawal process, payment-method, verification, limits/self-exclusion and support guidance. It is not a dedicated complaint/ADR policy and does not replace current UK terms. PlayOJO remains `HOLD`. Updated counts after passes B+C: terms 23, withdrawal/payment 12, complaints/ADR 9, safer-gambling 16, partnership contacts 0, privacy/tracking review 142, named reviewer 184. Details: [PlayOJO UK help-centre source pass](../quality/gb-consumer-policy-source-link-pass-2026-10-24-c.md). No consumer tests or publication approvals claimed; no Actions, merge, or Cloudflare deploy.
+
+
+## Virgin Games UK policy-source pass — 2026-10-24
+
+Added Virgin Games' official UK withdrawal-process explainer and responsible-gambling page to its GB registry record. Official product pages identify Gamesys Operations Limited / UKGC account 38905, but the current website terms URL and dedicated complaints/ADR route still need confirmation. The record remains `HOLD`. Current counts after passes B–D: terms 23, withdrawal/payment 13, complaints/ADR 9, safer-gambling 17, partnership contacts 0, privacy/tracking review 142, named reviewer 184. Full details: [Virgin Games UK policy-source pass](../quality/gb-consumer-policy-source-link-pass-2026-10-24-d.md). No consumer test, publication approval, Actions run, merge, or Cloudflare deployment is claimed.
