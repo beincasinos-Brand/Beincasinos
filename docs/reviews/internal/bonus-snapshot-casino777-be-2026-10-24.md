@@ -9,3 +9,8 @@ The official page describes a game-specific “777 Boost”, not a welcome depos
 This is a dated official-page observation only. The promotion page and applicable terms must be rechecked before any public claim; verify whether the offer remains active, precise game mechanics, payout/credit timing, account and identity restrictions, and applicable general terms. Do not present this as a cash bonus available to every visitor or as a welcome offer.
 
 No account was created, no qualifying play was performed, and no bonus was claimed. Decision: **HOLD / NOT CLEARED FOR PUBLICATION**.
+
+
+## Belgian legal/compliance gate
+
+Belgium applies strict restrictions to gambling bonuses and promotional inducements. The observed “777 Boost” is a game-specific win boost rather than a conventional deposit match, but that distinction does not establish legality. Do not publish it as an available bonus or promotional benefit until Belgian legal/compliance review confirms that this exact mechanic is permitted and the current offer-specific terms are captured. The row remains **HOLD**.
