@@ -78,7 +78,7 @@
 
 ## Work completed in this session
 
-5. Re-aligned the ten-target priority board to the approved Tier-1 market scope: GB, NL, CH, DE (Schleswig-Holstein only), US-NJ, US-PA and US-MI. The programme now uses ten brand-market targets across seven market codes, not a claim of ten countries.
+5. Restored the international priority board to the original ten-market roadmap: Great Britain, Belgium, Sweden, Denmark, Spain, Italy, the Netherlands, Germany (Schleswig-Holstein only for Tipico), Switzerland and Ontario, Canada. Supplemental US-state research (NJ, PA and MI) is tracked separately and does not replace these ten targets.
 6. Added internal primary-source dossiers for admiral.ch (FGB), Ember (NJ DGE), BetRivers (PA PGCB) and Horseshoe Online Casino (MI MGCB). The prior Hollywood Casino Online draft is now a historical-status correction: the PGCB records the legacy skin ending in December 2023. BetRivers remains HOLD; no firsthand real-money testing is claimed.
 7. Fixed a sitemap checker inconsistency: it now uses the shared robots-meta parser, omits noindex pages from expected sitemap URLs, and rejects any noindex page found in the sitemap. The parser has regression tests. Updated the public directory copy to state that it remains noindex pending approval.
 8. Added a `global_brand_id` column to the 106-row master prospect tracker and a CI validator for required columns, row widths and duplicate brand/market keys. All 106 IDs are explicitly blank; the validator warns rather than disguising the outstanding deduplication work.
