@@ -111,6 +111,7 @@ See [the internal operator outreach playbook](docs/operator-outreach-playbook.md
 
 
 - [Project completion board](docs/project-completion-board.md) — single status page for release blockers, owner actions, evidence gates, and the next work sequence.
+- [Tier-1 target qualification audit (24 October 2026)](docs/tier-1-target-qualification-audit-2026-10-24.md) — counts the master tracker rows and highlights unresolved domains, market scope, and publication holds.
 
 ## Recent prospect-research updates (internal only)
 
