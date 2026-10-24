@@ -351,3 +351,11 @@
 - Added four regression cases in `scripts/test_review_ledger.py`: a held/unscored candidate set, partial-score rejection, duplicate identity rejection, and rejection of publication without evidence and image rights. The workflow now runs these tests.
 - This is a source change only. Python execution, workflow/runner success and browser tests are not confirmed. Existing GitHub Actions runner allocation failures remain a separate blocker.
 - No candidate was promoted, no score was fabricated, no logo rights were presumed, and no Cloudflare production deployment or PR merge was performed. Approved reviews remain **0/100** until actual evidence and independent sign-off are complete.
+
+
+# Full-review evidence schema expansion — 24 October 2026
+
+- Expanded the 100-brand ledger from 30 to 43 columns with explicit evidence slots for deposit methods, fees/limits, privacy/cookies, accessibility, regulatory actions and ADR, plus named primary/secondary reviewers, independent-review date, editorial-approval date, consumer-test status, affiliate-disclosure status and evidence-bundle path.
+- All 100 rows explicitly say `NOT PERFORMED` for consumer/usability testing and `NOT REVIEWED` for affiliate disclosure; these are honest blockers, not assumed completion.
+- The review-ledger validator now requires those fields in the schema and blocks publication unless the required evidence sources, distinct reviewers, dated approvals, completed consumer/usability testing, reviewed disclosure, consistent nine-part score and cleared image rights are present. Five regression tests cover held/unscored rows, partial scoring, score-total mismatch, duplicate identities, and publication without evidence/rights.
+- Source-only update; Python/Actions/browser execution remains unconfirmed due to the existing runner-allocation issue. No merge or Cloudflare production deploy. Approved consumer reviews remain **0/100**.
