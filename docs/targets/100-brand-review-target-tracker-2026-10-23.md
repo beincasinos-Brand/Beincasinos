@@ -15,7 +15,7 @@ Eighteen internal evidence drafts are tracked: BetMGM Casino (New Jersey), 888ca
 
 Counts below are raw rows whose current registry market-scope text maps to the geography. They are **not** counts of eligible brands. Deduplicate brand + local product + contracting entity, and verify current online-casino permission before promoting a row into the final 100.
 
-Three of the 204 registry records are deliberately not allocated to an active target market in the current scope field: Betsson Casino and NordicBet Casino remain in scope triage until a named local route is evidenced; Rizk has no confirmed market route. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
+Three of the 204 registry records are deliberately not allocated to an active target market in the current scope field: the generic cross-market Betsson Casino lead (market code UNCONFIRMED), NordicBet Casino (unconfirmed), and Rizk (no confirmed route). This does not mean all Betsson records are unallocated: separate Betsson (BE), Betsson (IT) and Betsson (SE) rows exist, each with its own market-specific evidence gates and all still HOLD. In addition, two casino leads are explicitly rejected/excluded: 32Red (GB) because its current UKGC casino permission/domain was not active, and Betfred (ES) because DGOJ records its singular casino-game licences as extinguished on 5 September 2023. None may count toward the 100.
 
 | Target geography | Raw scoped rows | Qualification gate / next work |
 |---|---:|---|
