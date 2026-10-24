@@ -276,3 +276,11 @@
 - Re-parsed the written CSV with quote-aware handling: **100 data rows, 30 columns, zero malformed rows**. All 100 bonus entries are explicitly NOT CAPTURED pending current market-specific offer and full terms; all 100 image-rights fields are PENDING; no overall consumer score is assigned; every publication decision remains HOLD.
 - Added `docs/targets/100-brand-review-production-protocol-2026-10-24.md` defining the 100-point evidence-first rubric: licence/scope 20, payments 18, safer gambling 15, product 12, bonus 10, complaints/support 10, usability/accessibility 8, privacy/security 4 and evidence/editorial clarity 3. Missing evidence is NOT SCORED; critical licence/domain/legal/safety conflicts block scoring and publication.
 - Current approved consumer-review count remains **0/100**. No public directory cards, production pages, logos, bonus claims or scores were promoted by this internal ledger. No merge or Cloudflare production deployment was performed.
+
+
+## Bonus source research — 24 October 2026
+
+- Captured six first-party Great Britain bonus offer snapshots for bet365 Casino, 888casino, Betfred Casino, Sky Vegas, Coral Casino and Grosvenor Casinos, and entered their official offer URLs, check date and key conditions into the internal 100-brand ledger.
+- Created `docs/reviews/internal/gb-bonus-snapshot-batch-2026-10-24.md` with source links and caveats. Sky Vegas is explicitly marked CONFLICT because the homepage advertises 250 spins while the promotions page describes a 50-spin offer/£10 deposit-and-stake path; no definitive bonus headline should be published until reconciled.
+- Ledger QA after these edits: 100 rows, 30 columns, zero malformed rows. Six offers have dated source snapshots; 94 rows remain without a captured offer URL. Image-rights fields remain pending across the ledger, all scores remain withheld, and all 100 publication decisions remain HOLD.
+- These are operator-published offer snapshots only. No account was opened, offer claimed, deposit made, game played, support contacted or withdrawal tested. Approved consumer reviews remain 0/100.
