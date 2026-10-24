@@ -35,3 +35,8 @@ The listed expiry is close to the research date. Recheck the regulator's live re
 ## Editorial disposition
 
 No score or recommendation is assigned. The stated expiry makes a fresh regulator check a mandatory blocker.
+
+
+## First-party source access limitation — 24 October 2026
+
+The official A+ table lists betanocasino.be under dossier 20000 with a displayed expiry of **31 December 2026**. A direct fetch of the first-party terms route returned HTTP 403 in this research session; the official support article at https://support.betanocasino.be/hc/en-us/articles/25107098174621-How-does-Betano-protect-its-players was readable and describes player-protection tools, but it is not a substitute for the complete Belgian customer terms. Search-indexed extracts are not sufficient to verify the current promotion, payment or withdrawal rules. Keep **HOLD**, recheck licence/renewal status and capture the live Belgium terms before any review is approved.
