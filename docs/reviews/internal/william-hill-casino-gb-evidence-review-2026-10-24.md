@@ -16,6 +16,28 @@ The account-specific UKGC licence summary must be checked again before publicati
 
 Account 39225 is the online-domain holder identified by the regulator. Account 2752 is a separate entity with different listed activities. Do not combine their permissions or treat retail/non-remote permissions as proof of online casino authorisation. For a consumer review, the actual GB casino journey and its applicable terms must be matched to the online licensee.
 
+
+## First-party terms and cashier disclosures checked 24 October 2026
+
+The current UK customer terms identify WHG (International) Limited as the contracting company for Great Britain and describe customer funds as held in a designated client account with **medium protection**. The terms explicitly state that segregation does not guarantee repayment of every balance in insolvency. Source: https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers
+
+The operator's current support article says:
+- Debit-card deposits have a displayed minimum of £5 and maximum of £99,000.
+- Debit-card withdrawals have a displayed minimum of £5; the page shows different maxima by card type (including £33,000 for Mastercard/Visa Debit, £40,000 for Maestro and £35,000 for Visa Electron).
+- The page lists Visa Direct withdrawals at about four hours and other cards generally at one to three working days, depending on the bank; it states William Hill does not charge debit-card transaction fees, though the bank may.
+- Identity documents may be requested, and the support article advises contacting the operator if the funds have not arrived after five working days.
+Source: https://help.williamhill.com/hc/en-gb/articles/21812883018653-Available-Deposit-and-Withdrawal-Options-Excluding-customers-registered-in-the-Republic-of-Ireland
+
+A separate current help article says the withdrawal route normally returns funds to the only linked method; with multiple methods, the system attempts to return funds to the method with the highest net deposits. Source: https://help.williamhill.com/hc/en-gb/articles/30532892038301-How-are-my-withdrawals-processed
+
+The UK safer-gambling help page describes a short time-out from one day to six weeks, with longer periods requiring contact with customer service. It says the account is closed for the selected period and any balance is not withdrawn automatically; the customer needs to contact support to withdraw after the time-out begins. Source: https://help.williamhill.com/hc/en-gb/articles/29873309823645-Safer-Gambling-for-UK-customers
+
+William Hill's support page advertises 24/7 messaging support. This is a published service claim, not a completed support-contact test. Source: https://help.williamhill.com/hc/en-gb/articles/21813121954461-Contact-Us
+
+### Limitations
+
+These pages establish the operator's published terms and estimates only. No deposit/withdrawal has been performed, and bank/payment-provider delays can differ from the stated processing windows. The current casino-specific rules, exact live GB route, complaint escalation/ADR details, active casino permission row, offers, privacy/cookies, game catalogue, accessibility and image rights still require capture. Do not treat a sportsbook or general customer-support page as proof that a casino-specific test was performed.
+
 ## Evidence worksheet
 
 | Topic | Required evidence before approval | Current state |
@@ -24,9 +46,9 @@ Account 39225 is the online-domain holder identified by the regulator. Account 2
 | Domain and redirects | Current GB entry URL, redirects, and final domain compared with UKGC record | Register identifies williamhill.com; live route not tested |
 | Contracting entity | Current GB terms and casino-specific rules | General terms captured; casino-specific rule set not archived |
 | Welcome/ongoing offers | Current terms, eligibility, wagering, expiry, game contribution, max bet and withdrawal restrictions | Not evidenced |
-| Payments | Current cashier methods, limits, fees, verification and processing exceptions | Not tested |
+| Payments | First-party debit-card limits/timing and routing captured; current full cashier and transaction tests still outstanding |
 | Complaints/ADR | Complaint path, time limits, escalation and current ADR provider | Not completed |
-| Safer gambling | Deposit/loss/time limits, timeout, self-exclusion, account closure and reality checks | Not tested |
+| Safer gambling | Short time-out policy captured; verify remaining tools and practical behaviour |
 | Games and fairness | Game catalogue, provider details, game rules and RTP disclosures | Not tested |
 | Regulatory history | Current UKGC actions and full decision texts for exact licensee; preserve context and dates | Not completed |
 | Privacy/cookies | Current privacy and cookie notices and controller details | Not captured |
