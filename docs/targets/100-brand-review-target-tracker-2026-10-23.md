@@ -848,3 +848,8 @@ Added the official GB-filtered PlayOJO help centre to its withdrawal/payment-hel
 ## Virgin Games UK policy-source pass — 2026-10-24
 
 Added Virgin Games' official UK withdrawal-process explainer and responsible-gambling page to its GB registry record. Official product pages identify Gamesys Operations Limited / UKGC account 38905, but the current website terms URL and dedicated complaints/ADR route still need confirmation. The record remains `HOLD`. Current counts after passes B–D: terms 23, withdrawal/payment 13, complaints/ADR 9, safer-gambling 17, partnership contacts 0, privacy/tracking review 142, named reviewer 184. Full details: [Virgin Games UK policy-source pass](../quality/gb-consumer-policy-source-link-pass-2026-10-24-d.md). No consumer test, publication approval, Actions run, merge, or Cloudflare deployment is claimed.
+
+
+## Indexability release-gate reconciliation — 2026-10-24
+
+Resolved an internal SEO-state conflict on the feature branch: `brand-directory/index.html` had `index,follow` and its URL was listed in `sitemap.xml`, while the PR/tracker said the research directory must remain noindex until qualification, evidence and image-rights gates pass. Restored `noindex,follow` and removed `https://beincasinos.online/brand-directory/` from the branch sitemap. Rationale and release gates: [directory indexability reconciliation](../quality/directory-indexability-release-gate-reconciliation-2026-10-24.md). This is a branch-only correction; no merge, Actions run, Cloudflare deploy or live indexing status is claimed.
