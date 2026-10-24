@@ -546,3 +546,10 @@
 - Added `scripts/check_directory_ledger_alignment.py`, wired into `.github/workflows/site-check.yml`, to compare exact public card name + market pairs against the canonical ledger. CI now fails if either side does not contain exactly 100 unique identities or if any brand/market pair is missing/extra.
 - Added four unit tests for parsing, exact matches, market mismatch rejection and the CI-only 100-identity count requirement. This prevents the prior 100-vs-100-but-different-brands problem from recurring.
 - Source-level identity reconciliation currently confirms 100 public cards, 100 canonical ledger rows, exact set equality, 100 unique IDs, and eight bonus source leads. GitHub Actions still fails before any step starts due runner allocation; no test pass is claimed.
+
+
+# Canonical bonus-source count correction — 24 October 2026
+
+- The canonical public-directory ledger currently contains **9** bonus/promotion source leads, not eight. The ninth is GetLucky (NL), added to `docs/reviews/internal/canonical-directory-bonus-source-leads-2026-10-24.md`.
+- GetLucky's official promo subdomain describes up to 200 free spins across three qualifying deposits, but the public directory card still lacks a verified official domain and the exact regulator/domain mapping remains unresolved. Keep it on HOLD.
+- Canonical audit remains: 100 public cards, 100 ledger rows, exact identity-set equality, 100 unique IDs, 9 source URLs, zero numeric scores, 100 NOT SCORED states, and all consumer tests/disclosures incomplete.
