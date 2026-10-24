@@ -470,3 +470,10 @@ Primary records:
 
 - Added [primary-source regulator evidence batch 07](../reviews/internal/regulator-evidence-batch-07-2026-10-24.md) for candidates 56–65 and recorded source freshness/product-scope blockers in the ledger.
 - Regulator-source coverage across batches 01–07 is 64/100 candidate rows, plus row 16's UKGC record/offer snapshot. Approved consumer reviews remain **0/100**; all 100 remain HOLD/unscored; no merge or Cloudflare production deployment is claimed.
+
+
+## Public directory completeness UI — 24 October 2026
+
+- All 100 public research cards now show explicit editorial-rating and bonus-publication states instead of blank-looking fields: **Not scored** and **Not cleared**, with explanatory text. Hero metrics reflect 0/100 score clearances and 0/100 bonus clearances.
+- Added source-level guardrails in `scripts/check_site.py` requiring the two status fields and non-empty explanatory notes on every card. CI execution is not confirmed.
+- The target remains 100 fully evidenced, independently approved reviews; these UI changes are transparency/quality guardrails, not a substitute for actual review evidence. All 100 remain HOLD; no merge or Cloudflare deployment.
