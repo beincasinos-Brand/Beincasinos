@@ -1,3 +1,14 @@
+# Latest live-preview QA — 24 October 2026, 17:52 UTC
+
+- Read-only Cloudflare Pages preview fetch now confirms the branch directory reflects the latest Pennsylvania evidence text: it includes one BetRivers card and one Hollywood Casino Online card, while Ivy Casino is absent. Source-level check: 100 `article.brand-card` entries and 100 unique card titles, no duplicate titles.
+- Preview page metadata: canonical `https://beincasinos.online/brand-directory/`, robots `noindex,follow`. The preview sitemap has 44 URLs and does **not** include `/brand-directory/`. This is the intended draft gate; it is not a production indexing release.
+- Production `https://beincasinos.online/brand-directory/` still returns **404**. No production deployment, merge or indexing release has occurred.
+- The Hollywood card now says the PGCB lists `http://www.hollywoodcasino.com` for slots/table games with 19 December 2024 commencement; the HTTP URL is plain text, not a direct clickable link. The current HTTPS canonical/redirect and customer-contracting entity remain open.
+- CI has not passed. The latest observed Static site checks attempts fail before any step runs (runner ID 0/no step records/no readable logs); this remains an Actions runner-allocation issue, not a diagnosed source-test failure. Do not bypass checks.
+- PR #141 remains open, Draft and unmerged. Approved consumer reviews remain **0/100**.
+
+---
+
 # Latest exact-ID mapping — 24 October 2026
 
 - Tier-1 tracker remains 106 data rows, 18 columns, zero malformed rows and zero duplicate brand/market keys. Source-matched global IDs are now filled for Hollywood Casino Online (PA) → `hollywood-casino`, BetRivers Casino (PA) → `betrivers-casino`, Casineo.ch (CH) → `casineo`, and Jollie.de (DE) → `jollie`. These assignments use an existing exact brand ID or an exact normalized brand/market match; no broader aliases were inferred. **102 IDs remain blank**, so deduplication is still incomplete.
