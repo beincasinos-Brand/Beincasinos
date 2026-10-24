@@ -33,6 +33,19 @@ def sample_rows():
             "review_status": "NOT SCORED",
             "publication_status": "HOLD — not approved for publication",
             "blockers": "Evidence incomplete",
+            "deposit_methods_url": "",
+            "fees_limits_url": "",
+            "privacy_cookies_url": "",
+            "accessibility_evidence_url": "",
+            "regulatory_actions_url": "",
+            "adr_url": "",
+            "reviewer_primary": "",
+            "reviewer_secondary": "",
+            "independent_review_date": "",
+            "editorial_approval_date": "",
+            "consumer_test_status": "NOT PERFORMED",
+            "affiliate_disclosure_status": "NOT REVIEWED",
+            "evidence_bundle_path": "",
         })
     return rows
 
