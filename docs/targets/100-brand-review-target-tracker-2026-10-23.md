@@ -273,3 +273,6 @@ Updated four of the final directory cards to replace generic discovery text with
 - **BetGoodwin Casino (100):** Goodwin Racing Limited / UKGC 2927; active Casino Remote licence, domain and trading-name entries.
 
 Evidence memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24.md`. The website cards now link primary register records and list unresolved review gates. This improves evidence traceability only; it does not qualify these brands for publication, establish the full 100 as distinct/eligible, or change the approved-review count. **Publication-approved reviews remain 0/100.** No Cloudflare deployment is implied.
+
+
+- **GeckoPlay (092):** directory card updated with the UKGC active trading-name record for Skill On Net Limited (account 39326) and active Casino Remote licence lead. Exact live domain mapping, current terms and consumer review gates remain open. Memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10-24.md`.
