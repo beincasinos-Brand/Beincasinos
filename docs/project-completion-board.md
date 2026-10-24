@@ -267,3 +267,12 @@
 - Corrected the tracker’s enforcement date to the official decision date **9 May 2025** (not the 21 August 2025 news-publication date). The £1m sanction, warning, licence condition and required third-party audit are recorded; current audit/remediation outcome remains unverified.
 - No account registration, deposit, gameplay, support or withdrawal test was performed. No quality score or recommendation is approved; Betsuna remains HOLD and willingness to pay remains unconfirmed.
 - Evidence draft: `docs/reviews/internal/betsuna-gb-evidence-review-2026-10-24.md`. Tracker: `docs/tier-1-master-prospect-tracker.csv`.
+
+
+# First 100 review-production ledger — 24 October 2026
+
+- Created `docs/targets/100-brand-review-production-ledger-2026-10-24.csv`: 100 unique candidate identities selected from the current scoped registry with a round-robin spread across 15 market codes. This is a controlled worklist, **not** a claim that 100 brands are verified or that 100 reviews are complete.
+- The ledger has 30 columns covering official domain, legal entity, regulator/register, terms, withdrawals, complaints, safer-gambling, bonus source/date/status, image source/rights, nine weighted score components, overall score, review/publication state and blockers.
+- Re-parsed the written CSV with quote-aware handling: **100 data rows, 30 columns, zero malformed rows**. All 100 bonus entries are explicitly NOT CAPTURED pending current market-specific offer and full terms; all 100 image-rights fields are PENDING; no overall consumer score is assigned; every publication decision remains HOLD.
+- Added `docs/targets/100-brand-review-production-protocol-2026-10-24.md` defining the 100-point evidence-first rubric: licence/scope 20, payments 18, safer gambling 15, product 12, bonus 10, complaints/support 10, usability/accessibility 8, privacy/security 4 and evidence/editorial clarity 3. Missing evidence is NOT SCORED; critical licence/domain/legal/safety conflicts block scoring and publication.
+- Current approved consumer-review count remains **0/100**. No public directory cards, production pages, logos, bonus claims or scores were promoted by this internal ledger. No merge or Cloudflare production deployment was performed.
