@@ -8,7 +8,7 @@
 | Check | Result |
 |---|---:|
 | Directory cards / distinct displayed titles | 100 / 100 |
-| Cards with missing or placeholder official domain | 33 |
+| Cards with missing or placeholder official domain | 26 |
 | Cards with unresolved / placeholder legal operator | 37 |
 | Cards without a linked regulator/authority source in the authority field | 0 |
 | Research summaries under 180 characters | 1 |
@@ -95,3 +95,12 @@
 Do not count any row with an unresolved consumer domain/operator as one of the 100 verified eligible brands. For each candidate, the next required evidence is: (1) official regulator entry, (2) exact consumer-facing domain listed or demonstrably tied to the permit holder, (3) named legal entity, (4) authorised product type in the target market, and (5) a dated evidence capture. Only after these gates pass should terms, payments/withdrawals, complaints, safer-gambling controls, privacy, and editorial review be completed.
 
 **Status: HOLD.** This audit identifies gaps in the current HTML source; it does not change any brand status or promote any candidate.
+
+## Regulator-backed domain corrections — 24 October 2026
+
+The latest directory HTML now records official market-specific URLs for seven cards, using current primary regulator lists:
+
+- **New Jersey DGE:** Monopoly Casino (`play.monopolycasinous.com/casino`), Horseshoe Casino (`horseshoeonlinecasino.com/us/nj/casino`), Fanatics Casino (`casino.fanatics.com`), and theScore Bet (`thescore.bet`) appear on the DGE authorized Internet Gaming Sites page under their listed casino-license groups: https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/
+- **Pennsylvania Gaming Control Board:** Imperial Treasures Casino (`imperialtreasurescasino.com`), Hollywood Casino Online (`www.hollywoodcasino.com`), and Mohegan PA (`play.moheganpacasino.com`) appear on the PGCB Interactive Gaming Operators page: https://gamingcontrolboard.pa.gov/interactive-gaming-operators
+
+These are market-site/domain confirmations only. Exact contracting entities, brand-to-licensee relationships where not explicit, current consumer terms, and distinct-global-brand identity still require verification. All seven cards remain **HOLD**. In particular, Horseshoe in New Jersey and Michigan is the same apparent global brand across two market-specific cards and must not be counted twice toward a 100-global-brand target.
