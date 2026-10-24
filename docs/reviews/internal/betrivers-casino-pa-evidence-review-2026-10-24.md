@@ -34,13 +34,21 @@ Primary first-party sources:
 
 **Important access limitation:** the regulator page is readable, but static web retrieval of the BetRivers “Terms of Service”, “Privacy Policy” and “Player Protection” links returned an app/account shell rather than the full policy text. The current policies therefore remain unarchived in this desk-research pass; do not claim that their substantive wording has been verified. Use a browser session to inspect and save the actual policy documents, including promotion-specific terms, cashier/withdrawal conditions, complaints, privacy/cookies and safer-gambling options.
 
+## First-party route and disclosure capture — 24 October 2026
+
+A fresh read of the official PA customer route (`https://pa.betrivers.com/?l=RiversPhiladelphia&page=all-games`) returned a current page title, “Slot Games | Table Games | Online Casino Games | PA BetRivers”. Its visible footer states that wagering requires age 21+ and physical location in Pennsylvania, displays the 1-800-GAMBLER message, and identifies **Rush Street Interactive PA, LLC, licence #110298**, acting on behalf of **SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia (Internet Gaming Certificate 1356)** and **Holdings Acquisition Co., LP d/b/a Rivers Casino Pittsburgh (licence #F-1361)**. The footer also says Rivers/BetRivers marks are held by Rivers IP Holdings, L.L.C.
+
+The site links to terms (`?page=eula&tos=TOC`), privacy (`?page=eula&tos=PP`), protection (`?page=eula&tos=PROT`), responsible-gambling information (`?page=eula&tos=RESPONSIBLEGAMBLING`) and a Pennsylvania help centre. However, the text extraction returned the common site footer rather than the substantive text of those query-selected pages; the canonical metadata strips the `tos` query parameter. Therefore the current terms, privacy, protection and RG contents are **not yet verified or archived**. This is a source-capture limitation, not proof that the pages are empty or unavailable to customers.
+
 ## Legal/operator distinction
 
 The certificate-holder, interactive-gaming operator, and customer-facing BetRivers brand are distinct roles in the regulator record. Before publishing, match the current customer agreement and privacy notice to the contracting entity. Do not describe Rush Street Interactive PA, LLC as the certificate holder; the cited record names SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia as the certificate holder.
 
 ## Evidence still required before a consumer review
 
-- [ ] Re-open the current PGCB register and confirm the authorized URL at publication time.
+- [x] Re-open the current PGCB register and confirm the BetRivers PA route is listed for slots, table games and poker in the 13 February 2026 certificate-holder list; repeat at publication time.
+- [x] Capture the first-party route footer's age/location message, 1-800-GAMBLER message and named operator/certificate-holder relationships.
+- [ ] Capture the substantive text of the terms, privacy, protection and RG pages; a footer-only extraction is insufficient.
 - [ ] Archive current Pennsylvania terms, privacy notice, bonus conditions, wagering requirements, exclusions and expiry; current policy links did not expose full text in static retrieval.
 - [ ] Verify deposit/withdrawal methods, limits, fees, timelines, verification requirements and restrictions.
 - [ ] Verify complaints/support route and applicable Pennsylvania escalation process.
