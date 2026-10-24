@@ -1,3 +1,16 @@
+# Latest work checkpoint — 24 October 2026, 18:15 UTC
+
+- Corrected the priority board so it follows the approved Tier-1 scope rather than adding Belgium, Sweden, Denmark, Spain, Italy or Ontario without approval. The ten targets now span seven market codes: GB, NL, CH, DE (Schleswig-Holstein only), US-NJ, US-PA and US-MI.
+- Added four source-linked internal evidence dossiers: admiral.ch (Swiss FGB), Ember (New Jersey DGE), Hollywood Casino Online (Pennsylvania PGCB) and Horseshoe Online Casino (Michigan MGCB). Each remains HOLD; none claims firsthand deposits, withdrawals, support or real-money testing.
+- Fixed an SEO/build-check inconsistency: the public research directory was intentionally marked noindex and already omitted from the sitemap, while the deployment-artifact checker incorrectly required every HTML page in the sitemap. The checker now parses robots meta directives, excludes noindex pages from expected sitemap URLs, and errors if a noindex page appears in the sitemap. The directory copy now accurately states that it remains noindex while research entries are unapproved.
+- CI remains blocked by GitHub Actions runner allocation, not by an observed code/test failure: workflow run #1398 (ID 40115615497), retry attempt 2, failed in about two seconds with runner_id 0, no steps, and no readable logs. A new checker change is committed after that run, so it has not been validated by a successful runner.
+- PR #141 remains open and Draft, not merged; the latest observed file count was 117 before the newest checker-only commits. No production deployment, merge, DNS change, or indexing release was performed.
+- Approved reviews remain **0/100**. Research dossiers and a priority board are not scored, consumer-ready reviews.
+
+**Next:** obtain a successful CI run on the current head; verify the checker against the built artifact; close current terms/cashier and exact-domain blockers; document real accessibility/consumer tests; obtain independent second review. Keep all HOLD and publication gates intact.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 17:55 UTC
 
 - Added an international priority board spanning ten market-specific reviews and a separate first-ten Great Britain work board. Both are internal task queues, not public rankings.
