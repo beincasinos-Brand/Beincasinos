@@ -1,3 +1,15 @@
+# Correction checkpoint — 24 October 2026, live source recheck
+
+- **Betano Belgium A+ register:** fresh live fetches of both the Belgian Gaming Commission's English and French A+ table pages returned the same dossier 20000 row: `www.betanocasino.be`, VIAGE, SA/NV CASINOS AUSTRIA INTERNATIONAL BELGIUM, decision date **12 November 2024**, expiry **31 December 2026**. A search-indexed French snippet that showed 2019/2034 was stale relative to the current page. Updated the Betano dossier, Tier-1 tracker, brand research template and international board to remove the false cross-language-conflict claim. This is a source reconciliation, not review approval; Betano remains HOLD.
+- **Hollywood Casino Online (Pennsylvania):** the current dossier remains correct: legacy `pa.hollywoodcasino.com` ended 14 December 2023, but PGCB's newer listing shows `http://www.hollywoodcasino.com` commencing 19 December 2024. Do not incorrectly exclude the whole brand based only on the retired legacy URL. The current HTTPS route, contract entity and consumer terms remain to be verified.
+- **BetRivers Pennsylvania:** retained as a separate supplemental US-state lead with PGCB certificate-holder/operator roles separated. It does not replace any of the ten international priority rows.
+- **CI:** current head run `40119689309` on `d990e57f979395f196c6c624ddf754501912b5df` failed in about two seconds; job runner ID 0, zero steps, no readable logs. Application checks did not execute. PR #141 remains open, Draft and unmerged; 126 changed files. No production deployment or merge was made.
+- **Completion truth:** approved reviews remain **0/100**; all targets stay HOLD until full current terms, exact customer entity, real usability/accessibility testing, image rights and independent review are complete.
+
+**Next:** diagnose the GitHub Actions runner-start failure; recheck Betano's live register before publication; continue evidence capture for the ten market-specific priority targets.
+
+---
+
 # Latest verified continuation — 24 October 2026
 
 - **Betano Belgium — material licence-date conflict surfaced:** the Belgian Gaming Commission's English A+ table, last updated 8 October 2026, lists dossier 20000 with decision 12 November 2024 and expiry 31 December 2026. The French table, last updated 28 August 2026, shows 11 December 2019 and 11 December 2034 for the same domain/operator. Updated the evidence dossier, Tier-1 tracker, main research registry and international priority board to flag this as unresolved. The earlier claim that 2034 was definitively current is superseded. Do not publish an expiry conclusion until the downloadable register data or regulator clarifies the discrepancy.
