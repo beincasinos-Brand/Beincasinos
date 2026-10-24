@@ -55,6 +55,26 @@ class RobotsMetaParserTests(unittest.TestCase):
     def test_absent_robots_tag_is_indexable_by_default(self):
         self.assertFalse(parse('<html><head><title>Test</title></head></html>'))
 
+    def test_multiple_meta_tags_only_crawler_noindex_excludes(self):
+        html = (
+            '<meta name="description" content="noindex is only explanatory text">'
+            '<meta name="twitter:card" content="noindex">'
+            '<meta name="bingbot" content="index, noindex, max-image-preview:large">'
+        )
+        self.assertTrue(parse(html))
+
+    def test_noindexing_word_is_not_noindex_directive(self):
+        self.assertFalse(parse('<meta name="robots" content="noindexing,follow">'))
+
+    def test_noindex_in_html_comment_is_ignored(self):
+        self.assertFalse(parse('<!-- <meta name="robots" content="noindex"> -->'))
+
+    def test_noindex_with_extra_whitespace_and_mixed_case_is_detected(self):
+        self.assertTrue(parse('<meta NAME="GoogleBot-News" CONTENT=" INDEX ,  NOINDEX , max-snippet:0 ">'))
+
+    def test_meta_with_name_and_content_attributes_in_any_order(self):
+        self.assertTrue(parse('<meta content="none" charset="utf-8" name="robots">'))
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
