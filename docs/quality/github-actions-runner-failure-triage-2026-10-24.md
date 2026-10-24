@@ -51,3 +51,9 @@ This confirms the retried run again failed before any workflow step started. It 
 The updated workflow did trigger on the current PR head commit `0b48320b383e59e7964c5c90238a9fedcd1d4e36`, run **40126147949**: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126147949
 
 It failed before executing any workflow step. The job record reports `runner_id: 0`, empty runner name, and `steps: []`. Therefore the new exact-name ID checker and its five regression tests have **not** been executed by CI yet. This is a current-head workflow failure, but the missing runner/step evidence still does not identify a code-level failure. Release gate remains blocked.
+
+## Latest head verification — 24 October 2026, 19:38 UTC
+
+After the documentation/checkpoint updates, run **40126180341** targeted the then-current PR head `0ae2525153600a075b26743878dae3169414e978`: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40126180341
+
+The job again completed as failure in roughly two seconds, with `runner_id: 0`, an empty runner name, and no workflow steps. This is the latest confirmed current-head CI observation at the time of this note. No Python, site, artifact or browser test executed in that run. CI remains blocked; the run cannot establish whether those checks pass or fail.
