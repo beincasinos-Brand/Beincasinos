@@ -84,3 +84,18 @@ A fresh lookup of the official current A+ table returned an additional/current r
 Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. The current surfaced record associates dossier 595153 with betssoncasino.be, whereas an earlier captured row associated it with betfirstcasino.be. This is a material domain/brand transition signal, not proof that the current contract has been checked. A dedicated draft is now at `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md`.
 
 **Correction to prior count wording:** the earlier memo's “all nine A+ register rows” summary omitted this Betsson row. The current surfaced table contains nine dossier rows and ten distinct domain strings because Circus and PokerStars share one row; Betsson is one of the nine dossier rows. The previous nine-draft batch therefore did not cover the full current row set. The Betsson draft closes that documentary gap but remains HOLD. Approved reviews remain **0/100**.
+
+
+## Separate B+ leads — product-scope review only, 24 October 2026
+
+A further eight internal files record selected entries from the Belgian Gaming Commission's official B+ register:
+- `docs/reviews/internal/madisoncasino-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/peppermillcasino-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/casinoexperience-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/lococasino-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/casinobelgium-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/wellington-casino-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/versaillescasino-be-product-scope-review-2026-10-24.md`
+- `docs/reviews/internal/711casino-be-product-scope-review-2026-10-24.md`
+
+Source: https://data.gamingcommission.be/licenses/BPLUS/latest/table.html?lang=en (current surfaced table last updated 16 October 2026). These are **B+ online gaming-arcade leads, not A+ online-casino licences**. They are intentionally not added to the A+ count or approved-brand count. The B+ entries for Wellington and Versailles share SA/NV SONIC; PepperMill appears with more than one establishment/operator record. Each remains HOLD pending exact current contract, product taxonomy, terms, consumer protections, enforcement, accessibility, rights and independent editorial/legal review. Whether B+ arcade products qualify for the programme's casino-only target requires explicit scope approval.
