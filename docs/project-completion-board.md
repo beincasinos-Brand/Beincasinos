@@ -405,3 +405,9 @@
 - Unibet Sweden's official bonus page describes either SEK 100 for 50 Pirots 4 spins with 1x wagering, or a 100% deposit bonus up to SEK 1,000 with a SEK 200 minimum and 30x wagering. It also states a SEK 25 maximum bonus-play bet, up to 60-day validity, Sweden residence, and one bonus per player/household/payment method. Exact wagering base, exclusions and an account-eligibility contradiction require reconciliation.
 - Both rows remain HOLD. No account, deposit, claim, gameplay, support or withdrawal test was performed.
 - Corrected the pre-launch crawler policy: `robots.txt` now disallows crawling, and `scripts/check_deploy_artifact.py` requires that block and rejects a site-wide allow rule. This restores the previously authorized no-indexing-before-launch posture. No DNS/nameserver change, merge or production deployment was made.
+
+
+# Crawl-block regression coverage — 24 October 2026
+
+- Added two regression tests to `scripts/test_deploy_artifact.py`: verify the source `robots.txt` blocks all crawlers pre-launch, and verify the canonical sitemap directive remains prepared for a later approved release.
+- The latest Actions job still exits before its first step with `runner_id: 0`, blank runner name and no steps. This is an infrastructure/runner allocation failure, not evidence that source checks passed or failed.
