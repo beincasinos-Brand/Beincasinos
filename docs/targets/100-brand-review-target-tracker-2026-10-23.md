@@ -388,6 +388,14 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - **Internal evidence drafts: 33. Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
 - No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget. The latest image edit was statically checked: 100 cards, 60 image elements, all lazy-loaded with alt text and onerror fallbacks.
 
+### Great Britain source refresh — 24 October 2026
+
+- Added batch F internal review drafts for Mega Riches, Los Vegas, PricedUp, Rollerbet and Betta Bet. These bring the tracked internal evidence draft count to 33; approved consumer reviews remain 0/100.
+- Refreshed regulator evidence for UKGC accounts 66539 (TECH-IN GLOBAL LTD), 1776 (Off Course Bookmakers Limited) and 48695 (SuprPlay Limited). Rollerbet's tested terms URL returned 404, pricedup.bet returned 403 in this source pass, and Los Vegas returned a retry/error page. These are access/evidence gaps, not conclusions about legality or overall quality.
+- Updated PricedUp, Rollerbet and Betta Bet directory summaries to disclose those unresolved checks instead of implying a completed customer journey.
+- Replaced the Mega Riches 16×16 favicon candidate with its official homepage Open Graph image (1200×630 JPEG). The new candidate remains rights-pending and needs visual-crop and permission review.
+- Static directory QA after the edits: 100 cards, 100 unique titles, 60 image elements, all with alt text, lazy loading and on-error fallback. No browser visual regression, Lighthouse test, GitHub Actions build or Cloudflare deployment was run.
+
 ### Next execution gates
 
 1. Reconcile candidate IDs to exactly 100 distinct brand + local product + contracting-entity combinations; remove duplicates, sportsbook-only brands and unsupported market variants.
