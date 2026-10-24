@@ -9,7 +9,7 @@
 
 The PGCB's 2024–2025 Annual Report says a new Hollywood Casino iGaming site launched in **December 2024** under the Hollywood Casino at Penn National Race Course iGaming certificate. The PGCB's current Interactive Gaming Operators directory also displays a Hollywood Casino Online brand entry.
 
-However, the PGCB's 13 February 2026 certificate-holder/authorized-websites PDF lists the legacy `pa.hollywoodcasino.com` in the **former interactive gaming sites** section and records that URL's operation from 18 July 2019 to 14 December 2023. These facts are compatible: the retired legacy domain must not be reused as proof of the later brand's current route, but the 2024 launch report means the brand should not be excluded solely because the old URL ended.
+However, the PGCB's 13 February 2026 certificate-holder/authorized-websites PDF also lists the newer `http://www.hollywoodcasino.com` route for **slots and table games**, with a commencement date of **19 December 2024**. In the same document, the legacy `pa.hollywoodcasino.com` appears in the **former interactive gaming sites** section with operation ending 14 December 2023. These facts are compatible: the old URL is retired, while the newer regulator-listed route remains a current lead. Because the register prints the new route as HTTP, its live HTTPS canonical/redirect must still be verified.
 
 Primary sources:
 - PGCB 2024–2025 Annual Report, Interactive Gaming section: https://gamingcontrolboard.pa.gov/sites/default/files/2025-09/PGCB%20Annual%20Report%202024-2025%20FINAL.pdf
@@ -18,8 +18,8 @@ Primary sources:
 
 ## What is and is not established
 
-- **Supported:** the regulator reports a Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate; the current operator directory lists Hollywood Casino Online.
-- **Not established yet:** exact current secure customer URL, current legal contracting entity, whether the current brand is a separate skin/product under that certificate, and current terms/cashier/complaints/RG details.
+- **Supported:** the regulator reports a Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate; the 13 February 2026 certificate-holder PDF lists `http://www.hollywoodcasino.com`, slots/table games, and commencement date 19 December 2024.
+- **Not established yet:** current HTTPS canonical/redirect, current legal contracting entity, whether the current brand is a separate skin/product under that certificate, and current terms/cashier/complaints/RG details.
 - **Explicitly retired:** the legacy `pa.hollywoodcasino.com` URL, which the 2026 certificate-holder PDF identifies as a former site ending 14 December 2023.
 
 ## Evidence still required
@@ -33,4 +33,4 @@ Primary sources:
 
 ## Disposition
 
-**HOLD — retain as a research lead, not a qualified consumer review.** The earlier claim that Hollywood Casino Online should be excluded as a current brand is withdrawn. Only the legacy URL is confirmed retired; the later brand's current URL and customer-contract details remain unresolved. No score or recommendation assigned.
+**HOLD — retain as a research lead, not a qualified consumer review.** The PGCB lists `http://www.hollywoodcasino.com` for the later launch, while the legacy `pa.hollywoodcasino.com` URL is retired. Verify the live HTTPS route and customer-contract details before publication. No score or recommendation assigned.
