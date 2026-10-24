@@ -359,3 +359,10 @@
 - All 100 rows explicitly say `NOT PERFORMED` for consumer/usability testing and `NOT REVIEWED` for affiliate disclosure; these are honest blockers, not assumed completion.
 - The review-ledger validator now requires those fields in the schema and blocks publication unless the required evidence sources, distinct reviewers, dated approvals, completed consumer/usability testing, reviewed disclosure, consistent nine-part score and cleared image rights are present. Five regression tests cover held/unscored rows, partial scoring, score-total mismatch, duplicate identities, and publication without evidence/rights.
 - Source-only update; Python/Actions/browser execution remains unconfirmed due to the existing runner-allocation issue. No merge or Cloudflare production deploy. Approved consumer reviews remain **0/100**.
+
+
+# Market-specific bonus source pass — 24 October 2026
+
+- Captured dated official promotion-page observations for TOTO Casino (Netherlands) and Lottomatica (Italy) in the 43-column ledger, increasing the number of official bonus-source URLs recorded from six to eight. Internal evidence note: `docs/reviews/internal/bonus-snapshot-toto-nl-lottomatica-it-2026-10-24.md`.
+- TOTO's official promotions page showed separate 200-free-spins and €50 live-casino free-chip headlines with qualifying-play conditions; Lottomatica's official page advertised “up to €10,030” for new registrants with an indicated validity window through 1 November 2026. These are volatile headlines, not complete bonus-term verifications.
+- Both rows remain `NOT CLEARED FOR PUBLICATION`; wagering, expiry, eligible games, maximum cashout, exclusions and complete offer terms still require reconciliation. No offer was promoted to a public review, and no first-hand gameplay/payment testing is claimed.
