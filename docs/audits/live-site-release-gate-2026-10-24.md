@@ -22,6 +22,12 @@
 - The homepage and review directory expose canonical URLs, viewport metadata, Open Graph title/description/URL and a Twitter summary-card declaration in the fetched page metadata.
 - This spot-check did not verify all pages' metadata, image previews, structured data, actual image rights, responsive rendering, keyboard operation or Core Web Vitals.
 
+## Additional read-only production smoke check — 24 October 2026, 18:46 UTC
+
+A fresh fetch of the live homepage, `/reviews/`, `/robots.txt`, and `/sitemap.xml` confirmed the current public copy and crawl directives remain consistent with the no-unapproved-reviews posture. The live sitemap advertises **46 URLs** and the homepage exposes canonical/Open Graph metadata. The current public `/brand-directory/` route returns **404**. The source repository contains a separate `brand-directory/index.html` research queue with `noindex,follow`; that source file is not currently present on the production route. This is not a deployment failure by itself, because the branch has not been merged/deployed; it means source-level directory QA must not be described as a live-site feature check.
+
+The live fetch did not verify mobile/keyboard accessibility, image loading, Core Web Vitals, licence claims or browser workflows. No production deployment was made.
+
 ## Release gates still open
 
 1. **100 approved reviews:** current reconciled status is 0/100 publication-approved. Do not count leads, internal drafts, duplicate brands, inactive licences, non-casino products or territory-limited permissions outside their territory.
