@@ -14,6 +14,13 @@ document.querySelectorAll('.brand-logo-image').forEach((img) => {
   }
   img.src = img.dataset.candidateSrc;
   img.hidden = false;
+  img.addEventListener('load', () => {
+    const fallback = img.nextElementSibling;
+    if (fallback) fallback.hidden = true;
+  }, { once: true });
   img.addEventListener('error', () => showLogoFallback(img), { once: true });
-  if (img.complete && img.naturalWidth === 0) showLogoFallback(img);
+  if (img.complete) {
+    if (img.naturalWidth === 0) showLogoFallback(img);
+    else if (img.nextElementSibling) img.nextElementSibling.hidden = true;
+  }
 });
