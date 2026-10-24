@@ -20,6 +20,12 @@ class RobotsMetaParserTests(unittest.TestCase):
     def test_directive_order_and_whitespace_are_supported(self):
         self.assertTrue(parse('<meta content="index, noindex" name="robots">'))
 
+    def test_googlebot_specific_noindex_is_detected(self):
+        self.assertTrue(parse('<meta name="googlebot" content="noindex">'))
+
+    def test_googlebot_variant_noindex_is_detected(self):
+        self.assertTrue(parse('<meta name="googlebot-news" content="none">'))
+
     def test_index_follow_remains_indexable(self):
         self.assertFalse(parse('<meta name="robots" content="index,follow">'))
 
@@ -27,7 +33,7 @@ class RobotsMetaParserTests(unittest.TestCase):
         self.assertFalse(parse('<meta name="description" content="noindex is a word">'))
 
     def test_unrelated_meta_tag_is_ignored(self):
-        self.assertFalse(parse('<meta name="googlebot" content="noindex">'))
+        self.assertFalse(parse('<meta name="twitter:card" content="noindex">'))
 
     def test_absent_robots_tag_is_indexable_by_default(self):
         self.assertFalse(parse('<html><head><title>Test</title></head></html>'))
