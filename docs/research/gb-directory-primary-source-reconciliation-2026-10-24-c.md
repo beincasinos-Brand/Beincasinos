@@ -29,7 +29,7 @@
 
 - **Primary evidence:** UKGC's domain register for ProgressPlay Limited (account 39335) lists `www.conquercasino.com` as White Label; the same account has active Remote Casino permission.
 - **Open issue:** White-label registration does not make the brand a standalone licensee and does not establish a precise launch date or independently verified customer terms.
-- **Directory treatment:** Grade B; retain HOLD pending live-route, customer-contract, terms and consumer-protection checks.
+- **Directory treatment:** Grade B; retain HOLD pending live-route, customer-contract, terms and consumer-protection checks. The official homepage identifies ProgressPlay Limited as operator and links to terms, withdrawals, privacy, deposit methods and responsible-gambling pages. Its displayed offer includes 50× wagering requirements; record this as an operator claim and verify current GB terms, not as an endorsement. An official-site logo candidate is added and remains rights pending.
 - **Primary sources:** [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/39335) · [UKGC domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39335)
 
 ## 086 — PricedUp Casino
