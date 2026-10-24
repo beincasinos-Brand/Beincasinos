@@ -1,3 +1,15 @@
+# Latest work checkpoint — 24 October 2026, 17:40 UTC
+
+- Added `docs/international-10-market-priority-board-2026-10-24.md`, covering one market-specific priority review each for GB, Belgium, Sweden, Denmark, Spain, Italy, Netherlands, Germany (Schleswig-Holstein only), Switzerland and Ontario. The board documents evidence already captured and the remaining work; it is not a ranking.
+- Added `docs/top-10-review-priority-board-2026-10-24.md` for the first ten GB priorities and updated the legacy 100-brand candidate register's first ten rows with dossier references and concrete blockers.
+- Refreshed the research CSV for Ladbrokes, Coral and Virgin Games with more precise legal-entity/domain/licence distinctions.
+- **No reviews have been approved:** 0/100. Current progress is evidence capture and work prioritization; consumer tests, image rights, independent second review and publication gates are still outstanding.
+- PR #141 remains open and Draft. CI has recently failed before runner allocation with no steps and unavailable logs; treat CI as unresolved, not passing. Cloudflare preview deployment freshness for the latest commit remains unverified. No merge or production deployment was performed.
+
+**Next work:** close the high-risk jurisdiction-specific evidence gaps in the international board, run real consumer/accessibility tests where legally and technically feasible, get independent sign-off, and repair/verify the CI runner before considering release.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 17:25 UTC
 
 - Added `docs/top-10-review-priority-board-2026-10-24.md`: ten priority Great Britain brand reviews now have an explicit evidence artefact, next-step checklist and publication gate.
