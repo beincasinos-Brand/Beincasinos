@@ -802,3 +802,10 @@ This is a substantive **internal evidence-led draft, not an approved consumer re
 Added five Ontario-specific internal research/page-structure briefs in `docs/reviews/internal/market-review-draft-batch-2026-10-24-e.md`: BetMGM Casino, Horseshoe Online Casino, Fanatics Casino, Hard Rock Bet, and Hollywood Casino. Each brief points to iGaming Ontario's official operator directory and separates the casino product from sportsbook, poker, and land-based venue claims where relevant.
 
 These are **research briefs, not completed or approved reviews**. The official directory page itself states a date for its listing, so every operator/domain match and all consumer terms must be rechecked before publication. Current terms, payment/withdrawal rules, complaints, safer-gambling controls, privacy/accessibility and image rights remain publication gates. Approved consumer reviews remain **0/100**; no Cloudflare deployment or search indexing is claimed, and no GitHub Actions workflow was intentionally triggered.
+
+
+## Great Britain evidence-led review draft batch F — 24 October 2026
+
+Added five evidence-led internal drafts in `docs/reviews/internal/gb-evidence-led-review-draft-batch-2026-10-24-f.md`: QuinnBet, LottoGo, London.bet Casino, O'Reels Casino and Los Vegas Casino. The drafts preserve prior UKGC register leads and explicit status/verification limits, flag QuinnBet's reported 20 August 2026 settlement for source re-check, and flag O'Reels' previously inactive domain as a reason to verify or exclude rather than recommend.
+
+These are **not approved consumer reviews**. Every prior register observation must be refreshed, current terms/payments/complaints/safer-gambling/privacy evidence is still required, and no consumer account or transaction tests were performed. Approved reviews remain **0/100**. No Cloudflare deployment or indexing is claimed; no GitHub Actions workflow was intentionally triggered.
