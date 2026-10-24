@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACKER = ROOT / "docs" / "tier-1-master-prospect-tracker.csv"
+ROADMAP_MARKETS = {"GB", "BE", "SE", "DK", "ES", "IT", "NL", "DE", "CH", "CA-ON"}
 REQUIRED = {
     "brand_name", "market", "product_scope", "official_domain", "legal_operator",
     "regulator_or_authority", "publication_status", "next_action", "last_checked_utc",
@@ -29,6 +30,15 @@ def main():
 
     if len(headers) != len(set(headers)):
         errors.append("duplicate column names found")
+
+    represented_markets = {
+        (row.get("market") or "").strip().upper()
+        for row in rows
+        if (row.get("market") or "").strip()
+    }
+    missing_markets = sorted(ROADMAP_MARKETS - represented_markets)
+    if missing_markets:
+        errors.append("roadmap markets missing from tracker: " + ", ".join(missing_markets))
 
     seen = {}
     for line, row in enumerate(rows, start=2):
@@ -59,7 +69,7 @@ def main():
 
     blank_ids = sum(not (row.get("global_brand_id") or "").strip() for row in rows)
     placeholders = sum((row.get("official_domain") or "").strip().upper() in {"", "VERIFY"} for row in rows)
-    print(f"OK: {len(rows)} prospect rows; schema and brand/market uniqueness checks passed.")
+    print(f"OK: {len(rows)} prospect rows; schema, brand/market uniqueness, and all {len(ROADMAP_MARKETS)} roadmap markets checked.")
     if blank_ids:
         print(f"WARNING: {blank_ids} rows lack global_brand_id; cross-market deduplication is incomplete.")
     if placeholders:
