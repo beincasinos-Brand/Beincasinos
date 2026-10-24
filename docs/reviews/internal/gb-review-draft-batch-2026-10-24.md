@@ -98,3 +98,35 @@ The official homepage advertises slots, live casino and quick deposits/withdrawa
 **Consumer draft:** London.bet has a positive initial GB regulator/domain/entity match, which is a useful baseline rather than a quality verdict. A complete review still needs current consumer and bonus terms, payment methods and withdrawal stages, complaints/ADR, privacy/cookies, support details, updated enforcement context and authorised image assets. No score or first-hand claim is justified yet.
 
 **SEO/release gate:** market-specific title, H1 and meta description; dated last-checked field; clear licence, games, promotions, payments, safer-gambling and complaints sections; methodology and affiliate disclosure; licensed images with accurate alt text; internal links; keep noindex and out of sitemap until second-review and editorial/legal approval.
+
+
+## London.bet — SEO package and structured consumer-review draft
+
+**Publication status: HOLD / noindex.** The copy below is an editorial scaffold, not a claim that a complete review or hands-on test has been performed.
+
+- **Proposed SEO title:** London.bet Casino Review (UK) — Licence, Games & Safety
+- **Proposed meta description:** Check London.bet’s UK licence details, casino offering, safer-gambling information and the key terms to verify before playing. Review status and checks dated 24 October 2026.
+- **H1:** London.bet Casino Review: Licence, Games and Player Checks
+- **Suggested URL:** `/reviews/london-bet/` (publish only after approval)
+- **Disclosure:** Add the site's actual affiliate disclosure and explain how commercial relationships do or do not affect editorial ratings. Do not publish a disclosure template as if it describes an existing relationship.
+
+### Draft copy (evidence-limited)
+
+London.bet is a Great Britain casino candidate with a positive initial operator-and-domain match in the UK Gambling Commission's public register. The register associates the brand with Thistle Bet Limited (account 66162), lists Casino Remote licence 066162-R-340278-005 as active, and lists london.bet as an active trading name/domain at the time of the source check. Readers should check the current regulator record before relying on this status.
+
+The public site advertises slots and live casino. These are descriptions of the operator's offering, not an independent assessment of game range, fairness, software quality or mobile performance. The site also promotes quick deposits and withdrawals; we have not tested any transaction, so no payout-speed claim can be verified from this research.
+
+London.bet's safer-gambling page describes account limits and self-exclusion. We have not logged in to test those controls. Before publication, the reviewer must capture the current UK customer terms, all applicable bonus terms, payment methods and limits, withdrawal stages and verification requirements, complaint and ADR routes, privacy/cookie notices, customer support channels and current regulatory history. If any item cannot be confirmed from reliable, dated sources, label it unverified rather than guessing.
+
+**Provisional verdict:** Not rated. The regulator/domain match is a useful starting point, but evidence is not yet sufficient to recommend the casino or assign a score. No account, identity check, deposit, gameplay, support contact or withdrawal was performed for this draft.
+
+### On-page SEO and image checklist
+
+- Keep the page `noindex,follow` and excluded from the sitemap until the review passes editorial/legal approval.
+- Use one H1, descriptive H2s for licence, games, bonuses, deposits/withdrawals, complaints, safer gambling and verdict; avoid repetitive keyword stuffing.
+- Include a dated last-checked stamp and methodology that distinguishes regulator facts, operator claims and independently tested results.
+- Use only assets with documented reuse permission; write accurate, non-promotional alt text and keep source/rights records in the asset register.
+- Add contextual internal links to the site's licensing methodology, safer-gambling guide and related market reviews; do not use fabricated ratings, review counts, schema ratings or first-hand language.
+- Require a second editor to verify every factual claim and all links, then record explicit editorial/legal approval before indexation.
+
+**Sources:** UKGC licence https://www.gamblingcommission.gov.uk/public-register/business/detail/66162 ; trading name https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66162 ; domain https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66162 ; operator homepage https://london.bet/ ; safer-gambling page https://london.bet/safer-gambling .
