@@ -352,3 +352,14 @@ A fresh listing of the current branch reports 170 files in `docs/reviews/interna
 ### Belgium first-party terms follow-up — 24 October 2026
 
 Added `docs/research/belgium-first-party-terms-follow-up-2026-10-24.md` and expanded six internal drafts with current first-party findings or access limitations. Key blockers include: StarCasino's terms set a seven-day complaint filing condition and a 30-business-day response target; Ladbrokes Casino Belgium's first-party page names Derby S.A. as operator alongside SA Casino de Dinant, while the regulator's A+ table lists Grand Casino de Dinant / SA/NV GRAND CASINO DE DINANT, requiring a role/contract reconciliation; Unibet's accessible terms footer is version 3.7.2 dated 1 September 2024 and needs a fresh 2026 version check; a direct PokerStars.be research-browser visit redirected to FanDuel; Betano and Circus terms could not be fully extracted in this session. These findings increase the evidence quality but do not clear any candidate. All remain HOLD; approved-review count remains **0/100**.
+
+
+### Cloudflare Pages artifact / directory indexing correction — 24 October 2026
+
+- Changed `brand-directory/index.html` to `index,follow`, added Open Graph metadata and a transparent `CollectionPage` description, removed the stale copy claiming the page is intentionally noindex, and updated its on-page date.
+- Added `https://beincasinos.online/brand-directory/` to `sitemap.xml` with a 24 October 2026 lastmod.
+- Found and fixed a deployment-blocking omission: `scripts/build_site.py` did **not** include `brand-directory` in its public allowlist, so the page could be listed in the sitemap but omitted from the Cloudflare build artifact. The folder is now allowlisted, and `scripts/check_deploy_artifact.py` explicitly requires `dist/brand-directory/index.html`.
+- Replaced the host config check's Vercel-specific validation with Cloudflare Pages `_headers` and build-allowlist validation; renamed the CI step accordingly. The `vercel.json` file remains excluded from the public artifact.
+- Source-level audit confirms the directory has **100 cards / 100 unique card titles / 100 summaries**, 50 image elements with no missing alt attributes, canonical URL set correctly, `index,follow`, and exactly one sitemap entry with no duplicate sitemap URLs.
+
+This is a source/CI configuration change, not proof of a live deployment or Google indexing. The PR has not been merged or deployed to production. All brand cards remain research leads, not approved consumer reviews; the approved-review count remains **0/100**.
