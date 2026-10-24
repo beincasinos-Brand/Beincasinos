@@ -342,3 +342,8 @@ Source: Belgian Gaming Commission official A+ table: https://data.gamingcommissi
 Expanded the existing audit at `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md` with the exact market-row breakdown, major repeated global-brand IDs, scope-triage identities, exclusions and the Belgium Betsson domain-transition correction. This consolidates the analysis in the existing target audit rather than maintaining a second copy.
 
 The CSV snapshot remains 204 market rows / 154 provisional global-brand IDs / 202 HOLD / 2 rejected / 0 approved. Counts are a QA snapshot and must be regenerated after further registry changes.
+
+
+### Updated internal artifact inventory — 24 October 2026
+
+A fresh listing of the current branch reports 170 files in `docs/reviews/internal/`, 63 candidate-specific evidence/product-scope review filenames, and 21 files in `review-drafts/`. These file counts may overlap by brand and market and are not approved-review counts. Publication-approved reviews remain **0/100**. See `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md` for the updated inventory and the global identity reconciliation.
