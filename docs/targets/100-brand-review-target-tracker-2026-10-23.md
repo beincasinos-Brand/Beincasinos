@@ -448,3 +448,112 @@ The asset register has 100 rows; 60 have remote image candidates and 40 rely on 
 
 **Ledger correction:** the completion table above previously said 18 internal evidence drafts, a stale figure from the early Ontario update. Later batches G–J raised the cumulative tracked count to **53**. Approved consumer reviews remain **0/100**; all 53 are internal evidence drafts and none is publication-approved.
 
+## Reconciled 100-card working list — 24 October 2026
+
+The table below is the exact 100-card working list currently rendered by `brand-directory/index.html`, parsed from the branch. **It is not a list of 100 approved casino operators or reviews.** All rows must pass the qualification gates above; the current directory remains `noindex,follow`. Existing status labels reflect working research status only and do not grant publication approval. “Not verified” domains, identity conflicts, sportsbook/vertical ambiguity, duplicate operators, and local-law scope restrictions must be resolved or the row replaced before claiming 100 eligible brands.
+
+| # | Displayed brand | Market scope | Current directory status | Domain as displayed |
+|---:|---|---|---|---|
+| 1 | admiral.ch | CH | Verification pending | www.admiral.ch |
+| 2 | casineo.ch | CH | Verification pending | www.casineo.ch |
+| 3 | Tipico Casino | DE | Verification pending | casino.tipico.de |
+| 4 | jollie.de | DE | Verification pending | www.jollie.de |
+| 5 | Winz.nl | NL | Verification pending | winz.nl |
+| 6 | Starcasino.nl | NL | Verification pending | www.starcasino.nl |
+| 7 | 888.nl | NL | Verification pending | www.888.nl |
+| 8 | GetLucky | NL | Verification pending | www.getlucky.nl |
+| 9 | Oranje Palace | NL | Verification pending | Not verified |
+| 10 | Betsuna | GB | Verification pending | www.betsuna.com |
+| 11 | BetTOM | GB | Verification pending | bettom.com |
+| 12 | Ivy Casino | GB | Excluded lead | Not verified |
+| 13 | Stakemate | GB | Excluded lead | www.stakemate.com |
+| 14 | Smooth Spins | GB | Verification pending | www.smoothspins.co.uk |
+| 15 | AK Bets | GB | Verification pending | Not verified |
+| 16 | Planet Sport Bet | GB | Verification pending | planetsportbet.com |
+| 17 | Betmaster | GB | Verification pending | betmaster.co.uk |
+| 18 | ThreeSix Vegas | GB | Verification pending | 36vegas.co.uk |
+| 19 | Ember Casino | US-NJ | Verification pending | nj.embercasino.com |
+| 20 | Horseshoe Online Casino (Michigan) | US-MI | Verification pending | horseshoeonlinecasino.com/us/mi/casino |
+| 21 | Vegas Club Casino | US-NJ | Verification pending | nj.playvegasclub.com |
+| 22 | Betinia Casino | US-NJ | Verification pending | nj.betinia.com |
+| 23 | Imperial Treasures Casino | US-PA | Verification pending | Not verified |
+| 24 | BigBangBet | GB | Verification pending | bigbangbet.co.uk |
+| 25 | Silkbet | GB | Verification pending | silkbet.bet |
+| 26 | TOTO | NL | Verification pending | https://www.toto.nl (official NL homepage; Ksa brand/domain match and casino scope still need verification) |
+| 27 | Holland Casino Online | NL | Verification pending | Not verified |
+| 28 | Kansino | NL | Verification pending | https://www.kansino.nl (official NL homepage; current Ksa brand/domain match and casino scope still need verification) |
+| 29 | FairPlay Casino | NL | Verification pending | fairplaycasino.nl |
+| 30 | Bingoal | NL | Verification pending | Not verified |
+| 31 | bet365 | NL | Verification pending | Not verified |
+| 32 | Betcity | NL | Verification pending | Not verified |
+| 33 | Bet Ahoy Ltd | GB | Verification pending | Not verified |
+| 34 | Brillbet | GB | Verification pending | www.brillbet.co.uk |
+| 35 | Betty Casino | GB | Verification pending | www.playbetty.co.uk |
+| 36 | Casushi | GB | Verification pending | www.casushi.com |
+| 37 | FruitKings | GB | Verification pending | www.fruitkings.com |
+| 38 | Betcrown | GB | Verification pending | www.betcrown.co.uk |
+| 39 | BetLegend | GB | Verification pending | www.betlegend.co.uk |
+| 40 | BetNero | GB | Verification pending | www.betnero.co.uk |
+| 41 | 247Bet | GB | Verification pending | www.247bet.com |
+| 42 | Casiku | GB | Verification pending | www.casiku.com |
+| 43 | Midnite | GB | Verification pending | www.midnite.com |
+| 44 | Stakewise | GB | Verification pending | www.stakewise.co.uk |
+| 45 | 44Aces | GB | Verification pending | www.44aces.com |
+| 46 | Casino and Friends | GB | Verification pending | www.casinoandfriends.co.uk |
+| 47 | Peachy Games | GB | Verification pending | www.peachygames.com |
+| 48 | Play Sunny | GB | Verification pending | www.playsunny.co.uk |
+| 49 | Neptune Play | GB | Verification pending | www.neptuneplay.com |
+| 50 | PlayWins | GB | Verification pending | www.playwins.com |
+| 51 | BetFusion | GB | Verification pending | www.betfusion.com |
+| 52 | Megaways Casino | GB | Verification pending | www.megawayscasino.com |
+| 53 | BestOdds | GB | Verification pending | www.bestodds.com |
+| 54 | LuckyMate Casino | GB | Verification pending | www.luckymate.co.uk |
+| 55 | 7Bet Casino | GB | Verification pending | www.7bet.co.uk |
+| 56 | Justin Casino | GB | Verification pending | www.justincasino.com |
+| 57 | Quickbet | GB | Verification pending | Not verified |
+| 58 | Los Vegas | GB | Verification pending | www.losvegas.bet (UKGC lists Active) |
+| 59 | O'Reels Casino | GB | Verification pending | www.oreels.com (UKGC lists Inactive under account 57869) |
+| 60 | QuinnBet Casino | GB | Verification pending | www.quinnbet.com (UKGC lists Active) |
+| 61 | LottoGo Casino | GB | Verification pending | www.lottogo.com (UKGC lists Active) |
+| 62 | Kong Casino | GB | Verification pending | https://www.kongcasino.com/ (source candidate; UKGC brand/domain match pending) |
+| 63 | BetMaze | GB | Verification pending | Not verified |
+| 64 | BetWright | GB | Verification pending | https://betwright.com/ (source candidate; UKGC brand/domain match pending) |
+| 65 | Rose Casino | GB | Verification pending | https://www.rosecasino.com/ (official-site candidate; UKGC domain/trading-name match pending) |
+| 66 | MogoBet | GB | Verification pending | https://www.mogobet.com/ (official-site candidate; UKGC brand/domain match pending) |
+| 67 | TigerBet | GB | Verification pending | Not verified |
+| 68 | Fun Casino | GB | Verification pending | Not verified |
+| 69 | Lucky 7 Casino | NL | Verification pending | Not verified |
+| 70 | Tonybet | NL | Verification pending | Not verified |
+| 71 | Hard Rock Casino | NL | Verification pending | Not verified |
+| 72 | BetMGM | NL | Verification pending | www.betmgm.nl |
+| 73 | Hommerson Online | NL | Verification pending | Not verified |
+| 74 | VBET | NL | Verification pending | www.vbet.nl |
+| 75 | Monopoly Casino | US-NJ | Verification pending | Not verified |
+| 76 | Horseshoe Casino | US-NJ | Verification pending | Not verified |
+| 77 | Fanatics Casino | US-NJ | Verification pending | Not verified |
+| 78 | Hollywood Casino | US-PA | Verification pending | Not verified |
+| 79 | Hard Rock Bet | US-MI | Verification pending | www.hardrock.bet |
+| 80 | Mohegan PA Casino | US-PA | Verification pending | Not verified |
+| 81 | theScore Bet | US-NJ | Verification pending | Not verified |
+| 82 | Proper Bet | GB | Verification pending | Not yet matched to a primary-source domain record |
+| 83 | Betta Bet | GB | Verification pending | bettabet.co.uk (UKGC lists Active) |
+| 84 | Rollerbet | GB | Verification pending | www.rollerbet.co.uk (UKGC lists Active) |
+| 85 | Conquer Casino | GB | Verification pending | www.conquercasino.com (UKGC classifies it as White Label) |
+| 86 | PricedUp Casino | GB | Verification pending | pricedup.bet (UKGC lists Active) |
+| 87 | Rialto | GB | Verification pending | Not verified |
+| 88 | Mega Riches | GB | Verification pending | www.megariches.com (named in UKGC enforcement notice) |
+| 89 | Puntit Casino | GB | Verification pending | Not verified |
+| 90 | Lottoland Casino | GB | Verification pending | lottoland.co.uk (domain named in UKGC notice) |
+| 91 | Bally Casino UK | GB | Verification pending | ballycasino.co.uk (UKGC domain register: Active) |
+| 92 | GeckoPlay | GB | Verification pending | Candidate only: geckoplay.com · regulator mapping pending |
+| 93 | Alfobet | GB | Verification pending | lobby.alfobet.com (UKGC classifies it as White Label; exact consumer route to confirm) |
+| 94 | 21LuckyBet | GB | Verification pending | Not verified |
+| 95 | DynoBet | GB | Verification pending | dynobet.com (UKGC lists it as White Label) |
+| 96 | Spin King | GB | Verification pending | Not verified — do not infer a URL from the trading name |
+| 97 | Bet442 | GB | Identity conflict | bet442.co.uk — White Label under Betable Limited; Inactive under AG Communications Limited |
+| 98 | Funky Jackpot | GB | Verification pending | Not verified |
+| 99 | London.bet Casino | GB | Verification pending | london.bet · UKGC domain status: Active |
+| 100 | BetGoodwin Casino | GB | Verification pending | betgoodwin.co.uk · UKGC domain status: Active |
+
+**Reconciliation result:** 100 cards; 100 unique displayed titles; 60 remote image elements with alt text, lazy loading and error fallback; 40 cards use decorative CSS/monogram fallback. This confirms list/card count only. It does not confirm 100 distinct legal operators, 100 active local casino permissions, image reuse rights, completed reviews, or a Cloudflare production release.
+
