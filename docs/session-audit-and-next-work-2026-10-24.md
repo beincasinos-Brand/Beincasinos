@@ -1,4 +1,4 @@
-# Latest repository QA checkpoint — 24 October 2026, 19:22 UTC
+# Latest repository QA checkpoint — 24 October 2026, 19:26 UTC
 
 - The latest live fetch of the Cloudflare branch-preview alias returns `/brand-directory/` with `index,follow` and canonical `https://beincasinos.online/brand-directory/`; `/sitemap.xml` contains 45 URLs including the research directory. The fetched page reports zero loaded brand images, consistent with the image-rights gate. The fetch did not expose the exact deployed commit SHA.
 - Production `https://beincasinos.online/brand-directory/` was last observed as 404; no production deployment or merge has been made. Treat production availability as a remaining release blocker until the owner approves deployment and the live route is verified.
