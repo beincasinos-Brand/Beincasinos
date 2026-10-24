@@ -38,6 +38,8 @@ class PageParser(HTMLParser):
         self.ids = set()
         self.id_counts = {}
         self.images_missing_alt = 0
+        self.brand_images = []
+        self.brand_fallbacks = []
         self.inline_scripts = 0
         self.inline_styles = 0
         self.inline_event_handlers = []
@@ -61,6 +63,10 @@ class PageParser(HTMLParser):
             self.id_counts[a["id"]] = self.id_counts.get(a["id"], 0) + 1
         if tag == "img" and "alt" not in a:
             self.images_missing_alt += 1
+        if tag == "img" and "brand-logo-image" in a.get("class", "").split():
+            self.brand_images.append(a)
+        if tag == "span" and "brand-logo-fallback" in a.get("class", "").split():
+            self.brand_fallbacks.append(a)
         if tag == "title":
             self.title_depth += 1
         if tag == "meta":
@@ -177,6 +183,22 @@ for page in pages:
         errors.append(f"{rel}: target=_blank link missing rel=noopener: {href}")
     for href in parser.empty_links:
         errors.append(f"{rel}: link has no text or accessible label: {href}")
+    if rel == "brand-directory/index.html":
+        for image in parser.brand_images:
+            rights = (image.get("data-image-rights") or "pending").strip().lower()
+            if rights != "cleared" and image.get("src"):
+                errors.append("brand-directory/index.html: unapproved remote brand image must not use src before rights clearance")
+            if rights != "cleared" and not image.get("data-candidate-src"):
+                errors.append("brand-directory/index.html: pending brand image must retain its candidate URL for internal review")
+            if rights != "cleared" and "hidden" not in image:
+                errors.append("brand-directory/index.html: pending brand image must remain hidden")
+            if rights == "cleared" and not image.get("src"):
+                errors.append("brand-directory/index.html: rights-cleared image must have a live src")
+        pending_images = sum(1 for image in parser.brand_images if (image.get("data-image-rights") or "pending").strip().lower() != "cleared")
+        if len(parser.brand_fallbacks) != len(parser.brand_images):
+            errors.append("brand-directory/index.html: each brand image must have a matching fallback monogram")
+        if any("hidden" in fallback for fallback in parser.brand_fallbacks):
+            errors.append("brand-directory/index.html: fallback monograms must remain visible while brand-image rights are pending")
     for raw in parser.links + parser.resources:
         target, fragment = resolve_local_url(page, raw)
         if target is None:
