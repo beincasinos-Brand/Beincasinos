@@ -5,6 +5,14 @@
 <meta name="theme-color" content="#0b1715">
 <meta name="robots" content="noindex,follow">
 <meta name="description" content="BeInCasinos' working directory of 100 casino-brand research leads, with market scope, operator identity and verification status clearly marked. Not consumer recommendations.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BeInCasinos">
+<meta property="og:title" content="Casino Brand Research Directory | BeInCasinos">
+<meta property="og:description" content="Compare research status, market scope, operator identity and primary-source evidence across casino-brand leads. Research directory only; not consumer recommendations.">
+<meta property="og:url" content="https://beincasinos.online/brand-directory/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Casino Brand Research Directory | BeInCasinos">
+<meta name="twitter:description" content="Market-scoped casino brand research with evidence and verification status clearly marked.">
 <title>100-Brand Research Directory — BeInCasinos</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
 <link rel="canonical" href="https://beincasinos.online/brand-directory/">
@@ -70,11 +78,54 @@
 @media(max-width:560px){.directory-hero{padding:52px 0 42px}.directory-hero:after{font-size:9rem;right:8px}.brand-art{height:112px}.brand-card-body{padding:16px}.directory-controls{position:static;grid-template-columns:1fr;padding:10px}.directory-controls input{grid-column:auto}.method-grid{grid-template-columns:1fr}.hero-stat{min-width:calc(50% - 8px)}}
 @media(prefers-reduced-motion:reduce){.brand-card,.brand-card:hover{transition:none;transform:none}}
 
+
+/* Competitive product polish: casino research product, not generic blog cards */
+:root{scroll-behavior:smooth}
+.directory-hero .wrap{max-width:1180px}
+.directory-hero h1{max-width:900px;text-wrap:balance}
+.directory-hero p{max-width:790px;line-height:1.72}
+.hero-stat{backdrop-filter:blur(8px);box-shadow:inset 0 1px rgba(255,255,255,.08);min-width:158px}
+.directory-main>.wrap{max-width:1240px}
+.directory-notice{box-shadow:0 8px 24px rgba(84,65,25,.045);line-height:1.65}
+.method-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.method-card{position:relative;overflow:hidden;min-height:164px;border-radius:16px;box-shadow:0 5px 18px rgba(18,50,37,.035);transition:border-color .18s ease,transform .18s ease}
+.method-card:hover{border-color:#b8cfc0;transform:translateY(-2px)}
+.method-card h3{font-size:1.02rem;line-height:1.3}
+.method-card p{font-size:.84rem;line-height:1.58}
+.directory-controls{position:sticky;top:8px;z-index:10;padding:12px;border:1px solid #dce7df;border-radius:18px;background:rgba(248,251,248,.94);backdrop-filter:blur(12px);box-shadow:0 10px 28px rgba(17,44,32,.08)}
+.directory-controls input,.directory-controls select{min-width:0;border-color:#d4e0d7;box-shadow:inset 0 1px 2px rgba(14,44,30,.025)}
+.directory-controls input:focus,.directory-controls select:focus{border-color:#568b6b}
+.directory-summary{padding:4px 2px 12px;border-bottom:1px solid #e2eae4}
+#results-count{font-weight:800;color:#245641}
+.brand-grid{align-items:stretch;gap:20px}
+.brand-card{display:flex;flex-direction:column;border-radius:20px;border-color:#e0e8e2;box-shadow:0 8px 24px rgba(17,44,32,.045);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.brand-card:hover{border-color:#b9d1c0;box-shadow:0 18px 38px rgba(17,44,32,.105)}
+.brand-art{height:120px;flex-shrink:0}
+.brand-art-image{background:linear-gradient(135deg,#fbfdfb,#f1f6f2)}
+.brand-logo-link{padding:22px 28px}
+.brand-logo-image{width:190px;height:68px;max-width:78%;max-height:68px}
+.brand-card-body{display:flex;flex-direction:column;flex:1;padding:18px}
+.brand-card h2{font-size:1.28rem;letter-spacing:-.02em}
+.brand-summary{line-height:1.62;border-left-width:4px;background:linear-gradient(110deg,#f2f7f3,#f8faf8)}
+.brand-card dl{gap:11px}
+.brand-card dt{letter-spacing:.09em}
+.brand-card dd{line-height:1.58}
+.brand-next{margin-top:14px}
+.card-foot{margin-top:auto;padding-top:14px}
+.brand-art-image .art-index{font-size:.56rem;letter-spacing:.025em}
+.filter-reset{white-space:nowrap}
+.directory-scope-note{line-height:1.65}
+.directory-footer-note{line-height:1.75}
+@media(max-width:1100px){.method-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.directory-controls{grid-template-columns:minmax(200px,1.4fr) repeat(2,minmax(145px,1fr))}.directory-controls input{grid-column:1/-1}.filter-reset{grid-column:1/-1}}
+@media(max-width:900px){.directory-controls{position:static;grid-template-columns:repeat(2,minmax(0,1fr))}.directory-controls input{grid-column:1/-1}.filter-reset{grid-column:auto}.method-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-art{height:108px}}
+@media(max-width:560px){.directory-hero h1{font-size:clamp(2.35rem,12vw,3.6rem)}.hero-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.hero-stat{min-width:0;padding:12px}.directory-controls{grid-template-columns:1fr;padding:10px;gap:9px}.directory-controls input,.directory-controls select,.filter-reset{min-height:46px}.directory-controls input,.filter-reset{grid-column:auto}.method-grid{grid-template-columns:1fr}.method-card{min-height:0}.brand-card-body{padding:16px}.brand-art{height:100px}}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.method-card{transition:none}.method-card:hover{transform:none}}
+
 </style>
 </head>
 <body><a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap nav-wrap"><a class="brand" href="/" aria-label="BeInCasinos home"><span class="brand-mark" aria-hidden="true"><span class="brand-b">B</span><span class="brand-i">I</span><span class="brand-c">C</span></span><span>BeIn<span class="brand-light">Casinos</span><small>Read the details. Decide clearly.</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav id="primary-nav" class="nav-links"><a href="/reviews/">Reviews</a><a href="/brand-directory/" aria-current="page">Brand directory</a><a href="/guides/">Guides</a><a href="/market-research/">Market research</a><a href="/responsible-gambling/">Safer gambling</a><a href="/about/">About</a></nav></div></header>
-<section class="directory-hero"><div class="wrap"><div class="eyebrow">BeInCasinos · Research desk · 2026</div><h1>100 research entries.<br>One standard of proof.</h1><p>A transparent working directory of casino-brand research leads across defined markets. These 100 cards are market-scoped research entries, not 100 verified, distinct global brands. Every entry carries its current research status; a name here is not a claim that the brand is licensed, recommended, or ready for review publication.</p><div class="hero-stats"><div class="hero-stat"><strong>100</strong><span>research queue entries</span></div><div class="hero-stat"><strong>56</strong><span>image candidates · rights pending</span></div><div class="hero-stat"><strong>44</strong><span>CSS artwork / monogram fallbacks</span></div></div></div></section>
+<section class="directory-hero"><div class="wrap"><div class="eyebrow">BeInCasinos · Research desk · 2026</div><h1>100 research entries.<br>One standard of proof.</h1><p>A transparent working directory of casino-brand research leads across defined markets. These 100 cards are market-scoped research entries, not 100 verified, distinct global brands. Every entry carries its current research status; a name here is not a claim that the brand is licensed, recommended, or ready for review publication.</p><div class="hero-stats"><div class="hero-stat"><strong>100</strong><span>research queue entries</span></div><div class="hero-stat"><strong>60</strong><span>image candidates · rights pending</span></div><div class="hero-stat"><strong>40</strong><span>CSS artwork / monogram fallbacks</span></div></div></div></section>
 <main id="main" class="directory-main"><div class="wrap"><div class="directory-notice"><strong>Important — research status, not a recommendation or a verified-brand count</strong>These 100 directory cards are market-scoped research leads, not 100 verified distinct global brands. The current working-branch CSV has 204 market-specific rows and 154 provisional global-brand IDs; a regenerated audit identifies 30 repeated-ID groups across 80 rows. These are structural counts only, not eligible-brand counts. The first-100 distinct-ID work queue is documented in docs/research/first-100-distinct-id-review-workqueue-2026-10-23.md. Every entry still requires exact local casino permission, domain and operator matching, current terms, payments, complaints, safer-gambling, privacy, accessibility, image-rights checks and independent second review. This directory remains noindex while those checks are incomplete.</div>
 <section aria-labelledby="method-heading"><h2 id="method-heading" style="font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.5rem);margin:34px 0 8px">How to use this directory</h2><p style="max-width:760px;color:var(--muted);margin:0">Search by brand, market or listed domain. Use the filters to narrow the queue. “Verification pending” means the brand is not approved for a consumer recommendation. “Excluded lead” means it must not count toward the target unless the exclusion is formally resolved.</p><div class="method-grid"><article class="method-card"><h3>01 · Permission first</h3><p>Match the exact brand, domain, legal operator and casino product to the relevant regulator’s current record.</p></article><article class="method-card"><h3>02 · Evidence before claims</h3><p>Record dated terms, bonus rules, withdrawal limits, fees, complaint routes and safer-play controls.</p></article><article class="method-card"><h3>03 · Independent sign-off</h3><p>Publish only after a second reviewer checks the evidence and editorial/legal approval is recorded.</p></article><article class="method-card"><h3>04 · Image rights are separate</h3><p>Images found on official sites are candidates, not automatically reusable assets. Each remains labelled rights pending until permission, exact brand identity and direct rendering are checked; otherwise the card falls back to editorial artwork.</p></article><article class="method-card"><h3>05 · Evidence grades are not ratings</h3><p>Grade A means a key claim has primary-source support; Grade B means primary evidence is incomplete; Grade C is a discovery lead. None is a casino quality score, safety guarantee or recommendation. Every card remains on hold until its checklist is cleared.</p></article></div></section>
 <div class="directory-controls"><input id="brand-search" type="search" placeholder="Search brand, domain, operator…" aria-label="Search brand directory"><select id="market-filter" aria-label="Filter by market"><option value="">All markets</option><option value="CH">Switzerland</option><option value="DE">Germany (state-specific scope)</option><option value="NL">Netherlands</option><option value="GB">Great Britain</option><option value="US-NJ">United States — New Jersey</option><option value="US-MI">United States — Michigan</option><option value="US-PA">United States — Pennsylvania</option><option value="US-ME">United States — Maine</option><option value="FR">France</option><option value="AU">Australia</option><option value="CA">Canada</option><option value="ES">Spain</option><option value="IT">Italy</option><option value="BE">Belgium</option><option value="SE">Sweden</option></select><select id="status-filter" aria-label="Filter by status"><option value="">All statuses</option><option value="HOLD">Verification pending</option><option value="EXCLUDE">Excluded leads</option></select><select id="evidence-filter" aria-label="Filter by evidence grade"><option value="">All evidence grades</option><option value="A">Grade A — primary evidence</option><option value="B">Grade B — incomplete primary evidence</option><option value="C">Grade C — discovery lead</option><option value="UNKNOWN">Grade not assigned</option></select><select id="image-filter" aria-label="Filter by image asset status"><option value="">All image states</option><option value="RIGHTS-PENDING">Source found · rights pending</option><option value="FALLBACK">Editorial artwork fallback</option></select><button class="filter-reset" id="clear-filters" type="button">Clear filters</button></div>
