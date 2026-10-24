@@ -516,3 +516,11 @@
 - Added BetRivers Michigan and Fair Play Online Netherlands official-source notes at `docs/reviews/internal/bonus-snapshot-betrivers-mi-fairplay-nl-2026-10-24.md`.
 - BetRivers' Michigan landing page describes a 1x bonus playthrough and links a casino-back/spins offer, but the full offer terms were not exposed; the casino offer must not be conflated with sportsbook offers. Fair Play Online's official promotions page is for existing players; no new-customer welcome bonus was verified, so the ledger records that uncertainty rather than inventing one.
 - Latest audit: **55/100** candidates have a dated official bonus/promotion source URL; 100 rows, 43 columns, 100 unique brand/market identities, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric review scores and 100 NOT SCORED states. All 100 consumer tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED.
+
+
+# Thirteenth bonus/source-quality pass — Netherlands, Spain and Sweden — 24 October 2026
+
+- Added official Bingoal Netherlands casino welcome-offer evidence and source-gap notes for Videoslots Spain and Pop Casino Sweden in `docs/reviews/internal/bonus-snapshot-bingoal-videoslots-popcasino-2026-10-24.md`.
+- Bingoal's official casino offer states 100% match up to €250, €10 minimum deposit, 35x wagering within 31 days, game contribution of slots 100% / live casino 10% / non-live table games 5%, age 24+, and no combination with sportsbook welcome offer. Full terms and customer eligibility still require review.
+- Videoslots' .es candidate URL redirects to generic .com; no Spain-specific licence/offer route was verified, so generic or UK terms are not accepted as evidence. Pop Casino's Swedish homepage did not expose a public welcome offer; ledger records “no public welcome offer verified” rather than inventing one.
+- Latest audit: **56/100** candidates have dated official bonus/promotion source URLs; 100 rows, 43 columns, 100 unique identities, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric scores and 100 explicit NOT SCORED states. All consumer tests remain NOT PERFORMED; affiliate disclosures remain NOT REVIEWED.
