@@ -1,3 +1,17 @@
+# Latest release QA checkpoint — 24 October 2026, 18:54 UTC
+
+- Live read-only browser extraction of the current known Cloudflare branch preview succeeded for `/brand-directory/`, `/reviews/`, `/robots.txt` and `/sitemap.xml`.
+- Branch preview `https://ops-2026-10-24-target-reconc.beincasinos.pages.dev/brand-directory/` serves the research directory and declares canonical `https://beincasinos.online/brand-directory/` plus `noindex,follow`. It is intentionally absent from the 44-URL sitemap, consistent with the current noindex policy. The preview robots file allows crawling and points at the production canonical sitemap.
+- Production `https://beincasinos.online/brand-directory/` still returns 404 in the live fetch, while the branch preview route returns the directory. Treat this as a deployment/version mismatch or production-route blocker; do not claim the production route is fixed, and do not deploy or merge without authorization.
+- Preview `/reviews/` is a methodology/research-queue hub with a partner-portfolio section and explicit statement that no live profiles are scored or ranked. It is not a completed set of 100 consumer reviews. Approved reviews remain **0/100**.
+- Latest observed Static site checks run 40122472710 (attempt 2, head SHA `44652598dafddd9ea7840ca05c8cff429b5533b4`) failed before runner allocation: job runner ID 0, zero steps and no retrievable logs. This is not evidence that the tests themselves failed or passed. CI remains unresolved.
+- Current PR #141 is open, Draft, unmerged, with 128 changed files at the latest query. No production deployment or merge was performed.
+- Tier-1 prospect tracker remains 114 data rows, 18 columns, zero malformed rows and duplicate brand/market keys in the last audit; 99 blank global brand IDs (15 populated rows / 14 distinct IDs), 58 VERIFY domains, 111 HOLD, 1 Exclude and 2 category-specific exclusions. These are market-specific prospect rows, not 114 unique brands or completed reviews.
+
+**Next actions:** resolve why CI is failing before runner allocation; confirm whether production should intentionally expose the research directory or keep it preview-only; validate the built artifact and all route/canonical/noindex behavior after a successful CI run; continue current terms and actual consumer/accessibility tests on the first ten targets. No score or public ranking until evidence and independent review are complete.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 19:00 UTC
 
 - Updated the top-10 board's stale tracker counts to the current audited snapshot: 114 market-specific rows, 99 blank global IDs, 58 VERIFY domains; 0/100 approved reviews.
