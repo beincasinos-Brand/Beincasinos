@@ -279,3 +279,14 @@ Checked the Belgian Gaming Commission's official A+ register (table page display
 Key controls: Betano's listed A+ expiry is 31 December 2026, so current status/renewal must be rechecked before publication. The official register lists Circus Casino and PokerStars.be together under Casino de Namur / SA/NV GAMBLING MANAGEMENT; preserve separate brand/domain records while avoiding a false claim of separate licence holders. Belgian licensees for Unibet, bwin and Ladbrokes must not be conflated with their operators in other markets. All five drafts remain HOLD pending live contract, terms, payments policy, complaints, safer-gambling, privacy, accessibility, enforcement, image rights, independent second review and editorial/legal sign-off.
 
 This batch adds **5 internal drafts, 0 publication-approved reviews**. It does not change the authoritative count of **0/100 approved reviews**, publish any review, or authorize production deployment.
+
+
+### Belgium A+ register batch — completion addendum, 24 October 2026
+
+Expanded the Belgium A+ register work to cover all nine domain rows in the official table: Casino777, Napoleon Casino, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes Casino, Unibet Casino and bwin Casino. Four additional internal drafts were added for PokerStars.be, Ladbrokes Casino, Unibet Casino and bwin Casino, and the research memo was extended. Source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
+
+- **9 Belgium-specific internal drafts/records are represented; 0 approved reviews.**
+- Circus and PokerStars.be share one listed A+ dossier/operator; they are distinct brand/domain entries, not separate licence holders.
+- Betano's listed expiry remains 31 December 2026 and must be rechecked after that date.
+- Local Belgian licensees must not be confused with the same brands' GB or other-market operators.
+- No public pages were changed and no production deployment was performed by this research batch.
