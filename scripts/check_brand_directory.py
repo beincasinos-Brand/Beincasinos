@@ -31,7 +31,7 @@ def main() -> None:
     with REGISTER_PATH.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
-        cards = re.findall(r'<article class="brand-card"[^>]*>[\s\S]*?</article>', html)
+    cards = re.findall(r'<article class="brand-card"[^>]*>[\s\S]*?</article>', html)
     if len(cards) != 100:
         fail(f"expected 100 directory cards, found {len(cards)}")
 
@@ -57,6 +57,9 @@ def main() -> None:
     by_name = {row.get("brand_name", "").strip().casefold(): row for row in rows}
     if len(by_name) != len(rows):
         fail("duplicate brand_name keys in image register")
+    missing_register_names = sorted(set(title.casefold() for title in titles) - set(by_name))
+    if missing_register_names:
+        fail("card titles missing from image register: " + ", ".join(missing_register_names))
 
     images = 0
     mismatches: list[str] = []
