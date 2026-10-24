@@ -169,7 +169,7 @@ for page in pages:
     if parser.inline_styles:
         errors.append(f"{rel}: inline styles blocked by the prepared Content Security Policy; move styles to a same-origin .css file")
     if parser.inline_event_handlers:
-        handlers = ", ".join(f"<{tag} {attribute}>​".replace("\u200b", "") for tag, attribute in parser.inline_event_handlers)
+        handlers = ", ".join(f"<{tag} {attribute}>" for tag, attribute in parser.inline_event_handlers)
         errors.append(f"{rel}: inline event handler(s) blocked by the prepared Content Security Policy; move them to a same-origin .js file: {handlers}")
     if parser.images_missing_alt:
         errors.append(f"{rel}: {parser.images_missing_alt} image(s) missing alt attribute")
