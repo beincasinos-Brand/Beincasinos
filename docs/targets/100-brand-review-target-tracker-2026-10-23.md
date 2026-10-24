@@ -375,3 +375,8 @@ This is a **provisional target slate, not 100 regulator-verified eligible brands
 ### Italy first-party terms batch — 24 October 2026
 
 Added `docs/research/italy-first-party-terms-follow-up-2026-10-24.md` and six internal candidate drafts (Sisal, BetFlag, NetBet, AdmiralBet, SNAI and Sportium); Lottomatica's existing draft was updated with additional first-party source leads. Key evidence includes BetFlag's first-party terms stating ADM concession 16008 and updated cross-operator self-exclusion rules effective 1 February 2026; NetBet's first-party help pages describing identity validation, withdrawal blocks and self-exclusion while binding terms remain HTTP 403; AdmiralBet's detailed 2024 terms PDF, which must be superseded by current terms; SNAI's September 2026 terms PDF, whose extraction timed out; and Sportium/Sisal pages that were blocked or returned 404 in this session. These are useful evidence captures, not completed consumer reviews. All remain HOLD; approved-review count remains **0/100**.
+
+
+### Spain first-party terms follow-up — 24 October 2026
+
+Added `docs/research/spain-first-party-terms-follow-up-2026-10-24.md` and an AdmiralBet Spain internal draft. AdmiralBet's first-party terms identify BeatYa Online S.A. and list casino-related DGOJ permissions for slots, blackjack and roulette, but the displayed terms version is dated 1 August 2025 and must be refreshed. Additional first-party routes were identified for Betfair, PartyCasino, Emotiva Casino, Casino Gran Madrid and Platincasino; several returned HTTP 403 or empty content, so their consumer terms remain unresolved. No candidate was approved; approved-review count remains **0/100**.
