@@ -89,6 +89,19 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("overall score must equal component sum 100" in message for message in gate.errors))
 
+    def test_non_https_source_url_is_rejected(self):
+        self.rows[0]["official_url"] = "http://example.invalid/"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("official_url must be an HTTPS URL" in message for message in gate.errors))
+
+    def test_malformed_bonus_check_date_is_rejected(self):
+        self.rows[0]["bonus_offer_url"] = "https://example.invalid/bonus"
+        self.rows[0]["bonus_checked_utc"] = "24-10-2026"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("bonus_checked_utc must start with an ISO date" in message for message in gate.errors))
+
     def test_duplicate_brand_market_identity_is_rejected(self):
         self.rows[1]["brand_name"] = self.rows[0]["brand_name"]
         self.write()
