@@ -69,3 +69,13 @@ Important caveats:
 ## Not done
 
 No Cloudflare Pages project was created, no Git integration was enabled, no deployment was made, no paid plan was purchased, no DNS was changed, no Search Console submission was made, and no brand outreach was sent. The Vercel team remains unmodified.
+
+## Status correction — 21 October 2026 (supersedes earlier deployment-status statements above)
+
+The deployment-status statements in the original decision snapshot above are stale and must not be treated as current. The newer `docs/final-deploy-runbook.md` records that Cloudflare Pages project `beincasinos` is connected to this repository on `main`, with build command `python3 scripts/build_site.py`, output directory `dist`, and preview URL https://beincasinos.pages.dev/. The owner-provided Cloudflare Pages Custom Domains screenshot recorded in that runbook showed `beincasinos.online` as Active with SSL enabled. Read-only live checks on 2026-10-21 also retrieved the apex homepage, `robots.txt`, and a sitemap containing 32 canonical HTTPS URLs.
+
+This does **not** mean the site is approved for public launch or indexing. Still unresolved: independent live HTTP status/security-header checks, exact Google verification endpoint and Search Console property status, `www` host redirect, DNS reconciliation before any DNS edits, mobile/accessibility/manual acceptance, credential hygiene/rotation, and legal/privacy/name/market approvals. The privacy and terms pages remain explicitly marked pre-launch drafts. `robots.txt` must remain blocked until the owner separately approves launch after applicable gates are cleared.
+
+The read-only browser inspection of the Cloudflare dashboard is currently blocked because the browser automation wallet has insufficient balance; no dashboard changes, DNS edits, production deploy, or indexing changes were made as part of this status correction. The next safe step is to restore browser-tool wallet credit if the owner wants authenticated dashboard inspection; otherwise continue with read-only repository and public-host checks.
+
+The GitHub Actions run recorded in the latest runbook, run ID `39669114286`, passed its 12 site-check steps on 2026-10-21. This is source/preview validation, not legal clearance or proof of live production HTTP status.
