@@ -87,3 +87,14 @@
 - All five drafts remain **HOLD** and must not be added to the public site or sitemap.
 - No personal account, deposit, game, support, or withdrawal testing is claimed.
 - No Cloudflare deployment or production change is implied by this document.
+
+
+## Additional review queue — London.bet (GB)
+
+**Decision: HOLD.** UKGC register sources list Thistle Bet Limited (account 66162), an active Casino Remote licence 066162-R-340278-005, and london.bet as an active trading name/domain. Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/66162 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66162 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/66162.
+
+The official homepage advertises slots, live casino and quick deposits/withdrawals. Treat these as operator claims; no customer account, cashier, transaction or support interaction was tested. https://london.bet/ The safer-gambling page describes account limits and self-exclusion, but logged-in controls were not tested: https://london.bet/safer-gambling.
+
+**Consumer draft:** London.bet has a positive initial GB regulator/domain/entity match, which is a useful baseline rather than a quality verdict. A complete review still needs current consumer and bonus terms, payment methods and withdrawal stages, complaints/ADR, privacy/cookies, support details, updated enforcement context and authorised image assets. No score or first-hand claim is justified yet.
+
+**SEO/release gate:** market-specific title, H1 and meta description; dated last-checked field; clear licence, games, promotions, payments, safer-gambling and complaints sections; methodology and affiliate disclosure; licensed images with accurate alt text; internal links; keep noindex and out of sitemap until second-review and editorial/legal approval.
