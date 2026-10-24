@@ -51,3 +51,23 @@ These are Belgium-specific market-brand records. They must be reconciled against
 - [ ] Complete independent review and editorial/legal approval only after the evidence package is complete.
 
 **Current approved-review count change: 0.** All entries remain internal/HOLD; no public pages changed and no production deployment was performed by this research batch.
+
+
+## Additional register-backed drafts in this batch — 24 October 2026
+
+The following four local casino records were also converted into internal review drafts using the same official A+ table:
+
+| Brand / domain | Listed establishment/operator | Dossier | Listed expiry | Disposition |
+|---|---|---:|---|---|
+| PokerStars.be — https://www.pokerstars.be | Casino de Namur; SA/NV GAMBLING MANAGEMENT | 20635 | 11 Dec 2034 | HOLD; shared row/operator with Circus Casino |
+| Ladbrokes Casino — https://www.casinoladbrokes.be | Grand Casino de Dinant; SA/NV GRAND CASINO DE DINANT | 65721 | 19 Jan 2038 | HOLD; do not transfer GB operator mapping |
+| Unibet Casino — https://www.unibetcasino.be | Casino Blankenberge; SA/NV BLANKENBERGE CASINO-KURSAAL | 505296 | 1 Jan 2036 | HOLD; separate Belgian casino permission from sports product |
+| bwin Casino — https://www.bwincasino.be | Infiniti Casino Oostende; SA/NV Infiniti Casino Oostende | 571352 | 1 Aug 2036 | HOLD; confirm current customer contract |
+
+Draft paths:
+- `docs/reviews/internal/pokerstars-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/ladbrokes-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/unibet-casino-be-evidence-review-2026-10-24.md`
+- `docs/reviews/internal/bwin-casino-be-evidence-review-2026-10-24.md`
+
+Across this research batch, all nine A+ register rows have now been represented in a Belgium-specific internal draft or batch memo. This is nine local market records, **not nine newly verified global brands**: several are existing global brands, and Circus/PokerStars share one official A+ record/operator. All nine remain HOLD pending live contracts, current terms, consumer evidence, enforcement and image-rights checks, independent review and editorial/legal approval. Approved-review count remains **0/100**.
