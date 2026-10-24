@@ -1,3 +1,14 @@
+# Latest work checkpoint — 24 October 2026, 18:42 UTC
+
+- Added and linked a dedicated US-state supplemental queue covering Ember Casino (NJ), BetMGM (NJ), BetRivers Casino (PA), Hollywood Casino Online (PA), and Horseshoe Online Casino (MI). It preserves the ten-market international board instead of quietly changing its market scope.
+- Rechecked the master prospect tracker with a CSV-aware parser: **114 data rows, 18 columns, zero malformed rows, zero duplicate brand/market keys, all 10 roadmap markets represented, 99 blank global-brand IDs, 58 blank/VERIFY domains, 111 rows marked HOLD**. These are research-lead counts, not 100 completed reviews. BetRivers PA and Hollywood Casino Online PA remain separate HOLD entries; the latter dossier distinguishes the retired legacy pa.hollywoodcasino.com route from the later PGCB-listed hollywoodcasino.com route.
+- The latest Static site checks rerun is still failing before a runner starts: run 40120514437, attempt 2, job 120954831508, runner ID 0, zero steps, and unavailable logs. This does not identify a code failure; CI remains unresolved. No successful current-head CI is claimed.
+- PR #141 remains open, Draft and unmerged. No production deployment or merge was performed. Approved reviews remain **0/100**; all candidates stay HOLD until consumer evidence, current terms, accessibility/usability testing, image rights and independent review are complete.
+
+**Next:** resolve the CI runner/service issue, run the static checks on an actual runner, continue exact terms/cashier capture for the international priority targets, and complete the independent-review gates.
+
+---
+
 # Latest checkpoint — 24 October 2026, 18:24 UTC
 
 - **100-target slate validation:** parsed the provisional review slate and confirmed exactly 100 numbered rows, 100 distinct global-brand IDs, zero duplicate IDs, and no missing official URL, legal-entity field or regulator/register URL. These are evidence-backed research targets, not approved reviews; every row remains HOLD.
