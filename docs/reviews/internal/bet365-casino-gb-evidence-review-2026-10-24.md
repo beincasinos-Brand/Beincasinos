@@ -26,7 +26,7 @@ The UKGC settlement record for Hillside (UK Gaming) ENC records a decision dated
 
 ## First-party terms: points to verify in the full review
 
-The current terms page cross-refers to separate casino rules, live-casino rules, promotion-specific terms, maximum-winnings limits, privacy/cookie terms and complaint/dispute provisions. A full review must capture and date each applicable linked document, not rely on the general terms page alone.
+The Great Britain General Terms and Conditions page currently states an effective date of **1 October 2026**. It cross-refers to separate casino rules, live-casino rules, promotion-specific terms, maximum-winnings limits, privacy/cookie terms and complaint/dispute provisions. A full review must capture and date each applicable linked document, not rely on the general terms page alone. Source: https://help.bet365.com/s/en-gb/terms-and-conditions. This effective date records the version stated by the operator; it does not establish that every linked document has the same effective date.
 
 The terms also describe identity and verification checks, duplicate-account restrictions, prohibited activities and account consequences. These are operator-published statements, not independent testing outcomes.
 
