@@ -8,10 +8,10 @@
 
 | Measure | Count | Meaning |
 |---|---:|---|
-| Candidate rows | 207 | Market-specific registry records, not approved brands |
-| Distinct display names | 207 | Names differ, but cross-market aliases can represent the same global brand |
-| Non-empty provisional global brand IDs | 207 | Every row currently has a populated ID; there are 156 distinct IDs, not 207 unique global brands |
-| Distinct brand-ID / market pairs excluding explicit unconfirmed/excluded codes | 203 | Market leads; still subject to legal and identity qualification |
+| Candidate rows | 208 | Market-specific registry records, not approved brands |
+| Distinct display names | 208 | Names differ, but cross-market aliases can represent the same global brand |
+| Non-empty provisional global brand IDs | 208 | Every row currently has a populated ID; there are 157 distinct IDs, not 208 unique global brands |
+| Distinct brand-ID / market pairs excluding explicit unconfirmed/excluded codes | 204 | Market leads; still subject to legal and identity qualification |
 | Rows with publication decision HOLD | 202 | Not approved |
 | Rows rejected | 2 | Must not count toward the target |
 | Rows approved for publication | **0** | The 100-review target remains unmet |
@@ -47,11 +47,11 @@ Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.ht
 
 ## Detailed market-row reconciliation — 24 October 2026
 
-The current CSV snapshot (207 data rows) breaks down as follows. These are **raw rows**, not eligible or unique global brands.
+The current CSV snapshot (208 data rows) breaks down as follows. These are **raw rows**, not eligible or unique global brands.
 
 | Market code | Rows | Scope caveat |
 |---|---:|---|
-| GB | 23 | Match current Casino Remote permission, exact live domain, contract and enforcement |
+| GB | 24 | Match current Casino Remote permission, exact live domain, contract and enforcement; Midnite remains HOLD because two UKGC account/domain records need resolution |
 | IT | 46 | Large lead buffer; verify casino vertical and active ADM concession |
 | ES | 19 | Match current DGOJ casino permission and exact product/domain |
 | US-NJ | 30 | New Jersey only; multiple brands may share licensed casino affiliates |
@@ -74,7 +74,7 @@ Repeated global identities include bet365 (5 rows), 888casino (4), PokerStars (4
 
 ## Scope-triage identities and exclusions
 
-Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano, Betsson, NordicBet Casino, Betclic, Winamax and Espacejeux. Three records remain in UNCONFIRMED (Betsson, NordicBet Casino and Rizk) and must not count until a named target market and local route are evidenced. Two rejected rows are 32Red (inactive current GB casino permission/domain) and Betfred (Spain casino permission extinguished in 2023); the latter rejection applies to the Spanish row, not automatically to unrelated markets. Current totals: 207 market-specific rows, 156 distinct global IDs, 205 HOLD and 2 rejected.
+Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano, Betsson, NordicBet Casino, Betclic, Winamax and Espacejeux. Three records remain in UNCONFIRMED (Betsson, NordicBet Casino and Rizk) and must not count until a named target market and local route are evidenced. Two rejected rows are 32Red (inactive current GB casino permission/domain) and Betfred (Spain casino permission extinguished in 2023); the latter rejection applies to the Spanish row, not automatically to unrelated markets. Current totals: 208 market-specific rows, 157 distinct global IDs, 206 HOLD and 2 rejected.
 
 ## Belgium source correction
 
