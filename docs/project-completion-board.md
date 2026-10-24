@@ -374,3 +374,10 @@
 - PlayNow's official 2026/2027 PDF states the BC period 1 April 2026–31 March 2027, $5 minimum initial deposit, up to $1,500 match, 100% spend-through of the initial deposit, 20x token wagering, 14-day token use window and 30-day held-funds expiry; exclusions include Live Casino, Baccarat, Sic Bo and Roulette. Recheck before publication.
 - ComeOn Sweden's official page describes a 300% bonus up to SEK 750, 100 spins, SEK 250 minimum deposit and 20x wagering, but its stated start date is anomalous (`04/06/224`) and the page's current validity is not established. It remains explicitly date-conflicted and on HOLD.
 - Both records remain not cleared for publication. These observations do not constitute a consumer experience test, and no bonus was claimed.
+
+
+# Third market-specific bonus evidence pass — 24 October 2026
+
+- Added an official Casino777 Belgium promotion snapshot at `docs/reviews/internal/bonus-snapshot-casino777-be-2026-10-24.md`. The ledger now records eleven official bonus/promotion source URLs.
+- The observed 777 Boost is explicitly classified as a game-specific promotion (1000% boost on a qualifying €5+ win up to €50, subject to game, account and age restrictions), not a welcome deposit bonus. Its current availability still requires a fresh check before publication.
+- The source and current observation are recorded; the brand remains on HOLD pending all other review gates. No account or gameplay test was performed.
