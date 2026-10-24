@@ -81,6 +81,14 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("partial rubric score" in message for message in gate.errors))
 
+    def test_overall_score_must_match_component_sum(self):
+        for field, maximum in gate.SCORE_LIMITS.items():
+            self.rows[0][field] = str(maximum)
+        self.rows[0]["overall_score_100"] = "99"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("overall score must equal component sum 100" in message for message in gate.errors))
+
     def test_duplicate_brand_market_identity_is_rejected(self):
         self.rows[1]["brand_name"] = self.rows[0]["brand_name"]
         self.write()
