@@ -324,3 +324,10 @@ The previous and current batches updated ten cards total this session: Mega Rich
 - The official Conquer Casino homepage identifies ProgressPlay Limited as operator and links to terms, withdrawals, privacy, deposit methods and responsible-gambling pages. The homepage displays a welcome offer with 50× wagering requirements and other conditions; treat this as a dated operator claim, not an endorsement, and re-check the applicable GB terms before review.
 - Latest static source QA: **100 cards / 100 unique titles**, **52 sourced image candidates / 48 CSS artwork fallbacks**, and **52 rights-pending candidates in the 100-row asset register**. All candidates still require rights and rendering checks.
 - Evidence-grade attributes remain A=19, B=19, C=39, UNKNOWN=23; statuses remain 99 HOLD / 1 EXCLUDE. These are current source-field counts, not a consumer-quality ranking. Review approvals remain **0/100**; no Cloudflare deployment is confirmed.
+
+
+## 24 October 2026 — evidence-filter consistency fix
+
+A source QA pass found that some cards displayed a populated evidence-grade description while their filter attribute was still `UNKNOWN`, and mixed grades such as `A/B` or `B/C` were not mapped consistently. The directory card attributes have now been aligned to the visible grade text. Where primary evidence exists but launch timing or identity remains unresolved, the filter uses Grade B rather than treating the whole entry as Grade A.
+
+**Current validated source counts:** 100 cards; 100 unique displayed titles; evidence filter attributes A=19, B=46, C=35, UNKNOWN=0; statuses 99 HOLD / 1 EXCLUDE; 52 sourced image candidates / 48 CSS-art fallbacks. The image register contains 100 rows, 52 candidate assets and 48 NOT SOURCED rows. All 52 candidates remain rights pending. These are evidence-field classifications, not quality ratings or publication approvals. Approved reviews remain **0/100**.
