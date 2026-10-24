@@ -1,3 +1,14 @@
+# Latest post-build verification — 24 October 2026, 19:03 UTC
+
+- Cloudflare's successful preview for commit `de72dd7` is now verified: `/brand-directory/` declares `index,follow`, canonical `https://beincasinos.online/brand-directory/`, and zero loaded images; `/sitemap.xml` reports 45 URLs and includes the research directory. The branch preview URL also now returns the same `index,follow` and 45-URL sitemap. This resolves the earlier source-level robots/sitemap contradiction in preview.
+- Production `https://beincasinos.online/brand-directory/` was last observed as 404; no production deployment or merge has been made. Treat production availability as a remaining release blocker until the owner approves deployment and the live route is verified.
+- Image-rights gate remains in place: 50 logo candidate URLs are retained in a 50-row internal register and metadata only; all 50 images have no live `src`, and neutral CSS monogram fallbacks are visible. Source checker and browser smoke coverage enforce the policy; CI has not executed these checks.
+- Latest Static site checks PR run `40123413402` failed before any step, with runner ID 0 / no runner / no steps. Public GitHub Status currently says Actions operational, so the repository-specific cause is unknown. Do not claim CI passed or that the code tests failed.
+- PR #141 remains open, Draft and unmerged, with 130 changed files. The Tier-1 tracker has 114 market-specific rows, 99 blank global IDs, 58 VERIFY domains, and 111 HOLD plus 3 exclusions (one generic and two market/category-specific). The 100-name candidate register is not 100 verified brands. Approved reviews remain **0/100**.
+
+**Next:** investigate the Actions runner allocation failure, obtain authorization before production deployment, verify the production directory route after release, and continue the evidence-led consumer review process with actual usability/accessibility testing and independent sign-off.
+
+---
 # Indexability decision correction — 24 October 2026, 19:02 UTC
 
 - Corrected a source-level contradiction found during diff review: `scripts/check_site.py` explicitly requires the 100-card research directory to be `index,follow` and describes it as discoverable for transparency, while the page itself said `noindex,follow` and the sitemap omitted it. The page now declares `index,follow`, its notice no longer claims it is noindex, and the canonical sitemap now contains `https://beincasinos.online/brand-directory/` (45 source sitemap URLs).
