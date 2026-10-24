@@ -7,7 +7,7 @@
 
 ## Provisional assessment
 
-Spelinspektionen's official notice dated **2 June 2025** states that **Betsson Nordic Ltd** holds a licence for commercial online gambling and betting on **betsson.com/sv**. This is a regulator-backed Sweden-specific licence/domain lead.
+Spelinspektionen's official notice dated **2 June 2025** identifies **Betsson Nordic Ltd** and the domain **betsson.com/sv** in connection with its licence. A separate current regulator licence-register result for **betsson.com** lists **Betsson Nordic Ltd** and **Spin Nordic Ltd** and a commercial online licence period of **24 August 2026–23 August 2031**. The exact relationship between the general betsson.com record, the /sv route, and the customer-contracting entity must still be matched to current Swedish customer terms; do not silently treat the two legal entities as interchangeable.
 
 The regulator issued Betsson Nordic Ltd a warning and **SEK 6.5 million** sanction fee on **28 May 2025** for deficiencies in anti-money-laundering controls, including insufficient customer due diligence and insufficient information about the source of customer funds. The administrative court rejected the operator's appeal on **2 July 2026**, finding serious AML-rule violations; the regulator's decision page states that the operator appealed to the Administrative Court of Appeal. That appeal status must be checked again before publication.
 
@@ -20,7 +20,8 @@ A direct first-party fetch of betsson.com/sv returned a **403 “Not Available�
 - **Brand:** Betsson (Sweden).
 - **Licensee:** Betsson Nordic Ltd.
 - **Regulator:** Spelinspektionen, Sweden.
-- **Regulator's official licence statement:** https://www.spelinspektionen.se/nyhetsarkiv/betsson-nordic-ltd-far-varning-och-sanktionsavgift-for-brister-i-arbetet-mot-penningtvatt/
+- **Current licence-register lookup for betsson.com:** https://www.spelinspektionen.se/licens-o-tillstand/licensregister/licensurl/?url=betsson.com (the result lists Betsson Nordic Ltd and Spin Nordic Ltd; commercial online licence 24 Aug 2026–23 Aug 2031).
+- **Regulator's 2025 enforcement/licence statement:** https://www.spelinspektionen.se/nyhetsarkiv/betsson-nordic-ltd-far-varning-och-sanktionsavgift-for-brister-i-arbetet-mot-penningtvatt/
 - **Official enforcement decision page:** https://www.spelinspektionen.se/vara-beslut/beslutslista/betsson-nordic-ltd---varning-penningtvatt/
 - **Domain cited by regulator:** https://www.betsson.com/sv
 - **Licence scope stated by regulator:** commercial online gambling and betting. Reconfirm the current licence register and exact casino product before describing the specific casino permission in public copy.
@@ -59,7 +60,7 @@ Do not infer the Swedish contract from Betsson's UK terms or from another group 
 
 ## Publication checklist
 
-- [ ] Recheck current Spelinspektionen licence-register entry for Betsson Nordic Ltd and betsson.com/sv.
+- [ ] Reconcile the current betsson.com register record naming Betsson Nordic Ltd and Spin Nordic Ltd with the exact live /sv casino route and contracting entity.
 - [ ] Confirm current casino-game permission and live Swedish customer contract.
 - [ ] Check the Administrative Court of Appeal status of the 2025 AML decision.
 - [ ] Capture current casino bonus terms, deposits/withdrawals, fees, limits and timing.
@@ -68,4 +69,4 @@ Do not infer the Swedish contract from Betsson's UK terms or from another group 
 - [ ] Complete date-stamped evidence and independent second review.
 - [ ] Complete legal/editorial approval and affiliate disclosure.
 
-**Decision: HOLD.** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
+**Decision: HOLD.*** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
