@@ -906,3 +906,15 @@ Added [New Jersey evidence-led review drafts — batch M](../reviews/internal/nj
 - Fourteen official-page fetch attempts were made across two batches. Six returned page content/metadata and eight were blocked or errored. A follow-up 247Bet casino page exposed favicon metadata, but that candidate was not added to the directory/register in this pass; no URL was guessed for failed candidates.
 - Static source reconciliation: **100 unique displayed titles, 63 remote image candidates, 37 CSS-art/monogram fallbacks**, with 63 image tags using alt text, dimensions, lazy loading, async decoding, referrer policy and error fallback. The asset register remains 100 rows with 63 candidate URLs and 37 unsourced entries.
 - This is a visual-source improvement only. It does not verify image rendering/reuse rights, market eligibility, legal-operator identity, or consumer experience. The 100-card page remains `noindex,follow`, excluded from the sitemap and unreleased. Approved reviews remain **0/100**. No GitHub Actions, merge or Cloudflare deployment was performed.
+
+
+## Regulator-backed domain pass — 24 October 2026
+
+Updated seven card domains from primary state-regulator lists without changing any HOLD status:
+
+- New Jersey DGE authorized-site list: Monopoly Casino, Horseshoe Casino, Fanatics Casino, and theScore Bet.
+- Pennsylvania Gaming Control Board interactive gaming list: Imperial Treasures Casino, Hollywood Casino Online, and Mohegan PA.
+
+Primary sources: https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/ and https://gamingcontrolboard.pa.gov/interactive-gaming-operators.
+
+This confirms the regulator-listed market site/domain only. It does not independently establish each contracting legal entity, current terms/payment experience, or whether a market-specific card is a distinct global brand. Horseshoe's NJ and Michigan entries must be deduplicated at global-brand level. The identity-gap audit has been reconciled to the updated HTML.
