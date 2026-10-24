@@ -291,3 +291,10 @@
 - Added [internal regulator evidence batch 01](reviews/internal/regulator-evidence-batch-01-2026-10-24.md), documenting primary-source checks for bet365 Casino (GB), Casino777.be (BE), ComeOn Casino (SE), TOTO Casino (NL), MERKUR Spiel (Schleswig-Holstein only) and Jackpots.ch (CH).
 - Updated the matching six ledger blocker/evidence notes. Key diligence: the UKGC register shows an active bet365 Casino Remote licence for Hillside (UK Gaming) ENC, and the UKGC also records a 2024 settlement requiring £343,035 in lieu of penalty/costs for historic AML and customer-harm failings; that history must be reflected fairly. The other records are scoped to the exact market/state described and are not evidence of service quality.
 - This is regulator-source verification only. All six remain NOT SCORED / HOLD while consumer terms, payments, current bonus terms, safer gambling, complaints/ADR, privacy/cookies, accessibility, image rights and independent review remain incomplete. No customer accounts, deposits or hands-on tests were performed.
+
+
+## Regulator evidence batch 02 — 24 October 2026
+
+- Added [internal regulator evidence batch 02](reviews/internal/regulator-evidence-batch-02-2026-10-24.md) for candidates 7–15: Lottomatica (IT), Codere (ES), Caesars Palace Online (Ontario), PlayNow (BC), Loto-Québec, Borgata (NJ), BetMGM (MI), betPARX (PA) and Betano (DE).
+- Updated the nine matching ledger blocker/evidence notes. Corrected betPARX's candidate URL to the Pennsylvania-specific `https://pa.betparx.com`. The Betano evidence found permission for virtual slots and sports betting, not a separate table/live-casino permission; the ledger explicitly retains that product-scope limitation.
+- The batch-01 and batch-02 notes now cover regulator-source checks for 15 of 100 candidate rows. These remain source checks only, not finished reviews; scores are withheld and publication remains HOLD.
