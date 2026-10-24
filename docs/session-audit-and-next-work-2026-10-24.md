@@ -15,7 +15,7 @@
 ## Work completed in this session
 
 5. Re-aligned the ten-target priority board to the approved Tier-1 market scope: GB, NL, CH, DE (Schleswig-Holstein only), US-NJ, US-PA and US-MI. The programme now uses ten brand-market targets across seven market codes, not a claim of ten countries.
-6. Added internal primary-source dossiers for admiral.ch (FGB), Ember (NJ DGE), Hollywood Casino Online (PA PGCB) and Horseshoe Online Casino (MI MGCB). All remain HOLD; no firsthand real-money testing is claimed.
+6. Added internal primary-source dossiers for admiral.ch (FGB), Ember (NJ DGE), BetRivers (PA PGCB) and Horseshoe Online Casino (MI MGCB). The prior Hollywood Casino Online draft is now a historical-status correction: the PGCB records the legacy skin ending in December 2023. BetRivers remains HOLD; no firsthand real-money testing is claimed.
 7. Fixed a sitemap checker inconsistency: it now parses page-level robots directives, omits noindex pages from expected sitemap URLs, and rejects any noindex page found in the sitemap. Updated the public directory copy to state that it remains noindex pending approval.
 
 1. Added internal brand evidence/reconciliation worksheets for Betfair Casino, Coral Casino, Gala Casino and Virgin Games in Great Britain, plus prior worksheets for the other brands listed in PR history. These are HOLD worksheets, not approved consumer reviews.
@@ -29,7 +29,7 @@
 
 The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The new international priority board now tracks one market-specific candidate in each of ten roadmap markets, but all ten remain HOLD. The master tracker is a separate 105-row research dataset. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
 
-The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 105 data rows (106 lines including its header). 103 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions. All 105 `global_brand_id` fields are blank, preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
+The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 106 data rows (107 lines including its header). 104 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions. All 106 `global_brand_id` fields are blank, preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
 
 ### Review approval criteria
 
