@@ -389,3 +389,10 @@
 - Current ledger source audit: 100 candidate rows, 43 columns, 100 unique brand/market identities, 11 official bonus/promotion source URLs, zero numeric scores assigned, zero cleared image-rights rows, 100 consumer tests marked `NOT PERFORMED`, and 100 affiliate-disclosure states marked `NOT REVIEWED`.
 - The explicit “NOT SCORED” value is allowed as a transparent unscored state; the gate still rejects partial component scores and requires all nine numeric components plus a matching total before any numeric score can be treated as complete.
 - Latest workflow attempts continue to fail before any steps start (runner ID 0, no runner name/steps). This is not a test result. No merge, production deployment, public bonus claim or review approval has been made.
+
+
+# Pre-launch indexing safety correction — 24 October 2026
+
+- Reconciled a launch-safety contradiction: the site had been configured to allow all crawlers despite prior explicit instructions not to enable indexing before launch approval. `robots.txt` now uses `Disallow: /` and retains the sitemap URL for later readiness.
+- Updated the deployment-artifact validator to require the pre-launch crawl block and reject a site-wide allow rule. This is a guardrail change only; it does not alter DNS, nameservers, Cloudflare deployment, or PR merge status.
+- Public HTML may retain its future launch-ready canonical/index directives, but the published artifact must remain crawl-blocked until legal/privacy/affiliate checks, browser/accessibility verification, domain/DNS/email review and explicit launch approval are complete. A robots block is not a security boundary and does not remove already indexed content by itself.
