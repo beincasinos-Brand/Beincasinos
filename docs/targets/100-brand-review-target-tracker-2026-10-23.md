@@ -853,3 +853,8 @@ Added Virgin Games' official UK withdrawal-process explainer and responsible-gam
 ## Indexability release-gate reconciliation — 2026-10-24
 
 Resolved an internal SEO-state conflict on the feature branch: `brand-directory/index.html` had `index,follow` and its URL was listed in `sitemap.xml`, while the PR/tracker said the research directory must remain noindex until qualification, evidence and image-rights gates pass. Restored `noindex,follow` and removed `https://beincasinos.online/brand-directory/` from the branch sitemap. Rationale and release gates: [directory indexability reconciliation](../quality/directory-indexability-release-gate-reconciliation-2026-10-24.md). This is a branch-only correction; no merge, Actions run, Cloudflare deploy or live indexing status is claimed.
+
+
+## Official GB terms-source pass E — 2026-10-24
+
+Added official Mr Vegas UK terms and BetMGM UK terms; corrected LeoVegas GB terms to the current official `/terms` route. All three remain `HOLD`. Current structural counts in the 204-record / 33-column registry: terms 26, withdrawal/payment 15, complaints/ADR 10, safer-gambling 18, partnership contacts 0, privacy/tracking review 142, named reviewers 184. Full sources, findings and open checks: [GB terms-source pass E](../quality/gb-consumer-policy-source-link-pass-2026-10-24-e.md). These are primary-source updates, not completed consumer reviews; approved reviews remain 0/100. Separately, corrected branch release gating so the unverified research directory is `noindex,follow` and removed it from the branch sitemap until review and rights gates pass. PR #52 remains draft/unmerged; no GitHub Actions run or Cloudflare deployment.
