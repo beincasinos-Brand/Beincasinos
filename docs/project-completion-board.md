@@ -343,3 +343,11 @@
 - Extended `scripts/check_site.py` so every card must contain the readiness panel, both exact status labels and non-empty explanatory notes.
 - Source inspection: 100 cards, 100 readiness panels, 100 explicit not-scored states, 100 not-cleared bonus states. This is static source validation only; current-head CI/browser execution remains unresolved due to runner allocation failures.
 - This does **not** mean 100 reviews or bonuses are complete. All remain HOLD until market-specific source checks, full terms, review evidence and independent approval pass. No merge, Cloudflare production deployment or DNS change.
+
+
+# Review-ledger gate update — 24 October 2026
+
+- Added `scripts/check_review_ledger.py` and connected it to `.github/workflows/site-check.yml`. It checks the 100-row ledger schema, unique brand/market identities, HTTPS source URLs, ISO-formatted bonus-check dates, score bounds, all-or-nothing nine-part rubric scoring, and publication-state hard gates.
+- Added four regression cases in `scripts/test_review_ledger.py`: a held/unscored candidate set, partial-score rejection, duplicate identity rejection, and rejection of publication without evidence and image rights. The workflow now runs these tests.
+- This is a source change only. Python execution, workflow/runner success and browser tests are not confirmed. Existing GitHub Actions runner allocation failures remain a separate blocker.
+- No candidate was promoted, no score was fabricated, no logo rights were presumed, and no Cloudflare production deployment or PR merge was performed. Approved reviews remain **0/100** until actual evidence and independent sign-off are complete.
