@@ -102,3 +102,54 @@ These metadata briefs are content scaffolds, not completed reviews. All five pag
 - **Image brief:** Use only assets and offer artwork verified for Spain. Do not copy UK offer details or treat the same global brand as one market-neutral review.
 
 **Shared premium layout:** Dedicated review shell with market/operator strip, last checked date, evidence status, methodology, clearly labelled operator claims versus verified facts, consumer-term comparison tables, accessible “not rated / evidence pending” verdict, and internal links to the relevant market guide. No unsupported scores, fake firsthand tests, aggregate ratings, or misleading schema. Rights clearance and second-editor/legal sign-off are required before indexation.
+
+
+## Additional market-specific SEO packages — batch C follow-on (internal / HOLD)
+
+These briefs define the research and page structure only. They do not confirm current authorization, availability, quality or withdrawal performance. Verify the exact local operator/domain against the primary regulator before publication.
+
+### Tipico Casino — Germany
+- **SEO title:** Tipico Casino Germany Review: Permit, Terms & Player Safety
+- **Meta description:** Verify Tipico's exact German casino product and state-specific authorization, then check current terms, payment rules, complaints and player safeguards.
+- **H1:** Tipico Casino Review (Germany): Authorization and Local Terms
+- **Search intent / page order:** Identify the exact casino product and contracting entity; distinguish sports betting from online slots and other casino products; verify current GGL/state permit and domain scope; capture German-language terms and dated offers; payments/withdrawals; complaints; OASIS and applicable player-protection controls; privacy/cookies/accessibility; evidence-limited conclusion.
+- **Image brief:** Use rights-cleared casino-specific imagery. Do not use sportsbook artwork or infer casino authorization from a betting permission.
+- **Publication blockers:** Product-specific permit/domain evidence; current local terms; payment/complaint/RG/privacy checks; image rights; independent sign-off.
+
+### 888.nl — Netherlands
+- **SEO title:** 888.nl Casino Review: Dutch Permit, Bonuses & Withdrawals
+- **Meta description:** Check the current Dutch operator and permit for 888.nl, then review local bonus rules, payment conditions, complaints and safer-gambling protections.
+- **H1:** 888.nl Casino Review: Dutch Authorization and Consumer Terms
+- **Search intent / page order:** Confirm current legal entity and domain; check the Ksa permit and authorised product scope; inspect dated Dutch terms and local offers; explain wagering/expiry and eligibility only from the actual offer; document deposit/withdrawal methods, fees and limits; complaint route; responsible-gambling controls; privacy/cookies/accessibility; dated source table.
+- **Image brief:** Use only cleared assets representing the verified Dutch product. Do not carry over 888 offers or licence statements from other countries.
+- **Publication blockers:** Current Ksa/entity/domain match; offer and general-terms reconciliation; payment and complaint evidence; RG/privacy/accessibility; rights clearance; second review.
+
+### Betcity — Netherlands
+- **SEO title:** BetCity Casino Review Netherlands: Permit & Withdrawal Terms
+- **Meta description:** Verify BetCity's Dutch operator and current permit, then examine casino-specific terms, bonus conditions, withdrawals, complaints and player protection.
+- **H1:** BetCity Casino Review (Netherlands): Permit and Current Terms
+- **Search intent / page order:** Exact domain, operator and current Ksa permit; distinguish casino from sportsbook features; date-stamped local offer terms; payments/withdrawal limits, fees and identity checks; complaints and escalation; Dutch responsible-gambling protections; privacy/cookies/accessibility; source-led verdict with unknowns explicit.
+- **Image brief:** Rights-cleared current Dutch casino imagery or original editorial illustration; no unlicensed logo scraping.
+- **Publication blockers:** Refresh regulator record and operator details; inspect casino terms and payments; document complaint and RG routes; privacy/accessibility; clear assets; independent approval.
+
+### FairPlay Casino — Netherlands
+- **SEO title:** FairPlay Casino Netherlands Review: Operator & Player Terms
+- **Meta description:** Establish which Dutch FairPlay Casino operator and domain are meant, then check permit evidence, current terms, payments and player protections.
+- **H1:** FairPlay Casino Review (Netherlands): Identity, Permit and Terms
+- **Search intent / page order:** Resolve brand ambiguity before anything else; confirm exact domain, legal entity and current Ksa permit; document casino product scope; capture local terms and any bonus rules; deposits/withdrawals; complaints; responsible-gambling controls; privacy/cookies/accessibility; explain identity limitations if sources do not uniquely match.
+- **Image brief:** Do not select a logo or screenshot until the exact brand/domain is resolved and reuse rights are documented; original neutral illustration is the safe fallback.
+- **Publication blockers:** Unique entity/domain resolution is mandatory; current regulator evidence; full terms/payment/complaint/RG/privacy checks; image rights; second-editor review.
+
+### VBET — Great Britain
+- **SEO title:** VBET Casino UK Review: UKGC Permission & Casino Terms
+- **Meta description:** Verify VBET's current Great Britain casino permission and contracting entity, then check casino-specific offers, withdrawal rules, complaints and safer-gambling tools.
+- **H1:** VBET Casino Review (UK): Licence and Consumer Terms
+- **Search intent / page order:** Exact GB domain and licensee; current UKGC register and casino permission; separate casino from sportsbook product claims; date-stamped bonus rules; deposit/withdrawal methods, limits, fees and verification; complaints/ADR; safer-gambling controls; privacy/cookies/accessibility; evidence-limited verdict.
+- **Image brief:** Rights-cleared GB casino asset only; do not use a sportsbook image to imply casino catalogue or current casino offers.
+- **Publication blockers:** Current UKGC/domain/entity check; casino terms and offer capture; payment and complaint evidence; RG/privacy/accessibility; asset rights; independent review.
+
+**Batch C follow-on status**
+- Additional market-specific page-structure packages: **5**
+- Approved consumer reviews added: **0**
+- Cumulative approved reviews against target: **0/100**
+- All remain HOLD until source evidence, image rights and editorial gates are complete.
