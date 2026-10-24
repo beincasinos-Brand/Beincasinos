@@ -1,3 +1,16 @@
+# Latest verified continuation — 24 October 2026
+
+- **Pennsylvania correction:** the legacy `pa.hollywoodcasino.com` site was retired on 14 December 2023, but the PGCB's 2024–2025 Annual Report independently records a Hollywood Casino online-brand launch in December 2024. The previous blanket exclusion was too broad. Hollywood Casino is again a **HOLD** candidate with UNKNOWN current domain and unverified customer-contracting entity; no score or recommendation. The research directory swaps the known inactive Ivy Casino lead for Hollywood Casino, keeping exactly 100 cards.
+- **Research directory QA:** branch source has 100 brand cards, one BetRivers card and one Hollywood Casino Online card; no Ivy Casino card remains. The directory page is explicitly `noindex,follow` and is not in the sitemap. Live preview fetch still confirms noindex metadata and BetRivers presence; verify preview freshness again after the latest source commit before relying on the new Hollywood card being live.
+- **Host separation:** production `https://beincasinos.online/brand-directory/` returns 404 and production sitemap has 46 URLs; the existing branch preview sitemap has 44 URLs. The directory is not published to production. Do not deploy or merge without explicit authorization.
+- **Tracker integrity:** CSV parser audit: 106 data rows, 18 columns, zero malformed rows, zero duplicate brand/market keys; 58 `VERIFY` domains, one `UNKNOWN`, two `NOT APPLICABLE`, and 106 blank `global_brand_id` values. Candidate deduplication is incomplete.
+- **CI/release:** PR #141 remains open, Draft and unmerged, with 123 changed files at latest check. Latest observed Static site checks attempts fail before runner allocation (runner ID 0, no steps/logs); no successful current-head CI is confirmed. This is an infrastructure blocker, not a diagnosed source-code test failure.
+- **Review count:** approved publication-ready reviews remain **0/100**. The 100 directory cards are research leads, not 100 completed reviews. No production deployment, merge, indexing release or paid outreach performed.
+
+**Next:** verify the current preview after the latest card commit; obtain a functioning CI runner; run the full build, site and artifact checks; then continue dated current-terms/cashier/accessibility evidence and independent review on the highest-priority brands.
+  
+---
+
 # Latest QA checkpoint — 24 October 2026, 18:00 UTC
 
 - Audited the two different registries rather than treating them as one count. `docs/brand-research-template.csv` contains **204 market-specific rows, 154 distinct global_brand_id values, 202 HOLD and 2 rejected**. The separate Tier-1 prospect tracker contains **106 rows and 106 blank global_brand_id values**.
@@ -18,7 +31,7 @@
 - **QA hardening:** added a parser-based artifact check for inline HTML event handlers, which violate the prepared same-origin-only CSP, plus regression tests for click handlers, mixed-case handlers, and safe non-event attributes. These changes are committed, but the full repository workflow has not completed successfully.
 - **CI:** latest observed workflow runs continue to fail in roughly two seconds with runner ID 0, no steps and no logs. A rerun was requested, but no successful current-head CI is confirmed. Treat this as runner-allocation/infrastructure failure until a runner executes and reports a real test result; do not infer source tests pass or fail from these attempts.
 - **Repo/release:** PR #141 remains Draft, open and unmerged. Latest known changed-file count was 122 before the most recent commits; recheck at release time. No production deployment, merge, or indexing release was performed. Branch-preview freshness remains unconfirmed.
-- **Research integrity:** the Betano Belgium A+ register decision/expiry correction remains in force; the legacy Pennsylvania Hollywood Casino Online skin remains excluded pending fresh evidence of a separate active authorisation, with BetRivers PA as the replacement research lead. These are market-specific regulator leads, not approved reviews.
+- **Research integrity:** the Betano Belgium A+ register decision/expiry correction remains in force; the legacy `pa.hollywoodcasino.com` URL is retired, but the PGCB's 2024–2025 Annual Report records a later Hollywood Casino online-brand launch in December 2024; current domain and contracting entity remain unresolved, so Hollywood Casino is HOLD rather than excluded. BetRivers remains a separate Pennsylvania HOLD research lead. These are market-specific regulator leads, not approved reviews.
 
 **Next actions:** obtain a real GitHub Actions runner; run the full build, artifact and browser checks; verify the latest Cloudflare preview only after it is generated for the current head; continue the ten-market dossiers with dated terms/cashier/accessibility evidence; deduplicate the 100-brand slate; keep every review on HOLD until independent review and publication sign-off.
 ---
