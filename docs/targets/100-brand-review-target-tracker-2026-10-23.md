@@ -589,3 +589,7 @@ Added an evidence-led London.bet Great Britain draft section to `docs/reviews/in
 
 ## 24 October — London.bet SEO/content increment
 Expanded the internal London.bet draft with a proposed SEO title/meta description/H1, evidence-limited consumer-facing copy, provisional unrated verdict, on-page SEO/image-rights checklist and publication gates. Commit: `a03c6ef58aea249f47ed776db1ae80486b890a43`. This remains internal HOLD content; no new approved consumer review is counted. Approved reviews remain **0/100**. No Actions workflow was triggered and no Cloudflare deployment is claimed.
+
+
+## Organic search growth work — 24 October 2026
+Added an evidence-gated organic search plan to `docs/quality/first-100-content-completeness-audit-2026-10-23.md`, covering indexation release gates, site/query baseline, page-cluster strategy, technical SEO, 30/60/90-day operating loop and weekly scorecard. Commit: `3b8b36d3c01e9783f3f7c72e50dc4b6d1010ff1d`. The 10 million daily impressions figure is an aspirational target, not a verified current gap or forecast: Search Console data and a verified production crawl are still needed. No Actions workflow was triggered; Cloudflare deployment is unverified.
