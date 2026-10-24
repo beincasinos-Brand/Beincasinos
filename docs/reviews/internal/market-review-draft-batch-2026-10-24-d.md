@@ -123,3 +123,45 @@ The evidence pack notes a UKGC action on account 614 dated 7 October 2026. Befor
 ## Batch decision
 
 All five entries remain **HOLD**. They are evidence-led internal drafts, not approved consumer reviews, not affiliate endorsements and not proof of first-hand testing. No draft should be counted toward the 100 approved-review target until all mandatory evidence, second-review and release gates are recorded.
+
+
+## Distinct SEO packages — batch D (internal / HOLD)
+
+These are proposed metadata and page architecture only. No page should be indexed until the current market evidence, image rights, and editorial approvals are complete.
+
+### bet365 Casino — Great Britain
+- **SEO title:** bet365 Casino Review UK: Casino Rules, Payments & Safety
+- **Meta description:** Check bet365’s GB casino-specific licence and terms, including verification and withdrawal conditions. Sportsbook offers are not casino bonuses.
+- **H1:** bet365 Casino Review (UK): Casino Rules and Withdrawal Checks
+- **Search intent / page order:** casino-specific operator and UKGC permission; separate casino from sportsbook; current casino/live-casino rules; bonus evidence; verification; payments/withdrawals and limits; complaints/ADR; RG; privacy/accessibility; verdict.
+- **Image brief:** Rights-cleared casino-specific asset. Do not use sportsbook promo artwork as proof of casino catalogue or casino welcome bonus.
+
+### Betano Casino — Great Britain
+- **SEO title:** Betano Casino Review UK: Operator, Bonuses & Withdrawals
+- **Meta description:** Check Betano’s GB operator and licence evidence, then verify the current casino offer terms, payment methods, withdrawal rules and safer-gambling tools.
+- **H1:** Betano Casino Review (UK): Licence and Current Terms
+- **Search intent / page order:** domain/operator match and white-label context; current UKGC permission; casino offer and full terms; payments/withdrawals; complaints; RG; privacy/accessibility; verdict.
+- **Image brief:** Use a rights-cleared asset tied to the GB product. Do not publish bonus figures or withdrawal promises until the exact current UK terms are archived.
+
+### Betfair Casino — Great Britain
+- **SEO title:** Betfair Casino Review UK: Licence, Casino Offers & Payments
+- **Meta description:** Review Betfair’s GB casino-specific evidence and verify current casino promotions, withdrawal terms, complaints and safer-gambling controls separately from sports betting.
+- **H1:** Betfair Casino Review (UK): Casino Terms and Player Checks
+- **Search intent / page order:** casino entity/licence; distinguish casino and sportsbook; dated casino offers; payment/withdrawal limits; complaints/ADR; safer-gambling controls; privacy/accessibility; verdict.
+- **Image brief:** Use a current rights-cleared casino asset, not a sports-market banner. Any offer image must match the exact eligibility and expiry terms captured.
+
+### Paddy Power Casino — Great Britain
+- **SEO title:** Paddy Power Casino Review UK: Licence, Offers & Withdrawals
+- **Meta description:** Check Paddy Power’s GB casino operator and licence evidence, with casino bonus terms, payment rules, complaints and safer-gambling controls verified separately.
+- **H1:** Paddy Power Casino Review (UK): Licence and Casino Terms
+- **Search intent / page order:** casino-specific operator/domain; licence record; casino product and dated offer terms; deposits/withdrawals; complaint route; RG; privacy/accessibility; verdict.
+- **Image brief:** Use a licensed casino-specific visual. Do not treat sportsbook offers or football-related imagery as evidence about casino bonuses or games.
+
+### Grosvenor Casino — Great Britain
+- **SEO title:** Grosvenor Casino Online Review UK: Licence & Player Protections
+- **Meta description:** Check Grosvenor’s GB online-casino operator and licence evidence, then review current terms, withdrawals, complaints and safer-gambling tools.
+- **H1:** Grosvenor Casino Online Review (UK): Licence and Terms
+- **Search intent / page order:** online casino domain/operator; UKGC permission; distinguish online product from land-based venues; current terms and promotions; payments/withdrawals; complaints; RG; privacy/accessibility; verdict.
+- **Image brief:** Rights-cleared online-casino imagery that accurately represents the digital product. Do not imply land-based venue amenities are available online.
+
+**Batch D layout requirement:** Preserve the high-end casino-review identity: market/operator summary strip, licence and evidence status, dated methodology, structured tables for current terms, prominent unknowns, and a verdict panel that remains “Not rated — evidence pending” until approval. Keep all five noindex and out of the sitemap; no fabricated star ratings, first-hand tests, review schema, or unlicensed images.
