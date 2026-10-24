@@ -18,6 +18,7 @@
 | Monopoly Casino | US-NJ | `monopoly-casino` | `Monopoly Casino (NJ)` | New Jersey only; live domain and operator relationship remain unverified. |
 | Hard Rock Bet | US-MI | `hard-rock-bet-casino` | `Hard Rock Bet Casino`, `(MI)`, `(NJ)` | Global identity only; Michigan permissions/domain must be verified before any publication. |
 | theScore Bet | US-NJ | `thescore-bet-casino` | `theScore Bet Casino (NJ)` | New Jersey only; exact active domain/operator record still requires verification. |
+| FairPlay Casino | NL | `fair-play-casino-online` | `Fair Play Casino Online (NL)` | Same Dutch brand and market label; Ksa's 17 Sep 2026 continuation-licence announcement names FPO Nederland B.V. as a renewed licensee. This is not proof that the tracker's placeholder domain is current or that the casino vertical/consumer terms were tested. |
 
 ## Explicitly not mapped
 
@@ -26,7 +27,7 @@
 
 ## Counting effect
 
-Before this pass the tracker had 114 market-specific rows, 97 blank IDs and 17 populated ID cells / 16 distinct IDs. This pass filled 12 previously blank cells using IDs already present in the registry; it creates no new canonical IDs. The resulting tracker should have **85 blank ID cells, 29 populated ID cells and 28 distinct IDs** (unless the snapshot changes concurrently).
+Before these passes the tracker had 114 market-specific rows, 97 blank IDs and 17 populated ID cells / 16 distinct IDs. The reconciliation filled 13 previously blank cells using IDs already present in the registry; it creates no new canonical IDs. The resulting tracker should have **84 blank ID cells, 30 populated ID cells and 29 distinct IDs** (unless the snapshot changes concurrently).
 
 These are bookkeeping IDs, not 28 eligible operators or completed reviews. The tracker still contains provisional leads, unknown domains and market/vertical checks. The approved consumer-review count remains **0/100**. Do not collapse market-specific records in the evidence itself; preserve each market's operator, domain, permissions, terms, consumer protections and enforcement history.
 
