@@ -563,3 +563,9 @@
 - Winz.nl: choice up to €200 cash bonus or 200 free spins; individual offer terms not captured.
 - 888.nl: Dutch homepage references welcome bonuses for players aged 24+, but the promotions route threw a client-side exception; no amount is claimed.
 - All four remain HOLD. No bonus is approved for public recommendation.
+
+
+# Explicit source-access blockers — 24 October 2026
+
+- Recorded source-access limitations for Tipico Casino (DE-SH scope), Oranje Palace (NL) and Betcity (NL) in the canonical ledger: Tipico and Betcity returned HTTP 403; Oranje Palace was bot-blocked. No current casino welcome bonus was inferred from those pages.
+- 888.nl's homepage mentions Dutch welcome bonuses, but the promotions route returned a client-side exception; its offer remains unverified. These are explicit research blockers, not fabricated zero-value ratings.
