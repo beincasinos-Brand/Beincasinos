@@ -5,7 +5,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Current structural result
 - Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
-- Official consumer-facing domain URL: **59/100** populated; 41 blank. Slot 28 (Kansino) now has its official consumer domain, but its licence reference differs across current official pages and remains on HOLD pending Ksa reconciliation. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
+- Official consumer-facing domain URL: **60/100** populated; 40 blank. Slot 33 (BetAhoy) now matches the active domain record for Bet Ahoy Ltd / account 100094. Slot 28 (Kansino) now has its official consumer domain, but its licence reference differs across current official pages and remains on HOLD pending Ksa reconciliation. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
 - Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
 - Terms URL: **20/100**.
 - Bonus/promotion URL: **15/100**. All populated promotion links remain source leads unless individually cleared against current market-specific terms; no offer is approved for publication.
@@ -127,3 +127,10 @@ The available workflow-run lookup returned no PR-triggered runs for the inspecte
 - Betty's official homepage advertises 50 free spins with a £20 minimum first deposit and 48-hour validity, and makes withdrawal-speed claims. These are operator claims, not independently tested; offer-specific terms remain unreviewed.
 - Latest canonical ledger parse after this batch: 100 rows × 43 columns; zero duplicate slot IDs and zero duplicate brand/market pairs. Official domains 59/100; official-register URL field presence 100/100; terms 20/100; promotion links 15/100; complaints 11/100; responsible-gambling 21/100; deposits 14/100; fees/limits 14/100; withdrawals 13/100; privacy/cookies 15/100; accessibility 0/100; regulatory-action 1/100; ADR 1/100; image sources 50/100.
 - All 100 remain NOT SCORED/HOLD; image rights, independent review, consumer testing, affiliate disclosure and evidence-bundle gates remain open. CI unconfirmed; no merge or Cloudflare Pages deployment.
+
+
+## Source batch 21 — Great Britain — latest snapshot
+- Added `docs/reviews/internal/operator-source-batch-21-2026-10-24.md`. UKGC business, domain and trading-name records match Bet Ahoy Ltd (account 100094), active remote casino licence and active `www.betahoy.co.uk` domain; the canonical ledger now records that exact domain. Consumer terms, cashier, complaint/ADR, RG, privacy, accessibility and offer-specific review remain incomplete.
+- UKGC trading-name evidence confirms “brillbet” under UK Digital Bookmakers Ltd (account 101570), but the domain register record was not retrieved; `brillbet.co.uk` remains a lead rather than a confirmed current domain.
+- Latest ledger: 100 rows × 43 columns; zero malformed widths or duplicate slot IDs/brand-market pairs. Official domains 60/100; register URL fields 100/100 (presence only); terms 20/100; promotions 15/100; complaints 11/100; responsible-gambling 21/100; deposits 14/100; fees/limits 14/100; withdrawals 13/100; privacy/cookies 15/100; accessibility 0/100; regulatory actions 1/100; ADR 1/100; image sources 50/100.
+- All 100 remain NOT SCORED/HOLD. CI unconfirmed; no merge or Cloudflare Pages deployment.
