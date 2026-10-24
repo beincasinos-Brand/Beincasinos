@@ -380,3 +380,8 @@ Added `docs/research/italy-first-party-terms-follow-up-2026-10-24.md` and six in
 ### Spain first-party terms follow-up — 24 October 2026
 
 Added `docs/research/spain-first-party-terms-follow-up-2026-10-24.md` and an AdmiralBet Spain internal draft. AdmiralBet's first-party terms identify BeatYa Online S.A. and list casino-related DGOJ permissions for slots, blackjack and roulette, but the displayed terms version is dated 1 August 2025 and must be refreshed. Additional first-party routes were identified for Betfair, PartyCasino, Emotiva Casino, Casino Gran Madrid and Platincasino; several returned HTTP 403 or empty content, so their consumer terms remain unresolved. No candidate was approved; approved-review count remains **0/100**.
+
+
+### Registry source-link synchronization — 24 October 2026
+
+Updated the candidate CSV fields (terms, withdrawals, complaints, safer-gambling URLs; source notes; last-checked date; and blockers) for eight market-specific rows: Lottomatica, Sisal, SNAI, Sportium, Admiral Bet (IT), BetFlag (IT), NetBet (IT), and AdmiralBet.es. The full CSV was re-parsed after the edit: **204 data rows, 33 columns, 0 malformed-width rows**. All affected rows remain HOLD. Source URL presence does not mean the page was readable or the terms were fully reviewed; access failures and stale-version blockers are recorded in the rows and research memos.
