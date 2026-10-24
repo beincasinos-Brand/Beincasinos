@@ -2,7 +2,7 @@ name: Static site checks
 
 on:
   push:
-    branches: [main]
+    branches: [main, ops/tier1-10-market-100-brand-roadmap-2026-10-22, ops/2026-10-24-target-reconciliation-and-release-gates]
   pull_request:
     branches: [main, ops/tier1-10-market-100-brand-roadmap-2026-10-22]
   workflow_dispatch:
