@@ -29,7 +29,7 @@ def sample_rows():
             "image_source_url": "",
             "image_rights_status": "PENDING — official source and reuse permission required",
             **{name: "" for name in gate.SCORE_LIMITS},
-            "overall_score_100": "",
+            "overall_score_100": "NOT SCORED",
             "review_status": "NOT SCORED",
             "publication_status": "HOLD — not approved for publication",
             "blockers": "Evidence incomplete",
