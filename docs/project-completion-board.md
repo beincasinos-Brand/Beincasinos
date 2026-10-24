@@ -1,3 +1,16 @@
+# Latest work checkpoint — 24 October 2026, 17:25 UTC
+
+- Added `docs/top-10-review-priority-board-2026-10-24.md`: ten priority Great Britain brand reviews now have an explicit evidence artefact, next-step checklist and publication gate.
+- Updated the 100-brand candidate register for priorities 1–10. Each row now links or names its current evidence dossier and states the remaining proof needed; all ten remain HOLD, not scored.
+- Refreshed the research CSV for Ladbrokes Casino, Coral Casino and Virgin Games with source-linked licence/domain/entity distinctions and outstanding tests. This is evidence capture, not completed consumer testing.
+- Created a current-session audit and tracker qualification audit. The master prospect tracker has 105 rows; 103 in the currently scoped markets; 59 domain placeholders `VERIFY`; 105 blank `global_brand_id` values. The 100-row candidate register is a separate queue and still requires deduplication.
+- The PR has grown beyond 110 changed files. It remains open and Draft. No merge or production deployment was made.
+- The Static site checks workflow has failed before runner allocation (runner ID 0, no steps) on recent commits; logs are unavailable. CI is unresolved, not passing. A Cloudflare Pages preview exists for an earlier commit; latest-commit preview freshness is not yet confirmed.
+
+**Current approved review count remains 0/100.** Research notes, source reconciliation and HOLD drafts are not consumer-ready reviews. Continue with primary-source checks, actual dated consumer testing, second review, and the unresolved CI runner issue. Keep production crawl block and release gates intact.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 17:10 UTC
 
 - PR #141 remains open and Draft, not merged. The branch is for internal research, release-gate corrections and Cloudflare Pages preparation; it is not a production release.
