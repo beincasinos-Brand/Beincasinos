@@ -244,3 +244,8 @@ These counts describe the working branch snapshot, not a production deployment. 
 
 
 **Content quality gate:** `docs/quality/first-100-content-completeness-audit-2026-10-23.md` measures the first-100 queue's evidence gaps. Among its 149 market-specific rows, 132 lack a terms URL, 146 lack withdrawals and complaints URLs, 144 lack a responsible-gambling URL, and 61 lack a privacy/tracking review status. These are field-completeness gaps, not proof the sources do not exist; they must be researched and verified before any review can pass publication QA.
+
+
+## Work update — 24 October 2026
+
+Added five differentiated, internal evidence-led draft sections in `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md` for BetVictor Casino (GB), Coral Casino (GB), Ladbrokes Casino (GB), Sky Vegas Casino (GB), and 888casino (Sweden). Each draft preserves market scope, identifies source-supported findings, states evidence limits, and lists the remaining approval gates. These are internal HOLD drafts, not consumer-ready pages; no firsthand testing is claimed. **Publication approvals remain 0/100.** The directory remains noindex and no production deployment was performed.
