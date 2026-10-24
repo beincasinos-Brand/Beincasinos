@@ -5,7 +5,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Current structural result
 - Data rows: **100**; columns: **43**; every data row has exactly 43 fields; duplicate slot IDs: **0**.
-- Official bonus/promotion URL field: **55 populated / 45 blank**. A URL is a research lead, not proof an offer is live, available in the stated market, lawful, or fully understood.
+- Official bonus/promotion URL field: **56 populated / 44 blank**. A URL is a research lead, not proof an offer is live, available in the stated market, lawful, or fully understood.
 - Image source URL: **0 populated**; image reuse/rights status: **PENDING for 100/100**.
 - Overall score: **NOT SCORED for 100/100**.
 - Review status: **HOLD for 100/100**; publication status: **HOLD for 100/100**.
