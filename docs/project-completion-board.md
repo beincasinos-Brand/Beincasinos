@@ -1,3 +1,15 @@
+# Latest image-rights and evidence update — 24 October 2026, 18:58 UTC
+
+- Audited the live Cloudflare branch preview and source for the 100-card brand directory. It previously loaded 50 external brand-logo candidates despite labelling them rights pending. Fixed the HTML/JS so all 50 URLs remain only in `data-candidate-src`, all candidate images have `data-image-rights="pending"` and no `src`, and neutral monogram fallbacks are visible. No unapproved logo image requests should occur.
+- Created `docs/image-rights-candidate-register-2026-10-24.csv` with 50 candidate rows, official-site URL candidates, market, rights state, display state and required clearance steps. Permission is not assumed from an official-site source.
+- Added source-level enforcement to `scripts/check_site.py`: pending logo candidates must not have a live `src`, must retain a candidate URL and must be hidden behind a visible monogram fallback. Added `/brand-directory/` to Chromium smoke routes and smoke checks for directory card count, pending-image blocking, search filtering and clear/reset.
+- Static source validation through CSV parsing confirmed 114 Tier-1 market rows, 18 columns, zero malformed rows, zero duplicate brand/market keys, 99 blank global IDs, 58 VERIFY domains, 111 HOLD rows, one generic Exclude and two market/category exclusions. Main research CSV has 207 rows, 33 columns, zero malformed rows; 888casino GB entry now reflects the live UK agreement's body date of **30 September 2026**, fetched 24 October, superseding the old 5 August/version 64.0 note.
+- Live preview recheck after the HTML change reports **0 loaded images** on the directory and retains the `noindex,follow` policy. The route works on the branch preview, but production `/brand-directory/` still returns 404. Production deployment/merge remains unauthorized.
+- Latest Static site checks run `40123065066` failed before meaningful execution (job had no steps; earlier attempts show runner ID 0 and no logs). Do not interpret this as a code-test failure or a pass. Latest PR #141 remains Draft/open/unmerged; no green CI confirmed.
+
+**Next:** resolve the CI runner/service failure, confirm the directory's intended production visibility, run the new browser smoke checks when a runner is available, and continue first-party terms/cashier capture for the remaining target reviews. Approved reviews remain **0/100**; all profiles remain HOLD until independent review and actual usability/accessibility tests are complete.
+
+---
 # Latest release QA checkpoint — 24 October 2026, 18:54 UTC
 
 - Live read-only browser extraction of the current known Cloudflare branch preview succeeded for `/brand-directory/`, `/reviews/`, `/robots.txt` and `/sitemap.xml`.
