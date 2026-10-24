@@ -83,3 +83,10 @@ A source URL must match the exact country/state/province in the candidate row. L
 Belgian market candidates Casino777.be, Napoleon Casino Belgium, Circus Casino Belgium and Ladbrokes Casino Belgium remain on HOLD pending local legal/compliance confirmation that each exact promotional mechanic is permitted and the live terms are complete. Do not assume a promotional page establishes legal availability. See `docs/reviews/internal/belgium-promotion-compliance-hold-2026-10-24.md`.
 
 Latest ledger audit reports 54 dated official bonus/promotion URLs across 100 rows, with no numeric scores assigned. Actions validation remains unconfirmed because runner allocation fails before steps begin.
+
+
+## Canonical ledger identity rule
+
+The canonical 100-brand production ledger must match the public directory's 100 card identities and market codes exactly. A prior 100-candidate cross-market research set is preserved separately at `docs/targets/100-brand-review-cross-market-research-ledger-2026-10-24.csv`; its sources cannot be reused for a different brand or market without a verified identity match.
+
+After reconciliation, the canonical ledger has 100 unique public brand/market rows, eight matched bonus/promotion source leads, zero assigned numerical scores, and explicit NOT SCORED / HOLD states. These eight sources are not approved offers. The other rows remain held until current market-specific terms are verified.
