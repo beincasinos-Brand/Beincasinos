@@ -1,3 +1,16 @@
+# Latest verified checkpoint — 24 October 2026, 19:00 UTC
+
+- Brand-directory source and live preview agree: 100 research cards; 50 logo candidates retained in the rights register and HTML metadata; zero candidate image tags have a live `src`; 50 monogram fallbacks are visible. The latest branch preview fetch reports zero loaded images. CSS-only abstract artwork now gives the fallback panels a more polished, original treatment.
+- The candidate register has 50 rows / 11 columns, no malformed CSV rows, no duplicate candidate URLs, and exact one-to-one correspondence with the 50 `data-candidate-src` URLs in the HTML. All remain `PENDING — permission not evidenced` and `NOT LOADED — visible monogram fallback`.
+- The static checker enforces the image-rights gate. The Chromium smoke suite now includes the brand directory route and tests search for `admiral.ch`, clear/reset behavior, at least 50 cards, zero remote `src` values for pending images and visible fallbacks. These tests have not executed because the runner never starts.
+- 888casino GB dossier and master research CSV now use the live UK User Agreement body date of 30 September 2026 (fetched 24 October), and explicitly record the page-metadata mismatch: metadata says Cassava Enterprises (Gibraltar) Limited while substantive UK clause 2 identifies 888 UK Limited / UKGC account 39028.
+- Latest current-head Actions run `40123230562` failed in under a few seconds with `runner_id: 0`, no runner name and no steps. A rerun of the prior PR job also failed without starting. Public GitHub Status currently shows systems operational, so the repository-specific cause is **unknown**; do not label the source tests failed or passed. [GitHub Status](https://www.githubstatus.com/).
+- Live Cloudflare branch preview still serves `/brand-directory/` as `noindex,follow` with canonical `https://beincasinos.online/brand-directory/`; production `/brand-directory/` remains 404. The branch preview's sitemap lists 44 canonical URLs and excludes the noindex directory. No merge or production deployment was made.
+- PR #141 remains open, Draft and unmerged. Latest changed-file count before this checkpoint: 130. Approved consumer reviews remain **0/100**; the 100-name register and 114-row Tier-1 tracker are research queues, not approved reviews.
+
+**Next:** resolve repository-specific Actions runner allocation, decide whether the research directory should be available on production or remain preview-only, run the new browser smoke suite, and continue consumer-terms/cashier evidence plus actual usability/accessibility tests on held profiles.
+
+---
 # Latest image-rights and evidence update — 24 October 2026, 18:58 UTC
 
 - Audited the live Cloudflare branch preview and source for the 100-card brand directory. It previously loaded 50 external brand-logo candidates despite labelling them rights pending. Fixed the HTML/JS so all 50 URLs remain only in `data-candidate-src`, all candidate images have `data-image-rights="pending"` and no `src`, and neutral monogram fallbacks are visible. No unapproved logo image requests should occur.
