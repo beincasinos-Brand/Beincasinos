@@ -18,6 +18,8 @@
 | CSS-art / monogram fallbacks | 37/100 | Retain until an appropriate asset and reuse basis are verified |
 
 ## Latest completed work
+- Fixed a CSS cascade defect: the author-level flex rule could override the HTML `hidden` attribute on logo fallbacks, making fallback monograms appear even when an image loaded. Added `.brand-logo-fallback[hidden]{display:none!important}`.
+- Added `scripts/check_brand_directory.py`, a dependency-free static source gate for 100 cards, unique titles, 100 asset-register rows, HTML/register image URL matching, alt text, lazy loading, fallback handlers, `noindex,follow`, and sitemap exclusion. The script is committed but has **not been executed in CI or locally**; GitHub Actions remains intentionally unused.
 
 - Corrected the directory release QA snapshot so it accurately records `noindex,follow` and sitemap exclusion; an earlier snapshot had incorrectly said `index,follow` and that the directory was in the sitemap.
 - Added official-page image candidates for **LottoGo Casino, Alfobet and Rollerbet** to the directory and asset register. The Los Vegas favicon candidate was removed after a direct 404 response.
