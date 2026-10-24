@@ -13,7 +13,7 @@
 | Cards with a populated official-domain field | 53/100 (latest tracker snapshot) | Field coverage, not validation of every domain |
 | Cards with a populated legal-operator field | 50/100 (latest tracker snapshot) | Field coverage, not regulator-confirmed identity for all rows |
 | Evidence grades | A: 44; B: 7; C: 49 | Grade is a source-quality indicator, not publication approval |
-| Directory statuses | HOLD: 99; EXCLUDE: 1 | Re-check current branch before using as a live count |
+| Directory card status | HOLD: 100; EXCLUDE: 0; approved: 0 | Source-level count of current branch cards; all remain research leads pending identity, market, evidence, rights and editorial gates |
 | Publication-approved reviews | **0/100** | No candidate or internal draft is counted as a finished review |
 | Cloudflare production deployment in this work | **None** | This report does not claim that any draft is live |
 
@@ -90,10 +90,22 @@ A logo appearing on an official site does not itself grant republication rights.
 2. Resolve every candidate's domain/entity/product permission. Exclude legal-scope mismatches and inactive/surrendered permissions.
 3. Complete evidence packages and original reviews for the qualified set; leave unresolved entries on HOLD.
 4. Clear image rights or retain the designed fallback; never invent image URLs or rights.
-5. Run source and link checks, accessibility checks, mobile/desktop visual QA, sitemap/robots/canonical/noindex review and duplicate-content checks.
+5. Run source and link checks, accessibility checks, mobile/desktop visual QA, indexability-policy review (robots meta, sitemap inclusion, canonical and robots.txt) and duplicate-content checks.
 6. Obtain independent editorial/legal approval and update the approval ledger.
 7. Only after the approved target and site QA are genuinely complete, prepare a separate Cloudflare release plan and confirm the intended production action before deploying.
 
 ## Non-negotiable counting rule
 
 **Research lead ≠ verified eligible brand ≠ draft review ≠ approved review.** The 100-card directory is a useful interface and queue; it is not evidence that 100 brands are cleared. The current approval count remains **0/100** until documented sign-offs say otherwise. This document changes tracking and release controls only; it does not publish candidate reviews, run GitHub Actions, or deploy to Cloudflare.
+
+
+## Indexability reconciliation — 24 October 2026, 19:36 UTC
+
+The current PR #141 source has an intentional, internally consistent policy for the **directory itself**:
+- `brand-directory/index.html` declares `index,follow` and canonical `https://beincasinos.online/brand-directory/`.
+- The source `sitemap.xml` includes that canonical directory URL and contains 45 URLs.
+- `robots.txt` permits crawling and advertises the canonical sitemap.
+- The directory is explicitly labelled a research queue; entries are not presented as quality rankings, recommendations or completed consumer reviews.
+- Individual internal evidence drafts remain noindex and must stay outside the public artifact allowlist.
+
+This corrects older PR-body text that said the directory itself was noindex and omitted from the sitemap. Those statements no longer match the current branch source. **It does not mean the directory is deployed to production.** The last production observation recorded a 404, the Cloudflare preview's deployed commit was not identified, and no successful current-head CI run is confirmed. Keep the production release blocked until current-head checks pass and the owner authorizes deployment.
