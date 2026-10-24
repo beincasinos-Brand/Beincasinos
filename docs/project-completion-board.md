@@ -1,4 +1,18 @@
-# Latest repository QA checkpoint — 24 October 2026, 19:28 UTC
+# Latest repository QA checkpoint — 24 October 2026, 19:35 UTC
+
+- Source-level verification on current PR #141 head `825bf02fd3d3a79620bdcb891c5af37a92dd2884`: the directory has 100 cards and 100 unique displayed titles; its robots meta is `index,follow`; the canonical `https://beincasinos.online/brand-directory/` is present in the 45-URL source sitemap; `robots.txt` allows crawling and advertises that sitemap. This is the source/branch policy, not proof of current production deployment.
+- The directory's 100-row image register contains 50 current candidate-image references; HTML has 50 candidate references, and no candidate has a live `src`. All 50 image candidates remain rights-pending; visible monogram fallbacks remain the safe default.
+- The latest production observation still recorded `https://beincasinos.online/brand-directory/` as 404. No merge or production deployment has been performed. The prior Cloudflare preview fetch returned index,follow and 45 sitemap URLs but did not expose its exact deployed commit SHA; do not claim the preview matches this head.
+- PR #141 remains open, Draft and unmerged; current connector metadata reports 132 changed files. Tier-1 tracker: 114 data rows, 18 columns, zero malformed-width rows, zero duplicate brand/market keys, 97 blank global-brand IDs, 17 populated ID cells / 16 distinct IDs, 58 VERIFY domains, 111 HOLD rows, one generic Exclude and two category exclusions. The Fanatics Casino NJ row now maps to existing canonical ID `fanatics-casino`; its exact current approved domain and legal/skin relationship remain unresolved. The 100-card directory and 114 prospect rows are not 100 verified eligible operators or 100 finished reviews.
+- Approved consumer reviews remain **0/100**. Betsson Sweden's current official URL lookup lists both Betsson Nordic Ltd and Spin Nordic Ltd; the exact current contract/license-holder mapping remains unresolved. The existing internal dossier and registry audit now record this conflict. The Danske Spil dossier has a fresh official regulator/consumer-page check; its public terms still display 2022/2023 effective-date language.
+- GitHub Actions run 40124827950 was retried (attempt 2) on older commit `edf557f64130949b605d6dca2c18bd28950c8187`; it failed in about two seconds with runner ID 0, empty runner name, and no steps. The current PR head has no confirmed workflow run/status at this checkpoint. CI is **not passing or verified**; this runner symptom does not identify a failing source step.
+- Indexability policy is now stated explicitly for this branch: the directory is a transparent, indexable **research queue**, not a recommendation/ranking or a set of completed reviews. Internal evidence drafts remain outside public routes and artifact allowlists. Keep the production release blocked until current-head build/browser checks pass and the owner authorizes deployment.
+
+**Next:** obtain a successful full workflow run on the current PR head; verify Cloudflare preview freshness and the production route only after explicit release authorization; continue market-specific source evidence, rights clearance, independent review and legal/editorial approval.
+
+---
+
+# Historical repository QA checkpoint — 24 October 2026, 19:28 UTC
 
 - The latest live fetch of the Cloudflare branch-preview alias returns `/brand-directory/` with `index,follow` and canonical `https://beincasinos.online/brand-directory/`; `/sitemap.xml` contains 45 URLs including the research directory. The fetched page reports zero loaded brand images, consistent with the image-rights gate. The fetch did not expose the exact deployed commit SHA.
 - Production `https://beincasinos.online/brand-directory/` was last observed as 404; no production deployment or merge has been made. Treat production availability as a remaining release blocker until the owner approves deployment and the live route is verified.
