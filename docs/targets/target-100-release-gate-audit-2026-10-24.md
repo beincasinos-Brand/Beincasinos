@@ -5,7 +5,7 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Verified counts
 - Ledger rows: 100; columns: 43.
-- Bonus/promotion URL populated: 38 rows; blank: 62 rows. A populated URL is only a source lead, not confirmation that the offer is current or fully verified.
+- Bonus/promotion URL populated: 50 rows; blank: 50 rows. A populated URL is only a source lead, not confirmation that the offer is current or fully verified.
 - Image source URL populated: 0; image-rights status pending: 100.
 - Overall score: NOT SCORED for 100; review status HOLD for 100; publication status HOLD for 100.
 - Deposit-method URL: 0 populated; fees/limits URL: 0 populated; accessibility evidence URL: 0 populated; regulatory-actions URL: 0 populated; ADR URL: 0 populated.
@@ -56,3 +56,11 @@ The commit-status API returned no status checks and the workflow-run lookup retu
 - Added official first-party offer/promotion sources for SNAI Italy, PlatinCasino Spain and Betfair Casino Italy.
 - The ledger now contains **49/100** bonus/promotion source URLs; **51/100** remain blank. The entries explicitly distinguish Fun Bonus/play credit from cash, separate casino from sportsbook offers, and record the 30-day wait before promotions at PlatinCasino Spain.
 - All 100 entries remain NOT SCORED / HOLD. No review approval, user testing, image-rights clearance, merge or Cloudflare deployment is claimed.
+
+
+## Follow-up source batch 05 — 24 October 2026
+
+- Added the official Play Gun Lake promotions destination (Michigan) after the operator help center pointed to its current promotions page. The help content explains offer-specific opt-in, promo-code, qualifying-wager and eligible-game requirements, but did not verify a current named welcome offer or its complete terms.
+- Ledger structural check: 100 rows / 43 columns; bonus/promotion URLs now populate **50/100 rows** and **50/100 remain blank**. These are research leads only, not approved bonus claims.
+- All 100 entries remain NOT SCORED / review HOLD / publication HOLD. Consumer tests remain NOT PERFORMED and image-rights clearance remains pending for all 100.
+- No merge or Cloudflare Pages production deployment was performed. CI remains unconfirmed; no passing check is claimed.
