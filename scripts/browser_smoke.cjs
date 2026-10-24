@@ -12,7 +12,7 @@ const routes = [
   "/guides/house-edge-explained/", "/guides/probability-vs-rtp/", "/guides/maximum-bet-rules-explained/",
   "/guides/casino-affiliate-deal-models/", "/guides/random-outcomes-and-gambling/",
   "/guides/return-to-player-rtp-explained/", "/guides/rtp-vs-volatility/",
-  "/how-we-review/", "/market-research/", "/partners/", "/privacy/",
+  "/how-we-review/", "/market-research/", "/partners/", "/privacy/", "/brand-directory/",
   "/responsible-gambling/", "/reviews/", "/terms/", "/tools/terms-checklist/",
   "/tools/wagering-calculator/"
 ];
@@ -83,6 +83,25 @@ const routes = [
     }
 
     if (axeIssues.length) throw new Error("axe WCAG 2.1 A/AA violations:\n" + axeIssues.join("\n"));
+
+    // Exercise the research directory's live search and the image-rights release gate.
+    await page.goto(baseURL + "/brand-directory/", { waitUntil: "domcontentloaded" });
+    const directoryCards = await page.locator(".brand-card").count();
+    if (directoryCards < 50) throw new Error("brand directory loaded fewer than 50 research cards (" + directoryCards + ")");
+    const candidateLogos = page.locator('.brand-logo-image[data-image-rights="pending"]');
+    if (await candidateLogos.count() === 0) throw new Error("brand directory has no pending logo candidates to validate");
+    if (await page.locator('.brand-logo-image[data-image-rights="pending"][src]').count() !== 0) {
+      throw new Error("brand directory loaded a remote logo before image rights were cleared");
+    }
+    if (await page.locator(".brand-logo-fallback[hidden]").count() !== 0) {
+      throw new Error("brand directory hid a fallback monogram while logo rights are pending");
+    }
+    await page.locator("#brand-search").fill("admiral.ch");
+    const filteredCards = await page.locator(".brand-card:not([hidden])").count();
+    if (filteredCards !== 1) throw new Error("brand directory search did not isolate admiral.ch (found " + filteredCards + ")");
+    await page.locator("#clear-filters").click();
+    const resetCards = await page.locator(".brand-card:not([hidden])").count();
+    if (resetCards !== directoryCards) throw new Error("brand directory clear-filters did not restore all cards");
 
     const cspErrors = [];
     const cspPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
@@ -185,7 +204,7 @@ const routes = [
     }
 
     if (errors.length) throw new Error("browser runtime errors: " + errors.join(" | "));
-    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA automated scans, accessibility smoke checks, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
+    console.log("PASS: " + routes.length + " public routes at 320/375/390/768/1024/1440px widths, axe WCAG 2.1 A/AA scans, accessibility smoke checks, brand-directory search/reset and unapproved-image blocking, mobile navigation, calculator valid/zero/invalid/extreme inputs, checklist progress/reset, and no page errors.");
   } finally {
     await browser.close();
   }
