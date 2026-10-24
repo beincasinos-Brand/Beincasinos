@@ -1,3 +1,17 @@
+# Latest checkpoint — 24 October 2026, 18:24 UTC
+
+- **100-target slate validation:** parsed the provisional review slate and confirmed exactly 100 numbered rows, 100 distinct global-brand IDs, zero duplicate IDs, and no missing official URL, legal-entity field or regulator/register URL. These are evidence-backed research targets, not approved reviews; every row remains HOLD.
+- **Cloudflare preview SEO smoke check:** the existing branch preview responds for the home page, /brand-directory/, /reviews/, robots.txt and sitemap.xml. Home page title/description/canonical metadata are present. The research directory returns robots: noindex,follow and is absent from the sitemap. The sitemap lists 44 canonical https://beincasinos.online/ URLs, and robots.txt exposes the canonical sitemap. This is a read-only check of the existing preview alias; it does not prove that the alias serves the latest commit or replace browser/accessibility tests.
+- **CI is not executing:** the latest observed run 40120440984 for head d9ed4a644b0e7caf559d26544d4511b4f11669f failed after about two seconds, with runner ID 0 and zero steps; the rerun of an earlier failure had the same outcome. Logs are unavailable. Public GitHub Community reports describe the same symptom in other repositories, but that does not prove a shared root cause. Do not change the workflow's correct ubuntu-latest label on this evidence alone; preserve run/job IDs and escalate to GitHub Support if the next retry repeats.
+- **Holland Casino Online:** first-party eligibility, under-24 restrictions, login-time limits, support channels and optional automatic-withdrawal-limit disclosures are captured in the dossier and trackers. Terms/privacy reads return HTTP 403 to the research fetcher; the current Ksa public profile still displays the prior permit period, so domain notification under the renewed permit remains unresolved.
+- **Betano Belgium:** fresh live English and French A+ table views agree on dossier 20000, decision 12 Nov 2024, expiry 31 Dec 2026. The Tier-1 tracker date field is aligned; stale indexed 2019/2034 text is superseded.
+- **Data integrity:** Tier-1 prospect tracker has 114 data rows × 18 columns, zero malformed rows or duplicate brand/market keys. Broader research template has 207 data rows × 33 columns, zero malformed rows.
+- **Release state:** PR #141 remains open, Draft and unmerged with 126 changed files. No production deployment or merge was made. Approved reviews remain 0/100; all targets remain HOLD.
+
+**Next:** resolve the runner-start failure through GitHub Support or an authorized local CI path; confirm the current Ksa domain notification for Holland Casino; continue current terms/cashier capture and independent review.
+
+---
+
 # Latest checkpoint — 24 October 2026, 18:22 UTC
 
 - **Cloudflare preview SEO smoke check:** the existing branch preview responds for the home page, /brand-directory/, /reviews/, robots.txt and sitemap.xml. Home page title/description/canonical metadata are present. The research directory returns robots: noindex,follow and is absent from the sitemap. The sitemap lists 44 canonical https://beincasinos.online/ URLs, and robots.txt exposes the canonical sitemap. This is a read-only content/SEO check of the existing preview alias; it does not prove that the alias serves the latest commit or replace browser/accessibility tests.
