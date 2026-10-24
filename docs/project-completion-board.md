@@ -366,3 +366,11 @@
 - Captured dated official promotion-page observations for TOTO Casino (Netherlands) and Lottomatica (Italy) in the 43-column ledger, increasing the number of official bonus-source URLs recorded from six to eight. Internal evidence note: `docs/reviews/internal/bonus-snapshot-toto-nl-lottomatica-it-2026-10-24.md`.
 - TOTO's official promotions page showed separate 200-free-spins and €50 live-casino free-chip headlines with qualifying-play conditions; Lottomatica's official page advertised “up to €10,030” for new registrants with an indicated validity window through 1 November 2026. These are volatile headlines, not complete bonus-term verifications.
 - Both rows remain `NOT CLEARED FOR PUBLICATION`; wagering, expiry, eligible games, maximum cashout, exclusions and complete offer terms still require reconciliation. No offer was promoted to a public review, and no first-hand gameplay/payment testing is claimed.
+
+
+# Second market-specific bonus evidence pass — 24 October 2026
+
+- Added official-page snapshots for ComeOn Sweden and PlayNow British Columbia to `docs/reviews/internal/bonus-snapshot-comeon-se-playnow-bc-2026-10-24.md`; the ledger now has ten official bonus-source URLs recorded across the candidate list.
+- PlayNow's official 2026/2027 PDF states the BC period 1 April 2026–31 March 2027, $5 minimum initial deposit, up to $1,500 match, 100% spend-through of the initial deposit, 20x token wagering, 14-day token use window and 30-day held-funds expiry; exclusions include Live Casino, Baccarat, Sic Bo and Roulette. Recheck before publication.
+- ComeOn Sweden's official page describes a 300% bonus up to SEK 750, 100 spins, SEK 250 minimum deposit and 20x wagering, but its stated start date is anomalous (`04/06/224`) and the page's current validity is not established. It remains explicitly date-conflicted and on HOLD.
+- Both records remain not cleared for publication. These observations do not constitute a consumer experience test, and no bonus was claimed.
