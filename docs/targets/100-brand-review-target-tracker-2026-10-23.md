@@ -249,3 +249,16 @@ These counts describe the working branch snapshot, not a production deployment. 
 ## Work update — 24 October 2026
 
 Added five differentiated, internal evidence-led draft sections in `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md` for BetVictor Casino (GB), Coral Casino (GB), Ladbrokes Casino (GB), Sky Vegas Casino (GB), and 888casino (Sweden). Each draft preserves market scope, identifies source-supported findings, states evidence limits, and lists the remaining approval gates. These are internal HOLD drafts, not consumer-ready pages; no firsthand testing is claimed. **Publication approvals remain 0/100.** The directory remains noindex and no production deployment was performed.
+
+
+## Draft-batch reconciliation — 24 October 2026
+
+The original tracker inventory above predates the later batch files below. To prevent the count from being read as a complete inventory, record the additional market-specific draft sections separately. Some entries are the same brand in different markets, and all remain HOLD:
+
+- `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md` — 5 sections: BetVictor (GB), Coral (GB), Ladbrokes (GB), Sky Vegas (GB), 888casino (Sweden).
+- `docs/reviews/internal/market-review-draft-batch-2026-10-24-b.md` — 5 sections: BetMGM (New Jersey), Holland Casino Online (Netherlands), TOTO (Netherlands), Betsson (Sweden), SolCasino (Spain).
+- `docs/reviews/internal/market-review-draft-batch-2026-10-24-c.md` — 5 sections: William Hill (GB), Betfred (GB), Betway (GB), Luckia (Spain), William Hill (Spain).
+- `docs/reviews/internal/market-review-draft-batch-2026-10-24-d.md` — 5 sections: bet365 (GB), Betano (GB), Betfair (GB), Paddy Power (GB), Grosvenor (GB).
+- `docs/reviews/internal/market-review-draft-batch-2026-10-24-e.md` — 5 sections: Virgin Games (GB), PlayOJO (GB), Mr Green (GB), Videoslots (GB), Midnite (GB).
+
+These five batch files contain 25 market-specific draft sections, not 25 approved reviews or necessarily 25 distinct global brands. Several overlap the original evidence inventory or repeat a brand across markets. They do not change the approval ledger: **publication-approved reviews remain 0/100**. Every item requires the original quality gates, current primary-source rechecks, independent second review and editorial/legal approval. No live deployment is implied by these internal files.
