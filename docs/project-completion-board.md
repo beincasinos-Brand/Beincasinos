@@ -569,3 +569,10 @@
 
 - Recorded source-access limitations for Tipico Casino (DE-SH scope), Oranje Palace (NL) and Betcity (NL) in the canonical ledger: Tipico and Betcity returned HTTP 403; Oranje Palace was bot-blocked. No current casino welcome bonus was inferred from those pages.
 - 888.nl's homepage mentions Dutch welcome bonuses, but the promotions route returned a client-side exception; its offer remains unverified. These are explicit research blockers, not fabricated zero-value ratings.
+
+
+# Canonical visual-asset rights audit — 24 October 2026
+
+- The public directory has 100 cards: **50** have a candidate image source explicitly marked rights pending; **50** use an editorial fallback because no approved/reusable logo source is recorded. No image is treated as cleared for reuse.
+- The canonical ledger now tracks these image-source URLs and rights states per public brand. The page continues to use the fallback where appropriate and does not imply that an official-site image is licensed for reuse.
+- Bonus/source lead count is now **13/100** for the public-directory-aligned ledger; all 13 remain NOT CLEARED. The separate cross-market research ledger is archived with 57 bonus-source URLs and must not be mixed into the public directory without exact brand/market matching.
