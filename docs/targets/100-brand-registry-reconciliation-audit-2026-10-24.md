@@ -43,3 +43,39 @@ This audit is a registry consistency snapshot only. It is not a legal opinion, c
 The current official Belgian Gaming Commission A+ table surfaces **10 domain/brand records under 9 A+ licence dossiers**: Casino777, Napoleon, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes, Unibet, bwin and Betsson Casino. Circus and PokerStars.be share dossier 20635 / SA/NV GAMBLING MANAGEMENT. Dossier 595153 is currently surfaced with `betssoncasino.be` and SA/NV EXPLOITATIE CASINO MIDDELKERKE (listed expiry 22 February 2039); earlier project evidence referred to `betfirstcasino.be`. This discrepancy is a domain/brand transition to investigate, not a reason to infer continuity of the customer contract. All ten domain records remain HOLD, and the Belgian batch adds **0 approved reviews**.
 
 Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
+
+
+## Detailed market-row reconciliation — 24 October 2026
+
+The same CSV snapshot breaks down as follows. These are **raw rows**, not eligible or unique global brands.
+
+| Market code | Rows | Scope caveat |
+|---|---:|---|
+| GB | 23 | Match current Casino Remote permission, exact live domain, contract and enforcement |
+| IT | 46 | Large lead buffer; verify casino vertical and active ADM concession |
+| ES | 19 | Match current DGOJ casino permission and exact product/domain |
+| US-NJ | 30 | New Jersey only; multiple brands may share licensed casino affiliates |
+| US-MI | 14 | Michigan only |
+| US-PA | 1 | Pennsylvania-specific lead |
+| CA-ON | 13 | Ontario only; not all Canada |
+| CA-BC | 1 | British Columbia only |
+| CA-QC | 2 | Québec-specific product and operator checks |
+| CH | 10 | ESBK platform association does not replace game-specific permission or contract check |
+| BE | 10 | A+ domain leads; nine dossier rows in the current surfaced table because Circus/PokerStars share one record and Betsson is now surfaced on the current domain |
+| NL | 8 | Check shared operators and exact Ksa product/domain |
+| SE | 7 | Current domain-specific licence and terms required |
+| DE | 13 | Mixed nationwide and category/state-specific leads |
+| DE-SH | 1 | Schleswig-Holstein-specific; reconcile overlap with DE |
+| FR | 2 | Online casino is not generally authorised; do not count these as eligible casino brands without a lawful product-specific basis |
+| UNCONFIRMED | 3 | Not countable until market and local route are evidenced |
+| EXCLUDED | 1 | Archive only |
+
+Repeated global identities include bet365 (5 rows), 888casino (4), PokerStars (4), Betsson (4), Betway (3), LeoVegas (3), Unibet (3), bwin (3), Betano (3), BetMGM (3), DraftKings (3), FanDuel (3), BetRivers (3), Hard Rock Bet (3) and Fanatics (3). Count each canonical brand once globally even if multiple market-specific reviews are later approved.
+
+## Scope-triage identities and exclusions
+
+Seven canonical IDs have at least one scope-triage record: ComeOn Casino, Betano, Betsson, NordicBet Casino, Betclic, Winamax and Espacejeux. Three records remain in UNCONFIRMED (Betsson, NordicBet Casino and Rizk) and must not count until a named target market and local route are evidenced. Two rejected rows are 32Red (inactive current GB casino permission/domain) and Betfred (Spain casino permission extinguished in 2023); the latter rejection applies to the Spanish row, not automatically to unrelated markets.
+
+## Belgium source correction
+
+The current surfaced Belgian A+ table associates dossier 595153 with betssoncasino.be, Casino Middelkerke x Betsson, SA/NV EXPLOITATIE CASINO MIDDELKERKE, listed expiry 22 February 2039. An earlier captured row associated that dossier with betfirstcasino.be. This is a material domain/brand transition and remains HOLD until the current live legal footer and customer contract are matched. The separate B+ leads are not counted as A+ casino licences.
