@@ -618,3 +618,113 @@ Each package has its own title, meta description, H1, search intent, section ord
 Added distinct metadata, search-intent, section-order and rights-aware image briefs for five additional Great Britain candidates: bet365 Casino, Betano Casino, Betfair Casino, Paddy Power Casino and Grosvenor Casino. The briefs explicitly separate online casino evidence from sportsbook offers and land-based venue information.
 
 The running total of newly documented SEO/page-structure packages in this sequence is now **20 market-review candidates** across the GB, NJ, NL, SE and ES queues. This is planning and draft-structure progress only; it does not mean 20 complete reviews. **Publication approvals remain 0/100**, and the drafts stay HOLD/noindex pending evidence completion, image-rights clearance and independent editorial/legal review. Cloudflare production deployment remains unverified; no GitHub Actions run was intentionally triggered.
+
+
+## Directory card list — source-checked 24 October 2026
+
+A read-only markup count of `brand-directory/index.html` on this branch found **100 brand-card articles and 100 displayed titles**. This confirms the static directory list exists in the working branch; it does not mean all 100 brands are verified or that the branch is deployed to Cloudflare. The directory intentionally remains `noindex,follow`.
+
+The exact displayed card-title list at this checkpoint is:
+
+001. admiral.ch
+002. casineo.ch
+003. Tipico Casino
+004. jollie.de
+005. Winz.nl
+006. Starcasino.nl
+007. 888.nl
+008. GetLucky
+009. Oranje Palace
+010. Betsuna
+011. BetTOM
+012. Ivy Casino
+013. Stakemate
+014. Smooth Spins
+015. AK Bets
+016. Planet Sport Bet
+017. Betmaster
+018. ThreeSix Vegas
+019. Ember Casino
+020. Horseshoe Online Casino (Michigan)
+021. Vegas Club Casino
+022. Betinia Casino
+023. Imperial Treasures Casino
+024. BigBangBet
+025. Silkbet
+026. TOTO
+027. Holland Casino Online
+028. Kansino
+029. FairPlay Casino
+030. Bingoal
+031. bet365
+032. Betcity
+033. Bet Ahoy Ltd
+034. Brillbet
+035. Betty Casino
+036. Casushi
+037. FruitKings
+038. Betcrown
+039. BetLegend
+040. BetNero
+041. 247Bet
+042. Casiku
+043. Midnite
+044. Stakewise
+045. 44Aces
+046. Casino and Friends
+047. Peachy Games
+048. Play Sunny
+049. Neptune Play
+050. PlayWins
+051. BetFusion
+052. Megaways Casino
+053. BestOdds
+054. LuckyMate Casino
+055. 7Bet Casino
+056. Justin Casino
+057. Quickbet
+058. Los Vegas
+059. O'Reels Casino
+060. QuinnBet Casino
+061. LottoGo Casino
+062. Kong Casino
+063. BetMaze
+064. BetWright
+065. Rose Casino
+066. MogoBet
+067. TigerBet
+068. Fun Casino
+069. Lucky 7 Casino
+070. Tonybet
+071. Hard Rock Casino
+072. BetMGM
+073. Hommerson Online
+074. VBET
+075. Monopoly Casino
+076. Horseshoe Casino
+077. Fanatics Casino
+078. Hollywood Casino
+079. Hard Rock Bet
+080. Mohegan PA Casino
+081. theScore Bet
+082. Proper Bet
+083. Betta Bet
+084. Rollerbet
+085. Conquer Casino
+086. PricedUp Casino
+087. Rialto
+088. Mega Riches
+089. Puntit Casino
+090. Lottoland Casino
+091. Bally Casino UK
+092. GeckoPlay
+093. Alfobet
+094. 21LuckyBet
+095. DynoBet
+096. Spin King
+097. Bet442
+098. Funky Jackpot
+099. London.bet Casino
+100. BetGoodwin Casino
+
+**Important reconciliation note:** This directory-card set is not the same as the 100-ID research workqueue. Card titles are candidate labels, not proof of 100 distinct global operators. Several require alias/domain/market deduplication and regulator checks. Do not call the list “100 verified brands” until the card set is reconciled against the global-ID queue and market-specific licence/domain evidence. Publication-approved reviews remain 0/100; this commit is documentation only, not a production deployment.
