@@ -305,3 +305,10 @@
 - Added [internal regulator evidence batch 03](reviews/internal/regulator-evidence-batch-03-2026-10-24.md) for candidates 17–25: Napoleon Casino (BE), Unibet (SE), Winnitt (NL), Tipico (DE-SH), Mycasino.ch (CH), Sisal (IT), Luckia (ES), DraftKings (Ontario) and Espacejeux (Québec).
 - Updated nine ledger blocker/evidence notes with market-specific official-source findings. The batch flags unresolved DraftKings Ontario domain mapping and possible Espacejeux/Loto-Québec duplicate identity, and preserves Tipico's Schleswig-Holstein-only online-casino scope.
 - Batches 01–03 now document dated regulator evidence for 24 candidate rows (row 16 also has an official offer snapshot but remains incomplete). These are source checks, not approved reviews; all candidates remain HOLD and no score is assigned.
+
+
+## Regulator evidence batch 04 — 24 October 2026
+
+- Added [internal regulator evidence batch 04](reviews/internal/regulator-evidence-batch-04-2026-10-24.md) for candidates 26–35.
+- Updated ten ledger rows with dated regulator-source evidence. Material current findings include Betfred's £900,000-in-lieu settlement announced 30 June 2026 for remote customer-interaction/social-responsibility failings, plus its £240,000 technical-standards penalty in 2025; Betsson's SEK 6.5m AML sanction upheld by the administrative court in July 2026 with further appeal noted; and Betway's GGL entry supporting virtual slots/sports betting, not a separately evidenced full online casino.
+- Batches 01–04 now provide dated regulator evidence for 34/100 candidates; 888casino (row 16) also has a regulator record URL and official bonus snapshot. This is not review completion. All 100 remain HOLD and no scores are assigned.
