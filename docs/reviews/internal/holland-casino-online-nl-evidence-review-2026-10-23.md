@@ -39,6 +39,8 @@ The operator's current public Help Center adds specific eligibility and safer-ga
 
 - **Eligibility (Help Center updated 4 February 2026):** age 18+; users under 24 are described as having a monthly deposit limit of **€149** and being excluded from bonuses/offers. The operator says registration requires Dutch citizenship or a Dutch residence permit, followed by identity/nationality verification. These are operator-published disclosures, not an independent test.
 - **Login-time limits (Help Center updated 26 August 2026):** the operator says players can set daily, weekly and monthly login-time limits; the daily maximum is eight hours; reducing a limit takes effect immediately, while increasing it takes seven days.
+- **Customer support (Help Center article published 23 June 2025):** the operator publishes phone **088 0900 567** and email **ondersteuning@hollandcasino.nl** as available 24/7; live chat is listed for 09:00–02:00 and requires a logged-in account. These are published channels, not tested service quality.
+- **Automatic withdrawal limit (Help Center updated 4 February 2026):** this optional account tool transfers balance above a user-set threshold to a registered bank/payment method, leaving a selected minimum balance. The operator says raising the limit takes seven days and that an automatic withdrawal can take up to 48 hours to be approved, processed and credited. This is not a general guarantee for ordinary withdrawal requests and has not been tested.
 - **Terms route:** the first-party page links to https://www.hollandcasino.nl/terms-conditions, but the current read-only fetch returned HTTP 403. This is a research-access limitation, not proof that the terms are absent or that the service is unavailable.
 - **Current public Ksa profile:** https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/ still shows the prior permit period ending 1 October 2026 while listing Holland Casino Online and hollandcasino.nl. This historical profile corroborates the prior brand/domain association but does **not** establish that the domain was reported under the renewed permit effective 1 October 2026. Keep the domain/renewal match as a publication blocker until the current Kansspelwijzer entry is updated or the Ksa confirms it.
 
@@ -48,6 +50,8 @@ Sources:
 - Ksa public Kansspelwijzer profile: https://openovergokken.nl/kansspelwijzer/holland-casino-n-v-2/
 - First-party eligibility help: https://support.hollandcasino.nl/hc/nl/articles/7205769344017-Wie-mag-spelen-bij-Holland-Casino-Online
 - First-party login-time limit help: https://support.hollandcasino.nl/hc/nl/articles/7218287805329-Wat-zijn-Inloglimieten-en-hoe-kan-ik-deze-instellen
+- First-party support channels: https://support.hollandcasino.nl/hc/nl/articles/7212910880017-Hoe-kan-ik-de-Servicedesk-van-Holland-Casino-Online-bereiken
+- First-party automatic withdrawal limit: https://support.hollandcasino.nl/hc/nl/articles/7218160492561-Wat-is-een-Automatisch-Opnamelimiet-en-hoe-kan-ik-deze-instellen
 - First-party terms route: https://www.hollandcasino.nl/terms-conditions
 
 ## Consumer evidence still required
