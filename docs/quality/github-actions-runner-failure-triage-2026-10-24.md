@@ -32,3 +32,16 @@ For run 40124827950, the job endpoint returned a completed failed job with `step
 5. Keep production deployment blocked until the current-head build and browser checks pass and explicit owner authorization is given.
 
 **Release decision:** CI gate remains **BLOCKED / UNVERIFIED**. No merge, production deployment, or review approval is implied by this incident memo.
+
+## Retry result — 24 October 2026, 19:34 UTC
+
+A retry was requested for failed run **40124827950**. GitHub created attempt 2, job **120967089141**, but it failed again in about two seconds with:
+
+- `runner_id: 0`
+- `runner_name: ""`
+- `runner_group_id: 0`
+- `steps: []`
+
+Run link: https://github.com/beincasinos-Brand/Beincasinos/actions/runs/40124827950
+
+This confirms the retried run again failed before any workflow step started. It still does not reveal the underlying GitHub-side runner allocation reason. The retried run targets older commit `edf557f64130949b605d6dca2c18bd28950c8187`, not the current PR head; it is diagnostic evidence of the repeated runner symptom, **not a current-head CI result**.
