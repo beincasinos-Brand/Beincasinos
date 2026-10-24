@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Regression tests for robots meta directives used by sitemap validation."""
 import unittest
+from pathlib import Path
 from scripts.robots_meta import InlineEventHandlerParser, RobotsMetaParser
 
 
@@ -8,6 +9,21 @@ def parse(html):
     parser = RobotsMetaParser()
     parser.feed(html)
     return parser.noindex
+
+
+
+class PrelaunchRobotsPolicyTests(unittest.TestCase):
+    def test_repository_robots_blocks_all_crawling_until_launch_approval(self):
+        root = Path(__file__).resolve().parents[1]
+        robots = (root / "robots.txt").read_text(encoding="utf-8")
+        self.assertRegex(robots, r"(?im)^User-agent:\\s*\\*\\s*$")
+        self.assertRegex(robots, r"(?im)^Disallow:\\s*/\\s*$")
+        self.assertNotRegex(robots, r"(?im)^Allow:\\s*/\\s*$")
+
+    def test_repository_robots_keeps_canonical_sitemap_for_later_release(self):
+        root = Path(__file__).resolve().parents[1]
+        robots = (root / "robots.txt").read_text(encoding="utf-8")
+        self.assertRegex(robots, r"(?im)^Sitemap:\\s*https://beincasinos[.]online/sitemap[.]xml\\s*$")
 
 
 class InlineEventHandlerParserTests(unittest.TestCase):
