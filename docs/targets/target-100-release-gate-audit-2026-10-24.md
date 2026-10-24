@@ -5,13 +5,13 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Current structural result
 - Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
-- Official consumer-facing domain URL: **58/100** populated; 42 blank. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
+- Official consumer-facing domain URL: **59/100** populated; 41 blank. Slot 28 (Kansino) now has its official consumer domain, but its licence reference differs across current official pages and remains on HOLD pending Ksa reconciliation. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
 - Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
-- Terms URL: **19/100**.
+- Terms URL: **20/100**.
 - Bonus/promotion URL: **15/100**. All populated promotion links remain source leads unless individually cleared against current market-specific terms; no offer is approved for publication.
-- Complaints URL: **10/100**; responsible-gambling URL: **20/100**.
-- Deposit-method URL: **13/100**; fees/limits URL: **13/100**; withdrawal URL: **12/100**.
-- Privacy/cookies URL: **14/100**; accessibility evidence URL: **0/100**.
+- Complaints URL: **11/100**; responsible-gambling URL: **21/100**.
+- Deposit-method URL: **14/100**; fees/limits URL: **14/100**; withdrawal URL: **13/100**.
+- Privacy/cookies URL: **15/100**; accessibility evidence URL: **0/100**.
 - Regulatory-action URL: **1/100**; ADR/dispute URL: **1/100**. A regulator complaint process is not private ADR unless the source explicitly establishes that.
 - Image-source URL: **50/100**. For those 50, image rights status remains **PENDING — SOURCE FOUND · RIGHTS PENDING**; the other **50/100** are marked **NOT FOUND — editorial fallback required**. No image is cleared merely because a source URL exists.
 - Overall score: **NOT SCORED for 100/100**.
@@ -118,3 +118,12 @@ These are public documentation leads only. No account creation, deposits, gamepl
 
 ## CI and deployment status
 The available workflow-run lookup returned no PR-triggered runs for the inspected commit. **CI is unconfirmed, not passed.** This work does not merge PR #141, change DNS/indexing, or deploy Cloudflare Pages. The hosting target remains **Cloudflare Pages**, not Vercel.
+
+
+## Source batch 20 — latest snapshot
+- Added `docs/reviews/internal/operator-source-batch-20-2026-10-24.md` with primary-source evidence for Kansino (slot 28), Silkbet (slot 25) and Betty (slot 35).
+- Kansino now has its official consumer domain, current terms (version 1.16 effective 19 October 2026), payment/withdrawal, safer-gambling, privacy/cookies and regulator-escalation links recorded. The terms describe iDEAL/Wero via Trustly deposits, Trustly withdrawals, required account limits, a seven-day limit-increase cool-off and CRUKS connection. **Hard hold:** current official Kansino pages state differing licence references/dates; verify against the Ksa register before scoring or publication. Offer remains uncleared; no transaction tested.
+- Silkbet's UKGC register entry identifies Silkbet Limited (account 101183) and active remote casino/betting activities from 7 May 2026, but full consumer terms and payment/protection evidence remain uncaptured.
+- Betty's official homepage advertises 50 free spins with a £20 minimum first deposit and 48-hour validity, and makes withdrawal-speed claims. These are operator claims, not independently tested; offer-specific terms remain unreviewed.
+- Latest canonical ledger parse after this batch: 100 rows × 43 columns; zero duplicate slot IDs and zero duplicate brand/market pairs. Official domains 59/100; official-register URL field presence 100/100; terms 20/100; promotion links 15/100; complaints 11/100; responsible-gambling 21/100; deposits 14/100; fees/limits 14/100; withdrawals 13/100; privacy/cookies 15/100; accessibility 0/100; regulatory-action 1/100; ADR 1/100; image sources 50/100.
+- All 100 remain NOT SCORED/HOLD; image rights, independent review, consumer testing, affiliate disclosure and evidence-bundle gates remain open. CI unconfirmed; no merge or Cloudflare Pages deployment.
