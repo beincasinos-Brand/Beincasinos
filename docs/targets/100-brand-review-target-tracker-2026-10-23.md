@@ -833,3 +833,8 @@ Added official safer-gambling source URLs for Betway Casino and Betfred Casino (
 ## Great Britain consumer-policy source-link pass — 24 October 2026
 
 Added official consumer-policy source links for bet365 Casino, William Hill Casino, Grosvenor Casinos and Paddy Power Games in `docs/brand-research-template.csv`. Source URLs and scope limitations are recorded in `docs/quality/gb-consumer-policy-source-link-pass-2026-10-24.md`; structural follow-up is in `docs/quality/gb-source-link-pass-structural-follow-up-2026-10-24.md`. This is source documentation, not hands-on consumer testing or a completed review. All four records remain HOLD, approved consumer reviews remain 0/100, and no GitHub Actions workflow or Cloudflare deployment was intentionally triggered.
+
+
+## Official consumer-policy source-link pass B — 2026-10-24
+
+Added official policy-source links for **Sky Vegas, Ladbrokes Casino, and Coral Casino** in `docs/brand-research-template.csv`; all three remain `HOLD`. The CSV remains 204 market-specific records / 33 columns. Field-presence counts changed from 8 to 11 withdrawal/payment URLs, 7 to 9 complaint/ADR URLs, and 12 to 15 safer-gambling URLs; terms remain 23, partnership contacts 0, privacy/tracking reviews 142, and named reviewers 184. Full evidence and limitations: [GB consumer-policy source-link pass B](gb-consumer-policy-source-link-pass-2026-10-24-b.md). These are source-link updates only, not consumer tests or approved reviews. No GitHub Actions run, merge, or Cloudflare deployment was performed.
