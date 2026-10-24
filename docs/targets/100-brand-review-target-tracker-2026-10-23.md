@@ -760,3 +760,10 @@ The exact displayed card-title list at this checkpoint is:
 - Added five tailored, market-specific on-page SEO briefs to `docs/reviews/internal/gb-review-draft-batch-2026-10-24.md`: Smooth Spins (GB), Planet Sport Bet (GB), Betmaster UK (GB), London.bet Casino (GB), and BetGoodwin Casino (GB).
 - Each brief now has a distinct title, meta description, H1, search intent, suggested evidence-led section structure and explicit publication blockers. London.bet's documented regulator/domain lead is labelled as research evidence, not hands-on testing.
 - This is SEO drafting work only. It adds **0** approved reviews; approved consumer reviews remain **0/100**. It does not change the 53 internal evidence-draft count, verify new licence facts, create public routes, clear image rights, run GitHub Actions, deploy to Cloudflare, or prove indexing.
+
+
+## Follow-on work — five additional market-specific page briefs (24 October 2026)
+
+Added tailored SEO/page-structure briefs for Admiral Casino (Switzerland), casineo.ch (Switzerland), Winz.nl (Netherlands), Kansino (Netherlands), and Bingoal Casino (Belgium) in `docs/reviews/internal/market-review-draft-batch-2026-10-24-b.md`. Each brief specifies a distinct search intent and review structure, market-specific regulator/entity/domain checks, consumer-term and payment/complaint/RG/privacy evidence requirements, and a rights-aware image brief.
+
+**Status remains internal planning, not five completed reviews.** These briefs do not assert that any candidate is currently authorized or available, do not add approved reviews, and do not clear any image rights. All five remain HOLD until current primary-source evidence, complete consumer-term checks and independent editorial review are recorded. Approved reviews remain **0/100**. The 100-card directory remains a candidate list rather than 100 verified operators; production deployment and search indexing remain unverified. No GitHub Actions workflow was intentionally triggered.
