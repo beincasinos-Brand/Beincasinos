@@ -16,3 +16,10 @@
 - Added six market-specific target records to `docs/tier-1-master-prospect-tracker.csv` so the tracker represents all ten roadmap markets, not only GB/NL/CH/DE and US-state leads: Betano Casino Belgium (BE), Betsson Casino Sweden (SE), Danske Licens Spil Casino (DK), Luckia Casino Spain (ES), Sisal Casino Italy (IT), and Caesars Casino Ontario (CA-ON). Each row has regulator/source references, explicit HOLD status, market-specific blockers, and no inferred willingness-to-pay claim.
 - Re-parsed the full CSV with quote-aware handling: **112 data rows, 18 columns, zero width errors, zero duplicate brand/market keys, 108 blank global brand IDs, 58 VERIFY domains, zero UNKNOWN and two NOT APPLICABLE**. The six new rows are source-backed research leads, not completed reviews.
 - Updated the international priority board count to match the tracker. Approved reviews remain **0/100**. The PR is still Draft/unmerged and CI remains blocked by runner allocation; no deployment was made.
+---
+
+# Tracker coverage guardrail — 24 October 2026, 19:50 UTC
+
+- `scripts/check_prospect_tracker.py` now requires at least one tracker row in each roadmap market: GB, BE, SE, DK, ES, IT, NL, DE, CH and CA-ON. The goal is to prevent the six-market omission identified during the latest audit.
+- The latest quote-aware tracker audit reports 112 data rows, 18 columns, zero malformed-width rows, zero duplicate brand/market keys, 108 blank global IDs, 58 VERIFY domains, zero UNKNOWN and two NOT APPLICABLE.
+- Latest observed PR head `dda674d2f744d868a60b27bcfa70a658da152383` still has no successful CI: run `40118399486` failed before runner allocation. Release remains blocked; approved reviews remain 0/100.
