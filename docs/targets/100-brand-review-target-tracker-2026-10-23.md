@@ -750,3 +750,6 @@ The exact displayed card-title list at this checkpoint is:
 | Directory URL in branch sitemap | Yes |
 | Production Cloudflare state verified | No |
 | Google/Bing indexing confirmed | No |
+
+
+- **Default-branch comparison:** checked the repository default branch after the edits. `robots.txt` allows crawling and references the sitemap there, but `brand-directory/index.html` is absent from the default branch. Therefore the new directory and sitemap entry are still feature-branch work and are **not live by virtue of these commits**. Keep PR #52 as the review/release path; do not claim production indexing until the approved changes are merged, the Cloudflare deployment is confirmed, and live URL inspection succeeds.
