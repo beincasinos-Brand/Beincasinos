@@ -1,3 +1,15 @@
+# Latest work checkpoint — 24 October 2026, 17:55 UTC
+
+- Added an international priority board spanning ten market-specific reviews and a separate first-ten Great Britain work board. Both are internal task queues, not public rankings.
+- Corrected a material source-reading error in the Betano Belgium dossier and research tracker: the current retrieved A+ table row for dossier 20000 lists decision date 11 December 2019 and expiry 11 December 2034. The previous 2024/2026 dates and near-term-expiry warning were withdrawn. The official first-party Betano page identifies CAIB and A+ 20000/F+ 116777. Consumer terms and testing are still incomplete; review remains HOLD. See the dossier and the [official A+ table](https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en).
+- Updated the first ten candidate rows with existing evidence dossier references and concrete blockers; updated the Ladbrokes, Coral, Virgin Games and Betano entries in the research CSV.
+- PR #141 remains open, Draft and not merged, with 113 changed files. Latest commit status wrapper returns no statuses; that is not a CI pass. Recent Static site checks failed before runner allocation (runner ID 0, no steps), and logs were unavailable. Latest commit's preview freshness is not confirmed.
+- Approved consumer reviews remain **0/100**. No merge, production deployment, DNS change, crawl unblock, paid placement, or outreach was performed.
+
+**Next:** close the international board's primary-source/terms blockers; conduct real dated usability/accessibility tests where feasible; get independent editorial sign-off; resolve CI runner failure; preserve all publication and production gates.
+
+---
+
 # Latest work checkpoint — 24 October 2026, 17:40 UTC
 
 - Added `docs/international-10-market-priority-board-2026-10-24.md`, covering one market-specific priority review each for GB, Belgium, Sweden, Denmark, Spain, Italy, Netherlands, Germany (Schleswig-Holstein only), Switzerland and Ontario. The board documents evidence already captured and the remaining work; it is not a ranking.
