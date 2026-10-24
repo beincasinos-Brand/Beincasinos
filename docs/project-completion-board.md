@@ -18,6 +18,8 @@
 | CSS-art / monogram fallbacks | 37/100 | Retain until an appropriate asset and reuse basis are verified |
 
 ## Latest completed work
+- Verified and filled seven previously missing state-specific official domains from primary regulator lists: four New Jersey sites from NJ DGE and three Pennsylvania sites from PGCB. The corresponding cards remain HOLD because regulator listing does not complete legal-entity, consumer-terms or distinct-global-brand checks.
+- Added [first-100 identity-gap audit](targets/first-100-directory-identity-gap-audit-2026-10-24.md); it records domain/operator uncertainty and market-specific duplicate risk. The 100 cards are not 100 distinct global brands.
 - Fixed a CSS cascade defect: the author-level flex rule could override the HTML `hidden` attribute on logo fallbacks, making fallback monograms appear even when an image loaded. Added `.brand-logo-fallback[hidden]{display:none!important}`.
 - Added `scripts/check_brand_directory.py`, a dependency-free static source gate for 100 cards, unique titles, 100 asset-register rows, HTML/register image URL matching, alt text, lazy loading, fallback handlers, `noindex,follow`, and sitemap exclusion. The script is committed but has **not been executed in CI or locally**; GitHub Actions remains intentionally unused.
 
