@@ -539,3 +539,10 @@
 
 - Added `docs/reviews/internal/canonical-directory-bonus-source-leads-2026-10-24.md`, listing the eight source leads retained in the public-directory-aligned ledger and their exact unresolved terms/market blockers: Casineo.ch, Hollywood Casino Online (PA), TOTO (NL), Holland Casino Online (NL), Kansino (NL), Fair Play Casino (NL), Bingoal (NL), and Fanatics Casino (NJ).
 - The note explicitly distinguishes an official source lead from an approved offer, and prohibits score/recommendation claims until current terms, market eligibility, rights, testing and sign-off are complete.
+
+
+# Directory/ledger drift guard — 24 October 2026
+
+- Added `scripts/check_directory_ledger_alignment.py`, wired into `.github/workflows/site-check.yml`, to compare exact public card name + market pairs against the canonical ledger. CI now fails if either side does not contain exactly 100 unique identities or if any brand/market pair is missing/extra.
+- Added four unit tests for parsing, exact matches, market mismatch rejection and the CI-only 100-identity count requirement. This prevents the prior 100-vs-100-but-different-brands problem from recurring.
+- Source-level identity reconciliation currently confirms 100 public cards, 100 canonical ledger rows, exact set equality, 100 unique IDs, and eight bonus source leads. GitHub Actions still fails before any step starts due runner allocation; no test pass is claimed.
