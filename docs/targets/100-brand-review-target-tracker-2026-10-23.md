@@ -870,3 +870,8 @@ Registry snapshot after the latest official-source passes: 204 market-specific r
 ## Betfair Casino UK evidence-led draft — 2026-10-24
 
 Created [Betfair Casino UK — evidence-led review draft](../reviews/internal/gb-betfair-casino-evidence-led-draft-2026-10-24.md). It summarizes official terms, withdrawal help, complaints/ADR and safer-gambling sources, explicitly distinguishes operator statements from independent testing, and records the unresolved casino-specific entity/terms checks. The draft is internal `HOLD`; no account, deposit, gameplay, support or withdrawal test is claimed. It does not increase the approved consumer-review count: **0/100 approved**. No GitHub Actions run, merge or Cloudflare deployment.
+
+
+## PlayOJO UK evidence-led draft — 2026-10-24
+
+Created [PlayOJO UK — evidence-led review draft](../reviews/internal/gb-playojo-evidence-led-draft-2026-10-24.md) from the official GB-filtered help centre. It attributes withdrawal-time and bonus statements to the operator, records payment/verification caveats, and leaves current terms, legal identity, and complaint/ADR as blockers. It remains internal `HOLD`; no consumer test or approval is claimed. Approved consumer reviews remain **0/100**. No Actions run, merge or Cloudflare deployment.
