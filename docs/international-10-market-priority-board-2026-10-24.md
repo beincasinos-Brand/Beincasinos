@@ -6,7 +6,7 @@
 
 - Programme goal: 100 unique brands with market-specific evidence and editorial reviews.
 - Legacy candidate register: 100 names, not yet globally deduplicated or all verified.
-- Tier-1 master prospect tracker: 105 data rows, 59 official-domain placeholders, and 105 blank global brand IDs in the latest audit.
+- Tier-1 master prospect tracker: 106 data rows, 59 official-domain placeholders, and 106 blank global brand IDs after adding the Pennsylvania BetRivers lead.
 - Approved reviews: **0/100**.
 - All targets below remain **HOLD**. A regulator listing is only an eligibility lead; it is not a quality rating, full review, firsthand experience, or commercial lead.
 - Do not publish a cross-market “top 10” score. Any later ranking must be limited to comparable products in a named market and pass every rubric gate.
