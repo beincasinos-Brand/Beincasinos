@@ -363,3 +363,10 @@ Added `docs/research/belgium-first-party-terms-follow-up-2026-10-24.md` and expa
 - Source-level audit confirms the directory has **100 cards / 100 unique card titles / 100 summaries**, 50 image elements with no missing alt attributes, canonical URL set correctly, `index,follow`, and exactly one sitemap entry with no duplicate sitemap URLs.
 
 This is a source/CI configuration change, not proof of a live deployment or Google indexing. The PR has not been merged or deployed to production. All brand cards remain research leads, not approved consumer reviews; the approved-review count remains **0/100**.
+
+
+### Provisional 100-ID target slate — 24 October 2026
+
+Created `docs/targets/100-brand-provisional-review-slate-2026-10-24.md`, a deduplicated internal work queue with **100 distinct provisional global_brand_id values**, one market-specific registry row per ID. It excludes generic unconfirmed records, explicitly excluded rows, France/Australia casino leads, and generic US/Canada rows without named state/province. The slate prioritises rows with captured regulator/register links and a populated legal-entity field, then fills remaining slots after cross-market deduplication.
+
+This is a **provisional target slate, not 100 regulator-verified eligible brands**: some global IDs may still represent aliases, legal entities/domains may be unresolved, and all 100 rows remain HOLD. It is intended to stabilise the target selection so research can progress brand by brand without double-counting cross-market variants. The review-completion count remains **0/100 approved**.
