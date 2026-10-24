@@ -95,3 +95,8 @@ After reconciliation, the canonical ledger has 100 unique public brand/market ro
 ## Automated public-directory identity guard
 
 The workflow runs `scripts/check_directory_ledger_alignment.py` after the ledger validator. It requires exactly 100 unique public brand/market pairs and exact set equality with the canonical ledger. Four unit tests cover parsing, exact-match acceptance, market mismatch rejection and the 100-identity CI requirement. GitHub Actions execution remains unconfirmed due runner allocation.
+
+
+## Canonical source count correction
+
+The public-directory-aligned ledger now contains nine source leads (not eight), including GetLucky (NL). GetLucky remains held because its public directory card lacks a verified official domain and the precise regulator/domain mapping is not complete. No numerical score or public bonus claim is approved.
