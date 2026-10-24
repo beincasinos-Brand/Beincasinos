@@ -4,7 +4,7 @@
 - Preview page metadata: canonical `https://beincasinos.online/brand-directory/`, robots `noindex,follow`. The preview sitemap has 44 URLs and does **not** include `/brand-directory/`. This is the intended draft gate; it is not a production indexing release.
 - Production `https://beincasinos.online/brand-directory/` still returns **404**. No production deployment, merge or indexing release has occurred.
 - The Hollywood card now says the PGCB lists `http://www.hollywoodcasino.com` for slots/table games with 19 December 2024 commencement; the HTTP URL is plain text, not a direct clickable link. The current HTTPS canonical/redirect and customer-contracting entity remain open.
-- CI has not passed. The latest observed Static site checks attempts fail before any step runs (runner ID 0/no step records/no readable logs); this remains an Actions runner-allocation issue, not a diagnosed source-test failure. Do not bypass checks.
+- CI has not passed. Recent Static site checks attempts fail before any step runs (runner ID 0/no step records/no readable logs); this is consistent with a runner-allocation/Actions configuration problem, but the root cause is unconfirmed. GitHub Status currently reports all systems operational and no incident for 24 October, so do not attribute this to a confirmed GitHub-wide outage. The repository owner should inspect repository/organization Actions settings, runner availability and workflow permissions. Do not bypass checks. Status source: https://www.githubstatus.com/
 - PR #141 remains open, Draft and unmerged. Approved consumer reviews remain **0/100**.
 
 ---
