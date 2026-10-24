@@ -809,3 +809,10 @@ These are **research briefs, not completed or approved reviews**. The official d
 Added five evidence-led internal drafts in `docs/reviews/internal/gb-evidence-led-review-draft-batch-2026-10-24-f.md`: QuinnBet, LottoGo, London.bet Casino, O'Reels Casino and Los Vegas Casino. The drafts preserve prior UKGC register leads and explicit status/verification limits, flag QuinnBet's reported 20 August 2026 settlement for source re-check, and flag O'Reels' previously inactive domain as a reason to verify or exclude rather than recommend.
 
 These are **not approved consumer reviews**. Every prior register observation must be refreshed, current terms/payments/complaints/safer-gambling/privacy evidence is still required, and no consumer account or transaction tests were performed. Approved reviews remain **0/100**. No Cloudflare deployment or indexing is claimed; no GitHub Actions workflow was intentionally triggered.
+
+
+## Directory release QA snapshot — 24 October 2026
+
+Added `docs/quality/brand-directory-release-qa-2026-10-24.md` from static inspection of the feature-branch HTML. Measured: 100 cards; 98 HOLD and 2 EXCLUDE; 100 expandable checklists; 60 remote image elements, all with alt attributes; 59 explicitly marked rights-pending/not-confirmed and the remaining image still needs a documented rights record; 323 external-link anchors counted in source but not fetched/tested. Source currently declares `index,follow` and the directory is in the branch sitemap.
+
+This is not a live Cloudflare/browser/image test. Before release, test mobile/keyboard interactions, all official-domain links, image availability and rights, canonical/robots/sitemap after deployment. Indexability does not guarantee Google indexing. No deployment was performed.
