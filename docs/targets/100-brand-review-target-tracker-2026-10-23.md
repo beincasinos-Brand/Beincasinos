@@ -1,7 +1,7 @@
 # BeInCasinos — 100-brand / 100-review target tracker
 
 **Last reconciled:** 24 October 2026  
-**Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
+**Working branch:** `ops/2026-10-24-target-reconciliation-and-release-gates`  
 **Target:** 100 distinct, jurisdiction-appropriate brands with 100 independently checked, high-quality reviews.  
 **Publication approvals:** **0/100**. Do not treat research records or internal drafts as completed reviews.
 
@@ -249,3 +249,12 @@ These deltas are research corrections, not newly approved reviews. Keep the auth
 - **Coral Casino:** the current UKGC search for coral.co.uk maps that domain to LC International Limited (54743), while account 1611 also lists Coral as a trading name. Confirm the live customer contract and product terms before publication.
 
 Detailed official-source URLs and caveats are recorded in `docs/research/primary-source-follow-up-sky-ladbrokes-coral-2026-10-24.md`. All three remain HOLD pending live-contract verification, complete consumer evidence and independent sign-off; these are not newly approved reviews.
+
+
+### UKGC candidate follow-up — 24 October 2026
+
+- **Midnite (GB):** UKGC search results show Dribble Media Limited (account 42647) and Midnite Limited (account 101839) with overlapping brand/domain signals. Account 101839 shows Casino Remote active and a www.midnite.com domain record, but the live contracting entity and relationship between records remain unresolved. HOLD.
+- **Betty Casino (GB):** Betty Gaming (Malta) Limited (account 100695) has an active Casino Remote signal and domain records for betty.com / playbetty.co.uk. A checked actions record showed no actions recorded at that time; this is not a consumer-quality verdict. HOLD pending complete product evidence and independent review.
+- **Brillbet (GB):** UK Digital Bookmakers Ltd (account 101570) has an active Casino Remote/trading-name signal, but the live consumer URL previously redirected to a customer-service notice. Current availability and binding terms are unresolved. HOLD.
+
+Evidence memo: `docs/research/ukgc-candidate-follow-up-midnite-betty-brillbet-2026-10-24.md`. UKGC domain/trading-name data is licensee-supplied and must be cross-checked against the live contract. This batch adds **0 approved reviews**; the authoritative publication count remains **0/100**.
