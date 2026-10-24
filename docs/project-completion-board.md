@@ -533,3 +533,9 @@
 - Rebuilt the canonical `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` to match the exact 100 public directory cards by name and market. Eight market-matched bonus/promotion source leads were carried over; they remain NOT CLEARED, and rows without a matching source explicitly state that no current offer is approved rather than inventing one.
 - Canonical-ledger audit: 100 rows, 43 columns, 100 unique brand/market identities and unique IDs, 8 dated official bonus-source leads, zero blank bonus-status notes, zero populated non-HTTPS URLs, zero numeric scores, and 100 NOT SCORED rows. Consumer tests remain NOT PERFORMED and affiliate disclosures NOT REVIEWED on all 100.
 - This reconciliation makes the public list and its evidence tracker consistent; it does not complete the 100 reviews. Do not merge/deploy until remaining evidence, images, tests, disclosures, independent review and launch approval are complete.
+
+
+# Canonical directory bonus-source index — 24 October 2026
+
+- Added `docs/reviews/internal/canonical-directory-bonus-source-leads-2026-10-24.md`, listing the eight source leads retained in the public-directory-aligned ledger and their exact unresolved terms/market blockers: Casineo.ch, Hollywood Casino Online (PA), TOTO (NL), Holland Casino Online (NL), Kansino (NL), Fair Play Casino (NL), Bingoal (NL), and Fanatics Casino (NJ).
+- The note explicitly distinguishes an official source lead from an approved offer, and prohibits score/recommendation claims until current terms, market eligibility, rights, testing and sign-off are complete.
