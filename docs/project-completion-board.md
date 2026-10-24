@@ -1,3 +1,11 @@
+# Latest exact-ID mapping — 24 October 2026
+
+- Tier-1 tracker remains 106 data rows, 18 columns, zero malformed rows and zero duplicate brand/market keys. Source-matched global IDs are now filled for Hollywood Casino Online (PA) → `hollywood-casino`, BetRivers Casino (PA) → `betrivers-casino`, Casineo.ch (CH) → `casineo`, and Jollie.de (DE) → `jollie`. These assignments use an existing exact brand ID or an exact normalized brand/market match; no broader aliases were inferred. **102 IDs remain blank**, so deduplication is still incomplete.
+- The source directory contains exactly 100 cards, including one BetRivers and one Hollywood Casino Online; the latter cites the PGCB-listed `http://www.hollywoodcasino.com` URL and keeps HTTPS/customer-contract matching as an open gate. Directory remains `noindex,follow` and absent from the sitemap.
+- PR #141 remains Draft/open/unmerged. CI runner-allocation failure continues; latest preview is stale relative to source changes. Approved reviews remain 0/100 and production release remains blocked.
+
+---
+
 # Latest continuation checkpoint — 24 October 2026, 19:25 UTC
 
 - **Current PR state:** PR #141 is open, Draft and unmerged. Latest observed head at this checkpoint: `3bd9565258a18cb30cf5bb7a7f2141995f731b21`; 124 changed files. No merge or production deployment was performed.
@@ -24,7 +32,7 @@
 # Latest evidence reconciliation — 24 October 2026, 19:20 UTC
 
 - **Hollywood Casino PA correction:** the PGCB's 2024–2025 Annual Report (published 1 October 2025) confirms a December 2024 iGaming launch under the Hollywood Casino at Penn National Race Course certificate. The PGCB's 13 February 2026 certificate-holder PDF lists `http://www.hollywoodcasino.com`, slots/table games, and commencement date 19 December 2024. It separately lists the old `pa.hollywoodcasino.com` URL as a former site ending 14 December 2023. The correct conclusion is **new domain listed; old URL retired**—not “brand retired.” Updated the dossier and tracker; the current HTTPS canonical/redirect and online customer-contracting entity remain unverified.
-- **Tracker QA:** master prospect tracker currently has 106 data records plus header, 18 columns, and zero malformed-width rows. The Hollywood Casino PA row now maps to existing global brand ID `hollywood-casino`; 105 rows still have blank global IDs, so cross-market alias/deduplication remains incomplete. BetRivers PA remains a separate regulator-supported lead; the international ten-market priority board remains GB, BE, SE, DK, ES, IT, NL, DE-SH, CH and Ontario.
+- **Tracker QA:** master prospect tracker currently has 106 data records plus header, 18 columns, and zero malformed-width rows. The Hollywood Casino PA row now maps to existing global brand ID `hollywood-casino`; 102 rows still have blank global IDs, so cross-market alias/deduplication remains incomplete. BetRivers PA remains a separate regulator-supported lead; the international ten-market priority board remains GB, BE, SE, DK, ES, IT, NL, DE-SH, CH and Ontario.
 - **Sweden update:** Betsson dossier now records the current Spelinspektionen betsson.com licence-register result naming Betsson Nordic Ltd and Spin Nordic Ltd, commercial online licence period 24 August 2026–23 August 2031. It explicitly keeps the /sv customer route, contracting entity and appeal outcome as open verification tasks.
 - **QA hardening:** added parser-based CSP artifact checks for inline HTML event handlers and three regression cases. These source changes are present, but the complete workflow has not run on an allocated runner.
 - **CI/release:** PR #141 remains open, Draft and unmerged. Latest observed workflows fail before a runner is allocated (runner ID 0, no steps/logs); a rerun was requested. No successful current-head CI is confirmed. No production deployment, merge, or indexing release was performed. Approved reviews remain **0/100**.
