@@ -1,3 +1,13 @@
+# Latest correction — Pennsylvania brand/domain distinction — 24 October 2026
+
+- The PGCB's 2024–2025 Annual Report reports a new Hollywood Casino iGaming-site launch in December 2024 under the Hollywood Casino at Penn National Race Course certificate, and the current PGCB operator directory displays Hollywood Casino Online. The separate legacy URL `pa.hollywoodcasino.com` is listed as a former site ending 14 December 2023 in the 13 February 2026 certificate-holder PDF.
+- Correct disposition: **do not reuse the retired legacy URL; retain Hollywood Casino Online as a HOLD research lead** until its current customer route, contracting entity and terms are verified. The prior claim that the brand itself should be excluded is withdrawn.
+- Added a Pennsylvania-specific row to `docs/brand-research-template.csv` under existing global brand ID `hollywood-casino`, market `US-PA`, with official URL `VERIFY` and no public score.
+- Updated the global-ID reconciliation CSV after the added market row. Registry count is now 205 market-specific rows across 154 global IDs; the 100-name candidate register remains a separate selection queue. Exact normalized slug matches remain only a diagnostic; aliases need manual reconciliation.
+- Sources: https://gamingcontrolboard.pa.gov/sites/default/files/2025-09/PGCB%20Annual%20Report%202024-2025%20FINAL.pdf ; https://gamingcontrolboard.pa.gov/interactive-gaming-operators ; https://gamingcontrolboard.pa.gov/sites/default/files/2026-02/2.13.26%20Licensed%20Interactive%20Gaming%20Certificateholders%20and%20Authorized%20Interactive%20Gaming%20websites.pdf
+
+---
+
 # Latest evidence reconciliation — 24 October 2026, 19:20 UTC
 
 - **Hollywood Casino PA correction:** the PGCB's 2024–2025 Annual Report (published 1 October 2025) confirms that Hollywood Casino launched as an iGaming site in December 2024 under the Hollywood Casino at Penn National Race Course certificate. The PGCB's February 2026 certificate-holder PDF separately lists the old `pa.hollywoodcasino.com` URL as a former site ending 14 December 2023. The correct conclusion is **brand relaunch confirmed, current domain unknown**—not “brand retired.” Updated the internal dossier and restored Hollywood Casino Online to the tracker as HOLD with `official_domain=UNKNOWN`.
@@ -69,7 +79,7 @@
 
 # Latest work checkpoint — 24 October 2026
 
-- Pennsylvania scope corrected: the legacy pa.hollywoodcasino.com skin is provisionally excluded from the active 100-brand count because the PGCB's 13 February 2026 certificate-holder PDF records it as a former site ending 14 December 2023, while the current logo directory still displays Hollywood Casino Online. Tracker now uses UNKNOWN for the unresolved active domain and requires a current certificate plus matching customer contract before reinstatement. BetRivers Casino (PA) is the replacement lead, with the certificate-holder/operator roles separated correctly.
+- Pennsylvania scope corrected: the legacy pa.hollywoodcasino.com URL is excluded as a retired domain, but Hollywood Casino Online is retained as a HOLD brand lead because the PGCB's 2024–2025 Annual Report reports a December 2024 launch under the Hollywood Casino at Penn National Race Course certificate. The current URL and contracting entity still require direct matching. BetRivers Casino (PA) remains a separate priority lead, with certificate-holder/operator roles separated correctly.
 - Expanded first-party evidence for three priority Great Britain reviews: bet365 (withdrawal processing estimates conflict between its general terms and separate timing page; preserved as an unresolved disclosure ambiguity), 888casino (UK agreement, client-funds protection wording, £3/month inactive-account fee, complaint/eCOGRA route, GAMSTOP, current example offer and three recent UKGC actions), and William Hill (GB terms, medium customer-funds protection, debit-card limits/timings, withdrawal routing and short time-out policy). These are source-based desk-research findings, not personal testing.
 - Sitemap validator now uses a shared HTML parser for general and crawler-specific noindex/none directives. Nine regression tests passed in an isolated local harness. The repository's full CI and built-artifact check have not run successfully.
 - Tier-1 tracker: 106 rows; 58 official-domain placeholders marked VERIFY, one unresolved UNKNOWN domain, two NOT APPLICABLE rows, and 106 blank global_brand_id fields. The 100-brand scope is not yet deduplicated. Approved reviews remain **0/100**.
@@ -81,7 +91,7 @@
 
 # Latest work checkpoint — 24 October 2026, 19:00 UTC
 
-- Corrected a material Pennsylvania target error: the PGCB's 13 February 2026 certificate-holder PDF lists legacy pa.hollywoodcasino.com under former interactive gaming sites and records its operation ending 14 December 2023. Hollywood Casino Online is now marked EXCLUDED pending fresh proof of a distinct active skin; its previous current-brand claim is withdrawn.
+- Corrected a material Pennsylvania target error: the PGCB's 13 February 2026 certificate-holder PDF lists legacy pa.hollywoodcasino.com under former interactive gaming sites and records its operation ending 14 December 2023. The legacy pa.hollywoodcasino.com URL is confirmed retired; the separate Hollywood Casino Online brand remains a HOLD lead because the PGCB's 2024–2025 Annual Report reports a December 2024 launch, but the current route and customer-contracting entity are still unresolved.
 - Replaced that target with BetRivers Casino — Pennsylvania. Added a new evidence dossier and a master-tracker row based on the PGCB certificate-holder record: SugarHouse HSP Gaming, LP d/b/a Rivers Casino Philadelphia is the certificate holder, Rush Street Interactive PA, LLC the interactive gaming operator, and pa.betrivers.com is listed for slots/table games/poker. Current terms and consumer testing remain incomplete.
 - Updated the Tier-1 international priority board and research tracker. The master tracker now has 106 data rows, 59 official-domain placeholders and 106 blank global brand IDs; these are prospect/research counts, not approved reviews.
 - The site-artifact checker was updated to parse robots meta directives and keep noindex pages out of sitemap expectations. This source change still needs a successful CI run and a test against a real built artifact.
