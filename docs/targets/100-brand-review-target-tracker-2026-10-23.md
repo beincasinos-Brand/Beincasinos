@@ -316,3 +316,15 @@ Added five Ontario-specific internal evidence drafts from iGaming Ontario's offi
 - `docs/reviews/internal/royal-panda-ontario-evidence-review-2026-10-24.md` — TigerGen Limited
 
 Primary sources: https://igamingontario.ca/en/operator/operators and https://www.igamingontario.ca/en/player/regulated-igaming-market. Ontario-only permission; the regulator directory states 19+ and physical presence in Ontario are required to play. These records establish directory association and product category, not tested consumer experience. Cadtree also lists Jackpot City, Royal Vegas and Ruby Fortune; TigerGen also lists LeoVegas, so deduplicate operators and global brands separately. All five remain HOLD pending exact live domain/contract, current terms, payment/withdrawal policy, complaints, safer-gambling, privacy/accessibility, enforcement and independent sign-off. This batch adds **5 internal drafts, 0 approved reviews**.
+
+
+### Registry reconciliation QA — 24 October 2026
+
+A CSV-level audit of `docs/brand-research-template.csv` now records exact counts in `docs/targets/100-brand-registry-reconciliation-audit-2026-10-24.md`:
+
+- 204 market-specific candidate rows; 204 display names; 154 provisional global brand IDs.
+- 200 distinct brand-ID / market pairs after excluding explicit unconfirmed/excluded codes; no duplicate eligible pair found at the key level.
+- 202 rows remain HOLD, 2 are rejected, and **0 are approved**.
+- `docs/reviews/internal/` contains 165 files of mixed types; 50 match the candidate evidence-review filename pattern. The separate `review-drafts/` folder contains 21 more draft files with overlap possible. These counts are file inventories, not counts of completed reviews.
+
+The previous summary of “18 internal evidence drafts” is a historical snapshot and must not be used as the current file count. Conversely, the larger file inventory must not be described as completed reviews: it includes batch research, scope audits and duplicate drafts. The next blocker is evidence qualification and approval, not raw lead quantity.
