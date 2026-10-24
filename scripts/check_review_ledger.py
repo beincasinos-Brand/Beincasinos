@@ -138,7 +138,7 @@ def check(ledger_path):
             warnings.append(f"{label}: bonus source has no checked date; do not publish as current")
 
         state = row.get("publication_status", "").strip().upper()
-        if re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\\b|\\s|$)", state):
+        if re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\b|\s|$)", state):
             required = (
                 "official_url", "legal_entity", "regulator", "official_register_url",
                 "terms_url", "withdrawals_url", "complaints_url",
