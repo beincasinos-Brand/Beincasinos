@@ -16,4 +16,4 @@ The current PGCB interactive-operator directory's logo list alone is not enough 
 
 Do **not** count Hollywood Casino Online as a current active Pennsylvania online-casino target or publish a review based on the former URL. The old draft's claims about a current customer route are withdrawn. Reopen this target only if a current PGCB certificate-holder entry and matching customer contract establish an active separate Hollywood Casino Online skin.
 
-Replacement target: **BetRivers Casino — Pennsylvania**, documented separately in betriver-casino-pa-evidence-review-2026-10-24.md. All replacement work remains HOLD pending current terms, testing and independent review.
+Replacement target: **BetRivers Casino — Pennsylvania**, documented separately in betrivers-casino-pa-evidence-review-2026-10-24.md. All replacement work remains HOLD pending current terms, testing and independent review.
