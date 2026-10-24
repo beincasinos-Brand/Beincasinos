@@ -458,3 +458,9 @@ Primary records:
 
 - Added [primary-source regulator evidence batch 05](../reviews/internal/regulator-evidence-batch-05-2026-10-24.md) for candidates 36–45. The ledger records market/product scope and unresolved licensee/domain mappings.
 - Batches 01–05 cover 44/100 candidate rows with dated regulator-source notes, plus 888casino's UKGC record URL/official offer snapshot. Approved consumer reviews remain **0/100**; all 100 remain HOLD and no score has been assigned; no merge or Cloudflare production deployment is claimed.
+
+
+## Regulator evidence batch 06 — 24 October 2026
+
+- Added [primary-source regulator evidence batch 06](../reviews/internal/regulator-evidence-batch-06-2026-10-24.md) for candidates 46–55. Ten more ledger rows now include regulator evidence and remaining blockers.
+- Regulator-source coverage across batches 01–06 is 54/100 candidate rows. Approved consumer reviews remain **0/100**; all 100 remain HOLD and no score has been assigned; no merge or Cloudflare production deployment is claimed.
