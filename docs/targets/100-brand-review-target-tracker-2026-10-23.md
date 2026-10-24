@@ -328,3 +328,10 @@ A CSV-level audit of `docs/brand-research-template.csv` now records exact counts
 - `docs/reviews/internal/` contains 165 files of mixed types; 50 match the candidate evidence-review filename pattern. The separate `review-drafts/` folder contains 21 more draft files with overlap possible. These counts are file inventories, not counts of completed reviews.
 
 The previous summary of “18 internal evidence drafts” is a historical snapshot and must not be used as the current file count. Conversely, the larger file inventory must not be described as completed reviews: it includes batch research, scope audits and duplicate drafts. The next blocker is evidence qualification and approval, not raw lead quantity.
+
+
+### Belgium A+ count correction — 24 October 2026
+
+Re-opened the official A+ register on 24 October and reconciled the current surfaced rows with the existing Betsson draft. The correct current snapshot is **10 consumer-domain/brand records under 9 A+ licence dossiers**, not nine domain records: Casino777, Napoleon, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes, Unibet, bwin and Betsson Casino. Circus and PokerStars.be share dossier 20635 and the same listed operator. Betsson Casino's current surfaced domain is `betssoncasino.be` under dossier 595153, expiry 22 February 2039; older evidence linked this dossier to `betfirstcasino.be`, so the domain/brand transition remains a material HOLD pending live contract confirmation. See `docs/research/belgium-aplus-casino-primary-source-batch-2026-10-24.md` and `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md`.
+
+Source: Belgian Gaming Commission official A+ table: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en. All ten records remain internal/HOLD; this correction adds **0 approved reviews**.
