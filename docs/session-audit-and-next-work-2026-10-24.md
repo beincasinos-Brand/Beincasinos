@@ -1,3 +1,16 @@
+# Latest checkpoint — 24 October 2026, 18:22 UTC
+
+- **Cloudflare preview SEO smoke check:** the existing branch preview responds for the home page, /brand-directory/, /reviews/, robots.txt and sitemap.xml. Home page title/description/canonical metadata are present. The research directory returns robots: noindex,follow and is absent from the sitemap. The sitemap lists 44 canonical https://beincasinos.online/ URLs, and robots.txt exposes the canonical sitemap. This is a read-only content/SEO check of the existing preview alias; it does not prove that the alias serves the latest commit or replace browser/accessibility tests.
+- **CI remains blocked before execution:** latest run 40120320531 for head 1323297d2ba5a3ff07ea59035b2972c1e8506739 failed after about two seconds, with runner ID 0 and zero steps. Rerunning the prior failed job produced the same result. No site, artifact or browser checks ran; logs are unavailable. Treat as a GitHub Actions runner/job-start failure, not a passed code test.
+- **Holland Casino Online:** first-party eligibility, age-24 restriction, login-time limits, support channels and optional automatic-withdrawal-limit disclosures have been captured in the dossier and trackers. Terms/privacy reads return HTTP 403 to the research fetcher; the current Ksa public profile still displays the prior permit period, so domain notification under the renewed permit remains unresolved.
+- **Betano Belgium:** live English and French A+ table views agree on dossier 20000, decision 12 Nov 2024, expiry 31 Dec 2026. The tracker date field is aligned; stale indexed 2019/2034 text is superseded.
+- **Data integrity:** Tier-1 prospect tracker has 114 data rows × 18 columns, zero malformed rows or duplicate brand/market keys. Broader research template has 207 data rows × 33 columns, zero malformed rows.
+- **Release state:** PR #141 remains open, Draft and unmerged with 126 changed files. No production deployment or merge was made. Approved reviews remain 0/100; all targets remain HOLD.
+
+**Next:** resolve runner allocation or use an authorized local CI path; confirm the current Ksa domain notification for Holland Casino; continue current terms/cashier capture and independent review.
+
+---
+
 # Latest checkpoint — 24 October 2026, 18:20 UTC
 
 - **Holland Casino Online (NL):** expanded the internal dossier and both trackers with first-party Help Center evidence: 18+ and Dutch citizenship/residence-permit requirements; under-24 monthly deposit cap of €149 and no bonuses/offers; login-time limits (max eight hours/day; increases delayed seven days); support phone/email published as 24/7 and live chat 09:00–02:00 for logged-in users; optional automatic-withdrawal-limit tool and its up-to-48-hour processing statement. That 48-hour figure applies only to the optional threshold-triggered automatic withdrawal, not ordinary withdrawals. Terms/privacy fetch returned HTTP 403; no login, payment or support test claimed. The Ksa public Kansspelwijzer profile still shows the previous permit period, so the current domain notification under the renewed permit remains HOLD.
@@ -24,7 +37,7 @@
 
 # Latest verified continuation — 24 October 2026
 
-- **Betano Belgium — material licence-date conflict surfaced:** the Belgian Gaming Commission's English A+ table, last updated 8 October 2026, lists dossier 20000 with decision 12 November 2024 and expiry 31 December 2026. The French table, last updated 28 August 2026, shows 11 December 2019 and 11 December 2034 for the same domain/operator. Updated the evidence dossier, Tier-1 tracker, main research registry and international priority board to flag this as unresolved. The earlier claim that 2034 was definitively current is superseded. Do not publish an expiry conclusion until the downloadable register data or regulator clarifies the discrepancy.
+- **Superseded Betano note:** earlier in this audit, a search-indexed French snippet appeared to conflict with the English A+ table. Fresh live fetches of the English and French tables on 24 October 2026 both returned decision 12 November 2024 and expiry 31 December 2026 for dossier 20000. The tracker and dossier now match the live data; recheck before publication.
 - **Betano Belgium — responsible-gambling sources added:** first-party pages describe daily/weekly/monthly deposit and loss limits, a 1–8 hour session timer, 24-hour to 6-month time-outs, withdrawal-cancellation blocking and EPIS self-exclusion, with SOS Gambling 0800 35 777. These are operator statements, not independently tested controls.
 - **International target/identity coverage:** all ten Tier-1 market/brand pairs have matching market-specific tracker rows and expected global IDs. The tracker has 114 data rows / 18 columns, 15 populated global-brand-ID cells, 99 blank IDs, 14 unique IDs among populated cells, 58 `VERIFY` domains, zero `UNKNOWN` domains, two `NOT APPLICABLE` entries and zero duplicate brand/market keys.
 - **bet365 GB:** internal evidence dossier now records that the current GB General Terms state an effective date of 1 October 2026. The separate casino rules and linked documents still need archiving; no account, payment, gameplay, support-contact or accessibility test is claimed.
@@ -32,7 +45,7 @@
 - **CI/release gate:** latest observed Actions run for the current audit commit failed in about two seconds with runner ID 0, no steps and no downloadable logs. Repeated recent runs show the same pre-runner failure, so application tests have not run in CI. PR #141 remains open, Draft and unmerged; 126 changed files. No production deployment or merge was made.
 - **Completion truth:** approved reviews remain **0/100**. All ten priority targets and supplemental US-state leads remain HOLD pending exact current terms, contract/entity match, real usability/accessibility tests, image rights and independent review.
 
-**Next:** get the Actions runner/job-start failure resolved; reconcile Betano's A+ record; run full site/artifact/browser tests once a runner is available; continue terms/cashier capture and independent review. Do not count candidate rows or regulator listings as completed reviews.
+**Next:** get the Actions runner/job-start failure resolved; recheck Betano's live A+ record before publication; run full site/artifact/browser tests once a runner is available; continue terms/cashier capture and independent review. Do not count candidate rows or regulator listings as completed reviews.
 
 ---
 
