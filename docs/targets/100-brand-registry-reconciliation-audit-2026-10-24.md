@@ -36,3 +36,10 @@ The `docs/reviews/internal/` directory currently contains 165 files, including r
 There are enough *raw candidate rows* to research a 100-review target, but the current registry does **not** yet establish 100 distinct eligible brands and has **0/100 approved reviews**. Do not index or publish internal research as if it were completed consumer reviews. The nine Belgium A+ records are local domain/operator leads, not nine new global brands; Circus and PokerStars.be share one A+ dossier/operator.
 
 This audit is a registry consistency snapshot only. It is not a legal opinion, consumer test, independent review or deployment sign-off.
+
+
+## Belgium A+ reconciliation correction — 24 October 2026
+
+The current official Belgian Gaming Commission A+ table surfaces **10 domain/brand records under 9 A+ licence dossiers**: Casino777, Napoleon, StarCasino, Betano, Circus, PokerStars.be, Ladbrokes, Unibet, bwin and Betsson Casino. Circus and PokerStars.be share dossier 20635 / SA/NV GAMBLING MANAGEMENT. Dossier 595153 is currently surfaced with `betssoncasino.be` and SA/NV EXPLOITATIE CASINO MIDDELKERKE (listed expiry 22 February 2039); earlier project evidence referred to `betfirstcasino.be`. This discrepancy is a domain/brand transition to investigate, not a reason to infer continuity of the customer contract. All ten domain records remain HOLD, and the Belgian batch adds **0 approved reviews**.
+
+Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
