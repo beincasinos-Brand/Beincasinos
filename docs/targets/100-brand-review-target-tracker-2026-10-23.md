@@ -290,3 +290,10 @@ Expanded the Belgium A+ register work to cover all nine domain rows in the offic
 - Betano's listed expiry remains 31 December 2026 and must be rechecked after that date.
 - Local Belgian licensees must not be confused with the same brands' GB or other-market operators.
 - No public pages were changed and no production deployment was performed by this research batch.
+
+
+### Correction: current Belgium A+ row for Betsson Casino — 24 October 2026
+
+A fresh lookup of the current official A+ register returned dossier 595153 with domain `betssoncasino.be`, establishment Casino Middelkerke x Betsson, operator SA/NV EXPLOITATIE CASINO MIDDELKERKE, listed expiry 22 February 2039. Earlier captured data associated the dossier with `betfirstcasino.be`. This domain/brand transition must be checked against the live site and current customer contract; do not assume the transition or terms are verified. Added `docs/reviews/internal/betsson-casino-be-evidence-review-2026-10-24.md` and corrected the Belgium batch memo.
+
+This corrects the previous batch's claim that all current A+ rows were represented: the earlier nine drafts omitted the Betsson row. There are now **10 Belgium-specific internal draft files** covering the surfaced current A+ row set (nine dossier rows, ten domain strings), with Circus and PokerStars sharing one row. All remain HOLD; approved reviews remain **0/100**.
