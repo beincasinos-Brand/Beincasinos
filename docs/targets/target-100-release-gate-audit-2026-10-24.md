@@ -7,11 +7,11 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 - Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
 - Official consumer-facing domain URL: **45/100** populated; 55 blank. Do not infer a valid operator domain for blank rows.
 - Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
-- Terms URL: **8/100**.
+- Terms URL: **10/100**.
 - Bonus/promotion URL: **8/100**. These are source leads, not verified, current, eligible or cleared offers.
-- Complaints URL: **3/100**; responsible-gambling URL: **7/100**.
-- Deposit-method URL: **3/100**; fees/limits URL: **3/100**; withdrawal URL: **3/100**.
-- Privacy/cookies URL: **4/100**; accessibility evidence URL: **0/100**.
+- Complaints URL: **5/100**; responsible-gambling URL: **9/100**.
+- Deposit-method URL: **4/100**; fees/limits URL: **4/100**; withdrawal URL: **4/100**.
+- Privacy/cookies URL: **5/100**; accessibility evidence URL: **0/100**.
 - Regulatory-action URL: **1/100**; ADR/dispute URL: **1/100**. A regulator complaint process is not private ADR unless the source explicitly establishes that.
 - Image-source URL: **50/100**. For those 50, image rights status remains **PENDING — SOURCE FOUND · RIGHTS PENDING**; the other **50/100** are marked **NOT FOUND — editorial fallback required**. No image is cleared merely because a source URL exists.
 - Overall score: **NOT SCORED for 100/100**.
@@ -36,12 +36,14 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 10. **Release control:** no merge-to-production or Cloudflare deployment is authorised by this audit. Respect the project constraint to wait until the 100-review target and required checks are complete, then perform the planned single deployment only with required approval.
 
 ## Source batch 11 — official Swiss and German operator sources
-Added official terms, payments, privacy, player-protection and/or support sources for slots 1–4 where available:
+Added official terms, payments, privacy, player-protection and/or support sources for slots 1–6 where available:
 - ADMIRAL.ch (CH): operator terms, payments and responsible-gambling resources; official Swiss Federal Gaming Board page lists admiral.ch among online casino platforms.
 - Casineo.ch (CH): official terms, help/payment/limits and privacy policy; Federal Gaming Board page lists casineo.ch among online casino platforms. Some localized help content contains domain/product wording that needs reconciliation before publication.
 - Tipico Casino (DE): operator terms, privacy and safer-gambling sources plus GGL whitelist. The whitelist distinguishes virtual-slot permissions from the Schleswig-Holstein-scoped online-casino offer; do not imply nationwide permission for casino.tipico.de.
 - Jollie (DE): terms, privacy, player-protection and support sources plus GGL whitelist. The whitelist lists Aurora Alea A/S / jollie.de for virtual slots; payment methods and a formal complaint/ADR route remain to be sourced.
-These are public documentation leads only. No account creation, deposits, gameplay or withdrawals were tested. No score, image-rights clearance or publication approval was added.
+- Winz (NL): terms, safer-gambling, privacy, payment and operator complaint-procedure sources captured. The complaint route is not independent ADR; the separate cookie policy still needs capture.
+- Starcasino (NL): terms, safer-gambling and complaint-disclosure source leads captured. Exact current register entry, separate privacy/cookie and payment pages still need capture.
+These are public documentation leads only. No account creation, deposits, gameplay or withdrawals were tested. No score, image-rights clearance or publication approval was added. Batch 12 is documented in `docs/reviews/internal/operator-source-batch-12-2026-10-24.md`.
 
 ## Required evidence sequence
 1. Reconcile each candidate's exact consumer-facing domain, product type, market and contracting legal entity against the current primary regulator record.
