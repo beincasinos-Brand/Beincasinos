@@ -32,3 +32,9 @@ The directory lists Crown DK CAN Ltd and its DraftKings Casino and DraftKings Sp
 - Current counts must be taken from the quote-aware ledger parser; no counts or review status should be inferred from this report alone.
 - No private ADR, score, current bonus claim, image permission, hands-on consumer test or successful transaction is claimed.
 - All three rows remain HOLD pending complete terms, payment/withdrawal, privacy, accessibility, enforcement and independent-review evidence.
+
+
+## Regulatory-action source follow-up
+- Added the Michigan Gaming Control Board's official authorised-operator/enforcement entry point for Play Gun Lake. It is a regulator lookup lead, not a finding of an adverse action against this row.
+- Added a Pennsylvania Gaming Control Board 2021 press release reporting a $57,500 fine to Mountainview Thoroughbred Racing Association relating to self-excluded individuals accessing hollywoodcasino.com and barstoolsportsbook.com. This is historical and must not be presented as a current violation; current entity/affiliate mapping and the underlying consent agreement require review.
+- Ledger remains a research worklist; no legal conclusion or consumer-facing adverse-action statement is approved by this source capture alone.
