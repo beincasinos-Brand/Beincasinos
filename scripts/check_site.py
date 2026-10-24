@@ -962,6 +962,16 @@ if directory_page.is_file():
         titles.append(title.casefold())
         if "brand-summary" not in card:
             errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} is missing a summary")
+        # Every public research card must state score/bonus readiness explicitly.
+        # Never leave an empty metric or invent a consumer-facing score/offer.
+        if 'class="card-readiness"' not in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} is missing its score/bonus readiness panel")
+        if 'class="readiness-label">Editorial rating</span>' not in card or 'class="readiness-value">Not scored</strong>' not in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} has a missing/ambiguous editorial rating state")
+        if 'class="readiness-label">Bonus offer</span>' not in card or 'class="readiness-value">Not cleared</strong>' not in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} has a missing/ambiguous bonus publication state")
+        if 'class="readiness-note"></span>' in card:
+            errors.append(f"brand-directory/index.html: research card {title or '(untitled)'} has an empty readiness note")
     if len(set(titles)) != len(titles):
         errors.append("brand-directory/index.html: duplicate card titles found")
     if "https://beincasinos.online/brand-directory/" not in (ROOT / "sitemap.xml").read_text(encoding="utf-8"):
