@@ -114,7 +114,7 @@ See [the internal operator outreach playbook](docs/operator-outreach-playbook.md
 - [Global brand ID reconciliation audit (24 October 2026)](docs/reviews/internal/global-brand-id-reconciliation-2026-10-24.csv) — separates market-specific rows from distinct IDs and flags alias mappings that need manual review.
 - [Tier-1 target qualification audit (24 October 2026)](docs/tier-1-target-qualification-audit-2026-10-24.md) — counts the master tracker rows and highlights unresolved domains, market scope, and publication holds.
 - [Top-10 priority review production board (24 October 2026)](docs/top-10-review-priority-board-2026-10-24.md) — tracks the first ten GB priorities, existing evidence dossiers, and remaining review/release blockers.
-- [Tier-1 international priority board (24 October 2026)](docs/international-10-market-priority-board-2026-10-24.md) — ten review targets aligned to the approved GB, NL, CH, DE and US-state scope, with market-specific blockers.
+- [International 10-market priority board (24 October 2026)](docs/international-10-market-priority-board-2026-10-24.md) — the original GB, BE, SE, DK, ES, IT, NL, DE-SH, CH and Ontario roadmap; supplemental US-state leads are tracked separately.
 
 ## Recent prospect-research updates (internal only)
 
