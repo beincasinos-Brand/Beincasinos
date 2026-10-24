@@ -5,13 +5,13 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 
 ## Current structural result
 - Data rows: **100**; columns: **43**; every row has 43 fields; duplicate slot IDs: **0**; duplicate brand/market pairs: **0**.
-- Official consumer-facing domain URL: **53/100** populated; 47 blank. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
+- Official consumer-facing domain URL: **55/100** populated; 45 blank. Slot 23 (Imperial Treasures) now has the PGCB-linked consumer domain. Slots 7 (888.nl) and 13 (Stakemate) remain unresolved; the exact domain/operator/product match still needs regulator verification for several other rows. Do not infer a valid operator domain for blank rows.
 - Official register URL: **100/100** populated; this counts URL presence only and does not establish that every URL matches the exact brand, product, contracting entity or territory.
 - Terms URL: **17/100**.
 - Bonus/promotion URL: **14/100**. All populated promotion links remain source leads unless individually cleared against current market-specific terms; no offer is approved for publication.
 - Complaints URL: **9/100**; responsible-gambling URL: **19/100**.
-- Deposit-method URL: **10/100**; fees/limits URL: **10/100**; withdrawal URL: **9/100**.
-- Privacy/cookies URL: **10/100**; accessibility evidence URL: **0/100**.
+- Deposit-method URL: **13/100**; fees/limits URL: **13/100**; withdrawal URL: **12/100**.
+- Privacy/cookies URL: **11/100**; accessibility evidence URL: **0/100**.
 - Regulatory-action URL: **1/100**; ADR/dispute URL: **1/100**. A regulator complaint process is not private ADR unless the source explicitly establishes that.
 - Image-source URL: **50/100**. For those 50, image rights status remains **PENDING — SOURCE FOUND · RIGHTS PENDING**; the other **50/100** are marked **NOT FOUND — editorial fallback required**. No image is cleared merely because a source URL exists.
 - Overall score: **NOT SCORED for 100/100**.
@@ -24,10 +24,10 @@ Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2
 **Do not publish or rank these 100 entries as completed reviews.** No entry has a substantiated overall score, independent second-review sign-off, documented consumer testing, cleared image rights, or a complete evidence bundle. Keep the public approved-review count at zero until individual entries pass all applicable gates. Do not manufacture scores, ratings, screenshots, testimonials, payment-test claims, or bonus availability.
 
 ## Highest-priority blockers
-1. **Domain and legal identity:** 55 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
-2. **Thin terms/payment evidence:** only 17 terms URLs, 10 deposit-method URLs, 10 fees/limits URLs and 9 withdrawal URLs are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
+1. **Domain and legal identity:** 45 entries have no official consumer-facing URL captured. Validate exact domain, contracting entity, product and market against the primary regulator before any score.
+2. **Thin terms/payment evidence:** only 17 terms URLs, 13 deposit-method URLs, 13 fees/limits URLs and 12 withdrawal URLs are captured. A regulator URL or operator homepage is not a substitute for detailed payment and contract evidence.
 3. **Offer scope:** 14 promotion URLs are present, but no offer has been cleared for publication. Check the full current market-specific terms, product scope, eligibility, opt-in, wagering, max bet, eligible games, expiry and caps. Treat points/credit/rewards separately from cash.
-4. **Player protection and privacy:** complaint URLs exist for 9 entries, responsible-gambling URLs for 19 and privacy/cookies URLs for 10. Fill these from official sources; distinguish regulator escalation from private ADR.
+4. **Player protection and privacy:** complaint URLs exist for 9 entries, responsible-gambling URLs for 19 and privacy/cookies URLs for 11. Fill these from official sources; distinguish regulator escalation from private ADR.
 5. **Image rights:** 50 source leads have pending rights; 50 entries have no source. Use only assets with documented licence/permission or a deliberate original editorial fallback.
 6. **Independent review and consumer testing:** no reviewer assignments or approval dates are recorded; no hands-on consumer tests were performed. Do not imply that deposits, games, withdrawals, support or account controls were tested.
 7. **Regulatory and territory scope:** verify each current exact domain/product and permitted territory. Do not generalise state/province-specific permission to a whole country; do not recommend unlicensed or offshore products as substitutes.
@@ -81,13 +81,22 @@ These are public documentation leads only. No account creation, deposits, gamepl
 - All 100 remain NOT SCORED/HOLD. Image rights pending for 50 source leads and 50 not found; consumer testing NOT PERFORMED 100/100; affiliate disclosure NOT REVIEWED 100/100; reviewer/approval dates and evidence bundles 0/100. CI remains unconfirmed; no merge or Cloudflare Pages deployment.
 
 
-## Source batch 17 — New Jersey and Pennsylvania — current snapshot
+## Source batch 17 — New Jersey and Pennsylvania (historical snapshot)
 - Added `docs/reviews/internal/operator-source-batch-17-2026-10-24.md` and reconciled slots 22–23.
 - Betinia NJ terms v1.4 (last updated 2 October 2026) identify Jersix LLC; the official safer-gambling page describes limits, cool-off and state self-exclusion, and the complaints page directs patrons to operator escalation / NJDGE and promotes AskGamblers. Its accessible payments page displayed “No payments found”; no payment methods, fees or limits are inferred.
 - Imperial Treasures is linked by the PGCB interactive-gaming operators page. The PGCB certificateholders PDF (13 February 2026) separately notes Wind Creek Bethlehem has no interactive gaming operator while listing FlowPlay and the Imperial Treasures site for slots/table games. Exact current certificateholder/operator/product scope must be confirmed before recommendation.
 - BigBangBet UK remains on domain/product verification hold; search results for `bigbangbet.net` are treated as a separate domain and not used to substantiate `bigbangbet.co.uk`.
 - Latest canonical ledger parse: 100 rows × 43 columns, all widths valid; zero duplicate slot IDs and zero duplicate brand/market pairs. Official domains 53/100; official-register URL field presence 100/100; terms 17/100; promotion links 14/100; complaints 9/100; responsible-gambling 19/100; deposits 10/100; fees/limits 10/100; withdrawals 9/100; privacy/cookies 10/100; accessibility 0/100; regulatory-action 1/100; ADR 1/100; image sources 50/100.
 - All 100 remain NOT SCORED/HOLD. Image rights pending for 50 source leads and 50 not found; consumer testing NOT PERFORMED 100/100; affiliate disclosure NOT REVIEWED 100/100; reviewer fields, approval dates and evidence bundles 0/100. CI remains unconfirmed; no merge or Cloudflare Pages deployment.
+
+
+## Source batch 18 — Netherlands — latest snapshot
+- Added `docs/reviews/internal/operator-source-batch-18-2026-10-24.md` and reconciled official sources for TOTO (slot 26), Holland Casino Online (slot 27) and Fair Play Casino (slot 29).
+- TOTO sources now include its consumer site, participant rules, privacy, complaint procedure, limits and payment/withdrawal help. The help page says deposits use iDEAL/Wero and withdrawals are generally processed within 24 hours, often arriving within an hour; these are operator statements, not transaction tests.
+- Holland Casino Online official help sources describe a €10 minimum deposit, current published monthly net-deposit limits and a withdrawal reflection/processing sequence; exact domain/operator match, privacy/cookies and complaint/ADR evidence remain open.
+- Fair Play Casino's operator payment page identifies FPO Nederland B.V. and licence 1605/01.247.159 and lists iDEAL/Wero, €0 stated operator fees and instant processing for deposits/withdrawals. These are not tested transactions.
+- Latest canonical ledger parse: 100 rows × 43 columns, all widths valid, zero duplicate slots and zero duplicate brand/market pairs. Official domains 55/100; official-register URL presence 100/100; terms 17/100; promotion links 14/100; complaints 9/100; responsible-gambling 19/100; deposits 13/100; fees/limits 13/100; withdrawals 12/100; privacy/cookies 11/100; accessibility 0/100; regulatory-action 1/100; ADR 1/100; image sources 50/100.
+- All 100 remain NOT SCORED/HOLD. Image rights pending for 50 source leads and 50 not found; consumer tests NOT PERFORMED 100/100; affiliate disclosure NOT REVIEWED 100/100; reviewer fields, approval dates and evidence bundles 0/100. CI unconfirmed; no merge or Cloudflare Pages deployment.
 
 ## Required evidence sequence
 1. Reconcile each candidate's exact consumer-facing domain, product type, market and contracting legal entity against the current primary regulator record.
