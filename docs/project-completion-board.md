@@ -1,3 +1,13 @@
+# Indexability decision correction — 24 October 2026, 19:02 UTC
+
+- Corrected a source-level contradiction found during diff review: `scripts/check_site.py` explicitly requires the 100-card research directory to be `index,follow` and describes it as discoverable for transparency, while the page itself said `noindex,follow` and the sitemap omitted it. The page now declares `index,follow`, its notice no longer claims it is noindex, and the canonical sitemap now contains `https://beincasinos.online/brand-directory/` (45 source sitemap URLs).
+- The latest live branch-preview fetch still shows the previous deployed version (`noindex,follow`, 44 sitemap URLs, zero logo image loads) and production `/brand-directory/` still returns 404. Cloudflare's PR bot now reports build in progress for commit `8e7a25b`; recheck after that build completes. Do not claim the corrected indexability metadata is live yet.
+- The source now aligns with the existing site-checker's stated policy; deployment-artifact validation should expect the directory URL in the sitemap because its robots meta is index,follow. The route remains a transparent research queue, not a review or recommendation; it explicitly states 0/100 approved reviews.
+- Latest Actions run `40123381011` failed before any test step. The job reports runner ID 0, blank runner name, and no steps. GitHub's public status page reports Actions operational, so the cause remains repository-specific/unknown. No test result is available; do not label tests passed or source code failed on the basis of this runner failure.
+
+**Next:** verify Cloudflare's new preview after commit `8e7a25b` finishes, check sitemap count/robots/canonical against the deployed HTML, and investigate runner allocation with repository/Actions settings or GitHub Support. Production deploy/merge remains unauthorized.
+
+---
 # Latest verified checkpoint — 24 October 2026, 19:00 UTC
 
 - Brand-directory source and live preview agree: 100 research cards; 50 logo candidates retained in the rights register and HTML metadata; zero candidate image tags have a live `src`; 50 monogram fallbacks are visible. The latest branch preview fetch reports zero loaded images. CSS-only abstract artwork now gives the fallback panels a more polished, original treatment.
