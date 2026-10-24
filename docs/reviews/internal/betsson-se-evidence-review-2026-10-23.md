@@ -1,6 +1,6 @@
 # Betsson — Sweden internal evidence review
 
-**Research date:** 23 October 2026  
+**Research date:** 24 October 2026  
 **Market:** Sweden only  
 **Status:** **HOLD — internal evidence review, not publication-ready**  
 **Method:** Spelinspektionen official licence/enforcement records and a first-party access attempt. No account, deposit, withdrawal, support contact or real-money play was tested.
@@ -70,3 +70,12 @@ Do not infer the Swedish contract from Betsson's UK terms or from another group 
 - [ ] Complete legal/editorial approval and affiliate disclosure.
 
 **Decision: HOLD.*** This is an internal regulator-backed evidence review, not a completed consumer review or endorsement.
+
+## Fresh official-source recheck — 24 October 2026
+
+The live Spelinspektionen decision page was re-opened during this pass. It still shows the 28 May 2025 Betsson Nordic Ltd AML warning/sanction, the 2 July 2026 administrative-court judgment rejecting the company's appeal, and the statement that Betsson Nordic Ltd has appealed to the Administrative Court of Appeal. No later appeal outcome was visible on that official page at the time of this check.
+
+Primary source checked today: https://www.spelinspektionen.se/vara-beslut/beslutslista/betsson-nordic-ltd---varning-penningtvatt/
+
+**Editorial treatment:** describe the administrative-court judgment and further appeal separately; do not imply the appellate proceeding has concluded. The pending appeal is a factual status item, not evidence by itself of the current service's quality. Recheck again immediately before publication.
+
