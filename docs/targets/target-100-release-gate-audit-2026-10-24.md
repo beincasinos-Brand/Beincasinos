@@ -1,76 +1,46 @@
-# Target-100 release-gate audit — 2026-10-24
+# Target-100 release-gate audit — reconciled 2026-10-24
 
-## Scope
-Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` on branch `ops/2026-10-24-target-reconciliation-and-release-gates`. This audit does not imply a live-site deployment or a consumer review.
+## Scope and method
+Read-only structural audit of `docs/targets/100-brand-review-production-ledger-2026-10-24.csv` on branch `ops/2026-10-24-target-reconciliation-and-release-gates`. The complete CSV was parsed with quote-aware CSV handling and checked for row width, slot uniqueness and gate-field population. This is an internal research ledger, not a production review catalogue.
 
-## Verified counts
-- Ledger rows: 100; columns: 43.
-- Bonus/promotion URL populated: 54 rows; blank: 46 rows. A populated URL is only a source lead, not confirmation that the offer is current or fully verified.
-- Image source URL populated: 0; image-rights status pending: 100.
-- Overall score: NOT SCORED for 100; review status HOLD for 100; publication status HOLD for 100.
-- Deposit-method URL: 0 populated; fees/limits URL: 0 populated; accessibility evidence URL: 0 populated; regulatory-actions URL: 0 populated; ADR URL: 0 populated.
-- Privacy/cookies URL populated: 9; blank: 91.
-- Consumer testing: NOT PERFORMED for all 100.
-- Affiliate disclosure status: NOT REVIEWED for all 100.
-- Evidence bundle path: 0 populated.
+## Current structural result
+- Data rows: **100**; columns: **43**; every data row has exactly 43 fields; duplicate slot IDs: **0**.
+- Official bonus/promotion URL field: **54 populated / 46 blank**. A URL is a research lead, not proof an offer is live, available in the stated market, lawful, or fully understood.
+- Image source URL: **0 populated**; image reuse/rights status: **PENDING for 100/100**.
+- Overall score: **NOT SCORED for 100/100**.
+- Review status: **HOLD for 100/100**; publication status: **HOLD for 100/100**.
+- Deposit-method URL: **0/100**; fees/limits URL: **0/100**; accessibility evidence URL: **0/100**; regulatory-actions URL: **0/100**; ADR/dispute-resolution URL: **0/100**.
+- Privacy/cookies URL: **9/100 populated; 91 blank**.
+- Consumer testing: **NOT PERFORMED for 100/100**.
+- Affiliate disclosure status: **NOT REVIEWED for 100/100**.
+- Evidence bundle path: **0/100**.
 
 ## Release decision
-**Do not publish or rank these 100 entries as completed reviews.** The ledger is a research/candidate tracker. It presently has no substantiated overall scores, no completed consumer tests, no image-rights evidence, and no complete evidence bundles. Keep public-facing review counts at zero until each individual page passes the required review gates.
+**Do not publish or rank these 100 entries as completed reviews.** No entry has a substantiated overall score, independent second-review sign-off, documented consumer testing, cleared image rights, or a complete evidence bundle. Keep the public approved-review count at zero until individual entries pass all applicable gates. Do not manufacture scores, ratings, screenshots, testimonials, payment-test claims, or bonus availability.
 
-## Next work order
-1. Resolve target identity and market scope for each row; keep state/province-specific licences distinct.
-2. Capture regulator record and exact licensed operator/domain for each market.
-3. Capture complete current bonus terms only where a market-specific official offer is accessible; otherwise explicitly record NOT FOUND / NEEDS ACCOUNT and do not infer.
-4. Capture deposits, withdrawals, fees/limits, complaints and ADR, responsible-gambling, privacy/cookies, accessibility and enforcement sources.
-5. Acquire or create permitted images with documented rights.
-6. Perform actual product tests only where lawful and available, record method/date, and distinguish untested claims from observed behaviour.
-7. Apply the scoring rubric only after evidence exists; obtain independent second review and editorial/affiliate-disclosure approval.
-8. Run repository checks, review PR #141 and verify the Cloudflare Pages release path before claiming production is updated.
+## Highest-priority identity and scope risks
+1. **Slot 15 — Betano Casino (DE):** current ledger evidence mentions virtual slots, but does not establish a separate online table/live-casino permission. Do not label it a full casino until product and licence scope are proven.
+2. **Slot 24 — DraftKings Casino (CA-ON):** exact Ontario customer domain/contracting entity mapping is not yet established from the recorded regulator source.
+3. **Slot 25 — Espacejeux (CA-QC):** may overlap the Loto-Québec/lotoquebec.com product rather than represent a distinct current brand; resolve or deduplicate before counting it as a separate verified target.
+4. **Slots 5 and 20 — MERKUR Spiel / Tipico Casino (DE-SH):** permission recorded is Schleswig-Holstein-specific; do not imply nationwide German online-casino availability.
+5. **Slot 28 — Hollywood Casino (US-PA):** offer-source notes contain conflicting first-time-deposit wording; use the newer official help-centre article only as a lead until the complete Pennsylvania terms are confirmed.
+6. **Slot 38 — Fanatics Casino (US-NJ):** public homepage claim is casino credit, not cash; complete in-app eligibility and loss-calculation terms were not captured.
+7. **Slot 39 — BetRivers Casino (US-MI):** recorded page describes loyalty/rewards, not a verified welcome bonus or guaranteed cash value.
+8. **Slot 95 — Casino Gran Madrid Online (ES):** recorded promotion period ends **2026-10-31**; recheck on/after expiry and do not carry the offer forward automatically.
+9. **Slot 93 — Casineo.ch (CH):** a recorded promo code's page did not clearly state the year for its 14 November expiry; confirm the year and eligibility before making a current claim.
+10. **Slots 23 — Luckia (ES), and 46 other rows with blank offer URL:** do not infer a welcome bonus from a generic homepage. Research official market-specific promotion and full terms; if unavailable, record NOT FOUND / NEEDS ACCOUNT and retain HOLD.
 
-## Recent source additions
-The second official bonus-source batch added dated source notes for Caesars Palace Online Ontario, Borgata New Jersey, BetMGM Michigan, betPARX Pennsylvania, Sisal Italy and Napoleon Casino Belgium. These six entries remain held pending full offer terms and the wider review gates.
+## Required evidence sequence
+1. Reconcile each brand's exact consumer-facing domain, product type, market and contracting legal entity against the current regulator record.
+2. Capture current official terms and market-specific promotion terms, including eligibility, opt-in, minimum deposit, wagering, max bet, eligible games, expiry, caps and cash-vs-credit distinctions.
+3. Capture official deposit/withdrawal methods, fees/limits/verification, complaints and ADR, safer-gambling/self-exclusion, privacy/cookies, accessibility, and regulator enforcement sources.
+4. Record images only where created or sourced with documented permission/licence; do not assume official logos or promotional artwork are reusable.
+5. Perform hands-on testing only where lawful and actually completed; record date, method, market, device and limitations. Never imply a deposit/withdrawal test was run if it was not.
+6. Apply the published scoring rubric only after evidence exists; require an independent second reviewer, editorial approval, and affiliate-disclosure review.
+7. Add a complete evidence-bundle path and run repository checks before requesting release review.
 
-## Verification limitation
-The commit-status API returned no status checks and the workflow-run lookup returned no PR-triggered runs for the inspected commit. This is **unknown / not confirmed**, not a passing build. No Cloudflare deployment was performed by this audit.
+## Source batches recorded
+Internal source notes currently cover batches 01–06, including Great Britain offer leads; Ontario, New Jersey, Michigan and Pennsylvania sources; Italy, Spain, Sweden, Belgium, Netherlands and Switzerland offer leads. Individual batches preserve caveats about stale pages, conflicting terms, rotating promotions, restricted market scope and rewards that are not cash. See `docs/reviews/internal/official-bonus-source-batch-*-2026-10-24.md` for dated detail.
 
-
-## Follow-up source batch 03 — 24 October 2026
-
-- Added dated official promotion-source notes for Loto-Québec/Espacejeux (slot-machine and live-casino offers kept separate), Hollywood Casino (conflicting official first-deposit article wording), and Betsson Sweden (official page appears stale).
-- Updated the 100-row / 43-column ledger. Bonus/promotion URLs now populate **41/100 rows**; **59/100 remain blank**. These are source leads, not cleared offers. The new rows explicitly retain conflict/staleness caveats.
-- No scores were assigned, no review/publication status was changed, and all 100 candidates remain HOLD. Consumer tests remain NOT PERFORMED; image-rights clearance remains pending for all 100.
-- This batch does not resolve the broader evidence gaps: deposit-method, fees/limits, accessibility, regulatory-actions and ADR source fields remain unpopulated in the ledger; independent review and approval are still absent.
-- CI remains unconfirmed because Actions runner-start failures have prevented workflow steps from executing. No merge, DNS change, indexing release or Cloudflare production deployment was performed.
-
-
-## Follow-up source batch 04 — 24 October 2026
-
-- Added five more official market-specific promotion sources to the internal ledger: Holland Casino Online (NL), Circus Casino (BE), Kansino (NL), AdmiralBet (IT), and BetFlag (IT). Full offer-specific terms are still required; separate products/offers must not be conflated, and Fun Bonus is not cash.
-- Current ledger structural check: 100 rows / 43 columns. Bonus/promotion URLs now populate **49/100 rows**; **51/100 remain blank**. The ledger remains a research queue, not 100 approved reviews.
-- All 100 entries remain NOT SCORED / HOLD; consumer testing is not performed and image-rights clearance is pending across the set.
-- No live-site change, merge, DNS/indexing change or Cloudflare production deployment was performed. GitHub Actions checks are still unconfirmed in the available workflow-run lookup; no successful CI result is being claimed.
-
-
-## Follow-up source entries — 24 October 2026
-
-- Added official first-party offer/promotion sources for SNAI Italy, PlatinCasino Spain and Betfair Casino Italy.
-- The ledger now contains **49/100** bonus/promotion source URLs; **51/100** remain blank. The entries explicitly distinguish Fun Bonus/play credit from cash, separate casino from sportsbook offers, and record the 30-day wait before promotions at PlatinCasino Spain.
-- All 100 entries remain NOT SCORED / HOLD. No review approval, user testing, image-rights clearance, merge or Cloudflare deployment is claimed.
-
-
-## Follow-up source batch 05 — 24 October 2026
-
-- Added the official Play Gun Lake promotions destination (Michigan) after the operator help center pointed to its current promotions page. The help content explains offer-specific opt-in, promo-code, qualifying-wager and eligible-game requirements, but did not verify a current named welcome offer or its complete terms.
-- Ledger structural check: 100 rows / 43 columns; bonus/promotion URLs now populate **50/100 rows** and **50/100 remain blank**. These are research leads only, not approved bonus claims.
-- All 100 entries remain NOT SCORED / review HOLD / publication HOLD. Consumer tests remain NOT PERFORMED and image-rights clearance remains pending for all 100.
-- No merge or Cloudflare Pages production deployment was performed. CI remains unconfirmed; no passing check is claimed.
-
-
-## Follow-up source batch 06 — 24 October 2026
-
-- Added the official Fanatics Casino homepage as a source lead for its advertised New Jersey new-customer offer of up to $1,000 in casino credit on eligible first-day losses. The public page says the credit expires after seven days; the detailed terms are in-app and have not been fully captured. Casino credit is not cash. No account or transaction testing was performed.
-- Re-fetched and parsed the entire ledger after the write: **100 data rows, 43 columns, 100 unique slot IDs, 53 bonus/promotion URLs populated and 47 blank**. This fresh count corrects the previous stale 50/50 count in the audit.
-- All 100 candidates remain NOT SCORED / review HOLD / publication HOLD. Consumer testing remains NOT PERFORMED and image-rights clearance remains pending for all 100.
-- No merge or Cloudflare Pages production deployment was performed. The workflow-run lookup returned no PR-triggered runs for the latest documentation commit; CI remains unconfirmed, not passed.
-
-- Follow-up: added the official BetRivers Michigan iRush Rewards page as a rewards-program source lead, not a quantified welcome offer. Fresh ledger count: 100 rows / 43 columns / 54 bonus-promotion URLs populated / 46 blank. No account test, score, approval or production deployment.
+## CI and deployment status
+The available workflow-run lookup returned no PR-triggered runs for the inspected documentation commit. **CI is unconfirmed, not passed.** This work does not merge PR #141, change DNS/indexing, or deploy Cloudflare Pages. The project hosting target remains **Cloudflare**, not Vercel.
