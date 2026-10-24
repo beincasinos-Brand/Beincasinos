@@ -20,6 +20,7 @@ PUBLIC_FILES = (
 )
 PUBLIC_DIRS = (
     "about",
+    "brand-directory",
     "affiliate-disclosure",
     "contact",
     "editorial-policy",
