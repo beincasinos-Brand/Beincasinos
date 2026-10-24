@@ -23,7 +23,7 @@
 
 ### The 100-brand goal must not be confused with file count
 
-The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The master tracker is a separate 105-row research dataset. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
+The legacy `docs/brand-prospect-list.md` contains 100 names but explicitly spans markets outside the current Tier-1 focus and marks all prospects as unverified. The new international priority board now tracks one market-specific candidate in each of ten roadmap markets, but all ten remain HOLD. The master tracker is a separate 105-row research dataset. The project strategy focuses on GB, DE, NL, CH and specifically authorized US state/product markets; AU and FR are research-only for online-casino promotions pending category-specific legal review. A list entry is not a verified operator, permitted market, consumer-tested product, approved review or willing buyer.
 
 The master tracker `docs/tier-1-master-prospect-tracker.csv` contains 105 data rows (106 lines including its header). 103 rows are in the current GB/NL/CH/DE/US-state research scope; two rows are explicit FR/AU category exclusions. All 105 `global_brand_id` fields are blank, preventing reliable cross-market deduplication. Its entries are mixed research leads across markets and evidence grades; each still needs the specific follow-up described in its row. Do not represent this as 100 completed reviews.
 
@@ -39,7 +39,7 @@ A review counts as approved only after all applicable items are evidenced:
 - Public page has useful unique content, correct metadata, working links, and passes the repository checks.
 - Explicit publication gate is cleared; HOLD drafts stay internal and excluded from the public build/sitemap.
 
-The project board's most recent prior baseline says **0/100 fully publication-approved brand reviews**. Do not change that number until each profile passes the approval gate.
+The project board's most recent baseline and current checkpoint both say **0/100 fully publication-approved brand reviews**. Do not change that number until each profile passes the approval gate.
 
 ## Open blockers
 
