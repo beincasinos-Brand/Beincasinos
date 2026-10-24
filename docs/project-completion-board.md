@@ -3,7 +3,7 @@
 - Cloudflare's successful preview for commit `de72dd7` is now verified: `/brand-directory/` declares `index,follow`, canonical `https://beincasinos.online/brand-directory/`, and zero loaded images; `/sitemap.xml` reports 45 URLs and includes the research directory. The branch preview URL also now returns the same `index,follow` and 45-URL sitemap. This resolves the earlier source-level robots/sitemap contradiction in preview.
 - Production `https://beincasinos.online/brand-directory/` was last observed as 404; no production deployment or merge has been made. Treat production availability as a remaining release blocker until the owner approves deployment and the live route is verified.
 - Image-rights gate remains in place: 50 logo candidate URLs are retained in a 50-row internal register and metadata only; all 50 images have no live `src`, and neutral CSS monogram fallbacks are visible. Source checker and browser smoke coverage enforce the policy; CI has not executed these checks.
-- Latest Static site checks PR run `40123413402` failed before any step, with runner ID 0 / no runner / no steps. Public GitHub Status currently says Actions operational, so the repository-specific cause is unknown. Do not claim CI passed or that the code tests failed.
+- Latest Static site checks run `40123489402` on head `b13d4308` was retried (attempt 2) and still failed before any step: runner ID 0, empty runner name and no steps. Job logs are unavailable (`BlobNotFound`). The failure therefore does not establish a code/test failure, and CI is not passing; the repository-specific runner-allocation cause remains unknown.
 - PR #141 remains open, Draft and unmerged, with 130 changed files. The Tier-1 tracker has 114 market-specific rows, 99 blank global IDs, 58 VERIFY domains, and 111 HOLD plus 3 exclusions (one generic and two market/category-specific). The 100-name candidate register is not 100 verified brands. Approved reviews remain **0/100**.
 
 **Next:** investigate the Actions runner allocation failure, obtain authorization before production deployment, verify the production directory route after release, and continue the evidence-led consumer review process with actual usability/accessibility testing and independent sign-off.
@@ -233,3 +233,11 @@
 - `scripts/check_prospect_tracker.py` now requires at least one tracker row in each roadmap market: GB, BE, SE, DK, ES, IT, NL, DE, CH and CA-ON. The goal is to prevent the six-market omission identified during the latest audit.
 - The latest quote-aware tracker audit reports 112 data rows, 18 columns, zero malformed-width rows, zero duplicate brand/market keys, 108 blank global IDs, 58 VERIFY domains, zero UNKNOWN and two NOT APPLICABLE.
 - Latest observed PR head `dda674d2f744d868a60b27bcfa70a658da152383` still has no successful CI: run `40118399486` failed before runner allocation. Release remains blocked; approved reviews remain 0/100.
+
+
+## Follow-up verification — 24 October 2026
+
+- Rechecked the 18-column Tier-1 prospect tracker using a CSV-aware parser: 114 data rows, 0 malformed rows, 0 duplicate brand/market keys, 99 blank global brand IDs; Betano Belgium and Hollywood Casino Online Pennsylvania each have explicit market-specific rows and remain HOLD.
+- Corrected the Pennsylvania brand interpretation: `pa.hollywoodcasino.com` is the former skin (ended 14 Dec 2023), while the PGCB's 13 Feb 2026 list identifies `http://www.hollywoodcasino.com` for slots/table games from 19 Dec 2024. The newer route is a research lead, not yet a completed review; verify HTTPS redirect and current customer-contracting entity.
+- Reconfirmed Betano Belgium's current live regulator table dates in both English/French views as 12 Nov 2024 decision and 31 Dec 2026 expiry. Do not reuse the stale indexed 2019/2034 snippet; recheck before publication.
+- Re-ran the failed GitHub Actions job once. Attempt 2 failed at runner allocation with no steps, so no code-level CI result is available.
