@@ -32,3 +32,12 @@ The second official bonus-source batch added dated source notes for Caesars Pala
 
 ## Verification limitation
 The commit-status API returned no status checks and the workflow-run lookup returned no PR-triggered runs for the inspected commit. This is **unknown / not confirmed**, not a passing build. No Cloudflare deployment was performed by this audit.
+
+
+## Follow-up source batch 03 — 24 October 2026
+
+- Added dated official promotion-source notes for Loto-Québec/Espacejeux (slot-machine and live-casino offers kept separate), Hollywood Casino (conflicting official first-deposit article wording), and Betsson Sweden (official page appears stale).
+- Updated the 100-row / 43-column ledger. Bonus/promotion URLs now populate **41/100 rows**; **59/100 remain blank**. These are source leads, not cleared offers. The new rows explicitly retain conflict/staleness caveats.
+- No scores were assigned, no review/publication status was changed, and all 100 candidates remain HOLD. Consumer tests remain NOT PERFORMED; image-rights clearance remains pending for all 100.
+- This batch does not resolve the broader evidence gaps: deposit-method, fees/limits, accessibility, regulatory-actions and ADR source fields remain unpopulated in the ledger; independent review and approval are still absent.
+- CI remains unconfirmed because Actions runner-start failures have prevented workflow steps from executing. No merge, DNS change, indexing release or Cloudflare production deployment was performed.
