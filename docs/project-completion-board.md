@@ -452,3 +452,11 @@
 - Expanded the review-ledger regression suite from five to **seven tests** with explicit cases for rejecting non-HTTPS official sources and malformed bonus-check dates.
 - Existing coverage also tests held/unscored rows, partial component scoring, score-total mismatches, duplicate brand/market identities, and attempted publication without required evidence or cleared image rights.
 - These tests are wired into the existing GitHub Actions workflow, but execution is still blocked by the runner-allocation failure tracked in Issue #143; no test pass is claimed.
+
+
+# Eighth market-specific bonus evidence pass — Spain — 24 October 2026
+
+- Added official promotion sources for Codere Spain and AdmiralBet Spain; ledger now has **24** official bonus/promotion URLs. Internal note: `docs/reviews/internal/bonus-snapshot-codere-admiralbet-es-2026-10-24.md`.
+- Codere's official pages conflict on the minimum qualifying deposit (€10 in the casino journey vs €20 on the welcome-bonus explainer) and mix sports/casino product language; no casino-only offer was cleared.
+- AdmiralBet's official casino page describes 50 registration spins, a 100% first-deposit bonus up to €150 and 50 post-deposit spins. Its €10 free bet is a sports benefit and is deliberately excluded from casino bonus value; exact casino wagering/expiry/cashout terms remain outstanding.
+- Both rows remain held; no account or offer testing was performed.
