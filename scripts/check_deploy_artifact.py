@@ -107,15 +107,15 @@ else:
         errors.append("dist/robots.txt: required robots policy is missing")
     else:
         robots_text = robots.read_text(encoding="utf-8")
-        # The current release candidate intentionally allows crawling. Check both
-        # the wildcard allow rule and canonical sitemap directive; crawlability does
-        # not prove indexing or authorize a production deployment.
+        # Pre-launch release candidate: keep crawling blocked until the owner
+        # explicitly approves release. A sitemap is retained for future launch
+        # readiness but must not be treated as authorization to crawl or index.
         if not re.search(r"^User-agent:\s*\*\s*$", robots_text, re.I | re.M):
             errors.append("dist/robots.txt: wildcard user-agent group is missing")
-        if not re.search(r"^Allow:\s*/\s*$", robots_text, re.I | re.M):
-            errors.append("dist/robots.txt: explicit site-wide allow rule is missing")
-        if re.search(r"^Disallow:\s*/\s*$", robots_text, re.I | re.M):
-            errors.append("dist/robots.txt: site-wide crawl block conflicts with the intended release policy")
+        if not re.search(r"^Disallow:\s*/\s*$", robots_text, re.I | re.M):
+            errors.append("dist/robots.txt: pre-launch site-wide crawl block is missing")
+        if re.search(r"^Allow:\s*/\s*$", robots_text, re.I | re.M):
+            errors.append("dist/robots.txt: site-wide allow rule conflicts with pre-launch crawl block")
         if not re.search(r"^Sitemap:\s*https://beincasinos[.]online/sitemap[.]xml\s*$", robots_text, re.I | re.M):
             errors.append("dist/robots.txt: canonical sitemap location is missing")
 
