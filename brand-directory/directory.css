@@ -48,3 +48,13 @@
   background: rgba(255,255,255,.9);
   box-shadow: 0 8px 20px rgba(23,77,62,.09);
 }
+
+
+/* Explicit, non-empty score/bonus states: do not imply a rating or offer exists
+   before the market-specific evidence and independent editorial gate are passed. */
+.card-readiness{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0;padding:12px;border:1px solid #dce7df;border-radius:14px;background:linear-gradient(135deg,#f7fbf8,#f1f6f2)}
+.readiness-item{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:0}
+.readiness-label{font-size:.72rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#61736a}
+.readiness-value{display:inline-flex;align-items:center;min-height:28px;padding:3px 9px;border:1px solid #d7c99f;border-radius:999px;background:#fff8e5;color:#66521d;font-size:.78rem;line-height:1.3}
+.readiness-note{font-size:.78rem;line-height:1.45;color:#53655c}
+@media(max-width:480px){.card-readiness{grid-template-columns:1fr}.readiness-item{padding:3px 0}}
