@@ -774,3 +774,10 @@ Added tailored SEO/page-structure briefs for Admiral Casino (Switzerland), casin
 Added five additional market-specific page briefs in `docs/reviews/internal/market-review-draft-batch-2026-10-24-c.md`: Tipico Casino (Germany), 888.nl, BetCity and FairPlay Casino (Netherlands), and VBET (Great Britain). The briefs define distinct search intent, page structure, local regulator/entity/domain checks, consumer-term and payment checks, safer-gambling/privacy/accessibility checks, and image-rights requirements. FairPlay is explicitly held until its exact identity is resolved.
 
 These are internal briefs, not completed or approved reviews. No licence status or availability is asserted by the briefs. Approved reviews remain **0/100**; Cloudflare production and search indexing remain unverified. No GitHub Actions workflow was intentionally triggered.
+
+
+## Further state-specific review briefs — 24 October 2026
+
+Added five US state-specific SEO/page-structure packages to `docs/reviews/internal/market-review-draft-batch-2026-10-24-d.md`: Hard Rock Bet (Pennsylvania), Horseshoe Online Casino (Michigan), Fanatics Casino (Pennsylvania), Hollywood Casino Online (Pennsylvania), and Mohegan PA Online Casino (Pennsylvania). Each requires current state-regulator evidence, exact approved domain and contracting-entity identification, casino-specific terms, payments/withdrawals, complaints, responsible-gambling and privacy/accessibility checks, image-rights clearance and independent review. The briefs explicitly separate online casino products from sportsbook promotions and land-based venue claims.
+
+This adds **five internal SEO/research briefs, not five completed reviews**. No state authorization or live availability is asserted by the briefs. Approved reviews remain **0/100**; directory card labels remain unverified candidates; Cloudflare deployment and search indexing remain unverified. No GitHub Actions workflow was intentionally triggered.
