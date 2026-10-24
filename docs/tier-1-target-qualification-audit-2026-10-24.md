@@ -50,7 +50,7 @@ Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026.
 1. Keep all rows on Hold until the current official domain, legal operator and product scope are resolved; retain explicit Exclude decisions where scope is not established.
 2. Replace each `VERIFY` only with a domain corroborated by the brand's current official site and regulator record where one exists; otherwise record `UNKNOWN` and keep Hold/Exclude status.
 3. Review current terms, offers, payment/withdrawal disclosures, complaints/ADR, safer-gambling controls, privacy, accessibility and regulatory history for each product.
-4. Map the candidate register to global IDs manually; the separate candidate-to-global-ID map currently has 36 provisional mappings and 64 unresolved candidates.
+4. Map the candidate register to global IDs manually; the separate candidate-to-global-ID map currently has 39 provisional mappings and 61 unresolved candidates.
 5. Document an explicit 100-brand cohort and market scope. Deduplicate same-brand/market records before claiming progress against the goal.
 6. Keep paid-listing demand Unconfirmed until directly evidenced; do not infer it from a licence, launch, domain or affiliate programme.
 7. Update this audit only after tracker changes and rerun the row-count, schema, duplicate-key and domain-placeholder checks.
