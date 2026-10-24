@@ -918,12 +918,12 @@ if directory_page.is_file():
         errors.append("brand-directory/index.html: canonical URL is missing or incorrect")
     if "intentionally marked noindex" in directory_source:
         errors.append("brand-directory/index.html: stale noindex explanation contradicts the public robots directive")
-    cards = re.findall(r'<article\\b[^>]*class="[^"]*\\bbrand-card\\b[^"]*"[^>]*>([\\s\\S]*?)</article>', directory_source)
+    cards = re.findall(r'<article[^>]*class="[^"]*brand-card[^"]*"[^>]*>(.*?)</article>', directory_source, re.S)
     if len(cards) != 100:
         errors.append(f"brand-directory/index.html: expected 100 research cards, found {len(cards)}")
     titles = []
     for card in cards:
-        match = re.search(r'<h2[^>]*>([\\s\\S]*?)</h2>', card)
+        match = re.search(r'<h2[^>]*>(.*?)</h2>', card, re.S)
         title = re.sub(r'<[^>]+>', '', match.group(1)).strip() if match else ""
         if not title:
             errors.append("brand-directory/index.html: a research card is missing its title")
