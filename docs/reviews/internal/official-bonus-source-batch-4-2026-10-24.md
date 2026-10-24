@@ -32,3 +32,12 @@ Five official market-specific offer/promotion sources were recorded in the inter
 - Ledger updated for five rows. Bonus/promotion URLs now populate 46/100 rows; 54 remain blank.
 - No review score or publication approval was added. No consumer test, image-rights clearance or independent review was represented as complete.
 - These entries remain source leads, not approved review content. No public-site, DNS, indexing, merge or Cloudflare production change was made.
+
+
+## Follow-up source entries — SNAI, PlatinCasino and Betfair Casino
+
+- **SNAI (Italy):** https://www.snai.it/bonus/casino advertises a casino welcome bonus up to €5,000, but complete current rules, qualifying deposit, wagering, expiry and conversion limits were not captured. The headline is not guaranteed cash.
+- **PlatinCasino.es (Spain):** https://www.platincasino.es/promociones-casino says customers must register, verify and wait 30 days before accessing promotions. Do not describe its promotions as an immediate welcome bonus; individual terms apply.
+- **Betfair Casino (Italy):** https://casino.betfair.it/promozioni/ lists a 100% net-loss refund up to €10 for five weeks under code ZBETEX in the captured view. Confirm the active casino-specific terms and do not conflate sportsbook offers with casino offers.
+
+The ledger now contains **49/100** bonus/promotion source URLs; **51/100** remain blank. These are source leads only; every row remains HOLD and no scores or publication approvals were added.
