@@ -1,3 +1,14 @@
+# Current continuation checkpoint — 24 October 2026, 20:15 UTC
+
+- Added five regression cases to `scripts/test_deploy_artifact.py` for crawler-specific noindex directives among unrelated meta tags, exact directive-token matching, HTML-comment handling, mixed case/whitespace, and attribute order. Commit: `b256768a6264f231eafbf1e77d3bc5f8af6ba1ba`. The workflow contains a dedicated `python3 -m unittest scripts.test_deploy_artifact -v` step, but it cannot run until the GitHub runner is allocated.
+- Re-ran the failed workflow job once. The retry also failed before any step began: runner ID remains `0`, runner name is blank, the step list is empty, and no diagnostic log is available. The corresponding PR run failed in the same way. This points to an Actions job-start/runner problem rather than a test assertion, but the root cause is **not confirmed**. GitHub Status currently reports all systems operational; do not claim the incident is solved or bypass the gate.
+- Current tracker recheck: **112 data rows**, 18 columns; BetRivers Casino PA and Hollywood Casino Online PA are both present as distinct research leads, and the ten-market board retains its original GB/BE/SE/DK/ES/IT/NL/DE-SH/CH/Ontario scope. All targets remain HOLD.
+- PR #141 remains open, Draft and unmerged with **126 changed files**. No successful current-head CI, fresh preview verification, production deployment or merge is confirmed. Approved consumer reviews remain **0/100**.
+
+**Next:** repository owner needs to inspect Actions settings/runner availability and job-start logs; after a runner is available, execute the complete static-site, tracker, artifact, parser-unit and browser-smoke suite. Then verify a new Cloudflare Pages preview before any release decision.
+
+---
+
 # Latest verified work checkpoint — 24 October 2026, 17:58 UTC
 
 - **Main brand registry:** 207 market-specific rows, 156 distinct global-brand IDs, 205 HOLD and 2 rejected. The 100-name candidate register has a candidate-to-ID map with **39 provisional mappings** (22 exact normalized slugs and 17 explicitly listed aliases) and **61 unresolved names**. These mappings support deduplication only; they do not prove market eligibility or approve reviews.
