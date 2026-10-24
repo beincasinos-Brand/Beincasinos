@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -30,7 +29,7 @@ jobs:
         run: python3 scripts/test_sales_pipeline.py
       - name: Check shared JavaScript syntax
         run: node --check script.js && node --check scripts/browser_smoke.cjs
-      - name: Validate Cloudflare Pages security headers and Vercel fallback config
+      - name: Validate Cloudflare Pages security headers
         run: python3 scripts/check_host_config.py
       - name: Build public-only deployment artifact
         run: python3 scripts/build_site.py
