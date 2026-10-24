@@ -32,6 +32,8 @@ jobs:
         run: python3 scripts/check_host_config.py
       - name: Build public-only deployment artifact
         run: python3 scripts/build_site.py
+      - name: Test robots directive parser for sitemap exclusion
+        run: python3 -m unittest scripts.test_deploy_artifact -v
       - name: Verify deployment artifact excludes internal files
         run: python3 scripts/check_deploy_artifact.py
       - name: Run Chromium browser smoke tests
