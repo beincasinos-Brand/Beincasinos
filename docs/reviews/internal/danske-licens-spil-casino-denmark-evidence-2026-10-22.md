@@ -70,3 +70,33 @@ This evidence does **not** establish:
 - [ ] Have an independent second editor validate the complete review and local-market/legal suitability.
 
 **Decision: HOLD. Approved reviews credited: 0.** Keep this note in `docs/reviews/internal/`; exclude internal evidence from public navigation, sitemap and production output. Do not create a public review page until the release gates pass.
+
+## Fresh primary-source recheck — 24 October 2026
+
+### Regulator record
+
+Re-opened the Danish Gambling Authority's current operator-specific page on 24 October. It continues to list **Danske Licens Spil A/S**, the domains `danskespil.dk` and `tivolicasino.dk`, and the permission categories **Online casino** and **Betting**. The regulator's online-casino definition expressly includes roulette, blackjack, baccarat, punto banco, online bingo, poker and games on prize-paying gaming machines, as well as other qualifying chance/skill games.
+
+- Current operator-specific register: https://spillemyndigheden.dk/spiludbydere-med-tilladelse/danske-licens-spil-as
+- Current general register, marked last updated 20 August 2026: https://spillemyndigheden.dk/en-us/licensed-gambling-operators
+- Regulator explanation of the online-casino permission: https://spillemyndigheden.dk/en-us/businesses-and-associations/games-which-require-a-licence/online-casino
+
+This supports the Danish licensee/domain association in the official record. It does not itself prove that all consumer pages or terms are current, nor does it authorize a review of other countries' versions.
+
+### Consumer-policy page recheck
+
+The operator's casino customer-centre page currently identifies separate service categories for casino support and states that the casino product is offered by Danske Licens Spil A/S. It displays a contact form and email channel with a stated expected response time of 24 hours, a customer-service phone number and hours, and a StopSpillet link. These are current page claims only; no support interaction was conducted.
+
+- Casino customer centre: https://danskespil.dk/kundecenter/Casino
+- Online-game terms: https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dli
+
+The terms page currently available still contains old effective-date language (new-player terms effective 1 December 2022; existing-player terms effective 3 January 2023). Its withdrawal clauses say balances normally go to the customer's Danish NemKonto or another Danish bank account owned by the customer, withdrawals may be made at most once per day, transaction fees may apply under current published fees, and winnings of DKK 1,500,000 or more may be transferred 3–4 weeks after the game/bet concludes. These are contractual statements, not measured payout performance. The old revision dates are a material freshness limitation: obtain confirmation of current terms and the casino-specific cashier/bonus terms before publication.
+
+### Current conclusion
+
+- **Identity/licence:** regulator-listed, with exact listed domains and online-casino category.
+- **Terms freshness:** unresolved; published terms still show 2022/2023 effective dates.
+- **Withdrawal performance:** not tested; only terms language captured.
+- **Customer support:** channels listed, not tested.
+- **Safer gambling/ROFUS, complaints/ADR, privacy/cookies, accessibility, casino bonus rules:** not complete.
+- **Publication status:** **HOLD / NOT SCORED / NOT APPROVED**. This recheck adds no approved review and no new distinct global brand.
