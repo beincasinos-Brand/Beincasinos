@@ -875,3 +875,8 @@ Created [Betfair Casino UK — evidence-led review draft](../reviews/internal/gb
 ## PlayOJO UK evidence-led draft — 2026-10-24
 
 Created [PlayOJO UK — evidence-led review draft](../reviews/internal/gb-playojo-evidence-led-draft-2026-10-24.md) from the official GB-filtered help centre. It attributes withdrawal-time and bonus statements to the operator, records payment/verification caveats, and leaves current terms, legal identity, and complaint/ADR as blockers. It remains internal `HOLD`; no consumer test or approval is claimed. Approved consumer reviews remain **0/100**. No Actions run, merge or Cloudflare deployment.
+
+
+## Virgin Games UK evidence-led draft — 2026-10-24
+
+Created [Virgin Games UK — evidence-led review draft](../reviews/internal/gb-virgin-games-evidence-led-draft-2026-10-24.md) using the operator's UK site, withdrawal explainer and responsible-gambling page. The draft distinguishes operator-published statements from tested performance and flags current terms and complaint/ADR as publication blockers. It remains internal `HOLD`; no hands-on testing or approval is claimed. Approved consumer reviews remain **0/100**. No Actions run, merge or Cloudflare deployment.
