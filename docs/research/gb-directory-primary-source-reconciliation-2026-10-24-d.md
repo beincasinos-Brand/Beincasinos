@@ -22,7 +22,7 @@
 
 - **Primary evidence:** UKGC account 61011 identifies QuinnBet (Gibraltar) Limited with active Casino Remote permission from 21 September 2022; the domain register lists `www.quinnbet.com` as Active and trading names include active `quinncasino`.
 - **Material regulatory context:** On 20 August 2026, UKGC announced a £609,104 payment in lieu of a financial penalty after finding AML/CTF, remote customer-interaction and financial-vulnerability-check failures. The Commission stated that the operator recognised the issues and took steps to improve controls. Current effectiveness of remediation must still be independently checked.
-- **Directory treatment:** Grade B; HOLD pending current customer-route checks, terms and evidence of current control effectiveness. Do not hide or overstate the dated enforcement finding.
+- **Directory treatment:** Grade B; HOLD pending current customer-route checks, terms and evidence of current control effectiveness. Do not hide or overstate the dated enforcement finding. An official-site square emblem candidate was added from the QuinnBet UK page; it is not a full wordmark and remains rights pending.
 - **Sources:** [UKGC licence summary](https://www.gamblingcommission.gov.uk/public-register/business/detail/61011) · [UKGC domain register](https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/61011) · [UKGC settlement notice](https://www.gamblingcommission.gov.uk/news/article/quinnbet-gibraltar-limited-to-pay-gbp609-104-for-regulatory-failures)
 
 ## 061 — LottoGo Casino
