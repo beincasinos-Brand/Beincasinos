@@ -258,3 +258,12 @@
 - Corrected the Pennsylvania brand interpretation: `pa.hollywoodcasino.com` is the former skin (ended 14 Dec 2023), while the PGCB's 13 Feb 2026 list identifies `http://www.hollywoodcasino.com` for slots/table games from 19 Dec 2024. The newer route is a research lead, not yet a completed review; verify HTTPS redirect and current customer-contracting entity.
 - Reconfirmed Betano Belgium's current live regulator table dates in both English/French views as 12 Nov 2024 decision and 31 Dec 2026 expiry. Do not reuse the stale indexed 2019/2034 snippet; recheck before publication.
 - Re-ran the failed GitHub Actions job once. Attempt 2 failed at runner allocation with no steps, so no code-level CI result is available.
+
+
+# Betsuna GB evidence refresh — 24 October 2026 (continued work)
+
+- Re-read the UK-specific Betsuna homepage, FAQ and terms alongside the UKGC account, domain and sanction records. Updated the existing internal dossier and the single Betsuna/GB tracker row.
+- New customer-facing facts recorded with source links: current UK welcome offer advertises 100% up to £100 + 50 spins with stated 10x wagering rules; UK terms state a 1% withdrawal processing fee capped at £3, while the FAQ says processing within 3 business days and funds generally arrive within 7 business days; terms describe customer funds as segregated but not protected in insolvency; UKGC domain list labels betsuna.com White Label under ProgressPlay Limited.
+- Corrected the tracker’s enforcement date to the official decision date **9 May 2025** (not the 21 August 2025 news-publication date). The £1m sanction, warning, licence condition and required third-party audit are recorded; current audit/remediation outcome remains unverified.
+- No account registration, deposit, gameplay, support or withdrawal test was performed. No quality score or recommendation is approved; Betsuna remains HOLD and willingness to pay remains unconfirmed.
+- Evidence draft: `docs/reviews/internal/betsuna-gb-evidence-review-2026-10-24.md`. Tracker: `docs/tier-1-master-prospect-tracker.csv`.
