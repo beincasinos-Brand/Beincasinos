@@ -28,7 +28,7 @@
 | 8 | LeoVegas Casino | Great Britain | HOLD — evidence captured | `leovegas-casino-gb-evidence-review-2026-10-24.md`; confirm active GB domain and complete current terms, cashier, complaints, RG and accessibility tests |
 | 9 | Mr Green Casino | Great Britain | HOLD — status reconciliation captured | `mr-green-gb-licence-status-reconciliation-2026-10-24.md`; confirm current customer route/terms, white-label mapping, cashier and consumer testing |
 | 10 | Grosvenor Casinos Online | Great Britain | HOLD — evidence captured | `grosvenor-casino-gb-regulatory-context-2026-10-24.md`; verify current terms/domain, test cashier/complaints/RG and complete independent review |
-| 11 | Paddy Power Casino | Great Britain | HOLD | Confirm active casino domain register and current terms; include 2025 settlement |
+| 11 | Paddy Power Casino | Great Britain | HOLD — active Casino Remote evidence captured | UKGC account 39426 has active Casino Remote permission and active `www.paddypower.com`/`paddy power` records; match the live casino customer contract to the exact licensee, archive current casino terms and cashier/complaints/RG evidence, and contextualise the 17 Dec 2025 multi-licensee settlement |
 | 12 | Betfair Casino | Great Britain | QUEUE | Exact casino operator/domain, current casino-specific terms and group enforcement scope |
 | 13 | Virgin Games | Great Britain | HOLD | Confirm current consumer terms and domain mapping; distinguish licensee-level action |
 | 14 | Sky Vegas | Great Britain | HOLD / EXCLUDE PENDING NEW EVIDENCE | Prior license/domain record showed surrendered/inactive; require new active evidence |
