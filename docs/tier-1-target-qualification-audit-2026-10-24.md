@@ -6,26 +6,27 @@
 
 Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026.
 
-- Data rows: **112** (excluding header); this is a mixed market-specific research queue, not 100 approved reviews.
-- Rows within the current roadmap/supplemental research scope: **110** across GB, BE, SE, DK, ES, IT, NL, DE, CH, CA-ON, US-NJ, US-PA and US-MI. Two category-level exclusions remain for FR and AU.
+- Data rows: **114** (excluding header); this is a mixed market-specific research queue, not 100 approved reviews.
+- Rows within the current roadmap/supplemental research scope: **112** across GB, BE, SE, DK, ES, IT, NL, DE/DE-SH, CH, CA-ON, US-NJ, US-PA and US-MI. Two category-level exclusions remain for FR and AU.
 - Columns: **18**. No malformed-width rows and no duplicate brand/market keys were found in the latest quote-aware parse.
-- `global_brand_id` is populated for **4 rows**: Casineo.ch (CH) → `casineo`; Jollie.de (DE) → `jollie`; BetRivers Casino (US-PA) → `betrivers-casino`; Hollywood Casino Online (US-PA) → `hollywood-casino`. The remaining **108 rows** have blank IDs, so global deduplication is incomplete.
-- Publication status: **109 Hold**, 1 Exclude, 1 Exclude from French online-casino listings, and 1 Exclude from Australian online-casino listings.
+- `global_brand_id` is populated for **15 rows**, representing **14 distinct IDs** because `bet365-casino` is shared across two market rows. The remaining **99 rows** have blank IDs, so global deduplication is incomplete.
+- Publication status: **111 Hold**, 1 Exclude, 1 Exclude from French online-casino listings, and 1 Exclude from Australian online-casino listings.
 - Willingness to pay remains unconfirmed for all ordinary prospects. No row is evidence of confirmed paid-listing demand.
 - The `official_domain` field is `VERIFY` in **58 rows** and `NOT APPLICABLE` in **2 rows**. No row currently uses `UNKNOWN`; the PGCB-listed Hollywood Casino URL is HTTP, and its HTTPS canonical/redirect plus customer-contracting entity remain unverified.
-- All 112 rows remain unapproved for publication; regulator/domain evidence is not a substitute for current terms, cashier/withdrawal checks, complaints/RG/privacy/accessibility review, documented testing, image rights and independent sign-off.
+- All 114 rows remain unapproved for publication; regulator/domain evidence is not a substitute for current terms, cashier/withdrawal checks, complaints/RG/privacy/accessibility review, documented testing, image rights and independent sign-off.
 
 ## Market distribution
 
 | Market code | Rows | Interpretation |
 |---|---:|---|
-| GB | 69 | Exact domain/operator/product checks and current consumer-term review required |
+| GB | 70 | Exact domain/operator/product checks and current consumer-term review required |
 | NL | 18 | Confirm current Ksa brand/domain notification and permit scope |
 | US-NJ | 7 | New Jersey only; do not generalize to the United States |
 | US-PA | 4 | Pennsylvania only; verify exact domain and customer-contracting entity |
 | US-MI | 2 | Michigan only; verify exact operator/platform roles and customer terms |
-| CH | 2 | Swiss register, operator and game-permission checks required |
-| DE | 2 | State/product scope must be explicit; Schleswig-Holstein permission is not nationwide German permission |
+| CH | 3 | Swiss register, operator and game-permission checks required |
+| DE-SH | 1 | Territory-limited Tipico scope; not nationwide Germany |
+| DE | 1 | State/product scope must be explicit; Schleswig-Holstein permission is not nationwide German permission |
 | BE | 1 | Belgian Gaming Commission domain/operator and A+ licence scope must match the product |
 | SE | 1 | Swedish licence, domain and current customer terms must match |
 | DK | 1 | Danish licence and exact casino product/domain must match |
@@ -37,8 +38,8 @@ Parsed from `docs/tier-1-master-prospect-tracker.csv` on 24 October 2026.
 
 ## Data-quality risks
 
-1. The tracker has 112 rows while the programme goal is 100 globally unique brands. Choose a documented 100-brand cohort after identity and eligibility review; do not silently truncate the queue.
-2. Only four rows currently have a stable global ID. Brand aliases, white-label relationships and market variants require human reconciliation before the cohort can be described as 100 unique brands.
+1. The tracker has 114 rows while the programme goal is 100 globally unique brands. Choose a documented 100-brand cohort after identity and eligibility review; do not silently truncate the queue.
+2. Fifteen rows currently have a populated global ID, representing 14 distinct IDs; 99 rows still lack one. Brand aliases, white-label relationships and market variants require human reconciliation before the cohort can be described as 100 unique brands.
 3. The `VERIFY` placeholder appears in 58 official-domain cells. These entries need primary-source domain identification before they can count as verified candidates.
 4. Market permission is not transferable: US states are separate scopes, Tipico is Schleswig-Holstein-specific, and Ontario/European permissions do not imply broader national or international availability.
 5. The legacy `docs/brand-prospect-list.md` covers regions outside the current programme. Requalify the queue rather than copying its names into public reviews.
