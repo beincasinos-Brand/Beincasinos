@@ -240,3 +240,12 @@ Before promoting any candidate, record the exact market, product, live domain, c
 - **New Jersey inventory:** the live DGE approved-site page now includes `jackiecasino.playstar.com` and `rwbetnj.com/en/casino` under Ocean Resort Casino. Added as unqualified leads only; neither counts as a distinct eligible brand until exact product/entity mapping, deduplication and consumer review gates pass. See `docs/research/new-jersey-dge-candidate-delta-2026-10-24.md`.
 
 These deltas are research corrections, not newly approved reviews. Keep the authoritative publication count at **0/100** until each candidate has passed all mandatory gates.
+
+
+### Further UKGC identity reconciliation — 24 October 2026
+
+- **Sky Vegas:** current UKGC records show Bonne Terre Gaming Limited (65519) with Casino Remote Active and active Sky Vegas domains/trading name; Bonne Terre Limited (38718) has its casino licence surrendered effective 31 October 2025 and the related Sky Vegas records inactive. This materially narrows the ambiguity, but the live site's customer contract must still confirm the current contracting entity.
+- **Ladbrokes Casino:** account 1611 has Casino Remote Active and active Ladbrokes/Coral trading names but no matching domain in the current search result; account 54743 (LC International Limited) is associated with ladbrokes.com and the Ladbrokes trading name. Do not infer the contracting entity for every product/domain from this overlap.
+- **Coral Casino:** the current UKGC search for coral.co.uk maps that domain to LC International Limited (54743), while account 1611 also lists Coral as a trading name. Confirm the live customer contract and product terms before publication.
+
+Detailed official-source URLs and caveats are recorded in `docs/research/primary-source-follow-up-sky-ladbrokes-coral-2026-10-24.md`. All three remain HOLD pending live-contract verification, complete consumer evidence and independent sign-off; these are not newly approved reviews.
