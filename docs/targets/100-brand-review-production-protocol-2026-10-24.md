@@ -90,3 +90,8 @@ Latest ledger audit reports 54 dated official bonus/promotion URLs across 100 ro
 The canonical 100-brand production ledger must match the public directory's 100 card identities and market codes exactly. A prior 100-candidate cross-market research set is preserved separately at `docs/targets/100-brand-review-cross-market-research-ledger-2026-10-24.csv`; its sources cannot be reused for a different brand or market without a verified identity match.
 
 After reconciliation, the canonical ledger has 100 unique public brand/market rows, eight matched bonus/promotion source leads, zero assigned numerical scores, and explicit NOT SCORED / HOLD states. These eight sources are not approved offers. The other rows remain held until current market-specific terms are verified.
+
+
+## Automated public-directory identity guard
+
+The workflow runs `scripts/check_directory_ledger_alignment.py` after the ledger validator. It requires exactly 100 unique public brand/market pairs and exact set equality with the canonical ledger. Four unit tests cover parsing, exact-match acceptance, market mismatch rejection and the 100-identity CI requirement. GitHub Actions execution remains unconfirmed due runner allocation.
