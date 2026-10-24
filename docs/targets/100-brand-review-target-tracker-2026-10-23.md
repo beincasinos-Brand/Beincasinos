@@ -1,7 +1,8 @@
 # BeInCasinos — 100-brand / 100-review target tracker
 
-**Last reconciled:** 23 October 2026  
-**Branch:** `ops/tier1-10-market-100-brand-roadmap-2026-10-22`  
+**Last reconciled:** 24 October 2026  
+**Working branch:** `feature/directory-global-brand-count-disclosure-2026-10-23`  
+**Release status:** Open draft PR #52; not merged; Cloudflare production deployment not confirmed.  
 **Target:** 100 distinct, jurisdiction-appropriate brands with 100 independently checked, high-quality reviews.  
 **Publication approvals:** **0/100**. Do not treat research records or internal drafts as completed reviews.
 
@@ -365,3 +366,23 @@ Research memo: `docs/research/gb-directory-primary-source-reconciliation-2026-10
 - Added a Smooth Spins brand graphic candidate from the BV Group brands page and a Planet Sport Bet official-site share graphic candidate. Both cards and the 100-row image register mark these **SOURCE FOUND — RIGHTS PENDING**. Neither is cleared for unrestricted republication.
 - **Current static source QA:** 100 cards / 100 unique displayed titles; 56 image candidates / 44 CSS artwork fallbacks; asset register has 100 data rows. Evidence attributes after the source reconciliation: A=20, B=53, C=27, UNKNOWN=0; status attributes 98 HOLD / 2 EXCLUDE. These are registry classifications, not casino rankings or publication approvals.
 - **Target truth unchanged:** displayed entries are not proof of 100 verified distinct global brands; approved consumer reviews remain **0/100**. No browser visual regression or GitHub Actions build was run. PR #52 remains open/draft/unmerged; no Cloudflare production deployment is confirmed.
+
+
+## 24 October — directory visual and editorial QA update
+
+- Directory HTML contains **100 brand cards** and 100 unique displayed card titles; this is not proof of 100 verified, globally distinct casino brands.
+- The current visual asset pass contains **56 image candidates** and **44 CSS-art/monogram fallbacks**. Image candidates are not automatically cleared for republication: logo/image rights and direct rendering remain separate checks.
+- Evidence grades currently recorded on cards: **A=20, B=53, C=27**. Grades describe evidence coverage, not casino quality or player safety.
+- Current card status flags: **HOLD=98, EXCLUDE=2**. Stakemate is excluded because current evidence supports a sports-betting scope, not a verified casino product; Ivy Casino is also excluded pending a verified casino identity/scope.
+- The page remains `noindex,follow`; do not promote this internal research directory as a consumer review destination.
+- Four additional market-specific research drafts have been prepared in the earlier batch D file; batch E screening notes are being maintained internally. These remain internal and do not increase the approved-review count.
+- **Approved consumer reviews remain 0/100.** No first-hand deposit/withdrawal tests or independent product scoring should be implied.
+- No GitHub Actions build was triggered and no Cloudflare deployment was performed as part of this update, preserving the limited Actions budget.
+
+### Next execution gates
+
+1. Reconcile candidate IDs to exactly 100 distinct brand + local product + contracting-entity combinations; remove duplicates, sportsbook-only brands and unsupported market variants.
+2. Close primary-source gaps for exact active regulator permission, domain mapping and the contracting entity before any consumer review is considered.
+3. Complete documented local product checks: terms/bonus restrictions, deposits and withdrawals, complaints/ADR, safer-gambling tools, privacy and support; record what was actually tested.
+4. Clear image rights or replace candidates with licensed assets; verify alt text, rendering, responsive crops and fallbacks.
+5. Run low-cost static/accessibility/link checks without triggering Actions, then review the PR diff. Merge and Cloudflare release remain separate, approval-gated steps.
