@@ -1,3 +1,9 @@
+# New research checkpoint — 25 October 2026
+
+- Added `docs/reviews/internal/australia-acma-scope-exclusion-check-2026-10-25.md` from current official ACMA sources. ACMA's prohibited-services page names Legiano, Casea, SG Casino and Casinia among services found to have provided prohibited interactive gambling services to people in Australia. These names must not be promoted as Australian online-casino recommendations or bonus offers absent a documented legal review establishing a lawful basis. This is a market-specific scope finding, not a global status claim.
+- AU market is therefore a legal-exclusion-first queue, not a quota to fill with offshore casino brands. Keep the 100-brand publication gate closed; no score or bonus was created by this research.
+- No merge, Cloudflare deployment, or successful CI run is claimed by this checkpoint.
+
 # Latest repository QA checkpoint — 24 October 2026, 19:50 UTC
 
 - Source-level verification on PR #141 branch: the directory has 100 cards and 100 unique displayed titles; its robots meta is `index,follow`; the canonical `https://beincasinos.online/brand-directory/` is present in the 45-URL source sitemap; `robots.txt` allows crawling and advertises that sitemap. This is the source/branch policy, not proof of current production deployment.
