@@ -366,3 +366,11 @@ No deployment requested or performed.
 - Clarified that domain identity is only one prerequisite and does not approve scores, bonuses, image rights, consumer testing or publication. All three verified-domain rows remain HOLD / NOT SCORED.
 - Target market distribution remains GB 65, NL 18, US-PA 4, US-NJ 7, US-MI 2, CH 2, DE 2; AU, CA, SE, ES, IT, FR and BE have no rows in this 100-candidate ledger.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 72 — UKGC domain and enforcement evidence pass (2026-10-25)
+- Added `docs/reviews/internal/big-batch-72-ukgc-domain-and-enforcement-evidence-2026-10-25.md`.
+- Updated ledger slot 64 (BetWright): UKGC's domain register lists `betwright.com` Active under Onyx Gaming Limited, account 64666; the casino-remote licence summary is Active. Recorded the official domain URL and dated the narrow domain identity flag VERIFIED. BetWright remains HOLD / NOT SCORED.
+- Cross-checked slot 62 (Kong Casino): UKGC's Jumpman Gaming Limited register lists `kongcasino.com` as White Label, not Active. Kept its domain state UNVERIFIED; current contracting-operator relationship still needs terms evidence.
+- Added the UKGC's 20 Aug 2026 QuinnBet enforcement notice to slot 60's `regulatory_actions_url`. The notice states a £609,104 settlement after AML and social-responsibility control failures; treat it as material due diligence, not as a fabricated score or claim about current customer outcomes.
+- No tests run, no merge, no workflow run, and no deployment performed.
