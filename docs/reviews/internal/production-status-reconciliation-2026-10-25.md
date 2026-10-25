@@ -351,3 +351,10 @@ No deployment requested or performed.
 - Captured each site's brand, operator label, listed product category and exact URL lead; distinguished Ontario evidence from nationwide Canadian authorisation.
 - This is a research queue only: no candidate was added to the 100-row ledger, no score or bonus was cleared, no image rights or consumer testing are claimed, and no publication status changed.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 70 — UKGC domain evidence recorded for TigerBet (2026-10-25)
+- Updated ledger slot 67 (TigerBet, GB) to `domain_verification_status=VERIFIED`, dated `2026-10-25`, with the UK Gambling Commission's domain register entry for account 65319: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/65319
+- The existing evidence note records `www.tigerbet.co.uk` as Active under TigerPlay LTD and a Casino Remote permission active from 19 June 2025. This verifies only the narrow exact-domain/operator identity field as represented by that register entry; it is not an overall review approval.
+- TigerBet remains HOLD / NOT SCORED. Bonus, terms, payments/withdrawals, complaints, safer-gambling, privacy, image rights, consumer testing, affiliate disclosure, independent review and editorial approval remain incomplete.
+- No tests run, no merge, no workflow run, and no deployment performed.
