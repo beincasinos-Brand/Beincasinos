@@ -189,3 +189,9 @@ No deployment requested or performed.
 - Slot 64 BetWright: UKGC record lists the trading name as Active under Onyx Gaming Limited (account 64666), but the source consulted did not establish a canonical casino domain. Active trading-name status alone does not establish the specific domain or remote casino product permission.
 - Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/67098 and https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64666
 - These are regulator-register reconciliation notes, not consumer reviews. No tests, merge, workflow or Cloudflare deployment were performed.
+
+
+## Batch 46 — BetWright official domain/register reconciliation (2026-10-25)
+- Slot 64 BetWright now has `official_url=https://betwright.com/`, legal entity `Onyx Gaming Limited` (UKGC account 64666), and the direct UKGC domain-register URL. The UKGC domain page lists `betwright.com` as Active; the licence summary lists active Casino Remote permission for account 64666.
+- Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/64666 and https://www.gamblingcommission.gov.uk/public-register/business/detail/64666. The UKGC warns that domain/trading-name data is supplied by businesses and may not be guaranteed accurate: https://www.gamblingcommission.gov.uk/public-register/businesses.
+- This resolves one official-domain lead only. Slot 64 remains HOLD / NOT SCORED: terms, withdrawal rules, complaints, responsible-gambling, privacy/cookies, bonus terms, image rights, accessibility, consumer tests, second review and editorial/legal approval remain outstanding. No tests were run; no PR merge, workflow or Cloudflare deployment was triggered.
