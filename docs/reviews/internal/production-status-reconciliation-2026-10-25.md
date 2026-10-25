@@ -237,3 +237,9 @@ No deployment requested or performed.
 - Slot 73 records Hommerson Casino B.V. as a historical operator-identity lead only. A Ksa decision dated 14 February 2024 identifies the company in an enforcement matter concerning unlicensed online gambling and says it had applied for an online-gambling licence; this decision does not establish a current licence grant. Source: https://kansspelautoriteit.nl/nieuws/2024/kansspelautoriteit-legt-hommerson-casino-last-onder-dwangsom-aanbieden-illegale-online-kansspelen.
 - Current Ksa register and exact brand/domain listing must be checked before any Netherlands-targeted promotion. No canonical domain was guessed. Slot 73 remains HOLD / NOT SCORED; this historical record is not by itself proof of present licensing status.
 - No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 55 — Hard Rock Casino Netherlands exact-register gate (2026-10-25)
+- Slot 71 remains unresolved: no exact current Dutch Ksa licensee-register match for the candidate brand/domain was corroborated in this pass. An international brand name is not evidence of permission to offer online casino products in the Netherlands.
+- Require the current Ksa register to match the exact legal entity, domain and brand before any Netherlands-targeted recommendation. Official register: https://kansspelautoriteit.nl/register-licensees. No domain or licence was guessed; slot 71 remains HOLD / NOT SCORED.
+- No tests, merge, workflow or Cloudflare deployment were triggered.
