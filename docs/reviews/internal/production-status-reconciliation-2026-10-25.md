@@ -337,3 +337,10 @@ No deployment requested or performed.
 - Added official regulator source links and market-specific work instructions for all 12 requested target markets. The source map preserves the AU and FR online-casino acquisition exclusions, the province-specific Canadian gate, state-specific US gating, and exact-domain/product requirements across regulated markets.
 - Explicitly no brand was upgraded to VERIFIED, scored, or approved from the source-map work alone. All 100 candidates remain HOLD / NOT SCORED; this is an evidence-planning batch, not 100 finished reviews.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 68 — Swiss exact-domain evidence recorded (2026-10-25)
+- Updated ledger rows 1 (admiral.ch) and 2 (casineo.ch) to `domain_verification_status=VERIFIED`, date `2026-10-25`, with the ESBK official online-platform list as evidence: https://www.esbk.admin.ch/en/online-gambling/
+- The regulator page explicitly lists both domains among Switzerland's online casino platforms. This supports the narrow brand/domain match field only; it does not complete either review, independently clear image rights or current bonus terms, substitute for consumer testing, or grant editorial approval.
+- Both rows remain NOT SCORED / HOLD. The other 98 rows remain unchanged by this batch.
+- Tests have not been executed; no merge, workflow run, or deployment performed.
