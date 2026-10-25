@@ -102,3 +102,10 @@ All files remain HOLD / NOINDEX / NOT RATED; they are not final consumer reviews
 Added 12 UK brand research workbenches and a README, using the UK Gambling Commission public register as the primary verification source. Each exact legal entity, domain and product-specific permission must be confirmed; brand familiarity or a related operator's licence is not sufficient.
 
 All workbenches remain HOLD / NOINDEX / NOT RATED. Offer terms, cashier, games, safety, image rights and editorial sign-off remain required before a final review or production release.
+
+
+## Big batch 23 — Switzerland authorization gate
+
+Added 12 Switzerland market dossiers and a batch README. The Swiss Federal Gaming Board is the primary starting point. The exact current authorized operator, domain and product scope must be verified; an international brand or foreign licence is not sufficient.
+
+All files remain HOLD / NOINDEX / NOT RATED; offers, cashier details, local catalogue, player-protection evidence, image rights and editorial approval remain outstanding. No production deploy performed.
