@@ -53,3 +53,10 @@ All ten remain **HOLD / NOINDEX / NOT RATED**. Current bonus terms, cashier and 
 Added market-specific research scaffolds for Sisal, SNAI, Eurobet, GoldBet, Betsson, Unibet, 888casino, PokerStars Casino, Betway and Lottomatica. Several overlap with existing candidates elsewhere in the branch. These must not be counted as ten new unique brands. Exact ADM operator/concession entries and current product-specific permissions still need to be captured, followed by offer/cashier evidence, player-protection evidence, image rights and independent editorial review.
 
 **Release status remains unchanged:** these are internal drafts only, all HOLD / NOINDEX / NOT RATED. No new production pages, public sitemap entries or deployment resulted from this batch.
+
+
+## Big batch 13 — Germany workbench scaffolds
+
+Added ten Germany-specific research workbenches based on the GGL official whitelist as a starting source. The batch README records the key legal caveat: product category and geographic scope must be verified per exact entry, and a virtual-slots listing is not permission for every casino format nationwide. Tracker rows 43–52 were added as candidate-only records.
+
+The 10 files are not ten verified brands or finished reviews. All remain HOLD / NOINDEX / NOT RATED pending exact legal-entry capture, current terms, cashier evidence, player-protection checks, image rights and editorial sign-off. No deployment occurred.
