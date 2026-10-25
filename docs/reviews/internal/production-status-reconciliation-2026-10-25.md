@@ -109,3 +109,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-33-publication-blocker-triage-2026-10-25.md` with live ledger blank-cell counts and a prioritised remediation queue (identity/market eligibility, evidence bundles, rights, real tests, scoring, second review and release gates).
 - This is an operational triage document, not a claim that review production is complete. All rows remain HOLD until the per-row acceptance gate is satisfied.
 - No public content changed; no merge/deploy performed.
+
+
+## Batch 34 — premium review template and acceptance QA (2026-10-25)
+- Added `docs/reviews/internal/premium-review-production-template-2026-10-25.md` as the canonical content structure, evidence requirements, 100-point scoring rubric, visual/asset policy and release checklist.
+- Added `docs/reviews/internal/big-batch-34-review-template-acceptance-qa-2026-10-25.md` with implementation and acceptance tasks for the review UI, market-specific evidence, truthful fallback states, accessibility and release blocking.
+- These are internal editorial/QA specifications, not claims that website components are implemented or that any review is cleared. No merge/deploy performed.
