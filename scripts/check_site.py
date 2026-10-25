@@ -925,10 +925,10 @@ if review_hub_markers != len(review_dirs):
     errors.append(f"reviews/index.html: expected one 'Read the review →' marker per review route ({len(review_dirs)}), found {review_hub_markers}")
 for slug in sorted(set(review_hub_links) - review_slugs):
     errors.append(f"reviews/index.html: link points to a missing review route: /reviews/{slug}/")
-if len(review_hub_links) != len(review_dirs):
-    errors.append(f"reviews/index.html: expected {len(review_dirs)} review-card links, found {len(review_hub_links)}")
-if len(set(review_hub_links)) != len(review_hub_links):
-    errors.append("reviews/index.html: duplicate review-card links found")
+if len(review_hub_links) != len(review_dirs) * 2:
+    errors.append(f"reviews/index.html: expected title and action links for each review ({len(review_dirs) * 2}), found {len(review_hub_links)}")
+if len(set(review_hub_links)) != len(review_dirs):
+    errors.append(f"reviews/index.html: expected {len(review_dirs)} unique review destinations, found {len(set(review_hub_links))}")
 
 homepage = ROOT / "index.html"
 if homepage.is_file():
