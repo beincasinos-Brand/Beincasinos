@@ -50,13 +50,14 @@ Google's review guidance emphasizes original research and useful analysis rather
 - The current review directory's market distribution is highly uneven: Spain 67; Switzerland 9; Netherlands 8; Germany 7; Great Britain 4; Belgium 1; Sweden 1; Italy 1; Canada (British Columbia) 1; United States (Michigan) 1. Australia and France have no profiles. This needs to be corrected before claiming balanced coverage across all 12 target markets.
 - Profile copy is mostly desk research, not hands-on testing. A regulator record alone cannot justify an overall product rating. Payment performance, support quality, bonuses and safer-gambling tools require their own evidence.
 - The live site was checked at https://beincasinos.online/reviews/ and still clearly identifies the scoring method as planned and profiles as unrated. Do not claim recent source changes are deployed unless verified live.
+- **Batch 1 spot check — Fuego Casino (Spain), 25 October 2026:** the official consumer homepage returned operator identity and a self-reported DGOJ authorisation statement for 8PE España PLC, including singular licence identifiers MAZ/2020/065, RLT/2020/033 and BLJ/2020/031 dated 19 August 2020. This is operator-published evidence, not an independently captured current DGOJ register result. The requested terms URL returned essentially the same generic footer/responsible-gambling copy rather than accessible full bonus/withdrawal terms; the official site metadata also exposed `noindex,nofollow`. Therefore current bonus, cashier, withdrawal, support quality, accessibility and several safer-gambling criteria remain unassessed. **No overall score or stars justified.** Sources: https://www.fuegocasino.es/ and https://www.fuegocasino.es/terminos-y-condiciones/ . The English DGOJ URL previously referenced returned 404 during this check; use the regulator's current operator-finder route and capture the exact record before marking the gate passed.
 
 ## Batch tracker
 
 | Batch | Scope | Status |
 |---|---|---|
 | 0 | Current live/source audit and scoring guardrails | Complete |
-| 1 | Re-check 10 profiles in the priority markets against primary regulator sources and current official terms | Not started |
+| 1 | Re-check 10 profiles in the priority markets against primary regulator sources and current official terms | In progress — Fuego Casino spot check done; current terms/register capture incomplete, remains unrated |
 | 2 | Complete per-criterion evidence capture and score calculations for eligible profiles | Not started |
 | 3 | Add researched score breakdowns, ratings, bonus status, sources and check dates to cards and detail pages | Not started |
 | 4 | Expand/correct market distribution, legal review and technical QA | Not started |
