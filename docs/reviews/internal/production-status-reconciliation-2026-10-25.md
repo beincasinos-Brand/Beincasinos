@@ -451,3 +451,11 @@ No deployment requested or performed.
 - ANJ's official FAQ says online casinos are not authorized in France and identifies the permitted categories as online lotteries under the FDJ monopoly, approved sports betting, approved horse-race betting and approved online poker. Source: https://anj.fr/foire-aux-questions/offre-de-jeu-legale-et-illegale/quels-sont-les-jeux-dargent-et-paris-sportifs
 - Decision: exclude online casino brand pages from FR geo targeting; retain France only as an explicit legal-scope gate unless qualified legal review supports a different lawful scope. Do not confuse poker or sports-betting approval with casino authorization.
 - No production ledger changes, merge, deployment or GitHub Actions run.
+
+
+## Batch 91 — Spain DGOJ domain-register intake (2026-10-25)
+
+- Added `docs/targets/es-spain-dgoj-domain-register-intake-2026-10-25.csv` with 25 casino-specific domain candidates appearing in the official DGOJ operator/domain directory. The directory is an operator/domain lead source, not by itself proof of the active singular casino licence for each product.
+- Official register: https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores. DGOJ explains that operators may only offer regulated activities for which they hold the relevant authorization: https://www.ordenacionjuego.es/participantes-juego/juego-autorizado
+- All intake rows remain HOLD / NOT SCORED. The exact domain, active casino-specific licence, operator legal entity, local terms, promotions, safer-gambling controls, payment/withdrawal conditions, privacy, and image rights must be checked before any publication. No live account or transaction was tested; no score, bonus, or image permission was inferred.
+- This is a research intake, not a completed set of consumer reviews. The production ledger remains unchanged; no merge, deployment or GitHub Actions run was triggered.
