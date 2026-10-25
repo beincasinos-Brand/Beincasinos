@@ -1,17 +1,17 @@
 # BeInCasinos deployment and launch runbook
 
-**Current review: 25 October 2026.** This document distinguishes repository state from the live deployment. It is an operational checklist, not legal clearance.
+**Current review: 25 October 2026, after PRs #195 and #196.** This document distinguishes repository state from the live deployment. It is an operational checklist, not legal clearance.
 
 ## Current verified state
 
 - Repository: `beincasinos-Brand/BeInCasinos`, branch `main`.
 - Hosting target: Cloudflare Pages Free, project `beincasinos`, build command `python3 scripts/build_site.py`, output directory `dist`. The project was previously reported connected to `main`; this session cannot directly access the Cloudflare API or dashboard to start a deployment manually.
-- Current main commit before this launch-readiness update: `bf7f8c14c4a6a6042cd5c135c23830a6696f0e56`.
-- Repository contains 100 review cards and 100 individual review routes. Repository sitemap contains 146 total URL entries (review pages plus other public pages).
+- Current main commit: `3e1cc82407ef91710e5c904b0df11d9a110374e0` (after review-route checks and duplicate metadata fixes).
+- Repository contains 100 review cards and 100 individual review routes. Repository sitemap contains 146 total URL entries (review pages plus other public pages). PR #196 also removed duplicate HTML titles for the Casino Barcelona and Casino Gran Madrid Spain profile pairs and aligned their Open Graph metadata.
 - Live checks using a browser fetch on 25 October: apex homepage responds and its canonical is `https://beincasinos.online/`; `www.beincasinos.online` redirects to the apex; privacy and terms pages return content; key CSS assets return content; a nonexistent route returns 404.
 - **Deployment is stale:** the live production sitemap and `beincasinos.pages.dev` sitemap each report 139 URLs. The latest seven pages added in PR #193 (Ahti Games, GeckoPlay, BacanaPlay, SlotStars, SpinGenie, Slingo Casino, EU Casino Spain) return 404 on both live hosts. Do not claim the latest repository commit has deployed until these routes return page content and the sitemap reflects 146 entries.
-- GitHub Actions run [40240124154](https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/40240124154) failed within three seconds and exposed no job steps/logs through the available connection. The failure cause is unconfirmed; do not spend repeated Actions minutes rerunning it blindly. The workflow's build and browser tests must pass when Actions are available.
-- `robots.txt` is set to `Disallow: /` until the launch gates below are cleared. The sitemap remains listed for later use. This blocks crawling; it does not remove the site from the public internet or guarantee de-indexing of previously known URLs.
+- GitHub Actions run [40240378900](https://github.com/beincasinos-Brand/BeInCasinos/actions/runs/40240378900) failed within three seconds with no step details available; a second related run also failed before usable logs. The failure cause is unconfirmed. Do not spend repeated Actions minutes rerunning blindly. PR #195 added source-level safeguards for all 100 review routes, review-card links, featured links, and sitemap coverage; the checks still need a runner result when Actions is available.
+- Repository `robots.txt` is set to `Disallow: /` until the launch gates below are cleared. However, the last live/cache-busted fetch still returned `Allow: /` on both production and `pages.dev`, so the repository crawl gate has **not** reached the public deployment. Re-test after a confirmed deployment. This blocks crawling when served; it does not remove the site from the public internet or guarantee de-indexing of previously known URLs.
 - Google Search Console property/verification and sitemap submission were reported by the owner earlier, but live GSC status is not directly verified here.
 
 ## Required release build
