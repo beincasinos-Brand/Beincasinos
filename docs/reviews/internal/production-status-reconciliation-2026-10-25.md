@@ -415,3 +415,13 @@ No deployment requested or performed.
 - These are two exact-domain/regulator-register matches only. Current casino product scope/terms, offers, cashier, withdrawals, complaints, safer gambling, privacy, image rights, consumer testing, scoring, independent review and editorial/legal approval remain incomplete.
 - The evidence matrix is a separate internal document; no production-ledger status was changed. The other Sweden queue candidates remain unverified. Ontario queue remains based on the iGaming Ontario directory listing, which states the current snapshot is accurate as of 2026-09-01.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Batch 87 — Germany official-whitelist additions (2026-10-25)
+
+- Reviewed the official GGL whitelist, whose displayed update date is 2026-10-02. The source separates product categories and authorities; an entry for virtual slot machines must not be represented as blanket permission for all online casino games.
+- Added a separate intake file at `docs/targets/de-germany-official-whitelist-additions-2026-10-25.csv` with two new leads: Jollie (`jollie.de`, virtual slot machines) and Betway Germany (`betway.de`, virtual slot machines). Both remain HOLD / NOT SCORED pending live-domain, operator, product-scope and consumer-review checks.
+- Added the batch note at `docs/reviews/internal/big-batch-87-germany-whitelist-update-2026-10-25.md`.
+- Official source: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist
+- No current bonus was cleared, no image rights were cleared, and no consumer transaction was tested. These two leads were not inserted into the 100-brand production ledger because they are not complete reviews.
+- No merge, deployment or GitHub Actions run was triggered.
