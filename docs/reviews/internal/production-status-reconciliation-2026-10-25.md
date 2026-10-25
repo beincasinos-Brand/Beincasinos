@@ -316,3 +316,9 @@ No deployment requested or performed.
 - Slot 28 Kansino / Play North Limited: added the Ksa's published historical Wwft instruction page describing insufficient monitoring of player behaviour and origin of funds. Record as compliance context; current remediation status must be verified and the historical action alone is not evidence of current non-compliance.
 - The ledger rows now have direct regulator URLs in regulatory_actions_url and explicit caution notes. No score or publication status changed; domain verification remains unverified. No tests, merge or deployment were run.
 - Sources: https://kansspelautoriteit.nl/wwft-aanwijzing-voor-toto-online ; https://kansspelautoriteit.nl/play-north-limited
+
+
+## Batch 66 — Strict reviewer sign-off date validation (2026-10-25)
+- Tightened independent-review and editorial-approval date parsing to validate the entire value, not merely its first ten characters. Bonus checked-date parsing already uses full-value validation; regression coverage for trailing garbage is present.
+- Added a regression test for an independent-review date with trailing garbage. Test suite remains unexecuted; source-level presence is not a passing test result.
+- No workflow, merge or Cloudflare deployment was triggered.
