@@ -130,6 +130,19 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("publication blocked for AU" in message for message in gate.errors))
 
+    def test_unknown_market_code_is_rejected(self):
+        self.rows[0]["market_code"] = "GH"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("outside the approved target-market code format" in message for message in gate.errors))
+
+    def test_state_with_en_dash_still_triggers_publication_gates(self):
+        self.rows[0]["market_code"] = "AU"
+        self.rows[0]["publication_status"] = "APPROVED_TO_PUBLISH – reviewed"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("publication blocked for AU" in message for message in gate.errors))
+
     def test_target_market_coverage_gaps_are_reported_as_warnings(self):
         self.write()
         gate.check(self.path)
