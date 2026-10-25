@@ -123,3 +123,19 @@ All dossiers remain HOLD / NOINDEX / NOT RATED. They are not final consumer revi
 Parsed the 100 numbered candidate rows in the tracker and normalized names by case and punctuation. This produced **79 exact-name groups**; 21 candidate rows are repeat names under that limited normalization. A detailed registry was added at `CANONICAL-BRAND-DEDUPLICATION-REGISTRY.md`. This is only an initial deduplication pass and does not establish legal eligibility, current operator/domain, or a completed review.
 
 Confirmed from the tracker: 0 verified unique brands, 0 approved reviews and 0 published reviews. The 100-row queue is not 100 finished reviews. Continue by resolving aliases, then gathering primary evidence and obtaining editorial approval.
+
+
+## Evidence-focused batch — 2026-10-25
+
+Added six source-backed research dossiers:
+- Kokobet global dossier — official terms, payment policy, privacy-policy links, bonus wagering example, mandatory 1× deposit turnover, KYC/withdrawal restrictions and explicit no-score legal gate.
+- 888 Casino Spain — DGOJ operator detail, domain and singular licence scope captured as primary-source leads; the DGOJ sanction-procedure record is flagged for fair contextual review.
+- Platin Casino Spain, Fuego Casino Spain, Casumo Spain and Casino777 Spain — DGOJ operator/domain identity leads and market-specific evidence gaps documented.
+
+These are deliberately **HOLD / NOINDEX / NOT RATED**, not six completed public reviews. Current market terms, cashier, player-protection, image rights and independent editorial approvals remain missing. The Kokobet dossier explicitly does not infer authorization in any of BeInCasinos' target markets from an offshore licence statement. The Spain dossiers are restricted to Spain and do not claim that an operator directory listing alone proves every game category.
+
+The canonical-name pass on the 100 numbered candidate rows produced 79 normalized exact-name groups (21 repeat rows under case/punctuation-insensitive matching). This is not final alias resolution and does not mean 79 brands are legally verified.
+
+## Updated branch/PR accounting
+
+These six additions bring the PR's known file count from 411 to at least 417 after the batch. The review-draft Markdown count is at least 319. These are repository artifact counts, not completed-review counts. Approved reviews remain 0 confirmed; public production pages added by this work remain 0; no deployment was performed.
