@@ -289,3 +289,9 @@ No deployment requested or performed.
 - Required next action for each matching row: reconcile the current Ksa licensee/Kansspelwijzer entry to exact legal entity, brand and domain; capture dated register evidence; update domain verification only after exact mapping is confirmed; recheck current terms, complaints, safer-gambling and bonus terms. No row was promoted to VERIFIED, scored or publishable by this batch.
 - Official sources: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend ; https://kansspelautoriteit.nl/register-licensees ; https://kansspelautoriteit.nl/melden-merk-domein-en-applicatienamen
 - No tests were executed; no workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 65 — Regression coverage for four European regulator gates (2026-10-25)
+- Added a table-driven regression test covering Belgium, Sweden, Spain and Italy: a row marked PUBLISHED without an exact regulator-register URL must fail the country-specific publication gate.
+- This is structural guard coverage only; a URL's presence does not prove the licence or domain is valid. Universal dated HTTPS domain-identity evidence and the complete editorial evidence requirements still apply.
+- Tests were not executed in this session. No workflows, merge or Cloudflare deployment were triggered.
