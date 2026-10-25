@@ -220,3 +220,20 @@ The Mycasino dossier creation was blocked by the repository tool safety layer an
 ## Competitor-standard reference added to research method
 
 The competitor review benchmark was refreshed against Casino.org's current public review criteria and review-process page. The useful transferable practices are: explain score methodology, separate legal eligibility from quality scoring, check first-party terms and regulator records, state what was not tested, and disclose evidence dates. BeInCasinos must not claim the same hands-on deposits/withdrawals or test volumes as competitors unless we actually carry them out and record the results. Source references: https://www.casino.org/reviews/ and https://www.casino.org/how-we-rate/.
+
+
+## Large Spain DGOJ batch — 2026-10-25
+
+Added ten further Spain-specific regulator dossiers: Casino Barcelona, Codere, Luckia, PokerStars Casino, Betway Spain, Monopoly Casino, AdmiralBet, Betfred Spain, GoldenPark and Sportium. The DGOJ operator/domain directory is the primary source lead. The records deliberately distinguish a domain/operator directory entry from the exact current singular licence for slots, roulette, blackjack or other casino products. This matters because the DGOJ states that operators may offer only authorised gambling activities.
+
+All ten remain HOLD / NOT RATED / NOINDEX pending a live capture of the exact operator record, current casino-specific licence categories, consumer terms, bonuses, cashier/payment rules, safer-gambling/privacy information, image rights, score evidence and second-editor approval. These are not production pages and are not approved recommendations.
+
+## Counted progress in the current follow-up
+
+- 9 committed Swiss FGB-backed dossier files added in this follow-up.
+- 10 committed Spain DGOJ-backed dossier files added in this follow-up.
+- Combined: **19 newly committed country-specific research dossiers** in this follow-up.
+- They add market/regulatory evidence, not 19 completed consumer reviews.
+- No deploy or public sitemap change was made. The public reviews directory page currently says no casino profiles are scored or ranked, so publishing these internal dossiers directly would contradict the site's visible editorial status.
+
+Competitor benchmark source checks: Casino.org's current review page describes a 25-step methodology, including licence checks, bonus terms, game selection and payment tests; its separate methodology page explains evidence-based scoring and first-hand payout measurement. BeInCasinos must not claim to have done those real-money tests unless they are actually performed and documented. Sources: https://www.casino.org/reviews/ and https://www.casino.org/how-we-rate/.
