@@ -1,126 +1,119 @@
-# Casino777 Spain — individual review draft
+# Casino777 Spain Review: Operator, Casino Permissions, Bonuses and Payments
 
-> **Editorial state: DRAFT / NOINDEX / NOT RATED.** Original BeInCasinos copy for editorial development, not a completed or independently tested review. Do not publish as a recommendation until release gates pass.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** This is an evidence-led editorial draft, not a completed hands-on review. Publication requires current domain/terms checks, user-experience testing, image-rights clearance and independent approval.
 
-## SEO and page metadata
-- **SEO title:** Casino777 Spain Review: Licence, Bonus Conditions and Payments
-- **Meta description:** Review Casino777 Spain with a focus on the exact casino domain, published terms, payment details and player-protection evidence.
+## SEO package
+- **SEO title:** Casino777 Spain Review: Licence, Bonus Terms and Withdrawals
+- **Meta description:** Check Casino777 Spain's DGOJ operator record and casino licence categories, then review what remains to verify about bonuses, payments and player protection.
 - **H1:** Casino777 Review for Spain
 - **Suggested URL:** /reviews/casino777-spain/
-- **Search intent:** brand review, Spanish legal status, bonus conditions, payment and withdrawal rules, support and player protection.
-- **Robots:** noindex until all release gates pass.
-- **Structured data:** no AggregateRating or star-rating schema until a supported, visible score is approved.
+- **Search intent:** exact operator/domain, Spanish casino eligibility, current offer terms, withdrawals and account protections.
+- **Robots:** NOINDEX until all release gates pass.
+- **Structured data:** no rating, review count or offer markup until visible content is substantiated and approved.
 
 ## Quick facts
-| Field | Evidence status |
+| Item | Current evidence |
 |---|---|
 | Brand | Casino777 |
 | Market | Spain |
-| Listed legal operator | DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, SA |
-| Listed domain | https://www.casino777.es |
-| Regulator evidence | Official DGOJ operator directory; source below |
-| Current welcome offer | Not verified |
-| Wagering / expiry / max bet / max cashout | Not captured |
-| Payment methods / limits / fees | Not captured |
-| Withdrawal timing | Not tested |
-| Support response | Not tested |
-| Games / providers | Not independently inventoried |
-| Safer-gambling controls | Require live verification |
-| Editorial score | **NOT RATED** |
-| Last checked | 25 October 2026 — operator record checked; commercial terms not checked |
+| Exact domain in DGOJ record | https://www.casino777.es |
+| Listed operator | DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A. |
+| Primary source | [DGOJ operator record](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/digital-distribution-management-iberica-sa) |
+| Casino-related categories listed | Machines of chance, roulette and blackjack |
+| Current offer / wagering terms | Not verified |
+| Payment methods / fees / limits | Not captured |
+| Withdrawal or support tests | Not performed |
+| Live catalogue / RTP | Not inventoried |
+| Image rights | Not cleared |
+| BeInCasinos score | **NOT RATED** |
 
 ## Overview
-The exact domain matters: casino777.es should be reviewed against its own legal notice, terms and product permissions, rather than borrowing facts from related domains. This draft identifies the key questions but does not claim a tested bonus, payout result or customer-support outcome.
 
-## Operator and licence evidence
-DGOJ's operator directory lists DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, SA and casino777.es, alongside 777.es and bet777.es. This review concerns casino777.es specifically; do not assume every related domain has identical terms or permissions.
+The DGOJ record identifies DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A. and lists casino777.es alongside bet777.es and 777.es. It also lists singular licence categories including machines of chance, roulette and blackjack. This is a useful primary-source starting point, but it does not mean all related domains have identical products, offers, account conditions or user journeys.
 
-**Primary source:** [DGOJ official operator register](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=1). Reopen the live record at publication time, save the exact operator page and verify current licence categories. A regulator listing does not prove a positive customer experience, current bonus terms or fast withdrawals.
+This draft covers casino777.es specifically. BeInCasinos has not tested a deposit, withdrawal or customer-support interaction for this review. We therefore do not claim that payments are fast, quote an unverified welcome bonus or assign a quality score. The remaining checks are important to a useful review, not details to guess.
 
-## Bonus and terms review
-**Current offer: not verified.** No amount, free-spins count or headline value should appear until a dated official offer page and its full terms are saved.
+## Operator and exact-domain check
 
-The editor must record eligibility; wagering requirement and balance it applies to; expiry; maximum bet; maximum cashout; excluded games/payment methods/countries; opt-in requirement; and withdrawal restrictions. If no current offer is available or terms cannot be verified, state that clearly rather than using an old promotion.
+**Primary source:** [DGOJ — DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/digital-distribution-management-iberica-sa).
+
+The official record lists casino777.es and two other domains under the operator. Before release, reopen the current record, check the exact domain and current casino categories, and compare the legal entity in the website's terms with the regulator record. Do not treat 777.es or bet777.es as interchangeable with casino777.es simply because the domains appear under the same operator.
+
+A regulator listing is not a quality rating and does not establish the clarity of promotions, customer-support quality, payout performance or availability of any specific game. If the legal entity, exact domain or product permission cannot be reconciled, retain the HOLD status.
+
+## Bonus and promotion terms
+
+**Current offer: not verified.** No bonus amount or free-spin count is quoted. The current Spanish offer page and complete terms must be captured before the page can compare value.
+
+The editor must record eligibility, minimum deposit, wagering requirement and calculation base, game contribution, expiry, maximum bet, maximum conversion/cashout, excluded games and payment methods, opt-in conditions, and what happens if the customer withdraws or cancels. Save the source URL and date. If no current offer can be verified, state that clearly rather than reusing an expired promotion.
+
+A headline amount is not enough to call an offer generous. Explain the conditions in plain language and avoid terms such as “risk-free” or “free money.”
 
 ## Payments and withdrawals
-No withdrawal test has been performed for this draft. Do not describe a method as “instant” or publish a payout-speed score without a dated test record.
 
-Record each method shown in the market-specific cashier, deposit and withdrawal limits, processing time, third-party transfer time, fees, supported currency, KYC requirements and conditions that can delay payout. Test results must state how many withdrawals were tested and their dates/methods. If a method cannot be tested, mark it **not tested**.
+**No payment or withdrawal test has been performed.** Confirm cashier methods and terms in the live Spanish product; do not copy methods from another market or related domain.
+
+Record deposit and withdrawal limits, fees, currency conversion, verification requirements, operator processing policy, payment-provider settlement caveats and restrictions. Distinguish an advertised processing window from a tested time to funds received. If a test is conducted, record date, method, amount band, verification status, request time, approval time and receipt time, including sample size and limitations.
+
+See [Online Casino Withdrawals: What to Check](../content-guides/online-casino-withdrawals-what-to-check.md) for general questions about processing stages.
 
 ## Games and fairness
-Capture a representative sample of game categories and providers shown to eligible customers, and check game RTP against each game's own published information. A provider logo alone does not prove the whole catalogue is available. No game inventory or RTP claim is made here.
+
+The DGOJ categories do not prove today's catalogue. This draft makes no claim about the number of titles, provider coverage, live-dealer availability or any particular RTP. Before release, inventory representative categories and titles in the live Spanish product. Quote game rules or RTP only when the exact title/version and source are recorded. Explain that theoretical RTP does not predict individual results.
 
 ## Player protection, privacy and support
-Document where to find deposit/time/loss limits, self-exclusion, reality checks, account closure, age/identity controls, privacy notice and complaints escalation. Test support through an available channel and record date, question, wait time and response. These tests are outstanding.
 
-## Pros and cons — provisional editorial observations
-These observations concern the available evidence and review process, not a claim that the casino passed every test.
+The final review must locate and verify account limits, time-outs, self-exclusion, account closure, identity requirements, privacy information and complaint escalation. Do not rely on a generic responsible-gambling statement where a concrete user-facing control should be checked.
 
-**Potential positives**
-- DGOJ provides an official operator/domain directory for checking the legal starting point.
-- The draft makes the exact domain part of the review scope.
-- The evidence checklist covers offer restrictions, payments and safer-gambling controls.
+Support has not been tested. Any future assessment should record the channel, date, question, wait and answer, without exposing private customer data. No support-quality claim is justified yet.
 
-**Limitations / open questions**
-- The current offer and its complete terms are not yet documented.
-- No real-money withdrawal or support test is available in this draft.
-- No image rights or independent game catalogue evidence are documented.
+## Evidence-based strengths and open questions
 
-## Scorecard
-| Category | Weight | Score | Evidence required |
+**What the primary source establishes**
+- DGOJ lists casino777.es under DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A.
+- The record lists machines of chance, roulette and blackjack among the operator's singular licence categories.
+- Related domains are visible in the same record, making exact-domain separation important.
+
+**What remains unknown**
+- Current bonus and all material conditions.
+- Current Spanish cashier options, limits, fees and withdrawal rules.
+- Actual payout outcomes and support response.
+- Current game catalogue, providers and game-level RTP.
+- Mobile accessibility, privacy journey and working account controls.
+- Rights to use any logo or product screenshot.
+
+## Scorecard — evidence pending
+
+| Dimension | Weight | Status | Required evidence |
 |---|---:|---|---|
-| Legal eligibility and operator identity | 25 | Pending | Current exact-domain/product licence check |
-| Bonus fairness | 15 | Pending | Dated live offer and full terms |
-| Payments and withdrawals | 15 | Pending | Current cashier policy and documented tests |
-| Games and fairness | 10 | Pending | Product catalogue and game-level sources |
-| Support and complaints | 10 | Pending | Dated support test and complaint route |
-| Usability and accessibility | 10 | Pending | Mobile/desktop test notes |
-| Privacy and account security | 10 | Pending | Current policies and security controls |
-| Evidence freshness | 5 | Pending | Source log and second-editor review |
-| **Total** | **100** | **NOT RATED** | Do not calculate while critical evidence is missing |
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck | Current exact domain and casino categories |
+| Bonus fairness and clarity | 15 | Pending | Dated official offer and complete terms |
+| Payments and withdrawals | 15 | Pending | Current cashier/terms; documented tests for performance claims |
+| Games and fairness | 10 | Pending | Live catalogue and exact game sources |
+| Support and complaints | 10 | Pending | Tested interaction and complaint route |
+| Usability/accessibility | 10 | Pending | Documented mobile and accessibility checks |
+| Privacy/security | 10 | Pending | Current policies and verified account controls |
+| Evidence freshness | 5 | Partial | Recheck volatile facts immediately before publication |
 
-**Why there is no numeric score yet:** a number without bonus, cashier, product and practical test evidence would create false precision. This is an editorial hold, not a low or high casino score.
+**Overall: NOT RATED.** Do not display stars or aggregate-rating markup while evidence remains incomplete.
 
-## FAQs for the final page
-### Is Casino777 licensed in Spain?
-The DGOJ operator directory lists the operator/domain association noted above. Confirm the live record, exact product scope and current status immediately before publication. Do not infer permissions for other countries or products.
+## FAQ
 
-### What bonus does Casino777 offer in Spain?
-The current offer has not been verified in this draft. Check the official market-specific page and full terms; do not rely on a third-party headline.
+### Is Casino777 listed by Spain's regulator?
+The DGOJ record lists casino777.es under DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A. and includes casino-related categories. Recheck the live record and current terms before publication.
 
-### How long do withdrawals take?
-No independent withdrawal test has been performed for this draft. Report published policy separately from measured outcomes.
+### What is Casino777 Spain's current bonus?
+Not verified in this draft. We need the current official offer and complete conditions before quoting it.
 
-### Is Casino777 a good choice?
-This draft does not make a recommendation. Write a verdict only after the evidence checklist is complete and the score is independently checked.
+### Are withdrawals fast?
+No withdrawal test has been performed, so no speed claim is made. Check the current terms and distinguish operator processing from payment-provider settlement.
 
-### What should players check before depositing?
-Read the legal notice, current bonus terms, withdrawal rules, identity-check policy and safer-gambling tools. Never gamble money needed for essential expenses; 18+ only, subject to local law.
+### Is this a recommendation?
+No. This draft is HOLD / NOINDEX / NOT RATED until the evidence and release checks are complete.
 
-## Images and review-card assets
-- **Hero:** create commissioned, brand-neutral editorial artwork or obtain documented permission for an official brand asset. No logo or screenshot rights are claimed.
-- **Logo:** use only an approved official press/brand asset or licensed logo; store source URL, rights basis, allowed uses and date in the asset register.
-- **Game imagery:** show only games confirmed in the reviewed market and current catalogue.
-- **Alt text:** describe the actual visual; do not stuff keywords.
-- **Technical:** responsive WebP/AVIF, fixed aspect ratio, compressed file, mobile crop check and no text baked into image.
-- **Current image status:** no brand image has been cleared for publication in this draft.
-
-## Affiliate disclosure and editorial independence
-If the final page contains affiliate links, place a plain-language disclosure before or near the first commercial link. Commercial relationships must not affect score, verdict or ranking. Paid placements must be labelled and kept separate from editorial ranking.
-
-## Final release checklist
-- [ ] Recheck exact operator, domain and licence category in DGOJ.
-- [ ] Capture current official bonus terms or explicitly state no offer verified.
-- [ ] Capture current payment/withdrawal policy; distinguish policy from test results.
-- [ ] Complete games, support, privacy and safer-gambling checks.
-- [ ] Add reviewer and independent checker names, dates and evidence log.
-- [ ] Clear image rights and record assets.
-- [ ] Add affiliate disclosure and correction/contact route.
-- [ ] QA mobile layout, accessibility, speed, internal links and metadata.
-- [ ] Confirm visible score matches evidence; otherwise keep NOT RATED.
-- [ ] Remove NOINDEX only after editorial sign-off.
-
-## Draft verdict
-HOLD. Keep the page non-indexable until exact-domain evidence, terms, payments, image rights and editorial review are complete.
-
-**Evidence policy:** source closest to each claim; record check dates; do not copy competitors' scores or findings. Unverified information must remain labelled unverified or be omitted.
+## Sources and update record
+- **Primary regulator source:** [DGOJ — DIGITAL DISTRIBUTION MANAGEMENT IBÉRICA, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/digital-distribution-management-iberica-sa). Checked for this draft on 25 October 2026; reopen before publication.
+- Current offer/cashier terms: not captured.
+- Hands-on testing: not performed.
+- Image rights: not cleared.
+- Next action: confirm current domain and scope, capture offer and payment terms, test the user journey and support, clear images, and obtain independent editorial approval.
