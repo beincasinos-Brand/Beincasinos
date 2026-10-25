@@ -155,7 +155,7 @@ def check(ledger_path):
             raw_date = row.get(field, "").strip()
             if raw_date:
                 try:
-                    date.fromisoformat(raw_date[:10])
+                    date.fromisoformat(raw_date)
                 except ValueError:
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
