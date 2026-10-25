@@ -213,3 +213,9 @@ No deployment requested or performed.
 - Slot 62 now records `official_url=https://www.kongcasino.com/` as a domain identity lead and links the UKGC domain register for Jumpman Gaming Limited (account 39175). The register lists `kongcasino.com` as **White Label**, not Active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39175.
 - This status is not evidence that Jumpman is the sole current customer-contracting operator. Verify the live site's legal footer, current terms, and exact white-label arrangement before asserting operator identity or eligibility. Slot 62 remains HOLD / NOT SCORED; all review, evidence, rights, testing and approvals are still outstanding.
 - No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 51 — Fun Casino identity gate (2026-10-25)
+- Slot 68 Fun Casino: no authoritative exact-name match that establishes the candidate's canonical domain, contracting operator and GB remote-casino product was corroborated in this pass. The ledger now explicitly records the unresolved identity gate; no domain or operator was guessed.
+- Keep the candidate HOLD / NOT SCORED. Do not publish a generic similarly named casino as the same brand. Revisit only with exact trading-name/domain evidence from the UKGC register and the operator's current legal terms.
+- No tests, merge, workflow or Cloudflare deployment were triggered.
