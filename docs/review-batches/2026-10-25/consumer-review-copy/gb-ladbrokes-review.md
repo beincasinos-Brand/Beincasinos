@@ -16,6 +16,12 @@ UKGC record identifies active Casino Remote activity for Ladbrokes Betting & Gam
 
 A licence is market- and product-specific. It does not prove that every game, promotion, or domain associated with a wider brand group is authorised in every country. The current register and the operator's live terms must agree before this profile can become a recommendation.
 
+## Register check and scope
+
+The UKGC public-register lead for Ladbrokes is [business record 1611](https://www.gamblingcommission.gov.uk/public-register/business/detail/1611). Recheck the live record and match the exact legal operator, domain and remote-casino activity before publication. A brand name alone is not a sufficient licence check, and permission for one activity should not be generalized to every product or country.
+
+No current welcome-offer amount is asserted in this draft. Capture the live Great Britain promotion and its binding terms, including wagering base, exclusions, expiry, maximum bet and withdrawal restrictions, before describing value.
+
 ## Welcome offer and bonus terms
 
 No current, market-specific offer has been verified in this copy draft. We do not quote a bonus amount, free-spin count, wagering multiplier, maximum bet, expiry or maximum cashout without the operator's current promotion and binding terms. A headline on an affiliate page is not sufficient evidence.
