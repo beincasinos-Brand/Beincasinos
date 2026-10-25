@@ -27,20 +27,24 @@
   if (reviewSearch && reviewMarket && reviewGrid) {
     const cards = Array.from(reviewGrid.querySelectorAll('.review-product-card'));
     const count = document.querySelector('#review-results-count');
+    const empty = document.querySelector('#review-no-results');
     const update = () => {
       const query = reviewSearch.value.trim().toLocaleLowerCase();
       const market = reviewMarket.value;
       let shown = 0;
       cards.forEach(card => {
-        const matches = (!query || (card.dataset.search || '').includes(query)) &&
+        const searchable = (card.dataset.search || '').toLocaleLowerCase();
+        const matches = (!query || searchable.includes(query)) &&
           (!market || card.dataset.market === market);
         card.hidden = !matches;
         if (matches) shown += 1;
       });
       if (count) count.textContent = shown + (shown === 1 ? ' profile' : ' profiles');
+      if (empty) empty.hidden = shown !== 0;
     };
     reviewSearch.addEventListener('input', update);
     reviewMarket.addEventListener('change', update);
+    update();
   }
 
   // Give every individual review route a visual summary panel while preserving
