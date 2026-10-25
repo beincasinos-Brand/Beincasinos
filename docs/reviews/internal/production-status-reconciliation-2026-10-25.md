@@ -443,3 +443,11 @@ No deployment requested or performed.
 - Official source: https://www.esbk.admin.ch/en/online-gambling/ (page published 2026-03-17). The regulator states online casino operation requires a licence extension and game-specific permits. A separate blocked/unauthorised list must also be checked before publication: https://www.esbk.admin.ch/en/unauthorised-online-games
 - The intake rows remain HOLD / NOT SCORED. Current contracting entity, terms, payments/withdrawals, complaints, safer-gambling controls, privacy, promotions and image rights remain to be reviewed. No live consumer account or transaction was tested; no bonus or image rights were cleared.
 - The production ledger remains unchanged. No merge, deployment or GitHub Actions run was triggered.
+
+
+## Batch 90 — France market-scope hard gate (2026-10-25)
+
+- Added `docs/targets/fr-france-market-scope-gate-2026-10-25.csv` to prevent France online-casino SEO pages from entering the intake pipeline as though online casino play were authorized.
+- ANJ's official FAQ says online casinos are not authorized in France and identifies the permitted categories as online lotteries under the FDJ monopoly, approved sports betting, approved horse-race betting and approved online poker. Source: https://anj.fr/foire-aux-questions/offre-de-jeu-legale-et-illegale/quels-sont-les-jeux-dargent-et-paris-sportifs
+- Decision: exclude online casino brand pages from FR geo targeting; retain France only as an explicit legal-scope gate unless qualified legal review supports a different lawful scope. Do not confuse poker or sports-betting approval with casino authorization.
+- No production ledger changes, merge, deployment or GitHub Actions run.
