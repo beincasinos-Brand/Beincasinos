@@ -115,3 +115,8 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/premium-review-production-template-2026-10-25.md` as the canonical content structure, evidence requirements, 100-point scoring rubric, visual/asset policy and release checklist.
 - Added `docs/reviews/internal/big-batch-34-review-template-acceptance-qa-2026-10-25.md` with implementation and acceptance tasks for the review UI, market-specific evidence, truthful fallback states, accessibility and release blocking.
 - These are internal editorial/QA specifications, not claims that website components are implemented or that any review is cleared. No merge/deploy performed.
+
+
+## Batch 35 — image-rights remediation policy (2026-10-25)
+- Added `docs/reviews/internal/big-batch-35-image-rights-remediation-policy-2026-10-25.md` defining the rights evidence needed for public images, neutral original fallbacks, and proposed future ledger fields.
+- No assets were changed or cleared; all unresolved rights remain publication blockers. No merge/deploy performed.
