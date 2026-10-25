@@ -269,3 +269,9 @@ No deployment requested or performed.
 ## Batch 61 — Domain verification gate regression coverage (2026-10-25)
 - Added two regression cases to scripts/test_review_ledger.py: a malformed verification date must be rejected, and non-HTTPS domain evidence must be rejected. These supplement the existing tests for publishable rows lacking verified domain evidence and VERIFIED status without a date/source.
 - Static inspection confirms the new test names and the gate branches are present in the branch files. The test suite has not been executed; no claim of passing tests. No workflow, merge or deployment was triggered.
+
+
+## Batch 62 — Closed domain-verification state vocabulary (2026-10-25)
+- The ledger checker now accepts only UNVERIFIED, VERIFIED, REJECTED, or NEEDS_REVIEW as the canonical domain verification state. Descriptive suffixes after a dash are allowed for explanatory notes, while unknown states fail validation.
+- Corrected the delimiter regex after inspecting the saved source. The test addition for unknown states was blocked by the GitHub write interface and was not committed; therefore this behavior is implemented but does not yet have a dedicated regression test. Existing test suite remains unrun.
+- No workflow, merge or Cloudflare deployment was triggered.
