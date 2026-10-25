@@ -1,5 +1,6 @@
 # New research checkpoint — 25 October 2026
 
+- Added `docs/reviews/internal/france-anj-online-casino-scope-exclusion-check-2026-10-25.md` from current ANJ sources: online casino games are not authorised in France; do not market offshore online slots/roulette/blackjack as legal FR options. Any FR scope must be limited to documented lawful informational content and separately authorised product categories; an international casino licence is not French authorisation.
 - Added `docs/reviews/internal/australia-acma-scope-exclusion-check-2026-10-25.md` from current official ACMA sources. ACMA's prohibited-services page names Legiano, Casea, SG Casino and Casinia among services found to have provided prohibited interactive gambling services to people in Australia. These names must not be promoted as Australian online-casino recommendations or bonus offers absent a documented legal review establishing a lawful basis. This is a market-specific scope finding, not a global status claim.
 - AU market is therefore a legal-exclusion-first queue, not a quota to fill with offshore casino brands. Keep the 100-brand publication gate closed; no score or bonus was created by this research.
 - No merge, Cloudflare deployment, or successful CI run is claimed by this checkpoint.
