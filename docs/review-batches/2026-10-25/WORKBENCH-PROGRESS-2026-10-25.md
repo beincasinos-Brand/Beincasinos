@@ -52,12 +52,13 @@ These are not yet publish-ready reviews. Candidate identity, exact current domai
 
 ## Honest completion accounting
 
-- Newly created workbench files in this continuation: **30**
-- Newly created batch README files in this continuation: **1**
+- Newly created workbench files in this continuation: **40**
+- Newly created batch README files in this continuation: **2**
 - Verified unique brands from these new workbenches: **not yet established** (same brand may have market-specific variants; deduplicate by canonical brand and legal operator).
 - Evidence-verified brands from this continuation: **0**
 - Approved publish-ready reviews from this continuation: **0**
 - Newly published production pages from this continuation: **0**
+- Additional big-batch-08 workbenches: EnergyCasino (GB), Casumo (GB/ES), Virgin Games (GB), Betsson (SE), Unibet (SE), PokerStars Casino (IT), Betway (BE), Casino777 (BE), Winamax (ES).
 - Deployment: **none**
 - Public sitemap changes: **none**
 
