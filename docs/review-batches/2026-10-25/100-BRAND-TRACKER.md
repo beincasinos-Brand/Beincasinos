@@ -175,3 +175,28 @@ The GGL whitelist is the official starting source, but the exact entry, product 
 | 98 | VBet | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
 | 99 | FDJ | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
 | 100 | Betsson | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+
+
+## Latest accounting checkpoint — 2026-10-25, batch 23
+
+PR #169 was re-counted after batches 18–23:
+- Total changed files in PR: **396**.
+- Markdown files under `review-drafts/`: **300**.
+- These are file counts, not unique verified brands.
+- **Approved/publish-ready reviews: 0 confirmed.**
+- **Production pages added by these workbench batches: 0.**
+- **Deployments performed by these workbench batches: 0.**
+
+The recent batches contain structured research scaffolds and legal/product eligibility gates. They do not contain captured, complete evidence for every current offer, cashier, game catalogue, support route and image right. Many market-specific entries repeat the same global brand. Australia and Switzerland require especially strict product/domain eligibility checks; France online-casino claims must not be inferred from sports-betting authorisations; Ontario entries need exact current iGaming Ontario row/domain confirmation.
+
+### Honest path to the 100-review milestone
+1. Deduplicate candidate names into canonical global brand identities and distinct market/operator records.
+2. Exclude candidates that fail the exact target-market product/legal gate.
+3. Capture regulator entry, first-party terms, bonus, cashier, games, player protection, support/privacy and complaints with dated source links.
+4. Clear image rights; no competitor-image scraping or unsupported brand claims.
+5. Score only when minimum evidence is present; keep unresolved records NOT RATED.
+6. Have an independent editor approve each complete review and run mobile/SEO QA.
+7. Publish only approved consumer pages; keep internal research workbenches out of production and the public sitemap.
+8. Run production build and preview checks before the first deploy; verify canonical URLs, robots, sitemap, redirects and noindex behavior.
+
+**Release decision at this checkpoint: NOT READY for production deploy.** Do not treat file count or candidate count as completion.
