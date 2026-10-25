@@ -3,6 +3,10 @@
 **Editorial status:** Draft for review · **Score:** NOT RATED · **Evidence checkpoint:** 25 October 2026  
 **Market:** Netherlands only · **Domain lead:** https://www.hollandcasino.nl
 
+## ## Dutch regulator evidence and market scope
+
+The Dutch regulator's register has an operator-specific entry for Holland Casino: https://kansspelautoriteit.nl/holland-casino-n-v. Recheck the [Kansspelautoriteit register](https://kansspelautoriteit.nl/register-licensees), exact online domain and current product scope before publication. A land-based casino identity does not, by itself, prove the terms or authorization of every online product.
+
 ## Executive overview
 
 This BeInCasinos review examines Holland Casino Online within the named market, not as a universal international casino. The first step is matching the current consumer domain to the legal operator and the regulator's exact activity record. The regulator source currently captured for this research is the Kansspelautoriteit.
