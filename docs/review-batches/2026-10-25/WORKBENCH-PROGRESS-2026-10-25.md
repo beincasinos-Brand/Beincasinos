@@ -39,3 +39,10 @@ A review counts toward the target only when all of the following are true:
 8. Independent editorial approval and mobile publication QA are complete.
 
 Only approved content can be considered for production. Do not publish internal workbench files or add them to the public sitemap. No claim is made that the 100-review target has been met.
+
+
+## Big batch 11 — additional official-register candidate leads
+
+Added ten more Spain candidate workbenches in `review-drafts/big-batch-11/`: BacanaPlay, SlotStars, PrimeCasino, LuckyVegas, PlayKasino, MetalCasino, LunaCasino, SpinGenie, PlayUZU and Slingo Casino. The official DGOJ operator finder surfaced the corresponding domains as leads. The exact legal-entity entries and casino-specific permissions still need to be captured and checked; a domain appearing in the finder is not enough to mark a review verified.
+
+All ten remain **HOLD / NOINDEX / NOT RATED**. Current bonus terms, cashier and withdrawal evidence, games, support, player protection, image rights and editor approval remain pending. They are not approved reviews and are not being published or added to the sitemap.
