@@ -34,3 +34,10 @@ Purpose: record actual internal research artifacts and prevent draft research fr
 6. Update the ledger and only then consider public content.
 
 No deployment requested or performed.
+
+## Batch 22 — Spain DGOJ (2026-10-25)
+- Added `docs/reviews/internal/big-batch-22-spain-dgoj-ten-domain-evidence-matrix-2026-10-25.md` with ten .es-domain candidates and regulator/entity/product-scope blockers.
+- Added `docs/reviews/internal/big-batch-22-spain-ten-review-drafts-2026-10-25.md` with ten internal review work orders.
+- Primary source: DGOJ official licensed-operator finder: https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores
+- Candidates: 888casino.es, platincasino.es, fuegocasino.es, admiralbet.es, betway.es, casumo.es, codere.es, casino777.es, bet365.es, luckia.es.
+- All ten remain HOLD / NOT SCORED. No bonus, withdrawal test, user experience test, image right, or final licence/product-scope determination is claimed. No merge/deploy performed.
