@@ -1,94 +1,118 @@
-# Luckia Spain — individual review draft
+# Luckia Spain Review: Licence, Casino Terms, Games and Withdrawals
 
-> **DRAFT / NOINDEX / NOT RATED.** Original editorial draft; not a completed or independently tested review. Exact product scope must be verified before publication.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** This is an evidence-led review draft, not a completed hands-on test. Publication requires current product checks, full offer/cashier evidence, image-rights clearance and independent approval.
 
 ## SEO package
-- **Title:** Luckia Spain Review: Licence, Terms, Payments and Player Protection
-- **Meta description:** Evidence-led review draft for Luckia in Spain, with operator/domain evidence, current terms, payment checks and player-protection questions.
+- **SEO title:** Luckia Spain Review: Licence, Bonuses and Withdrawals
+- **Meta description:** Evidence-led Luckia Spain review covering the DGOJ operator record, casino categories, promotion terms, payment rules and player protection.
 - **H1:** Luckia Review for Spain
 - **Suggested URL:** /reviews/luckia-spain/
-- **Indexing:** NOINDEX until legal, evidence, image-rights and editorial gates pass.
-- **Schema:** No aggregate rating markup until a supported visible score is approved.
+- **Search intent:** identify the Spanish operator and domain, then understand what is known and unknown about the casino product, bonuses and payments.
+- **Robots:** NOINDEX until all release gates pass.
+- **Structured data:** no rating or offer markup until visible content is supported and approved.
 
 ## Quick facts
-| Field | Current state |
+| Item | Current evidence |
 |---|---|
+| Brand | Luckia |
 | Market | Spain |
-| Operator listed by DGOJ | LUCKIA GAMES, SA |
-| Domain to review | https://www.luckia.es |
-| Regulator source | [DGOJ operator register](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores) |
-| Product-scope note | Exact licence categories and casino product scope need rechecking. |
-| Current offer | Not verified |
-| Bonus terms | Not captured |
+| Domain in DGOJ record | https://www.luckia.es |
+| Listed operator | LUCKIA GAMES, S.A. |
+| Primary source | [DGOJ operator record](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/luckia-games-sa) |
+| Casino-related categories listed | Machines of chance, poker, blackjack and roulette |
+| Current casino offer | Not verified |
+| Wagering / expiry / max bet / max cashout | Not captured |
 | Payment methods / fees / limits | Not captured |
-| Withdrawal performance | Not tested |
-| Support / game inventory / privacy | Not tested |
+| Withdrawal/support tests | Not performed |
+| Live game catalogue / RTP | Not inventoried |
 | Image rights | Not cleared |
-| Score | **NOT RATED** |
+| BeInCasinos score | **NOT RATED** |
 
 ## Overview
-This draft begins with the official Spanish operator directory and keeps regulatory evidence separate from customer-experience claims. A licence record does not establish that a promotion is good value, withdrawals are fast or customer support is responsive. No real-money test is claimed.
 
-## Operator and product scope
-The DGOJ operator register is the primary source for the listed operator/domain association. Reopen the exact record before publication and confirm the current status, product categories and domain. **Product scope note:** Exact licence categories and casino product scope need rechecking. Do not assume a licence for one gambling vertical automatically authorizes another.
+The DGOJ record lists LUCKIA GAMES, S.A. and luckia.es, with singular licence categories including machines of chance, poker, blackjack and roulette. The regulator's resolution list also shows licensing decisions for Luckia, including October 2026 renewals for roulette and blackjack. Those facts establish a current primary-source route for the operator and product-scope check, not a claim about bonus value, payment speed or customer satisfaction.
 
-## Bonus and terms
-No current offer has been verified for this draft. Before writing a bonus headline, capture a dated official offer page and full terms: eligibility, wagering calculation, expiry, max bet, max cashout, excluded games, payment restrictions and withdrawal conditions. If no current offer is verified, say so.
+This draft does not claim a real-money test. We have not verified the current promotion, inspected the full cashier terms, tested withdrawals, contacted support or inventoried the live catalogue. We leave the review unrated rather than manufacture a score or present generic praise as a user-tested finding.
+
+## Operator identity and casino scope
+
+**Primary source:** [DGOJ — LUCKIA GAMES, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/luckia-games-sa).
+
+The official record lists luckia.es under LUCKIA GAMES, S.A. and includes singular categories for machines of chance, poker, blackjack and roulette. The editor must reopen the live record before publication and compare the operator/domain against the current site's legal terms. Confirm that the exact customer-facing route reviewed is the casino product and that its categories are within the current permission scope.
+
+The regulator listing is not a quality award. It does not establish that all games or promotions are available to every account, that a withdrawal is fast, or that support performs well. If the domain, operator or product category cannot be reconciled, the page stays on hold.
+
+## Bonus terms and promotion value
+
+**Current offer: not verified.** No amount or free-spins count is included because the current official Spanish offer and full conditions have not been captured.
+
+Before publication, record eligibility, minimum deposit, opt-in, wagering multiple and calculation base, eligible-game contribution, expiry, maximum bet, maximum cashout/conversion, excluded games and payment methods, and withdrawal/cancellation conditions. Save the official URL and date checked. If no current offer can be verified, say so plainly and leave this score dimension pending.
+
+A headline amount is not sufficient evidence of value. The review should explain material restrictions clearly and compare offers only when equivalent terms are available. Avoid “risk-free” or guaranteed-win language.
 
 ## Payments and withdrawals
-No payout test has been performed. Capture market-specific cashier methods, deposit/withdrawal minimums and maximums, fees, currencies, processing windows and KYC requirements. Separate the operator's stated processing time from any measured time to receipt. Publish a measured payout claim only with a dated test log and sample size.
 
-## Games, fairness and player protection
-Capture the current eligible-market catalogue and providers; check any RTP claim against game-specific published information. Test available limits, self-exclusion, reality checks, account closure, age/identity controls, privacy policy and complaint escalation. These are open checks, not claims that the product has passed them.
+**No payment or withdrawal test has been performed.** Check the live Spanish cashier rather than copying methods from another market or an affiliate listing.
 
-## Provisional editorial observations
-**Potential strengths of the evidence:** an official DGOJ directory exists for operator/domain checks; the planned review records terms, cashier and protection evidence separately; the exact domain is explicitly scoped.
+Record available methods, deposit and withdrawal limits, fees, supported currencies, conversion rules, identity verification, operator processing policy, third-party settlement caveats and restrictions. Separate the operator's stated processing time from the time funds reach the customer. Any future test must record the method, dates, amount band, verification state, request time, approval time and final receipt, with sample size and limitations.
 
-**Open issues:** current bonus is unverified; payment and withdrawal rules are not captured; no support, mobile, game or privacy testing is claimed; image rights remain uncleared.
+## Games, providers and fairness
 
-## Scorecard
-| Dimension | Weight | Status |
-|---|---:|---|
-| Legal eligibility/operator identity | 25 | Pending exact product-scope recheck |
-| Bonus fairness | 15 | Pending current offer and full terms |
-| Payments/withdrawals | 15 | Pending cashier evidence and tests |
-| Games/fairness | 10 | Pending catalogue and game evidence |
-| Support/complaints | 10 | Pending test |
-| Usability/accessibility | 10 | Pending mobile and accessibility checks |
-| Privacy/account security | 10 | Pending policy and controls review |
-| Evidence freshness | 5 | Pending source log and second-editor sign-off |
-| **Total** | **100** | **NOT RATED** |
+The regulator record does not provide a current game catalogue. No game count, provider coverage, live-dealer claim or specific RTP is asserted here. Before release, inventory representative categories and titles in the live product. Verify named games and RTP against exact title/version sources. Explain that RTP is theoretical and does not predict an individual's outcome.
 
-A numeric quality score is withheld because the critical evidence and practical tests are incomplete. Do not treat missing data as a zero or convert an unverified brand into a recommendation.
+## Player protection, privacy and support
 
-## FAQs
-### Is Luckia licensed for this product in Spain?
-Check the live DGOJ record for the exact operator, domain and product category before publication. Do not infer permissions from a related domain or another gambling vertical.
+The final review must locate and verify deposit/time/loss limits, time-outs, self-exclusion, account closure, identity requirements, privacy information and complaint escalation. Describe only controls actually checked in the customer journey.
 
-### What is the current bonus?
-Not verified in this draft. Use only a current official offer and publish the material conditions alongside the headline value.
+Support is untested. A future support test should record channel, date, question, waiting time and response. Do not call support “fast” or “excellent” without evidence, and do not publish private customer details.
 
-### How fast are withdrawals?
-Not tested. State the published policy separately from measured outcomes.
+## Provisional findings and open questions
+
+**What the regulator source supports**
+- LUCKIA GAMES, S.A. is listed with luckia.es.
+- Casino-related categories include machines of chance, poker, blackjack and roulette.
+- The regulator's public resolutions provide a route to recheck dated licence decisions.
+
+**What remains unknown**
+- Current bonus and complete material terms.
+- Cashier methods, fees, limits and withdrawal policy.
+- Real withdrawal outcomes and support responsiveness.
+- Live catalogue, game providers and game-level RTP.
+- Mobile accessibility, privacy and account-control operation.
+- Image source and usage permission.
+
+## Evidence-weighted scorecard
+
+| Dimension | Weight | Status | Evidence needed |
+|---|---:|---|---|
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck | Exact live domain and casino product scope |
+| Bonus fairness and clarity | 15 | Pending | Current official offer and complete terms |
+| Payments and withdrawals | 15 | Pending | Cashier terms; documented tests for performance claims |
+| Games and fairness | 10 | Pending | Live catalogue and exact game sources |
+| Support and complaints | 10 | Pending | Tested interaction and complaint route |
+| Usability/accessibility | 10 | Pending | Documented mobile/accessibility review |
+| Privacy/security | 10 | Pending | Current policy and verified account controls |
+| Evidence freshness | 5 | Partial | Recheck volatile facts before release |
+
+**Overall score: NOT RATED.** Do not create stars or aggregate-rating markup from incomplete evidence.
+
+## FAQ
+
+### Is Luckia listed by Spain's regulator?
+The DGOJ record lists LUCKIA GAMES, S.A. and luckia.es, with casino-related categories including machines of chance, poker, blackjack and roulette. Recheck the live record and exact product route before publication.
+
+### What is Luckia Spain's current casino bonus?
+Not verified in this draft. The current official offer and full terms are needed before quoting an amount.
+
+### How fast are Luckia withdrawals?
+No withdrawal test has been performed for this review, so no timing claim is made. Check current terms and distinguish operator processing from payment-provider settlement.
 
 ### Is this a recommendation?
-No. This is an internal draft until all release gates pass.
+No. This review remains HOLD / NOINDEX / NOT RATED until the outstanding checks pass.
 
-## Images and card design
-Use only an official asset with documented editorial permission or commissioned, brand-neutral artwork. No logo/image rights are claimed by this file. Do not scrape competitor imagery or embed a bonus amount/rating into an image. Record source, permission basis, allowed markets, alt text, dimensions and review date. Use compressed responsive WebP/AVIF, fixed aspect ratio, mobile crop QA and descriptive alt text without keyword stuffing.
-
-## Affiliate and editorial disclosure
-If affiliate links are added, disclose them near the first commercial link. Commercial arrangements must not affect score or verdict. Label paid placement separately from editorial ranking.
-
-## Release checklist
-- [ ] Verify exact operator/domain/product scope in DGOJ.
-- [ ] Capture current terms and offer, or explicitly state not verified.
-- [ ] Capture cashier policy and perform/document tests where possible.
-- [ ] Complete game, support, privacy and player-protection checks.
-- [ ] Clear image rights and update asset register.
-- [ ] Add reviewer/checker names, dates, sources and affiliate disclosure.
-- [ ] QA mobile, accessibility, internal links and metadata.
-- [ ] Keep NOT RATED unless evidence supports a score.
-- [ ] Remove NOINDEX only after independent editorial sign-off.
-
-**Draft verdict: HOLD — NOT RATED.** Exact licence categories and casino product scope need rechecking.
+## Sources and update record
+- **Primary regulator source:** [DGOJ — LUCKIA GAMES, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/luckia-games-sa). Checked for this draft on 25 October 2026; reopen before publication.
+- Current offer/cashier terms: not captured.
+- Hands-on testing: not performed.
+- Image rights: not cleared.
+- Next action: verify live product scope, capture official offer and cashier terms, test mobile/support journey, clear images and obtain independent editorial approval.
