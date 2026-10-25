@@ -107,3 +107,5 @@ body{background:#050606;color:#f6f3eb;line-height:1.55}a:hover{color:#ffd34d}.wr
 .review-visual-metric strong{display:block;color:#f3d785;font-size:12px;line-height:1.35}
 .review-visual-note{margin:11px 0 0;color:#c7c1b0;font-size:11px;line-height:1.5}
 @media(max-width:680px){.review-visual-summary{grid-template-columns:1fr;gap:13px;padding:12px}.review-visual-art{min-height:125px}.review-visual-monogram{width:60px;height:60px;font-size:21px;top:13px;left:13px}.review-visual-metrics{gap:6px}.review-visual-metric{padding:9px 7px}.review-visual-metric small{font-size:8px}.review-visual-metric strong{font-size:11px}}
+
+.review-visual-method-link{display:inline-block;align-self:flex-start;margin-top:10px;color:#f0d38b;font-size:11px;font-weight:800;text-decoration:underline;text-underline-offset:3px}.review-visual-method-link:hover{color:#fff5d5}
