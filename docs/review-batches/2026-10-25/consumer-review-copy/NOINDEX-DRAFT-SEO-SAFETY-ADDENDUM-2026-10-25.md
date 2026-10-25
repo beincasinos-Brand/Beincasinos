@@ -1,6 +1,6 @@
 # Noindex draft safety addendum — 2026-10-25
 
-This addendum extends the earlier `NOINDEX-DRAFT-SEO-SAFETY-BATCH-2026-10-25.md`. A further 14 review routes received `<meta name="robots" content="noindex, nofollow">`. One additional route, Ember Casino, already had a robots directive and was left unchanged.
+This addendum extends the earlier `NOINDEX-DRAFT-SEO-SAFETY-BATCH-2026-10-25.md`. A further 15 review routes received `<meta name="robots" content="noindex, nofollow">`. One additional route, Ember Casino, already had a robots directive and was left unchanged.
 
 ## Newly updated routes
 - `reviews/casino-gran-madrid-online-es/index.html`
@@ -19,7 +19,7 @@ This addendum extends the earlier `NOINDEX-DRAFT-SEO-SAFETY-BATCH-2026-10-25.md`
 - `reviews/firekeepers-casino-us-mi/index.html`
 - `reviews/four-winds-casino-us-mi/index.html`
 
-Note: the list contains 15 paths; Ember Casino was already guarded and not changed. All newly changed routes are still drafts; the directive must be removed only after each page is individually approved for publication and indexing.
+Ember Casino was already guarded and not changed. All newly changed routes are still drafts; the directive must be removed only after each page is individually approved for publication and indexing.
 
 ## Important boundary
 This is an indexing safety measure, not a claim that the review set is complete. Keep the PR unmerged pending source checks, current market eligibility, current promotion terms, cleared imagery, scoring, editorial approval and technical QA.
