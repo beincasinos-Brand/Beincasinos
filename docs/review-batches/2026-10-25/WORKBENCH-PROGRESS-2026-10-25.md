@@ -209,3 +209,14 @@ All eight remain HOLD / NOT RATED / NOINDEX until the live exact operator/domain
 ## Latest work in this branch
 
 Recent large batches added 34 regulator-focused dossier files across Ontario, Great Britain, the Netherlands and Germany (26 Ontario/GB/NL + 8 Germany). These are not 34 approved public reviews. They improve primary-source coverage and expose product-scope and enforcement issues that would be misleading to omit from a final review. No production route, sitemap entry or deployment was created from these internal files.
+
+
+## Large Switzerland primary-source batch — 2026-10-25
+
+Added nine successfully committed Switzerland-specific dossiers: Jackpots.ch, Swiss Casinos Online, Casino777.ch, StarVegas, 7melons, Pasino, Swiss4Win, Admiral and Casineo. Each is grounded in the Swiss Federal Gaming Board's current online-casino list and names the linked Swiss casino/entity and official platform start date. The source states that Swiss casinos require a concession extension and individual approvals for online games; therefore these dossiers explicitly avoid treating the Swiss listing as a global licence or assuming every game is authorised.
+
+The Mycasino dossier creation was blocked by the repository tool safety layer and was not added in this pass. Do not count it as committed. The nine committed dossiers remain HOLD / NOT RATED / NOINDEX because live bonus/payment/KYC/support/privacy audits, game-level evidence, image rights, scoring and second-editor approval remain outstanding. No public review routes or sitemap entries were created.
+
+## Competitor-standard reference added to research method
+
+The competitor review benchmark was refreshed against Casino.org's current public review criteria and review-process page. The useful transferable practices are: explain score methodology, separate legal eligibility from quality scoring, check first-party terms and regulator records, state what was not tested, and disclose evidence dates. BeInCasinos must not claim the same hands-on deposits/withdrawals or test volumes as competitors unless we actually carry them out and record the results. Source references: https://www.casino.org/reviews/ and https://www.casino.org/how-we-rate/.
