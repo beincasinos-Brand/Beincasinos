@@ -175,3 +175,10 @@ No deployment requested or performed.
 - Slot 86 PricedUp Casino now records that the UKGC register associates `pricedup.bet` with Off Course Bookmakers Limited (account 1776), but this alone does not establish casino-specific remote product scope. The candidate remains HOLD / NOT SCORED.
 - Evidence sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/60991 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66151 ; https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Pricedup&uc=true
 - These are risk flags, not completed reviews. No tests, merge, workflow or Cloudflare deployment were performed.
+
+
+## Batch 44 — target-market code validation and publication-state parsing (2026-10-25)
+- Added a structural error for market codes outside the 12 target-market codes or the explicit two-letter state/province forms US-XX / CA-XX; this prevents accidental off-target rows such as GH from silently entering the production ledger.
+- Hardened publication-state parsing so an approved state followed by an em dash, en dash or hyphen still triggers jurisdiction-specific release gates.
+- Added regression tests for an off-target market code and an en-dash publication status. These changes only validate structure; they do not certify legal eligibility.
+- Tests have not been executed in this environment. No Actions workflow, PR merge or deployment was triggered.
