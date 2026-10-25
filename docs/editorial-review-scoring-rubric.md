@@ -25,6 +25,23 @@ If a gate fails or evidence is missing, label the profile “Not scored — veri
 | Operator and licence transparency | 10 | Clear legal entity, exact domain, current licence details, and links to official register evidence. Eligibility gate still applies separately. |
 | Usability and information accessibility | 10 | Terms are findable/readable, important restrictions are not hidden, and key help/account controls are reasonably accessible. |
 
+## Criterion rating anchors (0–5)
+
+Use the same anchors for each of the six criteria, supported by criterion-specific evidence notes:
+
+- **0 — Material failure documented:** current primary evidence shows a serious failure or a key required safeguard/information is absent after a direct, documented check.
+- **1 — Very weak:** substantial gaps or materially unclear information remain despite a completed check.
+- **2 — Weak:** several meaningful gaps, restrictions, or ambiguities are evidenced.
+- **3 — Adequate:** the main information and controls are present and usable, but limitations remain.
+- **4 — Strong:** clear, accessible and comparatively comprehensive information/control evidence, with only limited gaps.
+- **5 — Exemplary transparency:** unusually clear, complete, accessible, and current evidence for the criterion, with the scope and limitations stated.
+
+Do not score a criterion from absence of research, inaccessible sources, or an unverified assumption. Mark it “not assessed” and withhold the total. A 0 is reserved for a documented finding, not missing evidence. Record examples and source links for every assigned rating.
+
+**Calculation:** criterion points = (criterion rating ÷ 5) × criterion weight. Add all six criterion points for a total out of 100. Do not round individual criterion points; round only the final displayed total to the nearest whole number. A total is publishable only when all six criteria are assessed and all eligibility gates pass.
+
+**Interpretation bands:** 90–100 strong documented transparency; 80–89 good documented transparency with stated limitations; 70–79 mixed evidence or meaningful gaps; 60–69 significant weaknesses; below 60 material weaknesses in assessed criteria. These are editorial descriptions only, not legal, safety, or regulatory ratings. Eligibility gates and material red flags always override a numeric total.
+
 ## Evidence and scoring rules
 
 - Every criterion requires a short evidence note, primary-source URL, date checked, and reviewer.
