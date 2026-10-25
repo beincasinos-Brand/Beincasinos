@@ -116,3 +116,10 @@ All files remain HOLD / NOINDEX / NOT RATED; offers, cashier details, local cata
 Added 12 New Jersey casino candidate dossiers and a README, with a state-specific legal gate based on the New Jersey Division of Gaming Enforcement. Because US online casino eligibility is state-specific, each exact operator, casino partner, domain and product permission must be verified before a candidate can be included.
 
 All dossiers remain HOLD / NOINDEX / NOT RATED. They are not final consumer reviews; offers, cashier, games, player protection, privacy, image rights and independent approval remain outstanding. No production deploy performed.
+
+
+## Canonical deduplication checkpoint
+
+Parsed the 100 numbered candidate rows in the tracker and normalized names by case and punctuation. This produced **79 exact-name groups**; 21 candidate rows are repeat names under that limited normalization. A detailed registry was added at `CANONICAL-BRAND-DEDUPLICATION-REGISTRY.md`. This is only an initial deduplication pass and does not establish legal eligibility, current operator/domain, or a completed review.
+
+Confirmed from the tracker: 0 verified unique brands, 0 approved reviews and 0 published reviews. The 100-row queue is not 100 finished reviews. Continue by resolving aliases, then gathering primary evidence and obtaining editorial approval.
