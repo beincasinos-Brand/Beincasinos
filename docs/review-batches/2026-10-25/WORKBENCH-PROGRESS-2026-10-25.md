@@ -88,3 +88,10 @@ Added 24 Ontario-specific candidate research files using the iGaming Ontario ope
 Added 11 brand-level Ontario eligibility dossiers plus one Betway offer audit/duplicate-control file, and a batch README. The official iGaming Ontario directory is the primary eligibility starting point. Every exact current operator entry, local domain and product scope still needs capture; unverified candidates must be excluded from Ontario targeting.
 
 These are structured research dossiers, not final player-facing reviews. Current bonus terms, payments, games, support, privacy, image rights and editorial sign-off are still required. No production deployment was performed.
+
+
+## Big batch 21 — Australia product-legality gate
+
+Added 12 Australian market research dossiers and a batch README. The primary starting point is ACMA's online gambling guidance. Product categories must not be conflated: known sports betting brands and land-based casinos are not automatically legal online casino products for Australia. Each exact service requires a current product-specific legal check; ineligible brands must be excluded from Australian casino pages.
+
+All files remain HOLD / NOINDEX / NOT RATED; they are not final consumer reviews. No production deploy performed.
