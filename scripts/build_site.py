@@ -17,8 +17,10 @@ PUBLIC_FILES = (
     "site.webmanifest",
     "sitemap.xml",
     "styles.css",
+    "homepage-luxury.css",
 )
 PUBLIC_DIRS = (
+    "assets",
     "about",
     "affiliate-disclosure",
     "contact",

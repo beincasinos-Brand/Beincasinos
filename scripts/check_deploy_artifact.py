@@ -18,10 +18,12 @@ else:
         if (DIST / rel).exists():
             errors.append(f"dist/: internal/configuration path must not be published: {rel}")
 
-    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
+    required = ("index.html", "404.html", "robots.txt", "sitemap.xml", "_headers", "styles.css", "homepage-luxury.css", "script.js", "favicon.svg", "site.webmanifest", "tools/wagering-calculator/calculator.js", "tools/wagering-calculator/calculator.css", "tools/terms-checklist/checklist.js", "tools/terms-checklist/checklist.css")
     for rel in required:
         if not (DIST / rel).is_file():
             errors.append(f"dist/: required public asset missing: {rel}")
+    if not (DIST / "assets" / "beincasinos-mark.svg").is_file():
+        errors.append("dist/: dedicated circular BIC logo asset is missing")
     if not (DIST / "reviews" / "index.html").is_file():
         errors.append("dist/: public Reviews hub is missing")
     if not (DIST / "partners" / "index.html").is_file():
