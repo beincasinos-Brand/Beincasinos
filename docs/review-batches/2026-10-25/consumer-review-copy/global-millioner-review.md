@@ -24,6 +24,13 @@ Before assessing Millioner’s promotions or catalogue, confirm the exact brand/
 
 A complete current record of the applicable regulator entry, bonus terms, cashier limits, withdrawal conditions, game catalogue, support channels and player-protection tools has not been established here. BeInCasinos leaves the rating unassigned until these items are evidenced rather than filling gaps with generic casino claims.
 
+## Reader-facing assessment
+
+**Current verdict: not enough verified information to recommend or score.** Before a reader can compare Millioner with another operator, the page needs to identify the exact site and legal entity, establish the regulator and permitted product for the reader's jurisdiction, and present the current promotion and cashier rules in plain language.
+
+The review should not turn missing information into a positive claim. If the live site does not clearly disclose minimum deposits, withdrawal limits, verification requirements, wagering restrictions or complaint routes, record that as an evidence gap and explain how it affects the comparison. No game count, payout-speed claim or customer-support rating is made without current evidence.
+
+
 ## Bonus terms: what to check
 
 Do not compare welcome offers by headline value alone. Before describing an offer as current, capture its start/end date, eligible country and currency, minimum deposit, wagering multiplier and calculation base, eligible games, contribution rates, maximum bet, expiry, withdrawal cap, payment exclusions and what happens when a player withdraws early. If the live terms are not accessible or the promotion has expired, omit the offer rather than repeating an old headline.
