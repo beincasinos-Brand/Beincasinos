@@ -250,3 +250,8 @@ No deployment requested or performed.
 - Batch 57 correction: removed two unverified guessed Lucky 7 page paths from the ledger rather than leaving them as evidence. Bonus-terms page is recorded, but current offers remain on HOLD because search results included expired September 2026 promotions; no bonus value should be published without fresh direct verification.
 - Slot 73 Hommerson: updated the legal-entity lead to H-Online B.V. based on the Ksa consolidated licence decision. The decision states a licence valid 3 October 2023 through 2 October 2028, but exact current brand/domain mapping still must be confirmed in the Kansspelwijzer. Source: https://kansspelautoriteit.nl/h-online-b-v ; https://kansspelautoriteit.nl/register-licensees.
 - Slots 69 and 73 remain HOLD / NOT SCORED. No consumer tests, second reviewer, image-rights clearance or editorial approvals were claimed. No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 58 — Hard Rock Casino NL candidate / iCasino licence distinction (2026-10-25)
+- Corrected slot 71's prior wording: the Ksa does have an official remote-gambling licence decision for iCasino B.V., valid 22 May 2024 through 21 May 2029 for casino games against the operator. This is a potential operator lead only; the decision does not itself name Hard Rock Casino or the domain hardrockcasino.nl. Exact brand/domain mapping still requires the current Kansspelwijzer. Source: https://kansspelautoriteit.nl/icasino-b-v ; https://kansspelautoriteit.nl/register-licensees.
+- Slot 71 remains HOLD / NOT SCORED; no license-brand association has been asserted. No tests, merge, workflow or Cloudflare deployment were triggered.
