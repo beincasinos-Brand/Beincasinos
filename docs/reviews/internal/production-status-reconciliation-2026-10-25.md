@@ -425,3 +425,13 @@ No deployment requested or performed.
 - Official source: https://www.gluecksspiel-behoerde.de/de/fuer-spielende/uebersicht-erlaubter-anbieter-whitelist
 - No current bonus was cleared, no image rights were cleared, and no consumer transaction was tested. These two leads were not inserted into the 100-brand production ledger because they are not complete reviews.
 - No merge, deployment or GitHub Actions run was triggered.
+
+
+## Batch 88 — Belgium official A+ register intake (2026-10-25)
+
+- Created `docs/targets/be-belgium-official-licence-intake-2026-10-25.csv` with 10 domain entries from the official A+ table: Casino777, Napoleon Casino, StarCasino, Betano, Circus Casino, PokerStars Belgium, Ladbrokes Casino, Unibet Casino, Bwin Casino and Betsson Casino.
+- The official table was shown as last updated 2026-10-08 when checked on 2026-10-25. Each row retains the official operator and expiry information where displayed. The Circus Casino/PokerStars domains share one register entry and need separate live-product verification; the combined entry must not be treated as proof that every product is licensed under every brand.
+- Betano's displayed A+ expiry is 2026-12-31, so current status/renewal is an explicit re-check gate.
+- All 10 rows remain HOLD / NOT SCORED. No current bonus or image rights were cleared; no consumer testing or cashier transaction was performed.
+- Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
+- This is a separate research intake file. Production ledger remains unchanged; no merge, deployment or GitHub Actions run was triggered.
