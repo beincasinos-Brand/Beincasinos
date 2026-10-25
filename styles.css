@@ -109,3 +109,55 @@ body{background:#050606;color:#f6f3eb;line-height:1.55}a:hover{color:#ffd34d}.wr
 @media(max-width:680px){.review-visual-summary{grid-template-columns:1fr;gap:13px;padding:12px}.review-visual-art{min-height:125px}.review-visual-monogram{width:60px;height:60px;font-size:21px;top:13px;left:13px}.review-visual-metrics{gap:6px}.review-visual-metric{padding:9px 7px}.review-visual-metric small{font-size:8px}.review-visual-metric strong{font-size:11px}}
 
 .review-visual-method-link{display:inline-block;align-self:flex-start;margin-top:10px;color:#f0d38b;font-size:11px;font-weight:800;text-decoration:underline;text-underline-offset:3px}.review-visual-method-link:hover{color:#fff5d5}
+
+
+/* BeInCasinos site-wide brand, footer, and mobile navigation polish */
+:root{--bic-black:#070807;--bic-panel:#10110e;--bic-gold:#f0c34d;--bic-gold-soft:#d9b45a;--bic-muted:#b8b2a2}
+.site-header{background:rgba(5,6,5,.97);border-bottom:1px solid #49360d;backdrop-filter:blur(14px)}
+.site-header .nav-wrap{min-width:0}
+.site-header .brand{min-width:0;color:#fff8e7}
+.site-header .brand small{color:#c4baa1}
+.site-header .brand-mark{border-radius:50%;background:radial-gradient(circle at 35% 25%,#3c2a08,#070707 72%);border:1px solid #e5b936;box-shadow:0 0 0 3px #e5b93618,0 0 16px #d79e2040}
+.site-header .brand-mark .brand-i{color:#f0c34d}
+.site-header .nav-links{color:#f1ecdf}
+.site-header .nav-links a{transition:color .16s ease,background .16s ease}
+.site-header .nav-links a:hover,.site-header .nav-links a[aria-current=page],.site-header .nav-links a.active{color:#ffd95e}
+.site-header .menu-toggle{display:none;align-items:center;justify-content:center;min-height:44px;min-width:78px;border:1px solid #b68a26;border-radius:9px;background:#11110d;color:#ffdf76;font:800 13px var(--sans);cursor:pointer}
+.site-footer{background:linear-gradient(180deg,#10110e,#050605);color:#e8e0ce;border-top:1px solid #62480e;margin-top:0;padding-top:34px}
+.site-footer a{color:#d7cfbb}
+.site-footer a:hover{color:#ffdc67;text-decoration:underline;text-underline-offset:3px}
+.footer-top{gap:24px;padding-bottom:24px;border-bottom:1px solid #403216}
+.footer-top>p{max-width:470px;color:#c1b8a5;font-size:13px}
+.footer-brand{display:flex;align-items:center;gap:12px;min-width:0;color:#fff5d8}
+.footer-brand .brand-mark{display:none}
+.footer-brand::before{content:"";display:block;flex:0 0 66px;width:66px;height:66px;background:url('/assets/beincasinos-mark.svg') center/contain no-repeat;filter:drop-shadow(0 0 7px #dcae2a55)}
+.footer-brand>span:last-child{font-size:19px;font-weight:800;letter-spacing:-.4px}
+.footer-brand small{color:#d1c3a2!important;font-size:10px!important;letter-spacing:.1px!important}
+.footer-links{padding-top:25px;padding-bottom:25px;gap:24px}
+.footer-links>div{display:grid;align-content:start;gap:9px}
+.footer-links b{color:#f5d16a;font-size:12px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:4px}
+.footer-links a{font-size:12px;line-height:1.5}
+.footer-bottom{border-top:1px solid #403216;padding-top:15px;padding-bottom:18px;color:#aaa18d;font-size:11px}
+.footer-bottom a{color:#d8cba9}
+:focus-visible{scroll-margin-top:110px}
+@media(max-width:900px){
+ .site-header .nav-wrap{display:flex;flex-wrap:wrap;gap:10px;min-height:76px;height:auto;padding-top:7px;padding-bottom:7px}
+ .site-header .brand{margin-right:auto}
+ .site-header .menu-toggle{display:inline-flex;flex:0 0 auto}
+ .site-header .nav-links{display:none;order:3;flex:0 0 100%;width:100%;min-width:0;align-items:stretch;justify-content:flex-start;flex-direction:column;gap:2px;padding:7px 0 10px;white-space:normal}
+ .site-header .nav-links.open{display:flex}
+ .site-header .nav-links>a{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:44px;padding:10px 12px;border:1px solid transparent;border-bottom-color:#33270d;border-radius:6px;font-size:12px;white-space:normal}
+ .site-header .nav-links>a:hover,.site-header .nav-links>a:focus-visible{background:#17140b;border-color:#5c4515}
+ .site-header .nav-links .language-pill{align-self:flex-start;margin-top:8px;min-height:40px!important}
+ .site-footer{padding-top:28px}
+ .footer-top{align-items:flex-start;flex-direction:column}
+ .footer-links{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:480px){
+ .footer-brand::before{flex-basis:56px;width:56px;height:56px}
+ .footer-brand>span:last-child{font-size:17px}
+ .footer-top>p{font-size:12px}
+ .footer-links{gap:22px 14px}
+ .footer-bottom{align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){.site-header .nav-links a{transition:none}}
