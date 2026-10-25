@@ -69,6 +69,8 @@ def check(ledger_path):
         label = f"{ledger_path}:{line}"
         brand = row.get("brand_name", "").strip()
         market = row.get("market_code", "").strip().upper()
+        if market and market not in TARGET_MARKETS and not re.fullmatch(r"(?:US|CA)-[A-Z]{2}", market):
+            errors.append(f"{label}: market_code {market!r} is outside the approved target-market code format")
         slot = row.get("slot", "").strip()
         key = (brand.casefold(), market)
         if not brand:
@@ -158,7 +160,10 @@ def check(ledger_path):
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
         state = row.get("publication_status", "").strip().upper()
-        is_publishable = state.split(" —", 1)[0].strip() in PUBLISHABLE_STATES
+        # Accept common dash punctuation after a canonical state while keeping the
+        # actual decision vocabulary closed to the explicit allow-list.
+        canonical_state = re.split(r"\s*[—–-]\s*", state, maxsplit=1)[0].strip()
+        is_publishable = canonical_state in PUBLISHABLE_STATES
 
         # Market scope is an independent release gate: a populated brand record is not
         # proof that online casino acquisition is lawful in every country or sub-jurisdiction.
