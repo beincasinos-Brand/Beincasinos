@@ -191,6 +191,13 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("domain_verified_utc must start with an ISO date" in message for message in gate.errors))
 
+    def test_bonus_checked_date_rejects_trailing_garbage(self):
+        self.rows[0]["bonus_checked_utc"] = "2026-10-25-not-a-date"
+        self.rows[0]["bonus_offer_url"] = "https://example.invalid/bonus"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("bonus_checked_utc must start with an ISO date" in message for message in gate.errors))
+
     def test_verified_domain_rejects_trailing_date_garbage(self):
         self.rows[0]["domain_verification_status"] = "VERIFIED"
         self.rows[0]["domain_verified_utc"] = "2026-10-25-not-a-date"
