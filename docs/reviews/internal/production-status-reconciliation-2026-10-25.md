@@ -152,3 +152,11 @@ No deployment requested or performed.
 - Updated four blank ledger `official_url` fields for slots 75 Monopoly Casino (US-NJ), 76 Horseshoe Casino (US-NJ), 77 Fanatics Casino (US-NJ), and 80 Mohegan PA Casino (US-PA), using domains listed on official state regulator pages.
 - Sources: New Jersey DGE Internet Gaming Sites (https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/) and Pennsylvania Gaming Control Board Interactive Gaming Operators (https://gamingcontrolboard.pa.gov/interactive-gaming-operators) plus its current authorised-site PDF (updated 2026-02-13).
 - Domain matches alone do not complete identity/legal-entity matching or review requirements. All four rows remain HOLD / NOT SCORED; no public pages changed, no Actions workflow, merge, or deployment performed.
+
+
+## Batch 41 — target-market coverage diagnostics (2026-10-25)
+- Updated `scripts/check_review_ledger.py` to compare the 100-row ledger against the current 12 target markets: AU, CA, GB, US, CH, DE, NL, SE, ES, IT, FR and BE.
+- US state-specific rows (for example US-NJ/US-PA/US-MI) and Canadian province-specific rows (for example CA-ON) count toward portfolio coverage only; this roll-up does not grant nationwide eligibility or bypass the exact-jurisdiction publication gates.
+- Missing market coverage is reported as a warning, not a hard failure, because this is a planning diagnostic and not evidence of legal eligibility. AU and FR remain subject to their separate online-casino market gates.
+- Added a regression test confirming the coverage gap appears as a warning rather than a publication approval or gate error.
+- Validation has not been run in a repository runner; do not infer test success. No GitHub Actions workflow, PR merge or Cloudflare deploy was triggered.
