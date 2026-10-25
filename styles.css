@@ -60,7 +60,7 @@
 .pillar-card h3{font-size:19px;margin:2px 0 8px;letter-spacing:-.45px}
 .pillar-card p{font-size:12px;line-height:1.75;color:var(--muted);margin:0}
 .pillar-card>strong{grid-column:2;align-self:end;color:var(--green);font:800 22px/1 var(--serif);letter-spacing:-.5px}
-.pillar-card>strong small{font:600 10px/1 var(--sans);letter-spacing:0;color:#7b8b80}
+.pillar-card>strong small{display:block;margin-bottom:6px;font:700 8px/1 var(--sans);letter-spacing:1.2px;color:#7b8b80}
 .pillar-note{display:flex;align-items:flex-start;gap:12px;margin-top:18px;padding:17px 19px;border:1px solid #dce8dd;border-radius:12px;background:#edf4ed}
 .pillar-note-icon{display:grid;place-items:center;flex:0 0 23px;height:23px;border-radius:50%;background:#d7e9d9;color:#315f42;font-size:12px;font-weight:800}
 .pillar-note p{font-size:11px;line-height:1.8;color:#52645a;margin:0}
