@@ -1,0 +1,7 @@
+slot,brand_name,field,current_value,proposed_value,primary_evidence_url,disposition
+82,Proper Bet,official_url,,https://proper.bet/,https://proper.bet/,Candidate official consumer site; exact domain-register match still to verify
+82,Proper Bet,legal_entity,Not verified,Proper Bet Limited (UKGC account 100990; confirm site terms identify this entity before applying),https://www.gamblingcommission.gov.uk/public-register/business/detail/100990,Provisional only; direct terms/footer entity verification still required
+82,Proper Bet,official_register_url,https://www.gamblingcommission.gov.uk/public-register/businesses,https://www.gamblingcommission.gov.uk/public-register/business/detail/100990,https://www.gamblingcommission.gov.uk/public-register/business/detail/100990,Use exact account record; it shows active remote Casino licence from 2026-05-22
+82,Proper Bet,terms_url,,https://proper.bet/?account=static&static=terms-and-conditions,https://proper.bet/?account=static&static=terms-and-conditions,Current terms route observed; confirm operator identity and full text before publication
+82,Proper Bet,responsible_gambling_url,,https://proper.bet/?account=static&static=safer-gambling,https://proper.bet/?account=static&static=safer-gambling,Operator page observed; feature functionality not independently tested
+82,Proper Bet,privacy_cookies_url,,https://proper.bet/?account=static&static=privacy-policy,https://proper.bet/?account=static&static=privacy-policy,Privacy route observed; cookie-policy route must be verified separately before combined mapping
