@@ -133,3 +133,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-37-blank-domain-identity-resolution-queue-2026-10-25.md`, enumerating all ledger rows with a blank official domain and a regulator-first resolution procedure.
 - No URLs were guessed or written into the ledger. Rows without exact domain/operator/product matches remain HOLD / NOT SCORED.
 - No public pages changed; no merge/deploy performed.
+
+
+## Batch 38 — target-market coverage reconciliation (2026-10-25)
+- Added `docs/reviews/internal/big-batch-38-target-market-coverage-reconciliation-2026-10-25.md`, comparing the current 100-row ledger against all 12 requested target markets and identifying missing market codes and jurisdiction pitfalls.
+- Explicitly preserves state-level US scope, province-level Ontario scope, France/Australia online-casino exclusions, and national regulator checks for SE/ES/IT/BE.
+- This audit does not clear or score brands and does not rebalance the ledger without an approved allocation. No public pages changed; no merge/deploy performed.
