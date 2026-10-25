@@ -65,3 +65,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-26-netherlands-2026-licence-renewal-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-26-netherlands-ten-review-work-orders-2026-10-25.md`.
 - Based on the Ksa announcement dated 17 September 2026 naming eight follow-up licence holders for October 2026–September 2031; includes a separate HOLD check for Oranje Palace because omission from that announcement alone does not establish its current status.
 - All ten work orders HOLD / NOT SCORED pending exact current domain/product register match and full consumer-review evidence. No merge/deploy performed.
+
+
+## Batch 27 — Michigan ten-platform matrix (2026-10-25)
+- Added `docs/reviews/internal/big-batch-27-michigan-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-27-michigan-ten-review-work-orders-2026-10-25.md`.
+- Based on the MGCB current legal internet-gaming list and authorised platform provider directory; state-specific URLs and tribal/commercial operator relationships are recorded as leads for review.
+- All ten HOLD / NOT SCORED pending current first-party terms, consumer testing, image-rights clearance, safer-gambling/payment evidence and independent review. No merge/deploy performed.
