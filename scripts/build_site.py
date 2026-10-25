@@ -69,7 +69,10 @@ shutil.copy2(headers_src, DIST / "_headers")
 
 for rel in PUBLIC_DIRS:
     src = ROOT / rel
-    if not src.is_dir() or src.is_symlink() or not any(src.rglob("*.html")):
+    # The assets directory is intentionally file-only; all other public
+    # directories represent routes and must contain at least one HTML page.
+    missing_pages = rel != "assets" and not any(src.rglob("*.html")) if src.is_dir() else True
+    if not src.is_dir() or src.is_symlink() or missing_pages:
         raise SystemExit(f"Required public page directory is missing HTML pages or is unsafe: {rel}")
     for item in sorted(src.rglob("*")):
         if item.is_dir():
