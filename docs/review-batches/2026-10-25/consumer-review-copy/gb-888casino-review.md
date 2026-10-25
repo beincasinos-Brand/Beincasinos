@@ -10,6 +10,12 @@ This BeInCasinos review examines 888casino within the named market, not as a uni
 **Operator lead:** 888 UK Limited.  
 **Primary regulator source:** [Open official register record](https://www.gamblingcommission.gov.uk/public-register/business/detail/39028).
 
+### Register finding and scope
+
+The captured UK Gambling Commission public-register lead is [888 UK Limited — business record 39028](https://www.gamblingcommission.gov.uk/public-register/business/detail/39028), which identifies remote casino activity. Before publication, re-open the register and match the exact live domain and operator shown in the site's footer. This register lead supports a market-specific check; it does not prove every brand-group site, promotion or game is covered.
+
+The reader should not infer that an international 888-branded site has the same permissions or terms as the Great Britain service. The review remains unscored until the exact domain match, current bonus rules, cashier policy and safer-gambling details are recorded.
+
 ### Regulatory status
 
 UKGC record identifies active Casino Remote activity for 888 UK Limited; recheck exact domain and current register at publication.
