@@ -398,3 +398,12 @@ No deployment requested or performed.
 - Read-back candidate triage: BetTOM exact domain not evidenced; AK Bets casino permission unresolved; Silkbet exact domain/operator match absent; Midnite licensee mapping ambiguous; QuinnBet enforcement recorded but domain match unresolved; Kong Casino is White Label, not Active; Bet442 register search has multiple licensee leads. These remain unverified or otherwise blocked.
 - The verified-domain count is now 9, but every such row remains HOLD / NOT SCORED; domain evidence is not publication approval.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 76 — Ontario and Sweden market-gap intake queue (2026-10-25)
+- Added machine-readable `docs/targets/ca-on-se-candidate-intake-queue-2026-10-25.csv` with 20 leads: 10 Ontario (CA-ON) and 10 Sweden.
+- Added `docs/reviews/internal/big-batch-76-ontario-sweden-market-gap-intake-queue-2026-10-25.md`.
+- Ontario leads are from the existing iGaming Ontario directory matrix, but the source snapshot cited there is 2026-09-01; every row explicitly requires a fresh current-directory check. These are Ontario-only, not Canada-wide approvals.
+- Sweden names/URLs are candidate leads only. Every row requires exact domain/operator/licence/product matching in the current Spelinspektionen register.
+- All 20 queue entries remain HOLD / NOT SCORED; bonuses and image rights are not cleared. Production ledger remains 100 rows and unchanged by these queue additions.
+- No automated tests run, no merge, no workflow run, and no deployment performed.
