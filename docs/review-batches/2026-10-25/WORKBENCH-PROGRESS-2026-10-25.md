@@ -74,3 +74,10 @@ Added 12 Sweden and 12 Netherlands candidate workbench files, plus a batch READM
 Added 12 Belgium candidate workbenches and 12 France product-eligibility research files. Tracker rows 77–100 now record these as candidate-only. Names may overlap earlier dossiers and must be deduplicated; these 24 files do not equal 24 new unique verified brands.
 
 **Critical legal gate:** France's legal online gambling categories are limited; the workbench requires product-specific ANJ verification and exclusion of unauthorised online casino products. Belgium candidates require current licence-class/operator/domain matching. All remain HOLD / NOINDEX / NOT RATED until evidence, rights checks and independent editorial approval are complete. No deployment occurred.
+
+
+## Big batches 18–19 — Ontario regulated-market workbenches
+
+Added 24 Ontario-specific candidate research files using the iGaming Ontario operator directory as the primary starting point, plus a batch README. The directory's published snapshot is accurate as of 1 September 2026; each exact brand row, official domain and operator status must be rechecked before publication. Some brands overlap earlier market files and must be deduplicated.
+
+**Status remains HOLD / NOINDEX / NOT RATED.** These are structured evidence workbenches, not finished consumer reviews. Current bonus terms, cashier details, game catalogue, player-protection evidence, image rights and independent approval remain outstanding. No production deploy occurred.
