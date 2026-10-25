@@ -249,3 +249,20 @@ Per owner direction, work shifted from expanding research dossiers to writing co
 These are now narrative consumer-review drafts with overview, regulator context, bonus terms, payments/withdrawals, games, player protection, evidence-based pros/cons, score/decision, FAQs and publication checklist. They explicitly withhold ratings and current bonus/payout claims when the evidence packet does not contain the needed dated facts. They are **not yet approved production pages**; a draft is not the same as a completed review. No public sitemap entries or deployment were made.
 
 Next work is to expand the same consumer-copy standard to the remaining candidates, capture first-party offer/cashier/policy evidence for each page, commission or clear image rights, then complete the scorecard and publication QA. Do not label 100 as complete until 100 distinct brands have complete evidence and approval records.
+
+
+## Germany consumer-review copy conversion — 2026-10-25
+
+Added 8 further consumer-facing Germany review drafts in `consumer-review-copy/`: BacanaPlay, DrückGlück, Eurokingsclub, Euspielothek, ICE36, 888slots, Mr Green and Spinmodo. The copy uses the GGL whitelist as the regulatory source lead, keeps product scope explicit, and avoids treating a virtual-slot permit as blanket permission for all casino games. Each remains NOT RATED pending current offer/cashier/terms/player-protection evidence, live whitelist recheck, image rights and second-editor approval.
+
+## Running consumer-copy totals
+
+- Spain: 8 committed consumer-copy drafts.
+- Great Britain/Netherlands: 9 committed consumer-copy drafts.
+- Ontario: 11 committed consumer-copy drafts.
+- Germany: 8 committed consumer-copy drafts.
+- **Total consumer-facing copy drafts committed in this conversion effort: 36.**
+- These are 36 market-scoped article drafts, not 36 approved reviews or necessarily 36 distinct global brands. Mr Green is a repeated brand across markets and is handled as separate market scope; brand deduplication remains necessary.
+- **Approved/published reviews from this conversion effort: 0.** No deployment, public sitemap update or GSC indexing request has been made.
+
+The immediate production work is to complete market-specific facts and unique evidence in each draft, then build/QA approved public routes. Do not deploy the internal review-copy folder directly; it contains HOLD/NOT RATED drafts and is not part of the public build allowlist.
