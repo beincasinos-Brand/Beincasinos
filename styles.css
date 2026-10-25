@@ -67,3 +67,40 @@
 .pillar-note strong{color:#233e2e}
 @media(max-width:850px){.review-pillars{padding:64px 0}.review-pillars-head{align-items:flex-start;flex-direction:column;gap:14px}.pillar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.review-pillars{padding:52px 0}.pillar-grid{grid-template-columns:1fr;gap:11px}.pillar-card{min-height:0;padding:19px}.pillar-card>strong{margin-top:2px}.review-pillars-head h2{font-size:31px}.pillar-note{padding:14px}}
+
+
+/* Premium review-publisher experience: image-led hero and evidence snapshot */
+.hero-premium{background:#0d211b;color:#f7faf6;border-bottom:0;position:relative}
+.hero-premium .hero-grid{min-height:610px;grid-template-columns:.92fr 1.08fr;gap:52px;padding-top:58px;padding-bottom:64px}
+.hero-premium .eyebrow{color:#a8dfbd}
+.hero-premium h1{color:#fff;font-size:clamp(44px,5.1vw,68px);max-width:620px;letter-spacing:-2px}
+.hero-premium .accent{color:#a5dfb9}
+.hero-premium .hero-lede{color:#c3d2ca;max-width:520px}
+.hero-premium .button-primary{background:#c8ecd4;color:#123b2c;box-shadow:0 12px 32px rgba(0,0,0,.18)}
+.hero-premium .button-primary:hover{background:#e0f6e7;color:#123b2c}
+.hero-premium .text-link{color:#d2e9d9}
+.hero-proof{display:flex;align-items:flex-start;gap:12px;margin-top:34px;max-width:430px}
+.proof-mark{width:28px;height:28px;flex:none;border:1px solid #4d8068;border-radius:50%;display:grid;place-items:center;color:#bce8cb;background:#173d30;font-size:13px}
+.hero-proof b,.hero-proof small{display:block}
+.hero-proof b{font-size:12px;color:#f6fbf7}
+.hero-proof small{font-size:11px;line-height:1.55;color:#a9beb2;margin-top:3px}
+.hero-visual{position:relative;min-height:480px;border-radius:22px;isolation:isolate}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:22px;box-shadow:0 30px 70px rgba(0,0,0,.28)}
+.photo-shade{position:absolute;inset:0;border-radius:22px;background:linear-gradient(180deg,rgba(5,20,14,.06) 20%,rgba(5,20,14,.72) 100%);z-index:1}
+.visual-kicker{position:absolute;z-index:2;left:24px;right:24px;top:22px;display:flex;justify-content:space-between;gap:12px;color:#fff;font-size:9px;letter-spacing:1.5px;font-weight:800}
+.visual-kicker span{color:#d6e5d9;font-weight:600}
+.floating-review-card{position:absolute;z-index:3;left:-35px;bottom:58px;width:min(360px,calc(100% - 28px));padding:19px 20px 16px;background:rgba(255,255,255,.97);border:1px solid rgba(255,255,255,.72);border-radius:16px;box-shadow:0 24px 60px rgba(0,0,0,.24);color:#183128}
+.preview-brand{display:flex;align-items:center;gap:10px;padding-bottom:15px;border-bottom:1px solid #e6ede7}
+.preview-monogram{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;background:#143d30;color:#d5f1dd;font-family:Georgia,serif;font-size:12px;font-weight:800;letter-spacing:-1px}
+.preview-brand b,.preview-brand small{display:block}
+.preview-brand b{font-size:12px}
+.preview-brand small{font-size:9px;color:#6d7b72;margin-top:3px}
+.preview-status{margin-left:auto;padding:5px 7px;border-radius:5px;background:#fff0d4;color:#855f18;font-size:8px;letter-spacing:.8px;font-weight:800}
+.preview-line{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #edf1ed;font-size:10px}
+.preview-line span{color:#637269}
+.preview-line b{font-size:10px;color:#214d3a;text-align:right}
+.preview-footer{display:flex;justify-content:space-between;gap:10px;padding-top:13px;font-size:8px;font-weight:800;letter-spacing:1px;color:#476c56}
+.visual-caption{position:absolute;z-index:2;bottom:22px;right:20px;display:flex;align-items:center;gap:8px;color:#fff;font-size:10px;font-weight:600;text-shadow:0 1px 8px #000}
+.caption-dot{width:7px;height:7px;border-radius:50%;background:#b5e7c5;box-shadow:0 0 0 4px rgba(181,231,197,.18)}
+@media(max-width:850px){.hero-premium .hero-grid{grid-template-columns:1fr;gap:32px;padding-top:52px}.hero-visual{min-height:460px;margin:0 0 12px 28px}.floating-review-card{left:-28px}}
+@media(max-width:620px){.hero-premium .hero-grid{padding-top:40px;padding-bottom:42px}.hero-premium h1{font-size:clamp(39px,11vw,54px)}.hero-visual{min-height:410px;margin-left:10px;margin-right:2px}.floating-review-card{left:-10px;bottom:47px;padding:15px}.preview-line{font-size:9px}.visual-caption{right:10px;bottom:13px;font-size:9px}.visual-kicker{left:15px;right:15px;top:15px;font-size:8px}}
