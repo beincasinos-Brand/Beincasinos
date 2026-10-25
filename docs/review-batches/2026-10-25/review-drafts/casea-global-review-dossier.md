@@ -56,3 +56,12 @@ The score model must not be filled with guesses. After eligibility passes, score
 ## Publication decision
 
 **NO-GO.** This file is an internal workbench record, not an approved review. Do not expose it through a public route, add it to XML sitemap, or request indexing. Promotion requires exact market evidence, complete terms/payment checks, image rights, an independently reviewed scorecard and production-page QA.
+
+
+## Official terms observation — Casea (operator-published; regulator check still outstanding)
+
+A search-indexed Casea terms page at caseawin.com identifies the operator as Casea Entertainment N.V. and states licence reference CIL #365/JAZ. It also states a €10 minimum deposit, withdrawals processed within 0–3 business days subject to identity verification, and common payment methods including Visa, Mastercard, Skrill, Neteller, Paysafecard and bank transfer. The indexed page says bonuses are generally subject to 35× wagering unless a promotion states otherwise, with a 21-day period and a €100 cap on free-spin winnings. These are statements on the operator's terms page and may vary by promotion or change over time; the licence reference has not been independently matched to a regulator record in this dossier.
+
+**Editorial interpretation:** before publication, capture the current full terms and each live offer's specific terms, verify the operator and domain against the relevant regulator, and distinguish operator-quoted processing windows from independently tested withdrawal outcomes. No target-market authorization, actual payout performance, or numeric score is claimed.
+
+**Official source:** https://caseawin.com/terms/ (operator-published terms; page indexed as updated 4 June 2026; recheck live before publication).
