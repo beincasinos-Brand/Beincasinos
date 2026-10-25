@@ -231,3 +231,9 @@ No deployment requested or performed.
 - Slot 69 now records Noord Zuid Alliantie B.V. as the operator identified by the Dutch Ksa notice for Lucky 7 Casino, and links that official notice: https://kansspelautoriteit.nl/kansspelautoriteit-spreekt-lucky-7-casino-aan-op-onbereikbaarheid-klantenservice.
 - The 27 March 2025 notice says customer-service accessibility and Dutch-language responsible-gambling information issues were addressed after Ksa contact. It also reports signals concerning play after self-exclusion and a prompt encouraging extra deposits; the Ksa said it took those signals seriously. Treat this as dated regulatory context, not a current finding of non-compliance. Current licensee-register entry, canonical domain and remediation status remain to be corroborated; no domain was guessed.
 - Slot 69 remains HOLD / NOT SCORED pending exact domain, current register/product scope, terms, payments/withdrawals, complaints, RG, privacy, bonuses, image rights, consumer tests and approvals. No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 54 — Hommerson Online historical Ksa enforcement / licence gate (2026-10-25)
+- Slot 73 records Hommerson Casino B.V. as a historical operator-identity lead only. A Ksa decision dated 14 February 2024 identifies the company in an enforcement matter concerning unlicensed online gambling and says it had applied for an online-gambling licence; this decision does not establish a current licence grant. Source: https://kansspelautoriteit.nl/nieuws/2024/kansspelautoriteit-legt-hommerson-casino-last-onder-dwangsom-aanbieden-illegale-online-kansspelen.
+- Current Ksa register and exact brand/domain listing must be checked before any Netherlands-targeted promotion. No canonical domain was guessed. Slot 73 remains HOLD / NOT SCORED; this historical record is not by itself proof of present licensing status.
+- No tests, merge, workflow or Cloudflare deployment were triggered.
