@@ -117,3 +117,32 @@ The GGL whitelist is the official starting source, but the exact entry, product 
 | 50 | Mr Green | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
 | 51 | Slotmagie | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
 | 52 | Wunderino | DE | HOLD | Confirm the entry separately by product category; don't infer casino permission from sports-betting listing | Pending | Pending | NOT RATED | Pending | Pending |
+
+## Additional candidates from batches 14–15 (candidate-only; duplicates expected)
+
+| # | Candidate | Market | Status | Unique-brand / regulator check | Terms captured | Score evidence | Score | Image rights | Editor approval |
+|---:|---|---|---|---|---|---|---|---|---|
+| 53 | Paf | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 54 | Betsson | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 55 | Unibet | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 56 | Svenska Spel | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 57 | LeoVegas | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 58 | ComeOn | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 59 | Maria Casino | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 60 | Mr Green | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 61 | NordicBet | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 62 | Betway | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 63 | Jackpotjoy | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 64 | Bingo.com | SE | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 65 | Holland Casino | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 66 | TOTO Casino | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 67 | Unibet | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 68 | bet365 | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 69 | Jack's Casino | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 70 | BetCity | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 71 | OneCasino | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 72 | Kansino | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 73 | Circus | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 74 | BetNation | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 75 | 711 | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+| 76 | VBet | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
