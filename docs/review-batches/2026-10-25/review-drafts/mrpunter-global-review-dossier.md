@@ -85,3 +85,12 @@ Do not convert missing evidence into a positive score. Record confidence and lim
 | Score/editor approval | Not rated | Score only after evidence gate; second-editor signoff |
 
 **Affiliate independence:** any commercial relationship must be disclosed and must not influence scoring or whether material limitations are reported.
+
+
+## Official promotion terms — source-backed observation (not a market approval)
+
+The official MrPunter welcome-bonus page currently indexed by search describes a 100% first-deposit bonus and 200 bonus spins delivered in daily batches of 20 over ten days. It states a 35× wagering requirement on the initial deposit plus bonus, a list of currency-specific qualifying deposit thresholds, exclusions for Skrill and Neteller deposits, and a rule that requesting a withdrawal before claiming or after activating the offer voids bonus eligibility. It also states a maximum bet while a casino bonus is active, with limits varying by currency. These details are from the operator's promotion page and may be campaign-, currency- or market-dependent; they are not proof that the offer is available to every visitor.
+
+**Editorial interpretation:** any final page must explain the staged free-spin claim window, wagering base, payment exclusions and withdrawal interaction beside the offer. Recheck the actual visitor's country/currency and linked binding terms. No claim is made that withdrawals were tested, that the brand is authorized in Great Britain, or that this offer is currently available in every target market.
+
+**Official source:** https://mrpunter.com/en/promotions/casino/welcome-bonus (operator-published terms; search snapshot 25 October 2026; recheck live before publication).
