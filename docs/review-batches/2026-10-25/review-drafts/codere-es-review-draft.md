@@ -1,126 +1,129 @@
-# Codere Spain — individual review draft
+# Codere Spain Review: Licence, Casino Terms, Payments and Player Protection
 
-> **Editorial state: DRAFT / NOINDEX / NOT RATED.** Original BeInCasinos copy for editorial development, not a completed or independently tested review. Do not publish as a recommendation until release gates pass.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** This is an evidence-led review draft, not a completed hands-on test. Do not publish as a final recommendation until the live domain, current terms, user journey, image rights and independent editorial checks are complete.
 
-## SEO and page metadata
-- **SEO title:** Codere Spain Review: Operator, Games, Payments and Terms
-- **Meta description:** Check Codere's Spanish operator and domain record, then review current casino terms, payment rules and player-protection information before deciding.
+## SEO package
+
+- **SEO title:** Codere Spain Review: Licence, Casino Terms and Withdrawals
+- **Meta description:** Evidence-led Codere Spain review covering the DGOJ operator record, casino permission categories, bonus terms, payment rules and player-protection checks.
 - **H1:** Codere Review for Spain
 - **Suggested URL:** /reviews/codere-spain/
-- **Search intent:** brand review, Spanish legal status, bonus conditions, payment and withdrawal rules, support and player protection.
-- **Robots:** noindex until all release gates pass.
-- **Structured data:** no AggregateRating or star-rating schema until a supported, visible score is approved.
+- **Primary intent:** Identify the Spanish operator behind Codere's domain and understand what still needs checking about casino games, promotions, payments and account controls.
+- **Robots:** NOINDEX until all release gates pass.
+- **Schema:** No rating, review count, offer or aggregate-rating markup unless supported by approved, visible evidence.
 
-## Quick facts
-| Field | Evidence status |
+## At a glance
+
+| Item | Evidence-led status |
 |---|---|
-| Brand | Codere |
-| Market | Spain |
-| Listed legal operator | CODERE ONLINE, SAU |
-| Listed domain | https://www.codere.es |
-| Regulator evidence | Official DGOJ operator directory; source below |
-| Current welcome offer | Not verified |
-| Wagering / expiry / max bet / max cashout | Not captured |
-| Payment methods / limits / fees | Not captured |
-| Withdrawal timing | Not tested |
+| Brand being reviewed | Codere |
+| Intended market | Spain |
+| Domains in the DGOJ record | codere.es, codereapuestas.es and m.apuestas.codere.es |
+| Listed operator | CODERE ONLINE, S.A.U. |
+| Primary regulator source | [DGOJ operator record](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau) |
+| Casino-related permission evidence | DGOJ record lists roulette, blackjack and machines of chance among singular licences |
+| Current casino welcome offer | Not verified |
+| Wagering and expiry | Not captured |
+| Payment methods, limits and fees | Not captured |
+| Withdrawal experience | Not tested |
 | Support response | Not tested |
-| Games / providers | Not independently inventoried |
-| Safer-gambling controls | Require live verification |
-| Editorial score | **NOT RATED** |
-| Last checked | 25 October 2026 — operator record checked; commercial terms not checked |
+| Current game catalogue / RTP | Not inventoried |
+| Image usage rights | Not cleared |
+| BeInCasinos rating | **NOT RATED** |
 
-## Overview
-Codere's DGOJ record helps establish which legal entity and domains to examine. A useful review must then test the casino experience itself: current conditions, cashier rules, identity checks, game information and safer-gambling tools. None of those user-experience tests should be inferred from the licence entry.
+## Overview: distinguish the brand from the product
 
-## Operator and licence evidence
-DGOJ lists CODERE ONLINE, SAU and the domains codere.es, codereapuestas.es and m.apuestas.codere.es. Its record includes singular licences for roulette, blackjack and slots. The exact casino journey and current terms still require review.
+Codere operates across gambling categories, so a useful review must make clear which domain and product it is discussing. The DGOJ record for CODERE ONLINE, S.A.U. lists codere.es alongside codereapuestas.es and m.apuestas.codere.es. It also lists singular licence categories including roulette, blackjack and machines of chance. This is a regulator-record finding, not proof that every page or product route has identical terms.
 
-**Primary source:** [DGOJ official operator register](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau). Reopen the live record at publication time, save the exact operator page and verify current licence categories. A regulator listing does not prove a positive customer experience, current bonus terms or fast withdrawals.
+BeInCasinos has not conducted a real-money payment test or contacted customer support for this draft. We do not quote an unverified bonus, infer the cashier options, promise withdrawal speed or assign a star rating. The goal is to give readers an honest account of what the primary source establishes and what still needs first-hand or current documentary evidence.
 
-## Bonus and terms review
-**Current offer: not verified.** No amount, free-spins count or headline value should appear until a dated official offer page and its full terms are saved.
+## Operator identity and casino scope
 
-The editor must record eligibility; wagering requirement and balance it applies to; expiry; maximum bet; maximum cashout; excluded games/payment methods/countries; opt-in requirement; and withdrawal restrictions. If no current offer is available or terms cannot be verified, state that clearly rather than using an old promotion.
+**Primary evidence:** [DGOJ record for CODERE ONLINE, S.A.U.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau).
 
-## Payments and withdrawals
-No withdrawal test has been performed for this draft. Do not describe a method as “instant” or publish a payout-speed score without a dated test record.
+The record names CODERE ONLINE, S.A.U. and lists the domains codere.es, codereapuestas.es and m.apuestas.codere.es. Listed singular categories include sports betting, other counterparty betting, roulette, blackjack, machines of chance and horse-racing betting. Before publication, the editor must reopen the current record, verify the exact domain and relevant casino categories, and compare the legal operator named in the live site's terms.
 
-Record each method shown in the market-specific cashier, deposit and withdrawal limits, processing time, third-party transfer time, fees, supported currency, KYC requirements and conditions that can delay payout. Test results must state how many withdrawals were tested and their dates/methods. If a method cannot be tested, mark it **not tested**.
+Do not assume that all related domains offer the same customer journey, promotions, account conditions or product permissions. A regulator entry is a starting point for checking legal identity; it is not a guarantee of service quality or a recommendation. If the exact casino route, legal entity or permission cannot be reconciled, the review stays on hold.
 
-## Games and fairness
-Capture a representative sample of game categories and providers shown to eligible customers, and check game RTP against each game's own published information. A provider logo alone does not prove the whole catalogue is available. No game inventory or RTP claim is made here.
+## Bonus terms and value
+
+**Current casino offer: not verified.** No amount or free-spin claim is included because the official market-specific offer and complete conditions have not been captured.
+
+The final review must document eligibility, opt-in, minimum deposit, wagering multiple and calculation base, game contribution, expiry, maximum bet, maximum conversion/cashout, excluded games and payment methods, and any withdrawal-related conditions. Save the official offer URL and date checked. If the offer is not available or the terms cannot be confirmed, say “no current offer verified”; do not recycle an expired offer or a promotion from another country.
+
+A useful assessment explains how restrictions affect the real conditions a customer must satisfy. A large headline amount alone does not establish good value. Do not describe an offer as “risk-free” or “free money.”
+
+## Deposits and withdrawals
+
+**No payment or withdrawal test has been performed.** The review must inspect the current Spanish cashier and terms rather than assuming that a method listed on a different Codere market is available to Spanish customers.
+
+Record deposit and withdrawal methods, limits, fees, currency, processing policy, identity checks, payment-method restrictions and the distinction between operator approval and bank/payment-provider settlement. If a real withdrawal is tested, record the method, date, amount band, verification state, request timestamp, approval timestamp and final receipt time. State the sample size and limitations. Until then, no payout-speed score or “instant withdrawal” claim is justified.
+
+Readers can use the general guide [Online Casino Withdrawals: What to Check](../content-guides/online-casino-withdrawals-what-to-check.md) to understand processing stages and questions to ask.
+
+## Games, providers and fairness information
+
+The DGOJ record lists casino-related categories, but it does not tell us which titles are currently available in the customer interface. This draft makes no claim about game count, specific providers, live-dealer games or a particular RTP.
+
+Before release, inventory representative game categories and verify titles in the live Spanish product. Quote a provider or RTP only when the exact game/version and source are documented. Explain that RTP is theoretical, may vary by configuration and does not predict individual results. Do not treat a brand's general game-provider relationship as proof that every game is available.
 
 ## Player protection, privacy and support
-Document where to find deposit/time/loss limits, self-exclusion, reality checks, account closure, age/identity controls, privacy notice and complaints escalation. Test support through an available channel and record date, question, wait time and response. These tests are outstanding.
 
-## Pros and cons — provisional editorial observations
-These observations concern the available evidence and review process, not a claim that the casino passed every test.
+The final review should show where customers can find deposit/time/loss limits, time-outs, self-exclusion, account closure, identity requirements, privacy information and complaint escalation. These controls need to be located and checked in the actual product, not merely mentioned in generic marketing text.
 
-**Potential positives**
-- Primary-source operator/domain evidence is available from DGOJ.
-- The regulator record identifies casino-related licence categories.
-- The review plan covers withdrawal limits and bonus restrictions.
+Customer support has not been tested. A future test should record the contact route, date, question, response time and answer quality, while protecting account and personal information. Until evidence exists, do not label support as fast, friendly or reliable.
 
-**Limitations / open questions**
-- Current bonus details and eligibility conditions have not been captured.
-- Payment and withdrawal performance has not been tested.
-- Support quality, mobile usability and privacy/security need direct checks.
+## Provisional strengths and limitations
 
-## Scorecard
-| Category | Weight | Score | Evidence required |
+These points concern evidence, not a final quality verdict.
+
+**What the regulator record supports**
+- A primary-source record exists for CODERE ONLINE, S.A.U.
+- The record lists codere.es and related Codere domains.
+- The listed singular categories include roulette, blackjack and machines of chance, which are relevant to the casino-scope check.
+
+**What remains unknown**
+- Current casino offer and full bonus restrictions.
+- Current Spanish cashier methods, fees, limits and withdrawal policy.
+- Real withdrawal outcomes and customer-support responsiveness.
+- Live catalogue, named providers and game-level RTP.
+- Mobile accessibility, privacy experience and working account controls.
+- Usage rights for any proposed logo or screenshot.
+
+## Evidence-weighted scorecard
+
+| Dimension | Weight | Current status | Evidence needed before scoring |
 |---|---:|---|---|
-| Legal eligibility and operator identity | 25 | Pending | Current exact-domain/product licence check |
-| Bonus fairness | 15 | Pending | Dated live offer and full terms |
-| Payments and withdrawals | 15 | Pending | Current cashier policy and documented tests |
-| Games and fairness | 10 | Pending | Product catalogue and game-level sources |
-| Support and complaints | 10 | Pending | Dated support test and complaint route |
-| Usability and accessibility | 10 | Pending | Mobile/desktop test notes |
-| Privacy and account security | 10 | Pending | Current policies and security controls |
-| Evidence freshness | 5 | Pending | Source log and second-editor review |
-| **Total** | **100** | **NOT RATED** | Do not calculate while critical evidence is missing |
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck before release | Exact live domain and casino permission |
+| Bonus fairness and clarity | 15 | Pending | Dated official casino offer and full terms |
+| Payments and withdrawals | 15 | Pending | Current cashier/terms; documented tests for performance claims |
+| Games and fairness information | 10 | Pending | Live catalogue and game-level evidence |
+| Support and complaints | 10 | Pending | Tested support interaction and complaint route |
+| Usability and accessibility | 10 | Pending | Documented mobile/accessibility review |
+| Privacy and security | 10 | Pending | Current policies and verified account controls |
+| Evidence freshness | 5 | Partial | Recheck all volatile facts before release |
 
-**Why there is no numeric score yet:** a number without bonus, cashier, product and practical test evidence would create false precision. This is an editorial hold, not a low or high casino score.
+**Overall score: NOT RATED.** Missing information is not a positive or negative score. Do not publish stars or aggregate-rating structured data for this draft.
 
-## FAQs for the final page
-### Is Codere licensed in Spain?
-The DGOJ operator directory lists the operator/domain association noted above. Confirm the live record, exact product scope and current status immediately before publication. Do not infer permissions for other countries or products.
+## FAQ
 
-### What bonus does Codere offer in Spain?
-The current offer has not been verified in this draft. Check the official market-specific page and full terms; do not rely on a third-party headline.
+### Is Codere listed by Spain's gambling regulator?
+The DGOJ record for CODERE ONLINE, S.A.U. lists codere.es and related domains, along with casino-related categories including roulette, blackjack and machines of chance. Recheck the live record and exact casino route before publication.
 
-### How long do withdrawals take?
-No independent withdrawal test has been performed for this draft. Report published policy separately from measured outcomes.
+### What is Codere Spain's current casino bonus?
+Not verified in this draft. We need a dated official offer and its complete conditions before quoting an amount.
 
-### Is Codere a good choice?
-This draft does not make a recommendation. Write a verdict only after the evidence checklist is complete and the score is independently checked.
+### How long do Codere withdrawals take?
+No withdrawal test has been performed for this review. Check the current market-specific terms and distinguish operator processing from payment-provider settlement.
 
-### What should players check before depositing?
-Read the legal notice, current bonus terms, withdrawal rules, identity-check policy and safer-gambling tools. Never gamble money needed for essential expenses; 18+ only, subject to local law.
+### Does BeInCasinos recommend Codere?
+Not yet. This page remains a draft, not rated and not approved for publication. The unresolved checks above must be completed first.
 
-## Images and review-card assets
-- **Hero:** create commissioned, brand-neutral editorial artwork or obtain documented permission for an official brand asset. No logo or screenshot rights are claimed.
-- **Logo:** use only an approved official press/brand asset or licensed logo; store source URL, rights basis, allowed uses and date in the asset register.
-- **Game imagery:** show only games confirmed in the reviewed market and current catalogue.
-- **Alt text:** describe the actual visual; do not stuff keywords.
-- **Technical:** responsive WebP/AVIF, fixed aspect ratio, compressed file, mobile crop check and no text baked into image.
-- **Current image status:** no brand image has been cleared for publication in this draft.
+## Sources and update record
 
-## Affiliate disclosure and editorial independence
-If the final page contains affiliate links, place a plain-language disclosure before or near the first commercial link. Commercial relationships must not affect score, verdict or ranking. Paid placements must be labelled and kept separate from editorial ranking.
-
-## Final release checklist
-- [ ] Recheck exact operator, domain and licence category in DGOJ.
-- [ ] Capture current official bonus terms or explicitly state no offer verified.
-- [ ] Capture current payment/withdrawal policy; distinguish policy from test results.
-- [ ] Complete games, support, privacy and safer-gambling checks.
-- [ ] Add reviewer and independent checker names, dates and evidence log.
-- [ ] Clear image rights and record assets.
-- [ ] Add affiliate disclosure and correction/contact route.
-- [ ] QA mobile layout, accessibility, speed, internal links and metadata.
-- [ ] Confirm visible score matches evidence; otherwise keep NOT RATED.
-- [ ] Remove NOINDEX only after editorial sign-off.
-
-## Draft verdict
-HOLD. Do not publish a quality score until live terms and cashier evidence are dated, tested where possible and checked by a second editor.
-
-**Evidence policy:** source closest to each claim; record check dates; do not copy competitors' scores or findings. Unverified information must remain labelled unverified or be omitted.
+- **Primary regulator source:** [DGOJ — CODERE ONLINE, S.A.U.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/codere-online-sau). Checked for this draft on 25 October 2026; re-open and confirm the live record before publication.
+- **Operator terms / offer / cashier:** Not yet captured.
+- **Hands-on testing:** Not performed.
+- **Image rights:** Not cleared.
+- **Last editorial status:** HOLD / NOINDEX / NOT RATED.
+- **Next required action:** Verify live casino route and terms, collect dated offer/cashier evidence, test customer journey and support, clear image rights, and obtain independent editor approval.
