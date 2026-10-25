@@ -160,7 +160,7 @@ def check(ledger_path):
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
         domain_status_raw = row.get("domain_verification_status", "").strip().upper()
-        domain_status = re.split(r"\\s*[—–-]\\s*", domain_status_raw, maxsplit=1)[0].strip()
+        domain_status = re.split(r"\s*[—–-]\s*", domain_status_raw, maxsplit=1)[0].strip()
         domain_date = row.get("domain_verified_utc", "").strip()
         domain_evidence = row.get("domain_evidence_url", "").strip()
         allowed_domain_states = {"UNVERIFIED", "VERIFIED", "REJECTED", "NEEDS_REVIEW"}
