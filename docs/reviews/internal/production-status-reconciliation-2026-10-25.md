@@ -295,3 +295,11 @@ No deployment requested or performed.
 - Added a table-driven regression test covering Belgium, Sweden, Spain and Italy: a row marked PUBLISHED without an exact regulator-register URL must fail the country-specific publication gate.
 - This is structural guard coverage only; a URL's presence does not prove the licence or domain is valid. Universal dated HTTPS domain-identity evidence and the complete editorial evidence requirements still apply.
 - Tests were not executed in this session. No workflows, merge or Cloudflare deployment were triggered.
+
+
+## Batch 65 — Dutch continuation-permit evidence leads added to ledger (2026-10-25)
+- Updated slots 26–32 with regulator-backed evidence leads for TOTO, Holland Casino Online, Kansino, FairPlay Casino, Bingoal, bet365 and Betcity. Where an individual Ksa company decision page was available, its URL is recorded in the official-register evidence field. For TOTO and FairPlay Casino, only the Ksa's general continuation-permit announcement was found in this pass, so their exact-register URL fields were deliberately left blank rather than mislabelling a general announcement as an individual register entry.
+- Ksa's announcement dated 17 September 2026 states these permit renewals run 1 October 2026 through 30 September 2031 and names the relevant permit holders. Individual decision pages for Holland Casino N.V., Play North Limited, Bingoal Nederland B.V., Hillside (New Media Malta) Plc and Betent B.V. confirm the dates and remote-gambling categories.
+- These are operator/permit evidence leads, not full brand-domain verification. All seven remain HOLD / NOT SCORED; no domain status was promoted to VERIFIED. Exact domain/app mappings, current terms, bonuses, payments, safer-gambling, complaints, image rights, consumer tests and independent editorial review remain outstanding.
+- Sources: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend ; https://kansspelautoriteit.nl/holland-casino-n-v ; https://kansspelautoriteit.nl/play-north-ltd ; https://kansspelautoriteit.nl/bingoal-nederland-b-v ; https://kansspelautoriteit.nl/hillside-plc ; https://kansspelautoriteit.nl/betent-b-v
+- No tests were executed; no workflow, merge or Cloudflare deployment was triggered.
