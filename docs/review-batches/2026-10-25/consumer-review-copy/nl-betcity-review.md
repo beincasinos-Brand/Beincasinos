@@ -2,6 +2,10 @@
 
 > **Editorial status: DRAFT / HOLD / NOINDEX / NOT RATED.** Market-specific review copy based on the existing candidate workbench. It is not a claim that the site has been tested or is authorized for every product or country.
 
+## ## Dutch regulator evidence and market scope
+
+The Dutch regulator's register lists operator-specific permissions; verify the exact BetCity domain and legal entity in the [Kansspelautoriteit register](https://kansspelautoriteit.nl/register-licensees) before publication. The Betcity-specific register page is a useful starting point: https://kansspelautoriteit.nl/betent-b-v. Confirm the live entry and product scope on the publication date; do not assume another country's authorization applies.
+
 ## Quick verdict
 
 BetCity must be reviewed as a Dutch-market product. The exact website, legal entity and licensed product should be confirmed in the current KSA register before describing the service as authorized.
