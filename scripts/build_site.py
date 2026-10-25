@@ -75,11 +75,13 @@ for rel in PUBLIC_DIRS:
     if not src.is_dir() or src.is_symlink() or missing_pages:
         raise SystemExit(f"Required public page directory is missing HTML pages or is unsafe: {rel}")
     for item in sorted(src.rglob("*")):
-        if item.is_dir():
-            continue
+        # Check symlinks before is_dir(): a symlink to a directory also reports
+        # is_dir() == True and must never be silently skipped or traversed.
         relative = item.relative_to(ROOT)
         if item.is_symlink():
             raise SystemExit(f"Refusing to publish symlink from public directory: {relative}")
+        if item.is_dir():
+            continue
         if item.suffix.lower() not in PUBLIC_SUFFIXES:
             raise SystemExit(f"Unexpected file type in public directory; add it deliberately to PUBLIC_SUFFIXES if it is a public asset: {relative}")
         destination = DIST / relative
