@@ -219,3 +219,9 @@ No deployment requested or performed.
 - Slot 68 Fun Casino: no authoritative exact-name match that establishes the candidate's canonical domain, contracting operator and GB remote-casino product was corroborated in this pass. The ledger now explicitly records the unresolved identity gate; no domain or operator was guessed.
 - Keep the candidate HOLD / NOT SCORED. Do not publish a generic similarly named casino as the same brand. Revisit only with exact trading-name/domain evidence from the UKGC register and the operator's current legal terms.
 - No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 52 — TonyBet Netherlands licence and compliance context (2026-10-25)
+- Slot 70 now records `https://tonybet.nl/`, operator TonyBet OÜ, and the Dutch Kansspelautoriteit licensee page. Ksa page lists brand Tonybet, website tonybet.nl and online-gambling licence 1729 valid 15 November 2022 through 14 November 2027: https://kansspelautoriteit.nl/%4013811/tonybet-ou/.
+- Compliance context added to the ledger: Ksa warning on prohibited betting markets (12 Aug 2025), marketing incident involving young adults (27 Feb 2026), and role-model advertising violation (17 Jul 2026). Sources: https://kansspelautoriteit.nl/waarschuwing-tonybet-voor-verboden-wedaanbod ; https://kansspelautoriteit.nl/kansspelautoriteit-spreekt-tonybet-kansino-en-betcity-aan-wegens-marketingincidenten ; https://kansspelautoriteit.nl/ksa-spreekt-tonybet-aan-op-overtreding-rolmodellenverbod-tijdens-wk. These are compliance-risk signals, not proof the licence is invalid; current remediation and casino-specific scope must be checked before scoring.
+- Slot 70 remains HOLD / NOT SCORED pending consumer evidence, terms, payments/withdrawals, complaints, RG, privacy, current bonuses, image rights, tests and editorial approvals. No tests, merge, workflow or Cloudflare deployment were triggered.
