@@ -266,3 +266,17 @@ Added 8 further consumer-facing Germany review drafts in `consumer-review-copy/`
 - **Approved/published reviews from this conversion effort: 0.** No deployment, public sitemap update or GSC indexing request has been made.
 
 The immediate production work is to complete market-specific facts and unique evidence in each draft, then build/QA approved public routes. Do not deploy the internal review-copy folder directly; it contains HOLD/NOT RATED drafts and is not part of the public build allowlist.
+
+
+## Consumer-facing draft batch — global brand profiles
+
+Added six reader-facing global review drafts under `consumer-review-copy/`: MrPunter, Casea, Legiano, Binobet, Millioner and SGCasino. These are distinct files but **not six newly verified unique brands**; some brands overlap the country-specific queue. Drafts use the evidence already available and explicitly distinguish operator-published terms from independent testing. Ratings remain NOT RATED where evidence gates are incomplete. Current offer/domain/market authorization, complete cashier data, game inventory, player-protection verification, image rights and editorial approval still require completion.
+
+Three additional draft writes were blocked by repository safety checks and were not committed; they are not counted. No production routes, public sitemap changes or deployment were made.
+
+### Consumer-copy count checkpoint
+- Previously reported consumer-facing files: 36.
+- New global consumer-facing files successfully committed: 6.
+- **Consumer-facing draft files now accounted for: 42 (file count, not unique verified brand count).**
+- **Approved publish-ready reviews: 0 confirmed.**
+- **New production routes/deployments: 0.**
