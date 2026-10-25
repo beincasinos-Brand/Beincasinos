@@ -280,3 +280,25 @@ Three additional draft writes were blocked by repository safety checks and were 
 - **Consumer-facing draft files now accounted for: 42 (file count, not unique verified brand count).**
 - **Approved publish-ready reviews: 0 confirmed.**
 - **New production routes/deployments: 0.**
+
+
+## Continued reader-facing review writing — additional market batches
+
+Added 17 more market-specific consumer-facing draft files under `consumer-review-copy/`:
+- Germany: Tipico
+- Netherlands: Unibet, BetCity, OneCasino
+- United States (Michigan scope only): BetMGM
+- Italy: Sisal, SNAI
+- Switzerland: Swiss Casinos
+- Sweden: Svenska Spel, LeoVegas, PAF
+- Belgium: Napoleon, Circus, Casino777, BetFirst, Golden Palace
+- France: Betclic (limited to legally permitted product categories; no unsupported online-casino claim)
+
+One attempted file write (711) was blocked and is not counted. These drafts are based on existing candidate workbenches and remain HOLD / NOINDEX / NOT RATED until the exact domain/operator/product record, current offer/cashier terms, game and safety evidence, image permissions and editorial QA are completed. Several brands may be candidates in more than one market; file count is not a unique verified-brand count.
+
+### Updated accounting
+- Consumer-facing draft files at prior checkpoint: 42.
+- Successfully added in this batch: 17.
+- **Consumer-facing draft files now accounted for: 59 / 100 (file count).**
+- **Approved publish-ready reviews: 0 confirmed.**
+- **Production routes, public sitemap changes and deployments from this batch: 0.**
