@@ -47,3 +47,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-23-sweden-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-23-sweden-ten-review-work-orders-2026-10-25.md`.
 - Ten candidate domains are listed for exact-domain matching against the current Spelinspektionen register; they are not represented as fully verified licences.
 - All ten HOLD / NOT SCORED. No scores, bonus claims, tested withdrawals, image-rights clearance or consumer tests are asserted. No merge/deploy performed.
+
+
+## Batch 24 — Belgium market gate (2026-10-25)
+- Added `docs/compliance/market-gates/belgium-online-casino-market-gate-2026-10-25.md`.
+- Belgium-facing casino affiliate pages remain HOLD until the exact domain, operator and casino licence category are verified against the current Belgian Gaming Commission register. Foreign licences alone are not sufficient evidence of Belgian authorisation.
+- This is a compliance gate, not a brand-count batch; no unverified names or bonus claims added. No merge/deploy performed.
