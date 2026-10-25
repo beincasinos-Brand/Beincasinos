@@ -35,7 +35,7 @@ REQUIRED_COLUMNS = {
     "accessibility_evidence_url", "regulatory_actions_url", "adr_url",
     "reviewer_primary", "reviewer_secondary", "independent_review_date",
     "editorial_approval_date", "consumer_test_status", "affiliate_disclosure_status",
-    "evidence_bundle_path",
+    "evidence_bundle_path", "domain_verification_status", "domain_verified_utc", "domain_evidence_url",
 }
 PUBLISHABLE_STATES = {"APPROVED", "APPROVED_TO_PUBLISH", "PUBLISHED", "LIVE"}
 TARGET_MARKETS = {"AU", "CA", "GB", "US", "CH", "DE", "NL", "SE", "ES", "IT", "FR", "BE"}
@@ -84,7 +84,7 @@ def check(ledger_path):
             errors.append(f"{label}: duplicate brand/market identity {brand!r}/{market}")
         seen_keys.add(key)
 
-        for field in ("official_url", "official_register_url"):
+        for field in ("official_url", "official_register_url", "domain_evidence_url"):
             value = row.get(field, "").strip()
             if value and not has_https_url(value):
                 errors.append(f"{label}: {field} must be an HTTPS URL when populated")
@@ -159,6 +159,17 @@ def check(ledger_path):
                 except ValueError:
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
+        domain_status = row.get("domain_verification_status", "").strip().upper()
+        domain_date = row.get("domain_verified_utc", "").strip()
+        domain_evidence = row.get("domain_evidence_url", "").strip()
+        if domain_date:
+            try:
+                date.fromisoformat(domain_date[:10])
+            except ValueError:
+                errors.append(f"{label}: domain_verified_utc must start with an ISO date (YYYY-MM-DD)")
+        if domain_status == "VERIFIED" and (not domain_date or not has_https_url(domain_evidence)):
+            errors.append(f"{label}: VERIFIED domain identity requires domain_verified_utc and HTTPS domain_evidence_url")
+
         state = row.get("publication_status", "").strip().upper()
         # Accept common dash punctuation after a canonical state while keeping the
         # actual decision vocabulary closed to the explicit allow-list.
@@ -184,6 +195,8 @@ def check(ledger_path):
                 errors.append(f"{label}: Italy publication requires the exact ADM register entry")
 
         if is_publishable:
+            if domain_status != "VERIFIED" or not domain_date or not has_https_url(domain_evidence):
+                errors.append(f"{label}: publication requires VERIFIED exact brand/domain identity with dated HTTPS evidence")
             required = (
                 "official_url", "legal_entity", "regulator", "official_register_url",
                 "terms_url", "withdrawals_url", "complaints_url",
