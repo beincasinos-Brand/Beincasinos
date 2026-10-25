@@ -358,3 +358,11 @@ No deployment requested or performed.
 - The existing evidence note records `www.tigerbet.co.uk` as Active under TigerPlay LTD and a Casino Remote permission active from 19 June 2025. This verifies only the narrow exact-domain/operator identity field as represented by that register entry; it is not an overall review approval.
 - TigerBet remains HOLD / NOT SCORED. Bonus, terms, payments/withdrawals, complaints, safer-gambling, privacy, image rights, consumer testing, affiliate disclosure, independent review and editorial approval remain incomplete.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 71 — read-back audit of verified-domain fields (2026-10-25)
+- Added `docs/reviews/internal/big-batch-71-verified-domain-register-and-publication-boundary-audit-2026-10-25.md`.
+- Re-read and parsed the current 100-row, 46-column CSV from the target branch. Exactly three rows currently carry the canonical `VERIFIED` state: admiral.ch, casineo.ch, and TigerBet. Their evidence URLs and dates were present.
+- Clarified that domain identity is only one prerequisite and does not approve scores, bonuses, image rights, consumer testing or publication. All three verified-domain rows remain HOLD / NOT SCORED.
+- Target market distribution remains GB 65, NL 18, US-PA 4, US-NJ 7, US-MI 2, CH 2, DE 2; AU, CA, SE, ES, IT, FR and BE have no rows in this 100-candidate ledger.
+- No tests run, no merge, no workflow run, and no deployment performed.
