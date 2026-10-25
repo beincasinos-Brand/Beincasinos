@@ -183,6 +183,12 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("domain_evidence_url must be an HTTPS URL" in message for message in gate.errors))
 
+    def test_unknown_domain_verification_state_is_rejected(self):
+        self.rows[0]["domain_verification_status"] = "MAYBE"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("domain_verification_status must be one of" in message for message in gate.errors))
+
     def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
         self.rows[0]["market_code"] = "CA"
         self.rows[0]["publication_status"] = "LIVE"
