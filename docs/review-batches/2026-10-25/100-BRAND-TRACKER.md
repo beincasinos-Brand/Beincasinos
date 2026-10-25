@@ -100,3 +100,20 @@ Every progress update must distinguish (a) files created, (b) unique candidate b
 | 40 | SpinGenie | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
 | 41 | PlayUZU | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
 | 42 | Slingo | ES | HOLD | Confirm brand/domain and exact Spanish casino product scope; possible brand/product alias check required | Pending | Pending | NOT RATED | Pending | Pending |
+
+## Additional Germany candidates from batch 13 (candidate-only)
+
+The GGL whitelist is the official starting source, but the exact entry, product category, legal entity and territory must be rechecked at publication. In particular, a virtual-slots entry must not be presented as permission for all casino games nationwide.
+
+| # | Candidate | Market | Status | Unique-brand / regulator check | Terms captured | Score evidence | Score | Image rights | Editor approval |
+|---:|---|---|---|---|---|---|---|---|---|
+| 43 | BacanaPlay | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 44 | LuckyVegas | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 45 | SpinGenie | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 46 | PlayOJO | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 47 | DrückGlück | DE | HOLD | GGL lists separate product categories; exact domain, operator and scope need capture | Pending | Pending | NOT RATED | Pending | Pending |
+| 48 | 888casino | DE | HOLD | Verify exact domain/product category; don't infer table-game permission | Pending | Pending | NOT RATED | Pending | Pending |
+| 49 | 888slots | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 50 | Mr Green | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 51 | Slotmagie | DE | HOLD | GGL whitelist candidate domain; capture exact current entry/category | Pending | Pending | NOT RATED | Pending | Pending |
+| 52 | Wunderino | DE | HOLD | Confirm the entry separately by product category; don't infer casino permission from sports-betting listing | Pending | Pending | NOT RATED | Pending | Pending |
