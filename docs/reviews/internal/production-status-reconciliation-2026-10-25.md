@@ -329,3 +329,11 @@ No deployment requested or performed.
 - Added regression coverage for all three non-finite values in `scripts/test_review_ledger.py`.
 - This is a structural checker hardening only; it does not verify or score any brand. The ledger remains 100 candidate rows on HOLD, and tests have not been executed in this session, so test pass status remains unconfirmed.
 - No merge, workflow run, or deployment performed.
+
+
+## Big Batch 67 — target-market regulator source map and coverage audit (2026-10-25)
+- Added `docs/reviews/internal/big-batch-67-target-market-register-source-map-and-coverage-audit-2026-10-25.md`.
+- Audited the current ledger's distribution: GB 65, NL 18, US-PA 4, US-NJ 7, US-MI 2, CH 2, DE 2; total 100 candidates. No rows currently represent AU, CA, SE, ES, IT, FR or BE.
+- Added official regulator source links and market-specific work instructions for all 12 requested target markets. The source map preserves the AU and FR online-casino acquisition exclusions, the province-specific Canadian gate, state-specific US gating, and exact-domain/product requirements across regulated markets.
+- Explicitly no brand was upgraded to VERIFIED, scored, or approved from the source-map work alone. All 100 candidates remain HOLD / NOT SCORED; this is an evidence-planning batch, not 100 finished reviews.
+- No tests run, no merge, no workflow run, and no deployment performed.
