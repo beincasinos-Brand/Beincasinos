@@ -908,6 +908,54 @@ if reviews_hub.is_file():
 else:
     errors.append("reviews/index.html is missing")
 
+# Keep the 100-profile review hub, sitemap, and homepage featured links in sync.
+# These checks catch the most damaging launch regression: a card pointing to a
+# missing route or a published review omitted from the canonical sitemap.
+review_dirs = sorted(
+    p for p in (ROOT / "reviews").iterdir()
+    if p.is_dir() and (p / "index.html").is_file()
+)
+review_hub_source = (ROOT / "reviews" / "index.html").read_text(encoding="utf-8") if (ROOT / "reviews" / "index.html").is_file() else ""
+review_hub_links = re.findall(r'href="/reviews/([^"/]+)/"', review_hub_source)
+review_hub_markers = len(re.findall(r"Read the review →", review_hub_source))
+review_slugs = {p.name for p in review_dirs}
+if len(review_dirs) != 100:
+    errors.append(f"reviews/: expected 100 individual review routes, found {len(review_dirs)}")
+if review_hub_markers != len(review_dirs):
+    errors.append(f"reviews/index.html: expected one 'Read the review →' marker per review route ({len(review_dirs)}), found {review_hub_markers}")
+for slug in sorted(set(review_hub_links) - review_slugs):
+    errors.append(f"reviews/index.html: link points to a missing review route: /reviews/{slug}/")
+if len(review_hub_links) != len(review_dirs):
+    errors.append(f"reviews/index.html: expected {len(review_dirs)} review-card links, found {len(review_hub_links)}")
+if len(set(review_hub_links)) != len(review_hub_links):
+    errors.append("reviews/index.html: duplicate review-card links found")
+
+homepage = ROOT / "index.html"
+if homepage.is_file():
+    homepage_source = homepage.read_text(encoding="utf-8")
+    if "TRUSTED · VERIFIED · INDEPENDENT" in homepage_source:
+        errors.append("index.html: remove unsupported blanket 'TRUSTED · VERIFIED · INDEPENDENT' claim")
+    for slug in re.findall(r'href="/reviews/([^"/]+)/"', homepage_source):
+        if slug not in review_slugs:
+            errors.append(f"index.html: featured review link points to a missing route: /reviews/{slug}/")
+
+sitemap_path = ROOT / "sitemap.xml"
+if sitemap_path.is_file():
+    try:
+        import xml.etree.ElementTree as ET
+        sitemap_root = ET.fromstring(sitemap_path.read_text(encoding="utf-8"))
+        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        sitemap_urls = [((node.text or "").strip()) for node in sitemap_root.findall(".//sm:loc", ns)]
+        if len(sitemap_urls) != len(set(sitemap_urls)):
+            errors.append("sitemap.xml: duplicate URL entries found")
+        sitemap_set = set(sitemap_urls)
+        for page_dir in review_dirs:
+            expected = f"https://beincasinos.online/reviews/{page_dir.name}/"
+            if expected not in sitemap_set:
+                errors.append(f"sitemap.xml: review route missing from sitemap: {expected}")
+    except (ET.ParseError, OSError, UnicodeError) as exc:
+        errors.append(f"sitemap.xml: cannot validate review route coverage ({exc})")
+
 # Keep operator-facing commercial claims aligned with the actual pre-launch state.
 # These are deliberate release guardrails, not legal approval.
 partners_page = ROOT / "partners" / "index.html"
