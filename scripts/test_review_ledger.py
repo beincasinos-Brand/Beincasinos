@@ -130,6 +130,12 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("publication blocked for AU" in message for message in gate.errors))
 
+    def test_target_market_coverage_gaps_are_reported_as_warnings(self):
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("target-market coverage gaps" in message for message in gate.warnings))
+        self.assertFalse(any("target-market coverage gaps" in message for message in gate.errors))
+
     def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
         self.rows[0]["market_code"] = "CA"
         self.rows[0]["publication_status"] = "LIVE"
