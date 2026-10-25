@@ -407,3 +407,11 @@ No deployment requested or performed.
 - Sweden names/URLs are candidate leads only. Every row requires exact domain/operator/licence/product matching in the current Spelinspektionen register.
 - All 20 queue entries remain HOLD / NOT SCORED; bonuses and image rights are not cleared. Production ledger remains 100 rows and unchanged by these queue additions.
 - No automated tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 77 — Sweden exact-domain register evidence (2026-10-25)
+- Added `docs/reviews/internal/big-batch-77-sweden-exact-domain-register-evidence-2026-10-25.md`.
+- Current Spelinspektionen domain-specific records explicitly list `betinia.se` under Scandix Limited and `hajper.com` under Hajper Ltd. Both records list a commercial-online licence category and validity dates extending into 2029 and 2030 respectively.
+- These are two exact-domain/regulator-register matches only. Current casino product scope/terms, offers, cashier, withdrawals, complaints, safer gambling, privacy, image rights, consumer testing, scoring, independent review and editorial/legal approval remain incomplete.
+- The evidence matrix is a separate internal document; no production-ledger status was changed. The other Sweden queue candidates remain unverified. Ontario queue remains based on the iGaming Ontario directory listing, which states the current snapshot is accurate as of 2026-09-01.
+- No tests run, no merge, no workflow run, and no deployment performed.
