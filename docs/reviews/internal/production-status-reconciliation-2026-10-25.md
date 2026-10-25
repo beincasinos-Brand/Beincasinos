@@ -382,3 +382,11 @@ No deployment requested or performed.
 - Reconfirmed White Label distinctions for Kong Casino (Jumpman Gaming), 247Bet/Casiku (White Hat Gaming), and seven Anakatech Interactive domains; these were not promoted to VERIFIED. Midnite remains ambiguous due to two matching licensee records.
 - Every new domain-verified row remains HOLD / NOT SCORED; no consumer-review or publication claims added.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 74 — ledger integrity read-back (2026-10-25)
+- Added `docs/reviews/internal/big-batch-74-ledger-integrity-readback-after-ukgc-evidence-2026-10-25.md`.
+- Re-fetched and parsed the latest CSV after the Batch 72–73 edits: 100 data rows, 46 columns, exactly 8 rows with `domain_verification_status=VERIFIED`, and zero populated numeric overall scores.
+- Verified-domain rows: admiral.ch, casineo.ch, Betty Casino, FruitKings, Peachy Games, Play Sunny, BetWright and TigerBet. This is identity evidence only; no row is promoted to publication-ready.
+- Market coverage remains GB 65, NL 18, US-PA 4, US-NJ 7, US-MI 2, CH 2, DE 2. Requested markets AU, CA, SE, ES, IT, FR and BE still have no ledger rows.
+- No automated tests run, no merge, no workflow run, and no deployment performed.
