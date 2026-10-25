@@ -14,6 +14,7 @@ Purpose: record actual internal research artifacts and prevent draft research fr
 - Batch 18 audit of the existing 100-row production ledger (`docs/reviews/internal/big-batch-18-ledger-reconciliation-audit-2026-10-25.md`): 0 scores, 100 publication holds, 100 consumer tests not performed, 76 rows missing at least one core identity/evidence field, and unresolved image rights on all 100 rows.
 - Batch 19 GB identity-reconciliation leads for Quickbet, QuinnBet, O'Reels, Stakemate and Fun Casino (`docs/reviews/internal/big-batch-19-gb-identity-reconciliation-leads-2026-10-25.md`). These are explicitly source-quality-labeled leads; no row is cleared or scored.
 - Batch 20 Swiss official-platform evidence matrix (`docs/reviews/internal/big-batch-20-switzerland-ten-platform-evidence-matrix-2026-10-25.md`), matching the ten platforms listed by ESBK while keeping all ten review drafts HOLD / NOT SCORED.
+- Batch 21 Germany whitelist/product-scope matrix (`docs/reviews/internal/big-batch-21-germany-whitelist-product-scope-matrix-2026-10-25.md`), explicitly distinguishing online slots, poker, sportsbook and state-limited casino permissions.
 
 ## Not complete
 - Batches 10–15 contain internal verification notes and draft material for 60 brand candidates; these are not 60 finished consumer-facing reviews.
