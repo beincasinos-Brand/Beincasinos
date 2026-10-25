@@ -184,3 +184,17 @@ Expanded four existing brand dossiers with concrete operator-published terms and
 Primary sources used: Kokobet terms/payment policy, MrPunter's official promotion page, Bull Casino's official general terms, and Casea's official terms. Each claim is attributed to the operator and must be rechecked live. None establishes authorization in any target market, independently tested performance, or a numeric score. All four remain HOLD / NOT RATED / NOINDEX.
 
 This was a factual-content enrichment pass, not a publication pass. Do not include any of these internal dossiers in the public sitemap.
+
+
+## Large regulator-evidence batch — Ontario, Great Britain and the Netherlands — 2026-10-25
+
+Added 26 additional market-specific source-backed dossier files:
+- **Ontario (12):** Bet99, Betway, Betinia, Swiper, ToonieBet, BetVictor, Jackpot City, Royal Vegas, Ruby Fortune, Spin Casino, Casino Time and NorthStar Bets. Each records the iGaming Ontario operator/site directory as the primary eligibility source, identifies the named operator where available, and separates Ontario listing status from global permission. Offer, cashier, catalogue, player-protection, image-rights and scoring work remains open.
+- **Great Britain (6):** 888casino, Ladbrokes, Coral, William Hill, bet365 and Mr Green. UK Gambling Commission records were captured as primary-source leads. Mr Green's record shows its listed Casino Remote licence surrendered on 28 October 2024, so it is marked exclude from GB online-casino promotion pending new authoritative evidence. The other brands remain HOLD until exact current domain/terms matching and complete review evidence.
+- **Netherlands (8):** TOTO, Holland Casino Online, Kansino, FairPlay Casino, Bingoal, bet365, GGPoker and Betcity. The Kansspelautoriteit's September 2026 follow-up-licence announcement and individual decisions provide market-specific licence leads for 1 October 2026–30 September 2031. Relevant enforcement history (including published Betent and Hillside records) is flagged for fair contextual treatment, not omitted from an affiliate review.
+
+These are **26 added dossier files**, not 26 completed public reviews. The regulator records improve the legal-evidence layer only; no bonus/payment performance is invented, no image rights are assumed, and no numeric scores are assigned without evidence. All remain HOLD / NOT RATED / NOINDEX until full consumer-term audits and second-editor approval. They are not public routes and must not be added to the production sitemap.
+
+## Current accounting rule
+
+Count distinct canonical brands only after alias/operator deduplication; count regulator-evidence leads separately from fully verified brands; count approved reviews separately from published pages. A regulator listing alone does not make a complete review. No deployment was performed in this batch.
