@@ -49,6 +49,24 @@ All rows start as **CANDIDATE / NOT VERIFIED / NOT RATED** until primary evidenc
 | 21 | Napoleon | BE | HOLD | Pending | Pending | Pending | NOT RATED | Pending | Pending |
 | 22 | BetMGM | US-Michigan | HOLD | Market-specific product and operator check needed | Pending | Pending | NOT RATED | Pending | Pending |
 
+## Additional candidates from batches 09–10
+
+These ten are added as distinct candidate names for tracking only. Regulator-record discovery is not equivalent to full verification or review approval. Related aliases and future market variants must be deduplicated.
+
+| # | Candidate | Market | Status | Unique-brand / regulator check | Terms captured | Score evidence | Score | Image rights | Editor approval |
+|---:|---|---|---|---|---|---|---|---|---|
+
+| 23 | VideoSlots | ES | HOLD | DGOJ operator/domain record located; recheck exact product scope at publication | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 24 | Monopoly Casino | ES | HOLD | DGOJ operator/domain record located; current local terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 25 | Platin Casino | ES | HOLD | DGOJ record lists domain under 8PE España PLC; recheck current product scope | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 26 | Fuego Casino | ES | HOLD | DGOJ record lists domain under 8PE España PLC; recheck domain/product status | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 27 | AdmiralBet | ES | HOLD | DGOJ operator search lists domain under Beatya Online SA; exact product scope pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 28 | Luckia | ES | HOLD | DGOJ operator/domain record located; current customer terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 29 | Casino Barcelona | ES | HOLD | DGOJ operator/domain record located; current customer terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 30 | Jokerbet | ES | HOLD | DGOJ operator/domain record located; current customer terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 31 | Versus | ES | HOLD | DGOJ operator/domain record located; current customer terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+| 32 | 1xBet | ES | HOLD | DGOJ operator/domain record located; current product and customer terms pending | Current terms pending | Pending | NOT RATED | Pending | Pending |
+
 ## Fields required for each additional brand
 - Canonical brand and exact market scope
 - Deduplicated legal operator and official domain
