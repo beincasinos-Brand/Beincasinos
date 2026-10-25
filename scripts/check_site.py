@@ -669,6 +669,37 @@ if master_tracker.exists():
 else:
     errors.append("docs/tier-1-master-prospect-tracker.csv is missing")
 
+# Warn when the prospect pipeline does not explicitly cover a target market at the country level.
+# Province/state-coded rows must not be silently promoted to nationwide coverage.
+master_tracker = ROOT / "docs/tier-1-master-prospect-tracker.csv"
+target_markets = {"AU", "CA", "GB", "US", "CH", "DE", "NL", "SE", "ES", "IT", "FR", "BE"}
+if master_tracker.exists():
+    try:
+        with master_tracker.open(encoding="utf-8-sig", newline="") as handle:
+            tracker_rows = list(csv.DictReader(handle))
+        market_counts = {}
+        for row in tracker_rows:
+            code = row.get("market", "").strip()
+            if code:
+                market_counts[code] = market_counts.get(code, 0) + 1
+        for market in sorted(target_markets):
+            if not market_counts.get(market):
+                warnings.append(
+                    f"target-market coverage: no country-level {market} record in docs/tier-1-master-prospect-tracker.csv; "
+                    "province/state records and excluded category placeholders do not establish nationwide eligibility"
+                )
+        directory = ROOT / "brand-directory" / "index.html"
+        if directory.exists():
+            directory_source = directory.read_text(encoding="utf-8")
+            directory_markets = set(re.findall(r'data-market="([^"]+)"', directory_source))
+            for market in sorted(target_markets - directory_markets):
+                warnings.append(
+                    f"brand-directory/index.html: no research card currently labelled for target market {market}; "
+                    "do not imply coverage until a source-verified market assignment exists"
+                )
+    except (OSError, UnicodeError, csv.Error) as exc:
+        errors.append(f"target-market coverage check failed ({exc})")
+
 # Keep launch-planning documents present so critical approval gates cannot silently disappear.
 for required_doc in (
     "docs/prelaunch-launch-checklist.md",
@@ -681,19 +712,6 @@ for required_doc in (
     if not (ROOT / required_doc).is_file():
         errors.append(f"{required_doc} is missing")
 
-print(f"Checked {len(pages)} HTML pages.")
-if errors:
-    print(f"\nFAIL: {len(errors)} error(s)")
-    for item in errors:
-        print(f"  ERROR: {item}")
-if warnings:
-    print(f"\nWARN: {len(warnings)} launch/verification warning(s)")
-    for item in warnings:
-        print(f"  WARN: {item}")
-if not errors:
-    print("\nPASS: no structural errors detected by this source-level checker.")
-    print("Reminder: this does not test rendering, accessibility, external links, legal compliance, or production behaviour.")
-sys.exit(1 if errors else 0)
 
 # Keep the commercial research queue auditable; prospect count is not a publication target.
 prospect_csv = ROOT / "docs/brand-research-template.csv"
@@ -1007,6 +1025,20 @@ for page in pages:
         continue
     if not all(token in source for token in ('class="brand-mark"', 'class="brand-b"', 'class="brand-i"', 'class="brand-c"')):
         errors.append(f"{page.relative_to(ROOT).as_posix()}: missing or inconsistent BIC monogram markup")
+
+print(f"Checked {len(pages)} HTML pages.")
+if errors:
+    print(f"\nFAIL: {len(errors)} error(s)")
+    for item in errors:
+        print(f"  ERROR: {item}")
+if warnings:
+    print(f"\nWARN: {len(warnings)} launch/verification warning(s)")
+    for item in warnings:
+        print(f"  WARN: {item}")
+if not errors:
+    print("\nPASS: no structural errors detected by this source-level checker.")
+    print("Reminder: this does not test rendering, accessibility, external links, legal compliance, or production behaviour.")
+sys.exit(1 if errors else 0)
 
 print(f"Checked {len(pages)} HTML pages.")
 if errors:
