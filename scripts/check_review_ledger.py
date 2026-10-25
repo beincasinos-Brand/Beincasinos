@@ -168,7 +168,7 @@ def check(ledger_path):
             errors.append(f"{label}: domain_verification_status must be one of {', '.join(sorted(allowed_domain_states))}")
         if domain_date:
             try:
-                date.fromisoformat(domain_date[:10])
+                date.fromisoformat(domain_date)
             except ValueError:
                 errors.append(f"{label}: domain_verified_utc must start with an ISO date (YYYY-MM-DD)")
         if domain_status == "VERIFIED" and (not domain_date or not has_https_url(domain_evidence)):
