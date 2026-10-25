@@ -59,3 +59,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-25-italy-adm-ten-domain-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-25-italy-ten-review-work-orders-2026-10-25.md`.
 - Ten candidate domains and concessionaire leads were taken from the official ADM remote-gambling concessionaire register; exact current product scope and legal terms still require row-level verification.
 - All ten HOLD / NOT SCORED. No bonus claims, withdrawal tests, image rights or consumer tests are asserted. No merge/deploy performed.
+
+
+## Batch 26 — Netherlands 2026 licence renewal cycle (2026-10-25)
+- Added `docs/reviews/internal/big-batch-26-netherlands-2026-licence-renewal-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-26-netherlands-ten-review-work-orders-2026-10-25.md`.
+- Based on the Ksa announcement dated 17 September 2026 naming eight follow-up licence holders for October 2026–September 2031; includes a separate HOLD check for Oranje Palace because omission from that announcement alone does not establish its current status.
+- All ten work orders HOLD / NOT SCORED pending exact current domain/product register match and full consumer-review evidence. No merge/deploy performed.
