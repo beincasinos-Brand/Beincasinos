@@ -41,3 +41,9 @@ No deployment requested or performed.
 - Primary source: DGOJ official licensed-operator finder: https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores
 - Candidates: 888casino.es, platincasino.es, fuegocasino.es, admiralbet.es, betway.es, casumo.es, codere.es, casino777.es, bet365.es, luckia.es.
 - All ten remain HOLD / NOT SCORED. No bonus, withdrawal test, user experience test, image right, or final licence/product-scope determination is claimed. No merge/deploy performed.
+
+
+## Batch 23 — Sweden (2026-10-25)
+- Added `docs/reviews/internal/big-batch-23-sweden-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-23-sweden-ten-review-work-orders-2026-10-25.md`.
+- Ten candidate domains are listed for exact-domain matching against the current Spelinspektionen register; they are not represented as fully verified licences.
+- All ten HOLD / NOT SCORED. No scores, bonus claims, tested withdrawals, image-rights clearance or consumer tests are asserted. No merge/deploy performed.
