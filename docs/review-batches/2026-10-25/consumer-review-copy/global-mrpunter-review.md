@@ -20,9 +20,20 @@ MrPunter’s offer should be judged on the full promotion rules rather than the 
 | BeInCasinos score | **NOT RATED — evidence gate incomplete** |
 | Publication status | **HOLD** |
 
-## What the available evidence says
+## Evidence-based findings
 
-An operator promotions page has described a staged welcome promotion involving a 100% first-deposit bonus and 200 spins distributed across 10 days, with 35× wagering on deposit plus bonus, payment exclusions, maximum-bet limits and withdrawal interactions. Treat this as an indexed offer description only: recheck the live promotion and country-specific terms before publication or use.
+The indexed official promotions page is the source lead for a staged welcome promotion described as a 100% first-deposit bonus plus 200 spins distributed across 10 days. The indexed terms describe 35× wagering on deposit plus bonus, payment exclusions, maximum-bet limits by currency and restrictions affecting withdrawals. **These are not confirmed as a live offer on the publication date**; do not advertise the figures until the exact market page and binding terms are rechecked.
+
+- **Offer clarity:** The staged structure means the review must explain when each part unlocks and when each part expires; a single headline figure is not enough.
+- **Wagering burden:** The stated 35× calculation base matters materially. Show an example only after the live terms confirm the base and currency.
+- **Withdrawal friction:** Payment exclusions, maximum-bet rules and early cashout restrictions should be summarized before the reader clicks through.
+- **Market eligibility:** This evidence does not prove the domain or product is authorized in any of BeInCasinos' target countries. The exact legal operator/domain must be checked for each country.
+
+Source lead: [MrPunter promotions](https://mrpunter.com/en/promotions/casino/welcome). Capture the live page, binding terms and access date before publication.
+
+## Reader-facing verdict
+
+MrPunter should not be judged on the headline offer alone. The key questions are whether the offer is available to the reader's country, how the staged rewards unlock, what amount must be wagered, and which payment or withdrawal actions can void a bonus. Because current market eligibility, full cashier rules and live terms are not confirmed here, BeInCasinos is not assigning a numerical score or recommending a deposit.
 
 ## Bonus terms: what to check
 
