@@ -150,3 +150,24 @@ This batch is research scaffolding rather than six approved reviews. No numeric 
 ## Updated branch/PR accounting
 
 The previous snapshot was 417 changed files / 319 review-draft Markdown files. Six new dossiers have been committed to this branch; refresh the PR file list before reporting a final count. The tracker currently confirms no approved reviews; no production pages or deployment are created by this batch.
+
+
+## Large evidence-gate batch — 2026-10-25 (follow-up)
+
+Added six evidence-gated workbench records:
+- BullCasino global review dossier
+- Millioner global review dossier
+- Casea global review dossier
+- VPartners portfolio-brand verification dossier
+- Kokobet market-eligibility matrix
+- Casinia market-eligibility matrix
+
+These records deliberately do **not** assert current market authorization, verified operator identity, a live bonus, payment performance, image rights, or a numeric score. They identify primary-source checks and hold every market until the exact legal entity, domain and product permission are evidenced. VPartners is treated as a partner/network source lead, not proof that any portfolio brand is licensed.
+
+**Deduplication warning:** BullCasino, Millioner and Casea already have related market/batch workbench files in the PR. These new filenames must not be counted as new unique brands. They add a different dossier view, not new verified brands. The six files are internal research artifacts, not indexable production routes.
+
+## Verified repository accounting after this batch
+
+GitHub PR #169 currently lists **430 changed files** and **331 Markdown files** under review-drafts. Those are file counts only. The tracker still confirms **0 approved reviews**, **0 confirmed production review pages added by this batch**, and **0 deployments**. Google indexing for any new review URL is not established. Do not merge this research workbench as if it were a set of 100 publish-ready reviews.
+
+Next productive step: replace candidate-only source leads with exact regulator entries and current binding terms for distinct canonical brands, then build approved records into the existing static site's production routes and update sitemap only after QA.
