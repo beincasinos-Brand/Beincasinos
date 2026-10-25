@@ -7,16 +7,28 @@
       nav.classList.remove('open');
       if (returnFocus) toggle.focus();
     };
+    const openMenu = () => {
+      toggle.setAttribute('aria-expanded', 'true');
+      nav.classList.add('open');
+    };
+    toggle.setAttribute('aria-controls', nav.id || 'primary-nav');
+    toggle.setAttribute('aria-label', 'Toggle main navigation');
     toggle.addEventListener('click', () => {
       const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', String(!expanded));
-      nav.classList.toggle('open', !expanded);
+      if (expanded) closeMenu(); else openMenu();
     });
     nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
         closeMenu(true);
       }
+    });
+    document.addEventListener('click', event => {
+      if (toggle.getAttribute('aria-expanded') !== 'true') return;
+      if (event.target instanceof Node && !nav.contains(event.target) && !toggle.contains(event.target)) closeMenu();
+    });
+    window.addEventListener('resize', () => {
+      if (window.matchMedia('(min-width: 901px)').matches) closeMenu();
     });
   }
   document.querySelectorAll('[data-year]').forEach(el => { el.textContent = String(new Date().getFullYear()); });
