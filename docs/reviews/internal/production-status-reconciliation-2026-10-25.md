@@ -89,3 +89,10 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-30-ontario-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-30-ontario-ten-review-work-orders-2026-10-25.md`.
 - Ontario-specific candidates are leads only until the current iGaming Ontario operator register confirms the exact domain, legal entity and casino product scope. No claim of nationwide Canadian authorisation.
 - All ten HOLD / NOT SCORED pending terms, payment/withdrawal evidence, player-protection checks, image rights, consumer testing and independent review. No merge/deploy performed.
+
+
+## Batch 31 — France online-casino market eligibility (2026-10-25)
+- Added `docs/compliance/market-gates/france-online-casino-market-gate-2026-10-25.md` and `docs/reviews/internal/big-batch-31-france-follow-up-work-orders-2026-10-25.md`.
+- ANJ and French government guidance say online casino games are not authorised in France; permitted online categories are narrower and separately regulated. The batch therefore blocks France-targeted casino acquisition pages rather than manufacturing a list of purportedly legal casino brands.
+- Follow-up work orders cover the France market exclusion, internal release gate, and separate legal review if an authorised product category is considered.
+- This does not count as ten completed reviews or add any scored brands. No public pages changed; no merge/deploy performed.
