@@ -24,6 +24,13 @@ Binobet’s brand name alone is not enough to establish whether a particular web
 
 The current review record does not yet substantiate a market-specific licence/domain match, a live welcome offer, a complete cashier comparison, or tested withdrawals and support. Those are publication gates, not details to fill with estimates. Any future review should date-stamp the terms and distinguish official statements from first-hand tests.
 
+## Reader-facing assessment
+
+**Current verdict: insufficient evidence for a recommendation.** Binobet should not receive a numeric rating merely because the brand is known or appears in an affiliate pipeline. The decisive checks are the legal operator behind the exact domain, whether the target-country regulator permits that product, the full bonus calculation, and what happens when a customer requests a withdrawal.
+
+For a fair comparison, BeInCasinos should publish the exact promotion terms only after capture, show the wagering calculation in the advertised currency, list payment limits and fees separately for deposits and withdrawals, and link to the official regulator entry. If any of these cannot be established, state that clearly rather than inferring it from other brands or countries.
+
+
 ## Bonus terms: what to check
 
 Do not compare welcome offers by headline value alone. Before describing an offer as current, capture its start/end date, eligible country and currency, minimum deposit, wagering multiplier and calculation base, eligible games, contribution rates, maximum bet, expiry, withdrawal cap, payment exclusions and what happens when a player withdraws early. If the live terms are not accessible or the promotion has expired, omit the offer rather than repeating an old headline.
