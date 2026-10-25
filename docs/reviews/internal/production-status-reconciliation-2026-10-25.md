@@ -103,3 +103,9 @@ No deployment requested or performed.
 - Audit records row/column counts, score/HOLD/consumer-test/image-rights totals, market distribution, missing evidence-field counts and a strict remediation order.
 - This is an internal data-quality audit, not a brand verification or finished-review milestone. All publication holds remain in force until evidence, eligibility, rights, testing, independent review and editorial/legal sign-off pass.
 - No public pages changed; no merge/deploy performed.
+
+
+## Batch 33 — 100-brand publication-blocker triage (2026-10-25)
+- Added `docs/reviews/internal/big-batch-33-publication-blocker-triage-2026-10-25.md` with live ledger blank-cell counts and a prioritised remediation queue (identity/market eligibility, evidence bundles, rights, real tests, scoring, second review and release gates).
+- This is an operational triage document, not a claim that review production is complete. All rows remain HOLD until the per-row acceptance gate is satisfied.
+- No public content changed; no merge/deploy performed.
