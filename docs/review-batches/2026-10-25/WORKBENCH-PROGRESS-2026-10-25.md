@@ -333,3 +333,11 @@ All drafts remain HOLD / NOINDEX / NOT RATED until exact operator/domain/product
 ## Consumer-copy count reconciliation — 2026-10-25
 
 Recounted the files currently changed in PR #169 under `consumer-review-copy/`: **106 review-copy files** are present in the PR diff. This replaces the earlier provisional count of 77. This count is file-based and includes market-specific versions of brands; it does not mean 106 unique brands or publish-ready pages. The latest additions include further market-specific candidate reviews for Australia, Ontario, Great Britain, Sweden, Belgium, France, Italy, Germany and the Netherlands. All remain draft status pending evidence/QA where marked. No production routes, public sitemap update or deployment was made.
+
+
+## Consumer review-copy batch — further additions
+
+Additional market-scoped review drafts were added for Kokobet, BullCasino, Betscore, Casinia, Australia, Ontario, Great Britain, Sweden, Belgium and Italy. Where current authorization or terms are not substantiated, the copy explicitly remains unscored and on hold.
+
+### Reconciled file count
+A fresh PR filename listing now shows **124 files** under `consumer-review-copy/`. This is a file count, not a certified count of 100 unique brands or publication-ready reviews: some files are market-specific variants or duplicate/candidate entries. Each must be deduplicated and editorially completed before any public release. Production routes, public sitemap and deployments remain unchanged.
