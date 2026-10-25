@@ -146,3 +146,32 @@ The GGL whitelist is the official starting source, but the exact entry, product 
 | 74 | BetNation | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
 | 75 | 711 | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
 | 76 | VBet | NL | HOLD | Exact current local register entry and domain match pending; deduplicate canonical brand/operator | Pending | Pending | NOT RATED | Pending | Pending |
+
+## Additional candidates from batches 16–17 (candidate-only; duplicates and legal exclusions possible)
+
+| # | Candidate | Market | Status | Unique-brand / regulator check | Terms captured | Score evidence | Score | Image rights | Editor approval |
+|---:|---|---|---|---|---|---|---|---|---|
+| 77 | Napoleon | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 78 | Betway | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 79 | Casino777 | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 80 | StarCasino | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 81 | bwin | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 82 | Unibet | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 83 | Ladbrokes | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 84 | Golden Palace | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 85 | Circus | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 86 | 777.be | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 87 | BetFirst | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 88 | VBet | BE | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 89 | Betclic | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 90 | Winamax | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 91 | Unibet | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 92 | PokerStars | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 93 | ParionsSport | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 94 | PMU | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 95 | NetBet | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 96 | bwin | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 97 | ZEbet | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 98 | VBet | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 99 | FDJ | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
+| 100 | Betsson | FR | HOLD | Exact current official record and permitted product scope pending; France online-casino category must be excluded if unauthorised | Pending | Pending | NOT RATED | Pending | Pending |
