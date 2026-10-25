@@ -264,3 +264,8 @@ No deployment requested or performed.
 - Added domain_verification_status, domain_verified_utc, and domain_evidence_url columns to all 100 ledger rows. Every row starts UNVERIFIED because a populated candidate URL is not equivalent to an exact brand/domain/operator match.
 - Updated scripts/check_review_ledger.py to require VERIFIED status plus an ISO verification date and HTTPS evidence URL before publication; malformed dates and missing evidence are flagged. Added regression tests for publishable rows with unverified domains and VERIFIED status without date/evidence.
 - Updated scripts/test_review_ledger.py fixture rows for the new columns. Tests were not run in this session; no claim of passing CI. No workflow was triggered, no merge and no Cloudflare deployment.
+
+
+## Batch 61 — Domain verification gate regression coverage (2026-10-25)
+- Added two regression cases to scripts/test_review_ledger.py: a malformed verification date must be rejected, and non-HTTPS domain evidence must be rejected. These supplement the existing tests for publishable rows lacking verified domain evidence and VERIFIED status without a date/source.
+- Static inspection confirms the new test names and the gate branches are present in the branch files. The test suite has not been executed; no claim of passing tests. No workflow, merge or deployment was triggered.
