@@ -167,6 +167,22 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("VERIFIED domain identity requires" in message for message in gate.errors))
 
+    def test_verified_domain_rejects_malformed_verification_date(self):
+        self.rows[0]["domain_verification_status"] = "VERIFIED"
+        self.rows[0]["domain_verified_utc"] = "25/10/2026"
+        self.rows[0]["domain_evidence_url"] = "https://regulator.example/register"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("domain_verified_utc must start with an ISO date" in message for message in gate.errors))
+
+    def test_verified_domain_rejects_non_https_evidence(self):
+        self.rows[0]["domain_verification_status"] = "VERIFIED"
+        self.rows[0]["domain_verified_utc"] = "2026-10-25"
+        self.rows[0]["domain_evidence_url"] = "http://regulator.example/register"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("domain_evidence_url must be an HTTPS URL" in message for message in gate.errors))
+
     def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
         self.rows[0]["market_code"] = "CA"
         self.rows[0]["publication_status"] = "LIVE"
