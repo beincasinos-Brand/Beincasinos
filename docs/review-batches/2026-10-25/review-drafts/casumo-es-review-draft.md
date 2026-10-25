@@ -1,126 +1,117 @@
-# Casumo Spain — individual review draft
+# Casumo Spain Review: Licence, Bonus Terms, Games and Withdrawals
 
-> **Editorial state: DRAFT / NOINDEX / NOT RATED.** Original BeInCasinos copy for editorial development, not a completed or independently tested review. Do not publish as a recommendation until release gates pass.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** Original editorial draft, not a completed hands-on test. Publication requires current terms, product checks, image-rights clearance and independent approval.
 
-## SEO and page metadata
-- **SEO title:** Casumo Spain Review: Licence, Bonus Terms and Payments
-- **Meta description:** An evidence-led Casumo Spain review covering its listed operator/domain, current terms, payment rules and safer-gambling checks.
+## SEO package
+- **SEO title:** Casumo Spain Review: Licence, Bonuses and Withdrawals
+- **Meta description:** Evidence-led Casumo Spain review of the DGOJ operator record, casino licence categories, promotion terms, payments and player protection.
 - **H1:** Casumo Review for Spain
 - **Suggested URL:** /reviews/casumo-spain/
-- **Search intent:** brand review, Spanish legal status, bonus conditions, payment and withdrawal rules, support and player protection.
-- **Robots:** noindex until all release gates pass.
-- **Structured data:** no AggregateRating or star-rating schema until a supported, visible score is approved.
+- **Search intent:** verify the Spanish operator/domain and understand the current offer, payments, games and account protections.
+- **Robots:** NOINDEX until release gates pass.
+- **Structured data:** no ratings, review counts or offer markup without approved, visible evidence.
 
 ## Quick facts
-| Field | Evidence status |
+| Item | Current evidence |
 |---|---|
 | Brand | Casumo |
 | Market | Spain |
-| Listed legal operator | CASUMO SPAIN, PLC |
-| Listed domain | https://www.casumo.es |
-| Regulator evidence | Official DGOJ operator directory; source below |
-| Current welcome offer | Not verified |
-| Wagering / expiry / max bet / max cashout | Not captured |
+| Domain in DGOJ record | https://www.casumo.es |
+| Listed operator | CASUMO SPAIN, PLC |
+| Primary source | [DGOJ operator record](https://ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/casumo-spain-plc) |
+| Casino-related categories listed | Roulette, blackjack and machines of chance |
+| Current offer / wagering terms | Not verified |
 | Payment methods / limits / fees | Not captured |
-| Withdrawal timing | Not tested |
-| Support response | Not tested |
-| Games / providers | Not independently inventoried |
-| Safer-gambling controls | Require live verification |
-| Editorial score | **NOT RATED** |
-| Last checked | 25 October 2026 — operator record checked; commercial terms not checked |
+| Withdrawal/support tests | Not performed |
+| Game catalogue / RTP | Not inventoried |
+| Image rights | Not cleared |
+| BeInCasinos rating | **NOT RATED** |
 
 ## Overview
-This review draft starts with the Spanish regulator's operator/domain record, then separates facts that still require live evidence. Readers should not treat brand reputation or an advertised bonus as proof of fair conditions. We have not claimed a real-money test or current offer in this draft.
 
-## Operator and licence evidence
-DGOJ's directory lists CASUMO SPAIN, PLC with casumo.es. The current legal notice, exact licence categories and product scope must be checked again before publication.
+The DGOJ record lists CASUMO SPAIN, PLC and the domain casumo.es. It includes singular licence categories for roulette, blackjack and machines of chance. The regulator record also lists dated licensing/system decisions, including renewals for roulette and blackjack in October 2025. These are primary-source facts about the operator record; they are not a verdict on the current customer experience or promotion value.
 
-**Primary source:** [DGOJ official operator register](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores?page=1). Reopen the live record at publication time, save the exact operator page and verify current licence categories. A regulator listing does not prove a positive customer experience, current bonus terms or fast withdrawals.
+BeInCasinos has not completed a deposit, withdrawal, game-catalogue or support test for this draft. We therefore do not state a bonus amount, payment method, payout speed or star score. The aim is to keep the facts useful and traceable rather than filling evidence gaps with generic praise.
 
-## Bonus and terms review
-**Current offer: not verified.** No amount, free-spins count or headline value should appear until a dated official offer page and its full terms are saved.
+## Operator and market check
 
-The editor must record eligibility; wagering requirement and balance it applies to; expiry; maximum bet; maximum cashout; excluded games/payment methods/countries; opt-in requirement; and withdrawal restrictions. If no current offer is available or terms cannot be verified, state that clearly rather than using an old promotion.
+**Primary source:** [DGOJ — CASUMO SPAIN, PLC](https://ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/casumo-spain-plc).
+
+The record associates casumo.es with CASUMO SPAIN, PLC and lists roulette, blackjack and machines of chance among the singular licence categories. Before release, reopen the current record, check the exact domain and relevant product categories, and compare the legal operator in the live site's terms. If the current domain, operator or product scope differs, pause publication until the discrepancy is resolved.
+
+A regulator listing does not establish that a promotion is worthwhile, every game is available, support is responsive or a withdrawal will arrive within a particular time. Those require separate evidence.
+
+## Bonus terms and value
+
+**Current Spanish offer: not verified.** Do not display a bonus amount or free-spin count until a current official offer page and complete terms have been captured.
+
+The review should explain eligibility, opt-in requirements, minimum deposit, wagering multiple and calculation base, game contribution, expiry, maximum bet, maximum cashout/conversion, excluded games/payment methods, and what happens if a customer withdraws or cancels the promotion. Record the date and source. If the offer is absent or unclear, state “no current offer verified.”
+
+A large headline offer is not automatically better value. The practical comparison is whether a reader can understand the restrictions and meet them without hidden assumptions. Avoid “risk-free,” “guaranteed” or “free money” language.
 
 ## Payments and withdrawals
-No withdrawal test has been performed for this draft. Do not describe a method as “instant” or publish a payout-speed score without a dated test record.
 
-Record each method shown in the market-specific cashier, deposit and withdrawal limits, processing time, third-party transfer time, fees, supported currency, KYC requirements and conditions that can delay payout. Test results must state how many withdrawals were tested and their dates/methods. If a method cannot be tested, mark it **not tested**.
+**No real-money payment or withdrawal test has been performed.** Confirm available methods and terms in the current Spanish cashier. Do not import payment details from another Casumo market.
+
+Capture limits, fees, currencies, conversion rules, verification requirements, operator processing policy, provider/bank settlement caveats and restrictions. Distinguish the time an operator says it needs to review a request from the time money reaches the payment account. A real test, if later conducted, must record the method, dates, amount band, verification state, request/approval/receipt timestamps and sample limitations.
 
 ## Games and fairness
-Capture a representative sample of game categories and providers shown to eligible customers, and check game RTP against each game's own published information. A provider logo alone does not prove the whole catalogue is available. No game inventory or RTP claim is made here.
+
+The regulator record does not establish the live catalogue. No game count, provider list, live-casino claim or specific RTP is made here. Before publication, check representative game categories and exact titles in the live Spanish product. Verify any RTP statement against the precise game/version information and explain that RTP is theoretical, not a prediction for an individual session.
 
 ## Player protection, privacy and support
-Document where to find deposit/time/loss limits, self-exclusion, reality checks, account closure, age/identity controls, privacy notice and complaints escalation. Test support through an available channel and record date, question, wait time and response. These tests are outstanding.
 
-## Pros and cons — provisional editorial observations
-These observations concern the available evidence and review process, not a claim that the casino passed every test.
+The final review must verify where customers can find deposit/time/loss limits, time-outs, self-exclusion, account closure, identity checks, privacy information and complaint escalation. Only describe controls that have actually been located and checked.
 
-**Potential positives**
-- An official regulator listing identifies the operator and Spanish domain.
-- The review plan requires full bonus terms rather than relying on headline marketing.
-- Payment and player-protection questions are included in the publication checklist.
+Support quality remains untested. A future test should log the channel, date, question, waiting time and response. Do not infer support quality from a marketing statement or claim that a response time is typical from a single interaction.
 
-**Limitations / open questions**
-- No current welcome offer or wagering conditions have been verified here.
-- Withdrawal timing, payment fees and KYC requirements need current source capture.
-- No account, customer-support or mobile usability test is claimed.
+## Provisional findings
 
-## Scorecard
-| Category | Weight | Score | Evidence required |
+**Supported by the primary source**
+- DGOJ lists CASUMO SPAIN, PLC and casumo.es.
+- The record includes roulette, blackjack and machines of chance among singular licence categories.
+- The record includes dated regulatory decisions that can be rechecked as part of the update process.
+
+**Still unverified**
+- Current bonus and material conditions.
+- Cashier methods, limits, fees and withdrawal policy.
+- Actual withdrawal outcomes and support response.
+- Current game catalogue, provider availability and RTP.
+- Mobile accessibility, privacy and working account controls.
+- Image licensing and usage permission.
+
+## Evidence-weighted scorecard
+
+| Dimension | Weight | Status | Evidence needed |
 |---|---:|---|---|
-| Legal eligibility and operator identity | 25 | Pending | Current exact-domain/product licence check |
-| Bonus fairness | 15 | Pending | Dated live offer and full terms |
-| Payments and withdrawals | 15 | Pending | Current cashier policy and documented tests |
-| Games and fairness | 10 | Pending | Product catalogue and game-level sources |
-| Support and complaints | 10 | Pending | Dated support test and complaint route |
-| Usability and accessibility | 10 | Pending | Mobile/desktop test notes |
-| Privacy and account security | 10 | Pending | Current policies and security controls |
-| Evidence freshness | 5 | Pending | Source log and second-editor review |
-| **Total** | **100** | **NOT RATED** | Do not calculate while critical evidence is missing |
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck | Current exact domain/product check |
+| Bonus fairness and clarity | 15 | Pending | Dated official offer and complete terms |
+| Payments and withdrawals | 15 | Pending | Current cashier/terms and documented tests for performance claims |
+| Games and fairness | 10 | Pending | Live catalogue and exact game sources |
+| Support and complaints | 10 | Pending | Tested interaction and complaint route |
+| Usability/accessibility | 10 | Pending | Mobile and accessibility review |
+| Privacy/security | 10 | Pending | Current policies and verified controls |
+| Evidence freshness | 5 | Partial | Recheck volatile facts before publication |
 
-**Why there is no numeric score yet:** a number without bonus, cashier, product and practical test evidence would create false precision. This is an editorial hold, not a low or high casino score.
+**Overall score: NOT RATED.** Missing evidence must not be converted into a numerical score or star rating.
 
-## FAQs for the final page
-### Is Casumo licensed in Spain?
-The DGOJ operator directory lists the operator/domain association noted above. Confirm the live record, exact product scope and current status immediately before publication. Do not infer permissions for other countries or products.
+## FAQ
 
-### What bonus does Casumo offer in Spain?
-The current offer has not been verified in this draft. Check the official market-specific page and full terms; do not rely on a third-party headline.
+### Is Casumo listed by Spain's regulator?
+The DGOJ record lists CASUMO SPAIN, PLC and casumo.es, with casino-related categories including roulette, blackjack and machines of chance. Recheck the live record and terms before publication.
 
-### How long do withdrawals take?
-No independent withdrawal test has been performed for this draft. Report published policy separately from measured outcomes.
+### What is Casumo Spain's current bonus?
+Not verified in this draft. A current official offer and its full terms are required before quoting it.
 
-### Is Casumo a good choice?
-This draft does not make a recommendation. Write a verdict only after the evidence checklist is complete and the score is independently checked.
+### How fast are withdrawals?
+No withdrawal test has been performed. Do not rely on a generic payout promise; check the current terms and distinguish operator processing from settlement.
 
-### What should players check before depositing?
-Read the legal notice, current bonus terms, withdrawal rules, identity-check policy and safer-gambling tools. Never gamble money needed for essential expenses; 18+ only, subject to local law.
+### Does BeInCasinos recommend Casumo?
+Not at this stage. The review remains on hold and unrated pending the listed checks.
 
-## Images and review-card assets
-- **Hero:** create commissioned, brand-neutral editorial artwork or obtain documented permission for an official brand asset. No logo or screenshot rights are claimed.
-- **Logo:** use only an approved official press/brand asset or licensed logo; store source URL, rights basis, allowed uses and date in the asset register.
-- **Game imagery:** show only games confirmed in the reviewed market and current catalogue.
-- **Alt text:** describe the actual visual; do not stuff keywords.
-- **Technical:** responsive WebP/AVIF, fixed aspect ratio, compressed file, mobile crop check and no text baked into image.
-- **Current image status:** no brand image has been cleared for publication in this draft.
-
-## Affiliate disclosure and editorial independence
-If the final page contains affiliate links, place a plain-language disclosure before or near the first commercial link. Commercial relationships must not affect score, verdict or ranking. Paid placements must be labelled and kept separate from editorial ranking.
-
-## Final release checklist
-- [ ] Recheck exact operator, domain and licence category in DGOJ.
-- [ ] Capture current official bonus terms or explicitly state no offer verified.
-- [ ] Capture current payment/withdrawal policy; distinguish policy from test results.
-- [ ] Complete games, support, privacy and safer-gambling checks.
-- [ ] Add reviewer and independent checker names, dates and evidence log.
-- [ ] Clear image rights and record assets.
-- [ ] Add affiliate disclosure and correction/contact route.
-- [ ] QA mobile layout, accessibility, speed, internal links and metadata.
-- [ ] Confirm visible score matches evidence; otherwise keep NOT RATED.
-- [ ] Remove NOINDEX only after editorial sign-off.
-
-## Draft verdict
-HOLD. A numeric score would overstate the available evidence; complete live terms and practical testing first.
-
-**Evidence policy:** source closest to each claim; record check dates; do not copy competitors' scores or findings. Unverified information must remain labelled unverified or be omitted.
+## Sources and update record
+- **Primary regulator source:** [DGOJ — CASUMO SPAIN, PLC](https://ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/casumo-spain-plc). Checked for this draft on 25 October 2026; reopen before publication.
+- Current offer/cashier: not captured.
+- Hands-on testing: not performed.
+- Image rights: not cleared.
+- Next action: verify current domain and terms, collect bonus/payment evidence, test support and mobile journey, clear images and obtain independent approval.
