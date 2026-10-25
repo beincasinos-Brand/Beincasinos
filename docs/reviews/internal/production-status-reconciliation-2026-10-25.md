@@ -139,3 +139,10 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-38-target-market-coverage-reconciliation-2026-10-25.md`, comparing the current 100-row ledger against all 12 requested target markets and identifying missing market codes and jurisdiction pitfalls.
 - Explicitly preserves state-level US scope, province-level Ontario scope, France/Australia online-casino exclusions, and national regulator checks for SE/ES/IT/BE.
 - This audit does not clear or score brands and does not rebalance the ledger without an approved allocation. No public pages changed; no merge/deploy performed.
+
+
+## Batch 39 — jurisdiction-specific publication gates (2026-10-25)
+- Updated `scripts/check_review_ledger.py` with release blocks for aggregate US and Canada market codes, and for Australia/France online-casino acquisition pending qualified legal review.
+- Added structural register-link gates for publishable BE/SE/ES/IT rows and regression tests in `scripts/test_review_ledger.py`.
+- These checks do not prove live regulator status; exact domain/operator/product matching still needs human verification. Portfolio remains HOLD / NOT SCORED.
+- Added `docs/reviews/internal/big-batch-39-jurisdiction-publication-gates-2026-10-25.md`. Tests were not run in-session; no Actions workflow, merge, or deployment was triggered.
