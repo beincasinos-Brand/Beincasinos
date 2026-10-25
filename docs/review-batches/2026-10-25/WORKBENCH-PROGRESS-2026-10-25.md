@@ -109,3 +109,10 @@ All workbenches remain HOLD / NOINDEX / NOT RATED. Offer terms, cashier, games, 
 Added 12 Switzerland market dossiers and a batch README. The Swiss Federal Gaming Board is the primary starting point. The exact current authorized operator, domain and product scope must be verified; an international brand or foreign licence is not sufficient.
 
 All files remain HOLD / NOINDEX / NOT RATED; offers, cashier details, local catalogue, player-protection evidence, image rights and editorial approval remain outstanding. No production deploy performed.
+
+
+## Big batch 24 — New Jersey state-specific dossiers
+
+Added 12 New Jersey casino candidate dossiers and a README, with a state-specific legal gate based on the New Jersey Division of Gaming Enforcement. Because US online casino eligibility is state-specific, each exact operator, casino partner, domain and product permission must be verified before a candidate can be included.
+
+All dossiers remain HOLD / NOINDEX / NOT RATED. They are not final consumer reviews; offers, cashier, games, player protection, privacy, image rights and independent approval remain outstanding. No production deploy performed.
