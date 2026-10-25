@@ -344,3 +344,10 @@ No deployment requested or performed.
 - The regulator page explicitly lists both domains among Switzerland's online casino platforms. This supports the narrow brand/domain match field only; it does not complete either review, independently clear image rights or current bonus terms, substitute for consumer testing, or grant editorial approval.
 - Both rows remain NOT SCORED / HOLD. The other 98 rows remain unchanged by this batch.
 - Tests have not been executed; no merge, workflow run, or deployment performed.
+
+
+## Big Batch 69 — Ontario ten-site regulator-derived review queue (2026-10-25)
+- Added `docs/reviews/internal/big-batch-69-ontario-ten-domain-evidence-matrix-2026-10-25.md` with ten Ontario casino-site candidates drawn from iGaming Ontario's official regulated-sites directory (directory accuracy date: 1 September 2026).
+- Captured each site's brand, operator label, listed product category and exact URL lead; distinguished Ontario evidence from nationwide Canadian authorisation.
+- This is a research queue only: no candidate was added to the 100-row ledger, no score or bonus was cleared, no image rights or consumer testing are claimed, and no publication status changed.
+- No tests run, no merge, no workflow run, and no deployment performed.
