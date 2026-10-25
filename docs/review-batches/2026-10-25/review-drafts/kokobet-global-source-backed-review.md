@@ -104,3 +104,12 @@ Use an official brand asset only after recording its exact URL and permission/us
 4. Independent secondary review for issue discovery only, not a substitute for regulator evidence: https://casino.guru/kokobet-casino-review
 
 **Affiliate note:** If BeInCasinos later uses affiliate links, disclose the commercial relationship clearly near the first commercial link and explain that commercial relationships do not determine the score.
+
+
+## First-party payment-policy findings (operator-published; not independently tested)
+
+The operator's published payment policy states a standard minimum deposit of €20 and minimum withdrawal of €20, with exceptions by method. It says a mandatory 1× deposit turnover applies before any withdrawal, even when no bonus is active. The same policy lists deposit-only methods, describes KYC as a withdrawal prerequisite, and reserves the ability to process large withdrawals in instalments. It publishes indicative processing windows by method, but these are operator statements—not independently measured payout times. Its welcome offer terms include different wagering conditions for the first, second and third deposit rewards; exact availability must be rechecked for the reader's market and at publication.
+
+**Editorial interpretation:** these conditions are material and should be prominent in a final review, not buried under a bonus headline. Do not convert the published times into a promise or a tested performance rating. A Curaçao licence statement on the operator's own terms does not prove permission in any of the 12 target markets. The brand remains **HOLD / NOT RATED** until exact operator/domain eligibility is independently matched to each relevant regulator and the current policy is rechecked at publication.
+
+**Official sources:** https://kokkobet.com/payment-policy/ · https://kokkobet.com/terms-conditions/ (operator statements; retrieval/search snapshot 25 October 2026; live recheck still required).
