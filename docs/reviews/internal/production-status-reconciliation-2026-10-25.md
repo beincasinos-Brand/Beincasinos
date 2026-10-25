@@ -275,3 +275,9 @@ No deployment requested or performed.
 - The ledger checker now accepts only UNVERIFIED, VERIFIED, REJECTED, or NEEDS_REVIEW as the canonical domain verification state. Descriptive suffixes after a dash are allowed for explanatory notes, while unknown states fail validation.
 - Corrected the delimiter regex after inspecting the saved source. The test addition for unknown states was blocked by the GitHub write interface and was not committed; therefore this behavior is implemented but does not yet have a dedicated regression test. Existing test suite remains unrun.
 - No workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 63 — Domain-state and strict-date regression coverage (2026-10-25)
+- Added a regression test rejecting unknown domain verification states, and a test rejecting trailing garbage after an otherwise valid ISO date.
+- Tightened the checker to parse the entire verification date with date.fromisoformat rather than accepting only a valid-looking first ten characters.
+- Existing checks continue to require HTTPS evidence for VERIFIED domain identities and a dated verified domain before publication. No tests were executed in this session, so results remain unverified. No CI workflow, merge or Cloudflare deployment was triggered.
