@@ -207,3 +207,11 @@ body .review-directory-section :focus-visible{outline-color:#ffdf6e}
  body .review-card-summary{min-height:0}
  body .review-card-cta{min-height:44px}
 }
+
+
+/* Use the same official BIC emblem in every interior-page header */
+.site-header .brand-mark{position:relative;width:54px;height:54px;flex:0 0 54px;border:0;border-radius:50%;background:transparent url('/assets/beincasinos-mark.svg') center/contain no-repeat;box-shadow:0 0 12px #dcae2a33;color:transparent;font-size:0}
+.site-header .brand-mark>span{display:none}
+.site-header .brand{gap:10px}
+@media(max-width:900px){.site-header .brand-mark{width:58px;height:58px;flex-basis:58px}}
+@media(max-width:480px){.site-header .brand-mark{width:52px;height:52px;flex-basis:52px}.site-header .brand small{font-size:9px}}
