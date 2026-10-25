@@ -309,3 +309,10 @@ No deployment requested or performed.
 - The ledger checker now validates the complete `bonus_checked_utc` value rather than accepting any string whose first ten characters look like a date. This prevents malformed trailing content from being accepted as a checked date.
 - Added a regression test for a bonus-check date with trailing non-date text. Test suite has not been executed, so the change is recorded but not runtime-verified.
 - Source-ledger review confirms the 100 candidate rows still require individual evidence and release review. No brand was promoted to VERIFIED, scored, or published in this batch. No workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 66 — Historical regulator-action evidence linked for Dutch candidates (2026-10-25)
+- Slot 26 TOTO: added Ksa's 24 December 2025 Wwft instruction page as regulatory-action evidence. The Ksa described shortcomings in ongoing monitoring and source-of-funds checks; its notice says some issues were addressed during the investigation and calls for remaining issues to be addressed within six months, followed by reinspection. Treat as dated regulatory history and verify later status before drawing a current conclusion.
+- Slot 28 Kansino / Play North Limited: added the Ksa's published historical Wwft instruction page describing insufficient monitoring of player behaviour and origin of funds. Record as compliance context; current remediation status must be verified and the historical action alone is not evidence of current non-compliance.
+- The ledger rows now have direct regulator URLs in regulatory_actions_url and explicit caution notes. No score or publication status changed; domain verification remains unverified. No tests, merge or deployment were run.
+- Sources: https://kansspelautoriteit.nl/wwft-aanwijzing-voor-toto-online ; https://kansspelautoriteit.nl/play-north-limited
