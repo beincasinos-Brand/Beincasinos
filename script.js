@@ -48,11 +48,11 @@
   const reviewHero = document.querySelector('main .page-hero');
   const reviewHeading = reviewHero && reviewHero.querySelector('h1');
   if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') &&
-      !/^\\/reviews\\/?$/.test(window.location.pathname)) {
+      !/^\/reviews\/?$/.test(window.location.pathname)) {
     const titleText = reviewHeading.textContent.trim();
     const eyebrow = reviewHero.querySelector('.eyebrow');
     const marketText = eyebrow ? eyebrow.textContent.trim() : 'Market-specific research';
-    const monogram = titleText.replace(/\\s+(review|casino|online|for|in|2026).*/i, '')
+    const monogram = titleText.replace(/\s+(review|casino|online|for|in|2026).*/i, '')
       .replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || 'BIC';
     const summary = document.createElement('section');
     summary.id = 'review-visual-summary';
