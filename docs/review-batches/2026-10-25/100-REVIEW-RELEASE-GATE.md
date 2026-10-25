@@ -5,11 +5,12 @@
 **PR:** https://github.com/beincasinos-Brand/Beincasinos/pull/169
 
 ## Verified repository accounting
-- Changed files in PR #169 after batch 23: 396.
-- Markdown files under `review-drafts/`: 300.
+- Current changed files in PR #169 (GitHub file list, 2026-10-25): 424.
+- Markdown research-dossier files in `docs/review-batches/2026-10-25/review-drafts/`: 325.
 - Approved reviews confirmed by tracker: 0.
-- Public production pages delivered by these batches: 0.
+- Public production pages delivered by these batches: 0 confirmed.
 - Deployment performed by these batches: 0.
+- GSC indexing for new review pages: not established; no new production review URLs have been confirmed.
 
 A dossier, candidate row, or per-market duplicate is not a completed review. Only distinct canonical brands with a passed legal gate, current evidence, licensed imagery, substantiated score, editorial approval and publication QA count toward the 100.
 
