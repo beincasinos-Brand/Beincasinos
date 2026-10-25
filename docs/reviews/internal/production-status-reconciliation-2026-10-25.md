@@ -459,3 +459,11 @@ No deployment requested or performed.
 - Official register: https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores. DGOJ explains that operators may only offer regulated activities for which they hold the relevant authorization: https://www.ordenacionjuego.es/participantes-juego/juego-autorizado
 - All intake rows remain HOLD / NOT SCORED. The exact domain, active casino-specific licence, operator legal entity, local terms, promotions, safer-gambling controls, payment/withdrawal conditions, privacy, and image rights must be checked before any publication. No live account or transaction was tested; no score, bonus, or image permission was inferred.
 - This is a research intake, not a completed set of consumer reviews. The production ledger remains unchanged; no merge, deployment or GitHub Actions run was triggered.
+
+
+## Batch 92 — Italy ADM concessionaire-domain intake (2026-10-25)
+
+- Added `docs/targets/it-italy-adm-casino-domain-intake-2026-10-25.csv` with 15 domain candidates drawn from the official Italian Customs and Monopolies Agency (ADM) remote-gambling concessionaire directory: https://www.adm.gov.it/portale/monopoli/giochi/gioco_distanza/gioco_dist_concessionari
+- The ADM directory is evidence that the listed concessionaire/domain appears in the remote-gambling register; this intake does **not** assert that every listed domain has an active casino-specific authorisation. The exact product authorisation must be verified before a casino review is published.
+- All 15 entries remain HOLD / NOT SCORED. No current bonus, terms, score, image rights, payment performance or consumer usability was inferred or tested. Confirm exact domain, active product permission, local terms, responsible-gambling tools and editorial/legal approval before release.
+- The production ledger remains unchanged. No merge, deployment or GitHub Actions run was triggered.
