@@ -281,3 +281,11 @@ No deployment requested or performed.
 - Added a regression test rejecting unknown domain verification states, and a test rejecting trailing garbage after an otherwise valid ISO date.
 - Tightened the checker to parse the entire verification date with date.fromisoformat rather than accepting only a valid-looking first ten characters.
 - Existing checks continue to require HTTPS evidence for VERIFIED domain identities and a dated verified domain before publication. No tests were executed in this session, so results remain unverified. No CI workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 64 — Netherlands licence-renewal revalidation queue (2026-10-25)
+- Rechecked the current Ksa renewal announcement dated 17 September 2026. It says the first eight continuation permits cover October 2026 through September 2031 and names TOTO Online B.V. (TOTO and Winnitt), Holland Casino N.V. (Holland Casino Online), Play North Limited (Kansino), FPO Nederland B.V. (FairPlay Casino), Bingoal Nederland B.V. (Bingoal), Hillside (New Media Malta) Plc (bet365), NSUS Malta Limited (GG Poker), and Betent B.V. (Betcity).
+- Ledger candidates among those named brands include slots 26 TOTO, 27 Holland Casino Online, 28 Kansino, 29 FairPlay Casino, 30 Bingoal, 31 bet365 and 32 Betcity. The announcement supports a company-level renewal lead only; it does not, by itself, verify each row's current domain, exact brand-to-license mapping, offer terms, player experience, or all publication requirements.
+- Required next action for each matching row: reconcile the current Ksa licensee/Kansspelwijzer entry to exact legal entity, brand and domain; capture dated register evidence; update domain verification only after exact mapping is confirmed; recheck current terms, complaints, safer-gambling and bonus terms. No row was promoted to VERIFIED, scored or publishable by this batch.
+- Official sources: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend ; https://kansspelautoriteit.nl/register-licensees ; https://kansspelautoriteit.nl/melden-merk-domein-en-applicatienamen
+- No tests were executed; no workflow, merge or Cloudflare deployment was triggered.
