@@ -81,3 +81,10 @@ Added 12 Belgium candidate workbenches and 12 France product-eligibility researc
 Added 24 Ontario-specific candidate research files using the iGaming Ontario operator directory as the primary starting point, plus a batch README. The directory's published snapshot is accurate as of 1 September 2026; each exact brand row, official domain and operator status must be rechecked before publication. Some brands overlap earlier market files and must be deduplicated.
 
 **Status remains HOLD / NOINDEX / NOT RATED.** These are structured evidence workbenches, not finished consumer reviews. Current bonus terms, cashier details, game catalogue, player-protection evidence, image rights and independent approval remain outstanding. No production deploy occurred.
+
+
+## Big batch 20 — Ontario eligibility and evidence gate
+
+Added 11 brand-level Ontario eligibility dossiers plus one Betway offer audit/duplicate-control file, and a batch README. The official iGaming Ontario directory is the primary eligibility starting point. Every exact current operator entry, local domain and product scope still needs capture; unverified candidates must be excluded from Ontario targeting.
+
+These are structured research dossiers, not final player-facing reviews. Current bonus terms, payments, games, support, privacy, image rights and editorial sign-off are still required. No production deployment was performed.
