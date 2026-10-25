@@ -56,3 +56,12 @@ The score model must not be filled with guesses. After eligibility passes, score
 ## Publication decision
 
 **NO-GO.** This file is an internal workbench record, not an approved review. Do not expose it through a public route, add it to XML sitemap, or request indexing. Promotion requires exact market evidence, complete terms/payment checks, image rights, an independently reviewed scorecard and production-page QA.
+
+
+## Official general-terms observation (operator-published; not a market approval)
+
+The Bull Casino general terms page indexed for its en-IE site states that bonus funds or free spins may expire after 30 days unless campaign-specific terms set a shorter period. It also states that a player taking a bonus/free-spin deposit offer must wager the deposit at least once, and that if a withdrawal is requested before bonus wagering is completed, the bonus amount and winnings from bonus-funded bets may be deducted before approval. This is a general-term statement, not confirmation of a current headline offer, payout speed or actual player outcome.
+
+**Editorial interpretation:** present this as a material withdrawal/bonus interaction and link the exact campaign terms. Do not describe the brand as authorized in Ireland or any other market based on a URL locale. Verify the exact operator, domain, regulator record and product permissions for the intended market before recommendation. No hands-on testing or score has been completed.
+
+**Official source:** https://www.bullcasino.com/en-IE/terms-and-conditions/general (operator-published terms; search snapshot 25 October 2026; recheck live before publication).
