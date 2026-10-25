@@ -104,3 +104,10 @@
 .caption-dot{width:7px;height:7px;border-radius:50%;background:#b5e7c5;box-shadow:0 0 0 4px rgba(181,231,197,.18)}
 @media(max-width:850px){.hero-premium .hero-grid{grid-template-columns:1fr;gap:32px;padding-top:52px}.hero-visual{min-height:460px;margin:0 0 12px 28px}.floating-review-card{left:-28px}}
 @media(max-width:620px){.hero-premium .hero-grid{padding-top:40px;padding-bottom:42px}.hero-premium h1{font-size:clamp(39px,11vw,54px)}.hero-visual{min-height:410px;margin-left:10px;margin-right:2px}.floating-review-card{left:-10px;bottom:47px;padding:15px}.preview-line{font-size:9px}.visual-caption{right:10px;bottom:13px;font-size:9px}.visual-kicker{left:15px;right:15px;top:15px;font-size:8px}}
+
+.pillar-grid-nine{grid-template-columns:repeat(3,minmax(0,1fr))}
+.pillar-grid-nine .pillar-card{min-height:190px;align-items:flex-start}
+.pillar-grid-nine .pillar-card>strong{align-self:flex-end;margin-top:auto}
+.pillar-grid-nine .pillar-card h3{font-size:17px}
+@media(max-width:850px){.pillar-grid-nine{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.pillar-grid-nine{grid-template-columns:1fr}.pillar-grid-nine .pillar-card{min-height:unset}}
