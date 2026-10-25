@@ -160,3 +160,11 @@ No deployment requested or performed.
 - Missing market coverage is reported as a warning, not a hard failure, because this is a planning diagnostic and not evidence of legal eligibility. AU and FR remain subject to their separate online-casino market gates.
 - Added a regression test confirming the coverage gap appears as a warning rather than a publication approval or gate error.
 - Validation has not been run in a repository runner; do not infer test success. No GitHub Actions workflow, PR merge or Cloudflare deploy was triggered.
+
+
+## Batch 42 — UKGC domain-lead reconciliation (2026-10-25)
+- Ledger slot 60, QuinnBet Casino: populated `official_url=https://www.quinnbet.com` from the UK Gambling Commission business-register search result for QuinnBet (Gibraltar) Limited, which lists `m.quinnbet.com` and `www.quinnbet.com`.
+- Ledger slot 97, Bet442: populated `official_url=https://bet442.co.uk/` from the UK Gambling Commission business-register search result listing that domain under AG Communications Limited and Betable Limited.
+- These are domain-identity leads only, not complete casino product or current-licence clearance. The notes explicitly retain HOLD / NOT SCORED pending product-scope, terms, withdrawals, image rights, consumer testing and editorial approvals.
+- Official source: https://www.gamblingcommission.gov.uk/public-register/businesses — register states domain/trading-name data is supplied by businesses and may not be guaranteed accurate; row-level corroboration remains required.
+- No tests were run, and no PR merge, workflow or Cloudflare deployment was triggered.
