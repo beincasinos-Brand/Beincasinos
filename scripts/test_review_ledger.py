@@ -133,6 +133,22 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("publication blocked for AU" in message for message in gate.errors))
 
+    def test_european_market_publication_requires_exact_regulator_register(self):
+        cases = (
+            ("BE", "Belgium publication requires the exact Belgian Gaming Commission register entry"),
+            ("SE", "Sweden publication requires the exact regulator register entry"),
+            ("ES", "Spain publication requires the exact DGOJ register entry"),
+            ("IT", "Italy publication requires the exact ADM register entry"),
+        )
+        for market, expected_error in cases:
+            with self.subTest(market=market):
+                self.rows[0]["market_code"] = market
+                self.rows[0]["publication_status"] = "PUBLISHED"
+                self.rows[0]["official_register_url"] = ""
+                self.write()
+                gate.check(self.path)
+                self.assertTrue(any(expected_error in message for message in gate.errors))
+
     def test_unknown_market_code_is_rejected(self):
         self.rows[0]["market_code"] = "GH"
         self.write()
