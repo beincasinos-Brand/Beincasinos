@@ -1,126 +1,139 @@
-# 888casino Spain — individual review draft
+# 888casino Spain Review: Licence, Bonus Terms, Games and Withdrawals
 
-> **Editorial state: DRAFT / NOINDEX / NOT RATED.** Original BeInCasinos copy for editorial development, not a completed or independently tested review. Do not publish as a recommendation until release gates pass.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** This is an evidence-led review draft, not a completed hands-on test. Do not publish as a final recommendation until the live domain, current terms, user journey, image rights and independent editorial checks are complete.
 
-## SEO and page metadata
-- **SEO title:** 888casino Spain Review: Licence, Bonus Terms and Payments
-- **Meta description:** Review 888casino Spain's listed operator and domain, current bonus and payment terms, and player-protection evidence.
+## SEO package
+
+- **SEO title:** 888casino Spain Review: Licence, Bonuses and Withdrawals
+- **Meta description:** Evidence-led 888casino Spain review covering the DGOJ operator record, casino licence scope, bonus terms, payment rules and player-protection checks.
 - **H1:** 888casino Review for Spain
 - **Suggested URL:** /reviews/888casino-spain/
-- **Search intent:** brand review, Spanish legal status, bonus conditions, payment and withdrawal rules, support and player protection.
-- **Robots:** noindex until all release gates pass.
-- **Structured data:** no AggregateRating or star-rating schema until a supported, visible score is approved.
+- **Primary intent:** Find out who operates 888casino in Spain and what to verify about its casino product, promotions, payments and safer-gambling controls.
+- **Robots:** NOINDEX until all release gates pass.
+- **Schema:** No rating, review count, offer or aggregate-rating markup unless it accurately reflects approved, visible and substantiated page content.
 
-## Quick facts
-| Field | Evidence status |
+## At a glance
+
+| Item | Evidence-led status |
 |---|---|
-| Brand | 888casino |
-| Market | Spain |
-| Listed legal operator | 888 ONLINE GAMES ESPAÑA, S.A. |
-| Listed domain | https://www.888casino.es |
-| Regulator evidence | Official DGOJ operator directory; source below |
-| Current welcome offer | Not verified |
-| Wagering / expiry / max bet / max cashout | Not captured |
-| Payment methods / limits / fees | Not captured |
-| Withdrawal timing | Not tested |
+| Brand being reviewed | 888casino |
+| Intended market | Spain |
+| Domain in the DGOJ record | https://www.888casino.es |
+| Listed operator | 888 ONLINE GAMES ESPAÑA, S.A. |
+| Primary regulator source | [DGOJ operator record](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa) |
+| Casino-related permission evidence | DGOJ record lists “Máquinas de azar”, “Black Jack” and “Ruleta” among singular licences |
+| Current welcome promotion | Not verified |
+| Wagering and expiry | Not captured |
+| Payment methods, limits and fees | Not captured |
+| Withdrawal experience | Not tested |
 | Support response | Not tested |
-| Games / providers | Not independently inventoried |
-| Safer-gambling controls | Require live verification |
-| Editorial score | **NOT RATED** |
-| Last checked | 25 October 2026 — operator record checked; commercial terms not checked |
+| Current game catalogue / RTP | Not inventoried |
+| Image usage rights | Not cleared |
+| BeInCasinos rating | **NOT RATED** |
 
-## Overview
-This draft separates the official operator/domain record from questions that require live, market-specific evidence. Before choosing a casino, check the exact legal entity and licence information, read bonus conditions in full, and understand withdrawal requirements. BeInCasinos has not conducted a deposit or withdrawal test for this draft.
+## Overview: what this draft can and cannot establish
 
-## Operator and licence evidence
-DGOJ's public operator directory lists 888 ONLINE GAMES ESPAÑA, S.A. with 888casino.es among its domains. This is a legal-identity starting point, not proof of current bonus terms, payout performance, customer satisfaction or independent game testing.
+The official Spanish gambling regulator's operator record is a useful starting point for identifying the company and domains associated with 888. It is not a substitute for checking today's casino terms or using the product. The DGOJ record names 888 ONLINE GAMES ESPAÑA, S.A. and includes 888casino.es among its listed domains; its listed singular licences include slots, blackjack and roulette. Those details support a narrow statement about the regulator record, not a claim that every current promotion is good, every game is available, or withdrawals are fast.
 
-**Primary source:** [DGOJ official operator register](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores). Reopen the live record at publication time, save the exact operator page and verify current licence categories. A regulator listing does not prove a positive customer experience, current bonus terms or fast withdrawals.
+BeInCasinos has not conducted a real-money deposit or withdrawal test for this draft. We therefore do not assign a star rating, quote a bonus amount, list unverified payment methods, or describe the service as “fast paying.” These omissions are deliberate: unsupported precision would make the review less useful, not more complete.
 
-## Bonus and terms review
-**Current offer: not verified.** No amount, free-spins count or headline value should appear until a dated official offer page and its full terms are saved.
+## Operator identity and Spanish market scope
 
-The editor must record eligibility; wagering requirement and balance it applies to; expiry; maximum bet; maximum cashout; excluded games/payment methods/countries; opt-in requirement; and withdrawal restrictions. If no current offer is available or terms cannot be verified, state that clearly rather than using an old promotion.
+**Primary evidence:** [DGOJ record for 888 ONLINE GAMES ESPAÑA, S.A.](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa).
 
-## Payments and withdrawals
-No withdrawal test has been performed for this draft. Do not describe a method as “instant” or publish a payout-speed score without a dated test record.
+The current public record lists the operator name and the domains 888casino.es, 888poker.es, 888.es and 888sport.es. It lists singular licences for, among other categories, machines of chance (slots), blackjack, roulette and poker. Before publication, an editor must reopen the live record, confirm the casino domain and relevant licence categories, and compare the operator named in the website's own legal terms.
 
-Record each method shown in the market-specific cashier, deposit and withdrawal limits, processing time, third-party transfer time, fees, supported currency, KYC requirements and conditions that can delay payout. Test results must state how many withdrawals were tested and their dates/methods. If a method cannot be tested, mark it **not tested**.
+The existence of a regulator entry should not be presented as a quality award or guarantee of customer outcomes. It does not answer whether a specific account can access a promotion, what documents may be required, how a particular withdrawal is handled, or how quickly support responds. If the legal operator, domain or product permission no longer matches, this review must remain on hold until reconciled.
 
-## Games and fairness
-Capture a representative sample of game categories and providers shown to eligible customers, and check game RTP against each game's own published information. A provider logo alone does not prove the whole catalogue is available. No game inventory or RTP claim is made here.
+## Bonus and promotion value
 
-## Player protection, privacy and support
-Document where to find deposit/time/loss limits, self-exclusion, reality checks, account closure, age/identity controls, privacy notice and complaints escalation. Test support through an available channel and record date, question, wait time and response. These tests are outstanding.
+**Current offer: not verified.** No bonus amount or free-spin figure is published in this draft because a current official Spanish offer and its complete terms have not been captured.
 
-## Pros and cons — provisional editorial observations
-These observations concern the available evidence and review process, not a claim that the casino passed every test.
+For a useful review, the editor must record the date and URL of the offer and explain, in plain language:
 
-**Potential positives**
-- The DGOJ directory provides a primary-source route to verify the operator/domain association.
-- The review framework separates published terms from hands-on testing.
-- Key decision factors—bonus restrictions, payment rules and player protection—are explicitly called out.
+- who is eligible and whether opt-in is required;
+- minimum deposit and the balance to which wagering applies;
+- wagering multiple and eligible-game contribution;
+- expiry and any maximum bet while wagering;
+- maximum conversion or cashout, if applicable;
+- excluded games, payment methods or customer categories;
+- whether withdrawing or cancelling affects bonus funds or winnings.
 
-**Limitations / open questions**
-- Current welcome offer and wagering terms have not been captured.
-- Payment methods, limits, fees and real withdrawal times have not been independently verified.
-- No account, support interaction or game catalogue test is claimed.
+A headline amount alone is not enough to compare offers. If no current offer is available or the terms are incomplete, say “no offer verified” and leave the bonus score pending rather than substituting an expired promotion.
 
-## Scorecard
-| Category | Weight | Score | Evidence required |
+## Deposits, withdrawals and cashier clarity
+
+**No payment or withdrawal test has been performed.** Payment methods must be taken from the current Spanish cashier and checked against the operator's terms, not copied from another country or a third-party comparison page.
+
+The review still needs to record deposit and withdrawal methods, minimums and maximums, fees, currency conversion, verification requirements, operator processing policy, third-party settlement caveats and method-specific restrictions. Separate the operator's stated processing window from the time funds actually arrive. A policy statement is not a tested outcome.
+
+If a genuine test is later performed, document the date, method, amount band, verification status, request time, operator approval time and receipt time. State the sample size and limitations. One test must not be described as proof of a universal payout speed.
+
+For readers comparing services, see [Online Casino Withdrawals: What to Check](../content-guides/online-casino-withdrawals-what-to-check.md).
+
+## Games, rules and RTP
+
+The DGOJ record supports checking the casino product's relevant permission categories, but it does not establish the current game catalogue. No claim is made here about the number of games, specific providers, live-dealer availability or a particular RTP.
+
+Before publication, inventory representative game categories from the live Spanish product and verify any named provider or title in the actual catalogue. RTP should be quoted only for an exact game/version and supported by the provider's or in-game information. Explain that RTP is theoretical and not a promise about an individual session. Do not imply that a provider logo proves all of its games are available.
+
+## Account safety, privacy and player protection
+
+The final review should show readers where to find account limits, time-outs, self-exclusion, account closure, identity checks, privacy information and complaint escalation. These controls must be located in the current customer journey and described accurately. A generic statement that the operator “supports responsible gambling” is not a substitute for showing which controls were verified.
+
+Support quality is also untested. Record the contact route, date, question, wait time and response only after an actual interaction. Do not invent a response-time estimate or call support “excellent” based on a contact page alone.
+
+## Provisional strengths and limitations
+
+These are observations about the available evidence, not a completed consumer verdict.
+
+**What can be established from the current source**
+- The DGOJ provides a primary-source operator record for 888 ONLINE GAMES ESPAÑA, S.A.
+- The record lists 888casino.es and casino-relevant licence categories including slots, blackjack and roulette.
+- The record provides a basis for rechecking the operator/domain relationship before publication.
+
+**What remains unknown**
+- Current welcome offer and all material bonus terms.
+- Market-specific cashier methods, limits, fees and verification steps.
+- Actual withdrawal outcomes and support responsiveness.
+- Current game catalogue, provider coverage and game-specific RTP.
+- Usability, accessibility, privacy journey and the practical operation of account controls.
+- Rights to use any proposed logo, screenshot or other brand image.
+
+## Evidence-weighted scorecard
+
+| Dimension | Weight | Current status | Evidence needed before scoring |
 |---|---:|---|---|
-| Legal eligibility and operator identity | 25 | Pending | Current exact-domain/product licence check |
-| Bonus fairness | 15 | Pending | Dated live offer and full terms |
-| Payments and withdrawals | 15 | Pending | Current cashier policy and documented tests |
-| Games and fairness | 10 | Pending | Product catalogue and game-level sources |
-| Support and complaints | 10 | Pending | Dated support test and complaint route |
-| Usability and accessibility | 10 | Pending | Mobile/desktop test notes |
-| Privacy and account security | 10 | Pending | Current policies and security controls |
-| Evidence freshness | 5 | Pending | Source log and second-editor review |
-| **Total** | **100** | **NOT RATED** | Do not calculate while critical evidence is missing |
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck before release | Current exact-domain and product-scope confirmation |
+| Bonus fairness and clarity | 15 | Pending | Dated official offer and complete terms |
+| Payments and withdrawals | 15 | Pending | Current cashier/terms; documented tests if performance is discussed |
+| Games and fairness information | 10 | Pending | Live catalogue and exact game-level sources |
+| Support and complaints | 10 | Pending | Tested support interaction and complaint route |
+| Usability and accessibility | 10 | Pending | Documented mobile/accessibility review |
+| Privacy and security | 10 | Pending | Current policies and verified account controls |
+| Evidence freshness | 5 | Partial | Recheck all volatile facts immediately before publication |
 
-**Why there is no numeric score yet:** a number without bonus, cashier, product and practical test evidence would create false precision. This is an editorial hold, not a low or high casino score.
+**Overall score: NOT RATED.** Do not convert missing evidence into a numerical rating. Do not display review stars or structured rating data for this draft.
 
-## FAQs for the final page
-### Is 888casino licensed in Spain?
-The DGOJ operator directory lists the operator/domain association noted above. Confirm the live record, exact product scope and current status immediately before publication. Do not infer permissions for other countries or products.
+## FAQ
 
-### What bonus does 888casino offer in Spain?
-The current offer has not been verified in this draft. Check the official market-specific page and full terms; do not rely on a third-party headline.
+### Is 888casino listed by Spain's gambling regulator?
+The DGOJ operator record for 888 ONLINE GAMES ESPAÑA, S.A. lists 888casino.es and includes casino-related licence categories. The live record and current terms must be rechecked before this page is published.
 
-### How long do withdrawals take?
-No independent withdrawal test has been performed for this draft. Report published policy separately from measured outcomes.
+### What is the current 888casino Spain bonus?
+Not verified for this draft. A current official offer and its full conditions are required before any amount is quoted.
 
-### Is 888casino a good choice?
-This draft does not make a recommendation. Write a verdict only after the evidence checklist is complete and the score is independently checked.
+### How long do 888casino withdrawals take in Spain?
+No first-hand withdrawal test has been performed for this review, so we do not claim a specific time. Check the current terms and distinguish operator processing from payment-provider settlement.
 
-### What should players check before depositing?
-Read the legal notice, current bonus terms, withdrawal rules, identity-check policy and safer-gambling tools. Never gamble money needed for essential expenses; 18+ only, subject to local law.
+### Does this review recommend 888casino?
+No. It remains a draft and is not rated. A recommendation requires the unresolved evidence and editorial checks above to be completed.
 
-## Images and review-card assets
-- **Hero:** create commissioned, brand-neutral editorial artwork or obtain documented permission for an official brand asset. No logo or screenshot rights are claimed.
-- **Logo:** use only an approved official press/brand asset or licensed logo; store source URL, rights basis, allowed uses and date in the asset register.
-- **Game imagery:** show only games confirmed in the reviewed market and current catalogue.
-- **Alt text:** describe the actual visual; do not stuff keywords.
-- **Technical:** responsive WebP/AVIF, fixed aspect ratio, compressed file, mobile crop check and no text baked into image.
-- **Current image status:** no brand image has been cleared for publication in this draft.
+## Sources and update record
 
-## Affiliate disclosure and editorial independence
-If the final page contains affiliate links, place a plain-language disclosure before or near the first commercial link. Commercial relationships must not affect score, verdict or ranking. Paid placements must be labelled and kept separate from editorial ranking.
-
-## Final release checklist
-- [ ] Recheck exact operator, domain and licence category in DGOJ.
-- [ ] Capture current official bonus terms or explicitly state no offer verified.
-- [ ] Capture current payment/withdrawal policy; distinguish policy from test results.
-- [ ] Complete games, support, privacy and safer-gambling checks.
-- [ ] Add reviewer and independent checker names, dates and evidence log.
-- [ ] Clear image rights and record assets.
-- [ ] Add affiliate disclosure and correction/contact route.
-- [ ] QA mobile layout, accessibility, speed, internal links and metadata.
-- [ ] Confirm visible score matches evidence; otherwise keep NOT RATED.
-- [ ] Remove NOINDEX only after editorial sign-off.
-
-## Draft verdict
-HOLD. The regulator directory entry is a useful starting point, but this page should not display a casino-quality score until live terms, payments, player-protection tools and independent test evidence are complete.
-
-**Evidence policy:** source closest to each claim; record check dates; do not copy competitors' scores or findings. Unverified information must remain labelled unverified or be omitted.
+- **Primary regulator source:** [DGOJ — 888 ONLINE GAMES ESPAÑA, S.A.](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores/888-online-games-espana-sa). Checked for this draft on 25 October 2026; re-open and confirm the live record before publication.
+- **Operator terms / offer / cashier:** Not yet captured.
+- **Hands-on testing:** Not performed.
+- **Image rights:** Not cleared.
+- **Last editorial status:** HOLD / NOINDEX / NOT RATED.
+- **Next required action:** Verify live domain and terms, collect dated evidence, complete mobile and support checks, clear image rights, and obtain independent editor approval.
