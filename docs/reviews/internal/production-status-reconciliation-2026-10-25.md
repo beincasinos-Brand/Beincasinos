@@ -182,3 +182,10 @@ No deployment requested or performed.
 - Hardened publication-state parsing so an approved state followed by an em dash, en dash or hyphen still triggers jurisdiction-specific release gates.
 - Added regression tests for an off-target market code and an en-dash publication status. These changes only validate structure; they do not certify legal eligibility.
 - Tests have not been executed in this environment. No Actions workflow, PR merge or deployment was triggered.
+
+
+## Batch 45 — UKGC trading-name status and domain gaps (2026-10-25)
+- Slot 59 O'Reels Casino and slot 65 Rose Casino: UKGC record for Jupiter Gaming Limited (account 67098) lists both trading names Inactive. Recorded this as a candidate risk flag; no domains were guessed and both remain HOLD / NOT SCORED.
+- Slot 64 BetWright: UKGC record lists the trading name as Active under Onyx Gaming Limited (account 64666), but the source consulted did not establish a canonical casino domain. Active trading-name status alone does not establish the specific domain or remote casino product permission.
+- Sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/67098 and https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/64666
+- These are regulator-register reconciliation notes, not consumer reviews. No tests, merge, workflow or Cloudflare deployment were performed.
