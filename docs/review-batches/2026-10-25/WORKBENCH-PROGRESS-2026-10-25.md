@@ -171,3 +171,16 @@ These records deliberately do **not** assert current market authorization, verif
 GitHub PR #169 currently lists **430 changed files** and **331 Markdown files** under review-drafts. Those are file counts only. The tracker still confirms **0 approved reviews**, **0 confirmed production review pages added by this batch**, and **0 deployments**. Google indexing for any new review URL is not established. Do not merge this research workbench as if it were a set of 100 publish-ready reviews.
 
 Next productive step: replace candidate-only source leads with exact regulator entries and current binding terms for distinct canonical brands, then build approved records into the existing static site's production routes and update sitemap only after QA.
+
+
+## Primary-source terms enrichment — 2026-10-25
+
+Expanded four existing brand dossiers with concrete operator-published terms and editorial interpretation:
+- **Kokobet:** documented the published €20 standard minimum withdrawal, mandatory 1× deposit turnover, KYC requirement, method-dependent processing windows and instalment discretion; all explicitly labelled operator statements rather than independently tested outcomes.
+- **MrPunter:** captured the indexed official welcome-promotion mechanics, including staged daily free-spin claims, 35× wagering on deposit plus bonus, payment-method exclusions and withdrawal/bonus interaction.
+- **Bull Casino:** captured the general-terms wording on 30-day bonus expiry unless a campaign sets a shorter period, 1× deposit wagering and deduction of bonus-related funds/winnings when withdrawing before requirements are met.
+- **Casea:** captured the indexed operator-terms claims on minimum deposit, stated processing window, payment methods and general bonus conditions; its licence reference remains unverified against a regulator record.
+
+Primary sources used: Kokobet terms/payment policy, MrPunter's official promotion page, Bull Casino's official general terms, and Casea's official terms. Each claim is attributed to the operator and must be rechecked live. None establishes authorization in any target market, independently tested performance, or a numeric score. All four remain HOLD / NOT RATED / NOINDEX.
+
+This was a factual-content enrichment pass, not a publication pass. Do not include any of these internal dossiers in the public sitemap.
