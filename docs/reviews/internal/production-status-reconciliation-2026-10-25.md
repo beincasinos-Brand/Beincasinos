@@ -83,3 +83,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-29-new-jersey-ten-additional-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-29-new-jersey-ten-additional-review-work-orders-2026-10-25.md`.
 - Candidates sourced from the official New Jersey DGE authorised Internet Gaming Sites list. Poker and sportsbook products are explicitly separated from casino evidence.
 - All ten HOLD / NOT SCORED pending exact current product/domain terms, consumer checks, image-rights clearance and independent review. No merge/deploy performed.
+
+
+## Batch 30 — Ontario ten-platform evidence matrix (2026-10-25)
+- Added `docs/reviews/internal/big-batch-30-ontario-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-30-ontario-ten-review-work-orders-2026-10-25.md`.
+- Ontario-specific candidates are leads only until the current iGaming Ontario operator register confirms the exact domain, legal entity and casino product scope. No claim of nationwide Canadian authorisation.
+- All ten HOLD / NOT SCORED pending terms, payment/withdrawal evidence, player-protection checks, image rights, consumer testing and independent review. No merge/deploy performed.
