@@ -302,3 +302,22 @@ One attempted file write (711) was blocked and is not counted. These drafts are 
 - **Consumer-facing draft files now accounted for: 59 / 100 (file count).**
 - **Approved publish-ready reviews: 0 confirmed.**
 - **Production routes, public sitemap changes and deployments from this batch: 0.**
+
+
+## Consumer-facing review writing — additional batch
+
+Added 18 reader-facing market-specific drafts to `consumer-review-copy/`:
+- France: Betsson, bwin, NetBet, PMU, FDJ, ParionsSport (copy explicitly limits claims to legally permitted product categories; no unsupported online-casino claims).
+- Italy: Betsson, Eurobet, Goldbet, PokerStars.
+- Germany: Wunderino, Slotmagie, PlayOJO, LuckyVegas.
+- Netherlands: VBet, Circus, Jack's Casino.
+- Belgium: Starcasino.
+
+The drafts remain HOLD / NOINDEX / NOT RATED and need exact current official domain/operator/product matching, dated terms, cashier and game details, image permissions and editorial QA. Some brands occur in multiple market-specific files; this is a file count, not a verified unique-brand count. No production routes or deployment were made.
+
+### Updated accounting
+- Previous consumer-facing draft file checkpoint: 59.
+- Successfully added in this batch: 18.
+- **Consumer-facing draft files now accounted for: 77 / 100.**
+- **Approved publish-ready reviews: 0 confirmed.**
+- **Production routes, public sitemap changes and deployments: 0.**
