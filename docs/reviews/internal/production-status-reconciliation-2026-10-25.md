@@ -127,3 +127,9 @@ No deployment requested or performed.
 - Reconciled the ten online casino platforms named on the official ESBK page, including the two already present in the ledger (Admiral and Casineo); duplicate rows are explicitly prohibited.
 - Official-list evidence is not treated as proof of current bonus terms, payment performance, image rights or completed review scores. All ten work orders remain HOLD / NOT SCORED.
 - No public pages changed; no merge/deploy performed.
+
+
+## Batch 37 — blank-domain identity resolution queue (2026-10-25)
+- Added `docs/reviews/internal/big-batch-37-blank-domain-identity-resolution-queue-2026-10-25.md`, enumerating all ledger rows with a blank official domain and a regulator-first resolution procedure.
+- No URLs were guessed or written into the ledger. Rows without exact domain/operator/product matches remain HOLD / NOT SCORED.
+- No public pages changed; no merge/deploy performed.
