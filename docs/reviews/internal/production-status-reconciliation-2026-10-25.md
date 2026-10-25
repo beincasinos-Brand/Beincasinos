@@ -435,3 +435,11 @@ No deployment requested or performed.
 - All 10 rows remain HOLD / NOT SCORED. No current bonus or image rights were cleared; no consumer testing or cashier transaction was performed.
 - Official source: https://data.gamingcommission.be/licenses/APLUS/latest/table.html?lang=en
 - This is a separate research intake file. Production ledger remains unchanged; no merge, deployment or GitHub Actions run was triggered.
+
+
+## Batch 89 — Switzerland official online-casino intake (2026-10-25)
+
+- Added `docs/targets/ch-switzerland-official-online-casino-register-intake-2026-10-25.csv` with the ten online casino platforms named on the official Swiss Federal Gaming Board page: jackpots.ch, mycasino.ch, online.swisscasinos.ch, casino777.ch, starvegas.ch, 7melons.ch, pasino.ch, swiss4win.ch, admiral.ch and casineo.ch.
+- Official source: https://www.esbk.admin.ch/en/online-gambling/ (page published 2026-03-17). The regulator states online casino operation requires a licence extension and game-specific permits. A separate blocked/unauthorised list must also be checked before publication: https://www.esbk.admin.ch/en/unauthorised-online-games
+- The intake rows remain HOLD / NOT SCORED. Current contracting entity, terms, payments/withdrawals, complaints, safer-gambling controls, privacy, promotions and image rights remain to be reviewed. No live consumer account or transaction was tested; no bonus or image rights were cleared.
+- The production ledger remains unchanged. No merge, deployment or GitHub Actions run was triggered.
