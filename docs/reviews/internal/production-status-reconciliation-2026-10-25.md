@@ -390,3 +390,11 @@ No deployment requested or performed.
 - Verified-domain rows: admiral.ch, casineo.ch, Betty Casino, FruitKings, Peachy Games, Play Sunny, BetWright and TigerBet. This is identity evidence only; no row is promoted to publication-ready.
 - Market coverage remains GB 65, NL 18, US-PA 4, US-NJ 7, US-MI 2, CH 2, DE 2. Requested markets AU, CA, SE, ES, IT, FR and BE still have no ledger rows.
 - No automated tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 75 — Brillbet domain evidence and candidate triage (2026-10-25)
+- Added `docs/reviews/internal/big-batch-75-brillbet-domain-evidence-and-candidate-triage-2026-10-25.md`.
+- Recorded Brillbet (slot 34) as `domain_verification_status=VERIFIED`, dated 2026-10-25, based on the UKGC domain register for account 101570. The source note states `brillbet.co.uk` and `brillbet.com` are Active under UK Digital Bookmakers Ltd and the trading name is Active.
+- Read-back candidate triage: BetTOM exact domain not evidenced; AK Bets casino permission unresolved; Silkbet exact domain/operator match absent; Midnite licensee mapping ambiguous; QuinnBet enforcement recorded but domain match unresolved; Kong Casino is White Label, not Active; Bet442 register search has multiple licensee leads. These remain unverified or otherwise blocked.
+- The verified-domain count is now 9, but every such row remains HOLD / NOT SCORED; domain evidence is not publication approval.
+- No tests run, no merge, no workflow run, and no deployment performed.
