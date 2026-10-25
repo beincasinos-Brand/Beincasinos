@@ -120,3 +120,10 @@ No deployment requested or performed.
 ## Batch 35 — image-rights remediation policy (2026-10-25)
 - Added `docs/reviews/internal/big-batch-35-image-rights-remediation-policy-2026-10-25.md` defining the rights evidence needed for public images, neutral original fallbacks, and proposed future ledger fields.
 - No assets were changed or cleared; all unresolved rights remain publication blockers. No merge/deploy performed.
+
+
+## Batch 36 — Switzerland ESBK ten-platform reconciliation (2026-10-25)
+- Added `docs/reviews/internal/big-batch-36-switzerland-esbk-ten-platform-reconciliation-2026-10-25.md` and `docs/reviews/internal/big-batch-36-switzerland-ten-review-work-orders-2026-10-25.md`.
+- Reconciled the ten online casino platforms named on the official ESBK page, including the two already present in the ledger (Admiral and Casineo); duplicate rows are explicitly prohibited.
+- Official-list evidence is not treated as proof of current bonus terms, payment performance, image rights or completed review scores. All ten work orders remain HOLD / NOT SCORED.
+- No public pages changed; no merge/deploy performed.
