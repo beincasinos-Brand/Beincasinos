@@ -52,7 +52,7 @@ These are not yet publish-ready reviews. Candidate identity, exact current domai
 
 ## Honest completion accounting
 
-- Newly created workbench files in this continuation: **27**
+- Newly created workbench files in this continuation: **30**
 - Newly created batch README files in this continuation: **1**
 - Verified unique brands from these new workbenches: **not yet established** (same brand may have market-specific variants; deduplicate by canonical brand and legal operator).
 - Evidence-verified brands from this continuation: **0**
