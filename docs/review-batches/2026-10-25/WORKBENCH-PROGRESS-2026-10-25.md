@@ -95,3 +95,10 @@ These are structured research dossiers, not final player-facing reviews. Current
 Added 12 Australian market research dossiers and a batch README. The primary starting point is ACMA's online gambling guidance. Product categories must not be conflated: known sports betting brands and land-based casinos are not automatically legal online casino products for Australia. Each exact service requires a current product-specific legal check; ineligible brands must be excluded from Australian casino pages.
 
 All files remain HOLD / NOINDEX / NOT RATED; they are not final consumer reviews. No production deploy performed.
+
+
+## Big batch 22 — UK licence evidence
+
+Added 12 UK brand research workbenches and a README, using the UK Gambling Commission public register as the primary verification source. Each exact legal entity, domain and product-specific permission must be confirmed; brand familiarity or a related operator's licence is not sufficient.
+
+All workbenches remain HOLD / NOINDEX / NOT RATED. Offer terms, cashier, games, safety, image rights and editorial sign-off remain required before a final review or production release.
