@@ -1,126 +1,131 @@
-# Betway Spain — individual review draft
+# Betway Spain Review: Licence, Bonus Terms, Games and Withdrawals
 
-> **Editorial state: DRAFT / NOINDEX / NOT RATED.** Original BeInCasinos copy for editorial development, not a completed or independently tested review. Do not publish as a recommendation until release gates pass.
+> **Editorial status: HOLD / NOINDEX / NOT RATED.** This is an evidence-led review draft, not a completed hands-on test. Do not publish as a final recommendation until the live domain, current terms, user journey, image rights and independent editorial checks are complete.
 
-## SEO and page metadata
-- **SEO title:** Betway Spain Review: Licence, Bonus Terms and Payments
-- **Meta description:** An evidence-led Betway Spain review covering its DGOJ operator record, current offer terms, payment policies and player-protection checks.
+## SEO package
+
+- **SEO title:** Betway Spain Review: Licence, Bonuses and Withdrawals
+- **Meta description:** Evidence-led Betway Spain review covering the DGOJ operator record, casino licence scope, bonus terms, payment rules and player-protection checks.
 - **H1:** Betway Review for Spain
 - **Suggested URL:** /reviews/betway-spain/
-- **Search intent:** brand review, Spanish legal status, bonus conditions, payment and withdrawal rules, support and player protection.
-- **Robots:** noindex until all release gates pass.
-- **Structured data:** no AggregateRating or star-rating schema until a supported, visible score is approved.
+- **Primary intent:** Verify the Spanish operator and casino scope, then understand which bonus, payment, support and account-control facts remain to be checked.
+- **Robots:** NOINDEX until all release gates pass.
+- **Schema:** No rating, review count, offer or aggregate-rating markup unless it accurately reflects approved, visible and substantiated page content.
 
-## Quick facts
-| Field | Evidence status |
+## At a glance
+
+| Item | Evidence-led status |
 |---|---|
-| Brand | Betway |
-| Market | Spain |
-| Listed legal operator | BETWAY SPAIN, S.A. |
-| Listed domain | https://www.betway.es |
-| Regulator evidence | Official DGOJ operator directory; source below |
-| Current welcome offer | Not verified |
-| Wagering / expiry / max bet / max cashout | Not captured |
-| Payment methods / limits / fees | Not captured |
-| Withdrawal timing | Not tested |
+| Brand being reviewed | Betway |
+| Intended market | Spain |
+| Domain in the DGOJ record | https://www.betway.es |
+| Listed operator | BETWAY SPAIN, S.A. |
+| Primary regulator source | [DGOJ operator record](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores/betway-spain-sa) |
+| Casino-related permission evidence | DGOJ record lists “Black Jack”, “Ruleta” and “Máquinas de azar” among singular licences |
+| Current welcome promotion | Not verified |
+| Wagering and expiry | Not captured |
+| Payment methods, limits and fees | Not captured |
+| Withdrawal experience | Not tested |
 | Support response | Not tested |
-| Games / providers | Not independently inventoried |
-| Safer-gambling controls | Require live verification |
-| Editorial score | **NOT RATED** |
-| Last checked | 25 October 2026 — operator record checked; commercial terms not checked |
+| Current game catalogue / RTP | Not inventoried |
+| Image usage rights | Not cleared |
+| BeInCasinos rating | **NOT RATED** |
 
 ## Overview
-Betway's Spanish operator record is a starting point for verifying legal identity and product scope. It does not, by itself, tell readers whether a current bonus is good value or whether withdrawals arrive quickly. This draft leaves those findings open until dated terms and actual test records are collected.
 
-## Operator and licence evidence
-DGOJ lists BETWAY SPAIN, S.A., the betway.es domain and singular licences including blackjack, roulette and slots. Recheck the live register and exact product scope at publication time.
+The DGOJ record gives a primary-source starting point for checking Betway's Spanish legal entity and domain. It lists BETWAY SPAIN, S.A., the domain betway.es and singular licence categories including blackjack, roulette and machines of chance. This is relevant evidence for the operator/domain check, but it does not demonstrate that the current bonus is good value, that payments are fast, or that a customer will have a positive experience.
 
-**Primary source:** [DGOJ official operator register](https://www.ordenacionjuego.es/en/operadores-juego/operadores-licencia/operadores/betway-spain-plc). Reopen the live record at publication time, save the exact operator page and verify current licence categories. A regulator listing does not prove a positive customer experience, current bonus terms or fast withdrawals.
+BeInCasinos has not deposited money, requested a withdrawal or tested customer support for this draft. We therefore do not claim a payout speed, invent a bonus amount, list unverified cashier methods or assign a numerical rating. These are required checks, not gaps to be concealed with generic praise.
 
-## Bonus and terms review
-**Current offer: not verified.** No amount, free-spins count or headline value should appear until a dated official offer page and its full terms are saved.
+## Operator identity and Spanish market scope
 
-The editor must record eligibility; wagering requirement and balance it applies to; expiry; maximum bet; maximum cashout; excluded games/payment methods/countries; opt-in requirement; and withdrawal restrictions. If no current offer is available or terms cannot be verified, state that clearly rather than using an old promotion.
+**Primary evidence:** [DGOJ record for BETWAY SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/betway-spain-sa).
 
-## Payments and withdrawals
-No withdrawal test has been performed for this draft. Do not describe a method as “instant” or publish a payout-speed score without a dated test record.
+The regulator record lists betway.es as the domain associated with BETWAY SPAIN, S.A. Its singular licence categories include sports betting, other counterparty betting, horse-racing betting, blackjack, roulette and machines of chance. Before publication, re-open the live record and confirm the relevant casino categories and current domain, then compare the legal company named in the website terms.
 
-Record each method shown in the market-specific cashier, deposit and withdrawal limits, processing time, third-party transfer time, fees, supported currency, KYC requirements and conditions that can delay payout. Test results must state how many withdrawals were tested and their dates/methods. If a method cannot be tested, mark it **not tested**.
+A regulator listing is not a customer satisfaction rating. It cannot prove the quality of the cashier, availability of every advertised game, speed of a specific withdrawal or clarity of a promotion. If the live terms identify a different operator, or the domain/product scope cannot be reconciled with the official record, the page must remain on hold.
 
-## Games and fairness
-Capture a representative sample of game categories and providers shown to eligible customers, and check game RTP against each game's own published information. A provider logo alone does not prove the whole catalogue is available. No game inventory or RTP claim is made here.
+## Bonus terms and value
+
+**Current offer: not verified.** This review does not quote an amount or free-spin count because a dated official Spanish promotion and full terms have not been captured.
+
+A completed review must document eligibility, opt-in steps, minimum deposit, wagering requirement and its calculation base, game contribution, expiry, maximum bet, maximum cashout, excluded games, payment restrictions and consequences of cancelling a promotion or withdrawing early. State the source and date checked. If the offer cannot be verified, say so plainly rather than republishing an old promotion from a third-party site.
+
+A meaningful assessment should explain how restrictions affect a typical eligible reader, not merely repeat the headline. Do not call a promotion “best,” “risk-free” or “free money.”
+
+## Deposits, withdrawals and cashier clarity
+
+**No payment or withdrawal test has been performed.** Methods and limits must be verified in the current Spanish product and its terms. Do not assume that a method available in another Betway market is available in Spain.
+
+The editor needs to capture payment options, minimums and maximums, fees, supported currencies, conversion rules, identity-verification steps, operator processing policy and third-party settlement caveats. Separate “the operator says it processes within…” from a measured time to funds received. Do not promise an arrival time based on a policy maximum.
+
+If a real test is performed later, record the request date, method, amount band, verification status, operator approval and final receipt times, plus sample size and limitations. No such test is claimed here.
+
+For general comparison help, see [Online Casino Withdrawals: What to Check](../content-guides/online-casino-withdrawals-what-to-check.md).
+
+## Games, rules and RTP
+
+The regulator record includes casino-related categories, but it does not establish today's live catalogue. This draft does not assert a game count, provider list, live-casino availability or any particular RTP.
+
+Before release, inspect the Spanish product and record representative categories and titles. Verify any named provider or game in the live catalogue. Quote RTP only when supported by exact game/version information from a reliable source, and explain that theoretical RTP is not a promise about a player's individual results. Do not infer availability from a provider logo alone.
 
 ## Player protection, privacy and support
-Document where to find deposit/time/loss limits, self-exclusion, reality checks, account closure, age/identity controls, privacy notice and complaints escalation. Test support through an available channel and record date, question, wait time and response. These tests are outstanding.
 
-## Pros and cons — provisional editorial observations
-These observations concern the available evidence and review process, not a claim that the casino passed every test.
+The final review must locate and document the current controls for deposit/time/loss limits, time-outs, self-exclusion, account closure, identity verification, privacy requests and complaints. Describe only the features actually found and tested. A generic responsible-gambling statement is not enough.
 
-**Potential positives**
-- A regulator page identifies the operator and Spanish domain.
-- The regulator record includes casino-related licence categories such as blackjack, roulette and slots.
-- The planned review separates licence evidence from bonus and payment testing.
+Support remains untested. To describe service quality, the editor must use an available channel, record the question and date, measure the response process and preserve evidence without publishing private account information. Until then, do not use labels such as “excellent support” or claim a response time.
 
-**Limitations / open questions**
-- Current promotion and full conditions are not yet verified.
-- No withdrawal timings, payment fees or customer-support response have been tested for this review.
-- Usability, accessibility and privacy checks remain outstanding.
+## Provisional strengths and limitations
 
-## Scorecard
-| Category | Weight | Score | Evidence required |
+These points describe the evidence available, not a completed user-experience verdict.
+
+**What can be established from the current source**
+- The DGOJ record identifies BETWAY SPAIN, S.A. and lists betway.es.
+- The same record includes casino-related singular licence categories for blackjack, roulette and machines of chance.
+- The official record offers a primary-source check that can be revisited before publication.
+
+**What remains unknown**
+- Current promotion, complete restrictions and eligibility.
+- Current cashier methods, limits, fees and withdrawal rules.
+- Real withdrawal outcomes and support response.
+- Actual game catalogue, provider availability and game-specific RTP.
+- Mobile usability, accessibility, privacy journey and account-control operation.
+- Image source and usage permission.
+
+## Evidence-weighted scorecard
+
+| Dimension | Weight | Current status | Evidence needed before scoring |
 |---|---:|---|---|
-| Legal eligibility and operator identity | 25 | Pending | Current exact-domain/product licence check |
-| Bonus fairness | 15 | Pending | Dated live offer and full terms |
-| Payments and withdrawals | 15 | Pending | Current cashier policy and documented tests |
-| Games and fairness | 10 | Pending | Product catalogue and game-level sources |
-| Support and complaints | 10 | Pending | Dated support test and complaint route |
-| Usability and accessibility | 10 | Pending | Mobile/desktop test notes |
-| Privacy and account security | 10 | Pending | Current policies and security controls |
-| Evidence freshness | 5 | Pending | Source log and second-editor review |
-| **Total** | **100** | **NOT RATED** | Do not calculate while critical evidence is missing |
+| Legal eligibility and operator identity | 25 | Primary-source starting point; recheck before release | Current exact-domain and product-scope confirmation |
+| Bonus fairness and clarity | 15 | Pending | Dated official offer and complete terms |
+| Payments and withdrawals | 15 | Pending | Current cashier/terms; documented tests if performance is discussed |
+| Games and fairness information | 10 | Pending | Live catalogue and exact game-level sources |
+| Support and complaints | 10 | Pending | Tested support interaction and complaint route |
+| Usability and accessibility | 10 | Pending | Documented mobile/accessibility review |
+| Privacy and security | 10 | Pending | Current policies and verified account controls |
+| Evidence freshness | 5 | Partial | Recheck volatile facts immediately before publication |
 
-**Why there is no numeric score yet:** a number without bonus, cashier, product and practical test evidence would create false precision. This is an editorial hold, not a low or high casino score.
+**Overall score: NOT RATED.** Missing evidence is not a zero and must not be converted into a made-up score. No review stars or aggregate-rating schema should be shown for this draft.
 
-## FAQs for the final page
-### Is Betway licensed in Spain?
-The DGOJ operator directory lists the operator/domain association noted above. Confirm the live record, exact product scope and current status immediately before publication. Do not infer permissions for other countries or products.
+## FAQ
 
-### What bonus does Betway offer in Spain?
-The current offer has not been verified in this draft. Check the official market-specific page and full terms; do not rely on a third-party headline.
+### Is Betway listed by Spain's gambling regulator?
+The DGOJ record for BETWAY SPAIN, S.A. lists betway.es and casino-related licence categories including blackjack, roulette and machines of chance. Recheck the live record and website terms before publication.
 
-### How long do withdrawals take?
-No independent withdrawal test has been performed for this draft. Report published policy separately from measured outcomes.
+### What is Betway Spain's current casino bonus?
+Not verified in this draft. We need a dated official Spanish offer and its complete conditions before quoting a bonus.
 
-### Is Betway a good choice?
-This draft does not make a recommendation. Write a verdict only after the evidence checklist is complete and the score is independently checked.
+### How quickly does Betway pay withdrawals in Spain?
+No withdrawal test has been performed for this review, so we do not claim a specific time. Check current terms and distinguish operator processing from bank or payment-provider settlement.
 
-### What should players check before depositing?
-Read the legal notice, current bonus terms, withdrawal rules, identity-check policy and safer-gambling tools. Never gamble money needed for essential expenses; 18+ only, subject to local law.
+### Does BeInCasinos recommend Betway Spain?
+Not yet. This is a draft, not rated and not approved for publication. The evidence gaps above must be resolved first.
 
-## Images and review-card assets
-- **Hero:** create commissioned, brand-neutral editorial artwork or obtain documented permission for an official brand asset. No logo or screenshot rights are claimed.
-- **Logo:** use only an approved official press/brand asset or licensed logo; store source URL, rights basis, allowed uses and date in the asset register.
-- **Game imagery:** show only games confirmed in the reviewed market and current catalogue.
-- **Alt text:** describe the actual visual; do not stuff keywords.
-- **Technical:** responsive WebP/AVIF, fixed aspect ratio, compressed file, mobile crop check and no text baked into image.
-- **Current image status:** no brand image has been cleared for publication in this draft.
+## Sources and update record
 
-## Affiliate disclosure and editorial independence
-If the final page contains affiliate links, place a plain-language disclosure before or near the first commercial link. Commercial relationships must not affect score, verdict or ranking. Paid placements must be labelled and kept separate from editorial ranking.
-
-## Final release checklist
-- [ ] Recheck exact operator, domain and licence category in DGOJ.
-- [ ] Capture current official bonus terms or explicitly state no offer verified.
-- [ ] Capture current payment/withdrawal policy; distinguish policy from test results.
-- [ ] Complete games, support, privacy and safer-gambling checks.
-- [ ] Add reviewer and independent checker names, dates and evidence log.
-- [ ] Clear image rights and record assets.
-- [ ] Add affiliate disclosure and correction/contact route.
-- [ ] QA mobile layout, accessibility, speed, internal links and metadata.
-- [ ] Confirm visible score matches evidence; otherwise keep NOT RATED.
-- [ ] Remove NOINDEX only after editorial sign-off.
-
-## Draft verdict
-HOLD. A verified licence record is necessary, but not enough to justify a numerical recommendation. No bonus value or payout-speed claim is made.
-
-**Evidence policy:** source closest to each claim; record check dates; do not copy competitors' scores or findings. Unverified information must remain labelled unverified or be omitted.
+- **Primary regulator source:** [DGOJ — BETWAY SPAIN, S.A.](https://www.ordenacionjuego.es/operadores-juego/operadores-licencia/operadores/betway-spain-sa). Checked for this draft on 25 October 2026; re-open and confirm the live record before publication.
+- **Operator terms / offer / cashier:** Not yet captured.
+- **Hands-on testing:** Not performed.
+- **Image rights:** Not cleared.
+- **Last editorial status:** HOLD / NOINDEX / NOT RATED.
+- **Next required action:** Confirm the live domain and product scope; collect dated offer/cashier evidence; test the customer journey and support; clear image rights; obtain independent editorial approval.
