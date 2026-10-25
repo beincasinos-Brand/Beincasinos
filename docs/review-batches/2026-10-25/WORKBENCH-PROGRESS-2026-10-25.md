@@ -46,3 +46,10 @@ Only approved content can be considered for production. Do not publish internal 
 Added ten more Spain candidate workbenches in `review-drafts/big-batch-11/`: BacanaPlay, SlotStars, PrimeCasino, LuckyVegas, PlayKasino, MetalCasino, LunaCasino, SpinGenie, PlayUZU and Slingo Casino. The official DGOJ operator finder surfaced the corresponding domains as leads. The exact legal-entity entries and casino-specific permissions still need to be captured and checked; a domain appearing in the finder is not enough to mark a review verified.
 
 All ten remain **HOLD / NOINDEX / NOT RATED**. Current bonus terms, cashier and withdrawal evidence, games, support, player protection, image rights and editor approval remain pending. They are not approved reviews and are not being published or added to the sitemap.
+
+
+## Big batch 12 — Italy workbench scaffolds (not unique-brand additions)
+
+Added market-specific research scaffolds for Sisal, SNAI, Eurobet, GoldBet, Betsson, Unibet, 888casino, PokerStars Casino, Betway and Lottomatica. Several overlap with existing candidates elsewhere in the branch. These must not be counted as ten new unique brands. Exact ADM operator/concession entries and current product-specific permissions still need to be captured, followed by offer/cashier evidence, player-protection evidence, image rights and independent editorial review.
+
+**Release status remains unchanged:** these are internal drafts only, all HOLD / NOINDEX / NOT RATED. No new production pages, public sitemap entries or deployment resulted from this batch.
