@@ -116,5 +116,27 @@ class ReviewLedgerGateTests(unittest.TestCase):
         self.assertTrue(any("image rights are explicitly cleared" in message for message in gate.errors))
 
 
+    def test_aggregate_us_publication_is_blocked_even_with_other_fields_missing(self):
+        self.rows[0]["market_code"] = "US"
+        self.rows[0]["publication_status"] = "PUBLISHED"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("aggregate US market" in message for message in gate.errors))
+
+    def test_australia_publication_is_blocked_pending_legal_review(self):
+        self.rows[0]["market_code"] = "AU"
+        self.rows[0]["publication_status"] = "APPROVED_TO_PUBLISH"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("publication blocked for AU" in message for message in gate.errors))
+
+    def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
+        self.rows[0]["market_code"] = "CA"
+        self.rows[0]["publication_status"] = "LIVE"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("exact province and regulator authorisation" in message for message in gate.errors))
+
+
 if __name__ == "__main__":
     unittest.main()
