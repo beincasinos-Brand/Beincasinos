@@ -96,3 +96,10 @@ No deployment requested or performed.
 - ANJ and French government guidance say online casino games are not authorised in France; permitted online categories are narrower and separately regulated. The batch therefore blocks France-targeted casino acquisition pages rather than manufacturing a list of purportedly legal casino brands.
 - Follow-up work orders cover the France market exclusion, internal release gate, and separate legal review if an authorised product category is considered.
 - This does not count as ten completed reviews or add any scored brands. No public pages changed; no merge/deploy performed.
+
+
+## Batch 32 — 100-row ledger remediation audit (2026-10-25)
+- Added `docs/reviews/internal/big-batch-32-ledger-remediation-audit-2026-10-25.md`, generated from the current 100-row CSV snapshot.
+- Audit records row/column counts, score/HOLD/consumer-test/image-rights totals, market distribution, missing evidence-field counts and a strict remediation order.
+- This is an internal data-quality audit, not a brand verification or finished-review milestone. All publication holds remain in force until evidence, eligibility, rights, testing, independent review and editorial/legal sign-off pass.
+- No public pages changed; no merge/deploy performed.
