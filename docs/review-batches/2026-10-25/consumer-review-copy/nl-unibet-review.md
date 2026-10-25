@@ -2,6 +2,10 @@
 
 > **Editorial status: DRAFT / HOLD / NOINDEX / NOT RATED.** This is a market-specific reader-facing draft, not a recommendation or a claim of hands-on testing.
 
+## ## Dutch regulator evidence and market scope
+
+The Dutch regulator's current license register must be checked against the exact Unibet domain and legal operator before this page is approved. The relevant starting point is the [Kansspelautoriteit licence register](https://kansspelautoriteit.nl/register-licensees). A licence in Great Britain, Belgium or another country is not Dutch authorization. Recheck the exact operator entry and the permitted online product at publication; do not claim casino availability from the brand name alone.
+
 ## Quick verdict
 
 For a Netherlands review, Unibet must be checked as the Dutch product rather than assumed to share terms with similarly named sites in other countries.
