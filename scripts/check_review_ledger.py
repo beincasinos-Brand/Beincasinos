@@ -38,6 +38,7 @@ REQUIRED_COLUMNS = {
     "evidence_bundle_path",
 }
 PUBLISHABLE_STATES = {"APPROVED", "APPROVED_TO_PUBLISH", "PUBLISHED", "LIVE"}
+TARGET_MARKETS = {"AU", "CA", "GB", "US", "CH", "DE", "NL", "SE", "ES", "IT", "FR", "BE"}
 errors = []
 warnings = []
 
@@ -203,6 +204,23 @@ def check(ledger_path):
                 errors.append(f"{label}: publication blocked until image rights are explicitly cleared")
             if not re.search(r"second reviewer|independent review|editorial approval", row.get("blockers", ""), re.I):
                 warnings.append(f"{label}: publication state should cite independent-review/editorial approval evidence in blockers or the linked review record")
+    # Coverage diagnostics are warnings, not publication approval. US states and Canadian
+    # provinces roll up only for coverage counting; each row still needs its exact local gate.
+    represented_markets = set()
+    for row in rows:
+        code = row.get("market_code", "").strip().upper()
+        if code.startswith("US-"):
+            represented_markets.add("US")
+        elif code.startswith("CA-"):
+            represented_markets.add("CA")
+        elif code:
+            represented_markets.add(code)
+    missing_markets = sorted(TARGET_MARKETS - represented_markets)
+    if missing_markets:
+        warnings.append(
+            "target-market coverage gaps: " + ", ".join(missing_markets)
+            + "; absence is not evidence of market eligibility, and AU/FR online-casino acquisition remains gated"
+        )
     return len(rows)
 
 
