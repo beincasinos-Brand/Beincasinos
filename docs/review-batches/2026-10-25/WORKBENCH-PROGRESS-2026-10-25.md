@@ -60,3 +60,10 @@ Added market-specific research scaffolds for Sisal, SNAI, Eurobet, GoldBet, Bets
 Added ten Germany-specific research workbenches based on the GGL official whitelist as a starting source. The batch README records the key legal caveat: product category and geographic scope must be verified per exact entry, and a virtual-slots listing is not permission for every casino format nationwide. Tracker rows 43–52 were added as candidate-only records.
 
 The 10 files are not ten verified brands or finished reviews. All remain HOLD / NOINDEX / NOT RATED pending exact legal-entry capture, current terms, cashier evidence, player-protection checks, image rights and editorial sign-off. No deployment occurred.
+
+
+## Big batches 14–15 — Sweden and Netherlands
+
+Added 12 Sweden and 12 Netherlands candidate workbench files, plus a batch README, and added candidate rows 53–76 to the tracker. The candidate count is a queue count only: names may duplicate earlier markets, and a regulator homepage does not prove a specific brand/domain is authorised.
+
+**Release state:** no evidence-verified count increase is claimed. The new files remain HOLD / NOINDEX / NOT RATED. Current legal-entity/domain matches, bonus/cashier terms, safer-gambling evidence, image rights and independent editorial approval are still required. No deploy occurred.
