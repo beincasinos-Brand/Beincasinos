@@ -15,7 +15,7 @@
 Do not count a brand as “verified” because it is famous, has an affiliate programme, appears on a competitor site, or has a licence in another country. Do not count a market-specific dossier as a unique global brand. Count a review as complete only when its status is APPROVED or PUBLISHED.
 
 ## Current batch accounting
-- Market-specific workbench/dossier files in PR #169: 36
+- Market-specific review-draft Markdown files currently visible in PR #169: 162 (this is a file count, includes workbench scaffolds and does not equal unique brands or completed reviews).
 - Shared editorial, source-check and card specifications: separate files, not brands
 - Approved public reviews delivered by this batch: 0
 - Candidate names may repeat across markets; deduplicate by canonical brand and legal operator before calculating unique-brand progress.
@@ -85,3 +85,18 @@ These ten are added as distinct candidate names for tracking only. Regulator-rec
 
 ## Reporting rule
 Every progress update must distinguish (a) files created, (b) unique candidate brands, (c) evidence-verified brands, (d) approved reviews, and (e) published pages. These are different numbers. Never inflate one using another.
+
+## Additional candidates from batch 11 (candidate-only; no verification implied)
+
+| # | Candidate | Market | Status | Unique-brand / regulator check | Terms captured | Score evidence | Score | Image rights | Editor approval |
+|---:|---|---|---|---|---|---|---|---|---|
+| 33 | BacanaPlay | ES | HOLD | DGOJ finder is a starting point; exact current legal entity, domain and casino scope must be confirmed | Pending | Pending | NOT RATED | Pending | Pending |
+| 34 | SlotStars | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 35 | PrimeCasino | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 36 | LuckyVegas | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 37 | PlayKasino | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 38 | Metal Casino | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 39 | Luna Casino | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 40 | SpinGenie | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 41 | PlayUZU | ES | HOLD | Exact current DGOJ entry and product scope pending | Pending | Pending | NOT RATED | Pending | Pending |
+| 42 | Slingo | ES | HOLD | Confirm brand/domain and exact Spanish casino product scope; possible brand/product alias check required | Pending | Pending | NOT RATED | Pending | Pending |
