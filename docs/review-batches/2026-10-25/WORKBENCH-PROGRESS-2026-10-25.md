@@ -139,3 +139,14 @@ The canonical-name pass on the 100 numbered candidate rows produced 79 normalize
 ## Updated branch/PR accounting
 
 These six additions bring the PR's known file count from 411 to at least 417 after the batch. The review-draft Markdown count is at least 319. These are repository artifact counts, not completed-review counts. Approved reviews remain 0 confirmed; public production pages added by this work remain 0; no deployment was performed.
+
+
+## Additional canonical-brand dossiers — 2026-10-25
+
+Added six more brand-level evidence-gated dossiers for Casinia, Legiano, MrPunter, Binobet, Betscore and SGCasino. Each file explicitly marks the brand/domain/operator and market permissions as requiring confirmation, leaves bonus and payment claims unverified, withholds numeric scores, and blocks publication until current primary evidence, image rights and second-editor approval exist. Candidate official URLs are marked for live confirmation and must not be treated as verified sources until checked.
+
+This batch is research scaffolding rather than six approved reviews. No numeric score, hands-on test, current offer, or target-market authorization is claimed.
+
+## Updated branch/PR accounting
+
+The previous snapshot was 417 changed files / 319 review-draft Markdown files. Six new dossiers have been committed to this branch; refresh the PR file list before reporting a final count. The tracker currently confirms no approved reviews; no production pages or deployment are created by this batch.
