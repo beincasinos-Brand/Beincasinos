@@ -303,3 +303,9 @@ No deployment requested or performed.
 - These are operator/permit evidence leads, not full brand-domain verification. All seven remain HOLD / NOT SCORED; no domain status was promoted to VERIFIED. Exact domain/app mappings, current terms, bonuses, payments, safer-gambling, complaints, image rights, consumer tests and independent editorial review remain outstanding.
 - Sources: https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend ; https://kansspelautoriteit.nl/holland-casino-n-v ; https://kansspelautoriteit.nl/play-north-ltd ; https://kansspelautoriteit.nl/bingoal-nederland-b-v ; https://kansspelautoriteit.nl/hillside-plc ; https://kansspelautoriteit.nl/betent-b-v
 - No tests were executed; no workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 65 — Strict bonus-date validation (2026-10-25)
+- The ledger checker now validates the complete `bonus_checked_utc` value rather than accepting any string whose first ten characters look like a date. This prevents malformed trailing content from being accepted as a checked date.
+- Added a regression test for a bonus-check date with trailing non-date text. Test suite has not been executed, so the change is recorded but not runtime-verified.
+- Source-ledger review confirms the 100 candidate rows still require individual evidence and release review. No brand was promoted to VERIFIED, scored, or published in this batch. No workflow, merge or Cloudflare deployment was triggered.
