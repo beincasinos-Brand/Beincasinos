@@ -168,3 +168,10 @@ No deployment requested or performed.
 - These are domain-identity leads only, not complete casino product or current-licence clearance. The notes explicitly retain HOLD / NOT SCORED pending product-scope, terms, withdrawals, image rights, consumer testing and editorial approvals.
 - Official source: https://www.gamblingcommission.gov.uk/public-register/businesses — register states domain/trading-name data is supplied by businesses and may not be guaranteed accurate; row-level corroboration remains required.
 - No tests were run, and no PR merge, workflow or Cloudflare deployment was triggered.
+
+
+## Batch 43 — conflicting UKGC identity and product-scope flags (2026-10-25)
+- Slot 13 Stakemate now records a material regulator-register discrepancy: the trading name is Inactive under Bet Theory UK Ltd (account 60991) but Active under Bet Theory (Malta) Limited (account 66151). No official URL was guessed; exact GB operator/domain and casino permission remain unresolved.
+- Slot 86 PricedUp Casino now records that the UKGC register associates `pricedup.bet` with Off Course Bookmakers Limited (account 1776), but this alone does not establish casino-specific remote product scope. The candidate remains HOLD / NOT SCORED.
+- Evidence sources: https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/60991 ; https://www.gamblingcommission.gov.uk/public-register/business/detail/trading-names/66151 ; https://www.gamblingcommission.gov.uk/public-register/businesses/results?business-search=Pricedup&uc=true
+- These are risk flags, not completed reviews. No tests, merge, workflow or Cloudflare deployment were performed.
