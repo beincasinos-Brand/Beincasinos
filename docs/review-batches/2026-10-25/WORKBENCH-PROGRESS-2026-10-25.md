@@ -1,65 +1,41 @@
 # Review workbench progress — 25 October 2026
 
-This is an internal progress record, not a claim of 100 completed reviews.
+This is an internal accounting record. Draft files are not automatically verified, publish-ready reviews or approved recommendations.
 
-## Work performed in this continuation
+## Work completed in this continuation
 
-Added market-specific research workbenches under:
-- `docs/review-batches/2026-10-25/review-drafts/big-batch-05/`
-- `docs/review-batches/2026-10-25/review-drafts/big-batch-06/`
+Added 15 Spain-focused workbenches in:
+- `review-drafts/big-batch-09/` — 10 files
+- `review-drafts/big-batch-10/` — 5 files
+- `review-drafts/big-batch-09-10/README.md` — batch notes
 
-Successfully created in big-batch-05: 22 files including the batch README (21 individual candidate workbenches).  
-Successfully created in big-batch-06: 6 individual candidate workbenches.  
-Total successfully created in this continuation: 28 files (27 individual candidate workbenches plus one batch README).  
-Two additional candidate writes were blocked by safety checks in big-batch-05 and two in big-batch-06; they are not counted as created.
+Candidates: VideoSlots, Monopoly Casino, PokerStars Casino (Spain), William Hill (Spain), Winamax (Spain), 888casino (Spain), Platin Casino, Fuego Casino, AdmiralBet, Betfred (Spain), Luckia, Casino Barcelona, Jokerbet, Versus and 1xBet.
 
-## New candidate workbenches in this continuation
+For these 15, official DGOJ operator records/search pages were used as primary-source starting points for operator/domain and product-permission research. The current customer offer, cashier, withdrawal performance, game catalogue, support, image permissions and hands-on experience remain unverified. These files remain HOLD / NOINDEX / NOT RATED.
 
-- Bet365 — Great Britain
-- Sky Vegas — Great Britain
-- QuinnBet — Great Britain
-- BetVictor Casino — Great Britain
-- Ladbrokes Casino — Great Britain
-- Coral Casino — Great Britain
-- Gala Casino — Great Britain
-- Betway — Ontario, Canada
-- BetMGM — Michigan, USA
-- OLG.ca — Ontario, Canada
-- Swiss Casinos — Switzerland
-- Winamax — France
-- Napoleon — Belgium
-- Lottomatica — Italy
-- Unibet — Netherlands
-- Grosvenor Casinos — Great Britain
-- Mr Green — Great Britain
-- Paf — Sweden
-- Jack's Casino Online — Netherlands
-- Betsson — Italy
-- 888casino — Italy
-- Betfred Casino — Great Britain
-- DraftKings Casino — Michigan, USA
-- Caesars Palace Online Casino — Michigan, USA
-- FanDuel Casino — Ontario, Canada
-- Caesars Casino — Ontario, Canada
-- Jackpot City — Ontario, Canada
-- PlayOJO — Great Britain
+## Branch/PR accounting snapshot
 
-## What these files are — and are not
+At the time of this update, PR #169 contains:
+- **236 changed files** across editorial systems, evidence docs and review workbenches.
+- **140 Markdown files** under the review-drafts tree.
+- **125 files matching the review-draft filename pattern**; this is a file count, not a unique-brand count.
+- **0 approved publish-ready reviews confirmed by this progress record.**
+- **0 new production pages published by this continuation.**
+- **0 deployments performed by this continuation.**
+- **0 public sitemap changes made by this continuation.**
 
-Every new workbench is labelled HOLD / NOT RATED / NOINDEX. Each contains a market-specific eligibility gate, regulator starting point, SEO metadata, bonus and withdrawal evidence checklist, game/fairness checks, safer-gambling/privacy/support checks, weighted scorecard, FAQ research queue, image rights and internal-link requirements, and release checklist.
+These counts must not be read as 100 completed reviews. Multiple files refer to the same brand in different countries, and some candidates may not pass legal/product eligibility or unique-brand checks.
 
-These are not yet publish-ready reviews. Candidate identity, exact current domain, legal operator, licence scope, official terms, payment evidence, image permissions and independent editorial approval still need to be verified. No fabricated bonus, payout speed, score, hands-on testing, or affiliate relationship is claimed.
+## Release criteria for each of the 100 reviews
 
-## Honest completion accounting
+A review counts toward the target only when all of the following are true:
+1. A distinct canonical brand and legal operator are identified; cross-market aliases are deduplicated.
+2. The exact target-market domain and current product-specific authorisation are verified against the regulator.
+3. Current official bonus terms, cashier/withdrawal rules, game catalogue, player protections, privacy, support and complaint routes are captured.
+4. Every factual claim is sourced and dated; unknown facts remain unknown.
+5. Original/appropriately licensed images and alt text are documented.
+6. A weighted score is justified by evidence; no fabricated score or hands-on testing is claimed.
+7. Affiliate/commercial relationships are disclosed accurately.
+8. Independent editorial approval and mobile publication QA are complete.
 
-- Newly created workbench files in this continuation: **40**
-- Newly created batch README files in this continuation: **2**
-- Verified unique brands from these new workbenches: **not yet established** (same brand may have market-specific variants; deduplicate by canonical brand and legal operator).
-- Evidence-verified brands from this continuation: **0**
-- Approved publish-ready reviews from this continuation: **0**
-- Newly published production pages from this continuation: **0**
-- Additional big-batch-08 workbenches: EnergyCasino (GB), Casumo (GB/ES), Virgin Games (GB), Betsson (SE), Unibet (SE), PokerStars Casino (IT), Betway (BE), Casino777 (BE), Winamax (ES).
-- Deployment: **none**
-- Public sitemap changes: **none**
-
-Do not add these internal files to the public sitemap. Keep them out of production until the evidence and editorial release gates are complete. A 100-review target is achieved only when the tracker lists 100 distinct eligible brands, each review is evidence-complete and approved, and publication QA is complete—not when 100 draft files exist.
+Only approved content can be considered for production. Do not publish internal workbench files or add them to the public sitemap. No claim is made that the 100-review target has been met.
