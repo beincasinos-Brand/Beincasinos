@@ -157,7 +157,7 @@ def check(ledger_path):
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
         state = row.get("publication_status", "").strip().upper()
-        is_publishable = bool(re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\\b|\\s|$)", state))
+        is_publishable = state.split(" —", 1)[0].strip() in PUBLISHABLE_STATES
 
         # Market scope is an independent release gate: a populated brand record is not
         # proof that online casino acquisition is lawful in every country or sub-jurisdiction.
