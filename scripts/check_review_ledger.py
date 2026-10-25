@@ -157,7 +157,27 @@ def check(ledger_path):
                     errors.append(f"{label}: {field} must start with an ISO date (YYYY-MM-DD)")
 
         state = row.get("publication_status", "").strip().upper()
-        if re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\b|\s|$)", state):
+        is_publishable = bool(re.match(r"^(APPROVED|APPROVED_TO_PUBLISH|PUBLISHED|LIVE)(?:\\b|\\s|$)", state))
+
+        # Market scope is an independent release gate: a populated brand record is not
+        # proof that online casino acquisition is lawful in every country or sub-jurisdiction.
+        if is_publishable:
+            if market in {"AU", "FR"}:
+                errors.append(f"{label}: publication blocked for {market}; online-casino acquisition scope is excluded pending qualified legal review")
+            if market == "US":
+                errors.append(f"{label}: publication blocked for aggregate US market; exact state-level authorisation is required")
+            if market == "CA":
+                errors.append(f"{label}: publication blocked for aggregate CA market; exact province and regulator authorisation are required")
+            if market == "BE" and not row.get("official_register_url", "").strip():
+                errors.append(f"{label}: Belgium publication requires the exact Belgian Gaming Commission register entry")
+            if market == "SE" and not row.get("official_register_url", "").strip():
+                errors.append(f"{label}: Sweden publication requires the exact regulator register entry")
+            if market == "ES" and not row.get("official_register_url", "").strip():
+                errors.append(f"{label}: Spain publication requires the exact DGOJ register entry")
+            if market == "IT" and not row.get("official_register_url", "").strip():
+                errors.append(f"{label}: Italy publication requires the exact ADM register entry")
+
+        if is_publishable:
             required = (
                 "official_url", "legal_entity", "regulator", "official_register_url",
                 "terms_url", "withdrawals_url", "complaints_url",
