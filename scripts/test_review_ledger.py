@@ -46,6 +46,9 @@ def sample_rows():
             "consumer_test_status": "NOT PERFORMED",
             "affiliate_disclosure_status": "NOT REVIEWED",
             "evidence_bundle_path": "",
+            "domain_verification_status": "UNVERIFIED — exact brand/domain match not fully reviewed",
+            "domain_verified_utc": "",
+            "domain_evidence_url": "",
         })
     return rows
 
@@ -148,6 +151,21 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("target-market coverage gaps" in message for message in gate.warnings))
         self.assertFalse(any("target-market coverage gaps" in message for message in gate.errors))
+
+    def test_publishable_row_requires_dated_exact_domain_evidence(self):
+        self.rows[0]["publication_status"] = "PUBLISHED"
+        self.rows[0]["domain_verification_status"] = "UNVERIFIED"
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("publication requires VERIFIED exact brand/domain identity" in message for message in gate.errors))
+
+    def test_verified_domain_requires_date_and_https_evidence(self):
+        self.rows[0]["domain_verification_status"] = "VERIFIED"
+        self.rows[0]["domain_verified_utc"] = ""
+        self.rows[0]["domain_evidence_url"] = ""
+        self.write()
+        gate.check(self.path)
+        self.assertTrue(any("VERIFIED domain identity requires" in message for message in gate.errors))
 
     def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
         self.rows[0]["market_code"] = "CA"
