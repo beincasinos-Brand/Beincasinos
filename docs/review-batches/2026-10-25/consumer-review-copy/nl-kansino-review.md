@@ -3,6 +3,10 @@
 **Editorial status:** Draft for review · **Score:** NOT RATED · **Evidence checkpoint:** 25 October 2026  
 **Market:** Netherlands only · **Domain lead:** https://www.kansino.nl
 
+## ## Dutch regulator evidence and market scope
+
+Before recommending Kansino to a Dutch reader, match the exact domain and operator to the current [Kansspelautoriteit register](https://kansspelautoriteit.nl/register-licensees). The regulator's Play North entry is a starting point: https://kansspelautoriteit.nl/play-north-ltd. Recheck the current record and the exact product scope; an old search result or a foreign licence is not sufficient evidence.
+
 ## Executive overview
 
 This BeInCasinos review examines Kansino within the named market, not as a universal international casino. The first step is matching the current consumer domain to the legal operator and the regulator's exact activity record. The regulator source currently captured for this research is the Kansspelautoriteit.
