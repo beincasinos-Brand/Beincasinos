@@ -237,3 +237,15 @@ All ten remain HOLD / NOT RATED / NOINDEX pending a live capture of the exact op
 - No deploy or public sitemap change was made. The public reviews directory page currently says no casino profiles are scored or ranked, so publishing these internal dossiers directly would contradict the site's visible editorial status.
 
 Competitor benchmark source checks: Casino.org's current review page describes a 25-step methodology, including licence checks, bonus terms, game selection and payment tests; its separate methodology page explains evidence-based scoring and first-hand payout measurement. BeInCasinos must not claim to have done those real-money tests unless they are actually performed and documented. Sources: https://www.casino.org/reviews/ and https://www.casino.org/how-we-rate/.
+
+
+## Consumer-facing review copy conversion batch — 2026-10-25
+
+Per owner direction, work shifted from expanding research dossiers to writing consumer-facing review copy based on existing regulator evidence. Added **28 new substantive review-copy drafts** in `docs/review-batches/2026-10-25/consumer-review-copy/`:
+- Spain: 8 successful drafts (Casino Barcelona, Codere, PokerStars Casino, Betway Spain, Monopoly Casino, AdmiralBet, Betfred Spain, GoldenPark). Two create attempts (Luckia and Sportium) were blocked by the GitHub tool safety layer and are not counted.
+- Great Britain and Netherlands: 9 successful drafts (888casino, Ladbrokes, William Hill, bet365, Mr Green, TOTO, Holland Casino Online, Kansino, Bingoal). Coral create attempt was blocked and is not counted.
+- Ontario: 11 successful drafts (Bet99, Betway, Betinia, Swiper, ToonieBet, Jackpot City, Royal Vegas, Ruby Fortune, Spin Casino, Casino Time, NorthStar Bets). BetVictor create attempt was blocked and is not counted.
+
+These are now narrative consumer-review drafts with overview, regulator context, bonus terms, payments/withdrawals, games, player protection, evidence-based pros/cons, score/decision, FAQs and publication checklist. They explicitly withhold ratings and current bonus/payout claims when the evidence packet does not contain the needed dated facts. They are **not yet approved production pages**; a draft is not the same as a completed review. No public sitemap entries or deployment were made.
+
+Next work is to expand the same consumer-copy standard to the remaining candidates, capture first-party offer/cashier/policy evidence for each page, commission or clear image rights, then complete the scorecard and publication QA. Do not label 100 as complete until 100 distinct brands have complete evidence and approval records.
