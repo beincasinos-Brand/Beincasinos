@@ -5,6 +5,7 @@ This is a conservative structural gate, not a regulator lookup or a review.
 Run from the repository root: python3 scripts/check_review_ledger.py
 """
 import csv
+import math
 import re
 import sys
 from datetime import date
@@ -106,6 +107,9 @@ def check(ledger_path):
                 score = float(raw)
             except ValueError:
                 errors.append(f"{label}: {field} must be blank or numeric, got {raw!r}")
+                continue
+            if not math.isfinite(score):
+                errors.append(f"{label}: {field} must be finite, got {raw!r}")
                 continue
             if not 0 <= score <= maximum:
                 errors.append(f"{label}: {field}={score:g} is outside 0–{maximum}")
