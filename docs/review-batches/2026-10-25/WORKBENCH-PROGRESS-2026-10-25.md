@@ -67,3 +67,10 @@ The 10 files are not ten verified brands or finished reviews. All remain HOLD / 
 Added 12 Sweden and 12 Netherlands candidate workbench files, plus a batch README, and added candidate rows 53–76 to the tracker. The candidate count is a queue count only: names may duplicate earlier markets, and a regulator homepage does not prove a specific brand/domain is authorised.
 
 **Release state:** no evidence-verified count increase is claimed. The new files remain HOLD / NOINDEX / NOT RATED. Current legal-entity/domain matches, bonus/cashier terms, safer-gambling evidence, image rights and independent editorial approval are still required. No deploy occurred.
+
+
+## Big batches 16–17 — Belgium and France
+
+Added 12 Belgium candidate workbenches and 12 France product-eligibility research files. Tracker rows 77–100 now record these as candidate-only. Names may overlap earlier dossiers and must be deduplicated; these 24 files do not equal 24 new unique verified brands.
+
+**Critical legal gate:** France's legal online gambling categories are limited; the workbench requires product-specific ANJ verification and exclusion of unauthorised online casino products. Belgium candidates require current licence-class/operator/domain matching. All remain HOLD / NOINDEX / NOT RATED until evidence, rights checks and independent editorial approval are complete. No deployment occurred.
