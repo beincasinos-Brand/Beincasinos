@@ -20,9 +20,21 @@ Casea needs a jurisdiction-specific check before it can be recommended. The doma
 | BeInCasinos score | **NOT RATED — evidence gate incomplete** |
 | Publication status | **HOLD** |
 
-## What the available evidence says
+## Evidence-based findings
 
-Operator terms have identified Casea Entertainment N.V. and referenced CIL #365/JAZ. The terms have also described a €10 minimum deposit, withdrawals stated as 0–3 business days subject to verification, and generally 35× wagering within a 21-day period. These details need to be checked against the live terms and current regulator records; operator-published processing estimates are not independently tested payout times.
+The indexed operator terms identify **Casea Entertainment N.V.** and refer to **CIL #365/JAZ**. They describe a €10 minimum deposit, withdrawals stated as 0–3 business days subject to verification, and generally 35× wagering within a 21-day period. Treat these as operator-published statements from the indexed terms—not independent verification of the licence, a guaranteed payout time or proof of authorization in any target country.
+
+- **Operator identity:** Confirm the legal entity and exact domain in the live footer and current regulator record.
+- **Licence reference:** Independently confirm the reference, regulator, validity and product scope before describing the service as licensed. Do not rely on the operator's wording alone.
+- **Minimum deposit:** The €10 figure needs a live cashier/terms check and may vary by payment method or currency.
+- **Withdrawal expectations:** The 0–3 business-day statement is subject to verification and is not a tested end-to-end bank receipt time.
+- **Bonus commitment:** A general 35× / 21-day description is not a substitute for a specific promotion's complete conditions, game contribution rates, maximum bet, expiry and withdrawal cap.
+
+Source lead: [Casea terms](https://caseawin.com/terms/). Capture the live terms, regulator record and access date before publication.
+
+## Reader-facing verdict
+
+The useful question for Casea is not just whether it advertises a bonus, but whether its exact legal operator and product are permitted where the reader lives, and whether the wagering and withdrawal rules are transparent. Until the domain/licence match, current promotion and full payment terms are independently checked, the review remains unscored and should not recommend a deposit.
 
 ## Bonus terms: what to check
 
