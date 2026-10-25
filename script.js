@@ -20,4 +20,26 @@
     });
   }
   document.querySelectorAll('[data-year]').forEach(el => { el.textContent = String(new Date().getFullYear()); });
+
+  const reviewSearch = document.querySelector('#review-search');
+  const reviewMarket = document.querySelector('#review-market');
+  const reviewGrid = document.querySelector('#review-product-grid');
+  if (reviewSearch && reviewMarket && reviewGrid) {
+    const cards = Array.from(reviewGrid.querySelectorAll('.review-product-card'));
+    const count = document.querySelector('#review-results-count');
+    const update = () => {
+      const query = reviewSearch.value.trim().toLocaleLowerCase();
+      const market = reviewMarket.value;
+      let shown = 0;
+      cards.forEach(card => {
+        const matches = (!query || (card.dataset.search || '').includes(query)) &&
+          (!market || card.dataset.market === market);
+        card.hidden = !matches;
+        if (matches) shown += 1;
+      });
+      if (count) count.textContent = shown + (shown === 1 ? ' profile' : ' profiles');
+    };
+    reviewSearch.addEventListener('input', update);
+    reviewMarket.addEventListener('change', update);
+  }
 })();
