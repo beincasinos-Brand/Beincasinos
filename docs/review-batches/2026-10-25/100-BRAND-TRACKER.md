@@ -200,3 +200,16 @@ The recent batches contain structured research scaffolds and legal/product eligi
 8. Run production build and preview checks before the first deploy; verify canonical URLs, robots, sitemap, redirects and noindex behavior.
 
 **Release decision at this checkpoint: NOT READY for production deploy.** Do not treat file count or candidate count as completion.
+
+
+## Canonical-name deduplication checkpoint — 2026-10-25
+
+A normalized-name pass over the 100 numbered candidate rows produced **79 exact-name groups**, meaning 21 rows are repeats by case/punctuation-insensitive name normalization. This is an automated first pass, not final alias resolution; it can still miss related aliases and product variants. The detailed table is in `CANONICAL-BRAND-DEDUPLICATION-REGISTRY.md`.
+
+- Candidate rows: 100
+- Exact-name groups after normalization: 79
+- Unique verified brands: 0 confirmed
+- Approved reviews: 0 confirmed
+- Published reviews: 0 confirmed
+
+This corrects any possible impression that 100 candidate rows equal 100 distinct, verified brands. Do not fill the remaining count with unverified aliases just to reach a headline number.
