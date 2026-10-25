@@ -226,6 +226,19 @@ class ReviewLedgerGateTests(unittest.TestCase):
         gate.check(self.path)
         self.assertTrue(any("domain_verification_status must be one of" in message for message in gate.errors))
 
+    def test_non_finite_rubric_component_scores_are_rejected(self):
+        for invalid_score in ("nan", "inf", "-inf"):
+            with self.subTest(invalid_score=invalid_score):
+                gate.errors.clear()
+                gate.warnings.clear()
+                for field, maximum in gate.SCORE_LIMITS.items():
+                    self.rows[0][field] = str(maximum)
+                self.rows[0]["score_licence_20"] = invalid_score
+                self.rows[0]["overall_score_100"] = "100"
+                self.write()
+                gate.check(self.path)
+                self.assertTrue(any("score_licence_20 must be finite" in message for message in gate.errors))
+
     def test_ontario_scope_is_not_treated_as_nationwide_canada(self):
         self.rows[0]["market_code"] = "CA"
         self.rows[0]["publication_status"] = "LIVE"
