@@ -13,12 +13,12 @@ Current domain/operator/product scope must match official regulator evidence. Do
 - **SEO brief:** “Wheel of Fortune Casino Review (New Jersey)” only after identity and current product are verified.
 - **Decision:** HOLD; no score.
 
-## 82. FireKeepers Casino — Michigan (US-MI)
-- **Domain:** https://www.igaming.firekeeperscasino.com/
-- **Operator lead:** Nottawaseppi Huron Band of the Potawatomi; exact contracting entity/platform role to verify.
+## 82. Four Winds Casino — Michigan (US-MI)
+- **Domain:** https://play.fourwindscasino.com/en/casino
+- **Operator lead:** Pokagon Band of Potawatomi Indians; exact customer-contracting entity/platform role to verify.
 - **Source:** https://www.michigan.gov/mgcb/internet-gaming-and-fantasy-contests/authorized-online-gaming-and-sports-betting-platform-providers-in-michigan
 - **Required:** Reconcile current domain, tribe/casino, platform provider and player-contracting entity; capture terms/bonus, deposits/withdrawals, fees/limits/verification, complaints/ADR, responsible play/self-exclusion, privacy/cookies, accessibility, enforcement and image rights.
-- **SEO brief:** “FireKeepers Casino Review for Michigan Players” after exact entity mapping.
+- **SEO brief:** “Four Winds Casino Review for Michigan Players” after exact entity mapping.
 - **Decision:** HOLD; no score.
 
 ## 83. Lord Lucky — Germany (DE)
