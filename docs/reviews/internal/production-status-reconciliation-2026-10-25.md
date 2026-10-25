@@ -53,3 +53,9 @@ No deployment requested or performed.
 - Added `docs/compliance/market-gates/belgium-online-casino-market-gate-2026-10-25.md`.
 - Belgium-facing casino affiliate pages remain HOLD until the exact domain, operator and casino licence category are verified against the current Belgian Gaming Commission register. Foreign licences alone are not sufficient evidence of Belgian authorisation.
 - This is a compliance gate, not a brand-count batch; no unverified names or bonus claims added. No merge/deploy performed.
+
+
+## Batch 25 — Italy ADM (2026-10-25)
+- Added `docs/reviews/internal/big-batch-25-italy-adm-ten-domain-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-25-italy-ten-review-work-orders-2026-10-25.md`.
+- Ten candidate domains and concessionaire leads were taken from the official ADM remote-gambling concessionaire register; exact current product scope and legal terms still require row-level verification.
+- All ten HOLD / NOT SCORED. No bonus claims, withdrawal tests, image rights or consumer tests are asserted. No merge/deploy performed.
