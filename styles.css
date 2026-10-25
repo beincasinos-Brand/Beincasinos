@@ -161,3 +161,49 @@ body{background:#050606;color:#f6f3eb;line-height:1.55}a:hover{color:#ffd34d}.wr
  .footer-bottom{align-items:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.site-header .nav-links a{transition:none}}
+
+
+/* Premium review-directory system: high contrast, accessible controls, responsive cards */
+body .review-directory-section{background:radial-gradient(ellipse at 80% 0%,#211906 0,transparent 45%),linear-gradient(180deg,#090a08,#11120f);border-top:1px solid #46350d;border-bottom:1px solid #46350d}
+body .review-directory-heading h2{color:#fff7e2}
+body .review-directory-lede{color:#c9c1ae}
+body .review-count-panel{background:linear-gradient(145deg,#19160c,#0b0c09);border:1px solid #b58a29;box-shadow:0 12px 30px #0006}
+body .review-count-panel strong{color:#ffdb6d}
+body .review-count-panel span{color:#fff4d4}
+body .review-count-panel small{color:#c7b994}
+body .review-filter-bar{background:#11120f;border-color:#57451d;box-shadow:0 10px 28px #0005}
+body .review-search-label,body .review-market-label{color:#e5d8b6}
+body .review-search-label input,body .review-market-label select{background:#070807;border-color:#6c5622;color:#fff5d9;min-height:46px}
+body .review-search-label input::placeholder{color:#b7ad96}
+body .review-results-count{color:#f1d27b}
+body .review-rating-note{background:#1b1608;border-color:#947020;color:#f3e5be}
+body .review-rating-note-icon{background:#4a3710;color:#ffdf75}
+body .review-product-card{background:linear-gradient(155deg,#171813,#0c0d0b);border-color:#57451e;box-shadow:0 10px 28px #0006;color:#f5f0e3}
+body .review-product-card:hover{border-color:#d2a83b;box-shadow:0 16px 34px #0008}
+body .review-card-art{background:#111009}
+body .review-card-art:after{background:linear-gradient(90deg,rgba(7,8,6,.8),rgba(7,8,6,.05) 85%),linear-gradient(0deg,rgba(7,8,6,.82),transparent 55%)}
+body .review-card-monogram{background:linear-gradient(145deg,#3a2b0b,#080907);border-color:#e1bd58;color:#ffe49a}
+body .review-card-art-label{color:#ffdf83}
+body .review-card-market{color:#fff9e8}
+body .review-card-heading h2{color:#fff4d7}
+body .review-card-heading h2 a:hover{color:#ffda64}
+body .review-status-pill{background:#211a08;border-color:#977323;color:#ffdf83}
+body .review-card-summary{color:#d1c9b8}
+body .review-card-metrics{background:#0b0c09;border-color:#51421e}
+body .review-card-metrics>div+div{border-left-color:#51421e}
+body .review-card-metrics span{color:#c2b799}
+body .review-card-metrics strong{color:#f5d77e}
+body .review-card-foot{color:#b7ad96}
+body .review-card-cta{background:linear-gradient(180deg,#ffe37c,#e7b52d);color:#171106;border:1px solid #ffe17a}
+body .review-card-cta:hover{background:linear-gradient(180deg,#fff0a5,#f4c743);color:#090805}
+body .review-no-results{background:#11120f;border-color:#7e6529;color:#f0e2bf}
+body .review-directory-section :focus-visible{outline-color:#ffdf6e}
+@media(max-width:600px){
+ body .review-filter-bar{grid-template-columns:minmax(0,1fr);gap:12px;padding:13px}
+ body .review-results-count{padding:0;white-space:normal}
+ body .review-product-grid{grid-template-columns:minmax(0,1fr);gap:14px}
+ body .review-card-art{height:138px}
+ body .review-card-body{padding:15px}
+ body .review-card-summary{min-height:0}
+ body .review-card-cta{min-height:44px}
+}
