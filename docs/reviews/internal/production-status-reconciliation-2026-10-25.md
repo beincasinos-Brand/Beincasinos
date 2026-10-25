@@ -146,3 +146,9 @@ No deployment requested or performed.
 - Added structural register-link gates for publishable BE/SE/ES/IT rows and regression tests in `scripts/test_review_ledger.py`.
 - These checks do not prove live regulator status; exact domain/operator/product matching still needs human verification. Portfolio remains HOLD / NOT SCORED.
 - Added `docs/reviews/internal/big-batch-39-jurisdiction-publication-gates-2026-10-25.md`. Tests were not run in-session; no Actions workflow, merge, or deployment was triggered.
+
+
+## Batch 40 — regulator-backed US domain resolution (2026-10-25)
+- Updated four blank ledger `official_url` fields for slots 75 Monopoly Casino (US-NJ), 76 Horseshoe Casino (US-NJ), 77 Fanatics Casino (US-NJ), and 80 Mohegan PA Casino (US-PA), using domains listed on official state regulator pages.
+- Sources: New Jersey DGE Internet Gaming Sites (https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/) and Pennsylvania Gaming Control Board Interactive Gaming Operators (https://gamingcontrolboard.pa.gov/interactive-gaming-operators) plus its current authorised-site PDF (updated 2026-02-13).
+- Domain matches alone do not complete identity/legal-entity matching or review requirements. All four rows remain HOLD / NOT SCORED; no public pages changed, no Actions workflow, merge, or deployment performed.
