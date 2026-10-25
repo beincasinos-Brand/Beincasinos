@@ -374,3 +374,11 @@ No deployment requested or performed.
 - Cross-checked slot 62 (Kong Casino): UKGC's Jumpman Gaming Limited register lists `kongcasino.com` as White Label, not Active. Kept its domain state UNVERIFIED; current contracting-operator relationship still needs terms evidence.
 - Added the UKGC's 20 Aug 2026 QuinnBet enforcement notice to slot 60's `regulatory_actions_url`. The notice states a £609,104 settlement after AML and social-responsibility control failures; treat it as material due diligence, not as a fabricated score or claim about current customer outcomes.
 - No tests run, no merge, no workflow run, and no deployment performed.
+
+
+## Big Batch 73 — multi-domain official register pass (2026-10-25)
+- Added `docs/reviews/internal/big-batch-73-ukgc-multi-domain-verification-and-white-label-boundaries-2026-10-25.md`.
+- Recorded four exact Active domain matches in the ledger, each dated 2026-10-25: Betty Casino (`playbetty.co.uk`, Betty Gaming (Malta) Limited, account 100695); FruitKings (`fruitkings.com`), Peachy Games (`peachygames.com`), and Play Sunny (`playsunny.co.uk`) under Solaya Group Limited, account 100050.
+- Reconfirmed White Label distinctions for Kong Casino (Jumpman Gaming), 247Bet/Casiku (White Hat Gaming), and seven Anakatech Interactive domains; these were not promoted to VERIFIED. Midnite remains ambiguous due to two matching licensee records.
+- Every new domain-verified row remains HOLD / NOT SCORED; no consumer-review or publication claims added.
+- No tests run, no merge, no workflow run, and no deployment performed.
