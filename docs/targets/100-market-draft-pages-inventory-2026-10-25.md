@@ -46,3 +46,10 @@ The sum is a file inventory, not a unique-brand count. Market-specific pages mus
 - [First 20 evidence-completion dossiers PR #164](https://github.com/beincasinos-Brand/BeIncasinos/pull/164)
 
 **Release decision:** HOLD. These pages are internal work-in-progress, not 100 approved reviews. Do not merge/deploy production or enable indexing on this inventory alone.
+
+
+## File-count and sample-structure verification — 25 October 2026
+
+- Queried the changed-file lists for all 16 page PRs; their `drafts/reviews/*/index.html` counts sum to exactly **100** (40 GB, 7 IT, 8 Ontario, 4 SE, 4 NL, 4 US-NJ, 4 DE, 21 BE and 8 ES).
+- Checked five representative pages across different branches (Mecca Games GB, BetMGM Ontario, 32Red GB, Casino Magic Belgium, Lottomatica Italy): each fetch succeeded and had exactly one `<title>`, one `<h1>`, and one `noindex,nofollow` robots meta tag.
+- This was a sample structure check, not a full HTML/link/accessibility/terms audit. GitHub Actions and full browser checks remain unconfirmed; do not claim a successful CI run.
