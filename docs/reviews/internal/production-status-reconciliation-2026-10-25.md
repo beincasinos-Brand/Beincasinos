@@ -77,3 +77,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-28-pennsylvania-ten-additional-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-28-pennsylvania-ten-additional-review-work-orders-2026-10-25.md`.
 - Candidates are drawn from the PGCB official Interactive Gaming Operators page; each exact PA domain/operator/product relationship still requires current row-level and first-party verification.
 - All ten HOLD / NOT SCORED pending terms, payment/withdrawal evidence, safer-gambling and complaint checks, image rights, consumer testing and independent review. No merge/deploy performed.
+
+
+## Batch 29 — New Jersey ten additional platforms (2026-10-25)
+- Added `docs/reviews/internal/big-batch-29-new-jersey-ten-additional-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-29-new-jersey-ten-additional-review-work-orders-2026-10-25.md`.
+- Candidates sourced from the official New Jersey DGE authorised Internet Gaming Sites list. Poker and sportsbook products are explicitly separated from casino evidence.
+- All ten HOLD / NOT SCORED pending exact current product/domain terms, consumer checks, image-rights clearance and independent review. No merge/deploy performed.
