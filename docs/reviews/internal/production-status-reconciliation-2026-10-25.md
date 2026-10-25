@@ -322,3 +322,10 @@ No deployment requested or performed.
 - Tightened independent-review and editorial-approval date parsing to validate the entire value, not merely its first ten characters. Bonus checked-date parsing already uses full-value validation; regression coverage for trailing garbage is present.
 - Added a regression test for an independent-review date with trailing garbage. Test suite remains unexecuted; source-level presence is not a passing test result.
 - No workflow, merge or Cloudflare deployment was triggered.
+
+
+## Batch 66 — reject non-finite rubric scores (2026-10-25)
+- Hardened `scripts/check_review_ledger.py` so rubric component values `NaN`, `Infinity`, and `-Infinity` are rejected explicitly rather than slipping through ordinary numeric range comparisons.
+- Added regression coverage for all three non-finite values in `scripts/test_review_ledger.py`.
+- This is a structural checker hardening only; it does not verify or score any brand. The ledger remains 100 candidate rows on HOLD, and tests have not been executed in this session, so test pass status remains unconfirmed.
+- No merge, workflow run, or deployment performed.
