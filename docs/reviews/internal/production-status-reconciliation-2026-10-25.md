@@ -255,3 +255,12 @@ No deployment requested or performed.
 ## Batch 58 — Hard Rock Casino NL candidate / iCasino licence distinction (2026-10-25)
 - Corrected slot 71's prior wording: the Ksa does have an official remote-gambling licence decision for iCasino B.V., valid 22 May 2024 through 21 May 2029 for casino games against the operator. This is a potential operator lead only; the decision does not itself name Hard Rock Casino or the domain hardrockcasino.nl. Exact brand/domain mapping still requires the current Kansspelwijzer. Source: https://kansspelautoriteit.nl/icasino-b-v ; https://kansspelautoriteit.nl/register-licensees.
 - Slot 71 remains HOLD / NOT SCORED; no license-brand association has been asserted. No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 59 — Hommerson renamed licence holder and domain gap (2026-10-25)
+- Slot 73 now records H-Online B.V. as the current legal name of Hommerson Amusement B.V. Ksa's consolidated decision states the licence is valid 3 October 2023–2 October 2028 for casino games against the operator and sports betting. Ksa's original 2 October 2023 announcement explicitly said the operating domain was not yet known at that time. Exact present brand/domain mapping still requires the current Kansspelwijzer; no URL was guessed. Sources: https://kansspelautoriteit.nl/h-online-b-v ; https://kansspelautoriteit.nl/hommerson-amusement-b-v-nieuwe-koa-vergunninghouder ; https://kansspelautoriteit.nl/register-licensees.
+
+## Batch 60 — Explicit domain identity evidence gate
+- Added domain_verification_status, domain_verified_utc, and domain_evidence_url columns to all 100 ledger rows. Every row starts UNVERIFIED because a populated candidate URL is not equivalent to an exact brand/domain/operator match.
+- Updated scripts/check_review_ledger.py to require VERIFIED status plus an ISO verification date and HTTPS evidence URL before publication; malformed dates and missing evidence are flagged. Added regression tests for publishable rows with unverified domains and VERIFIED status without date/evidence.
+- Updated scripts/test_review_ledger.py fixture rows for the new columns. Tests were not run in this session; no claim of passing CI. No workflow was triggered, no merge and no Cloudflare deployment.
