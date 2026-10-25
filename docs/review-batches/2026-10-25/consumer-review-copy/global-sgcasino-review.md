@@ -24,6 +24,13 @@ SGCasino should be assessed only after its exact market domain and casino-produc
 
 The current record does not yet confirm a market-specific licence/domain match, current offer terms, complete payment rules, independently tested withdrawals, support response or cleared promotional imagery. Those gaps prevent a defensible score. The final page should date all changing terms and distinguish operator claims from independently verified observations.
 
+## Reader-facing assessment
+
+**Current verdict: HOLD — authorization and terms not established for a named market.** A responsible SGCasino review must identify the exact domain and operator first. A brand association, affiliate listing or licence reference from another territory cannot prove that the product is authorized where the reader lives.
+
+The final comparison should report the live bonus calculation, payment methods and limits, withdrawal rules, complaint procedure and responsible-gambling controls with dated source links. If evidence is unavailable, the page should say so and remain unscored rather than presenting an invented trust score or claiming that BeInCasinos tested withdrawals.
+
+
 ## Bonus terms: what to check
 
 Do not compare welcome offers by headline value alone. Before describing an offer as current, capture its start/end date, eligible country and currency, minimum deposit, wagering multiplier and calculation base, eligible games, contribution rates, maximum bet, expiry, withdrawal cap, payment exclusions and what happens when a player withdraws early. If the live terms are not accessible or the promotion has expired, omit the offer rather than repeating an old headline.
