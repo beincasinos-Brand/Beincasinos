@@ -71,3 +71,9 @@ No deployment requested or performed.
 - Added `docs/reviews/internal/big-batch-27-michigan-ten-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-27-michigan-ten-review-work-orders-2026-10-25.md`.
 - Based on the MGCB current legal internet-gaming list and authorised platform provider directory; state-specific URLs and tribal/commercial operator relationships are recorded as leads for review.
 - All ten HOLD / NOT SCORED pending current first-party terms, consumer testing, image-rights clearance, safer-gambling/payment evidence and independent review. No merge/deploy performed.
+
+
+## Batch 28 — Pennsylvania additional ten platform matrix (2026-10-25)
+- Added `docs/reviews/internal/big-batch-28-pennsylvania-ten-additional-platform-evidence-matrix-2026-10-25.md` and `docs/reviews/internal/big-batch-28-pennsylvania-ten-additional-review-work-orders-2026-10-25.md`.
+- Candidates are drawn from the PGCB official Interactive Gaming Operators page; each exact PA domain/operator/product relationship still requires current row-level and first-party verification.
+- All ten HOLD / NOT SCORED pending terms, payment/withdrawal evidence, safer-gambling and complaint checks, image rights, consumer testing and independent review. No merge/deploy performed.
