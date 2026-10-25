@@ -138,7 +138,7 @@ def check(ledger_path):
         bonus_status = row.get("bonus_status", "").strip().casefold()
         if bonus_date:
             try:
-                date.fromisoformat(bonus_date[:10])
+                date.fromisoformat(bonus_date)
             except ValueError:
                 errors.append(f"{label}: bonus_checked_utc must start with an ISO date (YYYY-MM-DD)")
         if bonus_status and any(token in bonus_status for token in ("not captured", "not checked", "pending", "unknown")):
