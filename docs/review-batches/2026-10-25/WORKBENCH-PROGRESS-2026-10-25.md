@@ -198,3 +198,14 @@ These are **26 added dossier files**, not 26 completed public reviews. The regul
 ## Current accounting rule
 
 Count distinct canonical brands only after alias/operator deduplication; count regulator-evidence leads separately from fully verified brands; count approved reviews separately from published pages. A regulator listing alone does not make a complete review. No deployment was performed in this batch.
+
+
+## Further large regulator-evidence batch — Germany — 2026-10-25
+
+Added eight Germany-specific dossiers: BacanaPlay, DrückGlück, Eurokingsclub, Euspielothek, ICE36, 888slots, Mr Green and Spinmodo. The GGL official whitelist is the primary source. These dossiers carefully distinguish nationwide virtual-slot listings from online-casino permissions limited to Schleswig-Holstein; they do not infer nationwide table-game/live-casino authorization from a virtual-slots entry. Spinmodo's listed first permit date is 30 September 2026 and must be rechecked at publication.
+
+All eight remain HOLD / NOT RATED / NOINDEX until the live exact operator/domain/product scope is captured and current offer, payments, safer-gambling, privacy, image rights and editorial scoring are complete. The German Mr Green whitelist entry is distinct from the Great Britain Mr Green licence record; the two must not be conflated.
+
+## Latest work in this branch
+
+Recent large batches added 34 regulator-focused dossier files across Ontario, Great Britain, the Netherlands and Germany (26 Ontario/GB/NL + 8 Germany). These are not 34 approved public reviews. They improve primary-source coverage and expose product-scope and enforcement issues that would be misleading to omit from a final review. No production route, sitemap entry or deployment was created from these internal files.
