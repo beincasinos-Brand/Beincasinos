@@ -207,3 +207,9 @@ No deployment requested or performed.
 - Slot 57 Quickbet remains unresolved. The current UKGC register contains a legal business named **Quik UK Gaming Limited** (account 57611), but that spelling difference is not enough to map it to the candidate trading name “Quickbet”; no canonical domain or exact trading-name link was established from the evidence consulted. Register search result: https://www.gamblingcommission.gov.uk/public-register/businesses/full/39.
 - Do not populate slot 57 with a guessed URL or legal entity based on a similar name. The UKGC register notes that domain/trading-name records are supplied by businesses and may not be guaranteed accurate: https://www.gamblingcommission.gov.uk/public-register/businesses.
 - No ledger change made. Slot 57 remains HOLD / NOT SCORED pending exact brand-to-operator/domain evidence and casino-specific remote permission. No tests, merge, workflow or Cloudflare deployment were triggered.
+
+
+## Batch 50 — Kong Casino white-label domain evidence (2026-10-25)
+- Slot 62 now records `official_url=https://www.kongcasino.com/` as a domain identity lead and links the UKGC domain register for Jumpman Gaming Limited (account 39175). The register lists `kongcasino.com` as **White Label**, not Active: https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39175.
+- This status is not evidence that Jumpman is the sole current customer-contracting operator. Verify the live site's legal footer, current terms, and exact white-label arrangement before asserting operator identity or eligibility. Slot 62 remains HOLD / NOT SCORED; all review, evidence, rights, testing and approvals are still outstanding.
+- No tests, merge, workflow or Cloudflare deployment were triggered.
