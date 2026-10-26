@@ -56,7 +56,7 @@
     const cards = Array.from(reviewGrid.querySelectorAll('.review-product-card'));
     const count = document.querySelector('#review-results-count');
     const empty = document.querySelector('#review-no-results');
-    const normalizeSearch = value => String(value || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLocaleLowerCase().replace(/\\s+/g, ' ').trim();
+    const normalizeSearch = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
     const update = () => {
       const query = normalizeSearch(reviewSearch.value);
       const market = reviewMarket.value;
