@@ -188,3 +188,21 @@ html[data-theme="light"] .site-footer .footer-links b { color:#174d3e; }
 
 
 html[data-theme="light"] .site-footer .footer-brand>span>small { color:#52655a !important; }
+
+
+/* Homepage navigation follow-up: consistent destinations and room for shared controls. */
+.site-header .nav-wrap { height:auto; min-height:100px; padding-block:8px; min-width:0; }
+.site-header .nav-links { min-width:0; flex-wrap:wrap; white-space:normal; justify-content:flex-end; }
+.site-header .nav-links > a { flex-shrink:0; }
+.site-header .nav-links .site-controls { flex:1 0 100%; justify-content:flex-end; padding:0 0 4px; }
+@media(max-width:1120px) {
+  .site-header .nav-wrap { min-height:100px; }
+  .site-header .nav-links { gap:10px; }
+  .site-header .nav-links > a { min-height:38px; }
+  .site-header .nav-links .site-controls { justify-content:flex-end; }
+}
+@media(max-width:760px) {
+  .site-header .nav-wrap { min-height:76px; }
+  .site-header .nav-links { flex-wrap:nowrap; white-space:normal; }
+  .site-header .nav-links .site-controls { width:100%; flex:0 0 auto; justify-content:flex-start; padding:10px 0 4px; }
+}

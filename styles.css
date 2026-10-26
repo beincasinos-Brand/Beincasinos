@@ -574,3 +574,51 @@ html[data-theme="dark"] .operator-value-grid p, html[data-theme="dark"] .guide-s
 html[data-theme="dark"] .operator-value-number { background:#1d3a2b; color:#bce9cb; }
 html[data-theme="dark"] .guide-start-link { color:#bce9cb; }
 @media(max-width:760px) { .operator-value-grid, .guide-start-grid { grid-template-columns:minmax(0,1fr); } .operator-value-band, .guide-start-band { padding:32px 0; } .operator-value-grid article, .guide-start-card { padding:18px; } }
+
+
+/* UX resilience follow-up — 26 Oct 2026
+   Keep controls reachable, content readable, and layouts robust on small screens. */
+.site-header { position:relative; z-index:50; }
+.nav-wrap, .nav-links, .site-controls { min-width:0; }
+.site-controls { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.language-menu { max-width:calc(100vw - 24px); max-height:min(70vh,520px); overflow:auto; }
+.nav-links a:focus-visible, .menu-toggle:focus-visible, .theme-toggle:focus-visible,
+.language-picker summary:focus-visible, .button:focus-visible, .text-link:focus-visible,
+.site-footer a:focus-visible { outline:3px solid #c9a54e; outline-offset:3px; }
+img { max-width:100%; }
+.review-product-card, .casino-card, .guide-card, .content-layout > * { min-width:0; }
+.review-card-heading h2, .review-card-summary, .review-card-metrics strong,
+.review-card-foot, .casino-offer { overflow-wrap:anywhere; }
+.review-card-art img, .review-card-art .review-card-official-logo { max-width:100%; object-fit:contain; }
+.prose table { display:block; max-width:100%; overflow-x:auto; border-collapse:collapse; }
+.prose pre, .prose code { overflow-wrap:anywhere; }
+@media (max-width: 900px) {
+  .nav-wrap { align-items:center; gap:12px; }
+  .menu-toggle { display:inline-flex; align-items:center; justify-content:center; min-height:44px; min-width:76px; }
+  .nav-links { max-width:100%; }
+  .site-controls { width:100%; justify-content:flex-start; padding:8px 0 4px; }
+  .language-menu { left:0; right:auto; }
+}
+@media (max-width: 700px) {
+  .wrap { width:min(100% - 32px, 1180px); }
+  .section-heading { align-items:flex-start; gap:12px; flex-wrap:wrap; }
+  .review-product-grid { grid-template-columns:minmax(0,1fr); }
+  .review-product-card { width:100%; }
+  .review-card-art { min-height:150px; }
+  .review-card-body { min-width:0; }
+  .review-card-heading { display:flex; flex-wrap:wrap; }
+  .review-card-heading h2 { min-width:0; flex:1 1 180px; }
+  .review-card-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .footer-links { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .footer-top { align-items:flex-start; gap:18px; flex-direction:column; }
+  .hero-grid { min-height:0; padding-top:34px; padding-bottom:36px; }
+}
+@media (max-width: 420px) {
+  .wrap { width:calc(100% - 24px); }
+  .site-controls { gap:6px; }
+  .theme-toggle, .language-picker summary { min-height:42px; padding:8px 9px; }
+  .review-card-metrics, .footer-links { grid-template-columns:minmax(0,1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}
