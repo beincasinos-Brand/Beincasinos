@@ -84,3 +84,4 @@
 @media(prefers-reduced-motion:reduce){.review-product-card,.review-card-art img{transition:none}.review-product-card:hover{transform:none}}
 /* Keep verified operator logos fully legible above the decorative artwork layer. */
 .review-card-art .review-card-official-logo{opacity:1;mix-blend-mode:normal}
+.review-card-art .review-card-official-logo--dark{background:#10241b;border-color:#c3a15e}
