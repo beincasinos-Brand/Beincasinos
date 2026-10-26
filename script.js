@@ -184,7 +184,7 @@
   const reviewHero = document.querySelector('main .page-hero');
   const reviewHeading = reviewHero && reviewHero.querySelector('h1');
   if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') &&
-      !/^\/reviews\/?$/.test(window.location.pathname)) {
+      window.location.pathname !== '/reviews/' && window.location.pathname !== '/reviews' &&
     const titleText = reviewHeading.textContent.trim();
     const eyebrow = reviewHero.querySelector('.eyebrow');
     const marketText = eyebrow ? eyebrow.textContent.trim() : 'Market-specific research';
@@ -211,7 +211,7 @@
 
   // Reuse the curated operator-logo map on individual profiles, not only the directory.
   if (document.querySelector('#review-visual-summary') &&
-      !/^\\/reviews\\/?$/.test(window.location.pathname) &&
+      window.location.pathname !== '/reviews/' && window.location.pathname !== '/reviews' &&
       !document.querySelector('script[data-review-profile-logos]')) {
     const logoScript = document.createElement('script');
     logoScript.src = '/assets/review-brand-logos.js?v=20261026-profilelogo1';
