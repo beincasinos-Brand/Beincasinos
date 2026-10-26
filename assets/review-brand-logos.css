@@ -1,0 +1,8 @@
+/* Supplementary official logo sizing for compact favicon-based brand marks. */
+.review-card-art .review-card-official-logo--icon{
+  width:34px;
+  height:34px;
+  max-width:34px;
+  max-height:34px;
+  object-fit:contain;
+}
