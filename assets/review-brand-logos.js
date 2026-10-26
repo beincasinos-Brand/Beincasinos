@@ -317,6 +317,25 @@
       src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg',
       alt: 'Paf official logo'
     },
+    'Botemania': {
+      src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg',
+      alt: 'Botemanía official logo'
+    },
+    'Jokerbet': {
+      src: 'https://www.jokerbet.es/img/09.%20Elementos%20web/Aviso/no-disponible/JOKERBET_logotipo-blanco.svg',
+      alt: 'JOKERBET official logo',
+      dark: true
+    },
+    'Marathonbet': {
+      src: 'https://web.mbstatic.org/008AE5/1-356/images/favicon/favicon.svg',
+      alt: 'Marathonbet official brand icon',
+      icon: true
+    },
+    'Videoslots': {
+      src: 'https://www.videoslots.com/diamondbet/images/mobile/favicon-16x16.png',
+      alt: 'Videoslots official brand icon',
+      icon: true
+    },
     'Casino Barcelona Online': {
       src: 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025',
       alt: 'Casino Barcelona official brand logo'
