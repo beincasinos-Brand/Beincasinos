@@ -19,9 +19,9 @@ def get_meta(source, key, value):
 def shorten_title(value):
     title = value
     if len(title) > 70:
-        title = re.sub(r"\\s*\\(2026\\)", "", title)
+        title = re.sub(r"\s*\(2026\)", "", title)
     if len(title) > 70:
-        title = re.sub(r"\\s*[|—-]\\s*BeInCasinos$", "", title)
+        title = re.sub(r"\s*[|—-]\s*BeInCasinos$", "", title)
     if len(title) > 70:
         cut = title[:67].rsplit(" ", 1)[0].rstrip(" ,:;—-")
         title = (cut or title[:67].rstrip()) + "…"
@@ -71,7 +71,7 @@ for page in sorted(ROOT.rglob("*.html")):
     title = shorten_title(" ".join(title_match.group(1).split()))
     description = shorten_description(description)
     updated = source
-    updated = re.sub(r"(<title\\b[^>]*>).*?(</title\\s*>)", lambda m: m.group(1) + title + m.group(2), updated, count=1, flags=re.I | re.S)
+    updated = re.sub(r"(<title\b[^>]*>).*?(</title\s*>)", lambda m: m.group(1) + title + m.group(2), updated, count=1, flags=re.I | re.S)
     updated = update_meta(updated, "name", "description", description)
     updated = update_meta(updated, "property", "og:title", title)
     updated = update_meta(updated, "property", "og:description", description)
