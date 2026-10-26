@@ -90,15 +90,19 @@
 
   document.querySelectorAll('.casino-card').forEach(card => {
     const brand = card.querySelector('.casino-brand');
-    if (!brand || brand.querySelector('.casino-brand-mark')) return;
-    const name = brand.textContent.trim();
+    if (!brand) return;
+    const name = brand.dataset.brand || brand.textContent.trim();
+    brand.setAttribute('aria-label', name + ' brand');
+    // Verified operator-logo images take precedence over decorative monograms.
+    // If an image fails to load, its accessible label remains and the card layout stays intact.
+    if (brand.querySelector('.casino-brand-logo')) return;
+    if (brand.querySelector('.casino-brand-mark')) return;
     brand.style.setProperty('--brand-hue', brandHue(name));
     const mark = document.createElement('span');
     mark.className = 'casino-brand-mark';
     mark.setAttribute('aria-hidden', 'true');
     mark.textContent = brandInitials(name);
     brand.prepend(mark);
-    brand.setAttribute('aria-label', name + ' brand name');
   });
 
   // Give every individual review route a visual summary panel while preserving
