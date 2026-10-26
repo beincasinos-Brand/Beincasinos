@@ -657,3 +657,21 @@ html[data-theme="dark"] .prose p,html[data-theme="dark"] .prose li { color:#c1ce
 html[data-theme="dark"] .sidebar,html[data-theme="dark"] .guide-card,html[data-theme="dark"] .rg-callout { background:#111e16; border-color:#304237; color:#edf1e8; }
 html[data-theme="dark"] .site-footer { background:#0d1912; border-top-color:#304237; color:#edf1e8; }
 html[data-theme="dark"] .prose th { background:#20372a; color:#edf1e8; }
+
+
+/* Review-summary artwork readability: reserve a clear brand area and prevent vertical letter wrapping. */
+.review-visual-art { min-width:0; min-height:180px; }
+.review-visual-label { left:14px; right:12px; bottom:12px; max-width:calc(100% - 26px); white-space:normal; overflow-wrap:normal; word-break:normal; line-height:1.45; letter-spacing:.07em; font-size:9px; }
+.review-visual-wordmark { left:132px; right:16px; max-width:calc(100% - 150px); white-space:normal; word-break:normal; overflow-wrap:break-word; hyphens:auto; font-size:clamp(17px,2vw,25px); line-height:1.2; }
+.review-visual-monogram { flex-shrink:0; }
+@media(max-width:680px) {
+ .review-visual-art { min-height:138px; }
+ .review-visual-label { left:12px; right:10px; bottom:10px; font-size:8px; letter-spacing:.04em; }
+ .review-visual-wordmark { left:96px; right:12px; max-width:calc(100% - 108px); font-size:clamp(15px,4.4vw,19px); line-height:1.2; }
+ .review-visual-monogram { width:68px!important; height:68px!important; top:14px; left:14px; font-size:20px; }
+ .review-visual-status { gap:7px; }
+ .review-visual-status span { font-size:11px; line-height:1.35; }
+ .review-visual-metrics { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .review-visual-metric small { font-size:9px; line-height:1.35; letter-spacing:.02em; }
+ .review-visual-metric strong { font-size:11px; line-height:1.4; overflow-wrap:break-word; }
+}
