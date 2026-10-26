@@ -16,6 +16,30 @@ def get_meta(source, key, value):
             return content.group(2) if content else ""
     return None
 
+def shorten_title(value):
+    title = value
+    if len(title) > 70:
+        title = re.sub(r"\\s*\\(2026\\)", "", title)
+    if len(title) > 70:
+        title = re.sub(r"\\s*[|—-]\\s*BeInCasinos$", "", title)
+    if len(title) > 70:
+        cut = title[:67].rsplit(" ", 1)[0].rstrip(" ,:;—-")
+        title = (cut or title[:67].rstrip()) + "…"
+    return title
+
+
+def shorten_description(value, limit=160):
+    description = " ".join(value.split())
+    if len(description) <= 170:
+        return description
+    # Prefer a complete first/second sentence where it fits the snippet budget.
+    boundary = max(description.rfind(". ", 0, limit), description.rfind("! ", 0, limit), description.rfind("? ", 0, limit))
+    if boundary >= 75:
+        return description[:boundary + 1]
+    cut = description[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return (cut or description[:limit - 1].rstrip()) + "…"
+
+
 def update_meta(source, key, value, content):
     attr = "name" if key == "name" else "property"
     pattern = re.compile(r"<meta\b(?=[^>]*\b" + attr + r"""\s*=\s*(['"])""" + re.escape(value) + r"""\1)[^>]*>""", re.I)
@@ -44,9 +68,11 @@ for page in sorted(ROOT.rglob("*.html")):
     if not title_match or description is None:
         problems.append(f"{page.relative_to(ROOT)}: missing title/description")
         continue
-    title = " ".join(title_match.group(1).split())
-    description = " ".join(description.split())
+    title = shorten_title(" ".join(title_match.group(1).split()))
+    description = shorten_description(description)
     updated = source
+    updated = re.sub(r"(<title\\b[^>]*>).*?(</title\\s*>)", lambda m: m.group(1) + title + m.group(2), updated, count=1, flags=re.I | re.S)
+    updated = update_meta(updated, "name", "description", description)
     updated = update_meta(updated, "property", "og:title", title)
     updated = update_meta(updated, "property", "og:description", description)
     updated = update_meta(updated, "name", "twitter:card", "summary")
