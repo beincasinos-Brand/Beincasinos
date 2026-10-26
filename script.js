@@ -59,6 +59,48 @@
     update();
   }
 
+  // Brand-specific wordmark treatment: deterministic, accessible and never presented as an official logo.
+  const brandInitials = (name) => {
+    const clean = String(name || '').replace(/\b(review|casino|online|for|in|2026|spain|belgium|switzerland|netherlands|sweden|germany|italy|france|australia|canada|great britain)\b/ig, ' ')
+      .replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/).filter(Boolean);
+    if (!clean.length) return 'BIC';
+    return (clean.length > 1 ? clean[0][0] + clean[1][0] : clean[0].slice(0, 2)).toUpperCase();
+  };
+  const brandHue = (name) => {
+    let hash = 0;
+    for (const ch of String(name || '')) hash = ((hash << 5) - hash + ch.charCodeAt(0)) | 0;
+    return Math.abs(hash) % 360;
+  };
+  document.querySelectorAll('.review-product-card').forEach(card => {
+    const heading = card.querySelector('.review-card-heading h2 a');
+    const art = card.querySelector('.review-card-art');
+    if (!heading || !art || art.querySelector('.review-card-wordmark')) return;
+    const name = heading.textContent.trim();
+    const hue = brandHue(name);
+    art.style.setProperty('--brand-hue', hue);
+    art.querySelectorAll('img').forEach(img => { img.setAttribute('aria-hidden', 'true'); img.alt = ''; });
+    const mark = art.querySelector('.review-card-monogram');
+    if (mark) mark.textContent = brandInitials(name);
+    const wordmark = document.createElement('span');
+    wordmark.className = 'review-card-wordmark';
+    wordmark.textContent = name;
+    wordmark.setAttribute('aria-hidden', 'true');
+    art.appendChild(wordmark);
+  });
+
+  document.querySelectorAll('.casino-card').forEach(card => {
+    const brand = card.querySelector('.casino-brand');
+    if (!brand || brand.querySelector('.casino-brand-mark')) return;
+    const name = brand.textContent.trim();
+    brand.style.setProperty('--brand-hue', brandHue(name));
+    const mark = document.createElement('span');
+    mark.className = 'casino-brand-mark';
+    mark.setAttribute('aria-hidden', 'true');
+    mark.textContent = brandInitials(name);
+    brand.prepend(mark);
+    brand.setAttribute('aria-label', name + ' brand name');
+  });
+
   // Give every individual review route a visual summary panel while preserving
   // the evidence-led "Not rated" status when hands-on/product evidence is absent.
   const reviewHero = document.querySelector('main .page-hero');
@@ -76,6 +118,13 @@
     summary.setAttribute('aria-label', 'Casino review summary');
     summary.innerHTML = '<div class="review-visual-art"><img src="/assets/review-card-art.svg" alt="" width="640" height="260"><span class="review-visual-monogram"></span><span class="review-visual-label">BEINCASINOS · RESEARCH PROFILE</span></div><div class="review-visual-data"><p class="review-visual-kicker">Evidence-led review snapshot</p><h2 class="review-visual-title"></h2><div class="review-visual-status"><span>● Not rated</span><span>Market-specific</span><span>Desk research</span></div><div class="review-visual-metrics"><div class="review-visual-metric"><small>Overall score</small><strong>Pending evidence</strong></div><div class="review-visual-metric"><small>Current bonus</small><strong>Not verified</strong></div><div class="review-visual-metric"><small>Testing status</small><strong>No hands-on test</strong></div></div><p class="review-visual-note">We do not invent a numeric score, promotional amount or product-test claim. “Not rated” means the evidence gates or required criteria are incomplete—not that the casino scored zero.</p><a class="review-visual-method-link" href="/how-we-review/">How our six weighted criteria work →</a></div>';
     summary.querySelector('.review-visual-monogram').textContent = monogram;
+    summary.style.setProperty('--brand-hue', brandHue(titleText));
+    const visualArt = summary.querySelector('.review-visual-art');
+    const visualWordmark = document.createElement('span');
+    visualWordmark.className = 'review-visual-wordmark';
+    visualWordmark.textContent = titleText.replace(/\s+(review|2026).*/i, '');
+    visualWordmark.setAttribute('aria-hidden', 'true');
+    visualArt.appendChild(visualWordmark);
     summary.querySelector('.review-visual-title').textContent = titleText;
     const market = summary.querySelector('.review-visual-status span:nth-child(2)');
     market.textContent = marketText;
