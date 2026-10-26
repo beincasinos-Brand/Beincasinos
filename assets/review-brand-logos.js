@@ -475,4 +475,52 @@
     if (monogram) monogram.hidden = true;
     art.appendChild(image);
   });
+
+  // Individual review pages: preserve a supplied official logo, normalize its frame,
+  // and inject the official domain's own favicon when the page has no logo asset.
+  if (!document.querySelector('.review-product-card') && document.querySelector('main h1')) {
+    const excluded = /ordenacionjuego|gamblingcommission|swisscasinos|esbk|egba|gamcare|begambleaware|gamblingtherapy|wikipedia/i;
+    const rows = Array.from(document.querySelectorAll('main tr'));
+    const row = rows.find(r => /^(exact domain checked|domain|official website|website)$/i.test((r.cells[0]?.textContent || '').trim()));
+    let origin = '';
+    const hrefs = [];
+    const direct = row?.querySelector('a[href^="http"]')?.href;
+    if (direct) hrefs.push(direct);
+    if (!hrefs.length) Array.from(document.querySelectorAll('main a[rel~="nofollow"][href^="http"]')).forEach(a => hrefs.push(a.href));
+    for (const href of hrefs) { try { const u = new URL(href); if (!excluded.test(u.hostname)) { origin = u.origin; break; } } catch (_) {} }
+    const h1 = document.querySelector('main h1');
+    const brand = h1.textContent.trim().replace(/\\s+(casino\\s+)?review.*$/i, '').replace(/\\s*\\|.*$/, '').trim() || 'Casino operator';
+    let figure = document.querySelector('main .operator-logo-figure');
+    if (!figure) {
+      figure = document.createElement('figure');
+      figure.className = 'operator-logo-figure operator-logo-figure--auto';
+      h1.parentNode.insertBefore(figure, h1.nextSibling);
+    }
+    let img = figure.querySelector('img');
+    if (!img && origin) {
+      img = document.createElement('img');
+      img.src = origin + '/favicon.ico';
+      img.alt = brand + ' official website icon';
+      img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+      figure.prepend(img);
+    }
+    if (img) {
+      img.classList.add('operator-logo-image');
+      img.alt = brand + ' official brand image';
+      img.addEventListener('error', () => {
+        if (origin && !img.dataset.triedOfficialIcon && !img.src.startsWith(origin + '/favicon.ico')) {
+          img.dataset.triedOfficialIcon = '1'; img.src = origin + '/favicon.ico';
+        } else { img.remove(); figure.classList.add('operator-logo-text-only'); }
+      });
+    } else figure.classList.add('operator-logo-text-only');
+    if (!figure.querySelector('.operator-logo-name')) {
+      const label = document.createElement('span'); label.className = 'operator-logo-name'; label.textContent = brand; figure.appendChild(label);
+    }
+    let caption = figure.querySelector('figcaption');
+    if (!caption) { caption = document.createElement('figcaption'); figure.appendChild(caption); }
+    caption.textContent = origin
+      ? 'Operator identity image from the official website domain. Logos and trademarks belong to their respective owners; BeInCasinos is independent.'
+      : 'No official image could be confidently matched from this page; the brand name is shown instead of an invented logo.';
+  }
+
 })();
