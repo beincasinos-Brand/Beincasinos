@@ -598,3 +598,27 @@ img, video, iframe { max-width:100%; }
 @media (prefers-reduced-motion:reduce) {
   *, *::before, *::after { scroll-behavior:auto!important; animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; }
 }
+
+
+/* Article hero clarity repair: separate the topic label, title, and summary. */
+.page-hero { padding: clamp(38px, 6vw, 76px) 0 clamp(30px, 4vw, 52px); }
+.page-hero > .wrap { max-width: 1120px; }
+.page-hero .eyebrow { display: inline-flex; align-items: center; max-width: 100%; margin: 0 0 18px; padding: 7px 12px; border: 1px solid #c9d9cc; border-radius: 999px; background: #edf4ed; color: #174d3e; font-size: 11px; font-weight: 800; letter-spacing: .09em; line-height: 1.5; text-transform: uppercase; white-space: normal; }
+.page-hero h1 { max-width: 850px; margin: 0 0 18px; font-size: clamp(36px, 5.2vw, 62px); line-height: 1.06; letter-spacing: -.035em; text-wrap: balance; }
+.page-hero .wrap > p:not(.eyebrow) { max-width: 760px; margin: 0; font-size: clamp(16px, 1.8vw, 20px); line-height: 1.75; }
+.content-layout { align-items: start; gap: clamp(24px, 4vw, 56px); }
+.content-layout > .prose { min-width: 0; max-width: 820px; margin-inline: auto; font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.content-layout > .prose h2 { margin-top: 2.1em; margin-bottom: .65em; font-size: clamp(23px, 3vw, 30px); line-height: 1.2; letter-spacing: -.02em; text-wrap: balance; }
+.content-layout > .prose p, .content-layout > .prose li { line-height: 1.8; }
+.content-layout > .prose .note { margin: 0 0 30px; padding: 18px 20px; border: 1px solid #d4e2d5; border-left: 4px solid #246246; border-radius: 12px; background: #f4f8f3; color: #263d31; }
+.content-layout > .prose a { text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .page-hero { padding: 32px 0 28px; }
+  .page-hero .eyebrow { margin-bottom: 14px; font-size: 10px; letter-spacing: .065em; }
+  .page-hero h1 { font-size: clamp(34px, 10vw, 44px); line-height: 1.08; margin-bottom: 14px; }
+  .page-hero .wrap > p:not(.eyebrow) { font-size: 16px; line-height: 1.65; }
+  .content-layout > .prose { font-size: 15px; line-height: 1.75; }
+  .content-layout > .prose .note { padding: 15px 16px; margin-bottom: 24px; }
+}
+html[data-theme="dark"] .page-hero .eyebrow { background: #16281d; border-color: #355342; color: #c6e7cf; }
+html[data-theme="dark"] .content-layout > .prose .note { background: #142019; border-color: #355342; border-left-color: #82c79b; color: #d7e5dc; }
