@@ -413,4 +413,14 @@
       : 'No official image could be confidently matched from this page; the brand name is shown instead of an invented logo.';
   }
 
+
+  // Load the shared brand logo map on individual review pages too.
+  if (!document.querySelector('.review-product-card') && document.querySelector('main h1') &&
+      !document.querySelector('script[data-review-brand-map]')) {
+    const brandMapScript = document.createElement('script');
+    brandMapScript.src = '/assets/review-brand-logos.js?v=20261026-imgfix5';
+    brandMapScript.defer = true;
+    brandMapScript.dataset.reviewBrandMap = 'true';
+    document.head.appendChild(brandMapScript);
+  }
 })();
