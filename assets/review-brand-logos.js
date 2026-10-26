@@ -438,6 +438,7 @@
       ];
       const image = document.createElement('img');
       image.className = 'review-card-official-logo';
+      image.style.cssText = 'width:min(190px,48%);height:42px;max-width:190px;max-height:42px;object-fit:contain;object-position:center;background:#fff;border:1px solid #e7e4dc;border-radius:6px;padding:5px 8px;box-sizing:border-box';
       image.alt = name + ' official website logo';
       image.loading = 'lazy';
       image.decoding = 'async';
@@ -483,6 +484,7 @@
 
     const image = document.createElement('img');
     image.className = 'review-card-official-logo';
+    image.style.cssText = 'width:min(190px,48%);height:42px;max-width:190px;max-height:42px;object-fit:contain;object-position:center;background:#fff;border:1px solid #e7e4dc;border-radius:6px;padding:5px 8px;box-sizing:border-box';
     if (logo.dark) image.classList.add('review-card-official-logo--dark');
     if (logo.icon) image.classList.add('review-card-official-logo--icon');
     image.src = logo.src;
@@ -556,6 +558,7 @@
     }
     if (img) {
       img.classList.add('operator-logo-image');
+      img.style.cssText += ';display:block;width:100%;height:82px;max-width:280px;max-height:82px;object-fit:contain;object-position:center;background:#fff;border-radius:10px;padding:10px;box-sizing:border-box';
       img.alt = brand + ' official brand image';
       img.addEventListener('error', () => {
         if (origin && !img.dataset.triedOfficialIcon && !img.src.startsWith(origin + '/favicon.ico')) {
