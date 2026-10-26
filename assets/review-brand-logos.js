@@ -59,6 +59,27 @@
     'BetCity': {
       src: 'https://club.betcity.nl/assets/img/icons/bc-logo-black.svg',
       alt: 'BetCity official logo'
+    },
+    '44 Aces': {
+      src: 'https://44-aces.es/wp-content/themes/44aces-es-theme/assets/images/header/logo-44aces.png',
+      alt: '44 Aces official logo'
+    },
+    'Casino Gran Vía': {
+      src: 'https://www.casinogranvia.com/wp-content/uploads/2020/09/LOGO-CGV-2022_web.png',
+      alt: 'Casino Gran Vía official logo'
+    },
+    'SlotsMagic': {
+      src: 'https://aws-origin.image-tech-storage.com/tenants/slotsmagic/slotsmagic.com/_nuxt/logo.CFccvnTQ.png',
+      alt: 'SlotsMagic official logo'
+    },
+    'Lapalingo': {
+      src: 'https://www.lapalingo.com/build/assets/images/lapalingo-logo-white.svg?a679e571',
+      alt: 'Lapalingo official logo',
+      dark: true
+    },
+    '888slots': {
+      src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
+      alt: '888 official brand logo'
     }
   };
 
