@@ -459,3 +459,94 @@ img{max-width:100%}
 @media(prefers-reduced-motion:reduce) {
   .content-layout:has(.rg-callout) .sidebar a { transition:none; }
 }
+
+
+/* Premium resilience layer: consistent media, typography and responsive cards. */
+:root { color-scheme: light; }
+html { color-scheme: light; }
+img, video, svg { max-width:100%; }
+img { height:auto; }
+main, section, article, aside, header, footer, nav, .wrap, .container,
+.feature-grid, .content-layout, .list-grid, .guide-card, .review-product-card,
+.review-card, .review-card-body, .review-card-heading, .review-card-metrics,
+.review-visual-summary, .review-visual-data { min-width:0; }
+p, li, h1, h2, h3, a, button, small, strong, span { overflow-wrap:anywhere; }
+h1, h2, h3 { text-wrap:balance; }
+.prose img, .article-content img, .content-body img { display:block; max-width:100%; height:auto; margin:1.2rem auto; border-radius:14px; }
+.prose figure, figure, .image-card, .review-card-art, .review-visual-art { min-width:0; max-width:100%; }
+figure { margin:1.4rem 0; }
+figcaption { max-width:100%; padding:8px 12px; color:var(--muted); font-size:.82rem; line-height:1.55; overflow-wrap:anywhere; }
+.review-card-art, .review-visual-art { position:relative; isolation:isolate; overflow:hidden; border-radius:16px; }
+.review-card-art > img, .review-visual-art > img { display:block; width:100%; height:100%; object-fit:cover; }
+.review-card-art-label, .review-visual-label, .review-card-market { max-width:calc(100% - 20px); white-space:normal; overflow-wrap:anywhere; line-height:1.35; }
+.review-card-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+.review-card-heading h2 { flex:1 1 180px; min-width:0; margin:0; }
+.review-status-pill { flex:0 1 auto; white-space:normal; }
+.review-card-metrics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.review-card-metrics > div, .review-visual-metric { min-width:0; overflow-wrap:anywhere; }
+.review-card-cta, .button, .button-outline, .text-link { min-height:42px; }
+.site-controls { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+.theme-toggle, .language-picker summary { min-height:40px; display:inline-flex; align-items:center; justify-content:center; gap:7px; padding:8px 11px; border:1px solid var(--line); border-radius:10px; background:var(--paper); color:var(--ink); font:650 12px/1.2 var(--sans); cursor:pointer; list-style:none; }
+.language-picker { position:relative; }
+.language-picker summary::-webkit-details-marker { display:none; }
+.language-menu { position:absolute; z-index:30; top:calc(100% + 8px); right:0; width:220px; padding:8px; border:1px solid var(--line); border-radius:12px; background:var(--paper); box-shadow:0 14px 36px rgba(0,0,0,.14); }
+.language-menu p { margin:5px 8px 8px; font-size:11px; color:var(--muted); line-height:1.45; }
+.language-option { display:flex; justify-content:space-between; gap:10px; padding:9px 10px; border-radius:8px; font-size:12px; }
+.language-option[aria-current="true"] { background:var(--mint); color:var(--green); font-weight:750; }
+.language-option[aria-disabled="true"] { opacity:.55; cursor:not-allowed; }
+.nav-links .site-controls { margin-left:2px; }
+.guide-card { display:flex; flex-direction:column; align-items:flex-start; min-height:100%; }
+.guide-card h3 { line-height:1.28; }
+.guide-card p { flex:1 0 auto; line-height:1.65; }
+.guide-icon { flex:0 0 auto; }
+.page-hero h1, .hero h1 { max-width:100%; }
+.page-hero p, .hero p { max-width:72ch; }
+.prose table { display:block; width:100%; max-width:100%; overflow-x:auto; border-collapse:separate; border-spacing:0; }
+.prose pre, pre, code { max-width:100%; overflow-wrap:anywhere; white-space:pre-wrap; }
+@media (max-width:1100px) {
+  .nav-links { gap:clamp(10px,1.4vw,18px); }
+  .nav-links > a { font-size:12px; }
+  .site-controls { gap:6px; }
+  .theme-toggle, .language-picker summary { padding:8px 9px; }
+}
+@media (max-width:900px) {
+  .nav-wrap { position:relative; gap:12px; }
+  .nav-links { align-items:stretch; }
+  .nav-links .site-controls { margin:8px 0 0; padding-top:12px; border-top:1px solid var(--line); }
+  .language-menu { left:0; right:auto; }
+}
+@media (max-width:560px) {
+  .wrap { width:min(100% - 32px, 1120px); }
+  .review-card-metrics { grid-template-columns:minmax(0,1fr); }
+  .review-card-heading { gap:7px; }
+  .site-controls { flex-wrap:wrap; }
+  .language-menu { width:min(220px, calc(100vw - 40px)); }
+  .page-hero h1, .hero h1 { letter-spacing:-.7px; }
+  .guide-card { padding:18px; }
+  .prose table { font-size:13px; }
+}
+
+/* User-controlled dark theme; preserve contrast across content and graphics. */
+html[data-theme="dark"] { color-scheme:dark; --ink:#e8f0ec; --muted:#a4b4ad; --green:#a8ddbf; --green2:#b9ebce; --mint:#183b2e; --paper:#0b1210; --line:#293831; --gold:#f0ca78; background:#0b1210; color:#e8f0ec; }
+html[data-theme="dark"] body { background:#0b1210; color:#e8f0ec; }
+html[data-theme="dark"] .site-header { background:rgba(11,18,16,.94); border-color:#293831; }
+html[data-theme="dark"] .nav-links { color:#c2d1ca; }
+html[data-theme="dark"] .menu-toggle, html[data-theme="dark"] .theme-toggle, html[data-theme="dark"] .language-picker summary { background:#15211c; color:#e8f0ec; border-color:#35463d; }
+html[data-theme="dark"] .hero, html[data-theme="dark"] .page-hero, html[data-theme="dark"] .feature-band { background:radial-gradient(ellipse at 80% 20%,rgba(33,91,65,.24),transparent 45%),linear-gradient(120deg,#101c17,#111b17); border-color:#293831; }
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] .page-hero:has(+ .section .rg-callout) h1, html[data-theme="dark"] .content-layout:has(.rg-callout) .prose > h2 { color:#e8f0ec; }
+html[data-theme="dark"] p, html[data-theme="dark"] li, html[data-theme="dark"] .content-layout:has(.rg-callout) .prose p, html[data-theme="dark"] .content-layout:has(.rg-callout) .prose li { color:#c0cec7; }
+html[data-theme="dark"] .section-muted, html[data-theme="dark"] .guide-card, html[data-theme="dark"] .review-product-card, html[data-theme="dark"] .review-card, html[data-theme="dark"] .sidebar, html[data-theme="dark"] .content-layout:has(.rg-callout) .sidebar, html[data-theme="dark"] .content-layout:has(.rg-callout) > .prose, html[data-theme="dark"] .rg-callout { background:#111d18; border-color:#2a3a31; color:#e8f0ec; }
+html[data-theme="dark"] .content-layout:has(.rg-callout) .sidebar, html[data-theme="dark"] .content-layout:has(.rg-callout) .prose table { background:#111d18; }
+html[data-theme="dark"] .content-layout:has(.rg-callout) .prose th { background:#1c3025; color:#e8f0ec; }
+html[data-theme="dark"] .content-layout:has(.rg-callout) .prose td, html[data-theme="dark"] .content-layout:has(.rg-callout) .prose tbody tr:nth-child(even) td { background:#142019; color:#c8d5ce; }
+html[data-theme="dark"] .content-layout:has(.rg-callout) .rg-callout { background:linear-gradient(110deg,#211d12,#151c17); border-color:#66552c; }
+html[data-theme="dark"] .review-card-metrics > div, html[data-theme="dark"] .review-visual-metric { background:#16231c; border-color:#304238; }
+html[data-theme="dark"] .review-visual-summary, html[data-theme="dark"] .language-menu { background:#111d18; border-color:#35463d; }
+html[data-theme="dark"] .language-option[aria-current="true"] { background:#1d3a2b; color:#bce9cb; }
+html[data-theme="dark"] .site-footer { background:#080e0c; border-color:#26352d; }
+html[data-theme="dark"] .footer-links a, html[data-theme="dark"] .footer-bottom, html[data-theme="dark"] .site-footer p { color:#aebeb5; }
+html[data-theme="dark"] .button-outline, html[data-theme="dark"] .text-link { color:#bde8cd; }
+html[data-theme="dark"] a:hover { color:#c5f0d4; }
+html[data-theme="dark"] .skip-link { background:#fff; color:#111; }
+html[data-theme="dark"] .page-hero:has(+ .section .rg-callout) .small.muted { background:#16231c; border-color:#34463a; color:#c8d5ce; }
+html[data-theme="dark"] .content-layout:has(.rg-callout) .prose > h2:not(:first-child), html[data-theme="dark"] .content-layout:has(.rg-callout) .sidebar a { border-color:#2b3a32; }
