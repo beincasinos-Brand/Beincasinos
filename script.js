@@ -250,41 +250,59 @@
         return normalizedKey.length >= 5 && normalizedDisplayBrand.length >= 5
           && (normalizedDisplayBrand.includes(normalizedKey) || normalizedKey.includes(normalizedDisplayBrand));
       });
+    // Derive fallback imagery only from the operator domain cited in this review.
+    const domainRow = Array.from(document.querySelectorAll('main tr')).find(row =>
+      /^(exact domain checked|domain|official website|website)$/i.test((row.cells[0]?.textContent || '').trim())
+    );
+    let officialUrl = domainRow?.querySelector('a[href]')?.href || '';
+    if (!officialUrl) {
+      const candidates = Array.from(document.querySelectorAll('main a[rel~="nofollow"][href^="http"]'));
+      const excluded = /ordenacionjuego|gamblingcommission|swisscasinos|esbk|egba|gamcare|begambleaware|gamblingtherapy|wikipedia|google\.com\/s2/i;
+      officialUrl = candidates.find(a => {
+        try { return !excluded.test(new URL(a.href).hostname); } catch (_) { return false; }
+      })?.href || '';
+    }
+    let fallbackFaviconTried = false;
     const addBrandLogo = (src, sourceLabel) => {
       if (!src || visualArt.querySelector('.review-visual-official-logo')) return;
       const logo = document.createElement('img');
       logo.className = 'review-visual-official-logo';
       logo.src = src;
-      logo.alt = displayBrand + (sourceLabel ? ' website icon' : ' logo');
+      logo.alt = displayBrand + (sourceLabel ? ' official-site icon' : ' logo');
       logo.loading = 'lazy';
       logo.decoding = 'async';
       logo.referrerPolicy = 'no-referrer';
       logo.addEventListener('error', () => {
         logo.remove();
+        if (!sourceLabel && !fallbackFaviconTried) {
+          fallbackFaviconTried = true;
+          try {
+            const domain = new URL(officialUrl).origin;
+            addBrandLogo('https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(domain) + '&sz=128', true);
+            return;
+          } catch (_) {}
+        }
         visualArt.classList.add('review-visual-logo-unavailable');
+        const wordmark = document.createElement('span');
+        wordmark.className = 'review-visual-wordmark review-visual-wordmark--fallback';
+        wordmark.textContent = displayBrand;
+        wordmark.setAttribute('aria-label', displayBrand + ' brand name');
+        visualArt.appendChild(wordmark);
       }, { once: true });
       visualArt.appendChild(logo);
     };
     if (logoKey) {
       addBrandLogo(visualLogoSources[logoKey], false);
     } else {
-      // Use the official domain stated in the page's evidence table, not a guessed brand URL.
-      const domainRow = Array.from(document.querySelectorAll('main tr')).find(row =>
-        /^(exact domain checked|domain|official website|website)$/i.test((row.cells[0]?.textContent || '').trim())
-      );
-      let officialUrl = domainRow?.querySelector('a[href]')?.href || '';
-      if (!officialUrl) {
-        const candidates = Array.from(document.querySelectorAll('main a[rel~="nofollow"][href^="http"]'));
-        const excluded = /ordenacionjuego|gamblingcommission|swisscasinos|esbk|egba|gamcare|begambleaware|gamblingtherapy|wikipedia|google\.com\/s2/i;
-        officialUrl = candidates.find(a => {
-          try { return !excluded.test(new URL(a.href).hostname); } catch (_) { return false; }
-        })?.href || '';
-      }
       try {
         const domain = new URL(officialUrl).origin;
         addBrandLogo('https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(domain) + '&sz=128', true);
       } catch (_) {
         visualArt.classList.add('review-visual-logo-unavailable');
+        const wordmark = document.createElement('span');
+        wordmark.className = 'review-visual-wordmark review-visual-wordmark--fallback';
+        wordmark.textContent = displayBrand;
+        visualArt.appendChild(wordmark);
       }
     }
     summary.querySelector('.review-visual-title').textContent = titleText;
