@@ -81,6 +81,22 @@
     art.querySelectorAll('img').forEach(img => { img.setAttribute('aria-hidden', 'true'); img.alt = ''; });
     const mark = art.querySelector('.review-card-monogram');
     if (mark) mark.textContent = brandInitials(name);
+    const logoSources = {
+      'OneCasino': { src: 'https://www.onecasino.es/img/website/layout/logo.svg', alt: 'OneCasino official logo' },
+      'LuckyCasino': { src: 'https://www.luckycasino.es/img/website/layout/logo.svg', alt: 'LuckyCasino official logo' },
+      'Monopoly Casino': { src: 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg', alt: 'Monopoly Casino Spain official logo' }
+    };
+    const logo = logoSources[name];
+    if (logo && !art.querySelector('.review-card-official-logo')) {
+      const logoImage = document.createElement('img');
+      logoImage.className = 'review-card-official-logo';
+      logoImage.src = logo.src;
+      logoImage.alt = logo.alt;
+      logoImage.loading = 'lazy';
+      logoImage.decoding = 'async';
+      logoImage.referrerPolicy = 'no-referrer';
+      art.appendChild(logoImage);
+    }
     const wordmark = document.createElement('span');
     wordmark.className = 'review-card-wordmark';
     wordmark.textContent = name;
