@@ -190,7 +190,7 @@
       'LeoVegas': 'https://www.leovegas.es/static/img/brand_logo_on_light_bg_small.svg',
       'Mr Green': 'https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg',
       'Codere': 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg',
-      'Casino Barcelona': 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025'
+      'Casino Barcelona': 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025',
       'Starvegas': 'https://starvegas-ch-cdn-static.gt-cdn.net/web_assets/svch/assets/img/logos/main-logo-header.a71ddc3d.svg',
       'AdmiralBet': 'https://admiralbet-es-cdn-static.gt-cdn.net/web_assets/abes/assets/img/favicon/favicon-32x32.050c8b41.png',
       'Betway': 'https://betway.es/assets/images/icons/favicon-16x16.png',
