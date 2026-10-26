@@ -423,4 +423,33 @@
     });
     art.appendChild(image);
   });
+
+  // Individual review pages get the same verified logo map as directory cards.
+  // Unknown brands keep the existing branded wordmark; no logo is fabricated.
+  const profile = document.querySelector('#review-visual-summary');
+  const profileArt = profile && profile.querySelector('.review-visual-art');
+  const profileTitle = profile && profile.querySelector('.review-visual-title');
+  if (profileArt && profileTitle && !profileArt.querySelector('.review-visual-brand-logo')) {
+    const rawName = profileTitle.textContent.trim().split(' review')[0].trim();
+    const normalize = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const marketLabel = profile.querySelector('.review-visual-status span:nth-child(2)')?.textContent || '';
+    let aliasName = rawName;
+    if (normalize(rawName).replaceAll(' ', '').includes('casino777') && normalize(marketLabel).includes('belgium')) aliasName = 'Casino777 Belgium';
+    if (normalize(rawName).replaceAll(' ', '').includes('casino777') && normalize(marketLabel).includes('switzerland')) aliasName = 'Casino777 Switzerland';
+    const directKey = Object.keys(logoSources).find(key => normalize(key) === normalize(rawName));
+    const aliasKey = Object.keys(brandAliases).find(key => normalize(key) === normalize(aliasName));
+    const logoKey = directKey || (aliasKey ? brandAliases[aliasKey] : null);
+    const logo = logoKey ? logoSources[logoKey] : null;
+    if (logo) {
+      const image = document.createElement('img');
+      image.className = 'review-visual-brand-logo' + (logo.icon ? ' review-visual-brand-logo--icon' : '') + (logo.dark ? ' review-visual-brand-logo--dark' : '');
+      image.src = logo.src;
+      image.alt = logo.alt;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.referrerPolicy = 'no-referrer';
+      image.addEventListener('error', () => image.remove(), { once: true });
+      profileArt.appendChild(image);
+    }
+  }
 })();

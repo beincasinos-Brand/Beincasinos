@@ -184,7 +184,7 @@
   const reviewHero = document.querySelector('main .page-hero');
   const reviewHeading = reviewHero && reviewHero.querySelector('h1');
   if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') &&
-      !/^\/reviews\/?$/.test(window.location.pathname)) {
+      window.location.pathname !== '/reviews/' && window.location.pathname !== '/reviews') {
     const titleText = reviewHeading.textContent.trim();
     const eyebrow = reviewHero.querySelector('.eyebrow');
     const marketText = eyebrow ? eyebrow.textContent.trim() : 'Market-specific research';
@@ -207,5 +207,16 @@
     const market = summary.querySelector('.review-visual-status span:nth-child(2)');
     market.textContent = marketText;
     reviewHero.insertAdjacentElement('afterend', summary);
+  }
+
+  // Reuse the curated operator-logo map on individual profiles, not only the directory.
+  if (document.querySelector('#review-visual-summary') &&
+      window.location.pathname !== '/reviews/' && window.location.pathname !== '/reviews' &&
+      !document.querySelector('script[data-review-profile-logos]')) {
+    const logoScript = document.createElement('script');
+    logoScript.src = '/assets/review-brand-logos.js?v=20261026-profilelogo1';
+    logoScript.async = true;
+    logoScript.dataset.reviewProfileLogos = 'true';
+    document.head.appendChild(logoScript);
   }
 })();
