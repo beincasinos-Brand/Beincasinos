@@ -21,3 +21,10 @@
   .evidence-field textarea{min-height:70px}
   .evidence-privacy{color:#333!important}
 }
+
+
+html[data-theme="dark"] .checklist-main, html[data-theme="dark"] .progress-card { background:#111d18; border-color:#2a3a31; color:#e8f0ec; }
+html[data-theme="dark"] .check-item { border-color:#2b3a32; }
+html[data-theme="dark"] .checklist-note, html[data-theme="dark"] .status-message, html[data-theme="dark"] .evidence-record { background:#142019; border-color:#304238; color:#d5e0d9; }
+html[data-theme="dark"] .evidence-field input, html[data-theme="dark"] .evidence-field textarea { background:#0d1712; border-color:#3a4b40; color:#e8f0ec; }
+html[data-theme="dark"] .evidence-privacy, html[data-theme="dark"] .group-intro, html[data-theme="dark"] .check-copy small { color:#aebeb5; }
