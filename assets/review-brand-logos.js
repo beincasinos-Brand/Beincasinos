@@ -434,8 +434,8 @@
     const normalize = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
     const marketLabel = profile.querySelector('.review-visual-status span:nth-child(2)')?.textContent || '';
     let aliasName = rawName;
-    if (/casino\\s*777/i.test(rawName) && /belgium/i.test(marketLabel)) aliasName = 'Casino777 Belgium';
-    if (/casino\\s*777/i.test(rawName) && /switzerland/i.test(marketLabel)) aliasName = 'Casino777 Switzerland';
+    if (normalize(rawName).replaceAll(' ', '').includes('casino777') && normalize(marketLabel).includes('belgium')) aliasName = 'Casino777 Belgium';
+    if (normalize(rawName).replaceAll(' ', '').includes('casino777') && normalize(marketLabel).includes('switzerland')) aliasName = 'Casino777 Switzerland';
     const directKey = Object.keys(logoSources).find(key => normalize(key) === normalize(rawName));
     const aliasKey = Object.keys(brandAliases).find(key => normalize(key) === normalize(aliasName));
     const logoKey = directKey || (aliasKey ? brandAliases[aliasKey] : null);
