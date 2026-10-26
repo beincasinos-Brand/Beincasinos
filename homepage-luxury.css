@@ -109,3 +109,6 @@ body{background:#050606;color:#f6f3eb;line-height:1.55}a:hover{color:#ffd34d}.wr
  .casino-offer{font-size:11px}
  .casino-tags{font-size:8px}
 }
+
+/* WCAG AA contrast for small metadata on the dark homepage guide cards. */
+.guide-card .card-meta{color:#c8c1ad}
