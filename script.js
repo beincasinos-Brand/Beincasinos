@@ -237,11 +237,7 @@
     controls.className = 'site-controls';
     controls.innerHTML = '<button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false"><span aria-hidden="true">◐</span><span>Dark mode</span></button><details class="language-picker"><summary aria-label="Language options">EN ▾</summary><div class="language-menu" role="group" aria-label="Available languages"><p>Site language · English is currently available. Translations are being prepared.</p><span class="language-option" aria-current="true"><span>English</span><span>Current</span></span><span class="language-option" aria-disabled="true"><span>Français</span><span>Coming soon</span></span><span class="language-option" aria-disabled="true"><span>Deutsch</span><span>Coming soon</span></span><span class="language-option" aria-disabled="true"><span>Español</span><span>Coming soon</span></span><span class="language-option" aria-disabled="true"><span>Italiano</span><span>Coming soon</span></span><span class="language-option" aria-disabled="true"><span>Nederlands</span><span>Coming soon</span></span><span class="language-option" aria-disabled="true"><span>Svenska</span><span>Coming soon</span></span></div></details>';
     primaryNav.appendChild(controls);
-    controls.querySelector('[data-theme-toggle]').addEventListener('click', () => {
-      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      applyTheme(next);
-      try { window.localStorage.setItem('bic-theme', next); } catch (_) {}
-    });
+    applyTheme(root.getAttribute('data-theme') || 'light');
     const picker = controls.querySelector('.language-picker');
     document.addEventListener('click', event => {
       if (picker.open && event.target instanceof Node && !picker.contains(event.target)) picker.open = false;
