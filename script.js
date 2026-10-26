@@ -133,7 +133,7 @@
   const reviewHero = document.querySelector('main .page-hero');
   const reviewHeading = reviewHero && reviewHero.querySelector('h1');
   if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') &&
-      !/^\/reviews\/?$/.test(window.location.pathname)) {
+      /^\/reviews\/[^/]+\/?$/.test(window.location.pathname)) {
     const titleText = reviewHeading.textContent.trim();
     const eyebrow = reviewHero.querySelector('.eyebrow');
     const marketText = eyebrow ? eyebrow.textContent.trim() : 'Market-specific research';
