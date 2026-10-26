@@ -107,7 +107,10 @@
       'Casino777.es': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
       'Winamax': { src: 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png', alt: 'Winamax official logo' },
       'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' },
-      'PlayNow Casino': { src: 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1', alt: 'PlayNow official logo' }
+      'PlayNow Casino': { src: 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1', alt: 'PlayNow official logo' },
+      '888casino': { src: 'https://www.888casino.com/assets/images/logo.svg', alt: '888casino official logo' },
+      'William Hill': { src: 'https://www.williamhill.com/assets/images/logo.svg', alt: 'William Hill official logo' },
+      'Fuego Casino': { src: 'https://s3.eu-central-1.amazonaws.com/www.united-remote.com/logo.svg', alt: 'United Remote operator logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
