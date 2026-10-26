@@ -19,6 +19,8 @@ on:
       - 'functions/**'
       - 'cloudflare/**'
       - 'scripts/**'
+      - 'data/**'
+      - '_redirects'
       - 'docs/100-brand-verification-ledger.md'
       - 'docs/brand-review-evidence-template.md'
   pull_request:
@@ -38,6 +40,8 @@ on:
       - 'functions/**'
       - 'cloudflare/**'
       - 'scripts/**'
+      - 'data/**'
+      - '_redirects'
       - 'docs/100-brand-verification-ledger.md'
       - 'docs/brand-review-evidence-template.md'
       - 'assets/**'
@@ -58,6 +62,8 @@ jobs:
           python-version: "3.x"
       - name: Check HTML structure and local links
         run: python3 scripts/check_site.py
+      - name: Check affiliate link gates and disclosures
+        run: python3 scripts/affiliate_links.py check
       - name: Validate paid-listing pipeline schema and hard gates
         run: python3 scripts/check_sales_pipeline.py
       - name: Run sales pipeline validator regression tests
