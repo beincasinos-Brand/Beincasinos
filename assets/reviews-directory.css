@@ -85,3 +85,34 @@
 /* Keep verified operator logos fully legible above the decorative artwork layer. */
 .review-card-art .review-card-official-logo{opacity:1;mix-blend-mode:normal}
 .review-card-art .review-card-official-logo--dark{background:#10241b;border-color:#c3a15e}
+
+
+/* Premium directory polish: stronger brand recognition, keyboard access and mobile clarity. */
+.review-directory-section .wrap{max-width:1240px}
+.review-product-card{position:relative;isolation:isolate;background:#fff;min-height:100%;border-color:#d7e2d8}
+.review-product-card:focus-within{outline:3px solid #c9a54e;outline-offset:3px}
+.review-card-art{isolation:isolate;min-height:148px}
+.review-card-art img{pointer-events:none}
+.review-card-art .review-card-official-logo{position:absolute;z-index:3;left:20px;top:20px;display:block;width:auto;max-width:min(46%,220px);height:auto;max-height:66px;object-fit:contain;object-position:left center;padding:9px 12px;border:1px solid #d8c48d;border-radius:10px;background:#fff;box-shadow:0 8px 24px #0003}
+.review-card-art .review-card-official-logo--dark{background:#10241b;color:#fff}
+.review-card-art .review-card-monogram{z-index:2}
+.review-card-art .review-card-official-logo~.review-card-monogram{display:none}
+.review-card-art-label{padding:7px 9px;border:1px solid #ffffff36;border-radius:5px;background:#071a13b8;backdrop-filter:blur(6px)}
+.review-card-market{padding:6px 9px;border-radius:5px;background:#071a13d9}
+.review-card-heading{align-items:flex-start}
+.review-card-heading h2 a{color:inherit;text-decoration:none;text-underline-offset:4px}
+.review-card-heading h2 a:hover,.review-card-heading h2 a:focus-visible{text-decoration:underline;color:#1b6748}
+.review-card-heading h2 a:focus-visible,.review-card-cta:focus-visible,.review-card-art:focus-visible{outline:3px solid #c9a54e;outline-offset:3px}
+.review-status-pill{line-height:1.35}
+.review-card-summary{min-height:0}
+.review-card-metrics{margin-top:auto}
+.review-card-metrics>div{overflow-wrap:anywhere}
+.review-card-metrics strong{display:block}
+.review-card-foot{font-size:11px}
+.review-card-cta{margin-top:2px}
+.review-filter-bar{position:relative;z-index:2}
+.review-search-label input:focus-visible,.review-market-label select:focus-visible{outline:3px solid #c9a54e;outline-offset:2px;border-color:#8b6a24}
+.review-results-count{white-space:normal}
+@media(min-width:1200px){.review-product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.review-card-body{padding:23px}.review-card-art{height:168px}}
+@media(max-width:700px){.review-product-grid{grid-template-columns:minmax(0,1fr)}.review-card-heading{gap:8px}.review-card-heading h2{font-size:21px}.review-card-art .review-card-official-logo{left:16px;top:16px;max-width:52%;max-height:58px}.review-card-art-label{max-width:55%;text-align:right;line-height:1.4}.review-count-panel{display:block;width:100%}.review-filter-bar{position:static}.review-results-count{padding:0}}
+@media(prefers-reduced-motion:reduce){.review-product-card:hover{transform:none}}
