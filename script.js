@@ -193,11 +193,12 @@
       'Casino Barcelona': 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025'
     };
     const logoKey = Object.keys(visualLogoSources).find(key => key.toLowerCase() === displayBrand.toLowerCase());
-    if (logoKey) {
+    const addBrandLogo = (src, sourceLabel) => {
+      if (!src || visualArt.querySelector('.review-visual-official-logo')) return;
       const logo = document.createElement('img');
       logo.className = 'review-visual-official-logo';
-      logo.src = visualLogoSources[logoKey];
-      logo.alt = displayBrand + ' logo';
+      logo.src = src;
+      logo.alt = displayBrand + (sourceLabel ? ' website icon' : ' logo');
       logo.loading = 'lazy';
       logo.decoding = 'async';
       logo.referrerPolicy = 'no-referrer';
@@ -206,6 +207,28 @@
         visualArt.classList.add('review-visual-logo-unavailable');
       }, { once: true });
       visualArt.appendChild(logo);
+    };
+    if (logoKey) {
+      addBrandLogo(visualLogoSources[logoKey], false);
+    } else {
+      // Use the official domain stated in the page's evidence table, not a guessed brand URL.
+      const domainRow = Array.from(document.querySelectorAll('main tr')).find(row =>
+        /^(exact domain checked|domain|official website|website)$/i.test((row.cells[0]?.textContent || '').trim())
+      );
+      let officialUrl = domainRow?.querySelector('a[href]')?.href || '';
+      if (!officialUrl) {
+        const candidates = Array.from(document.querySelectorAll('main a[rel~="nofollow"][href^="http"]'));
+        const excluded = /ordenacionjuego|gamblingcommission|swisscasinos|esbk|egba|gamcare|begambleaware|gamblingtherapy|wikipedia|google\.com\/s2/i;
+        officialUrl = candidates.find(a => {
+          try { return !excluded.test(new URL(a.href).hostname); } catch (_) { return false; }
+        })?.href || '';
+      }
+      try {
+        const domain = new URL(officialUrl).origin;
+        addBrandLogo('https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(domain) + '&sz=128', true);
+      } catch (_) {
+        visualArt.classList.add('review-visual-logo-unavailable');
+      }
     }
     summary.querySelector('.review-visual-title').textContent = titleText;
     const market = summary.querySelector('.review-visual-status span:nth-child(2)');
