@@ -185,3 +185,6 @@ html[data-theme="light"] .site-footer .brand-light { color:#344c40; }
 html[data-theme="light"] .site-footer .brand small { color:#52655a; }
 html[data-theme="light"] .site-footer .footer-top>p { color:#52655a; }
 html[data-theme="light"] .site-footer .footer-links b { color:#174d3e; }
+
+
+html[data-theme="light"] .site-footer .footer-brand>span>small { color:#52655a !important; }
