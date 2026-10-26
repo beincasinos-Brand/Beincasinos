@@ -28,6 +28,28 @@
     'Casino777.be': {
       src: 'https://static.casino777.es/site/logo.webp',
       alt: 'Casino777 official logo'
+    },
+    'Luckia Casino': {
+      src: 'https://www.luckiagaminggroup.com/wp-content/uploads/2024/02/Logo-LuckiaGamingGroup_Positivo-1.svg',
+      alt: 'Luckia Gaming Group logo'
+    },
+    'Casino Gran Madrid Online': {
+      src: 'https://casinogranmadrid.com/wp-content/uploads/2026/05/Logo-berenjena.png.webp',
+      alt: 'Gran Madrid official logo'
+    },
+    '888casino': {
+      src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
+      alt: '888 official brand logo'
+    },
+    'William Hill': {
+      src: 'https://apps.static-cs.williamhill.com/inter-splash/static/images/16x16.png',
+      alt: 'William Hill official brand icon',
+      icon: true
+    },
+    'William Hill Casino': {
+      src: 'https://apps.static-cs.williamhill.com/inter-splash/static/images/16x16.png',
+      alt: 'William Hill official brand icon',
+      icon: true
     }
   };
 
