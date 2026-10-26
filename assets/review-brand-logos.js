@@ -404,8 +404,7 @@
     try {
       const response = await fetch(reviewLink.href, { credentials: 'same-origin' });
       if (!response.ok) throw new Error('Review page unavailable');
-      const markup = await response.text();
-      const parsed = new DOMParser().parseFromString(markup, 'text/html');
+      const parsed = new DOMParser().parseFromString(await response.text(), 'text/html');
       const domainRow = Array.from(parsed.querySelectorAll('main tr')).find(row =>
         /^(exact domain checked|domain|official website|website)$/i.test((row.cells[0]?.textContent || '').trim())
       );
@@ -418,23 +417,44 @@
         })?.href || '';
       }
       if (!officialUrl) throw new Error('No evidenced operator domain on review page');
-      const domain = new URL(officialUrl).origin;
+      const u = new URL(officialUrl);
+      const origin = u.origin;
+      const candidates = [
+        origin + '/apple-touch-icon.png',
+        origin + '/apple-touch-icon-precomposed.png',
+        origin + '/logo.svg',
+        origin + '/logo.png',
+        origin + '/assets/logo.svg',
+        origin + '/assets/logo.png',
+        origin + '/images/logo.svg',
+        origin + '/images/logo.png',
+        origin + '/favicon.ico',
+        'https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(origin) + '&sz=256'
+      ];
       const image = document.createElement('img');
-      image.className = 'review-card-official-logo review-card-official-logo--icon';
-      image.src = 'https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(domain) + '&sz=128';
-      image.alt = name + ' official website icon';
+      image.className = 'review-card-official-logo';
+      image.alt = name + ' official website logo';
       image.loading = 'lazy';
       image.decoding = 'async';
       image.referrerPolicy = 'no-referrer';
-      image.addEventListener('error', () => {
-        image.remove();
-        addFallbackWordmark(art, name);
-      }, { once: true });
+      let candidateIndex = 0;
+      const tryNext = () => {
+        candidateIndex += 1;
+        if (candidateIndex >= candidates.length) {
+          image.remove();
+          addFallbackWordmark(art, name);
+          return;
+        }
+        image.src = candidates[candidateIndex];
+      };
+      image.addEventListener('error', tryNext);
       image.addEventListener('load', () => {
         art.classList.add('review-card-has-official-logo');
+        art.classList.remove('review-card-logo-unavailable');
         const monogram = art.querySelector('.review-card-monogram');
         if (monogram) monogram.hidden = true;
       }, { once: true });
+      image.src = candidates[0];
       art.appendChild(image);
     } catch (_) {
       addFallbackWordmark(art, name);
