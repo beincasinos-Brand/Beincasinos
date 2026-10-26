@@ -178,3 +178,29 @@
     max-height: 40px;
   }
 }
+
+
+/* Evidence status notice: visible, calm, responsive and readable in both themes. */
+.review-evidence-note {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  border: 1px solid #d8e3d8;
+  border-left: 4px solid #6d9d79;
+  border-radius: 10px;
+  background: #f5f8f3;
+  color: #34483b;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.review-evidence-note strong { color: #174d3e; }
+html[data-theme="dark"] .review-evidence-note {
+  background: #111d18;
+  border-color: #304238;
+  border-left-color: #8ab99a;
+  color: #c8d5ce;
+}
+html[data-theme="dark"] .review-evidence-note strong { color: #bce9cb; }
+@media (max-width: 700px) {
+  .review-evidence-note { padding: 12px; font-size: 12px; }
+}
