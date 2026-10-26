@@ -30,6 +30,15 @@ class ReviewReleaseAuditTests(unittest.TestCase):
             self.assertIn("affiliate_disclosure_not_detected", codes)
             self.assertIn("safer_gambling_not_detected", codes)
 
+    def test_first_hand_testing_and_absolute_claims_are_flagged(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "claims.html"
+            page.write_text("<title>Example</title><h1>Example</h1><p>We tested it. This is 100% safe.</p>", encoding="utf-8")
+            codes = {flag["code"] for flag in MODULE.audit(page, root)["flags"]}
+            self.assertIn("first_hand_testing_claim", codes)
+            self.assertIn("absolute_gambling_claim", codes)
+
     def test_numeric_score_is_flagged_for_human_verification(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
