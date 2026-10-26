@@ -521,7 +521,7 @@
     if (!hrefs.length) Array.from(document.querySelectorAll('main a[rel~="nofollow"][href^="http"]')).forEach(a => hrefs.push(a.href));
     for (const href of hrefs) { try { const u = new URL(href); if (!excluded.test(u.hostname)) { origin = u.origin; break; } } catch (_) {} }
     const h1 = document.querySelector('main h1');
-    const brand = h1.textContent.trim().replace(/\\s+(casino\\s+)?review.*$/i, '').replace(/\\s*\\|.*$/, '').trim() || 'Casino operator';
+    const brand = h1.textContent.trim().replace(/\s+(casino\s+)?review.*$/i, '').replace(/\s*\|.*$/, '').trim() || 'Casino operator';
     let figure = document.querySelector('main .operator-logo-figure');
     if (!figure) {
       figure = document.createElement('figure');
