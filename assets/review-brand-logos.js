@@ -168,6 +168,16 @@
       alt: 'Spin Genie official logo',
       dark: true
     },
+    'bet365 Casino': {
+      src: 'https://www.bet365.com/favicon.ico',
+      alt: 'bet365 official brand icon',
+      icon: true
+    },
+    'PokerStars Casino': {
+      src: 'https://www.pokerstars.com/favicon.ico',
+      alt: 'PokerStars official brand icon',
+      icon: true
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
