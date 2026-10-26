@@ -50,6 +50,11 @@
       src: 'https://apps.static-cs.williamhill.com/inter-splash/static/images/16x16.png',
       alt: 'William Hill official brand icon',
       icon: true
+    },
+    'BetMGM Casino': {
+      src: 'https://scmedia.nj.betmgm.com/$-$/5ff5107775984e9fbad8eec0b9efb25e.png',
+      alt: 'BetMGM official brand icon',
+      icon: true
     }
   };
 
