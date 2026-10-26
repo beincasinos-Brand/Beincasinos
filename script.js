@@ -102,7 +102,12 @@
       'Casino777.ch': { src: 'https://www.casino777.ch/assets/img/header/logo.svg?ver=2', alt: 'Casino777 Switzerland official logo' },
       'Swiss4Win': { src: 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314', alt: 'Swiss4Win official logo' },
       'TOTO Casino': { src: 'https://www.toto.nl/images/logo-toto.svg', alt: 'TOTO official logo' },
-      'Betsson': { src: 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg', alt: 'Betsson official logo' }
+      'Betsson': { src: 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg', alt: 'Betsson official logo' },
+      'Botemania': { src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg', alt: 'Botemanía official logo' },
+      'Casino777.es': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
+      'Holland Casino Online': { src: 'https://www.hollandcasino.nl/content/dam/hc/nl/logos/holland-casino-logo.svg', alt: 'Holland Casino official logo' },
+      'Winamax': { src: 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png', alt: 'Winamax official logo' },
+      'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
