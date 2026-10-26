@@ -97,6 +97,9 @@
     const mark = art.querySelector('.review-card-monogram');
     if (mark) mark.textContent = brandInitials(name);
     const logoSources = {
+      'Fuego Casino': { src: 'https://s3.eu-central-1.amazonaws.com/www.united-remote.com/logo.svg', alt: 'Fuego Casino official logo' },
+      'Metal Casino': { src: 'https://delivery2.objectic.io/jfMYQOLTGWiKB5ocOVpcTH/wI7jjRHhArF0/EkV8i1H1VxMCo5vCZbcH1JfsE73610SZQZ0ZGui1.svg', alt: 'Metal Casino official logo' },
+      'Jokerbet': { src: 'https://www.jokerbet.es/img/09.%20Elementos%20web/Aviso/no-disponible/JOKERBET_logotipo-blanco.svg', alt: 'JOKERBET official logo', dark: true },
       'OneCasino': { src: 'https://www.onecasino.es/img/website/layout/logo.svg', alt: 'OneCasino official logo' },
       'LuckyCasino': { src: 'https://www.luckycasino.es/img/website/layout/logo.svg', alt: 'LuckyCasino official logo' },
       'Monopoly Casino': { src: 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg', alt: 'Monopoly Casino Spain official logo' },
@@ -132,6 +135,7 @@
       logoImage.className = 'review-card-official-logo';
       logoImage.src = logo.src;
       logoImage.alt = logo.alt;
+      if (logo.dark) logoImage.classList.add('review-card-official-logo--dark');
       logoImage.loading = 'lazy';
       logoImage.decoding = 'async';
       logoImage.referrerPolicy = 'no-referrer';
