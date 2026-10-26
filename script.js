@@ -51,26 +51,34 @@
   const reviewSearch = document.querySelector('#review-search');
   const reviewMarket = document.querySelector('#review-market');
   const reviewGrid = document.querySelector('#review-product-grid');
+  const clearReviewFilters = document.querySelector('#review-clear-filters');
   if (reviewSearch && reviewMarket && reviewGrid) {
     const cards = Array.from(reviewGrid.querySelectorAll('.review-product-card'));
     const count = document.querySelector('#review-results-count');
     const empty = document.querySelector('#review-no-results');
+    const normalizeSearch = value => String(value || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLocaleLowerCase().replace(/\\s+/g, ' ').trim();
     const update = () => {
-      const query = reviewSearch.value.trim().toLocaleLowerCase();
+      const query = normalizeSearch(reviewSearch.value);
       const market = reviewMarket.value;
       let shown = 0;
       cards.forEach(card => {
-        const searchable = (card.dataset.search || '').toLocaleLowerCase();
-        const matches = (!query || searchable.includes(query)) &&
-          (!market || card.dataset.market === market);
+        const searchable = normalizeSearch((card.dataset.search || '') + ' ' + (card.querySelector('.review-card-heading h2')?.textContent || ''));
+        const matches = (!query || searchable.includes(query)) && (!market || card.dataset.market === market);
         card.hidden = !matches;
         if (matches) shown += 1;
       });
       if (count) count.textContent = shown + (shown === 1 ? ' profile' : ' profiles');
       if (empty) empty.hidden = shown !== 0;
+      if (clearReviewFilters) clearReviewFilters.disabled = !query && !market;
     };
     reviewSearch.addEventListener('input', update);
     reviewMarket.addEventListener('change', update);
+    if (clearReviewFilters) clearReviewFilters.addEventListener('click', () => {
+      reviewSearch.value = '';
+      reviewMarket.value = '';
+      update();
+      reviewSearch.focus();
+    });
     update();
   }
 
