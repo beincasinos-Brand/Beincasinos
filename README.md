@@ -53,7 +53,7 @@ The owner has reported completing the `beincasinos.online` purchase through Spac
 1. **Owner decision: retain the BeInCasinos name for now.** The owner has chosen to keep the brand after purchasing the domain. This is a project decision, not trademark clearance. **Resolve brand risk before public launch or further branding investment.** The name contains “BEIN”, which is an established mark associated with beIN Media Group. A WIPO domain-name decision describes beIN marks registered in Morocco and records a dispute over a domain incorporating BEIN. This does not by itself decide whether “BeInCasinos” infringes, but it makes a proper clearance review particularly important. Search WIPO and OMPIC records for the exact and similar marks in relevant classes and markets, and get qualified trademark advice if uncertain. References: https://www.wipo.int/amc/en/domains/decisions/text/2018/dma2018-0003.html and https://www.wipo.int/en/web/global-brand-database/index.
 2. Confirm the domain is active in the registrar account, then add and test canonical/OG URLs after name clearance and before launch.
 3. Verify every legal/regulatory statement against current primary sources for each target market.
-4. The owner has specified the publisher display identity as **Anass Amir** and the temporary contact email as **beincasinos@gmail.com**. Verify that the mailbox is accessible and monitored, and determine whether additional legal publisher details are required before launch.
+4. The owner has specified the publisher display identity as **Anass Amir** and the business contact email as **contact@beincasinos.online**. The branded mailbox is the public contact route; confirm whether additional legal publisher details are required before launch.
 5. Update privacy/cookie wording to match the actual analytics, tracking, affiliate links, and vendors in use.
 6. Review affiliate program rules, allowed geographies, marketing restrictions, and required disclosures.
 7. Keep the temporary `robots.txt` disallow rule until the launch review is complete.
@@ -140,7 +140,7 @@ These are research notes and candidate queues, not public listings, legal advice
 
 - The owner has chosen to retain the BeInCasinos name for now; this is not trademark clearance.
 - Publisher display identity supplied by the owner: **Anass Amir**.
-- Temporary contact email selected by the owner: **beincasinos@gmail.com**; mailbox access and monitoring must be tested before public launch.
+- Business contact email selected by the owner: **contact@beincasinos.online**; the owner reports that sending and receiving work.
 - Privacy/data-handling review: [docs/privacy-and-data-handling-review.md](docs/privacy-and-data-handling-review.md). This remains an open release gate, including review of Moroccan CNDP Law 09-08 requirements and any cross-border data-transfer formalities applicable to the actual setup.
 
 

@@ -27,7 +27,7 @@ Mark each item complete only when evidence exists. Never put passwords, tokens, 
 ### 1. Brand and publisher identity
 - [ ] Decide whether to retain BeInCasinos after qualified trademark review of “BeInCasinos” and “BEIN” in intended classes/markets.
 - [ ] Confirm the legal publisher/controller identity and required public business disclosures; “Anass Amir” is currently recorded as the chosen display identity, not independently verified as the full legal publisher disclosure.
-- [ ] Verify access, recovery protection, and monitoring of beincasinos@gmail.com.
+- [ ] Verify access, recovery protection, and monitoring of contact@beincasinos.online.
 
 ### 2. Domain and hosting
 - [ ] In Spaceship, verify beincasinos.online registration, renewal, DNS access, and current records; preserve existing mail records.
