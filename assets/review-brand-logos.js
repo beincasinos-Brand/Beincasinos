@@ -419,15 +419,20 @@
       if (!officialUrl) throw new Error('No evidenced operator domain on review page');
       const u = new URL(officialUrl);
       const origin = u.origin;
+      // Discover common high-resolution logo assets before falling back to a favicon.
       const candidates = [
         origin + '/apple-touch-icon.png',
         origin + '/apple-touch-icon-precomposed.png',
+        origin + '/apple-touch-icon-180x180.png',
         origin + '/logo.svg',
         origin + '/logo.png',
         origin + '/assets/logo.svg',
         origin + '/assets/logo.png',
         origin + '/images/logo.svg',
         origin + '/images/logo.png',
+        origin + '/static/logo.svg',
+        origin + '/static/logo.png',
+        origin + '/favicon.svg',
         origin + '/favicon.ico',
         'https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(origin) + '&sz=256'
       ];
