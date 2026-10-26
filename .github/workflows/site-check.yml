@@ -40,6 +40,7 @@ on:
       - 'scripts/**'
       - 'docs/100-brand-verification-ledger.md'
       - 'docs/brand-review-evidence-template.md'
+      - 'assets/**'
   workflow_dispatch:
 
 permissions:
