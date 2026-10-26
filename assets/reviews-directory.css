@@ -192,3 +192,29 @@ html[data-theme="dark"] .review-card-metrics span { color:#aebeb5; }
 html[data-theme="dark"] .review-card-metrics strong { color:#edf4ef; }
 html[data-theme="dark"] .review-card-foot { border-color:#2b3a32; }
 html[data-theme="dark"] .review-no-results { color:#c0cec7; }
+
+
+/* Directory UX follow-up: clear focus, resilient labels, and narrow filter layouts. */
+.review-search-label input:focus-visible, .review-market-label select:focus-visible,
+.review-filter-bar button:focus-visible, .review-product-card a:focus-visible {
+  outline:3px solid #c9a54e;
+  outline-offset:3px;
+}
+.review-product-card { min-width:0; }
+.review-card-heading, .review-card-metrics, .review-card-foot { min-width:0; }
+.review-status-pill { overflow-wrap:anywhere; }
+.review-card-summary, .review-card-foot, .review-rating-note { overflow-wrap:anywhere; }
+@media(max-width:700px) {
+  .review-filter-bar { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; }
+  .review-search-label, .review-market-label, .review-search-label input,
+  .review-market-label select { width:100%; min-width:0; }
+  .review-results-count { overflow-wrap:anywhere; }
+}
+@media(max-width:420px) {
+  .review-card-heading h2 { font-size:19px; }
+  .review-card-metrics { gap:8px; }
+  .review-status-pill { max-width:100%; }
+}
+html[data-theme="dark"] .review-search-label input::placeholder { color:#aebeb5; opacity:1; }
+html[data-theme="dark"] .review-search-label label,
+html[data-theme="dark"] .review-market-label label { color:#d5e0d9; }
