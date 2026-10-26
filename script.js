@@ -208,4 +208,15 @@
     market.textContent = marketText;
     reviewHero.insertAdjacentElement('afterend', summary);
   }
+
+  // Reuse the curated operator-logo map on individual profiles, not only the directory.
+  if (document.querySelector('#review-visual-summary') &&
+      !/^\\/reviews\\/?$/.test(window.location.pathname) &&
+      !document.querySelector('script[data-review-profile-logos]')) {
+    const logoScript = document.createElement('script');
+    logoScript.src = '/assets/review-brand-logos.js?v=20261026-profilelogo1';
+    logoScript.async = true;
+    logoScript.dataset.reviewProfileLogos = 'true';
+    document.head.appendChild(logoScript);
+  }
 })();
