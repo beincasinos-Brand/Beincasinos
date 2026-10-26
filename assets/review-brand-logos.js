@@ -470,7 +470,8 @@
     card.style.setProperty('--brand-hue', String(hueSeed));
     const logoKey = logoSources[name] ? name : brandAliases[name];
     const logo = logoKey ? logoSources[logoKey] : null;
-    if (!logo) {
+    // Avoid tiny favicon files as primary card art; discover a larger official logo first.
+    if (!logo || logo.icon) {
       addOfficialDomainIcon(card, art, name);
       return;
     }
