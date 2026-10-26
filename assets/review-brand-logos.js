@@ -382,22 +382,12 @@
     'Casino Gran Vía': 'Casino Gran Vía',
     'Botemanía': 'Botemanía',
     'Casino Barcelona (Spain)': 'Casino Barcelona Online',
-    'OnePlay Casino': 'OneCasino',
     'Casino Barcelona Online (Spain)': 'Casino Barcelona Online',
     'Casino Gran Madrid (Spain)': 'Casino Gran Madrid Online',
     'Casino Gran Madrid Online (Spain)': 'Casino Gran Madrid Online',
     'Botemania': 'Botemanía',
-    'Betfair Casino': 'Betfair',
     'William Hill Casino (Great Britain)': 'William Hill Casino',
-    '888casino (Great Britain)': '888casino',
-    '888casino (Spain)': '888casino',
-    'Casumo (Spain)': 'Casumo',
-    'Casumo (Germany)': 'Casumo',
-    'Casino Marca': 'Marca Casino',
-    'Pinata Casino Spain': 'Pinata Casino',
-    'TodoSlots Spain': 'TodoSlots',
-    'Prime Casino Spain': 'Prime Casino',
-    'EU Casino Spain': 'EU Casino'
+    '888casino (Great Britain)': '888casino'
   };
 
   const addFallbackWordmark = (art, name) => {
