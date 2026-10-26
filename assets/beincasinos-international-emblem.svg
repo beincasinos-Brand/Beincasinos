@@ -1,11 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc"><title id="title">BIC BeInCasinos</title><desc id="desc">Circular black and gold BeInCasinos emblem with crown and BIC monogram</desc><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff4ae"/><stop offset=".28" stop-color="#e9ac24"/><stop offset=".52" stop-color="#fff0a0"/><stop offset=".76" stop-color="#a86c0b"/><stop offset="1" stop-color="#ffe17a"/></linearGradient><radialGradient id="bg"><stop stop-color="#27200f"/><stop offset=".75" stop-color="#080807"/><stop offset="1" stop-color="#020202"/></radialGradient><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><circle cx="200" cy="200" r="193" fill="#030303" stroke="url(#g)" stroke-width="7"/><circle cx="200" cy="200" r="180" fill="url(#bg)" stroke="#8b6118" stroke-width="2"/><circle cx="200" cy="200" r="166" fill="none" stroke="#5b4317" stroke-width="1.5" stroke-dasharray="2 7"/><g id="world-map" transform="translate(0 8)" opacity=".46" fill="#d7a72f" stroke="#ffe49a" stroke-width="1.4" stroke-linejoin="round">
-<path d="M61 151 78 133 103 125 120 111 145 116 159 131 177 134 184 150 174 163 155 166 147 183 133 190 125 207 111 214 104 234 91 229 85 211 75 201 78 184 65 174Z"/>
-<path d="M142 213 158 218 170 237 168 255 157 273 151 295 139 310 130 292 133 270 124 251 128 231Z"/>
-<path d="M187 128 203 118 221 121 234 134 249 132 265 143 286 145 303 158 324 163 337 178 328 190 310 188 299 202 281 199 269 212 253 208 245 193 229 190 218 177 203 171 194 153Z"/>
-<path d="M207 181 224 187 237 202 241 221 232 242 220 260 210 249 205 229 194 214 195 198Z"/>
-<path d="M276 219 293 215 311 224 320 241 309 257 292 260 279 247 270 232Z"/>
-<path d="M323 264 338 257 350 266 345 280 332 285 323 276Z"/>
-<path d="M95 116 104 108 116 111 113 121 102 124Z"/>
-<path d="M235 110 245 104 257 110 254 119 242 120Z"/>
-<path d="M350 292 358 287 364 295 359 304 352 302Z"/>
-</g><path d="M145 102 166 124 200 67 234 124 255 102 244 151Q200 169 156 151Z" fill="url(#g)" stroke="#fff0a0" stroke-width="3" filter="url(#glow)"/><path d="M163 165H237" stroke="url(#g)" stroke-width="2"/><text x="200" y="247" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="93" font-weight="900" letter-spacing="-10" fill="url(#g)" stroke="#120d03" stroke-width="1">BIC</text><text x="200" y="286" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="800" letter-spacing="-1" fill="#fff8e9">BeIn<tspan fill="url(#g)">Casinos</tspan></text><path d="M92 301H308" stroke="url(#g)" stroke-width="2"/><text x="200" y="324" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#f4e7c2">TOP CASINO REVIEWS</text><text x="200" y="339" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#f4e7c2">&amp; BONUSES</text><circle cx="95" cy="88" r="2" fill="#ffdb5b"/><circle cx="306" cy="92" r="2" fill="#ffdb5b"/><circle cx="83" cy="270" r="2" fill="#ffdb5b"/><circle cx="317" cy="270" r="2" fill="#ffdb5b"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+<title id="title">BIC BeInCasinos International Emblem</title>
+<desc id="desc">Premium black and gold BeInCasinos emblem with a detailed world map, glowing international connections, crown, and BIC monogram.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8c9"/><stop offset=".24" stop-color="#f1b72d"/><stop offset=".48" stop-color="#fff2a2"/><stop offset=".73" stop-color="#b8790d"/><stop offset="1" stop-color="#ffe58a"/></linearGradient>
+<radialGradient id="bg"><stop stop-color="#18160f"/><stop offset=".72" stop-color="#060606"/><stop offset="1" stop-color="#010101"/></radialGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="mapclip"><circle cx="200" cy="200" r="172"/></clipPath>
+</defs>
+<circle cx="200" cy="200" r="193" fill="#030303" stroke="url(#g)" stroke-width="7"/>
+<circle cx="200" cy="200" r="180" fill="url(#bg)" stroke="#8b6118" stroke-width="2"/>
+<g clip-path="url(#mapclip)">
+<g fill="#b88923" fill-opacity=".45" stroke="#ffdc73" stroke-opacity=".78" stroke-width=".8" stroke-linejoin="round">
+<!-- North America -->
+<path d="M25 94 42 78 61 76 72 62 94 64 108 76 126 77 141 91 157 96 164 111 154 122 143 126 136 141 121 146 113 160 98 163 92 178 78 181 72 169 58 164 54 149 43 143 38 126 27 116Z"/>
+<path d="M113 161 126 154 139 158 147 169 143 182 135 194 130 210 119 224 115 244 104 256 97 243 99 225 91 212 96 195 88 181 99 169Z"/>
+<!-- Greenland -->
+<path d="M137 55 153 45 169 51 173 65 164 78 150 82 139 71Z"/>
+<!-- South America -->
+<path d="M143 202 157 204 171 215 178 231 174 249 167 263 163 282 153 300 148 322 138 342 130 326 133 306 126 288 128 270 119 252 124 234 132 220Z"/>
+<!-- Europe -->
+<path d="M176 106 190 98 202 102 210 96 224 102 232 112 244 114 249 125 240 133 226 131 219 140 207 136 199 126 188 125 180 117Z"/>
+<!-- Africa -->
+<path d="M191 140 207 134 224 140 237 154 239 173 232 190 225 209 213 227 204 246 193 238 188 218 180 203 179 184 170 168 176 151Z"/>
+<!-- Asia -->
+<path d="M228 98 246 88 267 91 281 84 302 91 319 87 341 99 355 112 370 122 365 137 350 141 343 154 329 156 318 169 303 164 294 177 279 174 267 162 251 160 242 147 229 143 222 129 230 116Z"/>
+<!-- India and southeast Asia -->
+<path d="M259 164 272 168 280 183 275 198 267 208 260 195 253 182Z"/>
+<path d="M290 178 305 180 316 191 328 195 333 206 324 214 311 209 301 198 291 194Z"/>
+<!-- Japan / islands -->
+<path d="M345 161 352 165 350 178 344 184 340 174Z"/>
+<path d="M324 224 339 219 351 227 355 239 346 249 332 244Z"/>
+<path d="M350 275 363 269 374 278 369 291 357 295 349 286Z"/>
+<!-- Australia -->
+<path d="M306 248 325 243 345 251 354 266 347 283 331 291 314 285 302 270Z"/>
+<!-- Arabian peninsula and Madagascar -->
+<path d="M236 187 248 190 255 202 249 215 239 208Z"/>
+<path d="M229 250 234 259 231 274 226 267Z"/>
+</g>
+<!-- subtle longitude / latitude arcs -->
+<g fill="none" stroke="#d8a32b" stroke-opacity=".22" stroke-width=".8">
+<ellipse cx="200" cy="200" rx="158" ry="54"/><ellipse cx="200" cy="200" rx="158" ry="105"/><ellipse cx="200" cy="200" rx="72" ry="172"/><ellipse cx="200" cy="200" rx="126" ry="172"/>
+<path d="M28 200H372M43 150H357M43 250H357"/>
+</g>
+<!-- international connection arcs and city lights -->
+<g fill="none" stroke="#ffc43d" stroke-opacity=".8" stroke-width="1.1">
+<path d="M72 126Q165 35 237 123T333 150"/><path d="M78 174Q174 91 280 171T330 220"/><path d="M133 100Q192 165 267 113T344 132"/><path d="M118 244Q198 160 306 250"/>
+</g>
+<g fill="#ffe9a0" filter="url(#glow)">
+<circle cx="72" cy="126" r="2.5"/><circle cx="116" cy="93" r="2.2"/><circle cx="165" cy="85" r="2.4"/><circle cx="237" cy="123" r="2.8"/><circle cx="281" cy="171" r="2.4"/><circle cx="333" cy="150" r="2.7"/><circle cx="330" cy="220" r="2.2"/><circle cx="133" cy="100" r="2.3"/><circle cx="118" cy="244" r="2.2"/><circle cx="306" cy="250" r="2.6"/><circle cx="199" cy="170" r="2.5"/><circle cx="221" cy="215" r="2.1"/>
+</g>
+</g>
+<circle cx="200" cy="200" r="166" fill="none" stroke="#5b4317" stroke-width="1.5" stroke-dasharray="2 7"/>
+<path d="M145 102 166 124 200 67 234 124 255 102 244 151Q200 169 156 151Z" fill="url(#g)" stroke="#fff0a0" stroke-width="3" filter="url(#glow)"/>
+<path d="M163 165H237" stroke="url(#g)" stroke-width="2"/>
+<text x="200" y="247" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="93" font-weight="900" letter-spacing="-10" fill="url(#g)" stroke="#120d03" stroke-width="1">BIC</text>
+<text x="200" y="286" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="800" letter-spacing="-1" fill="#fff8e9">BeIn<tspan fill="url(#g)">Casinos</tspan></text>
+<path d="M92 301H308" stroke="url(#g)" stroke-width="2"/>
+<text x="200" y="324" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#f4e7c2">TOP CASINO REVIEWS</text>
+<text x="200" y="339" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="#f4e7c2">&amp; BONUSES</text>
+<circle cx="95" cy="88" r="2" fill="#ffdb5b"/><circle cx="306" cy="92" r="2" fill="#ffdb5b"/><circle cx="83" cy="270" r="2" fill="#ffdb5b"/><circle cx="317" cy="270" r="2" fill="#ffdb5b"/>
+</svg>
