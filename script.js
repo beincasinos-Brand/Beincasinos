@@ -96,7 +96,11 @@
       'LeoVegas': { src: 'https://www.leovegas.es/static/img/brand_logo_on_light_bg_small.svg', alt: 'LeoVegas official logo' },
       'Mr Green': { src: 'https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg', alt: 'Mr Green official logo' },
       'Casino777': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
-      'Codere': { src: 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg', alt: 'Codere official logo' }
+      'Codere': { src: 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg', alt: 'Codere official logo' },
+      'Jackpots.ch': { src: 'https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg', alt: 'Jackpots.ch official logo' },
+      'mycasino.ch': { src: 'https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg', alt: 'mycasino.ch official logo' },
+      'Casino777.ch': { src: 'https://www.casino777.ch/assets/img/header/logo.svg?ver=2', alt: 'Casino777 Switzerland official logo' },
+      'Swiss4Win': { src: 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314', alt: 'Swiss4Win official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
