@@ -196,6 +196,23 @@
       src: 'https://www.ebingo.es/img/header/ebingoLogo.svg',
       alt: 'eBingo official logo'
     },
+    'ComeOn Casino': {
+      src: 'https://www.comeoncasino.com/wp-content/themes/comeon/vectors/logos/logo.svg',
+      alt: 'ComeOn Casino official logo',
+      dark: true
+    },
+    'Lottomatica Casino': {
+      src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lottomatica_Logo.svg',
+      alt: 'Lottomatica official logo'
+    },
+    'PlayNow Casino': {
+      src: '/assets/brands/playnow-logo.svg',
+      alt: 'PlayNow official logo'
+    },
+    'Casino777.es': {
+      src: 'https://static.casino777.es/site/logo.webp',
+      alt: 'Casino777 official logo'
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
