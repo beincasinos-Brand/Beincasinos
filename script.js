@@ -13,6 +13,21 @@
     };
     toggle.setAttribute('aria-controls', nav.id || 'primary-nav');
     toggle.setAttribute('aria-label', 'Toggle main navigation');
+    // Mark the current internal navigation destination for both visual and
+    // assistive-technology context; keep trailing-slash variants equivalent.
+    const currentPath = window.location.pathname.replace(/\\/+$/, '') || '/';
+    nav.querySelectorAll('a[href]').forEach(link => {
+      try {
+        const target = new URL(link.href, window.location.href);
+        const targetPath = target.pathname.replace(/\\/+$/, '') || '/';
+        if (target.origin === window.location.origin && targetPath === currentPath) {
+          link.classList.add('active');
+          link.setAttribute('aria-current', 'page');
+        }
+      } catch (_) {
+        // Ignore malformed navigation links rather than blocking menu setup.
+      }
+    });
     toggle.addEventListener('click', () => {
       const expanded = toggle.getAttribute('aria-expanded') === 'true';
       if (expanded) closeMenu(); else openMenu();
