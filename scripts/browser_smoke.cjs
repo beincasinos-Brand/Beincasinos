@@ -89,9 +89,23 @@ const routes = [
     cspPage.on("pageerror", error => cspErrors.push(error.message));
     cspPage.on("console", message => { if (message.type() === "error") cspErrors.push(message.text()); });
     const testPolicy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-src 'none'";
+    const sameOrigin = new URL(baseURL).origin;
     await cspPage.route("**/*", async route => {
-      const response = await route.fetch();
-      await route.fulfill({ response, headers: { ...response.headers(), "content-security-policy": testPolicy } });
+      const requestUrl = new URL(route.request().url());
+      // The CSP probe is only intended to apply headers to our own static
+      // resources. Let third-party logo/image requests continue normally;
+      // fetching them through the route handler can outlive the test page.
+      if (requestUrl.origin !== sameOrigin) {
+        await route.continue().catch(() => {});
+        return;
+      }
+      try {
+        const response = await route.fetch();
+        await route.fulfill({ response, headers: { ...response.headers(), "content-security-policy": testPolicy } });
+      } catch (error) {
+        if (/TargetClosedError|target.*closed|context.*closed|browser.*closed/i.test(String(error))) return;
+        throw error;
+      }
     });
     await cspPage.goto(baseURL + "/", { waitUntil: "domcontentloaded" });
     const cspMenu = cspPage.locator(".menu-toggle");
@@ -105,6 +119,7 @@ const routes = [
     await cspPage.locator('.checklist-main input[type="checkbox"]').first().check();
     if ((await cspPage.locator("#checked-count").textContent()).trim() !== "1") throw new Error("checklist failed under same-origin CSP");
     if (cspErrors.length) throw new Error("same-origin CSP runtime/console errors: " + cspErrors.join(" | "));
+    await cspPage.unrouteAll({ behavior: 'ignoreErrors' });
     await cspPage.close();
 
     await page.goto(baseURL + "/", { waitUntil: "domcontentloaded" });

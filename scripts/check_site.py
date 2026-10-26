@@ -231,7 +231,7 @@ for page in pages:
 not_found_page = ROOT / "404.html"
 if not_found_page.exists():
     not_found_source = not_found_page.read_text(encoding="utf-8")
-    if not re.search(r'<meta name="robots" content="noindex"', not_found_source, re.I):
+    if not re.search(r'<meta name="robots" content="[^\"]*\bnoindex\b', not_found_source, re.I):
         errors.append("404.html must include a robots noindex directive")
 
 for title, paths in titles.items():
@@ -522,8 +522,6 @@ if script_path.exists():
         "document.querySelector('.menu-toggle')",
         "document.querySelector('#primary-nav')",
         "getAttribute('aria-expanded')",
-        "setAttribute('aria-expanded', String(!expanded))",
-        "nav.classList.toggle('open', !expanded)",
         "nav.classList.remove('open')",
         "document.addEventListener('keydown'",
         "event.key === 'Escape'",
@@ -531,6 +529,20 @@ if script_path.exists():
     ):
         if required_behavior not in script_source:
             errors.append(f"script.js: expected responsive navigation behavior missing: {required_behavior}")
+    # The state transition may be implemented with an explicit open/close
+    # pair or a boolean toggle; validate the behavior rather than one exact
+    # source-code spelling.
+    has_explicit_state = (
+        "setAttribute('aria-expanded', 'true')" in script_source
+        and "setAttribute('aria-expanded', 'false')" in script_source
+        and "nav.classList.add('open')" in script_source
+    )
+    has_boolean_toggle = (
+        "setAttribute('aria-expanded', String(!expanded))" in script_source
+        and "nav.classList.toggle('open', !expanded)" in script_source
+    )
+    if not (has_explicit_state or has_boolean_toggle):
+        errors.append("script.js: menu toggle must keep aria-expanded and the open class synchronized")
 else:
     errors.append("script.js: shared navigation script is missing")
 
