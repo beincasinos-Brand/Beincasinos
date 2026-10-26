@@ -98,6 +98,14 @@
       alt: 'Casino Marbella official logo',
       dark: true
     },
+    'OlyBet Spain': {
+      src: 'https://welcome.olybet.es/wp-content/uploads/2023/10/logoOlybet.png',
+      alt: 'OlyBet official logo'
+    },
+    'AupaBet': {
+      src: 'https://promociones.aupabet.es/wp-content/uploads/2025/08/logoheader.png',
+      alt: 'AupaBet official logo'
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
