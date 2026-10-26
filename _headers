@@ -3,4 +3,10 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-\n/script.js*\n  Cache-Control: no-cache, must-revalidate\n/assets/review-brand-logos.js*\n  Cache-Control: no-cache, must-revalidate\n/styles.css*\n  Cache-Control: no-cache, must-revalidate\n
+
+/script.js*
+  Cache-Control: no-cache, must-revalidate
+/assets/review-brand-logos.js*
+  Cache-Control: no-cache, must-revalidate
+/styles.css*
+  Cache-Control: no-cache, must-revalidate
