@@ -222,3 +222,28 @@ html[data-theme="dark"] .review-no-results { color:#c0cec7; }
 }
 html[data-theme="dark"] .review-search-label input::placeholder { color:#aebeb5; opacity:1; }
 html[data-theme="dark"] .review-search-label label, html[data-theme="dark"] .review-market-label label { color:#d5e0d9; }
+
+
+/* Fix crowded market/brand art labels and unify review-directory colors. */
+.review-card-art { isolation:isolate; background:linear-gradient(135deg,#0c241a 0%,#174b38 62%,#4c3b1a 100%); }
+.review-card-art:after { z-index:0; pointer-events:none; }
+.review-card-monogram { z-index:2; left:20px; top:22px; width:72px; height:72px; border-radius:16px; }
+.review-card-art-label { z-index:2; left:110px; right:14px; top:22px; max-width:calc(100% - 124px); display:block; text-align:right; white-space:normal; line-height:1.5; letter-spacing:.08em; overflow-wrap:anywhere; }
+.review-card-market { z-index:2; left:20px; right:14px; bottom:13px; max-width:calc(100% - 34px); line-height:1.4; }
+.review-card-heading { align-items:flex-start; }
+.review-card-heading h2 { min-width:0; }
+.review-status-pill { white-space:normal; text-align:center; line-height:1.35; max-width:115px; }
+.review-card-metrics { background:#fbfcf8; border-color:#dce4d9; }
+.review-card-metrics>div+div { border-left-color:#dce4d9; }
+.review-card-metrics span { color:#657468; }
+.review-card-metrics strong { color:#174b38; overflow-wrap:anywhere; }
+.review-card-cta { background:#174b38; }
+.review-card-cta:hover { background:#24684b; }
+.review-count-panel { background:#123b2b; border-color:#b58a36; }
+.review-status-pill { border-color:#dfd1a7; background:#f8f1dc; color:#6b501d; }
+@media(max-width:600px) {
+ .review-card-art-label { left:100px; right:12px; top:17px; max-width:calc(100% - 112px); font-size:8px; }
+ .review-card-monogram { left:15px; top:18px; width:68px; height:68px; }
+ .review-card-market { left:15px; }
+ .review-card-heading { flex-wrap:wrap; }
+}
