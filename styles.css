@@ -580,3 +580,17 @@ html[data-theme="dark"] .guide-start-link { color:#bce9cb; }
 .casino-brand.logo-unavailable { justify-content:center; padding:0 8px; overflow-wrap:anywhere; }
 .casino-brand.logo-unavailable .casino-brand-accessible { position:static!important; width:auto; height:auto; padding:0; margin:0; overflow:visible; clip:auto; white-space:normal; border:0; font-size:clamp(13px,1.2vw,20px); line-height:1.25; font-weight:850; text-align:center; }
 @media(max-width:760px){ .casino-brand.logo-unavailable .casino-brand-accessible { font-size:15px; } }
+
+
+/* Accessibility and responsive hardening — 26 Oct 2026. */
+:where(a, button, input, select, textarea, summary):focus-visible { outline:3px solid #c9a54e; outline-offset:3px; }
+img, video, iframe { max-width:100%; }
+:where(.wrap, .content-layout, .hero-grid, .nav-wrap, .nav-links, .site-controls, .site-footer, main) { min-width:0; }
+:where(.prose, .content-layout) table { max-width:100%; }
+@media (max-width:760px) {
+  .prose table { display:block; overflow-x:auto; }
+  :where(.content-layout, .hero-grid) > * { min-width:0; }
+}
+@media (prefers-reduced-motion:reduce) {
+  *, *::before, *::after { scroll-behavior:auto!important; animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; }
+}

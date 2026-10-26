@@ -201,3 +201,24 @@ html[data-theme="dark"] .review-no-results { color:#c0cec7; }
 .review-card-art.review-card-has-official-logo .review-card-monogram { display:none!important; }
 .review-card-art.review-card-logo-fallback .review-card-wordmark--fallback { left:18px; right:14px; bottom:15px; max-width:calc(100% - 32px); text-align:left; overflow-wrap:anywhere; }
 .review-card-art.review-card-logo-fallback .review-card-art-label { max-width:48%; text-align:right; }
+
+
+/* Review directory: focus visibility, narrow filter controls and resilient text wrapping. */
+.review-search-label input:focus-visible, .review-market-label select:focus-visible,
+.review-filter-bar button:focus-visible, .review-product-card a:focus-visible {
+  outline:3px solid #c9a54e; outline-offset:3px;
+}
+.review-product-card, .review-card-heading, .review-card-metrics, .review-card-foot { min-width:0; }
+.review-status-pill, .review-card-summary, .review-card-foot, .review-rating-note { overflow-wrap:anywhere; }
+@media(max-width:700px) {
+  .review-filter-bar { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; }
+  .review-search-label, .review-market-label, .review-search-label input, .review-market-label select { width:100%; min-width:0; }
+  .review-results-count { overflow-wrap:anywhere; }
+}
+@media(max-width:420px) {
+  .review-card-heading h2 { font-size:19px; }
+  .review-card-metrics { gap:8px; }
+  .review-status-pill { max-width:100%; }
+}
+html[data-theme="dark"] .review-search-label input::placeholder { color:#aebeb5; opacity:1; }
+html[data-theme="dark"] .review-search-label label, html[data-theme="dark"] .review-market-label label { color:#d5e0d9; }
