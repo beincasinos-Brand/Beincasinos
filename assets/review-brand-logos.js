@@ -420,19 +420,17 @@
       const u = new URL(officialUrl);
       const origin = u.origin;
       // Discover common high-resolution logo assets before falling back to a favicon.
+      // Try common first-party logo paths in multiple formats before any favicon.
+      // All candidates are derived from the exact operator domain shown on its review page.
       const candidates = [
-        origin + '/apple-touch-icon.png',
-        origin + '/apple-touch-icon-precomposed.png',
-        origin + '/apple-touch-icon-180x180.png',
-        origin + '/logo.svg',
-        origin + '/logo.png',
-        origin + '/assets/logo.svg',
-        origin + '/assets/logo.png',
-        origin + '/images/logo.svg',
-        origin + '/images/logo.png',
-        origin + '/static/logo.svg',
-        origin + '/static/logo.png',
-        origin + '/favicon.svg',
+        origin + '/logo.svg', origin + '/logo.webp', origin + '/logo.png', origin + '/logo.png.webp',
+        origin + '/assets/logo.svg', origin + '/assets/logo.webp', origin + '/assets/logo.png',
+        origin + '/images/logo.svg', origin + '/images/logo.webp', origin + '/images/logo.png',
+        origin + '/img/logo.svg', origin + '/img/logo.webp', origin + '/img/logo.png',
+        origin + '/static/logo.svg', origin + '/static/logo.webp', origin + '/static/logo.png',
+        origin + '/wp-content/uploads/logo.svg', origin + '/wp-content/uploads/logo.png',
+        origin + '/apple-touch-icon.png', origin + '/apple-touch-icon-precomposed.png',
+        origin + '/apple-touch-icon-180x180.png', origin + '/favicon.svg', origin + '/favicon.png',
         origin + '/favicon.ico',
         'https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(origin) + '&sz=256'
       ];
