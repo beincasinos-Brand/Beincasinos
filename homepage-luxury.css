@@ -278,3 +278,47 @@ html[data-theme="light"] .site-footer .footer-brand>span>small { color:#52655a !
   .site-header .header-wordmark-name { font-size:17px; }
   .site-header .header-wordmark-tagline { font-size:6px; letter-spacing:.4px; }
 }
+
+
+/* Homepage conversion hierarchy: make the brand, review scope and next steps unmistakable. */
+.hero-copy { max-width:680px; }
+.hero .hero-lede { max-width:58ch; }
+.hero-actions .button-primary { min-height:54px; display:inline-flex; align-items:center; justify-content:center; gap:10px; }
+.trust-strip { border-bottom:1px solid #3c2d0d; }
+.trust-grid>div { min-width:0; }
+.trust-grid small { line-height:1.45; }
+.featured-section { padding-block:clamp(40px,6vw,76px); }
+.section-heading { gap:20px; align-items:end; }
+.section-heading h2 { text-wrap:balance; }
+.casino-grid { align-items:stretch; }
+.casino-card { display:flex; flex-direction:column; min-width:0; }
+.casino-card .casino-brand { flex:0 0 auto; min-height:116px; display:flex; align-items:center; justify-content:center; }
+.casino-card .casino-brand-logo { display:block; width:min(100%,230px); height:74px; max-width:230px; max-height:74px; object-fit:contain; object-position:center; background:#fff; border-radius:10px; padding:10px; box-sizing:border-box; }
+.casino-card .review-status { margin-top:14px; }
+.casino-card .casino-offer { line-height:1.45; min-height:2.8em; }
+.casino-card .casino-button { margin-top:auto; min-height:44px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.featured-note { max-width:82ch; margin:22px 0 0; line-height:1.7; }
+.guide-grid { align-items:stretch; }
+.guide-card { min-width:0; display:flex; flex-direction:column; }
+.guide-card p { line-height:1.7; }
+.guide-card .card-arrow { margin-top:auto; padding-top:12px; }
+@media(max-width:760px) {
+  .hero-grid { grid-template-columns:minmax(0,1fr); min-height:0; padding-top:34px; padding-bottom:28px; }
+  .hero-copy { padding-inline:0; }
+  .hero-art-luxury { min-height:260px; }
+  .hero h1 { font-size:clamp(35px,9vw,48px); letter-spacing:-1px; }
+  .hero-lede { font-size:16px; }
+  .trust-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+  .casino-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .casino-card { padding:14px; }
+  .casino-card .casino-brand { min-height:82px; }
+  .casino-card .casino-brand-logo { height:52px; max-height:52px; padding:7px; }
+  .casino-card .casino-offer { font-size:13px; }
+  .casino-card .casino-tags { flex-wrap:wrap; gap:6px; }
+  .casino-card .casino-button { font-size:10px; padding:10px; }
+}
+@media(max-width:420px) {
+  .trust-grid { grid-template-columns:minmax(0,1fr); }
+  .casino-grid { grid-template-columns:minmax(0,1fr); }
+  .casino-card .casino-brand { min-height:76px; }
+}
