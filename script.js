@@ -108,7 +108,8 @@
       'Winamax': { src: 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png', alt: 'Winamax official logo' },
       'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' },
       'PlayNow Casino': { src: 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1', alt: 'PlayNow official logo' },
-      'ComeOn Casino': { src: 'https://www.comeoncasino.com/wp-content/themes/comeon/vectors/logos/logo.svg', alt: 'ComeOn Casino official logo' }
+      'ComeOn Casino': { src: 'https://www.comeoncasino.com/wp-content/themes/comeon/vectors/logos/logo.svg', alt: 'ComeOn Casino official logo' },
+      'Casino Barcelona Online': { src: 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025', alt: 'Casino Barcelona official brand logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
