@@ -442,7 +442,7 @@
     const logo = logoKey ? logoSources[logoKey] : null;
     if (logo) {
       const image = document.createElement('img');
-      image.className = 'review-visual-brand-logo' + (logo.icon ? ' review-visual-brand-logo--icon' : '');
+      image.className = 'review-visual-brand-logo' + (logo.icon ? ' review-visual-brand-logo--icon' : '') + (logo.dark ? ' review-visual-brand-logo--dark' : '');
       image.src = logo.src;
       image.alt = logo.alt;
       image.loading = 'lazy';
