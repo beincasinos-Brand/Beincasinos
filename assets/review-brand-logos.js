@@ -396,6 +396,51 @@
     art.appendChild(wordmark);
   };
 
+  const addOfficialDomainIcon = async (card, art, name) => {
+    if (art.dataset.logoFallbackAttempted === 'true') return;
+    art.dataset.logoFallbackAttempted = 'true';
+    const reviewLink = card.querySelector('.review-card-heading h2 a');
+    if (!reviewLink) { addFallbackWordmark(art, name); return; }
+    try {
+      const response = await fetch(reviewLink.href, { credentials: 'same-origin' });
+      if (!response.ok) throw new Error('Review page unavailable');
+      const markup = await response.text();
+      const parsed = new DOMParser().parseFromString(markup, 'text/html');
+      const domainRow = Array.from(parsed.querySelectorAll('main tr')).find(row =>
+        /^(exact domain checked|domain|official website|website)$/i.test((row.cells[0]?.textContent || '').trim())
+      );
+      let officialUrl = domainRow?.querySelector('a[href^="http"]')?.href || '';
+      if (!officialUrl) {
+        const candidates = Array.from(parsed.querySelectorAll('main a[rel~="nofollow"][href^="http"]'));
+        const excluded = /ordenacionjuego|gamblingcommission|swisscasinos|esbk|egba|gamcare|begambleaware|gamblingtherapy|wikipedia/i;
+        officialUrl = candidates.find(a => {
+          try { return !excluded.test(new URL(a.href).hostname); } catch (_) { return false; }
+        })?.href || '';
+      }
+      if (!officialUrl) throw new Error('No evidenced operator domain on review page');
+      const domain = new URL(officialUrl).origin;
+      const image = document.createElement('img');
+      image.className = 'review-card-official-logo review-card-official-logo--icon';
+      image.src = 'https://www.google.com/s2/favicons?domain_url=' + encodeURIComponent(domain) + '&sz=128';
+      image.alt = name + ' official website icon';
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.referrerPolicy = 'no-referrer';
+      image.addEventListener('error', () => {
+        image.remove();
+        addFallbackWordmark(art, name);
+      }, { once: true });
+      image.addEventListener('load', () => {
+        art.classList.add('review-card-has-official-logo');
+        const monogram = art.querySelector('.review-card-monogram');
+        if (monogram) monogram.hidden = true;
+      }, { once: true });
+      art.appendChild(image);
+    } catch (_) {
+      addFallbackWordmark(art, name);
+    }
+  };
+
   document.querySelectorAll('.review-product-card').forEach(card => {
     const heading = card.querySelector('.review-card-heading h2 a');
     const art = card.querySelector('.review-card-art');
@@ -406,7 +451,7 @@
     const logoKey = logoSources[name] ? name : brandAliases[name];
     const logo = logoKey ? logoSources[logoKey] : null;
     if (!logo) {
-      addFallbackWordmark(art, name);
+      addOfficialDomainIcon(card, art, name);
       return;
     }
 
@@ -423,7 +468,7 @@
       image.remove();
       art.classList.remove('review-card-has-official-logo');
       art.classList.add('review-card-logo-unavailable');
-      addFallbackWordmark(art, name);
+      addOfficialDomainIcon(card, art, name);
     }, { once: true });
     art.classList.add('review-card-has-official-logo');
     const monogram = art.querySelector('.review-card-monogram');
