@@ -118,6 +118,12 @@
       logoImage.loading = 'lazy';
       logoImage.decoding = 'async';
       logoImage.referrerPolicy = 'no-referrer';
+      // Some operator CDNs rotate or block hotlinked assets. Keep the card polished
+      // by removing failed images and retaining the branded monogram/wordmark fallback.
+      logoImage.addEventListener('error', () => {
+        logoImage.remove();
+        art.classList.add('review-card-logo-unavailable');
+      }, { once: true });
       art.appendChild(logoImage);
     }
     const wordmark = document.createElement('span');
