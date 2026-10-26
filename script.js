@@ -161,7 +161,12 @@
         ? '<span aria-hidden="true">☀</span><span>Light mode</span>'
         : '<span aria-hidden="true">◐</span><span>Dark mode</span>';
     }
-    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    let themeMeta = document.querySelector('meta[name="theme-color"]');
+    if (!themeMeta && document.head) {
+      themeMeta = document.createElement('meta');
+      themeMeta.name = 'theme-color';
+      document.head.appendChild(themeMeta);
+    }
     if (themeMeta) themeMeta.setAttribute('content', next === 'dark' ? '#0b1210' : '#174d3e');
   };
   applyTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
