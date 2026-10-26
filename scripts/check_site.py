@@ -910,9 +910,9 @@ if reviews_hub.is_file():
         "Complaints and customer-support transparency — 15 points",
         "Operator and licence transparency — 10 points",
         "Usability and information accessibility — 10 points",
-        "No casino profiles are currently scored or ranked",
-        "Methodology version 1.0",
-        "Updated 21 October 2026",
+        "Numeric scores remain withheld until current evidence and market eligibility checks are complete",
+        "Methodology version 1.1",
+        "Updated 26 October 2026",
         'href="/how-we-review/"',
     ):
         if required_phrase not in reviews_source:
