@@ -242,7 +242,14 @@
       'FairPlay Casino Online': 'https://fairplaycasino.nl/favicons/favicon.ico',
       'Casino Barcelona Online': 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025',
     }
-    const logoKey = Object.keys(visualLogoSources).find(key => key.toLowerCase() === displayBrand.toLowerCase());
+    const normalizeBrandName = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+    const normalizedDisplayBrand = normalizeBrandName(displayBrand);
+    const logoKey = Object.keys(visualLogoSources).find(key => normalizeBrandName(key) === normalizedDisplayBrand)
+      || Object.keys(visualLogoSources).find(key => {
+        const normalizedKey = normalizeBrandName(key);
+        return normalizedKey.length >= 5 && normalizedDisplayBrand.length >= 5
+          && (normalizedDisplayBrand.includes(normalizedKey) || normalizedKey.includes(normalizedDisplayBrand));
+      });
     const addBrandLogo = (src, sourceLabel) => {
       if (!src || visualArt.querySelector('.review-visual-official-logo')) return;
       const logo = document.createElement('img');
