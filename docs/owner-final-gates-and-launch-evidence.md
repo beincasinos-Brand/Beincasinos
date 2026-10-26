@@ -11,7 +11,7 @@ For each item, record status (NOT STARTED, IN PROGRESS, PASS, BLOCKED, or NOT AP
 - [ ] Obtain qualified trademark/name clearance for BeInCasinos and the “BEIN” element in intended markets; record advice and scope. Domain ownership alone is not trademark clearance.
 - [ ] Confirm the publisher's legal identity, business form, address/contact requirements, and which identity may lawfully appear in the footer and policies.
 - [ ] Confirm control of beincasinos.online in the registrar account and record renewal date, DNS state, and recovery method without exposing credentials.
-- [ ] Confirm the business mailbox beincasinos@gmail.com is accessible, deliverable, monitored, and appropriate for public business contact; configure recovery and spam monitoring.
+- [ ] Confirm the business mailbox contact@beincasinos.online is accessible, deliverable, monitored, and appropriate for public business contact; configure recovery and spam monitoring.
 - [ ] Confirm the public-facing contact and privacy-request process is monitored and has an owner.
 
 ## Gate B — hosting, billing, and deployment authority

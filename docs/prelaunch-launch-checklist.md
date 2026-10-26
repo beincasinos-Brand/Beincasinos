@@ -18,8 +18,8 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - [ ] Assess confusion risk with existing media, sports, gambling, and casino brands. Search results alone are not legal clearance.
 - [ ] If uncertainty remains, obtain qualified trademark/legal advice before public launch or further branding investment. The owner reports that `beincasinos.online` has now been purchased; acquisition is not trademark clearance.
 - [ ] Verify `beincasinos.online` registration, renewal details, and DNS access in Spaceship. The owner reports the purchase is complete; account status has not been independently inspected. Domain purchase is not trademark clearance.
-- [x] Owner specified the publisher display identity as **Anass Amir** and temporary contact email as `beincasinos@gmail.com`.
-- [ ] Verify that `beincasinos@gmail.com` is accessible and regularly monitored; confirm whether a separate legal publisher/business identity must be disclosed before launch. Publishing the email does not prove the mailbox is working.
+- [x] Owner specified the publisher display identity as **Anass Amir** and business contact email as `contact@beincasinos.online`.
+- [ ] Use `contact@beincasinos.online` as the public contact mailbox and verify monitoring; confirm whether a separate legal publisher/business identity must be disclosed before launch.
 - [x] Record intended target markets: AU, US, FR, DE, CH, GB, NL. This is a research scope, not blanket permission to publish or promote casino offers in each market; follow `docs/target-market-regulatory-matrix.md`.
 - [ ] Confirm that the owner accepts the business model: listing fees first after audience evidence; affiliate links later and secondary.
 
@@ -118,7 +118,7 @@ Do not mark an item PASS just because a page exists. Record the evidence, review
 - Brand/name clearance has not been established.
 - The owner reports the domain was purchased, but registrar account, renewal settings, and DNS are not independently verified.
 - Intended target markets are recorded as AU, US, FR, DE, CH, GB, and NL; market-specific legal and product checks remain outstanding.
-- Publisher display identity is specified as Anass Amir and temporary contact as `beincasinos@gmail.com`; mailbox access/monitoring and any additional legal publisher disclosure remain unverified.
+- Publisher display identity is specified as Anass Amir and business contact as `contact@beincasinos.online`; mailbox access/monitoring and any additional legal publisher disclosure remain unverified.
 - Production privacy/cookie implementation and applicable Moroccan CNDP formalities remain open; see `docs/privacy-and-data-handling-review.md`.
 - No production-host browser QA has been recorded. Automated local Chromium smoke tests are passing, but they do not verify the chosen host, live DNS/HTTPS, external links, full accessibility, or real-device rendering.
 - Production hosting/deployment is not approved.

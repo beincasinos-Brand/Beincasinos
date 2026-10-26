@@ -12,7 +12,7 @@
 
 ## 2. Do not change DNS yet
 
-Until the final deployment stage, leave current nameservers and DNS records unchanged unless the owner intentionally approves a documented change. A wrong nameserver change can interrupt the domain or existing email. The owner has explicitly selected `beincasinos@gmail.com` as the temporary public contact email and specified the publisher display identity as Anass Amir. Verify that the Gmail inbox is accessible and monitored; this does not establish that a branded mailbox exists or settle any legal publisher disclosure requirements.
+Until the final deployment stage, leave current nameservers and DNS records unchanged unless the owner intentionally approves a documented change. A wrong nameserver change can interrupt the domain or existing email. The owner has explicitly selected `contact@beincasinos.online` as the branded public contact email and specified the publisher display identity as Anass Amir. The branded mailbox is the selected public contact route; confirm monitoring and any additional legal publisher disclosure requirements.
 
 Once hosting is chosen, record the provider's exact DNS instructions and add only the required records. Never guess A, AAAA, CNAME, MX, SPF, DKIM, DMARC, or verification values. Preserve existing email records when changing web hosting. Verify DNS propagation and HTTPS after changes.
 
