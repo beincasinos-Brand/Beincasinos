@@ -4,6 +4,8 @@
 
 An English-language, evidence-led casino reviews and research brand focused on operator identity, market-specific licensing, terms, withdrawals, and safer gambling. Individual reviews must pass the internal evidence and publication gate before they can go live.
 
+**Official website:** [BeInCasinos.online](https://beincasinos.online/) — public-facing casino research and review hub. Use the live site for published material; this repository contains development notes and internal research that may not be publication-ready.
+
 ## Brand and editorial direction
 - Public brand: BeInCasinos; compact monogram: BIC.
 - Positioning, visual identity, review evidence standard, and growth ambitions: `docs/brand-identity-and-growth-north-star.md`.
