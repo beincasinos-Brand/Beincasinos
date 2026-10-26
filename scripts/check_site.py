@@ -910,7 +910,7 @@ if reviews_hub.is_file():
         "Complaints and customer-support transparency — 15 points",
         "Operator and licence transparency — 10 points",
         "Usability and information accessibility — 10 points",
-        "Profiles remain unscored until current market and product evidence passes the full review standard",
+        "Numeric scores remain withheld until current evidence and market eligibility checks are complete",
         "Methodology version 1.1",
         "Updated 26 October 2026",
         'href="/how-we-review/"',
