@@ -105,9 +105,9 @@
       'Betsson': { src: 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg', alt: 'Betsson official logo' },
       'Botemania': { src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg', alt: 'Botemanía official logo' },
       'Casino777.es': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
-      'Holland Casino Online': { src: 'https://www.hollandcasino.nl/content/dam/hc/nl/logos/holland-casino-logo.svg', alt: 'Holland Casino official logo' },
       'Winamax': { src: 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png', alt: 'Winamax official logo' },
-      'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' }
+      'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' },
+      'PlayNow Casino': { src: 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1', alt: 'PlayNow official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
