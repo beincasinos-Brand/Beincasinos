@@ -347,12 +347,65 @@
     }
   };
 
+  const brandAliases = {
+    '888casino (Spain)': '888casino',
+    '888casino Spain': '888casino',
+    'Goldenbull': 'Goldenbull Spain',
+    'GoldenBull': 'Goldenbull Spain',
+    'GoldenBull Spain': 'Goldenbull Spain',
+    'Casino Gran Madrid': 'Casino Gran Madrid Online',
+    'Casino Barcelona': 'Casino Barcelona Online',
+    'Pinata Casino': 'Pinata Casino Spain',
+    'TodoSlots': 'TodoSlots Spain',
+    'AupaBet': 'AupaBet Spain',
+    'OlyBet': 'OlyBet Spain',
+    'LuckyVegas': 'LuckyVegas Spain',
+    'PlayKasino': 'PlayKasino Spain',
+    'Ahti Games': 'Ahti Games Spain',
+    'GeckoPlay': 'GeckoPlay Spain',
+    'BacanaPlay': 'BacanaPlay Spain',
+    'SlotStars': 'SlotStars Spain',
+    'SpinGenie': 'SpinGenie Spain',
+    'Slingo Casino': 'Slingo Casino Spain',
+    'eBingo': 'eBingo Spain',
+    'Casino Marbella': 'Casino Marbella Online',
+    'Casino777': 'Casino777.es',
+    'Casino777 Belgium': 'Casino777.be',
+    'Casino777 Switzerland': 'Casino777.ch',
+    'William Hill Spain': 'William Hill',
+    'PokerStars': 'PokerStars Casino',
+    'GGPoker Netherlands': 'GGPoker',
+    'Holland Casino': 'Holland Casino Online',
+    'PlayNow': 'PlayNow Casino',
+    'FairPlay Casino': 'FairPlay Casino Online',
+    'MrGreen': 'Mr Green',
+    'Casino Gran Vía': 'Casino Gran Vía',
+    'Botemanía': 'Botemanía',
+    'Casino Barcelona (Spain)': 'Casino Barcelona Online'
+  };
+
+  const addFallbackWordmark = (art, name) => {
+    if (art.querySelector('.review-card-wordmark--fallback')) return;
+    const wordmark = document.createElement('span');
+    wordmark.className = 'review-card-wordmark review-card-wordmark--fallback';
+    wordmark.textContent = name;
+    wordmark.setAttribute('aria-label', name + ' brand name');
+    art.appendChild(wordmark);
+  };
+
   document.querySelectorAll('.review-product-card').forEach(card => {
     const heading = card.querySelector('.review-card-heading h2 a');
     const art = card.querySelector('.review-card-art');
     if (!heading || !art || art.querySelector('.review-card-official-logo')) return;
-    const logo = logoSources[heading.textContent.trim()];
-    if (!logo) return;
+    const name = heading.textContent.trim();
+    const hueSeed = Array.from(name).reduce((value, char) => ((value * 31) + char.charCodeAt(0)) % 360, 17);
+    card.style.setProperty('--brand-hue', String(hueSeed));
+    const logoKey = logoSources[name] ? name : brandAliases[name];
+    const logo = logoKey ? logoSources[logoKey] : null;
+    if (!logo) {
+      addFallbackWordmark(art, name);
+      return;
+    }
 
     const image = document.createElement('img');
     image.className = 'review-card-official-logo';
@@ -366,6 +419,7 @@
     image.addEventListener('error', () => {
       image.remove();
       art.classList.add('review-card-logo-unavailable');
+      addFallbackWordmark(art, name);
     });
     art.appendChild(image);
   });

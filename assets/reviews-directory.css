@@ -122,3 +122,59 @@
 .review-card-art .review-card-monogram{border-color:hsl(calc(var(--brand-hue,150) + 28) 56% 72%);background:linear-gradient(145deg,hsl(var(--brand-hue,150) 36% 25%),#071c14);}
 .review-card-art .review-card-wordmark{position:absolute;z-index:2;right:16px;bottom:15px;max-width:42%;color:#fff;font-size:12px;font-weight:700;letter-spacing:.2px;text-align:right;text-shadow:0 2px 8px #0008;}
 @media(max-width:700px){.review-card-art .review-card-wordmark{font-size:11px;max-width:40%;right:12px;bottom:12px}}
+
+
+/* October 2026 quality pass: deterministic, distinct brand art and readable fallbacks. */
+.review-card-art {
+  background:
+    radial-gradient(ellipse at 84% 20%, hsl(var(--brand-hue, 150) 58% 43% / .88), transparent 42%),
+    radial-gradient(ellipse at 12% 112%, hsl(calc(var(--brand-hue, 150) + 38) 48% 25% / .95), transparent 48%),
+    linear-gradient(135deg, hsl(var(--brand-hue, 150) 34% 10%), hsl(calc(var(--brand-hue, 150) + 24) 38% 19%) 68%, #08130f);
+}
+.review-card-art .review-card-wordmark--fallback {
+  right: 18px;
+  bottom: 16px;
+  max-width: min(48%, 270px);
+  padding: 9px 12px;
+  border: 1px solid hsl(calc(var(--brand-hue, 150) + 28) 56% 72% / .75);
+  border-radius: 9px;
+  background: linear-gradient(145deg, hsl(var(--brand-hue, 150) 34% 19% / .94), #07130fef);
+  color: #fff8e8;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(13px, 1.4vw, 18px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -.25px;
+  overflow-wrap: anywhere;
+  box-shadow: 0 8px 24px #0004;
+}
+.review-card-art .review-card-official-logo--icon {
+  width: 46px;
+  height: 46px;
+  max-width: 46px;
+  max-height: 46px;
+  object-fit: contain;
+}
+.review-card-foot {
+  padding-top: 10px;
+  border-top: 1px solid #edf1eb;
+}
+.review-status-pill {
+  max-width: 122px;
+  text-align: center;
+}
+@media(max-width:700px) {
+  .review-card-art .review-card-wordmark--fallback {
+    right: 12px;
+    bottom: 12px;
+    max-width: 48%;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  .review-card-art .review-card-official-logo--icon {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
