@@ -386,6 +386,9 @@
 
   const addFallbackWordmark = (art, name) => {
     if (art.querySelector('.review-card-wordmark--fallback')) return;
+    art.classList.add('review-card-logo-fallback');
+    const monogram = art.querySelector('.review-card-monogram');
+    if (monogram) monogram.hidden = true;
     const wordmark = document.createElement('span');
     wordmark.className = 'review-card-wordmark review-card-wordmark--fallback';
     wordmark.textContent = name;
@@ -418,9 +421,13 @@
     image.referrerPolicy = 'no-referrer';
     image.addEventListener('error', () => {
       image.remove();
+      art.classList.remove('review-card-has-official-logo');
       art.classList.add('review-card-logo-unavailable');
       addFallbackWordmark(art, name);
-    });
+    }, { once: true });
+    art.classList.add('review-card-has-official-logo');
+    const monogram = art.querySelector('.review-card-monogram');
+    if (monogram) monogram.hidden = true;
     art.appendChild(image);
   });
 })();
