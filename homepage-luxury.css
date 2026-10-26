@@ -160,3 +160,12 @@ html[data-theme="light"] .featured-note { color:#52655a; }
 html[data-theme="light"] .trust-icon { color:#174d3e; }
 html[data-theme="light"] .section .text-link, html[data-theme="light"] .section .card-arrow { color:#174d3e; }
 html[data-theme="light"] .casino-card .review-status, html[data-theme="light"] .casino-card .casino-meta, html[data-theme="light"] .casino-card .casino-offer, html[data-theme="light"] .casino-card .casino-tags { text-shadow:none; }
+
+
+/* Light surfaces also need light eyebrow panels and dark card metadata. */
+html[data-theme="light"] .eyebrow, html[data-theme="light"] .hero .eyebrow, html[data-theme="light"] .section .eyebrow {
+  color:#174d3e;
+  background:#edf4ed;
+  border-color:#cbdcca;
+}
+html[data-theme="light"] .guide-card .card-meta { color:#52655a; }
