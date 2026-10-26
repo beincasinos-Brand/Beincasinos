@@ -1,4 +1,18 @@
 (() => {
+  // Keep featured cards readable when an operator blocks hotlinking or changes its logo URL.
+  const installFeaturedLogoFallbacks = () => {
+    document.querySelectorAll('.casino-brand .casino-brand-logo').forEach(image => {
+      const useFallback = () => {
+        const brand = image.closest('.casino-brand');
+        if (!brand || brand.classList.contains('logo-unavailable')) return;
+        brand.classList.add('logo-unavailable');
+        image.remove();
+      };
+      image.addEventListener('error', useFallback, { once: true });
+      if (image.complete && image.naturalWidth === 0) useFallback();
+    });
+  };
+  installFeaturedLogoFallbacks();
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#primary-nav');
   if (toggle && nav) {
