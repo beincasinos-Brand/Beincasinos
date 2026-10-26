@@ -140,7 +140,7 @@ These are research notes and candidate queues, not public listings, legal advice
 
 - The owner has chosen to retain the BeInCasinos name for now; this is not trademark clearance.
 - Publisher display identity supplied by the owner: **Anass Amir**.
-- Temporary contact email selected by the owner: **contact@beincasinos.online**; mailbox access and monitoring were confirmed by the owner before this update.
+- Business contact email selected by the owner: **contact@beincasinos.online**; the owner reports that sending and receiving work.
 - Privacy/data-handling review: [docs/privacy-and-data-handling-review.md](docs/privacy-and-data-handling-review.md). This remains an open release gate, including review of Moroccan CNDP Law 09-08 requirements and any cross-border data-transfer formalities applicable to the actual setup.
 
 
