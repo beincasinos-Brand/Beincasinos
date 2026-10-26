@@ -322,3 +322,11 @@ html[data-theme="light"] .site-footer .footer-brand>span>small { color:#52655a !
   .casino-grid { grid-template-columns:minmax(0,1fr); }
   .casino-card .casino-brand { min-height:76px; }
 }
+
+
+/* Official-emblem presentation cleanup: remove decorative overlays that compete with the supplied brand mark. */
+.hero-art-luxury{display:flex;align-items:center;justify-content:center;min-height:430px;background:radial-gradient(ellipse at center,#251b07 0,#080807 55%,transparent 78%);overflow:hidden}
+.hero-art-luxury .globe-grid,.hero-art-luxury .globe-lights,.hero-art-luxury .casino-chip,.hero-art-luxury .playing-card,.hero-art-luxury .gold-floor{display:none!important}
+.hero-emblem-ring{width:min(430px,86%);aspect-ratio:1;border:0;background:transparent;box-shadow:none;overflow:visible;padding:0}
+.hero-emblem{width:100%;height:100%;object-fit:contain;border-radius:0;filter:drop-shadow(0 0 20px #e9ad2a55)}
+@media(max-width:760px){.hero-art-luxury{min-height:285px;margin-top:4px}.hero-emblem-ring{width:min(285px,78%)}}
