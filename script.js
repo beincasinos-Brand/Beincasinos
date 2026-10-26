@@ -200,9 +200,64 @@
     const visualArt = summary.querySelector('.review-visual-art');
     const visualWordmark = document.createElement('span');
     visualWordmark.className = 'review-visual-wordmark';
-    visualWordmark.textContent = titleText.replace(/\s+(review|2026).*/i, '');
+    const displayBrand = titleText.replace(/\s+review.*$/i, '').replace(/:\s*.*$/, '').replace(/\s+2026$/i, '').trim();
+    visualWordmark.textContent = displayBrand || titleText;
     visualWordmark.setAttribute('aria-hidden', 'true');
     visualArt.appendChild(visualWordmark);
+
+    // Use a real operator logo only where the site has a known brand-specific source.
+    // The branded text treatment remains visible if a remote image fails or is unmapped.
+    const visualLogoSources = {
+      '888casino': 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
+      'Casino777.be': 'https://static.casino777.es/site/logo.webp',
+      'Casino777.ch': 'https://www.casino777.ch/assets/img/header/logo.svg?ver=2',
+      'Casino777.es': 'https://static.casino777.es/site/logo.webp',
+      'Bet365 Casino': 'https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg',
+      'bet365 Casino': 'https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg',
+      'Holland Casino': 'https://corporate.hollandcasino.nl/favicon-32x32.png?v=29c351ad98b792041d60ea31c059c3f0',
+      'ComeOn Casino': 'https://www.comeoncasino.com/wp-content/themes/comeon/vectors/logos/logo.svg',
+      'Lottomatica': 'https://commons.wikimedia.org/wiki/Special:FilePath/Lottomatica_Logo.svg',
+      'Kansino': 'https://www.kansino.nl/assets/icons/kansino_mobile.svg',
+      'BetCity': 'https://club.betcity.nl/assets/img/icons/bc-logo-black.svg',
+      'GGPoker': 'https://ssl.gg-global-cdn.com/bd/front/img/web/logo/img_GGpoker.webp',
+      'Casineo': 'https://casineo.ch/images/casineo-logo.svg',
+      '44 Aces': 'https://44-aces.es/wp-content/themes/44aces-es-theme/assets/images/header/logo-44aces.png',
+      'Jackpots.ch': 'https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg',
+      'mycasino.ch': 'https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg',
+      'Swiss4Win': 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314',
+      'TOTO Casino': 'https://www.toto.nl/images/logo-toto.svg',
+      'Betsson': 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg',
+      'Winamax': 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png',
+      'PAF': 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg',
+      'PlayNow Casino': 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1',
+      'Fuego Casino': 'https://s3.eu-central-1.amazonaws.com/www.united-remote.com/logo.svg',
+      'Metal Casino': 'https://delivery2.objectic.io/jfMYQOLTGWiKB5ocOVpcTH/wI7jjRHhArF0/EkV8i1H1VxMCo5vCZbcH1JfsE73610SZQZ0ZGui1.svg',
+      'OneCasino': 'https://www.onecasino.es/img/website/layout/logo.svg',
+      'LuckyCasino': 'https://www.luckycasino.es/img/website/layout/logo.svg',
+      'Monopoly Casino': 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg',
+      'PlayUZU': 'https://aws-origin.image-tech-storage.com/tenants/playuzu/playuzu.es/_nuxt/logo.C7q6Stlx.png',
+      'Sportium': 'https://www.sportium.es/library/.customization/preloader_logo_bg.svg?t=1792751723285',
+      'Botemanía': 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg',
+      'LeoVegas': 'https://www.leovegas.es/static/img/brand_logo_on_light_bg_small.svg',
+      'Mr Green': 'https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg',
+      'Codere': 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg',
+      'Casino Barcelona': 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025'
+    };
+    const logoKey = Object.keys(visualLogoSources).find(key => key.toLowerCase() === displayBrand.toLowerCase());
+    if (logoKey) {
+      const logo = document.createElement('img');
+      logo.className = 'review-visual-official-logo';
+      logo.src = visualLogoSources[logoKey];
+      logo.alt = displayBrand + ' logo';
+      logo.loading = 'lazy';
+      logo.decoding = 'async';
+      logo.referrerPolicy = 'no-referrer';
+      logo.addEventListener('error', () => {
+        logo.remove();
+        visualArt.classList.add('review-visual-logo-unavailable');
+      }, { once: true });
+      visualArt.appendChild(logo);
+    }
     summary.querySelector('.review-visual-title').textContent = titleText;
     const market = summary.querySelector('.review-visual-status span:nth-child(2)');
     market.textContent = marketText;

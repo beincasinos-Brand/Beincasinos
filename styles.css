@@ -146,6 +146,10 @@ body .review-directory-section :focus-visible{outline-color:#ffdf6e}
 .review-visual-art>img{display:none!important}
 .review-visual-monogram{border-radius:15px!important;background:linear-gradient(145deg,hsl(var(--brand-hue,42) 45% 26%),#070807)!important;border-color:hsl(var(--brand-hue,42) 65% 68% / .9)!important}
 .review-visual-wordmark{position:absolute;z-index:2;left:145px;right:14px;top:50%;transform:translateY(-50%);color:#fff8e4;font-size:clamp(18px,2vw,28px);font-weight:900;line-height:1.15;text-shadow:0 2px 12px #000;overflow-wrap:anywhere}
+.review-visual-official-logo{position:absolute;z-index:3;left:16px;top:50%;transform:translateY(-50%);width:112px;height:92px;object-fit:contain;padding:9px;border-radius:10px;background:#fff;box-shadow:0 8px 22px #0004;opacity:1!important}
+.review-visual-art:has(.review-visual-official-logo) .review-visual-wordmark{left:145px}
+@media(max-width:900px){.review-visual-official-logo{left:13px;width:96px;height:78px}.review-visual-art:has(.review-visual-official-logo) .review-visual-wordmark{left:122px}}
+@media(max-width:600px){.review-visual-official-logo{left:12px;width:86px;height:70px}.review-visual-art:has(.review-visual-official-logo) .review-visual-wordmark{left:108px;right:10px;font-size:15px}}
 .casino-brand{position:relative;display:flex;align-items:center;justify-content:flex-start!important;gap:10px!important;text-align:left!important;padding:0 3px;min-height:58px}
 .casino-brand-mark{display:grid;place-items:center;flex:0 0 47px;width:47px;height:47px;border-radius:13px;border:1px solid hsl(var(--brand-hue,42) 65% 66% / .9);background:linear-gradient(145deg,hsl(var(--brand-hue,42) 43% 24%),#070807);color:#fff0b8;font-size:15px;font-weight:900;letter-spacing:-.5px;box-shadow:0 4px 15px #0006}
 .casino-brand{overflow-wrap:anywhere}
