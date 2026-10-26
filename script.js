@@ -89,7 +89,14 @@
       'Genting Casino': { src: 'https://www.gentingcasino.es/img/logos/logo.png', alt: 'Genting Casino Spain official logo' },
       'PlayToro': { src: 'https://playtoro.es/uploads/playtoro_logo_horizo.png', alt: 'PlayToro official logo' },
       'PlayUZU': { src: 'https://aws-origin.image-tech-storage.com/tenants/playuzu/playuzu.es/_nuxt/logo.C7q6Stlx.png', alt: 'PlayUZU official logo' },
-      'Sportium': { src: 'https://www.sportium.es/library/.customization/preloader_logo_bg.svg?t=1792751723285', alt: 'Sportium official logo' }
+      'Sportium': { src: 'https://www.sportium.es/library/.customization/preloader_logo_bg.svg?t=1792751723285', alt: 'Sportium official logo' },
+      'Botemanía': { src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg', alt: 'Botemanía official logo' },
+      'Enracha': { src: 'https://www.enracha.es/images/logo_negative.svg?ts=en0980', alt: 'enracha official logo' },
+      'Juegging': { src: 'https://www.juegging.es/wp-content/uploads/2019/06/logo-juegging-basico-1-300-96-300x96.png', alt: 'Juegging official logo' },
+      'LeoVegas': { src: 'https://www.leovegas.es/static/img/brand_logo_on_light_bg_small.svg', alt: 'LeoVegas official logo' },
+      'Mr Green': { src: 'https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg', alt: 'Mr Green official logo' },
+      'Casino777': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
+      'Codere': { src: 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg', alt: 'Codere official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
