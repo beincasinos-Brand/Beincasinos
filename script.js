@@ -380,11 +380,14 @@
     const h1 = document.querySelector('main h1');
     const brand = h1.textContent.trim().replace(/\\s+(casino\\s+)?review.*$/i, '').replace(/\\s*\\|.*$/, '').trim() || 'Casino operator';
     let figure = document.querySelector('main .operator-logo-figure');
+    const frameStyles = 'width:min(100%,360px);min-height:132px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;text-align:center;margin:22px 0 28px;padding:18px 20px;background:linear-gradient(180deg,#fff,#f7faf7);border:1px solid #d8e2d8;border-radius:14px;box-shadow:0 8px 24px rgba(13,40,27,.07)';
+
     if (!figure) {
       figure = document.createElement('figure');
       figure.className = 'operator-logo-figure operator-logo-figure--auto';
       h1.parentNode.insertBefore(figure, h1.nextSibling);
     }
+    figure.style.cssText += ';' + frameStyles;
     let img = figure.querySelector('img');
     if (!img && origin) {
       img = document.createElement('img'); img.src = origin + '/favicon.ico';
@@ -393,6 +396,8 @@
     }
     if (img) {
       img.classList.add('operator-logo-image'); img.alt = brand + ' official brand image';
+      img.style.cssText += ';display:block;width:100%;height:82px;max-width:280px;max-height:82px;object-fit:contain;object-position:center;background:#fff;border-radius:10px;padding:10px;box-sizing:border-box';
+      if (window.matchMedia && window.matchMedia('(max-width:600px)').matches) { img.style.height='70px'; img.style.maxHeight='70px'; }
       img.addEventListener('error', () => {
         if (origin && !img.dataset.triedOfficialIcon && !img.src.startsWith(origin + '/favicon.ico')) {
           img.dataset.triedOfficialIcon = '1'; img.src = origin + '/favicon.ico';
