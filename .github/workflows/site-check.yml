@@ -28,6 +28,7 @@ on:
       - '**.html'
       - '**/*.html'
       - 'styles.css'
+      - 'homepage-luxury.css'
       - 'script.js'
       - 'favicon.svg'
       - 'robots.txt'
