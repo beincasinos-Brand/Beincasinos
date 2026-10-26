@@ -706,3 +706,33 @@ html[data-theme="light"] .site-header .nav-links>a.language-pill {
   background:#fbfcf8 !important;
   border-color:#d5dfd5 !important;
 }
+
+/* Consistent logo frame for every individual casino review, regardless of source aspect ratio. */
+.review-visual-official-logo {
+  width:112px;
+  height:78px;
+  padding:8px;
+  object-fit:contain;
+  object-position:center;
+  background:#fff;
+  border:1px solid #e4e8e1;
+  border-radius:12px;
+  box-sizing:border-box;
+}
+.review-visual-art.review-visual-logo-unavailable .review-visual-wordmark {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:54px;
+  padding:8px 12px;
+  border:1px solid #d8c58d;
+  border-radius:10px;
+  background:#10291e;
+  color:#fff4d1;
+  font-weight:800;
+  letter-spacing:.01em;
+  overflow-wrap:normal;
+  word-break:normal;
+}
+@media(max-width:900px){.review-visual-official-logo{width:96px;height:72px;padding:7px}}
+@media(max-width:600px){.review-visual-official-logo{width:82px;height:64px;padding:6px}}
