@@ -381,7 +381,23 @@
     'MrGreen': 'Mr Green',
     'Casino Gran Vía': 'Casino Gran Vía',
     'Botemanía': 'Botemanía',
-    'Casino Barcelona (Spain)': 'Casino Barcelona Online'
+    'Casino Barcelona (Spain)': 'Casino Barcelona Online',
+    'OnePlay Casino': 'OneCasino',
+    'Casino Barcelona Online (Spain)': 'Casino Barcelona Online',
+    'Casino Gran Madrid (Spain)': 'Casino Gran Madrid Online',
+    'Casino Gran Madrid Online (Spain)': 'Casino Gran Madrid Online',
+    'Botemania': 'Botemanía',
+    'Betfair Casino': 'Betfair',
+    'William Hill Casino (Great Britain)': 'William Hill Casino',
+    '888casino (Great Britain)': '888casino',
+    '888casino (Spain)': '888casino',
+    'Casumo (Spain)': 'Casumo',
+    'Casumo (Germany)': 'Casumo',
+    'Casino Marca': 'Marca Casino',
+    'Pinata Casino Spain': 'Pinata Casino',
+    'TodoSlots Spain': 'TodoSlots',
+    'Prime Casino Spain': 'Prime Casino',
+    'EU Casino Spain': 'EU Casino'
   };
 
   const addFallbackWordmark = (art, name) => {
@@ -546,18 +562,43 @@
     }
     if (!img && origin) {
       img = document.createElement('img');
-      img.src = origin + '/apple-touch-icon.png';
-      img.alt = brand + ' official website icon';
-      img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+      img.alt = brand + ' official website logo';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.referrerPolicy = 'no-referrer';
+      const candidates = [
+        origin + '/logo.svg',
+        origin + '/logo.webp',
+        origin + '/logo.png',
+        origin + '/assets/logo.svg',
+        origin + '/assets/logo.webp',
+        origin + '/assets/logo.png',
+        origin + '/assets/images/logo.svg',
+        origin + '/assets/images/logo.webp',
+        origin + '/assets/images/logo.png',
+        origin + '/images/logo.svg',
+        origin + '/images/logo.webp',
+        origin + '/images/logo.png',
+        origin + '/img/logo.svg',
+        origin + '/img/logo.webp',
+        origin + '/img/logo.png',
+        origin + '/apple-touch-icon.png',
+        origin + '/apple-touch-icon-180x180.png',
+        origin + '/favicon.svg',
+        origin + '/favicon.png',
+        origin + '/favicon.ico'
+      ];
+      let candidateIndex = 0;
       img.addEventListener('error', () => {
-        if (!img.dataset.triedFavicon) {
-          img.dataset.triedFavicon = '1';
-          img.src = origin + '/favicon.ico';
+        candidateIndex += 1;
+        if (candidateIndex < candidates.length) {
+          img.src = candidates[candidateIndex];
         } else {
           img.remove();
           figure.classList.add('operator-logo-text-only');
         }
       });
+      img.src = candidates[candidateIndex];
       figure.prepend(img);
     }
     if (img) {
