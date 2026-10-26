@@ -94,73 +94,8 @@
     for (const ch of String(name || '')) hash = ((hash << 5) - hash + ch.charCodeAt(0)) | 0;
     return Math.abs(hash) % 360;
   };
-  document.querySelectorAll('.review-product-card').forEach(card => {
-    const heading = card.querySelector('.review-card-heading h2 a');
-    const art = card.querySelector('.review-card-art');
-    if (!heading || !art || art.querySelector('.review-card-wordmark')) return;
-    const name = heading.textContent.trim();
-    const hue = brandHue(name);
-    art.style.setProperty('--brand-hue', hue);
-    art.querySelectorAll('img').forEach(img => { img.setAttribute('aria-hidden', 'true'); img.alt = ''; });
-    const mark = art.querySelector('.review-card-monogram');
-    if (mark) mark.textContent = brandInitials(name);
-    const logoSources = {
-      'Fuego Casino': { src: 'https://s3.eu-central-1.amazonaws.com/www.united-remote.com/logo.svg', alt: 'Fuego Casino official logo' },
-      'Metal Casino': { src: 'https://delivery2.objectic.io/jfMYQOLTGWiKB5ocOVpcTH/wI7jjRHhArF0/EkV8i1H1VxMCo5vCZbcH1JfsE73610SZQZ0ZGui1.svg', alt: 'Metal Casino official logo' },
-      'Jokerbet': { src: 'https://www.jokerbet.es/img/09.%20Elementos%20web/Aviso/no-disponible/JOKERBET_logotipo-blanco.svg', alt: 'JOKERBET official logo', dark: true },
-      'OneCasino': { src: 'https://www.onecasino.es/img/website/layout/logo.svg', alt: 'OneCasino official logo' },
-      'LuckyCasino': { src: 'https://www.luckycasino.es/img/website/layout/logo.svg', alt: 'LuckyCasino official logo' },
-      'Monopoly Casino': { src: 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg', alt: 'Monopoly Casino Spain official logo' },
-      'LunaCasino': { src: 'https://www.lunacasino.es/wp-content/uploads/2023/10/Logo.png', alt: 'Luna Casino official logo' },
-      'Genting Casino': { src: 'https://www.gentingcasino.es/img/logos/logo.png', alt: 'Genting Casino Spain official logo' },
-      'PlayToro': { src: 'https://playtoro.es/uploads/playtoro_logo_horizo.png', alt: 'PlayToro official logo' },
-      'PlayUZU': { src: 'https://aws-origin.image-tech-storage.com/tenants/playuzu/playuzu.es/_nuxt/logo.C7q6Stlx.png', alt: 'PlayUZU official logo' },
-      'Sportium': { src: 'https://www.sportium.es/library/.customization/preloader_logo_bg.svg?t=1792751723285', alt: 'Sportium official logo' },
-      'Botemanía': { src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg', alt: 'Botemanía official logo' },
-      'Enracha': { src: 'https://www.enracha.es/images/logo_negative.svg?ts=en0980', alt: 'enracha official logo' },
-      'Juegging': { src: 'https://www.juegging.es/wp-content/uploads/2019/06/logo-juegging-basico-1-300-96-300x96.png', alt: 'Juegging official logo' },
-      'LeoVegas': { src: 'https://www.leovegas.es/static/img/brand_logo_on_light_bg_small.svg', alt: 'LeoVegas official logo' },
-      'Mr Green': { src: 'https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg', alt: 'Mr Green official logo' },
-      'Casino777': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
-      'Codere': { src: 'https://www.codere.es/assets1/logosAndSponsors/logoHalloweenGreen.svg', alt: 'Codere official logo' },
-      'Jackpots.ch': { src: 'https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg', alt: 'Jackpots.ch official logo' },
-      'mycasino.ch': { src: 'https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg', alt: 'mycasino.ch official logo' },
-      'Casino777.ch': { src: 'https://www.casino777.ch/assets/img/header/logo.svg?ver=2', alt: 'Casino777 Switzerland official logo' },
-      'Swiss4Win': { src: 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314', alt: 'Swiss4Win official logo' },
-      'TOTO Casino': { src: 'https://www.toto.nl/images/logo-toto.svg', alt: 'TOTO official logo' },
-      'Betsson': { src: 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg', alt: 'Betsson official logo' },
-      'Botemania': { src: 'https://assets.ballys.com/m/b722ece616c8555/original/botemaniaes-logo.svg', alt: 'Botemanía official logo' },
-      'Casino777.es': { src: 'https://static.casino777.es/site/logo.webp', alt: 'Casino777 Spain official logo' },
-      'Winamax': { src: 'https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20241104_logo/winamax-logo.png', alt: 'Winamax official logo' },
-      'PAF': { src: 'https://www.paf.fi/_next/static/chunks/paf-modern-inverted-CwPlhzaQ.svg', alt: 'Paf official logo' },
-      'PlayNow Casino': { src: 'https://www.playnow.com/resources/images/global/logo_PlayNow2-hz.svg?v=1', alt: 'PlayNow official logo' },
-      'ComeOn Casino': { src: 'https://www.comeoncasino.com/wp-content/themes/comeon/vectors/logos/logo.svg', alt: 'ComeOn Casino official logo' },
-      'Casino Barcelona Online': { src: 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025', alt: 'Casino Barcelona official brand logo' }
-    };
-    const logo = logoSources[name];
-    if (logo && !art.querySelector('.review-card-official-logo')) {
-      const logoImage = document.createElement('img');
-      logoImage.className = 'review-card-official-logo';
-      logoImage.src = logo.src;
-      logoImage.alt = logo.alt;
-      if (logo.dark) logoImage.classList.add('review-card-official-logo--dark');
-      logoImage.loading = 'lazy';
-      logoImage.decoding = 'async';
-      logoImage.referrerPolicy = 'no-referrer';
-      // Some operator CDNs rotate or block hotlinked assets. Keep the card polished
-      // by removing failed images and retaining the branded monogram/wordmark fallback.
-      logoImage.addEventListener('error', () => {
-        logoImage.remove();
-        art.classList.add('review-card-logo-unavailable');
-      }, { once: true });
-      art.appendChild(logoImage);
-    }
-    const wordmark = document.createElement('span');
-    wordmark.className = 'review-card-wordmark';
-    wordmark.textContent = name;
-    wordmark.setAttribute('aria-hidden', 'true');
-    art.appendChild(wordmark);
-  });
+  // Review directory brand art is handled by /assets/review-brand-logos.js only.
+  // Keeping one owner avoids duplicate external logos and repeated wordmarks.
 
   document.querySelectorAll('.casino-card').forEach(card => {
     const brand = card.querySelector('.casino-brand');
