@@ -100,7 +100,9 @@
       'Jackpots.ch': { src: 'https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg', alt: 'Jackpots.ch official logo' },
       'mycasino.ch': { src: 'https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg', alt: 'mycasino.ch official logo' },
       'Casino777.ch': { src: 'https://www.casino777.ch/assets/img/header/logo.svg?ver=2', alt: 'Casino777 Switzerland official logo' },
-      'Swiss4Win': { src: 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314', alt: 'Swiss4Win official logo' }
+      'Swiss4Win': { src: 'https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314', alt: 'Swiss4Win official logo' },
+      'TOTO Casino': { src: 'https://www.toto.nl/images/logo-toto.svg', alt: 'TOTO official logo' },
+      'Betsson': { src: 'https://www.betsson.com/maintenance-pages/betsson.com/betsson-logo.svg', alt: 'Betsson official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
