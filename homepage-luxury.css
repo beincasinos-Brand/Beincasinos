@@ -109,3 +109,38 @@ body{background:#050606;color:#f6f3eb;line-height:1.55}a:hover{color:#ffd34d}.wr
  .casino-offer{font-size:11px}
  .casino-tags{font-size:8px}
 }
+
+
+/* Navigation clarity override — premium gold-on-black identity. */
+.site-header{z-index:100}
+.site-header .nav-wrap{position:relative;min-height:82px;height:auto}
+.site-header .nav-links{align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:5px 6px;min-width:0}
+.site-header .nav-links>a{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:8px 9px;border:1px solid transparent;border-radius:8px;color:#e6dfcd;font-size:11px;line-height:1.25;white-space:nowrap;text-align:center;transition:background .16s,border-color .16s,color .16s}
+.site-header .nav-links>a:hover,.site-header .nav-links>a:focus-visible{background:#1c180d;border-color:#70561b;color:#ffd34d}
+.site-header .nav-links>a.active,.site-header .nav-links>a[aria-current="page"]{background:#211a09;border-color:#a27b21;color:#ffd34d;font-weight:800}
+.site-header .nav-links>a.nav-search{min-width:38px;font-size:19px}
+.site-header .nav-links>a.language-pill{border-color:#70561b;background:#100e09;color:#f7d45a;padding-inline:11px}
+.site-header .menu-toggle{min-height:46px;padding:10px 15px;border-radius:10px;font-size:14px;font-weight:800;letter-spacing:.2px;cursor:pointer}
+@media(min-width:1201px){.site-header .nav-wrap{gap:16px}.site-header .nav-links{gap:4px}.site-header .nav-links>a{padding-inline:7px;font-size:10px}}
+@media(min-width:901px) and (max-width:1200px){
+ .site-header .nav-wrap{min-height:94px;padding-top:9px;padding-bottom:9px;gap:10px}
+ .site-header .brand{flex:0 0 130px;width:130px}
+ .site-header .brand-logo-image{width:126px;height:auto}
+ .site-header .nav-links{flex:1 1 0;max-width:calc(100% - 140px);gap:4px}
+ .site-header .nav-links>a{min-height:36px;padding:7px 6px;font-size:9px}
+}
+@media(max-width:900px){
+ .site-header .nav-wrap{min-height:76px;padding-top:7px;padding-bottom:7px;gap:10px}
+ .site-header .brand{flex:0 1 auto;min-width:0}
+ .site-header .brand-logo-image{max-width:min(126px,42vw);height:auto}
+ .site-header .menu-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-left:auto;min-width:104px;background:#100e09;color:#f7d45a;border:1px solid #98752b;box-shadow:0 3px 10px #0005}
+ .site-header .menu-toggle:before{content:"☰";font-size:17px;line-height:1}
+ .site-header .menu-toggle[aria-expanded="true"]{background:#f0c85a;color:#111;border-color:#f0c85a}
+ .site-header .nav-links{display:none;position:absolute;top:calc(100% + 1px);left:0;right:0;z-index:120;flex:0 0 100%;width:100%;max-width:none;max-height:calc(100dvh - 90px);overflow-y:auto;overscroll-behavior:contain;align-items:stretch;justify-content:flex-start;flex-direction:column;flex-wrap:nowrap;gap:4px;padding:12px;background:#080907;border:1px solid #70561b;border-top:3px solid #f0c85a;border-radius:0 0 14px 14px;box-shadow:0 18px 36px #0009}
+ .site-header .nav-links.open{display:flex}
+ .site-header .nav-links>a{display:flex;justify-content:flex-start;min-height:48px;width:100%;padding:12px 14px;border:1px solid #33280e;border-radius:9px;background:#11120e;color:#f3eddb;font-size:14px;font-weight:750;text-align:left;white-space:normal}
+ .site-header .nav-links>a:hover,.site-header .nav-links>a:focus-visible{background:#211a09;border-color:#a27b21;color:#ffd34d}
+ .site-header .nav-links>a.active,.site-header .nav-links>a[aria-current="page"]{background:#2a210c;border-color:#d0a83d;color:#ffd34d}
+ .site-header .nav-links>a.language-pill{align-self:stretch;margin-top:5px;min-height:46px!important;justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){.site-header .nav-links>a{transition:none}}
