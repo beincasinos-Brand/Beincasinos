@@ -2,58 +2,6 @@
 .page-hero{padding:68px 0 52px;background:linear-gradient(120deg,#f3f8f2,#eaf5ed);border-bottom:1px solid var(--line)}.page-hero h1{font-size:clamp(38px,5vw,56px);max-width:800px}.page-hero p:not(.eyebrow){max-width:700px;color:var(--muted);font-size:16px}.content-layout{display:grid;grid-template-columns:minmax(0,760px) minmax(190px,1fr);gap:64px;padding:54px 0 90px}.prose h2{font-size:28px;margin:36px 0 12px}.prose h3{font-size:19px;margin-top:27px}.prose p,.prose li{font-size:15px;color:#4f615a}.content-layout,.prose{min-width:0;max-width:100%}.prose table{display:block;width:100%;min-width:0;max-width:100%;overflow-x:auto;border-collapse:collapse;white-space:normal;table-layout:fixed;overflow-wrap:anywhere}.prose th,.prose td{min-width:0;padding:10px 12px;border:1px solid var(--line);text-align:left;vertical-align:top;font-size:13px;overflow-wrap:anywhere;word-break:normal}.prose th{background:#f0f5f0;font-weight:700}.prose li{margin:8px 0}.prose a{color:var(--green2);text-decoration:underline;text-underline-offset:3px}.prose .note{background:#f0f7f1;border-left:3px solid #72b48a;padding:15px 18px;border-radius:0 9px 9px 0}.sidebar{background:#fff;border:1px solid var(--line);border-radius:13px;padding:20px;height:max-content;position:sticky;top:105px}.sidebar b{font-size:12px}.sidebar a{display:block;font-size:12px;color:var(--muted);margin-top:12px}.list-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:50px 0 80px}.list-grid .guide-card{min-height:250px}.site-note{font-size:12px;color:#718078;margin-top:24px}.checklist{padding-left:20px}.checklist li{padding-left:4px}.site-footer a:hover{color:var(--green2)}
 @media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:0;padding-top:58px}.hero-copy{max-width:650px}.hero-art{min-height:410px;margin-top:25px}.principles-grid{gap:15px}.guide-grid{grid-template-columns:repeat(2,1fr)}.feature-grid{gap:30px}.content-layout{grid-template-columns:1fr;gap:25px}.sidebar{position:static;order:-1}.rg-callout{grid-template-columns:48px 1fr}.rg-callout>.text-link{grid-column:2}.nav-links{gap:16px}}@media(max-width:620px){.wrap{width:min(100% - 34px,1120px)}.nav-wrap{height:72px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:71px;left:0;right:0;padding:18px 24px 22px;background:#fbfcfa;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:16px}.nav-links.open{display:flex}.hero-grid{padding-top:44px;padding-bottom:38px}.hero-lede{font-size:15px}.hero-art{transform:scale(.9);margin-inline:-20px;min-height:360px}.art-card{width:290px;height:330px}.art-card-main{padding:20px}.art-check{margin:20px 0}.floating-note{right:0}.principles-grid{grid-template-columns:1fr;gap:19px}.principles-grid>div{grid-template-columns:30px 1fr}.section{padding:60px 0}.section-heading{align-items:start;gap:15px;flex-direction:column}.guide-grid,.list-grid{grid-template-columns:1fr}.guide-card{min-height:250px}.feature-grid{grid-template-columns:1fr;gap:22px}.feature-band{padding:52px 0}.rg-callout{grid-template-columns:1fr;gap:14px;padding:21px}.rg-callout>.text-link{grid-column:auto}.footer-top{align-items:flex-start;flex-direction:column}.footer-links{grid-template-columns:repeat(2,1fr)}.footer-bottom{flex-direction:column;gap:5px}.page-hero{padding:48px 0 35px}.content-layout{padding:32px 0 60px}.prose h2{font-size:25px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
-/* Luxury black-and-gold brand refresh */
-:root{--ink:#f5f0e5;--muted:#b5ad9b;--green:#c9942f;--green2:#f2c75c;--mint:#292319;--paper:#080909;--line:#3b3020;--gold:#e8b84b}
-body{background:#080909;color:#f5f0e5}
-.site-header{background:rgba(8,9,9,.96);border-bottom:1px solid #4a3718}
-.brand{color:#fff8e9}.brand-light{color:#edbd4c;font-weight:800}.brand small{color:#b9ad94}
-.brand-mark{background:radial-gradient(circle at 30% 20%,#282116,#050505 72%);border:1.5px solid #edbd4c;box-shadow:0 0 0 2px #120e07,0 0 18px #dba52a30;color:#f6cb60}
-.brand-mark .brand-b,.brand-mark .brand-c{color:#fff4dc}.brand-mark .brand-i{color:#f4c85d}
-.brand-logo-image{display:block;width:270px;height:auto;max-height:72px;object-fit:contain}
-.nav-links{color:#d0c6b3}.nav-links a:hover,.text-link{color:#f1c65a}
-.hero{background:radial-gradient(ellipse at 82% 32%,#382b13 0%,transparent 38%),linear-gradient(125deg,#090a0a 0%,#15120c 58%,#080909 100%);border-bottom:1px solid #4a3718}
-.hero h1,.section h2,.section h3{color:#fff8eb}.accent{color:#f0c45b}
-.eyebrow{color:#f0c45b}.eyebrow-dot{background:#edbd4c;box-shadow:0 0 0 4px #3a2b10}
-.hero-lede,.trust-line{color:#c1b8a7}.trust-icon{background:#342710;color:#f4c65a}
-.button-primary{background:linear-gradient(135deg,#f3cf70,#c48b22);color:#171106;box-shadow:0 8px 25px #d8a32a24}.button-primary:hover{background:#ffdc80;color:#171106}
-.button-outline{border-color:#8b692c;color:#f2c75c}.text-link:hover{color:#ffe49a}
-.hero-art .art-glow{background:#3c2c0e;opacity:.9}.art-card-back{background:linear-gradient(145deg,#302511,#15120c);border:1px solid #6c501c}
-.art-card-main{background:linear-gradient(145deg,#171612,#0b0b0a);border-color:#59431b;box-shadow:0 24px 65px #0009}
-.art-top,.art-footer{border-color:#3b3020}.art-label,.art-check small,.art-footer{color:#c6b68f}
-.art-check>span{background:#3a2b11;color:#f4c65a}.floating-note{background:#171510;border-color:#57421c;box-shadow:0 12px 35px #0008}.note-icon{background:#3a2b11;color:#f4c65a}
-.principles,.guide-card,.review-card,.content-card,.tool-card,.market-card{background:#11110f;border-color:#3c301c;color:#f5f0e5}
-.principles{border-color:#3b3020}.principles-grid p,.guide-card p,.review-card p{color:#b5ad9b}
-.guide-card:hover{border-color:#b58a34;box-shadow:0 12px 35px #d5a52a12}
-.principle-num,.card-arrow{color:#e9bb4f}.section-heading h2,.section h2{color:#fff7e8}
-footer,.site-footer{background:#050505;border-top:1px solid #3b3020;color:#b5ad9b}
-input,select,textarea{background:#11110f;color:#f5f0e5;border-color:#4b3a20}
-::selection{background:#e9bb4f;color:#080909}
-@media(max-width:700px){.brand-logo-image{width:215px;max-height:62px}.nav-wrap{height:72px}}
-
-
-/* Premium homepage hero: glowing BIC emblem on a black-and-gold stage */
-.hero-grid{min-height:590px;grid-template-columns:1fr 1.04fr;gap:24px;padding-top:54px;padding-bottom:48px}
-.hero-copy{position:relative;z-index:2}
-.hero h1{max-width:660px;font-family:var(--sans);font-size:clamp(43px,5.1vw,69px);font-weight:850;letter-spacing:-2.5px;line-height:1.02}
-.hero-lede{max-width:560px}
-.hero-art-luxury{min-height:420px;isolation:isolate;overflow:hidden;border-radius:24px;background:radial-gradient(ellipse at 50% 48%,#33250b 0%,#141109 35%,#080909 72%);border:1px solid #5c4217;box-shadow:inset 0 0 60px #000,0 22px 70px #0008}
-.hero-art-luxury:before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 18% 25%,#ffda6c 0 1px,transparent 2px),radial-gradient(circle at 78% 23%,#dba52c 0 1px,transparent 2px),radial-gradient(circle at 24% 72%,#e9b744 0 1px,transparent 2px),radial-gradient(circle at 85% 68%,#ffdc7b 0 1px,transparent 2px);background-size:93px 83px,121px 99px,109px 113px,137px 91px;opacity:.65;z-index:-1}
-.luxury-glow{position:absolute;width:290px;height:290px;border-radius:50%;background:#dba52c22;filter:blur(45px);left:50%;top:45%;transform:translate(-50%,-50%);z-index:-1}
-.luxury-orbit{position:absolute;left:50%;top:47%;border:1px solid #d9a83250;border-radius:50%;transform:translate(-50%,-50%) rotate(-18deg);pointer-events:none}
-.orbit-one{width:92%;height:56%}.orbit-two{width:74%;height:82%;transform:translate(-50%,-50%) rotate(28deg)}
-.hero-emblem{position:relative;display:block;width:min(100%,590px);height:auto;max-height:270px;object-fit:contain;margin:48px auto 0;filter:drop-shadow(0 0 18px #d69b2633);z-index:1}
-.luxury-caption{display:flex;flex-direction:column;align-items:center;gap:8px;margin:20px auto 25px;color:#f4c85d;font-size:10px;font-weight:800;letter-spacing:3px;text-align:center}
-.luxury-caption span+span{font-size:8px;letter-spacing:2px;color:#b6a47d;font-weight:600}
-.principles{background:linear-gradient(100deg,#0b0b09,#151108,#0b0b09)}
-.principles-grid{padding-top:28px;padding-bottom:28px}
-.principle-num{color:#e9bb4f}
-.section{background:#080909}
-.guide-card{background:linear-gradient(145deg,#151410,#0c0c0b);box-shadow:0 8px 28px #0004}
-.guide-icon{border:1px solid #59431b}
-.site-footer{background:#050505}
-@media(max-width:850px){.hero-grid{grid-template-columns:1fr;min-height:auto;gap:18px;padding-top:45px}.hero-art-luxury{min-height:340px;margin:4px 0 0}.hero-emblem{width:min(92%,540px);margin-top:38px}}
-@media(max-width:620px){.hero h1{font-size:clamp(40px,11vw,56px);letter-spacing:-1.6px}.hero-art-luxury{min-height:285px;border-radius:17px}.hero-emblem{width:96%;margin-top:32px}.luxury-caption{margin:14px auto 20px;letter-spacing:2px}.luxury-caption span+span{font-size:7px;letter-spacing:1.3px}.hero-grid{padding-top:36px}}
-
 /* Evidence-led casino profile summary */
 .review-visual-summary{display:grid;grid-template-columns:230px minmax(0,1fr);gap:22px;margin:24px auto 0;padding:18px;max-width:1120px;border:1px solid #d8c48b;border-radius:16px;background:linear-gradient(125deg,#0c211a,#123a2c 52%,#0a1813);color:#f9f1dc;box-shadow:0 18px 44px #071a1122}
 .review-visual-art{position:relative;min-height:165px;overflow:hidden;border:1px solid #a88a4c;border-radius:11px;background:#0a1e17}
