@@ -430,8 +430,8 @@
   const profileArt = profile && profile.querySelector('.review-visual-art');
   const profileTitle = profile && profile.querySelector('.review-visual-title');
   if (profileArt && profileTitle && !profileArt.querySelector('.review-visual-brand-logo')) {
-    const rawName = profileTitle.textContent.trim().replace(/\\s+review.*$/i, '').trim();
-    const normalize = value => String(value || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const rawName = profileTitle.textContent.trim().split(' review')[0].trim();
+    const normalize = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
     const directKey = Object.keys(logoSources).find(key => normalize(key) === normalize(rawName));
     const aliasKey = Object.keys(brandAliases).find(key => normalize(key) === normalize(rawName));
     const logoKey = directKey || (aliasKey ? brandAliases[aliasKey] : null);
