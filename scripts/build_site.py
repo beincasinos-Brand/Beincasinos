@@ -13,6 +13,7 @@ PUBLIC_FILES = (
     "404.html",
     "favicon.svg",
     "robots.txt",
+    "_redirects",
     "script.js",
     "site.webmanifest",
     "sitemap.xml",
@@ -43,9 +44,6 @@ FORBIDDEN_PUBLIC_PATHS = (
     "vercel.json",
     ".github",
 )
-# Public content folders may contain only website markup and browser-delivered
-# assets. Source documents, trackers, environment files and arbitrary binaries
-# are not copied merely because they happen to sit beneath a public route.
 PUBLIC_SUFFIXES = {
     ".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg", ".webp",
     ".avif", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf",
@@ -61,7 +59,6 @@ for rel in PUBLIC_FILES:
         raise SystemExit(f"Required public file is missing or unsafe: {rel}")
     shutil.copy2(src, DIST / rel)
 
-# Cloudflare Pages consumes _headers from the deployment root.
 headers_src = ROOT / CLOUDFLARE_HEADERS
 if not headers_src.is_file() or headers_src.is_symlink():
     raise SystemExit(f"Required Cloudflare security header file is missing or unsafe: {CLOUDFLARE_HEADERS}")
@@ -69,14 +66,10 @@ shutil.copy2(headers_src, DIST / "_headers")
 
 for rel in PUBLIC_DIRS:
     src = ROOT / rel
-    # The assets directory is intentionally file-only; all other public
-    # directories represent routes and must contain at least one HTML page.
     missing_pages = rel != "assets" and not any(src.rglob("*.html")) if src.is_dir() else True
     if not src.is_dir() or src.is_symlink() or missing_pages:
         raise SystemExit(f"Required public page directory is missing HTML pages or is unsafe: {rel}")
     for item in sorted(src.rglob("*")):
-        # Check symlinks before is_dir(): a symlink to a directory also reports
-        # is_dir() == True and must never be silently skipped or traversed.
         relative = item.relative_to(ROOT)
         if item.is_symlink():
             raise SystemExit(f"Refusing to publish symlink from public directory: {relative}")
