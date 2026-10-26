@@ -529,7 +529,7 @@
     const mappedKey = titleKey || (aliasKey ? brandAliases[aliasKey] : null);
     const mappedLogo = mappedKey ? logoSources[mappedKey] : null;
     // Prefer a known brand-specific logo over a favicon on review detail pages.
-    if (mappedLogo && (!img || img.dataset.logoSource !== 'mapped')) {
+    if (mappedLogo && !mappedLogo.icon && (!img || img.dataset.logoSource !== 'mapped')) {
       if (img) img.remove();
       img = document.createElement('img');
       img.dataset.logoSource = 'mapped';
