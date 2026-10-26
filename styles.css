@@ -879,3 +879,43 @@ html[data-theme="dark"] .operator-logo-figure .operator-logo-name {color:#f0f5ee
     transition-duration:.01ms!important;
   }
 }
+
+
+/* Uniform brand-logo canvases: same visible footprint on directory cards and detail reviews. */
+.review-card-art>.review-card-official-logo {
+  width:min(190px,48%)!important;
+  height:42px!important;
+  max-width:190px!important;
+  max-height:42px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  box-sizing:border-box!important;
+}
+@media(max-width:600px) {
+  .review-card-art>.review-card-official-logo {
+    width:52%!important;
+    height:36px!important;
+    max-width:52%!important;
+    max-height:36px!important;
+    padding:4px 6px!important;
+  }
+}
+main .operator-logo-figure img,
+main .operator-logo-figure .operator-logo-image {
+  display:block!important;
+  width:100%!important;
+  height:82px!important;
+  max-width:280px!important;
+  max-height:82px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  box-sizing:border-box!important;
+}
+@media(max-width:600px) {
+  main .operator-logo-figure img,
+  main .operator-logo-figure .operator-logo-image {
+    height:70px!important;
+    max-height:70px!important;
+    max-width:250px!important;
+  }
+}
