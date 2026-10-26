@@ -574,3 +574,9 @@ html[data-theme="dark"] .operator-value-grid p, html[data-theme="dark"] .guide-s
 html[data-theme="dark"] .operator-value-number { background:#1d3a2b; color:#bce9cb; }
 html[data-theme="dark"] .guide-start-link { color:#bce9cb; }
 @media(max-width:760px) { .operator-value-grid, .guide-start-grid { grid-template-columns:minmax(0,1fr); } .operator-value-band, .guide-start-band { padding:32px 0; } .operator-value-grid article, .guide-start-card { padding:18px; } }
+
+
+/* Accessible fallback when a third-party casino logo is unavailable. */
+.casino-brand.logo-unavailable { justify-content:center; padding:0 8px; overflow-wrap:anywhere; }
+.casino-brand.logo-unavailable .casino-brand-accessible { position:static!important; width:auto; height:auto; padding:0; margin:0; overflow:visible; clip:auto; white-space:normal; border:0; font-size:clamp(13px,1.2vw,20px); line-height:1.25; font-weight:850; text-align:center; }
+@media(max-width:760px){ .casino-brand.logo-unavailable .casino-brand-accessible { font-size:15px; } }
