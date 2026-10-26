@@ -169,3 +169,11 @@ html[data-theme="light"] .eyebrow, html[data-theme="light"] .hero .eyebrow, html
   border-color:#cbdcca;
 }
 html[data-theme="light"] .guide-card .card-meta { color:#52655a; }
+
+
+/* Higher-specificity light surfaces for compact homepage callout panels. */
+html[data-theme="light"] .section-compact.section { background:linear-gradient(125deg,#f4f8f2 0%,#edf5ed 58%,#f7f6ef 100%); color:#152320; }
+html[data-theme="light"] .section-compact.section .rg-callout { background:#fff; border-color:#dfe8de; color:#152320; }
+html[data-theme="light"] .section-compact.section .rg-callout h2 { color:#152320; }
+html[data-theme="light"] .section-compact.section .rg-callout p { color:#52655a; }
+html[data-theme="light"] .section-compact.section .rg-callout .text-link { color:#174d3e; }
