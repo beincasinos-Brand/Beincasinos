@@ -228,3 +228,14 @@ img{max-width:100%}
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+
+/* Directory filter UX: one-tap reset, accessible disabled state and stable mobile layout. */
+.review-filter-bar{grid-template-columns:minmax(220px,1fr) minmax(190px,260px) auto auto}
+.review-clear-filters{min-height:50px;align-self:end;padding:0 15px;border:1px solid #b8c8ba;border-radius:10px;background:#fff;color:#234c38;font:800 12px 'Segoe UI',Arial,sans-serif;cursor:pointer;white-space:nowrap;transition:background .16s,border-color .16s,color .16s}
+.review-clear-filters:hover:not(:disabled),.review-clear-filters:focus-visible{background:#eaf4ec;border-color:#7ca78a}
+.review-clear-filters:disabled{opacity:.48;cursor:not-allowed}
+.review-results-count{align-self:center;padding:0 4px}
+@media(max-width:900px){.review-filter-bar{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.review-search-label{grid-column:1/-1}.review-results-count{padding:0;align-self:center}.review-clear-filters{width:100%;min-height:46px}}
+@media(max-width:600px){.review-filter-bar{grid-template-columns:minmax(0,1fr)}.review-search-label{grid-column:auto}.review-results-count{padding:3px 0;text-align:left}.review-clear-filters{min-height:48px}}
+@media(prefers-reduced-motion:reduce){.review-clear-filters{transition:none}}
