@@ -622,3 +622,38 @@ img, video, iframe { max-width:100%; }
 }
 html[data-theme="dark"] .page-hero .eyebrow { background: #16281d; border-color: #355342; color: #c6e7cf; }
 html[data-theme="dark"] .content-layout > .prose .note { background: #142019; border-color: #355342; border-left-color: #82c79b; color: #d7e5dc; }
+
+
+/* Site-wide design tokens: one restrained emerald, ivory and antique-gold system. */
+:root {
+  --ink:#14251e; --muted:#586b60; --green:#174b38; --green2:#24684b;
+  --mint:#e4efe5; --paper:#f8f7f1; --line:#dce4d9; --gold:#b58a36;
+}
+body { background:var(--paper); color:var(--ink); }
+.site-header { background:rgba(248,247,241,.96); border-bottom-color:#dce4d9; }
+.nav-links { color:#344c40; }
+.nav-links>a:hover,.nav-links>a.active,.nav-links>a[aria-current="page"] { color:#174b38; }
+.page-hero { background:linear-gradient(120deg,#f6f7f0 0%,#eaf1e8 100%); border-bottom-color:#dce4d9; }
+.page-hero .eyebrow,.hero .eyebrow,.section .eyebrow { color:#174b38; }
+.prose h2,.prose h3 { color:#193a2b; }
+.prose p,.prose li { color:#4d6155; }
+.prose a,.sidebar a,.text-link,.card-arrow { color:#1e6345; }
+.prose th { background:#e8eee5; color:#193a2b; }
+.prose td,.prose th { border-color:#dce4d9; }
+.sidebar,.guide-card,.rg-callout { background:#fffefa; border-color:#dce4d9; }
+.note,.content-layout>.prose .note { background:#f0f5ed; border-left-color:#b58a36; color:#293f32; }
+.site-footer { background:#edf1e8; border-top-color:#d6e0d4; color:#233b2d; }
+.footer-links a,.footer-bottom,.footer-top>p { color:#586b60; }
+.guide-icon.icon-blue,.guide-icon.icon-purple,.guide-icon.icon-coral,.guide-icon.icon-slate,.guide-icon.icon-green,.guide-icon.icon-gold { background:#e7efe5; color:#20583d; }
+.button-primary { background:#174b38; color:#fff; border-color:#174b38; }
+.button-primary:hover { background:#24684b; color:#fff; }
+.button-outline { border-color:#b58a36; color:#174b38; }
+:focus-visible { outline-color:#b58a36; }
+html[data-theme="dark"] body { background:#0b1510; color:#edf1e8; }
+html[data-theme="dark"] .site-header { background:rgba(8,17,12,.96); border-bottom-color:#304237; }
+html[data-theme="dark"] .page-hero { background:linear-gradient(120deg,#101d15,#14281b); border-bottom-color:#304237; }
+html[data-theme="dark"] .prose h2,html[data-theme="dark"] .prose h3 { color:#f0f1e7; }
+html[data-theme="dark"] .prose p,html[data-theme="dark"] .prose li { color:#c1cec3; }
+html[data-theme="dark"] .sidebar,html[data-theme="dark"] .guide-card,html[data-theme="dark"] .rg-callout { background:#111e16; border-color:#304237; color:#edf1e8; }
+html[data-theme="dark"] .site-footer { background:#0d1912; border-top-color:#304237; color:#edf1e8; }
+html[data-theme="dark"] .prose th { background:#20372a; color:#edf1e8; }
