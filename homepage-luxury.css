@@ -146,3 +146,17 @@ html[data-theme="light"] .text-link, html[data-theme="light"] .card-arrow { colo
 html[data-theme="light"] .site-footer { background:#f1f6f0; border-color:#dfe8de; color:#344c40; }
 html[data-theme="light"] .footer-links a, html[data-theme="light"] .footer-bottom { color:#52655a; }
 html[data-theme="light"] .hero-art-luxury, html[data-theme="light"] .casino-brand, html[data-theme="light"] .review-card-art { color:#f7f4eb; }
+
+
+/* Maintain WCAG AA text contrast when the light theme is selected. */
+html[data-theme="light"] .eyebrow, html[data-theme="light"] .section .eyebrow { color:#174d3e; }
+html[data-theme="light"] .accent, html[data-theme="light"] .heading-crown { color:#725000; }
+html[data-theme="light"] .review-status { color:#4b554e; border-color:#d7e2d7; }
+html[data-theme="light"] .review-status span { color:#725000; }
+html[data-theme="light"] .casino-meta { color:#4c5c52; }
+html[data-theme="light"] .casino-offer { color:#674900; }
+html[data-theme="light"] .casino-tags { color:#51451e; }
+html[data-theme="light"] .featured-note { color:#52655a; }
+html[data-theme="light"] .trust-icon { color:#174d3e; }
+html[data-theme="light"] .section .text-link, html[data-theme="light"] .section .card-arrow { color:#174d3e; }
+html[data-theme="light"] .casino-card .review-status, html[data-theme="light"] .casino-card .casino-meta, html[data-theme="light"] .casino-card .casino-offer, html[data-theme="light"] .casino-card .casino-tags { text-shadow:none; }
