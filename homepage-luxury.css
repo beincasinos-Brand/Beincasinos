@@ -177,3 +177,11 @@ html[data-theme="light"] .section-compact.section .rg-callout { background:#fff;
 html[data-theme="light"] .section-compact.section .rg-callout h2 { color:#152320; }
 html[data-theme="light"] .section-compact.section .rg-callout p { color:#52655a; }
 html[data-theme="light"] .section-compact.section .rg-callout .text-link { color:#174d3e; }
+
+
+/* Footer brand lockup and column headings need dark ink on the light footer. */
+html[data-theme="light"] .site-footer .footer-brand { color:#152320; }
+html[data-theme="light"] .site-footer .brand-light { color:#344c40; }
+html[data-theme="light"] .site-footer .brand small { color:#52655a; }
+html[data-theme="light"] .site-footer .footer-top>p { color:#52655a; }
+html[data-theme="light"] .site-footer .footer-links b { color:#174d3e; }
