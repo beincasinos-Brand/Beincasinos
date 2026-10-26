@@ -518,11 +518,35 @@
       h1.parentNode.insertBefore(figure, h1.nextSibling);
     }
     let img = figure.querySelector('img');
+    const normalized = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+    const titleKey = Object.keys(logoSources).find(key => normalized(key) === normalized(brand));
+    const aliasKey = titleKey || Object.keys(brandAliases).find(key => normalized(key) === normalized(brand));
+    const mappedKey = titleKey || (aliasKey ? brandAliases[aliasKey] : null);
+    const mappedLogo = mappedKey ? logoSources[mappedKey] : null;
+    // Prefer a known brand-specific logo over a favicon on review detail pages.
+    if (mappedLogo && (!img || img.dataset.logoSource !== 'mapped')) {
+      if (img) img.remove();
+      img = document.createElement('img');
+      img.dataset.logoSource = 'mapped';
+      img.src = mappedLogo.src;
+      img.alt = mappedLogo.alt || brand + ' official logo';
+      img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+      figure.prepend(img);
+    }
     if (!img && origin) {
       img = document.createElement('img');
-      img.src = origin + '/favicon.ico';
+      img.src = origin + '/apple-touch-icon.png';
       img.alt = brand + ' official website icon';
       img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+      img.addEventListener('error', () => {
+        if (!img.dataset.triedFavicon) {
+          img.dataset.triedFavicon = '1';
+          img.src = origin + '/favicon.ico';
+        } else {
+          img.remove();
+          figure.classList.add('operator-logo-text-only');
+        }
+      });
       figure.prepend(img);
     }
     if (img) {
