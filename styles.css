@@ -675,3 +675,34 @@ html[data-theme="dark"] .prose th { background:#20372a; color:#edf1e8; }
  .review-visual-metric small { font-size:9px; line-height:1.35; letter-spacing:.02em; }
  .review-visual-metric strong { font-size:11px; line-height:1.4; overflow-wrap:break-word; }
 }
+
+
+/* High-contrast navigation on light pages: override legacy luxury-theme cream links. */
+html:not([data-theme="dark"]) .site-header .nav-links>a,
+html[data-theme="light"] .site-header .nav-links>a {
+  color:#263f32 !important;
+  text-shadow:none !important;
+  background-color:transparent;
+}
+html:not([data-theme="dark"]) .site-header .nav-links>a:hover,
+html:not([data-theme="dark"]) .site-header .nav-links>a:focus-visible,
+html:not([data-theme="dark"]) .site-header .nav-links>a.active,
+html:not([data-theme="dark"]) .site-header .nav-links>a[aria-current="page"],
+html[data-theme="light"] .site-header .nav-links>a:hover,
+html[data-theme="light"] .site-header .nav-links>a:focus-visible,
+html[data-theme="light"] .site-header .nav-links>a.active,
+html[data-theme="light"] .site-header .nav-links>a[aria-current="page"] {
+  color:#174b38 !important;
+  background:#e4efe5 !important;
+  border-color:#c5d9c7 !important;
+}
+html:not([data-theme="dark"]) .site-header .brand,
+html[data-theme="light"] .site-header .brand { color:#173a2a !important; }
+html:not([data-theme="dark"]) .site-header .brand small,
+html[data-theme="light"] .site-header .brand small { color:#52665a !important; }
+html:not([data-theme="dark"]) .site-header .nav-links>a.language-pill,
+html[data-theme="light"] .site-header .nav-links>a.language-pill {
+  color:#263f32 !important;
+  background:#fbfcf8 !important;
+  border-color:#d5dfd5 !important;
+}
