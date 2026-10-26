@@ -55,6 +55,10 @@
       src: 'https://scmedia.nj.betmgm.com/$-$/5ff5107775984e9fbad8eec0b9efb25e.png',
       alt: 'BetMGM official brand icon',
       icon: true
+    },
+    'BetCity': {
+      src: 'https://club.betcity.nl/assets/img/icons/bc-logo-black.svg',
+      alt: 'BetCity official logo'
     }
   };
 
