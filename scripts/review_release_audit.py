@@ -57,7 +57,7 @@ def audit(path: Path, root: Path):
     parser = PageParser()
     try: parser.feed(raw)
     except Exception: pass
-    text = re.sub(r"\\s+", " ", " ".join(parser.text_parts)).strip()
+    text = re.sub(r"\s+", " ", " ".join(parser.text_parts)).strip()
     rel = path.relative_to(root).as_posix()
     flags = []
     def flag(code, severity, detail): flags.append({"code": code, "severity": severity, "detail": detail})
@@ -81,11 +81,11 @@ def audit(path: Path, root: Path):
         flag("affiliate_disclosure_not_detected", "high", "Disclosure wording not detected; manual check required.")
     if not re.search(r"responsible gambling|safer gambling|gambling support|gamble responsibly", text, re.I):
         flag("safer_gambling_not_detected", "high", "Safer-gambling wording not detected; manual check required.")
-    if re.search(r"\\b(we tested|our hands-on test|we deposited|we withdrew)\\b", text, re.I):
+    if re.search(r"\b(we tested|our hands-on test|we deposited|we withdrew)\b", text, re.I):
         flag("first_hand_testing_claim", "critical", "First-hand testing language found; verify a documented test actually occurred.")
-    if re.search(r"\\b(100% safe|guaranteed win|risk[- ]free)\\b", text, re.I):
+    if re.search(r"\b(100% safe|guaranteed win|risk[- ]free)\b", text, re.I):
         flag("absolute_gambling_claim", "critical", "Potentially misleading absolute claim found.")
-    if re.search(r"\\bscore\\s*:?\\s*\\d+(?:\\.\\d+)?\\s*/\\s*10\\b", text, re.I):
+    if re.search(r"\bscore\s*:?\s*\d+(?:\.\d+)?\s*/\s*10\b", text, re.I):
         flag("numeric_score_present", "info", "Numeric score detected; verify completed evidence rubric and approval.")
     return {
         "file": rel, "title": title, "h1": h1, "canonical": parser.canonical,
@@ -122,7 +122,7 @@ def main():
     print(f"Review HTML files: {len(results)}")
     print(f"Pages with at least one flag: {summary['pages_with_flags']}")
     for code, count in sorted(counts.items()): print(f"  {code}: {count}")
-    if args.json_path: Path(args.json_path).write_text(json.dumps(summary, indent=2, ensure_ascii=False)+"\\n", encoding="utf-8")
+    if args.json_path: Path(args.json_path).write_text(json.dumps(summary, indent=2, ensure_ascii=False)+"\n", encoding="utf-8")
     if args.csv_path:
         with Path(args.csv_path).open("w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=["file","title","h1","canonical","visible_text_chars","image_count","internal_link_count","flag_count","flags"])
