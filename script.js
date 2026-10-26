@@ -15,11 +15,11 @@
     toggle.setAttribute('aria-label', 'Toggle main navigation');
     // Mark the current internal navigation destination for both visual and
     // assistive-technology context; keep trailing-slash variants equivalent.
-    const currentPath = window.location.pathname.replace(/\\/+$/, '') || '/';
+    const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
     nav.querySelectorAll('a[href]').forEach(link => {
       try {
         const target = new URL(link.href, window.location.href);
-        const targetPath = target.pathname.replace(/\\/+$/, '') || '/';
+        const targetPath = target.pathname.replace(/\/+$/, '') || '/';
         if (target.origin === window.location.origin && targetPath === currentPath) {
           link.classList.add('active');
           link.setAttribute('aria-current', 'page');
