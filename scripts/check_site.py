@@ -911,7 +911,7 @@ if reviews_hub.is_file():
         "Operator and licence transparency — 10 points",
         "Usability and information accessibility — 10 points",
         "No casino profiles are currently scored or ranked",
-        "Methodology version 1.0",
+        "Methodology version 1.1",
         "Updated 21 October 2026",
         'href="/how-we-review/"',
     ):
