@@ -336,6 +336,11 @@
       alt: 'Videoslots official brand icon',
       icon: true
     },
+    'FairPlay Casino Online': {
+      src: 'https://fairplaycasino.nl/favicons/favicon.ico',
+      alt: 'Fair Play Online Casino official brand icon',
+      icon: true
+    },
     'Casino Barcelona Online': {
       src: 'https://www.casinobarcelona.com/assets/img/casino-barcelona-logo.png?v=9193025',
       alt: 'Casino Barcelona official brand logo'
