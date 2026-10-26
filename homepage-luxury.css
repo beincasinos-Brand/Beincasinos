@@ -330,3 +330,163 @@ html[data-theme="light"] .site-footer .footer-brand>span>small { color:#52655a !
 .hero-emblem-ring{width:min(430px,86%);aspect-ratio:1;border:0;background:transparent;box-shadow:none;overflow:visible;padding:0}
 .hero-emblem{width:100%;height:100%;object-fit:contain;border-radius:0;filter:drop-shadow(0 0 20px #e9ad2a55)}
 @media(max-width:760px){.hero-art-luxury{min-height:285px;margin-top:4px}.hero-emblem-ring{width:min(285px,78%)}}
+
+
+/* 2026-10-26 readability and hierarchy correction — override decorative styling with a clear editorial layout */
+:root{--bic-bg:#070807;--bic-surface:#10120f;--bic-surface-2:#151711;--bic-text:#fffaf0;--bic-body:#e2ddcf;--bic-muted:#c1baa9;--bic-gold:#f3c74f;--bic-line:#443719}
+html{font-size:16px;text-rendering:optimizeLegibility}
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.65;color:var(--bic-text);background:var(--bic-bg);-webkit-font-smoothing:antialiased}
+.wrap{width:min(1280px,calc(100% - 56px))}
+p{color:var(--bic-body)}
+h1,h2,h3{font-family:Inter,"Segoe UI",Arial,sans-serif;letter-spacing:-.035em;text-wrap:balance}
+a{transition:color .18s ease,border-color .18s ease,background-color .18s ease}
+.site-header{position:sticky;top:0;z-index:50;background:rgba(6,7,6,.98);border-bottom:1px solid #574314;box-shadow:0 8px 25px #0005}
+.nav-wrap{min-height:86px;height:auto;padding:8px 0;gap:20px}
+.brand{width:auto;min-width:170px;gap:12px}
+.brand-logo-image{width:82px;height:74px;object-fit:contain;filter:drop-shadow(0 0 6px #d99a1b35)}
+.header-wordmark{display:flex;flex-direction:column;gap:4px}
+.header-wordmark-name{font-family:Inter,"Segoe UI",Arial,sans-serif;font-size:21px;line-height:1.1;font-weight:850;letter-spacing:-.8px;color:#fff}
+.header-wordmark-name span{color:var(--bic-gold)}
+.header-wordmark-tagline{font-size:9px;line-height:1.4;letter-spacing:1.2px;font-weight:800;color:#d5c69f}
+.nav-links{gap:clamp(8px,1.1vw,17px);font-size:11px;font-weight:800;letter-spacing:.25px;color:#f8f1df}
+.nav-links>a{min-height:46px;gap:6px;padding:0 2px}
+.nav-links>a.active{border-bottom:2px solid var(--bic-gold)}
+.nav-links .language-pill{border:1px solid #b98d25;padding:0 12px;min-height:38px!important}
+.menu-toggle{border:1px solid #b98d25!important;background:#11110d!important;color:#ffe18a!important}
+.hero{background:radial-gradient(ellipse at 80% 38%,#2a210d 0,transparent 37%),linear-gradient(112deg,#080908 0%,#0d0e0b 60%,#080908 100%);border-bottom:1px solid var(--bic-line)}
+.hero-grid{grid-template-columns:minmax(0,1.04fr) minmax(330px,.96fr);gap:clamp(28px,4vw,64px);min-height:520px;padding-top:56px;padding-bottom:52px}
+.hero-copy{min-width:0;max-width:650px}
+.eyebrow{font-size:11px;line-height:1.5;letter-spacing:1.45px;color:#f2d16b;font-weight:850;margin-bottom:20px}
+.hero h1{max-width:690px;font-size:clamp(44px,5.1vw,68px);line-height:1.04;letter-spacing:-2.5px;font-weight:850;margin-bottom:23px;color:#fffaf0}
+.hero h1 .accent{display:block;color:#f3c74f;margin-top:5px}
+.hero-lede{max-width:590px;font-size:18px;line-height:1.75;color:#e0dacb;margin-bottom:30px}
+.hero-actions{gap:14px}
+.button{min-height:50px;padding:14px 20px;font-size:12px;letter-spacing:.4px;border-radius:8px}
+.button-primary{background:linear-gradient(135deg,#f8d66d,#d49a20);color:#151006;border:1px solid #ffe8a0;box-shadow:0 8px 22px #d6a52c20;font-weight:900}
+.button-primary:hover{background:#ffe28a;color:#100d05}
+.trust-line{gap:11px;margin-top:25px;font-size:12px;line-height:1.6;color:#d8d0bc}
+.trust-icon{flex:0 0 22px;width:22px;height:22px;background:#28200c;color:#ffdc70;border:1px solid #8f6a1d}
+.hero-art-luxury{min-height:400px;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,#29200c 0,#11110d 45%,transparent 74%);overflow:hidden}
+.hero-emblem-ring{width:min(420px,100%);aspect-ratio:1;border:1px solid #73551b;border-radius:50%;padding:8px;background:#050605;box-shadow:0 0 0 8px #dcae2a0b,0 25px 65px #0009;overflow:hidden}
+.hero-emblem{width:100%;height:100%;object-fit:contain;display:block;border-radius:50%}
+.globe-grid,.globe-lights,.casino-chip,.playing-card,.gold-floor{pointer-events:none}
+.trust-strip{width:100%;max-width:none;border-top:1px solid #3c3015;border-bottom:1px solid #3c3015;border-radius:0;background:#10110e}
+.trust-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:0;padding-top:22px;padding-bottom:22px}
+.trust-grid>div{justify-content:center;gap:12px;padding:4px 16px;border-right:1px solid #3c3015}
+.trust-grid>div:last-child{border-right:0}
+.trust-symbol{font-size:27px;color:#f0c34d}
+.trust-grid b{font-size:11px;letter-spacing:.65px;color:#fff3d3}
+.trust-grid small{font-size:12px;line-height:1.5;color:#d1c8b4;margin-top:4px}
+.featured-section,.section{padding-top:76px;padding-bottom:76px}
+.featured-section{background:#080908}
+.section-heading{align-items:center;gap:22px;margin-bottom:28px}
+.section-heading h2,.section h2{font-size:clamp(30px,3.4vw,43px);line-height:1.14;letter-spacing:-1.3px;color:#fff9ec}
+.section-heading .accent,.section .accent{color:#f3c74f}
+.text-link{font-size:13px;line-height:1.5;color:#ffdb72;font-weight:850}
+.text-link:hover{color:#fff1bb}
+.casino-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.casino-card{min-width:0;display:flex;flex-direction:column;padding:18px 16px 16px;border:1px solid #4a3b1c;border-radius:13px;background:linear-gradient(180deg,#151610,#0e0f0c);box-shadow:0 12px 30px #0003;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.casino-card:hover{transform:translateY(-3px);border-color:#c69a35;box-shadow:0 18px 38px #0005}
+.casino-brand{min-height:90px;margin-bottom:14px;border:1px solid #383020;border-radius:9px;background:#f8f7f2;display:flex;align-items:center;justify-content:center;padding:12px}
+.casino-brand-logo{display:block;width:100%;max-width:170px;height:56px;object-fit:contain}
+.casino-brand-accessible{font-size:14px;font-weight:850;color:#111}
+.review-status{font-size:10px;line-height:1.55;color:#f2d16b;font-weight:800}
+.casino-meta{font-size:12px;line-height:1.5;color:#cfc6b1;margin:10px 0 8px}
+.casino-offer{display:block;font-size:15px;line-height:1.45;color:#fff7e5;margin-bottom:13px}
+.casino-tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}
+.casino-tags span{font-size:10px;line-height:1.4;padding:5px 7px;border:1px solid #44381d;border-radius:5px;color:#ded3b6;background:#11110d}
+.casino-button{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;min-height:42px;padding:10px 11px;border:1px solid #8f6b20;border-radius:7px;color:#ffdf7d;font-size:10px;font-weight:900;letter-spacing:.45px}
+.casino-button:hover{background:#f1c54f;color:#171106}
+.featured-note{font-size:12px;line-height:1.7;color:#c5bcaa;margin-top:18px;max-width:850px}
+.guide-grid{gap:16px}
+.guide-card{min-width:0;min-height:260px;padding:24px;border-radius:12px;border:1px solid #383323;background:linear-gradient(160deg,#141510,#0e0f0d);box-shadow:0 10px 26px #0002}
+.guide-card:hover{border-color:#947222;box-shadow:0 14px 30px #0004}
+.guide-icon{width:44px;height:44px;border-radius:10px;background:#29210d;color:#f5d36d;border:1px solid #5a461a;margin-bottom:20px}
+.card-meta{font-size:10px;line-height:1.5;letter-spacing:1px;color:#e4c86e}
+.guide-card h3{font-size:21px;line-height:1.28;letter-spacing:-.55px;color:#fff8e8;margin-bottom:12px}
+.guide-card p{font-size:14px;line-height:1.75;color:#d0c9ba;margin-bottom:20px}
+.card-arrow{font-size:12px;color:#f3ce65;font-weight:850}
+.rg-callout{border:1px solid #51421e;border-radius:14px;padding:28px;background:linear-gradient(120deg,#15150f,#0c0d0b);color:#fff5dc}
+.rg-callout .eyebrow{color:#f3cf65}
+.rg-callout h2{font-size:clamp(24px,2.5vw,31px);line-height:1.2;color:#fff8e9}
+.rg-callout p:not(.eyebrow){font-size:14px;line-height:1.75;color:#d2cbbb}
+.rg-symbol{background:#29210d;color:#f5d36d;border:1px solid #59451b}
+.feature-band{padding:72px 0;background:linear-gradient(115deg,#17150d,#0d0e0b 72%);border-top:1px solid #4c3a16;border-bottom:1px solid #4c3a16}
+.feature-band .eyebrow{color:#f3d16b}
+.feature-band h2{font-size:clamp(32px,4vw,48px);line-height:1.12;color:#fff8e8}
+.feature-band .accent{color:#f3c74f}
+.feature-band p:not(.eyebrow){font-size:16px;line-height:1.8;color:#ded6c4}
+.button-outline{border:1px solid #b68b2a;color:#ffe18a;background:#11110c}
+.site-footer{background:#070807;border-top:1px solid #493719;color:#eee5d2}
+.footer-top>p{font-size:13px;line-height:1.75;color:#c9c0ad}
+.footer-links b{font-size:11px;letter-spacing:.7px;color:#f3d16b}
+.footer-links a{font-size:13px;line-height:1.7;color:#d0c7b5}
+.footer-bottom{font-size:11px;color:#bcb29d}
+@media(max-width:1150px){
+ .wrap{width:calc(100% - 40px)}
+ .nav-wrap{gap:12px}
+ .brand{min-width:130px}
+ .brand-logo-image{width:62px;height:62px}
+ .header-wordmark-name{font-size:18px}
+ .header-wordmark-tagline{font-size:8px;letter-spacing:.7px}
+ .nav-links{gap:9px;font-size:10px}
+ .nav-links>a{gap:4px}
+ .casino-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .casino-card{padding:15px}
+ .trust-grid{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:14px}
+ .trust-grid>div:nth-child(3){border-right:0}
+}
+@media(max-width:760px){
+ .wrap{width:calc(100% - 32px)}
+ .nav-wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;min-height:74px;gap:10px}
+ .brand{min-width:0;width:auto;gap:9px}
+ .brand-logo-image{width:54px;height:54px}
+ .header-wordmark-name{font-size:18px}
+ .header-wordmark-tagline{font-size:7px;letter-spacing:.55px}
+ .menu-toggle{display:flex!important;justify-self:end}
+ .nav-links{display:none;grid-column:1/-1;position:static;width:100%;flex-direction:column;align-items:stretch;gap:0;padding:8px 0 12px;white-space:normal;background:#0b0c09}
+ .nav-links.open{display:flex}
+ .nav-links>a{min-height:46px;padding:10px 12px;border-bottom:1px solid #302714;font-size:12px;justify-content:flex-start}
+ .nav-links .language-pill{align-self:flex-start;margin-top:10px}
+ .hero-grid{grid-template-columns:minmax(0,1fr);gap:12px;min-height:0;padding-top:36px;padding-bottom:25px}
+ .hero h1{font-size:clamp(39px,10vw,54px);line-height:1.05;letter-spacing:-1.5px}
+ .hero-lede{font-size:16px;line-height:1.75}
+ .hero-art-luxury{min-height:0;margin-top:4px;padding:12px 0 18px}
+ .hero-emblem-ring{width:min(310px,78vw);padding:5px}
+ .trust-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:16px 4px;gap:12px 0}
+ .trust-grid>div{justify-content:flex-start;padding:7px 8px;border-right:0}
+ .trust-grid>div:nth-child(3){border-right:0}
+ .trust-symbol{font-size:24px}
+ .trust-grid b{font-size:10px}
+ .trust-grid small{font-size:11px}
+ .featured-section,.section{padding-top:54px;padding-bottom:54px}
+ .section-heading{align-items:flex-start;flex-direction:column;gap:10px}
+ .section-heading h2,.section h2{font-size:32px}
+ .casino-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+ .casino-card{padding:12px}
+ .casino-brand{min-height:70px;padding:8px}
+ .casino-brand-logo{height:44px}
+ .review-status{font-size:9px}
+ .casino-offer{font-size:13px}
+ .casino-meta{font-size:11px}
+ .casino-tags span{font-size:9px}
+ .casino-button{font-size:9px;padding:9px 7px}
+ .guide-grid{grid-template-columns:1fr}
+ .guide-card{min-height:0;padding:21px}
+ .guide-card h3{font-size:20px}
+ .guide-card p{font-size:14px}
+ .feature-band{padding:52px 0}
+ .feature-grid{grid-template-columns:1fr;gap:20px}
+ .rg-callout{grid-template-columns:1fr;gap:13px;padding:21px}
+ .rg-callout>.text-link{grid-column:auto}
+ .footer-top{align-items:flex-start;flex-direction:column}
+ .footer-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
+ .footer-bottom{flex-direction:column;gap:7px}
+}
+@media(max-width:380px){
+ .hero h1{font-size:36px}
+ .casino-grid{grid-template-columns:1fr}
+ .casino-card{padding:16px}
+ .casino-brand{min-height:82px}
+ .casino-brand-logo{height:52px}
+}
