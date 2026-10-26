@@ -15,8 +15,8 @@ import re
 from pathlib import Path
 
 
-IMG_RE = re.compile(r"<img\\b([^>]*?)>", re.IGNORECASE | re.DOTALL)
-ATTR_RE = re.compile(r"""([a-zA-Z_:][-a-zA-Z0-9_:.]*)\\s*=\\s*(?:"([^"]*)"|'([^']*)'|([^\\s>]+))""")
+IMG_RE = re.compile(r"<img\b([^>]*?)>", re.IGNORECASE | re.DOTALL)
+ATTR_RE = re.compile(r"""([a-zA-Z_:][-a-zA-Z0-9_:.]*)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))""")
 BRAND_MARKERS = ("logo", "brand", "operator")
 GENERIC_MARKERS = ("review-card-art", "casino-placeholder", "placeholder", "generic-casino")
 
@@ -82,7 +82,7 @@ def main() -> int:
     }
     print(json.dumps(summary, indent=2))
     if args.json:
-        args.json.write_text(json.dumps({"summary": summary, "pages": results}, indent=2) + "\\n", encoding="utf-8")
+        args.json.write_text(json.dumps({"summary": summary, "pages": results}, indent=2) + "\n", encoding="utf-8")
     if args.csv:
         import csv
         with args.csv.open("w", newline="", encoding="utf-8") as handle:
