@@ -178,6 +178,24 @@
       alt: 'PokerStars official brand icon',
       icon: true
     },
+    'Lord Ping': {
+      src: 'https://www.lordping.com/img/icons/favicon-16x16.png',
+      alt: 'Lord Ping official brand icon',
+      icon: true
+    },
+    'Admiral': {
+      src: 'https://www.admiral.at/assets/images/favicon/favicon.ico',
+      alt: 'Admiral official brand icon',
+      icon: true
+    },
+    'Slingo Casino Spain': {
+      src: 'https://cdn.slingo.com/img/logos/logo.png',
+      alt: 'Slingo official logo'
+    },
+    'eBingo Spain': {
+      src: 'https://www.ebingo.es/img/header/ebingoLogo.svg',
+      alt: 'eBingo official logo'
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
