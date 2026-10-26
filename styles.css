@@ -919,3 +919,48 @@ main .operator-logo-figure .operator-logo-image {
     max-width:250px!important;
   }
 }
+
+
+/* International editorial polish: stronger hierarchy, readable copy, calmer surfaces. */
+:where(main) { min-width:0; }
+:where(main p, main li) { text-wrap:pretty; }
+:where(main p) { max-width:78ch; }
+:where(main h1, main h2, main h3) { text-wrap:balance; }
+:where(main h1) { line-height:1.08; }
+:where(main h2) { line-height:1.16; }
+:where(main .page-hero) { padding-block:clamp(34px,5vw,68px); }
+:where(main .page-hero .wrap) { max-width:1180px; }
+:where(main .page-hero h1) { max-width:900px; margin-bottom:16px; }
+:where(main .page-hero p:not(.eyebrow)) { max-width:72ch; line-height:1.75; }
+:where(main .section, main .content-section) { scroll-margin-top:110px; }
+:where(main .content-card, main .guide-card, main .review-card) { min-width:0; }
+:where(main img) { max-width:100%; }
+:where(main table) { width:100%; border-collapse:collapse; }
+:where(main th, main td) { overflow-wrap:anywhere; }
+:where(main .prose, main .article-content, main .guide-content) { max-width:82ch; font-size:16px; line-height:1.8; }
+:where(main .prose h2, main .article-content h2, main .guide-content h2) { margin-top:1.8em; }
+:where(main .prose h3, main .article-content h3, main .guide-content h3) { margin-top:1.35em; }
+:where(main .prose ul, main .prose ol, main .article-content ul, main .article-content ol) { padding-left:1.4em; }
+:where(main a:not(.button):not(.casino-button):not(.guide-card)) { text-underline-offset:3px; }
+:where(main a:focus-visible, main button:focus-visible) { outline-offset:4px; }
+@media(max-width:900px) {
+  .site-header .nav-wrap { position:relative; height:auto; min-height:76px; padding-block:8px; flex-wrap:wrap; }
+  .site-header .menu-toggle { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:42px; border:1px solid #b99543; border-radius:9px; padding:9px 14px; background:#11130f; color:#f9d66e; font-weight:800; }
+  .site-header .nav-links { display:none; width:100%; max-width:none; overflow:visible; flex:1 0 100%; flex-wrap:wrap; justify-content:flex-start; gap:7px; padding:10px 0 14px; white-space:normal; }
+  .site-header .nav-links.open { display:flex; }
+  .site-header .nav-links>a { min-height:42px; padding:8px 11px; border:1px solid #3d331b; border-radius:8px; background:#0c0e0b; font-size:11px; }
+  .site-header .nav-links>a.active, .site-header .nav-links>a[aria-current="page"] { border-color:#d4a934; background:#201a0b; color:#ffdc60; }
+  .site-header .nav-links .language-pill { min-height:42px!important; }
+}
+@media(max-width:600px) {
+  .wrap { width:min(100% - 32px,1410px); }
+  .site-header .nav-wrap { min-height:70px; }
+  .site-header .brand-logo-image { width:46px; height:46px; }
+  .site-header .header-wordmark-name { font-size:18px; }
+  .site-header .header-wordmark-tagline { font-size:6px; letter-spacing:.55px; }
+  :where(main .page-hero) { padding-block:32px; }
+  :where(main .page-hero h1) { font-size:clamp(31px,8.4vw,42px); letter-spacing:-.8px; }
+  :where(main .page-hero p:not(.eyebrow)) { font-size:15px; line-height:1.7; }
+  :where(main .prose, main .article-content, main .guide-content) { font-size:15px; line-height:1.75; }
+  :where(main table) { display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+}
