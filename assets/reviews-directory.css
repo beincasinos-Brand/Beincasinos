@@ -178,3 +178,17 @@
     max-height: 40px;
   }
 }
+
+
+/* Dark-mode surfaces for the review directory, filters, scoring notes and cards. */
+html[data-theme="dark"] .review-directory-section, html[data-theme="dark"] .score-method-section { background:#0b1210; color:#e8f0ec; }
+html[data-theme="dark"] .review-directory-heading h2, html[data-theme="dark"] .score-method-intro h2, html[data-theme="dark"] .score-criterion h3 { color:#e8f0ec; }
+html[data-theme="dark"] .review-directory-lede, html[data-theme="dark"] .review-rating-note, html[data-theme="dark"] .score-method-intro p, html[data-theme="dark"] .score-criterion p { color:#bdcbc3; }
+html[data-theme="dark"] .review-filter-bar, html[data-theme="dark"] .review-rating-note, html[data-theme="dark"] .score-gate-banner, html[data-theme="dark"] .score-criterion, html[data-theme="dark"] .score-method-footer { background:#111d18; border-color:#2a3a31; color:#e8f0ec; }
+html[data-theme="dark"] .review-search-label input, html[data-theme="dark"] .review-market-label select { background:#0d1712; border-color:#3a4b40; color:#e8f0ec; }
+html[data-theme="dark"] .review-product-card { background:#111d18; border-color:#2a3a31; color:#e8f0ec; }
+html[data-theme="dark"] .review-card-heading h2 a, html[data-theme="dark"] .review-card-summary, html[data-theme="dark"] .review-card-foot { color:#d5e0d9; }
+html[data-theme="dark"] .review-card-metrics span { color:#aebeb5; }
+html[data-theme="dark"] .review-card-metrics strong { color:#edf4ef; }
+html[data-theme="dark"] .review-card-foot { border-color:#2b3a32; }
+html[data-theme="dark"] .review-no-results { color:#c0cec7; }
