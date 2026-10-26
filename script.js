@@ -84,7 +84,9 @@
     const logoSources = {
       'OneCasino': { src: 'https://www.onecasino.es/img/website/layout/logo.svg', alt: 'OneCasino official logo' },
       'LuckyCasino': { src: 'https://www.luckycasino.es/img/website/layout/logo.svg', alt: 'LuckyCasino official logo' },
-      'Monopoly Casino': { src: 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg', alt: 'Monopoly Casino Spain official logo' }
+      'Monopoly Casino': { src: 'https://assets.ballys.com/m/4f1e761d8685fd86/original/monopolycasinoes-logo-new.svg', alt: 'Monopoly Casino Spain official logo' },
+      'LunaCasino': { src: 'https://www.lunacasino.es/wp-content/uploads/2023/10/Logo.png', alt: 'Luna Casino official logo' },
+      'Genting Casino': { src: 'https://www.gentingcasino.es/img/logos/logo.png', alt: 'Genting Casino Spain official logo' }
     };
     const logo = logoSources[name];
     if (logo && !art.querySelector('.review-card-official-logo')) {
