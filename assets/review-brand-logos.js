@@ -106,6 +106,25 @@
       src: 'https://promociones.aupabet.es/wp-content/uploads/2025/08/logoheader.png',
       alt: 'AupaBet official logo'
     },
+    'AupaBet Spain': {
+      src: 'https://promociones.aupabet.es/wp-content/uploads/2025/08/logoheader.png',
+      alt: 'AupaBet official logo'
+    },
+    'Bingoal': {
+      src: 'https://www.bingoal.com/images/favicon/favicon-32x32.png',
+      alt: 'Bingoal official brand icon',
+      icon: true
+    },
+    'Holland Casino Online': {
+      src: 'https://corporate.hollandcasino.nl/favicon-32x32.png?v=29c351ad98b792041d60ea31c059c3f0',
+      alt: 'Holland Casino official brand icon',
+      icon: true
+    },
+    'Lord Lucky': {
+      src: 'https://www.lordlucky.com/favicon-32x32.png',
+      alt: 'Lord Lucky official brand icon',
+      icon: true
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
