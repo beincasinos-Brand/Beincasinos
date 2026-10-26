@@ -192,3 +192,12 @@ html[data-theme="dark"] .review-card-metrics span { color:#aebeb5; }
 html[data-theme="dark"] .review-card-metrics strong { color:#edf4ef; }
 html[data-theme="dark"] .review-card-foot { border-color:#2b3a32; }
 html[data-theme="dark"] .review-no-results { color:#c0cec7; }
+
+
+/* One brand mark per review card: suppress the decorative initials when the
+   official logo or readable text fallback is present. */
+.review-card-art .review-card-monogram[hidden] { display:none!important; }
+.review-card-art.review-card-logo-fallback .review-card-monogram,
+.review-card-art.review-card-has-official-logo .review-card-monogram { display:none!important; }
+.review-card-art.review-card-logo-fallback .review-card-wordmark--fallback { left:18px; right:14px; bottom:15px; max-width:calc(100% - 32px); text-align:left; overflow-wrap:anywhere; }
+.review-card-art.review-card-logo-fallback .review-card-art-label { max-width:48%; text-align:right; }
