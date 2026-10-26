@@ -125,6 +125,49 @@
       alt: 'Lord Lucky official brand icon',
       icon: true
     },
+    'Solcasino': {
+      src: 'https://images.ctfassets.net/yru0bhhzza0c/18pY8VjVhrQbI8e0rH3TTc/d10044d469609e36b250a299844f0f45/logo-solcasino-app-menu-base.svg',
+      alt: 'Solcasino official logo',
+      dark: true
+    },
+    'Solcasino Spain': {
+      src: 'https://images.ctfassets.net/yru0bhhzza0c/18pY8VjVhrQbI8e0rH3TTc/d10044d469609e36b250a299844f0f45/logo-solcasino-app-menu-base.svg',
+      alt: 'Solcasino official logo',
+      dark: true
+    },
+    'LuckyVegas Spain': {
+      src: 'https://www.luckyvegas.com/wp-content/uploads/luckyvegas-logo-2.png.webp',
+      alt: 'LuckyVegas official logo',
+      dark: true
+    },
+    'PlayKasino Spain': {
+      src: 'https://www.playkasino.es/wp-content/uploads/2025/10/Logo-1.png',
+      alt: 'PlayKasino official logo'
+    },
+    'Ahti Games Spain': {
+      src: 'https://aws-origin.image-tech-storage.com/tenants/ahtigames/ahtigames.com/_nuxt/logo.Buz4M4Ay.webp',
+      alt: 'Ahti Games official logo',
+      dark: true
+    },
+    'GeckoPlay Spain': {
+      src: 'https://www.geckoplay.com/logo.webp',
+      alt: 'GeckoPlay official logo',
+      dark: true
+    },
+    'BacanaPlay Spain': {
+      src: 'https://aws-origin.image-tech-storage.com/tenants/bacanaplay/bacanaplay.es/_nuxt/logo.CNaiE4v1.png',
+      alt: 'BacanaPlay official logo',
+      dark: true
+    },
+    'SlotStars Spain': {
+      src: 'https://www.slotstars.es/wp-content/uploads/2024/05/Slotstars-Logo.png',
+      alt: 'SlotStars official logo'
+    },
+    'SpinGenie Spain': {
+      src: 'https://www.spingenie.com/img/logos/logo.png',
+      alt: 'Spin Genie official logo',
+      dark: true
+    },
     '888slots': {
       src: 'https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png',
       alt: '888 official brand logo'
