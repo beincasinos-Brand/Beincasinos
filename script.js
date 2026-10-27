@@ -77,7 +77,7 @@
       let shown = 0;
       cards.forEach(card => {
         const searchable = normalizeSearch((card.dataset.search || '') + ' ' + (card.querySelector('.review-card-heading h2')?.textContent || ''));
-        const matches = (!query || searchable.includes(query)) && (!market || card.dataset.market === market);
+        const matches = card.dataset.tier !== 'other' && (!query || searchable.includes(query)) && (!market || card.dataset.market === market);
         card.hidden = !matches;
         if (matches) shown += 1;
       });
@@ -132,7 +132,7 @@
   // the evidence-led "Not rated" status when hands-on/product evidence is absent.
   const reviewHero = document.querySelector('main .page-hero');
   const reviewHeading = reviewHero && reviewHero.querySelector('h1');
-  if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') &&
+  if (reviewHero && reviewHeading && !document.querySelector('#review-visual-summary') && !document.querySelector('.t1-card') &&
       /^\/reviews\/[^/]+\/?$/.test(window.location.pathname)) {
     const titleText = reviewHeading.textContent.trim();
     const eyebrow = reviewHero.querySelector('.eyebrow');

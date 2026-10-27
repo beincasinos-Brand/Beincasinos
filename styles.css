@@ -972,3 +972,40 @@ main .operator-logo-figure .operator-logo-image {
 .sidebar a.aff-btn:hover,.sidebar a.aff-btn:focus-visible{background:#23674f;color:#fff}
 .sidebar .aff-box p{margin:0 0 8px;font-size:11px;line-height:1.5}
 .sidebar .aff-box p a{display:inline;margin:0;font-size:inherit;color:var(--green2);text-decoration:underline}
+
+/* Tier 1 unified review snapshot (rendered by scripts/build_tier1.py) */
+.t1-card{display:grid;grid-template-columns:176px minmax(0,1fr) 150px;gap:22px;align-items:center;margin:0 0 28px;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 10px 30px #153b2610}
+.t1-card-logo{display:grid;place-items:center;width:176px;height:96px;border:1px solid var(--line);border-radius:12px;background:#f6f9f6;overflow:hidden}
+.t1-logo-img{display:block;width:160px;height:64px;object-fit:contain;object-position:center}
+.t1-monogram{display:grid;place-items:center;width:68px;height:68px;border-radius:50%;background:linear-gradient(145deg,#174d3e,#21634e);color:#fff;font:800 24px Georgia,serif}
+.t1-kicker{margin:0 0 4px;color:var(--green2);font-size:10px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}
+.t1-title{margin:0 0 4px;font-size:28px;line-height:1.15}
+.t1-licence{margin:0 0 14px;color:var(--muted);font-size:12px}
+.t1-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.t1-cell{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fbfcfa;min-width:0}
+.t1-cell small{display:block;margin-bottom:5px;color:#5b6b61;font-size:9px;font-weight:700;letter-spacing:.6px;text-transform:uppercase}
+.t1-cell strong{display:block;font-size:12px;line-height:1.4;overflow-wrap:anywhere}
+.t1-meter{display:flex;gap:3px;margin-bottom:6px}
+.t1-meter i{flex:1;height:6px;border-radius:3px;background:#dfe7e1}
+.t1-meter i.on{background:var(--green2)}
+.t1-note{margin:10px 0 0;color:#5b6b61;font-size:11px}
+.t1-score{text-align:center;padding:14px 8px;border-radius:14px;background:#f0f7f1;border:1px solid #cfe5d6}
+.t1-score strong{display:inline;font:800 40px Georgia,serif;color:var(--green)}
+.t1-score span{font-size:13px;color:var(--muted)}
+.t1-score small{display:block;margin-top:6px;color:#4f615a;font-size:10px;line-height:1.35}
+.t1-score--withheld{background:#fff8e8;border-color:#e6d6a5}
+.t1-score--withheld strong{color:#8e6822}
+.prose table.t1-evidence{display:table;table-layout:auto}
+.t1-evidence td small{color:#718078}
+@media(max-width:850px){.t1-card{grid-template-columns:1fr;justify-items:stretch}.t1-card-logo{width:100%}.t1-grid{grid-template-columns:1fr}.prose table.t1-evidence{display:block}}
+
+/* Tier 1 focus: profiles outside Tier 1 stay in the repo but are never listed in the directory. */
+.review-product-card[data-tier="other"],.review-product-card[hidden]{display:none!important}
+/* The editorial hero is always dark, so its text must be light in the light theme too. */
+.page-hero h1{color:#fff}
+.page-hero p:not(.eyebrow){color:#d5e3dc}
+.page-hero a{color:#bfe9d0}
+.page-hero .operator-logo-figure,.page-hero .operator-logo-figure p,.page-hero .operator-logo-figure figcaption{color:var(--muted)}
+.page-hero .operator-logo-figure a{color:var(--green2)}
+
+.t1-wrap{padding-top:34px}.t1-wrap+.section{padding-top:30px}

@@ -12,6 +12,14 @@ from urllib.parse import urlparse, unquote
 import re
 import sys
 
+def _is_noindex(page):
+    try:
+        head = page.read_text(encoding="utf-8")[:6000]
+    except (OSError, UnicodeError):
+        return False
+    return bool(re.search(r'<meta name="robots" content="[^"]*\bnoindex\b', head, re.I))
+
+
 ROOT = Path(__file__).resolve().parents[1]
 IGNORE_DIRS = {".git", ".vercel", ".netlify", "dist", "node_modules"}
 errors = []
@@ -328,7 +336,7 @@ if sitemap.exists():
         expected_paths = set()
         for page in pages:
             rel = page.relative_to(ROOT).as_posix()
-            if rel == "404.html":
+            if rel == "404.html" or _is_noindex(page):
                 continue
             if rel == "index.html":
                 expected_paths.add("/")
@@ -963,6 +971,8 @@ if sitemap_path.is_file():
         sitemap_set = set(sitemap_urls)
         for page_dir in review_dirs:
             expected = f"https://beincasinos.online/reviews/{page_dir.name}/"
+            if _is_noindex(page_dir / "index.html"):
+                continue
             if expected not in sitemap_set:
                 errors.append(f"sitemap.xml: review route missing from sitemap: {expected}")
     except (ET.ParseError, OSError, UnicodeError) as exc:

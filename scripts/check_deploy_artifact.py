@@ -52,6 +52,8 @@ else:
             expected_urls = set()
             for html_file in DIST.rglob("*.html"):
                 rel = html_file.relative_to(DIST).as_posix()
+                if re.search(r'<meta name="robots" content="[^"]*\bnoindex\b', html_file.read_text(encoding="utf-8", errors="ignore")[:6000], re.I):
+                    continue  # deliberately noindex (Tier 1 focus): must stay out of the sitemap
                 if rel in {"404.html", "google05b7a00eb84d7acb.html"}:
                     # Google Search Console verification is a required public asset,
                     # but it is not an indexable content page and must stay out of the sitemap.

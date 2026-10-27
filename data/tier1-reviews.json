@@ -1,0 +1,1574 @@
+{
+  "schema_version": 1,
+  "_readme": "Evidence record for Tier 1 reviews. A numeric score is computed and shown ONLY when all six criteria have a rating, evidence_complete is true and second_review is true (see docs/editorial-review-scoring-rubric.md). Ratings are 0-5 or null (not assessed). Never use null as a low score. Notes are paraphrased; every rating needs a source URL and the date checked.",
+  "tier1_markets": [
+    "GB",
+    "NL",
+    "DE",
+    "CH",
+    "US",
+    "US-MI",
+    "AU",
+    "FR"
+  ],
+  "criteria": [
+    {
+      "key": "terms",
+      "label": "Terms clarity and fairness",
+      "weight": 25
+    },
+    {
+      "key": "payments",
+      "label": "Payments and withdrawals transparency",
+      "weight": 20
+    },
+    {
+      "key": "safer",
+      "label": "Safer-gambling controls",
+      "weight": 20
+    },
+    {
+      "key": "complaints",
+      "label": "Complaints and support transparency",
+      "weight": 15
+    },
+    {
+      "key": "licence",
+      "label": "Operator and licence transparency",
+      "weight": 10
+    },
+    {
+      "key": "usability",
+      "label": "Usability and information accessibility",
+      "weight": 10
+    }
+  ],
+  "reviews": {
+    "bet365-casino-gb": {
+      "brand": "bet365",
+      "market": "GB",
+      "market_label": "Great Britain",
+      "entity": "Hillside (UK Gaming) ENC",
+      "licence_line": "UKGC account 55149 · bet365.com listed as active domain",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Up to 500 free spins (new players)",
+        "detail": "Needs at least GBP 10 lifetime deposits, claimed within 30 days of registering; the offer page states winnings from these spins carry no wagering requirement and closes to new customers on 25 Nov 2026. Full conditions apply.",
+        "verified": true,
+        "seen": "2026-10-25",
+        "url": "https://casino.bet365.com/promos/en-gb/casino/new-player-offer"
+      },
+      "criteria": {
+        "terms": {
+          "rating": 4,
+          "note": "Offer page sets out deposit minimum, claim window, reveal schedule, eligible games and close date, and states the wagering position for winnings.",
+          "url": "https://casino.bet365.com/promos/en-gb/casino/new-player-offer"
+        },
+        "payments": {
+          "rating": 4,
+          "note": "Method-specific minimum and maximum withdrawal amounts and processing estimates are published; verification is required first. Estimates only, not transaction-tested.",
+          "url": "https://help.bet365.com/s/en-gb/payments/withdrawal-methods"
+        },
+        "safer": {
+          "rating": 4,
+          "note": "Account limits, time-outs and self-exclusion are documented in the Great Britain help centre, alongside operator-set affordability limits.",
+          "url": "https://help.bet365.com/s/en-gb/my-account/safer-gambling"
+        },
+        "complaints": {
+          "rating": 4,
+          "note": "Published route: customer service, escalation to a senior team member, then IBAS after eight weeks or if the customer disagrees with the final response.",
+          "url": "https://help.bet365.com/s/en-gb/complaints-procedure"
+        },
+        "licence": {
+          "rating": 4,
+          "note": "The UKGC register links the casino business to account 55149 and lists bet365.com as an active domain; terms identify the contracting entity per product.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/55149"
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not assessed: no structured check of how easy key terms and controls are to find.",
+          "url": ""
+        }
+      },
+      "red_flags": [
+        {
+          "date": "2024-04-04",
+          "text": "UKGC regulatory settlement: GBP 343,035 paid in lieu of a financial penalty by Hillside (UK Gaming) ENC after historic anti-money-laundering and social-responsibility failures.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/55149"
+        }
+      ]
+    },
+    "betfair-casino-great-britain-review": {
+      "brand": "Betfair Casino",
+      "market": "GB",
+      "market_label": "Great Britain",
+      "entity": "Betfair Casino Limited",
+      "licence_line": "UKGC account 39435 · remote casino licence active",
+      "checked": "2026-10-26",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "50 free spins at 10p, then 50 more after a qualifying GBP 10 spend",
+        "detail": "Seen on the offer page: opt-in code needed, new customers only, spins expire 7 days after award, e-wallet deposits do not qualify for the second set. Wagering and any win cap were not stated on the pages seen and the full promotional terms could not be opened, so treat the conditions as unverified.",
+        "verified": false,
+        "seen": "2026-10-26",
+        "url": "https://promos.betfair.com/promotion?promoCode=CASAF5109252020"
+      },
+      "criteria": {
+        "terms": {
+          "rating": 3,
+          "note": "General terms are well structured with a plain-language summary, but the offer pages leave wagering, win caps and withdrawability of spin winnings unstated.",
+          "url": "https://support.betfair.com/app/answers/detail/betfair-general-terms-and-conditions"
+        },
+        "payments": {
+          "rating": 3,
+          "note": "Withdrawal timing and verification rules are documented; limits and fees for other methods were not readable in the sources opened.",
+          "url": "https://support.betfair.com/app/answers/detail/10336-how-long-will-my-withdrawal-take"
+        },
+        "safer": {
+          "rating": 4,
+          "note": "Deposit and loss limits, reminders, time-outs and self-exclusion are documented; the terms address GAMSTOP.",
+          "url": "https://safergambling.betfair.com/tools/"
+        },
+        "complaints": {
+          "rating": 4,
+          "note": "Clear steps through the complaints team to IBAS for UK customers, with stated acknowledgement and final-response timeframes.",
+          "url": "https://www.betfair.com/aboutUs/Dispute.Resolution/"
+        },
+        "licence": {
+          "rating": 3,
+          "note": "Footer names the licensed entities and UKGC account numbers, but the casino subdomain was not listed under the licensee in the domain register page checked.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39435"
+        },
+        "usability": {
+          "rating": 3,
+          "note": "Support hub is clear, but offer conditions are not shown on the offer pages. No formal accessibility testing.",
+          "url": "https://casino.betfair.com/info/support"
+        }
+      },
+      "red_flags": [
+        {
+          "date": "2025-12-17",
+          "text": "UKGC settlement following a licence review: GBP 2,000,000 paid in lieu of a financial penalty, combined across four licensees including Betfair Casino Limited, for remote customer-interaction failings.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/regulatory-action/detail/307"
+        }
+      ],
+      "notes": [
+        "Verify the exact casino domain against the UKGC register before relying on this profile: only www.betfair.com appeared under account 39435 in the page checked."
+      ]
+    },
+    "william-hill-casino-great-britain-review": {
+      "brand": "William Hill Casino",
+      "market": "GB",
+      "market_label": "Great Britain",
+      "entity": "WHG (International) Limited",
+      "licence_line": "UKGC account 39225 · remote casino licence active",
+      "checked": "2026-10-26",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Current offer not verified",
+        "detail": "The casino and Vegas offer pages could not be opened during this check, so no amount or conditions are claimed.",
+        "verified": false,
+        "seen": "2026-10-26",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": 3,
+          "note": "General terms are versioned and dated (2026/1.4, 30 Sep 2026) and clear on entity, maximum-winnings limits and a dormant-account fee; bonus-abuse clauses give the operator wide discretion. Offer-specific terms were not reviewed.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
+        },
+        "payments": {
+          "rating": 3,
+          "note": "Terms cover verification, own-name deposits and withdrawal availability; the help centre lists withdrawal articles but limits, times and fees were not visible.",
+          "url": "https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals"
+        },
+        "safer": {
+          "rating": 4,
+          "note": "Deposit limits, mandatory reality checks, time-outs, group-wide self-exclusion, product blocking and GAMSTOP are documented; loss limits are not mentioned.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29873309823645-Safer-Gambling-for-UK-customers"
+        },
+        "complaints": {
+          "rating": 4,
+          "note": "Three-step route: live chat, second-opinion team, then IBAS if unresolved after eight weeks. Response times per step were not seen.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
+        },
+        "licence": {
+          "rating": 3,
+          "note": "Terms name the entity, company number and UKGC account; the register confirms a remote casino licence. Group entities differ between terms and register, and the casino domain listing was not confirmed.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not assessed: the casino and Vegas pages could not be opened.",
+          "url": ""
+        }
+      },
+      "red_flags": [
+        {
+          "date": "2023-03-28",
+          "text": "UKGC record settlement of GBP 19.2m across William Hill group businesses (WHG (International) Ltd paid GBP 12.5m) for safer-gambling and anti-money-laundering failures.",
+          "url": "https://www.gamblingcommission.gov.uk/news/article/william-hill-group-businesses-to-pay-record-gbp19-2m-for-failures"
+        },
+        {
+          "date": "2025-08-07",
+          "text": "UKGC financial penalty of GBP 82,687 on WHG (International) Ltd for a customer-identification condition breach; self-reported.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39225"
+        }
+      ]
+    },
+    "888casino-great-britain-review": {
+      "brand": "888casino",
+      "market": "GB",
+      "market_label": "Great Britain",
+      "entity": "888 UK Limited",
+      "licence_line": "UKGC account 39028 · remote casino licence active · 888casino.com listed active",
+      "checked": "2026-10-26",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Current offer not verified",
+        "detail": "The operator's own pages could not be opened during this check, so no offer amount or conditions are claimed.",
+        "verified": false,
+        "seen": "2026-10-26",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not assessed: operator terms could not be opened.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not assessed: operator payment pages could not be opened.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not assessed: operator safer-gambling pages could not be opened.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not assessed: complaints procedure and ADR body not confirmed from operator sources.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Register confirms entity, remote casino licence and domain; the operator's own licence disclosure was not checked, so no rating is given.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39028"
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not assessed.",
+          "url": ""
+        }
+      },
+      "red_flags": [
+        {
+          "date": "2022-03-01",
+          "text": "UKGC financial penalty of GBP 9.4m on 888 UK Limited for social-responsibility and anti-money-laundering failures, with an official warning and audit requirements.",
+          "url": "https://www.gamblingcommission.gov.uk/news/article/gbp9-4m-fine-for-online-operator-888"
+        },
+        {
+          "date": "2024-08-19",
+          "text": "GBP 23,000 penalty for a credit-card licence-condition breach; self-reported.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39028"
+        },
+        {
+          "date": "2025-08-07",
+          "text": "GBP 33,075 penalty for failing to identify remote customers properly; self-reported.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39028"
+        },
+        {
+          "date": "2025-11-18",
+          "text": "GBP 86,843 penalty for a self-exclusion breach attributed to human error; self-reported.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39028"
+        }
+      ]
+    },
+    "7melons-casino-switzerland": {
+      "brand": "7melons",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Bern",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-26",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-26",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "888slots-casino-germany": {
+      "brand": "888slots",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "888 / Virtual slot games listing on the GGL whitelist",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "admiral-casino-switzerland": {
+      "brand": "Admiral",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Mendrisio",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "bet365-casino-netherlands-review": {
+      "brand": "bet365",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "Hillside (New Media Malta) Plc",
+      "licence_line": "Dutch-licensed online gambling within the permit scope; exact product and domain should be matched against…",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "betcity-netherlands-review": {
+      "brand": "BetCity",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "Betent B.V.",
+      "licence_line": "Dutch-licensed online gambling within the permit scope",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "betmgm-casino-michigan": {
+      "brand": "BetMGM",
+      "market": "US-MI",
+      "market_label": "United States (Michigan)",
+      "entity": "MGCB's legal-gaming page lists BetMGM among legal internet-gaming websites.",
+      "licence_line": "Michigan Gaming Control Board (MGCB)",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "bingoal-netherlands-review": {
+      "brand": "Bingoal",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "Bingoal Nederland B.V.",
+      "licence_line": "Dutch-licensed online gambling within the permit scope",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "casineo-casino-switzerland": {
+      "brand": "Casineo",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Locarno",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "casino777-switzerland": {
+      "brand": "Casino777.ch",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Davos",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "casumo-casino-germany": {
+      "brand": "Casumo",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "Rabbit Entertain IT Limited",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "fairplay-casino-netherlands-review": {
+      "brand": "FairPlay Casino Online",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "FPO Nederland B.V.",
+      "licence_line": "Dutch-licensed online gambling within the permit scope",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "ggpoker-netherlands-review": {
+      "brand": "GGPoker",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "NSUS Malta Limited",
+      "licence_line": "Dutch-licensed online gambling within the permit scope; poker-focused product claims require product-specific…",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "holland-casino-online-netherlands": {
+      "brand": "Holland Casino Online",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "Holland Casino N.V.",
+      "licence_line": "Dutch-licensed online casino products within the permit scope",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "jackpots-ch-casino-switzerland": {
+      "brand": "Jackpots.ch",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Grand Casino Baden AG",
+      "licence_line": "Concession no. 516-003, stated in the operator's terms; ESBK lists Casino Baden / jackpots.ch among online…",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "kansino-netherlands-review": {
+      "brand": "Kansino",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "Play North Limited",
+      "licence_line": "Dutch-licensed online gambling within the permit scope",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "lapalingo-casino-germany": {
+      "brand": "Lapalingo",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "Rabbit Entertain IT Limited",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "lordlucky-casino-germany": {
+      "brand": "Lord Lucky",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "Rabbit Entertain IT Limited",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "mr-green-casino-germany": {
+      "brand": "Mr Green",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "888 group entity as shown in the GGL whitelist entry",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "mycasino-luzern-switzerland": {
+      "brand": "mycasino.ch",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Luzern",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-26",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-26",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "pasino-casino-switzerland": {
+      "brand": "Pasino",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Meyrin",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "starvegas-casino-switzerland": {
+      "brand": "Starvegas",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Interlaken",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "swiss4win-casino-switzerland": {
+      "brand": "Swiss4Win",
+      "market": "CH",
+      "market_label": "Switzerland",
+      "entity": "Casino Lugano",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "tigerspin-casino-germany": {
+      "brand": "Tigerspin",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "Rabbit Entertain IT Limited",
+      "licence_line": "Regulator evidence: see this review",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "toto-casino-netherlands": {
+      "brand": "TOTO",
+      "market": "NL",
+      "market_label": "Netherlands",
+      "entity": "TOTO Online B.V.",
+      "licence_line": "Kansspelautoriteit (Ksa)",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    },
+    "winfest-germany": {
+      "brand": "Winfest",
+      "market": "DE",
+      "market_label": "Germany",
+      "entity": "Rabbit Entertain IT Limited",
+      "licence_line": "Gemeinsame Glücksspielbehörde der Länder (GGL) whitelist",
+      "checked": "2026-10-25",
+      "evidence_complete": false,
+      "second_review": false,
+      "hands_on": false,
+      "offer": {
+        "headline": "Not verified yet",
+        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "verified": false,
+        "seen": "2026-10-25",
+        "url": ""
+      },
+      "criteria": {
+        "terms": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "payments": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "safer": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "complaints": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "licence": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        },
+        "usability": {
+          "rating": null,
+          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "url": ""
+        }
+      },
+      "red_flags": []
+    }
+  }
+}
