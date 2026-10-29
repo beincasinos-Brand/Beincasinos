@@ -255,11 +255,11 @@ small,.small{font-size:.85rem}
 .bx-market{margin:0 0 44px;scroll-margin-top:90px}
 .bx-market-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:18px;flex-wrap:wrap}
 .bx-market-head h2{margin:0;font-size:1.6rem}.bx-market-head p{margin:0;font:500 .9rem var(--sans);color:var(--muted)}
-.bx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+.bx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:16px}
 .bx-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);transition:border-color .15s,transform .15s}
 .bx-card:hover{border-color:var(--brass)}
 .bx-card[hidden]{display:none}
-.bx-card-link{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"logo main seal" "prog prog prog" "offer offer offer";gap:14px 16px;padding:18px;text-decoration:none;color:inherit;align-items:center}
+.bx-card-link{display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"logo main seal" "prog prog prog" "offer offer offer";gap:14px 16px;padding:18px;text-decoration:none;color:inherit;align-items:center}
 .bx-card-link .bx-logo{grid-area:logo;width:116px;height:48px;padding:6px 10px}
 .bx-card-link .bx-mono{width:34px;height:34px;font-size:.85rem}
 .bx-card-main{grid-area:main;min-width:0}
@@ -329,3 +329,5 @@ small,.small{font-size:.85rem}
 .hm-gate .bx-tick{border-style:solid;border-color:var(--teal)}
 .prose table,main table{display:block;max-width:100%;overflow-x:auto}
 .bx-cover{margin:6px 0 10px}.bx-cover img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line,#d5dbe5);display:block}
+.progress-0{width:0.0%}.progress-1{width:7.7%}.progress-2{width:15.4%}.progress-3{width:23.1%}.progress-4{width:30.8%}.progress-5{width:38.5%}.progress-6{width:46.2%}.progress-7{width:53.8%}.progress-8{width:61.5%}.progress-9{width:69.2%}.progress-10{width:76.9%}.progress-11{width:84.6%}.progress-12{width:92.3%}.progress-13{width:100.0%}
+.bx-card-link .bx-logo{width:96px}@media(min-width:420px){.bx-card-link .bx-logo{width:116px}}
