@@ -1,5 +1,65 @@
 SOURCE: https://help.betcity.nl/hc/nl/sections/28991515704849-Limieten
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:37 UTC
+STATUS: 200 browser final=https://help.betcity.nl/hc/nl/sections/28991515704849-Limieten
 
-
+Overslaan en naar hoofdcontent gaan
+BetCity
+FAQ
+Limieten
+Limieten
+ALLES OVER LIMIETEN
+Maandelijkse stortingslimieten
+Netto stortingslimiet
+STAAT JOUW ONDERWERP ER NIET TUSSEN?
+Live chat openen
+Wat kost gokken jou? Stop op tijd. 18+ SPEEL VERANTWOORD
+BETCITY SPORTSBOOK
+Wedden op sport
+Wedden op voetbal
+Wedden op Eredivisie
+Wedden op Ajax
+Wedden op PSV
+Wedden op Feyenoord
+POPULAIRE SPELLEN
+Sweet Bonanza
+Gates of Olympus
+Crazy Time
+Lightning Roulette
+Big Bass Bonanza
+Book of Dead
+CASINO
+Online casino
+Online gokken
+Live casino
+Live roulette
+Live blackjack
+Gokkasten
+CLUB BETCITY
+Club BetCity
+Club Sport
+Club Casino
+Voetbal voorbeschouwingen
+Blackjack spelregels & uitleg
+WK 2026
+Speelschema WK voetbal
+WK 2026 poules
+WK 2026 landen
+WK 2026 topscorers
+BETROUWBAAR SPELEN
+Algemene voorwaarden
+Sportsbook voorwaarden
+Bonusvoorwaarden
+Speel Verantwoord
+Klachtenregeling
+Veelgestelde vragen
+CONTACT
+NIEUWSBRIEF
+OVER ONS
+WERKEN BIJ
+DOWNLOAD ONZE APP
+SPEEL VERANTWOORD
+BETAAL EENVOUDIG MET
+Betent B.V., gevestigd en kantoorhoudende aan Keurenplein 4 (Unit D1442), 1069 CD te Amsterdam, beschikt over een vergunning tot het op afstand organiseren van casinospelen en weddenschappen. De vergunning met kenmerk: 1712/01.247.822 is verleend door de Kansspelautoriteit op 29 september 2021.
+Cookiebeleid
+Privacyverklaring
+© Betent B.V. 2025 | BetCity.nl is een handelsnaam van Betent B.V.

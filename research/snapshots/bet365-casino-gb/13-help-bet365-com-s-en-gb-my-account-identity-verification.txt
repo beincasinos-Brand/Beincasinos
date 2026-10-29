@@ -1,5 +1,8 @@
 SOURCE: https://help.bet365.com/s/en-gb/my-account/identity-verification
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 404: Not Found
+FETCHED: 2026-10-29 23:31 UTC
+STATUS: 404 browser final=https://help.bet365.com/s/en-gb/my-account/identity-verification
 
-
+Help Centre
+Sorry, this page isn't available.
+Error Code: 404
+Go back

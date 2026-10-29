@@ -1,5 +1,76 @@
 SOURCE: https://kansspelautoriteit.nl/@11392/betent
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+FETCHED: 2026-10-29 23:37 UTC
+STATUS: 200 browser final=https://openovergokken.nl/kansspelwijzer/betent-b-v/
 
-
+Hulplijnen
+Bel gratis: 0800 24 000 22
+Wat is gokken?
+Gokprobleem?
+Zorgen om een ander
+Ervaringen
+Zoeken
+Betent B.V.
+Gegevens vergunninghouder
+Straat en huisnummer
+Keurenplein 4, Unit D1442
+Postcode
+1069 CD
+Plaats
+Amsterdam
+Land
+Nederland
+Nummer handelsregister
+82283141
+Vergunning(en)
+Type kansspel
+Online gokspel
+Vergunningtype
+Online casinospel tegen vergunninghouder, Online sportweddenschap
+Nummer (vergunning)
+3629
+Publicatie
+https://kansspelautoriteit.nl/over-ons/publicaties/betent
+Geldig
+01 oktober 2026 – 01 oktober 2031
+Contact vertegenwoordiger verslavingspreventie
+Mevrouw Kersten
+vertegenwoordigerRG@sportsentmedia.com
+Merknamen
+BetCity
+Websites
+Betcity.nl
+Apps
+BetCity (Apple App Store id6447310552), BetCity (Google Play Store iid=nl.betcity.betent&pli=1)
+Stap voor stap: grip op gokken, meer rust en vrijheid
+Gokproblemen?
+Hulpzoeker
+Zelftest
+Zelfhulpmodule
+Grip op je gokgedrag
+Stappenplan voor schulden
+Behandelingen
+Gokstop
+Hulplijnen
+Zorgen om een ander
+Mijn partner heeft een gok­pro­bleem
+Mijn ouder heeft een gokprobleem
+Een vriend(in) van mij heeft een gokprobleem
+Mijn kind gokt
+Behandelingen
+Gokstop
+Hulplijnen
+Wat is gokken?
+Wat doet gokken met je?
+Wat valt onder gokken?
+Wat ziet mijn kind?
+Hoe werken gokbedrijven
+Top 10 risico’s van gokken
+Risico’s van illegaal gokken
+Gokpedia
+Kansspelwijzer
+© 2025 OpenOverGokken
+OpenOverGokken is een initiatief van de Kansspelautoriteit. Het Expertisecentrum Gokken (Trimbos-instituut) en Verslavingskunde Nederland hebben bijgedragen aan de content van deze website.
+Toolkit
+Contact
+Disclaimer
+Privacy en cookiebeleid

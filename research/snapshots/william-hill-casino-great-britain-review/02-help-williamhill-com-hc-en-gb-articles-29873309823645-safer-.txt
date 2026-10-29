@@ -1,5 +1,183 @@
 SOURCE: https://help.williamhill.com/hc/en-gb/articles/29873309823645-Safer-Gambling-for-UK-customers
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:32 UTC
+STATUS: 200 browser final=https://help.williamhill.com/hc/en-gb/articles/29873309823645-Safer-Gambling-for-UK-customers
 
-
+Skip to main content
+Submit a request
+Sign in
+Sign in
+Submit a request
+Search or enter question
+How can we help?
+How can we help?
+William Hill Support
+Safer Gambling
+Overview
+Safer Gambling for UK customers
+You'll find the tools within your account section.
+Login to your William Hill account and click on the balance icon at the top of the page/screen
+In the dropdown menu, look for the section that’s called either ‘Safer Gambling’, ‘Gambling Controls’ or ‘Account Controls’. You can get an overview of them here.
+Our Customer Service Team is dedicated and trained to deal with Safer Gambling mechanisms as well as potentially problematic behaviour.
+They're available to listen and support you with staying in control, and to provide you with more information about each of the tools available to you.
+WHAT SAFER GAMBLING TOOLS ARE AVAILABLE AND HOW DO I USE THEM?
+Deposit Limits
+Deposit limits are a great way to manage your play, and control how much you spend on your account.
+By setting a limit in line with what you can afford and are comfortable with, you can play with the reassurance that we will not allow you to go over that limit.
+Limits are available Daily, Weekly and Monthly, and can be adjusted from your account menu to suit your budget.
+Net Deposit Limits
+At William Hill UK, we use Net deposit limits.
+This means your limit allows you to deposit the set amount plus anything you have withdrawn.
+Here's an example of how that works:
+Let's say your Deposit Limit is £100 a month and you deposit £50.
+You win £50, so your account now has £100 in it.
+You later withdraw £50.
+This means you still have £100 before you hit your Deposit Limit
+This is because you’re playing with money you won, and your net Deposit Limit is still £100.
+Deposit Limit Periods
+Your daily limit is over 24 hours.
+A weekly limit is over a period of 7 days.
+The monthly limit looks back to the same date of the previous month.
+Your deposit limit will look back over the relevant period to see what deposits and withdrawals you have made, and calculate how much of your limit remains.
+If you have more than one limit set, it will always be the most restrictive limit which takes priority.
+Example: You set a daily deposit limit of £50, and a Weekly limit of £100.
+On Monday you deposit and wager £50, and another £50 on Tuesday.
+On Thursday you try to deposit another £50.
+Although by your daily limit you still have £50 available, you will be prevented from depositing more because you have reached the £100 Weekly limit.
+You can choose to set a limit during your registration or at any time after by following this link.
+Worried you may exceed your set limits? Don't be - we look backwards from the point at which you're making a deposit and add up any relevant deposited amounts for you to ensure you don't go over your limit.
+Any decrease in deposit limit will be applied immediately to your account.
+If you want to increase your deposit limits, there’s a 24-hour cooling off period, then your new limit will take effect.
+To change your deposit limit, please click here.
+You can keep track of your deposit limits, and how much you have available by using the Deposit Tracker from your account menu:
+NOTES:
+Customers returning from Self Exclusion or GAMSTOP Exclusion may decrease their deposit limit at any point.
+Any increase requests when returning from Exclusion will be subject to review for approval.
+Product Blocking
+Block access to specific products on our site.
+Example: If you enjoy a wager on the horses, but find yourself spending too much money in Casino, we can block your access to Casino and you can go back to having fun just on sport.
+These restrictions can be applied to: Casino, Poker, Vegas, Games, Bingo, and Live Casino.
+This option isn't available on Sports, Virtual Betting or Lottery products.
+If you'd like to block your access to specific products, please contact our Customer Service Team who are available 24/7 to help you do this.
+Session Time/Gaming Time Reminders
+A session time reminder enables you to set an automated reminder to appear during gaming activity, to help you track how long you've been playing.
+This feature is compulsory for UK-registered customers (please click here to read more).
+To change your session time reminder, please click here.
+To ensure reminders work correctly, we recommend that after setting a session time/gaming time reminder, you clear your browser history (click here for guidance) and re-install any downloaded software so you have the latest version.
+The session time/gaming time reminder clock starts the first time you place a bet within a game. If you exit the game and switch to another game, the clock will restart.
+Once your selected time is reached and you place another bet, you’ll be shown a popup (this might be titled 'Reality Check'), which will give you the following options:
+Continue playing:
+This resets the clock and allows you to continue playing.
+The reminder will reappear when you once again reach your selected time period.
+Stop playing/Exit the game:
+Your current game will be closed and the clock will reset.
+If you have other games open, you may want to close those as well as they will have also timed out.
+The clock will restart the next time you place a bet in a game.
+View account history:
+This allows you to review your recent transactions.
+A session time/gaming time reminder is game specific, and applies across all platforms and on all products except:
+Sports
+Poker
+Virtuals
+Evolution Gaming content (all of Live Casino and any Games content which shows ‘Evolution’ on the loading screen).
+You can also set reminders for Evolution Gaming content, but you need to do so from within a game. To do this:
+Launch your chosen game.
+Select 'Settings' and then 'Game Session Settings'.
+Choose the time period for your reminders (30 minutes or 1 hour).
+This setting can be changed at any time by returning to the 'Game Session Settings' page.
+For Live Casino games, the timer starts when you launch the lobby.
+Reminders will show when they're due within games.
+Short Time Out
+You can take a time out from one day to 6 weeks, for a longer period please contact our Customer Service Team.
+When you set a time out with us, we'll close your account for that chosen period. You may withdraw any funds from your account before you start a time out.
+Once a time out has started, any balance on your account won't be refunded automatically, so you'll need to contact the Customer Service Team if you wish to make a withdrawal.
+While your account is timed out, we'll try not to send you any marketing material or promotional offers, but this can take up to 48 hours to come into effect.
+If you'd like to set a time out online (up to 6 weeks), please click here.
+To set a time out for a longer period, please contact our Customer Service Team.
+At the end of your time out period, your account will automatically re-open and you'll be able to login.
+If you wish to opt out of receiving marketing information from us, please click here.
+Self Exclusion
+If you find gambling is negatively impacting you personally, and the tools available aren't enough to manage your play and you want to stop gambling completely for an extended period of time, then Self Exclusion is available.
+When you choose a Self Exclusion with us, we'll close your William Hill account for your chosen period starting from 6 months.
+Whilst we'll do our best to self-exclude customers across brands, please take note that this may not come into effect immediately.
+If at the end of your Self Exclusion, you feel you're in control of your gambling, contact our Customer Service Team, who'll be happy to assist you.
+A cooling off period will apply, and during this time you can again consider your decision.
+You must contact us after the exclusion period has been completed, as we won't re-open the account without your request.
+We take safer gambling very seriously, and if you try to open other accounts with us during your period of exclusion, we'll do our best to detect and close them.
+In the event you don't choose to update us with any changes in your personal information or use circumventive methods to open a new account, William Hill won't be held liable for subsequent decisions to gamble, your deposits and any winnings or losses incurred will stand, any unspent balance returned and your account will be closed by William Hill, once identified.
+Before you self-exclude, you must close any open gaming sessions.
+Should you wish to self-exclude, we strongly recommend that you delete/uninstall all apps or downloads connected to William Hill from all your devices.
+Upon self-excluding, your account will be closed, any balance on your account will be withdrawn and we'll endeavour to ensure you don't receive marketing from us immediately. However, this process can take up to 48 hours.
+To request Self Exclusion online, please click here.
+If you wish to opt out of receiving marketing information from us, click here.
+If you've also subscribed to any 3rd party sites advertising William Hill, you should contact them independently to remove yourself from their mailing lists.
+If you have a William Hill Cash Card Mastercard any outstanding balance will be refunded to you, after this your card will be deactivated and you won't be able to use it.
+If you wish to discuss any of these options, please contact our Customer Service Team via Live Chat.
+We recommend that you contact any other betting companies you have an account with and request a Self Exclusion.
+IMPORTANT:
+For UK customers only: From 20 April 2023, any NEW self-exclusion request will be extended to any related accounts we identify that you hold with all 888/WH group brands (888casino, 888poker, 888sport, 777.com, William Hill and Mr Green).
+Please note if you already have another active self-exclusion agreement(s) with 888/WH group brands, as of 26 August 2023, we'll extend the expiry date of all self-exclusions to the date furthest in the future.
+Additionally, please be aware that if your account is not approved for regulation, you'll need to verify your account by uploading the relevant documents prior to requesting to self-exclude with us.
+You can also consider utilizing GAMSTOP as an alternative for self-exclusion. To find out more and to sign up with GAMSTOP, click here.
+If you've requested to self-exclude prior to 26 August 2023 and your self-exclusion period hasn't expired, we'll extend this self-exclusion to any other accounts we identify that you may have across all 888/WH group brands.
+ADVICE TO HELP YOU MANAGE YOUR GAMBLING:
+Set out a budget and don’t go beyond this.
+Only play for the time you intended and take regular breaks when gambling.
+Make sure to balance gambling with other interests and hobbies.
+Set a deposit limit on your account, that’s realistic for you (click here for more details).
+Set yourself a time limit before you start gambling and stick to it. Set an alarm.
+Gambling should be for fun and entertainment not as a source of income.
+Don't forget your daily life; ensure you’ve completed all your responsibilities before gambling.
+Don't turn to gambling as an alternative source of income or a way to pay back a debt.
+Don't gamble if you're in recovery for any dependency or if you’re under the influence of alcohol or any other substance.
+For more information on how to gamble safely and on dealing with gambling problems, please contact a gambling charity in your country. We’ve provided some recommendations below.
+ARE YOU CURIOUS ABOUT YOUR LEVEL OF PLAY?
+We offer a sophisticated anonymous self-assessment tool that can help you to understand your level of play and make informed decisions.
+Start the free self-assessment tool.
+Please read through the account options available to you, and contact our Customer Service Team if you'd like to talk about your level of play.
+The Gambling Charities below can also provide confidential help and advice.
+GAMBLING CHARITIES
+Gambling problems are far-reaching and can have a significant impact on people's lives.
+If you're experiencing difficulty in controlling your level of gambling and want to seek help and advice on how to manage your levels of gambling, or if you're concerned about a friend or family-member, we recommend the gambling charities below:
+Gamblers Anonymous
+GamCare: UK-based Helpline: 0808 802 0133
+GambleAware
+Gambling Therapy (for languages in addition to English): get help through their website or download their app for iOS or Android.
+PARENTAL CONTROLS
+Over 18s Only
+It’s illegal for someone who’s under 18 years of age to gamble.
+William Hill reserves the right to ask for proof of age from any customer and to carry out checks to verify the information provided.
+Customer accounts may be suspended and funds withheld until satisfactory proof of age is provided.
+The legal gambling age varies according to country and we advise you to carry out local research.
+In order to avoid unlawful betting, we may undertake a search with a third party for the purpose of verifying that you're 18 or over.
+William Hill would, however, ask that to prevent potential misuse, you keep your account number, username and password confidential.
+For more detailed information on William Hill's Account and Age Verification measures, please click here.
+Parental Controls
+There are a number of third party applications available that parents or guardians can use to monitor or restrict the use of their computer's access to the Internet.
+These include:
+Net Nanny: Filtering software protects children from inappropriate web content
+CYBERsitter: Filtering software gives parents the opportunity to add certain sites to block
+There are also a number of companies who provide software* which once installed allows you to block your devices from accessing internet gambling sites, these include:
+BetBlocker: free software
+Gamblock
+Gamban
+*DISCLAIMERS:
+William Hill provides links to other websites owned by third parties.
+The content of such third party sites is not within our control, and we cannot and won't take responsibility for the information or content thereon.
+Links to such third party sites are not to be taken as an endorsement by William Hill of the third party site, or any products promoted, offered or sold on the third party site.
+In addition, William Hill won't be held responsible for the performance or quality of the third party software recommended on this page.
+Was this article helpful?
+Yes No
+ Articles in this section
+Safer Gambling: Overview
+Safer Gambling for Customers in the Republic of Ireland
+Safer Gambling for UK customers
+Safer Gambling for Non-UK customers
+Safer Gambling Tools
+Back to top 
+For customers in Great Britain, Northern Ireland, Jersey, and Gibraltar, this website is operated by WHG (International) Limited, a company registered in Gibraltar at Suite 601/701 Europort, Europort Road, Gibraltar, GX11 1AA, with registered company number 99191.
+For customers in Great Britain, WHG (International) Limited is licensed and regulated in Great Britain by the Gambling Commission under account number 39225.
+For customers located in Great Britain, Jersey, Northern Ireland, and Gibraltar, WHG (International) Limited is further licensed by the Government of Gibraltar and regulated by the Gibraltar Gambling Commissioner. WHG (International) Limited is a registered I.B.A.S bookmaker. WHG (International) Limited is a wholly owned subsidiary of Evoke PLC, a company registered in Gibraltar and listed on the London Stock Exchange.
+For customers outside Great Britain, Northern Ireland, the Republic of Ireland, Jersey, and Gibraltar, this website is operated by William Hill Global PLC, a company registered in Malta (registration number C96298) with its registered office at Tagliaferro Business Centre, Level 8, High Street, Sliema SLM 1549, Malta. William Hill Global PLC holds a licence MGA/CRP/121/2006-05 issued by the Malta Gaming Authority on 2 November 2020 and valid until 19 March 2028.
+For customers in the Republic of Ireland, this website is operated by WH Ireland Limited, a company registered in Gibraltar with its registered office at Suite 601/701 Europort, Europort Road, Gibraltar, GX11 1AA. WH Ireland Limited holds a Remote Betting Licence GRAI-1096-RB-26-0001 issued by the Gambling Regulatory Authority of Ireland for the provision of its Sportsbook services. Its Casino and Poker services are operated under Remote Gaming Licence number 112, issued by the Gibraltar Licensing Authority and regulated by the Gibraltar Gambling Commissioner.
+Underage gambling is prohibited. Gambling can be harmful if not controlled. William Hill is committed to helping customers gamble safely. For information about the tools and support available to help you stay in control, including Parental Controls, please visit our Safer Gambling page.
+English (United Kingdom) Deutsch (Deutschland) English (United States)

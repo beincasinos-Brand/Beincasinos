@@ -1,5 +1,5 @@
 SOURCE: https://kansspelautoriteit.nl/boete-betent-voor-reclame-gericht-op-jongvolwassenen
-FETCHED: 2026-10-29 23:26 UTC
+FETCHED: 2026-10-29 23:37 UTC
 STATUS: 200 text/html final=https://kansspelautoriteit.nl/boete-betent-voor-reclame-gericht-op-jongvolwassenen
 
 Boete Betent voor reclame gericht op jongvolwassenen | Kansspelautoriteit

@@ -1,5 +1,6 @@
 SOURCE: https://safergambling.betfair.com/tools/
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:31 UTC
+STATUS: 403 browser final=https://safergambling.betfair.com/tools/
 
-
+403 Forbidden
+nginx

@@ -1,5 +1,5 @@
 SOURCE: https://kansspelautoriteit.nl/betent-b-v
-FETCHED: 2026-10-29 23:26 UTC
+FETCHED: 2026-10-29 23:37 UTC
 STATUS: 200 text/html final=https://kansspelautoriteit.nl/betent-b-v
 
 Betent B.V. | Kansspelautoriteit

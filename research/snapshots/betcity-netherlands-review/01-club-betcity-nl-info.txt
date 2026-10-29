@@ -1,5 +1,5 @@
 SOURCE: https://club.betcity.nl/info
-FETCHED: 2026-10-29 23:26 UTC
+FETCHED: 2026-10-29 23:36 UTC
 STATUS: 200 text/html final=https://club.betcity.nl/info
 
 Info | Casino | Club BetCity

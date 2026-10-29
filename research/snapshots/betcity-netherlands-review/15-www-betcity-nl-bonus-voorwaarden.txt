@@ -1,5 +1,8 @@
 SOURCE: https://www.betcity.nl/bonus-voorwaarden
-FETCHED: 2026-10-29 23:27 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:37 UTC
+STATUS: 403 browser final=https://www.betcity.nl/bonus-voorwaarden
 
-
+172.182.209.51
+a52602402ef6fda5
+US
+Deze pagina is niet beschikbaar in jouw regio. Als je denkt dat dit onjuist is, neem dan contact op met onze klantenservice via klantenservice@betcity.nl

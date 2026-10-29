@@ -1,5 +1,74 @@
 SOURCE: https://kansspelautoriteit.nl/@11384/fpo-nederland/
-FETCHED: 2026-10-29 23:27 UTC
-STATUS: ERROR <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+FETCHED: 2026-10-29 23:37 UTC
+STATUS: 200 browser final=https://openovergokken.nl/kansspelwijzer/fpo-nederland-b-v/
 
-
+Hulplijnen
+Bel gratis: 0800 24 000 22
+Wat is gokken?
+Gokprobleem?
+Zorgen om een ander
+Ervaringen
+Zoeken
+FPO Nederland B.V.
+Gegevens vergunninghouder
+Straat en huisnummer
+Winckelen 1
+Postcode
+6467 JD
+Plaats
+Kerkrade
+Land
+Nederland
+Nummer handelsregister
+8187774
+Vergunning(en)
+Type kansspel
+Online gokspel
+Vergunningtype
+Online casinospel tegen vergunninghouder
+Nummer (vergunning)
+3657
+Publicatie
+https://kansspelautoriteit.nl/over-ons/publicaties/fpo-nederland
+Geldig
+01 oktober 2026 – 01 oktober 2031
+Contact vertegenwoordiger verslavingspreventie
+De heer Vreuls
+pvreuls@jhgroup.nl
+Merknamen
+Fair Play Online Casino
+Websites
+fairplaycasino.nl
+Stap voor stap: grip op gokken, meer rust en vrijheid
+Gokproblemen?
+Hulpzoeker
+Zelftest
+Zelfhulpmodule
+Grip op je gokgedrag
+Stappenplan voor schulden
+Behandelingen
+Gokstop
+Hulplijnen
+Zorgen om een ander
+Mijn partner heeft een gok­pro­bleem
+Mijn ouder heeft een gokprobleem
+Een vriend(in) van mij heeft een gokprobleem
+Mijn kind gokt
+Behandelingen
+Gokstop
+Hulplijnen
+Wat is gokken?
+Wat doet gokken met je?
+Wat valt onder gokken?
+Wat ziet mijn kind?
+Hoe werken gokbedrijven
+Top 10 risico’s van gokken
+Risico’s van illegaal gokken
+Gokpedia
+Kansspelwijzer
+© 2025 OpenOverGokken
+OpenOverGokken is een initiatief van de Kansspelautoriteit. Het Expertisecentrum Gokken (Trimbos-instituut) en Verslavingskunde Nederland hebben bijgedragen aan de content van deze website.
+Toolkit
+Contact
+Disclaimer
+Privacy en cookiebeleid

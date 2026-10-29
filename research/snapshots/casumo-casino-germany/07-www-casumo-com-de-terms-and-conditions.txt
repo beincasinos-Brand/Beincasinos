@@ -1,5 +1,14 @@
 SOURCE: https://www.casumo.com/de/terms-and-conditions
-FETCHED: 2026-10-29 23:27 UTC
-STATUS: ERROR HTTP Error 404: Not Found
+FETCHED: 2026-10-29 23:38 UTC
+STATUS: 200 text/html final=https://restricted.casumo.com/
 
-
+Restricted Country | Casumo
+Sorry about this but Casumo is not available in your region
+Not in restricted region?
+If you are using a proxy service or VPN to access Casumo, try turning it off and reload the page.
+Do you need to contact us?
+hey@casumo.com
+Interested in becoming a Casumo Affiliate?
+Join Europe`s fastest growing casino on [https://www.casumoaffiliates.com] casumoaffiliates.com
+Would you like to work for us?
+Check out our vacancies [https://www.casumocareers.com] casumocareers.com

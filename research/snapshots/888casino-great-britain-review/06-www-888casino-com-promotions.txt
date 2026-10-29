@@ -1,5 +1,5 @@
 SOURCE: https://www.888casino.com/promotions/
-FETCHED: 2026-10-29 23:26 UTC
+FETCHED: 2026-10-29 23:33 UTC
 STATUS: 200 text/html final=https://www.888casino.com/promotions/
 
 Online Casino Bonus & Promotions | 888 Casino
@@ -13,20 +13,12 @@ Online Casino Bonus & Promotions | 888 Casino
 Welcome Offers
  <
  >
-NEW 888 CASINO PLAYERS. WE HAVE A SPECIAL REGISTRATION WELCOME OFFER FOR YOU
-[/promotions/50fs/#tc] 
+FIRST – TIME DEPOSITOR? YOU DON’T WANT TO MISS THIS FANTASTIC OFFER
+[/promotions/new-welcome-offer/#tc] 
  T&Cs Apply
-Sign Up with 888 and you'll get 50 NO DEPOSIT FREE SPINS. NO DEPOSIT Requirements, NO hidden agenda. Get started.
-[/promotions/50fs/] LEARN MORE
-JOIN HERE
-New registration only. Valid 8.6, 2026 - 31.12.28. Claim by email or OMG within 48h & get 50 Free Spins (FS). Valid for 7 days from credit. Selected Games only. Winnings must be wagered 5x within 90 days from FS credit. [/promotions/50fs/#tc] Full T&Cs apply
-NEW PLAYER WELCOME OFFER: GET UP TO $2,000 and 200 FREE SPINS
-[/promotions/start2000/#tc] 
- T&Cs Apply
-Get 100% bonus up to $2000 + 200 free spins on your first deposit with 888casino.
-[/promotions/start2000/] LEARN MORE
-DEPOSIT NOW
-First-time depositors only. Valid from 08/06/2026 to 31/12/2028. Minimum deposit of $20 required. Receive a 100% bonus up to $2,000 plus 200 Free Spins on your first deposit. Bonus must be claimed within 48 hours. Bonus funds and winnings are subject to a 10x wagering requirement and must be wagered within 90 days of receiving the bonus. Free Spins are credited once the first deposit has been wagered 1x. Free Spins expire 7 days after being credited. Winnings from Free Spins are not subject to wagering requirements. Selected games only. [/promotions/start2000/#tc] Full T&Cs apply
+Get 100% up to $500 + 100 free spins on your first deposit with 888casino!
+[/promotions/new-welcome-offer/] LEARN MORE
+REGISTER NOW
 Top Promos
  <
  >
@@ -68,9 +60,6 @@ Daily Tournaments: Only first 5000 bets are Daily Tournaments Daily Tournaments 
 King Millions Jackpot Collection
 Explore the King Millions collection and discover a selection of featured jackpot games.
 [/promotions/king-millions/] LEARN MORE
-888 Casino Exclusive Jackpots
-Discover 888 Jackpots and enjoy a new way to play your favourite games.
-[/promotions/888-collection/] LEARN MORE
  Top Games Carousel
  FEELIN' LUCKY? 
 Click on the 'Roll It!' Button to activate Our Top Games Carousel!

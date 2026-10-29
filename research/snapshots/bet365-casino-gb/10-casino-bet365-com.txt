@@ -1,5 +1,10 @@
 SOURCE: https://casino.bet365.com/
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:31 UTC
+STATUS: 403 browser final=https://casino.bet365.com/
 
-
+casino.bet365.com
+Performing security verification
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+Ray ID: a525f9419df42c18
+Performance and Security by Cloudflare
+Privacy

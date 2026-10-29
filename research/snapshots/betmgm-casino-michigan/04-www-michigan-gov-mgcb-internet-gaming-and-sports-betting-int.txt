@@ -1,5 +1,32 @@
 SOURCE: https://www.michigan.gov/mgcb/internet-gaming-and-sports-betting/internet-gaming
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:35 UTC
+STATUS: 404 browser final=https://www.michigan.gov/mgcb/404
 
-
+Skip to main content
+Michigan Gaming Control Board
+Detroit Casinos
+Internet Gaming and Fantasy Contests
+Millionaire Party
+Tribal Casinos
+Horse Racing
+About MGCB
+Language Access
+Responsible Gaming
+News
+404
+The page you are searching for could not be found. 
+It may have been moved, had its name changed, or be temporarily unavailable. 
+Follow us
+MGCB Home
+MGCB FOIA
+MGCB Contact Page
+Get personalized voter information on early voting and other topics.
+Michigan.gov/Vote
+Copyright 2026 State of Michigan
+Mi.gov Home
+Policies
+Accessibility
+Disability Resources
+Language Services
+FOIA Directory
+Departments

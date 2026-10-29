@@ -1,5 +1,5 @@
 SOURCE: https://www.gamblingcommission.gov.uk/news/article/gbp9-4m-fine-for-online-operator-888
-FETCHED: 2026-10-29 23:25 UTC
+FETCHED: 2026-10-29 23:33 UTC
 STATUS: 200 text/html final=https://www.gamblingcommission.gov.uk/news/article/gbp9-4m-fine-for-online-operator-888
 
 £9.4m fine for online operator 888

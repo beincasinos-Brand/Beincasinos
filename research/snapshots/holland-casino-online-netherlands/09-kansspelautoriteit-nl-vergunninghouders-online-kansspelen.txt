@@ -1,5 +1,44 @@
 SOURCE: https://kansspelautoriteit.nl/vergunninghouders-online-kansspelen
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR HTTP Error 404: Not Found
+FETCHED: 2026-10-29 23:36 UTC
+STATUS: 404 browser final=https://kansspelautoriteit.nl/vergunninghouders-online-kansspelen
 
-
+Overslaan en naar de inhoud gaan
+Additioneel menu
+English
+Over ons
+Koa-portaal
+Menu
+Voor zakelijke aanbieders
+Zelf kansspel organiseren
+Aanpak misstanden
+Voor spelers
+Zoeken...
+Open
+Zoeken
+Kruimelpad
+Home
+Pagina niet gevonden
+Pagina niet gevonden
+Pagina niet gevonden
+De door u opgevraagde pagina kan niet worden gevonden.
+Algemene informatie
+Kansspelautoriteit
+Veilig Spelen
+Snel naar
+Over ons
+Contact
+Voor gemeenten
+Social
+LinkedIn
+Kansspelautoriteit
+Instagram
+Kansspelautoriteit
+Facebook
+Kansspelautoriteit
+Contact met ons opnemen?
+Maak gebruik van ons contactformulier of bel de informatielijn op werkdagen tussen 9.00 - 13.00 uur via 070 302 13 00, keuze 1.
+Footer-menu
+Toegankelijkheid
+Privacy
+Cookies
+Disclaimer

@@ -1,5 +1,5 @@
 SOURCE: https://fairplaycasino.nl/algemene-voorwaarden
-FETCHED: 2026-10-29 23:27 UTC
+FETCHED: 2026-10-29 23:37 UTC
 STATUS: 200 text/html final=https://fairplaycasino.nl/algemene-voorwaarden
 
 Fair Play Online Casino - Algemene Voorwaarden
@@ -179,7 +179,7 @@ Een Speler kan deze grenzen steeds wijzigen, waarbij een verlaging van een of me
 · Via de chat van de klantenservice op de website.
 10.3. De klantenservice is bereikbaar in het Nederlands en Engels.
 10.4. De klantenservice voert de klachtenprocedure uit. Hierop is de FPO klachtenregeling van toepassing. Betrokkenen kunnen een klacht indienen bij FPO door:
-· een e-mail te sturen naar de klantenservice ([/cdn-cgi/l/email-protection#dcb7b0bdb2a8b9b2afb9aeaab5bfb99cbabdb5aeacb0bda5bfbdafb5b2b3f2b2b0] [email protected]). Voor Spelers geldt dat de klacht moet worden ingediend vanaf het e-mailadres dat aan de Spelersaccount is gekoppeld; of
+· een e-mail te sturen naar de klantenservice ([/cdn-cgi/l/email-protection#274c4b4649534249544255514e44426741464e55574b465e4446544e494809494b] [email protected]). Voor Spelers geldt dat de klacht moet worden ingediend vanaf het e-mailadres dat aan de Spelersaccount is gekoppeld; of
 · via de chat van de klantenservice op de Website.
 11. VERANTWOORD SPELEN EN UITSLUITING
 11.1. Het gebruik van de Website heeft alleen een recreatief doel. De Speler kan zich op elk moment vrijwillig laten uitsluiten van deelname aan kansspelen door zich te laten inschrijven in Cruks. Klik op deze [https://cruksregister.nl/] link voor een dergelijke uitsluiting.

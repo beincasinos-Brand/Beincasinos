@@ -1,5 +1,9 @@
 SOURCE: https://casino.betfair.com/
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:32 UTC
+STATUS: 403 browser final=https://casino.betfair.com/
 
-
+Restricted
+Our Software detects that you may be accessing the Betfair website from a country that Betfair does not accept bets from or the traffic from your network was detected as being unusual. If you believe that this detection has occurred in error, please Contact us for further assistance.
+Your IP: 172.182.209.51
+Ray ID: a525faaedb1c4ea5
+Region: US

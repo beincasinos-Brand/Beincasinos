@@ -1,5 +1,53 @@
 SOURCE: https://casino.betmgm.com/en/responsible-gaming
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:35 UTC
+STATUS: 200 browser final=https://www.nj.betmgm.com/en/engage/lan/geolocator?orh=casino.betmgm.com
 
-
+Where are you playing from?
+Select from available locations
+Sports
+Casino
+Poker
+Racing
+Alberta
+Arizona
+Colorado
+District of Columbia
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maryland
+Massachusetts
+Michigan
+Mississippi
+Missouri
+Nevada
+New Jersey
+New York
+North Carolina
+Ohio
+Ontario
+Pennsylvania
+Puerto Rico
+Tennessee
+Virginia
+West Virginia
+Wyoming
+We use cookies and third-party cookies. You can modify the settings and obtain further information in our Privacy Policy. You accept its use by continuing the navigation.
+BetMGM is committed to providing a website that is accessible, regardless of technology or ability. If you experience any difficulty in accessing any part of this website, please feel free to email us at accessibility@betmgm.com.
+Affiliates
+Affiliate Program
+Careers
+About Us
+Discover BetMGM
+Site Protected by reCaptcha
+Google Privacy Policy
+Google Terms of Service
+Blogs
+Sports Betting
+Casino
+MGM Resorts
+ALWAYS BET RESPONSIBLY
+IF YOU OR SOMEONE YOU KNOW HAS A GAMBLING PROBLEM, CALL 1-800-GAMBLER FOR CRISIS COUNSELING AND REFERRAL SERVICES. SELECT YOUR STATE OF RESIDENCE TO VIEW ADDITIONAL STATE-SPECIFIC TERMS AND RESOURCES.

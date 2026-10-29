@@ -1,5 +1,5 @@
 SOURCE: https://www.betmgm.com/en/legal/terms-and-conditions
-FETCHED: 2026-10-29 23:26 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:36 UTC
+STATUS: ERROR HTTP Error 403: Forbidden | browser: Page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.betmgm.com/en/legal/terms-
 
 

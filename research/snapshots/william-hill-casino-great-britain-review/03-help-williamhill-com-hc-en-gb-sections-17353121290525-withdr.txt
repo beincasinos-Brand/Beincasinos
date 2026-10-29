@@ -1,5 +1,39 @@
 SOURCE: https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:32 UTC
+STATUS: 200 browser final=https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals
 
-
+Skip to main content
+Search or enter question
+How can we help?
+William Hill Support
+ Payments
+ Withdrawals
+My Account
+Payments
+Deposits
+Withdrawals
+Payment Methods
+Sports Betting Rules
+Gaming
+Promotions
+Betting Shops
+Legal
+Safer Gambling
+William Hill Republic of Ireland
+Withdrawals
+How are my withdrawals processed?
+How can I track a card withdrawal with my bank (ARN)?
+Visa Direct (faster withdrawals)
+How can I reverse a withdrawal?
+I want to withdraw my winnings. Why have I been asked for documents?
+Expired Payment Methods
+Why can't I always choose how I withdraw my funds?
+How can I withdraw by Bank Transfer?
+Back to top 
+For customers in Great Britain, Northern Ireland, Jersey, and Gibraltar, this website is operated by WHG (International) Limited, a company registered in Gibraltar at Suite 601/701 Europort, Europort Road, Gibraltar, GX11 1AA, with registered company number 99191.
+For customers in Great Britain, WHG (International) Limited is licensed and regulated in Great Britain by the Gambling Commission under account number 39225.
+For customers located in Great Britain, Jersey, Northern Ireland, and Gibraltar, WHG (International) Limited is further licensed by the Government of Gibraltar and regulated by the Gibraltar Gambling Commissioner. WHG (International) Limited is a registered I.B.A.S bookmaker. WHG (International) Limited is a wholly owned subsidiary of Evoke PLC, a company registered in Gibraltar and listed on the London Stock Exchange.
+For customers outside Great Britain, Northern Ireland, the Republic of Ireland, Jersey, and Gibraltar, this website is operated by William Hill Global PLC, a company registered in Malta (registration number C96298) with its registered office at Tagliaferro Business Centre, Level 8, High Street, Sliema SLM 1549, Malta. William Hill Global PLC holds a licence MGA/CRP/121/2006-05 issued by the Malta Gaming Authority on 2 November 2020 and valid until 19 March 2028.
+For customers in the Republic of Ireland, this website is operated by WH Ireland Limited, a company registered in Gibraltar with its registered office at Suite 601/701 Europort, Europort Road, Gibraltar, GX11 1AA. WH Ireland Limited holds a Remote Betting Licence GRAI-1096-RB-26-0001 issued by the Gambling Regulatory Authority of Ireland for the provision of its Sportsbook services. Its Casino and Poker services are operated under Remote Gaming Licence number 112, issued by the Gibraltar Licensing Authority and regulated by the Gibraltar Gambling Commissioner.
+Underage gambling is prohibited. Gambling can be harmful if not controlled. William Hill is committed to helping customers gamble safely. For information about the tools and support available to help you stay in control, including Parental Controls, please visit our Safer Gambling page.
+English (United Kingdom)

@@ -1,5 +1,8 @@
 SOURCE: https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist
-FETCHED: 2026-10-29 23:27 UTC
-STATUS: ERROR HTTP Error 404: Not Found
+FETCHED: 2026-10-29 23:38 UTC
+STATUS: 404 browser final=https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist
 
-
+404
+Diese Seite existiert nicht unter dieser Adresse.
+Bitte rufen Sie den gesuchten Inhalt über das Hauptmenü auf der Startseite auf.
+ZURÜCK ZUR STARTSEITE

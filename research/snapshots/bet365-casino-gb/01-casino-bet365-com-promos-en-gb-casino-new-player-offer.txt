@@ -1,5 +1,67 @@
 SOURCE: https://casino.bet365.com/promos/en-gb/casino/new-player-offer
-FETCHED: 2026-10-29 23:25 UTC
-STATUS: ERROR HTTP Error 403: Forbidden
+FETCHED: 2026-10-29 23:31 UTC
+STATUS: 200 browser final=https://casino.bet365.com/promos/en-gb/casino/new-player-offer
 
-
+SKIP TO CONTENT
+Join
+Log In
+NEW PLAYER OFFER
+Receive up to 500 Free Spins
+Join
+Min. £10 lifetime deposits. Claim within 30 days. Max. 10 selections in 20 days, min. 24 hours apart. Max. prize, game restrictions, time limits & T&Cs apply.
+HOW IT WORKS
+Sign up and deposit a minimum of £10.
+Select one of the three options below on 10 separate days out of the next 20.
+Reveal 5, 10, 20 or 50 Free Spins each time.
+Significant Terms and Conditions
+This offer is available to new and fully verified customers only. To qualify, you must have a minimum of £10 in lifetime deposits. You must claim the offer within 30 days of registering your bet365 account.
+To claim the offer, you must login and select one of the three options at the top of the offer page. Your first prize will then be revealed; either 5, 10, 20 or 50 Free Spins. You will be eligible for up to 10 Free Spins reveals in total within 20 days of your first claim, but must wait at least 24 hours between each. You can win up to a maximum of 500 Free Spins.
+Eligible games are displayed in the game slider above, and are subject to regular updates.
+Free Spins will be automatically credited to your account. You will have seven days to use them. Any Free Spins daily reward unused by this date will be removed.
+There is no wagering requirement attached to the winnings from your Free Spins and these will be added to your withdrawable balance.
+Deposits made via paysafecard are not eligible for this offer.
+Full Offer Terms and Conditions
+Qualifying
+This offer closes to new customers at 23:59 GMT on 25/11/2026 and can only be claimed by customers who register prior to this time. You must claim the offer within 30 days of registering your bet365 account.
+To qualify, you must have a minimum of £10 in lifetime deposits in your bet365 account.
+These New Player Offer Terms and Conditions apply to customers who claim the offer after 00:00 GMT on 26/08/2026. If you claimed the offer before this date and require a copy of the terms and conditions which apply to you then please contact us.
+This offer is available to new and fully verified customers only. You can see a full list of your available offers by logging in and selecting the Offers section. bet365 maintains a record of customer contact in relation to eligibility for offers and this record, including the date and time of any restrictions being imposed, will be final in the event of any dispute.
+Deposits made via paysafecard are not eligible for this offer.
+Free Spins
+To claim the offer, you must login and select one of the three options at the top of the offer page. Your first prize will then be revealed; either 5, 10, 20 or 50 Free Spins. You will be eligible for up to 10 Free Spins reveals in total within 20 days of your first claim, but must wait at least 24 hours between each. You can win up to a maximum of 500 Free Spins.
+Eligible games are displayed in the game slider above, and are subject to regular updates.
+Free Spins will be automatically credited to your account. You will have seven days to use them. Any Free Spins daily reward unused by this date will be removed.
+There is no wagering requirement attached to the winnings from your Free Spins and these will be added to your withdrawable balance.
+In the event that your prize is not credited automatically, it may take up to 72 hours for you to receive your Free Spins.
+General Information
+These terms and conditions are to be read in conjunction with our General Terms and Conditions.
+The stake associated with Free Spins will be £0.10 per spin.
+Not all games are guaranteed to be available and selected eligible games might only be visible to customers who are logged in and verified.
+All customer offers are limited to one per person. If bet365 has reasonable grounds to suspect that the bonus or offer is being claimed by or for the benefit of the same person more than once or by a group of people then it may withdraw the availability of any offer or all offers to that customer or group of customers and/or void any wager funded by the bonus and remove any winnings from such wager.
+In an attempt to combat fraudulent activity, bet365 has introduced methods to detect and prevent abuse of this offer. bet365 may ask any customer to provide sufficient documentation and/or verification steps for it, acting reasonably, to be satisfied as to the customer's identity prior to crediting any offer, bonus funds and/or winnings to their account.
+Where any term of the offer is breached or there is evidence of a series of wagers placed by a customer or group of customers, which due to a deposit bonus, enhanced payments or any other promotional offer results in guaranteed customer profits irrespective of the outcome, whether individually or as part of a group, bet365 may reclaim the bonus or enhanced payment element of such offer, void any wager funded through the offer and/or remove any winnings from such wager. In addition, where there is evidence of such activity, bet365 may levy an administration charge on the customer up to the value of the bonus or enhanced payment towards the administrative costs incurred in identifying and taking action against that activity.
+bet365 may reclaim any Free Spins that have been awarded in error.
+bet365 may, at any time, make minor amendments to this promotion to correct typos or to improve on clarity or customer experience and may cancel or restrict this promotion for legal, regulatory or technical reasons.
+Employees, officers and directors of bet365, its promotional or other agencies, licensees and licensors, service providers and any other associated or affiliated companies shall not be eligible for the promotion. The same terms shall apply to the direct families of such persons.
+bet365 uses cookies
+We use cookies to deliver a better and more personalised service. For more information, see our Cookie Policy
+Manage Cookies
+Reject
+Accept
+Help
+Bank
+Safer Gambling
+Terms & Conditions
+Privacy Policy
+Cookies Policy
+Fair Payouts
+Complaints Procedure
+Games List
+bet365 Currency Multiplier
+Server Time Label 29 October 2026, 23:31:07 Timezone
+Cookie Policy
+By accessing, continuing to use or navigating throughout this site you accept that we will use certain browser cookies to improve your customer experience with us. bet365 only uses cookies which will improve your experience with us and will not interfere with your privacy. Please refer to our Cookies Policy for further information on our use of cookies and how you can disable or manage their use should you wish.
+Registered Office: Hillside (UK Gaming) ENC (registration number P1888) and Hillside (UK Sports) ENC (registration number P1892), Office 1/2373, Level G, Quantum House, 75 Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta.
+Hillside (UK Gaming) ENC is licensed and regulated by the British Gambling Commission (Account Number 55149).
+Hillside (UK Sports) ENC is licensed and regulated by the British Gambling Commission (Account Number 55148).
+© 2001–2026 bet365. All rights reserved - Global
