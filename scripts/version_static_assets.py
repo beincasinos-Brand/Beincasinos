@@ -5,12 +5,9 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP = {"google05b7a00eb84d7acb.html"}
-VERSION = "20261026-ready2"
+VERSION = "20261029-bx1"
 ASSETS = [
     ("href", "/styles.css"),
-    ("href", "/homepage-luxury.css"),
-    ("href", "/assets/reviews-directory.css"),
-    ("href", "/assets/how-we-review.css"),
     ("src", "/script.js"),
 ]
 

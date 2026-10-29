@@ -51,8 +51,6 @@
       "entity": "Hillside (UK Gaming) ENC",
       "licence_line": "UKGC account 55149 · bet365.com listed as active domain",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Up to 500 free spins (new players)",
@@ -99,7 +97,39 @@
           "text": "UKGC regulatory settlement: GBP 343,035 paid in lieu of a financial penalty by Hillside (UK Gaming) ENC after historic anti-money-laundering and social-responsibility failures.",
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/settlements/55149"
         }
-      ]
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "pass",
+          "note": "UKGC domain register lists bet365.com as active under account 55149.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/55149"
+        },
+        "operator": {
+          "status": "pass",
+          "note": "General terms name Hillside (UK Gaming) ENC for casino, live casino and poker.",
+          "url": "https://help.bet365.com/s/en-gb/terms-and-conditions"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "UKGC register entry for account 55149.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/55149"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Great Britain remote casino licence on the UKGC register; this review covers Great Britain only.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/55149"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "pass",
+          "note": "Terms (effective 1 Oct 2026) and withdrawal-method pages opened and read.",
+          "url": "https://help.bet365.com/s/en-gb/payments/withdrawal-methods"
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg"
     },
     "betfair-casino-great-britain-review": {
       "brand": "Betfair Casino",
@@ -108,8 +138,6 @@
       "entity": "Betfair Casino Limited",
       "licence_line": "UKGC account 39435 · remote casino licence active",
       "checked": "2026-10-26",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "50 free spins at 10p, then 50 more after a qualifying GBP 10 spend",
@@ -159,7 +187,38 @@
       ],
       "notes": [
         "Verify the exact casino domain against the UKGC register before relying on this profile: only www.betfair.com appeared under account 39435 in the page checked."
-      ]
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Only www.betfair.com appeared under account 39435 in the register page checked; the casino subdomain was not listed.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39435"
+        },
+        "operator": {
+          "status": "pass",
+          "note": "Site footer and general terms name Betfair Casino Limited.",
+          "url": "https://support.betfair.com/app/answers/detail/betfair-general-terms-and-conditions"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "UKGC register: Betfair Casino Limited, account 39435, casino (remote).",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39435"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Remote casino licence active since 2014 on the register.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39435"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "General terms and withdrawal timing read; the Standard Promotional Terms could not be opened.",
+          "url": "https://support.betfair.com/app/answers/detail/10336-how-long-will-my-withdrawal-take"
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "william-hill-casino-great-britain-review": {
       "brand": "William Hill Casino",
@@ -168,8 +227,6 @@
       "entity": "WHG (International) Limited",
       "licence_line": "UKGC account 39225 · remote casino licence active",
       "checked": "2026-10-26",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Current offer not verified",
@@ -221,7 +278,38 @@
           "text": "UKGC financial penalty of GBP 82,687 on WHG (International) Ltd for a customer-identification condition breach; self-reported.",
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39225"
         }
-      ]
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "The register page shows one domain but its name was not retrievable.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+        },
+        "operator": {
+          "status": "pass",
+          "note": "Terms (version 2026/1.4) name WHG (International) Limited and UKGC account 39225.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "UKGC licence 039225-R-319373-015 includes casino (remote).",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Remote casino activity active since 1 Nov 2014.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "General terms read; offer terms and withdrawal limits/times were not visible.",
+          "url": "https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals"
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "888casino-great-britain-review": {
       "brand": "888casino",
@@ -230,8 +318,6 @@
       "entity": "888 UK Limited",
       "licence_line": "UKGC account 39028 · remote casino licence active · 888casino.com listed active",
       "checked": "2026-10-26",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Current offer not verified",
@@ -293,7 +379,39 @@
           "text": "GBP 86,843 penalty for a self-exclusion breach attributed to human error; self-reported.",
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/actions/39028"
         }
-      ]
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "pass",
+          "note": "UKGC domain register lists 888casino.com as active under account 39028.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39028"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Register names 888 UK Limited; the operator's own terms could not be opened.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39028"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "UKGC licence 039028-R-319297-014, remote casino active since 2014.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39028"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Remote casino licence active; this review covers Great Britain only.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39028"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "888casino.com pages could not be opened from the research environment.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png"
     },
     "7melons-casino-switzerland": {
       "brand": "7melons",
@@ -302,8 +420,6 @@
       "entity": "Casino Bern",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-26",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -344,58 +460,164 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "888slots-casino-germany": {
       "brand": "888slots",
       "market": "DE",
       "market_label": "Germany",
       "entity": "888 / Virtual slot games listing on the GGL whitelist",
-      "licence_line": "Regulator evidence: see this review",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "GGL whitelist (snapshot 12 Apr 2024): 888 Germany Limited (Malta), virtual slots permission, first permission date 24.01.2023",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "licence": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "pass",
+          "note": "Domain 888slots.de appears in the GGL whitelist PDF (Tabelle 8, virtual slots; entry domains: 888.de, 888slots.de, mrgreen.de (virtual slots); 888.de, 888poker.de (online poker)). Snapshot is dated 12 April 2024, not current for 2026-10.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Whitelist snapshot names 888 Germany Limited (Malta), but operator's own terms could not be opened to confirm the entity.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Only the stale April 2024 whitelist snapshot was reachable; no current (2026) register entry or permission document could be opened.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Permission scope (virtual slots / online poker) can only be inferred from an outdated list; current permission not confirmed.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Operator site https://www.888slots.de and terms/help URLs could not be fetched.",
+          "url": "https://www.888slots.de"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "GGL whitelist (snapshot 12 Apr 2024): 888 Germany Limited (Malta), virtual slots permission, first permission date 24.01.2023",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "",
+          "hours": "",
+          "url": ""
+        },
+        "complaints_route": {
+          "summary": "",
+          "url": ""
+        },
+        "safer_tools": [],
+        "launched": ""
+      },
+      "pros": [],
+      "cons": [],
+      "unreachable": [
+        "https://www.888slots.de",
+        "https://www.888slots.de/de/terms-and-conditions",
+        "https://www.gluecksspiel-behoerde.de",
+        "https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist"
+      ],
+      "notes": [
+        "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
+      ],
+      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png"
     },
     "admiral-casino-switzerland": {
       "brand": "Admiral",
@@ -404,8 +626,6 @@
       "entity": "Casino Mendrisio",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -446,109 +666,358 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "bet365-casino-netherlands-review": {
       "brand": "bet365",
       "market": "NL",
       "market_label": "Netherlands",
       "entity": "Hillside (New Media Malta) Plc",
-      "licence_line": "Dutch-licensed online gambling within the permit scope; exact product and domain should be matched against…",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "KSA permit 3598/01.410.563, Hillside (New Media Malta) PLC (Malta C66039), 1 Oct 2026 to 30 Sep 2031",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "General terms and any bonus terms could not be opened; not rated.",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Only a withdrawal-issues article read: full verification needed, refund to deposit method else bank transfer. No timing, limits or fees seen; not rated.",
           "url": ""
         },
         "safer": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 4,
+          "note": "Deposit and session limits, activity alerts, time-out, self-exclusion, Cruks explained, net monthly limits EUR300 (18-23) / EUR700 (24+), minors section, helpline links. Limits-increase process documented.",
+          "url": "https://verantwoordgokken.bet365.nl/nl/overview"
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Complaints procedure page could not be opened; ADR route unknown.",
           "url": ""
         },
         "licence": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Entity and permit confirmed on KSA site with references; enforcement history published with follow-up (EUR400k ad fine Nov 2025; binding instruction on affordability, objection decided 4 Aug 2026). Domain not confirmed.",
+          "url": "https://kansspelautoriteit.nl/bindende-aanwijzing-voor-hillside-om-zorgplicht-te-versterken"
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed.",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [
+        {
+          "date": "2025-11-03",
+          "text": "KSA fined Hillside EUR400,000 for advertising aimed at young adults; court appeal outcome 16 Sep 2025 and further appeal to Raad van State pending per KSA page.",
+          "url": "https://kansspelautoriteit.nl/hillside-new-media-malta-plc"
+        },
+        {
+          "date": "2025-11-13",
+          "text": "KSA binding instruction: inadequate affordability checks and wrong net-deposit-limit calculation. Objection decided 4 Aug 2026 (decision published 20 Aug 2026); appeal route to the district court open.",
+          "url": "https://kansspelautoriteit.nl/hillside"
+        }
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "bet365.nl and help.bet365.nl exist and carry a KSA badge, but KSA permit page lists no domains; it says holders must report brand/domain/app names and that report is published, but the published list was not found.",
+          "url": "https://help.bet365.nl/s/nl-nl/about-us"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Help centre 'about us' names no legal entity (only 'bet365'); general terms page could not be opened, so entity not confirmed from operator terms.",
+          "url": "https://help.bet365.nl/s/nl-nl/about-us"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "KSA permit for Hillside (New Media Malta) PLC (Malta C66039), ref 3598/01.410.563, decision 8 Sep 2026, valid 1 Oct 2026 to 30 Sep 2031.",
+          "url": "https://kansspelautoriteit.nl/hillside-plc"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Permit covers remote casino (vs holder and peer), sports betting and horse racing betting.",
+          "url": "https://kansspelautoriteit.nl/hillside-plc"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "General terms and complaints pages returned client errors; only help articles (withdrawal issues, account limits, gaming rules) were readable.",
+          "url": "https://help.bet365.nl/s/nl-nl/terms-and-conditions"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "KSA permit 3598/01.410.563, Hillside (New Media Malta) PLC (Malta C66039), 1 Oct 2026 to 30 Sep 2031",
+          "url": "https://kansspelautoriteit.nl/hillside-plc"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": "https://help.bet365.nl/s/nl-nl/payments/withdrawal-issues"
+        },
+        "kyc": {
+          "summary": "Help page says account must be fully verified before withdrawing; payment details must be registered under My Account. Income documents (payslip, bank statement) requested to raise net deposit limit.",
+          "url": "https://help.bet365.nl/s/nl-nl/payments/withdrawal-issues"
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "Help centre, live chat (per help pages)",
+          "hours": "",
+          "url": "https://help.bet365.nl/nl/contact"
+        },
+        "complaints_route": {
+          "summary": "A Klachtenprocedure page exists (help.bet365.nl) but could not be opened; ADR route unverified.",
+          "url": "https://help.bet365.nl/s/nl-nl/complaints-procedure"
+        },
+        "safer_tools": [
+          "Deposit limits",
+          "Session limits and activity alerts",
+          "Time-out",
+          "Self-exclusion",
+          "Cruks (explained)",
+          "Net monthly deposit limit EUR300 / EUR700",
+          "Self-assessment",
+          "AGOG, Loket Kansspel, Gambling Therapy links"
+        ],
+        "launched": ""
+      },
+      "pros": [
+        "Detailed limit tools with published age-based net deposit thresholds (EUR300 / EUR700)",
+        "Dedicated responsible-gambling site explaining Cruks, time-out and support bodies",
+        "Permit for casino and sports renewed to 2031"
+      ],
+      "cons": [
+        "Regulator found affordability-check failings (binding instruction, 2025)",
+        "EUR400k fine for advertising to young adults (2025)",
+        "General terms, bonus terms and complaints route could not be verified"
+      ],
+      "unreachable": [
+        "https://www.bet365.nl",
+        "https://help.bet365.nl/s/nl-nl/terms-and-conditions",
+        "https://help.bet365.nl/s/en-nl/terms-and-conditions",
+        "https://help.bet365.nl/s/nl-nl/complaints-procedure",
+        "https://help.bet365.nl/s/en-nl/complaints-procedure",
+        "https://help.bet365.nl/s/nl-nl/my-account/deposit-limits",
+        "https://help.bet365.nl/s/nl-nl/my-account/how-do-i-verify-my-account",
+        "https://help.bet365.nl/s/nl-nl/ecogra",
+        "https://kansspelautoriteit.nl/@11382/hillside-new-media-malta-plc/ (robots_disallowed)"
+      ],
+      "notes": [
+        "Existing page's casino framing is fine, but KSA permit also covers sports and horse racing. No offer verified; Dutch rules restrict welcome bonuses (age 24+ in other operators' terms) so avoid inventing one. Retry T&Cs and complaints pages via search snippets or manual access. KSA 20 Aug 2026 page dates the objection decision 4 Aug 2026; the 13 Nov 2025 instruction was objected to."
+      ],
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg"
     },
     "betcity-netherlands-review": {
       "brand": "BetCity",
       "market": "NL",
       "market_label": "Netherlands",
       "entity": "Betent B.V.",
-      "licence_line": "Dutch-licensed online gambling within the permit scope",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "KSA permit 3629/01.410.592, Betent B.V. (KvK 82283141), 1 Oct 2026 to 30 Sep 2031",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
-        "url": ""
+        "seen": "2026-10-27",
+        "url": "https://help.betcity.nl/hc/nl/articles/20763069894161-Welkomstbonus-Nieuwe-speler"
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Bonus and general terms could not be opened; not rated.",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Deposits/withdrawals help section failed to load; not rated.",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Only help-centre article titles seen (limits, Cruks, account closure); content not read. Not rated.",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Klachtenregeling not opened; ADR route unknown.",
           "url": ""
         },
         "licence": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Entity, permit and references confirmed on KSA site, trade name stated by operator. Three published fines (2023 x2, 2025) with follow-up noted; domain not confirmed in KSA record.",
+          "url": "https://kansspelautoriteit.nl/boete-voor-betent-voor-schending-zorgplicht"
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed.",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [
+        {
+          "date": "2025-10-28",
+          "text": "KSA fined Betent EUR2.65m for breaching duty of care to young adults 18-23; all 10 reviewed large-loss files showed violations.",
+          "url": "https://kansspelautoriteit.nl/boete-voor-betent-voor-schending-zorgplicht"
+        },
+        {
+          "date": "2023-11-30",
+          "text": "KSA fined Betent EUR3m for Wwft (anti-money-laundering) failings after a Sept 2022 directive was not followed.",
+          "url": "https://kansspelautoriteit.nl/wwft-boete-van-3-miljoen-euro-opgelegd-aan-betent"
+        },
+        {
+          "date": "2023-04-19",
+          "text": "KSA fined Betent EUR400,000 for advertising messages to 18-24 year olds, Oct 2021 to Mar 2022.",
+          "url": "https://kansspelautoriteit.nl/boete-betent-voor-reclame-gericht-op-jongvolwassenen"
+        }
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "betcity.nl is named as Betent's trade name on the operator's info page, but KSA permit page lists no domains; it says holders must report brand/domain/app names and that report is published, but the published list was not found.",
+          "url": "https://club.betcity.nl/info"
+        },
+        "operator": {
+          "status": "pass",
+          "note": "Operator info page: Betent B.V., Amsterdam; BetCity.nl is its trade name. Matches KSA record (KvK 82283141).",
+          "url": "https://club.betcity.nl/info"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "KSA permit ref 3629/01.410.592 dated 10 Sep 2026, valid 1 Oct 2026 to 30 Sep 2031. Operator page cites original licence 1712/01.247.822 of 29 Sep 2021.",
+          "url": "https://kansspelautoriteit.nl/betent-b-v"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Permit covers remote casino vs holder and sports/in-match bets.",
+          "url": "https://kansspelautoriteit.nl/betent-b-v"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "General terms, bonus terms and complaints pages not on allowlist or client error; only help-centre indexes read.",
+          "url": "https://www.betcity.nl/bonus-voorwaarden"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "KSA permit 3629/01.410.592, Betent B.V. (KvK 82283141), 1 Oct 2026 to 30 Sep 2031",
+          "url": "https://kansspelautoriteit.nl/betent-b-v"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": "https://help.betcity.nl/hc/nl/articles/20763069894161-Welkomstbonus-Nieuwe-speler"
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "Email klantenservice@betcity.nl, live chat, phone",
+          "hours": "Operator page says available 24 hours a day",
+          "url": "https://club.betcity.nl/probleem-in-het-live-casino"
+        },
+        "complaints_route": {
+          "summary": "A Klachtenregeling page exists (betcity.nl/klacht) but could not be opened; help pages name no ADR body.",
+          "url": "https://help.betcity.nl/hc/nl/sections/4408297823761-Klachten-en-opmerkingen"
+        },
+        "safer_tools": [
+          "Self-set limits incl. deposit limit (titles only)",
+          "Account closure / temporary closure (title only)",
+          "Cruks registration article (title only)"
+        ],
+        "launched": "KSA licence granted 2021-09-29 (per operator info page)"
+      },
+      "pros": [
+        "Permit renewed to 2031 for casino and sports",
+        "Customer service stated as reachable 24h",
+        "Help centre has dedicated limits and Cruks articles"
+      ],
+      "cons": [
+        "Three KSA fines since 2023 incl. EUR2.65m duty-of-care fine (2025)",
+        "Terms and complaints route unverified",
+        "No offer or payment terms verified"
+      ],
+      "unreachable": [
+        "https://www.betcity.nl",
+        "https://www.betcity.nl/klacht",
+        "https://www.betcity.nl/complaint",
+        "https://www.betcity.nl/bonus-voorwaarden",
+        "https://www.betcity.nl/promoties",
+        "https://www.betcity.nl/algemene-voorwaarden",
+        "https://www.betcity.nl/speel-slimmer",
+        "https://help.betcity.nl/hc/nl/articles/4408297926545-Waar-kan-ik-een-klacht-indienen",
+        "https://help.betcity.nl/hc/nl/sections/4407674161809-Stortingen-en-opnames",
+        "https://help.betcity.nl/hc/nl/sections/28991515704849-Limieten",
+        "https://kansspelautoriteit.nl/@11392/betent (not fetched)"
+      ],
+      "notes": [
+        "KSA lists two further Betent pages (betent, betent-b-v-0/-1) not opened; further enforcement may exist. Welcome offer article only points to the promotions page. Retry betcity.nl terms manually."
+      ],
+      "logo_url": "https://club.betcity.nl/assets/img/icons/bc-logo-black.svg"
     },
     "betmgm-casino-michigan": {
       "brand": "BetMGM",
@@ -557,8 +1026,6 @@
       "entity": "MGCB's legal-gaming page lists BetMGM among legal internet-gaming websites.",
       "licence_line": "Michigan Gaming Control Board (MGCB)",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -599,58 +1066,182 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://scmedia.nj.betmgm.com/$-$/5ff5107775984e9fbad8eec0b9efb25e.png"
     },
     "bingoal-netherlands-review": {
       "brand": "Bingoal",
       "market": "NL",
       "market_label": "Netherlands",
       "entity": "Bingoal Nederland B.V.",
-      "licence_line": "Dutch-licensed online gambling within the permit scope",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "KSA permit 3646/01.405.047, Bingoal Nederland B.V. (enterprise no. 0444.356.703), 1 Oct 2026 to 30 Sep 2031",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Terms and bonus pages unreadable; not rated.",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed; no payment pages reachable.",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Responsible-gaming page blocked to fetch; not rated.",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "No complaints page reached; ADR route unknown.",
           "url": ""
         },
         "licence": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Entity, Belgian enterprise no. and permit confirmed on KSA site. Published 2023 EUR350k fine for admitting players without Cruks check (certificate expired) with cause explained; domain unconfirmed.",
+          "url": "https://kansspelautoriteit.nl/boete-bingoal-voor-spelers-toelaten-zonder-controle-cruks"
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed.",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [
+        {
+          "date": "2023-02-08",
+          "text": "KSA fined Bingoal EUR350,000 because players got into high-risk games without a Cruks check for about three days in June 2022 (expired certificate). Sanction decision dated 8 Nov 2022.",
+          "url": "https://kansspelautoriteit.nl/boete-bingoal-voor-spelers-toelaten-zonder-controle-cruks"
+        }
+      ],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Privacy policy names www.bingoal.nl, but KSA permit page lists no domains; it says holders must report brand/domain/app names and that report is published, but the published list was not found.",
+          "url": "https://resources.bingoal.nl/files/privacy_4_1.pdf"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Entity Bingoal Nederland BV (enterprise no. 0444.356.703, Brussels) confirmed in operator's privacy policy and matches KSA, but terms themselves not opened.",
+          "url": "https://resources.bingoal.nl/files/privacy_4_1.pdf"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "KSA permit 3646/01.405.047, decision 30 Jul 2026, valid 1 Oct 2026 to 30 Sep 2031.",
+          "url": "https://kansspelautoriteit.nl/bingoal-nederland-b-v"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Permit covers casino vs holder and peer games, sports bets and approved horse/harness racing bets.",
+          "url": "https://kansspelautoriteit.nl/bingoal-nederland-b-v"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "bingoal.nl terms, rules and responsible-gaming pages are robots-blocked or client errors.",
+          "url": "https://www.bingoal.nl/rules"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "KSA permit 3646/01.405.047, Bingoal Nederland B.V. (enterprise no. 0444.356.703), 1 Oct 2026 to 30 Sep 2031",
+          "url": "https://kansspelautoriteit.nl/bingoal-nederland-b-v"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "",
+          "hours": "",
+          "url": ""
+        },
+        "complaints_route": {
+          "summary": "Unverified; no official complaints page could be read.",
+          "url": ""
+        },
+        "safer_tools": [],
+        "launched": ""
+      },
+      "pros": [
+        "Permit renewed to 2031 covering casino, peer games and sports",
+        "KSA fine explained a one-off technical cause (expired certificate)",
+        "Operator identifies itself in a privacy policy with enterprise number matching KSA"
+      ],
+      "cons": [
+        "EUR350k Cruks-check fine (2023)",
+        "KSA lists a further fine for advertising to young adults (page not opened)",
+        "Terms, safer tools and complaints unverified"
+      ],
+      "unreachable": [
+        "https://www.bingoal.nl",
+        "https://www.bingoal.nl/rules (robots_disallowed)",
+        "https://www.bingoal.nl/nl/CMS/315/Verantwoord-spelen (robots_disallowed)",
+        "https://www.bingoal.nl/nl/Mijn-account/Promoties (robots_disallowed)",
+        "https://bingoal.nl/nl/Promotie?code=WELKOMSTBONUSSPORT",
+        "https://www.bingoal.nl/nl/casino/spel/6336/",
+        "https://www.bingoal.nl/nl/live-casino/spel",
+        "https://kansspelautoriteit.nl/@11390/bingoal-nederland (robots_disallowed)"
+      ],
+      "notes": [
+        "Whole bingoal.nl site largely unreachable to this tool; needs manual retrieval. KSA search also lists https://kansspelautoriteit.nl/boete-bingoal-voor-reclame-gericht-op-jongvolwassenen and bingoal-nederland-b-v-1 (not opened). Existing page says 'eight operators', matches KSA. Sanction page date 8 Feb 2023; PDF decision date 8 Nov 2022."
+      ]
     },
     "casineo-casino-switzerland": {
       "brand": "Casineo",
@@ -659,8 +1250,6 @@
       "entity": "Casino Locarno",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -701,7 +1290,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://casineo.ch/images/casineo-logo.svg"
     },
     "casino777-switzerland": {
       "brand": "Casino777.ch",
@@ -710,8 +1331,6 @@
       "entity": "Casino Davos",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -752,7 +1371,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.casino777.ch/assets/img/header/logo.svg?ver=2"
     },
     "casumo-casino-germany": {
       "brand": "Casumo",
@@ -760,101 +1411,267 @@
       "market_label": "Germany",
       "entity": "Rabbit Entertain IT Limited",
       "licence_line": "Regulator evidence: see this review",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "licence": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "casumo.de is NOT listed in the reachable GGL whitelist PDF (snapshot 12 April 2024). A newer list was not reachable, so current status is unknown.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "No entity confirmed: domain absent from the reachable 2024 whitelist and operator terms unreachable.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Only the stale April 2024 whitelist snapshot was reachable; casumo.de absent from it; no current register evidence.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Permission scope (virtual slots / online poker) can only be inferred from an outdated list; current permission not confirmed.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Operator site https://www.casumo.de and terms/help URLs could not be fetched.",
+          "url": "https://www.casumo.de"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": null,
+          "url": ""
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "",
+          "hours": "",
+          "url": ""
+        },
+        "complaints_route": {
+          "summary": "",
+          "url": ""
+        },
+        "safer_tools": [],
+        "launched": ""
+      },
+      "pros": [],
+      "cons": [],
+      "unreachable": [
+        "https://www.casumo.de",
+        "https://www.casumo.de/de/terms-and-conditions",
+        "https://www.gluecksspiel-behoerde.de",
+        "https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist",
+        "https://www.casumo.com/de/"
+      ],
+      "notes": [
+        "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
+      ]
     },
     "fairplay-casino-netherlands-review": {
       "brand": "FairPlay Casino Online",
       "market": "NL",
       "market_label": "Netherlands",
       "entity": "FPO Nederland B.V.",
-      "licence_line": "Dutch-licensed online gambling within the permit scope",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "KSA permit 3657/01.405.026, FPO Nederland B.V. (KvK 81787774), 1 Oct 2026 to 30 Sep 2031; remote casino games vs holder",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
-        "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "headline": "100% welcome bonus up to EUR250 on first deposit (offer page)",
+        "detail": "Min deposit: EUR10 (via iDEAL) · Wagering: Not stated in fetched offer or bonus terms text (a 30x figure appears only as an example) · Expiry: 30 days to use once claimed · Max cashout: Not specified",
         "verified": false,
-        "seen": "2026-10-25",
-        "url": ""
+        "seen": "2026-10-27",
+        "url": "https://fairplaycasino.nl/bonus-voorwaarden"
       },
       "criteria": {
         "terms": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Bonus terms readable: EUR5 max bet, contribution rates, 30 days to use, 24+ only. Welcome-bonus wagering multiple and max cashout not stated in fetched text; terms version looks dated.",
+          "url": "https://fairplaycasino.nl/bonus-voorwaarden"
         },
         "payments": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Only iDEAL/Wero listed, no fees, withdrawals to own-name bank account; KYC with ID showing BSN. No published min/max amounts or processing times for withdrawals.",
+          "url": "https://fairplaycasino.nl/betalingsmethoden"
         },
         "safer": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 4,
+          "note": "Mandatory deposit, time and max-balance limits; net deposit cap EUR700 (24+) or EUR300 (18-23); 1 day to 1 month time-out; Cruks explained incl. involuntary registration; helplines; age rules.",
+          "url": "https://fairplaycasino.nl/klantenservice/verantwoord-spelen"
         },
         "complaints": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Formal procedure by email, chat or phone: acknowledgement 72h, up to 8 weeks, written findings. Names neither an ADR body nor the KSA as escalation.",
+          "url": "https://fairplaycasino.nl/klantenservice/klachtenprocedure"
         },
         "licence": {
-          "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
-          "url": ""
+          "rating": 3,
+          "note": "Named entity, KSA permit and conditions read; terms cite licence no. 1605 while footer shows 3657/01.405.026. Domain not confirmed in KSA record. No FPO sanction found in searches (not exhaustive).",
+          "url": "https://kansspelautoriteit.nl/eerste-vervolgvergunningen-voor-online-kansspelen-verleend"
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "FAQ page fetched showed questions without answers; mobile experience not assessed. Not rated.",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Operator terms name fairplaycasino.nl as its service domain, but KSA permit page lists no domains; it says holders must report brand/domain/app names and that report is published, but the published list was not found.",
+          "url": "https://fairplaycasino.nl/algemene-voorwaarden"
+        },
+        "operator": {
+          "status": "pass",
+          "note": "Terms name FPO Nederland B.V. (Kerkrade); KSA permit page shows FPO Nederland B.V., trade register 81787774.",
+          "url": "https://kansspelautoriteit.nl/fpo-nederland-b-v"
+        },
+        "regulator": {
+          "status": "pass",
+          "note": "KSA continuation permit 3657/01.405.026, decision 30 Jul 2026, valid 1 Oct 2026 to 30 Sep 2031; named in 17 Sep 2026 announcement.",
+          "url": "https://kansspelautoriteit.nl/fpo-nederland-b-v"
+        },
+        "market_permission": {
+          "status": "pass",
+          "note": "Permit covers remote casino games played against the holder (no sports betting or peer games).",
+          "url": "https://kansspelautoriteit.nl/fpo-nederland-b-v"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "pass",
+          "note": "General terms, bonus terms and withdrawal rules opened and read. Fetched terms show version 1.37.1 dated 11 Jul 2024 and cite old licence no. 1605, so may be stale or a cached copy.",
+          "url": "https://fairplaycasino.nl/algemene-voorwaarden"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "KSA permit 3657/01.405.026, FPO Nederland B.V. (KvK 81787774), 1 Oct 2026 to 30 Sep 2031; remote casino games vs holder",
+          "url": "https://kansspelautoriteit.nl/fpo-nederland-b-v"
+        },
+        "welcome_offer": {
+          "headline": "100% welcome bonus up to EUR250 on first deposit (offer page)",
+          "min_deposit": "EUR10 (via iDEAL)",
+          "wagering": "Not stated in fetched offer or bonus terms text (a 30x figure appears only as an example)",
+          "expiry": "30 days to use once claimed",
+          "max_cashout": "Not specified",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": "https://fairplaycasino.nl/bonus-voorwaarden"
+        },
+        "withdrawals": {
+          "timing": "Not published in fetched pages; payment page shows 'direct' processing for iDEAL|Wero",
+          "limits": "Not published; payouts only to bank account in player's name that funded the balance; gambling tax deducted",
+          "fees": "EUR0 deposit and withdrawal (payments page)",
+          "url": "https://fairplaycasino.nl/betalingsmethoden"
+        },
+        "kyc": {
+          "summary": "Age 18+, Dutch resident with BSN; ID showing BSN verified; Cruks check; more documents may be requested; 1 cent verification transfer before first deposit.",
+          "url": "https://fairplaycasino.nl/algemene-voorwaarden"
+        },
+        "payment_methods": [
+          "iDEAL | Wero"
+        ],
+        "support": {
+          "channels": "Phone 088-8642333, email, live chat, contact form",
+          "hours": "Complaints page says 24/7; contact page gives no hours",
+          "url": "https://fairplaycasino.nl/klantenservice/contact"
+        },
+        "complaints_route": {
+          "summary": "Operator's own complaints procedure (email/chat/phone, 72h acknowledgement, max 8 weeks). No ADR body or KSA escalation named; terms give Dutch courts jurisdiction.",
+          "url": "https://fairplaycasino.nl/klantenservice/klachtenprocedure"
+        },
+        "safer_tools": [
+          "Mandatory deposit limit",
+          "Time limit (max 8h/day)",
+          "Max balance auto-transfer",
+          "Net monthly deposit cap EUR700 / EUR300 (18-23)",
+          "Time-out 1 day to 1 month",
+          "Cruks (6 months to 99 years) incl. involuntary registration",
+          "Self-tests and helplines (Open Over Gokken, AGOG)"
+        ],
+        "launched": ""
+      },
+      "pros": [
+        "Detailed safer-gambling page with mandatory limits and net deposit caps",
+        "Complaints procedure has published timelines (72h acknowledgement, max 8 weeks)",
+        "Zero deposit and withdrawal fees on the listed payment method"
+      ],
+      "cons": [
+        "Complaints procedure names no ADR body or KSA escalation",
+        "Only one payment method (iDEAL | Wero) listed",
+        "Welcome-bonus wagering multiple not stated in fetched offer or terms text"
+      ],
+      "unreachable": [
+        "https://fairplaycasino.nl/ (root not on allowlist; subpages via search worked)",
+        "KSA published brand/domain report (not found)",
+        "https://kansspelautoriteit.nl/@11384/fpo-nederland/ (robots_disallowed)"
+      ],
+      "notes": [
+        "Terms version 1.37.1 (11 Jul 2024) cites licence 1605; re-check for a newer terms version after the Oct 2026 permit. Bonus is 24+ only per bonus terms. FAQ answers not rendered in fetch. Existing page's claims on entity, 17 Sep 2026 renewal and 2026-2031 period confirmed; its 'Dutch-licensed within permit scope' should specify casino-only."
+      ]
     },
     "ggpoker-netherlands-review": {
       "brand": "GGPoker",
@@ -863,8 +1680,6 @@
       "entity": "NSUS Malta Limited",
       "licence_line": "Dutch-licensed online gambling within the permit scope; poker-focused product claims require product-specific…",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -905,7 +1720,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://ssl.gg-global-cdn.com/bd/front/img/web/logo/img_GGpoker.webp"
     },
     "holland-casino-online-netherlands": {
       "brand": "Holland Casino Online",
@@ -914,8 +1761,6 @@
       "entity": "Holland Casino N.V.",
       "licence_line": "Dutch-licensed online casino products within the permit scope",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -956,7 +1801,38 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "jackpots-ch-casino-switzerland": {
       "brand": "Jackpots.ch",
@@ -965,8 +1841,6 @@
       "entity": "Grand Casino Baden AG",
       "licence_line": "Concession no. 516-003, stated in the operator's terms; ESBK lists Casino Baden / jackpots.ch among online…",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1007,7 +1881,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg"
     },
     "kansino-netherlands-review": {
       "brand": "Kansino",
@@ -1016,8 +1922,6 @@
       "entity": "Play North Limited",
       "licence_line": "Dutch-licensed online gambling within the permit scope",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1058,109 +1962,290 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.kansino.nl/assets/icons/kansino_mobile.svg",
+      "logo_dark": true
     },
     "lapalingo-casino-germany": {
       "brand": "Lapalingo",
       "market": "DE",
       "market_label": "Germany",
       "entity": "Rabbit Entertain IT Limited",
-      "licence_line": "Regulator evidence: see this review",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "GGL whitelist (snapshot 12 Apr 2024): Rabbit Entertain IT Limited (Malta), virtual slots permission, first permission date 27.12.2022",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "licence": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "pass",
+          "note": "Domain lapalingo.de appears in the GGL whitelist PDF (Tabelle 8, virtual slots; entry domains: lapalingo.de, tigerspin.de, lordlucky.de). Snapshot is dated 12 April 2024, not current for 2026-10.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Whitelist snapshot names Rabbit Entertain IT Limited (Malta), but operator's own terms could not be opened to confirm the entity.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Only the stale April 2024 whitelist snapshot was reachable; no current (2026) register entry or permission document could be opened.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Permission scope (virtual slots / online poker) can only be inferred from an outdated list; current permission not confirmed.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Operator site https://www.lapalingo.de and terms/help URLs could not be fetched.",
+          "url": "https://www.lapalingo.de"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "GGL whitelist (snapshot 12 Apr 2024): Rabbit Entertain IT Limited (Malta), virtual slots permission, first permission date 27.12.2022",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "",
+          "hours": "",
+          "url": ""
+        },
+        "complaints_route": {
+          "summary": "",
+          "url": ""
+        },
+        "safer_tools": [],
+        "launched": ""
+      },
+      "pros": [],
+      "cons": [],
+      "unreachable": [
+        "https://www.lapalingo.de",
+        "https://www.lapalingo.de/de/terms-and-conditions",
+        "https://www.gluecksspiel-behoerde.de",
+        "https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist"
+      ],
+      "notes": [
+        "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
+      ]
     },
     "lordlucky-casino-germany": {
       "brand": "Lord Lucky",
       "market": "DE",
       "market_label": "Germany",
       "entity": "Rabbit Entertain IT Limited",
-      "licence_line": "Regulator evidence: see this review",
-      "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
+      "licence_line": "GGL whitelist (snapshot 12 Apr 2024): Rabbit Entertain IT Limited (Malta), virtual slots permission, first permission date 27.12.2022",
+      "checked": "2026-10-27",
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
-        "detail": "No offer amount or condition is claimed until the operator's current terms are checked; see the welcome-offer section of this review.",
+        "detail": "No offer conditions verified from the operator's own pages yet.",
         "verified": false,
-        "seen": "2026-10-25",
+        "seen": "2026-10-27",
         "url": ""
       },
       "criteria": {
         "terms": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "payments": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "safer": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "complaints": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "licence": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         },
         "usability": {
           "rating": null,
-          "note": "Not yet assessed: primary-source research for this criterion is queued, so no rating is shown.",
+          "note": "Not assessed: operator's own pages were unreachable (not on fetch allowlist).",
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "pass",
+          "note": "Domain lordlucky.de appears in the GGL whitelist PDF (Tabelle 8, virtual slots; entry domains: lapalingo.de, tigerspin.de, lordlucky.de). Snapshot is dated 12 April 2024, not current for 2026-10.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Whitelist snapshot names Rabbit Entertain IT Limited (Malta), but operator's own terms could not be opened to confirm the entity.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Only the stale April 2024 whitelist snapshot was reachable; no current (2026) register entry or permission document could be opened.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Permission scope (virtual slots / online poker) can only be inferred from an outdated list; current permission not confirmed.",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Operator site https://www.lordlucky.de and terms/help URLs could not be fetched.",
+          "url": "https://www.lordlucky.de"
+        }
+      },
+      "facts": {
+        "licence": {
+          "value": "GGL whitelist (snapshot 12 Apr 2024): Rabbit Entertain IT Limited (Malta), virtual slots permission, first permission date 27.12.2022",
+          "url": "https://www.gluecksspiel-behoerde.de/images/pdf/whitelist_aktuell/20230530%20White%20List%20GGL.pdf"
+        },
+        "welcome_offer": {
+          "headline": "",
+          "min_deposit": "",
+          "wagering": "",
+          "expiry": "",
+          "max_cashout": "",
+          "verified": false,
+          "seen": "2026-10-27",
+          "url": ""
+        },
+        "withdrawals": {
+          "timing": "",
+          "limits": "",
+          "fees": "",
+          "url": ""
+        },
+        "kyc": {
+          "summary": "",
+          "url": ""
+        },
+        "payment_methods": [],
+        "support": {
+          "channels": "",
+          "hours": "",
+          "url": ""
+        },
+        "complaints_route": {
+          "summary": "",
+          "url": ""
+        },
+        "safer_tools": [],
+        "launched": ""
+      },
+      "pros": [],
+      "cons": [],
+      "unreachable": [
+        "https://www.lordlucky.de",
+        "https://www.lordlucky.de/de/terms-and-conditions",
+        "https://www.gluecksspiel-behoerde.de",
+        "https://www.gluecksspiel-behoerde.de/de/aufsicht/erlaubte-gluecksspielangebote/whitelist"
+      ],
+      "notes": [
+        "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
+      ]
     },
     "mr-green-casino-germany": {
       "brand": "Mr Green",
@@ -1169,8 +2254,6 @@
       "entity": "888 group entity as shown in the GGL whitelist entry",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1211,7 +2294,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg"
     },
     "mycasino-luzern-switzerland": {
       "brand": "mycasino.ch",
@@ -1220,8 +2335,6 @@
       "entity": "Casino Luzern",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-26",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1262,7 +2375,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg"
     },
     "pasino-casino-switzerland": {
       "brand": "Pasino",
@@ -1271,8 +2416,6 @@
       "entity": "Casino Meyrin",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1313,7 +2456,38 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "starvegas-casino-switzerland": {
       "brand": "Starvegas",
@@ -1322,8 +2496,6 @@
       "entity": "Casino Interlaken",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1364,7 +2536,40 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://starvegas-ch-cdn-static.gt-cdn.net/web_assets/svch/assets/img/logos/main-logo-header.a71ddc3d.svg",
+      "logo_dark": true
     },
     "swiss4win-casino-switzerland": {
       "brand": "Swiss4Win",
@@ -1373,8 +2578,6 @@
       "entity": "Casino Lugano",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1415,7 +2618,40 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314",
+      "logo_dark": true
     },
     "tigerspin-casino-germany": {
       "brand": "Tigerspin",
@@ -1424,8 +2660,6 @@
       "entity": "Rabbit Entertain IT Limited",
       "licence_line": "Regulator evidence: see this review",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1466,7 +2700,38 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     },
     "toto-casino-netherlands": {
       "brand": "TOTO",
@@ -1475,8 +2740,6 @@
       "entity": "TOTO Online B.V.",
       "licence_line": "Kansspelautoriteit (Ksa)",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1517,7 +2780,39 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": [],
+      "logo_url": "https://www.toto.nl/images/logo-toto.svg"
     },
     "winfest-germany": {
       "brand": "Winfest",
@@ -1526,8 +2821,6 @@
       "entity": "Rabbit Entertain IT Limited",
       "licence_line": "Gemeinsame Glücksspielbehörde der Länder (GGL) whitelist",
       "checked": "2026-10-25",
-      "evidence_complete": false,
-      "second_review": false,
       "hands_on": false,
       "offer": {
         "headline": "Not verified yet",
@@ -1568,7 +2861,38 @@
           "url": ""
         }
       },
-      "red_flags": []
+      "red_flags": [],
+      "eligibility": {
+        "domain": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "operator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "regulator": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "market_permission": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        },
+        "terms_and_withdrawal_rules": {
+          "status": "unverified",
+          "note": "Not yet checked against primary sources.",
+          "url": ""
+        }
+      },
+      "facts": {},
+      "pros": [],
+      "cons": [],
+      "unreachable": []
     }
   }
 }

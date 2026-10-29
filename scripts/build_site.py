@@ -18,7 +18,6 @@ PUBLIC_FILES = (
     "site.webmanifest",
     "sitemap.xml",
     "styles.css",
-    "homepage-luxury.css",
 )
 PUBLIC_DIRS = (
     "assets",
@@ -46,7 +45,7 @@ FORBIDDEN_PUBLIC_PATHS = (
 )
 PUBLIC_SUFFIXES = {
     ".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg", ".webp",
-    ".avif", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf",
+    ".avif", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf", ".txt",
 }
 
 if DIST.exists():
