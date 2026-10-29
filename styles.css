@@ -153,8 +153,8 @@ small,.small{font-size:.85rem}
 }
 
 /* ---------- logo frame (same size everywhere) ---------- */
-.bx-logo{width:168px;height:64px;flex:none;display:grid;place-items:center;background:var(--logo-bg);border:1px solid var(--line);border-radius:11px;overflow:hidden;padding:8px 14px}
-.bx-logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+.bx-logo{width:168px;height:64px;flex:none;display:grid;grid-template:minmax(0,1fr)/minmax(0,1fr);place-items:center;background:var(--logo-bg);border:1px solid var(--line);border-radius:11px;overflow:hidden;padding:8px 14px}
+.bx-logo img{width:100%;height:100%;object-fit:contain;display:block}
 .bx-logo img+.bx-mono{display:none}
 .bx-logo.is-broken img{display:none}
 .bx-logo.is-broken .bx-mono,.bx-logo.is-mono .bx-mono{display:grid}
@@ -327,7 +327,11 @@ small,.small{font-size:.85rem}
 .w0{width:0}.w20{width:20%}.w40{width:40%}.w60{width:60%}.w80{width:80%}.w100{width:100%}
 .hm-demo-in{width:100%}.hm-mt{margin-top:16px}.hm-sub{margin:6px 0 0;font:400 .95rem var(--sans)}
 .hm-gate .bx-tick{border-style:solid;border-color:var(--teal)}
-.prose table,main table{display:block;max-width:100%;overflow-x:auto}
+.prose table,main table{max-width:100%}main th,main td{overflow-wrap:anywhere}@media(max-width:600px){main table{table-layout:fixed;width:100%}}
 .bx-cover{margin:6px 0 10px}.bx-cover img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line,#d5dbe5);display:block}
 .progress-0{width:0.0%}.progress-1{width:7.7%}.progress-2{width:15.4%}.progress-3{width:23.1%}.progress-4{width:30.8%}.progress-5{width:38.5%}.progress-6{width:46.2%}.progress-7{width:53.8%}.progress-8{width:61.5%}.progress-9{width:69.2%}.progress-10{width:76.9%}.progress-11{width:84.6%}.progress-12{width:92.3%}.progress-13{width:100.0%}
 .bx-card-link .bx-logo{width:96px}@media(min-width:420px){.bx-card-link .bx-logo{width:116px}}
+.calculator{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:22px;align-items:start;background:none;border:0;padding:0}
+@media(max-width:860px){.calculator{grid-template-columns:1fr}}
+.calc-panel label,.calculator label{display:block;font:600 .95rem var(--sans);color:var(--ink);margin:14px 0 6px}
+.result-panel p{color:var(--text)}

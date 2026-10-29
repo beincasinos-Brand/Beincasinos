@@ -704,7 +704,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "site": "www.admiral.ch"
+      "site": "www.admiral.ch",
+      "logo_dark": true
     },
     "bet365-casino-netherlands-review": {
       "brand": "bet365",
@@ -1334,7 +1335,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://casineo.ch/images/casineo-logo.svg",
-      "site": "www.casineo.ch"
+      "site": "www.casineo.ch",
+      "logo_dark": true
     },
     "casino777-switzerland": {
       "brand": "Casino777.ch",
@@ -1686,7 +1688,8 @@
       "notes": [
         "Terms version 1.37.1 (11 Jul 2024) cites licence 1605; re-check for a newer terms version after the Oct 2026 permit. Bonus is 24+ only per bonus terms. FAQ answers not rendered in fetch. Existing page's claims on entity, 17 Sep 2026 renewal and 2026-2031 period confirmed; its 'Dutch-licensed within permit scope' should specify casino-only."
       ],
-      "site": "www.fairplay.nl"
+      "site": "www.fairplay.nl",
+      "logo_dark": true
     },
     "ggpoker-netherlands-review": {
       "brand": "GGPoker",
@@ -1768,7 +1771,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://ssl.gg-global-cdn.com/bd/front/img/web/logo/img_GGpoker.webp",
-      "site": "www.ggpoker.nl"
+      "site": "www.ggpoker.nl",
+      "logo_dark": true
     },
     "holland-casino-online-netherlands": {
       "brand": "Holland Casino Online",
@@ -2348,7 +2352,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg",
-      "site": "www.mrgreen.com"
+      "site": "www.mrgreen.com",
+      "logo_dark": true
     },
     "mycasino-luzern-switzerland": {
       "brand": "mycasino.ch",
@@ -2840,7 +2845,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://www.toto.nl/images/logo-toto.svg",
-      "site": "www.toto.nl"
+      "site": "www.toto.nl",
+      "logo_dark": true
     },
     "winfest-germany": {
       "brand": "Winfest",
