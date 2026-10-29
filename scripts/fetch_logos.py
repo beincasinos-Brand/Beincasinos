@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "tier1-reviews.json"
 OUT = ROOT / "assets" / "brands"
 UA = "Mozilla/5.0 (compatible; BeInCasinosLogoFetch/1.0; +https://beincasinos.online/about/)"
-TYPES = {"image/svg+xml": "svg", "image/png": "png", "image/webp": "webp"}
+TYPES = {"image/svg+xml": "svg", "image/png": "png", "image/webp": "webp", "image/x-icon": None, "image/vnd.microsoft.icon": None}
 MAX = 400_000
 
 
@@ -64,11 +64,17 @@ def candidates(r: dict) -> list[str]:
             urls += [urljoin(home, u) for _, u in sorted(scan.found, key=lambda t: t[0])]
         except Exception as exc:  # noqa: BLE001
             print(f"   homepage failed: {exc}")
+    if site:
+        host = site.removeprefix("www.")
+        for path in ("logo.svg", "images/logo.svg", "assets/logo.svg", "favicon.svg", "apple-touch-icon.png", "apple-touch-icon-180x180.png"):
+            urls.append(f"https://{site}/{path}")
+        # Last resorts: icon services return the operator's own site icon as PNG.
+        urls += [f"https://www.google.com/s2/favicons?domain={host}&sz=256", f"https://icons.duckduckgo.com/ip3/{host}.ico"]
     seen, out = set(), []
     for u in urls:
         if u not in seen:
             seen.add(u); out.append(u)
-    return out[:8]
+    return out[:20]
 
 
 def clean_svg(body: bytes) -> bytes | None:
