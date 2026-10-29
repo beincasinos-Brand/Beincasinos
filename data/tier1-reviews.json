@@ -50,7 +50,7 @@
       "market_label": "Great Britain",
       "entity": "Hillside (UK Gaming) ENC",
       "licence_line": "UKGC account 55149 · bet365.com listed as active domain",
-      "checked": "2026-10-25",
+      "checked": "2026-10-29",
       "hands_on": false,
       "offer": {
         "headline": "Up to 500 free spins (new players)",
@@ -86,9 +86,9 @@
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/55149"
         },
         "usability": {
-          "rating": null,
-          "note": "Not assessed: no structured check of how easy key terms and controls are to find.",
-          "url": ""
+          "rating": 4,
+          "note": "The Great Britain help centre groups answers by topic, shows per-method deposit and withdrawal tables with limits, times and step-by-step instructions, and links terms, safer-gambling and complaints pages directly. Desk review of the fetched pages on 29 Oct 2026; the app and mobile site were not tested.",
+          "url": "https://help.bet365.com/s/en-gb/payments/deposit-methods"
         }
       },
       "red_flags": [
@@ -125,7 +125,42 @@
           "url": "https://help.bet365.com/s/en-gb/payments/withdrawal-methods"
         }
       },
-      "facts": {},
+      "facts": {
+        "licence": {
+          "value": "UKGC account 55149 · bet365.com listed as active domain",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/55149"
+        },
+        "withdrawals": {
+          "timing": "Published estimate 1–4 hours for most methods; card and bank pages say bet365 aims to process within 2 hours, but receipt can take up to 2 banking days (international debit cards up to 5)",
+          "limits": "Minimum £5 for most methods; maximum from £2,000 (paysafecard) to £100,000 (bank transfer, Trustly)",
+          "fees": "",
+          "url": "https://help.bet365.com/s/en-gb/payments/withdrawal-methods"
+        },
+        "kyc": {
+          "summary": "Terms allow checks on age, identity, address, location, financial circumstances and source of funds; the account can be restricted until checks are complete.",
+          "url": "https://help.bet365.com/s/en-gb/terms-and-conditions"
+        },
+        "payment_methods": [
+          "Debit card",
+          "Bank transfer",
+          "Apple Pay",
+          "PayPal",
+          "Trustly",
+          "paysafecard",
+          "Pay by Bank",
+          "Revolut Pay"
+        ],
+        "support": {},
+        "complaints_route": {
+          "summary": "Customer service, then a senior team member, then IBAS after eight weeks or if you disagree with the final response.",
+          "url": "https://help.bet365.com/s/en-gb/complaints-procedure"
+        },
+        "safer_tools": [
+          "Account limits",
+          "Time-outs",
+          "Self-exclusion"
+        ]
+      },
       "pros": [],
       "cons": [],
       "unreachable": [],

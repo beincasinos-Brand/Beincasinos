@@ -15,6 +15,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 MAX_CHARS = 60_000
+LOCALES = {"holland-casino-online-netherlands": "nl-NL", "toto-casino-netherlands": "nl-NL", "betcity-netherlands-review": "nl-NL", "fairplay-casino-netherlands-review": "nl-NL", "casumo-casino-germany": "de-DE", "betmgm-casino-michigan": "en-US"}
 
 
 class Text(HTMLParser):
@@ -53,9 +54,29 @@ def fetch(url: str) -> tuple[str, str]:
     return status, text[:MAX_CHARS]
 
 
+def fetch_browser(url: str, page) -> tuple[str, str]:
+    """Real Chromium with a UK/NL/DE-friendly locale: passes simple bot checks and renders JS pages."""
+    resp = page.goto(url, wait_until="domcontentloaded", timeout=45_000)
+    try:
+        page.wait_for_load_state("networkidle", timeout=15_000)
+    except Exception:  # noqa: BLE001
+        pass
+    text = page.evaluate("document.body ? document.body.innerText : ''")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text).strip()
+    return f"{resp.status if resp else '?'} browser final={page.url}", text[:MAX_CHARS]
+
+
 def main() -> None:
     sources = json.loads((ROOT / "research" / "sources.json").read_text())
     only = set(sys.argv[1:])
+    pw = browser = None
+    try:
+        from playwright.sync_api import sync_playwright
+        pw = sync_playwright().start()
+        browser = pw.chromium.launch()
+    except Exception as exc:  # noqa: BLE001
+        print("browser unavailable:", exc)
     for slug, urls in sources.items():
         if only and slug not in only: continue
         d = ROOT / "research" / "snapshots" / slug; d.mkdir(parents=True, exist_ok=True)
@@ -67,6 +88,16 @@ def main() -> None:
                 status, text = fetch(url)
             except Exception as exc:  # noqa: BLE001
                 status, text = f"ERROR {exc}", ""
+            if (status.startswith("ERROR") or len(text) < 1500) and browser:
+                ctx = browser.new_context(locale=LOCALES.get(slug, "en-GB"), timezone_id="Europe/London", user_agent=UA)
+                try:
+                    st2, tx2 = fetch_browser(url, ctx.new_page())
+                    if len(tx2) > len(text):
+                        status, text = st2, tx2
+                except Exception as exc:  # noqa: BLE001
+                    status += f" | browser: {str(exc)[:80]}"
+                finally:
+                    ctx.close()
             f.write_text(f"SOURCE: {url}\nFETCHED: {stamp}\nSTATUS: {status}\n\n{text}\n", encoding="utf-8")
             print(f"{slug} {i:02d} {status[:60]} {len(text)} chars")
             time.sleep(1)
