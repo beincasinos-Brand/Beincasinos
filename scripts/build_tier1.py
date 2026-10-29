@@ -41,6 +41,7 @@ LOGO_EXTS = ("svg", "png", "webp")
 HERO = ("<!-- bx-hero:start -->", "<!-- bx-hero:end -->")
 FILE = ("<!-- bx-file:start -->", "<!-- bx-file:end -->")
 BODY = ("<!-- bx-body:start -->", "<!-- bx-body:end -->")
+SOCIAL = ("<!-- tier1-social:start -->", "<!-- tier1-social:end -->")
 ROBOTS = ("<!-- tier1-robots:start -->", "<!-- tier1-robots:end -->")
 
 
@@ -251,6 +252,21 @@ def strip_text(h: str) -> str:
     return html.unescape(re.sub(r"<[^>]+>", "", h)).strip()
 
 
+def cover_html(slug: str, r: dict) -> str:
+    if not (ROOT / "assets" / "reviews" / f"{slug}.jpg").is_file():
+        return ""
+    return (f'<div class="wrap"><figure class="bx-cover"><img src="/assets/reviews/{slug}.jpg" width="1200" height="630" loading="lazy" decoding="async" '
+            f'alt="Evidence-file summary for {e(r["brand"])} in {e(r["market_label"])}: {elig_pass(r)} of 5 eligibility checks passed, {crit_rated(r)} of 6 criteria rated."></figure></div>\n')
+
+
+def social_meta(slug: str, r: dict) -> str | None:
+    if not (ROOT / "assets" / "reviews" / f"{slug}.jpg").is_file():
+        return None
+    u = f"https://beincasinos.online/assets/reviews/{slug}.jpg"
+    return (f'<meta property="og:image" content="{u}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            f'<meta property="og:image:alt" content="{e(r["brand"])} evidence file, {e(r["market_label"])}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{u}">')
+
+
 def apply_review_page(slug: str) -> bool:
     p = REVIEWS / slug / "index.html"
     text = before = p.read_text(encoding="utf-8")
@@ -270,13 +286,16 @@ def apply_review_page(slug: str) -> bool:
             ps = re.findall(r"<p(?: [^>]*)?>(.*?)</p>", inner, re.S)
             lede = next((x for x in ps if not x.startswith("Last checked") and "Status:" not in x), "")
         lede = re.sub(r"\s+", " ", lede).strip()
-        block = f"{HERO[0]}\n{hero_html(slug, r, h1.group(1) if h1 else e(r['brand']), lede)}\n{HERO[1]}\n{FILE[0]}\n{file_html(slug, r)}\n{FILE[1]}\n"
+        block = f"{HERO[0]}\n{hero_html(slug, r, h1.group(1) if h1 else e(r['brand']), lede)}\n{HERO[1]}\n{FILE[0]}\n{file_html(slug, r)}\n{cover_html(slug, r)}{FILE[1]}\n"
         text = text.replace(inner, block, 1)
         for pat in (r'<div class="rg-callout">.*?</div></div>', r'<section class="evidence-scorecard".*?</section>',
                     r'<figure class="operator-logo-figure[^"]*">.*?</figure>', r'<section id="review-visual-summary".*?</section>',
                     r'<!-- tier1-card:start -->.*?<!-- tier1-card:end -->\n?', r'<!-- tier1-evidence:start -->.*?<!-- tier1-evidence:end -->\n?'):
             text = re.sub(pat, "", text, flags=re.S)
         text = put(text, BODY, body_html(slug, r), after='<article class="prose">')
+    if r:
+        text = re.sub(r'<meta property="og:image[^>]*>|<meta name="twitter:(?:card|image)"[^>]*>', "", text) if SOCIAL[0] not in text else text
+        text = put(text, SOCIAL, social_meta(slug, r), before="</head>")
     tier1 = AFF["operators"].get(slug, {}).get("market", "") in TIER1
     robots = None if tier1 else '<meta name="robots" content="noindex,follow">'
     if robots and re.search(r'<meta name="robots"', re.sub(re.escape(ROBOTS[0]) + r".*?" + re.escape(ROBOTS[1]), "", text, flags=re.S)):

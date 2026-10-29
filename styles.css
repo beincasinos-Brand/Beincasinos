@@ -328,3 +328,4 @@ small,.small{font-size:.85rem}
 .hm-demo-in{width:100%}.hm-mt{margin-top:16px}.hm-sub{margin:6px 0 0;font:400 .95rem var(--sans)}
 .hm-gate .bx-tick{border-style:solid;border-color:var(--teal)}
 .prose table,main table{display:block;max-width:100%;overflow-x:auto}
+.bx-cover{margin:6px 0 10px}.bx-cover img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line,#d5dbe5);display:block}

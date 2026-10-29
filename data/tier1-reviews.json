@@ -129,7 +129,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg"
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg",
+      "site": "www.bet365.com"
     },
     "betfair-casino-great-britain-review": {
       "brand": "Betfair Casino",
@@ -218,7 +219,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "casino.betfair.com"
     },
     "william-hill-casino-great-britain-review": {
       "brand": "William Hill Casino",
@@ -309,7 +311,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "casino.williamhill.com"
     },
     "888casino-great-britain-review": {
       "brand": "888casino",
@@ -411,7 +414,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png"
+      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png",
+      "site": "www.888casino.com"
     },
     "7melons-casino-switzerland": {
       "brand": "7melons",
@@ -491,7 +495,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.7melons.ch"
     },
     "888slots-casino-germany": {
       "brand": "888slots",
@@ -617,7 +622,8 @@
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
       ],
-      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png"
+      "logo_url": "https://www.888.com/content/dam/holdings888/umbrella/com/en/hp/888.com-logo.png",
+      "site": "www.888slots.de"
     },
     "admiral-casino-switzerland": {
       "brand": "Admiral",
@@ -697,7 +703,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.admiral.ch"
     },
     "bet365-casino-netherlands-review": {
       "brand": "bet365",
@@ -856,7 +863,8 @@
       "notes": [
         "Existing page's casino framing is fine, but KSA permit also covers sports and horse racing. No offer verified; Dutch rules restrict welcome bonuses (age 24+ in other operators' terms) so avoid inventing one. Retry T&Cs and complaints pages via search snippets or manual access. KSA 20 Aug 2026 page dates the objection decision 4 Aug 2026; the 13 Nov 2025 instruction was objected to."
       ],
-      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg"
+      "logo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bet365_Logo.svg",
+      "site": "www.bet365.nl"
     },
     "betcity-netherlands-review": {
       "brand": "BetCity",
@@ -1017,7 +1025,8 @@
       "notes": [
         "KSA lists two further Betent pages (betent, betent-b-v-0/-1) not opened; further enforcement may exist. Welcome offer article only points to the promotions page. Retry betcity.nl terms manually."
       ],
-      "logo_url": "https://club.betcity.nl/assets/img/icons/bc-logo-black.svg"
+      "logo_url": "https://club.betcity.nl/assets/img/icons/bc-logo-black.svg",
+      "site": "www.betcity.nl"
     },
     "betmgm-casino-michigan": {
       "brand": "BetMGM",
@@ -1098,7 +1107,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://scmedia.nj.betmgm.com/$-$/5ff5107775984e9fbad8eec0b9efb25e.png"
+      "logo_url": "https://scmedia.nj.betmgm.com/$-$/5ff5107775984e9fbad8eec0b9efb25e.png",
+      "site": "casino.betmgm.com"
     },
     "bingoal-netherlands-review": {
       "brand": "Bingoal",
@@ -1241,7 +1251,8 @@
       ],
       "notes": [
         "Whole bingoal.nl site largely unreachable to this tool; needs manual retrieval. KSA search also lists https://kansspelautoriteit.nl/boete-bingoal-voor-reclame-gericht-op-jongvolwassenen and bingoal-nederland-b-v-1 (not opened). Existing page says 'eight operators', matches KSA. Sanction page date 8 Feb 2023; PDF decision date 8 Nov 2022."
-      ]
+      ],
+      "site": "www.bingoal.nl"
     },
     "casineo-casino-switzerland": {
       "brand": "Casineo",
@@ -1322,7 +1333,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://casineo.ch/images/casineo-logo.svg"
+      "logo_url": "https://casineo.ch/images/casineo-logo.svg",
+      "site": "www.casineo.ch"
     },
     "casino777-switzerland": {
       "brand": "Casino777.ch",
@@ -1403,7 +1415,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://www.casino777.ch/assets/img/header/logo.svg?ver=2"
+      "logo_url": "https://www.casino777.ch/assets/img/header/logo.svg?ver=2",
+      "site": "www.casino777.ch"
     },
     "casumo-casino-germany": {
       "brand": "Casumo",
@@ -1529,7 +1542,8 @@
       ],
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
-      ]
+      ],
+      "site": "www.casumo.de"
     },
     "fairplay-casino-netherlands-review": {
       "brand": "FairPlay Casino Online",
@@ -1671,7 +1685,8 @@
       ],
       "notes": [
         "Terms version 1.37.1 (11 Jul 2024) cites licence 1605; re-check for a newer terms version after the Oct 2026 permit. Bonus is 24+ only per bonus terms. FAQ answers not rendered in fetch. Existing page's claims on entity, 17 Sep 2026 renewal and 2026-2031 period confirmed; its 'Dutch-licensed within permit scope' should specify casino-only."
-      ]
+      ],
+      "site": "www.fairplay.nl"
     },
     "ggpoker-netherlands-review": {
       "brand": "GGPoker",
@@ -1752,7 +1767,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://ssl.gg-global-cdn.com/bd/front/img/web/logo/img_GGpoker.webp"
+      "logo_url": "https://ssl.gg-global-cdn.com/bd/front/img/web/logo/img_GGpoker.webp",
+      "site": "www.ggpoker.nl"
     },
     "holland-casino-online-netherlands": {
       "brand": "Holland Casino Online",
@@ -1832,7 +1848,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.hollandcasino.nl"
     },
     "jackpots-ch-casino-switzerland": {
       "brand": "Jackpots.ch",
@@ -1913,7 +1930,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg"
+      "logo_url": "https://assets.jackpots.ch/jp-content/logo_original_positiv_by_GCB_1_514a6acea2/logo-original-positiv_by_GCB-(1).svg_logo_original_positiv_by_GCB_1_514a6acea2.svg",
+      "site": "www.jackpots.ch"
     },
     "kansino-netherlands-review": {
       "brand": "Kansino",
@@ -1995,7 +2013,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://www.kansino.nl/assets/icons/kansino_mobile.svg",
-      "logo_dark": true
+      "logo_dark": true,
+      "site": "www.kansino.nl"
     },
     "lapalingo-casino-germany": {
       "brand": "Lapalingo",
@@ -2120,7 +2139,8 @@
       ],
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
-      ]
+      ],
+      "site": "www.lapalingo.com"
     },
     "lordlucky-casino-germany": {
       "brand": "Lord Lucky",
@@ -2245,7 +2265,8 @@
       ],
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
-      ]
+      ],
+      "site": "www.lordlucky.com"
     },
     "mr-green-casino-germany": {
       "brand": "Mr Green",
@@ -2326,7 +2347,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg"
+      "logo_url": "https://cgp-cdn.safe-iplay.com/cgp-assets/full/skins/mrgreen/defaults/images/mrgreenlogo.svg",
+      "site": "www.mrgreen.com"
     },
     "mycasino-luzern-switzerland": {
       "brand": "mycasino.ch",
@@ -2407,7 +2429,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg"
+      "logo_url": "https://www.mycasino.ch/_next/static/chunks/mycasino-logo-horizontal-Blx3ovSn.svg",
+      "site": "www.mycasino.ch"
     },
     "pasino-casino-switzerland": {
       "brand": "Pasino",
@@ -2487,7 +2510,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.pasino.ch"
     },
     "starvegas-casino-switzerland": {
       "brand": "Starvegas",
@@ -2569,7 +2593,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://starvegas-ch-cdn-static.gt-cdn.net/web_assets/svch/assets/img/logos/main-logo-header.a71ddc3d.svg",
-      "logo_dark": true
+      "logo_dark": true,
+      "site": "www.starvegas.ch"
     },
     "swiss4win-casino-switzerland": {
       "brand": "Swiss4Win",
@@ -2651,7 +2676,8 @@
       "cons": [],
       "unreachable": [],
       "logo_url": "https://www.swiss4win.ch/lugano_lugano-theme/images/preloader_logo_bg_black.svg?t=1792749276314",
-      "logo_dark": true
+      "logo_dark": true,
+      "site": "www.swiss4win.ch"
     },
     "tigerspin-casino-germany": {
       "brand": "Tigerspin",
@@ -2731,7 +2757,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.tigerspin.com"
     },
     "toto-casino-netherlands": {
       "brand": "TOTO",
@@ -2812,7 +2839,8 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "logo_url": "https://www.toto.nl/images/logo-toto.svg"
+      "logo_url": "https://www.toto.nl/images/logo-toto.svg",
+      "site": "www.toto.nl"
     },
     "winfest-germany": {
       "brand": "Winfest",
@@ -2892,7 +2920,8 @@
       "facts": {},
       "pros": [],
       "cons": [],
-      "unreachable": []
+      "unreachable": [],
+      "site": "www.winfest.com"
     }
   }
 }

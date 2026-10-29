@@ -220,7 +220,7 @@ for page in pages:
     for pattern, label in (
         (r'<meta property="og:title" content="([^"]+)"', "Open Graph title"),
         (r'<meta property="og:description" content="([^"]+)"', "Open Graph description"),
-        (r'<meta name="twitter:card" content="summary"', "Twitter summary card"),
+        (r'<meta name="twitter:card" content="summary(?:_large_image)?"', "Twitter summary card"),
     ):
         if not re.search(pattern, source, re.I):
             errors.append(f"{rel}: missing {label} metadata")
