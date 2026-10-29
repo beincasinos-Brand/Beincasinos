@@ -312,7 +312,11 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "site": "casino.williamhill.com"
+      "site": "casino.williamhill.com",
+      "site_alt": [
+        "www.williamhill.com",
+        "sports.williamhill.com"
+      ]
     },
     "888casino-great-britain-review": {
       "brand": "888casino",
@@ -1545,7 +1549,10 @@
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
       ],
-      "site": "www.casumo.de"
+      "site": "www.casumo.de",
+      "site_alt": [
+        "www.casumo.com"
+      ]
     },
     "fairplay-casino-netherlands-review": {
       "brand": "FairPlay Casino Online",
@@ -2144,7 +2151,11 @@
       "notes": [
         "Only one primary source was reachable: GGL whitelist PDF (Stand 12 April 2024, file name dated 2023-05-30). Operator sites, help centres and the current GGL pages are not on the fetch allowlist; search with site: filters returned no official operator pages. Existing page says casumo.de belongs to Rabbit Entertain IT Limited; this could not be verified and casumo.de is absent from the 2024 snapshot. Existing 888slots page lists operator as '888' only; the snapshot names 888 Germany Limited. German scope: virtual slots (Tabelle 8) and online poker (Tabelle 9) only; no live casino/table games. Stake/5-second/EUR 1,000 limits and OASIS/LUGAS not stated because no official source was readable. Re-run with an allowlist that includes the operator domains and gluecksspiel-behoerde.de."
       ],
-      "site": "www.lapalingo.com"
+      "site": "www.lapalingo.com",
+      "site_alt": [
+        "lapalingo.com",
+        "www.lapalingo.de"
+      ]
     },
     "lordlucky-casino-germany": {
       "brand": "Lord Lucky",
@@ -2763,7 +2774,10 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "site": "www.tigerspin.com"
+      "site": "www.tigerspin.com",
+      "site_alt": [
+        "tigerspin.com"
+      ]
     },
     "toto-casino-netherlands": {
       "brand": "TOTO",
@@ -2927,7 +2941,11 @@
       "pros": [],
       "cons": [],
       "unreachable": [],
-      "site": "www.winfest.com"
+      "site": "www.winfest.com",
+      "site_alt": [
+        "winfest.com",
+        "www.winfest.de"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Download operator logos
-        run: python3 scripts/fetch_logos.py
+        run: pip install pillow && python3 scripts/fetch_logos.py
       - name: Rebuild review pages
         run: python3 scripts/build_tier1.py apply && python3 scripts/build_tier1.py check
       - name: Commit logos

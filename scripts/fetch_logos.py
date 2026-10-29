@@ -53,8 +53,8 @@ class Scan(HTMLParser):
 
 def candidates(r: dict) -> list[str]:
     urls = [r["logo_url"]] if r.get("logo_url") else []
-    site = r.get("site")
-    if site:
+    sites = [x for x in [r.get("site")] + list(r.get("site_alt", [])) if x]
+    for site in sites:
         home = f"https://{site}/"
         try:
             _, html = get(home)
@@ -63,18 +63,30 @@ def candidates(r: dict) -> list[str]:
                 scan.found.append((0, m))
             urls += [urljoin(home, u) for _, u in sorted(scan.found, key=lambda t: t[0])]
         except Exception as exc:  # noqa: BLE001
-            print(f"   homepage failed: {exc}")
-    if site:
-        host = site.removeprefix("www.")
+            print(f"   homepage failed ({site}): {exc}")
         for path in ("logo.svg", "images/logo.svg", "assets/logo.svg", "favicon.svg", "apple-touch-icon.png", "apple-touch-icon-180x180.png"):
             urls.append(f"https://{site}/{path}")
+    for site in sites:
+        host = site.removeprefix("www.")
         # Last resorts: icon services return the operator's own site icon as PNG.
-        urls += [f"https://www.google.com/s2/favicons?domain={host}&sz=256", f"https://icons.duckduckgo.com/ip3/{host}.ico"]
+        urls += [f"https://www.google.com/s2/favicons?domain={host}&sz=256"]
     seen, out = set(), []
     for u in urls:
         if u not in seen:
             seen.add(u); out.append(u)
-    return out[:20]
+    return out[:30]
+
+
+def too_small(body: bytes, ext: str) -> bool:
+    if ext == "svg":
+        return False
+    try:
+        import io
+        from PIL import Image
+        w, h = Image.open(io.BytesIO(body)).size
+        return max(w, h) < 64
+    except Exception:  # noqa: BLE001
+        return False
 
 
 def clean_svg(body: bytes) -> bytes | None:
@@ -97,6 +109,8 @@ def main() -> int:
                 ctype, body = get(url, binary=True)
                 ext = TYPES.get(ctype) or ("svg" if url.lower().split("?")[0].endswith(".svg") else None)
                 if ext is None or len(body) > MAX or len(body) < 200:
+                    continue
+                if too_small(body, ext):
                     continue
                 if ext == "svg":
                     body = clean_svg(body)
