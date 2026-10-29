@@ -1,0 +1,245 @@
+SOURCE: https://help.bet365.com/s/en-gb/payments/deposit-methods
+FETCHED: 2026-10-29 23:25 UTC
+STATUS: 200 text/html final=https://help.bet365.com/s/en-gb/payments/deposit-methods
+
+Deposit Methods
+ Skip to Content
+ [/s/en-gb] 
+Help Centre
+Deposit Methods
+ Close
+ [/s/en-gb] Home
+ / 
+ [/s/en-gb/payments] Payments
+ Close
+Deposit Methods
+Deposit Methods
+Deposit Methods
+ Close
+ Country
+ United Kingdom 
+ Currency
+ GBP 
+ Payment Method
+ Process Time
+ Min-Max
+ Payment Type
+ Process Time
+ Instant
+ £5.00 - £20000.00
+ Debit Card
+ Details
+ Details
+ You can deposit to us instantly using your Visa, Mastercard, Electron or Maestro Debit card.
+ How to Deposit
+ To make a deposit, select the My Account icon from the top right of your screen and choose Deposit.
+ Select Debit Card from the available payment options.
+ Enter your card details. The card must be registered in your name.
+ Enter your deposit amount.
+ On your first deposit with a new card, you will need to read and acknowledge the terms provided then select Deposit. For subsequent deposits, simply select Deposit.
+ Your card issuer may require you to authorise your card payment with 3D Secure or enter additional security information.
+ Once the deposit is authorised by your card issuer, your bet365 account balance will be credited instantly.
+ Why was my Debit Card deposit unsuccessful?
+ We are only able to accept deposits from cards registered in the below locations:
+ Guernsey
+ Isle of Man
+ Ireland (Rep. Of)
+ Jersey
+ UK
+ Please Note - You will be unable to deposit with a Credit Card, Pre-Paid Card or Corporate Card.
+ Process Time
+ Instant
+ £5.00 - £20000.00
+ Debit Card
+ Details
+ Details
+ Deposit with Apple Pay in just a few clicks. Select your preferred card from your Apple Wallet and deposit in an instant.
+ To set up Apple Pay or for further information on supported devices, please visit [https://www.apple.com/apple-pay/] https://www.apple.com/.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Apple Pay from the available payment options.
+ Enter your deposit amount and select Apple Pay.
+ Select the card you want to deposit from. The name on your card must match the name registered to your bet365 account.
+ After confirming your payment using face recognition, Touch ID or your Apple Passcode, your bet365 account balance will be credited instantly.
+ Please Note - You will be unable to deposit with a Credit Card, Pre-Paid Card or Corporate Card.
+ An Apple Pay deposit will credit to your account immediately if successful. 
+ Process Time
+ Instant
+ £5.00 - £20000.00
+ Instant Bank Transfer
+ Details
+ Details
+ Pay by Bank is an instant bank transfer which supports the majority of banks.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Pay by Bank from the available payment options.
+ Enter your deposit amount and select Deposit.
+ After selecting Deposit, you will be redirected to Pay by Bank to select your preferred bank from the list provided.
+ Follow the on-screen instructions to confirm your payment.
+ You will be redirected back to your bet365 account and the funds will be instantly credited to your account balance.
+ Withdrawal
+ If you have deposited with Pay by Bank, all withdrawals will be processed back to the bank account used to complete your deposit.
+ Please refer to the Withdrawals section for more details.
+ Process Time
+ Instant
+ £5.00 - £5500.00
+ eWallet
+ Details
+ Details
+ You can deposit to us instantly using Revolut Pay.
+ You'll also have the option to set up future payments to be completed in just one click.
+ To find out more information, please visit [https://www.revolut.com/revolut-pay/] https://www.revolut.com/revolut-pay/.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Revolut Pay from the available payment options.
+ Enter your deposit amount and select the Revolut pay deposit button.
+ If you are using a mobile device, where you have previously agreed to complete your deposits in one click, the funds will be instantly credited to your bet365 balance.
+ If you are using a desktop, you will be presented with a QR code. Scan the code with your mobile device and this will automatically open the Revolut Pay app. 
+ Log into your Revolut Pay account and follow the on-screen instructions. When completing the first deposit, you will have to agree to allow bet365 to store your payment details to allow future payments to be completed automatically.
+ You will be redirected back to your bet365 account and the funds will be instantly credited to your account balance.
+ Should you have insufficient funds, you will be redirected to Revolut to top up your balance before you can deposit.
+ Withdrawal
+ If you have deposited via Revolut Pay, withdrawals will be processed back to your Revolut account. Please refer to the Withdrawal section for further information.
+ Process Time
+ Instant
+ £5.00 - £20000.00
+ Debit Card
+ Details
+ Details
+ Deposit with Google Pay in just a few clicks. Select your preferred card from your Google Wallet and deposit in an instant.
+ To set up Google Pay or for further information on supported devices [https://pay.google.com/about] pay.google.com.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Google Pay from the available payment options.
+ Enter your deposit amount and select GPay.
+ Select the debit card you want to deposit from. The name on your card must match the name registered to your bet365 account.
+ After confirming your payment using face recognition, Touch ID or your Google Pay Passcode, your bet365 account balance will be credited instantly.
+ Why was my Google Pay deposit unsuccessful?
+ We are only able to accept deposits from cards registered in the below locations:
+ Guernsey
+ Isle of Man
+ Ireland (Rep. Of)
+ Jersey
+ UK
+ Please Note - You will be unable to deposit with a Credit Card, Pre-Paid Card or Corporate Card.
+ A Google Pay deposit will credit to your account immediately if successful. 
+ Process Time
+ Instant
+ £5.00 - £25000.00
+ Instant Bank Transfer
+ Details
+ Details
+ Deposit with online banking from any of the following banks:
+ Bank of Scotland, NatWest, Barclays, Lloyds, Santander, Nationwide, HSBC, Monzo Bank, TSB, Starling Bank, Danske Bank and Bank of Ireland.
+ You can save your bank details within your Trustly account to make future deposits more convenient.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Trustly from the available payment options.
+ Enter your deposit amount and select Deposit.
+ After selecting Deposit, you will be redirected to Trustly to select your preferred bank from the list provided. If you have previously saved your bank account on the same device, move on to step 8. Alternatively, click Change and select your preferred bank.
+ If using a mobile device, press Go to (bank name). If your banking app is installed on the device, it will automatically open. If not, you will be redirected to your Bank's login page.
+ On desktop, choose Open (bank name) mobile app to generate a QR code. Scan the code with your mobile device, which will automatically open your bank app. Alternatively, choose Continue on this Device to be redirected to your Bank's login page.
+ Login to your online banking account, where a summary of the payment will be displayed.
+ Follow the instructions to confirm your payment.
+ You will be redirected back to your bet365 account and in most instances, the funds will be instantly credited to your account balance.
+ Processing Times
+ The majority of Trustly deposits are credited to your bet365 account instantly, however, on some occasions the deposit can take up to three banking days to credit.
+ If your deposit has not been credited by the third working day, please [https://help.bet365.com/s/en-gb/contact-us] Contact Us with the below information:
+ The amount of the deposit
+ The time and date the deposit was made
+ Whether the funds have left your account
+ Process Time
+ Instant
+ £25.00 - £5500.00
+ eWallet
+ Details
+ Details
+ Choose PayPal to deposit instantly from a variety of methods, without having to fund your PayPal wallet prior to depositing with us. You'll also have the option to set up future payments to be completed in just one click.
+ You can fund your PayPal deposit via your PayPal account balance, a debit card or instant bank transfer.
+ To use PayPal to deposit with bet365, you will need to ensure your PayPal Payer Status (your account status) is Verified. To confirm your verification status, or for more information please visit [https://www.paypal.com] www.paypal.com.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select PayPal from the available payment options.
+ Enter your deposit amount. If you wish to complete future deposits instantly without logging in to your PayPal account, tick the box under the Deposit button.
+ Select Deposit. If you have previously agreed to the PayPal Billing agreement to complete your deposits in one click, the funds will be instantly credited to your bet365 balance after clicking Deposit.
+ If you have not set up one-click deposits or you have ticked the option for the first time, you will be redirected to the PayPal log in page where you will be given the option to opt-in. This means any future deposits with PayPal will be completed automatically, and you will not need to log in each time.
+ Log in to your PayPal account or select Create an Account and follow the on-screen instructions.
+ Select your preferred funding method or add a new method that will be saved to your PayPal account for future deposits.
+ Select Complete Purchase and you will be returned to the bet365 deposit page, where your balance will be credited instantly.
+ If your default payment method has insufficient funds, then the deposit amount will be taken from another method registered to your PayPal account.
+ Please Note - You will be unable to use Mastercard as your default method for automatic payments.
+ Process Time
+ Instant
+ £5.00 - £1000.00
+ Prepaid Voucher/eWallet
+ Details
+ Details
+ Purchase prepaid vouchers using cash or a Debit Card from a variety of local stores. Alternatively, vouchers can be purchased online through your myPaysafe account using a Debit Card.
+ You will be required to open a myPaysafe account, which can be done at [https://www.paysafecard.com] www.paysafecard.com.
+ As part of this process, you will need to provide your details, and verify your email address and mobile number.
+ Vouchers purchased in store will need to be added to your myPaysafe account balance online. 
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select paysafecard from the available payment options.
+ Enter your deposit amount and select Deposit.
+ Log into your myPaysafe account or select Sign Up to open an account.
+ Click Pay to complete the deposit using the funds from your myPaysafe account.
+ Select Add another paysafecard to top up your balance using additional paysafecards.
+ You will be redirected to your bet365 account and the funds will be instantly credited to your account balance.
+ Withdrawal
+ If you have deposited by paysafecard, withdrawals can be processed back to your myPaysafe account or by bank transfer. See the withdrawal section for more details.
+ Process Time
+ 2-10 Banking Days
+ £100.00 - £100000.00
+ Bank Transfer
+ Details
+ Details
+ Deposit directly from your online bank account. 
+ If you are depositing from a bank account outside of your residential country or in a non-local currency your deposit may take 2-10 banking days to credit.
+ How to Deposit
+ To make a deposit, select from the top right of your screen and choose Deposit.
+ Select Bank Transfer from the available payment options. You will be provided with the bank details to make your payment to. Copy the banking information directly from the Deposit page by clicking the ‘Copy’ icon.
+ Login to your online banking to make a payment. 
+ Enter the bank account details you were provided with and ensure your bet365 username is added as the payment reference. If you do not include your username, the funds will not automatically credit your bet365 account. 
+ Confirm your payment and return to your bet365 account. You will be notified by email once the funds have cleared into your bet365 account. 
+ If you have deposited by Bank Transfer, withdrawals will be processed back by bank transfer. See the Wire Transfer withdrawal section for more details.
+ bet365 uses cookies
+ We use cookies to deliver a better and more personalised service. For more information, see our [https://help.bet365.com/s/en-gb/cookies-policy] Cookies Policy.
+ Manage Cookies
+ Essential Only
+ Accept All Cookies
+ Manage Cookies
+ Strictly Necessary
+Cookies required to use the website and features you have requested. They provide content, products and services that you have requested from us. These cookies are essential for the operation of our website. [https://help.bet365.com/s/en-gb/cookies-policy] More Details.
+ Performance
+Cookies used to collect information on your website usage. These cookies are used to provide aggregated statistics on visits to our websites.We use these statistics for internal purposes to help us test and improve the performance of our websites and to provide you with a better user experience. Without these cookies, our ability to provide a smoother user experience across your devices may be degraded. [https://help.bet365.com/s/en-gb/cookies-policy] More Details
+ Third Party Marketing/Targeting
+Cookies used to deliver adverts relevant to you based on your interests.This can include limiting the number of times you see an advert as well as helping us to measure the effectiveness of any adverts that you see. Without these cookies, you will still see adverts but these will not be adjusted to your interests.This can include limiting the number of times you see an advert as well as helping us to measure the effectiveness of any adverts that you see. Without these cookies, you will still see adverts but these will not be adjusted to your interests. [https://help.bet365.com/s/en-gb/cookies-policy] More Details.
+Accept All
+Confirm My Choices
+Allow Necessary Cookies Only
+ [/] 
+ [https://help.bet365.com/s/en-gb/contact-us] Contact Us
+ [https://responsiblegambling.bet365.com/en] Safer Gambling
+ [https://help.bet365.com/s/en-gb/privacy-policy] Privacy Policy
+ [https://help.bet365.com/s/en-gb/about-us] About Us
+ [https://help.bet365.com/s/en-gb/sportsrules] Sports Rules
+ [https://help.bet365.com/s/en-gb/terms-and-conditions] Terms and Conditions
+ [https://help.bet365.com/s/en-gb/cookies-policy] Cookies Policy
+ [https://help.bet365.com/s/en-gb/ibas] IBAS
+ [https://help.bet365.com/s/en-gb/fair-payouts] Fair Payouts
+ [https://help.bet365.com/s/en-gb/complaints-procedure] Complaints Procedure
+ [https://help.bet365.com/s/en-gb/bet365-accessibility-statement] Accessibility
+ [https://help.bet365.com/s/en-gb/ibia] IBIA
+ [https://www.gamstop.co.uk/] 
+ [https://www.gamblingtherapy.org/?ReferrerID=102] 
+ [https://www.gamcare.org.uk/get-support/talk-to-us-now/] 
+ © 2001-2026 bet365. All rights reserved.
+ [https://x.com/bet365] 
+ [https://www.facebook.com/bet365uk] 
+ This service is provided by our AI Agent, for more information please visit our Help pages.
+ Live Chat
+ Are you sure you want to end chat?
+ End Live Chat
+ Cancel
+ Live Chat

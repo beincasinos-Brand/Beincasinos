@@ -1,0 +1,5 @@
+SOURCE: https://help.williamhill.com/hc/en-gb/articles/29873309823645-Safer-Gambling-for-UK-customers
+FETCHED: 2026-10-29 23:25 UTC
+STATUS: ERROR HTTP Error 403: Forbidden
+
+

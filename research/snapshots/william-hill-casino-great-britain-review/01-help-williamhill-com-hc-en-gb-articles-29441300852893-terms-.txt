@@ -1,0 +1,5 @@
+SOURCE: https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers
+FETCHED: 2026-10-29 23:25 UTC
+STATUS: ERROR HTTP Error 403: Forbidden
+
+

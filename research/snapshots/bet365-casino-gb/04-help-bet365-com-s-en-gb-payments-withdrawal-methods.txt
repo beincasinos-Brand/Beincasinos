@@ -1,0 +1,162 @@
+SOURCE: https://help.bet365.com/s/en-gb/payments/withdrawal-methods
+FETCHED: 2026-10-29 23:25 UTC
+STATUS: 200 text/html final=https://help.bet365.com/s/en-gb/payments/withdrawal-methods
+
+Withdrawal Methods
+ Skip to Content
+ [/s/en-gb] 
+Help Centre
+Withdrawal Methods
+ Close
+ [/s/en-gb] Home
+ / 
+ [/s/en-gb/payments] Payments
+ Close
+Withdrawal Methods
+Withdrawal Methods
+Withdrawal Methods
+ Close
+ Country
+ United Kingdom 
+ Currency
+ GBP 
+ Payment Method
+ Process Time
+ Min-Max
+ Payment Type
+ Process Time
+ 1-4 Hours
+ £5.00 - £20000.00
+ Debit Card
+ Details
+ Details
+ Where possible all withdrawals will be processed back to the same card used to deposit. Where we are unable to withdraw back to your Debit Card, funds will be returned to you via bank transfer. 
+ We aim to process your withdrawal within 2 hours of your request. Once received by your bank, they may process your winnings instantly.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Enter your withdrawal amount and select withdrawal. Some withdrawals may take up to 2 banking days to be received and funds processed to an international Debit Card may take up to 5 banking days. If you have deposited using a UK Mastercard and your bank is eligible, you may have the option to complete a fast withdrawal via bank transfer
+ Process Time
+ 1-4 Hours
+ £5.00 - £100000.00
+ Bank Transfer
+ Details
+ Details
+ Withdraw funds directly back to your bank account.
+ We aim to process your withdrawal within 2 hours of your request. Once received by your bank, they may process your winnings instantly.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Select your Bank Country from the list and enter the required bank details. Ensure all information is accurate and the bank account is in your name, or this may prevent your withdrawal being received. 
+ Enter your Withdrawal amount.
+ Select Withdraw.
+ A Confirmation of Payee check will be completed. This will check that the bank wire details you have provided match a personal account in your name. If the details do not match, you will be asked to update your bank wire details.
+ We process bank transfers via various providers therefore, the sender of the funds may display on your bank statement as one of the following:
+Hillside
+Worldpay
+ If you are withdrawing to a bank account outside of the UK or in a currency other than GBP or EUR, it may take longer to receive your funds.
+ Process Time
+ Instant
+ £5.00 - £20000.00
+ Debit Card
+ Details
+ Details
+ Where possible all Apple Pay withdrawals will be processed back to the same card used to deposit.
+ Where we are unable to withdraw back to your card directly, all withdrawals will be processed by bank transfer. Please refer to the Wire Transfer section for further information.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Enter your withdrawal amount and select Withdraw.
+ Process Time
+ 1-4 Hours
+ £10.00 - £5500.00
+ eWallet
+ Details
+ Details
+ All funds deposited via PayPal will be processed back to the PayPal account you used to deposit.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen, choose Bank, then Withdraw.
+ Enter your Withdrawal amount.
+ Select Withdraw.
+ Process Time
+ 1-4 Hours
+ £5.00 - £100000.00
+ Instant Bank Transfer
+ Details
+ Details
+ All funds deposited via Trustly will be processed back to the bank account used to complete your deposit.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Enter your Withdrawal amount.
+ Select Withdraw.
+ Process Time
+ 1-4 Hours
+ £5.00 - £2000.00
+ Prepaid Voucher/eWallet
+ Details
+ Details
+ If you have deposited from your myPaysafe account, withdrawals can be processed back to your myPaysafe account. 
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw. 
+ If paysafecard is not the active withdrawal method, select 'Change withdrawal method to paysafecard'. 
+ The my paysafecard email address field will be prepopulated with the email address registered to your bet365 account. If required, update this to your myPaysafe email address.
+ Enter your Withdrawal amount and select Withdraw.
+ Process Time
+ 1-4 Hours
+ £5.00 - £20000.00
+ Instant Bank Transfer
+ Details
+ Details
+ All funds deposited via Pay by Bank will be processed back to the bank account used to complete your deposit.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Enter your Withdrawal amount.
+ Select Withdraw.
+ Process Time
+ 1-4 Hours
+ £5.00 - £5500.00
+ eWallet
+ Details
+ Details
+ All funds deposited via Revolut Pay will be processed back to the Revolut account used to complete your deposit.
+ How to Withdraw
+ To make a Withdrawal, select from the top right of your screen and choose Bank, then Withdraw.
+ Enter your Withdrawal amount.
+ Select Withdraw.
+ bet365 uses cookies
+ We use cookies to deliver a better and more personalised service. For more information, see our [https://help.bet365.com/s/en-gb/cookies-policy] Cookies Policy.
+ Manage Cookies
+ Essential Only
+ Accept All Cookies
+ Manage Cookies
+ Strictly Necessary
+Cookies required to use the website and features you have requested. They provide content, products and services that you have requested from us. These cookies are essential for the operation of our website. [https://help.bet365.com/s/en-gb/cookies-policy] More Details.
+ Performance
+Cookies used to collect information on your website usage. These cookies are used to provide aggregated statistics on visits to our websites.We use these statistics for internal purposes to help us test and improve the performance of our websites and to provide you with a better user experience. Without these cookies, our ability to provide a smoother user experience across your devices may be degraded. [https://help.bet365.com/s/en-gb/cookies-policy] More Details
+ Third Party Marketing/Targeting
+Cookies used to deliver adverts relevant to you based on your interests.This can include limiting the number of times you see an advert as well as helping us to measure the effectiveness of any adverts that you see. Without these cookies, you will still see adverts but these will not be adjusted to your interests.This can include limiting the number of times you see an advert as well as helping us to measure the effectiveness of any adverts that you see. Without these cookies, you will still see adverts but these will not be adjusted to your interests. [https://help.bet365.com/s/en-gb/cookies-policy] More Details.
+Accept All
+Confirm My Choices
+Allow Necessary Cookies Only
+ [/] 
+ [https://help.bet365.com/s/en-gb/contact-us] Contact Us
+ [https://responsiblegambling.bet365.com/en] Safer Gambling
+ [https://help.bet365.com/s/en-gb/privacy-policy] Privacy Policy
+ [https://help.bet365.com/s/en-gb/about-us] About Us
+ [https://help.bet365.com/s/en-gb/sportsrules] Sports Rules
+ [https://help.bet365.com/s/en-gb/terms-and-conditions] Terms and Conditions
+ [https://help.bet365.com/s/en-gb/cookies-policy] Cookies Policy
+ [https://help.bet365.com/s/en-gb/ibas] IBAS
+ [https://help.bet365.com/s/en-gb/fair-payouts] Fair Payouts
+ [https://help.bet365.com/s/en-gb/complaints-procedure] Complaints Procedure
+ [https://help.bet365.com/s/en-gb/bet365-accessibility-statement] Accessibility
+ [https://help.bet365.com/s/en-gb/ibia] IBIA
+ [https://www.gamstop.co.uk/] 
+ [https://www.gamblingtherapy.org/?ReferrerID=102] 
+ [https://www.gamcare.org.uk/get-support/talk-to-us-now/] 
+ © 2001-2026 bet365. All rights reserved.
+ [https://x.com/bet365] 
+ [https://www.facebook.com/bet365uk] 
+ This service is provided by our AI Agent, for more information please visit our Help pages.
+ Live Chat
+ Are you sure you want to end chat?
+ End Live Chat
+ Cancel
+ Live Chat

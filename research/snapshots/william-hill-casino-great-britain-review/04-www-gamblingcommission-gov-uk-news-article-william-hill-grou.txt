@@ -1,0 +1,166 @@
+SOURCE: https://www.gamblingcommission.gov.uk/news/article/william-hill-group-businesses-to-pay-record-gbp19-2m-for-failures
+FETCHED: 2026-10-29 23:25 UTC
+STATUS: 200 text/html final=https://www.gamblingcommission.gov.uk/news/article/william-hill-group-businesses-to-pay-record-gbp19-2m-for-failures
+
+William Hill Group businesses to pay record £19.2m for failures
+Cookies on the Gambling Commission website
+The Gambling Commission website uses cookies to make the site work better for you. [/cookies] Some of these cookies are essential to how the site functions and others are optional. Optional cookies help us remember your settings, measure your use of the site and personalise how we communicate with you. Any data collected is anonymised and we do not set optional cookies unless you consent.
+ Accept all cookies
+ [/cookie-preference] Set cookie preferences
+You've accepted all cookies. You can [/cookie-preference] change your cookie settings at any time.
+ Hide Cookie Message
+ Skip to main content
+[/public-and-players] Public and players
+[/licensees-and-businesses] Licensees and businesses
+[/authorities] Licensing authorities
+[/about-us] About us
+[/news] News
+[/contact-us] Contact us
+[/services] Services
+ [/] 
+ Menu
+ Search the website
+ Search the website
+ Close search
+ Content in this section
+ Close menu
+ [/news/latest] 
+ Latest
+ [/news/consumers] 
+ Consumers
+ [/news/industry] 
+ Industry
+ [/news/enforcement-action] 
+ Enforcement
+ [/news/national-lottery] 
+ National Lottery
+ [/news/corporate] 
+ Corporate
+ [/news/speeches-and-talks] 
+ Speeches
+ Other parts of the website
+ [/public-and-players] 
+ For public and players
+ [/licensees-and-businesses] 
+ For licensees and businesses
+ [/authorities] 
+ For licensing authorities
+ Corporate information
+ [/about-us] 
+ About us
+ [/news] 
+ News
+ [/contact-us] 
+ Contact us
+ [/services] 
+ Online services
+ [/] Home
+ [/news] News
+ [/news/enforcement-action] Enforcement
+ Press release
+William Hill Group businesses to pay record £19.2m for failures
+ 28 March 2023
+Three gambling businesses owned by William Hill Group will pay a total of £19.2 million for social responsibility and anti-money laundering failures.
+WHG (International) Limited, which runs williamhill.com, will pay £12.5 million, Mr Green Limited, which runs mrgreen.com, will pay £3.7 million and William Hill Organization Limited, which operates 1,344 gambling premises across Britain, will pay £3 million.
+Andrew Rhodes, Gambling Commission chief executive, said: “When we launched this investigation the failings we uncovered were so widespread and alarming serious consideration was given to licence suspension.
+“However, because the operator immediately recognised their failings and worked with us to swiftly implement improvements, we instead opted for the largest enforcement payment in our history.”
+Today’s action comes just a week after the Commission fined two operators owned by Kindred Group plc a combined £7.2 million and is the largest enforcement case taken on by the regulator. The previous largest was £17 million action [/news/article/entain-to-pay-gbp17-million-for-regulatory-failures] taken against Entain in August last year.
+Since the start of 2022 the Commission has concluded 26 enforcement cases with operators paying over £76 million because of regulatory failures.
+Mr Rhodes said: “In the last 15 months we have taken unprecedented action against gambling operators, but we are now starting to see signs of improvement. There are indications that the industry is doing more to make gambling safer and reducing the possibility of criminal funds entering their businesses. 
+“Operators are using algorithms to spot gambling harms or criminal risk more quickly, interacting with consumers sooner, and generally having more effective policies and procedures in place.” 
+Social responsibility failures at William Hill businesses include:
+ Having insufficient controls in place to protect new customers, and to effectively consider high velocity spend and duration of play until the customer may have been exposed to the risk of substantial losses in a short period:
+One customer was allowed to open a new account and spend £23,000 in 20 minutes without any checks.
+Another customer was allowed to open an account and spend £18,000 in 24 hours without any checks.
+And a third customer was allowed to open a new account and spend £32,500 over two days without any checks. (Mr Green)
+ Failing to identify certain customers at risk of experiencing gambling related harm and failing to carry out checks at an early stage in the customer's journey – one customer lost £14,902 in 70 minutes. (Mr Green) 
+ Failing to identify risk of harm or intervene with certain customers earlier enough – one customer lost £54,252 in four weeks without the operator seeking income evidence, carrying out adequate checks, or using any other effective method to identify risk of harm. (WHG (International) Limited) 
+ Having insufficient controls which exposed new or returning customers to the risk of substantial losses in a short period of time – one customer opened his account and lost £11,400 over the first 30 days without being subject to sufficient checks and another customer did not have a telephone interaction until losses reached £45,800. (WHG (International) Limited) 
+ Failing to apply a 24-hour delay between receiving a request for an increase in a credit limit and granting it – one customer was allowed to immediately place a £100,000 bet when his credit limit had been set at £70,000. (WHG (International) Limited) 
+ Ineffective controls allowed 331 customers to gamble with WHG (International) Limited despite having self-excluded with Mr Green. (WHG (International) Limited) 
+ Failing to identify changes in the customer behaviour which should have provoked consideration of whether the customer was experiencing harm – a safer gambling interaction was conducted only after he had placed and had accepted an £18,000 bet (William Hill Organisation Ltd (WH Retail)) 
+ Having insufficient controls in place to protect new customers, and to effectively consider high velocity spend and duration of play until the customer may have been exposed to the risk of substantial losses in a short period: 
+After its retail premise re-opened following the Covid pandemic lockdown, the operator allowed one customer to lose £10,600 in two days without a safer gambling interaction. 
+Despite being unknown and staking £42,253 in 130 bets over a three-day period, staff did not identify one customer as being at risk of experiencing harms associated with gambling or undertake any customer interactions. (William Hill Organisation Ltd (WH Retail)) 
+Anti-money laundering (AML) failures include:
+ Allowing customers to deposit large amounts without conducting appropriate checks – one customer was able to spend and lose £70,134 in a month, another to lose £38,000 in five weeks and another to lose £36,000 in four days. (WHG (International) Limited) 
+ Allowing customers to deposit large amounts without conducting appropriate checks – one customer deposited £73,535 and lost £14,068 in four months (Mr Green) 
+ Customers were able to stake large amounts of money without being monitored or scrutinised to a high enough standard – the operator failed to request Source of Funds (SoF) evidence when one customer staked £19,000 in a single bet, did not obtain documentation from a customer who staked £39,324 and lost £20,360 in 12 days, and did not obtain SoF evidence from a customer who staked £276,942 and lost £24,395 over two months. (William Hill Organisation Ltd (WH Retail)) 
+ Policies, procedures and controls lacked guidance on appropriate action to take following the results of customer profiling and how its findings should be used to establish the appropriate outcome. (WHG (International) Limited) and (Mr Green) 
+ Procedures and controls lacked hard stops to prevent further spend and mitigate against money laundering risks before customer risk profiling is completed. (WHG (International) Limited) and (Mr Green) 
+ AML staff training provided insufficient information on risks and how to manage them (WHG (International) Limited) and (Mr Green) 
+All £19.2 million will be directed towards socially responsible purposes as part of a [/policy/licensing-compliance-and-enforcement-under-the-gambling-act-2005/5-regulatory-enforcement] regulatory settlement.
+Additional licence conditions will also be added to ensure a business board member oversees an improvement plan, and that it undergoes a third-party audit to assess that it is effectively implementing its AML and safer gambling policies, procedures and controls.
+Details of the failings can be read in the public statements.
+Public statements
+ Public statements are only available online for 3 years from the date of issue. If you
+ require a copy of a historic public statement, [/contact-us] contact us with details of
+ the statement you require.
+ Public statements are only available online for 3 years from the date of issue. If you
+ require a copy of a historic public statement, [/contact-us] contact us with details of
+ the statement you require.
+ Public statements are only available online for 3 years from the date of issue. If you
+ require a copy of a historic public statement, [/contact-us] contact us with details of
+ the statement you require.
+Note to editors
+ For all media enquiries, please contact the [/contact-us/guide/journalists-and-researchers] Gambling Commission press office.
+Last updated: 20 July 2026
+ Show updates to this content
+Formatting changes only.
+ Is this page useful?
+ Yes this
+ page is helpful
+ No this
+ page is not helpful
+ Report a problem with this page
+Thank you for your
+ feedback. If you want to complain about a gambling business or have a general enquiry, use the [/contact-us] contact us page.
+Feedback
+ Feedback
+We are not able to respond to comments but your feedback will help us improve our website.
+ You can enter up to 250 characters
+Complaints and queries
+Do not use this form for complaints as we will not reply. 
+ If you want to complain about a gambling business or need further help please [/contact-us] contact us.
+User research
+If you want to provide feedback about new services and features, join
+ our [/user-research] user research programme.
+ Submit feedback
+ Cancel
+ and close form
+ We use Google reCAPTCHA to protect our website from spam. Google acts as data processor on our behalf, further information is available in
+ [https://cloud.google.com/terms/service-terms] Google Cloud Platform Service Specific Terms (opens in new tab) and Google's
+ [https://cloud.google.com/terms/data-processing-addendum] Cloud Data Processing Addendum (opens in new tab).
+Gambling Commissionwebsites
+ [/public-and-players] Public and players
+ [/licensees-and-businesses] Licensees and businesses
+ [/authorities] Licensing authorities
+ [/about-us] About us
+ [/about-us/who-we-are] Advisory groups
+Information
+ [/news] News
+ [/careers] Careers
+ [/contact-us] Contact us
+ [/services] Services
+Follow us
+ The following links open in a new tab: 
+ [https://twitter.com/GamRegGB] X (formerly Twitter)
+ (opens in new tab)
+ [https://www.linkedin.com/company/gambling-commission?trk=biz-companies-cym] LinkedIn
+ (opens in new tab)
+ [https://www.youtube.com/channel/UCl0HlHox5LBs4bMS5d491AA] YouTube
+ (opens in new tab)
+Help and support
+Call 0808 8020 133 in England and Scotland or 0808 2819 265 in Wales
+24 hours a day, 7 days a week, or visit [https://www.gambleaware.org/get-help-now/] GambleAware - Get help now (opens in new tab)
+Newsletter
+[/e-bulletin] Sign up to e-bulletin
+ [/accessibility] Accessibility statement
+ [/privacy-policy] Privacy Policy
+ [/cookies] Cookies
+ [/terms-of-use] Terms of use
+ [/social-media-policy] Social Media Policy
+ [https://www-gamblingcommission-gov-uk.translate.goog/welsh?_x_tr_sl=auto&_x_tr_tl=cy&_x_tr_hl=en-GB] Welsh
+ [https://www-gamblingcommission-gov-uk.translate.goog/?_x_tr_sl=auto&_x_tr_tl=cy&_x_tr_hl=en-GB] View this page in Welsh or other languages
+Release: Release-186
+ Back to top

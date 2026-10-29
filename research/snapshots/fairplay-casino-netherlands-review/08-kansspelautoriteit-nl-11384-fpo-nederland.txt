@@ -1,0 +1,5 @@
+SOURCE: https://kansspelautoriteit.nl/@11384/fpo-nederland/
+FETCHED: 2026-10-29 23:27 UTC
+STATUS: ERROR <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+
+
