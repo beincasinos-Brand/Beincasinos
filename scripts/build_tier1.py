@@ -184,7 +184,7 @@ def file_html(slug: str, r: dict) -> str:
         f'<div class="bx-seal">{seal_html(r)}{status}</div>'
         f'<div class="bx-gate"><h3>Eligibility checks <span>{ep} of {len(ELIG)}</span></h3><ul>{gate}</ul></div>'
         f'<div class="bx-prog"><h3>Scored criteria <span>{cr_n} of {len(CRITERIA)}</span></h3>{meter(cr_n, len(CRITERIA), "criteria rated")}'
-        f'<p>Six criteria, 100 points. No total until all six are rated and every check passes.</p></div>'
+        f'<p>{"Six criteria, 100 points. All six are rated and every check passed." if score(r) is not None else "Six criteria, 100 points. No total until all six are rated and every check passes."}</p></div>'
         f'<div class="bx-keyfacts"><h3>Key facts</h3>{facts_html(r)}</div></section></div>'
     )
 

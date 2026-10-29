@@ -31,3 +31,9 @@ Goal from the owner: 10 high-quality reviews aimed at commercial, high-intent qu
 - Market hub pages per Tier 1 country with comparison tables (only evidence-backed rows).
 - One guide cluster per intent (bonus terms, withdrawal times, complaints) linking to the reviews.
 - Digital PR / backlinks to the hubs, Search Console monitoring, refresh dates every 90 days.
+
+## Status (30 Oct 2026)
+- Scored: bet365 GB 80/100 (Strong), William Hill GB 69/100 (Mixed). All 29 Tier 1 reviews now have search-intent titles and meta, a "Quick answers" block built from verified data, and FAQPage JSON-LD (plus Review JSON-LD once scored).
+- Still open (needs UK/NL/DE/US-served official pages; GitHub's US runners get redirected or blocked): Betfair GB, 888casino GB, BetMGM MI, Holland Casino NL, TOTO NL, BetCity NL, FairPlay NL (domain not in KSA record), Casumo DE.
+- To close them: run `python3 scripts/snapshot_sources.py <slug>` on a machine with a UK/NL/DE/US IP (VPN is fine), commit research/snapshots, then rate criteria from those texts.
+- Growth levers still to do: Dutch and German versions of NL/DE reviews (the queries are Dutch/German), market hub comparison pages, backlinks.

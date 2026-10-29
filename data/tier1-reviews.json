@@ -263,7 +263,7 @@
       "market_label": "Great Britain",
       "entity": "WHG (International) Limited",
       "licence_line": "UKGC account 39225 · remote casino licence active",
-      "checked": "2026-10-26",
+      "checked": "2026-10-29",
       "hands_on": false,
       "offer": {
         "headline": "Current offer not verified",
@@ -299,9 +299,9 @@
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
         },
         "usability": {
-          "rating": null,
-          "note": "Not assessed: the casino and Vegas pages could not be opened.",
-          "url": ""
+          "rating": 4,
+          "note": "The Great Britain help centre is organised by Payments, Withdrawals, Promotions, Legal and Safer Gambling, with a dated, versioned terms article and a dedicated safer-gambling article. Desk review of the fetched help pages on 29 Oct 2026; the casino product pages returned an access error to our fetch, so game and bonus screens were not assessed.",
+          "url": "https://help.williamhill.com/hc/en-gb"
         }
       },
       "red_flags": [
@@ -318,9 +318,9 @@
       ],
       "eligibility": {
         "domain": {
-          "status": "unverified",
-          "note": "The register page shows one domain but its name was not retrievable.",
-          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+          "status": "pass",
+          "note": "The UKGC register for account 39225 lists www.williamhill.com as an active domain. The casino address casino.williamhill.com redirects to vegas.williamhill.com, a subdomain of that listed domain; the register does not list subdomains separately. The UK help centre states the site is operated by WHG (International) Limited for customers in Great Britain.",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39225"
         },
         "operator": {
           "status": "pass",
@@ -338,12 +338,40 @@
           "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
         },
         "terms_and_withdrawal_rules": {
-          "status": "unverified",
-          "note": "General terms read; offer terms and withdrawal limits/times were not visible.",
-          "url": "https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals"
+          "status": "pass",
+          "note": "UK terms (version 2026/1.4) read in full: clause 9 sets out when withdrawals can be requested, the verification condition, minimum thresholds and maximum-winnings limits; clause 13 covers inactive accounts. The help centre has a Withdrawals section.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
         }
       },
-      "facts": {},
+      "facts": {
+        "licence": {
+          "value": "UKGC account 39225 · remote casino licence active",
+          "url": "https://www.gamblingcommission.gov.uk/public-register/business/detail/39225"
+        },
+        "withdrawals": {
+          "timing": "You can usually withdraw your available balance at any time, subject to banking clearance and completed verification checks; processing times per method are not stated on the pages we could open",
+          "limits": "A per-method minimum threshold applies, but a withdrawal of the full available balance is processed anyway; maximum-winnings limits apply (terms clause 9)",
+          "fees": "",
+          "url": "https://help.williamhill.com/hc/en-gb/sections/17353121290525-Withdrawals"
+        },
+        "kyc": {
+          "summary": "Verification checks must be completed before you can deposit or withdraw; until then the account can be restricted.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
+        },
+        "payment_methods": [],
+        "support": {},
+        "complaints_route": {
+          "summary": "Live chat, then the second-opinion team, then IBAS if unresolved after eight weeks.",
+          "url": "https://help.williamhill.com/hc/en-gb/articles/29441300852893-Terms-Conditions-UK-Jersey-and-Gibraltar-Customers"
+        },
+        "safer_tools": [
+          "Deposit limits",
+          "Reality checks",
+          "Time-outs",
+          "Self-exclusion",
+          "GAMSTOP"
+        ]
+      },
       "pros": [],
       "cons": [],
       "unreachable": [],
