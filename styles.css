@@ -335,3 +335,4 @@ small,.small{font-size:.85rem}
 @media(max-width:860px){.calculator{grid-template-columns:1fr}}
 .calc-panel label,.calculator label{display:block;font:600 .95rem var(--sans);color:var(--ink);margin:14px 0 6px}
 .result-panel p{color:var(--text)}
+.bx-qa{display:grid;gap:0;margin:10px 0 28px;border-top:1px solid var(--line)}.bx-qa>div{padding:14px 0;border-bottom:1px solid var(--line)}.bx-qa dt{font:700 1rem var(--sans);color:var(--ink);margin-bottom:4px}.bx-qa dd{margin:0}

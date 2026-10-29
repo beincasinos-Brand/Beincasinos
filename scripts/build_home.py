@@ -46,6 +46,13 @@ def main() -> None:
     scored = sum(1 for r in R.values() if bt.score(r) is not None)
     furthest = sorted(R.items(), key=lambda t: (bt.progress_key(t[1]), t[1]["brand"].lower()))[:6]
     demo = R[DEMO]
+    ds = bt.score(demo)
+    if ds is not None:
+        demo_note = (f"A live example: {e(demo['brand'])} in {e(demo['market_label'])} passes every eligibility check and all six criteria are rated, "
+                     f"so it earns {ds}/100 ({e(bt.band(ds))}). Each rating links to its source; the score is for this market and product, checked {e(bt.fmt_date(demo['checked']))}.")
+    else:
+        demo_note = (f"A live example: {e(demo['brand'])} in {e(demo['market_label'])} is still missing evidence, so it has no total. "
+                     "We would rather show that than a number we cannot support.")
     weights = "".join(
         f'<li><span>{e(c["label"])}</span><span class="bar"><i class="w{c["weight"] * 4}"></i></span><b>{c["weight"]}</b></li>' for c in bt.CRITERIA)
     gate = "".join(f'<li><span class="bx-tick" aria-hidden="true"></span>{e(lbl)}</li>' for _, lbl in bt.ELIG)
@@ -60,7 +67,7 @@ def main() -> None:
 <div class="hero-actions"><a class="button button-primary" href="/reviews/">Browse the reviews</a><a class="button button-outline" href="/how-we-review/">See how we score</a></div>
 <p class="hm-proof">{len(R)} reviews across Great Britain, the Netherlands, Germany and Switzerland. {scored} fully scored so far; the rest show exactly what is still open.</p></div>
 <div class="hm-demo"><div class="hm-demo-in">{bt.file_html(DEMO, demo).replace('<div class="wrap bx-filewrap">', '<div class="bx-filewrap">', 1)}</div>
-<p class="hm-demo-note">A live example: {e(demo["brand"])} in {e(demo["market_label"])} passes every eligibility check, but one criterion is not yet rated, so it has no total. We would rather show that than a number we cannot support.</p></div>
+<p class="hm-demo-note">{demo_note}</p></div>
 </div></section>
 
 <section class="section"><div class="wrap"><div class="section-heading"><h2>Reviews by market</h2><a class="text-link" href="/reviews/">All reviews</a></div>

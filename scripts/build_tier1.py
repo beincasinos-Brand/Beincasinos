@@ -42,6 +42,7 @@ HERO = ("<!-- bx-hero:start -->", "<!-- bx-hero:end -->")
 FILE = ("<!-- bx-file:start -->", "<!-- bx-file:end -->")
 BODY = ("<!-- bx-body:start -->", "<!-- bx-body:end -->")
 SOCIAL = ("<!-- tier1-social:start -->", "<!-- tier1-social:end -->")
+SEO = ("<!-- tier1-seo:start -->", "<!-- tier1-seo:end -->")
 ROBOTS = ("<!-- tier1-robots:start -->", "<!-- tier1-robots:end -->")
 
 
@@ -197,6 +198,7 @@ def body_html(slug: str, r: dict) -> str:
         src = f' <a href="{e(x["url"])}" rel="nofollow noopener">Source</a>' if x.get("url") else ""
         rows.append(f'<li class="is-{x["status"]}"><span class="bx-tick" aria-hidden="true"></span><div><strong>{e(lbl)}</strong>'
                     f'<span class="bx-st">{ {"pass": "Passed", "fail": "Failed", "unverified": "Not verified"}[x["status"]] }</span><p>{e(x["note"])}{src}</p></div></li>')
+    out.append(quick_answers_html(r))
     out.append(f'<h2 id="eligibility">Eligibility checks</h2><p>These come before any points. If one is not passed, the review stays unscored whatever else looks good.</p><ol class="bx-elig">{"".join(rows)}</ol>')
     # criteria
     crow = []
@@ -267,6 +269,97 @@ def social_meta(slug: str, r: dict) -> str | None:
             f'<meta property="og:image:alt" content="{e(r["brand"])} evidence file, {e(r["market_label"])}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{u}">')
 
 
+M_SHORT = {"GB": "UK", "NL": "Netherlands", "DE": "Germany", "CH": "Switzerland", "US-MI": "Michigan"}
+
+
+def review_name(r: dict) -> str:
+    b = r["brand"]
+    return b + (" Review" if ("casino" in b.lower() or "poker" in b.lower() or b.lower().endswith((".ch", ".com"))) else " Casino Review")
+
+
+def seo_title(r: dict) -> str:
+    s = score(r)
+    base = f"{review_name(r)} {M_SHORT[r['market']]}"
+    tail = " | BeInCasinos"
+    opts = ([f"{base} (2026): {s}/100, Bonus & Withdrawals", f"{base} (2026): {s}/100 Score", f"{base}: {s}/100"] if s is not None
+            else [f"{base} (2026): Licence, Bonus & Withdrawals", f"{base} (2026): Licence & Bonus", f"{base} (2026)", base])
+    for o in opts:
+        if len(o + tail) <= 70:
+            return o + tail
+    return opts[-1] + tail
+
+
+def seo_desc(r: dict) -> str:
+    s = score(r)
+    o = r["offer"]
+    offer = (o["headline"] if o["verified"] else "")
+    parts = [f"{r['brand']} in {r['market_label']}: " + (f"scored {s}/100 ({band(s)}). " if s is not None else "evidence file with licence checks, not scored yet. ")]
+    if offer:
+        parts.append(f"Offer: {offer}. ")
+    parts.append(f"Withdrawals, safer gambling and complaints, checked {fmt_date(r['checked'])}.")
+    d = "".join(parts)
+    return d if len(d) <= 168 else d[:165].rsplit(" ", 1)[0] + "..."
+
+
+def faq_items(r: dict) -> list[tuple[str, str]]:
+    f = r.get("facts") or {}
+    b, mk, reg = r["brand"], r["market_label"], M_REG.get(r["market"], "the regulator")
+    el = r["eligibility"]
+    s = score(r)
+    items = []
+    if el["operator"]["status"] == "pass" and el["regulator"]["status"] == "pass":
+        items.append((f"Is {b} legal and licensed in {mk}?", f"{r['licence_line']}. A licence record shows regulatory status for the product and market named; it is not a guarantee of fairness or a safety rating. Checked {fmt_date(r['checked'])}."))
+    else:
+        items.append((f"Is {b} legal and licensed in {mk}?", f"We have not yet matched {b}'s operator and permit to the {reg} register for this product, so we do not state that it is licensed here. Open items are listed in the eligibility checks above."))
+    o = r["offer"]
+    if o["headline"] and not o["headline"].startswith("Not verified"):
+        tag = "" if o["verified"] else " Conditions are not fully verified, so read the operator's terms before claiming."
+        items.append((f"What is the {b} welcome offer?", f"{o['headline']}. {o['detail']}{tag} Seen {fmt_date(o['seen'])}; offers change, so confirm on the operator's page."))
+    wd = f.get("withdrawals") or {}
+    if wd.get("timing") or wd.get("limits"):
+        items.append((f"How long do {b} withdrawals take?", " ".join(x.rstrip(".") + "." for x in (wd.get("timing"), wd.get("limits")) if x) + " These are published estimates, not transaction-tested results; identity checks can add time."))
+    st = f.get("safer_tools") or []
+    if st:
+        items.append((f"What safer-gambling tools does {b} offer?", ", ".join(st) + ". Use them before you deposit, not after."))
+    cr = f.get("complaints_route") or {}
+    if cr.get("summary"):
+        items.append((f"How do I complain about {b}?", cr["summary"]))
+    items.append((f"What is the BeInCasinos score for {b}?",
+                  (f"{s}/100 ({band(s)}) for {mk}, checked {fmt_date(r['checked'])}. It is built from six weighted criteria after five eligibility checks; commission never changes it." if s is not None
+                   else f"{b} has no total yet. {missing(r)}. We show that instead of guessing.")))
+    return items
+
+
+def quick_answers_html(r: dict) -> str:
+    qa = "".join(f"<div><dt>{e(q)}</dt><dd>{e(a)}</dd></div>" for q, a in faq_items(r))
+    return f'<h2 id="quick-answers">Quick answers</h2><dl class="bx-qa">{qa}</dl>'
+
+
+def ld_json(slug: str, r: dict) -> str:
+    import json as _j
+    url = f"https://beincasinos.online/reviews/{slug}/"
+    graph = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq_items(r)]}]
+    s = score(r)
+    if s is not None:
+        graph.append({"@context": "https://schema.org", "@type": "Review", "url": url,
+                      "itemReviewed": {"@type": "Organization", "name": r["brand"], "url": f"https://{r['site']}/" if r.get("site") else None},
+                      "author": {"@type": "Organization", "name": "BeInCasinos"}, "datePublished": r["checked"],
+                      "reviewRating": {"@type": "Rating", "ratingValue": s, "bestRating": 100, "worstRating": 0}})
+        graph[-1]["itemReviewed"] = {k: v for k, v in graph[-1]["itemReviewed"].items() if v}
+    return "".join(f'<script type="application/ld+json">{_j.dumps(g, ensure_ascii=False, separators=(",", ":"))}</script>' for g in graph)
+
+
+def apply_seo_head(text: str, slug: str, r: dict) -> str:
+    title, desc = seo_title(r), seo_desc(r)
+    text = re.sub(r"<title>.*?</title>", lambda m: f"<title>{e(title)}</title>", text, count=1, flags=re.S)
+    for pat, val in ((r'(<meta name="description" content=")[^"]*(")', desc), (r'(<meta property="og:title" content=")[^"]*(")', title),
+                     (r'(<meta property="og:description" content=")[^"]*(")', desc), (r'(<meta name="twitter:title" content=")[^"]*(")', title),
+                     (r'(<meta name="twitter:description" content=")[^"]*(")', desc)):
+        text = re.sub(pat, lambda m, v=val: m.group(1) + e(v) + m.group(2), text, count=1)
+    return put(text, SEO, ld_json(slug, r), before="</head>")
+
+
 def apply_review_page(slug: str) -> bool:
     p = REVIEWS / slug / "index.html"
     text = before = p.read_text(encoding="utf-8")
@@ -296,6 +389,7 @@ def apply_review_page(slug: str) -> bool:
     if r:
         text = re.sub(r'<meta property="og:image[^>]*>|<meta name="twitter:(?:card|image)"[^>]*>', "", text) if SOCIAL[0] not in text else text
         text = put(text, SOCIAL, social_meta(slug, r), before="</head>")
+        text = apply_seo_head(text, slug, r)
     tier1 = AFF["operators"].get(slug, {}).get("market", "") in TIER1
     robots = None if tier1 else '<meta name="robots" content="noindex,follow">'
     if robots and re.search(r'<meta name="robots"', re.sub(re.escape(ROBOTS[0]) + r".*?" + re.escape(ROBOTS[1]), "", text, flags=re.S)):
