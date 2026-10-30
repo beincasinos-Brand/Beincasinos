@@ -61,7 +61,7 @@ small,.small{font-size:.85rem}
 .site-header{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
 .site-header .bar{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px}
 .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;font:800 1.2rem/1 var(--sans);letter-spacing:-.03em;color:var(--ink)}
-.brand img{width:40px;height:40px;display:block}
+.brand img{width:44px;height:44px;display:block}
 .brand b{font-weight:500}
 .nav-links{display:flex;align-items:center;gap:6px;font:600 .95rem var(--sans)}
 .nav-links a{color:var(--text);text-decoration:none;padding:8px 12px;border-radius:var(--r-ctl);position:relative}

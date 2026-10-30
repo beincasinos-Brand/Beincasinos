@@ -91,6 +91,9 @@ def main() -> None:
 <script src="/script.js?v={sc.VERSION}" defer></script>
 </body></html>
 '''
+    if "og:image" not in head:
+        u = "https://beincasinos.online/assets/brand/social-1200x630.png"
+        head = head.replace("</head>", f'<meta property="og:image" content="{u}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:image" content="{u}"></head>', 1)
     page.write_text(head + body, encoding="utf-8")
     print("index.html generated")
 

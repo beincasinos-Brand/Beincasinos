@@ -17,7 +17,7 @@ OLD_CSS = re.compile(r'<link rel="stylesheet" href="/(?:styles\.css|homepage-lux
 OLD_JS = re.compile(r'<script[^>]*src="/assets/review-brand-logos\.js[^"]*"[^>]*></script>\s*')
 PRELOAD = ('<link rel="preload" href="/assets/fonts/schibsted-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>'
            '<link rel="preload" href="/assets/fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>')
-HEAD_LINKS = PRELOAD + f'<link rel="stylesheet" href="/styles.css?v={VERSION}">'
+HEAD_LINKS = '<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">' + PRELOAD + f'<link rel="stylesheet" href="/styles.css?v={VERSION}">'
 
 
 def header(path: str) -> str:
