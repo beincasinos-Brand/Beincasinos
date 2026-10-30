@@ -348,3 +348,7 @@ small,.small{font-size:.85rem}
 .bonus-detail{grid-column:1/-1;margin:0;font-size:.95rem;color:var(--text)}.bonus-meta{grid-column:1/-1;margin:0;font:400 .85rem var(--sans);color:var(--muted)}
 .bonus-gap{margin-top:36px}
 .guide-card .guide-thumb{width:calc(100% + 0px);height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin-bottom:12px;display:block}
+.bonus-pending{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:12px;margin-top:14px}
+.bonus-pend{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);padding:12px 14px}
+.bonus-pend h3{margin:0;font:700 1rem var(--sans);color:var(--ink)}.bonus-pend p{margin:2px 0 0;font:400 .85rem var(--sans);color:var(--muted)}
+.bonus-pend .bx-logo{width:84px;height:40px;padding:4px 8px}.bonus-pend .bx-mono{width:28px;height:28px;font-size:.75rem}

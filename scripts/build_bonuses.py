@@ -24,6 +24,13 @@ def card(slug: str, r: dict, partial: bool) -> str:
             + f' · <a href="/reviews/{slug}/">Review{" · " + str(s) + "/100" if s is not None else ""}</a></p></div></article>')
 
 
+def pend_card(slug: str, r: dict) -> str:
+    site = r.get("site")
+    link = f' · <a href="https://{e(site)}/" rel="nofollow noopener">Operator site</a>' if site else ""
+    return (f'<article class="bonus-pend">{bt.logo_html(slug, r)}<div><h3>{e(r["brand"])}</h3><p>{e(r["market_label"])} · offer not verified yet</p>'
+            f'<p><a href="/reviews/{slug}/">Open review</a>{link}</p></div></article>')
+
+
 def main() -> None:
     ok = [(s, r) for s, r in R.items() if r["offer"]["verified"]]
     part = [(s, r) for s, r in R.items() if not r["offer"]["verified"] and r["offer"]["headline"] and not r["offer"]["headline"].startswith(("Not verified", "Current offer not verified"))]
@@ -57,7 +64,8 @@ def main() -> None:
 <p class="muted">The amount below comes from the operator's page, but we could not confirm wagering, expiry or cashout terms. Read the full terms before claiming.</p>
 <div class="bx-grid">{"".join(card(s, r, True) for s, r in part)}</div>
 <div class="section-heading bonus-gap"><h2>Not yet checked</h2></div>
-<p class="muted">We do not print an amount for these because we have not verified one: {e(", ".join(pending))}.</p>
+<p class="muted">We do not print an amount for these because we have not read one on the operator's own page. Each review shows what is still open.</p>
+<div class="bonus-pending">{"".join(pend_card(s, r) for s, r in R.items() if (s, r) not in ok and (s, r) not in part)}</div>
 </div></section>
 <section class="section-compact"><div class="wrap"><h2>Before you claim anything</h2>
 <ul class="hm-list"><li><a href="/guides/bonus-terms-explained/"><b>Bonus terms, explained</b><span>The conditions that decide what an offer is worth.</span><em>Read</em></a></li>
