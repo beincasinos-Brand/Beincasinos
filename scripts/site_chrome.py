@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "20261029-bx1"
-NAV = [("/reviews/", "Reviews"), ("/markets/", "Markets"), ("/guides/", "Guides"), ("/how-we-review/", "How we score"), ("/responsible-gambling/", "Safer gambling")]
+NAV = [("/reviews/", "Reviews"), ("/bonuses/", "Bonuses"), ("/markets/", "Markets"), ("/guides/", "Guides"), ("/how-we-review/", "How we score"), ("/responsible-gambling/", "Safer gambling")]
 SKIP = {"google05b7a00eb84d7acb.html"}
 OLD_CSS = re.compile(r'<link rel="stylesheet" href="/(?:styles\.css|homepage-luxury\.css|assets/(?:reviews-directory|how-we-review|review-brand-logos)\.css)[^"]*">\s*')
 OLD_JS = re.compile(r'<script[^>]*src="/assets/review-brand-logos\.js[^"]*"[^>]*></script>\s*')
@@ -38,7 +38,7 @@ def header(path: str) -> str:
 FOOTER = (
     '<footer class="site-footer"><div class="wrap foot-grid"><div><a class="brand" href="/"><img src="/assets/beincasinos-mark.svg" alt="" width="40" height="40"><span>BeIn<b>Casinos</b></span></a>'
     '<p>Casino reviews that show their evidence. Educational information, not financial or legal advice.</p></div>'
-    '<div><h2>Reviews</h2><ul><li><a href="/reviews/">All reviews</a></li><li><a href="/reviews/#gb">Great Britain</a></li><li><a href="/reviews/#nl">Netherlands</a></li><li><a href="/reviews/#de">Germany</a></li><li><a href="/reviews/#ch">Switzerland</a></li></ul></div>'
+    '<div><h2>Reviews</h2><ul><li><a href="/reviews/">All reviews</a></li><li><a href="/bonuses/">Bonuses</a></li><li><a href="/reviews/#gb">Great Britain</a></li><li><a href="/reviews/#nl">Netherlands</a></li><li><a href="/reviews/#de">Germany</a></li><li><a href="/reviews/#ch">Switzerland</a></li></ul></div>'
     '<div><h2>Standards</h2><ul><li><a href="/how-we-review/">How we score</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/responsible-gambling/">Safer gambling</a></li><li><a href="/guides/">Guides</a></li></ul></div>'
     '<div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/partners/">For operators</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div></div>'
     '<div class="wrap foot-base"><span>© BeInCasinos. 18+ (21+ in some US states). Gambling laws vary by location.</span><span>Gambling can be addictive. Play within your limits.</span></div></footer>'

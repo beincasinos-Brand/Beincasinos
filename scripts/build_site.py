@@ -26,6 +26,7 @@ PUBLIC_DIRS = (
     "contact",
     "editorial-policy",
     "guides",
+    "bonuses",
     "how-we-review",
     "market-research",
     "markets",

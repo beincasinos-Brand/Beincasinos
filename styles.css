@@ -336,3 +336,15 @@ small,.small{font-size:.85rem}
 .calc-panel label,.calculator label{display:block;font:600 .95rem var(--sans);color:var(--ink);margin:14px 0 6px}
 .result-panel p{color:var(--text)}
 .bx-qa{display:grid;gap:0;margin:10px 0 28px;border-top:1px solid var(--line)}.bx-qa>div{padding:14px 0;border-bottom:1px solid var(--line)}.bx-qa dt{font:700 1rem var(--sans);color:var(--ink);margin-bottom:4px}.bx-qa dd{margin:0}
+.dg-fig{margin:22px 0 28px}.dg{width:100%;height:auto;display:block}
+.dg-box{fill:var(--card);stroke:var(--line);stroke-width:1.5}.dg-big{font:800 30px var(--sans);fill:var(--ink)}.dg-small{font:600 14px var(--sans);fill:var(--muted)}
+.dg-arrow{stroke:var(--brass);stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dg-track{fill:var(--line-2)}.dg-fill{fill:var(--brass)}.dg-note{font:700 14px var(--sans);fill:var(--text)}
+.dg-line{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}.dg-line.calm{stroke:var(--teal)}.dg-line.wild{stroke:var(--brass)}
+.dg-fig figcaption{font:400 .9rem/1.5 var(--sans);color:var(--muted);margin-top:8px}
+.bx-cover.is-guide{max-width:760px}
+.bonus-link{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 16px;padding:18px;align-items:center}
+.bonus-main h3{margin:6px 0 2px;font:700 1.15rem var(--sans);color:var(--ink)}.bonus-offer{font:600 1rem var(--sans);color:var(--ink);margin:0}
+.bonus-detail{grid-column:1/-1;margin:0;font-size:.95rem;color:var(--text)}.bonus-meta{grid-column:1/-1;margin:0;font:400 .85rem var(--sans);color:var(--muted)}
+.bonus-gap{margin-top:36px}
+.guide-card .guide-thumb{width:calc(100% + 0px);height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin-bottom:12px;display:block}
