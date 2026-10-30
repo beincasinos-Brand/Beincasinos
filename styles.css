@@ -352,3 +352,16 @@ small,.small{font-size:.85rem}
 .bonus-pend{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);padding:12px 14px}
 .bonus-pend h3{margin:0;font:700 1rem var(--sans);color:var(--ink)}.bonus-pend p{margin:2px 0 0;font:400 .85rem var(--sans);color:var(--muted)}
 .bonus-pend .bx-logo{width:84px;height:40px;padding:4px 8px}.bonus-pend .bx-mono{width:28px;height:28px;font-size:.75rem}
+.mk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:16px;margin-top:16px}
+.mk-gap{margin-top:40px}
+.mk-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);padding:22px;display:flex;flex-direction:column;gap:6px;box-shadow:var(--shadow)}
+.mk-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.mk-head h3{margin:0;font:800 1.3rem/1.2 var(--sans);color:var(--ink)}
+.mk-chip{font:700 .75rem var(--sans);padding:4px 10px;border-radius:999px;background:var(--line-2);color:var(--text)}
+.is-reviews .mk-chip{background:var(--teal-soft);color:var(--teal)}
+.mk-sum{margin:6px 0 4px;font:400 1.02rem/1.6 var(--serif);color:var(--text)}
+.mk-lbl{margin:10px 0 2px;font:700 .8rem var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.mk-card ul{margin:0;padding-left:1.1rem;font:400 .98rem/1.6 var(--serif);color:var(--text)}.mk-card li{margin:3px 0}
+.mk-links{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:auto;padding-top:14px}
+.mk-evidence{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:12px}.mk-evidence li{font:400 1.02rem/1.6 var(--serif);color:var(--text);padding-left:14px;border-left:3px solid var(--brass)}
+.mk-evidence b{font-family:var(--sans);color:var(--ink)}
