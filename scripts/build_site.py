@@ -13,6 +13,7 @@ PUBLIC_FILES = (
     "404.html",
     "favicon.svg",
     "robots.txt",
+    "ads.txt",
     "_redirects",
     "script.js",
     "site.webmanifest",
