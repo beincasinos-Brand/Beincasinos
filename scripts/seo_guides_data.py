@@ -240,3 +240,10 @@ dict(slug="cruks-self-exclusion-netherlands-explained", kw="Cruks registreren", 
  faq=[("What is Cruks?", "The Dutch central register to exclude yourself from gambling."), ("Do licensed operators check it?", "Yes, they must.")],
  sources=[CRUKS, KSA], related=[R_SELF, R_LIC]),
 ]
+
+try:
+    from seo_guides_extra import EXTRA as _EXTRA
+    for _g in GUIDES:
+        _g["sections"] = list(_g["sections"]) + _EXTRA.get(_g["slug"], [])
+except ImportError:
+    pass
