@@ -1,10 +1,17 @@
 # BeInCasinos
 
-**Latest confirmed integrated verification (21 October 2026, 13:33 UTC):** The integrated GitHub Actions workflow passed on commit `9ca6bdb3f8842a444db2ed807eb5181edb855350`, including HTML/local-link checks, paid-listing pipeline gates and regression tests, JavaScript syntax, Cloudflare header validation, public-only artifact and sitemap checks, and Chromium browser smoke tests across the 28 indexable routes: https://github.com/beincasinos-Brand/BeIncasinos/actions/runs/39608954109. This validates source/build behaviour only; it does not establish live-host behaviour, legal/privacy compliance, domain/mailbox control, buyer demand, or launch approval. Later SEO planning documents are awaiting their own CI runs.
+Evidence-led casino reviews, bonus terms and safer-gambling guides for Great Britain, the Netherlands, Germany, Switzerland and the United States (Michigan).
 
-An English-language, evidence-led casino reviews and research brand focused on operator identity, market-specific licensing, terms, withdrawals, and safer gambling. Individual reviews must pass the internal evidence and publication gate before they can go live.
+**Website:** [beincasinos.online](https://beincasinos.online/)
 
-**Official website:** [BeInCasinos.online](https://beincasinos.online/) — public-facing casino research and review hub. Use the live site for published material; this repository contains development notes and internal research that may not be publication-ready.
+- [How we score](https://beincasinos.online/how-we-review/): the public scoring method (5 eligibility checks, 6 criteria, 100 points)
+- [Casino reviews](https://beincasinos.online/reviews/) and [bonus register](https://beincasinos.online/bonuses/)
+- [Regulators by market](https://beincasinos.online/markets/)
+- [Guides](https://beincasinos.online/guides/): 60 plain-language, source-linked guides
+- [Free wagering calculator](https://beincasinos.online/tools/wagering-calculator/)
+- [Editorial policy](https://beincasinos.online/editorial-policy/) and [affiliate disclosure](https://beincasinos.online/affiliate-disclosure/)
+
+This repository holds the static site source, the generators in `scripts/` and working notes in `docs/`. 18+ (21+ in some US states). Gambling can be addictive; see [safer gambling](https://beincasinos.online/responsible-gambling/).
 
 ## Brand and editorial direction
 - Public brand: BeInCasinos; compact monogram: BIC.
