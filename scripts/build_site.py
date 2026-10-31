@@ -14,6 +14,7 @@ PUBLIC_FILES = (
     "favicon.svg",
     "robots.txt",
     "ads.txt",
+    "bae1370d9f78038983f56c0c9cde0d52.txt",
     "_redirects",
     "script.js",
     "site.webmanifest",
