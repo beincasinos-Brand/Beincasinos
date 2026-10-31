@@ -27,8 +27,8 @@ BZGA = ("BZgA: check-dein-spiel.de", "https://www.check-dein-spiel.de/")
 
 PAGES = [
 dict(loc="nl", slug="legale-online-casinos-nederland", en="/guides/online-casinos-netherlands-legal-ksa/",
- title="Legale online casino's in Nederland: zo check je de KSA-vergunning",
- desc="Online casino's mogen in Nederland alleen met een vergunning van de Kansspelautoriteit. Zo controleer je een aanbieder, het domein en de bescherming die je hoort te krijgen.",
+ title="Legale online casino's in Nederland: KSA-vergunning",
+ desc="Online casino's mogen in Nederland alleen met een KSA-vergunning. Zo controleer je een aanbieder, het domein en de bescherming die je hoort te krijgen.",
  lede="Sinds 1 oktober 2021 mag een online casino in Nederland alleen aanbieden met een vergunning van de Kansspelautoriteit (KSA). Zo controleer je dat in een paar minuten.",
  sections=[("De wet in het kort", ["De Wet kansspelen op afstand (Koa) maakte online casinospellen legaal voor aanbieders met een vergunning. De KSA geeft de vergunningen af en houdt toezicht. Zonder vergunning mag een aanbieder zich niet op de Nederlandse markt richten.", "Een logo van een vergunning op een website bewijst niets. Alleen het officiële register van de toezichthouder telt."]),
  ("Zo controleer je een aanbieder", [("ul", ["Zoek de naam van het bedrijf in de algemene voorwaarden van het casino.", "Open het register van vergunninghouders op de website van de KSA en zoek dat bedrijf.", "Controleer dat het exacte domein waarop je speelt bij de aanbieder staat.", "Controleer dat het product (casino) onder de vergunning valt.", "Vind je het bedrijf of het domein niet? Stort dan niet."])]),
@@ -38,7 +38,7 @@ dict(loc="nl", slug="legale-online-casinos-nederland", en="/guides/online-casino
  faq=[("Zijn online casino's legaal in Nederland?", "Ja, maar alleen met een vergunning van de Kansspelautoriteit. Controleer het register van vergunninghouders."), ("Wat is Cruks?", "Het Centraal Register Uitsluiting Kansspelen. Vergunde aanbieders moeten het raadplegen voordat iemand mag spelen."), ("Is een buitenlandse vergunning genoeg?", "Nee. Wie zich op de Nederlandse markt richt, heeft een Nederlandse vergunning nodig."), ("Moet ik belasting betalen over winst?", "De regels hangen af van je situatie. Kijk voor actuele informatie bij de Belastingdienst.")],
  sources=[KSA, CRUKS], related=[("/nl/cruks-zelfuitsluiting-uitleg/", "Cruks uitgelegd"), ("/nl/bonusvoorwaarden-uitleg/", "Bonusvoorwaarden uitgelegd"), ("/reviews/", "Onze reviews (Engels)")]),
 dict(loc="nl", slug="cruks-zelfuitsluiting-uitleg", en="/guides/cruks-self-exclusion-netherlands-explained/",
- title="Cruks uitgelegd: zo sluit je jezelf uit van online gokken",
+ title="Cruks uitgelegd: jezelf uitsluiten van online gokken",
  desc="Cruks is het centrale register om jezelf uit te sluiten van kansspelen in Nederland. Lees hoe het werkt, wat het dekt en waar je hulp vindt.",
  lede="Met één inschrijving in Cruks sluit je jezelf uit bij alle vergunde aanbieders van online kansspelen in Nederland.",
  sections=[("Wat is Cruks?", ["Cruks staat voor Centraal Register Uitsluiting Kansspelen. Vergunde aanbieders van online casino's moeten het register raadplegen voordat iemand mag spelen. Staat iemand ingeschreven, dan mag de aanbieder die persoon niet laten spelen."]),
