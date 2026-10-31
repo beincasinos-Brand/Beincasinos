@@ -28,6 +28,8 @@ PUBLIC_DIRS = (
     "editorial-policy",
     "guides",
     "bonuses",
+    "nl",
+    "de",
     "how-we-review",
     "market-research",
     "markets",
