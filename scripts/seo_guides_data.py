@@ -241,6 +241,8 @@ dict(slug="cruks-self-exclusion-netherlands-explained", kw="Cruks registreren", 
  sources=[CRUKS, KSA], related=[R_SELF, R_LIC]),
 ]
 
+from seo_guides_more import MORE as _MORE
+GUIDES.extend(_MORE)
 try:
     from seo_guides_extra import EXTRA as _EXTRA
     for _g in GUIDES:
