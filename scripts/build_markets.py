@@ -69,8 +69,8 @@ def main() -> None:
     page = ROOT / "markets" / "index.html"
     old = page.read_text(encoding="utf-8")
     head = old[: old.index("<body>")]
-    desc = ("Which regulator covers online casinos in each country, what to check before trusting a licence claim, "
-            "and where we publish reviews. Great Britain, Netherlands, Germany, Switzerland and Michigan.")
+    desc = ("Which regulator covers online casinos in Great Britain, the Netherlands, Germany, Switzerland and Michigan, "
+            "and how to check a licence claim.")
     head = re.sub(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1) + e(desc) + m.group(2), head, count=1)
     head = re.sub(r'(<meta property="og:description" content=")[^"]*(")', lambda m: m.group(1) + e(desc) + m.group(2), head, count=1)
     head = re.sub(r'(<meta name="twitter:description" content=")[^"]*(")', lambda m: m.group(1) + e(desc) + m.group(2), head, count=1)
