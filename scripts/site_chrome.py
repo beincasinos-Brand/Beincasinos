@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "20261031-nav1"
-NAV = [("/reviews/", "Reviews"), ("/bonuses/", "Bonuses"), ("/markets/", "Markets"), ("/guides/", "Guides"), ("/how-we-review/", "How we score"), ("/responsible-gambling/", "Safer gambling")]
+NAV = [("/reviews/", "Reviews"), ("/bonuses/", "Bonuses"), ("/markets/", "Markets"), ("/guides/", "Guides"), ("/how-we-review/", "How we score"), ("/responsible-gambling/", "Safer gambling"), ("/about/", "About")]
 SKIP = {"google05b7a00eb84d7acb.html"}
 OLD_CSS = re.compile(r'<link rel="stylesheet" href="/(?:styles\.css|homepage-luxury\.css|assets/(?:reviews-directory|how-we-review|review-brand-logos)\.css)[^"]*">\s*')
 OLD_JS = re.compile(r'<script[^>]*src="/assets/review-brand-logos\.js[^"]*"[^>]*></script>\s*')
