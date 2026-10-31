@@ -23,3 +23,9 @@
 
 ## Recommendation
 Apply after items 1–3 and once guides are the visible bulk of indexable content; do not rely on ad revenue from review pages. Keep `data/affiliate-links.json` all `active=false` until traffic exists (see `docs/affiliate-go-live-runbook.md`).
+
+## Phone-friendly go-live steps
+1. On adsense.google.com sign in, choose "Add site" -> beincasinos.online.
+2. Copy the publisher ID (looks like `ca-pub-1234567890123456`) and send it to Claude.
+3. Claude runs `python3 scripts/enable_adsense.py <ID>` (meta tag + ads.txt), pushes, you press "Verify" in AdSense.
+4. After approval: AdSense -> Privacy & messaging -> create the free EU/UK/CH consent message (Google-certified CMP), then Claude adds the ad script, CSP change and privacy update.
