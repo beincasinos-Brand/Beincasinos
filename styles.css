@@ -10,7 +10,7 @@
 @font-face{font-family:"Source Serif 4";src:url(/assets/fonts/source-serif-4-latin-wght-italic.woff2) format("woff2-variations");font-weight:200 900;font-style:italic;font-display:swap}
 
 :root{
-  --ink:#0e1726; --text:#1b2433; --muted:#566277; --paper:#f1f3f6; --card:#fff; --line:#d6dce4; --line-2:#e7ebf0;
+  --ink:#0e1726; --text:#1b2433; --muted:#3d495e; --paper:#f1f3f6; --card:#fff; --line:#d6dce4; --line-2:#e7ebf0;
   --brass:#b0802a; --brass-ink:#7a5614; --brass-soft:#f4ebd6;
   --teal:#0b6b66; --teal-soft:#e0f1ef; --red:#a63a2b; --red-soft:#f8e6e2;
   --logo-bg:#fff; --shadow:0 1px 0 rgba(14,23,38,.04),0 12px 30px -18px rgba(14,23,38,.35);
@@ -19,14 +19,14 @@
   --r-card:14px; --r-ctl:9px; --wrap:1160px; color-scheme:light;
 }
 :root[data-theme="dark"]{
-  --ink:#eef2f8; --text:#d9e0ea; --muted:#9aa7bb; --paper:#0a101a; --card:#121a28; --line:#26334a; --line-2:#1c2739;
+  --ink:#eef2f8; --text:#d9e0ea; --muted:#b7c3d6; --paper:#0a101a; --card:#121a28; --line:#26334a; --line-2:#1c2739;
   --brass:#d9ae55; --brass-ink:#ecc982; --brass-soft:#2a2214;
   --teal:#57cbc2; --teal-soft:#0f2e2c; --red:#f29383; --red-soft:#3a1e19;
   --shadow:0 1px 0 rgba(0,0,0,.4),0 14px 34px -18px rgba(0,0,0,.8); color-scheme:dark;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --ink:#eef2f8; --text:#d9e0ea; --muted:#9aa7bb; --paper:#0a101a; --card:#121a28; --line:#26334a; --line-2:#1c2739;
+    --ink:#eef2f8; --text:#d9e0ea; --muted:#b7c3d6; --paper:#0a101a; --card:#121a28; --line:#26334a; --line-2:#1c2739;
     --brass:#d9ae55; --brass-ink:#ecc982; --brass-soft:#2a2214;
     --teal:#57cbc2; --teal-soft:#0f2e2c; --red:#f29383; --red-soft:#3a1e19;
     --shadow:0 1px 0 rgba(0,0,0,.4),0 14px 34px -18px rgba(0,0,0,.8); color-scheme:dark;
@@ -365,3 +365,16 @@ small,.small{font-size:.85rem}
 .mk-links{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:auto;padding-top:14px}
 .mk-evidence{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:12px}.mk-evidence li{font:400 1.02rem/1.6 var(--serif);color:var(--text);padding-left:14px;border-left:3px solid var(--brass)}
 .mk-evidence b{font-family:var(--sans);color:var(--ink)}
+
+/* Readability pass: darker secondary text, 14px floor for labels, larger touch targets */
+body{font-size:1.125rem}
+.eyebrow,.card-meta,.bx-chip,.bx-st,.lbl,.mk-chip,.mk-lbl,.bx-entity,.bx-card-seal,.hm-row small,.bonus-meta,.bonus-pend p,.fineprint,.bx-meta,.site-note,.hm-proof,.hm-demo-note,.bx-nv,.dg-fig figcaption{font-size:.875rem!important;line-height:1.5}
+.bx-facts dt,.bx-facts dd,.bx-crit td small,.bx-crit th small{font-size:.95rem}
+.bx-card-link small,.bx-card small,.hm-row .go,.hm-row em,.hm-list em,.card-arrow,.bx-facts a,.bx-elig a,.bx-crit a,.bx-flags a{font-size:.9rem}
+.bx-card-seal span{font-size:.8rem}
+.muted,.bx-lede,.page-hero p{color:var(--muted)}
+.prose p,.prose li{font-size:1.125rem;line-height:1.75}
+.mk-sum,.mk-card ul,.mk-evidence li{font-size:1.06rem}
+a.text-link,.prose a{text-underline-offset:3px}
+@media(max-width:600px){body{font-size:1.1875rem}.prose p,.prose li{font-size:1.1875rem}.bx-lede,.page-hero p{font-size:1.2rem}}
+.bx-card .bx-entity,.bx-card-main p,.bx-card-link p{white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
