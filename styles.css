@@ -394,3 +394,13 @@ a.text-link,.prose a{text-underline-offset:3px}
 .tool-card:hover{border-color:var(--brass)}
 .tool-card h2{margin:0 0 6px;font-size:1.15rem}
 .tool-card p{margin:0;color:var(--muted)}
+.hub-list{display:grid;gap:10px;margin:14px 0 22px}
+.hub-row{display:flex;align-items:center;gap:14px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);color:var(--text);text-decoration:none;min-width:0}
+.hub-row:hover{border-color:var(--brass)}
+.hub-logo{width:64px;height:40px;object-fit:contain;flex:none}
+.hub-name{display:grid;gap:2px;flex:1;min-width:0}
+.hub-name small{color:var(--muted);font-size:.875rem}
+.hub-score{color:var(--teal,#0f766e)}
+.hub-row,.hub-row b,.hub-name small{font-family:var(--sans)}
+.hub-row b{color:var(--ink);font-size:1.05rem}
+.hub-logo.hub-dark{background:#0e1726;border-radius:6px;padding:4px}
