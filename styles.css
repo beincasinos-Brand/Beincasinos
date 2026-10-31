@@ -387,3 +387,10 @@ a.text-link,.prose a{text-underline-offset:3px}
 .crumbs [aria-current]{color:var(--ink);font-weight:600;overflow-wrap:anywhere}
 @media (pointer:coarse){.text-link,.prose a,.sidebar a{display:inline-block;padding-block:.35rem}.foot-grid a{display:inline-block;padding-block:.4rem}}
 .nav-links a,.theme-toggle{white-space:nowrap}
+
+.result-sm{font-size:1.5rem}
+.tool-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr))}
+.tool-card{display:block;padding:20px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);color:var(--text);text-decoration:none}
+.tool-card:hover{border-color:var(--brass)}
+.tool-card h2{margin:0 0 6px;font-size:1.15rem}
+.tool-card p{margin:0;color:var(--muted)}
