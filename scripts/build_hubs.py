@@ -116,6 +116,7 @@ def home_links() -> None:
     f = ROOT / "index.html"; t = f.read_text(encoding="utf-8")
     t = re.sub(re.escape(MARK[0]) + r".*?" + re.escape(MARK[1]), "", t, flags=re.S)
     mk = "".join(f'<a class="tool-card" href="/{h["slug"]}/"><h3>{e(h["name"])}</h3><p>{e(h["reg"])}</p></a>' for h in HUBS)
+    mk += '<a class="tool-card" href="/markets/australia/"><h3>Australia</h3><p>ACMA: legal rules and BetStop (guide only, no casino list)</p></a>'
     gd = "".join(f'<a class="tool-card" href="{u}"><h3>{e(l)}</h3></a>' for u, l in TOP_GUIDES)
     tl = "".join(f'<a class="tool-card" href="{u}"><h3>{e(l)}</h3></a>' for u, l in [("/tools/wagering-calculator/", "Wagering calculator"), ("/tools/bonus-value-calculator/", "Bonus value calculator"), ("/tools/house-edge-calculator/", "Expected loss calculator"), ("/tools/roulette-odds-calculator/", "Roulette odds calculator")])
     block = (MARK[0] + f'<section class="section"><div class="wrap"><h2>Online casinos by market</h2><div class="tool-grid">{mk}</div></div></section>'
