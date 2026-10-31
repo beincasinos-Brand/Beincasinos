@@ -30,6 +30,7 @@ PUBLIC_DIRS = (
     "guides",
     "bonuses",
     "nl",
+    "authors",
     "regulatory-actions",
     "online-casinos-uk",
     "online-casinos-netherlands",

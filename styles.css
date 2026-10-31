@@ -407,3 +407,5 @@ a.text-link,.prose a{text-underline-offset:3px}
 .reg-item{padding:14px 0;border-top:1px solid var(--line)}
 .reg-item h3{margin:2px 0 6px;font-size:1.1rem}
 .reg-meta{margin:0;color:var(--muted);font-size:.9rem;font-family:var(--sans)}
+.byline{font:500 .9rem var(--sans);color:var(--muted);padding-block:12px;margin:0 auto}
+.byline a{color:var(--ink);font-weight:600}

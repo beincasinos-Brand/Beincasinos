@@ -40,7 +40,7 @@ FOOTER = (
     '<p>Casino reviews that show their evidence. Educational information, not financial or legal advice.</p></div>'
     '<div><h2>Reviews</h2><ul><li><a href="/reviews/">All reviews</a></li><li><a href="/bonuses/">Bonuses</a></li><li><a href="/online-casinos-uk/">Great Britain</a></li><li><a href="/online-casinos-netherlands/">Netherlands</a></li><li><a href="/online-casinos-germany/">Germany</a></li><li><a href="/online-casinos-switzerland/">Switzerland</a></li><li><a href="/online-casinos-michigan/">Michigan</a></li><li><a href="/markets/australia/">Australia (rules)</a></li></ul></div>'
     '<div><h2>Standards</h2><ul><li><a href="/how-we-review/">How we score</a></li><li><a href="/regulatory-actions/">Regulator actions</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/responsible-gambling/">Safer gambling</a></li><li><a href="/guides/">Guides</a></li><li><a href="/markets/">Markets</a></li><li><a href="/tools/">Free tools</a></li></ul></div>'
-    '<div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/partners/">For operators</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div></div>'
+    '<div><h2>Company</h2><ul><li><a href="/about/">About</a></li><li><a href="/authors/anass-amir/">Author</a></li><li><a href="/contact/">Contact</a></li><li><a href="/partners/">For operators</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div></div>'
     '<div class="wrap foot-base"><span>© BeInCasinos. 18+ (21+ in some US states). Gambling laws vary by location.</span><span>Gambling can be addictive. Play within your limits.</span></div></footer>'
 )
 
@@ -63,6 +63,27 @@ def crumbs(text: str, path: str) -> str:
     nav = (f'<nav class="crumbs" aria-label="Breadcrumb"><div class="wrap"><a href="/">Home</a><span aria-hidden="true">/</span>'
            f'<a href="{href}">{name}</a><span aria-hidden="true">/</span><span aria-current="page">{label}</span></div></nav>')
     return text.replace('<main id="main">', '<main id="main">' + nav, 1)
+
+
+BYLINE_DIRS = ("guides", "reviews", "nl", "de", "tools")
+PERSON = '"author":{"@type":"Person","name":"Anass Amir","url":"https://beincasinos.online/authors/anass-amir/"}'
+
+
+def byline(text: str, path: str) -> str:
+    text = re.sub(r'<p class="byline">.*?</p>', "", text, flags=re.S)
+    parts = [x for x in path.strip("/").split("/") if x]
+    top = parts[0] if parts else ""
+    ok = len(parts) >= 2 and top in BYLINE_DIRS or top.startswith("online-casinos-") or top == "regulatory-actions"
+    mi = text.find('<main id="main">')
+    if not ok or mi < 0 or text.find("</section>", mi) < 0:
+        return text
+    m = re.search(r'"dateModified":"(\d{4}-\d{2}-\d{2})"', text) or re.search(r'checked (\d{1,2} \w+ \d{4})', text)
+    when = f" · Last reviewed {m.group(1)}" if m else ""
+    strip = f'<p class="byline wrap">Written and reviewed by <a href="/authors/anass-amir/">Anass Amir</a>{when}</p>'
+    i = text.find("</section>", mi) + len("</section>")
+    text = text[:i] + strip + text[i:]
+    text = re.sub(r'"author":\{"@type":"Organization","name":"BeInCasinos[^}]*\}', lambda _m: PERSON, text)
+    return text
 
 
 def process(page: Path) -> bool:
@@ -88,6 +109,7 @@ def process(page: Path) -> bool:
     if '<footer class="site-footer">' in text:
         text = re.sub(r'<footer class="site-footer">.*?</footer>', lambda _m: FOOTER, text, count=1, flags=re.S)
     text = crumbs(text, path)
+    text = byline(text, path)
     if text != before:
         page.write_text(text, encoding="utf-8")
         return True
